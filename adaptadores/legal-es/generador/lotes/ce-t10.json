@@ -1,0 +1,294 @@
+{
+  "fuentes": {
+    "art. 166": "La iniciativa de reforma constitucional se ejercerá en los términos previstos en los apartados 1 y 2 del artículo 87.",
+    "art. 167": "1. Los proyectos de reforma constitucional deberán ser aprobados por una mayoría de tres quintos de cada una de las Cámaras. Si no hubiera acuerdo entre ambas, se intentará obtenerlo mediante la creación de una Comisión de composición paritaria de Diputados y Senadores, que presentará un texto que será votado por el Congreso y el Senado. 2. De no lograrse la aprobación mediante el procedimiento del apartado anterior, y siempre que el texto hubiere obtenido el voto favorable de la mayoría absoluta del Senado, el Congreso, por mayoría de dos tercios, podrá aprobar la reforma. 3. Aprobada la reforma por las Cortes Generales, será sometida a referéndum para su ratificación cuando así lo soliciten, dentro de los quince días siguientes a su aprobación, una décima parte de los miembros de cualquiera de las Cámaras.",
+    "art. 168": "1. Cuando se propusiere la revisión total de la Constitución o una parcial que afecte al Título preliminar, al Capítulo segundo, Sección primera del Título I, o al Título II, se procederá a la aprobación del principio por mayoría de dos tercios de cada Cámara, y a la disolución inmediata de las Cortes. 2. Las Cámaras elegidas deberán ratificar la decisión y proceder al estudio del nuevo texto constitucional, que deberá ser aprobado por mayoría de dos tercios de ambas Cámaras. 3. Aprobada la reforma por las Cortes Generales, será sometida a referéndum para su ratificación.",
+    "art. 169": "No podrá iniciarse la reforma constitucional en tiempo de guerra o de vigencia de alguno de los estados previstos en el artículo 116."
+  },
+  "conceptos": [
+    {
+      "id": "CE-T10-001",
+      "articulo": "art. 166",
+      "titulo": "Iniciativa de reforma constitucional",
+      "resumen": "La iniciativa de reforma constitucional se ejerce en los términos de los apartados 1 y 2 del artículo 87.",
+      "explicacion": "El artículo 166 remite a los apartados 1 y 2 del artículo 87 para determinar quién puede iniciar la reforma constitucional: el Gobierno, el Congreso de los Diputados y el Senado. Nótese que la remisión se limita a los apartados 1 y 2 del artículo 87, por lo que la iniciativa legislativa popular (apartado 3 del artículo 87) queda excluida de la reforma constitucional. La iniciativa autonómica prevista en el artículo 87.2 sí queda comprendida en la remisión."
+    },
+    {
+      "id": "CE-T10-002",
+      "articulo": "art. 167",
+      "titulo": "Procedimiento ordinario: aprobación por tres quintos de cada Cámara",
+      "resumen": "Los proyectos de reforma deben ser aprobados por una mayoría de tres quintos de cada una de las Cámaras.",
+      "explicacion": "El procedimiento ordinario de reforma (artículo 167) exige, como regla general, que el proyecto obtenga una mayoría de tres quintos en el Congreso y otros tres quintos en el Senado. Es la vía aplicable a cualquier reforma que no afecte a las partes especialmente protegidas por el artículo 168. Distíngase esta mayoría reforzada de tres quintos de la mayoría de dos tercios que exige el procedimiento agravado del artículo 168."
+    },
+    {
+      "id": "CE-T10-003",
+      "articulo": "art. 167",
+      "titulo": "Comisión paritaria en caso de desacuerdo entre Cámaras",
+      "resumen": "Si no hay acuerdo entre ambas Cámaras, se crea una Comisión de composición paritaria de Diputados y Senadores que presenta un texto votado por ambas.",
+      "explicacion": "Cuando no se alcanza el acuerdo por tres quintos entre Congreso y Senado, el artículo 167.1 prevé un mecanismo de conciliación: se crea una Comisión de composición paritaria de Diputados y Senadores, que elabora un texto que será votado por el Congreso y el Senado. Es un mecanismo específico del procedimiento ordinario de reforma."
+    },
+    {
+      "id": "CE-T10-004",
+      "articulo": "art. 167",
+      "titulo": "Vía subsidiaria: mayoría absoluta del Senado y dos tercios del Congreso",
+      "resumen": "Si aun así no se aprueba, y el texto tuvo el voto favorable de la mayoría absoluta del Senado, el Congreso puede aprobar la reforma por mayoría de dos tercios.",
+      "explicacion": "El artículo 167.2 arbitra una salida cuando fracasa la Comisión paritaria: siempre que el texto haya obtenido el voto favorable de la mayoría absoluta del Senado, el Congreso, por mayoría de dos tercios, podrá aprobar la reforma. Es la vía que permite superar la falta de los tres quintos en el Senado, dando preeminencia al Congreso pero exigiéndole una mayoría muy cualificada de dos tercios."
+    },
+    {
+      "id": "CE-T10-005",
+      "articulo": "art. 167",
+      "titulo": "Referéndum facultativo en el procedimiento ordinario",
+      "resumen": "Aprobada la reforma, se somete a referéndum si lo solicitan, en los quince días siguientes, una décima parte de los miembros de cualquiera de las Cámaras.",
+      "explicacion": "En el procedimiento ordinario del artículo 167.3 el referéndum es facultativo: solo se celebra si lo piden, dentro de los quince días siguientes a la aprobación, una décima parte de los miembros de cualquiera de las Cámaras. Es una diferencia esencial con el procedimiento agravado del artículo 168, en el que el referéndum es siempre obligatorio."
+    },
+    {
+      "id": "CE-T10-006",
+      "articulo": "art. 168",
+      "titulo": "Procedimiento agravado: supuestos que lo activan",
+      "resumen": "Se aplica cuando se propone la revisión total o una parcial que afecte al Título preliminar, al Capítulo segundo Sección primera del Título I, o al Título II.",
+      "explicacion": "El procedimiento agravado del artículo 168 se reserva para las reformas de mayor calado: la revisión total de la Constitución o una revisión parcial que afecte al Título preliminar, al Capítulo segundo, Sección primera del Título I (derechos fundamentales y libertades públicas), o al Título II (la Corona). Son las materias más protegidas del texto constitucional."
+    },
+    {
+      "id": "CE-T10-007",
+      "articulo": "art. 168",
+      "titulo": "Aprobación del principio y disolución de las Cortes",
+      "resumen": "Se aprueba el principio por mayoría de dos tercios de cada Cámara y se procede a la disolución inmediata de las Cortes.",
+      "explicacion": "En la primera fase del procedimiento agravado (artículo 168.1) las Cortes deben aprobar el principio de la reforma por mayoría de dos tercios de cada Cámara y, tras ello, se disuelven inmediatamente. La disolución busca que sea un nuevo cuerpo electoral, a través de las Cámaras elegidas, quien confirme una decisión de tanta trascendencia."
+    },
+    {
+      "id": "CE-T10-008",
+      "articulo": "art. 168",
+      "titulo": "Ratificación por las nuevas Cámaras y aprobación del texto",
+      "resumen": "Las Cámaras elegidas ratifican la decisión y aprueban el nuevo texto por mayoría de dos tercios de ambas Cámaras.",
+      "explicacion": "Tras la disolución y las nuevas elecciones, el artículo 168.2 exige que las Cámaras elegidas ratifiquen la decisión de reformar y estudien el nuevo texto constitucional, que deberá ser aprobado por mayoría de dos tercios de ambas Cámaras. Es una segunda votación cualificada que confiere legitimidad reforzada a la reforma."
+    },
+    {
+      "id": "CE-T10-009",
+      "articulo": "art. 168",
+      "titulo": "Referéndum obligatorio en el procedimiento agravado",
+      "resumen": "Aprobada la reforma por las Cortes Generales, se somete a referéndum para su ratificación.",
+      "explicacion": "El artículo 168.3 impone el referéndum como trámite obligatorio y automático: aprobada la reforma por las Cortes Generales, será sometida a referéndum para su ratificación. A diferencia del procedimiento ordinario (artículo 167.3), aquí el referéndum no depende de que nadie lo solicite: se celebra siempre."
+    },
+    {
+      "id": "CE-T10-010",
+      "articulo": "art. 169",
+      "titulo": "Límite temporal: guerra y estados del artículo 116",
+      "resumen": "No podrá iniciarse la reforma constitucional en tiempo de guerra o de vigencia de los estados del artículo 116.",
+      "explicacion": "El artículo 169 establece un límite temporal a la reforma: no puede iniciarse en tiempo de guerra ni mientras estén vigentes alguno de los estados previstos en el artículo 116 (alarma, excepción y sitio). Se protege así la integridad del proceso constituyente frente a situaciones de crisis en que la libertad de decisión podría estar condicionada. El precepto impide iniciar la reforma, tanto por la vía del artículo 167 como por la del 168."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CE-T10-001",
+      "articulo": "art. 166",
+      "tipo": "test",
+      "enunciado": "¿En los términos de qué apartados del artículo 87 se ejerce la iniciativa de reforma constitucional?",
+      "opciones": [
+        "en los términos previstos en los apartados 1 y 2 del artículo 87",
+        "en los términos previstos en los apartados 1, 2 y 3 del artículo 87",
+        "en los términos previstos en el apartado 3 del artículo 87",
+        "en los términos previstos en los apartados 2 y 3 del artículo 87"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La iniciativa de reforma constitucional se ejercerá en los términos previstos en los apartados 1 y 2 del artículo 87.",
+      "justificacion": "Art. 166 CE."
+    },
+    {
+      "concepto_id": "CE-T10-002",
+      "articulo": "art. 167",
+      "tipo": "test",
+      "enunciado": "En el procedimiento ordinario, ¿qué mayoría se exige, como regla general, para aprobar los proyectos de reforma constitucional?",
+      "opciones": [
+        "una mayoría de dos tercios de cada una de las Cámaras",
+        "una mayoría de tres quintos de cada una de las Cámaras",
+        "la mayoría absoluta de cada una de las Cámaras",
+        "una mayoría de tres quintos del Congreso y mayoría absoluta del Senado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los proyectos de reforma constitucional deberán ser aprobados por una mayoría de tres quintos de cada una de las Cámaras.",
+      "justificacion": "Art. 167 CE."
+    },
+    {
+      "concepto_id": "CE-T10-003",
+      "articulo": "art. 167",
+      "tipo": "test",
+      "enunciado": "Si no hubiera acuerdo entre ambas Cámaras en el procedimiento ordinario, ¿qué se crea para intentar obtenerlo?",
+      "opciones": [
+        "una Comisión de composición paritaria de Diputados y Senadores",
+        "una Comisión Mixta Congreso-Senado de carácter permanente",
+        "una Diputación Permanente conjunta",
+        "una ponencia designada exclusivamente por el Congreso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si no hubiera acuerdo entre ambas, se intentará obtenerlo mediante la creación de una Comisión de composición paritaria de Diputados y Senadores, que presentará un texto que será votado por el Congreso y el Senado.",
+      "justificacion": "Art. 167 CE."
+    },
+    {
+      "concepto_id": "CE-T10-004",
+      "articulo": "art. 167",
+      "tipo": "test",
+      "enunciado": "De no lograrse la aprobación por la Comisión paritaria, y con el voto favorable de la mayoría absoluta del Senado, ¿con qué mayoría puede el Congreso aprobar la reforma?",
+      "opciones": [
+        "por mayoría de tres quintos",
+        "por mayoría simple",
+        "por mayoría de dos tercios",
+        "por mayoría absoluta"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "De no lograrse la aprobación mediante el procedimiento del apartado anterior, y siempre que el texto hubiere obtenido el voto favorable de la mayoría absoluta del Senado, el Congreso, por mayoría de dos tercios, podrá aprobar la reforma.",
+      "justificacion": "Art. 167 CE."
+    },
+    {
+      "concepto_id": "CE-T10-005",
+      "articulo": "art. 167",
+      "tipo": "test",
+      "enunciado": "En el procedimiento ordinario de reforma, ¿quién puede solicitar que la reforma aprobada se someta a referéndum?",
+      "opciones": [
+        "la mayoría absoluta del Congreso",
+        "una décima parte de los miembros de cualquiera de las Cámaras",
+        "dos tercios del Senado",
+        "el Gobierno, previa deliberación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "una décima parte de los miembros de cualquiera de las Cámaras.",
+      "justificacion": "Art. 167 CE."
+    },
+    {
+      "concepto_id": "CE-T10-006",
+      "articulo": "art. 168",
+      "tipo": "test",
+      "enunciado": "¿A qué partes de la Constitución debe afectar una reforma parcial para exigir el procedimiento agravado del art. 168?",
+      "opciones": [
+        "a cualquier precepto del Título I",
+        "al Título preliminar, al Capítulo segundo, Sección primera del Título I, o al Título II",
+        "al Título VIII sobre organización territorial",
+        "al Título III sobre las Cortes Generales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "una parcial que afecte al Título preliminar, al Capítulo segundo, Sección primera del Título I, o al Título II",
+      "justificacion": "Art. 168 CE."
+    },
+    {
+      "concepto_id": "CE-T10-007",
+      "articulo": "art. 168",
+      "tipo": "test",
+      "enunciado": "En el procedimiento agravado, tras aprobarse el principio por mayoría de dos tercios de cada Cámara, se procede a…",
+      "opciones": [
+        "la prórroga del mandato de las Cortes",
+        "la disolución inmediata de las Cortes",
+        "una sesión conjunta de ambas Cámaras",
+        "la continuación de la tramitación sin disolverse"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "y a la disolución inmediata de las Cortes.",
+      "justificacion": "Art. 168 CE."
+    },
+    {
+      "concepto_id": "CE-T10-008",
+      "articulo": "art. 168",
+      "tipo": "test",
+      "enunciado": "En el procedimiento agravado, ¿con qué mayoría deben las nuevas Cámaras aprobar el nuevo texto constitucional?",
+      "opciones": [
+        "por mayoría de tres quintos de ambas Cámaras",
+        "por mayoría absoluta de ambas Cámaras",
+        "por mayoría de dos tercios de ambas Cámaras",
+        "por mayoría de tres quintos del Congreso y dos tercios del Senado"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Las Cámaras elegidas deberán ratificar la decisión y proceder al estudio del nuevo texto constitucional, que deberá ser aprobado por mayoría de dos tercios de ambas Cámaras.",
+      "justificacion": "Art. 168 CE."
+    },
+    {
+      "concepto_id": "CE-T10-009",
+      "articulo": "art. 168",
+      "tipo": "test",
+      "enunciado": "En el procedimiento agravado del art. 168, una vez aprobada la reforma por las Cortes Generales, ¿qué ocurre con el referéndum de ratificación?",
+      "opciones": [
+        "es facultativo, solo si lo pide una décima parte de una Cámara",
+        "será sometida a referéndum para su ratificación",
+        "es innecesario por las dos votaciones cualificadas",
+        "lo decide el Gobierno"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "será sometida a referéndum para su ratificación.",
+      "justificacion": "Art. 168 CE."
+    },
+    {
+      "concepto_id": "CE-T10-010",
+      "articulo": "art. 169",
+      "tipo": "test",
+      "enunciado": "¿En qué supuestos no podrá iniciarse la reforma constitucional?",
+      "opciones": [
+        "en tiempo de guerra o de vigencia de alguno de los estados previstos en el artículo 116",
+        "durante los seis meses previos a unas elecciones generales",
+        "cuando el Gobierno se encuentre en funciones",
+        "en tiempo de guerra o mientras el Congreso esté disuelto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "No podrá iniciarse la reforma constitucional en tiempo de guerra o de vigencia de alguno de los estados previstos en el artículo 116.",
+      "justificacion": "Art. 169 CE."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CE-T10-001",
+      "destino": "CE-T10-002",
+      "tipo": "prerrequisito",
+      "justificacion": "La iniciativa del artículo 166 es el acto que da comienzo al procedimiento de aprobación regulado en el artículo 167."
+    },
+    {
+      "origen": "CE-T10-006",
+      "destino": "CE-T10-002",
+      "tipo": "limita",
+      "justificacion": "El artículo 168 sustrae del procedimiento ordinario del artículo 167 las reformas que afectan a las materias especialmente protegidas, imponiendo el procedimiento agravado."
+    },
+    {
+      "origen": "CE-T10-009",
+      "destino": "CE-T10-005",
+      "tipo": "limita",
+      "justificacion": "El referéndum obligatorio del artículo 168 se contrapone al referéndum facultativo del artículo 167: en el procedimiento agravado la consulta popular es siempre necesaria."
+    },
+    {
+      "origen": "CE-T10-010",
+      "destino": "CE-T10-001",
+      "tipo": "limita",
+      "justificacion": "El artículo 169 impide ejercer la iniciativa de reforma del artículo 166 en tiempo de guerra o durante los estados del artículo 116."
+    },
+    {
+      "origen": "CE-T10-001",
+      "destino": "CE-T3-002",
+      "tipo": "remite",
+      "justificacion": "La iniciativa de reforma corresponde a las Cortes Generales y al Gobierno, en conexión con las funciones de las Cortes Generales."
+    },
+    {
+      "origen": "CE-T10-010",
+      "destino": "CE-T5-015",
+      "tipo": "remite",
+      "justificacion": "El artículo 169 remite a los estados del artículo 116, entre ellos el estado de sitio, como situaciones que impiden iniciar la reforma."
+    },
+    {
+      "origen": "CE-T10-003",
+      "destino": "CE-T10-002",
+      "tipo": "desarrolla",
+      "justificacion": "La comisión paritaria concreta el procedimiento ordinario del art. 167."
+    },
+    {
+      "origen": "CE-T10-004",
+      "destino": "CE-T10-002",
+      "tipo": "desarrolla",
+      "justificacion": "La vía subsidiaria concreta el procedimiento ordinario ante desacuerdo."
+    },
+    {
+      "origen": "CE-T10-007",
+      "destino": "CE-T10-006",
+      "tipo": "desarrolla",
+      "justificacion": "La aprobación del principio y disolución concretan el procedimiento agravado."
+    },
+    {
+      "origen": "CE-T10-008",
+      "destino": "CE-T10-006",
+      "tipo": "desarrolla",
+      "justificacion": "La ratificación por las nuevas Cámaras concreta el procedimiento agravado."
+    }
+  ]
+}

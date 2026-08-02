@@ -151,3 +151,159 @@ export async function responder(
     conceptoTitulo: c?.titulo ?? act.concepto_id,
   };
 }
+
+// ---------------------------------------------------------------------------
+// Progreso del alumno (paneles /temas y /hoy). Todo sobre la convocatoria PN y
+// el usuario demo. El log de `evento` es la fuente de verdad; `estado_dominio`
+// es la caché derivada (l = P(dominado) 0..1).
+// ---------------------------------------------------------------------------
+
+export const CONVOCATORIA_PN = "policia-nacional-2026";
+
+// "Tema 14 — …" → 14. Sirve para ordenar los temas por su número real (no
+// alfabéticamente, que colocaría "Tema 14" antes de "Tema 2").
+function numeroTema(tema: string): number {
+  const m = tema.match(/Tema\s+(\d+)/i);
+  return m ? parseInt(m[1], 10) : Number.MAX_SAFE_INTEGER;
+}
+
+export type ProgresoTema = {
+  tema: string;
+  totalConceptos: number;
+  dominados: number;
+  practicados: number;
+  pct: number;
+};
+
+// Por cada `tema` de la convocatoria PN: cuántos conceptos tiene, cuántos ha
+// practicado el usuario (tiene fila en estado_dominio) y cuántos domina
+// (l >= 0.9). PostgREST no agrupa sin RPC/vista, así que traemos solo las dos
+// columnas mínimas (overlay ~352 filas, estado ~decenas) y agregamos en memoria.
+export async function progresoTemas(): Promise<ProgresoTema[]> {
+  const db = createCerebroClient();
+
+  const { data: overlay, error } = await db
+    .from("overlay_entrada")
+    .select("concepto_id, tema")
+    .eq("convocatoria_id", CONVOCATORIA_PN);
+  if (error || !overlay) return [];
+
+  const { data: estados } = await db
+    .from("estado_dominio")
+    .select("concepto_id, l")
+    .eq("usuario_id", DEMO_USUARIO_ID);
+
+  const dominioDe = new Map<string, number>(
+    (estados ?? []).map((s) => [s.concepto_id as string, (s.l ?? 0) as number]),
+  );
+
+  const porTema = new Map<
+    string,
+    { total: number; practicados: number; dominados: number }
+  >();
+  for (const row of overlay) {
+    const tema = row.tema as string;
+    const agg = porTema.get(tema) ?? { total: 0, practicados: 0, dominados: 0 };
+    agg.total += 1;
+    if (dominioDe.has(row.concepto_id as string)) {
+      agg.practicados += 1;
+      if ((dominioDe.get(row.concepto_id as string) ?? 0) >= 0.9) {
+        agg.dominados += 1;
+      }
+    }
+    porTema.set(tema, agg);
+  }
+
+  return [...porTema.entries()]
+    .map(([tema, a]) => ({
+      tema,
+      totalConceptos: a.total,
+      dominados: a.dominados,
+      practicados: a.practicados,
+      pct: a.total > 0 ? Math.round((a.dominados / a.total) * 100) : 0,
+    }))
+    .sort((x, y) => numeroTema(x.tema) - numeroTema(y.tema));
+}
+
+export type ResumenHoy = {
+  totalConceptos: number;
+  practicados: number;
+  dominados: number;
+  pendientes: number;
+  aciertoPct: number | null;
+};
+
+// Cifras globales del usuario sobre la convocatoria PN para la pantalla /hoy.
+// `aciertoPct` es el % de aciertos sobre TODO el log de eventos (null si aún no
+// ha respondido nada).
+export async function resumenHoy(): Promise<ResumenHoy> {
+  const db = createCerebroClient();
+
+  const { data: overlay } = await db
+    .from("overlay_entrada")
+    .select("concepto_id")
+    .eq("convocatoria_id", CONVOCATORIA_PN);
+  const conceptos = new Set(
+    (overlay ?? []).map((o) => o.concepto_id as string),
+  );
+  const totalConceptos = conceptos.size;
+
+  const { data: estados } = await db
+    .from("estado_dominio")
+    .select("concepto_id, l")
+    .eq("usuario_id", DEMO_USUARIO_ID);
+  let practicados = 0;
+  let dominados = 0;
+  for (const s of estados ?? []) {
+    if (!conceptos.has(s.concepto_id as string)) continue;
+    practicados += 1;
+    if (((s.l ?? 0) as number) >= 0.9) dominados += 1;
+  }
+
+  const { data: eventos } = await db
+    .from("evento")
+    .select("acierto")
+    .eq("usuario_id", DEMO_USUARIO_ID);
+  const totalEventos = eventos?.length ?? 0;
+  const aciertos = (eventos ?? []).filter((e) => e.acierto).length;
+  const aciertoPct =
+    totalEventos > 0 ? Math.round((aciertos / totalEventos) * 100) : null;
+
+  return {
+    totalConceptos,
+    practicados,
+    dominados,
+    pendientes: totalConceptos - practicados,
+    aciertoPct,
+  };
+}
+
+export type MotivoReporte =
+  | "dato_incorrecto"
+  | "opcion_mala"
+  | "fuente_erronea"
+  | "otro";
+
+export type EntradaReporte = {
+  actividadId: string;
+  conceptoId: string;
+  motivo: MotivoReporte;
+  comentario?: string | null;
+  contexto?: Record<string, unknown> | null;
+};
+
+// Registra un reporte de usuario sobre una pregunta (dato incorrecto, opción
+// mala, fuente errónea…). Inserta en acertium_v2.reporte con estado 'abierto'.
+// Usa el cliente service-role del cerebro (nunca desde el navegador).
+export async function reportar(entrada: EntradaReporte): Promise<void> {
+  const db = createCerebroClient();
+  const { error } = await db.from("reporte").insert({
+    actividad_id: entrada.actividadId,
+    concepto_id: entrada.conceptoId,
+    motivo: entrada.motivo,
+    comentario: entrada.comentario?.trim() ? entrada.comentario.trim() : null,
+    contexto: entrada.contexto ?? null,
+    estado: "abierto",
+  });
+  if (error) throw new Error(error.message);
+}

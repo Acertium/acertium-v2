@@ -1,0 +1,696 @@
+{
+  "fuentes": {
+    "art. 137": "El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan. Todas estas entidades gozan de autonomía para la gestión de sus respectivos intereses.",
+    "art. 138": "1. El Estado garantiza la realización efectiva del principio de solidaridad consagrado en el artículo 2 de la Constitución, velando por el establecimiento de un equilibrio económico, adecuado y justo entre las diversas partes del territorio español, y atendiendo en particular a las circunstancias del hecho insular. 2. Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, en ningún caso, privilegios económicos o sociales.",
+    "art. 139": "1. Todos los españoles tienen los mismos derechos y obligaciones en cualquier parte del territorio del Estado. 2. Ninguna autoridad podrá adoptar medidas que directa o indirectamente obstaculicen la libertad de circulación y establecimiento de las personas y la libre circulación de bienes en todo el territorio español.",
+    "art. 140": "La Constitución garantiza la autonomía de los municipios. Estos gozarán de personalidad jurídica plena. Su gobierno y administración corresponde a sus respectivos Ayuntamientos, integrados por los Alcaldes y los Concejales. Los Concejales serán elegidos por los vecinos del municipio mediante sufragio universal, igual, libre, directo y secreto, en la forma establecida por la ley. Los Alcaldes serán elegidos por los Concejales o por los vecinos. La ley regulará las condiciones en las que proceda el régimen del concejo abierto.",
+    "art. 141": "1. La provincia es una entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado. Cualquier alteración de los límites provinciales habrá de ser aprobada por las Cortes Generales mediante ley orgánica. 2. El gobierno y la administración autónoma de las provincias estarán encomendados a Diputaciones u otras Corporaciones de carácter representativo. 3. Se podrán crear agrupaciones de municipios diferentes de la provincia. 4. En los archipiélagos, las islas tendrán además su administración propia en forma de Cabildos o Consejos.",
+    "art. 142": "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.",
+    "art. 143": "1. En el ejercicio del derecho a la autonomía reconocido en el artículo 2 de la Constitución, las provincias limítrofes con características históricas, culturales y económicas comunes, los territorios insulares y las provincias con entidad regional histórica podrán acceder a su autogobierno y constituirse en Comunidades Autónomas con arreglo a lo previsto en este Título y en los respectivos Estatutos. 2. La iniciativa del proceso autonómico corresponde a todas las Diputaciones interesadas o al órgano interinsular correspondiente y a las dos terceras partes de los municipios cuya población represente, al menos, la mayoría del censo electoral de cada provincia o isla. Estos requisitos deberán ser cumplidos en el plazo de seis meses desde el primer acuerdo adoptado al respecto por alguna de las Corporaciones locales interesadas. 3. La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cinco años.",
+    "art. 144": "Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional: a) Autorizar la constitución de una comunidad autónoma cuando su ámbito territorial no supere el de una provincia y no reúna las condiciones del apartado 1 del artículo 143. b) Autorizar o acordar, en su caso, un Estatuto de autonomía para territorios que no estén integrados en la organización provincial. c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.",
+    "art. 145": "1. En ningún caso se admitirá la federación de Comunidades Autónomas. 2. Los Estatutos podrán prever los supuestos, requisitos y términos en que las Comunidades Autónomas podrán celebrar convenios entre sí para la gestión y prestación de servicios propios de las mismas, así como el carácter y efectos de la correspondiente comunicación a las Cortes Generales. En los demás supuestos, los acuerdos de cooperación entre las Comunidades Autónomas necesitarán la autorización de las Cortes Generales.",
+    "art. 146": "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley.",
+    "art. 147": "1. Dentro de los términos de la presente Constitución, los Estatutos serán la norma institucional básica de cada Comunidad Autónoma y el Estado los reconocerá y amparará como parte integrante de su ordenamiento jurídico. 2. Los Estatutos de autonomía deberán contener: a) La denominación de la Comunidad que mejor corresponda a su identidad histórica. b) La delimitación de su territorio. c) La denominación, organización y sede de las instituciones autónomas propias. d) Las competencias asumidas dentro del marco establecido en la Constitución y las bases para el traspaso de los servicios correspondientes a las mismas. 3. La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley orgánica.",
+    "art. 148": "1. Las Comunidades Autónomas podrán asumir competencias en las siguientes materias: 1.ª Organización de sus instituciones de autogobierno. 3.ª Ordenación del territorio, urbanismo y vivienda. 22.ª La vigilancia y protección de sus edificios e instalaciones. La coordinación y demás facultades en relación con las policías locales en los términos que establezca una ley orgánica. 2. Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.",
+    "art. 149": "1. El Estado tiene competencia exclusiva sobre las siguientes materias: 1.ª La regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales. 6.ª Legislación mercantil, penal y penitenciaria; legislación procesal. 26.ª Régimen de producción, comercio, tenencia y uso de armas y explosivos. 29.ª Seguridad pública, sin perjuicio de la posibilidad de creación de policías por las Comunidades Autónomas en la forma que se establezca en los respectivos Estatutos en el marco de lo que disponga una ley orgánica. 3. Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos. La competencia sobre las materias que no se hayan asumido por los Estatutos de Autonomía corresponderá al Estado, cuyas normas prevalecerán, en caso de conflicto, sobre las de las Comunidades Autónomas en todo lo que no esté atribuido a la exclusiva competencia de éstas. El derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas.",
+    "art. 150": "1. Las Cortes Generales, en materias de competencia estatal, podrán atribuir a todas o a alguna de las Comunidades Autónomas la facultad de dictar, para sí mismas, normas legislativas en el marco de los principios, bases y directrices fijados por una ley estatal. 2. El Estado podrá transferir o delegar en las Comunidades Autónomas, mediante ley orgánica, facultades correspondientes a materia de titularidad estatal que por su propia naturaleza sean susceptibles de transferencia o delegación. 3. El Estado podrá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general. Corresponde a las Cortes Generales, por mayoría absoluta de cada Cámara, la apreciación de esta necesidad.",
+    "art. 151": "1. No será preciso dejar transcurrir el plazo de cinco años, a que se refiere el apartado 2 del artículo 148, cuando la iniciativa del proceso autonómico sea acordada dentro del plazo del artículo 143.2, además de por las Diputaciones o los órganos interinsulares correspondientes, por las tres cuartas partes de los municipios de cada una de las provincias afectadas que representen, al menos, la mayoría del censo electoral de cada una de ellas y dicha iniciativa sea ratificada mediante referéndum por el voto afirmativo de la mayoría absoluta de los electores de cada provincia en los términos que establezca una ley orgánica.",
+    "art. 152": "1. En los Estatutos aprobados por el procedimiento a que se refiere el artículo anterior, la organización institucional autonómica se basará en una Asamblea Legislativa, elegida por sufragio universal, con arreglo a un sistema de representación proporcional que asegure, además, la representación de las diversas zonas del territorio; un Consejo de Gobierno con funciones ejecutivas y administrativas y un Presidente, elegido por la Asamblea, de entre sus miembros, y nombrado por el Rey, al que corresponde la dirección del Consejo de Gobierno, la suprema representación de la respectiva Comunidad y la ordinaria del Estado en aquélla. Un Tribunal Superior de Justicia, sin perjuicio de la jurisdicción que corresponde al Tribunal Supremo, culminará la organización judicial en el ámbito territorial de la Comunidad Autónoma.",
+    "art. 153": "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: a) Por el Tribunal Constitucional, el relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley. b) Por el Gobierno, previo dictamen del Consejo de Estado, el del ejercicio de funciones delegadas a que se refiere el apartado 2 del artículo 150. c) Por la jurisdicción contencioso-administrativa, el de la administración autónoma y sus normas reglamentarias. d) Por el Tribunal de Cuentas, el económico y presupuestario.",
+    "art. 154": "Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el territorio de la Comunidad Autónoma y la coordinará, cuando proceda, con la administración propia de la Comunidad.",
+    "art. 155": "1. Si una Comunidad Autónoma no cumpliere las obligaciones que la Constitución u otras leyes le impongan, o actuare de forma que atente gravemente al interés general de España, el Gobierno, previo requerimiento al Presidente de la Comunidad Autónoma y, en el caso de no ser atendido, con la aprobación por mayoría absoluta del Senado, podrá adoptar las medidas necesarias para obligar a aquélla al cumplimiento forzoso de dichas obligaciones o para la protección del mencionado interés general. 2. Para la ejecución de las medidas previstas en el apartado anterior, el Gobierno podrá dar instrucciones a todas las autoridades de las Comunidades Autónomas.",
+    "art. 156": "1. Las Comunidades Autónomas gozarán de autonomía financiera para el desarrollo y ejecución de sus competencias con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos los españoles. 2. Las Comunidades Autónomas podrán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.",
+    "art. 157": "1. Los recursos de las Comunidades Autónomas estarán constituidos por: a) Impuestos cedidos total o parcialmente por el Estado; recargos sobre impuestos estatales y otras participaciones en los ingresos del Estado. b) Sus propios impuestos, tasas y contribuciones especiales. c) Transferencias de un Fondo de Compensación interterritorial y otras asignaciones con cargo a los Presupuestos Generales del Estado. d) Rendimientos procedentes de su patrimonio e ingresos de derecho privado. e) El producto de las operaciones de crédito. 2. Las Comunidades Autónomas no podrán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.",
+    "art. 158": "1. En los Presupuestos Generales del Estado podrá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español. 2. Con el fin de corregir desequilibrios económicos interterritoriales y hacer efectivo el principio de solidaridad, se constituirá un Fondo de Compensación con destino a gastos de inversión, cuyos recursos serán distribuidos por las Cortes Generales entre las Comunidades Autónomas y provincias, en su caso."
+  },
+  "conceptos": [
+    {
+      "id": "CE-T8-001",
+      "articulo": "art. 137",
+      "titulo": "Organización territorial del Estado",
+      "resumen": "El Estado se organiza en municipios, provincias y Comunidades Autónomas, y todas estas entidades gozan de autonomía para la gestión de sus intereses.",
+      "explicacion": "El artículo 137 abre el Título VIII fijando las tres entidades territoriales en que se organiza el Estado: municipios, provincias y las Comunidades Autónomas que se constituyan. Consagra el principio de autonomía, entendido como capacidad de gestión de los respectivos intereses, no como soberanía. La autonomía municipal y provincial es de naturaleza administrativa, mientras que la de las Comunidades Autónomas es también política (capacidad legislativa). Es uno de los artículos más preguntados: conviene memorizar el orden exacto de enumeración (municipios, provincias, CCAA)."
+    },
+    {
+      "id": "CE-T8-002",
+      "articulo": "art. 138",
+      "titulo": "Principio de solidaridad y equilibrio territorial",
+      "resumen": "El Estado garantiza la solidaridad del artículo 2, buscando un equilibrio económico entre territorios y atendiendo al hecho insular; las diferencias entre Estatutos no pueden implicar privilegios.",
+      "explicacion": "El artículo 138 desarrolla el principio de solidaridad del artículo 2 CE. El Estado debe velar por un equilibrio económico adecuado y justo entre las partes del territorio, con atención particular al hecho insular. Su apartado 2 prohíbe que las diferencias entre Estatutos de las distintas Comunidades Autónomas impliquen privilegios económicos o sociales, garantía de igualdad interterritorial."
+    },
+    {
+      "id": "CE-T8-003",
+      "articulo": "art. 139",
+      "titulo": "Igualdad de los españoles y unidad de mercado",
+      "resumen": "Todos los españoles tienen los mismos derechos y obligaciones en todo el territorio; ninguna autoridad puede obstaculizar la libre circulación de personas y bienes.",
+      "explicacion": "El artículo 139 garantiza la igualdad de derechos y obligaciones de todos los españoles en cualquier parte del territorio (apartado 1) y prohíbe a cualquier autoridad adoptar medidas que directa o indirectamente obstaculicen la libertad de circulación y establecimiento de las personas y la libre circulación de bienes (apartado 2). Es la base constitucional de la unidad de mercado."
+    },
+    {
+      "id": "CE-T8-004",
+      "articulo": "art. 140",
+      "titulo": "Autonomía municipal y gobierno del municipio",
+      "resumen": "La Constitución garantiza la autonomía de los municipios, con personalidad jurídica plena; su gobierno corresponde a los Ayuntamientos, integrados por Alcaldes y Concejales.",
+      "explicacion": "El artículo 140 garantiza la autonomía de los municipios y les reconoce personalidad jurídica plena. El gobierno y la administración corresponden a los Ayuntamientos, integrados por Alcaldes y Concejales. Los Concejales se eligen por los vecinos mediante sufragio universal, igual, libre, directo y secreto; los Alcaldes se eligen por los Concejales o por los vecinos. Prevé además el régimen de concejo abierto."
+    },
+    {
+      "id": "CE-T8-005",
+      "articulo": "art. 141",
+      "titulo": "La provincia como entidad local",
+      "resumen": "La provincia es entidad local con personalidad jurídica propia formada por agrupación de municipios; alterar sus límites exige ley orgánica de las Cortes Generales; su gobierno corresponde a las Diputaciones.",
+      "explicacion": "El artículo 141 define la provincia como entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado. Cualquier alteración de los límites provinciales exige ley orgánica aprobada por las Cortes Generales. El gobierno y la administración autónoma corresponden a las Diputaciones u otras Corporaciones representativas. En los archipiélagos, las islas tienen administración propia mediante Cabildos o Consejos."
+    },
+    {
+      "id": "CE-T8-006",
+      "articulo": "art. 142",
+      "titulo": "Suficiencia de las Haciendas locales",
+      "resumen": "Las Haciendas locales deben disponer de medios suficientes y se nutren fundamentalmente de tributos propios y de la participación en los del Estado y de las Comunidades Autónomas.",
+      "explicacion": "El artículo 142 consagra el principio de suficiencia financiera de las entidades locales: deben disponer de los medios suficientes para desempeñar las funciones que la ley les atribuye. Sus fuentes de financiación son fundamentalmente los tributos propios y la participación en los tributos del Estado y de las Comunidades Autónomas."
+    },
+    {
+      "id": "CE-T8-007",
+      "articulo": "art. 143",
+      "titulo": "Iniciativa del proceso autonómico (vía ordinaria)",
+      "resumen": "Provincias limítrofes con características comunes, territorios insulares y provincias con entidad regional histórica pueden constituirse en CCAA; la iniciativa corresponde a las Diputaciones y a dos tercios de los municipios.",
+      "explicacion": "El artículo 143 regula el acceso ordinario a la autonomía. Pueden constituirse en Comunidades Autónomas las provincias limítrofes con características históricas, culturales y económicas comunes, los territorios insulares y las provincias con entidad regional histórica. La iniciativa corresponde a todas las Diputaciones interesadas (o al órgano interinsular) y a las dos terceras partes de los municipios cuya población represente al menos la mayoría del censo electoral de cada provincia o isla, en el plazo de seis meses. Si no prospera, solo puede reiterarse pasados cinco años."
+    },
+    {
+      "id": "CE-T8-008",
+      "articulo": "art. 144",
+      "titulo": "Intervención de las Cortes por interés nacional",
+      "resumen": "Las Cortes, por ley orgánica y motivos de interés nacional, pueden autorizar CCAA uniprovinciales, Estatutos para territorios no provinciales o sustituir la iniciativa local.",
+      "explicacion": "El artículo 144 permite a las Cortes Generales, mediante ley orgánica y por motivos de interés nacional: a) autorizar la constitución de una comunidad autónoma cuando su ámbito no supere el de una provincia y no reúna las condiciones del artículo 143.1; b) autorizar o acordar un Estatuto para territorios no integrados en la organización provincial; y c) sustituir la iniciativa de las Corporaciones locales del artículo 143.2."
+    },
+    {
+      "id": "CE-T8-009",
+      "articulo": "art. 145",
+      "titulo": "Prohibición de federación y convenios entre CCAA",
+      "resumen": "En ningún caso se admite la federación de Comunidades Autónomas; los convenios entre ellas se comunican a las Cortes y los demás acuerdos de cooperación requieren su autorización.",
+      "explicacion": "El artículo 145 prohíbe en todo caso la federación de Comunidades Autónomas. Los Estatutos pueden prever los supuestos, requisitos y términos en que las CCAA celebren convenios entre sí para la gestión y prestación de servicios propios, comunicándolos a las Cortes Generales. En los demás supuestos, los acuerdos de cooperación entre CCAA necesitan la autorización de las Cortes Generales."
+    },
+    {
+      "id": "CE-T8-010",
+      "articulo": "art. 146",
+      "titulo": "Elaboración del proyecto de Estatuto",
+      "resumen": "El proyecto de Estatuto lo elabora una asamblea de miembros de la Diputación y de los Diputados y Senadores elegidos en las provincias afectadas, y se eleva a las Cortes como ley.",
+      "explicacion": "El artículo 146 regula la elaboración del proyecto de Estatuto por la vía ordinaria: lo redacta una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas, y se eleva a las Cortes Generales para su tramitación como ley."
+    },
+    {
+      "id": "CE-T8-011",
+      "articulo": "art. 147",
+      "titulo": "Los Estatutos de Autonomía: norma institucional básica",
+      "resumen": "Los Estatutos son la norma institucional básica de cada CCAA, reconocida por el Estado; deben contener denominación, territorio, instituciones y competencias, y se reforman por ley orgánica.",
+      "explicacion": "El artículo 147 define los Estatutos como la norma institucional básica de cada Comunidad Autónoma, que el Estado reconoce y ampara como parte integrante de su ordenamiento jurídico. Su contenido mínimo es: denominación, delimitación del territorio, denominación, organización y sede de las instituciones propias, y competencias asumidas con las bases del traspaso de servicios. La reforma requiere en todo caso la aprobación por las Cortes Generales mediante ley orgánica."
+    },
+    {
+      "id": "CE-T8-012",
+      "articulo": "art. 148",
+      "titulo": "Competencias asumibles por las CCAA",
+      "resumen": "Las CCAA pueden asumir competencias en materias como organización de sus instituciones, ordenación del territorio o la coordinación de las policías locales; transcurridos cinco años pueden ampliarlas.",
+      "explicacion": "El artículo 148 enumera las materias en que las Comunidades Autónomas pueden asumir competencias: entre ellas, la organización de sus instituciones de autogobierno (1.ª), la ordenación del territorio, urbanismo y vivienda (3.ª) y la vigilancia y protección de sus edificios e instalaciones junto con la coordinación y demás facultades en relación con las policías locales (22.ª). Transcurridos cinco años, mediante reforma de sus Estatutos, pueden ampliar sus competencias dentro del marco del artículo 149."
+    },
+    {
+      "id": "CE-T8-013",
+      "articulo": "art. 149",
+      "titulo": "Competencias exclusivas del Estado y cláusulas de cierre",
+      "resumen": "El Estado tiene competencia exclusiva sobre materias como la seguridad pública (29.ª); su norma prevalece en caso de conflicto y el derecho estatal es supletorio del autonómico.",
+      "explicacion": "El artículo 149.1 reserva al Estado competencia exclusiva sobre numerosas materias: la regulación de las condiciones básicas de igualdad de los españoles (1.ª), la legislación mercantil, penal y penitenciaria y la procesal (6.ª), el régimen de armas y explosivos (26.ª) y la seguridad pública (29.ª), sin perjuicio de la creación de policías por las CCAA en la forma que establezcan sus Estatutos en el marco de una ley orgánica. El apartado 3 fija las cláusulas de cierre: prevalencia del derecho estatal en caso de conflicto y supletoriedad del derecho estatal respecto del autonómico."
+    },
+    {
+      "id": "CE-T8-014",
+      "articulo": "art. 150",
+      "titulo": "Leyes marco, de transferencia y de armonización",
+      "resumen": "Las Cortes pueden atribuir a las CCAA la facultad de dictar normas legislativas en materias estatales (ley marco), transferir o delegar facultades por ley orgánica, y dictar leyes de armonización.",
+      "explicacion": "El artículo 150 recoge tres instrumentos: las leyes marco, por las que las Cortes atribuyen a las CCAA la facultad de dictar normas legislativas en materias estatales dentro de principios, bases y directrices de una ley estatal (apartado 1); las leyes de transferencia o delegación, mediante ley orgánica, de facultades de titularidad estatal (apartado 2); y las leyes de armonización de disposiciones normativas de las CCAA cuando lo exija el interés general, cuya necesidad aprecian las Cortes por mayoría absoluta de cada Cámara (apartado 3)."
+    },
+    {
+      "id": "CE-T8-015",
+      "articulo": "art. 151",
+      "titulo": "Vía rápida de acceso a la autonomía",
+      "resumen": "No es preciso esperar cinco años cuando la iniciativa la acuerdan también las tres cuartas partes de los municipios de cada provincia y se ratifica por referéndum de la mayoría absoluta de electores.",
+      "explicacion": "El artículo 151 regula la vía especial o rápida de acceso a la autonomía. No es preciso dejar transcurrir el plazo de cinco años del artículo 148.2 cuando la iniciativa, dentro del plazo del 143.2, la acuerdan además de las Diputaciones u órganos interinsulares, las tres cuartas partes de los municipios de cada provincia que representen al menos la mayoría del censo electoral, y dicha iniciativa se ratifica mediante referéndum por el voto afirmativo de la mayoría absoluta de los electores de cada provincia."
+    },
+    {
+      "id": "CE-T8-016",
+      "articulo": "art. 152",
+      "titulo": "Organización institucional de las CCAA",
+      "resumen": "La organización institucional autonómica se basa en una Asamblea Legislativa, un Consejo de Gobierno y un Presidente; un Tribunal Superior de Justicia culmina la organización judicial en la Comunidad.",
+      "explicacion": "El artículo 152 fija la organización institucional de las Comunidades que accedieron por la vía del artículo 151: una Asamblea Legislativa elegida por sufragio universal con sistema de representación proporcional; un Consejo de Gobierno con funciones ejecutivas y administrativas; y un Presidente, elegido por la Asamblea de entre sus miembros y nombrado por el Rey, que dirige el Consejo de Gobierno y ostenta la suprema representación de la Comunidad y la ordinaria del Estado en ella. Un Tribunal Superior de Justicia culmina la organización judicial en el ámbito territorial de la Comunidad, sin perjuicio de la jurisdicción del Tribunal Supremo."
+    },
+    {
+      "id": "CE-T8-017",
+      "articulo": "art. 153",
+      "titulo": "Control de la actividad de las CCAA",
+      "resumen": "El control se reparte entre el Tribunal Constitucional, el Gobierno (previo dictamen del Consejo de Estado), la jurisdicción contencioso-administrativa y el Tribunal de Cuentas.",
+      "explicacion": "El artículo 153 distribuye el control de la actividad de los órganos de las Comunidades Autónomas: el Tribunal Constitucional controla la constitucionalidad de sus disposiciones con fuerza de ley; el Gobierno, previo dictamen del Consejo de Estado, el ejercicio de funciones delegadas del artículo 150.2; la jurisdicción contencioso-administrativa, la administración autónoma y sus normas reglamentarias; y el Tribunal de Cuentas, el control económico y presupuestario."
+    },
+    {
+      "id": "CE-T8-018",
+      "articulo": "art. 154",
+      "titulo": "El Delegado del Gobierno en la Comunidad Autónoma",
+      "resumen": "Un Delegado nombrado por el Gobierno dirige la Administración del Estado en el territorio de la Comunidad Autónoma y la coordina con la administración propia de esta.",
+      "explicacion": "El artículo 154 crea la figura del Delegado del Gobierno: nombrado por el Gobierno, dirige la Administración del Estado en el territorio de la Comunidad Autónoma y la coordina, cuando proceda, con la administración propia de la Comunidad."
+    },
+    {
+      "id": "CE-T8-019",
+      "articulo": "art. 155",
+      "titulo": "Cumplimiento forzoso y coerción estatal",
+      "resumen": "Si una CCAA incumple sus obligaciones o atenta gravemente al interés general, el Gobierno, previo requerimiento y con la aprobación por mayoría absoluta del Senado, puede adoptar las medidas necesarias.",
+      "explicacion": "El artículo 155 regula la coerción estatal. Si una Comunidad Autónoma no cumple las obligaciones que la Constitución u otras leyes le impongan, o actúa de forma que atente gravemente al interés general de España, el Gobierno, previo requerimiento al Presidente autonómico y, de no ser atendido, con la aprobación por mayoría absoluta del Senado, puede adoptar las medidas necesarias para el cumplimiento forzoso o la protección del interés general, pudiendo dar instrucciones a todas las autoridades de la Comunidad."
+    },
+    {
+      "id": "CE-T8-020",
+      "articulo": "art. 156",
+      "titulo": "Autonomía financiera de las CCAA",
+      "resumen": "Las CCAA gozan de autonomía financiera para sus competencias, con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos los españoles.",
+      "explicacion": "El artículo 156 reconoce la autonomía financiera de las Comunidades Autónomas para el desarrollo y ejecución de sus competencias, con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos los españoles. Además, las CCAA pueden actuar como delegados o colaboradores del Estado en la recaudación, gestión y liquidación de sus recursos tributarios."
+    },
+    {
+      "id": "CE-T8-021",
+      "articulo": "art. 157",
+      "titulo": "Recursos financieros de las CCAA",
+      "resumen": "Los recursos de las CCAA incluyen impuestos cedidos, recargos y participaciones, sus propios tributos, transferencias del Fondo de Compensación, rendimientos del patrimonio y operaciones de crédito.",
+      "explicacion": "El artículo 157 enumera los recursos de las Comunidades Autónomas: impuestos cedidos total o parcialmente por el Estado, recargos y participaciones en ingresos estatales; sus propios impuestos, tasas y contribuciones especiales; transferencias del Fondo de Compensación interterritorial y otras asignaciones de los Presupuestos Generales del Estado; rendimientos de su patrimonio e ingresos de derecho privado; y el producto de las operaciones de crédito. No pueden adoptar medidas tributarias sobre bienes situados fuera de su territorio ni que obstaculicen la libre circulación."
+    },
+    {
+      "id": "CE-T8-022",
+      "articulo": "art. 158",
+      "titulo": "Asignaciones presupuestarias y Fondo de Compensación",
+      "resumen": "Los Presupuestos del Estado pueden asignar recursos a las CCAA para garantizar un nivel mínimo de servicios; y se constituye un Fondo de Compensación para corregir desequilibrios interterritoriales.",
+      "explicacion": "El artículo 158 prevé, en los Presupuestos Generales del Estado, una asignación a las Comunidades Autónomas en función del volumen de servicios asumidos y para garantizar un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio. Para corregir desequilibrios económicos interterritoriales y hacer efectivo el principio de solidaridad, se constituye un Fondo de Compensación destinado a gastos de inversión, distribuido por las Cortes Generales entre las Comunidades Autónomas y provincias."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CE-T8-001",
+      "articulo": "art. 137",
+      "tipo": "test",
+      "enunciado": "Según el artículo 137 CE, ¿en qué entidades se organiza territorialmente el Estado?",
+      "opciones": [
+        "En municipios, comarcas y provincias",
+        "En municipios, en provincias y en las Comunidades Autónomas que se constituyan",
+        "En municipios, provincias, regiones y nacionalidades",
+        "En Comunidades Autónomas, provincias y mancomunidades"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan.",
+      "justificacion": "Art. 137 CE."
+    },
+    {
+      "concepto_id": "CE-T8-002",
+      "articulo": "art. 138",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 138.2 CE, las diferencias entre los Estatutos de las distintas Comunidades Autónomas:",
+      "opciones": [
+        "podrán implicar ventajas económicas justificadas",
+        "no podrán implicar, en ningún caso, privilegios económicos o sociales",
+        "serán fijadas libremente por cada Comunidad Autónoma",
+        "requerirán autorización del Tribunal Constitucional"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, en ningún caso, privilegios económicos o sociales.",
+      "justificacion": "Art. 138 CE."
+    },
+    {
+      "concepto_id": "CE-T8-003",
+      "articulo": "art. 139",
+      "tipo": "test",
+      "enunciado": "Según el artículo 139.1 CE, todos los españoles:",
+      "opciones": [
+        "tienen los mismos derechos y obligaciones en cualquier parte del territorio del Estado",
+        "tienen derechos distintos según su Comunidad Autónoma",
+        "tienen las mismas obligaciones pero derechos variables",
+        "tienen los mismos derechos salvo en materia tributaria"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Todos los españoles tienen los mismos derechos y obligaciones en cualquier parte del territorio del Estado.",
+      "justificacion": "Art. 139 CE."
+    },
+    {
+      "concepto_id": "CE-T8-004",
+      "articulo": "art. 140",
+      "tipo": "test",
+      "enunciado": "De acuerdo con el artículo 140 CE, los Concejales serán elegidos por los vecinos del municipio mediante sufragio:",
+      "opciones": [
+        "universal, igual, libre, directo y secreto",
+        "universal, indirecto y secreto",
+        "restringido, libre y directo",
+        "universal, libre y público"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Concejales serán elegidos por los vecinos del municipio mediante sufragio universal, igual, libre, directo y secreto, en la forma establecida por la ley.",
+      "justificacion": "Art. 140 CE."
+    },
+    {
+      "concepto_id": "CE-T8-005",
+      "articulo": "art. 141",
+      "tipo": "test",
+      "enunciado": "Según el artículo 141.1 CE, cualquier alteración de los límites provinciales:",
+      "opciones": [
+        "habrá de ser aprobada por las Cortes Generales mediante ley orgánica",
+        "podrá acordarla la Diputación Provincial afectada",
+        "requerirá referéndum de los municipios afectados",
+        "se aprobará por decreto del Gobierno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cualquier alteración de los límites provinciales habrá de ser aprobada por las Cortes Generales mediante ley orgánica.",
+      "justificacion": "Art. 141 CE."
+    },
+    {
+      "concepto_id": "CE-T8-006",
+      "articulo": "art. 142",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 142 CE, las Haciendas locales se nutrirán fundamentalmente de:",
+      "opciones": [
+        "subvenciones europeas y donaciones privadas",
+        "tributos propios y de participación en los del Estado y de las Comunidades Autónomas",
+        "operaciones de crédito exclusivamente",
+        "recargos sobre impuestos autonómicos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.",
+      "justificacion": "Art. 142 CE."
+    },
+    {
+      "concepto_id": "CE-T8-007",
+      "articulo": "art. 143",
+      "tipo": "test",
+      "enunciado": "Según el artículo 143.3 CE, si la iniciativa del proceso autonómico no prospera, solamente podrá reiterarse pasados:",
+      "opciones": [
+        "seis meses",
+        "dos años",
+        "cinco años",
+        "diez años"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cinco años.",
+      "justificacion": "Art. 143 CE."
+    },
+    {
+      "concepto_id": "CE-T8-008",
+      "articulo": "art. 144",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 144 CE, las Cortes Generales, por motivos de interés nacional, actúan mediante:",
+      "opciones": [
+        "ley ordinaria",
+        "ley orgánica",
+        "decreto-ley",
+        "reglamento"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional:",
+      "justificacion": "Art. 144 CE."
+    },
+    {
+      "concepto_id": "CE-T8-009",
+      "articulo": "art. 145",
+      "tipo": "test",
+      "enunciado": "Según el artículo 145.1 CE, respecto de la federación de Comunidades Autónomas:",
+      "opciones": [
+        "se admitirá con autorización de las Cortes",
+        "En ningún caso se admitirá la federación de Comunidades Autónomas",
+        "se admitirá si lo prevén los Estatutos",
+        "se admitirá previo referéndum"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "En ningún caso se admitirá la federación de Comunidades Autónomas.",
+      "justificacion": "Art. 145 CE."
+    },
+    {
+      "concepto_id": "CE-T8-010",
+      "articulo": "art. 146",
+      "tipo": "test",
+      "enunciado": "De acuerdo con el artículo 146 CE, el proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por:",
+      "opciones": [
+        "los alcaldes de los municipios afectados",
+        "los Diputados y Senadores elegidos en ellas",
+        "los consejeros del Gobierno autonómico",
+        "los presidentes de las Diputaciones limítrofes"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley.",
+      "justificacion": "Art. 146 CE."
+    },
+    {
+      "concepto_id": "CE-T8-011",
+      "articulo": "art. 147",
+      "tipo": "test",
+      "enunciado": "Según el artículo 147.1 CE, los Estatutos serán:",
+      "opciones": [
+        "la norma institucional básica de cada Comunidad Autónoma",
+        "una norma reglamentaria de desarrollo autonómico",
+        "leyes ordinarias de las Cortes Generales",
+        "acuerdos de cooperación entre Comunidades"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "los Estatutos serán la norma institucional básica de cada Comunidad Autónoma y el Estado los reconocerá y amparará como parte integrante de su ordenamiento jurídico.",
+      "justificacion": "Art. 147 CE."
+    },
+    {
+      "concepto_id": "CE-T8-012",
+      "articulo": "art. 148",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 148.1.22.ª CE, las Comunidades Autónomas podrán asumir competencias sobre:",
+      "opciones": [
+        "la seguridad pública en todo su territorio",
+        "la coordinación y demás facultades en relación con las policías locales en los términos que establezca una ley orgánica",
+        "la creación de la Guardia Civil autonómica",
+        "el régimen de armas y explosivos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La coordinación y demás facultades en relación con las policías locales en los términos que establezca una ley orgánica.",
+      "justificacion": "Art. 148 CE."
+    },
+    {
+      "concepto_id": "CE-T8-013",
+      "articulo": "art. 149",
+      "tipo": "test",
+      "enunciado": "Según el artículo 149.1.29.ª CE, es competencia exclusiva del Estado:",
+      "opciones": [
+        "la ordenación del territorio y el urbanismo",
+        "Seguridad pública, sin perjuicio de la posibilidad de creación de policías por las Comunidades Autónomas",
+        "la organización de las instituciones de autogobierno",
+        "la vivienda y la vigilancia de sus edificios"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Seguridad pública, sin perjuicio de la posibilidad de creación de policías por las Comunidades Autónomas en la forma que se establezca en los respectivos Estatutos en el marco de lo que disponga una ley orgánica.",
+      "justificacion": "Art. 149 CE."
+    },
+    {
+      "concepto_id": "CE-T8-013",
+      "articulo": "art. 149",
+      "tipo": "test",
+      "enunciado": "Conforme a la cláusula de cierre del artículo 149.3 CE, el derecho estatal será, en todo caso:",
+      "opciones": [
+        "supletorio del derecho de las Comunidades Autónomas",
+        "prevalente solo en materia tributaria",
+        "inaplicable en las materias autonómicas",
+        "de rango inferior al Estatuto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas.",
+      "justificacion": "Art. 149 CE."
+    },
+    {
+      "concepto_id": "CE-T8-014",
+      "articulo": "art. 150",
+      "tipo": "test",
+      "enunciado": "Según el artículo 150.3 CE, la apreciación de la necesidad de dictar leyes de armonización corresponde a las Cortes Generales por:",
+      "opciones": [
+        "mayoría simple de cada Cámara",
+        "mayoría absoluta de cada Cámara",
+        "dos tercios del Congreso",
+        "tres quintos del Senado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Corresponde a las Cortes Generales, por mayoría absoluta de cada Cámara, la apreciación de esta necesidad.",
+      "justificacion": "Art. 150 CE."
+    },
+    {
+      "concepto_id": "CE-T8-015",
+      "articulo": "art. 151",
+      "tipo": "test",
+      "enunciado": "En la vía del artículo 151 CE, la iniciativa del proceso autonómico debe ser ratificada mediante referéndum por el voto afirmativo de:",
+      "opciones": [
+        "la mayoría simple de los votantes",
+        "la mayoría absoluta de los electores de cada provincia",
+        "dos tercios de los electores",
+        "la mayoría de los diputados provinciales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "dicha iniciativa sea ratificada mediante referéndum por el voto afirmativo de la mayoría absoluta de los electores de cada provincia en los términos que establezca una ley orgánica.",
+      "justificacion": "Art. 151 CE."
+    },
+    {
+      "concepto_id": "CE-T8-016",
+      "articulo": "art. 152",
+      "tipo": "test",
+      "enunciado": "Según el artículo 152.1 CE, el Presidente de la Comunidad Autónoma es elegido por la Asamblea de entre sus miembros y:",
+      "opciones": [
+        "nombrado por el Presidente del Gobierno",
+        "nombrado por el Rey",
+        "ratificado por el Senado",
+        "designado por el Tribunal Superior de Justicia"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "un Presidente, elegido por la Asamblea, de entre sus miembros, y nombrado por el Rey, al que corresponde la dirección del Consejo de Gobierno, la suprema representación de la respectiva Comunidad y la ordinaria del Estado en aquélla.",
+      "justificacion": "Art. 152 CE."
+    },
+    {
+      "concepto_id": "CE-T8-016",
+      "articulo": "art. 152",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 152.1 CE, la organización judicial en el ámbito territorial de la Comunidad Autónoma culmina en:",
+      "opciones": [
+        "la Audiencia Provincial",
+        "un Tribunal Superior de Justicia",
+        "el Tribunal Supremo",
+        "el Tribunal Constitucional"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Un Tribunal Superior de Justicia, sin perjuicio de la jurisdicción que corresponde al Tribunal Supremo, culminará la organización judicial en el ámbito territorial de la Comunidad Autónoma.",
+      "justificacion": "Art. 152 CE."
+    },
+    {
+      "concepto_id": "CE-T8-017",
+      "articulo": "art. 153",
+      "tipo": "test",
+      "enunciado": "Según el artículo 153.d) CE, el control económico y presupuestario de las Comunidades Autónomas corresponde a:",
+      "opciones": [
+        "el Tribunal Constitucional",
+        "el Tribunal de Cuentas",
+        "el Consejo de Estado",
+        "la jurisdicción contencioso-administrativa"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Por el Tribunal de Cuentas, el económico y presupuestario.",
+      "justificacion": "Art. 153 CE."
+    },
+    {
+      "concepto_id": "CE-T8-018",
+      "articulo": "art. 154",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 154 CE, quien dirige la Administración del Estado en el territorio de la Comunidad Autónoma es:",
+      "opciones": [
+        "el Presidente de la Comunidad Autónoma",
+        "un Delegado nombrado por el Gobierno",
+        "el Subdelegado provincial",
+        "el Presidente de la Diputación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el territorio de la Comunidad Autónoma y la coordinará, cuando proceda, con la administración propia de la Comunidad.",
+      "justificacion": "Art. 154 CE."
+    },
+    {
+      "concepto_id": "CE-T8-019",
+      "articulo": "art. 155",
+      "tipo": "test",
+      "enunciado": "Según el artículo 155.1 CE, para adoptar las medidas de cumplimiento forzoso frente a una Comunidad Autónoma, el Gobierno necesita la aprobación por:",
+      "opciones": [
+        "mayoría simple del Congreso de los Diputados",
+        "mayoría absoluta del Senado",
+        "dos tercios del Senado",
+        "mayoría absoluta de las Cortes Generales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "con la aprobación por mayoría absoluta del Senado, podrá adoptar las medidas necesarias para obligar a aquélla al cumplimiento forzoso de dichas obligaciones o para la protección del mencionado interés general.",
+      "justificacion": "Art. 155 CE."
+    },
+    {
+      "concepto_id": "CE-T8-020",
+      "articulo": "art. 156",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 156.1 CE, las Comunidades Autónomas gozarán de autonomía financiera con arreglo a los principios de:",
+      "opciones": [
+        "eficiencia y autofinanciación total",
+        "coordinación con la Hacienda estatal y de solidaridad entre todos los españoles",
+        "libre competencia y estabilidad presupuestaria",
+        "subordinación plena a la Hacienda estatal"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las Comunidades Autónomas gozarán de autonomía financiera para el desarrollo y ejecución de sus competencias con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos los españoles.",
+      "justificacion": "Art. 156 CE."
+    },
+    {
+      "concepto_id": "CE-T8-021",
+      "articulo": "art. 157",
+      "tipo": "test",
+      "enunciado": "Según el artículo 157.1 CE, ¿cuál de los siguientes constituye un recurso de las Comunidades Autónomas?",
+      "opciones": [
+        "Las cotizaciones a la Seguridad Social",
+        "Sus propios impuestos, tasas y contribuciones especiales",
+        "Los aranceles de aduanas de la Unión Europea",
+        "Los beneficios del Banco de España"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Sus propios impuestos, tasas y contribuciones especiales.",
+      "justificacion": "Art. 157 CE."
+    },
+    {
+      "concepto_id": "CE-T8-022",
+      "articulo": "art. 158",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 158.2 CE, para corregir desequilibrios económicos interterritoriales y hacer efectivo el principio de solidaridad se constituirá:",
+      "opciones": [
+        "un Fondo de Compensación con destino a gastos de inversión",
+        "un Fondo de Garantía de Servicios Públicos",
+        "una reserva de estabilización presupuestaria",
+        "un Fondo de Suficiencia Global"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se constituirá un Fondo de Compensación con destino a gastos de inversión, cuyos recursos serán distribuidos por las Cortes Generales entre las Comunidades Autónomas y provincias, en su caso.",
+      "justificacion": "Art. 158 CE."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CE-T8-001",
+      "destino": "CE-TP-004",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 137 concreta la autonomía territorial que el art. 2 (unidad, autonomía y solidaridad) proclama como principio."
+    },
+    {
+      "origen": "CE-T8-002",
+      "destino": "CE-TP-004",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 138 garantiza el principio de solidaridad del art. 2, aplicándolo al equilibrio económico entre territorios."
+    },
+    {
+      "origen": "CE-T8-003",
+      "destino": "CE-T1-011",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 139.1 proyecta la igualdad de los españoles del art. 14 sobre el plano territorial: mismos derechos en todo el Estado."
+    },
+    {
+      "origen": "CE-T8-003",
+      "destino": "CE-T1-025",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 139.2 concreta la libre circulación en clave de unidad de mercado, prohibiendo obstáculos territoriales."
+    },
+    {
+      "origen": "CE-T8-007",
+      "destino": "CE-T8-011",
+      "tipo": "prerrequisito",
+      "justificacion": "La iniciativa del proceso autonómico (art. 143) es paso previo necesario para que exista un Estatuto (art. 147) como norma institucional básica."
+    },
+    {
+      "origen": "CE-T8-010",
+      "destino": "CE-T8-011",
+      "tipo": "prerrequisito",
+      "justificacion": "El proyecto de Estatuto elaborado según el art. 146 es el antecedente procedimental del Estatuto del art. 147."
+    },
+    {
+      "origen": "CE-T8-015",
+      "destino": "CE-T8-007",
+      "tipo": "desarrolla",
+      "justificacion": "La vía rápida del art. 151 es una modalidad específica de la iniciativa del proceso autonómico del art. 143."
+    },
+    {
+      "origen": "CE-T8-012",
+      "destino": "CE-T8-013",
+      "tipo": "limita",
+      "justificacion": "Las competencias asumibles por las CCAA (art. 148) quedan limitadas por las competencias exclusivas del Estado (art. 149), que actúan como marco y cláusula de cierre."
+    },
+    {
+      "origen": "CE-T8-012",
+      "destino": "CE-T4-014",
+      "tipo": "remite",
+      "justificacion": "El art. 148.1.22 (coordinación de policías locales) se conecta con el régimen constitucional de las fuerzas y cuerpos de seguridad."
+    },
+    {
+      "origen": "CE-T8-013",
+      "destino": "CE-T4-014",
+      "tipo": "remite",
+      "justificacion": "El art. 149.1.29 (seguridad pública y creación de policías autonómicas) desarrolla el marco de las fuerzas y cuerpos de seguridad."
+    },
+    {
+      "origen": "CE-T8-013",
+      "destino": "CE-T1-011",
+      "tipo": "remite",
+      "justificacion": "El art. 149.1.1 reserva al Estado las condiciones básicas de igualdad de los españoles del art. 14."
+    },
+    {
+      "origen": "CE-T8-014",
+      "destino": "CE-T8-013",
+      "tipo": "desarrolla",
+      "justificacion": "Las leyes marco, de transferencia y de armonización del art. 150 modulan el reparto competencial fijado en el art. 149."
+    },
+    {
+      "origen": "CE-T8-016",
+      "destino": "CE-T6-013",
+      "tipo": "remite",
+      "justificacion": "El Tribunal Superior de Justicia del art. 152 culmina la organización judicial autonómica sin perjuicio de la jurisdicción del Tribunal Supremo."
+    },
+    {
+      "origen": "CE-T8-017",
+      "destino": "CE-T4-016",
+      "tipo": "remite",
+      "justificacion": "El control del art. 153.b) exige el previo dictamen del Consejo de Estado."
+    },
+    {
+      "origen": "CE-T8-017",
+      "destino": "CE-T7-016",
+      "tipo": "remite",
+      "justificacion": "El art. 153.d) atribuye al Tribunal de Cuentas el control económico y presupuestario de las CCAA."
+    },
+    {
+      "origen": "CE-T8-017",
+      "destino": "CE-T8-014",
+      "tipo": "remite",
+      "justificacion": "El control del art. 153.b) recae sobre el ejercicio de las funciones delegadas del art. 150.2."
+    },
+    {
+      "origen": "CE-T8-019",
+      "destino": "CE-T3-002",
+      "tipo": "remite",
+      "justificacion": "La coerción estatal del art. 155 exige la aprobación del Senado por mayoría absoluta, dentro de las funciones de las Cortes."
+    },
+    {
+      "origen": "CE-T8-020",
+      "destino": "CE-T7-008",
+      "tipo": "desarrolla",
+      "justificacion": "La autonomía financiera de las CCAA del art. 156 se enmarca en la potestad tributaria constitucional."
+    },
+    {
+      "origen": "CE-T8-021",
+      "destino": "CE-T7-009",
+      "tipo": "desarrolla",
+      "justificacion": "Los recursos y tributos propios de las CCAA del art. 157 concretan la potestad tributaria en el nivel autonómico."
+    },
+    {
+      "origen": "CE-T8-021",
+      "destino": "CE-T8-020",
+      "tipo": "desarrolla",
+      "justificacion": "El elenco de recursos del art. 157 da contenido a la autonomía financiera proclamada en el art. 156."
+    },
+    {
+      "origen": "CE-T8-022",
+      "destino": "CE-T8-002",
+      "tipo": "desarrolla",
+      "justificacion": "El Fondo de Compensación del art. 158 es instrumento del principio de solidaridad garantizado en el art. 138."
+    },
+    {
+      "origen": "CE-T8-004",
+      "destino": "CE-T8-001",
+      "tipo": "desarrolla",
+      "justificacion": "La autonomía municipal del art. 140 concreta el municipio como entidad territorial autónoma anunciada en el art. 137."
+    },
+    {
+      "origen": "CE-T8-005",
+      "destino": "CE-T8-001",
+      "tipo": "desarrolla",
+      "justificacion": "La provincia del art. 141 desarrolla la entidad territorial provincial reconocida en el art. 137."
+    },
+    {
+      "origen": "CE-T8-006",
+      "destino": "CE-T7-009",
+      "tipo": "desarrolla",
+      "justificacion": "La suficiencia y los tributos de las Haciendas locales del art. 142 se insertan en la potestad tributaria constitucional."
+    },
+    {
+      "origen": "CE-T8-008",
+      "destino": "CE-T8-007",
+      "tipo": "limita",
+      "justificacion": "El art. 144 permite a las Cortes sustituir o condicionar por interés nacional la iniciativa autonómica ordinaria del art. 143."
+    }
+  ]
+}

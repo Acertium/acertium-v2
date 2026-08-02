@@ -1,0 +1,451 @@
+{
+  "fuentes": {
+    "D.A. 1ª": "La Constitución ampara y respeta los derechos históricos de los territorios forales. La actualización general de dicho régimen foral se llevará a cabo, en su caso, en el marco de la Constitución y de los Estatutos de Autonomía.",
+    "D.A. 2ª": "La declaración de mayoría de edad contenida en el artículo 12 de esta Constitución no perjudica las situaciones amparadas por los derechos forales en el ámbito del Derecho privado.",
+    "D.A. 3ª": "La modificación del régimen económico y fiscal del archipiélago canario requerirá informe previo de la Comunidad Autónoma o, en su caso, del órgano provisional autonómico.",
+    "D.A. 4ª": "En las Comunidades Autónomas donde tengan su sede más de una Audiencia Territorial, los Estatutos de Autonomía respectivos podrán mantener las existentes, distribuyendo las competencias entre ellas, siempre de conformidad con lo previsto en la ley orgánica del poder judicial y dentro de la unidad e independencia de éste.",
+    "D.T. 1ª": "En los territorios dotados de un régimen provisional de autonomía, sus órganos colegiados superiores, mediante acuerdo adoptado por la mayoría absoluta de sus miembros, podrán sustituir la iniciativa que en el apartado 2 del artículo 143 atribuye a las Diputaciones Provinciales o a los órganos interinsulares correspondientes.",
+    "D.T. 2ª": "Los territorios que en el pasado hubiesen plebiscitado afirmativamente proyectos de Estatuto de autonomía y cuenten, al tiempo de promulgarse esta Constitución, con regímenes provisionales de autonomía podrán proceder inmediatamente en la forma que se prevé en el apartado 2 del artículo 148, cuando así lo acordaren, por mayoría absoluta, sus órganos preautonómicos colegiados superiores, comunicándolo al Gobierno. El proyecto de Estatuto será elaborado de acuerdo con lo establecido en el artículo 151, número 2, a convocatoria del órgano colegiado preautonómico.",
+    "D.T. 3ª": "La iniciativa del proceso autonómico por parte de las Corporaciones locales o de sus miembros, prevista en el apartado 2 del artículo 143, se entiende diferida, con todos sus efectos, hasta la celebración de las primeras elecciones locales una vez vigente la Constitución.",
+    "D.T. 4ª": "1. En el caso de Navarra, y a efectos de su incorporación al Consejo General Vasco o al régimen autonómico vasco que le sustituya, en lugar de lo que establece el artículo 143 de la Constitución, la iniciativa corresponde al Órgano Foral competente, el cual adoptará su decisión por mayoría de los miembros que lo componen. Para la validez de dicha iniciativa será preciso, además, que la decisión del Órgano Foral competente sea ratificada por referéndum expresamente convocado al efecto, y aprobado por mayoría de los votos válidos emitidos. 2. Si la iniciativa no prosperase, solamente se podrá reproducir la misma en distinto período del mandato del Órgano Foral competente, y en todo caso, cuando haya transcurrido el plazo mínimo que establece el artículo 143.",
+    "D.T. 5ª": "Las ciudades de Ceuta y Melilla podrán constituirse en Comunidades Autónomas si así lo deciden sus respectivos Ayuntamientos, mediante acuerdo adoptado por la mayoría absoluta de sus miembros y así lo autorizan las Cortes Generales, mediante una ley orgánica, en los términos previstos en el artículo 144.",
+    "D.T. 6ª": "Cuando se remitieran a la Comisión Constitucional del Congreso varios proyectos de Estatuto, se dictaminarán por el orden de entrada en aquélla, y el plazo de dos meses a que se refiere el artículo 151 empezará a contar desde que la Comisión termine el estudio del proyecto o proyectos de que sucesivamente haya conocido.",
+    "D.T. 7ª": "Los organismos provisionales autonómicos se considerarán disueltos en los siguientes casos: a) Una vez constituidos los órganos que establezcan los Estatutos de Autonomía aprobados conforme a esta Constitución. b) En el supuesto de que la iniciativa del proceso autonómico no llegara a prosperar por no cumplir los requisitos previstos en el artículo 143. c) Si el organismo no hubiera ejercido el derecho que le reconoce la disposición transitoria primera en el plazo de tres años.",
+    "D.T. 8ª": "1. Las Cámaras que han aprobado la presente Constitución asumirán, tras la entrada en vigor de la misma, las funciones y competencias que en ella se señalan, respectivamente, para el Congreso y el Senado, sin que en ningún caso su mandato se extienda más allá del 15 de junio de 1981. 2. A los efectos de lo establecido en el artículo 99, la promulgación de la Constitución se considerará como supuesto constitucional en el que procede su aplicación. A tal efecto, a partir de la citada promulgación se abrirá un período de treinta días para la aplicación de lo dispuesto en dicho artículo. Durante este período, el actual Presidente del Gobierno, que asumirá las funciones y competencias que para dicho cargo establece la Constitución, podrá optar por utilizar la facultad que le reconoce el artículo 115 o dar paso, mediante la dimisión, a la aplicación de lo establecido en el artículo 99, quedando en este último caso en la situación prevista en el apartado 2 del artículo 101. 3. En caso de disolución, de acuerdo con lo previsto en el artículo 115, y si no se hubiera desarrollado legalmente lo previsto en los artículos 68 y 69, serán de aplicación en las elecciones las normas vigentes con anterioridad, con las solas excepciones de que en lo referente a inelegibilidades e incompatibilidades se aplicará directamente lo previsto en el inciso segundo de la letra b) del apartado 1 del artículo 70 de la Constitución, así como lo dispuesto en la misma respecto a la edad para el voto y lo establecido en el artículo 69,3.",
+    "D.T. 9ª": "A los tres años de la elección por vez primera de los miembros del Tribunal Constitucional se procederá por sorteo para la designación de un grupo de cuatro miembros de la misma procedencia electiva que haya de cesar y renovarse. A estos solos efectos se entenderán agrupados como miembros de la misma procedencia a los dos designados a propuesta del Gobierno y a los dos que proceden de la formulada por el Consejo General del Poder Judicial. Del mismo modo se procederá transcurridos otros tres años entre los dos grupos no afectados por el sorteo anterior. A partir de entonces se estará a lo establecido en el número 3 del artículo 159.",
+    "D.D.": "1. Queda derogada la Ley 1/1977, de 4 de enero, para la Reforma Política, así como, en tanto en cuanto no estuvieran ya derogadas por la anteriormente mencionada Ley, la de Principios del Movimiento Nacional, de 17 de mayo de 1958; el Fuero de los Españoles, de 17 de julio de 1945; el del Trabajo, de 9 de marzo de 1938; la Ley Constitutiva de las Cortes, de 17 de julio de 1942; la Ley de Sucesión en la Jefatura del Estado, de 26 de julio de 1947, todas ellas modificadas por la Ley Orgánica del Estado, de 10 de enero de 1967, y en los mismos términos esta última y la de Referéndum Nacional de 22 de octubre de 1945. 2. En tanto en cuanto pudiera conservar alguna vigencia, se considera definitivamente derogada la Ley de 25 de octubre de 1839 en lo que pudiera afectar a las provincias de Álava, Guipúzcoa y Vizcaya. En los mismos términos se considera definitivamente derogada la Ley de 21 de julio de 1876. 3. Asimismo quedan derogadas cuantas disposiciones se opongan a lo establecido en esta Constitución.",
+    "D.F.": "Esta Constitución entrará en vigor el mismo día de la publicación de su texto oficial en el boletín oficial del Estado. Se publicará también en las demás lenguas de España."
+  },
+  "conceptos": [
+    {
+      "id": "CE-DISP-001",
+      "articulo": "D.A. 1ª",
+      "titulo": "Derechos históricos de los territorios forales",
+      "resumen": "La Constitución ampara y respeta los derechos históricos de los territorios forales, cuya actualización se hará en el marco de la Constitución y de los Estatutos de Autonomía.",
+      "explicacion": "La Disposición Adicional 1ª es la base constitucional de la foralidad. Reconoce derechos históricos preexistentes (fundamento de los regímenes forales del País Vasco y Navarra, como el Concierto y el Convenio económico) pero somete su actualización a un doble límite: la propia Constitución y los Estatutos de Autonomía. No crea derechos nuevos, ampara y respeta los ya existentes. Es una de las disposiciones más preguntadas por su vínculo con la Disposición Derogatoria (fueros vascos) y con el principio de autonomía."
+    },
+    {
+      "id": "CE-DISP-002",
+      "articulo": "D.A. 2ª",
+      "titulo": "Mayoría de edad y derechos forales en Derecho privado",
+      "resumen": "La mayoría de edad del artículo 12 no perjudica las situaciones amparadas por los derechos forales en el ámbito del Derecho privado.",
+      "explicacion": "El artículo 12 fija la mayoría de edad a los 18 años. Esta disposición aclara que ese umbral no altera las particularidades del Derecho civil foral o especial en materia de capacidad y situaciones de Derecho privado. Es una cláusula de salvaguarda de los derechos forales civiles, que conviven con el Código Civil en varios territorios."
+    },
+    {
+      "id": "CE-DISP-003",
+      "articulo": "D.A. 3ª",
+      "titulo": "Régimen económico y fiscal de Canarias",
+      "resumen": "Modificar el régimen económico y fiscal del archipiélago canario exige informe previo de la Comunidad Autónoma o del órgano provisional autonómico.",
+      "explicacion": "Canarias tiene un régimen económico y fiscal especial (REF) de raíz histórica. La Constitución protege ese régimen exigiendo un trámite de garantía: no puede modificarse sin informe previo de la Comunidad Autónoma canaria. Es una garantía procedimental muy preguntada por su especificidad territorial."
+    },
+    {
+      "id": "CE-DISP-004",
+      "articulo": "D.A. 4ª",
+      "titulo": "Audiencias Territoriales en los Estatutos de Autonomía",
+      "resumen": "Donde exista más de una Audiencia Territorial, los Estatutos podrán mantener las existentes y repartir competencias, respetando la ley orgánica del poder judicial y la unidad e independencia de éste.",
+      "explicacion": "Permite a las Comunidades Autónomas con varias Audiencias Territoriales conservarlas y distribuir competencias entre ellas, siempre dentro de la unidad e independencia del poder judicial y de la LOPJ. Refleja la coexistencia de la organización judicial preconstitucional con el nuevo Estado autonómico."
+    },
+    {
+      "id": "CE-DISP-005",
+      "articulo": "D.T. 1ª",
+      "titulo": "Sustitución de la iniciativa autonómica del artículo 143.2",
+      "resumen": "Los órganos colegiados superiores de territorios con régimen provisional de autonomía, por mayoría absoluta, podían sustituir la iniciativa del artículo 143.2.",
+      "explicacion": "Es la primera de las transitorias que agilizan el acceso a la autonomía. En los territorios preautonómicos, sus órganos superiores podían asumir, por mayoría absoluta de sus miembros, la iniciativa que el artículo 143.2 atribuye a Diputaciones y órganos interinsulares. Facilitó la puesta en marcha del proceso autonómico sin esperar a las corporaciones locales."
+    },
+    {
+      "id": "CE-DISP-006",
+      "articulo": "D.T. 2ª",
+      "titulo": "Territorios que plebiscitaron Estatutos en el pasado (vía rápida)",
+      "resumen": "Los territorios que en el pasado plebiscitaron afirmativamente proyectos de Estatuto y tenían régimen provisional de autonomía podían acceder por la vía rápida del artículo 151.2.",
+      "explicacion": "Es la disposición que abrió la vía rápida a las llamadas nacionalidades históricas (Cataluña, País Vasco y Galicia, que habían plebiscitado Estatutos durante la Segunda República). Podían proceder inmediatamente en la forma del artículo 148.2 y elaborar el Estatuto conforme al artículo 151.2, evitando los cinco años de espera de la vía ordinaria."
+    },
+    {
+      "id": "CE-DISP-007",
+      "articulo": "D.T. 3ª",
+      "titulo": "Aplazamiento de la iniciativa de las Corporaciones locales",
+      "resumen": "La iniciativa autonómica de las Corporaciones locales del artículo 143.2 se difirió hasta las primeras elecciones locales tras la Constitución.",
+      "explicacion": "Como en 1978 los ayuntamientos aún eran preconstitucionales, se aplazó la iniciativa del proceso autonómico atribuida a las Corporaciones locales hasta que hubiera ayuntamientos democráticos, es decir, hasta las primeras elecciones locales celebradas ya vigente la Constitución (1979)."
+    },
+    {
+      "id": "CE-DISP-008",
+      "articulo": "D.T. 4ª",
+      "titulo": "Incorporación de Navarra al régimen autonómico vasco",
+      "resumen": "En Navarra, la iniciativa para incorporarse al régimen autonómico vasco corresponde al Órgano Foral competente y requiere ratificación por referéndum.",
+      "explicacion": "Regula la vía específica para una eventual incorporación de Navarra al País Vasco. En lugar del artículo 143, la iniciativa corresponde al Órgano Foral competente, por mayoría de sus miembros, y debe ratificarse en referéndum por mayoría de votos válidos. Es la única puerta constitucional prevista para esa integración, que nunca se ha activado."
+    },
+    {
+      "id": "CE-DISP-009",
+      "articulo": "D.T. 5ª",
+      "titulo": "Constitución de Ceuta y Melilla en Comunidades Autónomas",
+      "resumen": "Ceuta y Melilla podían constituirse en Comunidades Autónomas por acuerdo de mayoría absoluta de sus Ayuntamientos y autorización de las Cortes por ley orgánica.",
+      "explicacion": "Prevé la vía especial del artículo 144 para las ciudades de Ceuta y Melilla. Requiere decisión de sus Ayuntamientos por mayoría absoluta y autorización de las Cortes Generales mediante ley orgánica. Finalmente accedieron en 1995 como Ciudades Autónomas, no como Comunidades Autónomas plenas."
+    },
+    {
+      "id": "CE-DISP-010",
+      "articulo": "D.T. 6ª",
+      "titulo": "Orden de dictamen de los proyectos de Estatuto",
+      "resumen": "Los proyectos de Estatuto remitidos a la Comisión Constitucional del Congreso se dictaminaban por orden de entrada.",
+      "explicacion": "Regla procedimental para ordenar el trabajo parlamentario durante el despliegue autonómico: los varios proyectos de Estatuto se dictaminaban por el orden de entrada en la Comisión, y el plazo de dos meses del artículo 151 se computaba desde que la Comisión terminaba el estudio de cada proyecto."
+    },
+    {
+      "id": "CE-DISP-011",
+      "articulo": "D.T. 7ª",
+      "titulo": "Disolución de los organismos provisionales autonómicos",
+      "resumen": "Los organismos provisionales autonómicos se disolvían al constituirse los órganos estatutarios, al no prosperar la iniciativa, o si no ejercían su derecho en tres años.",
+      "explicacion": "Fija los tres supuestos de disolución de los entes preautonómicos: (a) al constituirse los órganos previstos por los Estatutos aprobados; (b) si la iniciativa autonómica no prosperaba por incumplir el artículo 143; y (c) si el organismo no ejercía en tres años el derecho reconocido por la Disposición Transitoria 1ª. Cierra la etapa preautonómica."
+    },
+    {
+      "id": "CE-DISP-012",
+      "articulo": "D.T. 8ª",
+      "titulo": "Mandato de las Cámaras constituyentes hasta el 15 de junio de 1981",
+      "resumen": "Las Cámaras que aprobaron la Constitución asumieron funciones de Congreso y Senado, sin que su mandato pudiera extenderse más allá del 15 de junio de 1981.",
+      "explicacion": "Transición de las Cortes constituyentes de 1977 a las primeras Cortes ordinarias. Las Cámaras que aprobaron la Constitución ejercieron como Congreso y Senado, con un límite temporal máximo de mandato: el 15 de junio de 1981. También aplicó el artículo 99 (investidura) tomando la promulgación como supuesto habilitante. Es una fecha muy preguntada en oposiciones."
+    },
+    {
+      "id": "CE-DISP-013",
+      "articulo": "D.T. 9ª",
+      "titulo": "Primera renovación del Tribunal Constitucional por sorteo",
+      "resumen": "A los tres años de la primera elección del Tribunal Constitucional se sorteó un grupo de cuatro miembros de la misma procedencia para su renovación parcial.",
+      "explicacion": "Resuelve el problema de arranque de la renovación por terceras partes del Tribunal Constitucional. Como todos los magistrados se nombraron a la vez, a los tres años se sorteó qué grupo de cuatro (agrupando los del Gobierno con los del CGPJ) cesaba y se renovaba; a los seis años se renovaba otro grupo, y después ya rige el artículo 159.3. Es clave por su conexión con el mandato de nueve años del TC."
+    },
+    {
+      "id": "CE-DISP-014",
+      "articulo": "D.D.",
+      "titulo": "Disposición Derogatoria de la Constitución",
+      "resumen": "Deroga la Ley 1/1977 para la Reforma Política y las Leyes Fundamentales del franquismo, los fueros vascos de la Ley de 25 de octubre de 1839 y toda norma que se oponga a la Constitución.",
+      "explicacion": "La única Disposición Derogatoria tiene tres apartados: (1) deroga expresamente la Ley 1/1977 para la Reforma Política y las Leyes Fundamentales del régimen anterior (Principios del Movimiento, Fuero de los Españoles, Fuero del Trabajo, Ley de Cortes, Ley de Sucesión, Ley Orgánica del Estado, Ley de Referéndum); (2) deroga definitivamente la Ley de 25 de octubre de 1839 y la de 21 de julio de 1876 en lo que afectaba a los fueros de Álava, Guipúzcoa y Vizcaya, conectando con la Adicional 1ª; (3) es una derogación tácita general de cuanto se oponga a la Constitución."
+    },
+    {
+      "id": "CE-DISP-015",
+      "articulo": "D.F.",
+      "titulo": "Entrada en vigor de la Constitución",
+      "resumen": "La Constitución entró en vigor el mismo día de la publicación de su texto oficial en el BOE, y se publica también en las demás lenguas de España.",
+      "explicacion": "La Disposición Final establece una entrada en vigor inmediata, el mismo día de su publicación en el Boletín Oficial del Estado (29 de diciembre de 1978), sin la vacatio legis habitual. Además ordena su publicación en las demás lenguas de España, reflejando el reconocimiento del plurilingüismo."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CE-DISP-001",
+      "articulo": "D.A. 1ª",
+      "tipo": "test",
+      "enunciado": "Según la Disposición Adicional 1ª de la Constitución, ¿qué ampara y respeta?",
+      "opciones": [
+        "los derechos históricos de los territorios forales",
+        "los privilegios fiscales de las provincias limítrofes",
+        "las competencias exclusivas de las Diputaciones Provinciales",
+        "la autonomía financiera de todos los municipios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La Constitución ampara y respeta los derechos históricos de los territorios forales. La actualización general de dicho régimen foral se llevará a cabo, en su caso, en el marco de la Constitución y de los Estatutos de Autonomía.",
+      "justificacion": "D.A. 1ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-002",
+      "articulo": "D.A. 2ª",
+      "tipo": "test",
+      "enunciado": "La declaración de mayoría de edad del artículo 12 de la Constitución, según la Disposición Adicional 2ª, no perjudica...",
+      "opciones": [
+        "los derechos adquiridos en materia de pensiones",
+        "las situaciones amparadas por los derechos forales en el ámbito del Derecho privado",
+        "las competencias sancionadoras de las Comunidades Autónomas",
+        "los regímenes especiales de la Seguridad Social"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La declaración de mayoría de edad contenida en el artículo 12 de esta Constitución no perjudica las situaciones amparadas por los derechos forales en el ámbito del Derecho privado.",
+      "justificacion": "D.A. 2ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-003",
+      "articulo": "D.A. 3ª",
+      "tipo": "test",
+      "enunciado": "La modificación del régimen económico y fiscal del archipiélago canario, según la Disposición Adicional 3ª, requerirá...",
+      "opciones": [
+        "aprobación por ley orgánica de las Cortes Generales",
+        "referéndum de los ciudadanos del archipiélago",
+        "informe previo de la Comunidad Autónoma o, en su caso, del órgano provisional autonómico",
+        "autorización del Consejo de Estado"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La modificación del régimen económico y fiscal del archipiélago canario requerirá informe previo de la Comunidad Autónoma o, en su caso, del órgano provisional autonómico.",
+      "justificacion": "D.A. 3ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-004",
+      "articulo": "D.A. 4ª",
+      "tipo": "test",
+      "enunciado": "En las Comunidades Autónomas con más de una Audiencia Territorial, la Disposición Adicional 4ª permite que los Estatutos de Autonomía...",
+      "opciones": [
+        "podrán mantener las existentes, distribuyendo las competencias entre ellas",
+        "deberán suprimir todas salvo la de la capital autonómica",
+        "crearán una única Audiencia Nacional de ámbito regional",
+        "trasladarán sus competencias al Tribunal Superior de Justicia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En las Comunidades Autónomas donde tengan su sede más de una Audiencia Territorial, los Estatutos de Autonomía respectivos podrán mantener las existentes, distribuyendo las competencias entre ellas, siempre de conformidad con lo previsto en la ley orgánica del poder judicial y dentro de la unidad e independencia de éste.",
+      "justificacion": "D.A. 4ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-005",
+      "articulo": "D.T. 1ª",
+      "tipo": "test",
+      "enunciado": "Según la Disposición Transitoria 1ª, los órganos colegiados superiores de los territorios con régimen provisional de autonomía podían sustituir la iniciativa del artículo 143.2 mediante acuerdo adoptado...",
+      "opciones": [
+        "por unanimidad de sus miembros",
+        "por la mayoría absoluta de sus miembros",
+        "por dos tercios de sus miembros",
+        "por mayoría simple de los presentes"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "En los territorios dotados de un régimen provisional de autonomía, sus órganos colegiados superiores, mediante acuerdo adoptado por la mayoría absoluta de sus miembros, podrán sustituir la iniciativa que en el apartado 2 del artículo 143 atribuye a las Diputaciones Provinciales o a los órganos interinsulares correspondientes.",
+      "justificacion": "D.T. 1ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-006",
+      "articulo": "D.T. 2ª",
+      "tipo": "test",
+      "enunciado": "La Disposición Transitoria 2ª abrió la vía rápida a la autonomía a los territorios que en el pasado...",
+      "opciones": [
+        "hubieran solicitado la autonomía a las Cortes de Cádiz",
+        "hubiesen plebiscitado afirmativamente proyectos de Estatuto de autonomía",
+        "hubieran tenido Diputación Foral propia antes de 1876",
+        "hubieran superado el millón de habitantes en el último censo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los territorios que en el pasado hubiesen plebiscitado afirmativamente proyectos de Estatuto de autonomía y cuenten, al tiempo de promulgarse esta Constitución, con regímenes provisionales de autonomía podrán proceder inmediatamente en la forma que se prevé en el apartado 2 del artículo 148, cuando así lo acordaren, por mayoría absoluta, sus órganos preautonómicos colegiados superiores, comunicándolo al Gobierno. El proyecto de Estatuto será elaborado de acuerdo con lo establecido en el artículo 151, número 2, a convocatoria del órgano colegiado preautonómico.",
+      "justificacion": "D.T. 2ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-007",
+      "articulo": "D.T. 3ª",
+      "tipo": "test",
+      "enunciado": "Según la Disposición Transitoria 3ª, la iniciativa del proceso autonómico de las Corporaciones locales del artículo 143.2 se entendió diferida...",
+      "opciones": [
+        "hasta la aprobación de la Ley de Bases de Régimen Local",
+        "hasta la celebración de las primeras elecciones locales una vez vigente la Constitución",
+        "hasta transcurridos cinco años desde la promulgación de la Constitución",
+        "hasta la constitución de los primeros Parlamentos autonómicos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La iniciativa del proceso autonómico por parte de las Corporaciones locales o de sus miembros, prevista en el apartado 2 del artículo 143, se entiende diferida, con todos sus efectos, hasta la celebración de las primeras elecciones locales una vez vigente la Constitución.",
+      "justificacion": "D.T. 3ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-008",
+      "articulo": "D.T. 4ª",
+      "tipo": "test",
+      "enunciado": "En el caso de Navarra, a efectos de su incorporación al régimen autonómico vasco, la Disposición Transitoria 4ª establece que la iniciativa...",
+      "opciones": [
+        "corresponde al Órgano Foral competente",
+        "corresponde a las Cortes Generales por ley orgánica",
+        "corresponde al Gobierno de la Nación",
+        "corresponde al Consejo General Vasco"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. En el caso de Navarra, y a efectos de su incorporación al Consejo General Vasco o al régimen autonómico vasco que le sustituya, en lugar de lo que establece el artículo 143 de la Constitución, la iniciativa corresponde al Órgano Foral competente, el cual adoptará su decisión por mayoría de los miembros que lo componen. Para la validez de dicha iniciativa será preciso, además, que la decisión del Órgano Foral competente sea ratificada por referéndum expresamente convocado al efecto, y aprobado por mayoría de los votos válidos emitidos. 2. Si la iniciativa no prosperase, solamente se podrá reproducir la misma en distinto período del mandato del Órgano Foral competente, y en todo caso, cuando haya transcurrido el plazo mínimo que establece el artículo 143.",
+      "justificacion": "D.T. 4ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-009",
+      "articulo": "D.T. 5ª",
+      "tipo": "test",
+      "enunciado": "Según la Disposición Transitoria 5ª, Ceuta y Melilla podrán constituirse en Comunidades Autónomas...",
+      "opciones": [
+        "por decreto del Consejo de Ministros",
+        "si así lo deciden sus respectivos Ayuntamientos",
+        "mediante referéndum vinculante de su población",
+        "cuando lo proponga el Gobierno de la Nación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las ciudades de Ceuta y Melilla podrán constituirse en Comunidades Autónomas si así lo deciden sus respectivos Ayuntamientos, mediante acuerdo adoptado por la mayoría absoluta de sus miembros y así lo autorizan las Cortes Generales, mediante una ley orgánica, en los términos previstos en el artículo 144.",
+      "justificacion": "D.T. 5ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-010",
+      "articulo": "D.T. 6ª",
+      "tipo": "test",
+      "enunciado": "Cuando se remitieran varios proyectos de Estatuto a la Comisión Constitucional del Congreso, la Disposición Transitoria 6ª dispone que...",
+      "opciones": [
+        "se dictaminarán por el orden de entrada en aquélla",
+        "se dictaminarán empezando por el de mayor población",
+        "se dictaminarán todos simultáneamente en un único acto",
+        "se dictaminarán por orden alfabético de los territorios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cuando se remitieran a la Comisión Constitucional del Congreso varios proyectos de Estatuto, se dictaminarán por el orden de entrada en aquélla, y el plazo de dos meses a que se refiere el artículo 151 empezará a contar desde que la Comisión termine el estudio del proyecto o proyectos de que sucesivamente haya conocido.",
+      "justificacion": "D.T. 6ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-011",
+      "articulo": "D.T. 7ª",
+      "tipo": "test",
+      "enunciado": "Según la Disposición Transitoria 7ª, los organismos provisionales autonómicos se consideran disueltos si no hubieran ejercido el derecho reconocido por la Disposición Transitoria 1ª...",
+      "opciones": [
+        "en el plazo de un año",
+        "en el plazo de tres años",
+        "en el plazo de cinco años",
+        "antes de las primeras elecciones autonómicas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los organismos provisionales autonómicos se considerarán disueltos en los siguientes casos: a) Una vez constituidos los órganos que establezcan los Estatutos de Autonomía aprobados conforme a esta Constitución. b) En el supuesto de que la iniciativa del proceso autonómico no llegara a prosperar por no cumplir los requisitos previstos en el artículo 143. c) Si el organismo no hubiera ejercido el derecho que le reconoce la disposición transitoria primera en el plazo de tres años.",
+      "justificacion": "D.T. 7ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-012",
+      "articulo": "D.T. 8ª",
+      "tipo": "test",
+      "enunciado": "Según la Disposición Transitoria 8ª, el mandato de las Cámaras que aprobaron la Constitución no podía extenderse en ningún caso...",
+      "opciones": [
+        "más allá del 6 de diciembre de 1980",
+        "más allá del 15 de junio de 1981",
+        "más allá del 29 de diciembre de 1982",
+        "más allá del 31 de diciembre de 1980"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Las Cámaras que han aprobado la presente Constitución asumirán, tras la entrada en vigor de la misma, las funciones y competencias que en ella se señalan, respectivamente, para el Congreso y el Senado, sin que en ningún caso su mandato se extienda más allá del 15 de junio de 1981.",
+      "justificacion": "D.T. 8ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-013",
+      "articulo": "D.T. 9ª",
+      "tipo": "test",
+      "enunciado": "Según la Disposición Transitoria 9ª, a los tres años de la primera elección de los miembros del Tribunal Constitucional...",
+      "opciones": [
+        "cesarán la mitad de los magistrados por antigüedad",
+        "se procederá por sorteo para la designación de un grupo de cuatro miembros",
+        "se renovará íntegramente el Tribunal Constitucional",
+        "el Gobierno propondrá cuatro nuevos magistrados"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "A los tres años de la elección por vez primera de los miembros del Tribunal Constitucional se procederá por sorteo para la designación de un grupo de cuatro miembros de la misma procedencia electiva que haya de cesar y renovarse. A estos solos efectos se entenderán agrupados como miembros de la misma procedencia a los dos designados a propuesta del Gobierno y a los dos que proceden de la formulada por el Consejo General del Poder Judicial. Del mismo modo se procederá transcurridos otros tres años entre los dos grupos no afectados por el sorteo anterior. A partir de entonces se estará a lo establecido en el número 3 del artículo 159.",
+      "justificacion": "D.T. 9ª CE."
+    },
+    {
+      "concepto_id": "CE-DISP-014",
+      "articulo": "D.D.",
+      "tipo": "test",
+      "enunciado": "La Disposición Derogatoria de la Constitución deroga expresamente, en primer lugar...",
+      "opciones": [
+        "el Código Civil de 1889",
+        "la Ley 1/1977, de 4 de enero, para la Reforma Política",
+        "la Ley de Régimen Local de 1955",
+        "la Constitución de 1931"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Queda derogada la Ley 1/1977, de 4 de enero, para la Reforma Política, así como, en tanto en cuanto no estuvieran ya derogadas por la anteriormente mencionada Ley, la de Principios del Movimiento Nacional, de 17 de mayo de 1958; el Fuero de los Españoles, de 17 de julio de 1945; el del Trabajo, de 9 de marzo de 1938; la Ley Constitutiva de las Cortes, de 17 de julio de 1942; la Ley de Sucesión en la Jefatura del Estado, de 26 de julio de 1947, todas ellas modificadas por la Ley Orgánica del Estado, de 10 de enero de 1967, y en los mismos términos esta última y la de Referéndum Nacional de 22 de octubre de 1945. 2. En tanto en cuanto pudiera conservar alguna vigencia, se considera definitivamente derogada la Ley de 25 de octubre de 1839 en lo que pudiera afectar a las provincias de Álava, Guipúzcoa y Vizcaya. En los mismos términos se considera definitivamente derogada la Ley de 21 de julio de 1876. 3. Asimismo quedan derogadas cuantas disposiciones se opongan a lo establecido en esta Constitución.",
+      "justificacion": "D.D. CE."
+    },
+    {
+      "concepto_id": "CE-DISP-015",
+      "articulo": "D.F.",
+      "tipo": "test",
+      "enunciado": "Según la Disposición Final, la Constitución entró en vigor...",
+      "opciones": [
+        "el mismo día de la publicación de su texto oficial en el boletín oficial del Estado",
+        "a los veinte días de su publicación en el boletín oficial del Estado",
+        "el 1 de enero del año siguiente a su aprobación",
+        "el día de su ratificación por referéndum"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Esta Constitución entrará en vigor el mismo día de la publicación de su texto oficial en el boletín oficial del Estado. Se publicará también en las demás lenguas de España.",
+      "justificacion": "D.F. CE."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CE-DISP-001",
+      "destino": "CE-TP-004",
+      "tipo": "desarrolla",
+      "justificacion": "El amparo de los derechos históricos forales es una manifestación concreta del principio de autonomía dentro de la unidad de la Nación (art. 2)."
+    },
+    {
+      "origen": "CE-DISP-002",
+      "destino": "CE-T1-006",
+      "tipo": "limita",
+      "justificacion": "La mayoría de edad del art. 12 no perjudica las situaciones amparadas por los derechos forales en el Derecho privado, matizando su alcance."
+    },
+    {
+      "origen": "CE-DISP-003",
+      "destino": "CE-TP-004",
+      "tipo": "desarrolla",
+      "justificacion": "La protección del régimen económico y fiscal de Canarias concreta la autonomía territorial garantizada por el art. 2."
+    },
+    {
+      "origen": "CE-DISP-004",
+      "destino": "CE-TP-004",
+      "tipo": "desarrolla",
+      "justificacion": "El mantenimiento de las Audiencias Territoriales por los Estatutos articula la autonomía dentro de la unidad e independencia del poder judicial."
+    },
+    {
+      "origen": "CE-DISP-005",
+      "destino": "CE-T8-007",
+      "tipo": "remite",
+      "justificacion": "Permite sustituir la iniciativa autonómica del art. 143.2 por los órganos preautonómicos, remitiendo a ese mecanismo de iniciativa."
+    },
+    {
+      "origen": "CE-DISP-006",
+      "destino": "CE-T8-007",
+      "tipo": "remite",
+      "justificacion": "Habilita la vía rápida al proceso autonómico para territorios que plebiscitaron Estatutos, ligada a la iniciativa del art. 143."
+    },
+    {
+      "origen": "CE-DISP-007",
+      "destino": "CE-T8-007",
+      "tipo": "remite",
+      "justificacion": "Difiere la iniciativa autonómica de las Corporaciones locales prevista en el art. 143.2 hasta las primeras elecciones locales."
+    },
+    {
+      "origen": "CE-DISP-008",
+      "destino": "CE-T8-007",
+      "tipo": "remite",
+      "justificacion": "Establece para Navarra una iniciativa autonómica especial en lugar de la del art. 143 al que remite y sustituye."
+    },
+    {
+      "origen": "CE-DISP-009",
+      "destino": "CE-T8-007",
+      "tipo": "remite",
+      "justificacion": "Regula la constitución de Ceuta y Melilla en Comunidades Autónomas por la vía del art. 144, variante de la iniciativa autonómica."
+    },
+    {
+      "origen": "CE-DISP-010",
+      "destino": "CE-T8-007",
+      "tipo": "remite",
+      "justificacion": "Ordena el trámite parlamentario de los proyectos de Estatuto derivados del proceso de iniciativa autonómica."
+    },
+    {
+      "origen": "CE-DISP-011",
+      "destino": "CE-DISP-005",
+      "tipo": "remite",
+      "justificacion": "Uno de los supuestos de disolución de los organismos provisionales es no ejercer en tres años el derecho reconocido por la Disposición Transitoria 1ª."
+    },
+    {
+      "origen": "CE-DISP-012",
+      "destino": "CE-T3-008",
+      "tipo": "remite",
+      "justificacion": "Fija el límite del mandato de las Cámaras constituyentes (15 de junio de 1981), régimen transitorio del mandato de cuatro años del Congreso."
+    },
+    {
+      "origen": "CE-DISP-013",
+      "destino": "CE-T9-004",
+      "tipo": "desarrolla",
+      "justificacion": "Concreta el arranque de la renovación por tercios del Tribunal Constitucional prevista para su mandato de nueve años."
+    },
+    {
+      "origen": "CE-DISP-014",
+      "destino": "CE-TP-011",
+      "tipo": "remite",
+      "justificacion": "La derogación general de cuanto se oponga a la Constitución es corolario de la sujeción de todos a la Constitución y al ordenamiento."
+    },
+    {
+      "origen": "CE-DISP-014",
+      "destino": "CE-DISP-001",
+      "tipo": "limita",
+      "justificacion": "La derogación de los fueros vascos (Ley de 25-10-1839) delimita el alcance de los derechos históricos amparados por la Disposición Adicional 1ª."
+    },
+    {
+      "origen": "CE-DISP-015",
+      "destino": "CE-TP-011",
+      "tipo": "remite",
+      "justificacion": "La entrada en vigor con la publicación en el BOE es presupuesto de la vigencia y sujeción de todos a la Constitución."
+    }
+  ]
+}

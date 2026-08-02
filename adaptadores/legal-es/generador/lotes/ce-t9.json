@@ -1,0 +1,363 @@
+{
+  "fuentes": {
+    "art. 159": "1. El Tribunal Constitucional se compone de 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial. 2. Los miembros del Tribunal Constitucional deberán ser nombrados entre Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y Abogados, todos ellos juristas de reconocida competencia con más de quince años de ejercicio profesional. 3. Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres. 4. La condición de miembro del Tribunal Constitucional es incompatible: con todo mandato representativo; con los cargos políticos o administrativos; con el desempeño de funciones directivas en un partido político o en un sindicato y con el empleo al servicio de los mismos; con el ejercicio de las carreras judicial y fiscal, y con cualquier actividad profesional o mercantil. En lo demás los miembros del Tribunal Constitucional tendrán las incompatibilidades propias de los miembros del poder judicial. 5. Los miembros del Tribunal Constitucional serán independientes e inamovibles en el ejercicio de su mandato.",
+    "art. 160": "El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.",
+    "art. 161": "1. El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer: a) Del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley. La declaración de inconstitucionalidad de una norma jurídica con rango de ley, interpretada por la jurisprudencia, afectará a ésta, si bien la sentencia o sentencias recaídas no perderán el valor de cosa juzgada. b) Del recurso de amparo por violación de los derechos y libertades referidos en el artículo 53, 2, de esta Constitución, en los casos y formas que la ley establezca. c) De los conflictos de competencia entre el Estado y las Comunidades Autónomas o de los de éstas entre sí. d) De las demás materias que le atribuyan la Constitución o las leyes orgánicas. 2. El Gobierno podrá impugnar ante el Tribunal Constitucional las disposiciones y resoluciones adoptadas por los órganos de las Comunidades Autónomas. La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cinco meses.",
+    "art. 162": "1. Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas. b) Para interponer el recurso de amparo, toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal. 2. En los demás casos, la ley orgánica determinará las personas y órganos legitimados.",
+    "art. 163": "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.",
+    "art. 164": "1. Las sentencias del Tribunal Constitucional se publicarán en el boletín oficial del Estado con los votos particulares, si los hubiere. Tienen el valor de cosa juzgada a partir del día siguiente de su publicación y no cabe recurso alguno contra ellas. Las que declaren la inconstitucionalidad de una ley o de una norma con fuerza de ley y todas las que no se limiten a la estimación subjetiva de un derecho, tienen plenos efectos frente a todos. 2. Salvo que en el fallo se disponga otra cosa, subsistirá la vigencia de la ley en la parte no afectada por la inconstitucionalidad.",
+    "art. 165": "Una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones."
+  },
+  "conceptos": [
+    {
+      "id": "CE-T9-001",
+      "articulo": "art. 159",
+      "titulo": "Composición del Tribunal Constitucional: 12 miembros nombrados por el Rey",
+      "resumen": "El Tribunal Constitucional se compone de 12 miembros, todos ellos nombrados formalmente por el Rey.",
+      "explicacion": "El artículo 159.1 abre el Título IX fijando el dato numérico básico de todo el temario: el Tribunal Constitucional (TC) está formado por 12 miembros (llamados Magistrados del TC). El nombramiento formal corresponde al Rey, aunque el Rey no elige libremente: se limita a formalizar mediante Real Decreto a quienes proponen los distintos órganos. Este número de 12 es fijo y no se debe confundir con otros órganos constitucionales (Congreso, Senado, CGPJ). Reténlo como cifra ancla del título."
+    },
+    {
+      "id": "CE-T9-002",
+      "articulo": "art. 159",
+      "titulo": "Órganos que proponen a los miembros del TC (4-4-2-2)",
+      "resumen": "De los 12 miembros: 4 los propone el Congreso (3/5), 4 el Senado (idéntica mayoría), 2 el Gobierno y 2 el Consejo General del Poder Judicial.",
+      "explicacion": "El reparto de propuestas es una de las preguntas más frecuentes: cuatro a propuesta del Congreso por mayoría de tres quintos, cuatro a propuesta del Senado con idéntica mayoría de tres quintos, dos a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial (CGPJ). Suma 4+4+2+2 = 12. Ocho miembros los proponen las Cámaras (con mayoría reforzada de 3/5, buscando consenso), y cuatro los órganos no parlamentarios (Gobierno y CGPJ, dos cada uno). Trampa típica: intercambiar Gobierno y CGPJ (ambos proponen 2, así que dará igual el número pero no el órgano) o atribuir la propuesta directa al Rey."
+    },
+    {
+      "id": "CE-T9-003",
+      "articulo": "art. 159",
+      "titulo": "Requisitos para ser miembro del TC: juristas con más de quince años",
+      "resumen": "Se nombran entre Magistrados, Fiscales, Profesores de Universidad, funcionarios públicos y Abogados, juristas de reconocida competencia con más de quince años de ejercicio profesional.",
+      "explicacion": "El artículo 159.2 fija el perfil profesional: han de ser juristas de reconocida competencia con más de quince años de ejercicio profesional, elegidos entre Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y Abogados. El dato numérico clave es 'más de quince años'. Trampa habitual en test: cambiar quince por diez o veinte años, o exigir una única profesión cuando el texto admite varias categorías de juristas."
+    },
+    {
+      "id": "CE-T9-004",
+      "articulo": "art. 159",
+      "titulo": "Mandato de nueve años y renovación por tercios cada tres",
+      "resumen": "Los miembros se designan por nueve años y el Tribunal se renueva por terceras partes cada tres años.",
+      "explicacion": "El artículo 159.3 fija dos cifras que hay que memorizar juntas: mandato de nueve años y renovación por terceras partes cada tres. Como el TC tiene 12 miembros, cada renovación por tercios afecta a cuatro de ellos. Este mecanismo escalonado evita que todo el Tribunal cambie de golpe y da continuidad a su jurisprudencia. Trampa frecuente: confundir los nueve años del TC con los cinco años del CGPJ, o decir que la renovación es total en lugar de por tercios."
+    },
+    {
+      "id": "CE-T9-005",
+      "articulo": "art. 159",
+      "titulo": "Incompatibilidades de los miembros del TC",
+      "resumen": "El cargo es incompatible con mandato representativo, cargos políticos o administrativos, funciones directivas en partido o sindicato, carreras judicial y fiscal y cualquier actividad profesional o mercantil.",
+      "explicacion": "El artículo 159.4 establece un régimen de incompatibilidades muy estricto para preservar la imparcialidad. La condición de miembro del TC es incompatible con todo mandato representativo; con los cargos políticos o administrativos; con funciones directivas en partido o sindicato y el empleo a su servicio; con el ejercicio de las carreras judicial y fiscal; y con cualquier actividad profesional o mercantil. En lo demás rigen las incompatibilidades propias de los miembros del poder judicial. Idea clave: dedicación exclusiva y desvinculación política."
+    },
+    {
+      "id": "CE-T9-006",
+      "articulo": "art. 159",
+      "titulo": "Independencia e inamovilidad de los miembros del TC",
+      "resumen": "Los miembros del TC serán independientes e inamovibles en el ejercicio de su mandato.",
+      "explicacion": "El artículo 159.5 cierra el precepto garantizando que los miembros del TC serán independientes e inamovibles en el ejercicio de su mandato. Independencia significa que no reciben instrucciones de quien los propuso; inamovilidad significa que no pueden ser cesados ni trasladados durante su mandato salvo en los casos legalmente previstos. Son las mismas garantías que protegen a los jueces (art. 117 CE), aplicadas aquí a los Magistrados del TC."
+    },
+    {
+      "id": "CE-T9-007",
+      "articulo": "art. 160",
+      "titulo": "Presidente del TC: nombrado por el Rey por tres años",
+      "resumen": "El Presidente del TC lo nombra el Rey entre sus miembros, a propuesta del propio Tribunal en pleno, por un período de tres años.",
+      "explicacion": "El artículo 160 regula la Presidencia: el Presidente del TC será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años. Datos clave: se elige de entre los propios magistrados (no viene de fuera), lo propone el pleno del Tribunal (no el Gobierno ni las Cámaras) y su mandato es de tres años. No confundir estos tres años del Presidente con los nueve años del mandato de miembro."
+    },
+    {
+      "id": "CE-T9-008",
+      "articulo": "art. 161",
+      "titulo": "Competencias del TC: inconstitucionalidad, amparo y conflictos",
+      "resumen": "El TC conoce del recurso de inconstitucionalidad, del recurso de amparo (art. 53.2), de los conflictos de competencia y de las demás materias que le atribuyan la Constitución o las leyes orgánicas.",
+      "explicacion": "El artículo 161.1 enumera las competencias del TC, con jurisdicción en todo el territorio español: a) recurso de inconstitucionalidad contra leyes y disposiciones con fuerza de ley; b) recurso de amparo por violación de los derechos y libertades referidos en el artículo 53, 2, de esta Constitución; c) conflictos de competencia entre el Estado y las Comunidades Autónomas o de éstas entre sí; d) las demás materias que le atribuyan la Constitución o las leyes orgánicas. La letra d) es una cláusula abierta que permite ampliar competencias por ley orgánica (por ejemplo, la cuestión de inconstitucionalidad o los conflictos entre órganos constitucionales)."
+    },
+    {
+      "id": "CE-T9-009",
+      "articulo": "art. 161",
+      "titulo": "Impugnación por el Gobierno de disposiciones de las CCAA (suspensión, cinco meses)",
+      "resumen": "El Gobierno puede impugnar disposiciones y resoluciones de órganos de las CCAA; la impugnación suspende la norma, pero el TC debe ratificar o levantar la suspensión en plazo no superior a cinco meses.",
+      "explicacion": "El artículo 161.2 recoge una facultad específica del Gobierno: impugnar ante el TC las disposiciones y resoluciones adoptadas por los órganos de las Comunidades Autónomas. El efecto singular es que la sola impugnación produce la suspensión automática de la norma recurrida; ahora bien, el Tribunal deberá ratificarla o levantarla en un plazo no superior a cinco meses. Datos clave para test: suspensión automática y plazo máximo de cinco meses para decidir sobre ella."
+    },
+    {
+      "id": "CE-T9-010",
+      "articulo": "art. 162",
+      "titulo": "Legitimación: inconstitucionalidad (50 Diputados/50 Senadores) y amparo",
+      "resumen": "Para el recurso de inconstitucionalidad están legitimados el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, ejecutivos y Asambleas autonómicas; para el amparo, toda persona con interés legítimo, el Defensor del Pueblo y el Ministerio Fiscal.",
+      "explicacion": "El artículo 162 distingue quién puede acudir al TC según el recurso. Recurso de inconstitucionalidad: Presidente del Gobierno, Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las CCAA y, en su caso, sus Asambleas. Recurso de amparo: toda persona natural o jurídica que invoque un interés legítimo, más el Defensor del Pueblo y el Ministerio Fiscal. Trampa clásica: la cifra es 50 Diputados y 50 Senadores (no 25 ni 3/5); y para el amparo puede acudir cualquier persona con interés legítimo, no solo cargos públicos."
+    },
+    {
+      "id": "CE-T9-011",
+      "articulo": "art. 163",
+      "titulo": "Cuestión de inconstitucionalidad (efectos no suspensivos)",
+      "resumen": "Un órgano judicial que dude de la constitucionalidad de una norma con rango de ley aplicable al caso y de cuya validez dependa el fallo plantea la cuestión ante el TC, con efectos que en ningún caso serán suspensivos.",
+      "explicacion": "El artículo 163 regula la cuestión de inconstitucionalidad, vía por la que un juez, no un particular, traslada al TC sus dudas sobre una ley. Requisitos: que se trate de una norma con rango de ley, aplicable al caso y de cuya validez dependa el fallo, y que el juez la considere posiblemente contraria a la Constitución. La plantea ante el TC en los supuestos, forma y efectos que fije la ley, efectos que en ningún caso serán suspensivos. Diferencia con el recurso de inconstitucionalidad: aquí el impulso viene de un órgano judicial dentro de un proceso concreto."
+    },
+    {
+      "id": "CE-T9-012",
+      "articulo": "art. 164",
+      "titulo": "Efectos de las sentencias del TC: cosa juzgada, BOE y plenos efectos frente a todos",
+      "resumen": "Las sentencias del TC se publican en el BOE con los votos particulares, tienen valor de cosa juzgada desde el día siguiente a su publicación, no cabe recurso contra ellas y las que declaran la inconstitucionalidad tienen plenos efectos frente a todos.",
+      "explicacion": "El artículo 164 fija los efectos de las sentencias. Se publican en el boletín oficial del Estado con los votos particulares si los hubiere; tienen valor de cosa juzgada a partir del día siguiente de su publicación y contra ellas no cabe recurso alguno. Las que declaren la inconstitucionalidad de una ley o norma con fuerza de ley, y todas las que no se limiten a la estimación subjetiva de un derecho, tienen plenos efectos frente a todos (efecto erga omnes). Además, salvo que el fallo diga otra cosa, subsiste la vigencia de la ley en la parte no afectada. Datos clave: publicación en BOE, cosa juzgada al día siguiente, irrecurribilidad y eficacia frente a todos."
+    },
+    {
+      "id": "CE-T9-013",
+      "articulo": "art. 165",
+      "titulo": "Ley orgánica del Tribunal Constitucional",
+      "resumen": "Una ley orgánica regula el funcionamiento del TC, el estatuto de sus miembros, el procedimiento ante él y las condiciones para el ejercicio de las acciones.",
+      "explicacion": "El artículo 165 cierra el Título IX con una reserva de ley orgánica: una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones. Este mandato se cumple con la Ley Orgánica 2/1979, del Tribunal Constitucional (LOTC). Idea clave para test: la Constitución fija lo esencial del TC, pero remite su desarrollo a ley orgánica, no a ley ordinaria ni a reglamento."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CE-T9-001",
+      "articulo": "art. 159",
+      "tipo": "test",
+      "enunciado": "Según el artículo 159.1 CE, ¿por cuántos miembros se compone el Tribunal Constitucional y quién los nombra?",
+      "opciones": [
+        "10 miembros nombrados por el Congreso",
+        "12 miembros nombrados por el Rey",
+        "15 miembros nombrados por el Consejo General del Poder Judicial",
+        "20 miembros nombrados por el Gobierno"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El Tribunal Constitucional se compone de 12 miembros nombrados por el Rey",
+      "justificacion": "Art. 159 CE."
+    },
+    {
+      "concepto_id": "CE-T9-002",
+      "articulo": "art. 159",
+      "tipo": "test",
+      "enunciado": "De los 12 miembros del TC, ¿cuántos y a propuesta de qué órgano se nombran los que no proponen las Cámaras ni el Gobierno?",
+      "opciones": [
+        "tres a propuesta del Consejo General del Poder Judicial",
+        "cuatro a propuesta del Gobierno",
+        "dos a propuesta del Consejo General del Poder Judicial",
+        "uno a propuesta del Tribunal Supremo"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial",
+      "justificacion": "Art. 159 CE."
+    },
+    {
+      "concepto_id": "CE-T9-003",
+      "articulo": "art. 159",
+      "tipo": "test",
+      "enunciado": "¿Qué experiencia profesional exige el artículo 159.2 CE a los miembros del TC?",
+      "opciones": [
+        "más de diez años de ejercicio profesional",
+        "más de quince años de ejercicio profesional",
+        "más de veinte años de ejercicio profesional",
+        "más de cinco años de ejercicio profesional"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "juristas de reconocida competencia con más de quince años de ejercicio profesional",
+      "justificacion": "Art. 159 CE."
+    },
+    {
+      "concepto_id": "CE-T9-004",
+      "articulo": "art. 159",
+      "tipo": "test",
+      "enunciado": "¿Cómo se renueva el Tribunal Constitucional según el artículo 159.3 CE?",
+      "opciones": [
+        "por completo cada nueve años",
+        "por mitades cada cuatro años",
+        "por terceras partes cada tres",
+        "por cuartas partes cada dos años"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "serán designados por un período de nueve años y se renovarán por terceras partes cada tres",
+      "justificacion": "Art. 159 CE."
+    },
+    {
+      "concepto_id": "CE-T9-005",
+      "articulo": "art. 159",
+      "tipo": "test",
+      "enunciado": "La condición de miembro del TC, según el artículo 159.4 CE, es incompatible, entre otras cosas, con:",
+      "opciones": [
+        "con la condición de jurista de reconocida competencia",
+        "con todo mandato representativo",
+        "con la nacionalidad española",
+        "con haber ejercido la abogacía"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La condición de miembro del Tribunal Constitucional es incompatible: con todo mandato representativo",
+      "justificacion": "Art. 159 CE."
+    },
+    {
+      "concepto_id": "CE-T9-006",
+      "articulo": "art. 159",
+      "tipo": "test",
+      "enunciado": "¿Qué garantías reconoce el artículo 159.5 CE a los miembros del Tribunal Constitucional?",
+      "opciones": [
+        "serán retribuidos y vitalicios en el cargo",
+        "serán responsables políticamente ante las Cortes",
+        "serán independientes e inamovibles en el ejercicio de su mandato",
+        "serán reelegibles de forma indefinida"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Los miembros del Tribunal Constitucional serán independientes e inamovibles en el ejercicio de su mandato",
+      "justificacion": "Art. 159 CE."
+    },
+    {
+      "concepto_id": "CE-T9-007",
+      "articulo": "art. 160",
+      "tipo": "test",
+      "enunciado": "Según el artículo 160 CE, ¿por cuánto tiempo se nombra al Presidente del Tribunal Constitucional?",
+      "opciones": [
+        "por un período de tres años",
+        "por un período de cinco años",
+        "por un período de nueve años",
+        "por un período de dos años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.",
+      "justificacion": "Art. 160 CE."
+    },
+    {
+      "concepto_id": "CE-T9-008",
+      "articulo": "art. 161",
+      "tipo": "test",
+      "enunciado": "¿De cuál de los siguientes recursos es competente el Tribunal Constitucional conforme al artículo 161.1.b) CE?",
+      "opciones": [
+        "recurso de casación por infracción de ley procesal",
+        "recurso de amparo por violación de los derechos y libertades referidos en el artículo 53, 2",
+        "recurso de apelación contra sentencias penales",
+        "recurso de alzada en vía administrativa"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Del recurso de amparo por violación de los derechos y libertades referidos en el artículo 53, 2, de esta Constitución, en los casos y formas que la ley establezca.",
+      "justificacion": "Art. 161 CE."
+    },
+    {
+      "concepto_id": "CE-T9-009",
+      "articulo": "art. 161",
+      "tipo": "test",
+      "enunciado": "Cuando el Gobierno impugna una disposición autonómica y se produce su suspensión, ¿en qué plazo debe el TC ratificarla o levantarla según el artículo 161.2 CE?",
+      "opciones": [
+        "en un plazo no superior a tres meses",
+        "en un plazo no superior a seis meses",
+        "en un plazo no superior a cinco meses",
+        "en un plazo no superior a un año"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "deberá ratificarla o levantarla en un plazo no superior a cinco meses",
+      "justificacion": "Art. 161 CE."
+    },
+    {
+      "concepto_id": "CE-T9-010",
+      "articulo": "art. 162",
+      "tipo": "test",
+      "enunciado": "Según el artículo 162.1.a) CE, ¿qué número de parlamentarios está legitimado para interponer el recurso de inconstitucionalidad?",
+      "opciones": [
+        "25 Diputados, 25 Senadores",
+        "50 Diputados, 50 Senadores",
+        "100 Diputados, 100 Senadores",
+        "tres quintos de Diputados y Senadores"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas",
+      "justificacion": "Art. 162 CE."
+    },
+    {
+      "concepto_id": "CE-T9-011",
+      "articulo": "art. 163",
+      "tipo": "test",
+      "enunciado": "Según el artículo 163 CE, los efectos con que el órgano judicial plantea la cuestión de inconstitucionalidad:",
+      "opciones": [
+        "siempre suspenderán el proceso principal",
+        "que en ningún caso serán suspensivos",
+        "producirán la nulidad automática de la ley",
+        "obligarán al TC a resolver en tres meses"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.",
+      "justificacion": "Art. 163 CE."
+    },
+    {
+      "concepto_id": "CE-T9-012",
+      "articulo": "art. 164",
+      "tipo": "test",
+      "enunciado": "¿Desde cuándo tienen valor de cosa juzgada las sentencias del Tribunal Constitucional según el artículo 164.1 CE?",
+      "opciones": [
+        "desde la fecha de la deliberación del Pleno",
+        "a partir del día siguiente de su publicación",
+        "transcurridos veinte días desde su notificación",
+        "desde su firmeza tras el recurso de súplica"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Tienen el valor de cosa juzgada a partir del día siguiente de su publicación y no cabe recurso alguno contra ellas.",
+      "justificacion": "Art. 164 CE."
+    },
+    {
+      "concepto_id": "CE-T9-013",
+      "articulo": "art. 165",
+      "tipo": "test",
+      "enunciado": "Según el artículo 165 CE, ¿qué tipo de norma regula el funcionamiento del TC y el estatuto de sus miembros?",
+      "opciones": [
+        "Una ley ordinaria",
+        "Un real decreto del Gobierno",
+        "Una ley orgánica",
+        "El reglamento interno del propio Tribunal"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
+      "justificacion": "Art. 165 CE."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CE-T9-002",
+      "destino": "CE-T9-001",
+      "tipo": "desarrolla",
+      "justificacion": "El reparto de propuestas (4-4-2-2) concreta la composición de 12 miembros que fija el art. 159.1."
+    },
+    {
+      "origen": "CE-T9-007",
+      "destino": "CE-T9-001",
+      "tipo": "prerrequisito",
+      "justificacion": "El Presidente se nombra entre los miembros del TC, cuya composición establece el art. 159; sin miembros no hay Presidente."
+    },
+    {
+      "origen": "CE-T9-008",
+      "destino": "CE-T9-001",
+      "tipo": "prerrequisito",
+      "justificacion": "El ejercicio de las competencias del art. 161 presupone el órgano ya constituido conforme al art. 159."
+    },
+    {
+      "origen": "CE-T9-010",
+      "destino": "CE-T9-008",
+      "tipo": "desarrolla",
+      "justificacion": "La legitimación del art. 162 concreta quién puede activar las competencias enumeradas en el art. 161."
+    },
+    {
+      "origen": "CE-T9-011",
+      "destino": "CE-T9-008",
+      "tipo": "desarrolla",
+      "justificacion": "La cuestión de inconstitucionalidad del art. 163 desarrolla la vía de control de constitucionalidad de las leyes del art. 161.1.a)."
+    },
+    {
+      "origen": "CE-T9-012",
+      "destino": "CE-T9-008",
+      "tipo": "desarrolla",
+      "justificacion": "Los efectos de las sentencias del art. 164 desarrollan las consecuencias del ejercicio de las competencias del art. 161."
+    },
+    {
+      "origen": "CE-T9-013",
+      "destino": "CE-T9-001",
+      "tipo": "remite",
+      "justificacion": "El art. 165 remite a ley orgánica el funcionamiento del TC y el estatuto de sus miembros configurados en el art. 159."
+    },
+    {
+      "origen": "CE-T9-008",
+      "destino": "CE-T1-073",
+      "tipo": "desarrolla",
+      "justificacion": "El recurso de amparo constitucional del art. 161.1.b) es la garantía jurisdiccional que desarrolla el recurso de amparo de los derechos fundamentales."
+    },
+    {
+      "origen": "CE-T9-008",
+      "destino": "CE-T6-013",
+      "tipo": "limita",
+      "justificacion": "El TC no integra la jurisdicción ordinaria; se delimita frente al Tribunal Supremo, órgano superior de ésta salvo en garantías constitucionales."
+    },
+    {
+      "origen": "CE-T9-002",
+      "destino": "CE-T6-012",
+      "tipo": "remite",
+      "justificacion": "La propuesta parlamentaria de miembros del TC exige mayoría de tres quintos, mismo esquema reforzado que en la composición del CGPJ."
+    }
+  ]
+}
