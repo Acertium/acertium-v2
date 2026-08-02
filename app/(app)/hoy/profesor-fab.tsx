@@ -1,23 +1,23 @@
 "use client";
 
-import { useState, type CSSProperties, type FormEvent } from "react";
+import {
+  useState,
+  useTransition,
+  type CSSProperties,
+  type FormEvent,
+} from "react";
+import { accionPreguntarProfesor } from "./profesor-actions";
+import type { RespuestaProfesor } from "@/lib/profesor-data";
 
-type Mensaje = { de: "profesor" | "tu"; texto: string };
+type Mensaje =
+  | { de: "tu"; texto: string }
+  | { de: "profesor"; texto: string; tarjetas?: RespuestaProfesor[] };
 
 const MENSAJES_EJEMPLO: Mensaje[] = [
   {
     de: "profesor",
     texto:
-      "Hola. Soy tu profesor. Pregúntame lo que no entiendas del temario y te lo explico con calma.",
-  },
-  {
-    de: "tu",
-    texto: "¿Qué diferencia hay entre derechos y libertades en la Constitución?",
-  },
-  {
-    de: "profesor",
-    texto:
-      "Buena pregunta. En cuanto conecte con el temario te lo desgloso artículo por artículo. (Aún estoy en construcción.)",
+      "Hola. Soy tu profesor. Pregúntame sobre el temario y te enseño lo que dice la normativa.",
   },
 ];
 
@@ -27,20 +27,36 @@ export default function ProfesorFab() {
   const [abierto, setAbierto] = useState(false);
   const [mensajes, setMensajes] = useState<Mensaje[]>(MENSAJES_EJEMPLO);
   const [texto, setTexto] = useState("");
+  const [pending, start] = useTransition();
 
   function enviar(e: FormEvent) {
     e.preventDefault();
     const t = texto.trim();
-    if (!t) return;
-    setMensajes((m) => [
-      ...m,
-      { de: "tu", texto: t },
-      {
-        de: "profesor",
-        texto: "Todavía no puedo responder de verdad, pero pronto lo haré.",
-      },
-    ]);
+    if (!t || pending) return;
+    setMensajes((m) => [...m, { de: "tu", texto: t }]);
     setTexto("");
+    start(async () => {
+      const res = await accionPreguntarProfesor(t);
+      setMensajes((m) =>
+        res.length === 0
+          ? [
+              ...m,
+              {
+                de: "profesor",
+                texto:
+                  "No he encontrado nada sobre eso en el temario; prueba con otras palabras.",
+              },
+            ]
+          : [
+              ...m,
+              {
+                de: "profesor",
+                texto: "Esto es lo que dice la normativa:",
+                tarjetas: res,
+              },
+            ],
+      );
+    });
   }
 
   const fabStyle: CSSProperties = {
@@ -129,7 +145,9 @@ export default function ProfesorFab() {
                   >
                     Profesor
                   </p>
-                  <p className="mt-1 text-xs text-muted">Pronto disponible</p>
+                  <p className="mt-1 text-xs text-muted">
+                    Respuestas basadas en el temario verificado
+                  </p>
                 </div>
               </div>
               <button
@@ -144,26 +162,82 @@ export default function ProfesorFab() {
 
             {/* Mensajes */}
             <div className="flex-1 space-y-3 overflow-y-auto px-5 py-5">
-              {mensajes.map((m, i) => (
-                <div
-                  key={i}
-                  className={
-                    m.de === "tu"
-                      ? "ml-auto max-w-[80%] rounded-2xl rounded-br-md px-4 py-2.5 text-[15px] leading-relaxed"
-                      : "mr-auto max-w-[80%] rounded-2xl rounded-bl-md px-4 py-2.5 text-[15px] leading-relaxed"
-                  }
-                  style={
-                    m.de === "tu"
-                      ? { background: "var(--color-primary)", color: "#fff" }
-                      : {
+              {mensajes.map((m, i) =>
+                m.de === "tu" ? (
+                  <div
+                    key={i}
+                    className="ml-auto max-w-[80%] rounded-2xl rounded-br-md px-4 py-2.5 text-[15px] leading-relaxed"
+                    style={{ background: "var(--color-primary)", color: "#fff" }}
+                  >
+                    {m.texto}
+                  </div>
+                ) : (
+                  <div key={i} className="mr-auto max-w-[92%] space-y-2">
+                    <div
+                      className="w-fit rounded-2xl rounded-bl-md px-4 py-2.5 text-[15px] leading-relaxed"
+                      style={{
+                        background: "var(--color-surface)",
+                        border: `1px solid ${superficie}`,
+                      }}
+                    >
+                      {m.texto}
+                    </div>
+                    {m.tarjetas?.map((t) => (
+                      <article
+                        key={t.conceptoId}
+                        className="rounded-2xl border p-4"
+                        style={{
                           background: "var(--color-surface)",
-                          border: `1px solid ${superficie}`,
-                        }
-                  }
+                          borderColor: superficie,
+                        }}
+                      >
+                        <h3
+                          className="text-[15px] font-semibold leading-snug"
+                          style={{ fontFamily: "var(--font-display)" }}
+                        >
+                          {t.titulo}
+                        </h3>
+                        {t.explicacion && (
+                          <p className="mt-1.5 text-[15px] leading-relaxed">
+                            {t.explicacion}
+                          </p>
+                        )}
+                        {(t.articulo || t.boeUrl) && (
+                          <p className="mt-2 text-sm text-muted">
+                            Fuente: {t.articulo ?? "normativa"}
+                            {t.boeUrl && (
+                              <>
+                                {" · "}
+                                <a
+                                  href={t.boeUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="underline"
+                                  style={{ color: "var(--color-primary-dark)" }}
+                                >
+                                  Abrir en el BOE ↗
+                                </a>
+                              </>
+                            )}
+                          </p>
+                        )}
+                      </article>
+                    ))}
+                  </div>
+                ),
+              )}
+
+              {pending && (
+                <div
+                  className="mr-auto w-fit rounded-2xl rounded-bl-md px-4 py-2.5 text-[15px] text-muted"
+                  style={{
+                    background: "var(--color-surface)",
+                    border: `1px solid ${superficie}`,
+                  }}
                 >
-                  {m.texto}
+                  Buscando en el temario…
                 </div>
-              ))}
+              )}
             </div>
 
             {/* Entrada */}
@@ -188,7 +262,8 @@ export default function ProfesorFab() {
               <button
                 type="submit"
                 aria-label="Enviar"
-                className="flex h-12 w-12 items-center justify-center rounded-full"
+                disabled={pending}
+                className="flex h-12 w-12 items-center justify-center rounded-full disabled:opacity-60"
                 style={{ background: "var(--color-primary)", color: "#fff" }}
               >
                 <svg

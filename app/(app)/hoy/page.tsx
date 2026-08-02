@@ -95,8 +95,9 @@ export default async function HoyPage() {
         </Link>
       </section>
 
-      {/* Acceso a simulacro (placeholder) */}
-      <section
+      {/* Acceso a simulacro */}
+      <Link
+        href="/simulacro"
         className="mt-4 flex items-center justify-between rounded-2xl border p-5"
         style={{ background: "var(--color-surface)", borderColor: borde }}
       >
@@ -108,7 +109,7 @@ export default async function HoyPage() {
             Haz un simulacro
           </h2>
           <p className="mt-1 text-sm leading-relaxed text-muted">
-            Examen cronometrado como el día real. Pronto disponible.
+            Examen cronometrado como el día real.
           </p>
         </div>
         <span
@@ -118,9 +119,9 @@ export default async function HoyPage() {
             color: "var(--color-primary-dark)",
           }}
         >
-          Pronto
+          Empezar
         </span>
-      </section>
+      </Link>
 
       <ProfesorFab />
     </main>

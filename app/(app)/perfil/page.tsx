@@ -1,6 +1,34 @@
+import { resumenHoy } from "@/lib/cerebro";
+
+export const dynamic = "force-dynamic";
+
 const borde = "color-mix(in srgb, var(--color-fg) 12%, transparent)";
 
-export default function PerfilPage() {
+function Dato({ valor, etiqueta }: { valor: string; etiqueta: string }) {
+  return (
+    <div
+      className="flex flex-1 flex-col items-center justify-center rounded-2xl border px-3 py-4"
+      style={{ background: "var(--color-surface)", borderColor: borde }}
+    >
+      <span
+        className="text-2xl font-bold"
+        style={{ color: "var(--color-primary)", fontFamily: "var(--font-display)" }}
+      >
+        {valor}
+      </span>
+      <span className="mt-1 text-center text-xs text-muted">{etiqueta}</span>
+    </div>
+  );
+}
+
+export default async function PerfilPage() {
+  let resumen: Awaited<ReturnType<typeof resumenHoy>> | null = null;
+  try {
+    resumen = await resumenHoy();
+  } catch {
+    resumen = null;
+  }
+
   return (
     <main className="mx-auto max-w-xl px-5 py-8">
       <header className="mb-6">
@@ -10,12 +38,10 @@ export default function PerfilPage() {
         >
           Perfil
         </h1>
-        <p className="mt-1 text-sm text-muted">
-          Tu progreso y tus ajustes. Aún en construcción.
-        </p>
+        <p className="mt-1 text-sm text-muted">Tu progreso y tus ajustes.</p>
       </header>
 
-      {/* Resumen */}
+      {/* Tarjeta de usuario */}
       <section
         className="flex items-center gap-4 rounded-2xl border p-5"
         style={{ background: "var(--color-surface)", borderColor: borde }}
@@ -41,9 +67,29 @@ export default function PerfilPage() {
         </div>
       </section>
 
-      {/* Ajustes placeholder */}
-      <ul className="mt-4 space-y-3">
-        {["Mi oposición", "Notificaciones", "Suscripción", "Ayuda"].map(
+      {/* Estadísticas reales */}
+      {resumen && (
+        <section className="mt-4">
+          <h2 className="mb-2 text-sm font-semibold text-muted">Tu progreso</h2>
+          <div className="flex gap-3">
+            <Dato
+              valor={`${resumen.dominados}/${resumen.totalConceptos}`}
+              etiqueta="conceptos dominados"
+            />
+            <Dato valor={`${resumen.practicados}`} etiqueta="practicados" />
+            <Dato
+              valor={
+                resumen.aciertoPct == null ? "—" : `${resumen.aciertoPct}%`
+              }
+              etiqueta="acierto"
+            />
+          </div>
+        </section>
+      )}
+
+      {/* Ajustes */}
+      <ul className="mt-5 space-y-3">
+        {["Mi oposición", "Fecha de examen", "Notificaciones", "Ayuda"].map(
           (item) => (
             <li
               key={item}
