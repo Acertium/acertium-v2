@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition, type CSSProperties } from "react";
+import { useState, useTransition, useRef, type CSSProperties } from "react";
 import { accionResponder, accionSiguiente } from "./actions";
 import type { ActividadPublica, Resultado } from "@/lib/cerebro";
 
@@ -13,12 +13,14 @@ export default function PracticaRunner({
   const [elegido, setElegido] = useState<number | null>(null);
   const [resultado, setResultado] = useState<Resultado | null>(null);
   const [pending, start] = useTransition();
+  const inicioRef = useRef<number>(Date.now());
 
   function responder(indice: number) {
     if (resultado || pending) return;
     setElegido(indice);
+    const ms = Date.now() - inicioRef.current;
     start(async () => {
-      const r = await accionResponder(actividad.id, indice);
+      const r = await accionResponder(actividad.id, indice, ms);
       setResultado(r);
     });
   }
@@ -30,6 +32,7 @@ export default function PracticaRunner({
         setActividad(a);
         setElegido(null);
         setResultado(null);
+        inicioRef.current = Date.now();
       }
     });
   }
@@ -73,12 +76,31 @@ export default function PracticaRunner({
 
       {resultado && (
         <div className="mt-4 rounded-2xl border p-5" style={{ background: "var(--color-surface)", borderColor: "color-mix(in srgb, var(--color-fg) 12%, transparent)" }}>
-          <p className="mb-1 font-medium" style={{ color: resultado.acierto ? "var(--color-success)" : "var(--color-danger)" }}>
+          <p className="mb-2 font-medium" style={{ color: resultado.acierto ? "var(--color-success)" : "var(--color-danger)" }}>
             {resultado.acierto ? "Correcto." : `Era: ${resultado.correcta ?? "—"}.`}
           </p>
-          <p className="text-sm leading-relaxed text-muted">
-            <span className="text-muted">Fuente:</span> «{resultado.cotejo}»
-          </p>
+
+          {resultado.explicacion && (
+            <p className="text-[15px] leading-relaxed">{resultado.explicacion}</p>
+          )}
+
+          <details className="mt-3">
+            <summary className="cursor-pointer text-sm" style={{ color: "var(--color-primary-dark)" }}>
+              Ver fuente{resultado.articulo ? ` · ${resultado.articulo}` : ""}
+            </summary>
+            <p className="mt-2 text-sm leading-relaxed text-muted">«{resultado.cotejo}»</p>
+            {resultado.boeUrl && (
+              <a
+                href={resultado.boeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 inline-block text-sm underline"
+                style={{ color: "var(--color-primary-dark)" }}
+              >
+                Abrir en el BOE ↗
+              </a>
+            )}
+          </details>
 
           <div className="mt-4">
             <div className="mb-1 flex items-center justify-between text-xs text-muted">

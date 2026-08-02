@@ -34,17 +34,31 @@ export type Resultado = {
   acierto: boolean;
   correctaIndice: number | null;
   correcta: string | null;
+  explicacion: string | null;
   cotejo: string;
   justificacion: string;
+  articulo: string | null;
+  boeUrl: string | null;
   absorcion: number;
   conceptoTitulo: string;
 };
+
+// Enlace al texto consolidado del BOE, con ancla al artículo (#aN). La URL base
+// está verificada; el ancla es la convención estándar del BOE y degrada sin
+// romperse. (Adaptador legal — Doc 006.)
+function boeUrl(referencia: string | null, articulo: string | null): string | null {
+  if (!referencia) return null;
+  const base = `https://www.boe.es/buscar/act.php?id=${referencia}`;
+  const m = articulo?.match(/(\d+)/);
+  return m ? `${base}#a${m[1]}` : base;
+}
 
 // Corrige en el servidor, registra el evento (log = fuente de verdad),
 // recomputa el estado de dominio del concepto con el motor y lo persiste.
 export async function responder(
   actividadId: string,
   indiceElegido: number,
+  tiempoMs?: number,
 ): Promise<Resultado> {
   const db = createCerebroClient();
 
@@ -60,13 +74,14 @@ export async function responder(
   const acierto = correctaIndice !== null && indiceElegido === correctaIndice;
   const ahora = new Date();
 
-  // 1) evento append-only
+  // 1) evento append-only (con tiempo de respuesta, señal futura)
   await db.from("evento").insert({
     usuario_id: DEMO_USUARIO_ID,
     concepto_id: act.concepto_id,
     actividad_id: act.id,
     fecha: ahora.toISOString(),
     acierto,
+    tiempo_respuesta_ms: tiempoMs ?? null,
   });
 
   // 2) recomputar el estado del concepto desde TODO su log
@@ -110,18 +125,28 @@ export async function responder(
 
   const abs = absorcion(estado, ahora.getTime() / DIA_MS);
 
+  // concepto (título + explicación pedagógica) y su fuente principal (para el enlace)
   const { data: c } = await db
     .from("concepto")
-    .select("titulo")
+    .select("titulo, explicacion")
     .eq("id", act.concepto_id)
     .single();
+  const { data: f } = await db
+    .from("concepto_fuente")
+    .select("articulo, referencia_boe")
+    .eq("concepto_id", act.concepto_id)
+    .limit(1)
+    .maybeSingle();
 
   return {
     acierto,
     correctaIndice,
     correcta,
+    explicacion: c?.explicacion ?? null,
     cotejo: act.cotejo_fuente,
     justificacion: act.justificacion,
+    articulo: f?.articulo ?? null,
+    boeUrl: boeUrl(f?.referencia_boe ?? null, f?.articulo ?? null),
     absorcion: abs,
     conceptoTitulo: c?.titulo ?? act.concepto_id,
   };
