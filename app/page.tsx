@@ -54,6 +54,13 @@ export default function Home() {
       <p className="text-sm text-muted">
         Estamos construyendo la nueva Acertium. Llega pronto.
       </p>
+      <a
+        href="/practicar"
+        className="rounded-xl px-5 py-3 text-[15px] font-medium"
+        style={{ background: "var(--color-primary)", color: "#fff" }}
+      >
+        Probar una pregunta
+      </a>
     </main>
   );
 }

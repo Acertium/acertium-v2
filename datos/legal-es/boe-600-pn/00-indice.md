@@ -1,25 +1,28 @@
 # BOE-600 · Normativa PN — corpus por norma
 
-Cada PDF = una norma (§) del Código electrónico 600. Fuente bruta completa en `../_fuentes-brutas/`.
+Cada PDF = una norma (§) del Código electrónico 600, más el comienzo oficial (portada, sumario, índice, §1). Fuente bruta completa en `../_fuentes-brutas/`. El comienzo oficial (páginas 1-34) lo aportó Jonathan partido fino; sustituyó a una extracción provisional mía (movida a `../_fuentes-brutas/_descartes/`).
 
 | # | Archivo | Págs (PDF) | Norma | Referencia BOE |
 |---|---------|-----------|-------|----------------|
-| 00 | `00-portada-sumario-introduccion.pdf` | 1-34 | Portada, sumario e introducción |  |
-| 02 | `02-codigo-civil-parcial.pdf` | 35-70 | Código Civil [inclusión parcial] | BOE-A-1889-4763 |
-| 03 | `03-constitucion-espanola.pdf` | 71-107 | Constitución Española | BOE-A-1978-31229 |
-| 04 | `04-lo-2-1979-tribunal-constitucional.pdf` | 108-135 | LO 2/1979 del Tribunal Constitucional | BOE-A-1979-23709 |
-| 05 | `05-lo-3-1981-defensor-del-pueblo.pdf` | 136-145 | LO 3/1981 del Defensor del Pueblo | BOE-A-1981-10325 |
-| 06 | `06-lo-4-1981-estados-alarma-excepcion-sitio.pdf` | 146-153 | LO 4/1981 de los estados de alarma, excepción y sitio | BOE-A-1981-12774 |
-| 07 | `07-lo-9-2021-reglamento-ue-fronteras.pdf` | 154-161 | LO 9/2021 (aplicación Reglamento UE Guardia Europea de Fronteras y Costas) | BOE-A-2021-10957 |
-| 08 | `08-ley-40-2015-regimen-juridico-sector-publico.pdf` | 162-252 | Ley 40/2015 de Régimen Jurídico del Sector Público | BOE-A-2015-10566 |
-| 09 | `09-ley-50-1997-del-gobierno.pdf` | 253-269 | Ley 50/1997 del Gobierno | BOE-A-1997-25336 |
+| — | `00-portada.pdf` | 1-2 | Portada del Código | |
+| — | `00-sumario.pdf` | 3-6 | Sumario (índice por §) | |
+| — | `00-indice-sistematico.pdf` | 7-32 | Índice sistemático + anexo (normativa no consolidada) | |
+| 1 | `01-introduccion.pdf` | 33-34 | Introducción | |
+| 2 | `02-codigo-civil-parcial.pdf` | 35-70 | Código Civil [inclusión parcial] | BOE-A-1889-4763 |
+| 3 | `03-constitucion-espanola.pdf` | 71-107 | Constitución Española | BOE-A-1978-31229 |
+| 4 | `04-lo-2-1979-tribunal-constitucional.pdf` | 108-135 | LO 2/1979 del Tribunal Constitucional | BOE-A-1979-23709 |
+| 5 | `05-lo-3-1981-defensor-del-pueblo.pdf` | 136-145 | LO 3/1981 del Defensor del Pueblo | BOE-A-1981-10325 |
+| 6 | `06-lo-4-1981-estados-alarma-excepcion-sitio.pdf` | 146-153 | LO 4/1981 de los estados de alarma, excepción y sitio | BOE-A-1981-12774 |
+| 7 | `07-lo-9-2021-reglamento-ue-fronteras.pdf` | 154-161 | LO 9/2021 (aplicación Reglamento UE Guardia Europea de Fronteras y Costas) | BOE-A-2021-10957 |
+| 8 | `08-ley-40-2015-regimen-juridico-sector-publico.pdf` | 162-252 | Ley 40/2015 de Régimen Jurídico del Sector Público | BOE-A-2015-10566 |
+| 9 | `09-ley-50-1997-del-gobierno.pdf` | 253-269 | Ley 50/1997 del Gobierno | BOE-A-1997-25336 |
 | 10 | `10-rdleg-5-2015-ebep.pdf` | 270-289 | RD Leg. 5/2015 (Estatuto Básico del Empleado Público) | BOE-A-2015-11719 |
-| 11 | `11-estructura-organica-ministerio-interior.pdf` | 290-322 | Estructura orgánica básica del Ministerio del Interior |  |
+| 11 | `11-estructura-organica-ministerio-interior.pdf` | 290-322 | Estructura orgánica básica del Ministerio del Interior | |
 | 12 | `12-orden-int-859-2023-estructura-interior.pdf` | 323-355 | Orden INT/859/2023 (desarrollo estructura Interior) | BOE-A-2023-17072 |
 | 13 | `13-lo-9-2015-regimen-personal-policia-nacional.pdf` | 356-396 | LO 9/2015 de Régimen de Personal de la Policía Nacional | BOE-A-2015-8468 |
 | 14 | `14-lo-4-2010-regimen-disciplinario-policia.pdf` | 397-415 | LO 4/2010 del Régimen disciplinario del CNP | BOE-A-2010-8115 |
 | 15 | `15-rd-853-2022-procesos-selectivos-formacion.pdf` | 416-442 | RD 853/2022 (procesos selectivos y formación PN) | BOE-A-2022-16582 |
-| 16 | `16-desarrollo-procesos-selectivos-formacion.pdf` | 443-463 | Aplicación y desarrollo del Reglamento de procesos selectivos y formación |  |
+| 16 | `16-desarrollo-procesos-selectivos-formacion.pdf` | 443-463 | Aplicación y desarrollo del Reglamento de procesos selectivos y formación | |
 | 17 | `17-orden-int-430-2014.pdf` | 464-507 | Orden INT/430/2014 | BOE-A-2014-2997 |
 | 18 | `18-rd-49-2024.pdf` | 508-528 | RD 49/2024 | BOE-A-2024-814 |
 | 19 | `19-lo-2-1986-fuerzas-cuerpos-seguridad.pdf` | 529-555 | LO 2/1986 de Fuerzas y Cuerpos de Seguridad | BOE-A-1986-6859 |
@@ -44,7 +47,7 @@ Cada PDF = una norma (§) del Código electrónico 600. Fuente bruta completa en
 | 38 | `38-lo-6-1984-habeas-corpus.pdf` | 1221-1225 | LO 6/1984 (habeas corpus) | BOE-A-1984-11620 |
 | 39 | `39-ley-50-1981-estatuto-ministerio-fiscal.pdf` | 1226-1243 | Ley 50/1981 (Estatuto Orgánico del Ministerio Fiscal) | BOE-A-1982-837 |
 | 40 | `40-ley-4-2015-estatuto-victima-delito.pdf` | 1244-1262 | Ley 4/2015 del Estatuto de la víctima del delito | BOE-A-2015-4606 |
-| 41 | `41-lo-1-2004-violencia-genero.pdf` | 1263-1292 | LO 1/2004 de Medidas de Protección contra la Violencia de Género | BOE-A-2004-21760 |
+| 41 | `41-lo-1-2004-violencia-genero.pdf` | 1263-1292 | LO 1/2004 de Protección contra la Violencia de Género | BOE-A-2004-21760 |
 | 42 | `42-lo-3-2007-igualdad-mujeres-hombres.pdf` | 1293-1320 | LO 3/2007 para la igualdad efectiva de mujeres y hombres | BOE-A-2007-6115 |
 | 43 | `43-ley-4-2023-igualdad-trans-lgtbi.pdf` | 1321-1356 | Ley 4/2023 para la igualdad real y efectiva de las personas trans y LGTBI | BOE-A-2023-5366 |
 | 44 | `44-ley-31-1995-prevencion-riesgos-laborales.pdf` | 1357-1394 | Ley 31/1995 de Prevención de Riesgos Laborales | BOE-A-1995-24292 |
@@ -54,6 +57,6 @@ Cada PDF = una norma (§) del Código electrónico 600. Fuente bruta completa en
 | 48 | `48-lo-7-2021-proteccion-datos-penal.pdf` | 1477-1514 | LO 7/2021 de protección de datos (ámbito penal) | BOE-A-2021-8806 |
 | 49 | `49-reglamento-defensor-del-pueblo.pdf` | 1515-1516 | Reglamento de Organización y Funcionamiento del Defensor del Pueblo | BOE-A-1983-10613 |
 | 50 | `50-rd-137-1993-reglamento-armas.pdf` | 1517-1607 | RD 137/1993 (Reglamento de Armas) | BOE-A-1993-6202 |
-| 51 | `51-reglamento-general-vehiculos-parcial.pdf` | 1608-1614 | Reglamento General de Vehículos [parcial] |  |
+| 51 | `51-reglamento-general-vehiculos-parcial.pdf` | 1608-1614 | Reglamento General de Vehículos [parcial] | |
 | 52 | `52-rd-1428-2003-reglamento-general-circulacion.pdf` | 1615-1617 | RD 1428/2003 (Reglamento General de Circulación) | BOE-A-2003-23514 |
 | 53 | `53-orden-int-2573-2015.pdf` | 1618-1625 | Orden INT/2573/2015 | BOE-A-2015-13138 |
