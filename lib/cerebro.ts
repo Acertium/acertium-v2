@@ -85,7 +85,7 @@ export async function responder(
     .in("id", ids);
   const tipoDe = new Map((acts ?? []).map((a) => [a.id, a.tipo]));
 
-  const estado = crearEstado() as {
+  const estado = crearEstado() as unknown as {
     L: number;
     tau: number;
     lastSeen: number;
