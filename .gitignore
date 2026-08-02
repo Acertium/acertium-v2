@@ -1,0 +1,20 @@
+# deps y build
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# secretos (NUNCA subir)
+.env
+.env.local
+.env*.local
+
+# corpus pesado: fuente local; el runtime lee el cerebro desde Supabase.
+# (los .md de índice y los .json de trabajo SÍ se versionan)
+datos/**/*.pdf
+prototipos/*.html
+prototipos/_descartes/
+
+# sistema
+.DS_Store

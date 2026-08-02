@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------
+ * Acertium — paleta y tipografía (idénticas a V1; ver marca/BRAND.md).
+ * Modo oscuro por prefers-color-scheme (Tailwind v4). Sin JS, sin FOUC.
+ * --------------------------------------------------------------------- */
+
+:root {
+  --color-bg: #f4f2ec;
+  --color-surface: #ffffff;
+  --color-fg: #2c2c2a;
+  --color-muted: #6b6a64;
+
+  --color-primary: #1d9e75;
+  --color-primary-dark: #0f6e56;
+  --color-primary-soft: #e1f5ee;
+
+  --color-success: #2e9e6b;
+  --color-success-bg: #e5f4ec;
+  --color-danger: #d9694b;
+  --color-danger-bg: #faeae4;
+  --color-danger-fg: #a33d26;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1f1f1d;
+    --color-surface: #2a2a28;
+    --color-fg: #e1f5ee;
+    --color-muted: #9fa29b;
+
+    --color-primary: #5dcaa5;
+    --color-primary-dark: #5dcaa5;
+    --color-primary-soft: #04342c;
+
+    --color-success: #4cc38a;
+    --color-success-bg: #0f3a28;
+    --color-danger: #e89178;
+    --color-danger-bg: #3a1810;
+    --color-danger-fg: #faeae4;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-fg: var(--color-fg);
+  --color-muted: var(--color-muted);
+
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-primary-soft: var(--color-primary-soft);
+
+  --color-success: var(--color-success);
+  --color-success-bg: var(--color-success-bg);
+  --color-danger: var(--color-danger);
+  --color-danger-bg: var(--color-danger-bg);
+  --color-danger-fg: var(--color-danger-fg);
+
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+  --font-display: var(--font-jakarta), var(--font-inter), system-ui,
+    -apple-system, sans-serif;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+}
