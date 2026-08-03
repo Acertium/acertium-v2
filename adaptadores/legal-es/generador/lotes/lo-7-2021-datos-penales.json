@@ -1,0 +1,777 @@
+{
+  "meta": {
+    "materia": "lo-7-2021-datos-penales",
+    "norma": "Ley Orgánica 7/2021, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales",
+    "referencia_boe": "BOE-A-2021-8806",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 26 — La protección de datos de carácter personal: LO 3/2018 y LO 7/2021"
+  },
+  "fuentes": {
+    "art. 1": "Esta Ley Orgánica tiene por objeto establecer las normas relativas a la protección de las personas físicas en lo que respecta al tratamiento de los datos de carácter personal por parte de las autoridades competentes, con fines de prevención, detección, investigación y enjuiciamiento de infracciones penales o de ejecución de sanciones penales, incluidas la protección y prevención frente a las amenazas contra la seguridad pública.",
+    "art. 2": "1. Será de aplicación al tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero, realizado por las autoridades competentes, con fines de prevención, detección, investigación y enjuiciamiento de infracciones penales y de ejecución de sanciones penales, incluidas la protección y prevención frente a las amenazas contra la seguridad pública. 2. El tratamiento de los datos personales llevado a cabo con ocasión de la tramitación por los órganos judiciales y fiscalías de las actuaciones o procesos de los que sean competentes, así como el realizado dentro de la gestión de la Oficina judicial y fiscal, en el ámbito del artículo 1, se regirá por lo dispuesto en la presente Ley Orgánica, sin perjuicio de las disposiciones de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial. Las autoridades de protección de datos a las que se refiere el capítulo VI no serán competentes para controlar estas operaciones de tratamiento. 3. Quedan fuera del ámbito de aplicación de esta Ley Orgánica los siguientes tratamientos de datos personales: a) Los realizados por las autoridades competentes para fines distintos de los previstos en el artículo 1, incluidos los fines de archivo por razones de interés público, investigación científica e histórica o estadísticos. Estos tratamientos se someterán plenamente a lo establecido en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, así como en la Ley Orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales. b) Los llevados a cabo por los órganos de la Administración General del Estado en el marco de las actividades comprendidas en el ámbito de aplicación del capítulo II del título V del Tratado de la Unión Europea. c) Los tratamientos que afecten a actividades no comprendidas en el ámbito de aplicación del Derecho de la Unión Europea. d) Los sometidos a la normativa sobre materias clasificadas, entre los que se encuentran los tratamientos relativos a la Defensa Nacional. e) Los tratamientos realizados en las acciones civiles y procedimientos administrativos o de cualquier índole vinculados con los procesos penales que no tengan como objetivo directo ninguno de los fines del artículo 1. 4. Esta Ley Orgánica no se aplicará a los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo siguiente.",
+    "art. 3": "1. Las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos, podrán dirigirse al responsable o encargado del tratamiento al objeto de solicitar el acceso, rectificación o supresión de los datos de aquel. Estos derechos se regularán de acuerdo con lo dispuesto en esta Ley Orgánica. 2. En caso de fallecimiento de menores, estas facultades podrán ejercerse también por sus representantes legales o, en el marco de sus competencias, por el Ministerio Fiscal, que podrá actuar de oficio o a instancia de cualquier persona interesada. 3. En caso de fallecimiento de personas con discapacidad, estas facultades también podrán ejercerse, además de por quienes señala el apartado anterior, por quienes hubiesen sido designados para el ejercicio de funciones de apoyo, si tales facultades se entendieran comprendidas en las medidas de apoyo prestadas por el designado.",
+    "art. 4": "1. Será autoridad competente, a los efectos de esta Ley Orgánica, toda autoridad pública que tenga competencias encomendadas legalmente para el tratamiento de datos personales con alguno de los fines previstos en el artículo 1. En particular, tendrán esa consideración, en el ámbito de sus respectivas competencias, las siguientes autoridades: a) Las Fuerzas y Cuerpos de Seguridad. b) Las Administraciones Penitenciarias. c) La Dirección Adjunta de Vigilancia Aduanera de la Agencia Estatal de Administración Tributaria. d) El Servicio Ejecutivo de la Comisión de Prevención del Blanqueo de Capitales e Infracciones Monetarias. e) La Comisión de Vigilancia de Actividades de Financiación del Terrorismo. 2. También tendrán consideración de autoridades competentes las Autoridades judiciales del orden jurisdiccional penal y el Ministerio Fiscal.",
+    "art. 5": "A efectos de esta Ley Orgánica se entenderá por: a) «datos personales»: toda información sobre una persona física identificada o identificable («el interesado»); se considerará persona física identificable a toda persona cuya identidad pueda determinarse, directa o indirectamente, en particular mediante un identificador, como por ejemplo un nombre, un número de identificación, unos datos de localización, un identificador en línea o uno o varios elementos propios de la identidad física, fisiológica, genética, psíquica, económica, cultural o social de dicha persona; b) «tratamiento»: cualquier operación o conjunto de operaciones realizadas sobre datos personales o conjuntos de datos personales, ya sea por procedimientos automatizados o no, como la recogida, registro, organización, estructuración, conservación, adaptación o modificación, extracción, consulta, utilización, comunicación por transmisión, difusión o cualquier otra forma de habilitación de acceso, cotejo o interconexión, limitación, supresión o destrucción; c) «limitación del tratamiento»: el marcado de los datos personales conservados con el fin de limitar su tratamiento en el futuro; d) «elaboración de perfiles»: toda forma de tratamiento automatizado de datos personales consistente en utilizar datos personales para evaluar determinados aspectos personales de una persona física, en particular para analizar o predecir aspectos relativos al rendimiento profesional, situación económica, salud, preferencias personales, intereses, fiabilidad, comportamiento, ubicación o movimientos de dicha persona física; e) «seudonimización»: el tratamiento de datos personales de manera tal que ya no puedan atribuirse a un interesado sin utilizar información adicional, siempre que dicha información adicional se mantenga por separado y esté sujeta a medidas técnicas y organizativas destinadas a garantizar que los datos personales no se atribuyan a una persona física identificada o identificable; f) «fichero»: todo conjunto estructurado de datos personales, accesibles con arreglo a criterios determinados, ya sea centralizado, descentralizado o dispersado de forma funcional o geográfica; g) «responsable del tratamiento» o «responsable»: la autoridad competente que sola o conjuntamente con otras, determine los fines y medios del tratamiento de datos personales; en caso de que los fines y medios del tratamiento estén determinados por el Derecho de la Unión Europea o por la legislación española, dichas normas podrán designar al responsable del tratamiento, o bien los criterios para su nombramiento. h) «encargado del tratamiento» o «encargado»: la persona física o jurídica, autoridad pública, servicio u otro organismo que trate datos personales por cuenta del responsable del tratamiento; i) «destinatario»: la persona física o jurídica, autoridad pública, servicio o cualquier otro organismo al que se comuniquen datos personales, se trate o no de un tercero. j) «violación de la seguridad de los datos personales»: toda violación de la seguridad que ocasione la destrucción, pérdida o alteración accidental o ilícita, o la comunicación o acceso no autorizados a datos personales transmitidos, conservados o tratados de otra forma; k) «datos genéticos»: datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de la persona física de que se trate; l) «datos biométricos»: datos personales obtenidos a partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas o de conducta de una persona física que permitan o confirmen la identificación única de dicha persona, como imágenes faciales o datos dactiloscópicos; m) «datos relativos a la salud»: datos personales relativos a la salud física o mental de una persona física, incluida la prestación de servicios de atención sanitaria, que revelen información sobre su estado de salud; n) «organización internacional»: una organización internacional y sus entes subordinados de Derecho internacional público o cualquier otro organismo creado mediante un acuerdo entre dos o más países o en virtud de tal acuerdo.",
+    "art. 6": "1. Los datos personales serán: a) Tratados de manera lícita y leal. b) Recogidos con fines determinados, explícitos y legítimos, y no serán tratados de forma incompatible con esos fines. c) Adecuados, pertinentes y no excesivos en relación con los fines para los que son tratados. d) Exactos y, si fuera necesario, actualizados. Se adoptarán todas las medidas razonables para que se supriman o rectifiquen, sin dilación indebida, los datos personales que sean inexactos con respecto a los fines para los que son tratados. e) Conservados de forma que permitan identificar al interesado durante un período no superior al necesario para los fines para los que son tratados. f) Tratados de manera que se garantice una seguridad adecuada, incluida la protección contra el tratamiento no autorizado o ilícito y contra su pérdida, destrucción o daño accidental. Para ello, se utilizarán las medidas técnicas u organizativas adecuadas. 5. El responsable del tratamiento deberá garantizar y estar en condiciones de demostrar el cumplimiento de lo establecido en este artículo.",
+    "art. 8": "1. El responsable del tratamiento determinará que la conservación de los datos personales tenga lugar sólo durante el tiempo necesario para cumplir con los fines previstos en el artículo 1. 2. El responsable del tratamiento deberá revisar la necesidad de conservar, limitar o suprimir el conjunto de los datos personales contenidos en cada una de las actividades de tratamiento bajo su responsabilidad, como máximo cada tres años, atendiendo especialmente en cada revisión a la edad del afectado, el carácter de los datos y a la conclusión de una investigación o procedimiento penal. 3. Con carácter general, el plazo máximo para la supresión de los datos será de veinte años, salvo que concurran factores como la existencia de investigaciones abiertas o delitos que no hayan prescrito, la no conclusión de la ejecución de la pena, reincidencia, necesidad de protección de las víctimas u otras circunstancias motivadas que hagan necesario el tratamiento de los datos para el cumplimiento de los fines del artículo 1.",
+    "art. 9": "El responsable del tratamiento, en la medida de lo posible, establecerá entre los datos personales de las distintas categorías de interesados, distinciones tales como: a) Personas respecto de las cuales existan motivos fundados para presumir que hayan cometido, puedan cometer o colaborar en la comisión de una infracción penal. b) Personas condenadas o sancionadas por una infracción penal. c) Víctimas o afectados por una infracción penal o que puedan serlo. d) Terceros involucrados en una infracción penal como son: personas que puedan ser citadas a testificar en investigaciones relacionadas con infracciones o procesos penales ulteriores, personas que puedan facilitar información sobre dichas infracciones, o personas de contacto o asociados de una de las personas mencionadas en las letras a) y b). Lo anterior no debe impedir la aplicación del derecho a la presunción de inocencia tal como lo garantiza el artículo 24 de la Constitución.",
+    "art. 10": "1. El responsable del tratamiento, en la medida de lo posible, establecerá una distinción entre los datos personales basados en hechos y los basados en apreciaciones personales. 2. Las autoridades competentes adoptarán todas las medidas razonables para garantizar que los datos personales que sean inexactos, incompletos o no estén actualizados, no se transmitan ni se pongan a disposición de terceros. En toda transmisión de datos se trasladará al mismo tiempo la valoración de su calidad, exactitud y actualización. 3. Si se observara que los datos personales transmitidos son incorrectos o que se han transmitido ilegalmente, estas circunstancias se pondrán en conocimiento del destinatario sin dilación indebida.",
+    "art. 11": "1. El tratamiento sólo será lícito en la medida en que sea necesario para los fines señalados en el artículo 1 y se realice por una autoridad competente en ejercicio de sus funciones. 2. Cualquier ley que regule tratamientos de datos personales para los fines incluidos dentro del ámbito de aplicación de esta Ley Orgánica deberá indicar, al menos, los objetivos del tratamiento, los datos personales que vayan a ser objeto del mismo y las finalidades del tratamiento.",
+    "art. 13": "1. El tratamiento de datos personales que revelen el origen étnico o racial, las opiniones políticas, las convicciones religiosas o filosóficas o la afiliación sindical, así como el tratamiento de datos genéticos, datos biométricos dirigidos a identificar de manera unívoca a una persona física, los datos relativos a la salud o a la vida sexual o a la orientación sexual de una persona física, sólo se permitirá cuando sea estrictamente necesario, con sujeción a las garantías adecuadas para los derechos y libertades del interesado y cuando se cumplan alguna de las siguientes circunstancias: a) Se encuentre previsto por una norma con rango de ley o por el Derecho de la Unión Europea. b) Resulte necesario para proteger los intereses vitales, así como los derechos y libertades fundamentales del interesado o de otra persona física. c) Dicho tratamiento se refiera a datos que el interesado haya hecho manifiestamente públicos. 3. Los datos de los menores de edad y de las personas con capacidad modificada judicialmente o que estén incursas en procesos de dicha naturaleza, se tratarán garantizando el interés superior de los mismos y con el nivel de seguridad adecuado.",
+    "art. 14": "1. Están prohibidas las decisiones basadas únicamente en un tratamiento automatizado, incluida la elaboración de perfiles, que produzcan efectos jurídicos negativos para el interesado o que le afecten significativamente, salvo que se autorice expresamente por una norma con rango de ley o por el Derecho de la Unión Europea. La norma habilitante del tratamiento deberá establecer las medidas adecuadas para salvaguardar los derechos y libertades del interesado, incluyendo el derecho a obtener la intervención humana en el proceso de revisión de la decisión adoptada. 2. Las decisiones a las que se refiere el apartado anterior no se basarán en las categorías especiales de datos personales contempladas en el artículo 13, salvo que se hayan tomado las medidas adecuadas para salvaguardar los derechos y libertades y los intereses legítimos del interesado. 3. Queda prohibida la elaboración de perfiles que dé lugar a una discriminación de las personas físicas sobre la base de categorías especiales de datos personales establecidas en el artículo 13.",
+    "art. 20": "1. El responsable del tratamiento deberá facilitar al interesado, de forma concisa, inteligible, de fácil acceso y con lenguaje claro y sencillo para todas las personas, incluidas aquellas con discapacidad, toda la información contemplada en el artículo 21. 4. El responsable del tratamiento informará por escrito al interesado, sin dilación indebida, sobre el curso dado a su solicitud. La solicitud se entenderá desestimada si transcurrido un mes desde su presentación no ha sido resuelta expresamente y notificada al interesado. 5. La información a la que se refiere el apartado 1 se facilitará gratuitamente. Cuando las solicitudes de un interesado sean manifiestamente infundadas o excesivas, en particular debido a su carácter repetitivo, el responsable del tratamiento podrá inadmitirlas a trámite, mediante resolución motivada. En todo caso se considerará que la solicitud es repetitiva cuando se realicen tres solicitudes sobre el mismo supuesto durante el plazo de seis meses, salvo que exista causa legítima para ello.",
+    "art. 21": "1. El responsable del tratamiento de los datos pondrá a disposición del interesado, al menos, la siguiente información: a) La identificación del responsable del tratamiento y sus datos de contacto. b) Los datos de contacto del delegado de protección de datos, en su caso. c) Los fines del tratamiento a los que se destinen los datos personales. d) El derecho a presentar una reclamación ante la autoridad de protección de datos competente y los datos de contacto de la misma. e) El derecho a solicitar del responsable del tratamiento el acceso a los datos personales relativos al interesado y su rectificación, supresión o la limitación de su tratamiento.",
+    "art. 22": "1. El interesado tendrá derecho a obtener del responsable del tratamiento confirmación de si se están tratando o no datos personales que le conciernen. En caso de que se confirme el tratamiento, el interesado tendrá derecho a acceder a dichos datos personales, así como a la siguiente información: a) Los fines y la base jurídica del tratamiento. b) Las categorías de datos personales de que se trate. c) Los destinatarios o las categorías de destinatarios a quienes hayan sido comunicados los datos personales. d) El plazo de conservación de los datos personales, cuando sea posible, o, en caso contrario, los criterios utilizados para determinar dicho plazo. 2. Cuando el responsable trate una gran cantidad de información relativa al interesado y éste ejercite su derecho de acceso sin especificar si se refiere a todos o a una parte de los datos, el responsable podrá requerir al interesado que concrete la solicitud en el plazo de diez días.",
+    "art. 23": "1. El interesado tendrá derecho a obtener del responsable del tratamiento, sin dilación indebida, la rectificación de los datos personales que le conciernen, cuando tales datos resulten inexactos. Teniendo en cuenta los fines del tratamiento, el interesado tendrá derecho a que se completen los datos personales cuando estos resulten incompletos. 2. El responsable del tratamiento, a iniciativa propia o como consecuencia del ejercicio del derecho de supresión del interesado, suprimirá los datos personales sin dilación indebida y, en todo caso, en el plazo máximo de un mes a contar desde que tenga conocimiento, cuando el tratamiento infrinja los artículos 6, 11 o 13, o cuando los datos personales deban ser suprimidos en virtud de una obligación legal a la que esté sujeto. 3. En lugar de proceder a la supresión, el responsable del tratamiento limitará el tratamiento de los datos personales cuando se dé alguna de las siguientes circunstancias: a) El interesado ponga en duda la exactitud de los datos personales y no pueda determinarse su exactitud o inexactitud. b) Los datos personales hayan de conservarse a efectos probatorios.",
+    "art. 24": "1. El responsable del tratamiento podrá aplazar, limitar u omitir la información a la que se refiere el artículo 21.2, así como denegar, total o parcialmente, las solicitudes de ejercicio de los derechos contemplados en los artículos 22 y 23, siempre que, teniendo en cuenta los derechos fundamentales y los intereses legítimos de la persona afectada, resulte necesario y proporcional para la consecución de los siguientes fines: a) Impedir que se obstaculicen indagaciones, investigaciones o procedimientos judiciales. b) Evitar que se cause perjuicio a la prevención, detección, investigación y enjuiciamiento de infracciones penales o a la ejecución de sanciones penales. c) Proteger la seguridad pública. d) Proteger la Seguridad Nacional. e) Proteger los derechos y libertades de otras personas. 2. En caso de restricción de los derechos contemplados en los artículos 22 y 23, el responsable del tratamiento informará por escrito al interesado sin dilación indebida, y en todo caso, en el plazo de un mes a contar desde que tenga conocimiento, de dicha restricción, de las razones de la misma, así como de las posibilidades de presentar una reclamación ante la autoridad de protección de datos.",
+    "art. 30": "1. Cuando una operación de tratamiento vaya a ser llevada a cabo por cuenta de un responsable del tratamiento, este recurrirá únicamente a encargados que ofrezcan garantías suficientes para aplicar medidas técnicas y organizativas apropiadas, de manera que el tratamiento sea conforme con los requisitos de esta Ley Orgánica y garantice la protección de los derechos del interesado. El encargado podrá ser una persona física o jurídica, de naturaleza privada o pública. 2. El encargado del tratamiento no recurrirá a otro encargado sin la autorización previa por escrito del responsable del tratamiento. El encargado informará siempre al responsable de cualquier cambio previsto referido a la adición o sustitución de otros encargados, pudiendo el responsable oponerse a dichos cambios. 3. El tratamiento por medio de un encargado se regirá por un contrato, convenio u otro instrumento jurídico que corresponda, por escrito, incluyendo la posibilidad del formato electrónico. 4. Si un encargado del tratamiento determinase los fines y medios de dicho tratamiento, infringiendo esta Ley Orgánica, será considerado responsable con respecto a ese tratamiento. 5. El encargado del tratamiento se regirá, en lo no previsto por esta Ley Orgánica, por lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre.",
+    "art. 37": "1. El responsable y el encargado del tratamiento, teniendo en cuenta el estado de la técnica y los costes de aplicación, y la naturaleza, el alcance, el contexto y los fines del tratamiento, así como los niveles de riesgo para los derechos y libertades de las personas físicas, aplicarán medidas técnicas y organizativas apropiadas para garantizar un nivel de seguridad adecuado, especialmente en lo relativo al tratamiento de las categorías de datos personales a las que se refiere el artículo 13. En particular, deberán aplicar a los tratamientos de datos personales las medidas incluidas en el Esquema Nacional de Seguridad. 2. Por lo que respecta al tratamiento automatizado, el responsable o encargado del tratamiento, a raíz de una evaluación de los riesgos, pondrá en práctica medidas de control, entre ellas el control de acceso a los equipamientos, el control de los soportes de datos, el control del almacenamiento, el control de los usuarios, el control del acceso a los datos, el control de la transmisión, el control de la introducción, el control del transporte, el control de restablecimiento y el control de fiabilidad e integridad.",
+    "art. 38": "1. Cualquier violación de la seguridad de los datos personales será notificada por el responsable del tratamiento a la autoridad de protección de datos competente, a menos que sea improbable que la violación de la seguridad de los datos personales constituya un peligro para los derechos y las libertades de las personas físicas. La notificación deberá realizarse en el plazo de las setenta y dos horas siguientes al momento en que se haya tenido constancia de ella. En caso contrario, deberá ir acompañada de los motivos de la dilación. 2. El encargado del tratamiento notificará, sin dilación indebida, al responsable del tratamiento, las violaciones de la seguridad de los datos personales de las que tenga conocimiento. 5. El responsable del tratamiento documentará cualquier violación de la seguridad de los datos personales, incluidos los hechos relativos a dicha violación, sus efectos y las medidas correctivas adoptadas.",
+    "art. 40": "1. Los responsables del tratamiento designarán, en todo caso, un delegado de protección de datos. No estarán obligados a designarlo los órganos jurisdiccionales o el Ministerio Fiscal cuando el tratamiento de datos personales se realice en el ejercicio de sus funciones jurisdiccionales. 2. El delegado de protección de datos será designado atendiendo a sus cualidades profesionales. En concreto, se tendrán en cuenta sus conocimientos especializados en legislación, su experiencia en materia de protección de datos y su capacidad para desempeñar las funciones a las que se refiere el artículo 42. 4. Los responsables del tratamiento publicarán los datos de contacto del delegado de protección de datos y comunicarán a la autoridad de protección de datos competente su designación y cese, en el plazo de diez días desde que se haya producido.",
+    "art. 42": "El responsable del tratamiento encomendará al delegado de protección de datos, al menos, las siguientes funciones: a) Informar y asesorar al responsable del tratamiento y a los empleados que se ocupen del mismo, acerca de las obligaciones que les incumben en virtud de esta Ley Orgánica y de otras disposiciones de protección de datos aplicables. b) Supervisar el cumplimiento de lo dispuesto en esta Ley Orgánica y en otras disposiciones de protección de datos aplicables, así como de lo establecido en las políticas del responsable del tratamiento en materia de protección de datos personales. c) Ofrecer el asesoramiento que se le solicite acerca de la evaluación de impacto relativa a la protección de datos y supervisar su realización. d) Cooperar con la autoridad de protección de datos en los términos de la legislación vigente. e) Actuar como punto de contacto de la autoridad de protección de datos para las cuestiones relacionadas con el tratamiento."
+  },
+  "conceptos": [
+    {
+      "id": "LOPD7-001",
+      "articulo": "art. 1",
+      "titulo": "Objeto de la LO 7/2021",
+      "resumen": "Fija las normas de protección de las personas físicas cuando las autoridades competentes tratan sus datos personales con fines penales y de seguridad pública.",
+      "explicacion": "La LO 7/2021 traspone la Directiva (UE) 2016/680 y regula el tratamiento de datos por policía, fiscalía y demás autoridades competentes con fines de prevención, detección, investigación y enjuiciamiento de infracciones penales o de ejecución de sanciones penales, incluida la protección frente a amenazas contra la seguridad pública. Es la ley específica del ámbito penal-policial, distinta de la LO 3/2018, que rige el tratamiento ordinario de datos."
+    },
+    {
+      "id": "LOPD7-002",
+      "articulo": "art. 2",
+      "titulo": "Ámbito de aplicación",
+      "resumen": "Se aplica al tratamiento automatizado y al no automatizado en fichero de datos personales hecho por autoridades competentes con fines penales.",
+      "explicacion": "El art. 2 delimita a qué tratamientos se aplica la ley: los total o parcialmente automatizados y también los no automatizados cuando los datos están o van a estar en un fichero, siempre realizados por una autoridad competente y con los fines del art. 1. Cubre tanto ficheros informáticos como manuales estructurados."
+    },
+    {
+      "id": "LOPD7-003",
+      "articulo": "art. 2",
+      "titulo": "Tratamientos excluidos del ámbito",
+      "resumen": "Quedan fuera, entre otros, los tratamientos sometidos a la normativa sobre materias clasificadas, como los relativos a la Defensa Nacional.",
+      "explicacion": "El art. 2.3 excluye varios tratamientos del ámbito de la ley: los hechos con fines distintos a los del art. 1 (que van al RGPD y a la LO 3/2018), los del título V del TUE, los ajenos al Derecho de la Unión, los de materias clasificadas y Defensa Nacional, y ciertos procedimientos civiles o administrativos vinculados a lo penal sin ser su objetivo directo. Distinguir lo incluido de lo excluido es clave para saber qué ley aplicar."
+    },
+    {
+      "id": "LOPD7-004",
+      "articulo": "art. 3",
+      "titulo": "Datos de personas fallecidas",
+      "resumen": "Familiares, personas vinculadas de hecho y herederos pueden pedir al responsable o encargado el acceso, rectificación o supresión de los datos del fallecido.",
+      "explicacion": "Aunque la ley no se aplica a los datos de fallecidos, el art. 3 abre una vía: las personas vinculadas por razones familiares o de hecho y los herederos pueden dirigirse al responsable o encargado para solicitar acceso, rectificación o supresión. En caso de menores actúan sus representantes legales o el Ministerio Fiscal, y en personas con discapacidad quienes prestaban las medidas de apoyo."
+    },
+    {
+      "id": "LOPD7-005",
+      "articulo": "art. 4",
+      "titulo": "Autoridades competentes",
+      "resumen": "Son autoridades competentes las que tienen competencias legales para tratar datos con los fines del art. 1; en particular, las Fuerzas y Cuerpos de Seguridad.",
+      "explicacion": "El art. 4 define quién es autoridad competente: toda autoridad pública con competencias legales para tratar datos con fines penales o de seguridad pública. Enumera en particular las Fuerzas y Cuerpos de Seguridad, las Administraciones Penitenciarias, Vigilancia Aduanera, el SEPBLAC y la Comisión de Vigilancia de Actividades de Financiación del Terrorismo, además de los órganos judiciales penales y el Ministerio Fiscal."
+    },
+    {
+      "id": "LOPD7-006",
+      "articulo": "art. 5",
+      "titulo": "Concepto de dato personal e interesado",
+      "resumen": "Dato personal es toda información sobre una persona física identificada o identificable, a la que la ley llama el interesado.",
+      "explicacion": "El art. 5.a) define el dato personal como cualquier información sobre una persona física identificada o identificable; el interesado es esa persona. Se considera identificable a quien pueda determinarse directa o indirectamente mediante un identificador como un nombre, un número, datos de localización o un identificador en línea. Es el concepto nuclear del que dependen todos los demás."
+    },
+    {
+      "id": "LOPD7-007",
+      "articulo": "art. 5",
+      "titulo": "Concepto de tratamiento",
+      "resumen": "Tratamiento es cualquier operación sobre datos personales, automatizada o no, como recogida, conservación, consulta o supresión.",
+      "explicacion": "El art. 5.b) define tratamiento de forma muy amplia: cualquier operación o conjunto de operaciones realizadas sobre datos personales, por medios automatizados o no, incluyendo recogida, registro, conservación, consulta, comunicación por transmisión, cotejo, interconexión, limitación, supresión o destrucción. Casi cualquier cosa que se haga con un dato es tratamiento."
+    },
+    {
+      "id": "LOPD7-008",
+      "articulo": "art. 5",
+      "titulo": "Seudonimización",
+      "resumen": "Es tratar los datos de modo que ya no puedan atribuirse a un interesado sin información adicional guardada por separado y protegida.",
+      "explicacion": "El art. 5.e) define la seudonimización como una técnica de protección: los datos se tratan de manera que ya no puedan atribuirse a un interesado sin usar información adicional, que debe mantenerse por separado y con medidas técnicas y organizativas. No es anonimización total, porque con la clave separada se puede reidentificar, pero reduce el riesgo."
+    },
+    {
+      "id": "LOPD7-009",
+      "articulo": "art. 5",
+      "titulo": "Responsable del tratamiento",
+      "resumen": "Responsable es la autoridad competente que, sola o con otras, determina los fines y medios del tratamiento.",
+      "explicacion": "El art. 5.g) define al responsable del tratamiento como la autoridad competente que, sola o junto a otras, decide los fines y medios del tratamiento. Se distingue del encargado (art. 5.h), que trata los datos por cuenta del responsable. Quien decide el para qué y el cómo es el responsable, y sobre él recaen las obligaciones principales."
+    },
+    {
+      "id": "LOPD7-010",
+      "articulo": "art. 5",
+      "titulo": "Datos biométricos",
+      "resumen": "Datos biométricos son los obtenidos por un tratamiento técnico de rasgos físicos, fisiológicos o de conducta que identifican de forma única a la persona.",
+      "explicacion": "El art. 5.l) define los datos biométricos como los obtenidos a partir de un tratamiento técnico específico relativo a características físicas, fisiológicas o de conducta que permiten o confirman la identificación única de la persona, como las imágenes faciales o los datos dactiloscópicos (huellas). Junto a los genéticos y de salud, forman parte de las categorías especiales del art. 13."
+    },
+    {
+      "id": "LOPD7-011",
+      "articulo": "art. 6",
+      "titulo": "Principios del tratamiento",
+      "resumen": "Los datos deben tratarse de forma lícita y leal, y recogerse con fines determinados, explícitos y legítimos, sin usarlos de forma incompatible con esos fines.",
+      "explicacion": "El art. 6 recoge los principios: licitud y lealtad, limitación de la finalidad (fines determinados, explícitos y legítimos), minimización (adecuados, pertinentes y no excesivos), exactitud, limitación del plazo de conservación e integridad y confidencialidad (seguridad). El responsable debe poder demostrar su cumplimiento (responsabilidad proactiva)."
+    },
+    {
+      "id": "LOPD7-012",
+      "articulo": "art. 8",
+      "titulo": "Plazos de conservación y revisión",
+      "resumen": "El responsable revisa la necesidad de conservar los datos como máximo cada tres años, con un plazo máximo general de supresión de veinte años.",
+      "explicacion": "El art. 8 concreta el principio de limitación del plazo: los datos se conservan solo el tiempo necesario para los fines del art. 1; el responsable debe revisar su conservación, limitación o supresión como máximo cada tres años, y el plazo máximo general de supresión es de veinte años, salvo circunstancias como investigaciones abiertas, delitos no prescritos, pena no cumplida o protección de víctimas."
+    },
+    {
+      "id": "LOPD7-013",
+      "articulo": "art. 9",
+      "titulo": "Distinción entre categorías de interesados",
+      "resumen": "El responsable debe distinguir, en lo posible, entre sospechosos, condenados, víctimas y terceros involucrados.",
+      "explicacion": "El art. 9 obliga a distinguir, en la medida de lo posible, entre categorías de interesados: personas sobre las que hay motivos fundados para presumir que han cometido o pueden cometer una infracción, personas condenadas o sancionadas, víctimas o afectados, y terceros involucrados como testigos o contactos. Esta distinción protege sobre todo a quien no es investigado y respeta la presunción de inocencia del art. 24 CE."
+    },
+    {
+      "id": "LOPD7-014",
+      "articulo": "art. 10",
+      "titulo": "Datos basados en hechos y en apreciaciones",
+      "resumen": "El responsable debe distinguir, en lo posible, entre los datos basados en hechos y los basados en apreciaciones personales.",
+      "explicacion": "El art. 10 exige diferenciar los datos objetivos (basados en hechos) de los subjetivos (basados en apreciaciones personales), y adoptar medidas para que los datos inexactos, incompletos o desactualizados no se transmitan a terceros. En toda transmisión se traslada la valoración de calidad y actualización, garantizando la fiabilidad de la información policial."
+    },
+    {
+      "id": "LOPD7-015",
+      "articulo": "art. 11",
+      "titulo": "Licitud del tratamiento",
+      "resumen": "El tratamiento solo es lícito si es necesario para los fines del art. 1 y lo realiza una autoridad competente en ejercicio de sus funciones.",
+      "explicacion": "El art. 11 fija la base de licitud propia de este ámbito: el tratamiento solo es lícito cuando es necesario para los fines del art. 1 y lo hace una autoridad competente en ejercicio de sus funciones. Aquí no rige el consentimiento como base típica; la habilitación viene de la ley. Cualquier ley que regule estos tratamientos debe indicar objetivos, datos y finalidades."
+    },
+    {
+      "id": "LOPD7-016",
+      "articulo": "art. 13",
+      "titulo": "Categorías especiales de datos",
+      "resumen": "El tratamiento de datos sensibles (origen étnico, ideología, salud, biométricos, etc.) solo se permite cuando sea estrictamente necesario y con garantías.",
+      "explicacion": "El art. 13 regula las categorías especiales: origen étnico o racial, opiniones políticas, convicciones religiosas o filosóficas, afiliación sindical, datos genéticos, biométricos identificativos, de salud, vida u orientación sexual. Su tratamiento solo se permite cuando sea estrictamente necesario, con garantías, y si lo prevé una norma con rango de ley, protege intereses vitales o el interesado los hizo manifiestamente públicos."
+    },
+    {
+      "id": "LOPD7-017",
+      "articulo": "art. 14",
+      "titulo": "Decisiones individuales automatizadas",
+      "resumen": "Se prohíben las decisiones basadas solo en tratamiento automatizado que produzcan efectos jurídicos negativos o afecten significativamente al interesado, salvo ley habilitante.",
+      "explicacion": "El art. 14 prohíbe, como regla, las decisiones basadas únicamente en tratamiento automatizado, incluida la elaboración de perfiles, que produzcan efectos jurídicos negativos o afecten significativamente al interesado, salvo que lo autorice una norma con rango de ley que garantice, entre otras cosas, la intervención humana. Además, no pueden basarse en categorías especiales del art. 13 sin garantías, y se prohíbe el perfilado discriminatorio."
+    },
+    {
+      "id": "LOPD7-018",
+      "articulo": "art. 20",
+      "titulo": "Ejercicio de derechos: silencio y plazo",
+      "resumen": "La solicitud del interesado se entiende desestimada si transcurrido un mes desde su presentación no se ha resuelto y notificado.",
+      "explicacion": "El art. 20 regula las condiciones generales de ejercicio de derechos: la información debe darse de forma clara, accesible y gratuita. Si transcurrido un mes desde la solicitud no se resuelve expresamente y se notifica, se entiende desestimada (silencio negativo). Las solicitudes manifiestamente infundadas o excesivas, en especial las repetitivas, pueden inadmitirse motivadamente."
+    },
+    {
+      "id": "LOPD7-019",
+      "articulo": "art. 21",
+      "titulo": "Información que debe ponerse a disposición",
+      "resumen": "El responsable pone a disposición del interesado, al menos, su identificación y datos de contacto, los fines del tratamiento y sus derechos.",
+      "explicacion": "El art. 21 lista la información mínima que el responsable debe poner a disposición del interesado: la identificación del responsable y sus datos de contacto, los datos del delegado de protección de datos, los fines del tratamiento, el derecho a reclamar ante la autoridad de protección de datos y el derecho de acceso, rectificación, supresión y limitación. Es el deber de transparencia adaptado al ámbito penal."
+    },
+    {
+      "id": "LOPD7-020",
+      "articulo": "art. 22",
+      "titulo": "Derecho de acceso",
+      "resumen": "El interesado puede obtener del responsable confirmación de si se tratan o no datos suyos y, en su caso, acceder a ellos y a información sobre el tratamiento.",
+      "explicacion": "El art. 22 reconoce el derecho de acceso: el interesado puede obtener confirmación de si se tratan datos que le conciernen y, en tal caso, acceder a ellos y a información como los fines y base jurídica, las categorías de datos, los destinatarios y el plazo de conservación. Si hay gran cantidad de información, el responsable puede pedirle que concrete la solicitud en diez días."
+    },
+    {
+      "id": "LOPD7-021",
+      "articulo": "art. 23",
+      "titulo": "Rectificación, supresión y limitación",
+      "resumen": "El interesado tiene derecho a la rectificación de los datos inexactos; la supresión procede si el tratamiento infringe la ley, y la limitación en casos tasados.",
+      "explicacion": "El art. 23 agrupa tres derechos. Rectificación: corregir datos inexactos y completar los incompletos. Supresión: el responsable borra sin dilación, y como máximo en un mes, cuando el tratamiento infringe los arts. 6, 11 o 13 o hay obligación legal. Limitación: en lugar de suprimir, se marca el dato cuando se discute su exactitud o debe conservarse a efectos probatorios."
+    },
+    {
+      "id": "LOPD7-022",
+      "articulo": "art. 24",
+      "titulo": "Restricciones a los derechos",
+      "resumen": "El responsable puede aplazar, limitar, omitir o denegar los derechos cuando sea necesario y proporcional para fines como no obstaculizar investigaciones o proteger la seguridad pública.",
+      "explicacion": "El art. 24 permite restringir los derechos de información, acceso, rectificación, supresión y limitación cuando resulte necesario y proporcional para impedir que se obstaculicen investigaciones o procedimientos judiciales, evitar perjuicio a la persecución penal, proteger la seguridad pública o la Seguridad Nacional, o proteger derechos de otras personas. La restricción debe comunicarse por escrito, en un mes, salvo que revelar los motivos ponga en riesgo esos fines."
+    },
+    {
+      "id": "LOPD7-023",
+      "articulo": "art. 30",
+      "titulo": "Encargado del tratamiento",
+      "resumen": "El encargado trata datos por cuenta del responsable y no puede subcontratar a otro encargado sin autorización previa por escrito del responsable.",
+      "explicacion": "El art. 30 regula al encargado: el responsable solo recurre a encargados que ofrezcan garantías suficientes, y la relación se formaliza por contrato o instrumento jurídico escrito. El encargado no puede recurrir a otro encargado sin autorización previa por escrito del responsable. Si el encargado determina por su cuenta fines y medios, pasa a ser considerado responsable. En lo no previsto rige la LO 3/2018."
+    },
+    {
+      "id": "LOPD7-024",
+      "articulo": "art. 37",
+      "titulo": "Seguridad del tratamiento",
+      "resumen": "Responsable y encargado aplican medidas técnicas y organizativas adecuadas al riesgo; en particular, las medidas del Esquema Nacional de Seguridad.",
+      "explicacion": "El art. 37 impone la seguridad del tratamiento: medidas técnicas y organizativas apropiadas al estado de la técnica y al riesgo, con especial atención a las categorías especiales del art. 13. En particular, deben aplicarse las medidas del Esquema Nacional de Seguridad. Para el tratamiento automatizado se exigen controles de acceso, de soportes, de almacenamiento, de usuarios, de transmisión, de introducción, de transporte, de restablecimiento y de integridad."
+    },
+    {
+      "id": "LOPD7-025",
+      "articulo": "art. 38",
+      "titulo": "Notificación de violación de seguridad",
+      "resumen": "El responsable notifica la violación de seguridad a la autoridad de protección de datos en el plazo de setenta y dos horas desde que tiene constancia, salvo que sea improbable que suponga un peligro.",
+      "explicacion": "El art. 38 regula la notificación de brechas: el responsable comunica la violación a la autoridad de protección de datos competente, salvo que sea improbable que suponga un peligro para los derechos y libertades. El plazo es de setenta y dos horas desde que se tiene constancia; si se supera, hay que motivar la demora. El encargado avisa al responsable sin dilación indebida, y el responsable documenta toda violación."
+    },
+    {
+      "id": "LOPD7-026",
+      "articulo": "art. 40",
+      "titulo": "Designación del delegado de protección de datos",
+      "resumen": "Los responsables designan en todo caso un delegado de protección de datos, atendiendo a sus cualidades profesionales, salvo órganos judiciales y fiscalía en funciones jurisdiccionales.",
+      "explicacion": "El art. 40 obliga a los responsables a designar, en todo caso, un delegado de protección de datos, salvo los órganos jurisdiccionales y el Ministerio Fiscal cuando actúan en funciones jurisdiccionales. Se elige por sus cualidades profesionales (conocimientos, experiencia y capacidad). Sus datos de contacto se publican y su designación y cese se comunican a la autoridad en diez días."
+    },
+    {
+      "id": "LOPD7-027",
+      "articulo": "art. 42",
+      "titulo": "Funciones del delegado de protección de datos",
+      "resumen": "Entre sus funciones, el delegado informa y asesora al responsable y a los empleados, supervisa el cumplimiento y coopera con la autoridad de protección de datos.",
+      "explicacion": "El art. 42 encomienda al delegado, al menos: informar y asesorar al responsable y a los empleados sobre sus obligaciones; supervisar el cumplimiento de la ley y de las políticas de protección de datos; asesorar sobre la evaluación de impacto y supervisar su realización; cooperar con la autoridad de protección de datos; y actuar como punto de contacto de esa autoridad. Es una figura de garantía interna e independiente."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "LOPD7-001",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el objeto de la Ley Orgánica 7/2021?",
+      "opciones": [
+        "Establecer las normas relativas a la protección de las personas físicas en lo que respecta al tratamiento de los datos de carácter personal por parte de las autoridades competentes",
+        "Regular el tratamiento de datos de las empresas privadas con fines comerciales",
+        "Ordenar el acceso de los ciudadanos a los archivos y registros administrativos",
+        "Regular la videovigilancia de los espacios privados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Esta Ley Orgánica tiene por objeto establecer las normas relativas a la protección de las personas físicas en lo que respecta al tratamiento de los datos de carácter personal por parte de las autoridades competentes, con fines de prevención, detección, investigación y enjuiciamiento de infracciones penales o de ejecución de sanciones penales",
+      "justificacion": "Art. 1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-002",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el art. 2, ¿a qué tratamientos se aplica la LO 7/2021?",
+      "opciones": [
+        "Al tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero",
+        "Solo al tratamiento manual de datos en papel",
+        "Únicamente a los tratamientos realizados por empresas de seguridad privada",
+        "Solo al tratamiento automatizado, nunca al manual"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Será de aplicación al tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero, realizado por las autoridades competentes, con fines de prevención, detección, investigación y enjuiciamiento de infracciones penales",
+      "justificacion": "Art. 2.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-003",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estos tratamientos queda FUERA del ámbito de aplicación de la LO 7/2021?",
+      "opciones": [
+        "Los sometidos a la normativa sobre materias clasificadas, entre los que se encuentran los tratamientos relativos a la Defensa Nacional",
+        "Los realizados por las Fuerzas y Cuerpos de Seguridad en la investigación de un delito",
+        "Los realizados por las Administraciones Penitenciarias con fines de ejecución de penas",
+        "Los realizados por la fiscalía en un proceso penal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los sometidos a la normativa sobre materias clasificadas, entre los que se encuentran los tratamientos relativos a la Defensa Nacional.",
+      "justificacion": "Art. 2.3.d) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-004",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "En relación con los datos de personas fallecidas, ¿quién puede solicitar su acceso, rectificación o supresión?",
+      "opciones": [
+        "Las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos",
+        "Únicamente el cónyuge del fallecido",
+        "Cualquier ciudadano que lo solicite",
+        "Solo un juez de oficio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos, podrán dirigirse al responsable o encargado del tratamiento al objeto de solicitar el acceso, rectificación o supresión de los datos de aquel.",
+      "justificacion": "Art. 3.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-005",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes tiene, en particular, consideración de autoridad competente conforme al art. 4?",
+      "opciones": [
+        "Las Fuerzas y Cuerpos de Seguridad",
+        "Los partidos políticos",
+        "Las empresas de seguridad privada",
+        "Los colegios profesionales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En particular, tendrán esa consideración, en el ámbito de sus respectivas competencias, las siguientes autoridades: a) Las Fuerzas y Cuerpos de Seguridad.",
+      "justificacion": "Art. 4.1.a) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-006",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "Según las definiciones del art. 5, ¿qué es un dato personal?",
+      "opciones": [
+        "Toda información sobre una persona física identificada o identificable",
+        "Solo la información económica de una persona",
+        "Cualquier dato de una persona jurídica",
+        "Únicamente los datos que la persona haya hecho públicos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "«datos personales»: toda información sobre una persona física identificada o identificable («el interesado»)",
+      "justificacion": "Art. 5.a) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-007",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "¿Cómo define el art. 5 el tratamiento de datos personales?",
+      "opciones": [
+        "Cualquier operación o conjunto de operaciones realizadas sobre datos personales o conjuntos de datos personales, ya sea por procedimientos automatizados o no",
+        "Solo la recogida inicial de los datos",
+        "Exclusivamente la comunicación de datos a terceros",
+        "Únicamente su destrucción definitiva"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "«tratamiento»: cualquier operación o conjunto de operaciones realizadas sobre datos personales o conjuntos de datos personales, ya sea por procedimientos automatizados o no, como la recogida, registro, organización",
+      "justificacion": "Art. 5.b) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-008",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "¿Qué se entiende por seudonimización según el art. 5?",
+      "opciones": [
+        "El tratamiento de datos personales de manera tal que ya no puedan atribuirse a un interesado sin utilizar información adicional",
+        "La destrucción irreversible de los datos personales",
+        "La publicación de los datos en un boletín oficial",
+        "El cifrado de las comunicaciones entre autoridades"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "«seudonimización»: el tratamiento de datos personales de manera tal que ya no puedan atribuirse a un interesado sin utilizar información adicional, siempre que dicha información adicional se mantenga por separado",
+      "justificacion": "Art. 5.e) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-009",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "Según el art. 5, ¿quién es el responsable del tratamiento?",
+      "opciones": [
+        "La autoridad competente que sola o conjuntamente con otras, determine los fines y medios del tratamiento de datos personales",
+        "La persona física o jurídica que trate datos por cuenta de otro",
+        "El interesado cuyos datos se tratan",
+        "El delegado de protección de datos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "«responsable del tratamiento» o «responsable»: la autoridad competente que sola o conjuntamente con otras, determine los fines y medios del tratamiento de datos personales",
+      "justificacion": "Art. 5.g) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-010",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "¿Cómo define el art. 5 los datos biométricos?",
+      "opciones": [
+        "Datos personales obtenidos a partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas o de conducta de una persona física que permitan o confirmen la identificación única de dicha persona",
+        "Datos relativos exclusivamente a la salud física o mental de una persona",
+        "Datos sobre las opiniones políticas de una persona",
+        "Datos económicos y de solvencia patrimonial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "«datos biométricos»: datos personales obtenidos a partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas o de conducta de una persona física que permitan o confirmen la identificación única de dicha persona, como imágenes faciales o datos dactiloscópicos",
+      "justificacion": "Art. 5.l) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-011",
+      "articulo": "art. 6",
+      "tipo": "test",
+      "enunciado": "Según los principios del art. 6, los datos personales serán recogidos...",
+      "opciones": [
+        "Con fines determinados, explícitos y legítimos, y no serán tratados de forma incompatible con esos fines",
+        "Sin necesidad de especificar ninguna finalidad concreta",
+        "Para cualquier fin que decida posteriormente el responsable",
+        "Solo con el consentimiento expreso del interesado en todo caso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Recogidos con fines determinados, explícitos y legítimos, y no serán tratados de forma incompatible con esos fines.",
+      "justificacion": "Art. 6.1.b) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-012",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "¿Con qué periodicidad debe el responsable revisar la necesidad de conservar, limitar o suprimir los datos?",
+      "opciones": [
+        "Como máximo cada tres años",
+        "Cada diez años",
+        "Cada seis meses",
+        "Una sola vez al inicio del tratamiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberá revisar la necesidad de conservar, limitar o suprimir el conjunto de los datos personales contenidos en cada una de las actividades de tratamiento bajo su responsabilidad, como máximo cada tres años",
+      "justificacion": "Art. 8.2 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-013",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "Al distinguir categorías de interesados, ¿cuál de estas señala expresamente el art. 9?",
+      "opciones": [
+        "Personas respecto de las cuales existan motivos fundados para presumir que hayan cometido, puedan cometer o colaborar en la comisión de una infracción penal",
+        "Personas que residan en el extranjero",
+        "Personas mayores de sesenta y cinco años",
+        "Funcionarios públicos en activo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Personas respecto de las cuales existan motivos fundados para presumir que hayan cometido, puedan cometer o colaborar en la comisión de una infracción penal.",
+      "justificacion": "Art. 9.a) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-014",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "Sobre la calidad de los datos, ¿qué distinción exige el art. 10, en la medida de lo posible?",
+      "opciones": [
+        "Una distinción entre los datos personales basados en hechos y los basados en apreciaciones personales",
+        "Una distinción entre datos nacionales y datos extranjeros",
+        "Una distinción entre datos digitales y datos en papel",
+        "Una distinción entre datos gratuitos y datos de pago"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "establecerá una distinción entre los datos personales basados en hechos y los basados en apreciaciones personales.",
+      "justificacion": "Art. 10.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-015",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "Según el art. 11, ¿cuándo es lícito el tratamiento?",
+      "opciones": [
+        "En la medida en que sea necesario para los fines señalados en el artículo 1 y se realice por una autoridad competente en ejercicio de sus funciones",
+        "Siempre que exista consentimiento del interesado",
+        "Cuando lo autorice cualquier órgano administrativo",
+        "Cuando el tratamiento tenga una finalidad comercial legítima"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El tratamiento sólo será lícito en la medida en que sea necesario para los fines señalados en el artículo 1 y se realice por una autoridad competente en ejercicio de sus funciones.",
+      "justificacion": "Art. 11.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-016",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "El tratamiento de categorías especiales de datos (origen étnico, salud, datos biométricos, etc.) según el art. 13...",
+      "opciones": [
+        "Sólo se permitirá cuando sea estrictamente necesario, con sujeción a las garantías adecuadas para los derechos y libertades del interesado",
+        "Está siempre prohibido sin excepción",
+        "Es libre y no requiere ninguna garantía",
+        "Solo se permite con autorización judicial en todos los casos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "sólo se permitirá cuando sea estrictamente necesario, con sujeción a las garantías adecuadas para los derechos y libertades del interesado y cuando se cumplan alguna de las siguientes circunstancias",
+      "justificacion": "Art. 13.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-017",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "¿Qué establece el art. 14 sobre las decisiones individuales automatizadas?",
+      "opciones": [
+        "Están prohibidas las decisiones basadas únicamente en un tratamiento automatizado, incluida la elaboración de perfiles, que produzcan efectos jurídicos negativos para el interesado o que le afecten significativamente, salvo que se autorice expresamente por una norma con rango de ley",
+        "Están siempre permitidas sin ninguna limitación",
+        "Solo se permiten si las adopta un juez",
+        "Están permitidas siempre que se comuniquen al interesado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Están prohibidas las decisiones basadas únicamente en un tratamiento automatizado, incluida la elaboración de perfiles, que produzcan efectos jurídicos negativos para el interesado o que le afecten significativamente, salvo que se autorice expresamente por una norma con rango de ley o por el Derecho de la Unión Europea.",
+      "justificacion": "Art. 14.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-018",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Si transcurre el plazo sin resolver, ¿cómo se entiende la solicitud de ejercicio de derechos según el art. 20?",
+      "opciones": [
+        "Se entenderá desestimada si transcurrido un mes desde su presentación no ha sido resuelta expresamente y notificada al interesado",
+        "Se entenderá estimada por silencio positivo",
+        "Quedará en suspenso indefinidamente",
+        "Se entenderá desestimada a los seis meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La solicitud se entenderá desestimada si transcurrido un mes desde su presentación no ha sido resuelta expresamente y notificada al interesado.",
+      "justificacion": "Art. 20.4 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-019",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas informaciones debe poner el responsable a disposición del interesado según el art. 21?",
+      "opciones": [
+        "La identificación del responsable del tratamiento y sus datos de contacto",
+        "El nombre de todos los funcionarios que accedieron a los datos",
+        "El coste económico del sistema informático",
+        "El domicilio particular del delegado de protección de datos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) La identificación del responsable del tratamiento y sus datos de contacto.",
+      "justificacion": "Art. 21.1.a) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-020",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "¿En qué consiste, en primer término, el derecho de acceso del art. 22?",
+      "opciones": [
+        "Obtener del responsable del tratamiento confirmación de si se están tratando o no datos personales que le conciernen",
+        "Obtener una indemnización económica automática",
+        "Que se supriman de inmediato todos sus datos",
+        "Acceder a los datos de cualquier tercero"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El interesado tendrá derecho a obtener del responsable del tratamiento confirmación de si se están tratando o no datos personales que le conciernen.",
+      "justificacion": "Art. 22.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-021",
+      "articulo": "art. 23",
+      "tipo": "test",
+      "enunciado": "Según el art. 23, el interesado tiene derecho a obtener del responsable...",
+      "opciones": [
+        "La rectificación de los datos personales que le conciernen, cuando tales datos resulten inexactos",
+        "Una copia gratuita de todos los expedientes judiciales",
+        "El acceso a los datos de otros investigados",
+        "La destrucción de las pruebas del proceso penal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El interesado tendrá derecho a obtener del responsable del tratamiento, sin dilación indebida, la rectificación de los datos personales que le conciernen, cuando tales datos resulten inexactos.",
+      "justificacion": "Art. 23.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-022",
+      "articulo": "art. 24",
+      "tipo": "test",
+      "enunciado": "¿Cuál es uno de los fines que permite restringir los derechos del interesado según el art. 24?",
+      "opciones": [
+        "Impedir que se obstaculicen indagaciones, investigaciones o procedimientos judiciales",
+        "Reducir la carga de trabajo administrativa del responsable",
+        "Facilitar la venta de datos a terceros",
+        "Evitar el pago de tasas por el interesado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Impedir que se obstaculicen indagaciones, investigaciones o procedimientos judiciales.",
+      "justificacion": "Art. 24.1.a) LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-023",
+      "articulo": "art. 30",
+      "tipo": "test",
+      "enunciado": "Según el art. 30, respecto a la subcontratación por el encargado del tratamiento:",
+      "opciones": [
+        "No recurrirá a otro encargado sin la autorización previa por escrito del responsable del tratamiento",
+        "Puede recurrir libremente a otros encargados sin comunicarlo",
+        "Solo puede subcontratar con autorización judicial",
+        "Nunca puede recurrir a otro encargado en ningún caso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El encargado del tratamiento no recurrirá a otro encargado sin la autorización previa por escrito del responsable del tratamiento.",
+      "justificacion": "Art. 30.2 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-024",
+      "articulo": "art. 37",
+      "tipo": "test",
+      "enunciado": "En materia de seguridad del tratamiento, ¿qué medidas deben aplicarse en particular según el art. 37?",
+      "opciones": [
+        "Las medidas incluidas en el Esquema Nacional de Seguridad",
+        "Únicamente medidas de seguridad física de los edificios",
+        "Las medidas del Reglamento de Armas",
+        "Solo las que decida voluntariamente cada empleado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En particular, deberán aplicar a los tratamientos de datos personales las medidas incluidas en el Esquema Nacional de Seguridad.",
+      "justificacion": "Art. 37.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-025",
+      "articulo": "art. 38",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo debe notificarse una violación de la seguridad de los datos a la autoridad de protección de datos?",
+      "opciones": [
+        "En el plazo de las setenta y dos horas siguientes al momento en que se haya tenido constancia de ella",
+        "En el plazo de un mes",
+        "En el plazo de diez días",
+        "En el plazo de veinticuatro horas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La notificación deberá realizarse en el plazo de las setenta y dos horas siguientes al momento en que se haya tenido constancia de ella.",
+      "justificacion": "Art. 38.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-026",
+      "articulo": "art. 40",
+      "tipo": "test",
+      "enunciado": "¿Qué obligación impone el art. 40 sobre el delegado de protección de datos?",
+      "opciones": [
+        "Los responsables del tratamiento designarán, en todo caso, un delegado de protección de datos",
+        "Solo se designará si lo pide la autoridad de protección de datos",
+        "La designación es siempre voluntaria",
+        "Únicamente los órganos judiciales están obligados a designarlo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los responsables del tratamiento designarán, en todo caso, un delegado de protección de datos.",
+      "justificacion": "Art. 40.1 LO 7/2021."
+    },
+    {
+      "concepto_id": "LOPD7-027",
+      "articulo": "art. 42",
+      "tipo": "test",
+      "enunciado": "¿Cuál es una de las funciones que el art. 42 encomienda al delegado de protección de datos?",
+      "opciones": [
+        "Informar y asesorar al responsable del tratamiento y a los empleados que se ocupen del mismo, acerca de las obligaciones que les incumben",
+        "Dictar las resoluciones sancionadoras contra el responsable",
+        "Sustituir a la autoridad de protección de datos",
+        "Autorizar las transferencias internacionales sin control"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Informar y asesorar al responsable del tratamiento y a los empleados que se ocupen del mismo, acerca de las obligaciones que les incumben en virtud de esta Ley Orgánica y de otras disposiciones de protección de datos aplicables.",
+      "justificacion": "Art. 42.a) LO 7/2021."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "LOPD7-001",
+      "destino": "LOPD7-002",
+      "tipo": "prerrequisito",
+      "justificacion": "Conocer el objeto (art. 1) es presupuesto para delimitar el ámbito de aplicación (art. 2)."
+    },
+    {
+      "origen": "LOPD7-003",
+      "destino": "LOPD7-002",
+      "tipo": "limita",
+      "justificacion": "Las exclusiones del art. 2.3 restringen el ámbito de aplicación general del art. 2."
+    },
+    {
+      "origen": "LOPD7-006",
+      "destino": "LOPD7-007",
+      "tipo": "prerrequisito",
+      "justificacion": "Definir el dato personal (art. 5.a) es presupuesto del concepto de tratamiento (art. 5.b)."
+    },
+    {
+      "origen": "LOPD7-008",
+      "destino": "LOPD7-007",
+      "tipo": "desarrolla",
+      "justificacion": "La seudonimización (art. 5.e) es una modalidad concreta de tratamiento (art. 5.b)."
+    },
+    {
+      "origen": "LOPD7-016",
+      "destino": "LOPD7-010",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 13 concreta el régimen de tratamiento de los datos biométricos definidos en el art. 5."
+    },
+    {
+      "origen": "LOPD7-012",
+      "destino": "LOPD7-011",
+      "tipo": "desarrolla",
+      "justificacion": "Los plazos de conservación y revisión (art. 8) concretan el principio de limitación del plazo del art. 6."
+    },
+    {
+      "origen": "LOPD7-013",
+      "destino": "LOPD7-011",
+      "tipo": "desarrolla",
+      "justificacion": "La distinción entre categorías de interesados (art. 9) concreta los principios de exactitud y minimización del art. 6."
+    },
+    {
+      "origen": "LOPD7-014",
+      "destino": "LOPD7-013",
+      "tipo": "desarrolla",
+      "justificacion": "La distinción entre hechos y apreciaciones (art. 10) concreta la calidad exigida al distinguir categorías de interesados (art. 9)."
+    },
+    {
+      "origen": "LOPD7-005",
+      "destino": "LOPD7-015",
+      "tipo": "prerrequisito",
+      "justificacion": "Que el tratamiento lo haga una autoridad competente (art. 4) es presupuesto de la licitud del art. 11."
+    },
+    {
+      "origen": "LOPD7-015",
+      "destino": "LOPD7-011",
+      "tipo": "desarrolla",
+      "justificacion": "La regla de licitud del art. 11 concreta el principio de licitud del tratamiento del art. 6."
+    },
+    {
+      "origen": "LOPD7-017",
+      "destino": "LOPD7-016",
+      "tipo": "remite",
+      "justificacion": "El art. 14.2 se remite a las categorías especiales del art. 13 para las decisiones automatizadas."
+    },
+    {
+      "origen": "LOPD7-018",
+      "destino": "LOPD7-020",
+      "tipo": "prerrequisito",
+      "justificacion": "Las condiciones generales de ejercicio de derechos (art. 20) son presupuesto del derecho de acceso (art. 22)."
+    },
+    {
+      "origen": "LOPD7-018",
+      "destino": "LOPD7-021",
+      "tipo": "prerrequisito",
+      "justificacion": "Las condiciones generales de ejercicio de derechos (art. 20) son presupuesto de la rectificación, supresión y limitación (art. 23)."
+    },
+    {
+      "origen": "LOPD7-022",
+      "destino": "LOPD7-019",
+      "tipo": "limita",
+      "justificacion": "El art. 24 permite aplazar, limitar u omitir la información del art. 21.2."
+    },
+    {
+      "origen": "LOPD7-022",
+      "destino": "LOPD7-020",
+      "tipo": "limita",
+      "justificacion": "El art. 24 permite restringir el derecho de acceso del art. 22."
+    },
+    {
+      "origen": "LOPD7-022",
+      "destino": "LOPD7-021",
+      "tipo": "limita",
+      "justificacion": "El art. 24 permite restringir los derechos de rectificación, supresión y limitación del art. 23."
+    },
+    {
+      "origen": "LOPD7-004",
+      "destino": "LOPD7-021",
+      "tipo": "remite",
+      "justificacion": "El art. 3 remite al régimen de acceso, rectificación y supresión para los datos de personas fallecidas."
+    },
+    {
+      "origen": "LOPD7-009",
+      "destino": "LOPD7-023",
+      "tipo": "prerrequisito",
+      "justificacion": "Distinguir responsable y encargado (art. 5) es presupuesto del régimen del encargado del art. 30."
+    },
+    {
+      "origen": "LOPD7-024",
+      "destino": "LOPD7-025",
+      "tipo": "prerrequisito",
+      "justificacion": "La seguridad del tratamiento (art. 37) es presupuesto de la notificación de las violaciones de seguridad (art. 38)."
+    },
+    {
+      "origen": "LOPD7-026",
+      "destino": "LOPD7-027",
+      "tipo": "prerrequisito",
+      "justificacion": "La designación del delegado (art. 40) es presupuesto del ejercicio de sus funciones (art. 42)."
+    },
+    {
+      "origen": "LOPD7-006",
+      "destino": "CE-T1-021",
+      "tipo": "desarrolla",
+      "justificacion": "La protección de datos personales concreta el derecho fundamental a la intimidad reconocido en el art. 18 CE."
+    },
+    {
+      "origen": "LOPD7-003",
+      "destino": "LOPD-003",
+      "tipo": "remite",
+      "justificacion": "Los tratamientos excluidos del ámbito de la LO 7/2021 se someten al RGPD y a la LO 3/2018 (art. 2.3.a)."
+    },
+    {
+      "origen": "LOPD7-023",
+      "destino": "LOPD-001",
+      "tipo": "remite",
+      "justificacion": "El encargado del tratamiento se regirá, en lo no previsto por la LO 7/2021, por la LO 3/2018 (art. 30.5)."
+    },
+    {
+      "origen": "LOPD7-016",
+      "destino": "LOPD-016",
+      "tipo": "desarrolla",
+      "justificacion": "Las categorías especiales del art. 13 LO 7/2021 concretan, en el ámbito penal, el régimen de categorías especiales de la LO 3/2018."
+    }
+  ]
+}

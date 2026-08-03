@@ -17,17 +17,42 @@ export type ActividadPublica = {
   opciones: string[] | null;
 };
 
-// Saca una actividad verificada (tipo test) al azar. NUNCA envía la respuesta
-// correcta al cliente: eso se comprueba en el servidor (ver responder()).
+function barajar<T>(arr: T[]): T[] {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Saca una actividad verificada (tipo test) al azar. Formato EXAMEN OFICIAL PN:
+// 3 alternativas. Reducimos las 4 opciones guardadas a la correcta + 2
+// distractores al azar y las barajamos. La respuesta correcta NO se marca ni se
+// envía: la corrección se hace en el servidor por texto (ver responder()).
 export async function siguienteActividad(): Promise<ActividadPublica | null> {
   const db = createCerebroClient();
-  const { data, error } = await db
-    .from("actividad")
-    .select("id, concepto_id, tipo, enunciado, opciones")
-    .eq("estado_verificacion", "verificado")
-    .eq("tipo", "test");
+  // Elegimos la pregunta al azar EN LA BASE (order by random() limit 1) y traemos
+  // SOLO esa fila, en vez de descargar todo el banco y elegir en memoria.
+  // Ver función acertium_v2.siguiente_actividad_test().
+  const { data, error } = await db.rpc("siguiente_actividad_test");
   if (error || !data || data.length === 0) return null;
-  return data[Math.floor(Math.random() * data.length)] as ActividadPublica;
+  const a = data[0] as ActividadPublica & {
+    respuesta?: { correcta?: string } | null;
+  };
+  const correcta = a.respuesta?.correcta ?? null;
+  let opciones = Array.isArray(a.opciones) ? a.opciones : [];
+  if (correcta && opciones.length > 3) {
+    const distractores = barajar(opciones.filter((o) => o !== correcta)).slice(0, 2);
+    opciones = barajar([correcta, ...distractores]);
+  }
+  return {
+    id: a.id,
+    concepto_id: a.concepto_id,
+    tipo: a.tipo,
+    enunciado: a.enunciado,
+    opciones,
+  };
 }
 
 export type Resultado = {
@@ -57,7 +82,7 @@ function boeUrl(referencia: string | null, articulo: string | null): string | nu
 // recomputa el estado de dominio del concepto con el motor y lo persiste.
 export async function responder(
   actividadId: string,
-  indiceElegido: number,
+  textoElegido: string,
   tiempoMs?: number,
 ): Promise<Resultado> {
   const db = createCerebroClient();
@@ -69,9 +94,10 @@ export async function responder(
     .single();
   if (error || !act) throw new Error("actividad no encontrada");
 
-  const correctaIndice = (act.respuesta?.indice ?? null) as number | null;
   const correcta = (act.respuesta?.correcta ?? null) as string | null;
-  const acierto = correctaIndice !== null && indiceElegido === correctaIndice;
+  // Corrección por TEXTO: las opciones se sirven reducidas y barajadas, así que
+  // el índice del cliente no es fiable; comparamos el texto elegido con la correcta.
+  const acierto = correcta !== null && textoElegido === correcta;
   const ahora = new Date();
 
   // 1) evento append-only (con tiempo de respuesta, señal futura)
@@ -140,7 +166,7 @@ export async function responder(
 
   return {
     acierto,
-    correctaIndice,
+    correctaIndice: null,
     correcta,
     explicacion: c?.explicacion ?? null,
     cotejo: act.cotejo_fuente,

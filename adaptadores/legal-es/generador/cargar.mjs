@@ -4,11 +4,20 @@
 // ejecuta con el conector de Supabase. (Opción A: el agente lo ejecuta; opción B:
 // el job de API lo ejecuta con service-role.)
 
+import { verificarMeta, cargarRegistro } from "./verificar-meta.mjs";
+
 function q(s) {
   return "'" + String(s ?? "").replace(/'/g, "''") + "'";
 }
 
-export function loteASql(v, meta) {
+export function loteASql(v, meta, registro) {
+  // Refuerzo de la puerta de metadatos: aunque se llame directamente (saltando
+  // generar.mjs), es IMPOSIBLE emitir SQL con un meta que contradiga la familia
+  // de los conceptos. Fail-closed.
+  const vm = verificarMeta(v.conceptosOK, meta, registro || cargarRegistro());
+  if (!vm.ok)
+    throw new Error("meta incoherente, no se emite SQL:\n  - " + vm.errores.join("\n  - "));
+
   const { materia, norma, referencia_boe, convocatoria, tema } = meta;
   const out = [];
 
@@ -49,8 +58,16 @@ export function loteASql(v, meta) {
       v.actividadesOK
         .map((a) => {
           const correcta = a.opciones[a.indice_correcto];
-          const resp = JSON.stringify({ correcta, indice: a.indice_correcto });
-          const ops = JSON.stringify(a.opciones);
+          // Estándar de calidad: barajar las opciones para que la posición de la
+          // correcta quede repartida (evita el sesgo "la correcta siempre en A/B").
+          const barajadas = a.opciones.slice();
+          for (let i = barajadas.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [barajadas[i], barajadas[j]] = [barajadas[j], barajadas[i]];
+          }
+          const indice = barajadas.indexOf(correcta);
+          const resp = JSON.stringify({ correcta, indice });
+          const ops = JSON.stringify(barajadas);
           return `(${q(a.concepto_id)},'test',${q(a.enunciado)},${q(ops)}::jsonb,${q(resp)}::jsonb,${q(a.justificacion)},${q(a.cotejo)},'verificado')`;
         })
         .join(",\n") + ";",

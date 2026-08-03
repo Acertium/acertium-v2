@@ -29,8 +29,9 @@ export default function PracticaRunner({
     if (resultado || pending) return;
     setElegido(indice);
     const ms = Date.now() - inicioRef.current;
+    const texto = actividad.opciones?.[indice] ?? "";
     start(async () => {
-      const r = await accionResponder(actividad.id, indice, ms);
+      const r = await accionResponder(actividad.id, texto, ms);
       setResultado(r);
     });
   }
@@ -67,7 +68,7 @@ export default function PracticaRunner({
       <div className="mt-6 flex flex-col gap-3">
         {opciones.map((op, i) => {
           const esElegido = elegido === i;
-          const esCorrecta = resultado && resultado.correctaIndice === i;
+          const esCorrecta = resultado && op === resultado.correcta;
           const esFallo = resultado && esElegido && !resultado.acierto;
           let estilo: CSSProperties = {
             background: "var(--color-surface)",

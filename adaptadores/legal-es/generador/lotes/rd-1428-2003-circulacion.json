@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "materia": "rd-1428-2003-reglamento-circulacion",
+    "norma": "Real Decreto 1428/2003, por el que se aprueba el Reglamento General de Circulación",
+    "referencia_boe": "BOE-A-2003-23514",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 43 — El vehículo prioritario: definición, facultades de los conductores de vehículos prioritarios; señales; el Reglamento General de Circulación"
+  },
+  "fuentes": {
+    "art. 67": "1. Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter. Podrán circular por encima de los límites de velocidad y estarán exentos de cumplir otras normas o señales en los casos y con las condiciones que se determinan en esta sección (artículo 25 del texto articulado). 2. Los conductores de los vehículos destinados a los referidos servicios harán uso ponderado de su régimen especial únicamente cuando circulen en prestación de un servicio urgente y cuidarán de no vulnerar la prioridad de paso en las intersecciones de vías o las señales de los semáforos, sin antes adoptar extremadas precauciones, hasta cerciorarse de que no existe riesgo de atropello a peatones y de que los conductores de otros vehículos han detenido su marcha o se disponen a facilitar la suya. 3. La instalación de aparatos emisores de luces y señales acústicas especiales en vehículos prioritarios requerirá autorización de la Jefatura Provincial de Tráfico correspondiente, de conformidad con lo dispuesto en las normas reguladoras de los vehículos.",
+    "art. 68": "1. Los conductores de los vehículos prioritarios deberán observar los preceptos de este reglamento, si bien, a condición de haberse cerciorado de que no ponen en peligro a ningún usuario de la vía, podrán dejar de cumplir bajo su exclusiva responsabilidad las normas de los títulos II, III y IV, salvo las órdenes y señales de los agentes, que son siempre de obligado cumplimiento. Los conductores de dichos vehículos podrán igualmente, con carácter excepcional, cuando circulen por autopista o autovía en servicio urgente y no comprometan la seguridad de ningún usuario, dar media vuelta o marcha atrás, circular en sentido contrario al correspondiente a la calzada, siempre que lo hagan por el arcén, o penetrar en la mediana o en los pasos transversales de ésta. Los agentes de la autoridad responsable de la vigilancia, regulación y control del tráfico podrán utilizar o situar sus vehículos en la parte de la vía que resulte necesaria cuando presten auxilio a los usuarios de ésta o lo requieran las necesidades del servicio o de la circulación. Asimismo, determinarán en cada caso concreto los lugares donde deben situarse los vehículos de servicios de urgencia o de otros servicios especiales. 2. Tendrán el carácter de prioritarios los vehículos de los servicios de policía, extinción de incendios, protección civil y salvamento, y de asistencia sanitaria, pública o privada, que circulen en servicio urgente y cuyos conductores adviertan de su presencia mediante la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales previstos en el anexo XI del Reglamento General de Vehículos. Por excepción de lo dispuesto en el párrafo anterior, los conductores de los vehículos prioritarios deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno para los demás usuarios. 3. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado.",
+    "art. 69": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso, o actuando conforme a lo dispuesto en el artículo 32. Cuando un vehículo de policía que manifiesta su presencia según lo dispuesto en el artículo 68.2 se sitúa detrás de cualquier otro vehículo y activa además un dispositivo de emisión de luz roja hacia adelante de forma intermitente o destellante, el conductor de este deberá detenerlo con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios, y permanecerá en su interior. En todo momento el conductor ajustará su comportamiento a las instrucciones que imparta el agente a través de la megafonía o por cualquier otro medio que pueda ser percibido claramente por aquel.",
+    "art. 70": "1. Si, como consecuencia de circunstancias especialmente graves, el conductor de un vehículo no prioritario se viera forzado, sin poder recurrir a otro medio, a efectuar un servicio de los normalmente reservados a los prioritarios, procurará que los demás usuarios adviertan la especial situación en que circula, utilizando para ello el avisador acústico en forma intermitente y conectando la luz de emergencia, si se dispusiera de ella, o agitando un pañuelo o procedimiento similar. 2. Los conductores a que se refiere el apartado anterior deberán respetar las normas de circulación, sobre todo en las intersecciones, y los demás usuarios de la vía darán cumplimiento a lo dispuesto en el artículo 69. 3. En cualquier momento, los agentes de la autoridad podrán exigir la justificación de las circunstancias a que se alude en el apartado 1. 4. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado."
+  },
+  "conceptos": [
+    {
+      "id": "TRAF-001",
+      "articulo": "art. 67",
+      "titulo": "Prioridad de paso del vehículo prioritario",
+      "resumen": "Los vehículos de servicios de urgencia, públicos o privados, tienen prioridad de paso sobre los demás vehículos y usuarios cuando se hallen en servicio de tal carácter.",
+      "explicacion": "Un vehículo prioritario es el de un servicio de urgencia (público o privado) que va prestando un servicio urgente. En esa situación pasa por delante de todos los demás vehículos y usuarios de la vía. La clave es que solo tiene esa prioridad cuando realmente está en servicio de urgencia, no en cualquier momento."
+    },
+    {
+      "id": "TRAF-002",
+      "articulo": "art. 67",
+      "titulo": "Exención de velocidad y de otras normas",
+      "resumen": "El vehículo prioritario puede circular por encima de los límites de velocidad y está exento de cumplir otras normas o señales, en los casos y condiciones fijados en la sección.",
+      "explicacion": "La prioridad no es solo pasar primero: el prioritario puede superar los límites de velocidad y saltarse otras normas o señales. Pero no lo hace de forma libre, sino en los casos y con las condiciones que marca esta misma sección del reglamento."
+    },
+    {
+      "id": "TRAF-003",
+      "articulo": "art. 67",
+      "titulo": "Uso ponderado del régimen especial",
+      "resumen": "Los conductores harán uso ponderado de su régimen especial únicamente cuando circulen en prestación de un servicio urgente y adoptando extremadas precauciones ante intersecciones y semáforos.",
+      "explicacion": "El régimen especial (velocidad, saltarse normas) se usa con mesura y solo mientras se presta un servicio urgente. Antes de cruzar intersecciones o semáforos hay que extremar precauciones y asegurarse de que no hay riesgo de atropello y de que los demás han parado o van a ceder el paso."
+    },
+    {
+      "id": "TRAF-004",
+      "articulo": "art. 67",
+      "titulo": "Autorización para instalar luces y señales acústicas",
+      "resumen": "Instalar aparatos emisores de luces y señales acústicas especiales en vehículos prioritarios requiere autorización de la Jefatura Provincial de Tráfico correspondiente.",
+      "explicacion": "No cualquiera puede montar la sirena y las luces de prioritario en su vehículo. Hace falta autorización de la Jefatura Provincial de Tráfico, conforme a las normas que regulan los vehículos. Así se controla quién puede usar realmente esas señales."
+    },
+    {
+      "id": "TRAF-005",
+      "articulo": "art. 68",
+      "titulo": "Poder dejar de cumplir normas, salvo órdenes de los agentes",
+      "resumen": "El conductor prioritario, tras cerciorarse de que no pone en peligro a nadie, puede dejar de cumplir bajo su exclusiva responsabilidad las normas de los títulos II, III y IV, salvo las órdenes y señales de los agentes, que son siempre de obligado cumplimiento.",
+      "explicacion": "El prioritario puede incumplir muchas normas del reglamento (títulos II, III y IV), pero bajo su exclusiva responsabilidad y solo si se ha asegurado de que no pone en peligro a nadie. Hay un límite que nunca puede saltarse: las órdenes y señales de los agentes, que siempre hay que obedecer."
+    },
+    {
+      "id": "TRAF-006",
+      "articulo": "art. 68",
+      "titulo": "Maniobras excepcionales en autopista o autovía",
+      "resumen": "En servicio urgente por autopista o autovía y sin comprometer la seguridad, el prioritario puede dar media vuelta o marcha atrás, o circular en sentido contrario siempre que lo haga por el arcén, o penetrar en la mediana.",
+      "explicacion": "Con carácter excepcional y solo en autopista o autovía durante un servicio urgente, el prioritario puede hacer maniobras normalmente prohibidas: media vuelta, marcha atrás, circular en sentido contrario (pero por el arcén) o entrar en la mediana. Siempre a condición de no comprometer la seguridad de ningún usuario."
+    },
+    {
+      "id": "TRAF-007",
+      "articulo": "art. 68",
+      "titulo": "Facultades de los agentes de tráfico sobre la vía",
+      "resumen": "Los agentes responsables de la vigilancia y control del tráfico pueden situar sus vehículos en la parte de la vía que resulte necesaria y determinar dónde deben situarse los vehículos de servicios de urgencia.",
+      "explicacion": "Los agentes de tráfico tienen sus propias facultades: pueden colocar sus vehículos donde haga falta cuando auxilian a usuarios o lo exige el servicio, y además deciden en cada caso dónde deben situarse los vehículos de urgencia u otros servicios especiales."
+    },
+    {
+      "id": "TRAF-008",
+      "articulo": "art. 68",
+      "titulo": "Qué vehículos son prioritarios y su señalización",
+      "resumen": "Tienen carácter de prioritarios los vehículos de policía, extinción de incendios, protección civil y salvamento, y de asistencia sanitaria pública o privada, en servicio urgente, que adviertan su presencia con la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales.",
+      "explicacion": "La lista de prioritarios es cerrada: policía, bomberos (extinción de incendios), protección civil y salvamento, y ambulancias (asistencia sanitaria pública o privada). Para serlo deben ir en servicio urgente y avisar de su presencia usando a la vez la luz y el sonido (las señales del anexo XI del Reglamento General de Vehículos)."
+    },
+    {
+      "id": "TRAF-009",
+      "articulo": "art. 68",
+      "titulo": "Señal luminosa aislada como excepción",
+      "resumen": "Por excepción, el conductor prioritario debe utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno para los demás usuarios.",
+      "explicacion": "La regla general es luz y sonido a la vez, pero hay una excepción: si quitar el sonido no supone ningún peligro para los demás (por ejemplo, de madrugada en zona sin tráfico), se debe usar solo la señal luminosa. Así se evita ruido innecesario cuando no aporta seguridad."
+    },
+    {
+      "id": "TRAF-010",
+      "articulo": "art. 68",
+      "titulo": "Infracciones a las normas del vehículo prioritario (graves)",
+      "resumen": "Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme al artículo 65.4.c) del texto articulado.",
+      "explicacion": "Incumplir las normas que regulan las facultades del vehículo prioritario no es una falta menor: se considera infracción grave según el texto articulado de la ley de tráfico. Es la garantía de que el régimen especial no se usa a la ligera."
+    },
+    {
+      "id": "TRAF-011",
+      "articulo": "art. 69",
+      "titulo": "Comportamiento de los demás conductores",
+      "resumen": "Al percibir las señales que anuncian un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso.",
+      "explicacion": "Los demás conductores tienen que colaborar: en cuanto oyen o ven las señales del prioritario, deben facilitarle el paso. Lo normal es apartarse a la derecha y, si hace falta, detenerse. La idea es dejarle vía libre cuanto antes."
+    },
+    {
+      "id": "TRAF-012",
+      "articulo": "art. 69",
+      "titulo": "Parada ante vehículo de policía con luz roja",
+      "resumen": "Cuando un vehículo de policía activa un dispositivo de luz roja intermitente o destellante detrás de otro, el conductor de este deberá detenerlo con las debidas precauciones en el lado derecho, delante del vehículo policial, y permanecerá en su interior.",
+      "explicacion": "Si un coche de policía se coloca detrás y enciende una luz roja hacia adelante (intermitente o destellante), es la orden de detenerse: hay que parar con precaución en el lado derecho, delante del vehículo policial, en sitio seguro, quedarse dentro y seguir las instrucciones del agente por megafonía o por otro medio."
+    },
+    {
+      "id": "TRAF-013",
+      "articulo": "art. 70",
+      "titulo": "Vehículo no prioritario forzado a un servicio de urgencia",
+      "resumen": "El conductor de un vehículo no prioritario forzado por circunstancias graves a un servicio de los reservados a prioritarios avisará usando el avisador acústico en forma intermitente y conectando la luz de emergencia, o agitando un pañuelo.",
+      "explicacion": "A veces un conductor normal se ve obligado por una urgencia grave (sin otro medio) a hacer algo propio de un prioritario. No tiene sirena, así que debe avisar como pueda: tocando el claxon de forma intermitente y encendiendo las luces de emergencia si las tiene, o incluso agitando un pañuelo, para que los demás perciban su situación especial."
+    },
+    {
+      "id": "TRAF-014",
+      "articulo": "art. 70",
+      "titulo": "Obligaciones del no prioritario en urgencia",
+      "resumen": "Estos conductores deberán respetar las normas de circulación, sobre todo en las intersecciones, y los demás usuarios darán cumplimiento a lo dispuesto en el artículo 69.",
+      "explicacion": "El vehículo no prioritario en urgencia no queda exento de nada: debe seguir respetando las normas de circulación, en especial en las intersecciones, porque no tiene el régimen especial del prioritario. Aun así, los demás usuarios deben comportarse ante él como ante un prioritario (artículo 69)."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "TRAF-001",
+      "articulo": "art. 67",
+      "tipo": "test",
+      "enunciado": "¿Cuándo tienen prioridad de paso los vehículos de servicios de urgencia?",
+      "opciones": [
+        "Siempre que circulen por autopista o autovía",
+        "Cuando se hallen en servicio de tal carácter",
+        "Únicamente si son vehículos públicos",
+        "Solo durante las horas nocturnas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter.",
+      "justificacion": "Art. 67.1 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-002",
+      "articulo": "art. 67",
+      "tipo": "test",
+      "enunciado": "En cuanto a la velocidad, los vehículos prioritarios podrán:",
+      "opciones": [
+        "Circular por encima de los límites de velocidad",
+        "Circular siempre a más de 120 km/h",
+        "Duplicar en todo caso el límite de la vía",
+        "Circular sin ningún límite de peso ni de carga"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Podrán circular por encima de los límites de velocidad y estarán exentos de cumplir otras normas o señales en los casos y con las condiciones que se determinan en esta sección",
+      "justificacion": "Art. 67.1 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-003",
+      "articulo": "art. 67",
+      "tipo": "test",
+      "enunciado": "¿Cuándo harán uso ponderado de su régimen especial los conductores de vehículos prioritarios?",
+      "opciones": [
+        "Siempre que lo consideren conveniente",
+        "Únicamente cuando circulen en prestación de un servicio urgente",
+        "Solo con autorización expresa de un agente",
+        "En cualquier desplazamiento del vehículo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los conductores de los vehículos destinados a los referidos servicios harán uso ponderado de su régimen especial únicamente cuando circulen en prestación de un servicio urgente",
+      "justificacion": "Art. 67.2 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-004",
+      "articulo": "art. 67",
+      "tipo": "test",
+      "enunciado": "La instalación de aparatos emisores de luces y señales acústicas especiales en vehículos prioritarios requerirá:",
+      "opciones": [
+        "Autorización del ayuntamiento del municipio",
+        "Una simple comunicación al fabricante",
+        "Autorización de la Jefatura Provincial de Tráfico correspondiente",
+        "No requiere autorización de ningún tipo"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La instalación de aparatos emisores de luces y señales acústicas especiales en vehículos prioritarios requerirá autorización de la Jefatura Provincial de Tráfico correspondiente",
+      "justificacion": "Art. 67.3 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-005",
+      "articulo": "art. 68",
+      "tipo": "test",
+      "enunciado": "El conductor de un vehículo prioritario puede dejar de cumplir normas de los títulos II, III y IV, pero siempre debe respetar:",
+      "opciones": [
+        "Los límites de velocidad de la vía",
+        "Las señales de los semáforos",
+        "Las órdenes y señales de los agentes",
+        "Las normas sobre sentido de circulación"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "podrán dejar de cumplir bajo su exclusiva responsabilidad las normas de los títulos II, III y IV, salvo las órdenes y señales de los agentes, que son siempre de obligado cumplimiento.",
+      "justificacion": "Art. 68.1 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-006",
+      "articulo": "art. 68",
+      "tipo": "test",
+      "enunciado": "Con carácter excepcional en autopista o autovía en servicio urgente, si el prioritario circula en sentido contrario a la calzada debe hacerlo:",
+      "opciones": [
+        "Siempre que lo hagan por el arcén",
+        "Por el carril central de la calzada",
+        "A menos de 40 km/h en todo caso",
+        "Únicamente durante el día"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "circular en sentido contrario al correspondiente a la calzada, siempre que lo hagan por el arcén, o penetrar en la mediana o en los pasos transversales de ésta.",
+      "justificacion": "Art. 68.1 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-007",
+      "articulo": "art. 68",
+      "tipo": "test",
+      "enunciado": "Los agentes de la autoridad responsable de la vigilancia y control del tráfico podrán situar sus vehículos:",
+      "opciones": [
+        "Solo en los arcenes habilitados",
+        "En la parte de la vía que resulte necesaria",
+        "Exclusivamente fuera de la calzada",
+        "Donde lo autorice la Jefatura Provincial de Tráfico"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los agentes de la autoridad responsable de la vigilancia, regulación y control del tráfico podrán utilizar o situar sus vehículos en la parte de la vía que resulte necesaria cuando presten auxilio a los usuarios de ésta o lo requieran las necesidades del servicio o de la circulación.",
+      "justificacion": "Art. 68.1 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-008",
+      "articulo": "art. 68",
+      "tipo": "test",
+      "enunciado": "Como regla general, ¿cómo advierten de su presencia los vehículos prioritarios en servicio urgente?",
+      "opciones": [
+        "Solo con la señal luminosa",
+        "Únicamente con el aparato emisor de señales acústicas",
+        "Mediante la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales",
+        "Agitando un pañuelo o procedimiento similar"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "cuyos conductores adviertan de su presencia mediante la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales previstos en el anexo XI del Reglamento General de Vehículos.",
+      "justificacion": "Art. 68.2 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-009",
+      "articulo": "art. 68",
+      "tipo": "test",
+      "enunciado": "¿Cuándo deben utilizar la señal luminosa aisladamente los conductores de vehículos prioritarios?",
+      "opciones": [
+        "Cuando la omisión de las señales acústicas especiales no entrañe peligro alguno para los demás usuarios",
+        "Siempre que circulen por vías urbanas",
+        "Cuando el tráfico sea muy intenso",
+        "En cualquier servicio, sea urgente o no"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "los conductores de los vehículos prioritarios deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno para los demás usuarios.",
+      "justificacion": "Art. 68.2 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-010",
+      "articulo": "art. 68",
+      "tipo": "test",
+      "enunciado": "Las infracciones a las normas del precepto que regula las facultades del vehículo prioritario tendrán la consideración de:",
+      "opciones": [
+        "Leves",
+        "Graves",
+        "Muy graves",
+        "No constituyen infracción"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado.",
+      "justificacion": "Art. 68.3 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-011",
+      "articulo": "art. 69",
+      "tipo": "test",
+      "enunciado": "Al percibir las señales que anuncian un vehículo prioritario, los demás conductores facilitarán su paso:",
+      "opciones": [
+        "Acelerando para no entorpecer",
+        "Apartándose normalmente a su derecha o deteniéndose si fuera preciso",
+        "Deteniéndose siempre en el centro de la calzada",
+        "Apartándose siempre a su izquierda"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso",
+      "justificacion": "Art. 69 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-012",
+      "articulo": "art. 69",
+      "tipo": "test",
+      "enunciado": "Cuando un vehículo de policía con luz roja intermitente o destellante se sitúa detrás y ordena detenerse, el conductor debe detener su vehículo:",
+      "opciones": [
+        "En el lado izquierdo de la calzada",
+        "En el lado derecho, delante del vehículo policial",
+        "Detrás del vehículo policial",
+        "En el primer carril libre disponible"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el conductor de este deberá detenerlo con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios, y permanecerá en su interior.",
+      "justificacion": "Art. 69 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-013",
+      "articulo": "art. 70",
+      "tipo": "test",
+      "enunciado": "El conductor de un vehículo no prioritario forzado a un servicio reservado a prioritarios advertirá a los demás usuarios:",
+      "opciones": [
+        "Utilizando la señal luminosa y acústica del anexo XI",
+        "Solicitando previamente escolta policial",
+        "Utilizando para ello el avisador acústico en forma intermitente y conectando la luz de emergencia",
+        "Circulando en sentido contrario por el arcén"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "procurará que los demás usuarios adviertan la especial situación en que circula, utilizando para ello el avisador acústico en forma intermitente y conectando la luz de emergencia, si se dispusiera de ella, o agitando un pañuelo o procedimiento similar.",
+      "justificacion": "Art. 70.1 RD 1428/2003."
+    },
+    {
+      "concepto_id": "TRAF-014",
+      "articulo": "art. 70",
+      "tipo": "test",
+      "enunciado": "El conductor de un vehículo no prioritario en servicio de urgencia debe respetar las normas de circulación, sobre todo:",
+      "opciones": [
+        "En las intersecciones",
+        "En las autopistas",
+        "En los túneles",
+        "En las rotondas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los conductores a que se refiere el apartado anterior deberán respetar las normas de circulación, sobre todo en las intersecciones, y los demás usuarios de la vía darán cumplimiento a lo dispuesto en el artículo 69.",
+      "justificacion": "Art. 70.2 RD 1428/2003."
+    }
+  ],
+  "relaciones": [
+    { "origen": "TRAF-002", "destino": "TRAF-001", "tipo": "desarrolla", "justificacion": "La exención de velocidad y normas concreta en qué consiste la prioridad de paso del art. 67.1." },
+    { "origen": "TRAF-003", "destino": "TRAF-002", "tipo": "limita", "justificacion": "El uso ponderado y las precauciones restringen el ejercicio del régimen especial." },
+    { "origen": "TRAF-005", "destino": "TRAF-002", "tipo": "desarrolla", "justificacion": "El art. 68.1 detalla qué normas puede dejar de cumplir el prioritario." },
+    { "origen": "TRAF-006", "destino": "TRAF-005", "tipo": "desarrolla", "justificacion": "Las maniobras excepcionales en autopista concretan la facultad de incumplir normas." },
+    { "origen": "TRAF-007", "destino": "TRAF-001", "tipo": "desarrolla", "justificacion": "Las facultades de los agentes de tráfico se enmarcan en el régimen de los vehículos en servicio de urgencia." },
+    { "origen": "TRAF-008", "destino": "TRAF-001", "tipo": "desarrolla", "justificacion": "El art. 68.2 concreta qué vehículos tienen carácter de prioritarios y cómo se señalizan." },
+    { "origen": "TRAF-004", "destino": "TRAF-008", "tipo": "prerrequisito", "justificacion": "Para usar las señales luminosas y acústicas de prioritario primero hay que instalarlas con autorización." },
+    { "origen": "TRAF-009", "destino": "TRAF-008", "tipo": "limita", "justificacion": "La señal luminosa aislada es una excepción a la regla de señalización simultánea." },
+    { "origen": "TRAF-010", "destino": "TRAF-005", "tipo": "desarrolla", "justificacion": "Tipifica como graves las infracciones a las normas sobre facultades del prioritario." },
+    { "origen": "TRAF-001", "destino": "TRAF-011", "tipo": "prerrequisito", "justificacion": "Para entender la obligación de los demás conductores hay que conocer antes la prioridad del vehículo prioritario." },
+    { "origen": "TRAF-012", "destino": "TRAF-011", "tipo": "desarrolla", "justificacion": "La parada ante el vehículo policial concreta el comportamiento de los demás conductores." },
+    { "origen": "TRAF-001", "destino": "TRAF-013", "tipo": "prerrequisito", "justificacion": "El vehículo no prioritario en urgencia se define por contraste con el prioritario." },
+    { "origen": "TRAF-013", "destino": "TRAF-014", "tipo": "prerrequisito", "justificacion": "Las obligaciones del no prioritario presuponen la situación descrita en el art. 70.1." },
+    { "origen": "TRAF-014", "destino": "TRAF-011", "tipo": "remite", "justificacion": "El art. 70.2 remite al art. 69 para el comportamiento de los demás usuarios." }
+  ]
+}

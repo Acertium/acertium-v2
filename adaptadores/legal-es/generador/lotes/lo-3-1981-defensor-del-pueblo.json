@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "materia": "lo-3-1981-defensor-del-pueblo",
+    "norma": "Ley Orgánica 3/1981, del Defensor del Pueblo",
+    "referencia_boe": "BOE-A-1981-10325",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+  },
+  "fuentes": {
+    "art. primero": "El Defensor del Pueblo es el alto comisionado de las Cortes Generales designado por éstas para la defensa de los derechos comprendidos en el Título I de la Constitución, a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales. Ejercerá las funciones que le encomienda la Constitución y la presente Ley.",
+    "art. segundo": "Uno. El Defensor del Pueblo será elegido por las Cortes Generales para un periodo de cinco años, y se dirigirá a las mismas a través de los Presidentes del Congreso y del Senado, respectivamente. Dos. Se designará en las Cortes Generales una Comisión Mixta Congreso-Senado encargada de relacionarse con el Defensor del Pueblo e informar a los respectivos Plenos en cuantas ocasiones sea necesario. Tres. Dicha Comisión se reunirá cuando así lo acuerden conjuntamente el Presidente del Congreso y del Senado, y en todo caso, para proponer a los Plenos de las Cámaras el candidato o candidatos a Defensor del Pueblo. Los acuerdos de la Comisión se adoptarán por mayoría simple. Cuatro. Propuesto el candidato o candidatos, se convocará en término no inferior a diez días al Pleno del Congreso para que proceda a su elección. Será designado quien obtuviese una votación favorable de las tres quintas partes de los miembros del Congreso y posteriormente, en un plazo máximo de veinte días, fuese ratificado por esta misma mayoría del Senado. Cinco. Caso de no alcanzarse las mencionadas mayorías, se procederá en nueva sesión de la Comisión, y en el plazo máximo de un mes, a formular sucesivas propuestas. En tales casos, una vez conseguida la mayoría de los tres quintos en el Congreso, la designación quedará realizada al alcanzarse la mayoría absoluta del Senado. Seis. Designado el Defensor del Pueblo se reunirá de nuevo la Comisión Mixta Congreso-Senado para otorgar su conformidad previa al nombramiento de los adjuntos que le sean propuestos por aquél.",
+    "art. tercero": "Podrá ser elegido Defensor del Pueblo cualquier español mayor de edad que se encuentre en el pleno disfrute de sus derechos civiles y políticos.",
+    "art. cuarto": "Uno. Los Presidentes del Congreso y del Senado acreditarán conjuntamente con sus firmas el nombramiento del Defensor del Pueblo que se publicará en el «Boletín Oficial del Estado». Dos. El Defensor del Pueblo tomará posesión de su cargo ante las Mesas de ambas Cámaras reunidas conjuntamente, prestando juramento o promesa de fiel desempeño de su función.",
+    "art. quinto": "Uno. El Defensor del Pueblo cesará por alguna de las siguientes causas: Uno) Por renuncia. Dos) Por expiración del plazo de su nombramiento. Tres) Por muerte o por incapacidad sobrevenida. Cuatro) Por actuar con notoria negligencia en el cumplimiento de las obligaciones y deberes del cargo. Cinco) Por haber sido condenado, mediante sentencia firme, por delito doloso. Dos. La vacante en el cargo se declarará por el Presidente del Congreso en los casos de muerte, renuncia y expiración del plazo del mandato. En los demás casos se decidirá, por mayoría de las tres quintas partes de los componentes de cada Cámara, mediante debate y previa audiencia del interesado. Tres. Vacante el cargo se iniciará el procedimiento para el nombramiento de nuevo Defensor del Pueblo en plazo no superior a un mes. Cuatro. En los casos de muerte, cese o incapacidad temporal o definitiva del Defensor del Pueblo y en tanto no procedan las Cortes Generales a una nueva designación desempeñarán sus funciones, interinamente, en su propio orden, los Adjuntos al Defensor del Pueblo.",
+    "art. sexto": "Uno. El Defensor del Pueblo no estará sujeto a mandato imperativo alguno. No recibirá instrucciones de ninguna Autoridad. Desempeñará sus funciones con autonomía y según su criterio. Dos. El Defensor del Pueblo gozará de inviolabilidad. No podrá ser detenido, expedientado, multado, perseguido o juzgado en razón a las opiniones que formule o a los actos que realice en el ejercicio de las competencias propias de su cargo. Tres. En los demás casos, y mientras permanezca en el ejercicio de sus funciones, el Defensor del Pueblo no podrá ser detenido ni retenido sino en caso de flagrante delito, correspondiendo la decisión sobre su inculpación, prisión, procesamiento y juicio exclusivamente a la Sala de lo Penal del Tribunal Supremo. Cuatro. Las anteriores reglas serán aplicables a los Adjuntos del Defensor del Pueblo en el cumplimiento de sus funciones.",
+    "art. séptimo": "Uno. La condición de Defensor del Pueblo es incompatible con todo mandato representativo; con todo cargo político o actividad de propaganda política; con la permanencia en el servicio activo de cualquier Administración pública; con la afiliación a un partido político o el desempeño de funciones directivas en un partido político o en un sindicato, asociación o fundación, y con el empleo al servicio de los mismos; con el ejercicio de las carreras judicial y fiscal, y con cualquier actividad profesional, liberal, mercantil o laboral. Dos. El Defensor del Pueblo deberá cesar, dentro de los diez días siguientes a su nombramiento y antes de tomar posesión, en toda situación de incompatibilidad que pudiera afectarle, entendiéndose en caso contrario que no acepta el nombramiento. Tres. Si la incompatibilidad fuere sobrevenida una vez posesionado del cargo, se entenderá que renuncia al mismo en la fecha en que aquélla se hubiere producido.",
+    "art. octavo": "Uno. El Defensor del Pueblo estará auxiliado por un Adjunto Primero y un Adjunto Segundo, en los que podrá delegar sus funciones y que le sustituirán por su orden, en el ejercicio de las mismas, en los supuestos de imposibilidad temporal y en los de cese. Dos. El Defensor del Pueblo nombrará y separará a sus Adjuntos previa conformidad de las Cámaras en la forma que determinen sus Reglamentos. Tres. El nombramiento de los Adjuntos será publicado en el «Boletín Oficial del Estado». Cuatro. A los Adjuntos les será de aplicación lo dispuesto para el Defensor del Pueblo en los artículos tercero, sexto y séptimo de la presente Ley.",
+    "art. noveno": "Uno. El Defensor del Pueblo podrá iniciar y proseguir de oficio o a petición de parte, cualquier investigación conducente al esclarecimiento de los actos y resoluciones de la Administración pública y sus agentes, en relación con los ciudadanos, a la luz de lo dispuesto en el artículo ciento tres, uno, de la Constitución, y el respeto debido a los Derechos proclamados en su Título primero. Dos. Las atribuciones del Defensor del Pueblo se extienden a la actividad de los ministros, autoridades administrativas, funcionarios y cualquier persona que actúe al servicio de las Administraciones públicas.",
+    "art. diez": "Uno. Podrá dirigirse al Defensor del Pueblo toda persona natural o jurídica que invoque un interés legítimo, sin restricción alguna. No podrán constituir impedimento para ello la nacionalidad, residencia, sexo, minoría de edad, la incapacidad legal del sujeto, el internamiento en un centro penitenciario o de reclusión o, en general, cualquier relación especial de sujeción o dependencia de una Administración o Poder público. Dos. Los Diputados y Senadores individualmente, las comisiones de investigación o relacionadas con la defensa general o parcial de los derechos y libertades públicas y, principalmente, la Comisión Mixta Congreso-Senado de relaciones con el Defensor del Pueblo podrán solicitar, mediante escrito motivado, la intervención del Defensor del Pueblo para la investigación o esclarecimiento de actos, resoluciones y conductas concretas producidas en las Administraciones públicas, que afecten a un ciudadano o grupo de ciudadanos, en el ámbito de sus competencias. Tres. No podrá presentar quejas ante el Defensor del Pueblo ninguna autoridad administrativa en asuntos de su competencia.",
+    "art. once": "Uno. La actividad del Defensor del Pueblo no se verá interrumpida en los casos en que las Cortes Generales no se encuentren reunidas, hubieren sido disueltas o hubiere expirado su mandato. Dos. En las situaciones previstas en el apartado anterior, el Defensor del Pueblo se dirigirá a las Diputaciones Permanentes de las Cámaras. Tres. La declaración de los estados de excepción o de sitio no interrumpirán la actividad del Defensor del Pueblo, ni el derecho de los ciudadanos de acceder al mismo, sin perjuicio de lo dispuesto en el artículo cincuenta y cinco de la Constitución.",
+    "art. doce": "Uno. El Defensor del Pueblo podrá, en todo caso, de oficio o a instancia de parte, supervisar por sí mismo la actividad de la Comunidad Autónoma en el ámbito de competencias definido por esta Ley. Dos. A los efectos de lo previsto en el párrafo anterior, los órganos similares de las Comunidades Autónomas coordinarán sus funciones con las del Defensor del Pueblo y éste podrá solicitar su cooperación.",
+    "art. trece": "Cuando el Defensor del Pueblo reciba quejas referidas al funcionamiento de la Administración de Justicia, deberá dirigirlas al Ministerio Fiscal para que éste investigue su realidad y adopte las medidas oportunas con arreglo a la ley, o bien dé traslado de las mismas al Consejo General del Poder Judicial, según el tipo de reclamación de que se trate; todo ello sin perjuicio de la referencia que en su informe general a las Cortes Generales pueda hacer al tema.",
+    "art. quince": "Uno. Toda queja se presentará firmada por el interesado, con indicación de su nombre, apellidos y domicilio, en escrito razonado en papel común y en el plazo máximo de un año, contado a partir del momento en que tuviera conocimiento de los hechos objeto de la misma. Dos. Todas las actuaciones del Defensor del Pueblo son gratuitas para el interesado y no será preceptiva la asistencia de Letrado ni de Procurador. De toda queja se acusará recibo.",
+    "art. diecisiete": "Uno. El Defensor del Pueblo registrará y acusará recibo de las quejas que se formulen, que tramitará o rechazará. En este último caso lo hará en escrito motivado pudiendo informar al interesado sobre las vías más oportunas para ejercitar su acción, caso de que a su entender hubiese alguna y sin perjuicio de que el interesado pueda utilizar las que considere más pertinentes. Dos. El Defensor del Pueblo no entrará en el examen individual de aquellas quejas sobre las que esté pendiente resolución judicial y lo suspenderá si, iniciada su actuación, se interpusiere por persona interesada demanda o recurso ante los Tribunales ordinarios o el Tribunal Constitucional. Ello no impedirá, sin embargo, la investigación sobre los problemas generales planteados en las quejas presentadas. En cualquier caso velará por que la Administración resuelva expresamente, en tiempo y forma, las peticiones y recursos que le hayan sido formulados. Tres. El Defensor del Pueblo rechazará las quejas anónimas y podrá rechazar aquellas en las que advierta mala fe, carencia de fundamento, inexistencia de pretensión, así como aquellas otras cuya tramitación irrogue perjuicio al legítimo derecho de tercera persona. Sus decisiones no serán susceptibles de recurso.",
+    "art. dieciocho": "Uno. Admitida la queja, el Defensor del Pueblo promoverá la oportuna investigación sumaria e informal para el esclarecimiento de los supuestos de la misma. En todo caso dará cuenta del contenido sustancial de la solicitud al Organismo o a la Dependencia administrativa procedente con el fin de que por su Jefe en el plazo máximo de quince días, se remita informe escrito. Tal plazo será ampliable cuando concurran circunstancias que lo aconsejen a juicio del Defensor del Pueblo. Dos. La negativa o negligencia del funcionario o de sus superiores responsables al envío del informe inicial solicitado podrá ser considerada por el Defensor del Pueblo como hostil y entorpecedora de sus funciones, haciéndola pública de inmediato y destacando tal calificación en su informe anual o especial, en su caso, a las Cortes Generales.",
+    "art. diecinueve": "Uno. Todos los poderes públicos están obligados a auxiliar, con carácter preferente y urgente, al Defensor del Pueblo en sus investigaciones e inspecciones. Dos. En la fase de comprobación e investigación de una queja o en expediente iniciado de oficio, el Defensor del Pueblo su Adjunto, o la persona en quien él delegue, podrán personarse en cualquier centro de la Administración pública, dependientes de la misma a afectos a un servicio público, para comprobar cuantos datos fueren menester, hacer las entrevistas personales pertinentes o proceder al estudio de los expedientes y documentación necesaria. Tres. A estos efectos no podrá negársele el acceso a ningún expediente o documentación administrativa o que se encuentre relacionada con la actividad o servicio objeto de la investigación, sin perjuicio de lo que se dispone en el artículo veintidós de esta Ley.",
+    "art. veintinueve": "El Defensor del Pueblo está legitimado para interponer los recursos de inconstitucionalidad y de amparo, de acuerdo con lo dispuesto en la Constitución y en la Ley Orgánica del Tribunal Constitucional.",
+    "art. treinta y dos": "Uno. El Defensor del Pueblo dará cuenta anualmente a las Cortes Generales de la gestión realizada en un informe que presentará ante las mismas cuando se hallen reunidas en periodo ordinario de sesiones. Dos. Cuando la gravedad o urgencia de los hechos lo aconsejen podrá presentar un informe extraordinario que dirigirá a las Diputaciones Permanentes de las Cámaras si éstas no se encontraran reunidas. Tres. Los informes anuales y, en su caso los extraordinarios, serán publicados."
+  },
+  "conceptos": [
+    {
+      "id": "DP-001",
+      "articulo": "art. primero",
+      "titulo": "Naturaleza: alto comisionado de las Cortes Generales",
+      "resumen": "El Defensor del Pueblo es el alto comisionado de las Cortes Generales, designado por éstas para defender los derechos del Título I de la Constitución, y puede supervisar la actividad de la Administración dando cuenta a las Cortes.",
+      "explicacion": "El Defensor del Pueblo no es un juez ni un órgano del Gobierno: es un comisionado del poder legislativo. Su misión es doble. Por un lado, defender los derechos y libertades del Título I de la Constitución (los derechos fundamentales de los ciudadanos). Por otro, supervisar cómo actúa la Administración pública respecto a esos derechos. Rinde cuentas ante las Cortes Generales, que son quienes lo designan. Desarrolla la previsión del artículo 54 de la Constitución."
+    },
+    {
+      "id": "DP-002",
+      "articulo": "art. segundo",
+      "titulo": "Mandato de cinco años",
+      "resumen": "El Defensor del Pueblo es elegido por las Cortes Generales para un periodo de cinco años y se dirige a ellas a través de los Presidentes del Congreso y del Senado.",
+      "explicacion": "La duración del cargo es de cinco años, un plazo distinto y más largo que el mandato de cuatro años de las Cámaras, lo que refuerza su independencia frente a los ciclos políticos. Se relaciona con las Cortes por medio de los Presidentes del Congreso y del Senado."
+    },
+    {
+      "id": "DP-003",
+      "articulo": "art. segundo",
+      "titulo": "La Comisión Mixta Congreso-Senado",
+      "resumen": "Se designa una Comisión Mixta Congreso-Senado encargada de relacionarse con el Defensor del Pueblo e informar a los respectivos Plenos; es quien propone al candidato.",
+      "explicacion": "La Comisión Mixta Congreso-Senado es el órgano parlamentario de enlace con la institución. Se relaciona con el Defensor del Pueblo, informa a los Plenos y, sobre todo, propone a las Cámaras el candidato o candidatos. Sus acuerdos se adoptan por mayoría simple."
+    },
+    {
+      "id": "DP-004",
+      "articulo": "art. segundo",
+      "titulo": "Elección por mayoría de tres quintos",
+      "resumen": "Es designado Defensor del Pueblo quien obtiene una votación favorable de las tres quintas partes de los miembros del Congreso y después es ratificado por la misma mayoría del Senado.",
+      "explicacion": "La elección exige un amplio consenso: primero, las tres quintas partes (3/5) de los miembros del Congreso; después, la ratificación por esa misma mayoría en el Senado, en un plazo máximo de veinte días. Esta mayoría reforzada busca que el Defensor del Pueblo sea una figura de consenso entre las principales fuerzas políticas."
+    },
+    {
+      "id": "DP-005",
+      "articulo": "art. tercero",
+      "titulo": "Requisitos para ser elegido",
+      "resumen": "Puede ser Defensor del Pueblo cualquier español mayor de edad que se encuentre en el pleno disfrute de sus derechos civiles y políticos.",
+      "explicacion": "Los requisitos son sencillos: ser español, ser mayor de edad y estar en el pleno disfrute de los derechos civiles y políticos. No se exige titulación jurídica ni profesión concreta."
+    },
+    {
+      "id": "DP-006",
+      "articulo": "art. cuarto",
+      "titulo": "Toma de posesión y juramento",
+      "resumen": "El Defensor del Pueblo toma posesión ante las Mesas de ambas Cámaras reunidas conjuntamente, prestando juramento o promesa de fiel desempeño de su función.",
+      "explicacion": "El nombramiento lo acreditan con sus firmas los Presidentes del Congreso y del Senado y se publica en el Boletín Oficial del Estado. El acto de toma de posesión se celebra ante las Mesas de ambas Cámaras reunidas conjuntamente, con juramento o promesa."
+    },
+    {
+      "id": "DP-007",
+      "articulo": "art. quinto",
+      "titulo": "Causas de cese",
+      "resumen": "El Defensor del Pueblo cesa por renuncia, expiración del plazo, muerte o incapacidad sobrevenida, notoria negligencia o condena por delito doloso mediante sentencia firme.",
+      "explicacion": "La ley enumera de forma cerrada las causas de cese. Unas son objetivas (renuncia, fin del plazo, muerte o incapacidad); otras exigen valoración (actuar con notoria negligencia) o una condena firme por delito doloso. Fuera de estas causas no puede removerse al titular."
+    },
+    {
+      "id": "DP-008",
+      "articulo": "art. quinto",
+      "titulo": "Declaración de vacante e interinidad de los Adjuntos",
+      "resumen": "La vacante la declara el Presidente del Congreso en caso de muerte, renuncia o expiración; mientras no hay nuevo titular, los Adjuntos desempeñan las funciones interinamente por su orden.",
+      "explicacion": "En los casos de muerte, renuncia y expiración del plazo, es el Presidente del Congreso quien declara la vacante. En los demás casos decide cada Cámara por mayoría de tres quintas partes, con debate y audiencia del interesado. Hasta que las Cortes designen un nuevo Defensor del Pueblo, los Adjuntos asumen sus funciones interinamente, en su propio orden."
+    },
+    {
+      "id": "DP-009",
+      "articulo": "art. sexto",
+      "titulo": "Autonomía y no sujeción a mandato imperativo",
+      "resumen": "El Defensor del Pueblo no está sujeto a mandato imperativo, no recibe instrucciones de ninguna Autoridad y desempeña sus funciones con autonomía y según su criterio.",
+      "explicacion": "Aunque es un comisionado de las Cortes, actúa con plena independencia: nadie puede darle instrucciones ni imponerle un mandato imperativo. Decide con autonomía y según su propio criterio, garantía esencial de una institución de control."
+    },
+    {
+      "id": "DP-010",
+      "articulo": "art. sexto",
+      "titulo": "Inviolabilidad",
+      "resumen": "El Defensor del Pueblo goza de inviolabilidad: no puede ser detenido, expedientado, multado, perseguido ni juzgado por las opiniones o actos realizados en el ejercicio de las competencias de su cargo.",
+      "explicacion": "La inviolabilidad protege el contenido de su función: no responde por las opiniones que formule ni por los actos que realice dentro de las competencias del cargo. Es una garantía funcional, no un privilegio personal."
+    },
+    {
+      "id": "DP-011",
+      "articulo": "art. sexto",
+      "titulo": "Inmunidad: flagrante delito y Sala de lo Penal del Tribunal Supremo",
+      "resumen": "Fuera de la inviolabilidad, el Defensor del Pueblo no puede ser detenido ni retenido salvo en caso de flagrante delito, y decidir sobre su inculpación, prisión, procesamiento y juicio corresponde a la Sala de lo Penal del Tribunal Supremo.",
+      "explicacion": "La inmunidad opera para los demás casos: solo cabe detenerlo o retenerlo en flagrante delito. Y su enjuiciamiento (aforamiento) corresponde en exclusiva a la Sala de lo Penal del Tribunal Supremo, igual que sucede con parlamentarios y otros altos cargos."
+    },
+    {
+      "id": "DP-012",
+      "articulo": "art. séptimo",
+      "titulo": "Incompatibilidades",
+      "resumen": "La condición de Defensor del Pueblo es incompatible con todo mandato representativo, cargo político, servicio activo en la Administración, afiliación o funciones directivas en partido o sindicato, carreras judicial y fiscal y cualquier actividad profesional, liberal, mercantil o laboral.",
+      "explicacion": "El régimen de incompatibilidades es muy estricto para asegurar la dedicación exclusiva y la neutralidad: no puede tener mandato representativo, cargo político, empleo activo en la Administración, militancia o cargos directivos en partidos o sindicatos, ni ejercer las carreras judicial o fiscal, ni actividad profesional alguna. Debe cesar en cualquier incompatibilidad dentro de los diez días siguientes al nombramiento."
+    },
+    {
+      "id": "DP-013",
+      "articulo": "art. octavo",
+      "titulo": "Los Adjuntos (Primero y Segundo)",
+      "resumen": "El Defensor del Pueblo está auxiliado por un Adjunto Primero y un Adjunto Segundo, en los que puede delegar y que le sustituyen por su orden en caso de imposibilidad temporal o cese.",
+      "explicacion": "La institución cuenta con dos Adjuntos, Primero y Segundo. El Defensor del Pueblo puede delegar en ellos y le sustituyen por su orden. Los nombra y separa con la conformidad previa de las Cámaras, y su nombramiento se publica en el Boletín Oficial del Estado. A los Adjuntos se les aplica lo dispuesto para el Defensor en materia de requisitos, prerrogativas e incompatibilidades."
+    },
+    {
+      "id": "DP-014",
+      "articulo": "art. noveno",
+      "titulo": "Iniciación de la investigación",
+      "resumen": "El Defensor del Pueblo puede iniciar y proseguir, de oficio o a petición de parte, cualquier investigación sobre los actos y resoluciones de la Administración pública y sus agentes en relación con los ciudadanos.",
+      "explicacion": "La investigación puede arrancar de dos maneras: de oficio (por iniciativa propia) o a petición de parte (por queja de un ciudadano). Su objeto es esclarecer los actos y resoluciones de la Administración pública y sus agentes en relación con los ciudadanos. Sus atribuciones alcanzan a ministros, autoridades, funcionarios y cualquier persona al servicio de la Administración."
+    },
+    {
+      "id": "DP-015",
+      "articulo": "art. diez",
+      "titulo": "Quién puede dirigirse al Defensor del Pueblo",
+      "resumen": "Puede dirigirse al Defensor del Pueblo toda persona natural o jurídica que invoque un interés legítimo, sin que la nacionalidad, residencia, sexo, minoría de edad o una relación de sujeción sean impedimento; ninguna autoridad administrativa puede presentar quejas en asuntos de su competencia.",
+      "explicacion": "El acceso es muy amplio: cualquier persona física o jurídica con interés legítimo, sin restricción. No son obstáculo la nacionalidad, la residencia, el sexo, la minoría de edad, la incapacidad, el internamiento en prisión o cualquier relación de sujeción. En cambio, una autoridad administrativa no puede presentar quejas en asuntos de su propia competencia."
+    },
+    {
+      "id": "DP-016",
+      "articulo": "art. once",
+      "titulo": "Continuidad de la actividad; estados de excepción y de sitio",
+      "resumen": "La actividad del Defensor del Pueblo no se interrumpe aunque las Cortes estén disueltas o haya expirado su mandato, ni por la declaración de los estados de excepción o de sitio.",
+      "explicacion": "La institución funciona sin pausas. Si las Cortes no están reunidas, han sido disueltas o su mandato ha expirado, el Defensor del Pueblo se dirige a las Diputaciones Permanentes. Tampoco la declaración de los estados de excepción o de sitio interrumpe su actividad ni el derecho de los ciudadanos a acceder a él, sin perjuicio del artículo 55 de la Constitución."
+    },
+    {
+      "id": "DP-017",
+      "articulo": "art. doce",
+      "titulo": "Supervisión de las Comunidades Autónomas",
+      "resumen": "El Defensor del Pueblo puede, de oficio o a instancia de parte, supervisar por sí mismo la actividad de la Comunidad Autónoma en el ámbito de competencias definido por la Ley.",
+      "explicacion": "Su ámbito no se limita a la Administración del Estado: puede supervisar también la actividad de las Comunidades Autónomas. Los órganos autonómicos equivalentes (como los defensores autonómicos) coordinan sus funciones con él, que puede pedir su cooperación."
+    },
+    {
+      "id": "DP-018",
+      "articulo": "art. trece",
+      "titulo": "Quejas sobre la Administración de Justicia",
+      "resumen": "Las quejas sobre el funcionamiento de la Administración de Justicia se dirigen al Ministerio Fiscal o, según el caso, al Consejo General del Poder Judicial.",
+      "explicacion": "El Defensor del Pueblo no supervisa directamente la actividad jurisdiccional. Cuando recibe quejas sobre el funcionamiento de la Administración de Justicia, las traslada al Ministerio Fiscal o al Consejo General del Poder Judicial según el tipo de reclamación, sin perjuicio de reflejarlo en su informe a las Cortes."
+    },
+    {
+      "id": "DP-019",
+      "articulo": "art. quince",
+      "titulo": "Presentación de la queja: plazo de un año",
+      "resumen": "Toda queja se presenta firmada por el interesado, con nombre, apellidos y domicilio, en escrito razonado y en el plazo máximo de un año desde que se conocieron los hechos.",
+      "explicacion": "La queja debe ir firmada e identificada (nombre, apellidos y domicilio) y presentarse en escrito razonado. El plazo para presentarla es de un año como máximo, contado desde que el interesado tuvo conocimiento de los hechos."
+    },
+    {
+      "id": "DP-020",
+      "articulo": "art. quince",
+      "titulo": "Gratuidad y sin abogado ni procurador",
+      "resumen": "Todas las actuaciones del Defensor del Pueblo son gratuitas para el interesado y no es preceptiva la asistencia de Letrado ni de Procurador.",
+      "explicacion": "El procedimiento es gratuito y accesible: no cuesta nada al ciudadano y no hace falta abogado (Letrado) ni procurador. De toda queja se acusa recibo. Esto facilita que cualquier persona pueda acudir a la institución."
+    },
+    {
+      "id": "DP-021",
+      "articulo": "art. diecisiete",
+      "titulo": "Rechazo de quejas",
+      "resumen": "El Defensor del Pueblo registra y acusa recibo de las quejas; rechaza siempre las anónimas y puede rechazar las de mala fe, sin fundamento o sin pretensión, y sus decisiones no son susceptibles de recurso.",
+      "explicacion": "Toda queja se registra y se acusa recibo. El Defensor del Pueblo rechaza en todo caso las quejas anónimas y puede rechazar las presentadas con mala fe, sin fundamento o sin pretensión. No examina quejas sobre las que hay resolución judicial pendiente. Sus decisiones sobre admisión o rechazo no admiten recurso."
+    },
+    {
+      "id": "DP-022",
+      "articulo": "art. dieciocho",
+      "titulo": "Investigación: informe en quince días",
+      "resumen": "Admitida la queja, se promueve una investigación sumaria e informal y se da cuenta al organismo afectado para que su Jefe remita informe escrito en el plazo máximo de quince días, ampliable.",
+      "explicacion": "Una vez admitida la queja, la investigación es sumaria e informal. Se da cuenta al organismo afectado, cuyo Jefe debe remitir informe escrito en un plazo máximo de quince días, que puede ampliarse. La negativa o negligencia a enviarlo puede considerarse actitud hostil y entorpecedora, y hacerse pública en el informe a las Cortes."
+    },
+    {
+      "id": "DP-023",
+      "articulo": "art. diecinueve",
+      "titulo": "Obligación de colaboración de los poderes públicos",
+      "resumen": "Todos los poderes públicos están obligados a auxiliar, con carácter preferente y urgente, al Defensor del Pueblo en sus investigaciones e inspecciones.",
+      "explicacion": "La eficacia de la institución depende del deber de colaboración. Todos los poderes públicos tienen que auxiliar al Defensor del Pueblo con carácter preferente y urgente. Puede personarse en cualquier centro de la Administración y no se le puede negar el acceso a expedientes o documentación relacionados con la investigación, salvo los límites de documentos secretos."
+    },
+    {
+      "id": "DP-024",
+      "articulo": "art. veintinueve",
+      "titulo": "Recursos de inconstitucionalidad y de amparo",
+      "resumen": "El Defensor del Pueblo está legitimado para interponer los recursos de inconstitucionalidad y de amparo, conforme a la Constitución y a la Ley Orgánica del Tribunal Constitucional.",
+      "explicacion": "Entre sus potestades más relevantes está la legitimación para acudir al Tribunal Constitucional: puede interponer el recurso de inconstitucionalidad (contra leyes) y el recurso de amparo (en defensa de derechos fundamentales), de acuerdo con la Constitución y la Ley Orgánica del Tribunal Constitucional."
+    },
+    {
+      "id": "DP-025",
+      "articulo": "art. treinta y dos",
+      "titulo": "Informe anual a las Cortes Generales",
+      "resumen": "El Defensor del Pueblo da cuenta anualmente a las Cortes Generales de su gestión mediante un informe presentado en periodo ordinario de sesiones, y puede presentar informes extraordinarios por gravedad o urgencia.",
+      "explicacion": "El control democrático se cierra con el informe: cada año el Defensor del Pueblo da cuenta de su gestión a las Cortes Generales, presentándolo en periodo ordinario de sesiones. Si la gravedad o urgencia lo aconsejan, puede presentar además informes extraordinarios. Los informes se publican."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "DP-001",
+      "articulo": "art. primero",
+      "tipo": "test",
+      "enunciado": "¿Qué es el Defensor del Pueblo según la Ley Orgánica 3/1981?",
+      "opciones": [
+        "El alto comisionado de las Cortes Generales designado por éstas para la defensa de los derechos comprendidos en el Título I de la Constitución",
+        "Un órgano del Gobierno encargado de defender a la Administración pública",
+        "Un magistrado del Tribunal Constitucional especializado en recursos de amparo",
+        "Un delegado del Ministerio Fiscal ante las Cortes Generales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo es el alto comisionado de las Cortes Generales designado por éstas para la defensa de los derechos comprendidos en el Título I de la Constitución, a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales.",
+      "justificacion": "Art. 1 LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-002",
+      "articulo": "art. segundo",
+      "tipo": "test",
+      "enunciado": "¿Para qué periodo eligen las Cortes Generales al Defensor del Pueblo?",
+      "opciones": [
+        "para un periodo de cinco años",
+        "para un periodo de cuatro años",
+        "para un periodo de seis años",
+        "para un mandato indefinido"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo será elegido por las Cortes Generales para un periodo de cinco años, y se dirigirá a las mismas a través de los Presidentes del Congreso y del Senado, respectivamente.",
+      "justificacion": "Art. 2.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-003",
+      "articulo": "art. segundo",
+      "tipo": "test",
+      "enunciado": "¿Qué órgano se encarga de relacionarse con el Defensor del Pueblo e informar a los respectivos Plenos?",
+      "opciones": [
+        "una Comisión Mixta Congreso-Senado",
+        "la Diputación Permanente del Congreso",
+        "el Consejo General del Poder Judicial",
+        "la Mesa del Senado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se designará en las Cortes Generales una Comisión Mixta Congreso-Senado encargada de relacionarse con el Defensor del Pueblo e informar a los respectivos Plenos en cuantas ocasiones sea necesario.",
+      "justificacion": "Art. 2.Dos LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-004",
+      "articulo": "art. segundo",
+      "tipo": "test",
+      "enunciado": "¿Qué votación se exige en el Congreso para designar al Defensor del Pueblo?",
+      "opciones": [
+        "una votación favorable de las tres quintas partes de los miembros del Congreso",
+        "la mayoría absoluta de los miembros del Congreso",
+        "la mayoría simple de los presentes",
+        "los dos tercios de los miembros del Congreso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Será designado quien obtuviese una votación favorable de las tres quintas partes de los miembros del Congreso y posteriormente, en un plazo máximo de veinte días, fuese ratificado por esta misma mayoría del Senado.",
+      "justificacion": "Art. 2.Cuatro LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-005",
+      "articulo": "art. tercero",
+      "tipo": "test",
+      "enunciado": "¿Quién puede ser elegido Defensor del Pueblo?",
+      "opciones": [
+        "cualquier español mayor de edad que se encuentre en el pleno disfrute de sus derechos civiles y políticos",
+        "cualquier ciudadano de la Unión Europea residente en España",
+        "únicamente un magistrado del Tribunal Supremo",
+        "cualquier español mayor de veintitrés años con título universitario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Podrá ser elegido Defensor del Pueblo cualquier español mayor de edad que se encuentre en el pleno disfrute de sus derechos civiles y políticos.",
+      "justificacion": "Art. 3 LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-006",
+      "articulo": "art. cuarto",
+      "tipo": "test",
+      "enunciado": "¿Ante quién toma posesión de su cargo el Defensor del Pueblo?",
+      "opciones": [
+        "ante las Mesas de ambas Cámaras reunidas conjuntamente",
+        "ante el Rey en audiencia solemne",
+        "ante el Pleno del Tribunal Constitucional",
+        "ante el Presidente del Gobierno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo tomará posesión de su cargo ante las Mesas de ambas Cámaras reunidas conjuntamente, prestando juramento o promesa de fiel desempeño de su función.",
+      "justificacion": "Art. 4.Dos LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-007",
+      "articulo": "art. quinto",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes es una causa de cese del Defensor del Pueblo?",
+      "opciones": [
+        "Por haber sido condenado, mediante sentencia firme, por delito doloso",
+        "Por cumplir la edad de jubilación",
+        "Por decisión unilateral del Presidente del Gobierno",
+        "Por censura del Consejo de Ministros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo cesará por alguna de las siguientes causas: Uno) Por renuncia. Dos) Por expiración del plazo de su nombramiento. Tres) Por muerte o por incapacidad sobrevenida. Cuatro) Por actuar con notoria negligencia en el cumplimiento de las obligaciones y deberes del cargo. Cinco) Por haber sido condenado, mediante sentencia firme, por delito doloso.",
+      "justificacion": "Art. 5.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-008",
+      "articulo": "art. quinto",
+      "tipo": "test",
+      "enunciado": "¿Quién declara la vacante del cargo en los casos de muerte, renuncia y expiración del plazo del mandato?",
+      "opciones": [
+        "el Presidente del Congreso",
+        "el Presidente del Senado",
+        "el Presidente del Gobierno",
+        "la Comisión Mixta Congreso-Senado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La vacante en el cargo se declarará por el Presidente del Congreso en los casos de muerte, renuncia y expiración del plazo del mandato.",
+      "justificacion": "Art. 5.Dos LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-009",
+      "articulo": "art. sexto",
+      "tipo": "test",
+      "enunciado": "¿Cómo desempeña sus funciones el Defensor del Pueblo?",
+      "opciones": [
+        "con autonomía y según su criterio",
+        "siguiendo las instrucciones del Gobierno",
+        "conforme a las órdenes de la Comisión Mixta",
+        "bajo mandato imperativo de las Cortes Generales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo no estará sujeto a mandato imperativo alguno. No recibirá instrucciones de ninguna Autoridad. Desempeñará sus funciones con autonomía y según su criterio.",
+      "justificacion": "Art. 6.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-010",
+      "articulo": "art. sexto",
+      "tipo": "test",
+      "enunciado": "¿Qué prerrogativa ampara al Defensor del Pueblo por las opiniones que formule en el ejercicio de su cargo?",
+      "opciones": [
+        "gozará de inviolabilidad",
+        "gozará de inmunidad parlamentaria plena",
+        "gozará de aforamiento ante la Audiencia Nacional",
+        "gozará de inmunidad diplomática"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo gozará de inviolabilidad. No podrá ser detenido, expedientado, multado, perseguido o juzgado en razón a las opiniones que formule o a los actos que realice en el ejercicio de las competencias propias de su cargo.",
+      "justificacion": "Art. 6.Dos LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-011",
+      "articulo": "art. sexto",
+      "tipo": "test",
+      "enunciado": "¿A quién corresponde decidir sobre la inculpación, prisión, procesamiento y juicio del Defensor del Pueblo?",
+      "opciones": [
+        "exclusivamente a la Sala de lo Penal del Tribunal Supremo",
+        "al Tribunal Constitucional",
+        "a la Audiencia Nacional",
+        "al juez de instrucción de su domicilio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el Defensor del Pueblo no podrá ser detenido ni retenido sino en caso de flagrante delito, correspondiendo la decisión sobre su inculpación, prisión, procesamiento y juicio exclusivamente a la Sala de lo Penal del Tribunal Supremo.",
+      "justificacion": "Art. 6.Tres LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-012",
+      "articulo": "art. séptimo",
+      "tipo": "test",
+      "enunciado": "¿Con qué es incompatible la condición de Defensor del Pueblo?",
+      "opciones": [
+        "con todo mandato representativo",
+        "con la nacionalidad extranjera únicamente",
+        "solo con los cargos del Gobierno central",
+        "con nada, salvo ser menor de edad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La condición de Defensor del Pueblo es incompatible con todo mandato representativo; con todo cargo político o actividad de propaganda política; con la permanencia en el servicio activo de cualquier Administración pública;",
+      "justificacion": "Art. 7.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-013",
+      "articulo": "art. octavo",
+      "tipo": "test",
+      "enunciado": "¿Por quién está auxiliado el Defensor del Pueblo?",
+      "opciones": [
+        "por un Adjunto Primero y un Adjunto Segundo",
+        "por un único Adjunto General",
+        "por tres Adjuntos territoriales",
+        "por un Secretario General y un Interventor"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo estará auxiliado por un Adjunto Primero y un Adjunto Segundo, en los que podrá delegar sus funciones y que le sustituirán por su orden, en el ejercicio de las mismas, en los supuestos de imposibilidad temporal y en los de cese.",
+      "justificacion": "Art. 8.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-014",
+      "articulo": "art. noveno",
+      "tipo": "test",
+      "enunciado": "¿Cómo puede iniciar el Defensor del Pueblo una investigación?",
+      "opciones": [
+        "de oficio o a petición de parte",
+        "solo a petición de un juez",
+        "únicamente por orden de las Cortes Generales",
+        "solo tras denuncia del Ministerio Fiscal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo podrá iniciar y proseguir de oficio o a petición de parte, cualquier investigación conducente al esclarecimiento de los actos y resoluciones de la Administración pública y sus agentes, en relación con los ciudadanos,",
+      "justificacion": "Art. 9.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-015",
+      "articulo": "art. diez",
+      "tipo": "test",
+      "enunciado": "¿Quién puede dirigirse al Defensor del Pueblo?",
+      "opciones": [
+        "toda persona natural o jurídica que invoque un interés legítimo",
+        "solo los ciudadanos españoles mayores de edad",
+        "únicamente los Diputados y Senadores",
+        "solo quienes residan en territorio nacional"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Podrá dirigirse al Defensor del Pueblo toda persona natural o jurídica que invoque un interés legítimo, sin restricción alguna.",
+      "justificacion": "Art. 10.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-016",
+      "articulo": "art. once",
+      "tipo": "test",
+      "enunciado": "¿Qué ocurre con la actividad del Defensor del Pueblo si se declaran los estados de excepción o de sitio?",
+      "opciones": [
+        "no interrumpirán la actividad del Defensor del Pueblo",
+        "quedará suspendida mientras dure el estado",
+        "pasará a ejercerla el Gobierno",
+        "se transfiere al Tribunal Constitucional"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La declaración de los estados de excepción o de sitio no interrumpirán la actividad del Defensor del Pueblo, ni el derecho de los ciudadanos de acceder al mismo, sin perjuicio de lo dispuesto en el artículo cincuenta y cinco de la Constitución.",
+      "justificacion": "Art. 11.Tres LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-017",
+      "articulo": "art. doce",
+      "tipo": "test",
+      "enunciado": "¿Sobre qué actividad puede actuar por sí mismo el Defensor del Pueblo según el artículo doce?",
+      "opciones": [
+        "la actividad de la Comunidad Autónoma en el ámbito de competencias definido por esta Ley",
+        "solo la actividad de la Administración General del Estado",
+        "la actividad de las empresas privadas",
+        "únicamente la actividad de los tribunales de justicia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo podrá, en todo caso, de oficio o a instancia de parte, supervisar por sí mismo la actividad de la Comunidad Autónoma en el ámbito de competencias definido por esta Ley.",
+      "justificacion": "Art. 12.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-018",
+      "articulo": "art. trece",
+      "tipo": "test",
+      "enunciado": "¿A quién debe dirigir el Defensor del Pueblo las quejas sobre el funcionamiento de la Administración de Justicia?",
+      "opciones": [
+        "al Ministerio Fiscal",
+        "directamente al Tribunal Supremo",
+        "al Ministro de Justicia",
+        "a la Comisión Mixta Congreso-Senado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cuando el Defensor del Pueblo reciba quejas referidas al funcionamiento de la Administración de Justicia, deberá dirigirlas al Ministerio Fiscal para que éste investigue su realidad y adopte las medidas oportunas con arreglo a la ley,",
+      "justificacion": "Art. 13 LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-019",
+      "articulo": "art. quince",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo debe presentarse la queja ante el Defensor del Pueblo?",
+      "opciones": [
+        "en el plazo máximo de un año",
+        "en el plazo máximo de tres meses",
+        "en el plazo máximo de seis meses",
+        "sin plazo alguno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Toda queja se presentará firmada por el interesado, con indicación de su nombre, apellidos y domicilio, en escrito razonado en papel común y en el plazo máximo de un año, contado a partir del momento en que tuviera conocimiento de los hechos objeto de la misma.",
+      "justificacion": "Art. 15.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-020",
+      "articulo": "art. quince",
+      "tipo": "test",
+      "enunciado": "¿Es necesaria la asistencia de Letrado o Procurador para actuar ante el Defensor del Pueblo?",
+      "opciones": [
+        "no será preceptiva la asistencia de Letrado ni de Procurador",
+        "es obligatoria la asistencia de abogado",
+        "se exige procurador pero no abogado",
+        "solo para las personas jurídicas es obligatoria"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Todas las actuaciones del Defensor del Pueblo son gratuitas para el interesado y no será preceptiva la asistencia de Letrado ni de Procurador.",
+      "justificacion": "Art. 15.Dos LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-021",
+      "articulo": "art. diecisiete",
+      "tipo": "test",
+      "enunciado": "¿Qué quejas rechazará en todo caso el Defensor del Pueblo?",
+      "opciones": [
+        "las quejas anónimas",
+        "las quejas de los extranjeros",
+        "las quejas presentadas por escrito",
+        "las quejas de los funcionarios públicos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo rechazará las quejas anónimas y podrá rechazar aquellas en las que advierta mala fe, carencia de fundamento, inexistencia de pretensión, así como aquellas otras cuya tramitación irrogue perjuicio al legítimo derecho de tercera persona.",
+      "justificacion": "Art. 17.Tres LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-022",
+      "articulo": "art. dieciocho",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo máximo debe remitirse el informe escrito por el Jefe del organismo afectado?",
+      "opciones": [
+        "en el plazo máximo de quince días",
+        "en el plazo máximo de un mes",
+        "en el plazo máximo de diez días",
+        "en el plazo máximo de cuarenta y ocho horas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En todo caso dará cuenta del contenido sustancial de la solicitud al Organismo o a la Dependencia administrativa procedente con el fin de que por su Jefe en el plazo máximo de quince días, se remita informe escrito.",
+      "justificacion": "Art. 18.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-023",
+      "articulo": "art. diecinueve",
+      "tipo": "test",
+      "enunciado": "¿Con qué carácter deben auxiliar los poderes públicos al Defensor del Pueblo?",
+      "opciones": [
+        "con carácter preferente y urgente",
+        "cuando lo estimen oportuno",
+        "solo previa autorización judicial",
+        "con carácter meramente voluntario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Todos los poderes públicos están obligados a auxiliar, con carácter preferente y urgente, al Defensor del Pueblo en sus investigaciones e inspecciones.",
+      "justificacion": "Art. 19.Uno LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-024",
+      "articulo": "art. veintinueve",
+      "tipo": "test",
+      "enunciado": "¿Qué recursos está legitimado para interponer el Defensor del Pueblo?",
+      "opciones": [
+        "los recursos de inconstitucionalidad y de amparo",
+        "solo el recurso de amparo",
+        "el recurso de casación y de apelación",
+        "el recurso contencioso-administrativo únicamente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo está legitimado para interponer los recursos de inconstitucionalidad y de amparo, de acuerdo con lo dispuesto en la Constitución y en la Ley Orgánica del Tribunal Constitucional.",
+      "justificacion": "Art. 29 LO 3/1981."
+    },
+    {
+      "concepto_id": "DP-025",
+      "articulo": "art. treinta y dos",
+      "tipo": "test",
+      "enunciado": "¿Con qué periodicidad da cuenta de su gestión el Defensor del Pueblo a las Cortes Generales?",
+      "opciones": [
+        "anualmente",
+        "cada seis meses",
+        "cada cuatro años",
+        "solo cuando lo requieran las Cámaras"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo dará cuenta anualmente a las Cortes Generales de la gestión realizada en un informe que presentará ante las mismas cuando se hallen reunidas en periodo ordinario de sesiones.",
+      "justificacion": "Art. 32.Uno LO 3/1981."
+    }
+  ],
+  "relaciones": [
+    { "origen": "DP-002", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "El mandato de cinco años concreta la figura del alto comisionado del art. 1." },
+    { "origen": "DP-003", "destino": "DP-004", "tipo": "prerrequisito", "justificacion": "La Comisión Mixta propone al candidato antes de la elección." },
+    { "origen": "DP-005", "destino": "DP-004", "tipo": "prerrequisito", "justificacion": "Cumplir los requisitos del art. 3 es condición previa para ser elegido." },
+    { "origen": "DP-004", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "La elección por 3/5 concreta la designación por las Cortes del art. 1." },
+    { "origen": "DP-006", "destino": "DP-004", "tipo": "desarrolla", "justificacion": "La toma de posesión completa el proceso iniciado con la elección." },
+    { "origen": "DP-007", "destino": "DP-002", "tipo": "limita", "justificacion": "Las causas de cese pueden interrumpir el mandato de cinco años." },
+    { "origen": "DP-008", "destino": "DP-007", "tipo": "desarrolla", "justificacion": "La declaración de vacante y la interinidad concretan los efectos del cese." },
+    { "origen": "DP-009", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "La autonomía es rasgo funcional del alto comisionado del art. 1." },
+    { "origen": "DP-010", "destino": "DP-009", "tipo": "desarrolla", "justificacion": "La inviolabilidad protege la independencia y autonomía del cargo." },
+    { "origen": "DP-011", "destino": "DP-010", "tipo": "desarrolla", "justificacion": "La inmunidad completa el régimen de protección del titular junto a la inviolabilidad." },
+    { "origen": "DP-012", "destino": "DP-009", "tipo": "limita", "justificacion": "Las incompatibilidades restringen la actividad personal del titular." },
+    { "origen": "DP-013", "destino": "DP-005", "tipo": "remite", "justificacion": "A los Adjuntos se les aplica el art. 3 sobre requisitos." },
+    { "origen": "DP-013", "destino": "DP-010", "tipo": "remite", "justificacion": "A los Adjuntos se les aplica el art. 6 sobre prerrogativas." },
+    { "origen": "DP-013", "destino": "DP-012", "tipo": "remite", "justificacion": "A los Adjuntos se les aplica el art. 7 sobre incompatibilidades." },
+    { "origen": "DP-015", "destino": "DP-014", "tipo": "desarrolla", "justificacion": "Quién puede presentar queja concreta el inicio a petición de parte." },
+    { "origen": "DP-017", "destino": "DP-014", "tipo": "desarrolla", "justificacion": "La supervisión de las CCAA amplía el ámbito de investigación." },
+    { "origen": "DP-016", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "La continuidad de la actividad garantiza la función institucional." },
+    { "origen": "DP-018", "destino": "DP-014", "tipo": "limita", "justificacion": "Las quejas sobre Justicia se derivan y no las investiga directamente." },
+    { "origen": "DP-019", "destino": "DP-021", "tipo": "prerrequisito", "justificacion": "La presentación de la queja precede a su registro o rechazo." },
+    { "origen": "DP-020", "destino": "DP-019", "tipo": "desarrolla", "justificacion": "La gratuidad concreta el régimen de presentación de la queja." },
+    { "origen": "DP-022", "destino": "DP-021", "tipo": "desarrolla", "justificacion": "Admitida la queja tras su tramitación, se abre la investigación." },
+    { "origen": "DP-023", "destino": "DP-022", "tipo": "prerrequisito", "justificacion": "El deber de colaboración hace posible la investigación." },
+    { "origen": "DP-024", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "La legitimación para los recursos concreta la defensa de los derechos del Título I." },
+    { "origen": "DP-025", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "El informe anual concreta el deber de dar cuenta a las Cortes Generales." }
+  ]
+}

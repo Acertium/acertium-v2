@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "materia": "rdleg-5-2015-ebep",
+    "norma": "Real Decreto Legislativo 5/2015, texto refundido de la Ley del Estatuto Básico del Empleado Público",
+    "referencia_boe": "BOE-A-2015-11719",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 6 — Los funcionarios públicos: concepto y clases; adquisición y pérdida de la condición de funcionario"
+  },
+  "fuentes": {
+    "art. 8": "1. Son empleados públicos quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales. 2. Los empleados públicos se clasifican en: a) Funcionarios de carrera. b) Funcionarios interinos. c) Personal laboral, ya sea fijo, por tiempo indefinido o temporal. d) Personal eventual.",
+    "art. 9": "1. Son funcionarios de carrera quienes, en virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente. 2. En todo caso, el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado y de las Administraciones Públicas corresponden exclusivamente a los funcionarios públicos, en los términos que en la ley de desarrollo de cada Administración Pública se establezca.",
+    "art. 10": "1. Son funcionarios interinos los que, por razones expresamente justificadas de necesidad y urgencia, son nombrados como tales con carácter temporal para el desempeño de funciones propias de funcionarios de carrera, cuando se dé alguna de las siguientes circunstancias: a) La existencia de plazas vacantes, cuando no sea posible su cobertura por funcionarios de carrera, por un máximo de tres años, en los términos previstos en el apartado 4. b) La sustitución transitoria de los titulares, durante el tiempo estrictamente necesario. c) La ejecución de programas de carácter temporal, que no podrán tener una duración superior a tres años, ampliable hasta doce meses más por las leyes de Función Pública que se dicten en desarrollo de este Estatuto. d) El exceso o acumulación de tareas por plazo máximo de nueve meses, dentro de un periodo de dieciocho meses. 2. Los procedimientos de selección del personal funcionario interino serán públicos, rigiéndose en todo caso por los principios de igualdad, mérito, capacidad, publicidad y celeridad, y tendrán por finalidad la cobertura inmediata del puesto. El nombramiento derivado de estos procedimientos de selección en ningún caso dará lugar al reconocimiento de la condición de funcionario de carrera. 3. En todo caso, la Administración formalizará de oficio la finalización de la relación de interinidad por cualquiera de las siguientes causas, además de por las previstas en el artículo 63, sin derecho a compensación alguna: a) Por la cobertura reglada del puesto por personal funcionario de carrera a través de cualquiera de los procedimientos legalmente establecidos. b) Por razones organizativas que den lugar a la supresión o a la amortización de los puestos asignados. c) Por la finalización del plazo autorizado expresamente recogido en su nombramiento. d) Por la finalización de la causa que dio lugar a su nombramiento. 5. Al personal funcionario interino le será aplicable el régimen general del personal funcionario de carrera en cuanto sea adecuado a la naturaleza de su condición temporal y al carácter extraordinario y urgente de su nombramiento, salvo aquellos derechos inherentes a la condición de funcionario de carrera.",
+    "art. 11": "1. Es personal laboral el que en virtud de contrato de trabajo formalizado por escrito, en cualquiera de las modalidades de contratación de personal previstas en la legislación laboral, presta servicios retribuidos por las Administraciones Públicas. En función de la duración del contrato éste podrá ser fijo, por tiempo indefinido o temporal. 3. Los procedimientos de selección del personal laboral serán públicos, rigiéndose en todo caso por los principios de igualdad, mérito y capacidad. En el caso del personal laboral temporal se regirá igualmente por el principio de celeridad, teniendo por finalidad atender razones expresamente justificadas de necesidad y urgencia.",
+    "art. 12": "1. Es personal eventual el que, en virtud de nombramiento y con carácter no permanente, sólo realiza funciones expresamente calificadas como de confianza o asesoramiento especial, siendo retribuido con cargo a los créditos presupuestarios consignados para este fin. 3. El nombramiento y cese serán libres. El cese tendrá lugar, en todo caso, cuando se produzca el de la autoridad a la que se preste la función de confianza o asesoramiento. 4. La condición de personal eventual no podrá constituir mérito para el acceso a la Función Pública o para la promoción interna. 5. Al personal eventual le será aplicable, en lo que sea adecuado a la naturaleza de su condición, el régimen general de los funcionarios de carrera.",
+    "art. 13": "1. Es personal directivo el que desarrolla funciones directivas profesionales en las Administraciones Públicas, definidas como tales en las normas específicas de cada Administración. 2. Su designación atenderá a principios de mérito y capacidad y a criterios de idoneidad, y se llevará a cabo mediante procedimientos que garanticen la publicidad y concurrencia. 3. El personal directivo estará sujeto a evaluación con arreglo a los criterios de eficacia y eficiencia, responsabilidad por su gestión y control de resultados en relación con los objetivos que les hayan sido fijados. 4. La determinación de las condiciones de empleo del personal directivo no tendrá la consideración de materia objeto de negociación colectiva a los efectos de esta ley. Cuando el personal directivo reúna la condición de personal laboral estará sometido a la relación laboral de carácter especial de alta dirección.",
+    "art. 62": "1. La condición de funcionario de carrera se adquiere por el cumplimiento sucesivo de los siguientes requisitos: a) Superación del proceso selectivo. b) Nombramiento por el órgano o autoridad competente, que será publicado en el Diario Oficial correspondiente. c) Acto de acatamiento de la Constitución y, en su caso, del Estatuto de Autonomía correspondiente y del resto del Ordenamiento Jurídico. d) Toma de posesión dentro del plazo que se establezca. 2. A efectos de lo dispuesto en el apartado 1.b) anterior, no podrán ser funcionarios y quedarán sin efecto las actuaciones relativas a quienes no acrediten, una vez superado el proceso selectivo, que reúnen los requisitos y condiciones exigidos en la convocatoria.",
+    "art. 63": "Son causas de pérdida de la condición de funcionario de carrera: a) La renuncia a la condición de funcionario. b) La pérdida de la nacionalidad. c) La jubilación total del funcionario. d) La sanción disciplinaria de separación del servicio que tuviere carácter firme. e) La pena principal o accesoria de inhabilitación absoluta o especial para cargo público que tuviere carácter firme.",
+    "art. 64": "1. La renuncia voluntaria a la condición de funcionario habrá de ser manifestada por escrito y será aceptada expresamente por la Administración, salvo lo dispuesto en el apartado siguiente. 2. No podrá ser aceptada la renuncia cuando el funcionario esté sujeto a expediente disciplinario o haya sido dictado en su contra auto de procesamiento o de apertura de juicio oral por la comisión de algún delito. 3. La renuncia a la condición de funcionario no inhabilita para ingresar de nuevo en la Administración Pública a través del procedimiento de selección establecido.",
+    "art. 65": "La pérdida de la nacionalidad española o la de cualquier otro Estado miembro de la Unión Europea o la de aquellos Estados a los que, en virtud de tratados internacionales celebrados por la Unión Europea y ratificados por España, les sea de aplicación la libre circulación de trabajadores, que haya sido tenida en cuenta para el nombramiento, determinará la pérdida de la condición de funcionario salvo que simultáneamente se adquiera la nacionalidad de alguno de dichos Estados.",
+    "art. 66": "La pena principal o accesoria de inhabilitación absoluta cuando hubiere adquirido firmeza la sentencia que la imponga produce la pérdida de la condición de funcionario respecto a todos los empleos o cargos que tuviere. La pena principal o accesoria de inhabilitación especial cuando hubiere adquirido firmeza la sentencia que la imponga produce la pérdida de la condición de funcionario respecto de aquellos empleos o cargos especificados en la sentencia.",
+    "art. 67": "1. La jubilación de los funcionarios podrá ser: a) Voluntaria, a solicitud del funcionario. b) Forzosa, al cumplir la edad legalmente establecida. c) Por la declaración de incapacidad permanente para el ejercicio de las funciones propias de su cuerpo o escala, o por el reconocimiento de una pensión de incapacidad permanente absoluta o, incapacidad permanente total en relación con el ejercicio de las funciones de su cuerpo o escala. 2. Procederá la jubilación voluntaria, a solicitud del interesado, siempre que el funcionario reúna los requisitos y condiciones establecidos en el Régimen de Seguridad Social que le sea aplicable. 3. La jubilación forzosa se declarará de oficio al cumplir el funcionario los sesenta y cinco años de edad. No obstante, en los términos de las leyes de Función Pública que se dicten en desarrollo de este Estatuto, se podrá solicitar la prolongación de la permanencia en el servicio activo como máximo hasta que se cumpla setenta años de edad.",
+    "art. 68": "1. En caso de extinción de la relación de servicios como consecuencia de pérdida de la nacionalidad o jubilación por incapacidad permanente para el servicio, el interesado, una vez desaparecida la causa objetiva que la motivó, podrá solicitar la rehabilitación de su condición de funcionario, que le será concedida. 2. Los órganos de gobierno de las Administraciones Públicas podrán conceder, con carácter excepcional, la rehabilitación, a petición del interesado, de quien hubiera perdido la condición de funcionario por haber sido condenado a la pena principal o accesoria de inhabilitación, atendiendo a las circunstancias y entidad del delito cometido. Si transcurrido el plazo para dictar la resolución, no se hubiera producido de forma expresa, se entenderá desestimada la solicitud."
+  },
+  "conceptos": [
+    {
+      "id": "EBEP-001",
+      "articulo": "art. 8",
+      "titulo": "Concepto de empleado público",
+      "resumen": "Son empleados públicos quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales.",
+      "explicacion": "El art. 8.1 EBEP define empleado público por dos notas: desempeñar funciones retribuidas en una Administración Pública y hacerlo al servicio de los intereses generales. Es el género del que penden las cuatro clases del apartado 2."
+    },
+    {
+      "id": "EBEP-002",
+      "articulo": "art. 8",
+      "titulo": "Clases de empleados públicos",
+      "resumen": "Los empleados públicos se clasifican en funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual.",
+      "explicacion": "El art. 8.2 EBEP enumera cuatro clases: funcionarios de carrera, funcionarios interinos, personal laboral (fijo, por tiempo indefinido o temporal) y personal eventual."
+    },
+    {
+      "id": "EBEP-003",
+      "articulo": "art. 9",
+      "titulo": "Funcionarios de carrera: concepto",
+      "resumen": "Están vinculados a una Administración Pública por una relación estatutaria de Derecho Administrativo, en virtud de nombramiento legal, para servicios permanentes.",
+      "explicacion": "El art. 9.1 EBEP define al funcionario de carrera: nombramiento legal, vínculo por relación estatutaria regulada por el Derecho Administrativo y desempeño de servicios profesionales retribuidos de carácter permanente."
+    },
+    {
+      "id": "EBEP-004",
+      "articulo": "art. 9",
+      "titulo": "Reserva de funciones a funcionarios públicos",
+      "resumen": "El ejercicio de potestades públicas o la salvaguardia de los intereses generales corresponde en exclusiva a los funcionarios públicos.",
+      "explicacion": "El art. 9.2 EBEP reserva a los funcionarios públicos, con exclusividad, las funciones que impliquen participación directa o indirecta en el ejercicio de potestades públicas o en la salvaguardia de los intereses generales del Estado y las Administraciones Públicas."
+    },
+    {
+      "id": "EBEP-005",
+      "articulo": "art. 10",
+      "titulo": "Funcionarios interinos: concepto",
+      "resumen": "Son nombrados con carácter temporal, por razones justificadas de necesidad y urgencia, para funciones propias de funcionarios de carrera.",
+      "explicacion": "El art. 10.1 EBEP define al funcionario interino: nombramiento temporal por razones expresamente justificadas de necesidad y urgencia, para desempeñar funciones propias de funcionarios de carrera cuando concurre alguna de las circunstancias tasadas."
+    },
+    {
+      "id": "EBEP-006",
+      "articulo": "art. 10",
+      "titulo": "Circunstancias para nombrar interinos",
+      "resumen": "Plazas vacantes (máx. tres años), sustitución transitoria, programas temporales y exceso o acumulación de tareas.",
+      "explicacion": "El art. 10.1 EBEP tasa las circunstancias: a) plazas vacantes no cubiertas por funcionarios de carrera, por un máximo de tres años; b) sustitución transitoria de titulares; c) programas de carácter temporal; d) exceso o acumulación de tareas."
+    },
+    {
+      "id": "EBEP-007",
+      "articulo": "art. 10",
+      "titulo": "El nombramiento de interino no da la carrera",
+      "resumen": "El nombramiento como interino en ningún caso reconoce la condición de funcionario de carrera.",
+      "explicacion": "El art. 10.2 EBEP precisa que, aunque la selección del interino sea pública y reglada, el nombramiento en ningún caso da lugar al reconocimiento de la condición de funcionario de carrera."
+    },
+    {
+      "id": "EBEP-008",
+      "articulo": "art. 10",
+      "titulo": "Fin de la relación de interinidad",
+      "resumen": "La Administración formaliza de oficio el fin de la interinidad por causas tasadas, además de las del art. 63.",
+      "explicacion": "El art. 10.3 EBEP enumera causas de finalización de oficio de la interinidad: cobertura reglada del puesto por funcionario de carrera, razones organizativas de supresión, fin del plazo autorizado y fin de la causa del nombramiento, además de las previstas en el artículo 63."
+    },
+    {
+      "id": "EBEP-009",
+      "articulo": "art. 10",
+      "titulo": "Régimen jurídico del interino",
+      "resumen": "Se le aplica el régimen general del funcionario de carrera en lo adecuado a su condición temporal, salvo derechos inherentes a la carrera.",
+      "explicacion": "El art. 10.5 EBEP remite al régimen general del funcionario de carrera para el interino, en cuanto sea adecuado a la naturaleza temporal de su condición, salvo los derechos inherentes a la condición de funcionario de carrera."
+    },
+    {
+      "id": "EBEP-010",
+      "articulo": "art. 11",
+      "titulo": "Personal laboral: concepto",
+      "resumen": "Presta servicios retribuidos en la Administración en virtud de contrato de trabajo formalizado por escrito.",
+      "explicacion": "El art. 11.1 EBEP define al personal laboral por el vínculo: contrato de trabajo formalizado por escrito, en alguna de las modalidades de la legislación laboral, para prestar servicios retribuidos en las Administraciones Públicas."
+    },
+    {
+      "id": "EBEP-011",
+      "articulo": "art. 11",
+      "titulo": "Modalidades del personal laboral",
+      "resumen": "Según la duración del contrato, puede ser fijo, por tiempo indefinido o temporal.",
+      "explicacion": "El art. 11.1 EBEP clasifica el personal laboral en función de la duración del contrato en fijo, por tiempo indefinido o temporal; su selección se rige por igualdad, mérito y capacidad (art. 11.3)."
+    },
+    {
+      "id": "EBEP-012",
+      "articulo": "art. 12",
+      "titulo": "Personal eventual: concepto",
+      "resumen": "Con carácter no permanente, realiza solo funciones de confianza o asesoramiento especial.",
+      "explicacion": "El art. 12.1 EBEP define al personal eventual: nombramiento de carácter no permanente que solo realiza funciones expresamente calificadas de confianza o asesoramiento especial, retribuido con cargo a los créditos presupuestarios consignados."
+    },
+    {
+      "id": "EBEP-013",
+      "articulo": "art. 12",
+      "titulo": "Nombramiento y cese del eventual",
+      "resumen": "El nombramiento y cese son libres; el cese se produce cuando cesa la autoridad a la que sirve.",
+      "explicacion": "El art. 12.3 EBEP establece que el nombramiento y cese del personal eventual son libres y que el cese tiene lugar, en todo caso, cuando cesa la autoridad a la que se presta la función de confianza o asesoramiento."
+    },
+    {
+      "id": "EBEP-014",
+      "articulo": "art. 12",
+      "titulo": "El eventual no es mérito de acceso",
+      "resumen": "La condición de personal eventual no constituye mérito para el acceso a la Función Pública ni para la promoción interna.",
+      "explicacion": "El art. 12.4 EBEP impide que la condición de personal eventual constituya mérito para el acceso a la Función Pública o para la promoción interna, evitando que el cargo de confianza sirva de atajo a la carrera."
+    },
+    {
+      "id": "EBEP-015",
+      "articulo": "art. 13",
+      "titulo": "Personal directivo profesional",
+      "resumen": "Desarrolla funciones directivas profesionales; se designa por mérito, capacidad e idoneidad con publicidad y concurrencia.",
+      "explicacion": "El art. 13 EBEP define al personal directivo como el que desarrolla funciones directivas profesionales en las Administraciones Públicas, definidas por normas específicas; su designación atiende a mérito, capacidad e idoneidad con publicidad y concurrencia."
+    },
+    {
+      "id": "EBEP-016",
+      "articulo": "art. 13",
+      "titulo": "Régimen del personal directivo",
+      "resumen": "Está sujeto a evaluación por resultados; sus condiciones de empleo no son negociación colectiva.",
+      "explicacion": "El art. 13 EBEP somete al directivo a evaluación por eficacia y eficiencia y establece que la determinación de sus condiciones de empleo no tiene la consideración de materia objeto de negociación colectiva; si es personal laboral, se le aplica la relación laboral especial de alta dirección."
+    },
+    {
+      "id": "EBEP-017",
+      "articulo": "art. 62",
+      "titulo": "Adquisición de la condición de funcionario",
+      "resumen": "Se adquiere por el cumplimiento sucesivo de: superar el proceso selectivo, nombramiento, acatamiento y toma de posesión.",
+      "explicacion": "El art. 62.1 EBEP fija cuatro requisitos sucesivos para adquirir la condición de funcionario de carrera: superación del proceso selectivo; nombramiento por el órgano competente publicado en diario oficial; acto de acatamiento de la Constitución; y toma de posesión en plazo."
+    },
+    {
+      "id": "EBEP-018",
+      "articulo": "art. 63",
+      "titulo": "Causas de pérdida de la condición",
+      "resumen": "Son la renuncia, la pérdida de nacionalidad, la jubilación total, la separación del servicio firme y la inhabilitación firme.",
+      "explicacion": "El art. 63 EBEP enumera las causas de pérdida de la condición de funcionario de carrera: renuncia, pérdida de la nacionalidad, jubilación total, sanción disciplinaria de separación del servicio firme y pena de inhabilitación absoluta o especial firme."
+    },
+    {
+      "id": "EBEP-019",
+      "articulo": "art. 64",
+      "titulo": "Renuncia: forma",
+      "resumen": "La renuncia voluntaria se manifiesta por escrito y la Administración la acepta expresamente.",
+      "explicacion": "El art. 64.1 EBEP exige que la renuncia voluntaria a la condición de funcionario se manifieste por escrito y sea aceptada expresamente por la Administración, salvo la excepción del apartado 2."
+    },
+    {
+      "id": "EBEP-020",
+      "articulo": "art. 64",
+      "titulo": "Renuncia: cuándo no se acepta",
+      "resumen": "No se acepta la renuncia si el funcionario está en expediente disciplinario, procesamiento o apertura de juicio oral por delito.",
+      "explicacion": "El art. 64.2 EBEP impide aceptar la renuncia cuando el funcionario está sujeto a expediente disciplinario o se ha dictado en su contra auto de procesamiento o de apertura de juicio oral por la comisión de algún delito."
+    },
+    {
+      "id": "EBEP-021",
+      "articulo": "art. 64",
+      "titulo": "Renuncia: no inhabilita para reingresar",
+      "resumen": "La renuncia no inhabilita para ingresar de nuevo mediante el procedimiento de selección.",
+      "explicacion": "El art. 64.3 EBEP aclara que la renuncia a la condición de funcionario no inhabilita para ingresar de nuevo en la Administración Pública a través del procedimiento de selección establecido."
+    },
+    {
+      "id": "EBEP-022",
+      "articulo": "art. 65",
+      "titulo": "Pérdida de la nacionalidad",
+      "resumen": "La pérdida de la nacionalidad tenida en cuenta para el nombramiento hace perder la condición, salvo que se adquiera otra habilitante.",
+      "explicacion": "El art. 65 EBEP determina que la pérdida de la nacionalidad (española o de otro Estado de la UE o asimilado) tenida en cuenta para el nombramiento produce la pérdida de la condición de funcionario, salvo que simultáneamente se adquiera la nacionalidad de alguno de dichos Estados."
+    },
+    {
+      "id": "EBEP-023",
+      "articulo": "art. 66",
+      "titulo": "Inhabilitación absoluta",
+      "resumen": "La inhabilitación absoluta firme hace perder la condición respecto a todos los empleos o cargos.",
+      "explicacion": "El art. 66 EBEP establece que la pena principal o accesoria de inhabilitación absoluta, cuando la sentencia sea firme, produce la pérdida de la condición de funcionario respecto a todos los empleos o cargos que tuviere."
+    },
+    {
+      "id": "EBEP-024",
+      "articulo": "art. 66",
+      "titulo": "Inhabilitación especial",
+      "resumen": "La inhabilitación especial firme hace perder la condición solo respecto a los empleos o cargos especificados en la sentencia.",
+      "explicacion": "El art. 66 EBEP dispone que la pena principal o accesoria de inhabilitación especial, con sentencia firme, produce la pérdida de la condición de funcionario respecto de aquellos empleos o cargos especificados en la sentencia."
+    },
+    {
+      "id": "EBEP-025",
+      "articulo": "art. 67",
+      "titulo": "Clases de jubilación",
+      "resumen": "La jubilación puede ser voluntaria, forzosa o por incapacidad permanente.",
+      "explicacion": "El art. 67.1 EBEP prevé tres clases de jubilación: voluntaria a solicitud del funcionario; forzosa al cumplir la edad legal; y por declaración de incapacidad permanente para el ejercicio de las funciones del cuerpo o escala."
+    },
+    {
+      "id": "EBEP-026",
+      "articulo": "art. 67",
+      "titulo": "Jubilación forzosa: edad",
+      "resumen": "La jubilación forzosa se declara de oficio a los sesenta y cinco años de edad.",
+      "explicacion": "El art. 67.3 EBEP fija que la jubilación forzosa se declara de oficio al cumplir el funcionario los sesenta y cinco años, sin perjuicio de poder solicitar la prolongación en el servicio activo hasta los setenta años."
+    },
+    {
+      "id": "EBEP-027",
+      "articulo": "art. 68",
+      "titulo": "Rehabilitación por causa objetiva",
+      "resumen": "Cabe rehabilitación si se perdió la condición por pérdida de nacionalidad o jubilación por incapacidad, desaparecida la causa.",
+      "explicacion": "El art. 68.1 EBEP reconoce el derecho a solicitar la rehabilitación de la condición de funcionario cuando la relación se extinguió por pérdida de la nacionalidad o jubilación por incapacidad permanente, una vez desaparecida la causa objetiva; se concede."
+    },
+    {
+      "id": "EBEP-028",
+      "articulo": "art. 68",
+      "titulo": "Rehabilitación tras inhabilitación",
+      "resumen": "Cabe rehabilitación excepcional de quien perdió la condición por inhabilitación, a petición del interesado.",
+      "explicacion": "El art. 68.2 EBEP permite a los órganos de gobierno conceder, con carácter excepcional y a petición del interesado, la rehabilitación de quien perdió la condición por condena a inhabilitación, atendiendo a las circunstancias del delito; el silencio es desestimatorio."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "EBEP-001",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "Según el art. 8 del EBEP, ¿quiénes son empleados públicos?",
+      "opciones": [
+        "quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales",
+        "quienes prestan servicios gratuitos de forma voluntaria a la Administración",
+        "únicamente los funcionarios de carrera nombrados por ley",
+        "los cargos electos de las corporaciones locales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Son empleados públicos quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales.",
+      "justificacion": "Art. 8.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-002",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes es una de las clases de empleados públicos del art. 8.2 EBEP?",
+      "opciones": [
+        "Funcionarios interinos",
+        "Personal autónomo colaborador",
+        "Personal estatutario sanitario",
+        "Personal en prácticas no retribuido"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los empleados públicos se clasifican en: a) Funcionarios de carrera. b) Funcionarios interinos. c) Personal laboral, ya sea fijo, por tiempo indefinido o temporal. d) Personal eventual.",
+      "justificacion": "Art. 8.2 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-003",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza a los funcionarios de carrera según el art. 9.1 EBEP?",
+      "opciones": [
+        "en virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo",
+        "en virtud de contrato de trabajo, prestan servicios de carácter temporal",
+        "por razones de necesidad y urgencia, son nombrados con carácter temporal",
+        "realizan funciones de confianza o asesoramiento especial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Son funcionarios de carrera quienes, en virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente.",
+      "justificacion": "Art. 9.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-004",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "Según el art. 9.2 EBEP, el ejercicio de funciones que impliquen participación en potestades públicas corresponde:",
+      "opciones": [
+        "exclusivamente a los funcionarios públicos",
+        "indistintamente a funcionarios y personal laboral",
+        "preferentemente al personal eventual",
+        "a cualquier empleado público con contrato"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado y de las Administraciones Públicas corresponden exclusivamente a los funcionarios públicos",
+      "justificacion": "Art. 9.2 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-005",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "¿Qué define a los funcionarios interinos (art. 10.1 EBEP)?",
+      "opciones": [
+        "por razones expresamente justificadas de necesidad y urgencia, son nombrados como tales con carácter temporal",
+        "son nombrados con carácter permanente para funciones directivas",
+        "prestan servicios en virtud de contrato laboral indefinido",
+        "realizan funciones de confianza y asesoramiento especial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Son funcionarios interinos los que, por razones expresamente justificadas de necesidad y urgencia, son nombrados como tales con carácter temporal para el desempeño de funciones propias de funcionarios de carrera",
+      "justificacion": "Art. 10.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-006",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "La existencia de plazas vacantes permite nombrar funcionario interino (art. 10.1.a EBEP):",
+      "opciones": [
+        "por un máximo de tres años",
+        "por un máximo de cinco años",
+        "sin límite temporal alguno",
+        "por un máximo de seis meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La existencia de plazas vacantes, cuando no sea posible su cobertura por funcionarios de carrera, por un máximo de tres años, en los términos previstos en el apartado 4.",
+      "justificacion": "Art. 10.1.a EBEP."
+    },
+    {
+      "concepto_id": "EBEP-007",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "Según el art. 10.2 EBEP, el nombramiento de funcionario interino:",
+      "opciones": [
+        "en ningún caso dará lugar al reconocimiento de la condición de funcionario de carrera",
+        "consolida la condición de funcionario de carrera a los tres años",
+        "otorga la condición de personal laboral fijo",
+        "equivale a superar el proceso selectivo de carrera"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El nombramiento derivado de estos procedimientos de selección en ningún caso dará lugar al reconocimiento de la condición de funcionario de carrera.",
+      "justificacion": "Art. 10.2 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-008",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "¿Cuál es una causa de finalización de oficio de la relación de interinidad (art. 10.3 EBEP)?",
+      "opciones": [
+        "Por la cobertura reglada del puesto por personal funcionario de carrera",
+        "Por la simple voluntad del interino de cesar sin preaviso",
+        "Por el transcurso de diez años en el puesto",
+        "Por la jubilación anticipada del titular sustituido"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Por la cobertura reglada del puesto por personal funcionario de carrera a través de cualquiera de los procedimientos legalmente establecidos.",
+      "justificacion": "Art. 10.3.a EBEP."
+    },
+    {
+      "concepto_id": "EBEP-009",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "Según el art. 10.5 EBEP, al funcionario interino le será aplicable:",
+      "opciones": [
+        "el régimen general del personal funcionario de carrera en cuanto sea adecuado a la naturaleza de su condición temporal",
+        "el mismo régimen que el personal laboral temporal, sin excepción",
+        "un régimen íntegramente idéntico al del funcionario de carrera",
+        "exclusivamente el convenio colectivo del personal laboral"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Al personal funcionario interino le será aplicable el régimen general del personal funcionario de carrera en cuanto sea adecuado a la naturaleza de su condición temporal y al carácter extraordinario y urgente de su nombramiento, salvo aquellos derechos inherentes a la condición de funcionario de carrera.",
+      "justificacion": "Art. 10.5 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-010",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "¿Qué es el personal laboral según el art. 11.1 EBEP?",
+      "opciones": [
+        "el que en virtud de contrato de trabajo formalizado por escrito",
+        "el nombrado por relación estatutaria de Derecho Administrativo",
+        "el que realiza funciones de confianza o asesoramiento especial",
+        "el nombrado por razones de necesidad y urgencia con carácter temporal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Es personal laboral el que en virtud de contrato de trabajo formalizado por escrito, en cualquiera de las modalidades de contratación de personal previstas en la legislación laboral, presta servicios retribuidos por las Administraciones Públicas.",
+      "justificacion": "Art. 11.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-011",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "Según el art. 11.1 EBEP, en función de la duración del contrato el personal laboral podrá ser:",
+      "opciones": [
+        "fijo, por tiempo indefinido o temporal",
+        "de carrera o interino",
+        "únicamente fijo",
+        "eventual o directivo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En función de la duración del contrato éste podrá ser fijo, por tiempo indefinido o temporal.",
+      "justificacion": "Art. 11.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-012",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "El personal eventual (art. 12.1 EBEP) realiza funciones expresamente calificadas como:",
+      "opciones": [
+        "de confianza o asesoramiento especial",
+        "de participación en potestades públicas",
+        "de carácter permanente y estatutario",
+        "de dirección profesional evaluable"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "sólo realiza funciones expresamente calificadas como de confianza o asesoramiento especial, siendo retribuido con cargo a los créditos presupuestarios consignados para este fin.",
+      "justificacion": "Art. 12.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-013",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "Según el art. 12.3 EBEP, el nombramiento y cese del personal eventual:",
+      "opciones": [
+        "serán libres",
+        "requieren expediente disciplinario previo",
+        "exigen aceptación expresa por escrito",
+        "solo proceden por jubilación forzosa"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El nombramiento y cese serán libres. El cese tendrá lugar, en todo caso, cuando se produzca el de la autoridad a la que se preste la función de confianza o asesoramiento.",
+      "justificacion": "Art. 12.3 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-014",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "El art. 12.4 EBEP establece que la condición de personal eventual:",
+      "opciones": [
+        "no podrá constituir mérito para el acceso a la Función Pública o para la promoción interna",
+        "constituye mérito preferente para la promoción interna",
+        "equivale a la superación de un proceso selectivo",
+        "otorga la condición de funcionario de carrera"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La condición de personal eventual no podrá constituir mérito para el acceso a la Función Pública o para la promoción interna.",
+      "justificacion": "Art. 12.4 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-015",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "¿Qué es el personal directivo profesional según el art. 13 EBEP?",
+      "opciones": [
+        "el que desarrolla funciones directivas profesionales en las Administraciones Públicas",
+        "el que realiza funciones de confianza o asesoramiento especial",
+        "el nombrado con carácter temporal por necesidad y urgencia",
+        "el vinculado por contrato de trabajo temporal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Es personal directivo el que desarrolla funciones directivas profesionales en las Administraciones Públicas, definidas como tales en las normas específicas de cada Administración.",
+      "justificacion": "Art. 13.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-016",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "Según el art. 13.4 EBEP, la determinación de las condiciones de empleo del personal directivo:",
+      "opciones": [
+        "no tendrá la consideración de materia objeto de negociación colectiva",
+        "será siempre objeto de negociación colectiva obligatoria",
+        "corresponde exclusivamente a los sindicatos",
+        "se fija por convenio colectivo del personal laboral"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La determinación de las condiciones de empleo del personal directivo no tendrá la consideración de materia objeto de negociación colectiva a los efectos de esta ley.",
+      "justificacion": "Art. 13.4 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-017",
+      "articulo": "art. 62",
+      "tipo": "test",
+      "enunciado": "¿Cuál es uno de los requisitos sucesivos para adquirir la condición de funcionario de carrera (art. 62.1 EBEP)?",
+      "opciones": [
+        "Superación del proceso selectivo",
+        "Antigüedad mínima de dos años como interino",
+        "Renuncia previa a cualquier otro empleo público",
+        "Autorización del comité de empresa"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La condición de funcionario de carrera se adquiere por el cumplimiento sucesivo de los siguientes requisitos: a) Superación del proceso selectivo. b) Nombramiento por el órgano o autoridad competente, que será publicado en el Diario Oficial correspondiente. c) Acto de acatamiento de la Constitución y, en su caso, del Estatuto de Autonomía correspondiente y del resto del Ordenamiento Jurídico. d) Toma de posesión dentro del plazo que se establezca.",
+      "justificacion": "Art. 62.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-018",
+      "articulo": "art. 63",
+      "tipo": "test",
+      "enunciado": "¿Cuál es una causa de pérdida de la condición de funcionario de carrera (art. 63 EBEP)?",
+      "opciones": [
+        "La renuncia a la condición de funcionario",
+        "La excedencia voluntaria por interés particular",
+        "El traslado forzoso a otra Administración",
+        "La suspensión provisional de funciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Son causas de pérdida de la condición de funcionario de carrera: a) La renuncia a la condición de funcionario. b) La pérdida de la nacionalidad. c) La jubilación total del funcionario. d) La sanción disciplinaria de separación del servicio que tuviere carácter firme. e) La pena principal o accesoria de inhabilitación absoluta o especial para cargo público que tuviere carácter firme.",
+      "justificacion": "Art. 63 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-019",
+      "articulo": "art. 64",
+      "tipo": "test",
+      "enunciado": "Según el art. 64.1 EBEP, la renuncia voluntaria a la condición de funcionario:",
+      "opciones": [
+        "habrá de ser manifestada por escrito y será aceptada expresamente por la Administración",
+        "surte efecto de forma automática sin intervención de la Administración",
+        "solo puede formularse verbalmente ante el superior jerárquico",
+        "requiere autorización judicial previa"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La renuncia voluntaria a la condición de funcionario habrá de ser manifestada por escrito y será aceptada expresamente por la Administración, salvo lo dispuesto en el apartado siguiente.",
+      "justificacion": "Art. 64.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-020",
+      "articulo": "art. 64",
+      "tipo": "test",
+      "enunciado": "¿Cuándo NO podrá ser aceptada la renuncia del funcionario (art. 64.2 EBEP)?",
+      "opciones": [
+        "cuando el funcionario esté sujeto a expediente disciplinario",
+        "cuando el funcionario tenga más de sesenta años",
+        "cuando no haya agotado sus vacaciones",
+        "cuando lo solicite fuera del mes de enero"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "No podrá ser aceptada la renuncia cuando el funcionario esté sujeto a expediente disciplinario o haya sido dictado en su contra auto de procesamiento o de apertura de juicio oral por la comisión de algún delito.",
+      "justificacion": "Art. 64.2 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-021",
+      "articulo": "art. 64",
+      "tipo": "test",
+      "enunciado": "Según el art. 64.3 EBEP, la renuncia a la condición de funcionario:",
+      "opciones": [
+        "no inhabilita para ingresar de nuevo en la Administración Pública a través del procedimiento de selección establecido",
+        "impide de forma permanente cualquier reingreso en la Administración",
+        "permite el reingreso automático sin nuevo proceso selectivo",
+        "inhabilita durante diez años para el empleo público"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La renuncia a la condición de funcionario no inhabilita para ingresar de nuevo en la Administración Pública a través del procedimiento de selección establecido.",
+      "justificacion": "Art. 64.3 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-022",
+      "articulo": "art. 65",
+      "tipo": "test",
+      "enunciado": "Según el art. 65 EBEP, la pérdida de la nacionalidad tenida en cuenta para el nombramiento:",
+      "opciones": [
+        "determinará la pérdida de la condición de funcionario salvo que simultáneamente se adquiera la nacionalidad de alguno de dichos Estados",
+        "no afecta en ningún caso a la condición de funcionario",
+        "solo produce una suspensión temporal de funciones",
+        "obliga a la jubilación forzosa inmediata"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "que haya sido tenida en cuenta para el nombramiento, determinará la pérdida de la condición de funcionario salvo que simultáneamente se adquiera la nacionalidad de alguno de dichos Estados.",
+      "justificacion": "Art. 65 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-023",
+      "articulo": "art. 66",
+      "tipo": "test",
+      "enunciado": "La pena de inhabilitación absoluta firme (art. 66 EBEP) produce la pérdida de la condición de funcionario:",
+      "opciones": [
+        "respecto a todos los empleos o cargos que tuviere",
+        "respecto de aquellos empleos o cargos especificados en la sentencia",
+        "solo durante el tiempo de cumplimiento de la condena",
+        "sin afectar a los cargos de libre designación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La pena principal o accesoria de inhabilitación absoluta cuando hubiere adquirido firmeza la sentencia que la imponga produce la pérdida de la condición de funcionario respecto a todos los empleos o cargos que tuviere.",
+      "justificacion": "Art. 66 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-024",
+      "articulo": "art. 66",
+      "tipo": "test",
+      "enunciado": "La pena de inhabilitación especial firme (art. 66 EBEP) produce la pérdida de la condición de funcionario:",
+      "opciones": [
+        "respecto de aquellos empleos o cargos especificados en la sentencia",
+        "respecto a todos los empleos o cargos que tuviere",
+        "respecto únicamente a los cargos políticos",
+        "sin necesidad de sentencia firme"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La pena principal o accesoria de inhabilitación especial cuando hubiere adquirido firmeza la sentencia que la imponga produce la pérdida de la condición de funcionario respecto de aquellos empleos o cargos especificados en la sentencia.",
+      "justificacion": "Art. 66 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-025",
+      "articulo": "art. 67",
+      "tipo": "test",
+      "enunciado": "¿Cuál es una de las clases de jubilación de los funcionarios (art. 67.1 EBEP)?",
+      "opciones": [
+        "Forzosa, al cumplir la edad legalmente establecida",
+        "Provisional, por decisión sindical",
+        "Anticipada, por reducción de plantilla obligatoria",
+        "Automática a los cincuenta años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La jubilación de los funcionarios podrá ser: a) Voluntaria, a solicitud del funcionario. b) Forzosa, al cumplir la edad legalmente establecida. c) Por la declaración de incapacidad permanente para el ejercicio de las funciones propias de su cuerpo o escala",
+      "justificacion": "Art. 67.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-026",
+      "articulo": "art. 67",
+      "tipo": "test",
+      "enunciado": "Según el art. 67.3 EBEP, la jubilación forzosa se declarará de oficio:",
+      "opciones": [
+        "al cumplir el funcionario los sesenta y cinco años de edad",
+        "al cumplir el funcionario los setenta años de edad",
+        "al cumplir los sesenta años de edad",
+        "a los cuarenta años de servicio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La jubilación forzosa se declarará de oficio al cumplir el funcionario los sesenta y cinco años de edad.",
+      "justificacion": "Art. 67.3 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-027",
+      "articulo": "art. 68",
+      "tipo": "test",
+      "enunciado": "Según el art. 68.1 EBEP, procede la rehabilitación de la condición de funcionario en caso de:",
+      "opciones": [
+        "pérdida de la nacionalidad o jubilación por incapacidad permanente para el servicio",
+        "renuncia voluntaria aceptada por la Administración",
+        "sanción disciplinaria de separación del servicio",
+        "jubilación forzosa por edad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En caso de extinción de la relación de servicios como consecuencia de pérdida de la nacionalidad o jubilación por incapacidad permanente para el servicio, el interesado, una vez desaparecida la causa objetiva que la motivó, podrá solicitar la rehabilitación de su condición de funcionario, que le será concedida.",
+      "justificacion": "Art. 68.1 EBEP."
+    },
+    {
+      "concepto_id": "EBEP-028",
+      "articulo": "art. 68",
+      "tipo": "test",
+      "enunciado": "Según el art. 68.2 EBEP, la rehabilitación de quien perdió la condición por inhabilitación se concede:",
+      "opciones": [
+        "con carácter excepcional",
+        "de forma automática y obligatoria",
+        "sin necesidad de petición del interesado",
+        "únicamente por resolución judicial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los órganos de gobierno de las Administraciones Públicas podrán conceder, con carácter excepcional, la rehabilitación, a petición del interesado, de quien hubiera perdido la condición de funcionario por haber sido condenado a la pena principal o accesoria de inhabilitación, atendiendo a las circunstancias y entidad del delito cometido.",
+      "justificacion": "Art. 68.2 EBEP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "EBEP-002",
+      "destino": "EBEP-001",
+      "tipo": "desarrolla",
+      "justificacion": "Las clases del art. 8.2 concretan el concepto de empleado público del art. 8.1."
+    },
+    {
+      "origen": "EBEP-003",
+      "destino": "EBEP-002",
+      "tipo": "desarrolla",
+      "justificacion": "El funcionario de carrera es una de las clases de empleado público."
+    },
+    {
+      "origen": "EBEP-004",
+      "destino": "EBEP-003",
+      "tipo": "desarrolla",
+      "justificacion": "La reserva de potestades públicas concreta el estatuto del funcionario de carrera."
+    },
+    {
+      "origen": "EBEP-005",
+      "destino": "EBEP-002",
+      "tipo": "desarrolla",
+      "justificacion": "El funcionario interino es una de las clases de empleado público."
+    },
+    {
+      "origen": "EBEP-006",
+      "destino": "EBEP-005",
+      "tipo": "desarrolla",
+      "justificacion": "Las circunstancias tasadas concretan cuándo cabe nombrar interino."
+    },
+    {
+      "origen": "EBEP-007",
+      "destino": "EBEP-005",
+      "tipo": "limita",
+      "justificacion": "La no adquisición de la carrera restringe el alcance de la interinidad."
+    },
+    {
+      "origen": "EBEP-008",
+      "destino": "EBEP-005",
+      "tipo": "desarrolla",
+      "justificacion": "Las causas de cese detallan el fin de la relación de interinidad."
+    },
+    {
+      "origen": "EBEP-008",
+      "destino": "EBEP-018",
+      "tipo": "remite",
+      "justificacion": "El art. 10.3 remite a las causas de pérdida del artículo 63."
+    },
+    {
+      "origen": "EBEP-009",
+      "destino": "EBEP-003",
+      "tipo": "remite",
+      "justificacion": "El art. 10.5 remite al régimen general del funcionario de carrera."
+    },
+    {
+      "origen": "EBEP-010",
+      "destino": "EBEP-002",
+      "tipo": "desarrolla",
+      "justificacion": "El personal laboral es una de las clases de empleado público."
+    },
+    {
+      "origen": "EBEP-011",
+      "destino": "EBEP-010",
+      "tipo": "desarrolla",
+      "justificacion": "Las modalidades por duración concretan el concepto de personal laboral."
+    },
+    {
+      "origen": "EBEP-012",
+      "destino": "EBEP-002",
+      "tipo": "desarrolla",
+      "justificacion": "El personal eventual es una de las clases de empleado público."
+    },
+    {
+      "origen": "EBEP-013",
+      "destino": "EBEP-012",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen de nombramiento y cese concreta el estatuto del eventual."
+    },
+    {
+      "origen": "EBEP-014",
+      "destino": "EBEP-012",
+      "tipo": "limita",
+      "justificacion": "La prohibición de mérito restringe los efectos de la condición de eventual."
+    },
+    {
+      "origen": "EBEP-015",
+      "destino": "EBEP-001",
+      "tipo": "desarrolla",
+      "justificacion": "El personal directivo profesional es una modalidad de empleado público al servicio de la Administración."
+    },
+    {
+      "origen": "EBEP-016",
+      "destino": "EBEP-015",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen de evaluación concreta el estatuto del personal directivo."
+    },
+    {
+      "origen": "EBEP-017",
+      "destino": "EBEP-003",
+      "tipo": "desarrolla",
+      "justificacion": "Los requisitos de adquisición concretan cómo se llega a ser funcionario de carrera."
+    },
+    {
+      "origen": "EBEP-018",
+      "destino": "EBEP-003",
+      "tipo": "limita",
+      "justificacion": "Las causas de pérdida restringen y extinguen la condición de funcionario de carrera."
+    },
+    {
+      "origen": "EBEP-019",
+      "destino": "EBEP-018",
+      "tipo": "desarrolla",
+      "justificacion": "La renuncia desarrolla una de las causas de pérdida del art. 63."
+    },
+    {
+      "origen": "EBEP-020",
+      "destino": "EBEP-019",
+      "tipo": "limita",
+      "justificacion": "Los supuestos de no aceptación limitan la eficacia de la renuncia."
+    },
+    {
+      "origen": "EBEP-021",
+      "destino": "EBEP-019",
+      "tipo": "desarrolla",
+      "justificacion": "El efecto de no inhabilitar para reingreso completa el régimen de la renuncia."
+    },
+    {
+      "origen": "EBEP-022",
+      "destino": "EBEP-018",
+      "tipo": "desarrolla",
+      "justificacion": "La pérdida de nacionalidad desarrolla una causa de pérdida del art. 63."
+    },
+    {
+      "origen": "EBEP-023",
+      "destino": "EBEP-018",
+      "tipo": "desarrolla",
+      "justificacion": "La inhabilitación absoluta desarrolla una causa de pérdida del art. 63."
+    },
+    {
+      "origen": "EBEP-024",
+      "destino": "EBEP-018",
+      "tipo": "desarrolla",
+      "justificacion": "La inhabilitación especial desarrolla una causa de pérdida del art. 63."
+    },
+    {
+      "origen": "EBEP-025",
+      "destino": "EBEP-018",
+      "tipo": "desarrolla",
+      "justificacion": "La jubilación total, causa de pérdida del art. 63, se desarrolla en sus clases del art. 67."
+    },
+    {
+      "origen": "EBEP-026",
+      "destino": "EBEP-025",
+      "tipo": "desarrolla",
+      "justificacion": "La edad de jubilación forzosa concreta la clase forzosa de jubilación."
+    },
+    {
+      "origen": "EBEP-027",
+      "destino": "EBEP-022",
+      "tipo": "remite",
+      "justificacion": "La rehabilitación del art. 68.1 se remite a la pérdida de nacionalidad como causa reversible."
+    },
+    {
+      "origen": "EBEP-028",
+      "destino": "EBEP-023",
+      "tipo": "remite",
+      "justificacion": "La rehabilitación excepcional del art. 68.2 se remite a la pérdida por inhabilitación."
+    }
+  ]
+}

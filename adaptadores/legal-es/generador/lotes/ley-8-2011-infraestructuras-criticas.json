@@ -1,0 +1,815 @@
+{
+  "meta": {
+    "materia": "ley-8-2011-infraestructuras-criticas",
+    "norma": "Ley 8/2011, por la que se establecen medidas para la protección de las infraestructuras críticas",
+    "referencia_boe": "BOE-A-2011-7630",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"
+  },
+  "fuentes": {
+    "art. 1": "1. Esta Ley tiene por objeto establecer las estrategias y las estructuras adecuadas que permitan dirigir y coordinar las actuaciones de los distintos órganos de las Administraciones Públicas en materia de protección de infraestructuras críticas, previa identificación y designación de las mismas, para mejorar la prevención, preparación y respuesta de nuestro Estado frente a atentados terroristas u otras amenazas que afecten a infraestructuras críticas. Para ello se impulsará, además, la colaboración e implicación de los organismos gestores y propietarios de dichas infraestructuras, a fin de optimizar el grado de protección de éstas contra ataques deliberados de todo tipo, con el fin de contribuir a la protección de la población. 2. Asimismo, la presente Ley regula las especiales obligaciones que deben asumir tanto las Administraciones Públicas como los operadores de aquellas infraestructuras que se determinen como infraestructuras críticas, según lo dispuesto en los párrafos e) y f) del artículo 2 de la misma.",
+    "art. 2": "A los efectos de la presente Ley, se entenderá por: a) Servicio esencial: el servicio necesario para el mantenimiento de las funciones sociales básicas, la salud, la seguridad, el bienestar social y económico de los ciudadanos, o el eficaz funcionamiento de las Instituciones del Estado y las Administraciones Públicas. b) Sector estratégico: cada una de las áreas diferenciadas dentro de la actividad laboral, económica y productiva, que proporciona un servicio esencial o que garantiza el ejercicio de la autoridad del Estado o de la seguridad del país. Su categorización viene determinada en el anexo de esta norma. c) Subsector estratégico: cada uno de los ámbitos en los que se dividen los distintos sectores estratégicos. d) Infraestructuras estratégicas: las instalaciones, redes, sistemas y equipos físicos y de tecnología de la información sobre las que descansa el funcionamiento de los servicios esenciales. e) Infraestructuras críticas: las infraestructuras estratégicas cuyo funcionamiento es indispensable y no permite soluciones alternativas, por lo que su perturbación o destrucción tendría un grave impacto sobre los servicios esenciales. f) Infraestructuras críticas europeas: aquellas infraestructuras críticas situadas en algún Estado miembro de la Unión Europea, cuya perturbación o destrucción afectaría gravemente al menos a dos Estados miembros, todo ello con arreglo a la Directiva 2008/114, del Consejo, de 8 de diciembre. g) Zona crítica: aquella zona geográfica continua donde estén establecidas varias infraestructuras críticas a cargo de operadores diferentes e interdependientes, que sea declarada como tal por la Autoridad competente. h) Criterios horizontales de criticidad: los parámetros en función de los cuales se determina la criticidad, la gravedad y las consecuencias de la perturbación o destrucción de una infraestructura crítica se evaluarán en función de: 1. El número de personas afectadas. 2. El impacto económico en función de la magnitud de las pérdidas económicas y el deterioro de productos y servicios. 3. El impacto medioambiental. 4. El impacto público y social. i) Análisis de riesgos: el estudio de las hipótesis de amenazas posibles necesario para determinar y evaluar las vulnerabilidades existentes en los diferentes sectores estratégicos. j) Interdependencias: los efectos que una perturbación en el funcionamiento de la instalación o servicio produciría en otras instalaciones o servicios. k) Protección de infraestructuras críticas: el conjunto de actividades destinadas a asegurar la funcionalidad, continuidad e integridad de las infraestructuras críticas con el fin de prevenir, paliar y neutralizar el daño causado por un ataque deliberado contra dichas infraestructuras. l) Información sensible sobre protección de infraestructuras estratégicas: los datos específicos sobre infraestructuras estratégicas que, de revelarse, podrían utilizarse para planear y llevar a cabo acciones cuyo objetivo sea provocar la perturbación o la destrucción de éstas. m) Operadores críticos: las entidades u organismos responsables de las inversiones o del funcionamiento diario de una instalación, red, sistema, o equipo físico o de tecnología de la información designada como infraestructura crítica con arreglo a la presente Ley. n) Nivel de Seguridad: aquel cuya activación por el Ministerio del Interior está previsto en el Plan Nacional de Protección de Infraestructuras Críticas, de acuerdo con la evaluación general de la amenaza y con la específica que en cada supuesto se efectúe sobre cada infraestructura, en virtud del cual corresponderá declarar un grado concreto de intervención de los diferentes organismos responsables en materia de seguridad. o) Catálogo Nacional de Infraestructuras Estratégicas: la información completa, actualizada, contrastada e informáticamente sistematizada relativa a las características específicas de cada una de las infraestructuras estratégicas existentes en el territorio nacional.",
+    "art. 3": "1. La presente Ley se aplicará a las infraestructuras críticas ubicadas en el territorio nacional vinculadas a los sectores estratégicos definidos en el anexo de esta Ley. 2. Se exceptúan de su aplicación las infraestructuras dependientes del Ministerio de Defensa y de las Fuerzas y Cuerpos de Seguridad, que se regirán, a efectos de control administrativo, por su propia normativa y procedimientos. 3. La aplicación de esta Ley se efectuará sin perjuicio de la misión y funciones del Centro Nacional de Inteligencia establecidas en su normativa específica.",
+    "art. 4": "1. El Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, será el responsable del Catálogo Nacional de Infraestructuras Estratégicas, instrumento que contendrá toda la información y valoración de las infraestructuras estratégicas del país, entre las que se hallarán incluidas aquellas clasificadas como Críticas o Críticas Europeas. 2. La competencia para clasificar una infraestructura como estratégica, y en su caso, como infraestructura crítica o infraestructura crítica europea, así como para incluirla en el Catálogo Nacional de Infraestructuras Estratégicas, corresponderá al Ministerio del Interior, a través de la Secretaria de Estado de Seguridad.",
+    "art. 5": "1. El Sistema de Protección de Infraestructuras Críticas se compone de una serie de instituciones, órganos y empresas, procedentes tanto del sector público como del privado, con responsabilidades en el correcto funcionamiento de los servicios esenciales o en la seguridad de los ciudadanos. 2. Son agentes del Sistema, con las funciones que se determinen reglamentariamente, los siguientes: a) La Secretaría de Estado de Seguridad del Ministerio del Interior. b) El Centro Nacional para la Protección de las Infraestructuras Críticas. c) Los Ministerios y organismos integrados en el Sistema, que serán los incluidos en el anexo de esta Ley. d) Las Comunidades Autónomas y las Ciudades con Estatuto de Autonomía. e) Las Delegaciones del Gobierno en las Comunidades Autónomas y en las Ciudades con Estatuto de Autonomía. f) Las Corporaciones Locales, a través de la asociación de Entidades Locales de mayor implantación a nivel nacional. g) La Comisión Nacional para la Protección de las Infraestructuras Críticas. h) El Grupo de Trabajo Interdepartamental para la Protección de las Infraestructuras Críticas. i) Los operadores críticos del sector público y privado.",
+    "art. 6": "La Secretaría de Estado de Seguridad es el órgano superior del Ministerio del Interior responsable del Sistema de Protección de las infraestructuras críticas nacionales. Para el desempeño de su cometido, el Reglamento de desarrollo de esta Ley determinará sus competencias en la materia, que ejercerá con la asistencia de los demás integrantes del Sistema y, principalmente, del Centro Nacional para la Protección de las Infraestructuras Críticas.",
+    "art. 7": "1. Se crea el Centro Nacional para la Protección de las Infraestructuras Críticas como órgano ministerial encargado del impulso, la coordinación y supervisión de todas las actividades que tiene encomendadas la Secretaría de Estado de Seguridad en relación con la protección de las Infraestructuras Críticas en el territorio nacional. 2. El CNPIC dependerá orgánicamente de la Secretaría de Estado de Seguridad, y sus funciones serán las que reglamentariamente se establezcan. 3. Sin perjuicio de lo dispuesto en el apartado anterior, corresponderá al CNPIC la realización de altas, bajas y modificaciones de infraestructuras en el Catálogo, así como la determinación de la criticidad de las infraestructuras estratégicas incluidas en el mismo.",
+    "art. 8": "1. Por cada sector estratégico, se designará, al menos, un ministerio, organismo, entidad u órgano de la Administración General del Estado integrado en el Sistema. El nombramiento, alta o baja en éste de un ministerio u organismo con responsabilidad sobre un sector estratégico se efectuará mediante la modificación del anexo de la presente Ley. 2. Los ministerios y organismos del Sistema serán los encargados de impulsar, en el ámbito de sus competencias, las políticas de seguridad del Gobierno sobre los distintos sectores estratégicos nacionales y de velar por su aplicación, actuando igualmente como puntos de contacto especializados en la materia. 4. Un ministerio u organismo del Sistema podrá tener competencias, igualmente, sobre dos o más sectores estratégicos, conforme a lo establecido en el anexo de la presente Ley.",
+    "art. 11": "1. Se crea la Comisión Nacional para la Protección de las Infraestructuras Críticas como órgano colegiado adscrito a la Secretaría de Estado de Seguridad. 2. La Comisión será la competente para aprobar los diferentes Planes Estratégicos Sectoriales así como para designar a los operadores críticos, a propuesta del Grupo de Trabajo Interdepartamental para la Protección de Infraestructuras Críticas. 3. Sus funciones y composición serán las que reglamentariamente se establezcan.",
+    "art. 12": "1. El Sistema contará con un Grupo de Trabajo Interdepartamental para la Protección de las Infraestructuras Críticas, cuya composición y funciones se determinarán reglamentariamente. 2. Le corresponderá, en todo caso, la elaboración de los diferentes Planes Estratégicos Sectoriales y la propuesta a la Comisión de la designación de los operadores críticos por cada uno de los sectores estratégicos definidos.",
+    "art. 13": "1. Los operadores considerados críticos en virtud de esta Ley deberán colaborar con las autoridades competentes del Sistema, con el fin de optimizar la protección de las infraestructuras críticas y de las infraestructuras críticas europeas por ellos gestionados. Con ese fin, deberán: a) Asesorar técnicamente al Ministerio del Interior, a través del CNPIC, en la valoración de las infraestructuras propias que se aporten al Catálogo, actualizando los datos disponibles con una periodicidad anual. c) Elaborar el Plan de Seguridad del Operador en los términos y con los contenidos que se determinen reglamentariamente. d) Elaborar, según se disponga reglamentariamente, un Plan de Protección Específico por cada una de las infraestructuras consideradas como críticas en el Catálogo. e) Designar a un Responsable de Seguridad y Enlace en los términos de la presente Ley. f) Designar a un Delegado de Seguridad por cada una de sus infraestructuras consideradas Críticas o Críticas Europeas por el Ministerio del Interior. h) Constituir un Área de Seguridad del Operador. 2. Será requisito para la designación de los operadores críticos, tanto del sector público como del privado, que al menos una de las infraestructuras que gestionen reúna la consideración de Infraestructura Crítica. 4. Los operadores críticos tendrán en el CNPIC el punto directo de interlocución con el Ministerio del Interior en lo relativo a sus responsabilidades, funciones y obligaciones.",
+    "art. 14": "1. La Protección de las Infraestructuras Críticas frente a las eventuales amenazas que puedan ponerlas en situación de riesgo requiere la adopción y aplicación de los siguientes planes de actuación: a) El Plan Nacional de Protección de las Infraestructuras Críticas. b) Los Planes Estratégicos Sectoriales. c) Los Planes de Seguridad del Operador. d) Los Planes de Protección Específicos. e) Los Planes de Apoyo Operativo. 2. El Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, elaborará el Plan Nacional de Protección de las Infraestructuras Críticas, siendo éste el documento estructural que permitirá dirigir y coordinar las actuaciones precisas para proteger las infraestructuras críticas en la lucha contra el terrorismo. 4. Los Planes de Seguridad del Operador y los Planes de Protección Específicos deberán ser elaborados por los operadores críticos respecto a todas sus infraestructuras clasificadas como Críticas o Críticas Europeas. 5. Los Planes de Apoyo Operativo deberán ser elaborados por el Cuerpo Policial estatal o, en su caso, autonómico, con competencia en la demarcación, para cada una de las infraestructuras clasificadas como Críticas o Críticas Europeas dotadas de un Plan de Protección Específico.",
+    "art. 16": "1. Los operadores críticos nombrarán y comunicarán al Ministerio del Interior un Responsable de Seguridad y Enlace con la Administración en el plazo que reglamentariamente se establezca. 2. En todo caso, el Responsable de Seguridad y Enlace designado deberá contar con la habilitación de Director de Seguridad expedida por el Ministerio del Interior según lo previsto en la normativa de seguridad privada o con la habilitación equivalente, según su normativa específica.",
+    "art. 17": "1. Los operadores con Infraestructuras consideradas Críticas o Críticas Europeas por el Ministerio del Interior comunicarán a las Delegaciones del Gobierno o, en su caso, al órgano competente de la Comunidad Autónoma con competencias estatutariamente reconocidas para la protección de personas y bienes y para el mantenimiento del orden público donde aquéllas se ubiquen, la existencia de un Delegado de Seguridad para dicha infraestructura. 2. El plazo para efectuar dicha comunicación, así como las funciones específicas del Delegado de Seguridad de la Infraestructura Crítica, serán los que reglamentariamente se establezcan."
+  },
+  "conceptos": [
+    {
+      "id": "IC-001",
+      "articulo": "art. 1",
+      "titulo": "Objeto de la Ley 8/2011",
+      "resumen": "La Ley tiene por objeto establecer las estrategias y las estructuras adecuadas que permitan dirigir y coordinar las actuaciones de las Administraciones Públicas en materia de protección de infraestructuras críticas.",
+      "explicacion": "El artículo 1 fija la finalidad de la norma: crear estrategias y estructuras para dirigir y coordinar a las Administraciones Públicas en la protección de infraestructuras críticas, previa identificación y designación de éstas, y mejorar la prevención, preparación y respuesta frente a atentados terroristas u otras amenazas."
+    },
+    {
+      "id": "IC-002",
+      "articulo": "art. 1",
+      "titulo": "Obligaciones especiales de AAPP y operadores",
+      "resumen": "La Ley regula las especiales obligaciones que deben asumir tanto las Administraciones Públicas como los operadores de las infraestructuras que se determinen como críticas.",
+      "explicacion": "El apartado 2 del artículo 1 anticipa el núcleo obligacional de la Ley: además de organizar el sistema, impone deberes concretos a las Administraciones Públicas y a los operadores de las infraestructuras clasificadas como críticas, remitiendo a las definiciones de los párrafos e) y f) del artículo 2."
+    },
+    {
+      "id": "IC-003",
+      "articulo": "art. 2",
+      "titulo": "Servicio esencial (definición)",
+      "resumen": "Servicio esencial es el necesario para el mantenimiento de las funciones sociales básicas, la salud, la seguridad y el bienestar social y económico de los ciudadanos.",
+      "explicacion": "El artículo 2.a) define servicio esencial como aquel necesario para mantener las funciones sociales básicas, la salud, la seguridad, el bienestar social y económico de los ciudadanos o el eficaz funcionamiento de las Instituciones del Estado. Es el concepto sobre el que se apoya toda la cadena de definiciones."
+    },
+    {
+      "id": "IC-004",
+      "articulo": "art. 2",
+      "titulo": "Sector estratégico (definición)",
+      "resumen": "Sector estratégico es cada una de las áreas diferenciadas de la actividad laboral, económica y productiva que proporciona un servicio esencial o garantiza la autoridad del Estado o la seguridad del país.",
+      "explicacion": "El artículo 2.b) define sector estratégico y precisa que su categorización viene determinada en el anexo de la norma. Agrupa las áreas de actividad de las que dependen los servicios esenciales."
+    },
+    {
+      "id": "IC-005",
+      "articulo": "art. 2",
+      "titulo": "Infraestructuras estratégicas (definición)",
+      "resumen": "Infraestructuras estratégicas son las instalaciones, redes, sistemas y equipos físicos y de tecnología de la información sobre las que descansa el funcionamiento de los servicios esenciales.",
+      "explicacion": "El artículo 2.d) define infraestructuras estratégicas como el soporte físico y tecnológico de los servicios esenciales. Es el género del que las infraestructuras críticas son una especie."
+    },
+    {
+      "id": "IC-006",
+      "articulo": "art. 2",
+      "titulo": "Infraestructuras críticas (definición)",
+      "resumen": "Infraestructuras críticas son las infraestructuras estratégicas cuyo funcionamiento es indispensable y no permite soluciones alternativas, por lo que su perturbación o destrucción tendría un grave impacto sobre los servicios esenciales.",
+      "explicacion": "El artículo 2.e) define el concepto central de la Ley: una infraestructura crítica es una infraestructura estratégica insustituible, cuyo fallo tendría un grave impacto en los servicios esenciales."
+    },
+    {
+      "id": "IC-007",
+      "articulo": "art. 2",
+      "titulo": "Infraestructuras críticas europeas (definición)",
+      "resumen": "Infraestructuras críticas europeas son las infraestructuras críticas situadas en algún Estado miembro de la Unión Europea cuya perturbación o destrucción afectaría gravemente al menos a dos Estados miembros.",
+      "explicacion": "El artículo 2.f) añade la dimensión europea: son infraestructuras críticas cuyo daño afectaría gravemente al menos a dos Estados miembros de la Unión Europea, con arreglo a la Directiva 2008/114."
+    },
+    {
+      "id": "IC-008",
+      "articulo": "art. 2",
+      "titulo": "Zona crítica (definición)",
+      "resumen": "Zona crítica es aquella zona geográfica continua donde están establecidas varias infraestructuras críticas a cargo de operadores diferentes e interdependientes, declarada como tal por la Autoridad competente.",
+      "explicacion": "El artículo 2.g) define zona crítica para facilitar la protección coordinada cuando varias infraestructuras críticas de operadores distintos se concentran en un mismo sector geográfico reducido."
+    },
+    {
+      "id": "IC-009",
+      "articulo": "art. 2",
+      "titulo": "Criterios horizontales de criticidad",
+      "resumen": "Los criterios horizontales de criticidad son los parámetros en función de los cuales se determina la criticidad, la gravedad y las consecuencias de la perturbación o destrucción de una infraestructura crítica.",
+      "explicacion": "El artículo 2.h) enumera los parámetros para evaluar la criticidad: número de personas afectadas, impacto económico, impacto medioambiental e impacto público y social."
+    },
+    {
+      "id": "IC-010",
+      "articulo": "art. 2",
+      "titulo": "Protección de infraestructuras críticas",
+      "resumen": "La protección de infraestructuras críticas es el conjunto de actividades destinadas a asegurar la funcionalidad, continuidad e integridad de las infraestructuras críticas.",
+      "explicacion": "El artículo 2.k) define la protección de infraestructuras críticas como el conjunto de actividades orientadas a prevenir, paliar y neutralizar el daño de un ataque deliberado, asegurando su funcionalidad, continuidad e integridad."
+    },
+    {
+      "id": "IC-011",
+      "articulo": "art. 2",
+      "titulo": "Operadores críticos (definición)",
+      "resumen": "Operadores críticos son las entidades u organismos responsables de las inversiones o del funcionamiento diario de una instalación, red, sistema o equipo designado como infraestructura crítica.",
+      "explicacion": "El artículo 2.m) define quién es operador crítico: la entidad pública o privada responsable de las inversiones o del funcionamiento diario de un activo designado como infraestructura crítica con arreglo a la Ley."
+    },
+    {
+      "id": "IC-012",
+      "articulo": "art. 2",
+      "titulo": "Nivel de Seguridad (definición)",
+      "resumen": "El Nivel de Seguridad es aquel cuya activación por el Ministerio del Interior está prevista en el Plan Nacional de Protección de Infraestructuras Críticas, según la evaluación de la amenaza.",
+      "explicacion": "El artículo 2.n) define el Nivel de Seguridad como el mecanismo, activado por el Ministerio del Interior conforme al Plan Nacional, que gradúa la intervención de los organismos responsables según la amenaza general y la específica de cada infraestructura."
+    },
+    {
+      "id": "IC-013",
+      "articulo": "art. 2",
+      "titulo": "Catálogo Nacional de Infraestructuras Estratégicas (definición)",
+      "resumen": "El Catálogo Nacional de Infraestructuras Estratégicas es la información completa, actualizada, contrastada e informáticamente sistematizada relativa a las características específicas de cada infraestructura estratégica del territorio nacional.",
+      "explicacion": "El artículo 2.o) define el Catálogo como el registro sistematizado de datos de todas las infraestructuras estratégicas del país. Su régimen se desarrolla en el artículo 4."
+    },
+    {
+      "id": "IC-014",
+      "articulo": "art. 3",
+      "titulo": "Ámbito de aplicación y excepciones",
+      "resumen": "La Ley se aplica a las infraestructuras críticas ubicadas en el territorio nacional vinculadas a los sectores estratégicos del anexo; se exceptúan las dependientes del Ministerio de Defensa y de las Fuerzas y Cuerpos de Seguridad.",
+      "explicacion": "El artículo 3 delimita el ámbito: cubre las infraestructuras críticas del territorio nacional de los sectores del anexo, pero excluye las dependientes del Ministerio de Defensa y de las Fuerzas y Cuerpos de Seguridad, que se rigen por su propia normativa."
+    },
+    {
+      "id": "IC-015",
+      "articulo": "art. 4",
+      "titulo": "Responsabilidad y clasificación del Catálogo",
+      "resumen": "El Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, es el responsable del Catálogo y el competente para clasificar una infraestructura como estratégica, crítica o crítica europea e incluirla en él.",
+      "explicacion": "El artículo 4 atribuye al Ministerio del Interior, mediante la Secretaría de Estado de Seguridad, tanto la responsabilidad del Catálogo como la competencia para clasificar e incluir en él las infraestructuras."
+    },
+    {
+      "id": "IC-016",
+      "articulo": "art. 5",
+      "titulo": "Composición del Sistema de Protección",
+      "resumen": "El Sistema de Protección de Infraestructuras Críticas se compone de instituciones, órganos y empresas del sector público y privado con responsabilidades en los servicios esenciales o en la seguridad de los ciudadanos.",
+      "explicacion": "El artículo 5.1 describe el Sistema como una estructura mixta público-privada que reúne a todos los actores con responsabilidad en el funcionamiento de los servicios esenciales o en la seguridad ciudadana."
+    },
+    {
+      "id": "IC-017",
+      "articulo": "art. 5",
+      "titulo": "Agentes del Sistema",
+      "resumen": "Son agentes del Sistema, entre otros, la Secretaría de Estado de Seguridad, el CNPIC, los Ministerios y organismos integrados, las Comunidades Autónomas, la Comisión Nacional, el Grupo de Trabajo Interdepartamental y los operadores críticos.",
+      "explicacion": "El artículo 5.2 enumera los agentes del Sistema: desde la Secretaría de Estado de Seguridad y el CNPIC hasta las Comunidades Autónomas, las Delegaciones del Gobierno, las Corporaciones Locales, la Comisión Nacional, el Grupo de Trabajo Interdepartamental y los operadores críticos."
+    },
+    {
+      "id": "IC-018",
+      "articulo": "art. 6",
+      "titulo": "La Secretaría de Estado de Seguridad",
+      "resumen": "La Secretaría de Estado de Seguridad es el órgano superior del Ministerio del Interior responsable del Sistema de Protección de las infraestructuras críticas nacionales.",
+      "explicacion": "El artículo 6 sitúa a la Secretaría de Estado de Seguridad como órgano superior responsable del Sistema, que ejerce sus competencias con la asistencia del resto de integrantes y, principalmente, del CNPIC."
+    },
+    {
+      "id": "IC-019",
+      "articulo": "art. 7",
+      "titulo": "El CNPIC: creación, dependencia y Catálogo",
+      "resumen": "Se crea el CNPIC como órgano ministerial de impulso, coordinación y supervisión; depende orgánicamente de la Secretaría de Estado de Seguridad y le corresponde realizar altas, bajas y modificaciones en el Catálogo y determinar la criticidad.",
+      "explicacion": "El artículo 7 crea el Centro Nacional para la Protección de las Infraestructuras Críticas, lo hace depender de la Secretaría de Estado de Seguridad y le encomienda gestionar el Catálogo (altas, bajas y modificaciones) y determinar la criticidad de las infraestructuras."
+    },
+    {
+      "id": "IC-020",
+      "articulo": "art. 8",
+      "titulo": "Ministerios y organismos integrados",
+      "resumen": "Por cada sector estratégico se designa al menos un ministerio, organismo, entidad u órgano de la Administración General del Estado integrado en el Sistema, mediante la modificación del anexo.",
+      "explicacion": "El artículo 8 organiza la representación sectorial: cada sector estratégico cuenta con al menos un ministerio u organismo integrado en el Sistema, que impulsa las políticas de seguridad del sector y actúa como punto de contacto especializado."
+    },
+    {
+      "id": "IC-021",
+      "articulo": "art. 11",
+      "titulo": "La Comisión Nacional para la Protección de las IC",
+      "resumen": "Se crea la Comisión Nacional como órgano colegiado adscrito a la Secretaría de Estado de Seguridad, competente para aprobar los Planes Estratégicos Sectoriales y designar a los operadores críticos, a propuesta del Grupo de Trabajo.",
+      "explicacion": "El artículo 11 crea la Comisión Nacional como órgano colegiado y le atribuye dos competencias clave: aprobar los Planes Estratégicos Sectoriales y designar a los operadores críticos, siempre a propuesta del Grupo de Trabajo Interdepartamental."
+    },
+    {
+      "id": "IC-022",
+      "articulo": "art. 12",
+      "titulo": "El Grupo de Trabajo Interdepartamental",
+      "resumen": "El Grupo de Trabajo Interdepartamental elabora los Planes Estratégicos Sectoriales y propone a la Comisión la designación de los operadores críticos por cada sector estratégico.",
+      "explicacion": "El artículo 12 dota al Sistema de un Grupo de Trabajo Interdepartamental encargado de elaborar los Planes Estratégicos Sectoriales y de proponer a la Comisión los operadores críticos de cada sector."
+    },
+    {
+      "id": "IC-023",
+      "articulo": "art. 13",
+      "titulo": "Obligaciones de los operadores críticos",
+      "resumen": "Los operadores críticos deben colaborar con las autoridades del Sistema: asesorar al Ministerio del Interior a través del CNPIC, elaborar el Plan de Seguridad del Operador y los Planes de Protección Específicos y designar Responsable de Seguridad y Enlace y Delegado de Seguridad.",
+      "explicacion": "El artículo 13 detalla el catálogo de deberes de los operadores críticos, desde el asesoramiento técnico y la actualización anual de datos hasta la elaboración de sus planes de seguridad y la designación de las figuras de seguridad exigidas por la Ley."
+    },
+    {
+      "id": "IC-024",
+      "articulo": "art. 13",
+      "titulo": "Requisito para designar operador crítico",
+      "resumen": "Es requisito para la designación de un operador crítico que al menos una de las infraestructuras que gestione reúna la consideración de Infraestructura Crítica.",
+      "explicacion": "El artículo 13.2 fija el umbral para ser designado operador crítico: gestionar, como mínimo, una infraestructura que reúna la consideración de Infraestructura Crítica, informando el CNPIC al operador antes de su clasificación definitiva."
+    },
+    {
+      "id": "IC-025",
+      "articulo": "art. 14",
+      "titulo": "Instrumentos de planificación del Sistema",
+      "resumen": "La protección de las infraestructuras críticas requiere cinco planes: el Plan Nacional de Protección, los Planes Estratégicos Sectoriales, los Planes de Seguridad del Operador, los Planes de Protección Específicos y los Planes de Apoyo Operativo.",
+      "explicacion": "El artículo 14 enumera los cinco instrumentos de planificación del Sistema y precisa que el Plan Nacional lo elabora el Ministerio del Interior, mientras que los Planes de Seguridad del Operador y los de Protección Específicos los elaboran los operadores críticos."
+    },
+    {
+      "id": "IC-026",
+      "articulo": "art. 14",
+      "titulo": "Planes de Apoyo Operativo",
+      "resumen": "Los Planes de Apoyo Operativo deberán ser elaborados por el Cuerpo Policial estatal o, en su caso, autonómico, con competencia en la demarcación, para cada infraestructura crítica dotada de un Plan de Protección Específico.",
+      "explicacion": "El artículo 14.5 atribuye la elaboración de los Planes de Apoyo Operativo a la policía (estatal o autonómica) competente en la demarcación, como complemento a las medidas previstas por los operadores críticos."
+    },
+    {
+      "id": "IC-027",
+      "articulo": "art. 16",
+      "titulo": "El Responsable de Seguridad y Enlace",
+      "resumen": "Los operadores críticos nombran y comunican al Ministerio del Interior un Responsable de Seguridad y Enlace, que debe contar con la habilitación de Director de Seguridad expedida por el Ministerio del Interior.",
+      "explicacion": "El artículo 16 regula la figura del Responsable de Seguridad y Enlace: lo designa el operador crítico y debe poseer la habilitación de Director de Seguridad prevista en la normativa de seguridad privada o la equivalente según su normativa específica."
+    },
+    {
+      "id": "IC-028",
+      "articulo": "art. 17",
+      "titulo": "El Delegado de Seguridad de la Infraestructura Crítica",
+      "resumen": "Los operadores con infraestructuras críticas o críticas europeas comunican a las Delegaciones del Gobierno, o al órgano autonómico competente, la existencia de un Delegado de Seguridad para dicha infraestructura.",
+      "explicacion": "El artículo 17 crea el Delegado de Seguridad de cada infraestructura crítica, cuya existencia se comunica a la Delegación del Gobierno o al órgano autonómico competente en materia de protección de personas y bienes y orden público."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "IC-001",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "Según el artículo 1 de la Ley 8/2011, ¿qué tiene por objeto la Ley?",
+      "opciones": [
+        "establecer las estrategias y las estructuras adecuadas que permitan dirigir y coordinar las actuaciones de los distintos órganos de las Administraciones Públicas en materia de protección de infraestructuras críticas",
+        "crear un cuerpo policial específico dedicado en exclusiva a la custodia de las infraestructuras",
+        "regular el régimen sancionador de las empresas de seguridad privada",
+        "aprobar el catálogo europeo de amenazas terroristas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Esta Ley tiene por objeto establecer las estrategias y las estructuras adecuadas que permitan dirigir y coordinar las actuaciones de los distintos órganos de las Administraciones Públicas en materia de protección de infraestructuras críticas, previa identificación y designación de las mismas",
+      "justificacion": "Art. 1.1 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-002",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "¿Qué regula además la Ley 8/2011 según el artículo 1.2?",
+      "opciones": [
+        "únicamente el funcionamiento interno del Ministerio del Interior",
+        "las especiales obligaciones que deben asumir tanto las Administraciones Públicas como los operadores",
+        "las tarifas del servicio de teleasistencia",
+        "el régimen electoral de las Corporaciones Locales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "la presente Ley regula las especiales obligaciones que deben asumir tanto las Administraciones Públicas como los operadores de aquellas infraestructuras que se determinen como infraestructuras críticas",
+      "justificacion": "Art. 1.2 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-003",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2, ¿qué es un servicio esencial?",
+      "opciones": [
+        "cualquier servicio prestado por una empresa privada con ánimo de lucro",
+        "el servicio necesario para el mantenimiento de las funciones sociales básicas, la salud, la seguridad, el bienestar social y económico de los ciudadanos",
+        "el servicio que presta exclusivamente el Ministerio de Defensa",
+        "el servicio de vigilancia contratado por los operadores críticos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Servicio esencial: el servicio necesario para el mantenimiento de las funciones sociales básicas, la salud, la seguridad, el bienestar social y económico de los ciudadanos",
+      "justificacion": "Art. 2.a) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-004",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Cómo define el artículo 2 el sector estratégico?",
+      "opciones": [
+        "cada una de las áreas diferenciadas dentro de la actividad laboral, económica y productiva, que proporciona un servicio esencial",
+        "cualquier empresa que cotice en bolsa",
+        "el conjunto de las Fuerzas y Cuerpos de Seguridad del Estado",
+        "las instalaciones dependientes del Ministerio de Defensa"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Sector estratégico: cada una de las áreas diferenciadas dentro de la actividad laboral, económica y productiva, que proporciona un servicio esencial o que garantiza el ejercicio de la autoridad del Estado o de la seguridad del país",
+      "justificacion": "Art. 2.b) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-005",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Qué son las infraestructuras estratégicas según el artículo 2?",
+      "opciones": [
+        "solo las redes de telecomunicaciones militares",
+        "las instalaciones, redes, sistemas y equipos físicos y de tecnología de la información sobre las que descansa el funcionamiento de los servicios esenciales",
+        "las infraestructuras situadas fuera del territorio nacional",
+        "los edificios administrativos de las Comunidades Autónomas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Infraestructuras estratégicas: las instalaciones, redes, sistemas y equipos físicos y de tecnología de la información sobre las que descansa el funcionamiento de los servicios esenciales",
+      "justificacion": "Art. 2.d) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-006",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2, las infraestructuras críticas son:",
+      "opciones": [
+        "cualquier infraestructura de titularidad pública",
+        "las infraestructuras estratégicas cuyo funcionamiento es indispensable y no permite soluciones alternativas",
+        "las infraestructuras dependientes del Ministerio de Defensa",
+        "las infraestructuras situadas en dos o más Estados miembros"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Infraestructuras críticas: las infraestructuras estratégicas cuyo funcionamiento es indispensable y no permite soluciones alternativas, por lo que su perturbación o destrucción tendría un grave impacto sobre los servicios esenciales",
+      "justificacion": "Art. 2.e) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-007",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza a las infraestructuras críticas europeas según el artículo 2?",
+      "opciones": [
+        "que están situadas exclusivamente en España",
+        "que dependen del Centro Nacional de Inteligencia",
+        "aquellas infraestructuras críticas situadas en algún Estado miembro de la Unión Europea, cuya perturbación o destrucción afectaría gravemente al menos a dos Estados miembros",
+        "que su protección corresponde en exclusiva a la Comisión Europea"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Infraestructuras críticas europeas: aquellas infraestructuras críticas situadas en algún Estado miembro de la Unión Europea, cuya perturbación o destrucción afectaría gravemente al menos a dos Estados miembros",
+      "justificacion": "Art. 2.f) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-008",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Qué es una zona crítica según el artículo 2?",
+      "opciones": [
+        "aquella zona geográfica continua donde estén establecidas varias infraestructuras críticas a cargo de operadores diferentes e interdependientes",
+        "la zona de exclusión aérea sobre una central nuclear",
+        "cualquier polígono industrial del territorio nacional",
+        "una infraestructura crítica de titularidad exclusivamente militar"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Zona crítica: aquella zona geográfica continua donde estén establecidas varias infraestructuras críticas a cargo de operadores diferentes e interdependientes, que sea declarada como tal por la Autoridad competente",
+      "justificacion": "Art. 2.g) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-009",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Los criterios horizontales de criticidad se definen como:",
+      "opciones": [
+        "las sanciones aplicables a los operadores incumplidores",
+        "los parámetros en función de los cuales se determina la criticidad, la gravedad y las consecuencias de la perturbación o destrucción de una infraestructura crítica",
+        "el catálogo de sectores estratégicos del anexo",
+        "las competencias de las Comunidades Autónomas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Criterios horizontales de criticidad: los parámetros en función de los cuales se determina la criticidad, la gravedad y las consecuencias de la perturbación o destrucción de una infraestructura crítica",
+      "justificacion": "Art. 2.h) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-010",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Cómo define el artículo 2 la protección de infraestructuras críticas?",
+      "opciones": [
+        "el conjunto de actividades destinadas a asegurar la funcionalidad, continuidad e integridad de las infraestructuras críticas",
+        "la vigilancia armada permanente de todas las instalaciones",
+        "el aseguramiento privado frente a daños materiales",
+        "la clasificación de la información sensible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Protección de infraestructuras críticas: el conjunto de actividades destinadas a asegurar la funcionalidad, continuidad e integridad de las infraestructuras críticas con el fin de prevenir, paliar y neutralizar el daño causado por un ataque deliberado",
+      "justificacion": "Art. 2.k) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-011",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2, los operadores críticos son:",
+      "opciones": [
+        "los agentes de las Fuerzas y Cuerpos de Seguridad",
+        "los Delegados del Gobierno en las Comunidades Autónomas",
+        "las entidades u organismos responsables de las inversiones o del funcionamiento diario de una instalación, red, sistema, o equipo físico o de tecnología de la información designada como infraestructura crítica",
+        "las empresas de seguridad privada habilitadas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Operadores críticos: las entidades u organismos responsables de las inversiones o del funcionamiento diario de una instalación, red, sistema, o equipo físico o de tecnología de la información designada como infraestructura crítica con arreglo a la presente Ley",
+      "justificacion": "Art. 2.m) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-012",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "El Nivel de Seguridad se define en el artículo 2 como aquel cuya activación:",
+      "opciones": [
+        "corresponde a cada operador crítico de forma autónoma",
+        "por el Ministerio del Interior está previsto en el Plan Nacional de Protección de Infraestructuras Críticas",
+        "decide la Comisión Europea",
+        "compete a las Corporaciones Locales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Nivel de Seguridad: aquel cuya activación por el Ministerio del Interior está previsto en el Plan Nacional de Protección de Infraestructuras Críticas, de acuerdo con la evaluación general de la amenaza",
+      "justificacion": "Art. 2.n) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-013",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "El Catálogo Nacional de Infraestructuras Estratégicas se define como:",
+      "opciones": [
+        "un listado público de acceso libre en internet",
+        "la información completa, actualizada, contrastada e informáticamente sistematizada relativa a las características específicas de cada una de las infraestructuras estratégicas",
+        "el registro de empresas de seguridad privada",
+        "el inventario de armas de las Fuerzas Armadas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Catálogo Nacional de Infraestructuras Estratégicas: la información completa, actualizada, contrastada e informáticamente sistematizada relativa a las características específicas de cada una de las infraestructuras estratégicas existentes en el territorio nacional",
+      "justificacion": "Art. 2.o) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-014",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "¿Qué infraestructuras se exceptúan de la aplicación de la Ley según el artículo 3?",
+      "opciones": [
+        "las gestionadas por operadores privados",
+        "las situadas en Comunidades Autónomas con policía propia",
+        "las infraestructuras dependientes del Ministerio de Defensa y de las Fuerzas y Cuerpos de Seguridad",
+        "las infraestructuras críticas europeas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Se exceptúan de su aplicación las infraestructuras dependientes del Ministerio de Defensa y de las Fuerzas y Cuerpos de Seguridad, que se regirán, a efectos de control administrativo, por su propia normativa y procedimientos",
+      "justificacion": "Art. 3.2 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-015",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "¿A quién corresponde la responsabilidad del Catálogo y la competencia para clasificar una infraestructura como crítica?",
+      "opciones": [
+        "el Ministerio del Interior, a través de la Secretaría de Estado de Seguridad",
+        "al Centro Nacional de Inteligencia",
+        "a la Comisión Europea",
+        "a cada Comunidad Autónoma de forma exclusiva"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, será el responsable del Catálogo Nacional de Infraestructuras Estratégicas",
+      "justificacion": "Art. 4.1 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-016",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "¿De qué se compone el Sistema de Protección de Infraestructuras Críticas según el artículo 5?",
+      "opciones": [
+        "exclusivamente de órganos del Ministerio del Interior",
+        "una serie de instituciones, órganos y empresas, procedentes tanto del sector público como del privado",
+        "solo de operadores críticos privados",
+        "únicamente de las Fuerzas y Cuerpos de Seguridad"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El Sistema de Protección de Infraestructuras Críticas se compone de una serie de instituciones, órganos y empresas, procedentes tanto del sector público como del privado",
+      "justificacion": "Art. 5.1 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-017",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "¿Cuál de los siguientes es un agente del Sistema según el artículo 5.2?",
+      "opciones": [
+        "el Congreso de los Diputados",
+        "el Tribunal Constitucional",
+        "El Centro Nacional para la Protección de las Infraestructuras Críticas",
+        "el Consejo General del Poder Judicial"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Son agentes del Sistema, con las funciones que se determinen reglamentariamente, los siguientes: a) La Secretaría de Estado de Seguridad del Ministerio del Interior. b) El Centro Nacional para la Protección de las Infraestructuras Críticas",
+      "justificacion": "Art. 5.2 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-018",
+      "articulo": "art. 6",
+      "tipo": "test",
+      "enunciado": "Según el artículo 6, la Secretaría de Estado de Seguridad es:",
+      "opciones": [
+        "un órgano colegiado adscrito al Ministerio de Defensa",
+        "el órgano superior del Ministerio del Interior responsable del Sistema de Protección de las infraestructuras críticas nacionales",
+        "una entidad privada de seguridad",
+        "un organismo dependiente de la Comisión Europea"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La Secretaría de Estado de Seguridad es el órgano superior del Ministerio del Interior responsable del Sistema de Protección de las infraestructuras críticas nacionales",
+      "justificacion": "Art. 6 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-019",
+      "articulo": "art. 7",
+      "tipo": "test",
+      "enunciado": "Según el artículo 7, ¿qué corresponde al CNPIC respecto del Catálogo?",
+      "opciones": [
+        "la realización de altas, bajas y modificaciones de infraestructuras en el Catálogo",
+        "la aprobación de los Planes Estratégicos Sectoriales",
+        "la designación de los operadores críticos",
+        "la elaboración del Plan de Apoyo Operativo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "corresponderá al CNPIC la realización de altas, bajas y modificaciones de infraestructuras en el Catálogo, así como la determinación de la criticidad de las infraestructuras estratégicas incluidas en el mismo",
+      "justificacion": "Art. 7.3 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-020",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "Según el artículo 8, por cada sector estratégico se designará:",
+      "opciones": [
+        "al menos, un ministerio, organismo, entidad u órgano de la Administración General del Estado integrado en el Sistema",
+        "una empresa de seguridad privada",
+        "un delegado autonómico independiente",
+        "un tribunal sectorial de arbitraje"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Por cada sector estratégico, se designará, al menos, un ministerio, organismo, entidad u órgano de la Administración General del Estado integrado en el Sistema",
+      "justificacion": "Art. 8.1 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-021",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "¿Para qué es competente la Comisión Nacional para la Protección de las Infraestructuras Críticas según el artículo 11?",
+      "opciones": [
+        "para instruir los expedientes sancionadores",
+        "para aprobar los diferentes Planes Estratégicos Sectoriales así como para designar a los operadores críticos",
+        "para realizar altas y bajas en el Catálogo",
+        "para elaborar el Plan Nacional de Protección"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La Comisión será la competente para aprobar los diferentes Planes Estratégicos Sectoriales así como para designar a los operadores críticos, a propuesta del Grupo de Trabajo Interdepartamental",
+      "justificacion": "Art. 11.2 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-022",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "¿Qué corresponde al Grupo de Trabajo Interdepartamental según el artículo 12?",
+      "opciones": [
+        "aprobar los Planes Estratégicos Sectoriales",
+        "la elaboración de los diferentes Planes Estratégicos Sectoriales y la propuesta a la Comisión de la designación de los operadores críticos",
+        "determinar la criticidad de las infraestructuras",
+        "activar el Nivel de Seguridad"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Le corresponderá, en todo caso, la elaboración de los diferentes Planes Estratégicos Sectoriales y la propuesta a la Comisión de la designación de los operadores críticos por cada uno de los sectores estratégicos definidos",
+      "justificacion": "Art. 12.2 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-023",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "¿Cuál es una de las obligaciones de los operadores críticos según el artículo 13?",
+      "opciones": [
+        "aprobar el Plan Nacional de Protección",
+        "designar a los Delegados del Gobierno",
+        "Elaborar el Plan de Seguridad del Operador en los términos y con los contenidos que se determinen reglamentariamente",
+        "clasificar las infraestructuras como críticas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Elaborar el Plan de Seguridad del Operador en los términos y con los contenidos que se determinen reglamentariamente",
+      "justificacion": "Art. 13.1.c) Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-024",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "Según el artículo 13, ¿qué requisito debe cumplirse para designar a un operador crítico?",
+      "opciones": [
+        "que sea una empresa exclusivamente pública",
+        "que al menos una de las infraestructuras que gestionen reúna la consideración de Infraestructura Crítica",
+        "que gestione infraestructuras en al menos dos Estados miembros",
+        "que tenga sede en el territorio de una Comunidad Autónoma con policía propia"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Será requisito para la designación de los operadores críticos, tanto del sector público como del privado, que al menos una de las infraestructuras que gestionen reúna la consideración de Infraestructura Crítica",
+      "justificacion": "Art. 13.2 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-025",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "¿Cuál de los siguientes es uno de los planes de actuación del artículo 14?",
+      "opciones": [
+        "El Plan Nacional de Protección de las Infraestructuras Críticas",
+        "el Plan General de Contabilidad",
+        "el Plan Hidrológico Nacional",
+        "el Plan de Ordenación del Territorio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "requiere la adopción y aplicación de los siguientes planes de actuación: a) El Plan Nacional de Protección de las Infraestructuras Críticas. b) Los Planes Estratégicos Sectoriales. c) Los Planes de Seguridad del Operador. d) Los Planes de Protección Específicos. e) Los Planes de Apoyo Operativo",
+      "justificacion": "Art. 14.1 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-026",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el artículo 14, ¿quién elabora los Planes de Apoyo Operativo?",
+      "opciones": [
+        "los operadores críticos",
+        "la Comisión Nacional",
+        "el Cuerpo Policial estatal o, en su caso, autonómico, con competencia en la demarcación",
+        "el Centro Nacional de Inteligencia"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Los Planes de Apoyo Operativo deberán ser elaborados por el Cuerpo Policial estatal o, en su caso, autonómico, con competencia en la demarcación, para cada una de las infraestructuras clasificadas como Críticas o Críticas Europeas",
+      "justificacion": "Art. 14.5 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-027",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "Según el artículo 16, ¿con qué habilitación debe contar el Responsable de Seguridad y Enlace?",
+      "opciones": [
+        "con el título de grado en criminología",
+        "con la habilitación de Director de Seguridad expedida por el Ministerio del Interior",
+        "con la condición de funcionario de la Policía Nacional",
+        "con la autorización del Centro Nacional de Inteligencia"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el Responsable de Seguridad y Enlace designado deberá contar con la habilitación de Director de Seguridad expedida por el Ministerio del Interior según lo previsto en la normativa de seguridad privada",
+      "justificacion": "Art. 16.2 Ley 8/2011."
+    },
+    {
+      "concepto_id": "IC-028",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "Según el artículo 17, ¿a quién comunican los operadores la existencia de un Delegado de Seguridad?",
+      "opciones": [
+        "a la Comisión Europea",
+        "al Centro Nacional de Inteligencia",
+        "a las Delegaciones del Gobierno o, en su caso, al órgano competente de la Comunidad Autónoma con competencias estatutariamente reconocidas para la protección de personas y bienes y para el mantenimiento del orden público",
+        "a las Corporaciones Locales"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "comunicarán a las Delegaciones del Gobierno o, en su caso, al órgano competente de la Comunidad Autónoma con competencias estatutariamente reconocidas para la protección de personas y bienes y para el mantenimiento del orden público donde aquéllas se ubiquen, la existencia de un Delegado de Seguridad para dicha infraestructura",
+      "justificacion": "Art. 17.1 Ley 8/2011."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "IC-002",
+      "destino": "IC-001",
+      "tipo": "desarrolla",
+      "justificacion": "Las obligaciones especiales del art. 1.2 concretan y desarrollan el objeto de la Ley del art. 1.1."
+    },
+    {
+      "origen": "IC-003",
+      "destino": "IC-005",
+      "tipo": "prerrequisito",
+      "justificacion": "Comprender el servicio esencial (art. 2.a) es prerrequisito para entender las infraestructuras estratégicas que lo sostienen (art. 2.d)."
+    },
+    {
+      "origen": "IC-004",
+      "destino": "IC-005",
+      "tipo": "prerrequisito",
+      "justificacion": "El sector estratégico (art. 2.b) enmarca las infraestructuras estratégicas (art. 2.d)."
+    },
+    {
+      "origen": "IC-005",
+      "destino": "IC-006",
+      "tipo": "prerrequisito",
+      "justificacion": "Las infraestructuras críticas (art. 2.e) son una especie de las infraestructuras estratégicas (art. 2.d)."
+    },
+    {
+      "origen": "IC-006",
+      "destino": "IC-007",
+      "tipo": "desarrolla",
+      "justificacion": "Las infraestructuras críticas europeas (art. 2.f) desarrollan el concepto de infraestructura crítica con dimensión transnacional."
+    },
+    {
+      "origen": "IC-006",
+      "destino": "IC-008",
+      "tipo": "desarrolla",
+      "justificacion": "La zona crítica (art. 2.g) agrupa varias infraestructuras críticas (art. 2.e)."
+    },
+    {
+      "origen": "IC-009",
+      "destino": "IC-006",
+      "tipo": "desarrolla",
+      "justificacion": "Los criterios horizontales de criticidad (art. 2.h) concretan cuándo una infraestructura es crítica (art. 2.e)."
+    },
+    {
+      "origen": "IC-010",
+      "destino": "IC-006",
+      "tipo": "desarrolla",
+      "justificacion": "La protección de infraestructuras críticas (art. 2.k) concreta las actividades sobre las infraestructuras críticas (art. 2.e)."
+    },
+    {
+      "origen": "IC-011",
+      "destino": "IC-006",
+      "tipo": "desarrolla",
+      "justificacion": "El operador crítico (art. 2.m) se define por gestionar una infraestructura crítica (art. 2.e)."
+    },
+    {
+      "origen": "IC-012",
+      "destino": "IC-025",
+      "tipo": "remite",
+      "justificacion": "El Nivel de Seguridad (art. 2.n) se remite al Plan Nacional de Protección, uno de los instrumentos del art. 14."
+    },
+    {
+      "origen": "IC-013",
+      "destino": "IC-015",
+      "tipo": "prerrequisito",
+      "justificacion": "La definición del Catálogo (art. 2.o) es prerrequisito de su régimen de responsabilidad y clasificación (art. 4)."
+    },
+    {
+      "origen": "IC-014",
+      "destino": "IC-001",
+      "tipo": "limita",
+      "justificacion": "El ámbito de aplicación y sus excepciones (art. 3) limitan el alcance del objeto de la Ley (art. 1)."
+    },
+    {
+      "origen": "IC-017",
+      "destino": "IC-016",
+      "tipo": "desarrolla",
+      "justificacion": "La enumeración de agentes (art. 5.2) desarrolla la composición del Sistema (art. 5.1)."
+    },
+    {
+      "origen": "IC-018",
+      "destino": "IC-017",
+      "tipo": "desarrolla",
+      "justificacion": "La Secretaría de Estado de Seguridad (art. 6) es uno de los agentes del Sistema del art. 5.2."
+    },
+    {
+      "origen": "IC-019",
+      "destino": "IC-018",
+      "tipo": "desarrolla",
+      "justificacion": "El CNPIC (art. 7) depende de la Secretaría de Estado de Seguridad (art. 6) y desarrolla su función."
+    },
+    {
+      "origen": "IC-019",
+      "destino": "IC-013",
+      "tipo": "desarrolla",
+      "justificacion": "El CNPIC (art. 7.3) gestiona altas y bajas del Catálogo definido en el art. 2.o."
+    },
+    {
+      "origen": "IC-020",
+      "destino": "IC-017",
+      "tipo": "desarrolla",
+      "justificacion": "Los ministerios y organismos integrados (art. 8) son agentes del Sistema del art. 5.2."
+    },
+    {
+      "origen": "IC-021",
+      "destino": "IC-017",
+      "tipo": "desarrolla",
+      "justificacion": "La Comisión Nacional (art. 11) es uno de los agentes del Sistema del art. 5.2."
+    },
+    {
+      "origen": "IC-022",
+      "destino": "IC-017",
+      "tipo": "desarrolla",
+      "justificacion": "El Grupo de Trabajo Interdepartamental (art. 12) es uno de los agentes del Sistema del art. 5.2."
+    },
+    {
+      "origen": "IC-021",
+      "destino": "IC-025",
+      "tipo": "remite",
+      "justificacion": "La Comisión aprueba los Planes Estratégicos Sectoriales (art. 11.2), instrumentos del art. 14."
+    },
+    {
+      "origen": "IC-022",
+      "destino": "IC-021",
+      "tipo": "remite",
+      "justificacion": "El Grupo de Trabajo (art. 12) remite a la Comisión (art. 11) sus propuestas de designación de operadores."
+    },
+    {
+      "origen": "IC-023",
+      "destino": "IC-011",
+      "tipo": "desarrolla",
+      "justificacion": "Las obligaciones del art. 13 desarrollan la figura del operador crítico definida en el art. 2.m."
+    },
+    {
+      "origen": "IC-024",
+      "destino": "IC-006",
+      "tipo": "desarrolla",
+      "justificacion": "El requisito de designación (art. 13.2) exige gestionar una infraestructura crítica (art. 2.e)."
+    },
+    {
+      "origen": "IC-024",
+      "destino": "IC-023",
+      "tipo": "prerrequisito",
+      "justificacion": "Cumplir el requisito de designación (art. 13.2) es prerrequisito para asumir las obligaciones del operador (art. 13.1)."
+    },
+    {
+      "origen": "IC-025",
+      "destino": "IC-001",
+      "tipo": "desarrolla",
+      "justificacion": "Los instrumentos de planificación (art. 14) desarrollan las estructuras del objeto de la Ley (art. 1)."
+    },
+    {
+      "origen": "IC-026",
+      "destino": "IC-025",
+      "tipo": "desarrolla",
+      "justificacion": "Los Planes de Apoyo Operativo (art. 14.5) son uno de los instrumentos de planificación del art. 14.1."
+    },
+    {
+      "origen": "IC-027",
+      "destino": "IC-023",
+      "tipo": "desarrolla",
+      "justificacion": "El Responsable de Seguridad y Enlace (art. 16) desarrolla la obligación del operador de designarlo (art. 13.1.e)."
+    },
+    {
+      "origen": "IC-028",
+      "destino": "IC-023",
+      "tipo": "desarrolla",
+      "justificacion": "El Delegado de Seguridad (art. 17) desarrolla la obligación del operador de designarlo (art. 13.1.f)."
+    }
+  ]
+}

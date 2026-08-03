@@ -8,6 +8,13 @@ El texto **literal** de uno o varios artículos + sus metadatos (norma, referenc
 ## Salida (JSON)
 ```json
 {
+  "meta": {
+    "materia": "ley-5-2014-seguridad-privada",
+    "norma": "Ley 5/2014, de Seguridad Privada",
+    "referencia_boe": "BOE-A-2014-3649",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 13 — Disposiciones generales en materia de seguridad privada en España"
+  },
   "fuentes": { "art. 66": "<texto literal íntegro del artículo>" },
   "conceptos": [
     { "id": "CE-T3-001", "articulo": "art. 66",
@@ -33,6 +40,18 @@ El texto **literal** de uno o varios artículos + sus metadatos (norma, referenc
 
 ## Regla de interconexión (innegociable)
 0-bis. **Generar un concepto incluye generar sus interconexiones.** El cerebro es una red neuronal: cada lote lleva un array `relaciones` que enlaza los conceptos nuevos entre sí Y con los ya existentes en la base, mediante el grafo tipado `relacion_concepto`. **Ningún concepto se carga como isla.** Los enlaces cruzan dominios (p. ej. la LO 2/1986 *desarrolla* el art. 104 CE; la LO 4/2015 *remite* al art. 5 LO 2/1986; el asesinato *desarrolla* el homicidio). Una barrera verifica que ambos extremos existen (en el lote o en la base), que el `tipo` es válido y que no hay auto-bucles ni duplicados; lo que no pasa, se rechaza. Regla de Jonathan (02/08/2026): "todo se tiene que interconectar como una red neuronal". Tipos: **prerrequisito** (hay que dominar A para B), **desarrolla** (A concreta/expande B), **limita** (A restringe o excepciona B), **remite** (A se remite a B).
+
+## Regla de coherencia de metadatos (innegociable)
+0-ter. **El `meta` viaja DENTRO del lote y debe cuadrar con lo que el lote es.** El motor —que sabe qué norma está leyendo— escribe `meta` (materia, norma, referencia_boe, convocatoria, tema) en el propio lote; nunca se empareja a mano un fichero de meta suelto. La puerta de metadatos (`verificar-meta.mjs`) deriva la FAMILIA del id de concepto (primer token: CE, SP, CP, FCS, SC, VIC, DISC…) y la contrasta con `registro-materias.json`: si `meta.materia/norma/referencia_boe/tema` no coinciden con lo registrado para esa familia, o la familia no está registrada, o el lote mezcla familias, se **rechaza y no se emite SQL** (fail-closed). Origen: fallo del 02/08/2026, en que 3 lotes se estamparon con el meta de la Constitución. Norma nueva = añadir su familia a `registro-materias.json` ANTES de cargar. Tras cargar, correr `asercion-post-carga.sql` (debe dar 0 filas).
+
+## Regla de calidad de los test (innegociable)
+0-quater. **Los distractores deben ser buenos y equilibrados.** Una pregunta bien puesta no se puede "cazar" sin saber. Reglas que verifica `verificar-calidad.mjs` (fail-closed):
+- Las 4 opciones son **distintas** (sin duplicados) y no vacías.
+- Los **distractores tienen longitud y nivel de detalle parecidos a la correcta**. NO vale que la correcta sea la única opción larga y completa y las demás sean cortas: eso delata la respuesta. La puerta rechaza el lote si la correcta es la más larga en más del 55% de las preguntas. Redacta distractores plausibles y con el mismo registro (misma extensión aproximada, mismo tipo de frase).
+- El **enunciado** es una pregunta clara y no trivial (mínimo 10 caracteres).
+- La **posición** de la correcta NO la fija el generador: `cargar.mjs` baraja las opciones al cargar, así que la correcta queda repartida de forma uniforme entre A/B/C/D. No te preocupes por dónde poner la correcta; escribe siempre con `indice_correcto` y el sistema la recoloca.
+
+Auditoría permanente del banco: `auditoria-calidad.sql` mide estos sesgos (posición, longitud, duplicados) en cualquier momento.
 
 ## Reglas de grounding (innegociables)
 1. **El `cotejo` es texto literal** del artículo (copiado, no parafraseado).

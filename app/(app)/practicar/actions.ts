@@ -9,10 +9,10 @@ import {
 
 export async function accionResponder(
   actividadId: string,
-  indice: number,
+  textoElegido: string,
   tiempoMs?: number,
 ) {
-  return responder(actividadId, indice, tiempoMs);
+  return responder(actividadId, textoElegido, tiempoMs);
 }
 
 export async function accionSiguiente() {

@@ -1,0 +1,229 @@
+{
+  "_doc": "Fuente de verdad materia↔norma↔BOE↔tema, keyed por FAMILIA = primer token del id de concepto (antes del primer guion). La puerta de metadatos (verificar-meta.mjs) rechaza cualquier lote cuyo meta contradiga esta tabla. Añade aquí cada norma nueva ANTES de cargarla. temas=null → no se fija el tema (solo se exige no vacío); temas=[...] → meta.tema debe estar en la lista.",
+  "_convocatoria": "policia-nacional-2026",
+  "CE": {
+    "materia": "constitucion-espanola",
+    "norma": "Constitución Española",
+    "referencia_boe": "BOE-A-1978-31229",
+    "temas": null
+  },
+  "FCS": {
+    "materia": "lo-2-1986-fcse",
+    "norma": "Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad",
+    "referencia_boe": "BOE-A-1986-6859",
+    "temas": null
+  },
+  "SC": {
+    "materia": "lo-4-2015-seguridad-ciudadana",
+    "norma": "Ley Orgánica 4/2015, de protección de la seguridad ciudadana",
+    "referencia_boe": "BOE-A-2015-3442",
+    "temas": null
+  },
+  "CP": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "temas": null
+  },
+  "SP": {
+    "materia": "ley-5-2014-seguridad-privada",
+    "norma": "Ley 5/2014, de Seguridad Privada",
+    "referencia_boe": "BOE-A-2014-3649",
+    "temas": ["Tema 13 — Disposiciones generales en materia de seguridad privada en España"]
+  },
+  "VIC": {
+    "materia": "ley-4-2015-estatuto-victima",
+    "norma": "Ley 4/2015, del Estatuto de la víctima del delito",
+    "referencia_boe": "BOE-A-2015-4606",
+    "temas": ["Tema 22 — La Ley 4/2015, del Estatuto de la víctima del delito"]
+  },
+  "DISC": {
+    "materia": "lo-4-2010-regimen-disciplinario",
+    "norma": "Ley Orgánica 4/2010, del Régimen disciplinario del Cuerpo Nacional de Policía",
+    "referencia_boe": "BOE-A-2010-8115",
+    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+  },
+  "EXT": {
+    "materia": "lo-4-2000-extranjeria",
+    "norma": "Ley Orgánica 4/2000, sobre derechos y libertades de los extranjeros en España y su integración social",
+    "referencia_boe": "BOE-A-2000-544",
+    "temas": [
+      "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "Tema 11 — De las infracciones en materia de extranjería y su régimen sancionador"
+    ]
+  },
+  "LOPD": {
+    "materia": "lo-3-2018-proteccion-datos",
+    "norma": "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales",
+    "referencia_boe": "BOE-A-2018-16673",
+    "temas": ["Tema 26 — La protección de datos de carácter personal: LO 3/2018 y LO 7/2021"]
+  },
+  "ARM": {
+    "materia": "rd-137-1993-reglamento-armas",
+    "norma": "Real Decreto 137/1993, por el que se aprueba el Reglamento de Armas",
+    "referencia_boe": "BOE-A-1993-6202",
+    "temas": ["Tema 42 — Las armas de fuego: definición, clasificación, categorías; el Reglamento de Armas; armas prohibidas; documentación de tenencia y porte"]
+  },
+  "AGE": {
+    "materia": "ley-40-2015-sector-publico",
+    "norma": "Ley 40/2015, de Régimen Jurídico del Sector Público",
+    "referencia_boe": "BOE-A-2015-10566",
+    "temas": ["Tema 5 — La organización y funcionamiento de la Administración General del Estado: principios, órganos superiores y directivos; el Gobierno: composición, organización y funciones"]
+  },
+  "GOB": {
+    "materia": "ley-50-1997-gobierno",
+    "norma": "Ley 50/1997, del Gobierno",
+    "referencia_boe": "BOE-A-1997-25336",
+    "temas": ["Tema 5 — La organización y funcionamiento de la Administración General del Estado: principios, órganos superiores y directivos; el Gobierno: composición, organización y funciones"]
+  },
+  "EBEP": {
+    "materia": "rdleg-5-2015-ebep",
+    "norma": "Real Decreto Legislativo 5/2015, texto refundido de la Ley del Estatuto Básico del Empleado Público",
+    "referencia_boe": "BOE-A-2015-11719",
+    "temas": ["Tema 6 — Los funcionarios públicos: concepto y clases; adquisición y pérdida de la condición de funcionario"]
+  },
+  "PPN": {
+    "materia": "lo-9-2015-personal-policia-nacional",
+    "norma": "Ley Orgánica 9/2015, de Régimen de Personal de la Policía Nacional",
+    "referencia_boe": "BOE-A-2015-8468",
+    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+  },
+  "ASI": {
+    "materia": "ley-12-2009-asilo",
+    "norma": "Ley 12/2009, reguladora del derecho de asilo y de la protección subsidiaria",
+    "referencia_boe": "BOE-A-2009-17242",
+    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+  },
+  "VG": {
+    "materia": "lo-1-2004-violencia-genero",
+    "norma": "Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género",
+    "referencia_boe": "BOE-A-2004-21760",
+    "temas": ["Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"]
+  },
+  "IG": {
+    "materia": "lo-3-2007-igualdad",
+    "norma": "Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres",
+    "referencia_boe": "BOE-A-2007-6115",
+    "temas": ["Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"]
+  },
+  "PRL": {
+    "materia": "ley-31-1995-prl",
+    "norma": "Ley 31/1995, de Prevención de Riesgos Laborales",
+    "referencia_boe": "BOE-A-1995-24292",
+    "temas": ["Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"]
+  },
+  "IC": {
+    "materia": "ley-8-2011-infraestructuras-criticas",
+    "norma": "Ley 8/2011, por la que se establecen medidas para la protección de las infraestructuras críticas",
+    "referencia_boe": "BOE-A-2011-7630",
+    "temas": ["Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"]
+  },
+  "ICR": {
+    "materia": "rd-704-2011-reglamento-infraestructuras-criticas",
+    "norma": "Real Decreto 704/2011, por el que se aprueba el Reglamento de protección de las infraestructuras críticas",
+    "referencia_boe": "BOE-A-2011-8849",
+    "temas": ["Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"]
+  },
+  "LOPJ": {
+    "materia": "lo-6-1985-poder-judicial",
+    "norma": "Ley Orgánica 6/1985, del Poder Judicial",
+    "referencia_boe": "BOE-A-1985-12666",
+    "temas": ["Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"]
+  },
+  "LEC": {
+    "materia": "lecrim-1882",
+    "norma": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal",
+    "referencia_boe": "BOE-A-1882-6036",
+    "temas": ["Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"]
+  },
+  "MF": {
+    "materia": "ley-50-1981-ministerio-fiscal",
+    "norma": "Ley 50/1981, por la que se regula el Estatuto Orgánico del Ministerio Fiscal",
+    "referencia_boe": "BOE-A-1982-837",
+    "temas": ["Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"]
+  },
+  "HC": {
+    "materia": "lo-6-1984-habeas-corpus",
+    "norma": "Ley Orgánica 6/1984, reguladora del procedimiento de Habeas Corpus",
+    "referencia_boe": "BOE-A-1984-11620",
+    "temas": ["Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"]
+  },
+  "TC": {
+    "materia": "lo-2-1979-tribunal-constitucional",
+    "norma": "Ley Orgánica 2/1979, del Tribunal Constitucional",
+    "referencia_boe": "BOE-A-1979-23709",
+    "temas": ["Tema 3 — La Constitución Española (II): Corona, Cortes Generales, Gobierno, Poder Judicial, organización territorial, Tribunal Constitucional y reforma constitucional"]
+  },
+  "DP": {
+    "materia": "lo-3-1981-defensor-del-pueblo",
+    "norma": "Ley Orgánica 3/1981, del Defensor del Pueblo",
+    "referencia_boe": "BOE-A-1981-10325",
+    "temas": ["Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"]
+  },
+  "CC": {
+    "materia": "codigo-civil-titulo-preliminar",
+    "norma": "Real Decreto de 24 de julio de 1889, Código Civil",
+    "referencia_boe": "BOE-A-1889-4763",
+    "temas": ["Tema 1 — El Derecho: concepto y acepciones; las normas jurídicas positivas: concepto, estructura y clases; la costumbre y los principios generales del derecho"]
+  },
+  "EAES": {
+    "materia": "lo-4-1981-estados-alarma-excepcion-sitio",
+    "norma": "Ley Orgánica 4/1981, de los estados de alarma, excepción y sitio",
+    "referencia_boe": "BOE-A-1981-12774",
+    "temas": ["Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"]
+  },
+  "LOPD7": {
+    "materia": "lo-7-2021-datos-penales",
+    "norma": "Ley Orgánica 7/2021, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales",
+    "referencia_boe": "BOE-A-2021-8806",
+    "temas": ["Tema 26 — La protección de datos de carácter personal: LO 3/2018 y LO 7/2021"]
+  },
+  "LGTBI": {
+    "materia": "ley-4-2023-trans-lgtbi",
+    "norma": "Ley 4/2023, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI",
+    "referencia_boe": "BOE-A-2023-5366",
+    "temas": ["Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"]
+  },
+  "UE": {
+    "materia": "rd-240-2007-libre-circulacion-ue",
+    "norma": "Real Decreto 240/2007, sobre entrada, libre circulación y residencia en España de ciudadanos de los Estados miembros de la UE y de otros Estados parte en el Acuerdo sobre el EEE",
+    "referencia_boe": "BOE-A-2007-4184",
+    "temas": ["Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia"]
+  },
+  "TRAF": {
+    "materia": "rd-1428-2003-reglamento-circulacion",
+    "norma": "Real Decreto 1428/2003, por el que se aprueba el Reglamento General de Circulación",
+    "referencia_boe": "BOE-A-2003-23514",
+    "temas": ["Tema 43 — El vehículo prioritario: definición, facultades de los conductores de vehículos prioritarios; señales; el Reglamento General de Circulación"]
+  },
+  "DGP": {
+    "materia": "orden-int-859-2023-estructura-dgp",
+    "norma": "Orden INT/859/2023, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía",
+    "referencia_boe": "BOE-A-2023-17072",
+    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+  },
+  "MININT": {
+    "materia": "rd-207-2024-estructura-ministerio-interior",
+    "norma": "Real Decreto 207/2024, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior",
+    "referencia_boe": "BOE-A-2024-3793",
+    "temas": ["Tema 7 — El Ministerio del Interior: estructura orgánica básica; la Secretaría de Estado de Seguridad: estructura y funciones"]
+  },
+  "SEL": {
+    "materia": "rd-853-2022-procesos-selectivos-pn",
+    "norma": "Real Decreto 853/2022, por el que se regulan los procesos selectivos y la formación en las Escalas Básica y Ejecutiva de la Policía Nacional",
+    "referencia_boe": "BOE-A-2022-16582",
+    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+  },
+  "ICR": {
+    "materia": "rd-704-2011-reglamento-infraestructuras-criticas",
+    "norma": "Real Decreto 704/2011, por el que se aprueba el Reglamento de protección de las infraestructuras críticas",
+    "referencia_boe": "BOE-A-2011-8849",
+    "temas": ["Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"]
+  },
+  "ASIR": {
+    "materia": "rd-203-1995-reglamento-asilo",
+    "norma": "Real Decreto 203/1995, por el que se aprueba el Reglamento de aplicación de la Ley reguladora del derecho de asilo",
+    "referencia_boe": "BOE-A-1995-5542",
+    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+  }
+}
