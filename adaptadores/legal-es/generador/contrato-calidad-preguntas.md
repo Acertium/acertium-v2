@@ -35,7 +35,9 @@ El módulo tiene **dos capas**:
 
 ## Flujo del módulo
 
-`pregunta generada → Capa 1 (verificar-calidad) → si pasa, se carga con opciones barajadas` ·
+`pregunta generada → Capa 2 (afinado de distractores, SIEMPRE) → Capa 1 (verificar-calidad) → si pasa, se carga con opciones barajadas` ·
 `banco existente / lotes flojos → Capa 2 (reescritor de distractores) → Capa 1 → recarga`
+
+**La Capa 2 es obligatoria en TODO lote nuevo, no solo en los flojos** (estándar fijado el 03/08/2026). Objetivo: la correcta = la más larga en ≤ 35 % de las preguntas del lote (paridad con el banco, ~25 %), no solo por debajo del 55 % de la puerta.
 
 La Capa 2 recibe: el artículo fuente literal + la opción correcta (intocable) + los distractores actuales, y devuelve 3 distractores *near-miss* que cumplen la rúbrica, sin tocar la correcta. Luego el resultado vuelve a pasar la Capa 1.

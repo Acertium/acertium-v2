@@ -225,5 +225,23 @@
     "norma": "Real Decreto 203/1995, por el que se aprueba el Reglamento de aplicación de la Ley reguladora del derecho de asilo",
     "referencia_boe": "BOE-A-1995-5542",
     "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+  },
+  "APAT": {
+    "materia": "rd-865-2001-reglamento-apatrida",
+    "norma": "Real Decreto 865/2001, por el que se aprueba el Reglamento de reconocimiento del estatuto de apátrida",
+    "referencia_boe": "BOE-A-2001-14166",
+    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+  },
+  "PTEMP": {
+    "materia": "rd-1325-2003-proteccion-temporal",
+    "norma": "Real Decreto 1325/2003, por el que se aprueba el Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas",
+    "referencia_boe": "BOE-A-2003-19714",
+    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+  },
+  "ACOG": {
+    "materia": "rd-220-2022-acogida-proteccion-internacional",
+    "norma": "Real Decreto 220/2022, por el que se aprueba el Reglamento por el que se regula el sistema de acogida en materia de protección internacional",
+    "referencia_boe": "BOE-A-2022-4978",
+    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
   }
 }

@@ -4,10 +4,90 @@
 // ejecuta con el conector de Supabase. (Opción A: el agente lo ejecuta; opción B:
 // el job de API lo ejecuta con service-role.)
 
+import { readFileSync, writeFileSync, existsSync } from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 import { verificarMeta, cargarRegistro } from "./verificar-meta.mjs";
 
 function q(s) {
   return "'" + String(s ?? "").replace(/'/g, "''") + "'";
+}
+
+// ---------------------------------------------------------------------------
+// MANIFIESTO DE COBERTURA — que el índice se mantenga solo.
+//
+// `datos/legal-es/boe-600-pn/00-indice.md` lleva una columna Estado por norma
+// (✓ extraída y cargada · ⏳ pendiente · ⚠ revisar). Hasta ahora se editaba a
+// mano y se desfasaba. `marcarCobertura()` localiza la norma por su
+// `referencia_boe`, la pone a ✓ con fecha y su familia, y RECALCULA la línea de
+// resumen contando la propia tabla (antes se arrastraba a mano y estaba
+// desviada en 1).
+//
+// Ojo con el alcance: esto se dispara cuando el lote pasa las tres puertas y se
+// EMITE el SQL, no cuando la base confirma la inserción (el SQL lo ejecuta
+// después el agente o el job). La comprobación dura sigue siendo
+// `asercion-post-carga.sql`. Nunca lanza: un fallo aquí no debe tumbar una
+// carga válida.
+// ---------------------------------------------------------------------------
+
+const INDICE = join(
+  dirname(fileURLToPath(import.meta.url)),
+  "../../../datos/legal-es/boe-600-pn/00-indice.md",
+);
+
+// Cuenta los estados de la tabla. §1 (Introducción) no es una norma: su Estado
+// es «—» y queda fuera del total.
+function contarEstados(lineas) {
+  let normas = 0, extraidas = 0, pendientes = 0;
+  const revisar = [];
+  for (const l of lineas) {
+    if (!/^\|\s*\d+\s*\|/.test(l)) continue;
+    const col = l.split("|").map((s) => s.trim());
+    const num = col[1], estado = col[6] ?? "";
+    if (estado.startsWith("✓")) { normas++; extraidas++; }
+    else if (estado.startsWith("⏳")) { normas++; pendientes++; }
+    else if (estado.startsWith("⚠")) { normas++; revisar.push("§" + num); }
+  }
+  return { normas, extraidas, pendientes, revisar };
+}
+
+export function marcarCobertura(meta, familia, hoy = new Date()) {
+  try {
+    if (!existsSync(INDICE)) return { ok: false, motivo: "no existe 00-indice.md" };
+    const ref = meta?.referencia_boe;
+    if (!ref) return { ok: false, motivo: "meta sin referencia_boe" };
+
+    const fecha = hoy.toISOString().slice(0, 10);
+    const lineas = readFileSync(INDICE, "utf8").split(/\r?\n/);
+    let tocada = null;
+
+    for (let i = 0; i < lineas.length; i++) {
+      const l = lineas[i];
+      if (!/^\|\s*\d+\s*\|/.test(l)) continue;
+      const col = l.split("|");
+      if (col[4]?.trim() !== ref) continue;
+      col[5] = ` ${familia || col[5].trim() || "—"} `;
+      col[6] = ` ✓ ${fecha} `;
+      lineas[i] = col.join("|");
+      tocada = col[1].trim();
+      break;
+    }
+    if (tocada === null) return { ok: false, motivo: `${ref} no está en el índice` };
+
+    // Resumen recalculado desde la tabla, no acumulado a mano.
+    const c = contarEstados(lineas);
+    const revisar = c.revisar.length
+      ? ` · ${c.revisar.length} a revisar (${c.revisar.join(", ")})`
+      : "";
+    const resumen = `Resumen: **${c.extraidas} de ${c.normas} normas extraídas · ${c.pendientes} pendientes${revisar}**.`;
+    const iR = lineas.findIndex((l) => l.startsWith("Resumen:"));
+    if (iR >= 0) lineas[iR] = resumen;
+
+    writeFileSync(INDICE, lineas.join("\n"));
+    return { ok: true, norma: tocada, fecha, resumen };
+  } catch (e) {
+    return { ok: false, motivo: e.message };
+  }
 }
 
 export function loteASql(v, meta, registro) {

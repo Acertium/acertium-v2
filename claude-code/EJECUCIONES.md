@@ -5,6 +5,63 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-03 — PROMPT_001: protección internacional + el motor decidiendo en /practicar
+
+**Encargo.** Primer encargo por el canal `claude-code/` (ver `README.md`):
+`PROMPT_001.md`, agrupado en seis partes. Resultado detallado en
+**`RESULTADO_001.md`**; aquí queda el resumen para la bitácora.
+
+### Qué se hizo
+
+1. **Tres lotes de Tema 12 cargados en producción** (APAT 34, PTEMP 37, ACOG 58
+   = **129 conceptos y 129 preguntas**). Registradas antes las familias PTEMP y
+   ACOG. Las tres puertas en verde, 0 rechazos, sesgo de longitud 21/24/26 %.
+   Aserciones post-carga e integridad: **0 filas** en las cinco.
+2. **14 enlaces cruzados** hacia ASIR con ids reales; ninguno a
+   `remision_pendiente`.
+3. **El profesor enchufado al selector.** `/practicar` deja el `order by
+   random()`: nueva migración con `practicar_estado()` y
+   `actividad_de_concepto()`, y `siguienteActividad()` reescrita para usar
+   `planDia` del planificador y `absorcion` del motor — sin reimplementar el BKT.
+4. **Manifiesto de cobertura autoactualizable**: `marcarCobertura()` en
+   `cargar.mjs`, llamado desde `generar.mjs`. §27/§28/§29 a ✓.
+5. Contratos de generación/calidad commiteados (Capa 2 obligatoria).
+6. **6 temporales borrados** (los 3 del encargo y 3 más del mismo tipo).
+
+### Verificación
+
+- `npm run build` → ✅.
+- **Selector: 12/12** en una simulación con el núcleo real sobre un universo con
+  la forma del real (1255 conceptos, cadena de gating de 109). Lo relevante: los
+  flojos salieron 2395 veces frente a **0** los dominados en 4000 tiradas; un
+  dominado cae de 0,972 a 0,167 de absorción en 120 días y vuelve a `consolidar`;
+  el último eslabón de la cadena de gating acaba saliendo; con todo dominado
+  sigue sirviendo pregunta.
+- Coste: **0,66 ms** la decisión en JS, **11,3 ms** la consulta en base
+  (`explain analyze` sobre producción).
+
+### Ajustes propios
+
+- El contador del índice venía desviado: decía «36 de 53» con 35 ✓ en la tabla, y
+  contaba §1 (Introducción) como norma. Ahora se recalcula de la tabla: **38 de
+  52**.
+- Los prerrequisitos que apuntan fuera del universo practicable se descartan en
+  el selector; si no, bloquearían a su dependiente para siempre.
+
+### Pendientes / notas
+
+- **Los enlaces a ASI «por descripción» no se hicieron: el PROMPT no traía la
+  lista.** ASI sigue sin aristas desde las familias nuevas.
+- El horizonte del planificador es fijo (180 días): `convocatoria` no guarda
+  fecha de examen.
+- El manifiesto se marca al **emitir** el SQL, no cuando la base confirma.
+- Sin verificación visual: no se ha abierto `/practicar` para ver qué sirve.
+- `npm run test:motor` sigue pasando en vacío en Windows.
+- Apareció `PROMPT_002.md` (y lotes de otro agente) durante la ejecución; **no
+  se han tocado**. Queda pendiente de disparar.
+
+---
+
 ## 2026-08-03 — Reporte colaborativo, fase 1: "Mejorar esta pregunta" en todas
 
 **Encargo.** Unificar el reporte de preguntas en un componente compartido y

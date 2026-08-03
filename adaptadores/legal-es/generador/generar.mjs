@@ -15,7 +15,7 @@
 
 import { readFileSync } from "fs";
 import { verificarLote } from "../../../nucleo/verificar-lote.mjs";
-import { loteASql } from "./cargar.mjs";
+import { loteASql, marcarCobertura } from "./cargar.mjs";
 import { verificarMeta, cargarRegistro } from "./verificar-meta.mjs";
 import { verificarCalidad } from "./verificar-calidad.mjs";
 
@@ -53,3 +53,14 @@ if (!vm.ok) {
 console.error(`  ✓ meta coherente (familia ${vm.familia} → ${meta.materia} · ${meta.referencia_boe})`);
 
 process.stdout.write(loteASql(v, meta));
+
+// Manifiesto de cobertura: el índice del corpus se marca solo. Se hace DESPUÉS
+// de emitir el SQL (las tres puertas ya han pasado). Informativo: si falla, no
+// invalida la carga. Ver marcarCobertura() en cargar.mjs.
+const cob = marcarCobertura(meta, vm.familia);
+console.error("== manifiesto de cobertura ==");
+console.error(
+  cob.ok
+    ? `  ✓ 00-indice.md · §${cob.norma} (${meta.referencia_boe}) marcada ✓ ${cob.fecha}\n  ${cob.resumen}`
+    : `  · sin marcar (${cob.motivo})`,
+);

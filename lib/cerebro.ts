@@ -1,7 +1,9 @@
 import "server-only";
 import { createCerebroClient } from "@/lib/supabase/cerebro";
-// Motor agnóstico (núcleo). Import JS: los tipos llegan como any, es aceptable.
+// Motor y planificador agnósticos (núcleo). Import JS: los tipos llegan como
+// any, es aceptable. El BKT NO se reimplementa aquí: se reutiliza tal cual.
 import { crearEstado, actualizar, absorcion } from "@/nucleo/motor-bkt.mjs";
+import { planDia } from "@/nucleo/planificador.mjs";
 
 const DIA_MS = 86400000;
 
@@ -26,20 +28,14 @@ function barajar<T>(arr: T[]): T[] {
   return a;
 }
 
-// Saca una actividad verificada (tipo test) al azar. Formato EXAMEN OFICIAL PN:
-// 3 alternativas. Reducimos las 4 opciones guardadas a la correcta + 2
-// distractores al azar y las barajamos. La respuesta correcta NO se marca ni se
-// envía: la corrección se hace en el servidor por texto (ver responder()).
-export async function siguienteActividad(): Promise<ActividadPublica | null> {
-  const db = createCerebroClient();
-  // Elegimos la pregunta al azar EN LA BASE (order by random() limit 1) y traemos
-  // SOLO esa fila, en vez de descargar todo el banco y elegir en memoria.
-  // Ver función acertium_v2.siguiente_actividad_test().
-  const { data, error } = await db.rpc("siguiente_actividad_test");
-  if (error || !data || data.length === 0) return null;
-  const a = data[0] as ActividadPublica & {
-    respuesta?: { correcta?: string } | null;
-  };
+// Formato EXAMEN OFICIAL PN: 3 alternativas. Reduce las 4 opciones guardadas a
+// la correcta + 2 distractores al azar y las baraja. La respuesta correcta NO se
+// marca ni se envía: la corrección se hace en el servidor por texto (responder()).
+type FilaActividad = ActividadPublica & {
+  respuesta?: { correcta?: string } | null;
+};
+
+function aPublica(a: FilaActividad): ActividadPublica {
   const correcta = a.respuesta?.correcta ?? null;
   let opciones = Array.isArray(a.opciones) ? a.opciones : [];
   if (correcta && opciones.length > 3) {
@@ -53,6 +49,155 @@ export async function siguienteActividad(): Promise<ActividadPublica | null> {
     enunciado: a.enunciado,
     opciones,
   };
+}
+
+// ---------------------------------------------------------------------------
+// EL PROFESOR: selector de la siguiente pregunta.
+//
+// Antes se servía al azar (`siguiente_actividad_test()`), con el motor BKT y el
+// planificador escritos pero sin decidir nada. Ahora deciden ellos:
+//
+//   1) `practicar_estado(conv, usuario)` trae, en UNA consulta, todos los
+//      conceptos de la convocatoria que tienen pregunta verificada, con su peso,
+//      su estado BKT cacheado (`estado_dominio`) y sus prerrequisitos.
+//   2) `planDia()` (núcleo) reparte entre CONSOLIDAR (vencidos: absorción por
+//      debajo del objetivo, ordenados por peso × cuánto han decaído) y AMPLIAR
+//      (nuevos con los prerrequisitos ya dominados), con la reserva
+//      anti-inanición del planificador.
+//   3) Se elige un concepto respetando esa proporción y se sirve una de sus
+//      preguntas al azar.
+//
+// Propiedades que esto garantiza:
+//   · Los flojos y los vencidos salen antes que los dominados.
+//   · Un dominado NO desaparece: su retención decae (r = L·0,9^(Δt/τ)) y vuelve
+//     a entrar en «vencidos». Como τ crece con cada acierto, reaparece a
+//     intervalos cada vez más largos (repaso espaciado).
+//   · Ningún concepto se cae del sistema: si el gating por prerrequisitos
+//     bloquea a TODOS los nuevos, se abre la puerta igualmente (ver `sinGating`).
+//   · Arranque en frío (sin historial): no hay vencidos, así que todo el
+//     presupuesto va a nuevos y funciona desde la primera pregunta.
+//   · Si algo falla, se cae al azar puro. Nunca se queda sin pregunta.
+// ---------------------------------------------------------------------------
+
+// El planificador razona con un horizonte hasta el examen. La convocatoria aún
+// no guarda fecha de examen en la base, así que usamos un horizonte fijo. En
+// cuanto `convocatoria` tenga fecha, este valor sale de ahí.
+const HORIZONTE_DIAS = 180;
+// Presupuesto de ítems/día con el que se reparte consolidar vs ampliar. No
+// limita cuánto practica el usuario: solo fija la PROPORCIÓN de cada tipo.
+const PRESUPUESTO_DIARIO = 40;
+
+type FilaEstado = {
+  concepto_id: string;
+  peso: number | null;
+  l: number | null;
+  tau: number | null;
+  last_seen: string | null;
+  prereqs: string[] | null;
+};
+
+// Elige al azar entre los `n` primeros de una lista ya ordenada por prioridad.
+// Mantiene la prioridad (siempre sale de la cabeza) sin ser determinista, para
+// que un fallo no devuelva la misma pregunta una y otra vez.
+function deLaCabeza(ids: string[], n = 5): string | null {
+  if (ids.length === 0) return null;
+  const k = Math.min(n, ids.length);
+  return ids[Math.floor(Math.random() * k)];
+}
+
+async function elegirConcepto(
+  db: ReturnType<typeof createCerebroClient>,
+): Promise<string | null> {
+  const { data, error } = await db.rpc("practicar_estado", {
+    conv: CONVOCATORIA_PN,
+    usuario: DEMO_USUARIO_ID,
+  });
+  const filas = (data ?? []) as FilaEstado[];
+  if (error || filas.length === 0) return null;
+
+  const hoy = Date.now() / DIA_MS;
+  const conceptos: { id: string; peso: number }[] = [];
+  const estados: Record<string, { e: unknown; seen: boolean }> = {};
+  const prereqCrudo: Record<string, string[]> = {};
+
+  for (const f of filas) {
+    conceptos.push({ id: f.concepto_id, peso: f.peso ?? 1 });
+    prereqCrudo[f.concepto_id] = f.prereqs ?? [];
+    // Visto = tiene fila en la caché `estado_dominio`.
+    const visto = f.l !== null && f.last_seen !== null;
+    estados[f.concepto_id] = {
+      e: visto
+        ? {
+            L: f.l as number,
+            tau: f.tau as number,
+            lastSeen: new Date(f.last_seen as string).getTime() / DIA_MS,
+          }
+        : crearEstado(),
+      seen: visto,
+    };
+  }
+
+  // Los prerrequisitos que apuntan FUERA del universo practicable (conceptos sin
+  // pregunta verificada todavía) se descartan: si no, bloquearían para siempre a
+  // su dependiente y ese concepto no saldría jamás.
+  const prereq: Record<string, string[]> = {};
+  for (const [id, ps] of Object.entries(prereqCrudo)) {
+    prereq[id] = ps.filter((p) => estados[p] !== undefined);
+  }
+
+  const plan = planDia({
+    conceptos,
+    estados,
+    prereq,
+    examDay: hoy + HORIZONTE_DIAS,
+    hoy,
+    inicio: hoy,
+    B: PRESUPUESTO_DIARIO,
+  }) as { consolidar: string[]; ampliar: string[] };
+
+  const consolidar = plan.consolidar ?? [];
+  const ampliar = plan.ampliar ?? [];
+
+  // Reparto proporcional al plan: así se respeta la reserva anti-inanición que
+  // el planificador ya ha calculado, sin volver a decidirla aquí.
+  const total = consolidar.length + ampliar.length;
+  if (total > 0) {
+    const tocaNuevo = Math.random() * total < ampliar.length;
+    const elegido = tocaNuevo
+      ? (deLaCabeza(ampliar) ?? deLaCabeza(consolidar))
+      : (deLaCabeza(consolidar) ?? deLaCabeza(ampliar));
+    if (elegido) return elegido;
+  }
+
+  // Red de seguridad: el plan puede quedarse vacío si TODOS los nuevos están
+  // bloqueados por gating y no hay ningún vencido. Ningún concepto debe quedar
+  // excluido para siempre, así que abrimos la puerta ignorando el gating.
+  const sinGating = conceptos.filter((c) => !estados[c.id].seen);
+  const pool = sinGating.length > 0 ? sinGating : conceptos;
+  return pool[Math.floor(Math.random() * pool.length)]?.id ?? null;
+}
+
+export async function siguienteActividad(): Promise<ActividadPublica | null> {
+  const db = createCerebroClient();
+
+  try {
+    const conceptoId = await elegirConcepto(db);
+    if (conceptoId) {
+      const { data } = await db.rpc("actividad_de_concepto", {
+        cid: conceptoId,
+      });
+      const fila = ((data ?? []) as FilaActividad[])[0];
+      if (fila) return aPublica(fila);
+    }
+  } catch {
+    // Cualquier fallo del selector NO deja al usuario sin pregunta: se cae al
+    // azar de abajo. El motor es una mejora, no un punto único de fallo.
+  }
+
+  // Fallback: una verificada al azar en la base (order by random() limit 1).
+  const { data, error } = await db.rpc("siguiente_actividad_test");
+  if (error || !data || data.length === 0) return null;
+  return aPublica((data as FilaActividad[])[0]);
 }
 
 export type Resultado = {

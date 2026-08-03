@@ -51,6 +51,8 @@ El texto **literal** de uno o varios artículos + sus metadatos (norma, referenc
 - El **enunciado** es una pregunta clara y no trivial (mínimo 10 caracteres).
 - La **posición** de la correcta NO la fija el generador: `cargar.mjs` baraja las opciones al cargar, así que la correcta queda repartida de forma uniforme entre A/B/C/D. No te preocupes por dónde poner la correcta; escribe siempre con `indice_correcto` y el sistema la recoloca.
 
+- **Afinado de distractores (Capa 2 — obligatorio en CADA lote, no solo en los flojos).** Tras generar, el motor pasa SIEMPRE una revisión semántica que reescribe los distractores como *near-miss* plausibles siguiendo la rúbrica de `contrato-calidad-preguntas.md`, hasta que la correcta sea la más larga en **≤ 35 %** de las preguntas del lote (objetivo ~25 %, paridad con el banco), no solo por debajo del 55 % que exige la puerta. La puerta (`verificar-calidad`) es la red de seguridad; el afinado es el estándar. **Nunca se toca la opción correcta** (cita literal del BOE); solo se reescriben los 3 distractores. Origen: Jonathan (03/08/2026), "dale una pasada de distractores y pon ese módulo en el flujo para estandarizar".
+
 Auditoría permanente del banco: `auditoria-calidad.sql` mide estos sesgos (posición, longitud, duplicados) en cualquier momento.
 
 ## Reglas de grounding (innegociables)
@@ -65,5 +67,5 @@ Auditoría permanente del banco: `auditoria-calidad.sql` mide estos sesgos (posi
 No decide si algo es correcto: eso lo hace la **puerta determinista** (`verificar-lote`). El motor propone; la puerta dispone. Lo que no pasa se rechaza y se regenera.
 
 ## Flujo
-`artículo → (motor genera JSON) → verificar-lote → cargar (SQL) → acertium_v2`
-Ver `generar.mjs`. La opción B (API) sustituye solo el paso "motor genera JSON"; el resto es idéntico.
+`artículo → (motor genera JSON) → afinado de distractores (Capa 2, obligatorio) → verificar-lote + verificar-meta + verificar-calidad → cargar (SQL) → acertium_v2 → asercion-post-carga.sql (0 filas)`
+El afinado de distractores (Capa 2) es un paso FIJO del flujo, no opcional: todo lote nuevo pasa por él antes de las puertas. Ver `generar.mjs`. La opción B (API) sustituye solo el paso "motor genera JSON"; el resto es idéntico.
