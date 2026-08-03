@@ -20,11 +20,12 @@ export const PARAMS = {
   gcap: 4.0      // tope al crecimiento de estabilidad (evita saltos por repaso muy tardío)
 };
 
-// Adivinar (guess) según el formato de la actividad. Un test de 4 opciones se puede
-// acertar por azar 1/4; una V/F, 1/2 (evidencia débil); huecos/corta, casi nada.
+// Adivinar (guess) según el formato de la actividad. Un test se SIRVE con 3
+// alternativas (formato oficial PN, tanto en practicar como en simulacro), así que
+// acertar al azar es 1/3; una V/F, 1/2 (evidencia débil); huecos/corta, casi nada.
 export function pGporFormato(tipo) {
   switch (tipo) {
-    case 'test':   return 0.25;
+    case 'test':   return 1 / 3;
     case 'vf':     return 0.50;
     case 'huecos': return 0.05;
     case 'corta':  return 0.05;

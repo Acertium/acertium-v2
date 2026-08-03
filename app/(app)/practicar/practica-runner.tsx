@@ -138,9 +138,7 @@ export default function PracticaRunner({
                 : "var(--color-danger)",
             }}
           >
-            {resultado.acierto
-              ? "Correcto."
-              : `Era: ${resultado.correcta ?? "—"}.`}
+            {resultado.acierto ? "Correcto." : "Incorrecto."}
           </p>
 
           {resultado.explicacion && (

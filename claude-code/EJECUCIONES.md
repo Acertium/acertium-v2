@@ -5,6 +5,69 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-03 — Corrección más limpia, guess a 1/3 y `responder()` autocorrectivo
+
+**Encargo.** Tres ajustes sueltos: quitar el "Era: …" del panel de corrección,
+ajustar el guess del BKT al formato de 3 alternativas y recuperar el
+comportamiento autocorrectivo cuando no hay caché de estado.
+
+### Qué cambia
+
+1. **`app/(app)/practicar/practica-runner.tsx`** — el panel muestra solo
+   "Correcto." / "Incorrecto."; se deja de pintar `Era: {correcta}`, porque la
+   opción correcta ya se resalta en la lista. `resultado.correcta` sigue en los
+   datos y se sigue usando para ese resaltado, así que no queda huérfano.
+2. **`nucleo/motor-bkt.mjs`** — `pGporFormato('test')` pasa de `0.25` a `1/3`.
+   Desde el cambio al formato oficial se sirven 3 alternativas, así que acertar
+   por azar es 1/3 y el motor ya no sobreinterpreta los aciertos. (Era el
+   pendiente anotado en la entrada anterior.)
+3. **`lib/cerebro.ts`** — `responder()` vuelve a ser autocorrectivo, pero solo en
+   el camino frío: **con** caché sigue incremental (rápido, el caso común);
+   **sin** caché reconstruye el estado desde el log del concepto, de modo que si
+   la fila de `estado_dominio` falta o se borra ya no se pierde el progreso.
+   Barato, porque sin caché el historial suele ser mínimo. (También era pendiente
+   de la entrada anterior.)
+
+### Ajuste propio
+
+El comentario de `lib/cerebro.ts` que enumera los guess decía "test 0.25";
+actualizado a "test 1/3" para que no contradiga al motor.
+
+### Verificación
+
+- `npm run build` → ✅ (Next 16.2.6, TypeScript OK).
+- **`npm run test:motor` no ejecuta nada en Windows.** Los self-tests del núcleo
+  están dentro de un guard ``import.meta.url === `file://${process.argv[1]}` ``
+  que nunca se cumple en Windows (`import.meta.url` es
+  `file:///C:/...` con la ruta escapada; `process.argv[1]` es una ruta con `\`).
+  El comando sale con código 0 **sin correr una sola aserción**: pasa en vacío,
+  no pasa de verdad.
+- Como el cambio 2 toca un parámetro del motor, hice una comprobación aparte (en
+  scratchpad, no versionada): `pGporFormato` devuelve 1/3 · 0.50 · 0.05 · 0.20;
+  un acierto sube `L` y un fallo la baja; y el mismo acierto con guess 1/3 deja
+  `L = 0.4925` frente a `0.5526` con 0.25 — es decir, informa menos, que es
+  justo el efecto buscado. 8/8.
+
+### Pendientes / notas
+
+- **Arreglar el guard de los self-tests del núcleo** para que `test:motor` sirva
+  en Windows (`pathToFileURL(process.argv[1]).href`). Hoy da una falsa sensación
+  de verde.
+- `nucleo/planificador.mjs:90` fija `pG = 0.25` — pero está **dentro del
+  self-test**, es el simulador sintético, no lógica de producción. No lo he
+  tocado; si se quiere que la simulación refleje el formato real, ahí habría que
+  poner 1/3 también.
+- `docs/004-estructura-de-datos.md:145` sigue documentando `p_G=0.25` como
+  parámetro global del MVP. No lo he tocado: es un documento de diseño y el
+  cambio es por formato de actividad, no del parámetro global.
+- La reconstrucción sin caché replica los eventos históricos con `tipo: "test"`
+  fijo (no consulta el tipo real de cada actividad, que costaría otro viaje).
+  Hoy es exacto porque el banco solo sirve tipo test.
+- Sin verificación visual: build, tipos y la comprobación del motor. La pantalla
+  no se ha visto en ejecución.
+
+---
+
 ## 2026-08-03 — BKT incremental: `responder()` de ~7 viajes a la base a 3
 
 **Encargo.** Optimizar la latencia de la verificación en `/practicar`.

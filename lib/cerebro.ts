@@ -118,20 +118,38 @@ export async function responder(
       .maybeSingle(),
   ]);
 
-  // BKT INCREMENTAL: partimos del estado cacheado (o inicial) y aplicamos SOLO esta
-  // respuesta, en vez de recorrer TODO el log del concepto (eso era lo que hacía
-  // lenta la verificación). El log de `evento` sigue siendo la fuente de verdad y
-  // permite un recálculo completo si algún día hiciera falta reconciliar.
-  const estado = (
-    est
-      ? {
-          L: est.l as number,
-          tau: est.tau as number,
-          lastSeen: new Date(est.last_seen as string).getTime() / DIA_MS,
-        }
-      : crearEstado()
-  ) as unknown as { L: number; tau: number; lastSeen: number };
-  // El tipo determina el `guess` del motor (test 0.25, vf 0.50, huecos 0.05), así
+  // Estado BKT del concepto:
+  //  · CON caché → incremental (rápido): partimos del estado guardado y solo
+  //    aplicamos esta respuesta, sin recorrer el log. Es el camino común.
+  //  · SIN caché → reconstrucción desde el log del concepto (AUTOCORRECTIVO): si
+  //    la fila de caché falta o se ha borrado, no se pierde el progreso. Es barato
+  //    porque, sin caché, el historial suele ser mínimo o nulo.
+  // El log de `evento` es la fuente de verdad en ambos casos.
+  const estado = crearEstado() as unknown as {
+    L: number;
+    tau: number;
+    lastSeen: number;
+  };
+  if (est) {
+    estado.L = est.l as number;
+    estado.tau = est.tau as number;
+    estado.lastSeen = new Date(est.last_seen as string).getTime() / DIA_MS;
+  } else {
+    const { data: previos } = await db
+      .from("evento")
+      .select("acierto, fecha")
+      .eq("usuario_id", DEMO_USUARIO_ID)
+      .eq("concepto_id", act.concepto_id)
+      .order("fecha", { ascending: true });
+    for (const e of previos ?? []) {
+      actualizar(estado, {
+        correcto: e.acierto,
+        tipo: "test",
+        t: new Date(e.fecha).getTime() / DIA_MS,
+      });
+    }
+  }
+  // El tipo determina el `guess` del motor (test 1/3, vf 0.50, huecos 0.05), así
   // que viene de la propia actividad —no fijado a "test"—, aprovechando el select
   // de arriba: no cuesta ningún viaje extra.
   actualizar(estado, {
