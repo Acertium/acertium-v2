@@ -5,6 +5,56 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-03 — BKT incremental: `responder()` de ~7 viajes a la base a 3
+
+**Encargo.** Optimizar la latencia de la verificación en `/practicar`.
+
+### Qué cambia
+
+- **`lib/cerebro.ts`** — `responder()` ya no recomputa el BKT recorriendo TODO el
+  log del concepto (leía `evento` completo + los tipos de todas las actividades
+  implicadas, y reproducía la secuencia entera). Ahora es **incremental**: lee el
+  `estado_dominio` cacheado —o el estado inicial si no hay— y aplica solo la
+  respuesta actual. Además agrupa las lecturas (concepto + fuente + estado) en un
+  `Promise.all` y las escrituras (evento + estado) en otro. Quedan 3 pasos
+  secuenciales: actividad → 3 lecturas en paralelo → 2 escrituras en paralelo.
+- **`app/(app)/practicar/practica-runner.tsx`** — indicador "Comprobando…" con
+  `SpinnerOrbita` bajo las opciones, reutilizando el `mostrarSpinner` que ya
+  deriva de `useRetardoCarga`: solo aparece si la verificación supera 300 ms.
+
+### Ajuste propio
+
+El diff fijaba `tipo: "test"` a mano en la llamada al motor. Ese valor determina
+el `guess` del BKT (`pGporFormato`: test 0.25, vf 0.50, huecos/corta 0.05), y
+antes se leía de la actividad de cada evento. Ahora se pide `tipo` en el `select`
+de `actividad` que ya se hacía —cero viajes extra— y se usa `act.tipo ?? "test"`.
+Hoy es siempre `test` (el banco solo sirve tipo test), pero así no se rompe en
+silencio si algún día entra otro formato.
+
+### Verificación
+
+`npm run build` → ✅ (Next 16.2.6, TypeScript OK).
+
+### Pendientes / notas — leer antes de dar por buena la nota
+
+- **El cambio no es equivalente al anterior, es una aproximación.** El recálculo
+  completo era autocorrectivo: si `estado_dominio` estaba desfasado o la fila no
+  existía, se regeneraba desde el log. El incremental **arrastra el error**: si
+  falta la fila (cache borrada, concepto con historial anterior a la caché), se
+  parte del estado inicial y se pierde todo el historial de ese concepto en la
+  absorción mostrada. El log de `evento` sigue siendo la fuente de verdad, así
+  que un recálculo de reconciliación es posible — **pero no existe todavía**.
+  Convendría un job o un `recomputarConcepto()` para eso.
+- **`guess` de 0.25 con 3 alternativas.** `pGporFormato('test')` devuelve 0.25,
+  que corresponde a 4 opciones. Desde el cambio al formato oficial se sirven 3,
+  así que el acierto por azar es 1/3, no 1/4. El motor está siendo algo optimista
+  al interpretar los aciertos. Es anterior a este cambio y no lo he tocado: es
+  una decisión de modelado.
+- Sin verificación visual ni medición real de la mejora: solo build y tipos. No
+  he cronometrado `responder()` antes y después.
+
+---
+
 ## 2026-08-03 — Anti-parpadeo del spinner de "Siguiente"
 
 **Encargo.** Conectar `useRetardoCarga` al botón "Siguiente" de `/practicar`.

@@ -115,6 +115,15 @@ export default function PracticaRunner({
         })}
       </div>
 
+      {/* Indicador de "comprobando" solo si la verificación tarda >300ms; en las
+          respuestas rápidas no llega a verse (no parpadea). */}
+      {!resultado && mostrarSpinner && (
+        <div className="mt-4 flex items-center gap-2 text-sm text-muted">
+          <SpinnerOrbita size={16} />
+          Comprobando…
+        </div>
+      )}
+
       {/* Corrección + explicación + fuente */}
       {resultado && (
         <div

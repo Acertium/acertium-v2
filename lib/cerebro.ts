@@ -89,7 +89,7 @@ export async function responder(
 
   const { data: act, error } = await db
     .from("actividad")
-    .select("id, concepto_id, respuesta, cotejo_fuente, justificacion")
+    .select("id, concepto_id, tipo, respuesta, cotejo_fuente, justificacion")
     .eq("id", actividadId)
     .single();
   if (error || !act) throw new Error("actividad no encontrada");
@@ -100,9 +100,9 @@ export async function responder(
   const acierto = correcta !== null && textoElegido === correcta;
   const ahora = new Date();
 
-  // Lecturas del panel (concepto + fuente) EN PARALELO con el registro del evento
-  // y el recálculo BKT: no dependen de ellos, así se acorta el camino crítico.
-  const lecturas = Promise.all([
+  // Panel (concepto + fuente) y estado BKT ACTUAL del concepto, todo en PARALELO
+  // (una sola ida y vuelta en vez de varias en cadena).
+  const [{ data: c }, { data: f }, { data: est }] = await Promise.all([
     db.from("concepto").select("titulo, explicacion").eq("id", act.concepto_id).single(),
     db
       .from("concepto_fuente")
@@ -110,61 +110,56 @@ export async function responder(
       .eq("concepto_id", act.concepto_id)
       .limit(1)
       .maybeSingle(),
+    db
+      .from("estado_dominio")
+      .select("l, tau, last_seen")
+      .eq("usuario_id", DEMO_USUARIO_ID)
+      .eq("concepto_id", act.concepto_id)
+      .maybeSingle(),
   ]);
 
-  // 1) evento append-only (con tiempo de respuesta, señal futura)
-  await db.from("evento").insert({
-    usuario_id: DEMO_USUARIO_ID,
-    concepto_id: act.concepto_id,
-    actividad_id: act.id,
-    fecha: ahora.toISOString(),
-    acierto,
-    tiempo_respuesta_ms: tiempoMs ?? null,
+  // BKT INCREMENTAL: partimos del estado cacheado (o inicial) y aplicamos SOLO esta
+  // respuesta, en vez de recorrer TODO el log del concepto (eso era lo que hacía
+  // lenta la verificación). El log de `evento` sigue siendo la fuente de verdad y
+  // permite un recálculo completo si algún día hiciera falta reconciliar.
+  const estado = (
+    est
+      ? {
+          L: est.l as number,
+          tau: est.tau as number,
+          lastSeen: new Date(est.last_seen as string).getTime() / DIA_MS,
+        }
+      : crearEstado()
+  ) as unknown as { L: number; tau: number; lastSeen: number };
+  // El tipo determina el `guess` del motor (test 0.25, vf 0.50, huecos 0.05), así
+  // que viene de la propia actividad —no fijado a "test"—, aprovechando el select
+  // de arriba: no cuesta ningún viaje extra.
+  actualizar(estado, {
+    correcto: acierto,
+    tipo: act.tipo ?? "test",
+    t: ahora.getTime() / DIA_MS,
   });
-
-  // 2) recomputar el estado del concepto desde TODO su log
-  const { data: evs } = await db
-    .from("evento")
-    .select("acierto, fecha, actividad_id")
-    .eq("usuario_id", DEMO_USUARIO_ID)
-    .eq("concepto_id", act.concepto_id)
-    .order("fecha", { ascending: true });
-
-  // tipo por actividad (para el guess del motor)
-  const ids = [...new Set((evs ?? []).map((e) => e.actividad_id))];
-  const { data: acts } = await db
-    .from("actividad")
-    .select("id, tipo")
-    .in("id", ids);
-  const tipoDe = new Map((acts ?? []).map((a) => [a.id, a.tipo]));
-
-  const estado = crearEstado() as unknown as {
-    L: number;
-    tau: number;
-    lastSeen: number;
-  };
-  for (const e of evs ?? []) {
-    actualizar(estado, {
-      correcto: e.acierto,
-      tipo: tipoDe.get(e.actividad_id) ?? "test",
-      t: new Date(e.fecha).getTime() / DIA_MS,
-    });
-  }
-
-  // 3) persistir el estado (caché recomputable)
-  await db.from("estado_dominio").upsert({
-    usuario_id: DEMO_USUARIO_ID,
-    concepto_id: act.concepto_id,
-    l: estado.L,
-    tau: estado.tau,
-    last_seen: new Date(estado.lastSeen * DIA_MS).toISOString(),
-    updated_at: ahora.toISOString(),
-  });
-
   const abs = absorcion(estado, ahora.getTime() / DIA_MS);
 
-  // concepto (título + explicación) y fuente principal: ya lanzadas en paralelo arriba.
-  const [{ data: c }, { data: f }] = await lecturas;
+  // Escrituras en PARALELO: log del evento + caché del estado (independientes).
+  await Promise.all([
+    db.from("evento").insert({
+      usuario_id: DEMO_USUARIO_ID,
+      concepto_id: act.concepto_id,
+      actividad_id: act.id,
+      fecha: ahora.toISOString(),
+      acierto,
+      tiempo_respuesta_ms: tiempoMs ?? null,
+    }),
+    db.from("estado_dominio").upsert({
+      usuario_id: DEMO_USUARIO_ID,
+      concepto_id: act.concepto_id,
+      l: estado.L,
+      tau: estado.tau,
+      last_seen: new Date(estado.lastSeen * DIA_MS).toISOString(),
+      updated_at: ahora.toISOString(),
+    }),
+  ]);
 
   return {
     acierto,
