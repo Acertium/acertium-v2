@@ -5,6 +5,60 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-03 — Pantalla de carga V1→V2 y latencia percibida en practicar
+
+**Encargo.** Commitear y desplegar los indicadores de carga de marca portados de
+V1 y la mejora de latencia de `/practicar`.
+
+### Qué entra
+
+- **`components/spinners.tsx`** (nuevo) — fuente única del SVG de los dos
+  indicadores, ambos con la diana concéntrica de la marca y el verde vía
+  `var(--color-primary)` (se adapta a claro/oscuro sin JS):
+  `SpinnerTrazo` (el check se dibuja en bucle, para pantalla completa) y
+  `SpinnerOrbita` (un aro gira alrededor de la diana quieta, para inline).
+- **`components/pantalla-carga.tsx`** (nuevo) — wrapper centrado; con
+  `antiParpadeo` retrasa la aparición 300 ms.
+- **`hooks/useRetardoCarga.ts`** (nuevo) — misma regla de 300 ms para estados de
+  carga en JS.
+- **`app/(app)/loading.tsx`** y **`app/(app)/practicar/loading.tsx`** (nuevos) —
+  fallback de navegación de Next con `antiParpadeo`.
+- **`app/globals.css`** — animaciones `.trazo-check`, `.carga-pantalla` y
+  `.orbita-arco`, más un bloque `prefers-reduced-motion` que las ralentiza en
+  vez de detenerlas (siguen comunicando espera, sin parpadeo brusco).
+- **`app/(app)/practicar/practica-runner.tsx`** — la opción tocada se resalta al
+  instante mientras el servidor corrige (quita la sensación de "tarda en
+  marcar"), y el botón "Siguiente" muestra `SpinnerOrbita` en vez de "…".
+- **`lib/cerebro.ts`** — `responder()` lanza las lecturas del panel (concepto +
+  fuente) en paralelo con el registro del evento y el recálculo BKT; no dependen
+  de ellos, así que salen del camino crítico.
+
+### Ajuste propio
+
+`tsconfig.json`: `hooks/**` no estaba en `include`, así que
+`useRetardoCarga.ts` no lo revisaba el type-check. Añadidos `hooks/**` y
+`components/**/*.ts`.
+
+### Verificación
+
+`npm run build` → ✅ a la primera (Next 16.2.6, TypeScript OK) y de nuevo tras
+tocar el tsconfig. Comprobado que `--color-primary-soft` y `--color-primary-dark`
+(usadas en la marca instantánea) existen en `globals.css` en claro y oscuro.
+
+### Pendientes / notas
+
+- **`hooks/useRetardoCarga.ts` no lo usa nadie todavía.** Compila y está
+  versionado, pero de momento es código muerto: los `loading.tsx` resuelven el
+  anti-parpadeo por CSS (`.carga-pantalla`). Queda ahí para los estados de carga
+  en JS que aún no lo aplican (p. ej. el botón "Siguiente", que hoy muestra el
+  spinner desde el primer milisegundo).
+- No lleva `"use client"`: correcto mientras solo lo importen componentes
+  cliente; si algún día lo importa un componente servidor, fallará el build.
+- Sin verificación visual: solo build y tipos. Las animaciones no se han visto
+  en ejecución.
+
+---
+
 ## 2026-08-03 — Cierre de pendientes: examen a 3 alternativas + limpieza del generador
 
 **Encargo.** Revisar el árbol de trabajo, separar los cambios legítimos de los

@@ -2,6 +2,7 @@
 
 import { useState, useTransition, useRef, type CSSProperties } from "react";
 import { accionResponder, accionSiguiente, accionReportar } from "./actions";
+import { SpinnerOrbita } from "@/components/spinners";
 import type { ActividadPublica, Resultado, MotivoReporte } from "@/lib/cerebro";
 
 const borde = "color-mix(in srgb, var(--color-fg) 15%, transparent)";
@@ -70,10 +71,20 @@ export default function PracticaRunner({
           const esElegido = elegido === i;
           const esCorrecta = resultado && op === resultado.correcta;
           const esFallo = resultado && esElegido && !resultado.acierto;
+          // Marca INSTANTÁNEA al tocar: mientras el servidor corrige, la opción
+          // elegida se resalta ya (sin esperar a la respuesta). Evita la sensación
+          // de que "tarda en marcar".
+          const esPendiente = esElegido && !resultado;
           let estilo: CSSProperties = {
             background: "var(--color-surface)",
             borderColor: borde,
           };
+          if (esPendiente)
+            estilo = {
+              background: "var(--color-primary-soft)",
+              borderColor: "var(--color-primary)",
+              color: "var(--color-primary-dark)",
+            };
           if (esCorrecta)
             estilo = {
               background: "var(--color-success-bg)",
@@ -178,7 +189,7 @@ export default function PracticaRunner({
             className="flex min-h-14 w-full items-center justify-center rounded-2xl text-base font-medium disabled:opacity-60"
             style={{ background: "var(--color-primary)", color: "#fff" }}
           >
-            {pending ? "…" : "Siguiente"}
+            {pending ? <SpinnerOrbita size={20} /> : "Siguiente"}
           </button>
         </div>
       )}

@@ -68,3 +68,69 @@ body {
   color: var(--color-fg);
   font-family: var(--font-sans);
 }
+
+/* ---------------------------------------------------------------------
+ * Indicadores de carga unificados (portados de V1; ver components/spinners.tsx)
+ * --------------------------------------------------------------------- */
+
+/* SpinnerTrazo: el check se traza en bucle y se desvanece (pathLength=1 → dash
+ * normalizado a 1). */
+.trazo-check {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: trazo-dibujar 1.6s ease-in-out infinite;
+}
+@keyframes trazo-dibujar {
+  0% {
+    stroke-dashoffset: 1;
+  }
+  45% {
+    stroke-dashoffset: 0;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  85%,
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+}
+
+/* Anti-parpadeo: el contenedor no aparece hasta pasados 300 ms. Si la navegación
+ * termina antes, el spinner nunca llega a verse (evita el flash en pantallas
+ * rápidas ~150-450 ms). */
+.carga-pantalla {
+  opacity: 0;
+  animation: carga-aparecer 0.2s ease-out 0.3s forwards;
+}
+@keyframes carga-aparecer {
+  to {
+    opacity: 1;
+  }
+}
+
+/* SpinnerOrbita: gira SOLO el arco interno (.orbita-arco), no el SVG entero, para
+ * que la diana y el check del centro queden quietos. transform-origin: center es
+ * imprescindible con viewBox 0 0 40 40. */
+.orbita-arco {
+  transform-origin: center;
+  animation: orbita-girar 0.85s linear infinite;
+}
+@keyframes orbita-girar {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Accesibilidad: para quien pide menos movimiento, las animaciones se ralentizan
+ * (no se detienen → siguen comunicando espera, sin parpadeo brusco). */
+@media (prefers-reduced-motion: reduce) {
+  .trazo-check {
+    animation-duration: 2.6s;
+  }
+  .orbita-arco {
+    animation-duration: 2.4s;
+  }
+}

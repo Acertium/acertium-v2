@@ -100,6 +100,18 @@ export async function responder(
   const acierto = correcta !== null && textoElegido === correcta;
   const ahora = new Date();
 
+  // Lecturas del panel (concepto + fuente) EN PARALELO con el registro del evento
+  // y el recálculo BKT: no dependen de ellos, así se acorta el camino crítico.
+  const lecturas = Promise.all([
+    db.from("concepto").select("titulo, explicacion").eq("id", act.concepto_id).single(),
+    db
+      .from("concepto_fuente")
+      .select("articulo, referencia_boe")
+      .eq("concepto_id", act.concepto_id)
+      .limit(1)
+      .maybeSingle(),
+  ]);
+
   // 1) evento append-only (con tiempo de respuesta, señal futura)
   await db.from("evento").insert({
     usuario_id: DEMO_USUARIO_ID,
@@ -151,18 +163,8 @@ export async function responder(
 
   const abs = absorcion(estado, ahora.getTime() / DIA_MS);
 
-  // concepto (título + explicación pedagógica) y su fuente principal (para el enlace)
-  const { data: c } = await db
-    .from("concepto")
-    .select("titulo, explicacion")
-    .eq("id", act.concepto_id)
-    .single();
-  const { data: f } = await db
-    .from("concepto_fuente")
-    .select("articulo, referencia_boe")
-    .eq("concepto_id", act.concepto_id)
-    .limit(1)
-    .maybeSingle();
+  // concepto (título + explicación) y fuente principal: ya lanzadas en paralelo arriba.
+  const [{ data: c }, { data: f }] = await lecturas;
 
   return {
     acierto,
