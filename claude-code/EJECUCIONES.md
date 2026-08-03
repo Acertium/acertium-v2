@@ -5,6 +5,53 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-03 — Mapa de preguntas con el isotipo, tercer modo de simulacro y copy
+
+**Encargo.** Tres ajustes del simulacro. También se pidió arrastrar los cambios
+previos de `motor-bkt.mjs`, `lib/cerebro.ts` y `practica-runner.tsx` si seguían
+sin commitear: **ya estaban en `26e5ccd`**, el árbol solo tenía lo nuevo.
+
+### Qué cambia
+
+1. **`lib/simulacro-formato.ts`** — `PREGUNTAS_MEDIO = 50` y
+   `SEGUNDOS_MEDIO = 25 * 60` (25:00). Mantiene la cadencia de 30 s/pregunta de
+   los otros modos.
+2. **`app/(app)/simulacro/simulacro-runner.tsx`**
+   - `IsotipoAcertium`: port fiel de `marca/assets/acertium-symbol.svg` (mismo
+     viewBox 0 0 64 64, mismos círculos, mismo path y grosores); lo único que
+     cambia es el `stroke`, que pasa a `currentColor` para heredar el color del
+     botón.
+   - Botón central con ese isotipo entre "Atrás" y "Siguiente" que abre el mapa
+     de preguntas (`setMostrarNav(true)`).
+   - Eliminado el botón "Preguntas · X/N" de la barra superior, que ahora solo
+     lleva "Abandonar".
+   - Tercer modo `"medio"`: tipo `Modo`, ramas en `empezar()` (slice a 50 y
+     `SEGUNDOS_MEDIO`) e Intro reordenada Rápido·25 / Medio·50 / Completo·100,
+     con "Medio" deshabilitado si el banco no llega a 50.
+3. **`app/(app)/hoy/page.tsx`** — subtítulo de la tarjeta de simulacro:
+   "Elige 25, 50 o 100 preguntas, cronometrado como el examen real."
+
+### Verificación
+
+- `npm run build` → ✅ (Next 16.2.6, TypeScript OK).
+- Comprobado que el isotipo del componente coincide de verdad con el SVG de
+  marca al que dice referirse (no es una referencia inventada).
+- `respondidas` no queda huérfana al quitar el botón de la barra: se sigue
+  usando en el aviso de finalizar.
+- Consultada la base de producción: **1139** actividades verificadas tipo test
+  de la convocatoria PN. Los tres modos tienen material de sobra y la copy de
+  "25, 50 o 100" es exacta (con menos de 100 preguntas, "Completo" mostraría el
+  total real y la tarjeta de /hoy prometería de más).
+
+### Pendientes / notas
+
+- Sin verificación visual: build y tipos. No se ha visto ni el botón del isotipo
+  ni la intro de tres modos en ejecución.
+- Sigue pendiente de entradas anteriores: el guard de los self-tests del núcleo
+  no funciona en Windows (`npm run test:motor` pasa en vacío).
+
+---
+
 ## 2026-08-03 — Corrección más limpia, guess a 1/3 y `responder()` autocorrectivo
 
 **Encargo.** Tres ajustes sueltos: quitar el "Era: …" del panel de corrección,

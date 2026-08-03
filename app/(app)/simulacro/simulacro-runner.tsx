@@ -11,8 +11,10 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { accionCorregir } from "./simulacro-actions";
 import {
+  PREGUNTAS_MEDIO,
   PREGUNTAS_RAPIDO,
   SEGUNDOS_SIMULACRO,
+  SEGUNDOS_MEDIO,
   SEGUNDOS_RAPIDO,
   NOTA_MINIMA,
   type PreguntaSimulacro,
@@ -32,7 +34,7 @@ function mmss(ms: number): string {
   return `${m}:${r.toString().padStart(2, "0")}`;
 }
 
-type Modo = "completo" | "rapido";
+type Modo = "completo" | "medio" | "rapido";
 type Fase = "intro" | "examen";
 
 export default function SimulacroRunner({
@@ -89,13 +91,21 @@ export default function SimulacroRunner({
 
   function empezar() {
     const sel =
-      modo === "rapido" ? preguntas.slice(0, PREGUNTAS_RAPIDO) : preguntas;
+      modo === "rapido"
+        ? preguntas.slice(0, PREGUNTAS_RAPIDO)
+        : modo === "medio"
+          ? preguntas.slice(0, PREGUNTAS_MEDIO)
+          : preguntas;
     setActivas(sel);
     tiemposRef.current = Array(sel.length).fill(0);
     setElegidos(Array(sel.length).fill(null));
     setIndice(0);
     limiteMsRef.current =
-      (modo === "rapido" ? SEGUNDOS_RAPIDO : SEGUNDOS_SIMULACRO) * 1000;
+      (modo === "rapido"
+        ? SEGUNDOS_RAPIDO
+        : modo === "medio"
+          ? SEGUNDOS_MEDIO
+          : SEGUNDOS_SIMULACRO) * 1000;
     const now = Date.now();
     inicioRef.current = now;
     entradaRef.current = now;
@@ -210,8 +220,9 @@ export default function SimulacroRunner({
       aria-label="Examen en curso"
     >
       <div className="mx-auto flex h-full w-full max-w-xl flex-col px-5 pb-[calc(env(safe-area-inset-bottom)+1rem)] pt-[calc(env(safe-area-inset-top)+0.75rem)]">
-        {/* Barra superior: Abandonar + acceso al navegador de preguntas */}
-        <div className="flex items-center justify-between gap-3">
+        {/* Barra superior: solo Abandonar. El mapa de preguntas se abre con el
+            botón central del isotipo (entre Atrás y Siguiente). */}
+        <div className="flex items-center gap-3">
           <button
             type="button"
             onClick={abandonar}
@@ -219,19 +230,6 @@ export default function SimulacroRunner({
             style={{ background: "var(--color-surface)" }}
           >
             <span aria-hidden="true">←</span> Abandonar
-          </button>
-          <button
-            type="button"
-            onClick={() => setMostrarNav(true)}
-            className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium"
-            style={{
-              background: "var(--color-surface)",
-              color: "var(--color-primary-dark)",
-              border: `1px solid ${borde}`,
-            }}
-            aria-label="Ver el mapa de preguntas"
-          >
-            Preguntas · {respondidas}/{N}
           </button>
         </div>
 
@@ -323,6 +321,19 @@ export default function SimulacroRunner({
               style={{ background: "var(--color-surface)", borderColor: borde }}
             >
               Atrás
+            </button>
+            <button
+              type="button"
+              onClick={() => setMostrarNav(true)}
+              className="flex min-h-14 w-14 shrink-0 items-center justify-center rounded-2xl border"
+              style={{
+                background: "var(--color-surface)",
+                borderColor: borde,
+                color: "var(--color-primary)",
+              }}
+              aria-label="Ver el mapa de preguntas"
+            >
+              <IsotipoAcertium size={26} />
             </button>
             <button
               type="button"
@@ -555,18 +566,25 @@ function Intro({
   totalDisponible: number;
 }) {
   const rapidoDisponible = totalDisponible >= PREGUNTAS_RAPIDO;
+  const medioDisponible = totalDisponible >= PREGUNTAS_MEDIO;
   const opciones: { id: Modo; titulo: string; sub: string; disabled?: boolean }[] =
     [
-      {
-        id: "completo",
-        titulo: "Examen completo",
-        sub: `${totalDisponible} preguntas · ${mmss(SEGUNDOS_SIMULACRO * 1000)}`,
-      },
       {
         id: "rapido",
         titulo: "Rápido",
         sub: `${PREGUNTAS_RAPIDO} preguntas · ${mmss(SEGUNDOS_RAPIDO * 1000)}`,
         disabled: !rapidoDisponible,
+      },
+      {
+        id: "medio",
+        titulo: "Medio",
+        sub: `${PREGUNTAS_MEDIO} preguntas · ${mmss(SEGUNDOS_MEDIO * 1000)}`,
+        disabled: !medioDisponible,
+      },
+      {
+        id: "completo",
+        titulo: "Completo",
+        sub: `${totalDisponible} preguntas · ${mmss(SEGUNDOS_SIMULACRO * 1000)}`,
       },
     ];
 
@@ -810,6 +828,31 @@ function Resultado({ resumen }: { resumen: ResumenSimulacro }) {
         </button>
       </div>
     </div>
+  );
+}
+
+// Isotipo de Acertium (diana concéntrica + check), de marca/assets/acertium-symbol.svg.
+// Usa currentColor para heredar el color del botón que lo contiene.
+function IsotipoAcertium({ size = 26 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 64 64" fill="none" aria-hidden="true">
+      <circle cx="32" cy="32" r="28" stroke="currentColor" strokeWidth="4" />
+      <circle
+        cx="32"
+        cy="32"
+        r="16"
+        stroke="currentColor"
+        strokeWidth="3.5"
+        opacity="0.4"
+      />
+      <path
+        d="M23 32 L29 38 L42 24"
+        stroke="currentColor"
+        strokeWidth="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
   );
 }
 

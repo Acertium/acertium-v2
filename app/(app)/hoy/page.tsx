@@ -109,7 +109,7 @@ export default async function HoyPage() {
             Haz un simulacro
           </h2>
           <p className="mt-1 text-sm leading-relaxed text-muted">
-            Examen cronometrado como el día real.
+            Elige 25, 50 o 100 preguntas, cronometrado como el examen real.
           </p>
         </div>
         <span

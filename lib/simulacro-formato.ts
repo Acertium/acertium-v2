@@ -16,7 +16,10 @@
 export const PREGUNTAS_SIMULACRO = 100;
 export const SEGUNDOS_SIMULACRO = 50 * 60; // 3000 s = 50:00
 
-// Modo rápido opcional (mismo formato, menos preguntas / tiempo).
+// Modos más cortos (mismo formato y cadencia oficial de 30 s/pregunta).
+export const PREGUNTAS_MEDIO = 50;
+export const SEGUNDOS_MEDIO = 25 * 60; // 1500 s = 25:00
+
 export const PREGUNTAS_RAPIDO = 25;
 export const SEGUNDOS_RAPIDO = 12 * 60 + 30; // 750 s = 12:30
 
