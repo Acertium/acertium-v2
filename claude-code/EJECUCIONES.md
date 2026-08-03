@@ -5,6 +5,72 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-03 — Reporte colaborativo, fase 1: "Mejorar esta pregunta" en todas
+
+**Encargo.** Unificar el reporte de preguntas en un componente compartido y
+ponerlo en todas las preguntas (práctica, examen y revisión del simulacro).
+
+### Qué entra
+
+**Nuevos**
+
+- **`lib/reporte-actions.ts`** — server action compartida `accionReportar`, que
+  envuelve `reportar()` del cerebro. Así práctica y simulacro (y lo que venga)
+  usan la misma, sin arrastrar el cliente service-role al navegador.
+- **`components/reporte-boton.tsx`** — `ReporteBoton` cliente reutilizable, con
+  copy colaborativo: "Mejorar esta pregunta", motivos en lenguaje llano ("Hay un
+  dato incorrecto", "Una opción está mal planteada", "La fuente no cuadra") y
+  agradecimiento cálido al enviar. Prop `variant`: `"icono"` (banderita, por
+  defecto) o `"enlace"` (texto, para la revisión).
+
+**Modificados**
+
+- `app/(app)/practicar/practica-runner.tsx` — usa el componente compartido; se
+  borra la copia local (~170 líneas) y la constante `MOTIVOS`.
+- `app/(app)/practicar/actions.ts` — fuera `accionReportar` y los imports que se
+  quedaban sin uso (`reportar`, `MotivoReporte`).
+- `lib/simulacro-formato.ts` — `DetallePregunta` gana `conceptoId`, que el
+  reporte necesita desde la revisión.
+- `lib/simulacro-data.ts` — `corregirSimulacro` lo rellena.
+- `app/(app)/simulacro/simulacro-runner.tsx` — `ReporteBoton` junto al enunciado
+  del examen (icono) y en cada ítem de la revisión (enlace).
+
+### Ajuste propio — un fallo real, no cosmético
+
+En `corregirSimulacro` el detalle hace `conceptoId: info?.conceptoId ?? ""`.
+Comprobado contra producción: `acertium_v2.reporte.concepto_id` es `text` **con
+FK a `concepto(id)`**, así que un `""` viola la clave ajena; y `reportar()` hace
+`throw` si el insert falla. Como el envío ocurre dentro de un `useTransition`
+sin `catch`, el usuario vería el botón sin que pasara nada.
+
+Añadido un guard en la revisión: el botón solo se pinta si `d.conceptoId` no
+está vacío. Solo ocurre si la actividad ya no existe al corregir, pero el coste
+del guard es una línea.
+
+### Verificación
+
+- `npm run build` → ✅ antes y después del guard (Next 16.2.6, TypeScript OK).
+- Comprobado en producción que la tabla `reporte` acepta lo que el botón manda:
+  columnas `actividad_id` (uuid, FK), `concepto_id` (text, FK), `motivo` (text,
+  NOT NULL), `comentario` (text), `contexto` (jsonb), `estado` (text). **No hay
+  CHECK sobre `motivo`**, así que los cuatro valores del enum de TypeScript
+  entran sin problema.
+- El import de `MotivoReporte` en el componente cliente es `import type`, se
+  borra al compilar y no arrastra `server-only` al navegador (el error que rompió
+  el build al portar el simulacro).
+
+### Pendientes / notas
+
+- **Nadie lee los reportes todavía.** Se insertan con `estado: 'abierto'` y no
+  hay panel ni consulta que los revise. La fase 1 recoge señal; hace falta algo
+  que la explote.
+- El reporte no guarda `usuario_id` aunque la columna existe: `reportar()` no lo
+  envía. Con login habría que rellenarlo.
+- Sin verificación visual: build y tipos. No se ha abierto el modal en ejecución
+  ni se ha enviado un reporte de prueba.
+
+---
+
 ## 2026-08-03 — Mapa de preguntas con el isotipo, tercer modo de simulacro y copy
 
 **Encargo.** Tres ajustes del simulacro. También se pidió arrastrar los cambios

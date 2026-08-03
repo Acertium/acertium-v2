@@ -214,6 +214,7 @@ export async function corregirSimulacro(
     const fuente = info ? fuenteDe.get(info.conceptoId) : undefined;
     detalle.push({
       actividadId: r.actividadId,
+      conceptoId: info?.conceptoId ?? "",
       enunciado: info?.enunciado ?? "",
       textoElegido: r.textoElegido,
       correcta,

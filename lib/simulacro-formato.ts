@@ -45,6 +45,7 @@ export type RespuestaUsuario = {
 
 export type DetallePregunta = {
   actividadId: string;
+  conceptoId: string;
   enunciado: string;
   textoElegido: string | null;
   correcta: string | null; // texto de la opción correcta

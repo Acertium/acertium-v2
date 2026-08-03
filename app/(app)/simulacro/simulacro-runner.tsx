@@ -10,6 +10,7 @@ import {
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { accionCorregir } from "./simulacro-actions";
+import ReporteBoton from "@/components/reporte-boton";
 import {
   PREGUNTAS_MEDIO,
   PREGUNTAS_RAPIDO,
@@ -270,10 +271,17 @@ export default function SimulacroRunner({
 
         {/* Zona desplazable: enunciado + opciones */}
         <div className="-mx-5 flex-1 overflow-y-auto px-5">
-          {/* Enunciado */}
-          <p className="mt-6 text-lg font-medium leading-relaxed">
-            {p.enunciado}
-          </p>
+          {/* Enunciado + botón para mejorar la pregunta */}
+          <div className="mt-6 flex items-start justify-between gap-3">
+            <p className="flex-1 text-lg font-medium leading-relaxed">
+              {p.enunciado}
+            </p>
+            <ReporteBoton
+              actividadId={p.actividadId}
+              conceptoId={p.conceptoId}
+              enunciado={p.enunciado}
+            />
+          </div>
 
           {/* Opciones (3 alternativas) */}
           <div className="mt-6 flex flex-col gap-3">
@@ -803,6 +811,23 @@ function Resultado({ resumen }: { resumen: ResumenSimulacro }) {
                 >
                   Abrir en el BOE{d.articulo ? ` · ${d.articulo}` : ""} ↗
                 </a>
+              )}
+
+              {/* Sin conceptoId no se puede reportar: `concepto_id` tiene FK a
+                  `concepto`, así que el envío fallaría. Solo pasa si la
+                  actividad ya no existe al corregir (detalle sin `info`). */}
+              {d.conceptoId && (
+                <div
+                  className="mt-3 border-t pt-3"
+                  style={{ borderColor: bordeSuave }}
+                >
+                  <ReporteBoton
+                    variant="enlace"
+                    actividadId={d.actividadId}
+                    conceptoId={d.conceptoId}
+                    enunciado={d.enunciado}
+                  />
+                </div>
               )}
             </li>
           );
