@@ -3,6 +3,7 @@
 import { useState, useTransition, useRef, type CSSProperties } from "react";
 import { accionResponder, accionSiguiente, accionReportar } from "./actions";
 import { SpinnerOrbita } from "@/components/spinners";
+import { useRetardoCarga } from "@/hooks/useRetardoCarga";
 import type { ActividadPublica, Resultado, MotivoReporte } from "@/lib/cerebro";
 
 const borde = "color-mix(in srgb, var(--color-fg) 15%, transparent)";
@@ -24,6 +25,9 @@ export default function PracticaRunner({
   const [elegido, setElegido] = useState<number | null>(null);
   const [resultado, setResultado] = useState<Resultado | null>(null);
   const [pending, start] = useTransition();
+  // El spinner de "Siguiente" solo aparece si la carga supera 300ms (anti-parpadeo,
+  // misma especificación que la pantalla de carga). En cargas rápidas no se ve.
+  const mostrarSpinner = useRetardoCarga(pending);
   const inicioRef = useRef<number>(Date.now());
 
   function responder(indice: number) {
@@ -189,7 +193,7 @@ export default function PracticaRunner({
             className="flex min-h-14 w-full items-center justify-center rounded-2xl text-base font-medium disabled:opacity-60"
             style={{ background: "var(--color-primary)", color: "#fff" }}
           >
-            {pending ? <SpinnerOrbita size={20} /> : "Siguiente"}
+            {mostrarSpinner ? <SpinnerOrbita size={20} /> : "Siguiente"}
           </button>
         </div>
       )}

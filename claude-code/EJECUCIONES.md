@@ -5,6 +5,34 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-03 — Anti-parpadeo del spinner de "Siguiente"
+
+**Encargo.** Conectar `useRetardoCarga` al botón "Siguiente" de `/practicar`.
+
+Cambio de una línea efectiva en
+`app/(app)/practicar/practica-runner.tsx`: el `SpinnerOrbita` pasa de mostrarse
+con `pending` a mostrarse con `mostrarSpinner = useRetardoCarga(pending)`, es
+decir, solo si la espera supera 300 ms. Misma especificación que el
+`antiParpadeo` de `PantallaCarga`, ahora también en JS.
+
+`disabled={pending}` **no** cambia: el botón se bloquea en el mismo instante del
+clic, solo se retrasa el indicador visual. En una carga rápida el usuario ve
+"Siguiente" atenuado un momento y nunca aparece el spinner.
+
+Con esto `hooks/useRetardoCarga.ts` deja de ser código muerto (era el pendiente
+que quedó anotado en la entrada anterior).
+
+### Verificación
+
+`npm run build` → ✅ a la primera (Next 16.2.6, TypeScript OK).
+
+### Pendientes / notas
+
+- Sigue sin verificación visual: solo build y tipos. El umbral de 300 ms no se
+  ha comprobado con latencia real de `responder()`.
+
+---
+
 ## 2026-08-03 — Pantalla de carga V1→V2 y latencia percibida en practicar
 
 **Encargo.** Commitear y desplegar los indicadores de carga de marca portados de
