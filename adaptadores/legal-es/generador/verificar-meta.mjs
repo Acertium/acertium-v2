@@ -13,6 +13,7 @@
 import { readFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
+import { esEjecucionDirecta } from "../../../nucleo/ejecucion-directa.mjs";
 
 export const CONVOCATORIA = "policia-nacional-2026";
 
@@ -134,7 +135,7 @@ export function verificarMeta(conceptos, meta, registro) {
 }
 
 // Self-test: node verificar-meta.mjs
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (esEjecucionDirecta(import.meta.url)) {
   const registro = cargarRegistro();
   const conceptos = [{ id: "SP-001" }, { id: "SP-002" }];
   const bien = { materia: "ley-5-2014-seguridad-privada", norma: "Ley 5/2014, de Seguridad Privada", referencia_boe: "BOE-A-2014-3649", convocatoria: CONVOCATORIA, tema: "Tema 13 — Disposiciones generales en materia de seguridad privada en España" };
@@ -144,7 +145,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   console.log("familia desconocida:", verificarMeta([{ id: "ZZ-001" }], { ...bien, materia: "x", norma: "y", referencia_boe: "z" }, registro));
 
   // --- fuentes no-BOE (PROMPT_007) -----------------------------------------
+  // El registro real va PRIMERO: la entrada ORTO de abajo es el fixture y debe
+  // pisar a la de producción (si no, el self-test comprueba el registro real y
+  // no el caso que quiere probar).
   const regNB = {
+    ...registro,
     ORTO: {
       materia: "ortografia-rae",
       norma: "Ortografía de la lengua española (RAE-ASALE)",
@@ -152,7 +157,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       referencia_fuente: "https://www.rae.es (Ortografía / OLE 2010)",
       temas: null,
     },
-    ...registro,
   };
   const orto = (extra) => [
     [{ id: "ORTO-001" }],
@@ -180,4 +184,5 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.log(`  ${bienResuelto ? "✓" : "✗"} ${nombre}${r.ok ? "" : " — " + r.errores.join(" | ")}`);
   }
   console.log(`self-test fuentes no-BOE: ${ok}/${casos.length}`);
+  if (ok !== casos.length) process.exit(1);
 }

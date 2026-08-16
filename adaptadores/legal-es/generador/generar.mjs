@@ -66,6 +66,22 @@ const refCorta =
   `fuente no-BOE: ${[...new Set(textoDeFuente(meta).match(/(?:www\.)?[a-z0-9-]+\.[a-z.]{2,6}/gi) || [])].slice(0, 4).join(", ") || "sin dominio"}`;
 console.error(`  ✓ meta coherente (familia ${vm.familia} → ${meta.materia} · ${refCorta})`);
 
+// Puerta de ORTOGRAFÍA — solo familia ORTO (Tema 37). El resto de familias no
+// la pasan porque el cotejo normal ya les sirve; ver nucleo/verificar-ortografia.mjs.
+// FAIL-CLOSED como las demás.
+if (vm.familia === "ORTO") {
+  const { verificarOrtografia } = await import("../../../nucleo/verificar-ortografia.mjs");
+  const vo = await verificarOrtografia(lote);
+  console.error("== verificación de ortografía ==");
+  console.error("  " + vo.resumen);
+  for (const a of vo.avisos) console.error(`  · aviso [${a.concepto}] ${a.aviso}`);
+  if (!vo.ok) {
+    for (const r of vo.rechazos) console.error(`  ✗ ORTOGRAFÍA [${r.concepto}] (${r.modo}) ${r.motivo}`);
+    console.error("  → ortografía insuficiente: NO se carga.");
+    process.exit(1);
+  }
+}
+
 // Modo inspección: emite el SQL y no toca ni la base ni el índice.
 if (soloSql) {
   process.stdout.write(loteASql(v, meta, registro));

@@ -13,6 +13,7 @@
 // }
 
 import { absorcion, PARAMS } from './motor-bkt.mjs';
+import { esEjecucionDirecta } from "./ejecucion-directa.mjs";
 
 export const PLAN = {
   ventana: 19,          // ventana de estabilización (≈ suma de los 4 primeros intervalos)
@@ -81,7 +82,7 @@ export function cobertura(ctx, P = PLAN) {
 }
 
 // --- Self-test: node planificador.mjs ---
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (esEjecucionDirecta(import.meta.url)) {
   const { crearEstado, actualizar } = await import('./motor-bkt.mjs');
   // Universo sintético: 30 conceptos; los 10 primeros pesan 3; cadena de prereqs en los 12 primeros.
   const conceptos = Array.from({ length: 30 }, (_, i) => ({ id: 'K' + i, peso: i < 10 ? 3 : 1 }));

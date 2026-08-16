@@ -15,6 +15,7 @@
 //   }
 
 import { normalizarNumeros } from "./verificador-cotejo.mjs";
+import { esEjecucionDirecta } from "./ejecucion-directa.mjs";
 
 const norm = (s) => normalizarNumeros(String(s ?? ""));
 const contiene = (fuente, frag) => norm(fuente).includes(norm(frag));
@@ -109,7 +110,7 @@ export function verificarLote(lote) {
 }
 
 // Self-test: node verificar-lote.mjs
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (esEjecucionDirecta(import.meta.url)) {
   const art66 =
     "1. Las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado. 2. Las Cortes Generales ejercen la potestad legislativa del Estado, aprueban sus Presupuestos, controlan la acción del Gobierno y tienen las demás competencias que les atribuya la Constitución. 3. Las Cortes Generales son inviolables.";
   const lote = {

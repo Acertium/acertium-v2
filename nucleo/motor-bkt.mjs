@@ -9,6 +9,8 @@
 //
 //   import { crearEstado, actualizar, absorcion, proximoRepasoDias, recomputar } from './motor-bkt.mjs'
 
+import { esEjecucionDirecta } from "./ejecucion-directa.mjs";
+
 export const PARAMS = {
   L0: 0.20,      // creencia inicial de dominio
   pT: 0.15,      // aprendizaje por intento (transición)
@@ -95,7 +97,7 @@ export function recomputar(eventos, P = PARAMS) {
 }
 
 // --- Self-test: node motor-bkt.mjs ---
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (esEjecucionDirecta(import.meta.url)) {
   const f2 = x => Number(x).toFixed(2);
   const f3 = x => Number(x).toFixed(3);
   console.log('A) ESPACIADO (repasa al vencer, acierta):');
