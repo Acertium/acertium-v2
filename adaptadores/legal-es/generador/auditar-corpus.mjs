@@ -13,7 +13,7 @@
 // y cerrada con punto le resulta indistinguible de la cita completa.
 // Esta auditoría cierra las dos cosas, conservando la puntuación.
 //
-// Busca tres cosas:
+// Busca cuatro cosas:
 //   (A) TRUNCADAS  — el cotejo no aparece literalmente en el artículo que dice
 //       citar, normalmente porque corta una cláusula que matiza la regla.
 //   (B) CONTAMINACIÓN bis/ter — el cotejo sí existe, pero en un artículo con
@@ -21,10 +21,14 @@
 //       fallo del ingestor corregido el 16/08/2026.
 //   (C) FABRICACIÓN — un bloque `fuentes` con texto que no está en la norma.
 //       Un recorte NO contiguo (apartado 1 + apartado 3) es legítimo y no cuenta.
+//   (D) REFORMULADAS — el cotejo no es literal ni respecto del `fuentes` de su
+//       PROPIO lote: recorta a mitad de frase o recapitaliza. No necesita corpus,
+//       así que ESTA comprobación cubre el banco ENTERO, también las familias de
+//       fuente no-BOE. Es la única de las cuatro que no depende de tener el PDF.
 //
-// Cobertura: solo las familias con corpus en `datos/`. Las de fuente no-BOE y
-// las normas cuyo JSON no está versionado se informan como NO AUDITABLES; que no
-// salgan en los fallos no significa que estén bien, significa que no se miraron.
+// Cobertura: (A)(B)(C) solo alcanzan a las familias con corpus en `datos/`; las
+// demás se informan como NO AUDITABLES — que no salgan en los fallos no
+// significa que estén bien, significa que no se miraron. (D) alcanza a todas.
 import { readFileSync, readdirSync, existsSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
@@ -76,6 +80,7 @@ const r = {
   truncadas: [],
   contaminadas: [],
   fabricadas: [],
+  reformuladas: [],
   familiasSinCorpus: new Set(),
 };
 
@@ -85,6 +90,15 @@ for (const f of readdirSync(LOTES).filter((x) => x.endsWith(".json"))) {
     lote = JSON.parse(readFileSync(join(LOTES, f), "utf8"));
   } catch {
     continue;
+  }
+
+  // (D) — cotejo vs el `fuentes` del PROPIO lote, conservando la puntuación.
+  // No necesita corpus: cubre también las familias de fuente no-BOE.
+  for (const act of lote.actividades || []) {
+    const src = (lote.fuentes || {})[act.articulo];
+    if (!src) continue;
+    if (!norm(src).includes(norm(act.cotejo)))
+      r.reformuladas.push({ lote: f, concepto: act.concepto_id, art: act.articulo });
   }
 
   // (A) y (B) — un cotejo por actividad
@@ -135,12 +149,15 @@ console.log(`  NO auditables (sin corpus)    : ${r.noAuditable}`);
 console.log(`  (A) citas truncadas           : ${r.truncadas.length}`);
 console.log(`  (B) contaminación bis/ter     : ${r.contaminadas.length}`);
 console.log(`  (C) fragmentos fabricados     : ${r.fabricadas.length}`);
+console.log(`  (D) citas reformuladas (TODO el banco, sin corpus): ${r.reformuladas.length}`);
 for (const c of r.contaminadas)
   console.log(`   ⚠ [${c.concepto}] dice "${c.dice}" pero su texto está en ${c.donde.join(", ")} — ${c.lote}`);
 for (const c of r.truncadas)
   console.log(`   ✗ [${c.concepto}] ${c.lote} · dice "${c.dice}" y la cita no aparece entera en ese artículo`);
 for (const c of r.fabricadas)
   console.log(`   ✗ ${c.lote} ${c.art}: ${c.fuera}/${c.total} fragmentos no están en la norma`);
+for (const c of r.reformuladas)
+  console.log(`   · [${c.concepto}] ${c.lote} "${c.art}" — la cita no es literal ni en su propio bloque fuentes`);
 console.log(`  familias sin corpus con el que contrastar: ${[...r.familiasSinCorpus].sort().join(" ")}`);
 
 // Fail-closed en lo que de verdad rompe el grounding. Las truncadas se informan
