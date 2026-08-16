@@ -170,7 +170,7 @@ def parsear(raw):
         r'^Artículo\s+([A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+(?:\s+y\s+[A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+)?)'
         r'(?:\s+(' + SUFIJOS + r'))?\.')
     re_stop = re.compile(r'^(TÍTULO|CAPÍTULO|Sección|SECCIÓN|Disposición|PREÁMBULO|ANEXO)')
-    arts, cur, cur_suf, buf = [], None, None, []
+    arts, cur, cur_suf, cur_rub, buf = [], None, None, None, []
 
     def flush():
         if cur is not None:
@@ -182,6 +182,8 @@ def parsear(raw):
                    "texto": re.sub(r'\s+', ' ', " ".join(buf)).strip()}
             if cur_suf:
                 art["sufijo"] = cur_suf
+            if cur_rub:
+                art["rubrica"] = cur_rub
             arts.append(art)
 
     for l in lines:
@@ -189,9 +191,20 @@ def parsear(raw):
         m = re_art.match(s)
         num = palabra_a_numero(m.group(1)) if m else None
         if num is not None:
-            flush(); cur = num; cur_suf = (m.group(2) or "").lower() or None; buf = []
+            flush()
+            cur = num
+            cur_suf = (m.group(2) or "").lower() or None
+            # La RÚBRICA (el título del artículo) va en la MISMA línea que la
+            # cabecera: "Artículo 53. Requisitos para la obtención...". Antes se
+            # descartaba con el resto de la línea, así que el corpus no la tenía
+            # y cualquier lote que la citara parecía estar inventándosela.
+            # (16/08/2026: en el §23 la llevan las 250 cabeceras.) Se guarda
+            # aparte Y se abre el texto con ella, para que el artículo quede
+            # completo tal como está impreso.
+            cur_rub = s[m.end():].strip() or None
+            buf = [cur_rub] if cur_rub else []
         elif re_stop.match(s):
-            flush(); cur = None; cur_suf = None; buf = []
+            flush(); cur = None; cur_suf = None; cur_rub = None; buf = []
         elif cur is not None:
             buf.append(l)
     flush()

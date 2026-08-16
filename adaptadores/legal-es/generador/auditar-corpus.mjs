@@ -62,6 +62,22 @@ const SECCION = {
   DISC: 14, // LO 4/2010, Régimen disciplinario — gana al corpus suelto de abajo
   SEL: 15, // RD 853/2022, procesos selectivos
   DPSF: 16, // Orden INT/632/2024, desarrollo de los procesos selectivos
+  UNI: 17, // Orden INT/430/2014, uniformidad
+  CDPN: 18, // RD 49/2024, centros docentes
+  FCS: 19, // LO 2/1986, Fuerzas y Cuerpos de Seguridad
+  CPOL: 20, // RD 555/2011, régimen electoral del Consejo de Policía
+  PJ: 21, // RD 769/1987, Policía Judicial
+  EXT: 22, // LO 4/2000, derechos y libertades de los extranjeros
+  EXTR: 23, // RD 1155/2024, Reglamento de extranjería
+  UE: 24, // RD 240/2007, entrada y residencia de ciudadanos de la UE
+  ASI: 25, // Ley 12/2009, derecho de asilo
+  ASIR: 26, // RD 203/1995, Reglamento de asilo
+  APAT: 27, // RD 865/2001, Reglamento de apatridia
+  PTEMP: 28, // RD 1325/2003, protección temporal
+  ACOG: 29, // RD 220/2022, sistema de acogida
+  SP: 30, // Ley 5/2014, Seguridad Privada
+  SC: 31, // LO 4/2015, protección de la seguridad ciudadana
+  IC: 32, // Ley 8/2011, infraestructuras críticas
 };
 
 // Corpus antiguos, ingeridos uno a uno antes de tener el Código entero. Se
@@ -103,7 +119,9 @@ const ORDINAL = {
 // (`re_stop`), así que no están en el corpus. Devolver null aquí las manda a
 // "no auditable" en vez de compararlas contra un artículo que no les toca:
 // "D.A. 1ª" NO es el artículo 1.
-const RE_NO_ARTICULO = /^\s*(D\.\s*[ATDF]\.|disposici[oó]n|pre[aá]mbulo|anexo)/i;
+// Se abrevian de muchas formas según quién escribiera el lote: "D.A. 1ª",
+// "DA 7ª", "D.F.", "disp. final 3ª", "Disposición transitoria segunda".
+const RE_NO_ARTICULO = /^\s*(d\.?\s?[atdf]\.?(\s|\d|$)|disp\.|disposici[oó]n|pre[aá]mbulo|anexo)/i;
 
 function refDe(articulo) {
   const s = String(articulo ?? "");

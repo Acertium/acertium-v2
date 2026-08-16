@@ -48,6 +48,24 @@
    Lo que sí sigue abierto de ese frente: el horizonte del planificador está fijo en 180 días porque
    `convocatoria` no guarda fecha de examen (`HORIZONTE_DIAS` en `lib/cerebro.ts`).
 5. Averiguar qué deja huérfano el `.git/index.lock` (aparece cuando dos agentes escriben a la vez).
+6. **PENDIENTE DE REVISAR — lo que destapa `auditar-corpus.mjs`** (16/08/2026). La lista viva sale de
+   `node adaptadores/legal-es/generador/auditar-corpus.mjs`; aquí solo el resumen y el criterio.
+   Ya corregidas y con SQL listo en `correccion-cotejos-truncados.sql`: SP-013, DISC-026, CEDH-012,
+   CEDH-013, CEDH-017 y MININT-014. **Ese SQL sigue SIN EJECUTAR: la base conserva el texto viejo.**
+   - **(C) ~58 frases con ELISIÓN** en bloques `fuentes`. No hay texto inventado: se une texto
+     saltándose una cláusula intermedia sin marcarlo, y la frase resultante parece literal sin serlo
+     (*"…a la persona titular de la Dirección General existirá un Gabinete Técnico"* cuando la norma
+     dice *"…Dirección General, **para facilitarle el despacho y la coordinación…**, existirá un
+     Gabinete Técnico"*). Se concentran en EXTR (Reglamento de extranjería), ASI/ASIR y ACOG.
+     **Casi ninguna llega al usuario**: el `fuentes` sirve para verificar, no se sirve. Al revisarlas,
+     comprobar primero si algún `cotejo` depende de la frase elidida; si no, es deuda de fidelidad.
+   - **(A) ~15 citas truncadas**, estas sí en cotejos servidos. Sin triar una por una: hay que mirar,
+     como en SP-013 y DISC-026, si la cláusula omitida cambia lo que se pregunta.
+   - **(D) 7 citas reformuladas** (recorte a mitad de frase o recapitalización).
+   - **NO tocar CEDH-031** aunque salga marcado: su texto íntegro dice "en el plazo de seis meses" y
+     el Protocolo n.º 15 lo rebajó a cuatro. Restaurar la cita metería el plazo derogado. Ni **DP-002**:
+     el BOE escribe "del senado" en minúscula y el lote lo puso en mayúscula; no se alinea un lote
+     con lo que parece una errata de la fuente.
 
 ## 3. ⚠ LÍMITE para trabajar desde la nube (aviso de RESULTADO_018, confirmado)
 **El corpus fuente (PDFs) NO está en el repo — es deliberado.** El `.gitignore` excluye
