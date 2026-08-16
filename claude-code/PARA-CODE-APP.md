@@ -50,8 +50,11 @@
 5. Averiguar qué deja huérfano el `.git/index.lock` (aparece cuando dos agentes escriben a la vez).
 6. **PENDIENTE DE REVISAR — lo que destapa `auditar-corpus.mjs`** (16/08/2026). La lista viva sale de
    `node adaptadores/legal-es/generador/auditar-corpus.mjs`; aquí solo el resumen y el criterio.
-   Ya corregidas y con SQL listo en `correccion-cotejos-truncados.sql`: SP-013, DISC-026, CEDH-012,
-   CEDH-013, CEDH-017 y MININT-014. **Ese SQL sigue SIN EJECUTAR: la base conserva el texto viejo.**
+   Ya corregidas en el repo **y aplicadas en la base el 16/08/2026** vía
+   `correccion-cotejos-truncados.sql`: SP-013, DISC-026, CEDH-012, CEDH-013, CEDH-017 y MININT-014.
+   Verificado tras aplicarlo: md5 del cotejo idéntico al del lote en las seis, las seis en
+   `verificado`, la opción correcta literal dentro del nuevo cotejo en las seis, y aserciones (a),
+   (b) y (c) de `asercion-post-carga.sql` a 0 filas.
    - **(C) ~62 frases con ELISIÓN** en bloques `fuentes`. No hay texto inventado: se une texto
      saltándose una cláusula intermedia sin marcarlo, y la frase resultante parece literal sin serlo
      (*"…a la persona titular de la Dirección General existirá un Gabinete Técnico"* cuando la norma

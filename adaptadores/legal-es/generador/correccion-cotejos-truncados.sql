@@ -1,5 +1,12 @@
 -- Acertium — corrección de cotejos truncados (16/08/2026)
 --
+-- ✅ APLICADO EN PRODUCCIÓN el 16/08/2026. Las 6 filas quedaron con el texto
+--    corregido: md5 idéntico al del lote del repo en las seis, las seis siguen
+--    en `verificado` y en las seis la opción correcta aparece literal dentro del
+--    nuevo cotejo. Aserciones (a), (b) y (c) de `asercion-post-carga.sql`: 0
+--    filas. Se deja el script porque es idempotente: volver a correrlo actualiza
+--    0 filas y sirve de comprobación.
+--
 -- Detectados por `auditar-corpus.mjs`. Los dos cotejos cortaban la frase del
 -- artículo en una coma y la cerraban con punto, presentando como cita completa
 -- una regla a la que le falta una cláusula. `verificar-lote` no podía verlo: su
