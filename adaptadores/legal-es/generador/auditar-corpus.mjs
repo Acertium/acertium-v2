@@ -1,6 +1,12 @@
 // Acertium — adaptador legal-es / generador / AUDITORÍA DE GROUNDING
 //
-//   node adaptadores/legal-es/generador/auditar-corpus.mjs
+//   node adaptadores/legal-es/generador/auditar-corpus.mjs            todo el banco
+//   node adaptadores/legal-es/generador/auditar-corpus.mjs <lote.json>  un solo lote
+//
+// El segundo modo sirve para pasar esta comprobación ANTES de cargar, que es
+// cuando arreglar sale gratis: las 10 preguntas que hubo que corregir el 16/08
+// se detectaron con el contenido ya servido. Sale con código 1 si encuentra
+// contaminación o elisión, así que encadena con `&&` delante de generar.mjs.
 //
 // Contrasta cada lote versionado contra el TEXTO DEL CORPUS (`datos/legal-es/
 // <norma>/*-articulos.json`), que es la ingesta mecánica del PDF del Código-600.
@@ -169,10 +175,17 @@ const r = {
   familiasSinCorpus: new Set(),
 };
 
-for (const f of readdirSync(LOTES).filter((x) => x.endsWith(".json"))) {
+// Sin argumento, todo el banco; con él, solo ese lote (para usarlo como puerta).
+const soloUno = process.argv[2];
+const ficheros = soloUno
+  ? [soloUno]
+  : readdirSync(LOTES).filter((x) => x.endsWith(".json")).map((x) => join(LOTES, x));
+
+for (const ruta of ficheros) {
+  const f = ruta.split("/").pop();
   let lote;
   try {
-    lote = JSON.parse(readFileSync(join(LOTES, f), "utf8"));
+    lote = JSON.parse(readFileSync(ruta, "utf8"));
   } catch {
     continue;
   }
