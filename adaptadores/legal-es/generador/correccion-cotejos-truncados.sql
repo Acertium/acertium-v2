@@ -135,3 +135,33 @@ update acertium_v2.actividad set cotejo_fuente = 'Los centros de acogida de prot
 -- del RD 769/1987 dice "a la Unidades" (sin la «s») y "Comisión Provincial
 -- Coordinación" (sin el «de»), y el lote corrigió ambas erratas. Alinear el lote
 -- con la errata sería empeorar lo que lee el opositor.
+
+-- ---------------------------------------------------------------------------
+-- REASIGNACIÓN DE TEMA (16/08/2026). ✅ APLICADA. No corrige un cotejo: corrige
+-- a qué tema pertenece un concepto ya cargado.
+--
+-- El Tema 24 (introducción a la PRL) figuraba con CERO conceptos, pero su
+-- contenido no faltaba: estaba cargado bajo el Tema 25. Y como la PK de
+-- `overlay_entrada` es (convocatoria_id, concepto_id), un concepto solo puede
+-- estar en UN tema — no bastaba con etiquetarlo también como 24.
+--
+-- Se mueven los cinco que por temario son del 24 sin discusión. Duplicarlos
+-- habría sido peor: el opositor vería la misma pregunta en dos temas y rompería
+-- "una idea = un concepto". El progreso no se pierde: `estado_dominio` va por
+-- concepto, no por tema.
+--
+--   PRL-004 riesgo laboral            → "Concepto general de riesgos laborales"
+--   PRL-005 daños derivados del trabajo → "Daños a la salud"
+--   PRL-008 condición de trabajo      → "Concepto de salud y condiciones de trabajo"
+--   PRL-013 principios de la acción preventiva → "Principios generales de la
+--   PRL-014 prioridad de la protección colectiva   actividad preventiva"
+--
+-- Se quedan en el 25 los tres dudosos (PRL-006 riesgo grave e inminente,
+-- PRL-007 equipo de trabajo, PRL-009 EPI): encajan igual de bien en el 25
+-- operativo y moverlos era discutible.
+
+update acertium_v2.overlay_entrada
+set tema = 'Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud'
+where convocatoria_id = 'policia-nacional-2026'
+  and concepto_id in ('PRL-004','PRL-005','PRL-008','PRL-013','PRL-014')
+  and tema like 'Tema 25 —%';

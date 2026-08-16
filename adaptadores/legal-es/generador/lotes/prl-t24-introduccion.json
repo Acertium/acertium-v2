@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "materia": "ley-31-1995-prl",
+    "norma": "Ley 31/1995, de Prevención de Riesgos Laborales",
+    "referencia_boe": "BOE-A-1995-24292",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
+  },
+  "fuentes": {
+    "art. 4": "Definiciones. A efectos de la presente Ley y de las normas que la desarrollen: 1.º Se entenderá por «prevención» el conjunto de actividades o medidas adoptadas o previstas en todas las fases de actividad de la empresa con el fin de evitar o disminuir los riesgos derivados del trabajo. 2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo. Para calificar un riesgo desde el punto de vista de su gravedad, se valorarán conjuntamente la probabilidad de que se produzca el daño y la severidad del mismo. 3.º Se considerarán como «daños derivados del trabajo» las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo. 4.º Se entenderá como «riesgo laboral grave e inminente» aquel que resulte probable racionalmente que se materialice en un futuro inmediato y pueda suponer un daño grave para la salud de los trabajadores. En el caso de exposición a agentes susceptibles de causar daños graves a la salud de los trabajadores, se considerará que existe un riesgo grave e inminente cuando sea probable racionalmente que se materialice en un futuro inmediato una exposición a dichos agentes de la que puedan derivarse daños graves para la salud, aun cuando éstos no se manifiesten de forma inmediata. 5.º Se entenderán como procesos, actividades, operaciones, equipos o productos «potencialmente peligrosos» aquellos que, en ausencia de medidas preventivas específicas, originen riesgos para la seguridad y la salud de los trabajadores que los desarrollan o utilizan. 6.º Se entenderá como «equipo de trabajo» cualquier máquina, aparato, instrumento o instalación utilizada en el trabajo. 7.º Se entenderá como «condición de trabajo» cualquier característica del mismo que pueda tener una influencia significativa en la generación de riesgos para la seguridad y la salud del trabajador. Quedan específicamente incluidas en esta definición: a) Las características generales de los locales, instalaciones, equipos, productos y demás útiles existentes en el centro de trabajo. b) La naturaleza de los agentes físicos, químicos y biológicos presentes en el ambiente de trabajo y sus correspondientes intensidades, concentraciones o niveles de presencia. c) Los procedimientos para la utilización de los agentes citados anteriormente que influyan en la generación de los riesgos mencionados. d) Todas aquellas otras características del trabajo, incluidas las relativas a su organización y ordenación, que influyan en la magnitud de los riesgos a que esté expuesto el trabajador. 8.º Se entenderá por «equipo de protección individual» cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que puedan amenazar su seguridad o su salud en el trabajo, así como cualquier complemento o accesorio destinado a tal fin."
+  },
+  "conceptos": [
+    {
+      "id": "PRL-033",
+      "articulo": "art. 4",
+      "titulo": "Definición de prevención",
+      "resumen": "Prevención es el conjunto de actividades o medidas adoptadas o previstas en todas las fases de actividad de la empresa para evitar o disminuir los riesgos derivados del trabajo.",
+      "explicacion": "Es la definición legal del propio concepto que da nombre a la Ley. Ojo: abarca TODAS las fases de actividad de la empresa, no solo la ejecución."
+    },
+    {
+      "id": "PRL-034",
+      "articulo": "art. 4",
+      "titulo": "Procesos y productos potencialmente peligrosos",
+      "resumen": "Son potencialmente peligrosos los procesos, actividades, operaciones, equipos o productos que, en ausencia de medidas preventivas específicas, originen riesgos para la seguridad y la salud de los trabajadores.",
+      "explicacion": "La peligrosidad se define por lo que ocurriría SIN medidas preventivas: no es una cualidad absoluta del proceso, sino condicional."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "PRL-033",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "Según el artículo 4 de la Ley 31/1995, ¿qué se entiende por «prevención»?",
+      "opciones": [
+        "el conjunto de actividades o medidas adoptadas o previstas en todas las fases de actividad de la empresa con el fin de evitar o disminuir los riesgos derivados del trabajo",
+        "el conjunto de medidas correctoras adoptadas por la empresa una vez materializado el daño, con el fin de reparar sus consecuencias sobre la salud de los trabajadores afectados",
+        "el conjunto de equipos y dispositivos destinados a proteger al trabajador frente a los riesgos que amenacen su seguridad durante la ejecución material de su puesto de trabajo",
+        "el conjunto de actuaciones de vigilancia periódica de la salud que el empresario debe garantizar a sus trabajadores en función de los riesgos inherentes a su puesto de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se entenderá por «prevención» el conjunto de actividades o medidas adoptadas o previstas en todas las fases de actividad de la empresa con el fin de evitar o disminuir los riesgos derivados del trabajo.",
+      "justificacion": "Art. 4.1.º Ley 31/1995."
+    },
+    {
+      "concepto_id": "PRL-034",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "¿Cuándo se consideran «potencialmente peligrosos» un proceso, equipo o producto?",
+      "opciones": [
+        "aquellos que, en ausencia de medidas preventivas específicas, originen riesgos para la seguridad y la salud de los trabajadores que los desarrollan o utilizan",
+        "aquellos que hayan originado algún accidente de trabajo o enfermedad profesional durante los doce meses anteriores entre los trabajadores de la empresa que los utilizan",
+        "aquellos que la autoridad laboral haya incluido expresamente en la relación de actividades sujetas a control preventivo especial y a evaluación periódica del servicio",
+        "aquellos que exijan el uso permanente de equipos de protección individual por parte de los trabajadores que los desarrollan o utilizan de forma habitual en su jornada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se entenderán como procesos, actividades, operaciones, equipos o productos «potencialmente peligrosos» aquellos que, en ausencia de medidas preventivas específicas, originen riesgos para la seguridad y la salud de los trabajadores que los desarrollan o utilizan.",
+      "justificacion": "Art. 4.5.º Ley 31/1995."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PRL-033",
+      "destino": "PRL-013",
+      "tipo": "prerrequisito",
+      "justificacion": "Saber qué es la prevención precede a los principios que rigen la acción preventiva."
+    },
+    {
+      "origen": "PRL-034",
+      "destino": "PRL-004",
+      "tipo": "desarrolla",
+      "justificacion": "Concreta qué procesos y productos originan el riesgo laboral definido en el mismo artículo."
+    },
+    {
+      "origen": "PRL-034",
+      "destino": "PRL-007",
+      "tipo": "remite",
+      "justificacion": "Los «equipos» potencialmente peligrosos son los equipos de trabajo definidos en el apartado 6.º."
+    },
+    {
+      "origen": "PRL-033",
+      "destino": "PRL-010",
+      "tipo": "prerrequisito",
+      "justificacion": "La política de prevención del artículo 5 persigue el objetivo que esta definición delimita."
+    }
+  ]
+}

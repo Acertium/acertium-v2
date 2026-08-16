@@ -116,7 +116,11 @@
     "materia": "ley-31-1995-prl",
     "norma": "Ley 31/1995, de Prevención de Riesgos Laborales",
     "referencia_boe": "BOE-A-1995-24292",
-    "temas": ["Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"]
+    "_nota": "La misma norma alimenta dos temas: el 24 es la parte conceptual (que es prevencion, riesgo, dano) y el 25 el marco normativo. Un concepto solo puede estar en UN tema (PK de overlay_entrada), asi que lo definicional vive en el 24 y no se duplica en el 25.",
+    "temas": [
+      "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud",
+      "Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"
+    ]
   },
   "IC": {
     "materia": "ley-8-2011-infraestructuras-criticas",
