@@ -5,6 +5,58 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-16 — PROMPT_014 (+ 002-008 y 010): el cargador ya inserta de verdad
+
+**Encargo.** `PROMPT_014`, disparado a mitad de la cola de contenido porque Cowork detectó que el
+índice daba falsos positivos. Absorbe la carga de los PROMPT_002-008 y 010. Detalle en
+**`RESULTADO_014.md`**; cada encargo tiene además su propio `RESULTADO_NNN.md`.
+
+### El fallo
+
+`marcarCobertura()` marcaba ✓ al **emitir el SQL**, no al confirmarlo en la base. Yo mismo lo
+disparé una hora antes: ejecuté los PROMPT_002-006 con el cargador viejo, se generó el SQL, el índice
+se marcó ✓ y **nada entró en la base**. Cuatro familias dadas por cargadas con 0 filas.
+
+### Qué cambia
+
+1. **`cargar.mjs` inserta y confirma.** Nueva `cargarLote()` con el cliente service-role (mismo que
+   la app): upserts por PK, guard de reejecución para no duplicar actividades (no tienen clave
+   natural), comprobación del `error` de CADA operación y **relectura de los conteos** de la base.
+   Nuevo `cliente-cerebro.mjs` (espejo en Node de `lib/supabase/cerebro.ts`; lee `.env.local` sin
+   imprimirlo). **No** se creó ninguna función de SQL arbitrario en producción.
+2. **El índice solo se marca tras confirmación** (`generar.mjs` llama a `marcarCobertura` si `res.ok`).
+3. **`reconciliar-indice.mjs`** (nuevo): audita el índice contra la base y corrige falsos positivos.
+   De paso arregló la sección "Pendientes", desfasada desde el 03/08.
+4. **`verificar-meta.mjs` acepta fuentes no-BOE** (PROMPT_007 §1) sin perder el anclaje: exige
+   `referencia_boe` **o** `referencia_fuente`, y en el segundo caso comprueba que el lote cite de
+   verdad los **dominios** que el registro declara. Self-test 5/5.
+5. **`enlaces-cruzados.mjs`** (nuevo): las aristas entre familias de los PROMPT_002-010, declarativo
+   e idempotente.
+
+### Resultado
+
+**26 lotes, 1.135 conceptos nuevos, 0 rechazos en las tres puertas.** La base pasa de 1.346 a
+**2.481 conceptos** y de ~1.346 a **2.419 preguntas tipo test verificadas**. 86 aristas cruzadas
+resueltas, 10 remisiones pendientes. Aserciones (a)(b)(c) + integridad: **0 filas**.
+**El corpus BOE-600 queda al 100 %: 52 de 52 normas.**
+
+### Pendientes / notas
+
+- **Tres lotes rechazados por la puerta de meta y NO cargados** (`ciber-incibe-2`, `ddhh-cedh-2`,
+  `sistemas-operativos-2`): citan autoridades que su familia no tiene registradas (CCN-CERT, IBM) o,
+  en CEDH, son otro instrumento con otro BOE. No relajé la puerta para contenido no encargado:
+  necesita decisión de Cowork.
+- **21 aristas declaradas sin id ni artículo**: no se inventan destinos. Listadas en el RESULTADO.
+  Entre ellas, `PJ-008→FCS art. 5`, que está partido en 8 conceptos y hay que desambiguar.
+- **El §11 se cambió fiándome del PDF que verificó Cowork**: no hay `pdftotext` en la máquina y no
+  pude comprobarlo yo. La parte de base (MININT = RD 207/2024) sí la confirmé.
+- 6 actividades antiguas de CE (1-2/08) tienen `respuesta` sin clave `correcta`. No son tipo test ni
+  vienen de esta carga, pero siguen ahí.
+- `registro-materias.json` tiene la clave `ICR` **duplicada** (idéntica; gana la última). Sin tocar.
+- La app no se ha tocado. Nadie ha abierto `/practicar` con las 2.419 preguntas nuevas.
+
+---
+
 ## 2026-08-16 — PROMPT_013: a salvo en GitHub todo el trabajo pendiente (solo git)
 
 **Encargo.** Versionar lo que llevaba semanas sin comitear. Sin tocar Supabase ni

@@ -1,8 +1,19 @@
 // Acertium — adaptador legal-es / generador / cargador
-// Convierte un lote YA VERIFICADO (salida de nucleo/verificar-lote) en SQL de
-// inserción para el schema acertium_v2. No toca la base: emite el SQL, que se
-// ejecuta con el conector de Supabase. (Opción A: el agente lo ejecuta; opción B:
-// el job de API lo ejecuta con service-role.)
+//
+// Convierte un lote YA VERIFICADO (salida de nucleo/verificar-lote) en filas del
+// schema `acertium_v2`.
+//
+// ⚠️ CAMBIO (16/08/2026, PROMPT_014) — LA CARGA AHORA INSERTA DE VERDAD.
+// Hasta hoy este módulo solo EMITÍA SQL en texto para que lo ejecutara un
+// agente por fuera (`loteASql`). Ese paso manual se saltó sin que nadie se
+// enterara: `marcarCobertura()` marcaba ✓ en el índice al emitir el SQL, así que
+// el corpus daba por cargadas familias con CERO filas en la base (FE, PRLP,
+// PRLAGE, RDP el 16/08). Ahora `cargarLote()` inserta con el cliente
+// service-role, comprueba el `error` de CADA operación y RELEE los conteos de la
+// base; el índice solo se marca si esa confirmación llega.
+//
+// `loteASql` se conserva para inspeccionar el SQL sin tocar la base
+// (`generar.mjs --sql`), pero ya no es el camino de carga.
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { fileURLToPath } from "url";
@@ -88,6 +99,243 @@ export function marcarCobertura(meta, familia, hoy = new Date()) {
   } catch (e) {
     return { ok: false, motivo: e.message };
   }
+}
+
+// ---------------------------------------------------------------------------
+// CARGA REAL — inserta y confirma. Devuelve
+//   { ok, familia, insertado:{...}, enBase:{...}, errores:[...] }
+// `insertado` = filas que la base dice haber creado en esta corrida.
+// `enBase`    = conteos releídos DESPUÉS de insertar (la confirmación dura).
+// Cualquier `error` de PostgREST aborta el lote: no se sigue insertando y el
+// llamador NO debe marcar cobertura.
+// ---------------------------------------------------------------------------
+
+const TAMANO_TANDA = 100;
+
+async function enTandas(filas, fn) {
+  let total = 0;
+  for (let i = 0; i < filas.length; i += TAMANO_TANDA) {
+    const trozo = filas.slice(i, i + TAMANO_TANDA);
+    const n = await fn(trozo);
+    total += n;
+  }
+  return total;
+}
+
+// Baraja las opciones para que la posición de la correcta quede repartida
+// (evita el sesgo "la correcta siempre en A/B"). Misma lógica que loteASql.
+function barajarOpciones(a) {
+  const correcta = a.opciones[a.indice_correcto];
+  const barajadas = a.opciones.slice();
+  for (let i = barajadas.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [barajadas[i], barajadas[j]] = [barajadas[j], barajadas[i]];
+  }
+  return { opciones: barajadas, respuesta: { correcta, indice: barajadas.indexOf(correcta) } };
+}
+
+export async function cargarLote(db, v, meta, registro) {
+  // Mismo refuerzo fail-closed que loteASql: imposible cargar con un meta que
+  // contradiga la familia de los conceptos, aunque se llame directamente.
+  const vm = verificarMeta(v.conceptosOK, meta, registro || cargarRegistro());
+  if (!vm.ok)
+    throw new Error("meta incoherente, no se carga:\n  - " + vm.errores.join("\n  - "));
+
+  const { materia, norma, referencia_boe, convocatoria, tema } = meta;
+  const familia = vm.familia;
+  const ids = v.conceptosOK.map((c) => c.id);
+  const errores = [];
+  const insertado = { concepto: 0, concepto_fuente: 0, overlay_entrada: 0, actividad: 0, relacion_concepto: 0 };
+
+  const fallo = (paso, error) => {
+    errores.push(`${paso}: ${error.message || JSON.stringify(error)}`);
+    return { ok: false, familia, insertado, enBase: null, errores };
+  };
+
+  // Guard de reejecución: las actividades no tienen clave natural, así que un
+  // segundo pase las duplicaría en silencio. Si ya hay actividades de esta
+  // familia, no se toca nada.
+  {
+    const { count, error } = await db
+      .from("actividad")
+      .select("id", { count: "exact", head: true })
+      .in("concepto_id", ids);
+    if (error) return fallo("sondeo de actividades previas", error);
+    if (count > 0) {
+      errores.push(
+        `ya hay ${count} actividades para conceptos de ${familia}: el lote parece cargado. ` +
+          `No se inserta nada (evita duplicar actividades, que no tienen clave única).`,
+      );
+      return { ok: false, familia, insertado, enBase: null, errores, yaCargado: true };
+    }
+  }
+
+  // 1. conceptos
+  const filasConcepto = v.conceptosOK.map((c) => ({
+    id: c.id,
+    materia,
+    titulo: c.titulo,
+    resumen: c.resumen,
+    explicacion: c.explicacion,
+    estado_verificacion: "verificado",
+    explicacion_verificacion: "verificado",
+  }));
+  try {
+    insertado.concepto = await enTandas(filasConcepto, async (trozo) => {
+      const { data, error } = await db
+        .from("concepto")
+        .upsert(trozo, { onConflict: "id", ignoreDuplicates: true })
+        .select("id");
+      if (error) throw error;
+      return data.length;
+    });
+  } catch (e) {
+    return fallo("insert concepto", e);
+  }
+
+  // 2. concepto_fuente (pk concepto_id+norma+articulo → on conflict do nothing)
+  // referencia_boe va a NULL cuando la fuente no es del BOE (tratados, RAE,
+  // INCIBE…). Con cadena vacía, la aserción (b) —"una familia no puede tener dos
+  // referencias BOE"— contaría "" como una referencia más.
+  const filasFuente = v.conceptosOK.map((c) => ({
+    concepto_id: c.id,
+    norma,
+    articulo: c.articulo,
+    referencia_boe: String(referencia_boe ?? "").trim() || null,
+  }));
+  try {
+    insertado.concepto_fuente = await enTandas(filasFuente, async (trozo) => {
+      const { data, error } = await db
+        .from("concepto_fuente")
+        .upsert(trozo, { onConflict: "concepto_id,norma,articulo", ignoreDuplicates: true })
+        .select("concepto_id");
+      if (error) throw error;
+      return data.length;
+    });
+  } catch (e) {
+    return fallo("insert concepto_fuente", e);
+  }
+
+  // 3. overlay_entrada — solo para conceptos que EXISTEN ya en la base (el SQL
+  //    original hacía `select ... from concepto where id in (...)`; aquí se
+  //    consulta primero para no depender de la fe).
+  const { data: existentes, error: eExist } = await db
+    .from("concepto")
+    .select("id")
+    .in("id", ids);
+  if (eExist) return fallo("relectura de conceptos", eExist);
+  const idsEnBase = new Set(existentes.map((r) => r.id));
+
+  const filasOverlay = ids
+    .filter((id) => idsEnBase.has(id))
+    .map((id) => ({ convocatoria_id: convocatoria, concepto_id: id, tema, peso: 1 }));
+  try {
+    insertado.overlay_entrada = await enTandas(filasOverlay, async (trozo) => {
+      const { data, error } = await db
+        .from("overlay_entrada")
+        .upsert(trozo, { onConflict: "convocatoria_id,concepto_id", ignoreDuplicates: true })
+        .select("concepto_id");
+      if (error) throw error;
+      return data.length;
+    });
+  } catch (e) {
+    return fallo("insert overlay_entrada", e);
+  }
+
+  // 4. actividades
+  const filasActividad = v.actividadesOK.map((a) => {
+    const { opciones, respuesta } = barajarOpciones(a);
+    return {
+      concepto_id: a.concepto_id,
+      tipo: "test",
+      enunciado: a.enunciado,
+      opciones,
+      respuesta,
+      justificacion: a.justificacion,
+      cotejo_fuente: a.cotejo,
+      estado_verificacion: "verificado",
+    };
+  });
+  try {
+    insertado.actividad = await enTandas(filasActividad, async (trozo) => {
+      const { data, error } = await db.from("actividad").insert(trozo).select("id");
+      if (error) throw error;
+      return data.length;
+    });
+  } catch (e) {
+    return fallo("insert actividad", e);
+  }
+
+  // 5. relaciones — el SQL original filtraba con JOIN a concepto (origen y
+  //    destino deben existir) y descartaba bucles. Aquí se resuelve consultando
+  //    qué destinos existen; las aristas cuyo destino aún no está en la base se
+  //    devuelven como `noResueltas` para que el llamador decida (remision_pendiente).
+  const relaciones = v.relacionesOK || [];
+  const noResueltas = [];
+  if (relaciones.length) {
+    const referidos = [...new Set(relaciones.flatMap((r) => [r.origen, r.destino]))];
+    const presentes = new Set();
+    for (let i = 0; i < referidos.length; i += TAMANO_TANDA) {
+      const { data, error } = await db
+        .from("concepto")
+        .select("id")
+        .in("id", referidos.slice(i, i + TAMANO_TANDA));
+      if (error) return fallo("relectura de destinos de relación", error);
+      for (const r of data) presentes.add(r.id);
+    }
+    const validas = [];
+    for (const r of relaciones) {
+      if (r.origen === r.destino) continue;
+      if (presentes.has(r.origen) && presentes.has(r.destino))
+        validas.push({ origen: r.origen, destino: r.destino, tipo: r.tipo, fuente: "generador" });
+      else noResueltas.push(r);
+    }
+    try {
+      insertado.relacion_concepto = await enTandas(validas, async (trozo) => {
+        const { data, error } = await db
+          .from("relacion_concepto")
+          .upsert(trozo, { onConflict: "origen,destino,tipo", ignoreDuplicates: true })
+          .select("origen");
+        if (error) throw error;
+        return data.length;
+      });
+    } catch (e) {
+      return fallo("insert relacion_concepto", e);
+    }
+  }
+
+  // 6. CONFIRMACIÓN — se releen los conteos de la base. Esto es lo que autoriza
+  //    a marcar el índice; el `insertado` de arriba es solo lo de esta corrida.
+  const cuenta = async (tabla, columna) => {
+    const { count, error } = await db
+      .from(tabla)
+      .select(columna, { count: "exact", head: true })
+      .in(columna, ids);
+    if (error) throw error;
+    return count;
+  };
+  let enBase;
+  try {
+    enBase = {
+      concepto: await cuenta("concepto", "id"),
+      concepto_fuente: await cuenta("concepto_fuente", "concepto_id"),
+      overlay_entrada: await cuenta("overlay_entrada", "concepto_id"),
+      actividad: await cuenta("actividad", "concepto_id"),
+    };
+  } catch (e) {
+    return fallo("confirmación de conteos", e);
+  }
+
+  if (enBase.concepto !== v.conceptosOK.length)
+    errores.push(
+      `confirmación: ${enBase.concepto} conceptos en base, se esperaban ${v.conceptosOK.length}`,
+    );
+  if (enBase.actividad !== v.actividadesOK.length)
+    errores.push(
+      `confirmación: ${enBase.actividad} actividades en base, se esperaban ${v.actividadesOK.length}`,
+    );
+
+  return { ok: errores.length === 0, familia, insertado, enBase, noResueltas, errores };
 }
 
 export function loteASql(v, meta, registro) {

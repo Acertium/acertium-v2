@@ -243,5 +243,163 @@
     "norma": "Real Decreto 220/2022, por el que se aprueba el Reglamento por el que se regula el sistema de acogida en materia de protección internacional",
     "referencia_boe": "BOE-A-2022-4978",
     "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+  },
+  "PRLP": {
+    "materia": "rd-2-2006-prl-policia",
+    "norma": "Real Decreto 2/2006, por el que se establecen normas sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía",
+    "referencia_boe": "BOE-A-2006-624",
+    "temas": ["Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"]
+  },
+  "PRLAGE": {
+    "materia": "rd-67-2010-prl-age",
+    "norma": "Real Decreto 67/2010, de 29 de enero, de adaptación de la legislación de Prevención de Riesgos Laborales a la Administración General del Estado",
+    "referencia_boe": "BOE-A-2010-2161",
+    "temas": ["Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"]
+  },
+  "RDP": {
+    "materia": "reglamento-defensor-del-pueblo",
+    "norma": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo",
+    "referencia_boe": "BOE-A-1983-10613",
+    "temas": ["Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"]
+  },
+  "FE": {
+    "materia": "lo-9-2021-fiscalia-europea",
+    "norma": "Ley Orgánica 9/2021, de 1 de julio, de aplicación del Reglamento (UE) 2017/1939 del Consejo, de 12 de octubre de 2017, por el que se establece una cooperación reforzada para la creación de la Fiscalía Europea",
+    "referencia_boe": "BOE-A-2021-10957",
+    "temas": ["Tema 4 — La Unión Europea; cooperación policial internacional"]
+  },
+  "UNI": {
+    "materia": "orden-int-430-2014-uniformidad",
+    "norma": "Orden INT/430/2014, de 10 de marzo, por la que se regula la uniformidad en el Cuerpo Nacional de Policía",
+    "referencia_boe": "BOE-A-2014-2997",
+    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+  },
+  "CDPN": {
+    "materia": "rd-49-2024-centros-docentes-pn",
+    "norma": "Real Decreto 49/2024, por el que se aprueba el Reglamento de los centros docentes de la Policía Nacional",
+    "referencia_boe": "BOE-A-2024-814",
+    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+  },
+  "CPOL": {
+    "materia": "rd-555-2011-regimen-electoral-consejo-policia",
+    "norma": "Real Decreto 555/2011, de 20 de abril, por el que se establece el régimen electoral del Consejo de Policía",
+    "referencia_boe": "BOE-A-2011-7173",
+    "temas": ["Tema 9 — La Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad: los derechos de representación colectiva; el Consejo de Policía"]
+  },
+  "PJ": {
+    "materia": "rd-769-1987-policia-judicial",
+    "norma": "Real Decreto 769/1987, de 19 de junio, sobre regulación de la Policía Judicial",
+    "referencia_boe": "BOE-A-1987-14578",
+    "temas": ["Tema 21 — Derecho Procesal Penal: órganos de la jurisdicción penal; la detención; el Ministerio Fiscal; la Policía Judicial"]
+  },
+  "EXTR": {
+    "materia": "rd-1155-2024-reglamento-extranjeria",
+    "norma": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+    "referencia_boe": "BOE-A-2024-24099",
+    "temas": null
+  },
+  "ENC": {
+    "materia": "orden-pci-487-2019-estrategia-nacional-ciberseguridad",
+    "norma": "Orden PCI/487/2019, por la que se publica la Estrategia Nacional de Ciberseguridad 2019",
+    "referencia_boe": "BOE-A-2019-6347",
+    "temas": ["Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"]
+  },
+  "RGV": {
+    "materia": "rd-2822-1998-reglamento-vehiculos",
+    "norma": "Real Decreto 2822/1998, por el que se aprueba el Reglamento General de Vehículos",
+    "referencia_boe": "BOE-A-1999-1826",
+    "temas": ["Tema 43 — El vehículo prioritario: definición y señales de emergencia; señales en los vehículos (Reglamento General de Vehículos)"]
+  },
+  "VCD": {
+    "materia": "orden-int-2573-2015-vehiculos-conduccion-detenidos",
+    "norma": "Orden INT/2573/2015, de 30 de noviembre, por la que se determinan las especificaciones técnicas que deben reunir los vehículos destinados a la conducción de detenidos, presos y penados",
+    "referencia_boe": "BOE-A-2015-13138",
+    "temas": ["Tema 44 — La Seguridad en la Conducción de Vehículos Prioritarios: seguridad activa y pasiva; repercusión de los sistemas de seguridad en la conducción policial y traslado de detenidos"]
+  },
+  "DPSF": {
+    "materia": "orden-int-632-2024-desarrollo-procesos-selectivos-pn",
+    "norma": "Orden INT/632/2024, de 20 de junio, por la que se establecen normas para la aplicación y desarrollo del Reglamento de procesos selectivos y formación de la Policía Nacional, aprobado por el Real Decreto 853/2022, de 11 de octubre",
+    "referencia_boe": "BOE-A-2024-12811",
+    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+  },
+
+  "_doc_no_boe": "A partir de aquí, familias de fuentes NO-BOE (temas 27 y 34-41). Con referencia_boe vacía, la puerta exige referencia_fuente y comprueba que el lote cite de verdad los DOMINIOS de aquí (ver verificar-meta.mjs). TORT y CEDH sí tienen BOE: se validan como cualquier lote BOE.",
+
+  "DUDH": {
+    "materia": "declaracion-universal-derechos-humanos",
+    "norma": "Declaración Universal de Derechos Humanos, 1948",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.un.org/es/about-us/universal-declaration-of-human-rights",
+    "temas": ["Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"]
+  },
+  "TORT": {
+    "materia": "convencion-contra-la-tortura",
+    "norma": "Convención contra la Tortura (1984), Protocolo facultativo (2002) y MNP del Defensor del Pueblo",
+    "referencia_boe": "BOE-A-1987-25053",
+    "referencia_fuentes": ["BOE-A-1987-25053", "BOE-A-2006-11128", "BOE-A-1981-10325"],
+    "temas": ["Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"]
+  },
+  "CEDH": {
+    "materia": "convenio-europeo-derechos-humanos",
+    "norma": "Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales (Roma, 4 de noviembre de 1950)",
+    "referencia_boe": "BOE-A-1979-24010",
+    "referencia_fuentes": ["BOE-A-1979-24010", "BOE-A-1998-15127"],
+    "temas": ["Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"]
+  },
+  "CIBER": {
+    "materia": "glosario-ciberseguridad-incibe",
+    "norma": "Glosario y recursos oficiales de ciberseguridad de INCIBE (glosario de términos 2021, temáticas, Guía de ciberataques de la OSI, blogs y dosieres de INCIBE)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.incibe.es (glosario y guías, consulta 2026-08-04)",
+    "temas": ["Tema 41 — Ciberdelincuencia y agentes de la amenaza: malware, phishing, ransomware y demás; cibercriminales; APT; Cyber Kill Chain"]
+  },
+  "INTEL": {
+    "materia": "inteligencia-osint-fuentes-abiertas",
+    "norma": "Doctrina de inteligencia del CNI (ciclo de Inteligencia y disciplinas de obtención) y glosario de ciberseguridad de INCIBE (OSINT, deep web y dark web)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.cni.es/la-inteligencia + https://www.incibe.es (consulta 2026-08-04)",
+    "temas": ["Tema 40 — Inteligencia: dato, información e inteligencia; tipologías de inteligencia; ciclo de inteligencia; OSINT (fuentes abiertas); surface web, deep web, dark web, dark net"]
+  },
+  "ORTO": {
+    "materia": "ortografia-rae",
+    "norma": "Ortografía de la lengua española (RAE-ASALE)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.rae.es (Ortografía / OLE 2010, consulta 2026-08-04)",
+    "temas": ["Tema 37 — Ortografía de la lengua española: reglas ortográficas; uso de las letras o grafemas; uso de la tilde, de los signos ortográficos y de mayúsculas y minúsculas"]
+  },
+  "SOST": {
+    "materia": "agenda-2030-desarrollo-sostenible",
+    "norma": "Agenda 2030 para el Desarrollo Sostenible (Resolución A/RES/70/1 de la Asamblea General de las Naciones Unidas)",
+    "referencia_boe": "",
+    "referencia_fuente": "A/RES/70/1 — https://unctad.org/system/files/official-document/ares70d1_es.pdf + https://www.un.org/sustainabledevelopment/es, consulta 2026-08-04",
+    "temas": ["Tema 35 — El desarrollo sostenible: concepto; coordinación y cooperación internacional; sociedad y desarrollo sostenible; instrumentos de gestión ambiental"]
+  },
+  "DROGA": {
+    "materia": "drogodependencias-oms-unodc-oeda",
+    "norma": "Definiciones de la OMS (OMS/CIE) y la UNODC; convenios internacionales de fiscalización de 1961 (estupefacientes) y 1971 (sustancias psicotrópicas); Informe 2024 del Observatorio Español de las Drogas y las Adicciones (OEDA/PNSD)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://pnsd.sanidad.gob.es (glosario OMS, OEDA 2024) + https://www.unodc.org, consulta 2026-08-04 (datos de tendencias con fecha, caducan)",
+    "temas": ["Tema 34 — Drogodependencias: conceptos de droga, consumidor, administración, adicción, dependencia, tolerancia, politoxicomanías; clasificación de las drogas; últimas tendencias en el consumo"]
+  },
+  "REDES": {
+    "materia": "redes-informaticas-osi-tcpip",
+    "norma": "Fuentes técnicas de referencia sobre redes informáticas: modelo OSI y modelo TCP/IP (Check Point, IBM), dispositivos de red (glosario INCIBE, Microsoft, VAS Experts, Universidad de Huelva) y direccionamiento IP (Oracle)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.incibe.es + https://www.checkpoint.com + https://www.ibm.com + https://docs.oracle.com, consulta 2026-08-04",
+    "temas": ["Tema 39 — Redes informáticas: modelo OSI; modelo TCP/IP; dispositivos de red; direccionamiento IP (clases, IPv4, IPv6)"]
+  },
+  "GRAM": {
+    "materia": "gramatica-rae",
+    "norma": "Gramática de la lengua española (RAE-ASALE): Glosario de términos gramaticales y Nueva gramática básica de la lengua española",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.rae.es (GTG, NGB), consulta 2026-08-04",
+    "temas": ["Tema 36 — Gramática de la lengua española: morfología (sufijos, sustantivos, pronombres, adjetivos y sus grados/tipos, adverbios y tipos, verbos —modos y conjugación—, preposiciones y conjunciones); sintaxis (la oración: partes y tipos; análisis sintáctico)"]
+  },
+  "SO": {
+    "materia": "sistemas-operativos-fundamentos",
+    "norma": "Fuentes técnicas de referencia sobre sistemas operativos: definición y funciones y Linux (Red Hat), sistemas de archivos de Windows FAT/FAT32/NTFS/exFAT (Microsoft Learn), sistema de archivos APFS y formatos MS-DOS (FAT)/ExFAT (Apple) y almacenamiento de datos (Red Hat)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.redhat.com + https://learn.microsoft.com + https://support.apple.com, consulta 2026-08-04",
+    "temas": ["Tema 38 — Fundamentos de sistemas operativos: funciones de un sistema operativo; tipologías (MS-DOS, UNIX, Linux, Windows, MAC OS); sistemas operativos móviles (iOS, Android); sistemas de almacenamiento; sistemas de archivos"]
   }
 }

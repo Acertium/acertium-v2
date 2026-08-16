@@ -16,6 +16,40 @@ import { dirname, join } from "path";
 
 export const CONVOCATORIA = "policia-nacional-2026";
 
+// ---------------------------------------------------------------------------
+// FUENTES NO-BOE (16/08/2026, PROMPT_007). Hasta hoy la puerta exigía
+// `referencia_boe` no vacío. Los tratados y las fuentes de autoridad (ONU, RAE,
+// INCIBE, CNI, OMS…) no tienen BOE-A-…, así que se acepta `referencia_fuente`
+// EN SU LUGAR — nunca además: para un lote BOE se sigue exigiendo y comparando
+// el BOE como siempre.
+//
+// El anclaje anti-emparejamiento (la razón de existir de esta puerta) no se
+// pierde: cuando no hay BOE, se exige que los DOMINIOS que el registro declara
+// como fuente canónica aparezcan de verdad en las referencias del lote. Así un
+// lote de la RAE no puede colarse con el meta de INCIBE. No se comparan las
+// cadenas completas: el registro guarda el puntero canónico y el lote la lista
+// detallada de citas con fecha de consulta, y nunca van a ser iguales.
+// ---------------------------------------------------------------------------
+
+// `referencia_fuente` puede venir como string o como array (los generadores
+// usan array para lotes multi-instrumento). `referencia_fuentes` es el nombre
+// alternativo previsto en el contrato. Normaliza a texto plano.
+export function textoDeFuente(meta) {
+  const bruto = meta?.referencia_fuente ?? meta?.referencia_fuentes;
+  if (!bruto) return "";
+  return (Array.isArray(bruto) ? bruto : [bruto]).map((s) => String(s)).join(" \n ");
+}
+
+// Dominios mencionados en un texto (incibe.es, rae.es, un.org…), sin www.
+function dominiosDe(texto) {
+  const encontrados = new Set();
+  for (const m of String(texto).matchAll(/(?:https?:\/\/)?(?:www\.)?([a-z0-9-]+(?:\.[a-z0-9-]+)+)/gi)) {
+    const d = m[1].toLowerCase();
+    if (/\.(es|org|com|net|int|gov|edu|eu|info)(\.[a-z]{2})?$/.test(d)) encontrados.add(d);
+  }
+  return encontrados;
+}
+
 export function cargarRegistro(ruta) {
   const p =
     ruta || join(dirname(fileURLToPath(import.meta.url)), "registro-materias.json");
@@ -42,8 +76,16 @@ export function verificarMeta(conceptos, meta, registro) {
     errores.push("falta el bloque meta (embébelo en el lote: materia, norma, referencia_boe, convocatoria, tema)");
     return { ok: false, errores, familia };
   }
-  for (const k of ["materia", "norma", "referencia_boe", "convocatoria", "tema"])
+  for (const k of ["materia", "norma", "convocatoria", "tema"])
     if (!meta[k] || !String(meta[k]).trim()) errores.push(`meta.${k} vacío o ausente`);
+
+  // referencia_boe O referencia_fuente — uno de los dos, nunca ninguno.
+  const boe = String(meta.referencia_boe ?? "").trim();
+  const fuente = textoDeFuente(meta).trim();
+  if (!boe && !fuente)
+    errores.push(
+      "meta sin referencia: se exige referencia_boe (fuentes BOE) o referencia_fuente (fuentes no-BOE)",
+    );
 
   if (meta.convocatoria && meta.convocatoria !== CONVOCATORIA)
     errores.push(`meta.convocatoria="${meta.convocatoria}", se esperaba "${CONVOCATORIA}"`);
@@ -57,8 +99,33 @@ export function verificarMeta(conceptos, meta, registro) {
       errores.push(`meta.materia="${meta.materia}" ≠ esperado "${esperado.materia}" (familia ${familia})`);
     if (meta.norma !== esperado.norma)
       errores.push(`meta.norma="${meta.norma}" ≠ esperado "${esperado.norma}"`);
-    if (meta.referencia_boe !== esperado.referencia_boe)
-      errores.push(`meta.referencia_boe="${meta.referencia_boe}" ≠ esperado "${esperado.referencia_boe}"`);
+    const boeEsperado = String(esperado.referencia_boe ?? "").trim();
+    if (boe) {
+      // Camino BOE de siempre: comparación exacta, sin relajar nada.
+      if (boe !== boeEsperado)
+        errores.push(`meta.referencia_boe="${boe}" ≠ esperado "${boeEsperado}"`);
+    } else if (boeEsperado) {
+      // La familia SÍ tiene BOE en el registro: no se puede cargar sin él.
+      errores.push(
+        `meta.referencia_boe vacío pero la familia ${familia} tiene BOE registrado ("${boeEsperado}")`,
+      );
+    } else {
+      // Camino no-BOE: el registro debe declarar su fuente canónica y el lote
+      // debe citar de verdad esos dominios.
+      const fuenteEsperada = textoDeFuente(esperado).trim();
+      if (!fuenteEsperada)
+        errores.push(
+          `familia ${familia} sin referencia_boe ni referencia_fuente en el registro: añádela antes de cargar`,
+        );
+      else {
+        const citados = dominiosDe(fuente);
+        const faltan = [...dominiosDe(fuenteEsperada)].filter((d) => !citados.has(d));
+        if (faltan.length)
+          errores.push(
+            `meta.referencia_fuente no cita la(s) fuente(s) registradas de ${familia}: falta ${faltan.join(", ")}`,
+          );
+      }
+    }
     if (Array.isArray(esperado.temas) && meta.tema && !esperado.temas.includes(meta.tema))
       errores.push(`meta.tema="${meta.tema}" no está entre los temas registrados de ${familia}`);
   }
@@ -75,4 +142,42 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   console.log("caso correcto:", verificarMeta(conceptos, bien, registro));
   console.log("caso del fallo (meta de la CE en lote SP):", verificarMeta(conceptos, malMeta, registro));
   console.log("familia desconocida:", verificarMeta([{ id: "ZZ-001" }], { ...bien, materia: "x", norma: "y", referencia_boe: "z" }, registro));
+
+  // --- fuentes no-BOE (PROMPT_007) -----------------------------------------
+  const regNB = {
+    ORTO: {
+      materia: "ortografia-rae",
+      norma: "Ortografía de la lengua española (RAE-ASALE)",
+      referencia_boe: "",
+      referencia_fuente: "https://www.rae.es (Ortografía / OLE 2010)",
+      temas: null,
+    },
+    ...registro,
+  };
+  const orto = (extra) => [
+    [{ id: "ORTO-001" }],
+    {
+      materia: "ortografia-rae",
+      norma: "Ortografía de la lengua española (RAE-ASALE)",
+      convocatoria: CONVOCATORIA,
+      tema: "Tema 37 — Ortografía",
+      ...extra,
+    },
+    regNB,
+  ];
+  const casos = [
+    ["no-BOE con referencia_fuente que cita rae.es → PASA", orto({ referencia_boe: "", referencia_fuente: ["RAE-ASALE, Ortografía básica — https://www.rae.es/ortografía-básica [2026-08-04]"] }), true],
+    ["no-BOE sin ninguna referencia → RECHAZA", orto({}), false],
+    ["no-BOE citando otra fuente (incibe.es) → RECHAZA", orto({ referencia_fuente: "https://www.incibe.es/glosario" }), false],
+    ["familia CON BOE registrado y meta sin BOE → RECHAZA", [[{ id: "SP-001" }], { ...bien, referencia_boe: "", referencia_fuente: "https://ejemplo.org" }, regNB], false],
+    ["lote BOE normal sigue exigiendo su BOE exacto → PASA", [[{ id: "SP-001" }], bien, regNB], true],
+  ];
+  let ok = 0;
+  for (const [nombre, args, esperado] of casos) {
+    const r = verificarMeta(...args);
+    const bienResuelto = r.ok === esperado;
+    if (bienResuelto) ok++;
+    console.log(`  ${bienResuelto ? "✓" : "✗"} ${nombre}${r.ok ? "" : " — " + r.errores.join(" | ")}`);
+  }
+  console.log(`self-test fuentes no-BOE: ${ok}/${casos.length}`);
 }

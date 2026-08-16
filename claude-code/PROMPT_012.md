@@ -5,9 +5,16 @@ Depende de PROMPT_011 (estado `pendiente_revision`) para el bloque 2. Revisa `gi
 `CLAUDE.md`. Al terminar: `npm run build`, commit, push, `RESULTADO_012.md`, `EJECUCIONES.md`. NUNCA leas `.env`.
 
 ## Acceso (gating)
-Ruta **`/admin`** accesible solo para Jonathan. Como aún no hay auth real, gatéala por una variable de
-entorno **`ADMIN_UID`** (o `ADMIN_TOKEN`) que Jonathan fija en Vercel; si no coincide, 404/redirect.
-Cuando exista auth real, cambiar a gating por rol. (Deja un TODO claro.)
+Ruta **`/admin`**, accesible solo para Jonathan. Usa la variable que **YA existe** en
+`.env.local.example`: **`ADMIN_USER_ID`** (NO inventes `ADMIN_UID`). **Fail-closed**: si la variable está
+vacía o no coincide → `/admin` devuelve **404**.
+- **Comprueba primero si la app tiene auth real** (un usuario logueado con id). Si la hay: gatea
+  comparando el id del usuario de la sesión con `ADMIN_USER_ID`.
+- **Si AÚN NO hay login** (la app va con `DEMO_USUARIO_ID`, sin auth), un gate por UID no puede comparar
+  nada → usa **`ADMIN_TOKEN`** (cookie/cabecera) como interino, también **fail-closed**, hasta que exista
+  login. TODO: migrar a gating por rol cuando haya auth.
+No sé si `ADMIN_USER_ID` tiene valor en Vercel (no leo `.env`); da igual: con fail-closed, si está puesta
+funciona y si no, `/admin` queda cerrado. Documenta en el RESULTADO qué mecanismo usaste.
 
 ## Bloque 1 — Reportes de usuarios (cierra la fase 2 del reporte colaborativo)
 Lee la tabla `acertium_v2.reporte`:
@@ -39,4 +46,5 @@ Lee las actividades con `estado_verificacion='pendiente_revision'` (contenido `c
 ## Nota
 Es la pantalla que Jonathan pidió para (a) leer los reportes (hoy caen en un buzón que nadie abre) y
 (b) aprobar el contenido de consenso antes de que llegue al usuario. Une dos pendientes en una sola vista.
-Necesito de Jonathan su **UID/token de admin** para el gating (o que lo fije como env `ADMIN_UID`).
+El valor de `ADMIN_USER_ID` (o `ADMIN_TOKEN`) lo fija Jonathan en Vercel/`.env.local`; Code NO necesita el
+valor para implementar el panel (fail-closed lo cubre).
