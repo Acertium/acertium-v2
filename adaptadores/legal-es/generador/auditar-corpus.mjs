@@ -37,7 +37,20 @@ import { normalizarNumeros } from "../../../nucleo/verificador-cotejo.mjs";
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), "../../..");
 const LOTES = join(RAIZ, "adaptadores/legal-es/generador/lotes");
 
-// familia (primer token del id de concepto) → corpus de esa norma
+// familia → sección del Código 600 en `datos/legal-es/boe-600-pn/corpus/`.
+// Esa carpeta es la copia del Código que consulta cualquier agente sin abrir un
+// PDF; se va llenando según se ingieren los trozos (ver ingestor.py --codigo).
+const SECCION = {
+  CC: 2, // Código Civil [parcial]
+  CE: 3, // Constitución Española
+  TC: 4, // LO 2/1979, Tribunal Constitucional
+  DP: 5, // LO 3/1981, Defensor del Pueblo
+  EAES: 6, // LO 4/1981, estados de alarma, excepción y sitio
+  FE: 7, // LO 9/2021, Fiscalía Europea
+};
+
+// Corpus antiguos, ingeridos uno a uno antes de tener el Código entero. Se
+// mantienen hasta que su sección entre por la vía de arriba.
 const CORPUS = {
   CP: "lo-10-1995-codigo-penal/cp-articulos.json",
   LEC: "rd-1882-ley-enjuiciamiento-criminal/lecrim-articulos.json",
@@ -61,18 +74,40 @@ const norm = (s) =>
 
 // "art. 31 bis" / "art. 31.2" / "arts. 5 y 6" → "31 bis" / "31"
 const SUF = "bis|ter|quater|quáter|quinquies|sexies|septies|octies|nonies|decies";
+
+// Las leyes antiguas numeran en palabra ("Artículo primero"). El ingestor las
+// guarda ya como número, así que aquí hay que traducir en el mismo sentido.
+const ORDINAL = {
+  primero: 1, segundo: 2, tercero: 3, cuarto: 4, quinto: 5, sexto: 6,
+  septimo: 7, séptimo: 7, octavo: 8, noveno: 9, decimo: 10, décimo: 10,
+  undecimo: 11, undécimo: 11, duodecimo: 12, duodécimo: 12,
+};
+
+// Lo que NO es un artículo: disposiciones adicionales, transitorias,
+// derogatorias y finales, y los preámbulos. El ingestor corta en ellas
+// (`re_stop`), así que no están en el corpus. Devolver null aquí las manda a
+// "no auditable" en vez de compararlas contra un artículo que no les toca:
+// "D.A. 1ª" NO es el artículo 1.
+const RE_NO_ARTICULO = /^\s*(D\.\s*[ATDF]\.|disposici[oó]n|pre[aá]mbulo|anexo)/i;
+
 function refDe(articulo) {
-  const m = String(articulo ?? "").match(new RegExp(`(\\d+)(?:\\s+(${SUF}))?`, "i"));
-  return m ? (m[2] ? `${m[1]} ${m[2].toLowerCase()}` : m[1]) : null;
+  const s = String(articulo ?? "");
+  if (RE_NO_ARTICULO.test(s)) return null;
+  const m = s.match(new RegExp(`(\\d+)(?:\\s+(${SUF}))?`, "i"));
+  if (m) return m[2] ? `${m[1]} ${m[2].toLowerCase()}` : m[1];
+  const p = s.toLowerCase().match(/\b([a-záéíóú]+)\b\s*$/);
+  return p && ORDINAL[p[1]] ? String(ORDINAL[p[1]]) : null;
 }
 
 const corpus = {};
-for (const [fam, rel] of Object.entries(CORPUS)) {
-  const ruta = join(RAIZ, "datos/legal-es", rel);
-  if (!existsSync(ruta)) continue;
+function cargar(fam, ruta) {
+  if (!existsSync(ruta)) return;
   const arts = JSON.parse(readFileSync(ruta, "utf8")).articulos || [];
   if (arts.length) corpus[fam] = new Map(arts.map((a) => [a.ref ?? String(a.numero), a.texto]));
 }
+for (const [fam, rel] of Object.entries(CORPUS)) cargar(fam, join(RAIZ, "datos/legal-es", rel));
+for (const [fam, sec] of Object.entries(SECCION))
+  cargar(fam, join(RAIZ, "datos/legal-es/boe-600-pn/corpus", `seccion-${String(sec).padStart(3, "0")}.json`));
 
 const r = {
   ok: 0,
@@ -110,7 +145,13 @@ for (const f of readdirSync(LOTES).filter((x) => x.endsWith(".json"))) {
       continue;
     }
     const ref = refDe(act.articulo);
-    const texto = ref ? corpus[fam].get(ref) : null;
+    if (!ref) {
+      // Disposiciones y demás: el corpus no las trae, así que no se pueden
+      // contrastar. No son un fallo — son cobertura que falta.
+      r.noAuditable++;
+      continue;
+    }
+    const texto = corpus[fam].get(ref);
     const cotejo = norm(act.cotejo);
     if (texto && norm(texto).includes(cotejo)) {
       r.ok++;
@@ -131,7 +172,8 @@ for (const f of readdirSync(LOTES).filter((x) => x.endsWith(".json"))) {
     const fam = ((lote.conceptos || [])[0] || {}).id?.split("-")[0];
     if (!corpus[fam]) continue;
     const ref = refDe(art);
-    const texto = ref ? corpus[fam].get(ref) : null;
+    if (!ref) continue; // disposiciones: no están en el corpus
+    const texto = corpus[fam].get(ref);
     if (!texto) continue;
     const T = normalizarNumeros(texto);
     if (T.includes(normalizarNumeros(txt))) continue; // literal contiguo

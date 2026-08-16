@@ -248,20 +248,60 @@ def consolidar(dir_acum, dir_salida):
     fich = sorted(f for f in os.listdir(dir_acum) if f.startswith("seccion-"))
     if not fich:
         print(f"no hay secciones acumuladas en {dir_acum}"); sys.exit(1)
+    # La última sección acumulada es la que estaba abierta cuando se acabó el
+    # último trozo: mientras queden trozos por pasar, su texto está cortado. Se
+    # marca para que nadie la versione como si fuera la norma entera.
+    est_path = os.path.join(dir_acum, "_estado.json")
+    abierta = (json.load(open(est_path, encoding="utf-8")).get("ultima_seccion")
+               if os.path.exists(est_path) else None)
     for f in fich:
         raw = open(os.path.join(dir_acum, f), encoding="utf-8").read()
         data = parsear(raw)
         sec = data["meta"]["seccion"] or f
+        if sec == abierta:
+            data["meta"]["posiblemente_incompleta"] = True
         out = os.path.join(dir_salida, f"seccion-{sec:03d}-articulos.json"
                            if isinstance(sec, int) else f.replace(".txt", ".json"))
         json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
         n = len(data["articulos"])
         suf = sum(1 for a in data["articulos"] if a.get("sufijo"))
+        marca = "  ⚠ CORTADA (faltan trozos)" if data["meta"].get("posiblemente_incompleta") else ""
         print(f"  §{str(sec).ljust(3)} {n:4d} art ({suf} con sufijo) · {data['meta']['referencia_boe'] or 'SIN REFERENCIA'}"
-              f" · {(data['meta']['titulo'] or '')[:60]}")
+              f" · {(data['meta']['titulo'] or '')[:55]}{marca}")
+
+
+def indexar(dir_corpus):
+    """(Re)genera `indice.json` a partir de los JSON presentes en el corpus.
+
+    Es el mapa que consulta cualquier agente para saber qué normas hay, con qué
+    referencia BOE y cuántos artículos, sin abrir un solo PDF.
+    """
+    entradas = []
+    for f in sorted(os.listdir(dir_corpus)):
+        if not f.startswith("seccion-") or not f.endswith(".json"):
+            continue
+        d = json.load(open(os.path.join(dir_corpus, f), encoding="utf-8"))
+        m = d["meta"]
+        entradas.append({
+            "seccion": m.get("seccion"),
+            "titulo": m.get("titulo"),
+            "referencia_boe": m.get("referencia_boe"),
+            "ultima_modificacion": m.get("ultima_modificacion"),
+            "articulos": len(d.get("articulos", [])),
+            "fichero": f,
+        })
+    salida = os.path.join(dir_corpus, "indice.json")
+    json.dump({"normas": entradas}, open(salida, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=2)
+    print(f"{salida}: {len(entradas)} normas · "
+          f"{sum(e['articulos'] for e in entradas)} artículos")
 
 
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "--indice":
+        if len(sys.argv) < 3:
+            print("uso: python3 ingestor.py --indice <dir_corpus>"); sys.exit(1)
+        indexar(sys.argv[2]); return
     if len(sys.argv) > 1 and sys.argv[1] == "--codigo":
         if len(sys.argv) < 4:
             print("uso: python3 ingestor.py --codigo <trozo.pdf> <dir_acumulado>"); sys.exit(1)

@@ -1,0 +1,52 @@
+{
+  "normas": [
+    {
+      "seccion": 2,
+      "titulo": "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-1889-4763",
+      "ultima_modificacion": "3 de enero de 2025",
+      "articulos": 162,
+      "fichero": "seccion-002.json"
+    },
+    {
+      "seccion": 3,
+      "titulo": "Constitución Española",
+      "referencia_boe": "BOE-A-1978-31229",
+      "ultima_modificacion": "20 de mayo de 2026",
+      "articulos": 169,
+      "fichero": "seccion-003.json"
+    },
+    {
+      "seccion": 4,
+      "titulo": "Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional",
+      "referencia_boe": "BOE-A-1979-23709",
+      "ultima_modificacion": "2 de agosto de 2024",
+      "articulos": 104,
+      "fichero": "seccion-004.json"
+    },
+    {
+      "seccion": 5,
+      "titulo": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo",
+      "referencia_boe": "BOE-A-1981-10325",
+      "ultima_modificacion": "4 de noviembre de 2009",
+      "articulos": 37,
+      "fichero": "seccion-005.json"
+    },
+    {
+      "seccion": 6,
+      "titulo": "Ley Orgánica 4/1981, de 1 de junio, de los estados de alarma, excepción y sitio",
+      "referencia_boe": "BOE-A-1981-12774",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 36,
+      "fichero": "seccion-006.json"
+    },
+    {
+      "seccion": 7,
+      "titulo": "Ley Orgánica 9/2021, de 1 de julio, de aplicación del Reglamento (UE) 2017/1939 del Consejo, de 12 de octubre de 2017, por el que se establece una cooperación reforzada para la creación de la Fiscalía Europea. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2021-10957",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 20,
+      "fichero": "seccion-007.json"
+    }
+  ]
+}
