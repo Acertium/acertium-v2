@@ -152,13 +152,13 @@
       "Toda persona tiene derecho a la libertad ideológica, religiosa y de culto sin más límite que el orden público",
       "Toda persona tiene derecho a la libertad de expresión, de opinión y de recibir libremente información veraz",
       "Toda persona tiene derecho a la libertad de pensamiento, de cátedra y de creación literaria y artística"
-    ], "indice_correcto": 0, "cotejo": "1. Toda persona tiene derecho a la libertad de pensamiento, de conciencia y de religión; este derecho implica la libertad de cambiar de religión o de convicciones.", "justificacion": "CEDH art. 9.1" },
+    ], "indice_correcto": 0, "cotejo": "1. Toda persona tiene derecho a la libertad de pensamiento, de conciencia y de religión; este derecho implica la libertad de cambiar de religión o de convicciones, así como la libertad de manifestar su religión o sus convicciones individual o colectivamente, en público o en privado, por medio del culto, la enseñanza, las prácticas y la observancia de los ritos.", "justificacion": "CEDH art. 9.1" },
     { "concepto_id": "CEDH-013", "articulo": "art. 10", "tipo": "test", "enunciado": "¿Qué derecho reconoce el artículo 10.1 del Convenio?", "opciones": [
       "Toda persona tiene derecho a la libertad de expresión",
       "Toda persona tiene derecho a comunicar libremente información veraz por cualquier medio de difusión",
       "Toda persona tiene derecho a la libertad de expresión y de reunión pacífica sin autorización previa",
       "Toda persona tiene derecho a expresar sus opiniones sin más censura que la exigida por la seguridad nacional"
-    ], "indice_correcto": 0, "cotejo": "1. Toda persona tiene derecho a la libertad de expresión. Este derecho comprende la libertad de opinión y la libertad de recibir o de comunicar informaciones o ideas.", "justificacion": "CEDH art. 10.1" },
+    ], "indice_correcto": 0, "cotejo": "1. Toda persona tiene derecho a la libertad de expresión. Este derecho comprende la libertad de opinión y la libertad de recibir o de comunicar informaciones o ideas sin que pueda haber injerencia de autoridades públicas y sin consideración de fronteras.", "justificacion": "CEDH art. 10.1" },
     { "concepto_id": "CEDH-014", "articulo": "art. 11", "tipo": "test", "enunciado": "¿Qué reconoce el artículo 11.1 del Convenio?", "opciones": [
       "Toda persona tiene derecho a la libertad de reunión pacífica y a la libertad de asociación",
       "Toda persona tiene derecho a la libertad de reunión pacífica previa comunicación a la autoridad gubernativa",
@@ -182,7 +182,7 @@
       "El goce de los derechos y libertades reconocidos en el presente Convenio ha de garantizarse conforme a la ley nacional",
       "El goce de los derechos fundamentales corresponde por igual a todos los ciudadanos de las Altas Partes Contratantes",
       "El goce de los derechos y libertades no admite más límites que los establecidos por razones de orden público"
-    ], "indice_correcto": 0, "cotejo": "El goce de los derechos y libertades reconocidos en el presente Convenio ha de ser asegurado sin distinción alguna, especialmente por razones de sexo, raza, color, lengua, religión.", "justificacion": "CEDH art. 14" },
+    ], "indice_correcto": 0, "cotejo": "El goce de los derechos y libertades reconocidos en el presente Convenio ha de ser asegurado sin distinción alguna, especialmente por razones de sexo, raza, color, lengua, religión, opiniones políticas u otras, origen nacional o social, pertenencia a una minoría nacional, fortuna, nacimiento o cualquier otra situación.", "justificacion": "CEDH art. 14" },
     { "concepto_id": "CEDH-018", "articulo": "art. 15", "tipo": "test", "enunciado": "En caso de guerra o peligro público, ¿de qué artículos NO autoriza ninguna derogación el artículo 15?", "opciones": [
       "no autoriza ninguna derogación al artículo 2, salvo para el caso de muertes resultantes de actos lícitos de guerra, y a los artículos 3, 4 (párrafo 1) y 7",
       "no autoriza ninguna derogación a los artículos 5, 6 y 7, relativos a la libertad y a las garantías del proceso penal",

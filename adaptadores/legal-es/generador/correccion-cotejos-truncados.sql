@@ -33,13 +33,52 @@ set cotejo_fuente = 'Transcurridos seis meses desde el cumplimiento de la sanci�
 where concepto_id = 'DISC-026'
   and cotejo_fuente like '%cancelación de aquellas anotaciones.';
 
--- Comprobación: las dos filas deben salir con ok = true.
+-- Convenio Europeo de Derechos Humanos (ddhh-cedh.json). Mismo patrón: la cita
+-- cortaba antes de completar la regla.
+--   CEDH-012 (art. 9.1)  omitía la libertad de MANIFESTAR la religión.
+--   CEDH-013 (art. 10.1) omitía la cláusula de no injerencia de las autoridades.
+--   CEDH-017 (art. 14)   cortaba la LISTA de motivos de discriminación en
+--                        "religión", presentándola como si terminara ahí.
+
+update acertium_v2.actividad
+set cotejo_fuente = '1. Toda persona tiene derecho a la libertad de pensamiento, de conciencia y de religión; este derecho implica la libertad de cambiar de religión o de convicciones, así como la libertad de manifestar su religión o sus convicciones individual o colectivamente, en público o en privado, por medio del culto, la enseñanza, las prácticas y la observancia de los ritos.'
+where concepto_id = 'CEDH-012'
+  and cotejo_fuente like '%libertad de cambiar de religión o de convicciones.';
+
+update acertium_v2.actividad
+set cotejo_fuente = '1. Toda persona tiene derecho a la libertad de expresión. Este derecho comprende la libertad de opinión y la libertad de recibir o de comunicar informaciones o ideas sin que pueda haber injerencia de autoridades públicas y sin consideración de fronteras.'
+where concepto_id = 'CEDH-013'
+  and cotejo_fuente like '%comunicar informaciones o ideas.';
+
+update acertium_v2.actividad
+set cotejo_fuente = 'El goce de los derechos y libertades reconocidos en el presente Convenio ha de ser asegurado sin distinción alguna, especialmente por razones de sexo, raza, color, lengua, religión, opiniones políticas u otras, origen nacional o social, pertenencia a una minoría nacional, fortuna, nacimiento o cualquier otra situación.'
+where concepto_id = 'CEDH-017'
+  and cotejo_fuente like '%lengua, religión.';
+
+-- NO se toca CEDH-031 (art. 35), aunque la auditoría también lo marque: su texto
+-- íntegro dice "en el plazo de seis meses", y el Protocolo n.º 15 —cargado en
+-- ddhh-cedh-2— lo rebajó a cuatro meses. Restaurar la cita entera METERÍA el
+-- plazo derogado en una pregunta que se sirve. El truncamiento la deja correcta.
+
+-- Comprobación: las filas deben salir con ok = true.
 select concepto_id,
        cotejo_fuente like '%pruebas relacionadas con los mismos.' as ok
 from acertium_v2.actividad where concepto_id = 'SP-013'
 union all
 select concepto_id,
        cotejo_fuente like '%en esos mismos períodos.' as ok
-from acertium_v2.actividad where concepto_id = 'DISC-026';
+from acertium_v2.actividad where concepto_id = 'DISC-026'
+union all
+select concepto_id,
+       cotejo_fuente like '%la observancia de los ritos.' as ok
+from acertium_v2.actividad where concepto_id = 'CEDH-012'
+union all
+select concepto_id,
+       cotejo_fuente like '%sin consideración de fronteras.' as ok
+from acertium_v2.actividad where concepto_id = 'CEDH-013'
+union all
+select concepto_id,
+       cotejo_fuente like '%o cualquier otra situación.' as ok
+from acertium_v2.actividad where concepto_id = 'CEDH-017';
 
 commit;
