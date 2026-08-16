@@ -5,6 +5,36 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-16 — PROMPT_019: nota de traspaso empujada; su punto 4 era falso
+
+**Encargo.** Empujar `f645a9c` (la nota `PARA-CODE-APP.md` que Cowork commiteó pero no pudo subir) y
+quitar los locks huérfanos. Detalle en `RESULTADO_019.md`.
+
+**Hecho.** Los dos locks (`HEAD.lock` e `index.lock`) estaban vacíos y sin ningún proceso git vivo;
+borrados. Push limpio: `74167b1..f645a9c`. Verificado: `origin/main...HEAD` = `0 0` y
+`PARA-CODE-APP.md` en el remoto.
+
+**Causa del lock huérfano, por fin identificada:** una sandbox sin credenciales de GitHub que intenta
+`push`; falla al autenticar y deja los `.lock`. Era el pendiente que arrastraba desde el 016.
+
+### La nota decía que el planificador estaba sin enchufar — y no es cierto
+
+Su punto 4 pedía "enchufar el planificador/BKT en `/practicar`, que hoy usa `order by random()`".
+**Está hecho desde el PROMPT_001**: `lib/cerebro.ts` importa `planDia` y `absorcion` del núcleo y
+`siguienteActividad()` decide con el RPC `practicar_estado`; el `order by random()` solo queda como
+red de seguridad (línea 198, comentada como "Fallback"). Verificado en el código.
+
+Como la nota es el punto de arranque del Code de la app, tal cual habría hecho que reimplementara un
+selector que ya funciona. **Corregido en la propia nota**, tachado y firmado para que Cowork vea el
+cambio, dejando dicho lo que sí sigue abierto: el horizonte del planificador está fijo en 180 días
+porque `convocatoria` no guarda fecha de examen.
+
+**Añadido para quien lea la nota:** las variables de Vercel solo aplican a despliegues nuevos (si
+`ADMIN_TOKEN` se fijó después del último deploy, `/admin` sigue en 404 hasta redesplegar), y `/admin`
+de V2 no está en `acertium.es` —eso es V1— sino en el proyecto `acertium-v2`, tras el SSO de Vercel.
+
+---
+
 ## 2026-08-16 — PROMPT_018: ya estaba subido; y el corpus no está en el repo
 
 **Encargo.** Subir a GitHub 9 ficheros (los 6 lotes del Grupo C y los PROMPT_015-017) para poder

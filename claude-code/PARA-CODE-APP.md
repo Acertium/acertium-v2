@@ -38,8 +38,15 @@
    (aristas de ETICA); *Crime as a Service* del T41; 21 aristas sin id concreto del PROMPT_014;
    2ª pasadas menores en T34/T35/T36; afinar distractores de CIBER-2 (43%) y CEDH-2 (47%), que pasan
    la puerta dura (55%) pero superan el objetivo de Capa 2 (35%).
-4. **Enchufar el planificador/BKT en `/practicar`** (hoy usa `order by random()`, no el motor de
-   repaso espaciado ya diseñado en `nucleo/`).
+4. ~~**Enchufar el planificador/BKT en `/practicar`**~~ — **ya está hecho** (corregido por Code el
+   16/08 al ejecutar el PROMPT_019; la nota decía que `/practicar` seguía con `order by random()`).
+   Lo hizo el PROMPT_001: `lib/cerebro.ts` importa `planDia` de `nucleo/planificador.mjs` y
+   `absorcion` de `nucleo/motor-bkt.mjs`, y `siguienteActividad()` decide con el RPC
+   `practicar_estado(conv, usuario)`. El `order by random()` solo queda como **red de seguridad**
+   (`siguiente_actividad_test()`, `lib/cerebro.ts:197`) para que el usuario nunca se quede sin
+   pregunta si algo falla. Verificado en el código, no de memoria. Ver `RESULTADO_001.md` §3.
+   Lo que sí sigue abierto de ese frente: el horizonte del planificador está fijo en 180 días porque
+   `convocatoria` no guarda fecha de examen (`HORIZONTE_DIAS` en `lib/cerebro.ts`).
 5. Averiguar qué deja huérfano el `.git/index.lock` (aparece cuando dos agentes escriben a la vez).
 
 ## 3. ⚠ LÍMITE para trabajar desde la nube (aviso de RESULTADO_018, confirmado)
@@ -54,7 +61,7 @@ Consecuencia práctica:
   que lo intente encontrará el fichero ausente o (peor) tirará de memoria — prohibido por `CLAUDE.md`.
 
 **Decisión pendiente de Jonathan** (tiene coste, no la tomes tú): (1) versionar el corpus (~23 MB,
-Git lo aguanta) cambiando el criterio del `.gitignore y anotando por qué; (2) Git LFS para los PDF;
+Git lo aguanta) cambiando el criterio del `.gitignore` y anotando por qué; (2) Git LFS para los PDF;
 (3) dejarlo como está y generar contenido solo desde el PC. Hasta que se decida, **la generación de
 los 4 temas se hace desde el PC**, no desde la app.
 
