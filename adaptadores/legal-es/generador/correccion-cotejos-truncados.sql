@@ -105,3 +105,33 @@ select concepto_id,
 from acertium_v2.actividad where concepto_id = 'MININT-014';
 
 commit;
+
+-- ---------------------------------------------------------------------------
+-- SEGUNDA TANDA (triaje del 16/08/2026, con el Código 600 ya completo en el
+-- corpus). ✅ APLICADA EN PRODUCCIÓN. Los cuatro eran ELISIONES: unían texto
+-- saltándose una cláusula intermedia sin marcarlo, así que la frase parecía
+-- literal sin serlo. En los cuatro la respuesta era correcta; lo que fallaba
+-- era la cita. Se repone el tramo contiguo real de la norma.
+--
+--   MF-025   (Ley 50/1981, art. 17) — se saltaba "sin perjuicio de las demás
+--            que le atribuya este Estatuto…" entre "funciones" y "a) Sustituirá".
+--   CDPN-010 (RD 49/2024, art. 5)  — empalmaba el apartado a) con el c)
+--            OMITIENDO EL b) ENTERO, sin marca alguna.
+--   IC-016   (Ley 8/2011, art. 5)  — se comía el inciso "(en adelante, el Sistema)".
+--   ACOG-035 (RD 220/2022, art. 29) — se comía "en los términos de lo dispuesto
+--            en el capítulo V del título II de este reglamento".
+--
+-- Verificado tras aplicar: md5 idéntico al del lote en los cuatro, los cuatro en
+-- `verificado`, y la opción correcta sostenida por el cotejo (CDPN-010 solo
+-- ignorando mayúsculas: la norma escribe "la Jefatura" y la opción "La
+-- Jefatura"; `verificar-lote` normaliza el caso, así que su puerta lo acepta).
+
+update acertium_v2.actividad set cotejo_fuente = 'El Teniente Fiscal del Tribunal Supremo desempeñará las siguientes funciones, sin perjuicio de las demás que le atribuya este Estatuto o el reglamento que lo desarrolle, o que pueda delegarle el Fiscal General del Estado: a) Sustituirá al Fiscal General del Estado en caso de ausencia, imposibilidad o vacante.' where concepto_id = 'MF-025';
+update acertium_v2.actividad set cotejo_fuente = 'La persona titular de la Jefatura de Régimen Interior asumirá las siguientes funciones: a) Proponer a la persona titular de la Dirección del centro docente la actualización o modificación de las normas de régimen interior relativas a la actividad del centro. b) Supervisar al personal adscrito al centro, el seguimiento de la aptitud de los alumnos y las actividades del centro que no sean específicamente docentes. c) Planificar y supervisar la seguridad del centro y la correcta utilización de sus instalaciones.' where concepto_id = 'CDPN-010';
+update acertium_v2.actividad set cotejo_fuente = 'El Sistema de Protección de Infraestructuras Críticas (en adelante, el Sistema) se compone de una serie de instituciones, órganos y empresas, procedentes tanto del sector público como del privado' where concepto_id = 'IC-016';
+update acertium_v2.actividad set cotejo_fuente = 'Los centros de acogida de protección internacional son centros abiertos, de alojamiento colectivo, destinados a proporcionar, en los términos de lo dispuesto en el capítulo V del título II de este reglamento, acogida a las personas destinatarias' where concepto_id = 'ACOG-035';
+
+-- NO se toca PJ-020, que la auditoría marca y seguirá marcando: el texto oficial
+-- del RD 769/1987 dice "a la Unidades" (sin la «s») y "Comisión Provincial
+-- Coordinación" (sin el «de»), y el lote corrigió ambas erratas. Alinear el lote
+-- con la errata sería empeorar lo que lee el opositor.

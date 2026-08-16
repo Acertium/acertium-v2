@@ -162,6 +162,7 @@ const r = {
   ok: 0,
   noAuditable: 0,
   truncadas: [],
+  formato: [],
   contaminadas: [],
   fabricadas: [],
   reformuladas: [],
@@ -213,6 +214,17 @@ for (const f of readdirSync(LOTES).filter((x) => x.endsWith(".json"))) {
     // Si el texto vive en un artículo que comparte número base y lleva sufijo,
     // es la contaminación del ingestor, no una cita truncada.
     if (donde.some((d) => ref && d.startsWith(ref + " "))) r.contaminadas.push(reg);
+    // Si el desajuste DESAPARECE al ignorar puntuación, acentos y mayúsculas,
+    // las palabras del cotejo SÍ están en la norma, seguidas y en orden: no se ha
+    // alterado ni empalmado nada. Queda o un artefacto de formato (la viñeta de
+    // "-Policía" que pdftotext deja pegada, el "º" de "artículo 5.º", un guion de
+    // fin de línea) o una cita que PARA ANTES cerrando con punto donde la norma
+    // seguía con coma. Lo segundo sí puede importar —SP-013 y DISC-026 eran de
+    // aquí— pero solo se sabe leyendo QUÉ quedó fuera; no se puede decidir
+    // automáticamente, así que se listan aparte en vez de mezclarlas con las de
+    // abajo, que son de otra naturaleza.
+    else if (texto && normalizarNumeros(texto).includes(normalizarNumeros(act.cotejo)))
+      r.formato.push(reg);
     else r.truncadas.push(reg);
   }
 
@@ -238,13 +250,16 @@ console.log("=== AUDITORÍA DE GROUNDING CONTRA EL CORPUS OFICIAL ===");
 console.log(`  cotejos literales OK          : ${r.ok}`);
 console.log(`  NO auditables (sin corpus)    : ${r.noAuditable}`);
 console.log(`  (A) citas truncadas           : ${r.truncadas.length}`);
+console.log(`      · palabras intactas, corta antes o difiere el formato: ${r.formato.length}`);
 console.log(`  (B) contaminación bis/ter     : ${r.contaminadas.length}`);
 console.log(`  (C) frases con elisión        : ${r.fabricadas.length}`);
 console.log(`  (D) citas reformuladas (TODO el banco, sin corpus): ${r.reformuladas.length}`);
 for (const c of r.contaminadas)
   console.log(`   ⚠ [${c.concepto}] dice "${c.dice}" pero su texto está en ${c.donde.join(", ")} — ${c.lote}`);
 for (const c of r.truncadas)
-  console.log(`   ✗ [${c.concepto}] ${c.lote} · dice "${c.dice}" y la cita no aparece entera en ese artículo`);
+  console.log(`   ✗ [${c.concepto}] ${c.lote} · dice "${c.dice}" — PALABRAS ALTERADAS (elisión, empalme o errata corregida)`);
+for (const c of r.formato)
+  console.log(`   · [${c.concepto}] ${c.lote} "${c.dice}" — palabras intactas: revisar qué quedó fuera`);
 for (const c of r.fabricadas)
   console.log(`   ✗ ${c.lote} ${c.art}: ${c.fuera}/${c.total} frases no existen asi en la norma (elision)`);
 for (const c of r.reformuladas)
