@@ -5,7 +5,15 @@ Convierte un PDF de una norma del Código 600 en un JSON de artículos con el
 TEXTO LITERAL, para que el generador (y cualquier agente) lo lea sin tocar el PDF.
 
 Uso:
+    # 1) Una norma por PDF (como se recorta en el PC)
     python3 ingestor.py <norma.pdf> [salida.json]
+
+    # 2) El Código 600 en trozos de N páginas (cuando no se puede recortar por
+    #    norma). Cada trozo trae VARIAS normas y puede partir una por la mitad,
+    #    así que primero se acumula el texto crudo por sección y se parsea al
+    #    final, cuando ya están todos los trozos:
+    python3 ingestor.py --codigo <trozo.pdf> <dir_acumulado>     # por cada trozo
+    python3 ingestor.py --consolidar <dir_acumulado> <dir_salida>  # una vez al final
 
 Regla de oro (Doc 006): el generador consume ESTE JSON, nunca el PDF.
 """
@@ -63,15 +71,48 @@ def es_pie(linea):
         return True
     return False
 
-def ingerir(pdf_path):
-    raw = subprocess.run(["pdftotext", "-raw", pdf_path, "-"],
-                         capture_output=True, text=True).stdout
+def texto_pdf(pdf_path):
+    return subprocess.run(["pdftotext", "-raw", pdf_path, "-"],
+                          capture_output=True, text=True).stdout
+
+
+# El inicio de una norma dentro del Código es una línea que contiene SOLO "§ N".
+# El encabezado corrido de página es "§ 2 Código Civil [parcial]", con texto
+# detrás — y las entradas del sumario son "§ 2. Real Decreto... 3". Solo la
+# primera forma abre norma; por eso el patrón está anclado por los dos extremos.
+RE_SECCION = re.compile(r'^§\s*(\d+)\s*$')
+
+
+def trocear_codigo(raw):
+    """Parte el texto de un trozo del Código en [(seccion|None, texto)].
+
+    El primer tramo lleva `seccion=None` cuando el trozo empieza a mitad de una
+    norma (viene del trozo anterior) o cuando es la portada + sumario del tomo.
+    Se conservan los saltos de página: `parsear` los necesita para la cabecera.
+    """
+    tramos, seccion, buf = [], None, []
+    for linea in raw.split('\n'):
+        m = RE_SECCION.match(linea.strip())
+        if m:
+            tramos.append((seccion, '\n'.join(buf)))
+            seccion, buf = int(m.group(1)), [linea]
+        else:
+            buf.append(linea)
+    tramos.append((seccion, '\n'.join(buf)))
+    return [(s, t) for s, t in tramos if t.strip()]
+
+
+def parsear(raw):
     pages = raw.split('\f')
 
     # metadatos de la cabecera (página 1): § N, título, «BOE», Última modificación, Referencia
     meta = {"seccion": None, "titulo": None, "referencia_boe": None,
             "publicacion": None, "ultima_modificacion": None}
-    head = [l.strip() for l in pages[0].splitlines() if l.strip()]
+    # La cabecera se busca en la primera página CON contenido, no en pages[0]:
+    # al trocear el Código, la sección arranca con un salto de página pegado a
+    # la marca ("\f§ 2"), así que pages[0] queda vacía y el meta salía a null.
+    portada = next((p for p in pages if p.strip()), "")
+    head = [l.strip() for l in portada.splitlines() if l.strip()]
     for i, l in enumerate(head[:15]):
         m = re.match(r'^§\s*(\d+)\s*$', l)
         if m and meta["seccion"] is None:
@@ -157,9 +198,80 @@ def ingerir(pdf_path):
 
     return {"meta": meta, "articulos": arts}
 
+
+def ingerir(pdf_path):
+    return parsear(texto_pdf(pdf_path))
+
+
+def acumular(pdf, dir_acum):
+    """Vuelca un trozo del Código en `dir_acum`, un fichero de texto por sección.
+
+    Acumula en vez de parsear porque un trozo corta por número de página, no por
+    norma: la última sección de un trozo casi siempre continúa en el siguiente.
+    El texto que aparece ANTES de la primera marca de sección pertenece a la
+    última norma del trozo anterior, que se recuerda en `_estado.json`.
+    """
+    os.makedirs(dir_acum, exist_ok=True)
+    est_path = os.path.join(dir_acum, "_estado.json")
+    estado = json.load(open(est_path, encoding="utf-8")) if os.path.exists(est_path) else {}
+    ultima = estado.get("ultima_seccion")
+
+    nuevas, continuadas = [], []
+    for seccion, texto in trocear_codigo(texto_pdf(pdf)):
+        if seccion is None:
+            # Sin norma previa esto es la portada + sumario del tomo: se tira.
+            if ultima is None:
+                continue
+            seccion, cont = ultima, True
+        else:
+            cont = False
+        destino = os.path.join(dir_acum, f"seccion-{seccion:03d}.txt")
+        existe = os.path.exists(destino)
+        with open(destino, "a", encoding="utf-8") as fh:
+            if existe:
+                fh.write("\n")
+            fh.write(texto)
+        (continuadas if cont else nuevas).append(seccion)
+        ultima = seccion
+
+    estado["ultima_seccion"] = ultima
+    json.dump(estado, open(est_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    print(f"{os.path.basename(pdf)}")
+    print(f"  secciones nuevas    : {', '.join('§' + str(s) for s in nuevas) or '—'}")
+    print(f"  continúa de antes   : {', '.join('§' + str(s) for s in continuadas) or '—'}")
+    print(f"  última (puede seguir en el trozo siguiente): §{ultima}")
+
+
+def consolidar(dir_acum, dir_salida):
+    """Parsea a JSON cada sección acumulada. Ejecutar cuando estén TODOS los trozos."""
+    os.makedirs(dir_salida, exist_ok=True)
+    fich = sorted(f for f in os.listdir(dir_acum) if f.startswith("seccion-"))
+    if not fich:
+        print(f"no hay secciones acumuladas en {dir_acum}"); sys.exit(1)
+    for f in fich:
+        raw = open(os.path.join(dir_acum, f), encoding="utf-8").read()
+        data = parsear(raw)
+        sec = data["meta"]["seccion"] or f
+        out = os.path.join(dir_salida, f"seccion-{sec:03d}-articulos.json"
+                           if isinstance(sec, int) else f.replace(".txt", ".json"))
+        json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+        n = len(data["articulos"])
+        suf = sum(1 for a in data["articulos"] if a.get("sufijo"))
+        print(f"  §{str(sec).ljust(3)} {n:4d} art ({suf} con sufijo) · {data['meta']['referencia_boe'] or 'SIN REFERENCIA'}"
+              f" · {(data['meta']['titulo'] or '')[:60]}")
+
+
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "--codigo":
+        if len(sys.argv) < 4:
+            print("uso: python3 ingestor.py --codigo <trozo.pdf> <dir_acumulado>"); sys.exit(1)
+        acumular(sys.argv[2], sys.argv[3]); return
+    if len(sys.argv) > 1 and sys.argv[1] == "--consolidar":
+        if len(sys.argv) < 4:
+            print("uso: python3 ingestor.py --consolidar <dir_acumulado> <dir_salida>"); sys.exit(1)
+        consolidar(sys.argv[2], sys.argv[3]); return
     if len(sys.argv) < 2:
-        print("uso: python3 ingestor.py <norma.pdf> [salida.json]"); sys.exit(1)
+        print(__doc__); sys.exit(1)
     pdf = sys.argv[1]
     out = sys.argv[2] if len(sys.argv) > 2 else \
         os.path.splitext(pdf)[0] + "-articulos.json"
