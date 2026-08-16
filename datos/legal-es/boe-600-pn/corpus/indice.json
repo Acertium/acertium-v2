@@ -47,6 +47,78 @@
       "ultima_modificacion": "sin modificaciones",
       "articulos": 20,
       "fichero": "seccion-007.json"
+    },
+    {
+      "seccion": 8,
+      "titulo": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2015-10566",
+      "ultima_modificacion": "2 de agosto de 2024",
+      "articulos": 166,
+      "fichero": "seccion-008.json"
+    },
+    {
+      "seccion": 9,
+      "titulo": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "referencia_boe": "BOE-A-1997-25336",
+      "ultima_modificacion": "3 de enero de 2025",
+      "articulos": 29,
+      "fichero": "seccion-009.json"
+    },
+    {
+      "seccion": 10,
+      "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2015-11719",
+      "ultima_modificacion": "30 de julio de 2025",
+      "articulos": 51,
+      "fichero": "seccion-010.json"
+    },
+    {
+      "seccion": 11,
+      "titulo": "Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior",
+      "referencia_boe": "BOE-A-2024-3793",
+      "ultima_modificacion": "27 de abril de 2026",
+      "articulos": 17,
+      "fichero": "seccion-011.json"
+    },
+    {
+      "seccion": 12,
+      "titulo": "Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía",
+      "referencia_boe": "BOE-A-2023-17072",
+      "ultima_modificacion": "17 de agosto de 2023",
+      "articulos": 28,
+      "fichero": "seccion-012.json"
+    },
+    {
+      "seccion": 13,
+      "titulo": "Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2015-8468",
+      "ultima_modificacion": "12 de noviembre de 2024",
+      "articulos": 97,
+      "fichero": "seccion-013.json"
+    },
+    {
+      "seccion": 14,
+      "titulo": "Ley Orgánica 4/2010, de 20 de mayo, del Régimen disciplinario del Cuerpo Nacional de Policía",
+      "referencia_boe": "BOE-A-2010-8115",
+      "ultima_modificacion": "29 de julio de 2015",
+      "articulos": 50,
+      "fichero": "seccion-014.json"
+    },
+    {
+      "seccion": 15,
+      "titulo": "Real Decreto 853/2022, de 11 de octubre, por el que se aprueba el Reglamento de procesos selectivos y formación de la Policía Nacional",
+      "referencia_boe": "BOE-A-2022-16582",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 47,
+      "fichero": "seccion-015.json"
+    },
+    {
+      "seccion": 16,
+      "titulo": "Orden INT/632/2024, de 20 de junio, por la que se establecen normas para la aplicación y desarrollo del Reglamento de procesos selectivos y formación de la Policía Nacional, aprobado por el Real Decreto 853/2022, de 11 de octubre",
+      "referencia_boe": "BOE-A-2024-12811",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 66,
+      "fichero": "seccion-016.json"
     }
   ]
 }

@@ -55,6 +55,18 @@ set cotejo_fuente = 'El goce de los derechos y libertades reconocidos en el pres
 where concepto_id = 'CEDH-017'
   and cotejo_fuente like '%lengua, religión.';
 
+-- MININT-014 (RD 207/2024, art. 2.5). Caso distinto: no truncaba, ENGARZABA. El
+-- cotejo listaba "a) …Infraestructuras y Medios para la Seguridad. b) …Sistemas
+-- de Información…" como si fueran seguidos, cuando en la norma cada apartado
+-- lleva detrás su descripción de funciones. La frase resultante parecía literal
+-- y no existe. Se sustituye por el tramo literal del artículo, que sigue
+-- sosteniendo la respuesta correcta.
+
+update acertium_v2.actividad
+set cotejo_fuente = '5. Asimismo dependen de la persona titular de la Secretaría de Estado los siguientes órganos con nivel orgánico de subdirección general: a) La Subdirección General de Planificación y Gestión de Infraestructuras y Medios para la Seguridad, a la que corresponde, sin perjuicio de las competencias legalmente atribuidas al organismo autónomo Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado, el desarrollo de las siguientes funciones:'
+where concepto_id = 'MININT-014'
+  and cotejo_fuente like '%Comunicaciones para la Seguridad.';
+
 -- NO se toca CEDH-031 (art. 35), aunque la auditoría también lo marque: su texto
 -- íntegro dice "en el plazo de seis meses", y el Protocolo n.º 15 —cargado en
 -- ddhh-cedh-2— lo rebajó a cuatro meses. Restaurar la cita entera METERÍA el
@@ -79,6 +91,10 @@ from acertium_v2.actividad where concepto_id = 'CEDH-013'
 union all
 select concepto_id,
        cotejo_fuente like '%o cualquier otra situación.' as ok
-from acertium_v2.actividad where concepto_id = 'CEDH-017';
+from acertium_v2.actividad where concepto_id = 'CEDH-017'
+union all
+select concepto_id,
+       cotejo_fuente like '%el desarrollo de las siguientes funciones:' as ok
+from acertium_v2.actividad where concepto_id = 'MININT-014';
 
 commit;

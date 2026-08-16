@@ -19,8 +19,14 @@
 //   (B) CONTAMINACIÓN bis/ter — el cotejo sí existe, pero en un artículo con
 //       sufijo (31 bis, 557 ter…) y no en el que se le atribuye. Es la firma del
 //       fallo del ingestor corregido el 16/08/2026.
-//   (C) FABRICACIÓN — un bloque `fuentes` con texto que no está en la norma.
-//       Un recorte NO contiguo (apartado 1 + apartado 3) es legítimo y no cuenta.
+//   (C) ELISIÓN — un bloque `fuentes` con una frase que NO existe en la norma
+//       porque se unió texto saltándose una cláusula intermedia sin marcarlo:
+//       "…a la persona titular de la Dirección General existirá un Gabinete
+//       Técnico" cuando la norma dice "…Dirección General, PARA FACILITARLE EL
+//       DESPACHO Y LA COORDINACIÓN…, existirá un Gabinete Técnico". No hay texto
+//       inventado —de ahí que no se llame fabricación—, pero el resultado parece
+//       literal y no lo es. Un recorte NO contiguo entre frases (apartado 1 +
+//       apartado 3) sí es legítimo y no cuenta.
 //   (D) REFORMULADAS — el cotejo no es literal ni respecto del `fuentes` de su
 //       PROPIO lote: recorta a mitad de frase o recapitaliza. No necesita corpus,
 //       así que ESTA comprobación cubre el banco ENTERO, también las familias de
@@ -47,6 +53,15 @@ const SECCION = {
   DP: 5, // LO 3/1981, Defensor del Pueblo
   EAES: 6, // LO 4/1981, estados de alarma, excepción y sitio
   FE: 7, // LO 9/2021, Fiscalía Europea
+  AGE: 8, // Ley 40/2015, Régimen Jurídico del Sector Público [parcial]
+  GOB: 9, // Ley 50/1997, del Gobierno
+  EBEP: 10, // RDLeg 5/2015, Estatuto Básico del Empleado Público [parcial]
+  MININT: 11, // RD 207/2024, estructura orgánica del Ministerio del Interior
+  DGP: 12, // Orden INT/859/2023, Dirección General de la Policía
+  PPN: 13, // LO 9/2015, Régimen de Personal de la Policía Nacional [parcial]
+  DISC: 14, // LO 4/2010, Régimen disciplinario — gana al corpus suelto de abajo
+  SEL: 15, // RD 853/2022, procesos selectivos
+  DPSF: 16, // Orden INT/632/2024, desarrollo de los procesos selectivos
 };
 
 // Corpus antiguos, ingeridos uno a uno antes de tener el Código entero. Se
@@ -190,14 +205,14 @@ console.log(`  cotejos literales OK          : ${r.ok}`);
 console.log(`  NO auditables (sin corpus)    : ${r.noAuditable}`);
 console.log(`  (A) citas truncadas           : ${r.truncadas.length}`);
 console.log(`  (B) contaminación bis/ter     : ${r.contaminadas.length}`);
-console.log(`  (C) fragmentos fabricados     : ${r.fabricadas.length}`);
+console.log(`  (C) frases con elisión        : ${r.fabricadas.length}`);
 console.log(`  (D) citas reformuladas (TODO el banco, sin corpus): ${r.reformuladas.length}`);
 for (const c of r.contaminadas)
   console.log(`   ⚠ [${c.concepto}] dice "${c.dice}" pero su texto está en ${c.donde.join(", ")} — ${c.lote}`);
 for (const c of r.truncadas)
   console.log(`   ✗ [${c.concepto}] ${c.lote} · dice "${c.dice}" y la cita no aparece entera en ese artículo`);
 for (const c of r.fabricadas)
-  console.log(`   ✗ ${c.lote} ${c.art}: ${c.fuera}/${c.total} fragmentos no están en la norma`);
+  console.log(`   ✗ ${c.lote} ${c.art}: ${c.fuera}/${c.total} frases no existen asi en la norma (elision)`);
 for (const c of r.reformuladas)
   console.log(`   · [${c.concepto}] ${c.lote} "${c.art}" — la cita no es literal ni en su propio bloque fuentes`);
 console.log(`  familias sin corpus con el que contrastar: ${[...r.familiasSinCorpus].sort().join(" ")}`);
