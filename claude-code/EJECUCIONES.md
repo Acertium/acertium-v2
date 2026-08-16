@@ -5,6 +5,49 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-16 — PROMPT_016: Grupo C oleada 1 + estado por concepto
+
+**Encargo.** Cargar ETICA, INMIG y GEOD (temas 30-32), lotes **mixtos**, y hacer que el estado de
+verificación se decida por concepto y no por lote. Detalle en `RESULTADO_016.md`.
+
+### Qué cambia
+
+- **`cargar.mjs` fija el estado POR CONCEPTO**, con la cascada concepto → meta del lote →
+  `verificado`. Ese último escalón es el camino de los lotes BOE (no declaran `tipo_fuente` porque su
+  grounding lo garantiza `verificar-lote`); dentro de un lote no-BOE, un concepto mudo hereda el del
+  lote, que aquí es `consenso`. Fail-closed sin mandar a la cola las 2.500 preguntas del corpus BOE.
+  La actividad hereda de SU concepto salvo que declare el suyo.
+- **`verificar-fuente` también juzga por concepto.** No lo pedía el encargo, pero sin ello la puerta
+  fallaba en la dirección peligrosa: eximía del check literal a las 39 definiciones citables. Añadido
+  además el control de que un concepto no puede autoproclamarse `verificado` siendo de consenso.
+- Registradas ETICA, INMIG y GEOD. El aviso del §2 sobre dominios se cumplió con ETICA: cita el CP por
+  id `BOE-A-…` sin URL, así que el registro se ajustó a lo que el lote cita de verdad.
+
+### Resultado
+
+| Familia | Conceptos | verificado | pendiente_revision |
+|---|---|---|---|
+| ETICA | 15 | 5 | 10 |
+| INMIG | 21 | 16 | 5 |
+| GEOD | 23 | 20 | 3 |
+
+Coincide exactamente con lo previsto. Base: **2.576 conceptos**, **2.504 preguntas servibles**,
+**20 en cola**. Aserciones a 0. Las 5 aristas fuera de familia resuelven; ETICA→CP va a
+`remision_pendiente` porque los arts. 22.4ª y 510 no están segmentados.
+
+**Aislamiento probado con contenido real**: 0 pendientes alcanzables por `simulacro_muestra` y 0
+conceptos pendientes candidatos en `practicar_estado`. Y `/admin` los lista para aprobar.
+
+### Pendientes / notas
+
+- Las 20 de consenso **están sin revisar**: hasta que se aprueben por `/admin`, los temas 30-32 se
+  sirven solo con su parte citable.
+- En el panel, «fuente» muestra la `norma` entera del lote, que en estas familias es un párrafo.
+- Quedan los temas **28, 29 y 33** del Grupo C. Sus lotes ya están en `lotes/` pero no son de este
+  encargo y no se han tocado.
+
+---
+
 ## 2026-08-16 — PROMPT_015: los 3 lotes de relleno, desbloqueados
 
 **Encargo.** Refinar la puerta de metadatos —no relajarla— para que entren `ciber-incibe-2`,

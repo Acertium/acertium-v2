@@ -101,29 +101,45 @@ export function verificarFuente(lote) {
         (tipo === "consenso" ? " (un consenso NUNCA se carga verificado)" : ""),
     });
 
+  // PROMPT_016: LOTES MIXTOS. Los del Grupo C traen su `tipo_fuente` POR
+  // CONCEPTO: "inmigración" son 13 definiciones de la OIM y 3 del INE (citables
+  // literalmente) junto a 5 de consenso. Juzgar las 21 con el tipo del lote
+  // sería un error en los dos sentidos: exigiría substring a las de consenso, o
+  // —lo que de verdad pasaba— eximiría del check literal a las citables.
+  // Cada actividad se juzga por el tipo de SU concepto; el del lote es el
+  // respaldo cuando el concepto no dice nada.
+  const tipoPorConcepto = new Map(
+    (lote.conceptos || []).map((c) => [c.id, TIPOS_FUENTE.includes(c.tipo_fuente) ? c.tipo_fuente : null]),
+  );
+  const cuenta = { oficial: 0, autoridad: 0, consenso: 0 };
+
   const F = lote.fuentes || {};
   for (const a of lote.actividades || []) {
     const id = a.concepto_id;
     const ops = a.opciones || [];
     const correcta = ops[a.indice_correcto];
+    const tipoAct =
+      (TIPOS_FUENTE.includes(a.tipo_fuente) ? a.tipo_fuente : null) ?? tipoPorConcepto.get(id) ?? tipo;
+    cuenta[tipoAct] = (cuenta[tipoAct] ?? 0) + 1;
 
     if (vacio(a.cotejo)) {
       rechazos.push({ concepto: id, motivo: "falta cotejo" });
       continue;
     }
 
-    if (tipo === "oficial" || tipo === "autoridad") {
+    if (tipoAct === "oficial" || tipoAct === "autoridad") {
       // Check literal, igual que legal-es: la correcta ⊂ cotejo, y el cotejo ⊂
       // el texto de la fuente cuando el lote lo trae.
       if (correcta && !norm(a.cotejo).includes(norm(correcta)))
-        rechazos.push({ concepto: id, motivo: `la opción correcta no está sostenida por el cotejo (${tipo})` });
+        rechazos.push({ concepto: id, motivo: `la opción correcta no está sostenida por el cotejo (${tipoAct})` });
       const src = F[a.articulo];
       if (src && !norm(src).includes(norm(a.cotejo)))
         rechazos.push({ concepto: id, motivo: "el cotejo NO es texto literal de la fuente" });
     } else {
       // consenso: no se exige substring (una paráfrasis fiel no lo cumple), pero
       // sí que se diga DE DÓNDE sale, con precisión suficiente para revisarlo.
-      const ref = a.referencia_fuente ?? a.referencia ?? referencia;
+      const concepto = (lote.conceptos || []).find((c) => c.id === id);
+      const ref = a.referencia_fuente ?? a.referencia ?? concepto?.referencia_fuente ?? concepto?.fuente ?? referencia;
       if (!referenciaConcreta(ref))
         rechazos.push({
           concepto: id,
@@ -142,14 +158,37 @@ export function verificarFuente(lote) {
     }
   }
 
+  // Un concepto no puede autoproclamarse verificado si es de consenso, igual que
+  // el lote. Es el mismo control del contrato §3, aplicado al nivel donde ahora
+  // vive el tipo de fuente.
+  for (const c of lote.conceptos || []) {
+    const t = tipoPorConcepto.get(c.id) ?? tipo;
+    const destino = estadoSegunTipoFuente(t);
+    if (c.estado_verificacion && c.estado_verificacion !== destino)
+      rechazos.push({
+        concepto: c.id,
+        motivo: `el concepto se declara estado_verificacion="${c.estado_verificacion}" pero siendo ${t} debe cargarse como "${destino}"`,
+      });
+  }
+
+  const mixto = new Set([...Object.entries(cuenta).filter(([, n]) => n > 0).map(([t]) => t)]);
+  const desglose = Object.entries(cuenta)
+    .filter(([, n]) => n > 0)
+    .map(([t, n]) => `${n} ${t}`)
+    .join(" · ");
+
   return {
     ok: rechazos.length === 0,
     resumen:
-      `fuente: tipo=${tipo} · ${(lote.actividades || []).length} actividades · ` +
-      `destino=${estadoDestino} · ${rechazos.length} rechazos · ${avisos.length} avisos`,
+      `fuente: lote=${tipo}${mixto.size > 1 ? " (MIXTO)" : ""} · ${(lote.actividades || []).length} actividades (${desglose}) · ` +
+      `${rechazos.length} rechazos · ${avisos.length} avisos`,
     rechazos,
     avisos,
+    // Estado del lote *en su conjunto*: sirve para el aviso de "esto no se
+    // servirá". El estado real lo fija `cargar.mjs` concepto a concepto.
     estadoDestino,
+    mixto: mixto.size > 1,
+    porTipo: cuenta,
   };
 }
 

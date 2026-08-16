@@ -80,7 +80,14 @@ if (meta.tipo_fuente) {
     console.error("  → fuente insuficiente: NO se carga.");
     process.exit(1);
   }
-  if (vf.estadoDestino !== "verificado")
+  // En un lote mixto el estado se decide concepto a concepto, así que anunciar
+  // un único destino sería falso: el desglose real lo imprime la carga.
+  if (vf.mixto)
+    console.error(
+      "  ⚠ lote MIXTO: cada concepto entra según su propio tipo_fuente.\n" +
+        "    Lo de consenso NO se servirá hasta promoverlo (/admin o revision-pendientes.mjs).",
+    );
+  else if (vf.estadoDestino !== "verificado")
     console.error(
       `  ⚠ este lote se cargará como ${vf.estadoDestino}: NO se servirá a nadie hasta que se promueva\n` +
         "    (adaptadores/legal-es/generador/revision-pendientes.mjs)",
@@ -123,6 +130,13 @@ if (res.enBase)
     `  confirmado en base: ${res.enBase.concepto} conceptos · ${res.enBase.concepto_fuente} fuentes · ` +
       `${res.enBase.overlay_entrada} overlay · ${res.enBase.actividad} actividades`,
   );
+if (res.porEstado) {
+  const fmt = (o) =>
+    Object.entries(o)
+      .map(([k, n]) => `${n} ${k}`)
+      .join(" · ");
+  console.error(`  por estado: conceptos ${fmt(res.porEstado.conceptos)} | actividades ${fmt(res.porEstado.actividades)}`);
+}
 if (res.noResueltas?.length)
   console.error(
     `  · ${res.noResueltas.length} relaciones sin resolver (destino aún no en base): ` +

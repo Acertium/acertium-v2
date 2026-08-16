@@ -150,10 +150,27 @@ export async function cargarLote(db, v, meta, registro) {
   // FUENTE, no el cargador. `consenso` (temas 28-33, sin fuente única) entra
   // como `pendiente_revision` y no se sirve hasta que un humano lo promueve;
   // `oficial`/`autoridad` —que ya han pasado el check literal— entran como
-  // `verificado`. Un lote sin `tipo_fuente` es del corpus BOE de siempre y va a
   // `verificado`. La regla vive en nucleo/verificar-fuente.mjs para que puerta y
   // cargador no puedan discrepar.
-  const estado = meta.tipo_fuente ? estadoSegunTipoFuente(meta.tipo_fuente) : "verificado";
+  //
+  // PROMPT_016: el estado se decide POR CONCEPTO, no por lote. Los lotes del
+  // Grupo C son mixtos: "inmigración" trae 13 definiciones de la OIM y 3 del
+  // INE (citables, servibles ya) junto a 5 de consenso. Con un estado por lote,
+  // esas 16 se quedaban esperando revisión sin motivo.
+  //
+  // Cascada, de más específico a menos: lo que diga el concepto → lo que diga el
+  // meta del lote → `verificado`. Ese último escalón NO es un agujero: es el
+  // camino de los lotes BOE, que no declaran `tipo_fuente` en ninguna parte
+  // porque su grounding ya lo garantiza `verificar-lote` (cita literal de la
+  // norma). Dentro de un lote no-BOE —el que declara `meta.tipo_fuente`— un
+  // concepto que no diga nada hereda el del lote, que para el Grupo C es
+  // `consenso`: fail-closed, como pedía el encargo.
+  const estadoDe = (tipoFuente) =>
+    tipoFuente ? estadoSegunTipoFuente(tipoFuente) : meta.tipo_fuente ? estadoSegunTipoFuente(meta.tipo_fuente) : "verificado";
+
+  // La actividad hereda de SU concepto salvo que declare el suyo propio: una
+  // pregunta no puede servirse si el concepto del que cuelga está sin revisar.
+  const tipoPorConcepto = new Map(v.conceptosOK.map((c) => [c.id, c.tipo_fuente]));
   const errores = [];
   const insertado = { concepto: 0, concepto_fuente: 0, overlay_entrada: 0, actividad: 0, relacion_concepto: 0 };
 
@@ -187,8 +204,8 @@ export async function cargarLote(db, v, meta, registro) {
     titulo: c.titulo,
     resumen: c.resumen,
     explicacion: c.explicacion,
-    estado_verificacion: estado,
-    explicacion_verificacion: estado,
+    estado_verificacion: estadoDe(c.tipo_fuente),
+    explicacion_verificacion: estadoDe(c.tipo_fuente),
   }));
   try {
     insertado.concepto = await enTandas(filasConcepto, async (trozo) => {
@@ -270,7 +287,7 @@ export async function cargarLote(db, v, meta, registro) {
       respuesta,
       justificacion: a.justificacion,
       cotejo_fuente: a.cotejo,
-      estado_verificacion: estado,
+      estado_verificacion: estadoDe(a.tipo_fuente ?? tipoPorConcepto.get(a.concepto_id)),
     };
   });
   try {
@@ -352,7 +369,15 @@ export async function cargarLote(db, v, meta, registro) {
       `confirmación: ${enBase.actividad} actividades en base, se esperaban ${v.actividadesOK.length}`,
     );
 
-  return { ok: errores.length === 0, familia, insertado, enBase, noResueltas, errores };
+  // Desglose por estado: en un lote mixto importa saber cuánto entra servible y
+  // cuánto se queda esperando revisión humana.
+  const porEstado = { conceptos: {}, actividades: {} };
+  for (const f of filasConcepto)
+    porEstado.conceptos[f.estado_verificacion] = (porEstado.conceptos[f.estado_verificacion] ?? 0) + 1;
+  for (const f of filasActividad)
+    porEstado.actividades[f.estado_verificacion] = (porEstado.actividades[f.estado_verificacion] ?? 0) + 1;
+
+  return { ok: errores.length === 0, familia, insertado, enBase, noResueltas, porEstado, errores };
 }
 
 export function loteASql(v, meta, registro) {
@@ -364,8 +389,11 @@ export function loteASql(v, meta, registro) {
     throw new Error("meta incoherente, no se emite SQL:\n  - " + vm.errores.join("\n  - "));
 
   const { materia, norma, referencia_boe, convocatoria, tema } = meta;
-  // Mismo criterio que cargarLote(): el estado lo decide el tipo de fuente.
-  const estadoSql = meta.tipo_fuente ? estadoSegunTipoFuente(meta.tipo_fuente) : "verificado";
+  // Mismo criterio que cargarLote(): el estado lo decide el tipo de fuente de
+  // CADA concepto, con el del lote como respaldo.
+  const estadoSql = (tipoFuente) =>
+    tipoFuente ? estadoSegunTipoFuente(tipoFuente) : meta.tipo_fuente ? estadoSegunTipoFuente(meta.tipo_fuente) : "verificado";
+  const tipoPorConceptoSql = new Map(v.conceptosOK.map((c) => [c.id, c.tipo_fuente]));
   const out = [];
 
   if (v.conceptosOK.length) {
@@ -376,7 +404,7 @@ export function loteASql(v, meta, registro) {
       v.conceptosOK
         .map(
           (c) =>
-            `(${q(c.id)},${q(materia)},${q(c.titulo)},${q(c.resumen)},${q(c.explicacion)},${q(estadoSql)},${q(estadoSql)})`,
+            `(${q(c.id)},${q(materia)},${q(c.titulo)},${q(c.resumen)},${q(c.explicacion)},${q(estadoSql(c.tipo_fuente))},${q(estadoSql(c.tipo_fuente))})`,
         )
         .join(",\n") + ";",
     );
@@ -415,7 +443,7 @@ export function loteASql(v, meta, registro) {
           const indice = barajadas.indexOf(correcta);
           const resp = JSON.stringify({ correcta, indice });
           const ops = JSON.stringify(barajadas);
-          return `(${q(a.concepto_id)},'test',${q(a.enunciado)},${q(ops)}::jsonb,${q(resp)}::jsonb,${q(a.justificacion)},${q(a.cotejo)},${q(estadoSql)})`;
+          return `(${q(a.concepto_id)},'test',${q(a.enunciado)},${q(ops)}::jsonb,${q(resp)}::jsonb,${q(a.justificacion)},${q(a.cotejo)},${q(estadoSql(a.tipo_fuente ?? tipoPorConceptoSql.get(a.concepto_id)))})`;
         })
         .join(",\n") + ";",
     );

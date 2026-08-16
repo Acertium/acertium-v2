@@ -401,6 +401,30 @@
     "referencia_fuente": "https://www.rae.es (GTG, NGB), consulta 2026-08-04",
     "temas": ["Tema 36 — Gramática de la lengua española: morfología (sufijos, sustantivos, pronombres, adjetivos y sus grados/tipos, adverbios y tipos, verbos —modos y conjugación—, preposiciones y conjunciones); sintaxis (la oración: partes y tipos; análisis sintáctico)"]
   },
+  "_doc_grupo_c": "Grupo C (temas 28-33): lotes MIXTOS. Cada concepto lleva su propio tipo_fuente; los oficial/autoridad entran verificado y los consenso, pendiente_revision (ver cargar.mjs y nucleo/verificar-fuente.mjs). En referencia_fuente solo se ponen con URL los dominios que el lote DEBE citar; las normas del BOE van por su id BOE-A-… sin URL, porque la puerta exige los dominios y el BOE no siempre se cita con enlace.",
+
+  "ETICA": {
+    "materia": "etica-valores-contravalores-delitos-odio",
+    "norma": "Principios éticos, valores y contravalores (Constitución Española arts. 1, 10 y 14; Declaración de Principios sobre la Tolerancia de la UNESCO, 1995; Diccionario de la lengua española RAE-ASALE; Berger y Luckmann; Ley 19/2007 contra la violencia en el deporte) y delitos de odio del Código Penal (arts. 22.4ª y 510)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.unesco.org + https://dle.rae.es + Código Penal BOE-A-1995-25444 (arts. 22.4ª y 510, redacción de la LO 6/2022, BOE-A-2022-11588) y CE BOE-A-1978-31229, consulta 2026-08-16",
+    "temas": ["Tema 30 — Principios éticos de la sociedad actual; transmisión de valores; libertad, igualdad, tolerancia; contravalores; delitos de odio"]
+  },
+  "INMIG": {
+    "materia": "inmigracion-movimientos-migratorios",
+    "norma": "Glosario de la OIM sobre Migración (Términos fundamentales sobre migración, OIM/ONU), Parlamento Europeo (causas de la migración) e INE (Estadística de Migraciones y Cambios de Residencia, año 2024)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.iom.int + https://www.europarl.europa.eu + https://www.ine.es, consulta 2026-08-16",
+    "temas": ["Tema 31 — Inmigración: movimientos migratorios (concepto, causas, tipos, efectos); grandes migraciones; migraciones actuales; integración social"]
+  },
+  "GEOD": {
+    "materia": "geografia-humana-demografia-ine-rae",
+    "norma": "Definiciones demográficas del INE (Indicadores Demográficos Básicos e Indicadores Urbanos/DEGURBA) y del Diccionario de la lengua española (RAE-ASALE, 23.ª ed.); conceptos de geografía humana, la ciudad y la sociedad de masas de fuentes académicas de consenso (Wikipedia en español; Ortega y Gasset, La rebelión de las masas, 1929)",
+    "referencia_boe": "",
+    "referencia_fuente": "https://www.ine.es + https://dle.rae.es + https://es.wikipedia.org, consulta 2026-08-16",
+    "temas": ["Tema 32 — Geografía humana; la ciudad; población y grupos sociales; demografía (densidad, natalidad, mortalidad, crecimiento vegetativo); sociedad de masas; medio ambiente"]
+  },
+
   "SO": {
     "materia": "sistemas-operativos-fundamentos",
     "norma": "Fuentes técnicas de referencia sobre sistemas operativos: definición y funciones y Linux (Red Hat), sistemas de archivos de Windows FAT/FAT32/NTFS/exFAT (Microsoft Learn), sistema de archivos APFS y formatos MS-DOS (FAT)/ExFAT (Apple) y almacenamiento de datos (Red Hat)",

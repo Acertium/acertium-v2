@@ -150,6 +150,15 @@ const REMISIONES = [
   ["PJ-004", "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal", "art. 288", "remite", "003"],
   // PROMPT_003 · CPOL → FCS art. 26 (concepto de Consejo de Policía), no cargado
   ["CPOL-001", "Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad", "art. 26", "desarrolla", "003"],
+  // PROMPT_016 · ETICA → Código Penal. Los cinco conceptos `oficial` de ETICA son
+  // literalmente los delitos de odio del CP, pero esos artículos NO están
+  // segmentados en la familia CP (comprobado: 0 filas para 22 y 510). Se anotan
+  // para que la arista se teja sola cuando entren.
+  ["ETICA-011", "Ley Orgánica 10/1995, del Código Penal", "art. 22.4ª", "remite", "016"],
+  ["ETICA-012", "Ley Orgánica 10/1995, del Código Penal", "art. 510.1.a", "remite", "016"],
+  ["ETICA-013", "Ley Orgánica 10/1995, del Código Penal", "art. 510.1", "remite", "016"],
+  ["ETICA-014", "Ley Orgánica 10/1995, del Código Penal", "art. 510.1.c", "remite", "016"],
+  ["ETICA-015", "Ley Orgánica 10/1995, del Código Penal", "art. 510.2.a", "remite", "016"],
 ];
 
 // --- Declaradas por Cowork SIN id ni artículo concreto ----------------------

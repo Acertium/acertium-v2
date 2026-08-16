@@ -1,0 +1,537 @@
+{
+  "meta": {
+    "materia": "etica-valores-contravalores-delitos-odio",
+    "norma": "Principios éticos, valores y contravalores (Constitución Española arts. 1, 10 y 14; Declaración de Principios sobre la Tolerancia de la UNESCO, 1995; Diccionario de la lengua española RAE-ASALE; Berger y Luckmann; Ley 19/2007 contra la violencia en el deporte) y delitos de odio del Código Penal (arts. 22.4ª y 510)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "Código Penal (LO 10/1995), arts. 22.4ª y 510.1 y 2, redacción vigente dada por la LO 6/2022, de 12 de julio — BOE-A-1995-25444 / BOE-A-2022-11588 (consultado 2026-08-16)",
+      "Constitución Española, arts. 1.1, 10.1 y 14 — BOE-A-1978-31229 (consultado 2026-08-16)",
+      "UNESCO — Declaración de Principios sobre la Tolerancia, aprobada el 16/11/1995, art. 1.1 — https://www.unesco.org/en/legal-affairs/declaration-principles-tolerance (consultado 2026-08-16)",
+      "RAE-ASALE — Diccionario de la lengua española (DLE), s.v. «racismo», «fanatismo», «fundamentalismo», «sectarismo» — https://dle.rae.es (consultado 2026-08-16)",
+      "Berger, P. L. y Luckmann, T., La construcción social de la realidad (1966), capítulo III «La sociedad como realidad subjetiva» (socialización primaria y secundaria), Amorrortu",
+      "Ley 19/2007, de 11 de julio, contra la violencia, el racismo, la xenofobia y la intolerancia en el deporte, art. 1 — BOE-A-2007-13408 (consultado 2026-08-16)"
+    ],
+    "tipo_fuente": "consenso",
+    "estado_verificacion": "pendiente_revision",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 30 — Principios éticos de la sociedad actual; transmisión de valores; libertad, igualdad, tolerancia; contravalores; delitos de odio",
+    "_nota_grouping": "GRUPO C (mixto). Este lote es una sola familia (ETICA) pero mezcla dos tipos de fuente por concepto: 5 conceptos OFICIAL = cita literal del Código Penal (ETICA-011..015, delitos de odio; estado real 'verificado') y 10 conceptos CONSENSO = paráfrasis fiel con referencia concreta (ETICA-001..010; estado 'pendiente_revision'). Como el cargador estampa UN solo estado por lote a partir de meta.tipo_fuente, el meta se fija en 'consenso'/'pendiente_revision' (opción segura: nada se sirve sin revisión humana). El revisor debe promover a 'verificado' los conceptos OFICIAL (ETICA-011..015), o cargarlos en un lote CP aparte. El tipo por concepto va en cada concepto y actividad (campo tipo_fuente)."
+  },
+  "fuentes": {
+    "CE art. 1.1 — valores superiores": "España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.",
+    "CE art. 10.1 — dignidad y libre desarrollo de la personalidad": "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social.",
+    "CE art. 14 — igualdad ante la ley": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+    "UNESCO — Declaración sobre la Tolerancia, art. 1.1": "La tolerancia consiste en el respeto, la aceptación y el aprecio de la rica diversidad de las culturas de nuestro mundo, de nuestras formas de expresión y medios de ser humanos.",
+    "Berger y Luckmann — socialización": "La socialización primaria es la primera por la que el individuo atraviesa en la niñez y por medio de ella se convierte en miembro de la sociedad. La socialización secundaria es cualquier proceso posterior que induce al individuo ya socializado a nuevos sectores del mundo objetivo de su sociedad.",
+    "RAE-DLE — racismo": "Creencia que sostiene la superioridad de un grupo étnico sobre los demás, lo que conduce a la discriminación o persecución social.",
+    "RAE-DLE — fanatismo": "Apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas.",
+    "RAE-DLE — fundamentalismo": "Exigencia intransigente de sometimiento a una doctrina o práctica establecida.",
+    "RAE-DLE — sectarismo": "Fanatismo e intransigencia en la defensa de una idea o una ideología.",
+    "Ley 19/2007 art. 1 — objeto": "La Ley 19/2007 tiene por objeto la determinación de un conjunto de medidas dirigidas a la erradicación de la violencia, el racismo, la xenofobia y la intolerancia en el deporte.",
+    "CP art. 22.4ª — agravante de discriminación": "4.ª Cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación referente a la ideología, religión o creencias de la víctima, la etnia, raza o nación a la que pertenezca, su sexo, edad, orientación o identidad sexual o de género, razones de género, de aporofobia o de exclusión social, la enfermedad que padezca o su discapacidad, con independencia de que tales condiciones o circunstancias concurran efectivamente en la persona sobre la que recaiga la conducta.",
+    "CP art. 510.1 — pena": "Serán castigados con una pena de prisión de uno a cuatro años y multa de seis a doce meses:",
+    "CP art. 510.1.a — incitación al odio": "a) Quienes públicamente fomenten, promuevan o inciten directa o indirectamente al odio, hostilidad, discriminación o violencia contra un grupo, una parte del mismo o contra una persona determinada por razón de su pertenencia a aquel, por motivos racistas, antisemitas, antigitanos u otros referentes a la ideología, religión o creencias, situación familiar, la pertenencia de sus miembros a una etnia, raza o nación, su origen nacional, su sexo, orientación o identidad sexual, por razones de género, aporofobia, enfermedad o discapacidad.",
+    "CP art. 510.1.c — negación y enaltecimiento": "c) Quienes públicamente nieguen, trivialicen gravemente o enaltezcan los delitos de genocidio, de lesa humanidad o contra las personas y bienes protegidos en caso de conflicto armado, o enaltezcan a sus autores, cuando se hubieran cometido contra un grupo o una parte del mismo, o contra una persona determinada por razón de su pertenencia al mismo.",
+    "CP art. 510.2 — pena": "Serán castigados con la pena de prisión de seis meses a dos años y multa de seis a doce meses:",
+    "CP art. 510.2.a — lesión de la dignidad": "a) Quienes lesionen la dignidad de las personas mediante acciones que entrañen humillación, menosprecio o descrédito de alguno de los grupos a que se refiere el apartado anterior, o de una parte de los mismos."
+  },
+  "conceptos": [
+    {
+      "id": "ETICA-001",
+      "articulo": "CE art. 1.1 — valores superiores",
+      "titulo": "Los valores superiores del ordenamiento",
+      "resumen": "La Constitución propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político (art. 1.1 CE).",
+      "explicacion": "El punto de partida ético de la sociedad española está en el artículo 1.1 de la Constitución, que eleva cuatro valores a la categoría de «superiores»: libertad, justicia, igualdad y pluralismo político. No son simples ideales: orientan la interpretación de todo el ordenamiento.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Constitución Española, art. 1.1 — BOE-A-1978-31229"
+    },
+    {
+      "id": "ETICA-002",
+      "articulo": "CE art. 10.1 — dignidad y libre desarrollo de la personalidad",
+      "titulo": "La dignidad de la persona como fundamento",
+      "resumen": "La dignidad de la persona, sus derechos inviolables, el libre desarrollo de la personalidad y el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social (art. 10.1 CE).",
+      "explicacion": "El artículo 10.1 sitúa la dignidad de la persona en la base del sistema. De ella derivan los derechos inviolables y el libre desarrollo de la personalidad; su respeto es la condición de la paz social. Es la raíz ética que después protegen los delitos de odio.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Constitución Española, art. 10.1 — BOE-A-1978-31229"
+    },
+    {
+      "id": "ETICA-003",
+      "articulo": "CE art. 14 — igualdad ante la ley",
+      "titulo": "La igualdad ante la ley y la no discriminación",
+      "resumen": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social (art. 14 CE).",
+      "explicacion": "El artículo 14 traduce el valor «igualdad» en un derecho concreto: la igualdad ante la ley y la prohibición de discriminación. La lista (nacimiento, raza, sexo, religión, opinión…) no es cerrada: termina con «cualquier otra condición o circunstancia personal o social».",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Constitución Española, art. 14 — BOE-A-1978-31229"
+    },
+    {
+      "id": "ETICA-004",
+      "articulo": "UNESCO — Declaración sobre la Tolerancia, art. 1.1",
+      "titulo": "La tolerancia según la UNESCO",
+      "resumen": "Para la UNESCO, la tolerancia consiste en el respeto, la aceptación y el aprecio de la rica diversidad de las culturas del mundo, de nuestras formas de expresión y medios de ser humanos (Declaración de 1995).",
+      "explicacion": "La Declaración de Principios sobre la Tolerancia (UNESCO, 1995) define la tolerancia no como indiferencia ni como concesión, sino como respeto, aceptación y aprecio de la diversidad. Es la actitud opuesta a los contravalores que vienen después.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "UNESCO, Declaración de Principios sobre la Tolerancia (1995), art. 1.1 — https://www.unesco.org/en/legal-affairs/declaration-principles-tolerance"
+    },
+    {
+      "id": "ETICA-005",
+      "articulo": "Berger y Luckmann — socialización",
+      "titulo": "Socialización primaria y secundaria",
+      "resumen": "La socialización primaria es la que atraviesa el individuo en la niñez, por la que se convierte en miembro de la sociedad; la secundaria es todo proceso posterior que lo introduce en nuevos sectores de su sociedad.",
+      "explicacion": "Los valores se transmiten mediante la socialización. Berger y Luckmann distinguen la socialización primaria (en la niñez, por la que uno pasa a ser miembro de la sociedad) de la secundaria (procesos posteriores: escuela, trabajo, grupos). Es el mecanismo por el que una sociedad transmite su ética.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Berger, P. L. y Luckmann, T., La construcción social de la realidad (1966), capítulo III"
+    },
+    {
+      "id": "ETICA-006",
+      "articulo": "RAE-DLE — racismo",
+      "titulo": "Contravalor: el racismo",
+      "resumen": "El racismo es la creencia que sostiene la superioridad de un grupo étnico sobre los demás, lo que conduce a la discriminación o persecución social (DLE, RAE).",
+      "explicacion": "El racismo es un contravalor: niega la igualdad al afirmar la superioridad de un grupo étnico sobre otros y desemboca en discriminación o persecución. No debe confundirse con la xenofobia (rechazo al extranjero), aunque a menudo aparezcan juntas.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «racismo» — https://dle.rae.es/racismo"
+    },
+    {
+      "id": "ETICA-007",
+      "articulo": "RAE-DLE — fanatismo",
+      "titulo": "Contravalor: el fanatismo",
+      "resumen": "El fanatismo es el apasionamiento y la tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas (DLE, RAE).",
+      "explicacion": "El fanatismo convierte una creencia en dogma incuestionable y la defiende sin medida ni diálogo. Su antónimo es la tolerancia. Está emparentado con la intransigencia, el extremismo y el sectarismo.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «fanatismo» — https://dle.rae.es/fanatismo"
+    },
+    {
+      "id": "ETICA-008",
+      "articulo": "RAE-DLE — fundamentalismo",
+      "titulo": "Contravalor: el fundamentalismo",
+      "resumen": "En su acepción general, el fundamentalismo es la exigencia intransigente de sometimiento a una doctrina o práctica establecida (DLE, RAE).",
+      "explicacion": "El fundamentalismo, en sentido amplio, es la exigencia intransigente de sometimiento a una doctrina o práctica establecida (el DLE recoge además acepciones religiosas concretas, islámica y protestante). Comparte raíz con el integrismo y el fanatismo.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «fundamentalismo», acep. 3 — https://dle.rae.es/fundamentalismo"
+    },
+    {
+      "id": "ETICA-009",
+      "articulo": "RAE-DLE — sectarismo",
+      "titulo": "Contravalor: el sectarismo",
+      "resumen": "El sectarismo es el fanatismo e intransigencia en la defensa de una idea o una ideología (DLE, RAE).",
+      "explicacion": "El sectarismo es fanatismo e intransigencia aplicados a una idea o ideología: se cierra al que piensa distinto y lo trata como adversario. La propia definición lo une al fanatismo.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «sectarismo» — https://dle.rae.es/sectarismo"
+    },
+    {
+      "id": "ETICA-010",
+      "articulo": "Ley 19/2007 art. 1 — objeto",
+      "titulo": "Contravalor: el hooliganismo (violencia en el deporte)",
+      "resumen": "La Ley 19/2007 tiene por objeto un conjunto de medidas dirigidas a la erradicación de la violencia, el racismo, la xenofobia y la intolerancia en el deporte.",
+      "explicacion": "El hooliganismo (violencia de grupos radicales en el deporte) es el contravalor que combate la Ley 19/2007, cuyo objeto es erradicar la violencia, el racismo, la xenofobia y la intolerancia en el deporte. Es un ejemplo próximo de intolerancia grupal.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Ley 19/2007, art. 1 — BOE-A-2007-13408"
+    },
+    {
+      "id": "ETICA-011",
+      "articulo": "CP art. 22.4ª — agravante de discriminación",
+      "titulo": "La agravante de discriminación (art. 22.4ª CP)",
+      "resumen": "Es circunstancia agravante cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación, aunque la condición discriminada no concurra realmente en la víctima (art. 22.4ª CP).",
+      "explicacion": "El artículo 22.4ª del Código Penal agrava la responsabilidad cuando el delito se comete por móviles discriminatorios (racistas, antisemitas, antigitanos, por ideología, sexo, orientación, aporofobia, enfermedad, discapacidad…). Se aplica con independencia de que la condición concurra o no efectivamente en la víctima.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "Código Penal, art. 22.4ª (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "id": "ETICA-012",
+      "articulo": "CP art. 510.1.a — incitación al odio",
+      "titulo": "Incitación al odio (art. 510.1.a CP)",
+      "resumen": "El art. 510.1.a) CP castiga a quienes públicamente fomenten, promuevan o inciten, directa o indirectamente, al odio, hostilidad, discriminación o violencia contra un grupo o persona por su pertenencia a él, por motivos discriminatorios.",
+      "explicacion": "El núcleo del delito de odio del art. 510.1.a) es la incitación pública —directa o indirecta— al odio, la hostilidad, la discriminación o la violencia contra un grupo, una parte de él o una persona por pertenecer a ese grupo, por motivos racistas, antisemitas, de religión, sexo, orientación, aporofobia, etc.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "Código Penal, art. 510.1.a) (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "id": "ETICA-013",
+      "articulo": "CP art. 510.1 — pena",
+      "titulo": "Pena del art. 510.1 CP",
+      "resumen": "Las conductas del art. 510.1 CP se castigan con una pena de prisión de uno a cuatro años y multa de seis a doce meses.",
+      "explicacion": "Las modalidades más graves del delito de odio (incitación, difusión de materiales, negación cualificada) del apartado 1 del art. 510 llevan aparejada una pena de prisión de uno a cuatro años y multa de seis a doce meses; conviene no confundirla con la pena, menor, del apartado 2.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "Código Penal, art. 510.1 (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "id": "ETICA-014",
+      "articulo": "CP art. 510.1.c — negación y enaltecimiento",
+      "titulo": "Negación y enaltecimiento (art. 510.1.c CP)",
+      "resumen": "El art. 510.1.c) CP castiga a quienes públicamente nieguen, trivialicen gravemente o enaltezcan los delitos de genocidio, de lesa humanidad o contra personas y bienes protegidos en conflicto armado, o enaltezcan a sus autores, cuando se cometieron por motivos discriminatorios.",
+      "explicacion": "La letra c) del art. 510.1 castiga negar, trivializar gravemente o enaltecer delitos de genocidio, de lesa humanidad o de guerra —o enaltecer a sus autores— cuando se cometieron contra un grupo por motivos discriminatorios y con ello se promueve un clima de violencia, hostilidad, odio o discriminación.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "Código Penal, art. 510.1.c) (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "id": "ETICA-015",
+      "articulo": "CP art. 510.2.a — lesión de la dignidad",
+      "titulo": "Lesión de la dignidad y su pena (art. 510.2 CP)",
+      "resumen": "El art. 510.2.a) CP castiga a quienes lesionen la dignidad mediante acciones que entrañen humillación, menosprecio o descrédito de los grupos discriminados; el apartado 2 se pena con prisión de seis meses a dos años y multa de seis a doce meses.",
+      "explicacion": "El apartado 2 del art. 510 recoge conductas menos graves que el apartado 1: lesionar la dignidad mediante humillación, menosprecio o descrédito de los grupos protegidos. Se castiga con prisión de seis meses a dos años y multa de seis a doce meses.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "Código Penal, art. 510.2 (LO 6/2022) — BOE-A-1995-25444"
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "ETICA-001",
+      "articulo": "CE art. 1.1 — valores superiores",
+      "tipo": "test",
+      "enunciado": "¿Qué valores superiores del ordenamiento jurídico propugna el Estado en el artículo 1.1 de la Constitución?",
+      "opciones": [
+        "la libertad, la justicia, la igualdad y el pluralismo político",
+        "la libertad, la seguridad, la propiedad y la separación de los poderes",
+        "la dignidad, la solidaridad, la justicia social y la soberanía nacional",
+        "la igualdad, la fraternidad, la legalidad y la unidad de la Nación española"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.",
+      "justificacion": "CE, art. 1.1 (valores superiores del ordenamiento).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Constitución Española, art. 1.1 — BOE-A-1978-31229"
+    },
+    {
+      "concepto_id": "ETICA-002",
+      "articulo": "CE art. 10.1 — dignidad y libre desarrollo de la personalidad",
+      "tipo": "test",
+      "enunciado": "Según el artículo 10.1 de la Constitución, ¿qué es fundamento del orden político y de la paz social?",
+      "opciones": [
+        "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás",
+        "La soberanía nacional que reside en el pueblo, la unidad indisoluble de la Nación española y la solidaridad entre las nacionalidades y regiones que la integran",
+        "El respeto a los derechos humanos, la seguridad jurídica, la interdicción de la arbitrariedad de los poderes públicos y la jerarquía normativa del ordenamiento",
+        "La libertad ideológica y religiosa, la igualdad de todos ante la ley, la tutela judicial efectiva y el derecho a participar en los asuntos públicos del Estado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social.",
+      "justificacion": "CE, art. 10.1 (dignidad y libre desarrollo de la personalidad).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Constitución Española, art. 10.1 — BOE-A-1978-31229"
+    },
+    {
+      "concepto_id": "ETICA-003",
+      "articulo": "CE art. 14 — igualdad ante la ley",
+      "tipo": "test",
+      "enunciado": "¿Qué establece el artículo 14 de la Constitución respecto de los españoles?",
+      "opciones": [
+        "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social",
+        "Los poderes públicos promoverán las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas, removiendo los obstáculos",
+        "Todos los españoles tienen el deber de contribuir al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo e igualitario",
+        "Los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes libremente elegidos en elecciones periódicas por sufragio universal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+      "justificacion": "CE, art. 14 (igualdad ante la ley y no discriminación).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Constitución Española, art. 14 — BOE-A-1978-31229"
+    },
+    {
+      "concepto_id": "ETICA-004",
+      "articulo": "UNESCO — Declaración sobre la Tolerancia, art. 1.1",
+      "tipo": "test",
+      "enunciado": "Según la Declaración de Principios sobre la Tolerancia de la UNESCO (1995), ¿en qué consiste la tolerancia?",
+      "opciones": [
+        "el respeto, la aceptación y el aprecio de la rica diversidad de las culturas de nuestro mundo, de nuestras formas de expresión y medios de ser humanos",
+        "la ausencia de todo conflicto entre culturas distintas y la renuncia expresa a las propias convicciones morales, políticas o religiosas en favor de las ajenas",
+        "la simple indiferencia ante las opiniones ajenas y el deber jurídico de aprobar cualquier práctica cultural, política o religiosa distinta de la propia",
+        "la concesión graciosa por el Estado de un permiso para que las minorías practiquen sus costumbres siempre que no incomoden a la mayoría social del país"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La tolerancia consiste en el respeto, la aceptación y el aprecio de la rica diversidad de las culturas de nuestro mundo, de nuestras formas de expresión y medios de ser humanos.",
+      "justificacion": "UNESCO, Declaración de Principios sobre la Tolerancia (1995), art. 1.1.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "UNESCO, Declaración de Principios sobre la Tolerancia (1995), art. 1.1 — https://www.unesco.org/en/legal-affairs/declaration-principles-tolerance"
+    },
+    {
+      "concepto_id": "ETICA-005",
+      "articulo": "Berger y Luckmann — socialización",
+      "tipo": "test",
+      "enunciado": "En sociología, ¿cómo se define la socialización primaria?",
+      "opciones": [
+        "la primera por la que el individuo atraviesa en la niñez y por medio de ella se convierte en miembro de la sociedad",
+        "cualquier proceso posterior que induce al individuo ya socializado a nuevos sectores del mundo objetivo de su sociedad",
+        "el conjunto de sanciones formales que las instituciones imponen al adulto para corregir sus conductas desviadas del grupo",
+        "el aprendizaje técnico y profesional que el trabajador adquiere al incorporarse a una organización laboral concreta"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La socialización primaria es la primera por la que el individuo atraviesa en la niñez y por medio de ella se convierte en miembro de la sociedad.",
+      "justificacion": "Berger y Luckmann, La construcción social de la realidad, capítulo III (socialización primaria).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Berger, P. L. y Luckmann, T., La construcción social de la realidad (1966), capítulo III"
+    },
+    {
+      "concepto_id": "ETICA-005",
+      "articulo": "Berger y Luckmann — socialización",
+      "tipo": "test",
+      "enunciado": "¿Qué se entiende por socialización secundaria?",
+      "opciones": [
+        "cualquier proceso posterior que induce al individuo ya socializado a nuevos sectores del mundo objetivo de su sociedad",
+        "la primera por la que el individuo atraviesa en la niñez y por medio de ella se convierte en miembro de la sociedad",
+        "la transmisión biológica de rasgos y aptitudes que el individuo hereda de sus progenitores al nacer en el seno de una familia",
+        "el proceso por el que un grupo social margina y aísla al individuo que no ha interiorizado las normas de la comunidad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La socialización secundaria es cualquier proceso posterior que induce al individuo ya socializado a nuevos sectores del mundo objetivo de su sociedad.",
+      "justificacion": "Berger y Luckmann, La construcción social de la realidad, capítulo III (socialización secundaria).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Berger, P. L. y Luckmann, T., La construcción social de la realidad (1966), capítulo III"
+    },
+    {
+      "concepto_id": "ETICA-006",
+      "articulo": "RAE-DLE — racismo",
+      "tipo": "test",
+      "enunciado": "Según el Diccionario de la lengua española, ¿qué es el racismo?",
+      "opciones": [
+        "Creencia que sostiene la superioridad de un grupo étnico sobre los demás, lo que conduce a la discriminación o persecución social",
+        "Rechazo y hostilidad hacia las personas extranjeras o inmigrantes por el mero hecho de proceder de un país o territorio distinto",
+        "Aversión irracional y manifiesta hacia quienes profesan una religión o una confesión distinta de la que resulta mayoritaria en el país",
+        "Preferencia por las tradiciones y los símbolos de la propia nación acompañada del desprecio hacia las costumbres de los demás pueblos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Creencia que sostiene la superioridad de un grupo étnico sobre los demás, lo que conduce a la discriminación o persecución social.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «racismo» (acepción 1).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «racismo» — https://dle.rae.es/racismo"
+    },
+    {
+      "concepto_id": "ETICA-007",
+      "articulo": "RAE-DLE — fanatismo",
+      "tipo": "test",
+      "enunciado": "Según el Diccionario de la lengua española, ¿qué es el fanatismo?",
+      "opciones": [
+        "Apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas",
+        "Indiferencia y frialdad absolutas ante cualquier creencia u opinión, sea esta de carácter religioso o bien político",
+        "Sometimiento pasivo y acrítico a las creencias u opiniones que impone la autoridad, sobre todo religiosa o política",
+        "Duda sistemática y permanente acerca de todas las creencias u opiniones, en particular las religiosas o políticas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «fanatismo».",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «fanatismo» — https://dle.rae.es/fanatismo"
+    },
+    {
+      "concepto_id": "ETICA-008",
+      "articulo": "RAE-DLE — fundamentalismo",
+      "tipo": "test",
+      "enunciado": "En su acepción general, ¿qué designa el término fundamentalismo según el Diccionario de la RAE?",
+      "opciones": [
+        "Exigencia intransigente de sometimiento a una doctrina o práctica establecida",
+        "Adaptación flexible y gradual de una doctrina o práctica establecida a las circunstancias cambiantes de cada época histórica",
+        "Estudio histórico y crítico del origen de una doctrina o práctica religiosa",
+        "Renuncia voluntaria a imponer a los demás la propia doctrina religiosa"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Exigencia intransigente de sometimiento a una doctrina o práctica establecida.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «fundamentalismo» (acepción 3, general).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «fundamentalismo», acep. 3 — https://dle.rae.es/fundamentalismo"
+    },
+    {
+      "concepto_id": "ETICA-009",
+      "articulo": "RAE-DLE — sectarismo",
+      "tipo": "test",
+      "enunciado": "Según el Diccionario de la lengua española, ¿qué es el sectarismo?",
+      "opciones": [
+        "Fanatismo e intransigencia en la defensa de una idea o una ideología",
+        "Tolerancia y apertura al diálogo en la discusión de una idea o ideología",
+        "Indiferencia y escepticismo ante la defensa de cualquier idea o ideología",
+        "Estudio académico y neutral de la evolución de una idea o una ideología"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Fanatismo e intransigencia en la defensa de una idea o una ideología.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «sectarismo».",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «sectarismo» — https://dle.rae.es/sectarismo"
+    },
+    {
+      "concepto_id": "ETICA-010",
+      "articulo": "Ley 19/2007 art. 1 — objeto",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el objeto de la Ley 19/2007, de 11 de julio?",
+      "opciones": [
+        "un conjunto de medidas dirigidas a la erradicación de la violencia, el racismo, la xenofobia y la intolerancia en el deporte",
+        "un régimen general de subvenciones y ayudas públicas destinadas al fomento del deporte federado y del deporte de alto rendimiento de ámbito estatal",
+        "la ordenación de las profesiones del deporte y la regulación del acceso a las enseñanzas deportivas de régimen especial",
+        "el establecimiento del régimen disciplinario y sancionador aplicable al dopaje en la actividad deportiva de competición"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La Ley 19/2007 tiene por objeto la determinación de un conjunto de medidas dirigidas a la erradicación de la violencia, el racismo, la xenofobia y la intolerancia en el deporte.",
+      "justificacion": "Ley 19/2007, art. 1 (objeto de la Ley), paráfrasis fiel.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Ley 19/2007, art. 1 — BOE-A-2007-13408"
+    },
+    {
+      "concepto_id": "ETICA-011",
+      "articulo": "CP art. 22.4ª — agravante de discriminación",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes es la circunstancia agravante recogida en el artículo 22.4ª del Código Penal?",
+      "opciones": [
+        "Cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación referente a la ideología, religión o creencias de la víctima",
+        "Ejecutar el hecho con alevosía, empleando medios, modos o formas que tiendan a asegurar su ejecución sin riesgo para la persona del culpable",
+        "Ejecutar el hecho mediante disfraz, con abuso de superioridad o aprovechando las circunstancias de lugar, tiempo o auxilio de otras personas",
+        "Aumentar deliberada e inhumanamente el sufrimiento de la víctima, causándole padecimientos innecesarios para la ejecución del delito"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "4.ª Cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación referente a la ideología, religión o creencias de la víctima, la etnia, raza o nación a la que pertenezca, su sexo, edad, orientación o identidad sexual o de género, razones de género, de aporofobia o de exclusión social, la enfermedad que padezca o su discapacidad, con independencia de que tales condiciones o circunstancias concurran efectivamente en la persona sobre la que recaiga la conducta.",
+      "justificacion": "CP, art. 22.4ª (los demás distractores son otras agravantes reales del art. 22).",
+      "tipo_fuente": "oficial",
+      "referencia_fuente": "Código Penal, art. 22.4ª (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "concepto_id": "ETICA-011",
+      "articulo": "CP art. 22.4ª — agravante de discriminación",
+      "tipo": "test",
+      "enunciado": "En la agravante del art. 22.4ª CP, ¿cuándo se aprecia el móvil discriminatorio respecto de la víctima?",
+      "opciones": [
+        "con independencia de que tales condiciones o circunstancias concurran efectivamente en la persona sobre la que recaiga la conducta",
+        "únicamente cuando tales condiciones o circunstancias concurran de forma acreditada en la persona sobre la que recae la conducta",
+        "solo si la víctima ha manifestado previamente y de manera expresa su pertenencia al grupo que resulta objeto de la discriminación denunciada ante la autoridad",
+        "siempre que un informe pericial confirme que la condición discriminada concurría de modo objetivo en la persona ofendida"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "con independencia de que tales condiciones o circunstancias concurran efectivamente en la persona sobre la que recaiga la conducta.",
+      "justificacion": "CP, art. 22.4ª (cláusula final: independencia de la concurrencia efectiva).",
+      "tipo_fuente": "oficial",
+      "referencia_fuente": "Código Penal, art. 22.4ª (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "concepto_id": "ETICA-012",
+      "articulo": "CP art. 510.1.a — incitación al odio",
+      "tipo": "test",
+      "enunciado": "El artículo 510.1.a) del Código Penal castiga a quienes públicamente:",
+      "opciones": [
+        "fomenten, promuevan o inciten directa o indirectamente al odio, hostilidad, discriminación o violencia contra un grupo, una parte del mismo o contra una persona determinada por razón de su pertenencia a aquel",
+        "difundan sin autorización de la autoridad competente mensajes o consignas que alteren gravemente la paz pública o la seguridad ciudadana en una reunión",
+        "injurien o calumnien a una persona determinada atribuyéndole hechos que lesionen su dignidad, menoscabando su fama o atentando contra su propia estimación",
+        "amenacen a un grupo o colectivo con causarles un mal constitutivo de delito con la finalidad de atemorizar a todos o a una parte de sus integrantes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Quienes públicamente fomenten, promuevan o inciten directa o indirectamente al odio, hostilidad, discriminación o violencia contra un grupo, una parte del mismo o contra una persona determinada por razón de su pertenencia a aquel, por motivos racistas, antisemitas, antigitanos u otros referentes a la ideología, religión o creencias, situación familiar, la pertenencia de sus miembros a una etnia, raza o nación, su origen nacional, su sexo, orientación o identidad sexual, por razones de género, aporofobia, enfermedad o discapacidad.",
+      "justificacion": "CP, art. 510.1.a) (conducta típica de incitación al odio).",
+      "tipo_fuente": "oficial",
+      "referencia_fuente": "Código Penal, art. 510.1.a) (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "concepto_id": "ETICA-013",
+      "articulo": "CP art. 510.1 — pena",
+      "tipo": "test",
+      "enunciado": "¿Qué pena prevé el apartado 1 del artículo 510 del Código Penal?",
+      "opciones": [
+        "una pena de prisión de uno a cuatro años y multa de seis a doce meses",
+        "una pena de prisión de seis meses a dos años y multa de seis a doce meses",
+        "una pena de prisión de dos a cuatro años y multa de doce a veinticuatro meses",
+        "una pena de prisión de tres a cinco años y multa de seis a dieciocho meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Serán castigados con una pena de prisión de uno a cuatro años y multa de seis a doce meses:",
+      "justificacion": "CP, art. 510.1 (marco penal del apartado 1).",
+      "tipo_fuente": "oficial",
+      "referencia_fuente": "Código Penal, art. 510.1 (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "concepto_id": "ETICA-014",
+      "articulo": "CP art. 510.1.c — negación y enaltecimiento",
+      "tipo": "test",
+      "enunciado": "El artículo 510.1.c) del Código Penal castiga a quienes públicamente:",
+      "opciones": [
+        "nieguen, trivialicen gravemente o enaltezcan los delitos de genocidio, de lesa humanidad o contra las personas y bienes protegidos en caso de conflicto armado, o enaltezcan a sus autores",
+        "reproduzcan, distribuyan o exhiban públicamente banderas, insignias, uniformes o consignas que inciten a cometer alguno de los delitos contra el orden público",
+        "enaltezcan o justifiquen públicamente los delitos de terrorismo o a quienes hayan participado en su ejecución, o realicen actos de descrédito a sus víctimas",
+        "difundan mensajes que inciten a la comisión de delitos de rebelión o sedición, o que apoyen o respalden públicamente a las organizaciones que los cometan"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "c) Quienes públicamente nieguen, trivialicen gravemente o enaltezcan los delitos de genocidio, de lesa humanidad o contra las personas y bienes protegidos en caso de conflicto armado, o enaltezcan a sus autores, cuando se hubieran cometido contra un grupo o una parte del mismo, o contra una persona determinada por razón de su pertenencia al mismo.",
+      "justificacion": "CP, art. 510.1.c) (negación, trivialización o enaltecimiento cualificados).",
+      "tipo_fuente": "oficial",
+      "referencia_fuente": "Código Penal, art. 510.1.c) (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "concepto_id": "ETICA-015",
+      "articulo": "CP art. 510.2 — pena",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el apartado 2 del artículo 510 del Código Penal (lesión de la dignidad por humillación)?",
+      "opciones": [
+        "la pena de prisión de seis meses a dos años y multa de seis a doce meses",
+        "la pena de prisión de uno a cuatro años y multa de seis a doce meses",
+        "la pena de prisión de seis meses a dos años y multa proporcional de tres a seis meses e inhabilitación especial",
+        "la pena de prisión de tres meses a un año y multa de seis a doce meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Serán castigados con la pena de prisión de seis meses a dos años y multa de seis a doce meses:",
+      "justificacion": "CP, art. 510.2 (marco penal del apartado 2, inferior al del apartado 1).",
+      "tipo_fuente": "oficial",
+      "referencia_fuente": "Código Penal, art. 510.2 (LO 6/2022) — BOE-A-1995-25444"
+    },
+    {
+      "concepto_id": "ETICA-015",
+      "articulo": "CP art. 510.2.a — lesión de la dignidad",
+      "tipo": "test",
+      "enunciado": "El artículo 510.2.a) CP castiga a quienes lesionen la dignidad de las personas mediante acciones que entrañen:",
+      "opciones": [
+        "humillación, menosprecio o descrédito de alguno de los grupos a que se refiere el apartado anterior, o de una parte de los mismos",
+        "coacción, intimidación o amenaza dirigida contra alguno de los grupos a que se refiere el apartado anterior, o contra una parte de ellos",
+        "exclusión, segregación o apartamiento efectivo de alguno de los grupos a que se refiere el apartado anterior en el acceso a un servicio",
+        "difamación, injuria o calumnia pública contra alguno de los grupos a que se refiere el apartado anterior, o contra una parte de ellos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Quienes lesionen la dignidad de las personas mediante acciones que entrañen humillación, menosprecio o descrédito de alguno de los grupos a que se refiere el apartado anterior, o de una parte de los mismos.",
+      "justificacion": "CP, art. 510.2.a) (conducta de lesión de la dignidad).",
+      "tipo_fuente": "oficial",
+      "referencia_fuente": "Código Penal, art. 510.2.a) (LO 6/2022) — BOE-A-1995-25444"
+    }
+  ],
+  "relaciones": [
+    { "origen": "ETICA-002", "destino": "ETICA-001", "tipo": "desarrolla", "justificacion": "La dignidad de la persona (art. 10.1) concreta y sostiene los valores superiores del art. 1.1." },
+    { "origen": "ETICA-003", "destino": "ETICA-001", "tipo": "desarrolla", "justificacion": "La igualdad ante la ley (art. 14) desarrolla el valor superior de la igualdad del art. 1.1." },
+    { "origen": "ETICA-004", "destino": "ETICA-001", "tipo": "desarrolla", "justificacion": "La tolerancia desarrolla el valor del pluralismo político y el respeto a la diversidad." },
+    { "origen": "ETICA-005", "destino": "ETICA-001", "tipo": "desarrolla", "justificacion": "La socialización es el mecanismo por el que se transmiten los valores superiores." },
+    { "origen": "ETICA-006", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El racismo es un contravalor que niega y limita la tolerancia." },
+    { "origen": "ETICA-007", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El fanatismo es un contravalor opuesto a la tolerancia." },
+    { "origen": "ETICA-008", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El fundamentalismo, exigencia intransigente, se opone a la tolerancia." },
+    { "origen": "ETICA-009", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El sectarismo es un contravalor opuesto a la tolerancia." },
+    { "origen": "ETICA-010", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El hooliganismo (violencia e intolerancia en el deporte) se opone a la tolerancia." },
+    { "origen": "ETICA-009", "destino": "ETICA-007", "tipo": "desarrolla", "justificacion": "El DLE define el sectarismo como fanatismo e intransigencia: lo desarrolla." },
+    { "origen": "ETICA-008", "destino": "ETICA-007", "tipo": "remite", "justificacion": "El fundamentalismo es afín al fanatismo (sinónimos: integrismo, fanatismo)." },
+    { "origen": "ETICA-006", "destino": "ETICA-003", "tipo": "limita", "justificacion": "El racismo vulnera la igualdad ante la ley y la no discriminación del art. 14 CE." },
+    { "origen": "ETICA-011", "destino": "ETICA-003", "tipo": "desarrolla", "justificacion": "La agravante por discriminación (art. 22.4ª CP) protege penalmente la igualdad del art. 14 CE." },
+    { "origen": "ETICA-011", "destino": "ETICA-006", "tipo": "remite", "justificacion": "La agravante del art. 22.4ª se aplica, entre otros, a los delitos cometidos por motivos racistas." },
+    { "origen": "ETICA-012", "destino": "ETICA-002", "tipo": "limita", "justificacion": "La incitación al odio (art. 510.1.a) atenta contra la dignidad de la persona (art. 10.1 CE)." },
+    { "origen": "ETICA-013", "destino": "ETICA-012", "tipo": "desarrolla", "justificacion": "La pena del art. 510.1 concreta la consecuencia jurídica de la incitación al odio." },
+    { "origen": "ETICA-014", "destino": "ETICA-012", "tipo": "desarrolla", "justificacion": "La negación/enaltecimiento del art. 510.1.c) es otra modalidad del apartado 1 del art. 510." },
+    { "origen": "ETICA-015", "destino": "ETICA-013", "tipo": "limita", "justificacion": "El apartado 2 del art. 510 fija una pena inferior a la del apartado 1 para conductas menos graves." },
+    { "origen": "ETICA-015", "destino": "ETICA-002", "tipo": "limita", "justificacion": "La lesión de la dignidad por humillación (art. 510.2.a) atenta contra la dignidad del art. 10.1 CE." },
+    { "origen": "ETICA-011", "destino": "IG-005", "tipo": "remite", "justificacion": "PROPUESTA (externa): la agravante por discriminación se relaciona con el principio de igualdad de trato de la LO 3/2007 (IG-005)." },
+    { "origen": "ETICA-006", "destino": "IG-007", "tipo": "remite", "justificacion": "PROPUESTA (externa): el racismo conecta con la discriminación directa definida en la LO 3/2007 (IG-007)." },
+    { "origen": "ETICA-011", "destino": "VG-001", "tipo": "remite", "justificacion": "PROPUESTA (externa): la agravante del art. 22.4ª incluye las razones de género, ligadas al objeto de la LO 1/2004 de violencia de género (VG-001)." }
+  ]
+}
