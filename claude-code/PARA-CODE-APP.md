@@ -83,6 +83,28 @@ Git lo aguanta) cambiando el criterio del `.gitignore` y anotando por qué; (2) 
 (3) dejarlo como está y generar contenido solo desde el PC. Hasta que se decida, **la generación de
 los 4 temas se hace desde el PC**, no desde la app.
 
+### ⚠ TODO LO ANTERIOR DE ESTE §3 ESTÁ SUPERADO (16/08/2026) — no lo sigas
+Se deja arriba para que se entienda por qué el repo estuvo montado así, pero **la premisa era
+incorrecta y el límite ya no existe**:
+
+- **El generador nunca lee el PDF, por diseño.** Lo dice el propio `ingestor.py` citando el Doc 006:
+  *"el generador consume ESTE JSON, nunca el PDF"*. El PDF es la entrada del INGESTOR y muere ahí.
+  Lo que hace falta para generar no es el PDF: es el texto ingerido.
+- **El Código 600 está versionado** en `datos/legal-es/boe-600-pn/corpus/` (46 normas y 3.094
+  artículos a esta fecha; ver su `README.md` y `indice.json`). Los PDFs siguen fuera del control de
+  versiones y no hacen falta.
+- Por tanto **generar desde la nube sí se puede**, con la fuente literal delante. Lo único que exige
+  un PDF nuevo es ingerir una norma que aún no esté en el corpus, y basta con adjuntarlo:
+  `ingestor.py --codigo` lo trocea aunque llegue en tandas de páginas con varias normas dentro.
+  **Ingerir no consume contexto**: lo hace `pdftotext` + regex, no el modelo.
+
+**Lo que el corpus NO trae**, y conviene mirar antes de dar algo por inexistente: disposiciones y
+preámbulos; las secciones que no van por artículos (§34, la Estrategia de Ciberseguridad, va en
+anexo); y las inclusiones parciales del propio Código. Que un artículo no esté **no** significa que
+no exista en la norma: significa que el Código 600 no lo recoge. Caso real: el **art. 510 CP**
+(delitos de odio) no aparece ni una sola vez en el PDF oficial del §35, así que la remisión
+`ETICA→CP art. 510` que el PROMPT_016 dejó esperando **no se resolverá nunca** desde este corpus.
+
 ## 4. Dónde mirar
 - Manual y reglas: `CLAUDE.md` (raíz).
 - Últimos partes con el detalle fino: `claude-code/RESULTADO_017.md` (los 4 temas que faltan, GLOB) y
