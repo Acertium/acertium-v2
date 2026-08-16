@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "materia": "glosario-ciberseguridad-incibe",
+    "norma": "Glosario y recursos oficiales de ciberseguridad de INCIBE (glosario de términos 2021, temáticas, Guía de ciberataques de la OSI, blogs y dosieres de INCIBE)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "INCIBE — Glosario de términos de ciberseguridad: una guía de aproximación para el empresario (2021): https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf (consultado 04/08/2026) — Botnet, Cartas nigerianas, Denegación de servicio (DoS/DDoS), Ciberdelincuente, Amenaza avanzada persistente (APT)",
+      "INCIBE — Glosario de términos básicos de ciberseguridad (Ciudadanía): https://www.incibe.es/ciudadania/blog/glosario-de-terminos-basicos-de-ciberseguridad (consultado 04/08/2026) — Ingeniería social, Phishing, Ransomware, Spyware, Troyano",
+      "INCIBE — TemáTICas: Malware (Empresas): https://www.incibe.es/empresas/tematicas/malware (consultado 04/08/2026) — Malware",
+      "INCIBE/OSI — Guía de ciberataques. Todo lo que debes saber a nivel usuario: https://www.incibe.es/sites/default/files/docs/guia-ciberataques/osi-guia-ciberataques.pdf (consultado 04/08/2026) — Spear phishing, Spoofing, Inyección SQL, Criptojacking (Cryptojacking)",
+      "INCIBE — Dosier: Fraude y gestión de la identidad online (Protege tu empresa): https://www.incibe.es/sites/default/files/contenidos/dosieres/metad_fraude_y_gestion_de_la_identidad_online.pdf (consultado 04/08/2026) — Pharming",
+      "INCIBE — ¿Qué es una vulnerabilidad Zero Day? (Ciudadanía): https://www.incibe.es/ciudadania/blog/que-es-una-vulnerabilidad-zero-day (consultado 04/08/2026) — Zero-day",
+      "INCIBE — Explicación de los distintos tipos de hackers (ED2026): https://www.incibe.es/ed2026/talento-hacker/blog/explicacion-de-los-distintos-tipos-de-hackers (consultado 04/08/2026) — Hacktivistas",
+      "INCIBE — Insiders: cómo atacan desde dentro (Empresas): https://www.incibe.es/empresas/blog/insiders-como-atacan-desde-dentro (consultado 04/08/2026) — Insider",
+      "INCIBE — E-skimming, qué es y cómo proteger tu tienda (Empresas): https://www.incibe.es/empresas/blog/e-skimming-y-proteger-tu-tienda-esta-tecnica-maliciosa (consultado 04/08/2026) — Skimming",
+      "INCIBE — Las 7 fases de un ciberataque. ¿Las conoces? (Empresas): https://www.incibe.es/empresas/blog/las-7-fases-ciberataque-las-conoces (consultado 04/08/2026) — Cyber Kill Chain",
+      "INCIBE — BEC: cómo operan los estafadores y cómo detectarlos (Empresas): https://www.incibe.es/empresas/blog/bec-como-operan-los-estafadores-y-como-detectarlos (consultado 04/08/2026) — Business E-mail Compromise (BEC)"
+    ],
+    "tipo_fuente": "autoridad",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 41 — Ciberdelincuencia y agentes de la amenaza: malware, phishing, ransomware y demás; cibercriminales; APT; Cyber Kill Chain"
+  },
+  "fuentes": {
+    "INCIBE glosario 2021 — Botnet": "Una botnet es un conjunto de ordenadores (denominados bots) controlados remotamente por un atacante que pueden ser utilizados en conjunto para realizar actividades maliciosas como envío de spam, ataques de DDoS, etc.",
+    "INCIBE blog — Business Email Compromise (BEC)": "Un ataque Business Email Compromise (BEC), o «Correo Corporativo Comprometido», es una estafa sofisticada en la que los delincuentes tienen acceso a cuentas de correo legítimas dentro de la empresa. Esto les permite enviar mensajes desde una cuenta real, haciéndose pasar por personas de confianza, como directivos o proveedores habituales. Su objetivo es engañar a los empleados para que transfieran dinero o compartan información confidencial.",
+    "INCIBE glosario 2021 — Cartas nigerianas": "Se trata de una comunicación inesperada mediante correo electrónico carta o mensajería instantánea en las que el remitente promete negocios muy rentables. La expectativa de poder ganar mucho dinero mediante unas sencillas gestiones, es el gancho utilizado por los estafadores para involucrar a las potenciales víctimas en cualquier otra situación engañosa, procurando que finalmente transfiera una fuerte cantidad de dinero para llevar a cabo la operación.",
+    "INCIBE/OSI Guía de ciberataques — Criptojacking": "El Criptojacking es una práctica por medio de la cual, los ciberdelincuentes utilizan nuestros dispositivos sin nuestro consentimiento para llevar a cabo «extracciones» de criptomonedas. Durante el proceso, utilizan los recursos del sistema.",
+    "INCIBE glosario 2021 — Denegación de servicio (DoS/DDoS)": "Ataque a un sistema, aplicación o dispositivo para dejarlo fuera de servicio debido a una saturación de peticiones. La denegación de servicio distribuida (DDoS) es un DoS pero las peticiones se hacen desde diversos orígenes, de esta forma es más efectivo, y más complicado de detener y determinar su origen.",
+    "INCIBE glosario básico — Ingeniería social": "Estrategia de engaño que utilizan los ciberdelincuentes para ganarse nuestra confianza y conseguir que compartamos nuestros datos con ellos, como contraseñas o datos de nuestra tarjeta, o que les demos acceso a nuestros dispositivos.",
+    "INCIBE/OSI Guía de ciberataques — Inyección SQL": "Este tipo de ataque permite a los ciberdelincuentes insertar líneas de código SQL maliciosas en la propia aplicación web, obteniendo acceso parcial o completo a los datos, pudiendo ser monitorizados, modificados o robados por el atacante.",
+    "INCIBE TemáTICas — Malware": "Con el término malware se conoce de forma genérica a todos aquellos programas diseñados para provocar un daño o acción maliciosa en un dispositivo. Virus, troyanos, ransomware, adware, keyloggers o rootkits, entre otros, no son más que distintos tipos de malware.",
+    "INCIBE dosier fraude — Pharming": "Pharming: similar al phishing, pero en este caso la víctima no tiene que pulsar en un enlace fraudulento, sino que es redirigida al sitio fraudulento al intentar acceder a un sitio legítimo de la manera habitual. Esto es posible gracias a la modificación de la información proporcionada por los servidores de servicios de nombres de Internet o DNS.",
+    "INCIBE glosario básico — Phishing": "Técnica donde los ciberdelincuentes se hacen pasar por otra persona o entidad a través del correo electrónico, como puede ser el banco, una red social o incluso un servicio público, para engañarnos y que realicemos alguna acción bajo cualquier excusa, generalmente acceder a una página fraudulenta o descargar un fichero infectado.",
+    "INCIBE/OSI Guía de ciberataques — Spear phishing": "Cuando se trata de un ataque dirigido a una persona en concreto, se conoce como Spear phishing. Esta modalidad centra en una persona específica las técnicas de manipulación, recabando información sobre ella previamente para maximizar las probabilidades de éxito a la hora de hacerse con su información o dinero.",
+    "INCIBE glosario básico — Ransomware": "Tipo de malware que cifra los archivos de la víctima y exige un rescate para restaurar el acceso a los datos.",
+    "INCIBE blog — Skimming": "Tradicionalmente, el robo de tarjetas de crédito o skimming se hacía directamente en los cajeros automáticos. Los delincuentes utilizando diferentes dispositivos clonan las tarjetas y roban el código PIN. Este tipo de fraude ha pasado del mundo offline al digital dando como resultado el denominado e-skimming.",
+    "INCIBE/OSI Guía de ciberataques — Spoofing": "Consiste en el empleo de técnicas de hacking de forma maliciosa para suplantar nuestra identidad, la de una web o una entidad. Se basa en tres partes: el atacante, la víctima y el sistema o entidad virtual que va a ser falsificado.",
+    "INCIBE glosario básico — Spyware": "Software que recopila información sobre una persona u organización sin su conocimiento.",
+    "INCIBE glosario básico — Troyano": "Tipo de malware que se disfraza de un programa fiable para engañar a los usuarios y obtener acceso a sus sistemas.",
+    "INCIBE blog — Zero-day": "Como su propio nombre indica, una vulnerabilidad de día cero o Zero Day, es un tipo de vulnerabilidad que acaba de ser descubierta y que aún no tiene un parche que la solucione. La principal amenaza reside en que, hasta que se lanza dicho parche correctivo y los usuarios lo instalan en sus equipos, los atacantes tienen vía libre para explotar la vulnerabilidad y sacar provecho del fallo de seguridad.",
+    "INCIBE glosario 2021 — Ciberdelincuente": "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, pudiendo provocar daños económicos o reputacionales mediante robo, filtrado de información, deterioro de software o hardware, fraude y extorsión. Casi siempre están orientados a la obtención de fines económicos.",
+    "INCIBE blog — Hacktivistas": "Los hacktivistas son activistas que aprovechan sus conocimientos cibernéticos para perseguir una causa, en este caso, de manera delictiva. Impulsados por sus ideales, llevan a cabo acciones como la filtración de datos confidenciales de compañías o Estados, a fin de generar cambios sociales y políticos.",
+    "INCIBE blog — Insider": "Se conoce como insider a una persona con acceso legítimo a la información de una empresa que utiliza este privilegio de manera indebida, poniendo en riesgo la seguridad de la organización. Puede tratarse de un empleado, exempleado, proveedor o cualquier otra persona que tenga acceso a la información o sistemas empresariales.",
+    "INCIBE glosario 2021 — Amenaza avanzada persistente (APT)": "También conocido como APT, acrónimo en inglés de Advanced Persistent Threat, consiste en un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo, utilizando diferentes formas de ataque. Suelen estar patrocinados por compañías, mafias o un estado. El objetivo principal es vigilar, exfiltrar datos o modificar los recursos de una empresa u organización de forma integrada y continuada en el tiempo.",
+    "INCIBE blog — Cyber Kill Chain": "A este ciclo de vida de un ciberataque se le conoce como Cyber Kill Chain. La Cyber Kill Chain está formada por una secuencia de siete pasos, cada uno de los cuales supone una etapa del ataque."
+  },
+  "conceptos": [
+    {
+      "id": "CIBER-001",
+      "articulo": "INCIBE glosario 2021 — Botnet",
+      "titulo": "Botnet",
+      "resumen": "Conjunto de ordenadores (bots) controlados remotamente por un atacante que se usan en conjunto para actividades maliciosas como el envío de spam o ataques de DDoS.",
+      "explicacion": "Una botnet es una red de equipos infectados que un atacante maneja a distancia desde un servidor de mando y control. Al actuar de forma coordinada, los equipos «zombis» sirven para lanzar campañas de spam, distribuir malware o saturar servicios con ataques de denegación de servicio."
+    },
+    {
+      "id": "CIBER-002",
+      "articulo": "INCIBE blog — Business Email Compromise (BEC)",
+      "titulo": "Business E-mail Compromise (BEC)",
+      "resumen": "Estafa sofisticada en la que los delincuentes acceden a cuentas de correo legítimas de la empresa y, desde una cuenta real, se hacen pasar por personas de confianza para lograr transferencias o información.",
+      "explicacion": "El BEC o «Correo Corporativo Comprometido» aprovecha el acceso a cuentas de correo reales de la organización. Como los mensajes salen de una dirección auténtica y suplantan a directivos o proveedores habituales, resultan muy creíbles y buscan que el empleado transfiera dinero o comparta información confidencial."
+    },
+    {
+      "id": "CIBER-003",
+      "articulo": "INCIBE glosario 2021 — Cartas nigerianas",
+      "titulo": "Cartas nigerianas",
+      "resumen": "Comunicación inesperada por correo, carta o mensajería en la que el remitente promete negocios muy rentables para atraer a la víctima a una estafa.",
+      "explicacion": "El fraude de las cartas nigerianas usa como gancho la promesa de ganar mucho dinero con gestiones sencillas. El estafador involucra a la víctima en una operación engañosa y acaba pidiéndole que adelante una cantidad de dinero para una transferencia que nunca llega a producirse."
+    },
+    {
+      "id": "CIBER-004",
+      "articulo": "INCIBE/OSI Guía de ciberataques — Criptojacking",
+      "titulo": "Cryptojacking (Criptojacking)",
+      "resumen": "Práctica por la que los ciberdelincuentes usan los dispositivos de la víctima sin su consentimiento para minar («extraer») criptomonedas, consumiendo los recursos del sistema.",
+      "explicacion": "En el criptojacking el atacante secuestra la capacidad de cálculo del equipo ajeno para generar criptomonedas en su beneficio. La víctima no suele darse cuenta más allá de notar que el dispositivo va lento o se calienta, porque el proceso consume los recursos del sistema."
+    },
+    {
+      "id": "CIBER-005",
+      "articulo": "INCIBE glosario 2021 — Denegación de servicio (DoS/DDoS)",
+      "titulo": "Denegación de servicio (DoS/DDoS)",
+      "resumen": "Ataque que deja fuera de servicio un sistema, aplicación o dispositivo saturándolo de peticiones; cuando las peticiones llegan desde diversos orígenes se llama denegación de servicio distribuida (DDoS).",
+      "explicacion": "El objetivo de este ataque no es robar datos, sino tumbar el servicio inundándolo de solicitudes hasta que deja de responder. En su variante distribuida las peticiones proceden de muchos orígenes a la vez, lo que lo hace más eficaz y más difícil de detener y de rastrear."
+    },
+    {
+      "id": "CIBER-006",
+      "articulo": "INCIBE glosario básico — Ingeniería social",
+      "titulo": "Ingeniería social",
+      "resumen": "Estrategia de engaño que utilizan los ciberdelincuentes para ganarse la confianza de la víctima y conseguir que comparta sus datos o dé acceso a sus dispositivos.",
+      "explicacion": "La ingeniería social ataca a la persona, no a la máquina: manipula la confianza para que el usuario entregue contraseñas o datos de tarjeta, o permita el acceso a sus dispositivos. Es la base de fraudes como el phishing, el vishing o el smishing."
+    },
+    {
+      "id": "CIBER-007",
+      "articulo": "INCIBE/OSI Guía de ciberataques — Inyección SQL",
+      "titulo": "Inyección SQL",
+      "resumen": "Ataque que permite a los ciberdelincuentes insertar líneas de código SQL maliciosas en la propia aplicación web para acceder, modificar o robar los datos de su base de datos.",
+      "explicacion": "Las webs suelen apoyarse en bases de datos gestionadas con el lenguaje SQL. Si la aplicación no filtra bien las entradas, el atacante puede colar comandos SQL propios y obtener acceso parcial o total a la información, llegando a leerla, alterarla o destruirla."
+    },
+    {
+      "id": "CIBER-008",
+      "articulo": "INCIBE TemáTICas — Malware",
+      "titulo": "Malware",
+      "resumen": "Término genérico para todos los programas diseñados para provocar un daño o una acción maliciosa en un dispositivo; virus, troyanos, ransomware, adware, keyloggers o rootkits son tipos de malware.",
+      "explicacion": "Malware es la palabra paraguas para cualquier software malicioso. No es una amenaza única, sino una familia que agrupa virus, troyanos, ransomware, spyware y muchos otros, cada uno con una forma distinta de infectar y de causar daño."
+    },
+    {
+      "id": "CIBER-009",
+      "articulo": "INCIBE dosier fraude — Pharming",
+      "titulo": "Pharming",
+      "resumen": "Variante del phishing en la que la víctima no pulsa ningún enlace, sino que es redirigida a un sitio fraudulento al intentar acceder con normalidad a un sitio legítimo, gracias a la manipulación del DNS.",
+      "explicacion": "En el pharming el engaño no está en un enlace, sino en la traducción de nombres de dominio a direcciones IP: al manipular la información de los servidores DNS, cuando la víctima teclea la web legítima el sistema la desvía a un servidor fraudulento sin que lo perciba."
+    },
+    {
+      "id": "CIBER-010",
+      "articulo": "INCIBE glosario básico — Phishing",
+      "titulo": "Phishing",
+      "resumen": "Técnica en la que los ciberdelincuentes se hacen pasar por otra persona o entidad a través del correo electrónico para engañar a la víctima y que realice alguna acción, como entrar en una web fraudulenta o descargar un fichero infectado.",
+      "explicacion": "El phishing suplanta a una entidad de confianza —un banco, una red social, un servicio público— por correo electrónico para que la víctima baje la guardia. La excusa lleva casi siempre a una página falsa donde robar credenciales o a un archivo con malware."
+    },
+    {
+      "id": "CIBER-011",
+      "articulo": "INCIBE/OSI Guía de ciberataques — Spear phishing",
+      "titulo": "Spear phishing",
+      "resumen": "Modalidad de phishing que consiste en un ataque dirigido a una persona en concreto, sobre la que se recaba información previa para personalizar el engaño y aumentar sus probabilidades de éxito.",
+      "explicacion": "A diferencia del phishing masivo, el spear phishing apunta a una víctima específica. El atacante investiga antes a la persona para que el mensaje resulte creíble y personalizado, maximizando así las opciones de hacerse con su información o su dinero."
+    },
+    {
+      "id": "CIBER-012",
+      "articulo": "INCIBE glosario básico — Ransomware",
+      "titulo": "Ransomware",
+      "resumen": "Tipo de malware que cifra los archivos de la víctima y exige un rescate para restaurar el acceso a los datos.",
+      "explicacion": "El ransomware secuestra la información: cifra los ficheros del equipo y muestra una petición de rescate, normalmente en criptomonedas, a cambio de la clave para recuperarlos. Es uno de los ataques con mayor impacto económico para empresas y particulares."
+    },
+    {
+      "id": "CIBER-013",
+      "articulo": "INCIBE blog — Skimming",
+      "titulo": "Skimming",
+      "resumen": "Robo de tarjetas de crédito que tradicionalmente se hacía en los cajeros automáticos, clonando las tarjetas con distintos dispositivos y robando el PIN; su versión digital es el e-skimming.",
+      "explicacion": "El skimming clásico copia los datos de la banda de la tarjeta y el PIN mediante dispositivos colocados en cajeros o TPV. Con el comercio electrónico, la técnica ha saltado al entorno digital como e-skimming, robando los datos de pago en tiendas online legítimas."
+    },
+    {
+      "id": "CIBER-014",
+      "articulo": "INCIBE/OSI Guía de ciberataques — Spoofing",
+      "titulo": "Spoofing",
+      "resumen": "Empleo de técnicas de hacking de forma maliciosa para suplantar la identidad propia, la de una web o la de una entidad; intervienen el atacante, la víctima y el sistema o entidad que se falsifica.",
+      "explicacion": "Spoofing significa suplantación. Según lo que se falsifique aparecen variantes como IP spoofing, web spoofing, email spoofing o DNS spoofing, pero en todas el atacante finge ser otro para ganarse la confianza de la víctima y acceder a sus datos."
+    },
+    {
+      "id": "CIBER-015",
+      "articulo": "INCIBE glosario básico — Spyware",
+      "titulo": "Spyware",
+      "resumen": "Software que recopila información sobre una persona u organización sin su conocimiento.",
+      "explicacion": "El spyware es un programa espía: se instala de forma sigilosa y recoge datos del usuario —hábitos, credenciales, información personal— sin su consentimiento ni conocimiento, para enviarlos a un tercero. Se combate con herramientas antispyware."
+    },
+    {
+      "id": "CIBER-016",
+      "articulo": "INCIBE glosario básico — Troyano",
+      "titulo": "Troyano",
+      "resumen": "Tipo de malware que se disfraza de un programa fiable para engañar a los usuarios y obtener acceso a sus sistemas.",
+      "explicacion": "El troyano toma su nombre del caballo de Troya: aparenta ser una aplicación legítima y útil para que el usuario lo instale, pero una vez dentro abre la puerta al atacante para controlar el sistema, robar datos o instalar más malware."
+    },
+    {
+      "id": "CIBER-017",
+      "articulo": "INCIBE blog — Zero-day",
+      "titulo": "Zero-day (vulnerabilidad de día cero)",
+      "resumen": "Tipo de vulnerabilidad que acaba de ser descubierta y que aún no tiene un parche que la solucione; hasta que llega el parche los atacantes pueden explotarla con vía libre.",
+      "explicacion": "Se llama de día cero porque el fabricante ha tenido cero días para corregirla: el fallo se conoce (o se explota) antes de que exista solución. Ese intervalo sin parche es el momento más peligroso, ya que los atacantes aprovechan el fallo sin oposición."
+    },
+    {
+      "id": "CIBER-018",
+      "articulo": "INCIBE glosario 2021 — Ciberdelincuente",
+      "titulo": "Cibercriminales (ciberdelincuentes)",
+      "resumen": "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, causando daños económicos o reputacionales mediante robo, filtrado, sabotaje, fraude o extorsión.",
+      "explicacion": "El ciberdelincuente es el agente de la amenaza que actúa por lo general con fines económicos. Sus acciones van del robo y la filtración de información al deterioro de software o hardware, el fraude y la extorsión contra personas y sistemas."
+    },
+    {
+      "id": "CIBER-019",
+      "articulo": "INCIBE blog — Hacktivistas",
+      "titulo": "Hacktivistas",
+      "resumen": "Activistas que aprovechan sus conocimientos cibernéticos para perseguir una causa de forma delictiva; movidos por sus ideales filtran datos de compañías o Estados para generar cambios sociales y políticos.",
+      "explicacion": "El hacktivismo mezcla activismo y hacking: el motor no es el dinero sino una ideología. Filtrar información confidencial o atacar a organizaciones y Estados son formas de presión con las que buscan provocar un cambio social o político."
+    },
+    {
+      "id": "CIBER-020",
+      "articulo": "INCIBE blog — Insider",
+      "titulo": "Insider (amenaza interna)",
+      "resumen": "Persona con acceso legítimo a la información de una empresa que utiliza ese privilegio de manera indebida, poniendo en riesgo la seguridad de la organización; puede ser empleado, exempleado o proveedor.",
+      "explicacion": "El insider es la amenaza que nace dentro: alguien de confianza con acceso autorizado que abusa de él. Puede actuar de forma malintencionada, por venganza o beneficio, o de forma negligente, y provocar fugas de información con graves consecuencias económicas, legales y de reputación."
+    },
+    {
+      "id": "CIBER-021",
+      "articulo": "INCIBE glosario 2021 — Amenaza avanzada persistente (APT)",
+      "titulo": "APT (Amenaza avanzada persistente)",
+      "resumen": "Tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo con diversas formas de ataque; suele estar patrocinado por empresas, mafias o un Estado.",
+      "explicacion": "Una APT no busca un golpe rápido, sino una presencia prolongada y discreta en la red de la víctima para vigilar, exfiltrar datos o modificar recursos de forma continuada. Por su sofisticación y financiación (mafias o Estados), es una de las amenazas más serias."
+    },
+    {
+      "id": "CIBER-022",
+      "articulo": "INCIBE blog — Cyber Kill Chain",
+      "titulo": "Cyber Kill Chain",
+      "resumen": "Modelo del ciclo de vida de un ciberataque formado por una secuencia de siete pasos, cada uno de los cuales supone una etapa del ataque.",
+      "explicacion": "La Cyber Kill Chain describe, fase a fase, cómo se desarrolla un ciberataque. Al identificar sus siete etapas, la defensa puede intentar romper la cadena en cualquiera de ellas: detener el ataque en un solo paso basta para bloquear el conjunto."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CIBER-001",
+      "articulo": "INCIBE glosario 2021 — Botnet",
+      "tipo": "test",
+      "enunciado": "Según el glosario de INCIBE, ¿qué es una botnet?",
+      "opciones": [
+        "un conjunto de ordenadores (denominados bots) controlados remotamente por un atacante",
+        "un programa que se disfraza de aplicación fiable para colarse en el equipo de la víctima",
+        "una red de servidores DNS manipulados para redirigir al usuario a páginas fraudulentas",
+        "un conjunto de correos masivos no deseados enviados con fines publicitarios o maliciosos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Una botnet es un conjunto de ordenadores (denominados bots) controlados remotamente por un atacante que pueden ser utilizados en conjunto para realizar actividades maliciosas como envío de spam, ataques de DDoS, etc.",
+      "justificacion": "INCIBE, Glosario de términos de ciberseguridad (2021), «Botnet»."
+    },
+    {
+      "concepto_id": "CIBER-002",
+      "articulo": "INCIBE blog — Business Email Compromise (BEC)",
+      "tipo": "test",
+      "enunciado": "¿En qué consiste, según INCIBE, un ataque Business Email Compromise (BEC)?",
+      "opciones": [
+        "una estafa sofisticada en la que los delincuentes tienen acceso a cuentas de correo legítimas dentro de la empresa",
+        "una comunicación inesperada por correo en la que el remitente promete a la víctima negocios sencillos y muy rentables",
+        "un ataque que satura de peticiones un servidor o servicio hasta dejarlo por completo fuera de servicio",
+        "un programa malicioso que cifra los archivos de la víctima y reclama un rescate para restaurar su acceso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Un ataque Business Email Compromise (BEC), o «Correo Corporativo Comprometido», es una estafa sofisticada en la que los delincuentes tienen acceso a cuentas de correo legítimas dentro de la empresa. Esto les permite enviar mensajes desde una cuenta real, haciéndose pasar por personas de confianza, como directivos o proveedores habituales. Su objetivo es engañar a los empleados para que transfieran dinero o compartan información confidencial.",
+      "justificacion": "INCIBE, «BEC: cómo operan los estafadores y cómo detectarlos»."
+    },
+    {
+      "concepto_id": "CIBER-003",
+      "articulo": "INCIBE glosario 2021 — Cartas nigerianas",
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza al fraude conocido como cartas nigerianas?",
+      "opciones": [
+        "el remitente promete negocios muy rentables",
+        "el atacante cifra los ficheros y pide un rescate",
+        "la víctima es redirigida a una web falsa vía DNS",
+        "se roban los datos de la tarjeta en el cajero"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se trata de una comunicación inesperada mediante correo electrónico carta o mensajería instantánea en las que el remitente promete negocios muy rentables. La expectativa de poder ganar mucho dinero mediante unas sencillas gestiones, es el gancho utilizado por los estafadores para involucrar a las potenciales víctimas en cualquier otra situación engañosa, procurando que finalmente transfiera una fuerte cantidad de dinero para llevar a cabo la operación.",
+      "justificacion": "INCIBE, Glosario de términos de ciberseguridad (2021), «Cartas nigerianas»."
+    },
+    {
+      "concepto_id": "CIBER-004",
+      "articulo": "INCIBE/OSI Guía de ciberataques — Criptojacking",
+      "tipo": "test",
+      "enunciado": "¿Qué hacen los atacantes en un ataque de criptojacking (cryptojacking)?",
+      "opciones": [
+        "los ciberdelincuentes utilizan nuestros dispositivos sin nuestro consentimiento para llevar a cabo «extracciones» de criptomonedas",
+        "los ciberdelincuentes se hacen pasar por una entidad de confianza para robarnos las credenciales de acceso mediante un correo",
+        "los ciberdelincuentes cifran los archivos del equipo y exigen el pago de un rescate para devolver el acceso a los datos",
+        "los ciberdelincuentes insertan líneas de código malicioso en una web para acceder a la base de datos del servicio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Criptojacking es una práctica por medio de la cual, los ciberdelincuentes utilizan nuestros dispositivos sin nuestro consentimiento para llevar a cabo «extracciones» de criptomonedas. Durante el proceso, utilizan los recursos del sistema.",
+      "justificacion": "INCIBE/OSI, Guía de ciberataques, «Criptojacking»."
+    },
+    {
+      "concepto_id": "CIBER-005",
+      "articulo": "INCIBE glosario 2021 — Denegación de servicio (DoS/DDoS)",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el objetivo de un ataque de denegación de servicio (DoS)?",
+      "opciones": [
+        "para dejarlo fuera de servicio debido a una saturación de peticiones",
+        "para robar de forma sigilosa la información personal del usuario",
+        "para suplantar la identidad de una web mediante técnicas de hacking",
+        "para cifrar los archivos y pedir después un rescate económico"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Ataque a un sistema, aplicación o dispositivo para dejarlo fuera de servicio debido a una saturación de peticiones. La denegación de servicio distribuida (DDoS) es un DoS pero las peticiones se hacen desde diversos orígenes, de esta forma es más efectivo, y más complicado de detener y determinar su origen.",
+      "justificacion": "INCIBE, Glosario de términos de ciberseguridad (2021), «Denegación de servicio»."
+    },
+    {
+      "concepto_id": "CIBER-006",
+      "articulo": "INCIBE glosario básico — Ingeniería social",
+      "tipo": "test",
+      "enunciado": "¿Cómo define INCIBE la ingeniería social?",
+      "opciones": [
+        "estrategia de engaño que utilizan los ciberdelincuentes para ganarse nuestra confianza",
+        "programa espía que se instala de forma silenciosa y recopila información del usuario sin su conocimiento",
+        "ataque informático sigiloso que permanece activo y oculto durante mucho tiempo",
+        "software genérico diseñado para provocar un daño o acción maliciosa en el equipo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Estrategia de engaño que utilizan los ciberdelincuentes para ganarse nuestra confianza y conseguir que compartamos nuestros datos con ellos, como contraseñas o datos de nuestra tarjeta, o que les demos acceso a nuestros dispositivos.",
+      "justificacion": "INCIBE, Glosario de términos básicos de ciberseguridad, «Ingeniería social»."
+    },
+    {
+      "concepto_id": "CIBER-007",
+      "articulo": "INCIBE/OSI Guía de ciberataques — Inyección SQL",
+      "tipo": "test",
+      "enunciado": "¿Qué permite a los ciberdelincuentes un ataque de inyección SQL?",
+      "opciones": [
+        "insertar líneas de código SQL maliciosas en la propia aplicación web",
+        "redirigir a la víctima a un sitio fraudulento manipulando los servidores de nombres de dominio (DNS)",
+        "minar criptomonedas usando los recursos del equipo de la víctima",
+        "suplantar la identidad de una web para engañar al usuario legítimo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Este tipo de ataque permite a los ciberdelincuentes insertar líneas de código SQL maliciosas en la propia aplicación web, obteniendo acceso parcial o completo a los datos, pudiendo ser monitorizados, modificados o robados por el atacante.",
+      "justificacion": "INCIBE/OSI, Guía de ciberataques, «Inyección SQL»."
+    },
+    {
+      "concepto_id": "CIBER-008",
+      "articulo": "INCIBE TemáTICas — Malware",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, ¿a qué se conoce de forma genérica con el término malware?",
+      "opciones": [
+        "todos aquellos programas diseñados para provocar un daño o acción maliciosa en un dispositivo",
+        "toda persona que realiza actividades delictivas en la red contra personas o sistemas informáticos",
+        "cualquier vulnerabilidad recién descubierta que todavía no dispone de un parche que la solucione",
+        "cualquier estrategia de engaño con la que un atacante se gana la confianza de su víctima"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Con el término malware se conoce de forma genérica a todos aquellos programas diseñados para provocar un daño o acción maliciosa en un dispositivo. Virus, troyanos, ransomware, adware, keyloggers o rootkits, entre otros, no son más que distintos tipos de malware.",
+      "justificacion": "INCIBE, TemáTICas «Malware»."
+    },
+    {
+      "concepto_id": "CIBER-009",
+      "articulo": "INCIBE dosier fraude — Pharming",
+      "tipo": "test",
+      "enunciado": "¿Qué distingue al pharming del phishing tradicional?",
+      "opciones": [
+        "es redirigida al sitio fraudulento al intentar acceder a un sitio legítimo de la manera habitual",
+        "es engañada con un correo urgente que le pide pulsar sobre un enlace o abrir un adjunto malicioso",
+        "es espiada por un programa que recopila su información personal sin que ella tenga conocimiento",
+        "es víctima de un programa que cifra sus archivos y le reclama un rescate para poder recuperarlos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Pharming: similar al phishing, pero en este caso la víctima no tiene que pulsar en un enlace fraudulento, sino que es redirigida al sitio fraudulento al intentar acceder a un sitio legítimo de la manera habitual. Esto es posible gracias a la modificación de la información proporcionada por los servidores de servicios de nombres de Internet o DNS.",
+      "justificacion": "INCIBE, dosier «Fraude y gestión de la identidad online», «Pharming»."
+    },
+    {
+      "concepto_id": "CIBER-010",
+      "articulo": "INCIBE glosario básico — Phishing",
+      "tipo": "test",
+      "enunciado": "¿En qué se basa la técnica de phishing según INCIBE?",
+      "opciones": [
+        "los ciberdelincuentes se hacen pasar por otra persona o entidad a través del correo electrónico",
+        "los ciberdelincuentes redirigen a la víctima a una web falsa manipulando los servidores DNS",
+        "los ciberdelincuentes emplean los dispositivos de la víctima para minar criptomonedas sin permiso",
+        "los ciberdelincuentes aprovechan una vulnerabilidad que aún carece de parche para atacar el sistema"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Técnica donde los ciberdelincuentes se hacen pasar por otra persona o entidad a través del correo electrónico, como puede ser el banco, una red social o incluso un servicio público, para engañarnos y que realicemos alguna acción bajo cualquier excusa, generalmente acceder a una página fraudulenta o descargar un fichero infectado.",
+      "justificacion": "INCIBE, Glosario de términos básicos de ciberseguridad, «Phishing»."
+    },
+    {
+      "concepto_id": "CIBER-011",
+      "articulo": "INCIBE/OSI Guía de ciberataques — Spear phishing",
+      "tipo": "test",
+      "enunciado": "¿Qué es el spear phishing?",
+      "opciones": [
+        "un ataque dirigido a una persona en concreto",
+        "un envío masivo e indiscriminado de correos",
+        "un ataque que satura de peticiones un servidor",
+        "un programa que espía al usuario sin permiso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cuando se trata de un ataque dirigido a una persona en concreto, se conoce como Spear phishing. Esta modalidad centra en una persona específica las técnicas de manipulación, recabando información sobre ella previamente para maximizar las probabilidades de éxito a la hora de hacerse con su información o dinero.",
+      "justificacion": "INCIBE/OSI, Guía de ciberataques, «Spear phishing»."
+    },
+    {
+      "concepto_id": "CIBER-012",
+      "articulo": "INCIBE glosario básico — Ransomware",
+      "tipo": "test",
+      "enunciado": "¿Qué hace el tipo de malware conocido como ransomware?",
+      "opciones": [
+        "cifra los archivos de la víctima y exige un rescate para restaurar el acceso a los datos",
+        "recopila información sobre la víctima u organización sin que estas lleguen a tener conocimiento",
+        "se hace pasar por una entidad de confianza para robar las credenciales mediante un correo falso",
+        "usa los recursos del equipo de la víctima para extraer criptomonedas sin su consentimiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Tipo de malware que cifra los archivos de la víctima y exige un rescate para restaurar el acceso a los datos.",
+      "justificacion": "INCIBE, Glosario de términos básicos de ciberseguridad, «Ransomware»."
+    },
+    {
+      "concepto_id": "CIBER-013",
+      "articulo": "INCIBE blog — Skimming",
+      "tipo": "test",
+      "enunciado": "¿En qué consistía tradicionalmente el skimming?",
+      "opciones": [
+        "el robo de tarjetas de crédito o skimming se hacía directamente en los cajeros automáticos",
+        "el secuestro de los archivos del equipo de la víctima para exigir después un rescate económico",
+        "el envío de correos que suplantaban a un banco para robar las claves de la banca electrónica",
+        "el uso encubierto de los recursos del dispositivo de la víctima para la minería de criptomonedas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Tradicionalmente, el robo de tarjetas de crédito o skimming se hacía directamente en los cajeros automáticos. Los delincuentes utilizando diferentes dispositivos clonan las tarjetas y roban el código PIN. Este tipo de fraude ha pasado del mundo offline al digital dando como resultado el denominado e-skimming.",
+      "justificacion": "INCIBE, «E-skimming, qué es y cómo proteger tu tienda»."
+    },
+    {
+      "concepto_id": "CIBER-014",
+      "articulo": "INCIBE/OSI Guía de ciberataques — Spoofing",
+      "tipo": "test",
+      "enunciado": "¿En qué consiste el spoofing?",
+      "opciones": [
+        "el empleo de técnicas de hacking de forma maliciosa para suplantar nuestra identidad, la de una web o una entidad",
+        "el aprovechamiento de una vulnerabilidad recién descubierta antes de que el fabricante publique un parche corrector",
+        "el cifrado de los ficheros del equipo de la víctima acompañado de una petición de rescate económico para liberarlos",
+        "el uso de una red de equipos infectados y controlados en remoto para lanzar campañas de spam o ataques distribuidos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Consiste en el empleo de técnicas de hacking de forma maliciosa para suplantar nuestra identidad, la de una web o una entidad. Se basa en tres partes: el atacante, la víctima y el sistema o entidad virtual que va a ser falsificado.",
+      "justificacion": "INCIBE/OSI, Guía de ciberataques, «Spoofing»."
+    },
+    {
+      "concepto_id": "CIBER-015",
+      "articulo": "INCIBE glosario básico — Spyware",
+      "tipo": "test",
+      "enunciado": "¿Qué es el spyware según INCIBE?",
+      "opciones": [
+        "recopila información sobre una persona u organización sin su conocimiento",
+        "cifra los archivos del equipo de la víctima y reclama el pago de un rescate económico para liberarlos",
+        "suplanta la identidad de una web para engañar al usuario legítimo",
+        "satura un servidor de peticiones hasta dejarlo fuera de servicio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Software que recopila información sobre una persona u organización sin su conocimiento.",
+      "justificacion": "INCIBE, Glosario de términos básicos de ciberseguridad, «Spyware»."
+    },
+    {
+      "concepto_id": "CIBER-016",
+      "articulo": "INCIBE glosario básico — Troyano",
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza a un troyano?",
+      "opciones": [
+        "se disfraza de un programa fiable para engañar a los usuarios y obtener acceso a sus sistemas",
+        "se aprovecha de una vulnerabilidad sin parche para tomar el control del equipo de la víctima",
+        "se sirve de una red de equipos zombis para lanzar ataques de denegación de servicio distribuida",
+        "se hace pasar por una entidad de confianza en un correo para robar las credenciales del usuario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Tipo de malware que se disfraza de un programa fiable para engañar a los usuarios y obtener acceso a sus sistemas.",
+      "justificacion": "INCIBE, Glosario de términos básicos de ciberseguridad, «Troyano»."
+    },
+    {
+      "concepto_id": "CIBER-017",
+      "articulo": "INCIBE blog — Zero-day",
+      "tipo": "test",
+      "enunciado": "¿Qué es una vulnerabilidad de día cero (Zero Day)?",
+      "opciones": [
+        "un tipo de vulnerabilidad que acaba de ser descubierta y que aún no tiene un parche que la solucione",
+        "un tipo de programa malicioso que se disfraza de aplicación fiable para engañar a los usuarios",
+        "un tipo de ataque dirigido de forma específica contra una única persona previamente investigada",
+        "un tipo de fraude en el que se suplanta a un directivo desde una cuenta de correo comprometida"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Como su propio nombre indica, una vulnerabilidad de día cero o Zero Day, es un tipo de vulnerabilidad que acaba de ser descubierta y que aún no tiene un parche que la solucione. La principal amenaza reside en que, hasta que se lanza dicho parche correctivo y los usuarios lo instalan en sus equipos, los atacantes tienen vía libre para explotar la vulnerabilidad y sacar provecho del fallo de seguridad.",
+      "justificacion": "INCIBE, «¿Qué es una vulnerabilidad Zero Day?»."
+    },
+    {
+      "concepto_id": "CIBER-018",
+      "articulo": "INCIBE glosario 2021 — Ciberdelincuente",
+      "tipo": "test",
+      "enunciado": "¿Cómo define INCIBE al ciberdelincuente (cibercriminal)?",
+      "opciones": [
+        "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos",
+        "Activista que aprovecha sus conocimientos cibernéticos para perseguir una causa de forma delictiva",
+        "Persona con acceso legítimo a la empresa que utiliza ese privilegio de manera indebida y peligrosa",
+        "Programa que se conoce de forma genérica como cualquier software diseñado para causar un daño"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, pudiendo provocar daños económicos o reputacionales mediante robo, filtrado de información, deterioro de software o hardware, fraude y extorsión. Casi siempre están orientados a la obtención de fines económicos.",
+      "justificacion": "INCIBE, Glosario de términos de ciberseguridad (2021), «Ciberdelincuente»."
+    },
+    {
+      "concepto_id": "CIBER-019",
+      "articulo": "INCIBE blog — Hacktivistas",
+      "tipo": "test",
+      "enunciado": "¿Qué mueve a los hacktivistas a llevar a cabo sus acciones?",
+      "opciones": [
+        "activistas que aprovechan sus conocimientos cibernéticos para perseguir una causa",
+        "delincuentes que buscan de forma casi exclusiva la obtención de beneficios económicos",
+        "empleados internos que abusan de su acceso legítimo a la información de la empresa",
+        "atacantes patrocinados por un Estado que espían de forma sigilosa y muy prolongada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los hacktivistas son activistas que aprovechan sus conocimientos cibernéticos para perseguir una causa, en este caso, de manera delictiva. Impulsados por sus ideales, llevan a cabo acciones como la filtración de datos confidenciales de compañías o Estados, a fin de generar cambios sociales y políticos.",
+      "justificacion": "INCIBE, «Explicación de los distintos tipos de hackers», «Hacktivistas»."
+    },
+    {
+      "concepto_id": "CIBER-020",
+      "articulo": "INCIBE blog — Insider",
+      "tipo": "test",
+      "enunciado": "¿A quién se conoce como insider en ciberseguridad?",
+      "opciones": [
+        "una persona con acceso legítimo a la información de una empresa que utiliza este privilegio de manera indebida",
+        "un activista que emplea sus conocimientos técnicos para filtrar datos y perseguir una causa ideológica o política",
+        "un atacante externo, patrocinado por mafias o Estados, que espía de forma sigilosa y persistente a la organización",
+        "un delincuente que se hace pasar por una entidad de confianza para robar credenciales mediante correos fraudulentos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se conoce como insider a una persona con acceso legítimo a la información de una empresa que utiliza este privilegio de manera indebida, poniendo en riesgo la seguridad de la organización. Puede tratarse de un empleado, exempleado, proveedor o cualquier otra persona que tenga acceso a la información o sistemas empresariales.",
+      "justificacion": "INCIBE, «Insiders: cómo atacan desde dentro»."
+    },
+    {
+      "concepto_id": "CIBER-021",
+      "articulo": "INCIBE glosario 2021 — Amenaza avanzada persistente (APT)",
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza a una amenaza avanzada persistente (APT)?",
+      "opciones": [
+        "un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo",
+        "un tipo de fraude en el que un remitente desconocido promete a la víctima negocios muy rentables con unas pocas gestiones",
+        "un tipo de programa que se disfraza de aplicación fiable para que el usuario lo instale y ceda el control de su equipo",
+        "un tipo de ataque que satura de peticiones desde múltiples orígenes un servicio para dejarlo por completo inaccesible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "También conocido como APT, acrónimo en inglés de Advanced Persistent Threat, consiste en un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo, utilizando diferentes formas de ataque. Suelen estar patrocinados por compañías, mafias o un estado. El objetivo principal es vigilar, exfiltrar datos o modificar los recursos de una empresa u organización de forma integrada y continuada en el tiempo.",
+      "justificacion": "INCIBE, Glosario de términos de ciberseguridad (2021), «Amenaza avanzada persistente (APT)»."
+    },
+    {
+      "concepto_id": "CIBER-022",
+      "articulo": "INCIBE blog — Cyber Kill Chain",
+      "tipo": "test",
+      "enunciado": "¿Cómo está formada la Cyber Kill Chain de un ciberataque?",
+      "opciones": [
+        "una secuencia de siete pasos, cada uno de los cuales supone una etapa del ataque",
+        "un único paso automatizado que compromete el sistema de la víctima de forma inmediata",
+        "una red de equipos infectados que se coordinan para atacar a un mismo objetivo común",
+        "un conjunto de correos fraudulentos enviados de forma masiva a numerosos destinatarios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "A este ciclo de vida de un ciberataque se le conoce como Cyber Kill Chain. La Cyber Kill Chain está formada por una secuencia de siete pasos, cada uno de los cuales supone una etapa del ataque.",
+      "justificacion": "INCIBE, «Las 7 fases de un ciberataque. ¿Las conoces?»."
+    }
+  ],
+  "relaciones": [
+    { "origen": "CIBER-016", "destino": "CIBER-008", "tipo": "desarrolla", "justificacion": "El troyano es un tipo concreto de malware." },
+    { "origen": "CIBER-015", "destino": "CIBER-008", "tipo": "desarrolla", "justificacion": "El spyware es un tipo concreto de malware." },
+    { "origen": "CIBER-012", "destino": "CIBER-008", "tipo": "desarrolla", "justificacion": "El ransomware es un tipo concreto de malware." },
+    { "origen": "CIBER-004", "destino": "CIBER-008", "tipo": "desarrolla", "justificacion": "El criptojacking se ejecuta habitualmente mediante malware que secuestra los recursos del equipo." },
+    { "origen": "CIBER-001", "destino": "CIBER-008", "tipo": "desarrolla", "justificacion": "La botnet se construye infectando equipos con malware que los pone bajo control remoto." },
+    { "origen": "CIBER-001", "destino": "CIBER-005", "tipo": "remite", "justificacion": "Las botnets se emplean para lanzar ataques de denegación de servicio distribuida (DDoS)." },
+    { "origen": "CIBER-010", "destino": "CIBER-006", "tipo": "desarrolla", "justificacion": "El phishing es una técnica concreta de ingeniería social." },
+    { "origen": "CIBER-003", "destino": "CIBER-006", "tipo": "desarrolla", "justificacion": "Las cartas nigerianas son un fraude basado en ingeniería social." },
+    { "origen": "CIBER-002", "destino": "CIBER-006", "tipo": "desarrolla", "justificacion": "El BEC apela a la confianza y suplanta identidades: es ingeniería social aplicada al correo corporativo." },
+    { "origen": "CIBER-011", "destino": "CIBER-010", "tipo": "desarrolla", "justificacion": "El spear phishing es una modalidad de phishing dirigida a una persona concreta." },
+    { "origen": "CIBER-009", "destino": "CIBER-010", "tipo": "desarrolla", "justificacion": "El pharming es una variante del phishing que no depende de que la víctima pulse un enlace." },
+    { "origen": "CIBER-009", "destino": "CIBER-014", "tipo": "remite", "justificacion": "El pharming se apoya en la falsificación del DNS, una forma de spoofing." },
+    { "origen": "CIBER-007", "destino": "CIBER-018", "tipo": "desarrolla", "justificacion": "La inyección SQL es una técnica de ataque empleada por los ciberdelincuentes." },
+    { "origen": "CIBER-013", "destino": "CIBER-018", "tipo": "desarrolla", "justificacion": "El skimming es una técnica de fraude empleada por los ciberdelincuentes." },
+    { "origen": "CIBER-019", "destino": "CIBER-018", "tipo": "desarrolla", "justificacion": "El hacktivista es un tipo de agente de la amenaza, movido por ideología en lugar de por dinero." },
+    { "origen": "CIBER-020", "destino": "CIBER-018", "tipo": "desarrolla", "justificacion": "El insider es un agente de la amenaza de origen interno a la organización." },
+    { "origen": "CIBER-021", "destino": "CIBER-017", "tipo": "remite", "justificacion": "Las APT suelen aprovechar vulnerabilidades de día cero (Zero Day) presentes en el software de la víctima." },
+    { "origen": "CIBER-021", "destino": "CIBER-022", "tipo": "remite", "justificacion": "El ciclo de vida de una APT se describe por fases como las de la Cyber Kill Chain." }
+  ]
+}

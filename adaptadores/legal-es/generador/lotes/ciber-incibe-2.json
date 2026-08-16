@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "materia": "glosario-ciberseguridad-incibe",
+    "norma": "Glosario y recursos oficiales de ciberseguridad de INCIBE (glosario de términos 2021, temáticas, Guía de ciberataques de la OSI, blogs y dosieres de INCIBE)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "CCN-CERT — Guía CCN-STIC-401, Glosario y abreviaturas: entrada «Cross site scripting (XSS)» / «Cross-zone scripting»: https://www.ccn-cert.cni.es/guias/glosario-de-terminos-ccn-stic-401.html (glosario oficial del CCN-CERT; consultado 04/08/2026 en la reproducción íntegra del glosario CCN-STIC-401 en https://www.dit.upm.es/~pepe/401/3514.htm) — XSS (Cross-site Scripting)"
+    ],
+    "tipo_fuente": "autoridad",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 41 — Ciberdelincuencia y agentes de la amenaza: malware, phishing, ransomware y demás; cibercriminales; APT; Cyber Kill Chain"
+  },
+  "fuentes": {
+    "CCN-STIC-401 — Cross-site Scripting (XSS)": "Secuencias de comandos en sitios cruzados (Cross-site Scripting) es una brecha de seguridad que se produce en páginas Web generadas dinámicamente. En un ataque por XSS, una aplicación Web se envía con un script que se activa cuando lo lee el navegador de un usuario o una aplicación vulnerable. Dado que los sitios dinámicos dependen de la interacción del usuario, es posible ingresar un script malicioso en la página, ocultándolo entre solicitudes legítimas. Los puntos de entrada comunes incluyen buscadores, foros, blogs y todo tipo de formularios en línea en general. Una vez iniciado el XSS, el atacante puede cambiar configuraciones de usuarios, secuestrar cuentas, envenenar cookies, exponer conexiones SSL, acceder sitios restringidos y hasta instalar publicidad en el sitio víctima.",
+    "CCN-STIC-401 — Cross-zone scripting": "Estado de vulnerabilidad que se crea por métodos de codificación poco seguros, y que tiene como resultado una validación de entradas inapropiada. Suele utilizarse junto con CSRF o inyección SQL.",
+    "CCN-STIC-401 — XSS (inyección de script)": "Esta falla permite a un atacante introducir en el campo de un formulario o código embebido en una página, un script (perl, php, javascript, asp) que tanto al almacenarse como al mostrarse en el navegador, puede provocar la ejecución de un código no deseado."
+  },
+  "conceptos": [
+    { "id": "CIBER-023", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "titulo": "XSS (Cross-site Scripting)", "resumen": "Las secuencias de comandos en sitios cruzados (Cross-site Scripting, XSS) son una brecha de seguridad que se produce en páginas Web generadas dinámicamente.", "explicacion": "El XSS es una vulnerabilidad de las webs dinámicas: el atacante consigue que en la página se cuele y ejecute un script (normalmente JavaScript) que no debería estar ahí. Es uno de los ataques web más frecuentes y afecta a los usuarios que visitan la página comprometida." },
+    { "id": "CIBER-024", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "titulo": "XSS: cómo actúa el script", "resumen": "En un ataque por XSS, una aplicación Web se envía con un script que se activa cuando lo lee el navegador de un usuario o una aplicación vulnerable.", "explicacion": "El script malicioso viaja dentro de la propia aplicación web y se ejecuta en el momento en que el navegador de la víctima (o una aplicación vulnerable) lo interpreta, sin que el usuario haga nada especial." },
+    { "id": "CIBER-025", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "titulo": "XSS: el script se oculta entre solicitudes legítimas", "resumen": "Como los sitios dinámicos dependen de la interacción del usuario, es posible ingresar un script malicioso en la página ocultándolo entre solicitudes legítimas.", "explicacion": "El XSS aprovecha que las webs dinámicas procesan lo que el usuario introduce: el atacante camufla su script entre peticiones normales, de modo que la aplicación lo acepta y lo devuelve como si fuera contenido legítimo." },
+    { "id": "CIBER-026", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "titulo": "XSS: puntos de entrada comunes", "resumen": "Los puntos de entrada comunes del XSS incluyen buscadores, foros, blogs y todo tipo de formularios en línea en general.", "explicacion": "Cualquier lugar donde la web recoja texto del usuario y luego lo muestre es una posible puerta de entrada del XSS: buscadores internos, foros, blogs y formularios en línea son los ejemplos típicos." },
+    { "id": "CIBER-027", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "titulo": "XSS: consecuencias del ataque", "resumen": "Una vez iniciado el XSS, el atacante puede cambiar configuraciones de usuarios, secuestrar cuentas, envenenar cookies, exponer conexiones SSL y acceder a sitios restringidos.", "explicacion": "El impacto del XSS es grave: permite robar sesiones y cuentas, manipular las cookies del usuario, exponer conexiones cifradas y llegar a zonas restringidas del sitio, comprometiendo la confidencialidad y la integridad de los datos." },
+    { "id": "CIBER-028", "articulo": "CCN-STIC-401 — Cross-zone scripting", "titulo": "XSS: origen de la vulnerabilidad", "resumen": "El estado de vulnerabilidad se crea por métodos de codificación poco seguros, con el resultado de una validación de entradas inapropiada; suele utilizarse junto con CSRF o inyección SQL.", "explicacion": "La raíz del problema es una programación insegura que no valida bien lo que entra en la aplicación. Por eso el XSS se combate validando y saneando las entradas, y a menudo se combina con otros ataques como CSRF o la inyección SQL." },
+    { "id": "CIBER-029", "articulo": "CCN-STIC-401 — XSS (inyección de script)", "titulo": "XSS: inyección de script en formularios", "resumen": "La falla del XSS permite a un atacante introducir en un formulario o código embebido un script (perl, php, javascript, asp) que, al almacenarse o mostrarse en el navegador, puede provocar la ejecución de código no deseado.", "explicacion": "En la práctica, el atacante inserta el script en un campo de formulario o incrustado en la página; ese código puede quedar guardado (XSS almacenado) o reflejarse al mostrarse, y en ambos casos se ejecuta código no deseado en el navegador." }
+  ],
+  "actividades": [
+    { "concepto_id": "CIBER-023", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "tipo": "test", "enunciado": "Según el glosario CCN-STIC-401, ¿qué es el Cross-site Scripting (XSS)?", "opciones": [
+      "una brecha de seguridad que se produce en páginas Web generadas dinámicamente",
+      "una técnica que satura de peticiones un servidor Web hasta dejarlo por completo fuera de servicio",
+      "un programa malicioso que cifra los archivos del servidor Web y reclama después un rescate económico",
+      "una vulnerabilidad que permite insertar líneas de código SQL en la base de datos de una aplicación"
+    ], "indice_correcto": 0, "cotejo": "Secuencias de comandos en sitios cruzados (Cross-site Scripting) es una brecha de seguridad que se produce en páginas Web generadas dinámicamente.", "justificacion": "CCN-CERT, Glosario CCN-STIC-401, «Cross site scripting (XSS)»." },
+    { "concepto_id": "CIBER-024", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "tipo": "test", "enunciado": "Según CCN-STIC-401, ¿cómo actúa el script en un ataque por XSS?", "opciones": [
+      "una aplicación Web se envía con un script que se activa cuando lo lee el navegador de un usuario o una aplicación vulnerable",
+      "un servidor de nombres de dominio se manipula para que el navegador del usuario cargue por su cuenta una página fraudulenta",
+      "un correo suplanta a una entidad de confianza para que el usuario descargue un fichero infectado en su propio equipo",
+      "una red de equipos zombis se coordina para enviar peticiones simultáneas contra el servidor de la aplicación web"
+    ], "indice_correcto": 0, "cotejo": "En un ataque por XSS, una aplicación Web se envía con un script que se activa cuando lo lee el navegador de un usuario o una aplicación vulnerable.", "justificacion": "CCN-CERT, Glosario CCN-STIC-401, «Cross site scripting (XSS)»." },
+    { "concepto_id": "CIBER-025", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "tipo": "test", "enunciado": "Según CCN-STIC-401, ¿cómo se introduce el script malicioso en un ataque XSS?", "opciones": [
+      "es posible ingresar un script malicioso en la página, ocultándolo entre solicitudes legítimas",
+      "es posible sustituir el certificado del sitio, haciéndolo pasar por una conexión cifrada legítima ante el navegador",
+      "es posible interceptar el tráfico de la red, capturándolo antes de que llegue a su destino legítimo previsto",
+      "es posible cifrar los archivos del servidor, bloqueándolos hasta que la víctima pague el rescate exigido"
+    ], "indice_correcto": 0, "cotejo": "Dado que los sitios dinámicos dependen de la interacción del usuario, es posible ingresar un script malicioso en la página, ocultándolo entre solicitudes legítimas.", "justificacion": "CCN-CERT, Glosario CCN-STIC-401, «Cross site scripting (XSS)»." },
+    { "concepto_id": "CIBER-026", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "tipo": "test", "enunciado": "Según CCN-STIC-401, ¿cuáles son puntos de entrada comunes del XSS?", "opciones": [
+      "buscadores, foros, blogs y todo tipo de formularios en línea en general",
+      "puertos de red abiertos, servicios sin cifrar y protocolos de comunicación obsoletos del sistema",
+      "memorias USB infectadas, adjuntos de correo y descargas desde sitios web poco fiables",
+      "cajeros automáticos, terminales de punto de venta y tarjetas de crédito clonadas por el atacante"
+    ], "indice_correcto": 0, "cotejo": "Los puntos de entrada comunes incluyen buscadores, foros, blogs y todo tipo de formularios en línea en general.", "justificacion": "CCN-CERT, Glosario CCN-STIC-401, «Cross site scripting (XSS)»." },
+    { "concepto_id": "CIBER-027", "articulo": "CCN-STIC-401 — Cross-site Scripting (XSS)", "tipo": "test", "enunciado": "Según CCN-STIC-401, una vez iniciado el XSS, ¿qué puede hacer el atacante?", "opciones": [
+      "cambiar configuraciones de usuarios, secuestrar cuentas, envenenar cookies, exponer conexiones SSL, acceder sitios restringidos",
+      "cifrar los archivos del servidor, exigir un rescate, bloquear las copias de seguridad y amenazar con publicar los datos robados",
+      "saturar el servidor de peticiones, agotar su ancho de banda, tumbar el servicio y ocultar por completo el origen del ataque",
+      "clonar tarjetas bancarias, robar el código PIN, retirar dinero en cajeros y revender los datos en el mercado negro digital"
+    ], "indice_correcto": 0, "cotejo": "Una vez iniciado el XSS, el atacante puede cambiar configuraciones de usuarios, secuestrar cuentas, envenenar cookies, exponer conexiones SSL, acceder sitios restringidos y hasta instalar publicidad en el sitio víctima.", "justificacion": "CCN-CERT, Glosario CCN-STIC-401, «Cross site scripting (XSS)»." },
+    { "concepto_id": "CIBER-028", "articulo": "CCN-STIC-401 — Cross-zone scripting", "tipo": "test", "enunciado": "Según CCN-STIC-401, ¿por qué se crea el estado de vulnerabilidad del cross-zone scripting?", "opciones": [
+      "por métodos de codificación poco seguros, y que tiene como resultado una validación de entradas inapropiada",
+      "por contraseñas débiles del administrador, y que tiene como resultado un acceso no autorizado al panel de control",
+      "por parches de seguridad sin aplicar, y que tiene como resultado la explotación de una vulnerabilidad ya conocida",
+      "por permisos mal configurados en el servidor, y que tiene como resultado la exposición de ficheros privados del sistema"
+    ], "indice_correcto": 0, "cotejo": "Estado de vulnerabilidad que se crea por métodos de codificación poco seguros, y que tiene como resultado una validación de entradas inapropiada. Suele utilizarse junto con CSRF o inyección SQL.", "justificacion": "CCN-CERT, Glosario CCN-STIC-401, «Cross-zone scripting»." },
+    { "concepto_id": "CIBER-029", "articulo": "CCN-STIC-401 — XSS (inyección de script)", "tipo": "test", "enunciado": "Según CCN-STIC-401, ¿qué permite la falla del XSS al introducir código en un formulario o página?", "opciones": [
+      "un script (perl, php, javascript, asp) que tanto al almacenarse como al mostrarse en el navegador, puede provocar la ejecución de un código no deseado",
+      "una consulta (select, insert, update, delete) que al ejecutarse en la base de datos, puede revelar o alterar información confidencial del sistema",
+      "un archivo adjunto (exe, zip, docm) que al abrirse en el equipo de la víctima, puede instalar un programa espía sin el permiso del usuario",
+      "un comando del sistema (bash, powershell, cmd) que al ejecutarse en el servidor, puede llegar a tomar el control total de la máquina afectada"
+    ], "indice_correcto": 0, "cotejo": "Esta falla permite a un atacante introducir en el campo de un formulario o código embebido en una página, un script (perl, php, javascript, asp) que tanto al almacenarse como al mostrarse en el navegador, puede provocar la ejecución de un código no deseado.", "justificacion": "CCN-CERT, Glosario CCN-STIC-401, «Cross site scripting (XSS)», inyección de script." }
+  ],
+  "relaciones": [
+    { "origen": "CIBER-024", "destino": "CIBER-023", "tipo": "desarrolla", "justificacion": "El modo en que actúa el script concreta qué es el XSS." },
+    { "origen": "CIBER-025", "destino": "CIBER-023", "tipo": "desarrolla", "justificacion": "Ocultar el script entre solicitudes legítimas es un rasgo del XSS." },
+    { "origen": "CIBER-026", "destino": "CIBER-023", "tipo": "desarrolla", "justificacion": "Los puntos de entrada son un rasgo del XSS." },
+    { "origen": "CIBER-027", "destino": "CIBER-023", "tipo": "desarrolla", "justificacion": "Las consecuencias concretan el alcance del XSS." },
+    { "origen": "CIBER-028", "destino": "CIBER-023", "tipo": "desarrolla", "justificacion": "El origen en codificación insegura explica por qué se produce el XSS." },
+    { "origen": "CIBER-029", "destino": "CIBER-023", "tipo": "desarrolla", "justificacion": "La inyección de script en formularios es la mecánica concreta del XSS." },
+    { "origen": "CIBER-028", "destino": "CIBER-007", "tipo": "remite", "justificacion": "El cross-zone scripting suele utilizarse junto con la inyección SQL (concepto original CIBER-007)." },
+    { "origen": "CIBER-023", "destino": "CIBER-018", "tipo": "remite", "justificacion": "El XSS es una técnica de ataque empleada por los ciberdelincuentes (concepto original CIBER-018)." }
+  ]
+}

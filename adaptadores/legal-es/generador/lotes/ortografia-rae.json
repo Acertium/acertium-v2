@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "materia": "ortografia-rae",
+    "norma": "Ortografía de la lengua española (RAE-ASALE)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "RAE-ASALE, Ortografía básica de la lengua española (en línea): 2.4.1 reglas generales — https://www.rae.es/ortografía-básica/uso-de-la-tilde/las-reglas-de-acentuación-gráfica/reglas-generales [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía básica: 2.4.2 secuencias vocálicas (diptongos, triptongos, hiatos) — https://www.rae.es/ortografía-básica/uso-de-la-tilde/las-reglas-de-acentuación-gráfica/la-acentuación-gráfica-de-las-palabras-con-secuencias-vocálicas [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía de la lengua española: 3.4.3 La tilde diacrítica — https://www.rae.es/ortografía/la-tilde-diacrítica [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía: 3.4.3.1 Tilde diacrítica en palabras monosílabas — https://www.rae.es/ortografía/tilde-diacrítica-en-palabras-monosílabas [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía: 6.2.2.2 Representación gráfica del fonema /g/ — https://www.rae.es/ortografía/representación-gráfica-del-fonema-g [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía: 6.2.2.3 Representación gráfica del fonema /j/ — https://www.rae.es/ortografía/representación-gráfica-del-fonema-j [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía básica: 3.2.2 la coma — https://www.rae.es/ortografía-básica/uso-de-los-signos-ortográficos/signos-de-puntuación/la-coma [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía básica: 3.2.3 el punto y coma — https://www.rae.es/ortografía-básica/uso-de-los-signos-ortográficos/signos-de-puntuación/el-punto-y-coma [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía básica: 4.6.1 casos en que debe utilizarse la mayúscula inicial — https://www.rae.es/ortografía-básica/uso-de-las-mayúsculas/la-mayúscula-en-los-nombres-propios-y-las-expresiones-denominativas/casos-en-que-debe-utilizarse-la-mayúscula-inicial [Consulta: 2026-08-04]"
+    ],
+    "tipo_fuente": "autoridad",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 37 — Ortografía de la lengua española: reglas ortográficas; uso de las letras o grafemas; uso de la tilde, de los signos ortográficos y de mayúsculas y minúsculas"
+  },
+  "fuentes": {
+    "OB 2.4.1 — palabras agudas": "Las palabras agudas llevan tilde cuando terminan en n o en s (no precedidas de otra consonante), o en las vocales a, e, i, o, u: razón, compás, acá, comité, magrebí, revisó, iglú. Las palabras agudas no llevan tilde cuando terminan en consonante distinta de n o s: actriz, amistad, escribir, relax, reloj, trigal.",
+    "OB 2.4.1 — palabras llanas": "Las palabras llanas se escriben con tilde cuando terminan en consonante distinta de n o s: dólar, lápiz, referéndum, Tíbet, tórax, túnel. Las palabras llanas no llevan tilde cuando terminan en n o s (no precedidas de otra consonante), o en las vocales a, e, i, o, u: margen, crisis, lata, parque, bici, libro, tribu.",
+    "OB 2.4.1 — esdrújulas y sobresdrújulas": "Las palabras esdrújulas y sobresdrújulas se escriben siempre con tilde: análisis, cóselo, hábitat, rápido, recítenoslo, llévesemelas.",
+    "OB 2.4.1 — clasificación por sílaba tónica": "Según el lugar que ocupa en ellas la sílaba tónica, las palabras de más de una sílaba pueden ser en español agudas, llanas (o graves), esdrújulas o sobresdrújulas. En las agudas, la sílaba tónica es la última (colibrí, mirar, talón); en las llanas o graves, la sílaba tónica es la penúltima (ángel, celeste, martes); en las esdrújulas, la sílaba tónica es la antepenúltima (página, típico, único); en las sobresdrújulas, la sílaba tónica es anterior a la antepenúltima sílaba (cómaselo, dígannoslo, imagínesemelas).",
+    "OB 2.4.1 — monosílabos": "Las palabras de una sola sílaba se escriben sin tilde: fe, ve, ya, mes, sol, bien, dio, fue, vio, guion. Son excepción a esta regla las palabras monosílabas que se escriben con tilde diacrítica.",
+    "OB 2.4.2 — diptongo": "Los diptongos son secuencias de dos vocales que forman parte de una misma sílaba. Se consideran siempre diptongos a efectos ortográficos las combinaciones de una vocal abierta seguida o precedida de una vocal cerrada átona, y las de dos vocales cerradas distintas: aula, estoy, deuda, viernes, ciudad, diurno, viuda, cuidar, ruido.",
+    "OB 2.4.2 — hiato": "Cuando dos vocales seguidas dentro de una palabra pertenecen a sílabas distintas, constituyen un hiato. Las palabras que contienen un hiato formado por una vocal cerrada tónica seguida o precedida de una vocal abierta llevan siempre tilde en la vocal cerrada, con independencia de las reglas generales de acentuación: María, desvíe, crío, púa, caída, reído, oído, baúl, raíz.",
+    "OB 2.4.2 — colocación de la tilde en los diptongos": "En los diptongos formados por una vocal abierta seguida o precedida de una vocal cerrada, la tilde se escribe sobre la vocal abierta: mediático, diéresis, acción, acuático, después, camináis. En los diptongos formados por dos vocales cerradas distintas, la tilde se coloca sobre la segunda vocal: acuífero, cuídate, veintiún.",
+    "OLE 3.4.3 — tilde diacrítica (definición)": "Al margen del uso de la tilde con función prosódica, este signo también se ha utilizado tradicionalmente en español con función diacrítica, a fin de diferenciar en la escritura ciertas palabras de igual forma, pero distinto significado, que se oponen entre sí por ser una de ellas tónica y la otra átona. Esta tilde recibe el nombre de tilde diacrítica.",
+    "OLE 3.4.3.1 — tilde diacrítica en monosílabos": "La regla de acentuación gráfica de las palabras monosílabas prescribe que estas se escriban sin tilde. Constituyen una excepción a esta regla general un grupo de palabras monosílabas tónicas de uso frecuente: los pronombres personales tú, él, mí, sí, las formas verbales dé y sé, el sustantivo té y la palabra más.",
+    "OLE 3.4.3.1 — el pronombre ti": "Es incorrecto escribir el pronombre personal ti con tilde por analogía con los pronombres mí y sí. Aunque se trata de un monosílabo tónico, no existe ningún monosílabo átono de igual forma del que deba distinguirse, por lo que no tiene sentido en su caso el empleo de la tilde diacrítica.",
+    "OLE 3.4.3 — interrogativos y exclamativos": "Las palabras que configuran la nómina de las que llevan tilde diacrítica en español son únicamente los monosílabos tónicos y las palabras qué, cuál/es, quién/es, cómo, cuán, cuánto/a/os/as, cuándo, dónde y adónde.",
+    "OLE 6.2.2.2 — letra g para el fonema /g/": "Se emplea la letra g ante las vocales /a/, /o/, /u/: gallo, colgar, gobierno, epílogo, gustoso, tugurio; ante consonante: amígdala, dogma, benigno, regla, grande; y a final de palabra, lo que solo ocurre en voces tomadas de otras lenguas: gag, gong, tuareg, zigzag, cíborg.",
+    "OLE 6.2.2.2 — dígrafo gu": "Se emplea el dígrafo gu ante las vocales /e/, /i/: burgués, guerra, alguien, guisar. La u del dígrafo es un mero signo gráfico, sin valor fónico independiente.",
+    "OLE 6.2.2.2 — la diéresis": "Si la secuencia fónica /gu/ va seguida de /e/ o /i/, la letra u que representa el fonema /u/ debe escribirse con diéresis: pedigüeño, pingüino, desagüe, agüita.",
+    "OLE 6.2.2.3 — letra j para el fonema /j/": "La letra j puede representar el fonema /j/ en cualquier posición (inicial, medial o final) y ante cualquiera de las vocales: jabalí, jeta, jirafa, jocoso, júbilo, trabajar, objeto, tejido, dijo, perjuicio, boj, carcaj, reloj.",
+    "OLE 6.2.2.3 — letra g para el fonema /j/": "La letra g puede representar el fonema /j/ únicamente delante de las vocales /e/, /i/: gente, esfinge, girar, alergia.",
+    "OLE 6.2.2.3 — palabras terminadas en -aje y -eje": "El fonema /j/ ante e, i se representa con la letra j en las palabras que terminan en -aje y -eje: abordaje, brebaje, coraje, dopaje, encaje, follaje, garaje, hospedaje, lenguaje, mensaje, paisaje, salvaje, deje, despeje, esqueje, hereje. Excepciones: enálage, hipálage y el plural ambages.",
+    "OLE 6.2.2.3 — verbos terminados en -ger, -gir": "El fonema /j/ ante e, i se representa con la letra g en los verbos terminados en -ger, -gir: coger, emerger, proteger, afligir, corregir, dirigir, fingir, regir, surgir. Excepciones: tejer (y sus derivados) y crujir.",
+    "OLE 6.2.2.3 — la sílaba gen": "El fonema /j/ ante e, i se representa con la letra g en las palabras que contienen la sílaba gen en cualquier posición, incluidas todas las que terminan en -gencia o -gente: aborigen, agencia, argentino, contingente, diligencia, gente, gentil, imagen, sargento, urgencia, virgen, vigente. Excepciones: ajenjo, jengibre y ojén.",
+    "OLE 6.2.2.3 — verbos terminados en -jear": "El fonema /j/ ante e, i se representa con la letra j en los verbos terminados en -jear, incluidas todas sus formas: burbujear, callejear, canjear, chantajear, cojear, flojear, gorjear, ojear, pintarrajear.",
+    "OB 3.2.2 — la coma (definición)": "La coma (,) delimita unidades discursivas inferiores al enunciado, como algunos tipos de oraciones y grupos sintácticos. Fuera del ámbito de la puntuación, se emplea como separador decimal en los números escritos con cifras.",
+    "OB 3.2.2.7 — coma entre sujeto y verbo": "Las secuencias de la oración que desempeñan las funciones de sujeto, atributo, complemento directo, complemento indirecto, complemento predicativo, complemento de régimen y complemento agente no pueden separarse con coma del verbo, al que están fuertemente ligadas, sea cual sea su longitud, su posición en el enunciado o su naturaleza.",
+    "OB 3.2.2.4 — coma y vocativos": "Se separan con coma del resto del enunciado los vocativos, esto es, los sustantivos, grupos nominales o pronombres que se emplean para llamar o dirigirse al interlocutor de forma explícita: Javier, no me gusta que salgas tan tarde.",
+    "OB 3.2.2.6 — coma y estructuras coordinadas": "Cuando el último elemento de una coordinación va introducido por una conjunción copulativa o disyuntiva (y / e, ni, o / u), no se escribe coma delante de ella: Es un chico muy reservado, estudioso y de buena familia.",
+    "OB 3.2.2.6 — coma ante coordinadas adversativas": "Se escribe coma ante las oraciones coordinadas adversativas, es decir, las introducidas por pero, mas, sino (que) y aunque: Hazlo si quieres, pero luego no digas que no te lo advertí.",
+    "OB 3.2.3 — el punto y coma": "El punto y coma (;) delimita unidades discursivas inferiores al enunciado, ya sean grupos sintácticos u oraciones. Este signo establece mayor disociación entre las unidades lingüísticas que la coma y menor que la indicada por el punto. Detrás del signo de punto y coma se escribe siempre minúscula.",
+    "OB 4.6.1 — nombres propios de persona": "Se escriben con mayúscula inicial los nombres propios de persona, tanto nombres de pila como apellidos: Ana de la Torre, María del Pilar Ruiz, Aureliano Buendía. También los hipocorísticos: Tina, Lucho, Pili, Luismi.",
+    "OB 4.6.1 — apellidos con conjunción y preposición": "En los apellidos unidos por la conjunción y, esta se escribe siempre con minúscula: Ortega y Gasset, Ramón y Cajal. Si un apellido comienza por preposición, o por preposición y artículo, estos se escriben con minúscula cuando acompañan al nombre de pila: Luis de Torres, Juana de la Rosa.",
+    "OB 4.6.1 — accidentes geográficos": "Se escriben con mayúscula inicial los nombres propios de los accidentes geográficos, pero no los nombres comunes genéricos que los acompañan: el océano Pacífico, el mar Rojo, el lago Titicaca, el río Amazonas, la cordillera de los Andes.",
+    "OB 4.6.1 — títulos de obras de creación": "Se escribe con mayúscula la primera palabra del título de cualquier obra de creación (libros, películas, cuadros, esculturas, piezas musicales): Libro de buen amor, Cien años de soledad, Las señoritas de Avignon.",
+    "OB 4.6.1 — denominación de entidades e instituciones": "Se escriben con mayúscula todas las palabras significativas que componen la denominación completa de entidades, instituciones, organismos, departamentos, partidos políticos, equipos deportivos u organizaciones: Ministerio de Asuntos Exteriores, Biblioteca Nacional, Universidad Central de Venezuela."
+  },
+  "conceptos": [
+    { "id": "ORTO-001", "articulo": "OB 2.4.1 — palabras agudas", "titulo": "Acentuación de las palabras agudas", "resumen": "Las palabras agudas llevan tilde cuando terminan en n o en s (no precedidas de otra consonante), o en las vocales a, e, i, o, u; no la llevan si terminan en otra consonante.", "explicacion": "La palabra aguda es la que tiene la fuerza de voz en la última sílaba. Lleva tilde si acaba en -n, en -s (no agrupada con otra consonante) o en vocal: razón, compás, comité. No la lleva si acaba en otra consonante: reloj, amistad." },
+    { "id": "ORTO-002", "articulo": "OB 2.4.1 — palabras llanas", "titulo": "Acentuación de las palabras llanas", "resumen": "Las palabras llanas se escriben con tilde cuando terminan en consonante distinta de n o s; no la llevan cuando terminan en n, s o vocal.", "explicacion": "La palabra llana o grave tiene la fuerza de voz en la penúltima sílaba. Es el caso contrario al de las agudas: lleva tilde si acaba en consonante que no sea -n ni -s (dólar, lápiz, túnel) y no la lleva si acaba en -n, -s o vocal (margen, crisis, libro)." },
+    { "id": "ORTO-003", "articulo": "OB 2.4.1 — esdrújulas y sobresdrújulas", "titulo": "Acentuación de esdrújulas y sobresdrújulas", "resumen": "Las palabras esdrújulas y sobresdrújulas se escriben siempre con tilde, sin excepción.", "explicacion": "La esdrújula lleva la fuerza de voz en la antepenúltima sílaba (rápido, análisis) y la sobresdrújula, antes de la antepenúltima (recítenoslo). Todas ellas se tildan siempre, sin necesidad de mirar en qué letra terminan." },
+    { "id": "ORTO-004", "articulo": "OB 2.4.1 — clasificación por sílaba tónica", "titulo": "Clases de palabras según la sílaba tónica", "resumen": "Según dónde recae la sílaba tónica, las palabras de más de una sílaba son agudas (última), llanas (penúltima), esdrújulas (antepenúltima) o sobresdrújulas (antes de la antepenúltima).", "explicacion": "Antes de aplicar las reglas de la tilde hay que identificar la sílaba tónica. Esa posición clasifica la palabra en aguda, llana, esdrújula o sobresdrújula, y de esa clase depende cuándo se pone la tilde." },
+    { "id": "ORTO-005", "articulo": "OB 2.4.1 — monosílabos", "titulo": "Los monosílabos se escriben sin tilde", "resumen": "Las palabras de una sola sílaba se escriben sin tilde (fe, ve, sol, guion); solo son excepción las que llevan tilde diacrítica.", "explicacion": "Por regla general, una palabra de una sola sílaba no se tilda: fue, vio, guion, fe. La única excepción es un grupo cerrado de monosílabos que llevan tilde diacrítica para distinguirse de otro igual." },
+    { "id": "ORTO-006", "articulo": "OB 2.4.2 — diptongo", "titulo": "Qué es un diptongo", "resumen": "Los diptongos son secuencias de dos vocales que forman parte de una misma sílaba (vocal abierta con cerrada átona, o dos cerradas distintas).", "explicacion": "Un diptongo son dos vocales que se pronuncian en la misma sílaba: aula, viernes, ciudad. A efectos de la tilde, forman diptongo una vocal abierta con una cerrada átona, o dos vocales cerradas distintas." },
+    { "id": "ORTO-007", "articulo": "OB 2.4.2 — hiato", "titulo": "El hiato de vocal cerrada tónica y abierta lleva tilde", "resumen": "Cuando dos vocales seguidas pertenecen a sílabas distintas hay hiato; el hiato de vocal cerrada tónica junto a una abierta lleva siempre tilde en la cerrada, al margen de las reglas generales.", "explicacion": "En el hiato las dos vocales se pronuncian en sílabas distintas: pa-ís. Si una vocal cerrada tónica (i, u) va junto a una abierta, siempre se tilda la cerrada: María, baúl, raíz, aunque las reglas generales dirían lo contrario." },
+    { "id": "ORTO-008", "articulo": "OB 2.4.2 — colocación de la tilde en los diptongos", "titulo": "Dónde se coloca la tilde en un diptongo", "resumen": "En un diptongo de vocal abierta y cerrada, la tilde va sobre la abierta; en un diptongo de dos vocales cerradas distintas, sobre la segunda vocal.", "explicacion": "Cuando un diptongo debe tildarse, la tilde no se pone en cualquier vocal: en abierta + cerrada va sobre la abierta (después, acción); en dos cerradas distintas va sobre la segunda (cuídate, veintiún)." },
+    { "id": "ORTO-009", "articulo": "OLE 3.4.3 — tilde diacrítica (definición)", "titulo": "Qué es la tilde diacrítica", "resumen": "La tilde diacrítica diferencia en la escritura palabras de igual forma pero distinto significado que se oponen por ser una tónica y la otra átona.", "explicacion": "La tilde diacrítica no marca la sílaba fuerte: sirve para distinguir dos palabras que se escriben igual pero una es tónica y la otra átona (él/el, tú/tu, sé/se). Es un uso excepcional de la tilde." },
+    { "id": "ORTO-010", "articulo": "OLE 3.4.3.1 — tilde diacrítica en monosílabos", "titulo": "Los monosílabos con tilde diacrítica", "resumen": "Llevan tilde diacrítica los pronombres tú, él, mí, sí, las formas verbales dé y sé, el sustantivo té y la palabra más.", "explicacion": "La nómina de monosílabos con tilde diacrítica es cerrada: tú, él, mí, sí, dé, sé, té y más. Cada uno se distingue así de su pareja átona (tu, el, mi, si, de, se, te, mas)." },
+    { "id": "ORTO-011", "articulo": "OLE 3.4.3.1 — el pronombre ti", "titulo": "El pronombre ti se escribe sin tilde", "resumen": "Es incorrecto tildar el pronombre ti: aunque es tónico, no hay ningún monosílabo átono de igual forma del que deba distinguirse.", "explicacion": "Mucha gente escribe *tí por analogía con mí y sí, pero es un error: la tilde diacrítica solo tiene sentido cuando existe otra palabra igual átona, y no hay ningún ti átono, así que ti nunca se tilda." },
+    { "id": "ORTO-012", "articulo": "OLE 3.4.3 — interrogativos y exclamativos", "titulo": "Tilde diacrítica en interrogativos y exclamativos", "resumen": "Además de los monosílabos tónicos, llevan tilde diacrítica qué, cuál/es, quién/es, cómo, cuán, cuánto/a/os/as, cuándo, dónde y adónde.", "explicacion": "Los interrogativos y exclamativos se tildan (¿Qué quieres?, ¡Cómo llueve!) frente a sus formas átonas (que, como, cuando, donde). La nómina completa es qué, cuál/es, quién/es, cómo, cuán, cuánto, cuándo, dónde y adónde." },
+    { "id": "ORTO-013", "articulo": "OLE 6.2.2.2 — letra g para el fonema /g/", "titulo": "La letra g para el fonema /g/", "resumen": "El fonema /g/ se escribe con g ante las vocales a, o, u, ante consonante y a final de palabra.", "explicacion": "El sonido fuerte /g/ (el de gato) se representa con la letra g cuando va ante a, o, u (gallo, gustoso), ante consonante (regla, dogma) o al final de palabra en voces extranjeras (gong, zigzag)." },
+    { "id": "ORTO-014", "articulo": "OLE 6.2.2.2 — dígrafo gu", "titulo": "El dígrafo gu ante e, i", "resumen": "El fonema /g/ ante las vocales e, i se representa con el dígrafo gu, en el que la u es un mero signo gráfico sin valor fónico.", "explicacion": "Para mantener el sonido /g/ delante de e o i hay que intercalar una u que no se pronuncia: guerra, guisar, alguien. Esa u es solo un signo gráfico del dígrafo gu." },
+    { "id": "ORTO-015", "articulo": "OLE 6.2.2.2 — la diéresis", "titulo": "La diéresis sobre la u", "resumen": "Cuando en la secuencia /gu/ ante e o i la u sí se pronuncia, esa u debe escribirse con diéresis.", "explicacion": "Si en gue o gui la u suena de verdad, hay que ponerle diéresis para indicarlo: pingüino, desagüe, pedigüeño. Sin diéresis, la u sería muda." },
+    { "id": "ORTO-016", "articulo": "OLE 6.2.2.3 — letra j para el fonema /j/", "titulo": "La letra j para el fonema /j/", "resumen": "La letra j puede representar el fonema /j/ en cualquier posición y ante cualquiera de las vocales.", "explicacion": "La j (sonido de jamón) sirve en cualquier posición y ante cualquier vocal: jabalí, jeta, jirafa, jocoso, júbilo, reloj. A diferencia de la g, nunca cambia de sonido." },
+    { "id": "ORTO-017", "articulo": "OLE 6.2.2.3 — letra g para el fonema /j/", "titulo": "La letra g con sonido /j/ solo ante e, i", "resumen": "La letra g puede representar el fonema /j/ únicamente delante de las vocales e, i.", "explicacion": "La g suena como j solo delante de e o i: gente, girar, alergia. Delante de a, o, u la g suena /g/ (gato), no /j/. Por eso ante e, i el sonido /j/ puede escribirse con g o con j." },
+    { "id": "ORTO-018", "articulo": "OLE 6.2.2.3 — palabras terminadas en -aje y -eje", "titulo": "Palabras en -aje y -eje se escriben con j", "resumen": "El fonema /j/ ante e, i se escribe con j en las palabras que terminan en -aje y -eje.", "explicacion": "Las terminaciones -aje y -eje siempre van con j: garaje, mensaje, paisaje, hereje, despeje. Son incorrectas grafías como *garage. Excepciones muy raras: enálage, hipálage y ambages." },
+    { "id": "ORTO-019", "articulo": "OLE 6.2.2.3 — verbos terminados en -ger, -gir", "titulo": "Verbos en -ger y -gir se escriben con g", "resumen": "El fonema /j/ ante e, i se escribe con g en los verbos terminados en -ger y -gir, salvo tejer y crujir.", "explicacion": "Los verbos acabados en -ger o -gir llevan g: coger, proteger, dirigir, corregir, surgir. Solo son excepción tejer y crujir. Ante a, o esos verbos cambian a j: coger, pero cojo." },
+    { "id": "ORTO-020", "articulo": "OLE 6.2.2.3 — la sílaba gen", "titulo": "La sílaba gen se escribe con g", "resumen": "El fonema /j/ ante e, i se escribe con g en las palabras que contienen la sílaba gen en cualquier posición, incluidas las terminadas en -gencia y -gente.", "explicacion": "La sílaba gen se escribe con g en cualquier posición: gente, imagen, urgencia, contingente, aborigen. Excepciones conocidas: ajenjo, jengibre y ojén." },
+    { "id": "ORTO-021", "articulo": "OLE 6.2.2.3 — verbos terminados en -jear", "titulo": "Verbos en -jear se escriben con j", "resumen": "El fonema /j/ ante e, i se escribe con j en los verbos terminados en -jear, en todas sus formas.", "explicacion": "Los verbos acabados en -jear van siempre con j: cojear, callejear, canjear, ojear, chantajear, y también sus formas conjugadas (cojea, callejeé)." },
+    { "id": "ORTO-022", "articulo": "OB 3.2.2 — la coma (definición)", "titulo": "Qué delimita la coma", "resumen": "La coma delimita unidades discursivas inferiores al enunciado, como algunos tipos de oraciones y grupos sintácticos; fuera de la puntuación, es separador decimal.", "explicacion": "La coma no cierra un enunciado: separa partes dentro de él (incisos, grupos, oraciones subordinadas). En los números escritos con cifras hace además de separador decimal." },
+    { "id": "ORTO-023", "articulo": "OB 3.2.2.7 — coma entre sujeto y verbo", "titulo": "No se pone coma entre sujeto y verbo", "resumen": "El sujeto y otros complementos ligados al verbo no pueden separarse con coma de este, sea cual sea su longitud o posición.", "explicacion": "Es un error muy común: por muy largo que sea el sujeto, no se pone coma antes del verbo. \"Los alumnos que no entregaron el trabajo suspenderán\" no lleva coma antes de \"suspenderán\"." },
+    { "id": "ORTO-024", "articulo": "OB 3.2.2.4 — coma y vocativos", "titulo": "Los vocativos se escriben entre comas", "resumen": "Se separan con coma los vocativos, esto es, los sustantivos, grupos nominales o pronombres con que se llama o se dirige uno al interlocutor.", "explicacion": "El vocativo es el nombre de la persona a la que hablamos: \"Javier, ven aquí\"; \"Estoy a sus órdenes, mi coronel\". Siempre va separado por coma del resto del enunciado." },
+    { "id": "ORTO-025", "articulo": "OB 3.2.2.6 — coma y estructuras coordinadas", "titulo": "No hay coma ante y, o, ni que cierran una enumeración", "resumen": "Cuando el último elemento de una coordinación va introducido por una conjunción copulativa o disyuntiva (y/e, ni, o/u), no se escribe coma delante de ella.", "explicacion": "En una enumeración normal no se pone coma antes de la conjunción final: \"reservado, estudioso y de buena familia\"; \"¿té, café o manzanilla?\". La conjunción sustituye a la coma." },
+    { "id": "ORTO-026", "articulo": "OB 3.2.2.6 — coma ante coordinadas adversativas", "titulo": "Coma ante las coordinadas adversativas", "resumen": "Se escribe coma ante las oraciones coordinadas adversativas, es decir, las introducidas por pero, mas, sino (que) y aunque.", "explicacion": "Al contrario que en las copulativas, sí se pone coma antes de las adversativas: \"Hazlo si quieres, pero luego no digas nada\". Las introducen pero, mas, sino (que) y aunque." },
+    { "id": "ORTO-027", "articulo": "OB 3.2.3 — el punto y coma", "titulo": "El punto y coma: grado de separación", "resumen": "El punto y coma delimita unidades inferiores al enunciado y establece mayor disociación que la coma y menor que la del punto; tras él se escribe minúscula.", "explicacion": "El punto y coma es un signo intermedio: separa más que la coma pero menos que el punto. Detrás de él la palabra siguiente va en minúscula, no en mayúscula." },
+    { "id": "ORTO-028", "articulo": "OB 4.6.1 — nombres propios de persona", "titulo": "Mayúscula en los nombres propios de persona", "resumen": "Se escriben con mayúscula inicial los nombres propios de persona, tanto nombres de pila como apellidos, y también los hipocorísticos.", "explicacion": "Los nombres y apellidos van con inicial mayúscula: Ana de la Torre, María del Pilar Ruiz. También las formas familiares del nombre (hipocorísticos): Tina, Lucho, Pili." },
+    { "id": "ORTO-029", "articulo": "OB 4.6.1 — apellidos con conjunción y preposición", "titulo": "La conjunción y de los apellidos va en minúscula", "resumen": "En los apellidos unidos por la conjunción y, esta se escribe siempre con minúscula (Ortega y Gasset); la preposición que acompaña al nombre de pila también va en minúscula.", "explicacion": "En apellidos como Ortega y Gasset o Ramón y Cajal la conjunción y se escribe con minúscula. Igualmente, la preposición de un apellido (Luis de Torres) va en minúscula cuando acompaña al nombre de pila." },
+    { "id": "ORTO-030", "articulo": "OB 4.6.1 — accidentes geográficos", "titulo": "Mayúscula en accidentes geográficos, no en el genérico", "resumen": "Los nombres propios de accidentes geográficos van con mayúscula, pero no los nombres comunes genéricos que los acompañan (mar, río, océano).", "explicacion": "Se escribe con mayúscula la parte específica y con minúscula el genérico: el océano Pacífico, el mar Rojo, el río Amazonas. \"Océano\", \"mar\" y \"río\" son nombres comunes y van en minúscula." },
+    { "id": "ORTO-031", "articulo": "OB 4.6.1 — títulos de obras de creación", "titulo": "Mayúscula solo en la primera palabra del título", "resumen": "En el título de una obra de creación (libro, película, cuadro) se escribe con mayúscula únicamente la primera palabra.", "explicacion": "En español los títulos de obras solo llevan mayúscula en la primera palabra: Cien años de soledad, Libro de buen amor. No se escriben con mayúscula todas las palabras significativas, a diferencia del inglés." },
+    { "id": "ORTO-032", "articulo": "OB 4.6.1 — denominación de entidades e instituciones", "titulo": "Mayúscula en el nombre de entidades e instituciones", "resumen": "Se escriben con mayúscula todas las palabras significativas que componen la denominación completa de entidades, instituciones y organismos.", "explicacion": "En el nombre de una institución van con mayúscula todas las palabras significativas: Ministerio de Asuntos Exteriores, Biblioteca Nacional, Universidad Central de Venezuela. Es lo contrario de lo que ocurre con los títulos de obras." }
+  ],
+  "actividades": [
+    { "concepto_id": "ORTO-001", "articulo": "OB 2.4.1 — palabras agudas", "tipo": "test", "enunciado": "Según la RAE, ¿cuándo llevan tilde las palabras agudas?", "opciones": [
+      "cuando terminan en n o en s (no precedidas de otra consonante), o en las vocales a, e, i, o, u",
+      "cuando terminan en consonante distinta de n o de s, o bien en las vocales cerradas tónicas i, u",
+      "cuando terminan en cualquier consonante que no sea la r, o en las vocales abiertas a, e, o",
+      "únicamente cuando terminan en las vocales a, e, i, o, u precedidas siempre de cualquier otra consonante distinta"
+    ], "indice_correcto": 0, "cotejo": "Las palabras agudas llevan tilde cuando terminan en n o en s (no precedidas de otra consonante), o en las vocales a, e, i, o, u", "justificacion": "OB 2.4.1, palabras agudas." },
+    { "concepto_id": "ORTO-002", "articulo": "OB 2.4.1 — palabras llanas", "tipo": "test", "enunciado": "¿En qué caso se escriben con tilde las palabras llanas?", "opciones": [
+      "cuando terminan en consonante distinta de n o s",
+      "cuando terminan en las vocales a, e, i, o, u",
+      "cuando terminan en n o en s no agrupadas",
+      "cuando terminan en cualquier vocal o en y griega"
+    ], "indice_correcto": 0, "cotejo": "Las palabras llanas se escriben con tilde cuando terminan en consonante distinta de n o s", "justificacion": "OB 2.4.1, palabras llanas." },
+    { "concepto_id": "ORTO-003", "articulo": "OB 2.4.1 — esdrújulas y sobresdrújulas", "tipo": "test", "enunciado": "¿Qué establece la regla de acentuación de las palabras esdrújulas y sobresdrújulas?", "opciones": [
+      "se escriben siempre con tilde",
+      "se escriben con tilde solo si terminan en vocal",
+      "se escriben con tilde solo si terminan en consonante",
+      "nunca se escriben con tilde en ningún caso"
+    ], "indice_correcto": 0, "cotejo": "Las palabras esdrújulas y sobresdrújulas se escriben siempre con tilde", "justificacion": "OB 2.4.1, esdrújulas y sobresdrújulas." },
+    { "concepto_id": "ORTO-004", "articulo": "OB 2.4.1 — clasificación por sílaba tónica", "tipo": "test", "enunciado": "En una palabra esdrújula, ¿dónde recae la sílaba tónica?", "opciones": [
+      "la sílaba tónica es la antepenúltima",
+      "la sílaba tónica es la penúltima",
+      "la sílaba tónica es la última",
+      "la sílaba tónica es anterior a la antepenúltima"
+    ], "indice_correcto": 0, "cotejo": "en las esdrújulas, la sílaba tónica es la antepenúltima", "justificacion": "OB 2.4.1, clasificación por sílaba tónica." },
+    { "concepto_id": "ORTO-005", "articulo": "OB 2.4.1 — monosílabos", "tipo": "test", "enunciado": "¿Cómo se escriben por regla general las palabras de una sola sílaba?", "opciones": [
+      "se escriben sin tilde",
+      "se escriben siempre con tilde",
+      "se escriben con tilde si son tónicas",
+      "se escriben con tilde si terminan en vocal"
+    ], "indice_correcto": 0, "cotejo": "Las palabras de una sola sílaba se escriben sin tilde", "justificacion": "OB 2.4.1, monosílabos." },
+    { "concepto_id": "ORTO-006", "articulo": "OB 2.4.2 — diptongo", "tipo": "test", "enunciado": "Según la RAE, ¿qué son los diptongos?", "opciones": [
+      "secuencias de dos vocales que forman parte de una misma sílaba",
+      "secuencias de dos vocales que pertenecen a sílabas distintas",
+      "secuencias de tres vocales que forman parte de una misma sílaba",
+      "secuencias de dos consonantes que representan un solo sonido"
+    ], "indice_correcto": 0, "cotejo": "Los diptongos son secuencias de dos vocales que forman parte de una misma sílaba", "justificacion": "OB 2.4.2, diptongos." },
+    { "concepto_id": "ORTO-007", "articulo": "OB 2.4.2 — hiato", "tipo": "test", "enunciado": "El hiato de vocal cerrada tónica junto a una abierta (como en raíz o baúl), ¿cómo se acentúa?", "opciones": [
+      "llevan siempre tilde en la vocal cerrada, con independencia de las reglas generales de acentuación",
+      "llevan tilde en la vocal abierta solo cuando la palabra es aguda o esdrújula",
+      "siguen las reglas generales y solo se tildan si terminan en n, s o vocal",
+      "no llevan nunca tilde porque las dos vocales pertenecen a la misma sílaba"
+    ], "indice_correcto": 0, "cotejo": "llevan siempre tilde en la vocal cerrada, con independencia de las reglas generales de acentuación", "justificacion": "OB 2.4.2, hiato." },
+    { "concepto_id": "ORTO-008", "articulo": "OB 2.4.2 — colocación de la tilde en los diptongos", "tipo": "test", "enunciado": "En un diptongo formado por vocal abierta y vocal cerrada, ¿sobre qué vocal se escribe la tilde?", "opciones": [
+      "la tilde se escribe sobre la vocal abierta",
+      "la tilde se escribe sobre la vocal cerrada",
+      "la tilde se escribe sobre la segunda vocal",
+      "la tilde se escribe sobre la primera vocal"
+    ], "indice_correcto": 0, "cotejo": "la tilde se escribe sobre la vocal abierta", "justificacion": "OB 2.4.2, colocación de la tilde en los diptongos." },
+    { "concepto_id": "ORTO-009", "articulo": "OLE 3.4.3 — tilde diacrítica (definición)", "tipo": "test", "enunciado": "¿Para qué sirve la tilde diacrítica?", "opciones": [
+      "diferenciar en la escritura ciertas palabras de igual forma, pero distinto significado, que se oponen entre sí por ser una de ellas tónica y la otra átona",
+      "señalar cuál es la sílaba tónica en las palabras agudas, llanas y esdrújulas que incumplen las reglas generales de acentuación gráfica",
+      "marcar las vocales que forman hiato dentro de una misma palabra para separarlas de las que constituyen un diptongo ortográfico",
+      "indicar que dos vocales seguidas deben pronunciarse en la misma sílaba formando un único grupo fónico dentro de la palabra"
+    ], "indice_correcto": 0, "cotejo": "diferenciar en la escritura ciertas palabras de igual forma, pero distinto significado, que se oponen entre sí por ser una de ellas tónica y la otra átona", "justificacion": "OLE 3.4.3, tilde diacrítica." },
+    { "concepto_id": "ORTO-010", "articulo": "OLE 3.4.3.1 — tilde diacrítica en monosílabos", "tipo": "test", "enunciado": "¿Cuál de estas series recoge monosílabos que llevan tilde diacrítica?", "opciones": [
+      "los pronombres personales tú, él, mí, sí, las formas verbales dé y sé, el sustantivo té y la palabra más",
+      "los posesivos tu y mi, el artículo el, la conjunción si y la preposición de en cualquier contexto",
+      "las conjunciones y, e, o, u, ni, mas y pero, que siempre se escriben con tilde por ser tónicas",
+      "los nombres de las letras te y de y de las notas musicales mi y si cuando actúan como sustantivos"
+    ], "indice_correcto": 0, "cotejo": "los pronombres personales tú, él, mí, sí, las formas verbales dé y sé, el sustantivo té y la palabra más", "justificacion": "OLE 3.4.3.1, tilde diacrítica en monosílabos." },
+    { "concepto_id": "ORTO-011", "articulo": "OLE 3.4.3.1 — el pronombre ti", "tipo": "test", "enunciado": "¿Por qué el pronombre personal ti se escribe sin tilde?", "opciones": [
+      "no existe ningún monosílabo átono de igual forma del que deba distinguirse",
+      "existe otro monosílabo tónico de igual forma del que debe distinguirse por la tilde",
+      "es una palabra átona y por ello sigue la regla general de los monosílabos",
+      "se trata de una palabra llana terminada en vocal y no cumple las reglas generales"
+    ], "indice_correcto": 0, "cotejo": "no existe ningún monosílabo átono de igual forma del que deba distinguirse", "justificacion": "OLE 3.4.3.1, advertencia sobre ti." },
+    { "concepto_id": "ORTO-012", "articulo": "OLE 3.4.3 — interrogativos y exclamativos", "tipo": "test", "enunciado": "Además de los monosílabos tónicos, ¿qué palabras integran la nómina de las que llevan tilde diacrítica?", "opciones": [
+      "qué, cuál/es, quién/es, cómo, cuán, cuánto/a/os/as, cuándo, dónde y adónde",
+      "que, cual, quien, como, cuan, cuanto, cuando, donde y adonde en cualquier uso",
+      "este, ese, aquel y sus femeninos y plurales cuando funcionan como pronombres",
+      "aun, solo, mas, o y demás palabras átonas de uso muy frecuente en el idioma"
+    ], "indice_correcto": 0, "cotejo": "las palabras qué, cuál/es, quién/es, cómo, cuán, cuánto/a/os/as, cuándo, dónde y adónde", "justificacion": "OLE 3.4.3, interrogativos y exclamativos." },
+    { "concepto_id": "ORTO-013", "articulo": "OLE 6.2.2.2 — letra g para el fonema /g/", "tipo": "test", "enunciado": "¿Ante qué vocales se emplea la letra g para representar el fonema /g/ (el de gato)?", "opciones": [
+      "ante las vocales /a/, /o/, /u/",
+      "ante las vocales /e/, /i/ solamente",
+      "ante cualquier vocal y también ante consonante",
+      "solo a final de palabra en voces extranjeras"
+    ], "indice_correcto": 0, "cotejo": "Se emplea la letra g ante las vocales /a/, /o/, /u/", "justificacion": "OLE 6.2.2.2, letra g." },
+    { "concepto_id": "ORTO-014", "articulo": "OLE 6.2.2.2 — dígrafo gu", "tipo": "test", "enunciado": "Para representar el fonema /g/ ante e o i, ¿qué se emplea?", "opciones": [
+      "el dígrafo gu ante las vocales /e/, /i/",
+      "la letra g escrita ella sola ante las vocales /e/, /i/",
+      "la letra j ante las vocales /e/, /i/",
+      "el dígrafo gu ante las vocales /a/, /o/"
+    ], "indice_correcto": 0, "cotejo": "Se emplea el dígrafo gu ante las vocales /e/, /i/", "justificacion": "OLE 6.2.2.2, dígrafo gu." },
+    { "concepto_id": "ORTO-015", "articulo": "OLE 6.2.2.2 — la diéresis", "tipo": "test", "enunciado": "Cuando en la secuencia /gu/ ante e o i la u sí se pronuncia (pingüino, desagüe), ¿qué prescribe la RAE?", "opciones": [
+      "la letra u que representa el fonema /u/ debe escribirse con diéresis",
+      "la letra u que representa el fonema /u/ debe suprimirse en la escritura",
+      "la letra g debe duplicarse para conservar el sonido de la palabra",
+      "la letra u pasa a escribirse siempre detrás de la e o de la i"
+    ], "indice_correcto": 0, "cotejo": "la letra u que representa el fonema /u/ debe escribirse con diéresis", "justificacion": "OLE 6.2.2.2, la diéresis." },
+    { "concepto_id": "ORTO-016", "articulo": "OLE 6.2.2.3 — letra j para el fonema /j/", "tipo": "test", "enunciado": "¿En qué posiciones y ante qué vocales puede la letra j representar el fonema /j/?", "opciones": [
+      "en cualquier posición (inicial, medial o final) y ante cualquiera de las vocales",
+      "únicamente en posición inicial de la palabra y solamente ante las vocales e, i cuando son tónicas",
+      "solo en posición final de palabra y ante consonante situada delante de ella",
+      "en cualquier posición pero exclusivamente ante las vocales a, o, u abiertas"
+    ], "indice_correcto": 0, "cotejo": "La letra j puede representar el fonema /j/ en cualquier posición (inicial, medial o final) y ante cualquiera de las vocales", "justificacion": "OLE 6.2.2.3, letra j." },
+    { "concepto_id": "ORTO-017", "articulo": "OLE 6.2.2.3 — letra g para el fonema /j/", "tipo": "test", "enunciado": "¿Ante qué vocales puede la letra g representar el fonema /j/ (como en gente)?", "opciones": [
+      "únicamente delante de las vocales /e/, /i/",
+      "únicamente delante de las vocales /a/, /o/",
+      "delante de cualquiera de las cinco vocales",
+      "únicamente en posición final de la palabra"
+    ], "indice_correcto": 0, "cotejo": "La letra g puede representar el fonema /j/ únicamente delante de las vocales /e/, /i/", "justificacion": "OLE 6.2.2.3, letra g con valor /j/." },
+    { "concepto_id": "ORTO-018", "articulo": "OLE 6.2.2.3 — palabras terminadas en -aje y -eje", "tipo": "test", "enunciado": "¿Qué grupo de palabras se escribe con j (fonema /j/ ante e, i)?", "opciones": [
+      "las palabras que terminan en -aje y -eje",
+      "las palabras que terminan en -age y -ege",
+      "las palabras que contienen la sílaba gen",
+      "los verbos que terminan en -ger y en -gir en su infinitivo"
+    ], "indice_correcto": 0, "cotejo": "las palabras que terminan en -aje y -eje", "justificacion": "OLE 6.2.2.3, terminaciones -aje/-eje." },
+    { "concepto_id": "ORTO-019", "articulo": "OLE 6.2.2.3 — verbos terminados en -ger, -gir", "tipo": "test", "enunciado": "¿Qué verbos se escriben con g ante e, i, salvo tejer y crujir?", "opciones": [
+      "los verbos terminados en -ger, -gir",
+      "los verbos terminados en -jear",
+      "los verbos terminados en -jar, -jir",
+      "los sustantivos terminados en -jería"
+    ], "indice_correcto": 0, "cotejo": "en los verbos terminados en -ger, -gir", "justificacion": "OLE 6.2.2.3, verbos -ger/-gir." },
+    { "concepto_id": "ORTO-020", "articulo": "OLE 6.2.2.3 — la sílaba gen", "tipo": "test", "enunciado": "Según la nota orientadora de la RAE, ¿qué palabras se escriben con g (salvo ajenjo, jengibre y ojén)?", "opciones": [
+      "las palabras que contienen la sílaba gen en cualquier posición",
+      "las palabras que contienen la sílaba jen en cualquier posición de la voz",
+      "las palabras que empiezan por jen- o terminan en -jero",
+      "los verbos terminados en -jear en cualquiera de sus formas"
+    ], "indice_correcto": 0, "cotejo": "las palabras que contienen la sílaba gen en cualquier posición", "justificacion": "OLE 6.2.2.3, sílaba gen." },
+    { "concepto_id": "ORTO-021", "articulo": "OLE 6.2.2.3 — verbos terminados en -jear", "tipo": "test", "enunciado": "¿Qué verbos se escriben siempre con j en todas sus formas?", "opciones": [
+      "los verbos terminados en -jear, incluidas todas sus formas",
+      "los verbos terminados en -ger, incluidas todas sus formas",
+      "los verbos terminados en -gir en el presente de subjuntivo",
+      "los sustantivos terminados en -jería y las voces acabadas en -gente"
+    ], "indice_correcto": 0, "cotejo": "en los verbos terminados en -jear, incluidas todas sus formas", "justificacion": "OLE 6.2.2.3, verbos -jear." },
+    { "concepto_id": "ORTO-022", "articulo": "OB 3.2.2 — la coma (definición)", "tipo": "test", "enunciado": "Según la RAE, ¿cuál es la función de la coma?", "opciones": [
+      "delimita unidades discursivas inferiores al enunciado",
+      "separa siempre enunciados completos e independientes entre sí",
+      "señala el final de un enunciado con sentido completo",
+      "marca una pausa mayor que la del punto y seguido"
+    ], "indice_correcto": 0, "cotejo": "La coma (,) delimita unidades discursivas inferiores al enunciado", "justificacion": "OB 3.2.2, la coma." },
+    { "concepto_id": "ORTO-023", "articulo": "OB 3.2.2.7 — coma entre sujeto y verbo", "tipo": "test", "enunciado": "El sujeto de una oración, aunque sea muy largo, ¿puede separarse del verbo con coma?", "opciones": [
+      "no pueden separarse con coma del verbo, al que están fuertemente ligadas",
+      "deben separarse siempre con coma del verbo cuando resultan especialmente extensas",
+      "pueden separarse con coma del verbo si el sujeto es una oración",
+      "se separan con coma del verbo solo cuando aparecen pospuestas"
+    ], "indice_correcto": 0, "cotejo": "no pueden separarse con coma del verbo, al que están fuertemente ligadas", "justificacion": "OB 3.2.2.7, coma y sujeto." },
+    { "concepto_id": "ORTO-024", "articulo": "OB 3.2.2.4 — coma y vocativos", "tipo": "test", "enunciado": "¿Qué son los vocativos, que se separan con coma del resto del enunciado?", "opciones": [
+      "los sustantivos, grupos nominales o pronombres que se emplean para llamar o dirigirse al interlocutor de forma explícita",
+      "los sustantivos y adjetivos que expresan una cualidad o una circunstancia del sujeto gramatical de la oración",
+      "las palabras o grupos de palabras que introducen una explicación accesoria sobre el nombre al que preceden",
+      "los complementos del verbo que aportan una información de tiempo, de lugar, de modo o de compañía"
+    ], "indice_correcto": 0, "cotejo": "los sustantivos, grupos nominales o pronombres que se emplean para llamar o dirigirse al interlocutor de forma explícita", "justificacion": "OB 3.2.2.4, vocativos." },
+    { "concepto_id": "ORTO-025", "articulo": "OB 3.2.2.6 — coma y estructuras coordinadas", "tipo": "test", "enunciado": "Cuando el último elemento de una enumeración va introducido por y, o o ni, ¿qué ocurre con la coma?", "opciones": [
+      "no se escribe coma delante de ella",
+      "se escribe siempre coma delante de ella",
+      "se escribe punto y coma delante de ella",
+      "se escriben dos puntos delante de ella"
+    ], "indice_correcto": 0, "cotejo": "no se escribe coma delante de ella", "justificacion": "OB 3.2.2.6, coordinación copulativa/disyuntiva." },
+    { "concepto_id": "ORTO-026", "articulo": "OB 3.2.2.6 — coma ante coordinadas adversativas", "tipo": "test", "enunciado": "¿Ante qué oraciones coordinadas se escribe coma por ser adversativas?", "opciones": [
+      "las introducidas por pero, mas, sino (que) y aunque",
+      "las introducidas por y, e, ni, o y u",
+      "las introducidas por las conjunciones porque, pues, ya que y puesto que",
+      "las introducidas por así que, conque y luego"
+    ], "indice_correcto": 0, "cotejo": "las introducidas por pero, mas, sino (que) y aunque", "justificacion": "OB 3.2.2.6, adversativas." },
+    { "concepto_id": "ORTO-027", "articulo": "OB 3.2.3 — el punto y coma", "tipo": "test", "enunciado": "¿Qué grado de separación establece el punto y coma?", "opciones": [
+      "mayor disociación entre las unidades lingüísticas que la coma y menor que la indicada por el punto",
+      "menor disociación entre las unidades lingüísticas que la coma y mayor que la indicada por el punto",
+      "una separación idéntica a la de la coma, sin realzar más ninguna de las unidades enlazadas",
+      "una separación idéntica a la del punto, pues cierra siempre un enunciado con sentido completo"
+    ], "indice_correcto": 0, "cotejo": "establece mayor disociación entre las unidades lingüísticas que la coma y menor que la indicada por el punto", "justificacion": "OB 3.2.3, el punto y coma." },
+    { "concepto_id": "ORTO-028", "articulo": "OB 4.6.1 — nombres propios de persona", "tipo": "test", "enunciado": "¿Cuál de estos casos exige mayúscula inicial según la RAE?", "opciones": [
+      "los nombres propios de persona, tanto nombres de pila como apellidos",
+      "los sustantivos comunes que designan cargos, títulos y tratamientos de respeto",
+      "los nombres de los días de la semana y de los meses del año",
+      "los gentilicios derivados de nombres de países y de ciudades"
+    ], "indice_correcto": 0, "cotejo": "los nombres propios de persona, tanto nombres de pila como apellidos", "justificacion": "OB 4.6.1, nombres propios de persona." },
+    { "concepto_id": "ORTO-029", "articulo": "OB 4.6.1 — apellidos con conjunción y preposición", "tipo": "test", "enunciado": "En apellidos como Ortega y Gasset o Ramón y Cajal, ¿cómo se escribe la conjunción y?", "opciones": [
+      "esta se escribe siempre con minúscula",
+      "esta se escribe siempre con mayúscula inicial",
+      "esta se escribe con mayúscula solo al inicio del renglón",
+      "esta puede escribirse indistintamente con mayúscula o minúscula"
+    ], "indice_correcto": 0, "cotejo": "En los apellidos unidos por la conjunción y, esta se escribe siempre con minúscula", "justificacion": "OB 4.6.1, conjunción y en apellidos." },
+    { "concepto_id": "ORTO-030", "articulo": "OB 4.6.1 — accidentes geográficos", "tipo": "test", "enunciado": "En el mar Rojo o el río Amazonas, ¿qué ocurre con el nombre genérico (mar, río)?", "opciones": [
+      "pero no los nombres comunes genéricos que los acompañan",
+      "y también los nombres comunes genéricos que los acompañan",
+      "así como el artículo que antecede a la denominación completa",
+      "salvo cuando el accidente geográfico es real y no imaginario"
+    ], "indice_correcto": 0, "cotejo": "los nombres propios de los accidentes geográficos, pero no los nombres comunes genéricos que los acompañan", "justificacion": "OB 4.6.1, accidentes geográficos." },
+    { "concepto_id": "ORTO-031", "articulo": "OB 4.6.1 — títulos de obras de creación", "tipo": "test", "enunciado": "¿Qué se escribe con mayúscula en el título de un libro o una película en español?", "opciones": [
+      "la primera palabra del título de cualquier obra de creación",
+      "todas las palabras significativas del título de la obra de creación",
+      "únicamente los sustantivos y los adjetivos que hay en el título",
+      "solo la primera palabra del título y el nombre del autor de la obra"
+    ], "indice_correcto": 0, "cotejo": "La primera palabra del título de cualquier obra de creación", "justificacion": "OB 4.6.1, títulos de obras." },
+    { "concepto_id": "ORTO-032", "articulo": "OB 4.6.1 — denominación de entidades e instituciones", "tipo": "test", "enunciado": "¿Cómo se escriben las palabras del nombre de un ministerio o una universidad?", "opciones": [
+      "todas las palabras significativas que componen la denominación completa de entidades, instituciones, organismos",
+      "únicamente la primera palabra de la denominación completa de la entidad, la institución o el organismo",
+      "solo los sustantivos, pero nunca los adjetivos, que forman la denominación completa de la entidad",
+      "la primera palabra y el nombre común genérico que precede al nombre propio de la entidad citada"
+    ], "indice_correcto": 0, "cotejo": "todas las palabras significativas que componen la denominación completa de entidades, instituciones, organismos", "justificacion": "OB 4.6.1, denominación de entidades." }
+  ],
+  "relaciones": [
+    { "origen": "ORTO-001", "destino": "ORTO-004", "tipo": "desarrolla", "justificacion": "La regla de las agudas concreta la clasificación por sílaba tónica." },
+    { "origen": "ORTO-002", "destino": "ORTO-004", "tipo": "desarrolla", "justificacion": "La regla de las llanas concreta la clasificación por sílaba tónica." },
+    { "origen": "ORTO-003", "destino": "ORTO-004", "tipo": "desarrolla", "justificacion": "La regla de las esdrújulas concreta la clasificación por sílaba tónica." },
+    { "origen": "ORTO-005", "destino": "ORTO-004", "tipo": "limita", "justificacion": "Los monosílabos quedan fuera de la clasificación en agudas, llanas y esdrújulas." },
+    { "origen": "ORTO-006", "destino": "ORTO-004", "tipo": "remite", "justificacion": "Las palabras con diptongo se acentúan según las reglas generales por sílaba tónica." },
+    { "origen": "ORTO-007", "destino": "ORTO-006", "tipo": "limita", "justificacion": "El hiato se opone al diptongo y excepciona las reglas generales de acentuación." },
+    { "origen": "ORTO-008", "destino": "ORTO-006", "tipo": "desarrolla", "justificacion": "La colocación de la tilde concreta cómo se acentúa un diptongo." },
+    { "origen": "ORTO-009", "destino": "ORTO-005", "tipo": "desarrolla", "justificacion": "La tilde diacrítica es la excepción a que los monosílabos se escriban sin tilde." },
+    { "origen": "ORTO-010", "destino": "ORTO-009", "tipo": "desarrolla", "justificacion": "La nómina de monosílabos concreta el uso de la tilde diacrítica." },
+    { "origen": "ORTO-011", "destino": "ORTO-010", "tipo": "limita", "justificacion": "El pronombre ti excepciona la lista de monosílabos con tilde diacrítica." },
+    { "origen": "ORTO-012", "destino": "ORTO-009", "tipo": "desarrolla", "justificacion": "Los interrogativos y exclamativos amplían el uso de la tilde diacrítica a polisílabos." },
+    { "origen": "ORTO-014", "destino": "ORTO-013", "tipo": "desarrolla", "justificacion": "El dígrafo gu completa la representación del fonema /g/ ante e, i." },
+    { "origen": "ORTO-015", "destino": "ORTO-014", "tipo": "desarrolla", "justificacion": "La diéresis concreta qué ocurre cuando la u del dígrafo gu sí se pronuncia." },
+    { "origen": "ORTO-015", "destino": "ORTO-006", "tipo": "remite", "justificacion": "La diéresis marca que la u forma secuencia vocálica pronunciada junto a la vocal siguiente." },
+    { "origen": "ORTO-017", "destino": "ORTO-016", "tipo": "desarrolla", "justificacion": "El uso de g con valor /j/ ante e, i completa la representación del fonema /j/." },
+    { "origen": "ORTO-017", "destino": "ORTO-013", "tipo": "limita", "justificacion": "Ante e, i la letra g representa /j/, no /g/: restringe el valor de la g." },
+    { "origen": "ORTO-018", "destino": "ORTO-016", "tipo": "desarrolla", "justificacion": "La regla de -aje/-eje concreta cuándo el fonema /j/ se escribe con j." },
+    { "origen": "ORTO-019", "destino": "ORTO-017", "tipo": "desarrolla", "justificacion": "La regla de -ger/-gir concreta cuándo el fonema /j/ ante e, i se escribe con g." },
+    { "origen": "ORTO-020", "destino": "ORTO-017", "tipo": "desarrolla", "justificacion": "La regla de la sílaba gen concreta cuándo el fonema /j/ ante e, i se escribe con g." },
+    { "origen": "ORTO-021", "destino": "ORTO-016", "tipo": "desarrolla", "justificacion": "La regla de los verbos en -jear concreta cuándo el fonema /j/ se escribe con j." },
+    { "origen": "ORTO-023", "destino": "ORTO-022", "tipo": "desarrolla", "justificacion": "La regla de sujeto y verbo concreta el uso de la coma dentro del enunciado." },
+    { "origen": "ORTO-024", "destino": "ORTO-022", "tipo": "desarrolla", "justificacion": "El uso de la coma en vocativos concreta la delimitación de unidades del enunciado." },
+    { "origen": "ORTO-025", "destino": "ORTO-022", "tipo": "desarrolla", "justificacion": "La regla de coordinación concreta el uso de la coma en enumeraciones." },
+    { "origen": "ORTO-026", "destino": "ORTO-022", "tipo": "desarrolla", "justificacion": "La regla de las adversativas concreta el uso de la coma en la coordinación." },
+    { "origen": "ORTO-026", "destino": "ORTO-025", "tipo": "limita", "justificacion": "Las adversativas sí llevan coma, a diferencia de las copulativas y disyuntivas." },
+    { "origen": "ORTO-027", "destino": "ORTO-022", "tipo": "limita", "justificacion": "El punto y coma establece mayor disociación que la coma entre las unidades." },
+    { "origen": "ORTO-027", "destino": "ORTO-025", "tipo": "remite", "justificacion": "El punto y coma sustituye a la coma en coordinaciones de elementos complejos." },
+    { "origen": "ORTO-029", "destino": "ORTO-028", "tipo": "desarrolla", "justificacion": "La regla de la conjunción y y las preposiciones concreta la mayúscula en los nombres de persona." },
+    { "origen": "ORTO-030", "destino": "ORTO-028", "tipo": "desarrolla", "justificacion": "La regla de los accidentes geográficos concreta el uso de la mayúscula inicial en nombres propios." },
+    { "origen": "ORTO-031", "destino": "ORTO-028", "tipo": "desarrolla", "justificacion": "La regla de los títulos de obras concreta el uso de la mayúscula inicial." },
+    { "origen": "ORTO-032", "destino": "ORTO-028", "tipo": "desarrolla", "justificacion": "La regla de las entidades concreta el uso de la mayúscula inicial en denominaciones." }
+  ]
+}

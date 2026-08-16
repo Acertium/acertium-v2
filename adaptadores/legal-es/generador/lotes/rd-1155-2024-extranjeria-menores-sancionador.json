@@ -1,0 +1,1700 @@
+{
+  "meta": {
+    "materia": "rd-1155-2024-reglamento-extranjeria",
+    "norma": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+    "referencia_boe": "BOE-A-2024-24099",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador"
+  },
+  "fuentes": {
+    "art. 164": "1. La estancia derivada del desplazamiento temporal de menores, a partir de los doce años, con fines de escolarización en el marco de un programa humanitario tendrá naturaleza jurídica de estancia por estudios. 2. En el desplazamiento temporal de menores con fines de escolarización deberá acreditarse que el menor ha sido admitido en un centro de enseñanza reconocido oficialmente en España. 3. La estancia acabará al finalizar el curso académico, en cuyo momento, salvo que razones excepcionales lo impidan, el menor deberá regresar a su país.",
+    "art. 165": "Lo previsto en el presente capítulo será de aplicación al extranjero menor de dieciocho años que llegue a territorio español sin venir acompañado de un adulto responsable de él, ya sea legalmente o con arreglo a la costumbre, apreciándose riesgo de desprotección del menor, mientras tal adulto responsable no se haya hecho cargo efectivamente del menor, así como a cualquier menor extranjero que una vez en España se encuentre en aquella situación.",
+    "art. 166": "1. Cuando los Cuerpos y Fuerzas de Seguridad localicen a un extranjero no acompañado cuya minoría de edad sea indubitada por razón de su documentación o de su apariencia física, éste será puesto a disposición de los servicios de protección de menores competentes, poniéndose tal hecho en conocimiento del Ministerio Fiscal. Los datos de identificación del menor serán inscritos en el Registro de Menores Extranjeros No Acompañados. Con carácter inmediato, se pondrá el hecho en conocimiento del Ministerio Fiscal, que dispondrá, en el plazo más breve posible, la determinación de su edad, para lo que deberán colaborar las instituciones sanitarias oportunas que, con carácter prioritario y urgente, realizarán las pruebas necesarias. 4. En caso de que la determinación de la edad se realice en base al establecimiento de una horquilla de años, se considerará que la persona extranjera es menor si la edad más baja de ésta es inferior a los dieciocho años.",
+    "art. 167": "1. Las Delegaciones y Subdelegaciones del Gobierno serán los centros directivos competentes para llevar a cabo los trámites relativos a la repatriación de un menor extranjero no acompañado, previstos en el artículo 35 de la Ley Orgánica 4/2000, de 11 de enero y en los Acuerdos bilaterales suscritos por España sobre la materia. 3. La Delegación o Subdelegación del Gobierno solicitará, través de la Comisaría General de Extranjería y Fronteras, informe de la representación diplomática del país de origen del menor sobre las circunstancias familiares de éste.",
+    "art. 168": "1. El Delegado o Subdelegado de Gobierno competente acordará la incoación del procedimiento de repatriación del menor cuando, según las informaciones recibidas de acuerdo con lo previsto en el artículo anterior, se considere que el interés superior del menor se satisface con la reagrupación con su familia o su puesta a disposición de los servicios de protección de su país de origen. 2. El acuerdo de incoación del procedimiento será notificado inmediatamente al menor, al Ministerio Fiscal y a la entidad que ostente su tutela legal, custodia, protección provisional o guarda.",
+    "art. 169": "1. Comunicado el acuerdo de incoación del procedimiento se iniciará un periodo de diez días a computar desde el siguiente a la correspondiente notificación, en el que el menor extranjero, la entidad que ostente su tutela legal, custodia, protección provisional o guarda y, en su caso, el Ministerio Fiscal podrán formular cuantas alegaciones de hecho o de derecho consideren oportunas. Si el menor ha alcanzado la edad de dieciséis años podrá intervenir en esta fase por sí mismo o a través de representante que designe. Sin perjuicio de que pueda apreciarse dicho grado de madurez en una edad inferior, se entenderá que la persona extranjera mayor de doce años tiene juicio suficiente. 3. Cuando los hechos alegados tuvieran relevancia decisiva para la adopción del acuerdo de repatriación, el instructor del procedimiento, de oficio o a instancia de parte, acordará la apertura de un periodo de prueba por un plazo no superior a treinta días ni inferior a diez, a fin de que puedan practicarse cuantas sean pertinentes.",
+    "art. 170": "2. Realizado el trámite de audiencia, el Delegado o Subdelegado del Gobierno resolverá, de acuerdo con el principio de interés superior del menor, sobre la repatriación del menor a su país de origen o donde se encuentren sus familiares o sobre su permanencia en España. La resolución pondrá fin a la vía administrativa. 3. El plazo máximo para la resolución y notificación del procedimiento será de seis meses desde la fecha del acuerdo de inicio del procedimiento.",
+    "art. 171": "1. Sin perjuicio de las funciones del Cuerpo Nacional de Policía en la ejecución de la resolución, el menor será acompañado por personal adscrito a los servicios de protección del menor bajo cuya tutela legal, custodia, protección provisional o guarda se encuentre hasta el momento de su puesta a disposición de las autoridades competentes de su país de origen. 3. La repatriación se efectuará a costa de la familia del menor o de los servicios de protección de menores de su país. Subsidiariamente, la Administración General del Estado se hará cargo del coste de la repatriación.",
+    "art. 172": "1. La oficina de extranjería en la provincia en la que esté fijado el domicilio del menor iniciará, de oficio, por orden superior o a instancia de parte, el procedimiento relativo a la autorización de residencia a la que se refiere el artículo 35.7 de la Ley Orgánica 4/2000, de 11 de enero, una vez haya quedado acreditada la imposibilidad de repatriación del menor y, en todo caso, transcurridos noventa días desde que haya sido puesto a disposición de los servicios competentes de protección de menores. 4. La autorización de residencia que habilita para trabajar a partir de los 16 años conllevará la habilitación para trabajar por cuenta propia y ajena para aquellas actividades que, a propuesta de la entidad de protección de menores, favorezcan su integración social, y tendrá una vigencia de dos años, retrotrayéndose su eficacia a la fecha de la puesta a disposición del menor del servicio de protección de menores.",
+    "art. 173": "1. Los menores sobre los que un servicio de protección de menores haya ejercido la tutela, custodia, protección provisional o guarda, y que alcancen la mayoría de edad siendo titulares de una autorización de residencia concedida conforme a lo previsto en el artículo anterior, podrán solicitar en la oficina de extranjería donde hayan fijado su residencia la renovación de la misma en modelo oficial, durante los dos meses previos a la fecha de expiración de su vigencia. 3. La vigencia de la autorización renovada será de dos años, renovables por periodos de dos años si se mantienen los requisitos, salvo que corresponda una autorización de residencia de larga duración.",
+    "art. 174": "1. Los menores extranjeros no acompañados sobre los que un servicio de protección de menores ostentara la tutela, custodia, protección provisional o guarda y alcancen la mayoría de edad sin haber obtenido la autorización de residencia prevista en el artículo 172 pero habiendo cumplido los requisitos para ello, siempre que dicha tutela no se ostente por motivo de una medida cautelar de protección, podrán solicitar una autorización de residencia temporal por circunstancias excepcionales. 2. La solicitud de autorización será presentada durante los dos meses previos o en los tres meses posteriores a la fecha en que cumpla los dieciocho años. Excepcionalmente, la solicitud de autorización podrá ser presentada por la persona extranjera fuera de dicho plazo, y hasta el día siguiente de que el joven cumpla los 20 años de edad, cuando concurran razones ajenas a la persona extranjera que estén debidamente acreditadas.",
+    "art. 214": "1. En la Dirección General de la Policía existirá un Registro de Menores No Acompañados, con efectos exclusivos de identificación, localización y protección que estará coordinado por la Fiscalía General del Estado, para el cumplimiento de las competencias que tiene atribuidas el Ministerio Fiscal por el artículo 35 de la Ley Orgánica 4/2000, de 11 de enero, en el ámbito de su función de garantía y protección del interés superior del menor. El Registro contendrá en asientos personales, individualizados y numerados, los siguientes datos referentes a la identificación de los menores extranjeros no acompañados: c) Su impresión decadactilar, datos fisonómicos y otros datos biométricos. d) Fotografía.",
+    "art. 217": "Con anterioridad a la iniciación del procedimiento se podrán realizar actuaciones previas para determinar con carácter preliminar si concurren circunstancias que justifiquen tal iniciación. Estas actuaciones se orientarán especialmente a determinar con la mayor precisión posible los hechos susceptibles de motivar la incoación del procedimiento, la identificación de la persona o personas que pudieran resultar responsables y las circunstancias relevantes que concurran en unos y otros.",
+    "art. 221": "1. Los Delegados del Gobierno en las Comunidades Autónomas uniprovinciales y los Subdelegados del Gobierno dictarán resolución motivada que confirme, modifique o deje sin efecto la propuesta de sanción y decida todas las cuestiones planteadas por los interesados y aquéllas otras derivadas del procedimiento. 2. La resolución no podrá tener en cuenta hechos distintos de los determinados en la fase de instrucción del procedimiento, sin perjuicio de su diferente valoración jurídica.",
+    "art. 222": "A los efectos previstos en el apartado 3 del artículo 22 de la Ley Orgánica 4/2000, de 11 de enero, la persona extranjera manifestará su voluntad expresa de recurrir, cuya constancia se acreditará por medio del apoderamiento regulado en el artículo 24 de la Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil.",
+    "art. 223": "1. La ejecución de las resoluciones sancionadoras se efectuará de conformidad con lo dispuesto en el capítulo III de este título, sin perjuicio de las particularidades establecidas para el procedimiento preferente. 2. De acuerdo con lo previsto en el artículo 63 bis de la Ley Orgánica 4/2000, de 11 de enero, no podrá adoptarse la medida cautelar de internamiento preventivo durante el plazo de cumplimiento voluntario que se hubiera fijado en la resolución de expulsión.",
+    "art. 225": "El procedimiento seguido será el ordinario salvo en los supuestos especificados en el artículo 233, que se tramitarán por el procedimiento preferente.",
+    "art. 226": "3. En los procedimientos en los que pueda proponerse la sanción de expulsión de territorio español la persona extranjera tendrá derecho a la asistencia letrada que se le proporcionará de oficio, en su caso, y a ser asistido por intérprete si no comprende o no habla castellano, de forma gratuita en el caso de que careciese de medios económicos de acuerdo con lo previsto en la normativa reguladora del derecho de asistencia jurídica gratuita.",
+    "art. 228": "1. Recibidas las alegaciones o transcurrido el plazo señalado en el artículo anterior, el órgano instructor podrá acordar la apertura de un periodo de prueba por un plazo no superior a treinta días ni inferior a 10 días. 2. En el acuerdo, que se notificará a los interesados, se podrá rechazar de forma motivada la práctica de aquellas pruebas que, en su caso, hubiesen propuesto aquéllos cuando por su relación con los hechos se consideren improcedentes.",
+    "art. 229": "El órgano instructor recabará de los órganos y dependencias administrativas órganos, organismos y entidades pertenecientes a cualquiera de las administraciones públicas la información que fuera necesaria para el eficaz ejercicio de sus propias competencias, incluyendo la petición de la información necesaria al Registro Central de Penados.",
+    "art. 230": "Concluida en su caso la prueba, el órgano instructor del procedimiento formulará la propuesta de resolución en la que se fijarán de forma motivada los hechos y se especificarán los que se consideren probados y su exacta calificación jurídica. En todo caso, la determinación de la propuesta de sanción será realizada en base a criterios de proporcionalidad, debiendo tenerse en consideración el grado de culpabilidad de la persona infractora, así como el daño o riesgo producido con la comisión de la infracción.",
+    "art. 231": "1. La propuesta de resolución se notificará a los interesados. A la notificación se acompañará una relación de los documentos que obren en el procedimiento para que los interesados puedan obtener las copias de los que estimen convenientes y se les concederá un plazo de quince días para formular alegaciones y presentar los documentos e informaciones que estimen pertinentes ante el instructor del procedimiento.",
+    "art. 232": "1. Antes de dictar la resolución, el órgano competente para resolver podrá decidir mediante acuerdo motivado la realización de las actuaciones complementarias indispensables para resolver el procedimiento. Las actuaciones complementarias deberán practicarse en un plazo no superior a quince días. 2. La resolución se adoptará en el plazo de 10 días desde la recepción de la propuesta de resolución y los documentos, alegaciones e informaciones que obren en el procedimiento, salvo lo dispuesto en los apartados 1 y 3.",
+    "art. 236": "La incoación del expediente, las medidas cautelares de detención y de internamiento y la resolución de expulsión serán comunicadas a la embajada o consulado del país de la persona extranjera y se procederá a su anotación en el Registro Central de Extranjeros de la Dirección General de la Policía.",
+    "art. 238": "2. La iniciación por denuncia formulada por funcionarios del Cuerpo Nacional de Policía se atendrá a las siguientes normas: a) Las denuncias formuladas por funcionarios del Cuerpo Nacional de Policía se extenderán por ejemplar duplicado. Uno de ellos se entregará al denunciado, si fuera posible, y el otro se remitirá al órgano correspondiente con competencia para acordar la iniciación del procedimiento. b) En el escrito de denuncia se hará constar que con ella queda incoado el correspondiente expediente y que el denunciado dispone de un plazo de 10 días para alegar cuanto considere conveniente para su defensa.",
+    "art. 239": "En el plazo de tres días desde que se reciba el expediente, el órgano competente para resolver dictará resolución en la forma y con los efectos procedentes que para las resoluciones de sanción de multa se prevén en el procedimiento ordinario de este Reglamento.",
+    "art. 240": "1. Si durante la tramitación del expediente seguido por el procedimiento preferente y por la causa prevista en la letra a) del artículo 53.1 de la Ley Orgánica 4/2000, de 11 de enero, la persona extranjera expedientada acreditase haber solicitado con anterioridad a su iniciación una autorización de residencia temporal por circunstancias excepcionales, el instructor recabará informe del órgano competente sobre el estado de tramitación de dicha solicitud. En caso de que el interesado no reuniera los requisitos previstos para la obtención de la autorización de residencia, el instructor decidirá la continuación del expediente de expulsión y, en caso contrario, procederá a su archivo.",
+    "art. 242": "Además del contenido mínimo que ha de incluir el acuerdo de iniciación conforme lo dispuesto en el artículo 226.1 en él se indicarán expresamente los siguientes particulares: a) El derecho del interesado a la asistencia jurídica gratuita en el caso de que carezca de recursos económicos suficientes. c) Que el acuerdo de expulsión que pueda dictarse conllevará la prohibición de entrada en España, cuya duración se establecerá de acuerdo con lo dispuesto en el artículo 244.2 de este Reglamento.",
+    "art. 243": "1. De conformidad con lo previsto en los artículos 55 y 61 de la Ley Orgánica 4/2000, de 11 de enero, el instructor podrá adoptar en cualquier momento mediante acuerdo motivado las medidas de carácter provisional que resulten necesarias para asegurar la eficacia de la resolución que pudiera recaer. En caso de que el procedimiento tramitado fuera de carácter ordinario no podrá adoptarse la medida cautelar de internamiento.",
+    "art. 246": "1. Cuando un extranjero sea detenido en territorio español y se constate que contra él se ha dictado una resolución de expulsión por un Estado miembro de la Unión Europea o un Estado asociado Schengen, se procederá a ejecutar inmediatamente la resolución, sin necesidad de incoar nuevo expediente de expulsión. Para ello, el Delegado o Subdelegado del Gobierno procederá a dictar un acuerdo expreso de reconocimiento de dicha resolución de expulsión, así como de la prohibición de entrada a ella asociada.",
+    "art. 248": "La resolución de expulsión será comunicada a la embajada o consulado del país de la persona extranjera y a la Secretaría de Estado de Migraciones, así como anotada en el Registro Central de Extranjeros.",
+    "art. 249": "Las normas procedimentales recogidas en esta sección serán de aplicación cuando el infractor, cualquiera que sea su nacionalidad, realice alguna de las conductas tipificadas como graves o muy graves de las previstas en los artículos 53 y 54 de la Ley Orgánica 4/2000, de 11 de enero, sin perjuicio de los supuestos en que se pueda imponer la expulsión según lo dispuesto en este título. Para la determinación de la cuantía de la sanción se tendrá especialmente en cuenta la capacidad económica del infractor.",
+    "art. 250": "El contenido mínimo del acuerdo de iniciación del procedimiento para la imposición de sanción de multa será conforme a lo dispuesto en el artículo 226. Los demás trámites procedimentales, salvo lo dispuesto en los artículos siguientes, serán los establecidos para el procedimiento ordinario contenidos en la sección 1.ª del capítulo II de este título.",
+    "art. 251": "2. Cuando se siga expediente sancionador por alguna de las infracciones previstas en el artículo 54.2.b) y c) de la Ley Orgánica 4/2000, de 11 de enero, y los transportistas infrinjan la obligación de tomar a cargo al extranjero transportado ilegalmente, la autoridad gubernativa podrá acordar alguna de las siguientes medidas: a) Suspensión temporal de sus actividades, que no podrá exceder de un periodo de seis meses. c) Inmovilización del medio de transporte utilizado hasta el cumplimiento de la referida obligación.",
+    "art. 252": "3. Si la resolución se adoptase en aplicación de la infracción prevista en el artículo 54.1.d) de la Ley Orgánica 4/2000, de 11 de enero, y sin perjuicio de la sanción de multa acordada, podrá contener pronunciamiento por el que se adopte la clausura del establecimiento o local desde seis meses a cinco años. 5. Las multas deberán hacerse efectivas a los órganos de recaudación de la Administración gestora, directamente o a través de entidades de crédito, dentro de los quince días siguientes a la fecha de su firmeza en vía administrativa.",
+    "art. 253": "La inspección en materia de trabajo de extranjeros se ejercerá a través de la Inspección de Trabajo y Seguridad Social en desarrollo de las funciones y competencias que tiene atribuidas en su normativa específica de conformidad con lo dispuesto en la Ley 23/2015, de 21 de julio, Ordenadora del Sistema de Inspección de Trabajo y Seguridad Social, y sus normas de aplicación.",
+    "art. 255": "Las personas extranjeras que incumplan los deberes, obligaciones y cargas impuestos por el ordenamiento jurídico general serán sancionadas con arreglo a la legislación específicamente aplicable en cada caso.",
+    "art. 258": "1. Las Oficinas de Extranjería son las unidades que integran los diferentes servicios de la Administración General del Estado competentes en materia de extranjería e inmigración en el ámbito provincial, al objeto de garantizar la eficacia y coordinación en la actuación administrativa. 3. Las Oficinas de Extranjería estarán ubicadas en la capital de las provincias en las que se constituyan.",
+    "art. 259": "1. Las Oficinas de Extranjería dependerán orgánicamente de la correspondiente Delegación o Subdelegación del Gobierno, se encuadrarán en las Áreas funcionales de Trabajo e Inmigración, y dependerán funcionalmente del Ministerio de Inclusión, Seguridad Social y Migraciones, a través de la Secretaría de Estado de Migraciones, y del Ministerio del Interior, ambos en el ámbito de sus respectivas competencias.",
+    "art. 260": "Las Oficinas de Extranjería ejercerán, en el ámbito provincial, las siguientes funciones: 3. La tramitación de los procedimientos sancionadores por infracciones previstas en la normativa en materia de extranjería y en el derecho de la Unión Europea. No obstante, las devoluciones, y los expedientes sancionadores que lleven a la expulsión del infractor extranjero, o a su detención e ingreso en un Centro de Internamiento de Extranjeros, serán ejecutados por las Brigadas y Unidades de Extranjería y Fronteras de las Comisarías de Policía.",
+    "art. 261": "3. Sin perjuicio de la competencia atribuida al Jefe de la oficina de extranjería, corresponderá a los servicios policiales adscritos a ella: a) La asignación y comunicación del número de identidad de extranjero y la emisión de certificados de residente y no residente. c) La expedición y entrega del título de viaje o documento análogo para la salida de España, así como de la tarjeta de identidad de extranjero.",
+    "art. 262": "4. El Jefe de la oficina de extranjería será nombrado y cesado por el Delegado del Gobierno, previo informe favorable de la Secretaría de Estado de Migraciones, ya se provea el puesto de forma provisional o definitivamente. Su nombramiento se realizará por el sistema de libre designación entre funcionarios de carrera del Subgrupo A1 o del Subgrupo A2 de la Administración General del Estado.",
+    "art. 263": "1. Para el cumplimiento de los fines de integración social que tiene encomendados, el Ministerio de Inclusión, Seguridad Social y Migraciones dispondrá de una red pública de centros de migraciones, que desempeñarán tareas de información, atención, acogida, intervención social, formación, detección de situaciones de trata de seres humanos y, en su caso, derivación, dirigidas a la población extranjera.",
+    "art. 265": "2. Cuando la persona extranjera carezca de un título que autorice su permanencia en España, el ingreso en un centro de migraciones llevará aparejada la expedición de un volante personal e intransferible que le autorice a permanecer en el centro, en el que junto a la fotografía de la persona extranjera se harán constar sus datos de filiación, nacionalidad, número de identidad de extranjero, si lo tuviera asignado, así como la fecha de caducidad del tiempo en que habitará en el centro.",
+    "DA 7ª": "1. Sin perjuicio de los plazos específicamente establecidos en relación con determinados procedimientos, el plazo general máximo para notificar las resoluciones sobre las solicitudes que se formulen por los interesados en los procedimientos regulados en este Reglamento será de tres meses contados a partir del día siguiente al de la fecha en que hayan tenido entrada en el registro del órgano competente para tramitarlas. 2. En los procedimientos en materia de visados, el plazo máximo, y no prorrogable, para notificar las resoluciones sobre las solicitudes será de un mes.",
+    "DA 8ª": "Transcurrido el plazo para notificar las solicitudes, estas podrán entenderse desestimadas de acuerdo con lo dispuesto en la disposición adicional primera de la Ley Orgánica 4/2000, de 11 de enero, y con las excepciones contenidas en dicha disposición adicional.",
+    "DA 9ª": "Las resoluciones que dicten los órganos competentes sobre concesión o denegación de visados, prórrogas de estancia o autorizaciones de residencia y de trabajo, cédulas de inscripción, así como sobre sanciones gubernativas y expulsiones de extranjeros, pondrán fin a la vía administrativa. Se exceptúan las resoluciones sobre denegación de entrada y devolución, las cuales no agotan la vía administrativa.",
+    "DA 11ª": "Los informes policiales en materia de seguridad y orden público a emitir en el marco de los procedimientos regulados en este Reglamento contendrán en todo caso el conjunto de la información obrante en las Fuerzas y Cuerpos de Seguridad del Estado adscritos a la Dirección General de la Policía.",
+    "DA 12ª": "2. El periodo de pago voluntario para el abono de dichas tasas será, salvo en los procedimientos relativos a visados, de diez días. 4. Las tasas por tramitación de autorizaciones de residencia, autorizaciones de trabajo o expedición de Tarjetas de Identidad de Extranjero tendrán carácter autoliquidable.",
+    "DA 13ª": "1. Se desconcentra a favor del titular de la Secretaría de Estado de Seguridad la competencia para acordar, en los supuestos en los que lo requiera la seguridad del Estado o de los ciudadanos, el cierre temporal de los puestos fronterizos habilitados para el paso de personas a que se refiere el artículo 3 de este Reglamento.",
+    "DA 14ª": "Los solicitantes de protección internacional estarán autorizados para trabajar en España una vez transcurridos seis meses desde la fecha de la solicitud, siempre que ésta hubiera sido admitida a trámite y no estuviera resuelta por causa no imputable al interesado."
+  },
+  "conceptos": [
+    {
+      "id": "EXTR-200",
+      "articulo": "art. 164",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Desplazamiento temporal de menores para escolarización",
+      "resumen": "La estancia por desplazamiento temporal de menores, a partir de los doce años, con fines de escolarización en un programa humanitario tiene naturaleza jurídica de estancia por estudios.",
+      "explicacion": "Cuando un menor extranjero, a partir de los doce años, se desplaza temporalmente a España para escolarizarse en el marco de un programa humanitario, su estancia se trata jurídicamente como una estancia por estudios; deberá acreditarse su admisión en un centro reconocido oficialmente."
+    },
+    {
+      "id": "EXTR-201",
+      "articulo": "art. 165",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Definición de menor extranjero no acompañado",
+      "resumen": "Es menor extranjero no acompañado el extranjero menor de dieciocho años que llega a territorio español sin venir acompañado de un adulto responsable de él.",
+      "explicacion": "El capítulo se aplica al extranjero menor de dieciocho años que llega a España sin un adulto responsable, apreciándose riesgo de desprotección, mientras ningún adulto responsable se haga cargo efectivamente de él, y a cualquier menor que una vez en España quede en esa situación."
+    },
+    {
+      "id": "EXTR-202",
+      "articulo": "art. 166",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Determinación de la edad: puesta a disposición",
+      "resumen": "Localizado un extranjero no acompañado con minoría de edad indubitada, será puesto a disposición de los servicios de protección de menores competentes, poniéndose el hecho en conocimiento del Ministerio Fiscal.",
+      "explicacion": "Cuando las Fuerzas y Cuerpos de Seguridad localizan a un extranjero no acompañado cuya minoría de edad es indubitada por su documentación o apariencia física, lo entregan a los servicios de protección de menores y lo comunican al Ministerio Fiscal, que dispondrá la determinación de la edad si no es indubitada."
+    },
+    {
+      "id": "EXTR-203",
+      "articulo": "art. 166",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Horquilla de edad: criterio de la edad más baja",
+      "resumen": "Si la edad se determina mediante una horquilla de años, se considera que la persona es menor si la edad más baja de ésta es inferior a los dieciocho años.",
+      "explicacion": "Cuando las pruebas médicas fijan la edad como un intervalo (horquilla), la regla protectora es tomar el extremo inferior: la persona se considera menor si el límite bajo de la horquilla queda por debajo de dieciocho años."
+    },
+    {
+      "id": "EXTR-204",
+      "articulo": "art. 167",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Competencia sobre la repatriación del menor",
+      "resumen": "Las Delegaciones y Subdelegaciones del Gobierno son los centros directivos competentes para los trámites relativos a la repatriación de un menor extranjero no acompañado.",
+      "explicacion": "La competencia para tramitar la repatriación de un menor extranjero no acompañado corresponde a las Delegaciones y Subdelegaciones del Gobierno, conforme al artículo 35 de la LO 4/2000 y a los acuerdos bilaterales suscritos por España."
+    },
+    {
+      "id": "EXTR-205",
+      "articulo": "art. 168",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Incoación del procedimiento de repatriación",
+      "resumen": "El Delegado o Subdelegado del Gobierno acuerda la incoación de la repatriación cuando se considere que el interés superior del menor se satisface con la reagrupación con su familia o su puesta a disposición de los servicios de protección de su país de origen.",
+      "explicacion": "La repatriación no es automática: se incoa solo cuando, según la información recabada, el interés superior del menor se satisface reagrupándolo con su familia o poniéndolo a disposición de los servicios de protección de su país. El acuerdo se notifica al menor, al Ministerio Fiscal y a la entidad tutelar."
+    },
+    {
+      "id": "EXTR-206",
+      "articulo": "art. 169",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Alegaciones y juicio suficiente del menor",
+      "resumen": "Comunicada la incoación se abre un periodo de diez días para alegaciones; se entiende que la persona extranjera mayor de doce años tiene juicio suficiente.",
+      "explicacion": "Tras notificarse la incoación, el menor y la entidad tutelar disponen de diez días para alegar. El menor que ha alcanzado los dieciséis años puede intervenir por sí mismo, y se entiende que el mayor de doce años tiene juicio suficiente para ser oído."
+    },
+    {
+      "id": "EXTR-207",
+      "articulo": "art. 169",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Periodo de prueba en la repatriación del menor",
+      "resumen": "Cuando los hechos alegados tengan relevancia decisiva, el instructor acordará la apertura de un periodo de prueba por un plazo no superior a treinta días ni inferior a diez.",
+      "explicacion": "Si las alegaciones son decisivas para el acuerdo de repatriación, el instructor abre, de oficio o a instancia de parte, un periodo de prueba con una horquilla temporal: no más de treinta días ni menos de diez."
+    },
+    {
+      "id": "EXTR-208",
+      "articulo": "art. 170",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Plazo de resolución del procedimiento de repatriación",
+      "resumen": "El plazo máximo para la resolución y notificación del procedimiento de repatriación será de seis meses desde la fecha del acuerdo de inicio.",
+      "explicacion": "Tras el trámite de audiencia, el Delegado o Subdelegado del Gobierno resuelve sobre la repatriación o la permanencia del menor; la resolución pone fin a la vía administrativa y debe dictarse y notificarse en un máximo de seis meses desde el acuerdo de inicio."
+    },
+    {
+      "id": "EXTR-209",
+      "articulo": "art. 171",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Ejecución de la repatriación: acompañamiento y coste",
+      "resumen": "En la ejecución, el menor será acompañado por personal de los servicios de protección bajo cuya tutela se encuentre hasta su puesta a disposición de las autoridades de su país de origen.",
+      "explicacion": "La repatriación la ejecuta el Cuerpo Nacional de Policía, pero el menor va acompañado por personal de los servicios de protección que ejercen su tutela hasta ser entregado a las autoridades de su país. El coste corre a cargo de la familia o de los servicios de protección del país; subsidiariamente, la Administración General del Estado."
+    },
+    {
+      "id": "EXTR-210",
+      "articulo": "art. 172",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Residencia del menor: plazo de los noventa días",
+      "resumen": "La oficina de extranjería inicia el procedimiento de autorización de residencia del menor una vez acreditada la imposibilidad de repatriación y, en todo caso, transcurridos noventa días desde su puesta a disposición de los servicios de protección.",
+      "explicacion": "Si la repatriación no es posible, la oficina de extranjería tramita la autorización de residencia del menor (art. 35.7 LO 4/2000). En todo caso, este procedimiento se inicia una vez transcurridos noventa días desde que el menor fue puesto a disposición de los servicios de protección."
+    },
+    {
+      "id": "EXTR-211",
+      "articulo": "art. 172",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Vigencia de la autorización que habilita para trabajar",
+      "resumen": "La autorización de residencia del menor que habilita para trabajar a partir de los 16 años tendrá una vigencia de dos años, retrotrayéndose su eficacia a la fecha de su puesta a disposición del servicio de protección.",
+      "explicacion": "La autorización de residencia del menor, cuando habilita para trabajar por cuenta propia y ajena a partir de los 16 años en actividades que favorezcan su integración social, tiene una vigencia de dos años, y su eficacia se retrotrae a la fecha en que el menor fue puesto a disposición del servicio de protección."
+    },
+    {
+      "id": "EXTR-212",
+      "articulo": "art. 173",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Mayoría de edad del menor titular de autorización",
+      "resumen": "El menor que alcanza la mayoría de edad siendo titular de una autorización de residencia puede solicitar su renovación durante los dos meses previos a la expiración de su vigencia.",
+      "explicacion": "Al llegar a la mayoría de edad siendo ya titular de autorización de residencia, el ex-menor puede pedir la renovación en la oficina de extranjería donde resida, en los dos meses previos a que caduque. La autorización renovada tiene vigencia de dos años, renovable por periodos de dos años."
+    },
+    {
+      "id": "EXTR-213",
+      "articulo": "art. 174",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Mayoría de edad del menor sin autorización de residencia",
+      "resumen": "El menor que alcanza la mayoría de edad sin haber obtenido la autorización del artículo 172, pero cumpliendo los requisitos, puede solicitar una autorización de residencia temporal por circunstancias excepcionales.",
+      "explicacion": "Si el menor tutelado llega a la mayoría de edad sin la autorización del art. 172 pero reuniendo los requisitos, puede pedir una autorización de residencia temporal por circunstancias excepcionales. La solicitud se presenta en los dos meses previos o tres posteriores al cumplimiento de los dieciocho años (excepcionalmente hasta el día siguiente de cumplir 20 años)."
+    },
+    {
+      "id": "EXTR-214",
+      "articulo": "art. 214",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Registro de Menores Extranjeros No Acompañados",
+      "resumen": "En la Dirección General de la Policía existirá un Registro de Menores No Acompañados, con efectos exclusivos de identificación, localización y protección, coordinado por la Fiscalía General del Estado.",
+      "explicacion": "El Registro de Menores Extranjeros No Acompañados reside en la Dirección General de la Policía, tiene efectos exclusivos de identificación, localización y protección, y está coordinado por la Fiscalía General del Estado. Recoge datos como la impresión decadactilar, datos biométricos y fotografía del menor."
+    },
+    {
+      "id": "EXTR-215",
+      "articulo": "art. 217",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Actuaciones previas al procedimiento sancionador",
+      "resumen": "Con anterioridad a la iniciación del procedimiento se podrán realizar actuaciones previas para determinar con carácter preliminar si concurren circunstancias que justifiquen tal iniciación.",
+      "explicacion": "Antes de incoar el expediente sancionador, la Administración puede practicar actuaciones previas de carácter preliminar, orientadas a precisar los hechos, identificar a los posibles responsables y valorar si procede iniciar el procedimiento."
+    },
+    {
+      "id": "EXTR-216",
+      "articulo": "art. 221",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Resolución del procedimiento sancionador",
+      "resumen": "Los Delegados del Gobierno en las Comunidades Autónomas uniprovinciales y los Subdelegados del Gobierno dictarán resolución motivada que confirme, modifique o deje sin efecto la propuesta de sanción.",
+      "explicacion": "La resolución del expediente sancionador corresponde a los Delegados del Gobierno en comunidades uniprovinciales y a los Subdelegados del Gobierno, que dictan resolución motivada confirmando, modificando o dejando sin efecto la propuesta y decidiendo todas las cuestiones planteadas."
+    },
+    {
+      "id": "EXTR-217",
+      "articulo": "art. 222",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Manifestación de la voluntad de recurrir",
+      "resumen": "La persona extranjera manifestará su voluntad expresa de recurrir, cuya constancia se acreditará por medio del apoderamiento regulado en el artículo 24 de la Ley 1/2000, de Enjuiciamiento Civil.",
+      "explicacion": "Para poder recurrir la resolución de expulsión estando fuera de España, la persona extranjera debe manifestar de forma expresa su voluntad de recurrir; esa voluntad se acredita mediante el apoderamiento del artículo 24 de la Ley de Enjuiciamiento Civil."
+    },
+    {
+      "id": "EXTR-218",
+      "articulo": "art. 223",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Internamiento preventivo y cumplimiento voluntario",
+      "resumen": "No podrá adoptarse la medida cautelar de internamiento preventivo durante el plazo de cumplimiento voluntario que se hubiera fijado en la resolución de expulsión.",
+      "explicacion": "En la ejecución de las resoluciones sancionadoras, la ley prohíbe expresamente internar preventivamente a la persona extranjera mientras corre el plazo de cumplimiento voluntario fijado en la propia resolución de expulsión."
+    },
+    {
+      "id": "EXTR-219",
+      "articulo": "art. 225",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Regla general: el procedimiento ordinario",
+      "resumen": "El procedimiento seguido será el ordinario salvo en los supuestos especificados en el artículo 233, que se tramitarán por el procedimiento preferente.",
+      "explicacion": "El procedimiento ordinario es la regla general en materia sancionadora de extranjería; solo se acude al procedimiento preferente en los supuestos tasados del artículo 233 (infracciones cualificadas que pueden llevar a expulsión)."
+    },
+    {
+      "id": "EXTR-220",
+      "articulo": "art. 226",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Asistencia letrada en procedimientos de expulsión",
+      "resumen": "En los procedimientos en que pueda proponerse la expulsión, la persona extranjera tendrá derecho a la asistencia letrada que se le proporcionará de oficio y a ser asistido por intérprete si no comprende o no habla castellano.",
+      "explicacion": "Cuando el procedimiento ordinario puede terminar en expulsión, se refuerzan las garantías: la persona extranjera tiene derecho a asistencia letrada, proporcionada de oficio en su caso, y a intérprete si no comprende o no habla castellano, de forma gratuita si carece de medios económicos."
+    },
+    {
+      "id": "EXTR-221",
+      "articulo": "art. 228",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Periodo de prueba en el procedimiento ordinario",
+      "resumen": "El órgano instructor podrá acordar la apertura de un periodo de prueba por un plazo no superior a treinta días ni inferior a 10 días.",
+      "explicacion": "En el procedimiento ordinario, recibidas las alegaciones o transcurrido su plazo, el instructor puede abrir un periodo de prueba con una duración acotada: no más de treinta días ni menos de diez."
+    },
+    {
+      "id": "EXTR-222",
+      "articulo": "art. 229",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Colaboración de otras administraciones y Registro Central de Penados",
+      "resumen": "El órgano instructor recabará de las administraciones públicas la información necesaria para el eficaz ejercicio de sus competencias, incluyendo la petición de la información necesaria al Registro Central de Penados.",
+      "explicacion": "Para instruir el expediente ordinario, el órgano instructor puede pedir a cualquier administración pública la información que precise, incluida expresamente la solicitud de datos al Registro Central de Penados."
+    },
+    {
+      "id": "EXTR-223",
+      "articulo": "art. 230",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Propuesta de resolución y criterios de proporcionalidad",
+      "resumen": "La determinación de la propuesta de sanción será realizada en base a criterios de proporcionalidad, considerando el grado de culpabilidad de la persona infractora y el daño o riesgo producido.",
+      "explicacion": "Concluida la prueba, el instructor formula la propuesta de resolución fijando los hechos probados y su calificación; la sanción propuesta se determina con criterios de proporcionalidad, ponderando la culpabilidad del infractor y el daño o riesgo causado."
+    },
+    {
+      "id": "EXTR-224",
+      "articulo": "art. 231",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Trámite de audiencia en el procedimiento ordinario",
+      "resumen": "Notificada la propuesta de resolución, se concede a los interesados un plazo de quince días para formular alegaciones y presentar los documentos e informaciones que estimen pertinentes.",
+      "explicacion": "En el trámite de audiencia del procedimiento ordinario, tras notificar la propuesta de resolución acompañada de la relación de documentos, los interesados disponen de quince días para alegar y aportar documentación ante el instructor."
+    },
+    {
+      "id": "EXTR-225",
+      "articulo": "art. 232",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Plazo para dictar la resolución del procedimiento ordinario",
+      "resumen": "La resolución se adoptará en el plazo de 10 días desde la recepción de la propuesta de resolución y de los documentos, alegaciones e informaciones que obren en el procedimiento.",
+      "explicacion": "El órgano competente dicta la resolución del procedimiento ordinario en el plazo de diez días desde que recibe la propuesta de resolución y el expediente, salvo que decida realizar actuaciones complementarias (que deben practicarse en un plazo no superior a quince días)."
+    },
+    {
+      "id": "EXTR-226",
+      "articulo": "art. 236",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Comunicaciones en el procedimiento preferente",
+      "resumen": "La incoación del expediente, las medidas cautelares de detención e internamiento y la resolución de expulsión se comunican a la embajada o consulado del país de la persona extranjera y se anotan en el Registro Central de Extranjeros.",
+      "explicacion": "En el procedimiento preferente, actuaciones clave como la incoación, las medidas cautelares de detención e internamiento y la resolución de expulsión se comunican a la embajada o consulado del país del extranjero y se anotan en el Registro Central de Extranjeros de la Dirección General de la Policía."
+    },
+    {
+      "id": "EXTR-227",
+      "articulo": "art. 238",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Denuncia policial en el procedimiento simplificado",
+      "resumen": "Las denuncias formuladas por funcionarios del Cuerpo Nacional de Policía se extenderán por ejemplar duplicado; el denunciado dispone de un plazo de 10 días para alegar.",
+      "explicacion": "En el procedimiento simplificado iniciado por denuncia policial, las denuncias del Cuerpo Nacional de Policía se extienden por ejemplar duplicado (uno para el denunciado, otro para el órgano competente) y con ellas queda incoado el expediente, disponiendo el denunciado de diez días para alegar en su defensa."
+    },
+    {
+      "id": "EXTR-228",
+      "articulo": "art. 239",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Resolución del procedimiento simplificado",
+      "resumen": "En el plazo de tres días desde que se reciba el expediente, el órgano competente para resolver dictará resolución con los efectos previstos para la sanción de multa en el procedimiento ordinario.",
+      "explicacion": "El procedimiento simplificado se resuelve con rapidez: recibido el expediente, el órgano competente dicta resolución en el plazo de tres días, con la forma y efectos que para la sanción de multa se prevén en el procedimiento ordinario."
+    },
+    {
+      "id": "EXTR-229",
+      "articulo": "art. 240",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Concurrencia con solicitud de residencia por circunstancias excepcionales",
+      "resumen": "Si el expedientado por el procedimiento preferente acreditase haber solicitado antes una autorización de residencia por circunstancias excepcionales, el instructor recabará informe sobre el estado de su tramitación.",
+      "explicacion": "Cuando en el preferente por estancia irregular (art. 53.1.a LO 4/2000) el interesado acredita haber pedido previamente una autorización de residencia por circunstancias excepcionales, el instructor pide informe del estado de esa solicitud: si no reúne los requisitos, continúa el expediente de expulsión; si los reúne, se archiva."
+    },
+    {
+      "id": "EXTR-230",
+      "articulo": "art. 242",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Contenido del acuerdo de iniciación del procedimiento de expulsión",
+      "resumen": "El acuerdo de iniciación de la expulsión indicará que el acuerdo de expulsión que pueda dictarse conllevará la prohibición de entrada en España, cuya duración se establecerá conforme al artículo 244.2.",
+      "explicacion": "Además del contenido mínimo del art. 226.1, el acuerdo de iniciación del procedimiento de expulsión debe advertir expresamente del derecho a asistencia jurídica gratuita, del derecho a intérprete y de que la expulsión conllevará la prohibición de entrada en España, con la duración del art. 244.2."
+    },
+    {
+      "id": "EXTR-231",
+      "articulo": "art. 243",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Medidas cautelares en el procedimiento de expulsión",
+      "resumen": "En caso de que el procedimiento de expulsión tramitado fuera de carácter ordinario no podrá adoptarse la medida cautelar de internamiento.",
+      "explicacion": "El instructor puede adoptar medidas provisionales para asegurar la eficacia de la resolución de expulsión; ahora bien, si el procedimiento de expulsión se tramita por la vía ordinaria, no cabe acordar la medida cautelar de internamiento."
+    },
+    {
+      "id": "EXTR-232",
+      "articulo": "art. 246",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Reconocimiento de resoluciones de expulsión de otros Estados",
+      "resumen": "Detenido un extranjero contra el que un Estado miembro de la UE o asociado Schengen ha dictado una resolución de expulsión, se procederá a ejecutar inmediatamente la resolución, sin necesidad de incoar nuevo expediente de expulsión.",
+      "explicacion": "Cuando se detiene en España a un extranjero con una resolución de expulsión dictada por otro Estado miembro de la UE o asociado Schengen, se ejecuta inmediatamente esa resolución sin abrir un nuevo expediente; el Delegado o Subdelegado del Gobierno dicta un acuerdo expreso de reconocimiento."
+    },
+    {
+      "id": "EXTR-233",
+      "articulo": "art. 248",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Comunicaciones en el procedimiento de expulsión",
+      "resumen": "La resolución de expulsión será comunicada a la embajada o consulado del país de la persona extranjera y a la Secretaría de Estado de Migraciones, así como anotada en el Registro Central de Extranjeros.",
+      "explicacion": "La resolución de expulsión se comunica a la embajada o consulado del país del extranjero y también a la Secretaría de Estado de Migraciones, quedando anotada en el Registro Central de Extranjeros."
+    },
+    {
+      "id": "EXTR-234",
+      "articulo": "art. 249",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Procedimiento para la imposición de multas: capacidad económica",
+      "resumen": "En el procedimiento para la imposición de multas, para la determinación de la cuantía de la sanción se tendrá especialmente en cuenta la capacidad económica del infractor.",
+      "explicacion": "Las normas de la sección se aplican cuando el infractor comete conductas graves o muy graves de los artículos 53 y 54 de la LO 4/2000; al fijar la cuantía de la multa se atiende especialmente a la capacidad económica del infractor."
+    },
+    {
+      "id": "EXTR-235",
+      "articulo": "art. 250",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Iniciación del procedimiento para la imposición de multas",
+      "resumen": "El contenido mínimo del acuerdo de iniciación del procedimiento para la imposición de sanción de multa será conforme a lo dispuesto en el artículo 226.",
+      "explicacion": "El acuerdo de iniciación del procedimiento sancionador de multa tiene el mismo contenido mínimo que el del procedimiento ordinario (art. 226); los demás trámites, salvo excepciones, se rigen también por el procedimiento ordinario."
+    },
+    {
+      "id": "EXTR-236",
+      "articulo": "art. 251",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Medidas cautelares frente a transportistas",
+      "resumen": "Frente a los transportistas que infrinjan la obligación de tomar a cargo al extranjero transportado ilegalmente cabe acordar la suspensión temporal de sus actividades, que no podrá exceder de un periodo de seis meses.",
+      "explicacion": "Cuando el expediente se sigue por infracciones de transportistas (art. 54.2.b y c LO 4/2000) que incumplen la obligación de tomar a cargo al extranjero transportado ilegalmente, la autoridad gubernativa puede suspender temporalmente sus actividades por un máximo de seis meses, exigir fianza o inmovilizar el medio de transporte."
+    },
+    {
+      "id": "EXTR-237",
+      "articulo": "art. 252",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Clausura del establecimiento en la resolución de multa",
+      "resumen": "Cuando la resolución aplique la infracción del artículo 54.1.d) LO 4/2000, podrá contener pronunciamiento por el que se adopte la clausura del establecimiento o local desde seis meses a cinco años.",
+      "explicacion": "Si la multa se impone por la infracción muy grave del art. 54.1.d) de la LO 4/2000, la resolución puede acordar, además, la clausura del establecimiento o local por un periodo que va de seis meses a cinco años. Las multas deben abonarse en los quince días siguientes a su firmeza."
+    },
+    {
+      "id": "EXTR-238",
+      "articulo": "art. 253",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Vigilancia laboral: Inspección de Trabajo y Seguridad Social",
+      "resumen": "La inspección en materia de trabajo de extranjeros se ejercerá a través de la Inspección de Trabajo y Seguridad Social.",
+      "explicacion": "La vigilancia del cumplimiento de la normativa laboral de extranjeros corresponde a la Inspección de Trabajo y Seguridad Social, en desarrollo de sus funciones y conforme a la Ley 23/2015 ordenadora de ese sistema de inspección."
+    },
+    {
+      "id": "EXTR-239",
+      "articulo": "art. 255",
+      "tema": "Tema 11 — Infracciones en materia de extranjería y su régimen sancionador",
+      "titulo": "Otras infracciones y sanciones",
+      "resumen": "Las personas extranjeras que incumplan los deberes, obligaciones y cargas impuestos por el ordenamiento jurídico general serán sancionadas con arreglo a la legislación específicamente aplicable en cada caso.",
+      "explicacion": "Al margen del régimen sancionador propio de extranjería, cuando el extranjero incumple deberes u obligaciones del ordenamiento jurídico general, la sanción se rige por la legislación específicamente aplicable a cada caso, no por la LO 4/2000."
+    },
+    {
+      "id": "EXTR-240",
+      "articulo": "art. 258",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Ubicación de las Oficinas de Extranjería",
+      "resumen": "Las Oficinas de Extranjería son unidades de la Administración General del Estado en el ámbito provincial y estarán ubicadas en la capital de las provincias en que se constituyan.",
+      "explicacion": "Las Oficinas de Extranjería integran los servicios estatales competentes en extranjería e inmigración en cada provincia, para garantizar eficacia y coordinación; con carácter general se ubican en la capital de la provincia en que se constituyen."
+    },
+    {
+      "id": "EXTR-241",
+      "articulo": "art. 259",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Dependencia de las Oficinas de Extranjería",
+      "resumen": "Las Oficinas de Extranjería dependerán orgánicamente de la correspondiente Delegación o Subdelegación del Gobierno.",
+      "explicacion": "Las Oficinas de Extranjería dependen orgánicamente de la Delegación o Subdelegación del Gobierno y se encuadran en las Áreas funcionales de Trabajo e Inmigración; funcionalmente dependen del Ministerio de Inclusión, Seguridad Social y Migraciones y del Ministerio del Interior."
+    },
+    {
+      "id": "EXTR-242",
+      "articulo": "art. 260",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Ejecución de devoluciones y expulsiones",
+      "resumen": "Las devoluciones y los expedientes sancionadores que lleven a la expulsión o al ingreso en un Centro de Internamiento de Extranjeros serán ejecutados por las Brigadas y Unidades de Extranjería y Fronteras de las Comisarías de Policía.",
+      "explicacion": "Aunque las Oficinas de Extranjería tramitan los procedimientos sancionadores, la ejecución material de las devoluciones y de las expulsiones (o el ingreso en un CIE) corresponde a las Brigadas y Unidades de Extranjería y Fronteras de las Comisarías de Policía."
+    },
+    {
+      "id": "EXTR-243",
+      "articulo": "art. 261",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Servicios policiales de la Oficina de Extranjería",
+      "resumen": "Corresponde a los servicios policiales adscritos a la Oficina de Extranjería la asignación y comunicación del número de identidad de extranjero y la emisión de certificados de residente y no residente.",
+      "explicacion": "Dentro de la organización funcional de la Oficina de Extranjería, sus servicios policiales asumen tareas como asignar y comunicar el número de identidad de extranjero (NIE), emitir certificados de residente y no residente y expedir el título de viaje y la tarjeta de identidad de extranjero."
+    },
+    {
+      "id": "EXTR-244",
+      "articulo": "art. 262",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Nombramiento del Jefe de la Oficina de Extranjería",
+      "resumen": "El Jefe de la oficina de extranjería será nombrado y cesado por el Delegado del Gobierno, previo informe favorable de la Secretaría de Estado de Migraciones.",
+      "explicacion": "El Jefe de la Oficina de Extranjería lo nombra y cesa el Delegado del Gobierno, previo informe favorable de la Secretaría de Estado de Migraciones, mediante libre designación entre funcionarios de carrera del Subgrupo A1 o A2 de la Administración General del Estado."
+    },
+    {
+      "id": "EXTR-245",
+      "articulo": "art. 263",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Red pública de centros de migraciones",
+      "resumen": "El Ministerio de Inclusión, Seguridad Social y Migraciones dispondrá de una red pública de centros de migraciones para el cumplimiento de los fines de integración social.",
+      "explicacion": "Para cumplir sus fines de integración social, el Ministerio de Inclusión, Seguridad Social y Migraciones cuenta con una red pública de centros de migraciones que realizan tareas de información, atención, acogida, intervención social, formación y detección de la trata de seres humanos, dirigidas a la población extranjera."
+    },
+    {
+      "id": "EXTR-246",
+      "articulo": "art. 265",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Volante de ingreso en centros de migraciones",
+      "resumen": "Cuando el extranjero carezca de título que autorice su permanencia en España, el ingreso en un centro de migraciones llevará aparejada la expedición de un volante personal e intransferible que le autorice a permanecer en el centro.",
+      "explicacion": "Si la persona extranjera no tiene un título que autorice su permanencia, al ingresar en un centro de migraciones se le expide un volante personal e intransferible que la autoriza a permanecer en el centro, con su fotografía, datos de filiación, nacionalidad, NIE y fecha de caducidad."
+    },
+    {
+      "id": "EXTR-247",
+      "articulo": "DA 7ª",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Plazo general de resolución de los procedimientos",
+      "resumen": "El plazo general máximo para notificar las resoluciones sobre las solicitudes de los interesados será de tres meses; en materia de visados, de un mes, no prorrogable.",
+      "explicacion": "Salvo plazos específicos, el plazo general máximo para notificar las resoluciones de los procedimientos del Reglamento es de tres meses desde la entrada de la solicitud en el registro del órgano competente. En visados el plazo máximo es de un mes y no prorrogable."
+    },
+    {
+      "id": "EXTR-248",
+      "articulo": "DA 8ª",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Silencio administrativo en extranjería",
+      "resumen": "Transcurrido el plazo para notificar, las solicitudes podrán entenderse desestimadas de acuerdo con la disposición adicional primera de la Ley Orgánica 4/2000.",
+      "explicacion": "El sentido del silencio administrativo en extranjería es, con carácter general, negativo: transcurrido el plazo de notificación sin resolución, las solicitudes se entienden desestimadas conforme a la disposición adicional primera de la LO 4/2000 y sus excepciones."
+    },
+    {
+      "id": "EXTR-249",
+      "articulo": "DA 9ª",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Recursos: fin de la vía administrativa",
+      "resumen": "Las resoluciones sobre visados, autorizaciones, sanciones y expulsiones ponen fin a la vía administrativa; se exceptúan las de denegación de entrada y devolución, que no agotan la vía administrativa.",
+      "explicacion": "Con carácter general, las resoluciones sobre visados, prórrogas, autorizaciones de residencia y trabajo, sanciones y expulsiones ponen fin a la vía administrativa. La excepción son las resoluciones de denegación de entrada y de devolución, que no agotan la vía administrativa."
+    },
+    {
+      "id": "EXTR-250",
+      "articulo": "DA 11ª",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Informes policiales de seguridad y orden público",
+      "resumen": "Los informes policiales en materia de seguridad y orden público contendrán en todo caso el conjunto de la información obrante en las Fuerzas y Cuerpos de Seguridad del Estado adscritos a la Dirección General de la Policía.",
+      "explicacion": "Los informes policiales de seguridad y orden público que se emiten en los procedimientos del Reglamento deben incluir toda la información que obre en las Fuerzas y Cuerpos de Seguridad del Estado adscritos a la Dirección General de la Policía."
+    },
+    {
+      "id": "EXTR-251",
+      "articulo": "DA 12ª",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Tasas: pago voluntario y carácter autoliquidable",
+      "resumen": "El periodo de pago voluntario de las tasas será, salvo en visados, de diez días; las tasas por autorizaciones y expedición de Tarjetas de Identidad de Extranjero tienen carácter autoliquidable.",
+      "explicacion": "Las tasas de tramitación se abonan en un periodo de pago voluntario de diez días (salvo en visados) y las tasas por autorizaciones de residencia, de trabajo o por expedición de la Tarjeta de Identidad de Extranjero tienen carácter autoliquidable."
+    },
+    {
+      "id": "EXTR-252",
+      "articulo": "DA 13ª",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Cierre temporal de puestos fronterizos",
+      "resumen": "Se desconcentra a favor del titular de la Secretaría de Estado de Seguridad la competencia para acordar el cierre temporal de los puestos fronterizos habilitados para el paso de personas.",
+      "explicacion": "La competencia para acordar el cierre temporal de los puestos fronterizos habilitados, cuando lo requiera la seguridad del Estado o de los ciudadanos, se desconcentra a favor del titular de la Secretaría de Estado de Seguridad."
+    },
+    {
+      "id": "EXTR-253",
+      "articulo": "DA 14ª",
+      "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "titulo": "Autorización de trabajo de solicitantes de protección internacional",
+      "resumen": "Los solicitantes de protección internacional estarán autorizados para trabajar en España una vez transcurridos seis meses desde la fecha de la solicitud, si ésta fue admitida a trámite y no está resuelta por causa no imputable al interesado.",
+      "explicacion": "Quien solicita protección internacional queda autorizado para trabajar en España transcurridos seis meses desde la fecha de la solicitud, siempre que ésta hubiera sido admitida a trámite y no estuviera resuelta por causa no imputable al interesado; se acredita con la inscripción «autoriza a trabajar»."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "EXTR-200",
+      "articulo": "art. 164",
+      "tipo": "test",
+      "enunciado": "¿Qué naturaleza jurídica tiene la estancia por desplazamiento temporal de menores, a partir de los doce años, con fines de escolarización?",
+      "opciones": [
+        "naturaleza jurídica de estancia por estudios",
+        "naturaleza jurídica de residencia temporal no lucrativa",
+        "naturaleza jurídica de estancia de corta duración",
+        "naturaleza jurídica de residencia por circunstancias excepcionales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "tendrá naturaleza jurídica de estancia por estudios",
+      "justificacion": "Art. 164.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-201",
+      "articulo": "art. 165",
+      "tipo": "test",
+      "enunciado": "¿A quién se aplica la regulación del menor extranjero no acompañado?",
+      "opciones": [
+        "al extranjero menor de dieciocho años que llegue a territorio español sin venir acompañado de un adulto responsable de él",
+        "al extranjero menor de dieciséis años que llegue a territorio español sin venir acompañado de un adulto responsable de él",
+        "al extranjero menor de dieciocho años que llegue a territorio español acompañado de un adulto sin recursos económicos",
+        "al extranjero menor de veintiún años que se encuentre en territorio español en situación de desamparo material o riesgo social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "al extranjero menor de dieciocho años que llegue a territorio español sin venir acompañado de un adulto responsable de él",
+      "justificacion": "Art. 165 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-202",
+      "articulo": "art. 166",
+      "tipo": "test",
+      "enunciado": "Localizado un extranjero no acompañado cuya minoría de edad es indubitada, ¿a disposición de quién se pone?",
+      "opciones": [
+        "de los servicios de protección de menores competentes, poniéndose tal hecho en conocimiento del Ministerio Fiscal",
+        "de la Comisaría General de Extranjería y Fronteras, poniéndose tal hecho en conocimiento del juez de menores",
+        "del Delegado o Subdelegado del Gobierno competente, poniéndose tal hecho en conocimiento de la entidad tutelar",
+        "de los servicios sanitarios autonómicos, poniéndose tal hecho en conocimiento de la representación diplomática"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "éste será puesto a disposición de los servicios de protección de menores competentes, poniéndose tal hecho en conocimiento del Ministerio Fiscal",
+      "justificacion": "Art. 166.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-203",
+      "articulo": "art. 166",
+      "tipo": "test",
+      "enunciado": "Si la determinación de la edad se realiza mediante una horquilla de años, ¿cuándo se considera menor a la persona extranjera?",
+      "opciones": [
+        "si la edad más baja de ésta es inferior a los dieciocho años",
+        "si la edad más alta de ésta es inferior a los dieciocho años",
+        "si la edad media de la horquilla es inferior a los dieciocho años",
+        "si la edad más baja de ésta es inferior a los dieciséis años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se considerará que la persona extranjera es menor si la edad más baja de ésta es inferior a los dieciocho años",
+      "justificacion": "Art. 166.4 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-204",
+      "articulo": "art. 167",
+      "tipo": "test",
+      "enunciado": "¿Qué órganos son los centros directivos competentes para los trámites de repatriación de un menor extranjero no acompañado?",
+      "opciones": [
+        "las Delegaciones y Subdelegaciones del Gobierno",
+        "la Comisaría General de Extranjería y Fronteras",
+        "los servicios autonómicos de protección de menores",
+        "la Secretaría de Estado de Migraciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las Delegaciones y Subdelegaciones del Gobierno serán los centros directivos competentes para llevar a cabo los trámites relativos a la repatriación de un menor extranjero no acompañado",
+      "justificacion": "Art. 167.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-205",
+      "articulo": "art. 168",
+      "tipo": "test",
+      "enunciado": "¿Cuándo acuerda el Delegado o Subdelegado del Gobierno la incoación del procedimiento de repatriación del menor?",
+      "opciones": [
+        "se considere que el interés superior del menor se satisface con la reagrupación con su familia",
+        "cuando el menor lleve más de noventa días bajo la tutela de los servicios de protección de menores sin documentar",
+        "cuando la representación diplomática del país de origen solicite formalmente el retorno del menor a su territorio",
+        "cuando el Ministerio Fiscal aprecie que la permanencia del menor en España resulta contraria al orden público"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se considere que el interés superior del menor se satisface con la reagrupación con su familia o su puesta a disposición de los servicios de protección de su país de origen",
+      "justificacion": "Art. 168.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-206",
+      "articulo": "art. 169",
+      "tipo": "test",
+      "enunciado": "En el procedimiento de repatriación, ¿a partir de qué edad se entiende que la persona extranjera tiene juicio suficiente?",
+      "opciones": [
+        "se entenderá que la persona extranjera mayor de doce años tiene juicio suficiente",
+        "se entenderá que la persona extranjera mayor de dieciséis años tiene juicio suficiente",
+        "se entenderá que la persona extranjera mayor de catorce años tiene juicio suficiente",
+        "se entenderá que la persona extranjera mayor de diez años tiene juicio suficiente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se entenderá que la persona extranjera mayor de doce años tiene juicio suficiente",
+      "justificacion": "Art. 169.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-207",
+      "articulo": "art. 169",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la duración del periodo de prueba que puede acordar el instructor en el procedimiento de repatriación del menor?",
+      "opciones": [
+        "por un plazo no superior a treinta días ni inferior a diez",
+        "por un plazo no superior a quince días ni inferior a cinco",
+        "por un plazo no superior a treinta días ni inferior a quince",
+        "por un plazo no superior a cuarenta y cinco días ni inferior a diez"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "acordará la apertura de un periodo de prueba por un plazo no superior a treinta días ni inferior a diez",
+      "justificacion": "Art. 169.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-208",
+      "articulo": "art. 170",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el plazo máximo para resolver y notificar el procedimiento de repatriación del menor extranjero no acompañado?",
+      "opciones": [
+        "de seis meses desde la fecha del acuerdo de inicio del procedimiento",
+        "de tres meses desde la fecha del acuerdo de inicio del procedimiento",
+        "de nueve meses desde la fecha del acuerdo de inicio del procedimiento",
+        "de doce meses desde la fecha del acuerdo de inicio del procedimiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El plazo máximo para la resolución y notificación del procedimiento será de seis meses desde la fecha del acuerdo de inicio del procedimiento",
+      "justificacion": "Art. 170.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-209",
+      "articulo": "art. 171",
+      "tipo": "test",
+      "enunciado": "En la ejecución de la repatriación, ¿por quién será acompañado el menor hasta su puesta a disposición de las autoridades de su país de origen?",
+      "opciones": [
+        "por personal adscrito a los servicios de protección del menor bajo cuya tutela legal, custodia, protección provisional o guarda se encuentre",
+        "por funcionarios de la Comisaría General de Extranjería y Fronteras designados al efecto",
+        "por personal de la representación diplomática o consular de su país de origen",
+        "por un representante del Ministerio Fiscal encargado de la tutela del interés del menor"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el menor será acompañado por personal adscrito a los servicios de protección del menor bajo cuya tutela legal, custodia, protección provisional o guarda se encuentre",
+      "justificacion": "Art. 171.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-210",
+      "articulo": "art. 172",
+      "tipo": "test",
+      "enunciado": "¿Transcurrido qué plazo desde la puesta a disposición de los servicios de protección se inicia, en todo caso, el procedimiento de autorización de residencia del menor?",
+      "opciones": [
+        "transcurridos noventa días desde que haya sido puesto a disposición de los servicios competentes de protección de menores",
+        "transcurridos sesenta días desde que haya sido puesto a disposición de los servicios competentes de protección de menores",
+        "transcurridos ciento ochenta días desde que haya sido puesto a disposición de los servicios competentes de protección de menores",
+        "transcurridos treinta días desde que haya sido puesto a disposición de los servicios competentes de protección de menores"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "transcurridos noventa días desde que haya sido puesto a disposición de los servicios competentes de protección de menores",
+      "justificacion": "Art. 172.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-211",
+      "articulo": "art. 172",
+      "tipo": "test",
+      "enunciado": "¿Qué vigencia tiene la autorización de residencia del menor que habilita para trabajar a partir de los 16 años?",
+      "opciones": [
+        "tendrá una vigencia de dos años, retrotrayéndose su eficacia a la fecha de la puesta a disposición del menor del servicio de protección de menores",
+        "tendrá una vigencia de un año, retrotrayéndose su eficacia a la fecha de la puesta a disposición del menor del servicio de protección de menores",
+        "tendrá una vigencia de cinco años, retrotrayéndose su eficacia a la fecha de la puesta a disposición del menor del servicio de protección de menores",
+        "tendrá una vigencia de tres años, retrotrayéndose su eficacia a la fecha de la puesta a disposición del menor del servicio de protección de menores"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "tendrá una vigencia de dos años, retrotrayéndose su eficacia a la fecha de la puesta a disposición del menor del servicio de protección de menores",
+      "justificacion": "Art. 172.4 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-212",
+      "articulo": "art. 173",
+      "tipo": "test",
+      "enunciado": "El menor que alcanza la mayoría de edad siendo titular de una autorización de residencia, ¿en qué plazo puede solicitar su renovación?",
+      "opciones": [
+        "durante los dos meses previos a la fecha de expiración de su vigencia",
+        "durante los tres meses previos a la fecha de expiración de su vigencia",
+        "durante el mes previo a la fecha de expiración de su vigencia",
+        "durante los seis meses previos a la fecha de expiración de su vigencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrán solicitar en la oficina de extranjería donde hayan fijado su residencia la renovación de la misma en modelo oficial, durante los dos meses previos a la fecha de expiración de su vigencia",
+      "justificacion": "Art. 173.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-213",
+      "articulo": "art. 174",
+      "tipo": "test",
+      "enunciado": "El menor extranjero no acompañado que alcanza la mayoría de edad sin la autorización del artículo 172, pero habiendo cumplido los requisitos, ¿qué puede solicitar?",
+      "opciones": [
+        "una autorización de residencia temporal por circunstancias excepcionales",
+        "una autorización de residencia de larga duración-UE",
+        "una autorización de residencia temporal no lucrativa",
+        "una autorización de estancia de larga duración por estudios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrán solicitar una autorización de residencia temporal por circunstancias excepcionales",
+      "justificacion": "Art. 174.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-214",
+      "articulo": "art. 214",
+      "tipo": "test",
+      "enunciado": "¿Por qué órgano está coordinado el Registro de Menores No Acompañados de la Dirección General de la Policía?",
+      "opciones": [
+        "estará coordinado por la Fiscalía General del Estado",
+        "estará coordinado por la Secretaría de Estado de Migraciones",
+        "estará coordinado por la Comisaría General de Extranjería y Fronteras",
+        "estará coordinado por la Delegación o Subdelegación del Gobierno competente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "con efectos exclusivos de identificación, localización y protección que estará coordinado por la Fiscalía General del Estado",
+      "justificacion": "Art. 214.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-215",
+      "articulo": "art. 217",
+      "tipo": "test",
+      "enunciado": "¿Qué finalidad tienen las actuaciones previas en el procedimiento sancionador de extranjería?",
+      "opciones": [
+        "determinar con carácter preliminar si concurren circunstancias que justifiquen tal iniciación",
+        "practicar la totalidad de la prueba de cargo antes de notificar el acuerdo de iniciación del procedimiento sancionador",
+        "imponer con carácter provisional la sanción que previsiblemente vaya a corresponder",
+        "sustituir el trámite de audiencia cuando el interesado se encuentre en paradero desconocido"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "para determinar con carácter preliminar si concurren circunstancias que justifiquen tal iniciación",
+      "justificacion": "Art. 217 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-216",
+      "articulo": "art. 221",
+      "tipo": "test",
+      "enunciado": "¿Qué órganos dictan la resolución motivada que confirma, modifica o deja sin efecto la propuesta de sanción?",
+      "opciones": [
+        "los Delegados del Gobierno en las Comunidades Autónomas uniprovinciales y los Subdelegados del Gobierno",
+        "el Comisario General de Extranjería y Fronteras y el Jefe Superior de Policía",
+        "los Jefes de las Oficinas de Extranjería y los Comisarios Provinciales",
+        "la Secretaría de Estado de Seguridad y la Secretaría de Estado de Migraciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Delegados del Gobierno en las Comunidades Autónomas uniprovinciales y los Subdelegados del Gobierno dictarán resolución motivada que confirme, modifique o deje sin efecto la propuesta de sanción",
+      "justificacion": "Art. 221.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-217",
+      "articulo": "art. 222",
+      "tipo": "test",
+      "enunciado": "¿Mediante qué instrumento se acredita la voluntad expresa de recurrir de la persona extranjera?",
+      "opciones": [
+        "por medio del apoderamiento regulado en el artículo 24 de la Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil",
+        "por medio de comparecencia personal ante el Delegado o Subdelegado del Gobierno competente",
+        "por medio de escrito presentado ante la representación diplomática o consular de su país",
+        "por medio de poder notarial otorgado ante el cónsul del Estado de destino de la expulsión"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "cuya constancia se acreditará por medio del apoderamiento regulado en el artículo 24 de la Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil",
+      "justificacion": "Art. 222 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-218",
+      "articulo": "art. 223",
+      "tipo": "test",
+      "enunciado": "Durante el plazo de cumplimiento voluntario fijado en la resolución de expulsión, ¿qué medida cautelar NO puede adoptarse?",
+      "opciones": [
+        "no podrá adoptarse la medida cautelar de internamiento preventivo",
+        "no podrá adoptarse la medida cautelar de retirada del pasaporte",
+        "no podrá adoptarse la medida cautelar de residencia obligatoria en lugar determinado",
+        "no podrá adoptarse la medida cautelar de presentación periódica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "no podrá adoptarse la medida cautelar de internamiento preventivo durante el plazo de cumplimiento voluntario",
+      "justificacion": "Art. 223.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-219",
+      "articulo": "art. 225",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el procedimiento sancionador que se sigue como regla general?",
+      "opciones": [
+        "el ordinario salvo en los supuestos especificados en el artículo 233, que se tramitarán por el procedimiento preferente",
+        "el preferente salvo en los supuestos especificados en el artículo 233, que se tramitarán por el procedimiento ordinario",
+        "el simplificado salvo en los supuestos especificados en el artículo 233, que se tramitarán por el procedimiento ordinario",
+        "el ordinario salvo en los supuestos especificados en el artículo 237, que se tramitarán por el procedimiento simplificado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El procedimiento seguido será el ordinario salvo en los supuestos especificados en el artículo 233, que se tramitarán por el procedimiento preferente",
+      "justificacion": "Art. 225 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-220",
+      "articulo": "art. 226",
+      "tipo": "test",
+      "enunciado": "En los procedimientos en que pueda proponerse la sanción de expulsión, ¿qué derechos de defensa asisten a la persona extranjera?",
+      "opciones": [
+        "derecho a la asistencia letrada que se le proporcionará de oficio, en su caso, y a ser asistido por intérprete si no comprende o no habla castellano",
+        "derecho a la asistencia letrada únicamente cuando lo solicite expresamente y a costear un intérprete de su elección",
+        "derecho a designar abogado a su costa y a ser asistido por intérprete solo en la fase de ejecución",
+        "derecho a la asistencia consular de su país y a la traducción escrita de la resolución final"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "tendrá derecho a la asistencia letrada que se le proporcionará de oficio, en su caso, y a ser asistido por intérprete si no comprende o no habla castellano",
+      "justificacion": "Art. 226.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-221",
+      "articulo": "art. 228",
+      "tipo": "test",
+      "enunciado": "¿Qué duración puede tener el periodo de prueba en el procedimiento ordinario sancionador?",
+      "opciones": [
+        "por un plazo no superior a treinta días ni inferior a 10 días",
+        "por un plazo no superior a quince días ni inferior a 5 días",
+        "por un plazo no superior a cuarenta días ni inferior a 15 días",
+        "por un plazo no superior a veinte días ni inferior a 10 días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el órgano instructor podrá acordar la apertura de un periodo de prueba por un plazo no superior a treinta días ni inferior a 10 días",
+      "justificacion": "Art. 228.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-222",
+      "articulo": "art. 229",
+      "tipo": "test",
+      "enunciado": "En el procedimiento ordinario, ¿a qué registro puede pedir información el órgano instructor de forma expresa?",
+      "opciones": [
+        "al Registro Central de Penados",
+        "al Registro Central de Extranjeros",
+        "al Registro de Menores Extranjeros No Acompañados",
+        "al Registro Central de Personas Reclamadas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "incluyendo la petición de la información necesaria al Registro Central de Penados",
+      "justificacion": "Art. 229 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-223",
+      "articulo": "art. 230",
+      "tipo": "test",
+      "enunciado": "¿Con arreglo a qué criterios se determina la propuesta de sanción en el procedimiento ordinario?",
+      "opciones": [
+        "en base a criterios de proporcionalidad, debiendo tenerse en consideración el grado de culpabilidad de la persona infractora, así como el daño o riesgo producido con la comisión de la infracción",
+        "en base a criterios de reincidencia, atendiendo exclusivamente al número de infracciones previas cometidas por el infractor",
+        "en base a criterios de capacidad económica, fijando la sanción en proporción a los ingresos declarados por el infractor",
+        "en base a criterios de alarma social, atendiendo a la repercusión pública de la conducta infractora cometida"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la determinación de la propuesta de sanción será realizada en base a criterios de proporcionalidad, debiendo tenerse en consideración el grado de culpabilidad de la persona infractora, así como el daño o riesgo producido con la comisión de la infracción",
+      "justificacion": "Art. 230 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-224",
+      "articulo": "art. 231",
+      "tipo": "test",
+      "enunciado": "¿De qué plazo disponen los interesados para alegar tras notificarse la propuesta de resolución en el procedimiento ordinario?",
+      "opciones": [
+        "un plazo de quince días para formular alegaciones y presentar los documentos e informaciones que estimen pertinentes",
+        "un plazo de diez días para formular alegaciones y presentar los documentos e informaciones que estimen pertinentes",
+        "un plazo de cuarenta y ocho horas para formular alegaciones y presentar los documentos e informaciones que estimen pertinentes",
+        "un plazo de treinta días para formular alegaciones y presentar los documentos e informaciones que estimen pertinentes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se les concederá un plazo de quince días para formular alegaciones y presentar los documentos e informaciones que estimen pertinentes",
+      "justificacion": "Art. 231.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-225",
+      "articulo": "art. 232",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo se adopta la resolución del procedimiento ordinario desde la recepción de la propuesta de resolución?",
+      "opciones": [
+        "en el plazo de 10 días desde la recepción de la propuesta de resolución y los documentos, alegaciones e informaciones que obren en el procedimiento",
+        "en el plazo de 15 días desde la recepción de la propuesta de resolución y los documentos, alegaciones e informaciones que obren en el procedimiento",
+        "en el plazo de 3 días desde la recepción de la propuesta de resolución y los documentos, alegaciones e informaciones que obren en el procedimiento",
+        "el ordinario salvo en los supuestos especificados en los artículos 233 y 237, que se tramitarán por el procedimiento simplificado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La resolución se adoptará en el plazo de 10 días desde la recepción de la propuesta de resolución y los documentos, alegaciones e informaciones que obren en el procedimiento",
+      "justificacion": "Art. 232.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-226",
+      "articulo": "art. 236",
+      "tipo": "test",
+      "enunciado": "En el procedimiento preferente, ¿dónde se anota la incoación del expediente y la resolución de expulsión?",
+      "opciones": [
+        "en el Registro Central de Extranjeros de la Dirección General de la Policía",
+        "en el Registro Central de Penados del Ministerio de Justicia",
+        "en el Registro de Menores Extranjeros No Acompañados",
+        "en el Registro Nacional de Medidas de Expulsión y Devolución"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se procederá a su anotación en el Registro Central de Extranjeros de la Dirección General de la Policía",
+      "justificacion": "Art. 236 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-227",
+      "articulo": "art. 238",
+      "tipo": "test",
+      "enunciado": "En el procedimiento simplificado iniciado por denuncia policial, ¿de qué plazo dispone el denunciado para alegar en su defensa?",
+      "opciones": [
+        "un plazo de 10 días para alegar cuanto considere conveniente para su defensa",
+        "un plazo de 15 días para alegar cuanto considere conveniente para su defensa",
+        "un plazo de 5 días para alegar cuanto considere conveniente para su defensa",
+        "un plazo de 48 horas para alegar cuanto considere conveniente para su defensa"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el denunciado dispone de un plazo de 10 días para alegar cuanto considere conveniente para su defensa",
+      "justificacion": "Art. 238.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-228",
+      "articulo": "art. 239",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo dicta resolución el órgano competente en el procedimiento simplificado, desde que recibe el expediente?",
+      "opciones": [
+        "en el plazo de tres días desde que se reciba el expediente",
+        "en el plazo de diez días desde que se reciba el expediente",
+        "en el plazo de quince días desde que se reciba el expediente",
+        "en el plazo de dos meses desde que se reciba el expediente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En el plazo de tres días desde que se reciba el expediente, el órgano competente para resolver dictará resolución",
+      "justificacion": "Art. 239 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-229",
+      "articulo": "art. 240",
+      "tipo": "test",
+      "enunciado": "Si el expedientado en el procedimiento preferente acredita haber solicitado antes una autorización de residencia por circunstancias excepcionales, ¿qué hará el instructor?",
+      "opciones": [
+        "recabará informe del órgano competente sobre el estado de tramitación de dicha solicitud",
+        "archivará de inmediato el expediente de expulsión sin más trámite",
+        "suspenderá el procedimiento hasta que recaiga sentencia firme en vía contencioso-administrativa",
+        "elevará el expediente al Delegado del Gobierno para que resuelva sobre ambas solicitudes conjuntamente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el instructor recabará informe del órgano competente sobre el estado de tramitación de dicha solicitud",
+      "justificacion": "Art. 240.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-230",
+      "articulo": "art. 242",
+      "tipo": "test",
+      "enunciado": "El acuerdo de iniciación del procedimiento de expulsión debe indicar expresamente que la expulsión que pueda dictarse conllevará:",
+      "opciones": [
+        "la prohibición de entrada en España, cuya duración se establecerá de acuerdo con lo dispuesto en el artículo 244.2 de este Reglamento",
+        "la retirada automática de la tarjeta de identidad de extranjero durante un periodo de cinco años",
+        "la imposición acumulada de la sanción de multa correspondiente a la infracción cometida",
+        "la anotación de la sanción en el Registro Central de Penados durante diez años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Que el acuerdo de expulsión que pueda dictarse conllevará la prohibición de entrada en España, cuya duración se establecerá de acuerdo con lo dispuesto en el artículo 244.2 de este Reglamento",
+      "justificacion": "Art. 242.c) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-231",
+      "articulo": "art. 243",
+      "tipo": "test",
+      "enunciado": "En el procedimiento de expulsión de carácter ordinario, ¿qué medida cautelar NO puede adoptarse?",
+      "opciones": [
+        "no podrá adoptarse la medida cautelar de internamiento",
+        "no podrá adoptarse la medida cautelar de retirada del pasaporte",
+        "no podrá adoptarse la medida cautelar de presentación periódica ante el instructor",
+        "no podrá adoptarse la medida cautelar de residencia obligatoria en lugar determinado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En caso de que el procedimiento tramitado fuera de carácter ordinario no podrá adoptarse la medida cautelar de internamiento",
+      "justificacion": "Art. 243.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-232",
+      "articulo": "art. 246",
+      "tipo": "test",
+      "enunciado": "Detenido en España un extranjero contra el que otro Estado miembro de la UE ha dictado una resolución de expulsión, ¿cómo se procede?",
+      "opciones": [
+        "se procederá a ejecutar inmediatamente la resolución, sin necesidad de incoar nuevo expediente de expulsión",
+        "se incoará un nuevo expediente de expulsión con arreglo al procedimiento preferente",
+        "se solicitará a la autoridad judicial la ratificación previa de la resolución extranjera",
+        "se trasladará al extranjero al Estado que dictó la resolución para que la ejecute allí"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se procederá a ejecutar inmediatamente la resolución, sin necesidad de incoar nuevo expediente de expulsión",
+      "justificacion": "Art. 246.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-233",
+      "articulo": "art. 248",
+      "tipo": "test",
+      "enunciado": "Además de a la embajada o consulado del país del extranjero, ¿a qué órgano se comunica la resolución de expulsión?",
+      "opciones": [
+        "a la Secretaría de Estado de Migraciones",
+        "a la Secretaría de Estado de Seguridad",
+        "a la Fiscalía General del Estado",
+        "a la Comisaría General de Extranjería y Fronteras"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "será comunicada a la embajada o consulado del país de la persona extranjera y a la Secretaría de Estado de Migraciones",
+      "justificacion": "Art. 248 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-234",
+      "articulo": "art. 249",
+      "tipo": "test",
+      "enunciado": "Al determinar la cuantía de la sanción en el procedimiento para la imposición de multas, ¿qué se tendrá especialmente en cuenta?",
+      "opciones": [
+        "la capacidad económica del infractor",
+        "el grado de culpabilidad del infractor",
+        "la reincidencia del infractor en infracciones anteriores",
+        "el número de personas afectadas por la infracción"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Para la determinación de la cuantía de la sanción se tendrá especialmente en cuenta la capacidad económica del infractor",
+      "justificacion": "Art. 249 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-235",
+      "articulo": "art. 250",
+      "tipo": "test",
+      "enunciado": "¿Conforme a qué artículo se ajusta el contenido mínimo del acuerdo de iniciación del procedimiento para la imposición de multas?",
+      "opciones": [
+        "conforme a lo dispuesto en el artículo 226",
+        "conforme a lo dispuesto en el artículo 234 de este Reglamento",
+        "conforme a lo dispuesto en el artículo 218",
+        "conforme a lo dispuesto en el artículo 242"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El contenido mínimo del acuerdo de iniciación del procedimiento para la imposición de sanción de multa será conforme a lo dispuesto en el artículo 226",
+      "justificacion": "Art. 250 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-236",
+      "articulo": "art. 251",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la duración máxima de la suspensión temporal de actividades que puede imponerse a un transportista como medida cautelar?",
+      "opciones": [
+        "no podrá exceder de un periodo de seis meses",
+        "no podrá exceder de un periodo de tres meses",
+        "no podrá exceder de un periodo de un año",
+        "no podrá exceder de un periodo de doce meses naturales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Suspensión temporal de sus actividades, que no podrá exceder de un periodo de seis meses",
+      "justificacion": "Art. 251.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-237",
+      "articulo": "art. 252",
+      "tipo": "test",
+      "enunciado": "En la resolución de multa por la infracción del artículo 54.1.d) LO 4/2000, ¿durante qué periodo puede acordarse la clausura del establecimiento o local?",
+      "opciones": [
+        "desde seis meses a cinco años",
+        "desde tres meses hasta cinco años de duración",
+        "desde seis meses a tres años",
+        "desde un año a cinco años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrá contener pronunciamiento por el que se adopte la clausura del establecimiento o local desde seis meses a cinco años",
+      "justificacion": "Art. 252.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-238",
+      "articulo": "art. 253",
+      "tipo": "test",
+      "enunciado": "¿A través de qué órgano se ejerce la inspección en materia de trabajo de extranjeros?",
+      "opciones": [
+        "a través de la Inspección de Trabajo y Seguridad Social",
+        "a través de la Comisaría General de Extranjería y Fronteras",
+        "a través de las Oficinas de Extranjería",
+        "a través de la Tesorería General de la Seguridad Social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La inspección en materia de trabajo de extranjeros se ejercerá a través de la Inspección de Trabajo y Seguridad Social",
+      "justificacion": "Art. 253 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-239",
+      "articulo": "art. 255",
+      "tipo": "test",
+      "enunciado": "¿Con arreglo a qué se sancionan las personas extranjeras que incumplen deberes y obligaciones del ordenamiento jurídico general?",
+      "opciones": [
+        "con arreglo a la legislación específicamente aplicable en cada caso",
+        "con arreglo al régimen sancionador previsto en la Ley Orgánica 4/2000",
+        "con arreglo al procedimiento simplificado regulado en este Reglamento",
+        "con arreglo a la normativa de orden social sobre imposición de sanciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "serán sancionadas con arreglo a la legislación específicamente aplicable en cada caso",
+      "justificacion": "Art. 255 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-240",
+      "articulo": "art. 258",
+      "tipo": "test",
+      "enunciado": "¿Dónde estarán ubicadas, con carácter general, las Oficinas de Extranjería?",
+      "opciones": [
+        "en la capital de las provincias en las que se constituyan",
+        "en la sede de la Comisaría Provincial de Policía de cada provincia",
+        "en la sede de la correspondiente Delegación o Subdelegación del Gobierno",
+        "en el municipio de mayor población de cada provincia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las Oficinas de Extranjería estarán ubicadas en la capital de las provincias en las que se constituyan",
+      "justificacion": "Art. 258.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-241",
+      "articulo": "art. 259",
+      "tipo": "test",
+      "enunciado": "¿De qué órgano dependen orgánicamente las Oficinas de Extranjería?",
+      "opciones": [
+        "de la correspondiente Delegación o Subdelegación del Gobierno",
+        "de la Secretaría de Estado de Migraciones",
+        "de la Comisaría General de Extranjería y Fronteras",
+        "de la Dirección General de la Policía"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las Oficinas de Extranjería dependerán orgánicamente de la correspondiente Delegación o Subdelegación del Gobierno",
+      "justificacion": "Art. 259.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-242",
+      "articulo": "art. 260",
+      "tipo": "test",
+      "enunciado": "¿Quién ejecuta las devoluciones y los expedientes sancionadores que llevan a la expulsión del infractor extranjero?",
+      "opciones": [
+        "las Brigadas y Unidades de Extranjería y Fronteras de las Comisarías de Policía",
+        "las propias Oficinas de Extranjería del ámbito provincial",
+        "las Delegaciones y Subdelegaciones del Gobierno competentes",
+        "la Comisaría General de Extranjería y Fronteras de la Dirección General de la Policía"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "serán ejecutados por las Brigadas y Unidades de Extranjería y Fronteras de las Comisarías de Policía",
+      "justificacion": "Art. 260.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-243",
+      "articulo": "art. 261",
+      "tipo": "test",
+      "enunciado": "¿Qué corresponde a los servicios policiales adscritos a la Oficina de Extranjería?",
+      "opciones": [
+        "la asignación y comunicación del número de identidad de extranjero y la emisión de certificados de residente y no residente",
+        "la resolución de los procedimientos sancionadores por infracciones graves y muy graves",
+        "la concesión de las autorizaciones de residencia y trabajo por cuenta ajena y propia",
+        "la coordinación del Registro de Menores Extranjeros No Acompañados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "corresponderá a los servicios policiales adscritos a ella: a) La asignación y comunicación del número de identidad de extranjero y la emisión de certificados de residente y no residente",
+      "justificacion": "Art. 261.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-244",
+      "articulo": "art. 262",
+      "tipo": "test",
+      "enunciado": "¿Quién nombra y cesa al Jefe de la oficina de extranjería?",
+      "opciones": [
+        "el Delegado del Gobierno, previo informe favorable de la Secretaría de Estado de Migraciones",
+        "el Subdelegado del Gobierno, previo informe favorable de la Comisaría General de Extranjería",
+        "la Secretaría de Estado de Migraciones, previo informe favorable del Delegado del Gobierno",
+        "el titular del Ministerio del Interior, previo informe favorable de la Secretaría de Estado de Seguridad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Jefe de la oficina de extranjería será nombrado y cesado por el Delegado del Gobierno, previo informe favorable de la Secretaría de Estado de Migraciones",
+      "justificacion": "Art. 262.4 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-245",
+      "articulo": "art. 263",
+      "tipo": "test",
+      "enunciado": "¿Qué Ministerio dispone de la red pública de centros de migraciones?",
+      "opciones": [
+        "el Ministerio de Inclusión, Seguridad Social y Migraciones",
+        "el Ministerio del Interior",
+        "el Ministerio de Política Territorial y Memoria Democrática",
+        "el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el Ministerio de Inclusión, Seguridad Social y Migraciones dispondrá de una red pública de centros de migraciones",
+      "justificacion": "Art. 263.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-246",
+      "articulo": "art. 265",
+      "tipo": "test",
+      "enunciado": "Cuando el extranjero carece de título que autorice su permanencia en España, ¿qué lleva aparejada el ingreso en un centro de migraciones?",
+      "opciones": [
+        "la expedición de un volante personal e intransferible que le autorice a permanecer en el centro",
+        "la expedición de una tarjeta de identidad de extranjero con validez de un año",
+        "la concesión de una autorización de estancia por razones humanitarias",
+        "la inscripción provisional en el Registro Central de Extranjeros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el ingreso en un centro de migraciones llevará aparejada la expedición de un volante personal e intransferible que le autorice a permanecer en el centro",
+      "justificacion": "Art. 265.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-247",
+      "articulo": "DA 7ª",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el plazo general máximo para notificar las resoluciones sobre las solicitudes de los interesados?",
+      "opciones": [
+        "de tres meses contados a partir del día siguiente al de la fecha en que hayan tenido entrada en el registro del órgano competente",
+        "de un mes contado a partir del día siguiente al de la fecha en que hayan tenido entrada en el registro del órgano competente",
+        "de seis meses contados a partir del día siguiente al de la fecha en que la solicitud haya tenido entrada en el registro del órgano competente",
+        "de dos meses contados a partir del día siguiente al de la fecha en que hayan tenido entrada en el registro del órgano competente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el plazo general máximo para notificar las resoluciones sobre las solicitudes que se formulen por los interesados en los procedimientos regulados en este Reglamento será de tres meses contados a partir del día siguiente al de la fecha en que hayan tenido entrada en el registro del órgano competente para tramitarlas",
+      "justificacion": "DA 7ª RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-248",
+      "articulo": "DA 8ª",
+      "tipo": "test",
+      "enunciado": "Transcurrido el plazo para notificar sin resolución, ¿qué sentido tiene, con carácter general, el silencio administrativo en las solicitudes de extranjería?",
+      "opciones": [
+        "podrán entenderse desestimadas de acuerdo con lo dispuesto en la disposición adicional primera de la Ley Orgánica 4/2000",
+        "podrán entenderse estimadas de acuerdo con lo dispuesto en la disposición adicional primera de la Ley Orgánica 4/2000",
+        "quedarán en suspenso hasta que recaiga resolución expresa del órgano competente para resolver el procedimiento",
+        "deberán reiterarse por el interesado para reiniciar el cómputo del plazo de resolución"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "estas podrán entenderse desestimadas de acuerdo con lo dispuesto en la disposición adicional primera de la Ley Orgánica 4/2000",
+      "justificacion": "DA 8ª RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-249",
+      "articulo": "DA 9ª",
+      "tipo": "test",
+      "enunciado": "¿Qué resoluciones NO agotan la vía administrativa según la disposición adicional novena?",
+      "opciones": [
+        "las resoluciones sobre denegación de entrada y devolución",
+        "las resoluciones sobre concesión o denegación de visados",
+        "las resoluciones sobre sanciones gubernativas y expulsiones",
+        "las resoluciones sobre autorizaciones de residencia y de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se exceptúan las resoluciones sobre denegación de entrada y devolución, las cuales no agotan la vía administrativa",
+      "justificacion": "DA 9ª RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-250",
+      "articulo": "DA 11ª",
+      "tipo": "test",
+      "enunciado": "¿Qué información contendrán en todo caso los informes policiales de seguridad y orden público?",
+      "opciones": [
+        "el conjunto de la información obrante en las Fuerzas y Cuerpos de Seguridad del Estado adscritos a la Dirección General de la Policía",
+        "únicamente los antecedentes penales inscritos en el Registro Central de Penados",
+        "los datos obrantes en el Registro Central de Extranjeros de la Dirección General de la Policía",
+        "la información aportada por la representación diplomática del país de origen del interesado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "contendrán en todo caso el conjunto de la información obrante en las Fuerzas y Cuerpos de Seguridad del Estado adscritos a la Dirección General de la Policía",
+      "justificacion": "DA 11ª RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-251",
+      "articulo": "DA 12ª",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el periodo de pago voluntario de las tasas de tramitación, salvo en los procedimientos relativos a visados?",
+      "opciones": [
+        "de diez días",
+        "de quince días",
+        "de un mes",
+        "de veinte días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El periodo de pago voluntario para el abono de dichas tasas será, salvo en los procedimientos relativos a visados, de diez días",
+      "justificacion": "DA 12ª RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-252",
+      "articulo": "DA 13ª",
+      "tipo": "test",
+      "enunciado": "¿A favor de qué órgano se desconcentra la competencia para acordar el cierre temporal de los puestos fronterizos habilitados?",
+      "opciones": [
+        "a favor del titular de la Secretaría de Estado de Seguridad",
+        "a favor del titular del Ministerio del Interior",
+        "a favor del titular de la Secretaría de Estado de Migraciones",
+        "a favor del Director General de la Policía"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se desconcentra a favor del titular de la Secretaría de Estado de Seguridad la competencia para acordar, en los supuestos en los que lo requiera la seguridad del Estado o de los ciudadanos, el cierre temporal de los puestos fronterizos habilitados",
+      "justificacion": "DA 13ª RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-253",
+      "articulo": "DA 14ª",
+      "tipo": "test",
+      "enunciado": "¿Transcurrido qué plazo desde la solicitud queda autorizado para trabajar el solicitante de protección internacional?",
+      "opciones": [
+        "una vez transcurridos seis meses desde la fecha de la solicitud",
+        "una vez transcurridos tres meses desde la fecha de la solicitud",
+        "una vez transcurridos noventa días desde la fecha de la solicitud",
+        "una vez transcurrido un año desde la fecha de la solicitud"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "estarán autorizados para trabajar en España una vez transcurridos seis meses desde la fecha de la solicitud",
+      "justificacion": "DA 14ª RD 1155/2024."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "EXTR-202",
+      "destino": "EXTR-201",
+      "tipo": "desarrolla",
+      "justificacion": "La determinación de la edad concreta cómo se identifica al menor extranjero no acompañado definido en el art. 165."
+    },
+    {
+      "origen": "EXTR-203",
+      "destino": "EXTR-202",
+      "tipo": "desarrolla",
+      "justificacion": "La regla de la horquilla concreta el criterio de determinación de la edad."
+    },
+    {
+      "origen": "EXTR-200",
+      "destino": "EXTR-201",
+      "tipo": "limita",
+      "justificacion": "El desplazamiento temporal para escolarización es un supuesto distinto del menor no acompañado en desprotección."
+    },
+    {
+      "origen": "EXTR-205",
+      "destino": "EXTR-204",
+      "tipo": "desarrolla",
+      "justificacion": "La incoación de la repatriación se ejerce por el órgano competente definido en el art. 167."
+    },
+    {
+      "origen": "EXTR-206",
+      "destino": "EXTR-205",
+      "tipo": "desarrolla",
+      "justificacion": "El trámite de alegaciones sigue a la incoación del procedimiento de repatriación."
+    },
+    {
+      "origen": "EXTR-207",
+      "destino": "EXTR-206",
+      "tipo": "desarrolla",
+      "justificacion": "El periodo de prueba se abre dentro del trámite de alegaciones cuando los hechos son decisivos."
+    },
+    {
+      "origen": "EXTR-208",
+      "destino": "EXTR-207",
+      "tipo": "desarrolla",
+      "justificacion": "El trámite de audiencia y la resolución cierran el procedimiento tras la fase de prueba."
+    },
+    {
+      "origen": "EXTR-209",
+      "destino": "EXTR-208",
+      "tipo": "desarrolla",
+      "justificacion": "La ejecución de la repatriación materializa la resolución del procedimiento."
+    },
+    {
+      "origen": "EXTR-210",
+      "destino": "EXTR-209",
+      "tipo": "limita",
+      "justificacion": "La residencia del menor procede cuando se acredita la imposibilidad de repatriación."
+    },
+    {
+      "origen": "EXTR-211",
+      "destino": "EXTR-210",
+      "tipo": "desarrolla",
+      "justificacion": "La habilitación para trabajar concreta el contenido de la autorización de residencia del menor."
+    },
+    {
+      "origen": "EXTR-212",
+      "destino": "EXTR-211",
+      "tipo": "desarrolla",
+      "justificacion": "La renovación al alcanzar la mayoría de edad prolonga la autorización del menor titular."
+    },
+    {
+      "origen": "EXTR-213",
+      "destino": "EXTR-212",
+      "tipo": "limita",
+      "justificacion": "El acceso a la mayoría de edad sin autorización es la vía alternativa al menor que sí era titular."
+    },
+    {
+      "origen": "EXTR-214",
+      "destino": "EXTR-202",
+      "tipo": "desarrolla",
+      "justificacion": "El Registro de Menores No Acompañados soporta la identificación practicada en la determinación de la edad."
+    },
+    {
+      "origen": "EXTR-215",
+      "destino": "EXTR-219",
+      "tipo": "prerrequisito",
+      "justificacion": "Las actuaciones previas anteceden a la iniciación del procedimiento ordinario."
+    },
+    {
+      "origen": "EXTR-220",
+      "destino": "EXTR-219",
+      "tipo": "desarrolla",
+      "justificacion": "Las garantías de defensa concretan la iniciación del procedimiento ordinario."
+    },
+    {
+      "origen": "EXTR-221",
+      "destino": "EXTR-220",
+      "tipo": "desarrolla",
+      "justificacion": "El periodo de prueba sigue a la iniciación y alegaciones del procedimiento ordinario."
+    },
+    {
+      "origen": "EXTR-222",
+      "destino": "EXTR-221",
+      "tipo": "desarrolla",
+      "justificacion": "La colaboración de administraciones apoya la instrucción y prueba del procedimiento ordinario."
+    },
+    {
+      "origen": "EXTR-223",
+      "destino": "EXTR-221",
+      "tipo": "desarrolla",
+      "justificacion": "La propuesta de resolución se formula concluida la prueba del procedimiento ordinario."
+    },
+    {
+      "origen": "EXTR-224",
+      "destino": "EXTR-223",
+      "tipo": "desarrolla",
+      "justificacion": "El trámite de audiencia sigue a la propuesta de resolución."
+    },
+    {
+      "origen": "EXTR-225",
+      "destino": "EXTR-224",
+      "tipo": "desarrolla",
+      "justificacion": "La resolución del ordinario cierra el procedimiento tras el trámite de audiencia."
+    },
+    {
+      "origen": "EXTR-216",
+      "destino": "EXTR-225",
+      "tipo": "desarrolla",
+      "justificacion": "La competencia para resolver concreta quién dicta la resolución del procedimiento."
+    },
+    {
+      "origen": "EXTR-217",
+      "destino": "EXTR-216",
+      "tipo": "desarrolla",
+      "justificacion": "La manifestación de la voluntad de recurrir opera frente a la resolución dictada."
+    },
+    {
+      "origen": "EXTR-218",
+      "destino": "EXTR-216",
+      "tipo": "limita",
+      "justificacion": "La prohibición de internamiento en cumplimiento voluntario limita la ejecución de la resolución."
+    },
+    {
+      "origen": "EXTR-226",
+      "destino": "EXTR-225",
+      "tipo": "limita",
+      "justificacion": "El procedimiento preferente y sus comunicaciones son la vía alternativa al ordinario."
+    },
+    {
+      "origen": "EXTR-227",
+      "destino": "EXTR-219",
+      "tipo": "desarrolla",
+      "justificacion": "El procedimiento simplificado es una modalidad distinta del ordinario para infracciones leves."
+    },
+    {
+      "origen": "EXTR-228",
+      "destino": "EXTR-227",
+      "tipo": "desarrolla",
+      "justificacion": "La resolución en tres días concreta la tramitación del procedimiento simplificado."
+    },
+    {
+      "origen": "EXTR-230",
+      "destino": "EXTR-226",
+      "tipo": "desarrolla",
+      "justificacion": "El acuerdo de iniciación de expulsión concreta el procedimiento preferente de expulsión."
+    },
+    {
+      "origen": "EXTR-231",
+      "destino": "EXTR-230",
+      "tipo": "limita",
+      "justificacion": "Las medidas cautelares acotan lo que cabe adoptar en el procedimiento de expulsión."
+    },
+    {
+      "origen": "EXTR-229",
+      "destino": "EXTR-226",
+      "tipo": "limita",
+      "justificacion": "La concurrencia de procedimientos puede archivar el expediente preferente de expulsión."
+    },
+    {
+      "origen": "EXTR-232",
+      "destino": "EXTR-230",
+      "tipo": "desarrolla",
+      "justificacion": "El reconocimiento de expulsiones de otros Estados es un supuesto específico de expulsión."
+    },
+    {
+      "origen": "EXTR-233",
+      "destino": "EXTR-230",
+      "tipo": "desarrolla",
+      "justificacion": "Las comunicaciones de la expulsión concretan la fase final del procedimiento de expulsión."
+    },
+    {
+      "origen": "EXTR-234",
+      "destino": "EXTR-219",
+      "tipo": "desarrolla",
+      "justificacion": "El procedimiento para imposición de multas es una modalidad del procedimiento sancionador."
+    },
+    {
+      "origen": "EXTR-235",
+      "destino": "EXTR-234",
+      "tipo": "desarrolla",
+      "justificacion": "La iniciación del procedimiento de multas se remite al contenido del ordinario."
+    },
+    {
+      "origen": "EXTR-236",
+      "destino": "EXTR-234",
+      "tipo": "desarrolla",
+      "justificacion": "Las medidas cautelares frente a transportistas se adoptan en el procedimiento de multas."
+    },
+    {
+      "origen": "EXTR-237",
+      "destino": "EXTR-234",
+      "tipo": "desarrolla",
+      "justificacion": "La clausura del establecimiento es un efecto de la resolución de multa."
+    },
+    {
+      "origen": "EXTR-238",
+      "destino": "EXTR-234",
+      "tipo": "desarrolla",
+      "justificacion": "La vigilancia laboral apoya las sanciones del orden social vinculadas a las multas."
+    },
+    {
+      "origen": "EXTR-239",
+      "destino": "EXTR-234",
+      "tipo": "limita",
+      "justificacion": "Las otras infracciones remiten a legislación distinta de la sancionadora de extranjería."
+    },
+    {
+      "origen": "EXTR-241",
+      "destino": "EXTR-240",
+      "tipo": "desarrolla",
+      "justificacion": "La dependencia de las Oficinas de Extranjería concreta su creación y ubicación."
+    },
+    {
+      "origen": "EXTR-242",
+      "destino": "EXTR-241",
+      "tipo": "desarrolla",
+      "justificacion": "La ejecución de devoluciones y expulsiones concreta las funciones de las Oficinas de Extranjería."
+    },
+    {
+      "origen": "EXTR-243",
+      "destino": "EXTR-242",
+      "tipo": "desarrolla",
+      "justificacion": "Los servicios policiales concretan la organización funcional de la Oficina de Extranjería."
+    },
+    {
+      "origen": "EXTR-244",
+      "destino": "EXTR-243",
+      "tipo": "desarrolla",
+      "justificacion": "El nombramiento del Jefe organiza la dirección de la Oficina de Extranjería."
+    },
+    {
+      "origen": "EXTR-245",
+      "destino": "EXTR-240",
+      "tipo": "limita",
+      "justificacion": "Los centros de migraciones son una estructura distinta de las Oficinas de Extranjería."
+    },
+    {
+      "origen": "EXTR-246",
+      "destino": "EXTR-245",
+      "tipo": "desarrolla",
+      "justificacion": "El volante de ingreso concreta el régimen de acceso a los centros de migraciones."
+    },
+    {
+      "origen": "EXTR-248",
+      "destino": "EXTR-247",
+      "tipo": "desarrolla",
+      "justificacion": "El silencio administrativo opera al vencer el plazo general de resolución."
+    },
+    {
+      "origen": "EXTR-249",
+      "destino": "EXTR-248",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen de recursos sigue a la resolución expresa o presunta de la solicitud."
+    },
+    {
+      "origen": "EXTR-250",
+      "destino": "EXTR-249",
+      "tipo": "desarrolla",
+      "justificacion": "Los informes policiales alimentan las resoluciones recurribles en materia de seguridad."
+    },
+    {
+      "origen": "EXTR-251",
+      "destino": "EXTR-247",
+      "tipo": "desarrolla",
+      "justificacion": "El pago de tasas es un requisito de la tramitación sujeta a los plazos de resolución."
+    },
+    {
+      "origen": "EXTR-252",
+      "destino": "EXTR-240",
+      "tipo": "limita",
+      "justificacion": "El cierre de puestos fronterizos afecta al ámbito de actuación en materia de extranjería."
+    },
+    {
+      "origen": "EXTR-253",
+      "destino": "EXTR-247",
+      "tipo": "limita",
+      "justificacion": "La autorización para trabajar del solicitante de protección internacional excepciona plazos generales."
+    },
+    {
+      "origen": "EXTR-215",
+      "destino": "EXTR-030",
+      "tipo": "prerrequisito",
+      "justificacion": "Las actuaciones previas anteceden a la iniciación de oficio del procedimiento sancionador (art. 218)."
+    },
+    {
+      "origen": "EXTR-216",
+      "destino": "EXTR-033",
+      "tipo": "desarrolla",
+      "justificacion": "La resolución motivada concreta el procedimiento sujeto a caducidad de seis meses."
+    },
+    {
+      "origen": "EXTR-219",
+      "destino": "EXTR-029",
+      "tipo": "desarrolla",
+      "justificacion": "La regla del ordinario concreta las modalidades del procedimiento sancionador (art. 216)."
+    },
+    {
+      "origen": "EXTR-224",
+      "destino": "EXTR-035",
+      "tipo": "desarrolla",
+      "justificacion": "El trámite de audiencia complementa el plazo de alegaciones del procedimiento ordinario (art. 227)."
+    },
+    {
+      "origen": "EXTR-227",
+      "destino": "EXTR-040",
+      "tipo": "desarrolla",
+      "justificacion": "La denuncia policial concreta el procedimiento simplificado del art. 237."
+    },
+    {
+      "origen": "EXTR-230",
+      "destino": "EXTR-041",
+      "tipo": "desarrolla",
+      "justificacion": "El acuerdo de iniciación desarrolla los supuestos de expulsión en lugar de multa (art. 241)."
+    },
+    {
+      "origen": "EXTR-231",
+      "destino": "EXTR-038",
+      "tipo": "limita",
+      "justificacion": "La prohibición de internamiento en el ordinario contrasta con el internamiento en el preferente (art. 234)."
+    },
+    {
+      "origen": "EXTR-232",
+      "destino": "EXTR-042",
+      "tipo": "desarrolla",
+      "justificacion": "El reconocimiento de expulsiones se vincula a la prohibición de entrada tras la expulsión (art. 244)."
+    },
+    {
+      "origen": "EXTR-234",
+      "destino": "EXTR-045",
+      "tipo": "desarrolla",
+      "justificacion": "El procedimiento de multas se relaciona con las multas del orden social (art. 254)."
+    },
+    {
+      "origen": "EXTR-233",
+      "destino": "EXTR-046",
+      "tipo": "remite",
+      "justificacion": "Las comunicaciones de la expulsión se conectan con el aviso de excarcelación de condenados (art. 256)."
+    },
+    {
+      "origen": "EXTR-234",
+      "destino": "EXT-017",
+      "tipo": "remite",
+      "justificacion": "El procedimiento de multas aplica las sanciones de las infracciones graves de la LO 4/2000 (art. 55)."
+    },
+    {
+      "origen": "EXTR-237",
+      "destino": "EXT-019",
+      "tipo": "desarrolla",
+      "justificacion": "La clausura del establecimiento desarrolla la sanción de clausura prevista en la LO 4/2000 (art. 55)."
+    },
+    {
+      "origen": "EXTR-230",
+      "destino": "EXT-022",
+      "tipo": "desarrolla",
+      "justificacion": "El procedimiento de expulsión desarrolla la expulsión en lugar de multa de la LO 4/2000 (art. 57)."
+    },
+    {
+      "origen": "EXTR-232",
+      "destino": "EXT-025",
+      "tipo": "desarrolla",
+      "justificacion": "El reconocimiento de expulsiones concreta los efectos de la expulsión y prohibición de entrada (art. 58)."
+    },
+    {
+      "origen": "EXTR-216",
+      "destino": "EXT-001",
+      "tipo": "desarrolla",
+      "justificacion": "La competencia para resolver desarrolla la potestad sancionadora en extranjería de la LO 4/2000 (art. 50)."
+    },
+    {
+      "origen": "EXTR-239",
+      "destino": "EXT-002",
+      "tipo": "limita",
+      "justificacion": "Las otras infracciones quedan fuera de la clasificación de infracciones de la LO 4/2000 (art. 51)."
+    }
+  ]
+}

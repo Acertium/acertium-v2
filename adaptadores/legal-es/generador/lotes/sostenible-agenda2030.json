@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "materia": "agenda-2030-desarrollo-sostenible",
+    "norma": "Agenda 2030 para el Desarrollo Sostenible (Resolución A/RES/70/1 de la Asamblea General de las Naciones Unidas)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "Naciones Unidas, Asamblea General — Resolución A/RES/70/1, «Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible», aprobada el 25 de septiembre de 2015. Texto oficial en español: https://unctad.org/system/files/official-document/ares70d1_es.pdf (documento simbólico A/RES/70/1, undocs.org/es/A/RES/70/1). Consultado y verificado el 04/08/2026.",
+      "Lista oficial de los 17 Objetivos de Desarrollo Sostenible: Naciones Unidas — https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/ (consultado 04/08/2026)."
+    ],
+    "tipo_fuente": "oficial",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 35 — El desarrollo sostenible: concepto; coordinación y cooperación internacional; sociedad y desarrollo sostenible; instrumentos de gestión ambiental"
+  },
+  "fuentes": {
+    "A/RES/70/1 preámbulo": "prometemos que nadie se quedará atrás. Los 17 Objetivos de Desarrollo Sostenible y las 169 metas que anunciamos hoy demuestran la magnitud de esta ambiciosa nueva Agenda universal. Con ellos se pretende retomar los Objetivos de Desarrollo del Milenio y conseguir lo que estos no lograron. También se pretende hacer realidad los derechos humanos de todas las personas y alcanzar la igualdad entre los géneros y el empoderamiento de todas las mujeres y niñas. Los Objetivos y las metas son de carácter integrado e indivisible y conjugan las tres dimensiones del desarrollo sostenible: económica, social y ambiental.",
+    "A/RES/70/1 esferas": "Las personas. Estamos decididos a poner fin a la pobreza y el hambre en todas sus formas y dimensiones, y a velar por que todos los seres humanos puedan realizar su potencial con dignidad e igualdad y en un medio ambiente saludable. El planeta. Estamos decididos a proteger el planeta contra la degradación, incluso mediante el consumo y la producción sostenibles, la gestión sostenible de sus recursos naturales y medidas urgentes para hacer frente al cambio climático, de manera que pueda satisfacer las necesidades de las generaciones presentes y futuras. La prosperidad. Estamos decididos a velar por que todos los seres humanos puedan disfrutar de una vida próspera y plena, y por que el progreso económico, social y tecnológico se produzca en armonía con la naturaleza. La paz. Estamos decididos a propiciar sociedades pacíficas, justas e inclusivas que estén libres del temor y la violencia. No puede haber desarrollo sostenible sin paz, ni paz sin desarrollo sostenible. Las alianzas. Estamos decididos a movilizar los medios necesarios para implementar esta Agenda mediante una Alianza Mundial para el Desarrollo Sostenible revitalizada, que se base en un espíritu de mayor solidaridad mundial y se centre particularmente en las necesidades de los más pobres y vulnerables, con la colaboración de todos los países, todas las partes interesadas y todas las personas.",
+    "A/RES/70/1 párrs. 1-2": "1. Los Jefes de Estado y de Gobierno y Altos Representantes, reunidos en la Sede de las Naciones Unidas en Nueva York del 25 al 27 de septiembre de 2015, coincidiendo con el septuagésimo aniversario de la Organización, hemos acordado en el día de hoy los nuevos Objetivos de Desarrollo Sostenible de alcance mundial. 2. En nombre de los pueblos a los que servimos, hemos adoptado una decisión histórica sobre un amplio conjunto de Objetivos y metas universales y transformativos, de gran alcance y centrados en las personas. Nos comprometemos a trabajar sin descanso a fin de conseguir la plena implementación de la presente Agenda de aquí a 2030. Reconocemos que la erradicación de la pobreza en todas sus formas y dimensiones, incluida la pobreza extrema, es el mayor desafío a que se enfrenta el mundo y constituye un requisito indispensable para el desarrollo sostenible. Nos comprometemos a lograr el desarrollo sostenible en sus tres dimensiones económica, social y ambiental de forma equilibrada e integrada.",
+    "A/RES/70/1 Objetivos de Desarrollo Sostenible": "Objetivo 1. Poner fin a la pobreza en todas sus formas y en todo el mundo. Objetivo 2. Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible. Objetivo 3. Garantizar una vida sana y promover el bienestar de todos a todas las edades. Objetivo 4. Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos. Objetivo 5. Lograr la igualdad de género y empoderar a todas las mujeres y las niñas. Objetivo 6. Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos. Objetivo 7. Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos. Objetivo 8. Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos. Objetivo 9. Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación. Objetivo 10. Reducir la desigualdad en los países y entre ellos. Objetivo 11. Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles. Objetivo 12. Garantizar modalidades de consumo y producción sostenibles. Objetivo 13. Adoptar medidas urgentes para combatir el cambio climático y sus efectos. Objetivo 14. Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible. Objetivo 15. Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad. Objetivo 16. Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas. Objetivo 17. Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible."
+  },
+  "conceptos": [
+    {
+      "id": "SOST-001",
+      "articulo": "A/RES/70/1 preámbulo",
+      "titulo": "La Agenda 2030: 17 Objetivos y 169 metas",
+      "resumen": "La Agenda 2030 para el Desarrollo Sostenible proclama 17 Objetivos de Desarrollo Sostenible y 169 metas, de carácter universal, que retoman los Objetivos de Desarrollo del Milenio.",
+      "explicacion": "En septiembre de 2015 la Asamblea General de la ONU adoptó la Agenda 2030 (Resolución A/RES/70/1), que fija 17 Objetivos de Desarrollo Sostenible (ODS) desarrollados en 169 metas. Es una agenda universal, aplicable a todos los países, que sucede y amplía a los ocho Objetivos de Desarrollo del Milenio."
+    },
+    {
+      "id": "SOST-002",
+      "articulo": "A/RES/70/1 preámbulo",
+      "titulo": "Las tres dimensiones del desarrollo sostenible",
+      "resumen": "Los Objetivos y las metas conjugan las tres dimensiones del desarrollo sostenible: económica, social y ambiental.",
+      "explicacion": "El desarrollo sostenible se apoya en tres pilares o dimensiones que deben avanzar de forma equilibrada: la económica, la social y la ambiental. Ninguna puede lograrse sacrificando las otras dos."
+    },
+    {
+      "id": "SOST-003",
+      "articulo": "A/RES/70/1 párrs. 1-2",
+      "titulo": "La erradicación de la pobreza como requisito indispensable",
+      "resumen": "La Agenda 2030 reconoce que la erradicación de la pobreza es el mayor desafío del mundo y un requisito indispensable para el desarrollo sostenible.",
+      "explicacion": "El texto sitúa la pobreza, en todas sus formas y dimensiones, como el mayor reto de la humanidad. Sin acabar con ella no hay desarrollo sostenible posible, por lo que encabeza toda la Agenda (Objetivo 1)."
+    },
+    {
+      "id": "SOST-004",
+      "articulo": "A/RES/70/1 esferas",
+      "titulo": "Equidad intergeneracional: generaciones presentes y futuras",
+      "resumen": "La esfera «El planeta» protege el medio ambiente de manera que pueda satisfacer las necesidades de las generaciones presentes y futuras.",
+      "explicacion": "La idea central del desarrollo sostenible es la equidad entre generaciones: usar los recursos naturales de forma que el planeta siga pudiendo cubrir las necesidades tanto de quienes viven hoy como de quienes vendrán después."
+    },
+    {
+      "id": "SOST-005",
+      "articulo": "A/RES/70/1 esferas",
+      "titulo": "No hay desarrollo sostenible sin paz",
+      "resumen": "La Agenda 2030 afirma que no puede haber desarrollo sostenible sin paz, ni paz sin desarrollo sostenible.",
+      "explicacion": "La esfera «La paz» vincula de forma recíproca paz y desarrollo: sociedades pacíficas, justas e inclusivas son condición del desarrollo sostenible, y este es a su vez condición de la paz."
+    },
+    {
+      "id": "SOST-006",
+      "articulo": "A/RES/70/1 esferas",
+      "titulo": "La Alianza Mundial y la cooperación internacional",
+      "resumen": "Los medios para implementar la Agenda se movilizan mediante una Alianza Mundial para el Desarrollo Sostenible revitalizada, basada en un espíritu de mayor solidaridad mundial.",
+      "explicacion": "La cooperación internacional es el instrumento para cumplir la Agenda: la esfera «Las alianzas» compromete a movilizar los medios necesarios a través de una Alianza Mundial revitalizada, centrada en los más pobres y vulnerables y con la colaboración de todos los países."
+    },
+    {
+      "id": "SOST-007",
+      "articulo": "A/RES/70/1 preámbulo",
+      "titulo": "Principio de universalidad: que nadie se quede atrás",
+      "resumen": "Al emprender el viaje común de la Agenda 2030, sus firmantes prometen que nadie se quedará atrás.",
+      "explicacion": "El lema «que nadie se quede atrás» expresa el carácter universal e inclusivo de la Agenda: el progreso debe alcanzar a todas las personas y a todos los países, empezando por los más rezagados."
+    },
+    {
+      "id": "SOST-008",
+      "articulo": "A/RES/70/1 párrs. 1-2",
+      "titulo": "Adopción de la Agenda 2030",
+      "resumen": "La Agenda 2030 se acordó en la Sede de las Naciones Unidas en Nueva York, del 25 al 27 de septiembre de 2015.",
+      "explicacion": "Los Jefes de Estado y de Gobierno adoptaron los Objetivos de Desarrollo Sostenible en la Cumbre celebrada en Nueva York del 25 al 27 de septiembre de 2015, coincidiendo con el septuagésimo aniversario de la Organización."
+    },
+    {
+      "id": "SOST-009",
+      "articulo": "A/RES/70/1 preámbulo",
+      "titulo": "Carácter integrado e indivisible de los Objetivos",
+      "resumen": "Los Objetivos y las metas de la Agenda 2030 son de carácter integrado e indivisible.",
+      "explicacion": "Los ODS no son compartimentos estancos: están interrelacionados y forman un todo. Avanzar en uno influye en los demás, por eso se dice que son integrados e indivisibles."
+    },
+    {
+      "id": "SOST-010",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 1 — Fin de la pobreza",
+      "resumen": "Objetivo 1: poner fin a la pobreza en todas sus formas y en todo el mundo.",
+      "explicacion": "El primer Objetivo persigue erradicar la pobreza en todas sus manifestaciones y en cualquier lugar del planeta."
+    },
+    {
+      "id": "SOST-011",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 2 — Hambre cero",
+      "resumen": "Objetivo 2: poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible.",
+      "explicacion": "El segundo Objetivo une el fin del hambre con la seguridad alimentaria, la nutrición y una agricultura sostenible."
+    },
+    {
+      "id": "SOST-012",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 3 — Salud y bienestar",
+      "resumen": "Objetivo 3: garantizar una vida sana y promover el bienestar de todos a todas las edades.",
+      "explicacion": "El tercer Objetivo abarca la salud y el bienestar de las personas en todas las etapas de la vida."
+    },
+    {
+      "id": "SOST-013",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 4 — Educación de calidad",
+      "resumen": "Objetivo 4: garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos.",
+      "explicacion": "El cuarto Objetivo persigue una educación inclusiva, equitativa y de calidad, con aprendizaje a lo largo de toda la vida."
+    },
+    {
+      "id": "SOST-014",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 5 — Igualdad de género",
+      "resumen": "Objetivo 5: lograr la igualdad de género y empoderar a todas las mujeres y las niñas.",
+      "explicacion": "El quinto Objetivo busca la igualdad entre hombres y mujeres y el empoderamiento de mujeres y niñas."
+    },
+    {
+      "id": "SOST-015",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 6 — Agua limpia y saneamiento",
+      "resumen": "Objetivo 6: garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos.",
+      "explicacion": "El sexto Objetivo asegura el acceso al agua y al saneamiento y su gestión sostenible para toda la población."
+    },
+    {
+      "id": "SOST-016",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 7 — Energía asequible y no contaminante",
+      "resumen": "Objetivo 7: garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos.",
+      "explicacion": "El séptimo Objetivo promueve el acceso universal a una energía asequible, fiable, sostenible y moderna."
+    },
+    {
+      "id": "SOST-017",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 8 — Trabajo decente y crecimiento económico",
+      "resumen": "Objetivo 8: promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos.",
+      "explicacion": "El octavo Objetivo une crecimiento económico con empleo pleno y productivo y trabajo decente para todas las personas."
+    },
+    {
+      "id": "SOST-018",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 9 — Industria, innovación e infraestructura",
+      "resumen": "Objetivo 9: construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación.",
+      "explicacion": "El noveno Objetivo combina infraestructuras resilientes, industrialización inclusiva y sostenible e innovación."
+    },
+    {
+      "id": "SOST-019",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 10 — Reducción de las desigualdades",
+      "resumen": "Objetivo 10: reducir la desigualdad en los países y entre ellos.",
+      "explicacion": "El décimo Objetivo busca reducir las desigualdades tanto dentro de cada país como entre unos países y otros."
+    },
+    {
+      "id": "SOST-020",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 11 — Ciudades y comunidades sostenibles",
+      "resumen": "Objetivo 11: lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles.",
+      "explicacion": "El undécimo Objetivo persigue que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles."
+    },
+    {
+      "id": "SOST-021",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 12 — Producción y consumo responsables",
+      "resumen": "Objetivo 12: garantizar modalidades de consumo y producción sostenibles.",
+      "explicacion": "El duodécimo Objetivo aborda la sostenibilidad de las pautas de consumo y de producción."
+    },
+    {
+      "id": "SOST-022",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 13 — Acción por el clima",
+      "resumen": "Objetivo 13: adoptar medidas urgentes para combatir el cambio climático y sus efectos.",
+      "explicacion": "El decimotercer Objetivo reclama medidas urgentes frente al cambio climático y sus efectos."
+    },
+    {
+      "id": "SOST-023",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 14 — Vida submarina",
+      "resumen": "Objetivo 14: conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible.",
+      "explicacion": "El decimocuarto Objetivo protege océanos, mares y recursos marinos y promueve su uso sostenible."
+    },
+    {
+      "id": "SOST-024",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 15 — Vida de ecosistemas terrestres",
+      "resumen": "Objetivo 15: proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad.",
+      "explicacion": "El decimoquinto Objetivo protege los ecosistemas terrestres y los bosques, combate la desertificación y la degradación de las tierras y frena la pérdida de biodiversidad."
+    },
+    {
+      "id": "SOST-025",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 16 — Paz, justicia e instituciones sólidas",
+      "resumen": "Objetivo 16: promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas.",
+      "explicacion": "El decimosexto Objetivo une sociedades pacíficas e inclusivas, acceso a la justicia e instituciones eficaces que rindan cuentas."
+    },
+    {
+      "id": "SOST-026",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "titulo": "ODS 17 — Alianzas para lograr los objetivos",
+      "resumen": "Objetivo 17: fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible.",
+      "explicacion": "El decimoséptimo Objetivo refuerza los medios de implementación y la Alianza Mundial, es decir, la cooperación internacional que hace posibles los demás Objetivos."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "SOST-001",
+      "articulo": "A/RES/70/1 preámbulo",
+      "tipo": "test",
+      "enunciado": "¿Cuántos Objetivos de Desarrollo Sostenible y cuántas metas proclama la Agenda 2030?",
+      "opciones": [
+        "17 Objetivos de Desarrollo Sostenible y las 169 metas",
+        "17 Objetivos de Desarrollo Sostenible y las 232 metas de seguimiento estadístico",
+        "8 Objetivos de Desarrollo del Milenio y las 21 metas cuantificables",
+        "15 Objetivos de Desarrollo Sostenible y las 150 metas de carácter vinculante"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los 17 Objetivos de Desarrollo Sostenible y las 169 metas que anunciamos hoy demuestran la magnitud de esta ambiciosa nueva Agenda universal.",
+      "justificacion": "A/RES/70/1, preámbulo."
+    },
+    {
+      "concepto_id": "SOST-002",
+      "articulo": "A/RES/70/1 preámbulo",
+      "tipo": "test",
+      "enunciado": "¿Cuáles son las tres dimensiones del desarrollo sostenible que conjugan los Objetivos y las metas?",
+      "opciones": [
+        "las tres dimensiones del desarrollo sostenible: económica, social y ambiental",
+        "las tres dimensiones del desarrollo sostenible: económica, política y cultural",
+        "las tres dimensiones del desarrollo sostenible: social, tecnológica e institucional",
+        "las tres dimensiones del desarrollo sostenible: ambiental, demográfica y financiera"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Objetivos y las metas son de carácter integrado e indivisible y conjugan las tres dimensiones del desarrollo sostenible: económica, social y ambiental.",
+      "justificacion": "A/RES/70/1, preámbulo."
+    },
+    {
+      "concepto_id": "SOST-003",
+      "articulo": "A/RES/70/1 párrs. 1-2",
+      "tipo": "test",
+      "enunciado": "Según la Agenda 2030, ¿cómo se califica la erradicación de la pobreza en todas sus formas?",
+      "opciones": [
+        "el mayor desafío a que se enfrenta el mundo y constituye un requisito indispensable para el desarrollo sostenible",
+        "un desafío importante subordinado al previo crecimiento económico sostenido e inclusivo de los países más desarrollados del mundo",
+        "una meta deseable pero no exigible dentro del conjunto de los Objetivos de Desarrollo Sostenible aprobados",
+        "una responsabilidad exclusiva de los países menos adelantados y de los organismos internacionales de cooperación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Reconocemos que la erradicación de la pobreza en todas sus formas y dimensiones, incluida la pobreza extrema, es el mayor desafío a que se enfrenta el mundo y constituye un requisito indispensable para el desarrollo sostenible.",
+      "justificacion": "A/RES/70/1, párr. 2."
+    },
+    {
+      "concepto_id": "SOST-004",
+      "articulo": "A/RES/70/1 esferas",
+      "tipo": "test",
+      "enunciado": "En la esfera «El planeta», ¿con qué finalidad se protege el planeta contra la degradación?",
+      "opciones": [
+        "de manera que pueda satisfacer las necesidades de las generaciones presentes y futuras",
+        "de manera que se garantice el crecimiento económico sostenido de las generaciones presentes",
+        "de manera que se satisfagan únicamente las necesidades más urgentes de la generación presente",
+        "de manera que se preserve en exclusiva la biodiversidad de los ecosistemas naturales terrestres"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Estamos decididos a proteger el planeta contra la degradación, incluso mediante el consumo y la producción sostenibles, la gestión sostenible de sus recursos naturales y medidas urgentes para hacer frente al cambio climático, de manera que pueda satisfacer las necesidades de las generaciones presentes y futuras.",
+      "justificacion": "A/RES/70/1, esfera «El planeta»."
+    },
+    {
+      "concepto_id": "SOST-005",
+      "articulo": "A/RES/70/1 esferas",
+      "tipo": "test",
+      "enunciado": "¿Qué afirma la Agenda 2030 sobre la relación entre la paz y el desarrollo sostenible?",
+      "opciones": [
+        "No puede haber desarrollo sostenible sin paz, ni paz sin desarrollo sostenible",
+        "No puede haber desarrollo sostenible sin crecimiento económico, ni crecimiento sin estabilidad institucional",
+        "El desarrollo sostenible es siempre una condición previa de la paz, aunque la paz no lo requiere a él",
+        "La paz mundial depende del desarrollo sostenible, pero este puede alcanzarse plenamente sin aquella"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Estamos decididos a propiciar sociedades pacíficas, justas e inclusivas que estén libres del temor y la violencia. No puede haber desarrollo sostenible sin paz, ni paz sin desarrollo sostenible.",
+      "justificacion": "A/RES/70/1, esfera «La paz»."
+    },
+    {
+      "concepto_id": "SOST-006",
+      "articulo": "A/RES/70/1 esferas",
+      "tipo": "test",
+      "enunciado": "¿Mediante qué instrumento se compromete la Agenda 2030 a movilizar los medios para su implementación?",
+      "opciones": [
+        "mediante una Alianza Mundial para el Desarrollo Sostenible revitalizada, que se base en un espíritu de mayor solidaridad mundial",
+        "mediante un fondo internacional de compensación financiado exclusivamente por los países más desarrollados y sus principales instituciones financieras",
+        "mediante la cooperación bilateral entre Estados vecinos, al margen del sistema de las Naciones Unidas",
+        "mediante convenios comerciales preferentes entre las grandes potencias económicas mundiales y regionales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Estamos decididos a movilizar los medios necesarios para implementar esta Agenda mediante una Alianza Mundial para el Desarrollo Sostenible revitalizada, que se base en un espíritu de mayor solidaridad mundial y se centre particularmente en las necesidades de los más pobres y vulnerables.",
+      "justificacion": "A/RES/70/1, esfera «Las alianzas»."
+    },
+    {
+      "concepto_id": "SOST-007",
+      "articulo": "A/RES/70/1 preámbulo",
+      "tipo": "test",
+      "enunciado": "¿Qué principio de universalidad proclama la Agenda 2030 al emprender su viaje común?",
+      "opciones": [
+        "prometemos que nadie se quedará atrás",
+        "prometemos que los países más pobres avanzarán siempre en primer lugar",
+        "aseguramos que cada Estado progresará únicamente a su propio ritmo",
+        "garantizamos que ningún país desarrollado quedará rezagado del proceso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "prometemos que nadie se quedará atrás. Los 17 Objetivos de Desarrollo Sostenible y las 169 metas que anunciamos hoy demuestran la magnitud de esta ambiciosa nueva Agenda universal.",
+      "justificacion": "A/RES/70/1, preámbulo."
+    },
+    {
+      "concepto_id": "SOST-008",
+      "articulo": "A/RES/70/1 párrs. 1-2",
+      "tipo": "test",
+      "enunciado": "¿Dónde y cuándo se acordó la Agenda 2030 para el Desarrollo Sostenible?",
+      "opciones": [
+        "en la Sede de las Naciones Unidas en Nueva York del 25 al 27 de septiembre de 2015",
+        "en la Conferencia de Río de Janeiro del 20 al 22 de junio de 2012 sobre desarrollo sostenible",
+        "en la Cumbre del Milenio celebrada en Nueva York del 6 al 8 de septiembre del año 2000",
+        "en la Conferencia de París sobre el clima del 30 de noviembre al 12 de diciembre de 2015"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Jefes de Estado y de Gobierno y Altos Representantes, reunidos en la Sede de las Naciones Unidas en Nueva York del 25 al 27 de septiembre de 2015, coincidiendo con el septuagésimo aniversario de la Organización, hemos acordado en el día de hoy los nuevos Objetivos de Desarrollo Sostenible de alcance mundial.",
+      "justificacion": "A/RES/70/1, párr. 1."
+    },
+    {
+      "concepto_id": "SOST-009",
+      "articulo": "A/RES/70/1 preámbulo",
+      "tipo": "test",
+      "enunciado": "¿Qué carácter tienen, según la Agenda 2030, los Objetivos de Desarrollo Sostenible y sus metas?",
+      "opciones": [
+        "Los Objetivos y las metas son de carácter integrado e indivisible",
+        "Los Objetivos y las metas son de carácter meramente orientativo y no vinculante",
+        "Los Objetivos y las metas son de carácter sectorial e independiente entre sí",
+        "Los Objetivos y las metas son de carácter regional y jurídicamente exigible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Objetivos y las metas son de carácter integrado e indivisible y conjugan las tres dimensiones del desarrollo sostenible: económica, social y ambiental.",
+      "justificacion": "A/RES/70/1, preámbulo."
+    },
+    {
+      "concepto_id": "SOST-010",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 1 de Desarrollo Sostenible?",
+      "opciones": [
+        "Poner fin a la pobreza en todas sus formas y en todo el mundo",
+        "Reducir la desigualdad en los países y entre ellos",
+        "Garantizar modalidades de consumo y producción sostenibles",
+        "Garantizar una vida sana y promover el bienestar de todos a todas las edades"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 1. Poner fin a la pobreza en todas sus formas y en todo el mundo.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-011",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 2 de Desarrollo Sostenible?",
+      "opciones": [
+        "Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible",
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos",
+        "Garantizar una vida sana y promover el bienestar de todos a todas las edades",
+        "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 2. Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-012",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 3 de Desarrollo Sostenible?",
+      "opciones": [
+        "Garantizar una vida sana y promover el bienestar de todos a todas las edades",
+        "Lograr la igualdad de género y empoderar a todas las mujeres y las niñas",
+        "Garantizar modalidades de consumo y producción sostenibles",
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 3. Garantizar una vida sana y promover el bienestar de todos a todas las edades.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-013",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 4 de Desarrollo Sostenible?",
+      "opciones": [
+        "Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos",
+        "Garantizar una vida sana y promover el bienestar de todos a todas las edades",
+        "Lograr la igualdad de género y empoderar a todas las mujeres y las niñas",
+        "Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 4. Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-014",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 5 de Desarrollo Sostenible?",
+      "opciones": [
+        "Lograr la igualdad de género y empoderar a todas las mujeres y las niñas",
+        "Reducir la desigualdad en los países y entre ellos",
+        "Garantizar modalidades de consumo y producción sostenibles",
+        "Garantizar una vida sana y promover el bienestar de todos a todas las edades"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 5. Lograr la igualdad de género y empoderar a todas las mujeres y las niñas.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-015",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 6 de Desarrollo Sostenible?",
+      "opciones": [
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos",
+        "Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos",
+        "Garantizar modalidades de consumo y producción sostenibles",
+        "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 6. Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-016",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 7 de Desarrollo Sostenible?",
+      "opciones": [
+        "Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos",
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos",
+        "Garantizar modalidades de consumo y producción sostenibles",
+        "Reducir la desigualdad en los países y entre ellos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 7. Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-017",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 8 de Desarrollo Sostenible?",
+      "opciones": [
+        "Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos",
+        "Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación",
+        "Reducir la desigualdad en los países y entre ellos",
+        "Garantizar modalidades de consumo y producción sostenibles"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 8. Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-018",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 9 de Desarrollo Sostenible?",
+      "opciones": [
+        "Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación",
+        "Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos",
+        "Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles",
+        "Garantizar modalidades de consumo y producción sostenibles"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 9. Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-019",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 10 de Desarrollo Sostenible?",
+      "opciones": [
+        "Reducir la desigualdad en los países y entre ellos",
+        "Garantizar modalidades de consumo y producción sostenibles",
+        "Adoptar medidas urgentes para combatir el cambio climático y sus efectos",
+        "Lograr la igualdad de género y empoderar a todas las mujeres y las niñas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 10. Reducir la desigualdad en los países y entre ellos.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-020",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 11 de Desarrollo Sostenible?",
+      "opciones": [
+        "Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles",
+        "Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación",
+        "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible",
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 11. Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-021",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 12 de Desarrollo Sostenible?",
+      "opciones": [
+        "Garantizar modalidades de consumo y producción sostenibles",
+        "Reducir la desigualdad en los países y entre ellos",
+        "Adoptar medidas urgentes para combatir el cambio climático y sus efectos",
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 12. Garantizar modalidades de consumo y producción sostenibles.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-022",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 13 de Desarrollo Sostenible?",
+      "opciones": [
+        "Adoptar medidas urgentes para combatir el cambio climático y sus efectos",
+        "Garantizar modalidades de consumo y producción sostenibles",
+        "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible",
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 13. Adoptar medidas urgentes para combatir el cambio climático y sus efectos.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-023",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 14 de Desarrollo Sostenible?",
+      "opciones": [
+        "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible",
+        "Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad",
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos",
+        "Adoptar medidas urgentes para combatir el cambio climático y sus efectos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 14. Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-024",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 15 de Desarrollo Sostenible?",
+      "opciones": [
+        "Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad",
+        "Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas",
+        "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible",
+        "Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 15. Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-025",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 16 de Desarrollo Sostenible?",
+      "opciones": [
+        "Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas",
+        "Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad",
+        "Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles",
+        "Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 16. Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    },
+    {
+      "concepto_id": "SOST-026",
+      "articulo": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el enunciado del Objetivo 17 de Desarrollo Sostenible?",
+      "opciones": [
+        "Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible",
+        "Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas",
+        "Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación",
+        "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objetivo 17. Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible.",
+      "justificacion": "A/RES/70/1, Objetivos de Desarrollo Sostenible."
+    }
+  ],
+  "relaciones": [
+    { "origen": "SOST-002", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "Las tres dimensiones concretan el contenido de la Agenda 2030." },
+    { "origen": "SOST-003", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "La erradicación de la pobreza es el eje que ordena toda la Agenda." },
+    { "origen": "SOST-004", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "La equidad intergeneracional es el fundamento del desarrollo sostenible de la Agenda." },
+    { "origen": "SOST-005", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El vínculo paz-desarrollo concreta una de las esferas de la Agenda." },
+    { "origen": "SOST-006", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "La Alianza Mundial es el medio de implementación de la Agenda." },
+    { "origen": "SOST-007", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El principio de que nadie se quede atrás define el carácter universal de la Agenda." },
+    { "origen": "SOST-008", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "La adopción en 2015 es el acto de nacimiento de la Agenda." },
+    { "origen": "SOST-009", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El carácter integrado e indivisible describe cómo funcionan los Objetivos de la Agenda." },
+    { "origen": "SOST-010", "destino": "SOST-003", "tipo": "desarrolla", "justificacion": "El ODS 1 concreta en un objetivo la erradicación de la pobreza." },
+    { "origen": "SOST-011", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El ODS 2 es uno de los 17 Objetivos de la Agenda." },
+    { "origen": "SOST-012", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El ODS 3 es uno de los 17 Objetivos de la Agenda." },
+    { "origen": "SOST-013", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El ODS 4 es uno de los 17 Objetivos de la Agenda." },
+    { "origen": "SOST-014", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El ODS 5 es uno de los 17 Objetivos de la Agenda." },
+    { "origen": "SOST-015", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El ODS 6 es uno de los 17 Objetivos de la Agenda." },
+    { "origen": "SOST-016", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El ODS 7 es uno de los 17 Objetivos de la Agenda." },
+    { "origen": "SOST-017", "destino": "SOST-002", "tipo": "desarrolla", "justificacion": "El ODS 8 concreta la dimensión económica del desarrollo sostenible." },
+    { "origen": "SOST-018", "destino": "SOST-002", "tipo": "desarrolla", "justificacion": "El ODS 9 concreta la dimensión económica del desarrollo sostenible." },
+    { "origen": "SOST-019", "destino": "SOST-002", "tipo": "desarrolla", "justificacion": "El ODS 10 concreta la dimensión social del desarrollo sostenible." },
+    { "origen": "SOST-020", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El ODS 11 es uno de los 17 Objetivos de la Agenda." },
+    { "origen": "SOST-021", "destino": "SOST-001", "tipo": "desarrolla", "justificacion": "El ODS 12 es uno de los 17 Objetivos de la Agenda." },
+    { "origen": "SOST-022", "destino": "SOST-002", "tipo": "desarrolla", "justificacion": "El ODS 13 concreta la dimensión ambiental del desarrollo sostenible." },
+    { "origen": "SOST-023", "destino": "SOST-002", "tipo": "desarrolla", "justificacion": "El ODS 14 concreta la dimensión ambiental del desarrollo sostenible." },
+    { "origen": "SOST-024", "destino": "SOST-002", "tipo": "desarrolla", "justificacion": "El ODS 15 concreta la dimensión ambiental del desarrollo sostenible." },
+    { "origen": "SOST-025", "destino": "SOST-005", "tipo": "desarrolla", "justificacion": "El ODS 16 concreta el vínculo entre paz, justicia y desarrollo sostenible." },
+    { "origen": "SOST-026", "destino": "SOST-006", "tipo": "desarrolla", "justificacion": "El ODS 17 concreta la Alianza Mundial y la cooperación internacional." }
+  ]
+}

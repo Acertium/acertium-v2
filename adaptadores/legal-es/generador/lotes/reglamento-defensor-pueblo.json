@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "materia": "reglamento-defensor-del-pueblo",
+    "norma": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo",
+    "referencia_boe": "BOE-A-1983-10613",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+  },
+  "fuentes": {
+    "art. 19": "El Consejo Asesor es un órgano de cooperación técnica y jurídica del Mecanismo Nacional de Prevención. El Consejo Asesor estará integrado por los Adjuntos del Defensor del Pueblo, como miembros natos, además de por un máximo de 10 Vocales. El Adjunto en el que el Defensor del Pueblo delegue las funciones del Mecanismo Nacional de Prevención de la Tortura asumirá la Presidencia del Consejo y será sustituido por el otro Adjunto en caso de ausencia o vacante. Los Vocales serán designados entre personas mayores de edad, que se encuentren en el pleno disfrute de sus derechos civiles y políticos, con reconocida trayectoria en la defensa de los Derechos Humanos o en los ámbitos relacionados con el tratamiento a personas privadas de libertad por cualquier causa. La designación de Vocales se efectuará conforme a la siguiente distribución: a) Un Vocal designado a propuesta del Consejo General de la Abogacía de España. b) Un Vocal designado a propuesta de la Organización Médica Colegial. c) Un Vocal designado a propuesta del Consejo General de Colegios Oficiales de Psicólogos de España. d) Hasta dos Vocales designados a propuesta conjunta de los organismos e instituciones con las que el Defensor del Pueblo tenga suscritos convenios de colaboración para el desarrollo de las funciones propias del Mecanismo Nacional de Prevención, si así está previsto en dichos convenios. Las propuestas que se formulen no podrán incluir más que un representante por entidad. e) Cinco Vocales elegidos de entre las candidaturas que, a título personal o en representación de organizaciones o asociaciones representativas de la sociedad civil, se presenten al Defensor del Pueblo en el marco del procedimiento de designación establecido en el presente Reglamento. Actuará como secretario el Secretario General de la Institución.",
+    "art. 20": "Los Vocales del Consejo Asesor serán designados para un período de cuatro años y se renovarán por mitades cada dos. El proceso de designación se iniciará mediante convocatoria pública. Las candidaturas para cubrir los puestos de Vocales a que se refiere el inciso e) del párrafo quinto del artículo 19 se recibirán dentro de los 15 días naturales siguientes a la publicación de la convocatoria y deberán reunir los requisitos formales establecidos en la misma. Corresponde al Defensor del Pueblo hacer la designación de los Vocales, así como poner fin a sus funciones. Cumplido el período al que hace referencia el apartado primero del presente artículo, los Vocales cesantes continuarán ejerciendo sus funciones hasta la designación de los nuevos Vocales. Los Vocales del Consejo Asesor no percibirán retribuciones por el ejercicio de sus funciones salvo, en su caso, las que puedan corresponder en aplicación de la normativa sobre indemnizaciones por razón del servicio.",
+    "art. 21": "El Consejo Asesor del Mecanismo Nacional de Prevención se reunirá, al menos, dos veces al año. A las sesiones del Consejo Asesor podrán asistir los miembros del personal del Defensor del Pueblo, representantes de organismos internacionales de Derechos Humanos u otras personas que sean convocadas por indicación de su Presidente.",
+    "art. 22": "Serán funciones del Consejo Asesor del Mecanismo Nacional de Prevención las siguientes: a) Realizar propuestas sobre visitas a lugares donde se hallen personas privadas de libertad. b) Realizar propuestas para la mejora de los protocolos de visita y para el seguimiento de las mismas. c) Evacuar los informes que el Defensor del Pueblo le solicite sobre la normativa de relevancia para la situación de las personas privadas de libertad. d) Proponer programas de formación y cursos de especialización en materia de prevención de la tortura y de los tratos o penas crueles, inhumanos o degradantes. e) Realizar el seguimiento de los informes que se elaboren por el Mecanismo Nacional de Prevención y por el Subcomité para la Prevención de la Tortura. f) Aquellos otros asuntos que se sometan a su consideración."
+  },
+  "conceptos": [
+    {
+      "id": "RDP-001",
+      "articulo": "art. 19",
+      "titulo": "Naturaleza del Consejo Asesor del Mecanismo Nacional de Prevención",
+      "resumen": "El Consejo Asesor es un órgano de cooperación técnica y jurídica del Mecanismo Nacional de Prevención (de la Tortura), dentro de la institución del Defensor del Pueblo.",
+      "explicacion": "El Consejo Asesor no dirige ni ejecuta: su función es de apoyo. La norma lo define como un órgano de cooperación técnica y jurídica del Mecanismo Nacional de Prevención de la Tortura, que es la tarea que la Ley encomienda al Defensor del Pueblo para prevenir malos tratos a personas privadas de libertad. Por tanto, aporta criterio experto al Mecanismo, no lo sustituye."
+    },
+    {
+      "id": "RDP-002",
+      "articulo": "art. 19",
+      "titulo": "Composición: Adjuntos como miembros natos y máximo de 10 Vocales",
+      "resumen": "El Consejo Asesor está integrado por los Adjuntos del Defensor del Pueblo, como miembros natos, además de por un máximo de 10 Vocales.",
+      "explicacion": "La composición tiene dos partes. Por un lado, los dos Adjuntos del Defensor del Pueblo, que forman parte del Consejo por razón de su cargo (miembros natos). Por otro, hasta un máximo de 10 Vocales, designados según la distribución que fija el propio artículo. El tope de Vocales es un máximo, no una cifra fija."
+    },
+    {
+      "id": "RDP-003",
+      "articulo": "art. 19",
+      "titulo": "Presidencia del Consejo Asesor",
+      "resumen": "La Presidencia del Consejo la asume el Adjunto en quien el Defensor del Pueblo delegue las funciones del Mecanismo Nacional de Prevención de la Tortura, sustituido por el otro Adjunto en caso de ausencia o vacante.",
+      "explicacion": "No preside el Defensor del Pueblo, sino el Adjunto en quien haya delegado las funciones del Mecanismo Nacional de Prevención de la Tortura. Ese Adjunto asume la Presidencia del Consejo y, si falta (ausencia o vacante), le sustituye el otro Adjunto. Así la dirección del Consejo queda ligada a quien lleva el Mecanismo."
+    },
+    {
+      "id": "RDP-004",
+      "articulo": "art. 19",
+      "titulo": "Requisitos de los Vocales",
+      "resumen": "Los Vocales serán designados entre personas mayores de edad, en pleno disfrute de sus derechos civiles y políticos, con reconocida trayectoria en la defensa de los Derechos Humanos o en ámbitos relacionados con el tratamiento a personas privadas de libertad.",
+      "explicacion": "Para ser Vocal se exigen tres condiciones: ser mayor de edad, estar en el pleno disfrute de los derechos civiles y políticos y tener una trayectoria reconocida, bien en la defensa de los Derechos Humanos, bien en ámbitos relacionados con el trato a personas privadas de libertad. Se busca solvencia y experiencia en la materia."
+    },
+    {
+      "id": "RDP-005",
+      "articulo": "art. 19",
+      "titulo": "Vocal a propuesta del Consejo General de la Abogacía de España",
+      "resumen": "Dentro de la distribución de Vocales, uno se designa a propuesta del Consejo General de la Abogacía de España.",
+      "explicacion": "El artículo reparte las plazas de Vocales entre varias fuentes. Una de ellas es corporativa: un Vocal se designa a propuesta del Consejo General de la Abogacía de España. Otros dos, del mismo modo, a propuesta de la Organización Médica Colegial y del Consejo General de Colegios Oficiales de Psicólogos de España. Este reparto asegura perfiles técnicos distintos."
+    },
+    {
+      "id": "RDP-006",
+      "articulo": "art. 19",
+      "titulo": "Cinco Vocales elegidos de la sociedad civil",
+      "resumen": "Cinco Vocales se eligen de entre las candidaturas que, a título personal o en representación de organizaciones o asociaciones de la sociedad civil, se presenten al Defensor del Pueblo.",
+      "explicacion": "Además de los Vocales corporativos y de los propuestos por convenios, la mayor parte del Consejo procede de la sociedad civil: cinco Vocales elegidos entre las candidaturas presentadas al Defensor del Pueblo, ya sea a título personal o en representación de organizaciones o asociaciones. Es la vía más abierta y participativa de acceso al Consejo."
+    },
+    {
+      "id": "RDP-007",
+      "articulo": "art. 19",
+      "titulo": "Secretaría del Consejo Asesor",
+      "resumen": "Actúa como secretario del Consejo Asesor el Secretario General de la Institución.",
+      "explicacion": "La secretaría del Consejo no es un cargo electivo ni recae en un Vocal: la desempeña, por razón de su puesto, el Secretario General de la Institución del Defensor del Pueblo. Es quien da fe y apoya administrativamente las reuniones del Consejo."
+    },
+    {
+      "id": "RDP-008",
+      "articulo": "art. 20",
+      "titulo": "Mandato de cuatro años y renovación por mitades",
+      "resumen": "Los Vocales del Consejo Asesor serán designados para un período de cuatro años y se renovarán por mitades cada dos.",
+      "explicacion": "La duración del cargo de Vocal es de cuatro años. Para dar continuidad al Consejo, no se renuevan todos a la vez: la renovación se hace por mitades cada dos años, de modo que siempre conviven Vocales veteranos y Vocales nuevos."
+    },
+    {
+      "id": "RDP-009",
+      "articulo": "art. 20",
+      "titulo": "Plazo de 15 días naturales para las candidaturas de la sociedad civil",
+      "resumen": "Las candidaturas de los Vocales de la sociedad civil (inciso e) se reciben dentro de los 15 días naturales siguientes a la publicación de la convocatoria pública.",
+      "explicacion": "La designación de los Vocales de la sociedad civil arranca con una convocatoria pública. A partir de su publicación, hay un plazo de 15 días naturales para presentar las candidaturas, que deben reunir los requisitos formales de la convocatoria. El plazo es de días naturales, no hábiles."
+    },
+    {
+      "id": "RDP-010",
+      "articulo": "art. 20",
+      "titulo": "Designación y cese de los Vocales por el Defensor del Pueblo",
+      "resumen": "Corresponde al Defensor del Pueblo hacer la designación de los Vocales, así como poner fin a sus funciones.",
+      "explicacion": "Aunque las candidaturas lleguen por convocatoria o por propuesta de otras entidades, la decisión final es del Defensor del Pueblo: a él corresponde designar a los Vocales y también poner fin a sus funciones. La titularidad de la designación y del cese está centralizada en la máxima autoridad de la Institución."
+    },
+    {
+      "id": "RDP-011",
+      "articulo": "art. 20",
+      "titulo": "Continuidad de los Vocales cesantes",
+      "resumen": "Cumplido su período, los Vocales cesantes continuarán ejerciendo sus funciones hasta la designación de los nuevos Vocales.",
+      "explicacion": "Para que el Consejo no quede paralizado al vencer los mandatos, la norma prevé una prórroga funcional: los Vocales cuyo período ha terminado siguen ejerciendo hasta que se designe a los nuevos. Así se evitan vacíos entre una composición y la siguiente."
+    },
+    {
+      "id": "RDP-012",
+      "articulo": "art. 20",
+      "titulo": "Carácter no retribuido del cargo de Vocal",
+      "resumen": "Los Vocales del Consejo Asesor no percibirán retribuciones por el ejercicio de sus funciones, salvo, en su caso, las indemnizaciones por razón del servicio.",
+      "explicacion": "Ser Vocal del Consejo Asesor no es un puesto remunerado: no se cobra retribución por ejercer las funciones. La única excepción son las cantidades que puedan corresponder por la normativa de indemnizaciones por razón del servicio (por ejemplo, dietas o gastos de desplazamiento), que no son propiamente un sueldo."
+    },
+    {
+      "id": "RDP-013",
+      "articulo": "art. 21",
+      "titulo": "Periodicidad de las reuniones del Consejo",
+      "resumen": "El Consejo Asesor del Mecanismo Nacional de Prevención se reunirá, al menos, dos veces al año.",
+      "explicacion": "La norma fija una frecuencia mínima de reuniones: al menos dos veces al año. Es un suelo, no un tope, de modo que el Consejo puede reunirse más veces si es necesario, pero nunca menos de dos al año."
+    },
+    {
+      "id": "RDP-014",
+      "articulo": "art. 21",
+      "titulo": "Asistentes a las sesiones del Consejo",
+      "resumen": "Además del personal del Defensor del Pueblo, a las sesiones pueden asistir representantes de organismos internacionales de Derechos Humanos u otras personas convocadas por indicación de su Presidente.",
+      "explicacion": "Las sesiones no son estrictamente cerradas. Junto a los miembros del personal del Defensor del Pueblo, pueden asistir representantes de organismos internacionales de Derechos Humanos y otras personas, siempre que las convoque el Presidente del Consejo. Es una vía para incorporar experiencia externa y contraste internacional."
+    },
+    {
+      "id": "RDP-015",
+      "articulo": "art. 22",
+      "titulo": "Funciones del Consejo Asesor",
+      "resumen": "Entre las funciones del Consejo Asesor está realizar propuestas sobre visitas a lugares donde se hallen personas privadas de libertad, además de proponer mejoras de protocolos, emitir informes y hacer seguimiento.",
+      "explicacion": "Las funciones del Consejo son de asesoramiento y propuesta: sugerir visitas a lugares con personas privadas de libertad, mejorar los protocolos de visita y su seguimiento, evacuar los informes que le pida el Defensor del Pueblo, proponer formación en prevención de la tortura y seguir los informes del Mecanismo y del Subcomité para la Prevención de la Tortura. No decide ni ejecuta: propone e informa."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "RDP-001",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "¿Qué es el Consejo Asesor del Mecanismo Nacional de Prevención?",
+      "opciones": [
+        "un órgano de cooperación técnica y jurídica del Mecanismo Nacional de Prevención",
+        "un órgano de dirección política y coordinación general del Defensor del Pueblo",
+        "un órgano de control económico y fiscalización presupuestaria de la Institución",
+        "un órgano de representación institucional ante los organismos internacionales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Consejo Asesor es un órgano de cooperación técnica y jurídica del Mecanismo Nacional de Prevención.",
+      "justificacion": "Art. 19.1 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-002",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "¿Por quién está integrado el Consejo Asesor?",
+      "opciones": [
+        "los Adjuntos del Defensor del Pueblo, como miembros natos, además de por un máximo de 10 Vocales",
+        "los Adjuntos del Defensor del Pueblo, como miembros electos, además de por un máximo de 20 Vocales",
+        "el Defensor del Pueblo y su Secretario General, como miembros natos, y un máximo de 15 Vocales",
+        "los Adjuntos y el Secretario General, como miembros natos, además de por un mínimo de 10 Vocales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Consejo Asesor estará integrado por los Adjuntos del Defensor del Pueblo, como miembros natos, además de por un máximo de 10 Vocales.",
+      "justificacion": "Art. 19.2 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-003",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "¿Qué asume el Adjunto en quien el Defensor del Pueblo delegue las funciones del Mecanismo Nacional de Prevención de la Tortura?",
+      "opciones": [
+        "asumirá la Presidencia del Consejo",
+        "asumirá la Vicepresidencia del Consejo",
+        "asumirá la coordinación de los Vocales",
+        "asumirá la Secretaría del Consejo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Adjunto en el que el Defensor del Pueblo delegue las funciones del Mecanismo Nacional de Prevención de la Tortura asumirá la Presidencia del Consejo y será sustituido por el otro Adjunto en caso de ausencia o vacante.",
+      "justificacion": "Art. 19.3 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-004",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "Además de ser mayores de edad y estar en el pleno disfrute de sus derechos civiles y políticos, ¿qué deben acreditar los Vocales del Consejo Asesor?",
+      "opciones": [
+        "reconocida trayectoria en la defensa de los Derechos Humanos",
+        "acreditada experiencia en la gestión de centros penitenciarios",
+        "amplia trayectoria en el ejercicio de la carrera judicial o fiscal",
+        "reconocido prestigio en el ámbito de la Administración de Justicia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Vocales serán designados entre personas mayores de edad, que se encuentren en el pleno disfrute de sus derechos civiles y políticos, con reconocida trayectoria en la defensa de los Derechos Humanos o en los ámbitos relacionados con el tratamiento a personas privadas de libertad por cualquier causa.",
+      "justificacion": "Art. 19.4 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-005",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "¿A propuesta de qué órgano se designa uno de los Vocales del Consejo Asesor?",
+      "opciones": [
+        "del Consejo General de la Abogacía de España",
+        "del Consejo General de Colegios de Médicos Forenses",
+        "del Ministerio de Justicia y del Interior",
+        "del Consejo General del Poder Judicial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Un Vocal designado a propuesta del Consejo General de la Abogacía de España.",
+      "justificacion": "Art. 19.5.a) del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-006",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "¿Cuántos Vocales se eligen de entre las candidaturas de la sociedad civil que se presenten al Defensor del Pueblo?",
+      "opciones": [
+        "Cinco Vocales",
+        "Quince Vocales",
+        "Tres Vocales",
+        "Dos Vocales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cinco Vocales elegidos de entre las candidaturas que, a título personal o en representación de organizaciones o asociaciones representativas de la sociedad civil, se presenten al Defensor del Pueblo en el marco del procedimiento de designación establecido en el presente Reglamento.",
+      "justificacion": "Art. 19.5.e) del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-007",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "¿Quién actúa como secretario del Consejo Asesor?",
+      "opciones": [
+        "el Secretario General de la Institución",
+        "el Adjunto Primero del Defensor del Pueblo",
+        "un funcionario designado por el Presidente",
+        "el Vocal de mayor edad del Consejo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Actuará como secretario el Secretario General de la Institución.",
+      "justificacion": "Art. 19.6 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-008",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "¿Para qué período se designan los Vocales del Consejo Asesor?",
+      "opciones": [
+        "para un período de cuatro años",
+        "para un período de tres años prorrogable",
+        "para un período de cinco años",
+        "para un período de seis años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Vocales del Consejo Asesor serán designados para un período de cuatro años y se renovarán por mitades cada dos.",
+      "justificacion": "Art. 20.1 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-009",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo deben recibirse las candidaturas de los Vocales de la sociedad civil tras la publicación de la convocatoria?",
+      "opciones": [
+        "dentro de los 15 días naturales siguientes a la publicación de la convocatoria",
+        "dentro de los 20 días naturales siguientes a la apertura del plazo de designación",
+        "dentro de los 10 días hábiles siguientes a la publicación de la convocatoria",
+        "dentro del mes siguiente a la publicación de la convocatoria pública"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las candidaturas para cubrir los puestos de Vocales a que se refiere el inciso e) del párrafo quinto del artículo 19 se recibirán dentro de los 15 días naturales siguientes a la publicación de la convocatoria y deberán reunir los requisitos formales establecidos en la misma.",
+      "justificacion": "Art. 20.2 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-010",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "¿Qué corresponde al Defensor del Pueblo en relación con los Vocales del Consejo Asesor?",
+      "opciones": [
+        "hacer la designación de los Vocales, así como poner fin a sus funciones",
+        "proponer el nombramiento de los Vocales y acordar el cese motivado de sus funciones",
+        "designar a los Vocales previa conformidad de la Comisión Mixta Congreso-Senado",
+        "ratificar la elección de los Vocales y prorrogar de oficio sus funciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Corresponde al Defensor del Pueblo hacer la designación de los Vocales, así como poner fin a sus funciones.",
+      "justificacion": "Art. 20.3 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-011",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Cumplido su período, ¿qué ocurre con los Vocales cesantes del Consejo Asesor?",
+      "opciones": [
+        "continuarán ejerciendo sus funciones hasta la designación de los nuevos Vocales",
+        "serán sustituidos de manera automática por los Adjuntos del Defensor del Pueblo",
+        "cesarán de forma inmediata en el momento en que expire el plazo de su mandato",
+        "prorrogarán su mandato por un nuevo período de cuatro años renovable"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cumplido el período al que hace referencia el apartado primero del presente artículo, los Vocales cesantes continuarán ejerciendo sus funciones hasta la designación de los nuevos Vocales.",
+      "justificacion": "Art. 20.4 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-012",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "¿Qué régimen retributivo tienen los Vocales del Consejo Asesor?",
+      "opciones": [
+        "no percibirán retribuciones por el ejercicio de sus funciones",
+        "percibirán una retribución fija con cargo al presupuesto de la Institución",
+        "percibirán las retribuciones que fije anualmente el Defensor del Pueblo",
+        "cobrarán dietas por cada sesión del Consejo a la que asistan"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Vocales del Consejo Asesor no percibirán retribuciones por el ejercicio de sus funciones salvo, en su caso, las que puedan corresponder en aplicación de la normativa sobre indemnizaciones por razón del servicio.",
+      "justificacion": "Art. 20.5 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-013",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "¿Con qué frecuencia se reúne, como mínimo, el Consejo Asesor?",
+      "opciones": [
+        "al menos, dos veces al año",
+        "al menos, una vez cada dos años",
+        "al menos, cuatro veces al año",
+        "al menos, una vez al año"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Consejo Asesor del Mecanismo Nacional de Prevención se reunirá, al menos, dos veces al año.",
+      "justificacion": "Art. 21.1 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-014",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Además del personal del Defensor del Pueblo, ¿quiénes pueden asistir a las sesiones del Consejo Asesor?",
+      "opciones": [
+        "representantes de organismos internacionales de Derechos Humanos",
+        "representantes de las organizaciones sindicales más representativas",
+        "delegados de los Gobiernos autonómicos competentes en la materia",
+        "miembros de las comisiones parlamentarias de Derechos Humanos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "A las sesiones del Consejo Asesor podrán asistir los miembros del personal del Defensor del Pueblo, representantes de organismos internacionales de Derechos Humanos u otras personas que sean convocadas por indicación de su Presidente.",
+      "justificacion": "Art. 21.2 del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    },
+    {
+      "concepto_id": "RDP-015",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes es una función del Consejo Asesor del Mecanismo Nacional de Prevención?",
+      "opciones": [
+        "Realizar propuestas sobre visitas a lugares donde se hallen personas privadas de libertad",
+        "Autorizar y ordenar directamente las visitas a los centros donde haya personas privadas de libertad",
+        "Inspeccionar por sí mismo los establecimientos penitenciarios y los centros de reclusión",
+        "Resolver las quejas presentadas por las personas privadas de libertad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Serán funciones del Consejo Asesor del Mecanismo Nacional de Prevención las siguientes: a) Realizar propuestas sobre visitas a lugares donde se hallen personas privadas de libertad.",
+      "justificacion": "Art. 22.a) del Reglamento de Organización y Funcionamiento del Defensor del Pueblo."
+    }
+  ],
+  "relaciones": [
+    { "origen": "RDP-002", "destino": "RDP-001", "tipo": "desarrolla", "justificacion": "La composición concreta qué órgano es el Consejo Asesor definido en el art. 19.1." },
+    { "origen": "RDP-003", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "La Presidencia recae en un Adjunto, que integra el Consejo como miembro nato." },
+    { "origen": "RDP-004", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "Los requisitos concretan quiénes pueden ser los Vocales que componen el Consejo." },
+    { "origen": "RDP-005", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "El Vocal a propuesta de la Abogacía concreta la distribución del máximo de 10 Vocales." },
+    { "origen": "RDP-006", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "Los cinco Vocales de la sociedad civil concretan parte del cupo de Vocales." },
+    { "origen": "RDP-007", "destino": "RDP-001", "tipo": "desarrolla", "justificacion": "La secretaría es una pieza organizativa del propio Consejo Asesor." },
+    { "origen": "RDP-008", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "El mandato de cuatro años concreta la condición de los Vocales del Consejo." },
+    { "origen": "RDP-009", "destino": "RDP-006", "tipo": "prerrequisito", "justificacion": "El plazo de candidaturas precede a la elección de los cinco Vocales de la sociedad civil." },
+    { "origen": "RDP-010", "destino": "RDP-006", "tipo": "desarrolla", "justificacion": "La designación por el Defensor del Pueblo cierra el procedimiento de selección de Vocales." },
+    { "origen": "RDP-011", "destino": "RDP-008", "tipo": "desarrolla", "justificacion": "La continuidad de los cesantes concreta qué ocurre al expirar el período de cuatro años." },
+    { "origen": "RDP-012", "destino": "RDP-002", "tipo": "limita", "justificacion": "El carácter no retribuido restringe el estatuto económico de los Vocales." },
+    { "origen": "RDP-013", "destino": "RDP-001", "tipo": "desarrolla", "justificacion": "La periodicidad de reuniones concreta el funcionamiento del Consejo Asesor." },
+    { "origen": "RDP-014", "destino": "RDP-013", "tipo": "desarrolla", "justificacion": "Los asistentes a las sesiones concretan el régimen de reuniones del Consejo." },
+    { "origen": "RDP-015", "destino": "RDP-001", "tipo": "desarrolla", "justificacion": "Las funciones concretan la labor de cooperación técnica y jurídica del Consejo." },
+    { "origen": "RDP-001", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "El Reglamento (art. 19) desarrolla la institución del Defensor del Pueblo del art. 1 de la LO 3/1981." },
+    { "origen": "RDP-002", "destino": "DP-013", "tipo": "desarrolla", "justificacion": "La composición incorpora como miembros natos a los Adjuntos regulados en el art. 8 de la LO 3/1981 (DP-013)." },
+    { "origen": "RDP-003", "destino": "DP-013", "tipo": "desarrolla", "justificacion": "La Presidencia recae en un Adjunto del Defensor del Pueblo, figura del art. 8 de la LO 3/1981 (DP-013)." },
+    { "origen": "RDP-004", "destino": "DP-005", "tipo": "remite", "justificacion": "Los requisitos de los Vocales (mayoría de edad y pleno disfrute de derechos civiles y políticos) reproducen los del art. 3 de la LO 3/1981 (DP-005)." }
+  ]
+}

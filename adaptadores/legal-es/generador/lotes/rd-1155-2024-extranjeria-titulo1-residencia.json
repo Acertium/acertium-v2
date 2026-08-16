@@ -1,0 +1,1446 @@
+{
+  "meta": {
+    "materia": "rd-1155-2024-reglamento-extranjeria",
+    "norma": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+    "referencia_boe": "BOE-A-2024-24099",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia"
+  },
+  "fuentes": {
+    "art. 3": "1. El cierre, con carácter temporal o indefinido, de los pasos fronterizos habilitados para la entrada y la salida de España o la limitación de las categorías de personas cuyo cruce se permite se podrá acordar por Orden del titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, a propuesta de los titulares de los Ministerios competentes, cuando así resulte bien de las disposiciones que deban regir a consecuencia de los estados de alarma, excepción o sitio, bien en aplicación de leyes especiales, en supuestos en que lo requieran los intereses de la defensa nacional, la seguridad del Estado y la protección de la salud y seguridad de los ciudadanos, así como en supuestos de elevada presión migratoria irregular, sin perjuicio de la posibilidad de desconcentrar dicha competencia. 3. El cierre de los pasos fronterizos deberá comunicarse a aquellos países con los que España tenga obligación de hacerlo como consecuencia de los compromisos internacionales suscritos con ellos.",
+    "art. 8": "2. A estos efectos, podrá exigirse la presentación, entre otros, de los siguientes documentos: a) En relación con cualquiera de los motivos de solicitud de entrada y estancia previstos en este apartado, billete de vuelta o de circuito turístico. c) Además, para los viajes de carácter turístico o privado, alternativamente: 1.º Documento justificativo de la existencia de lugar de hospedaje a disposición del extranjero: bien emitido por el establecimiento de hospedaje o bien consistente en carta de invitación de un particular. En ningún caso, la carta de invitación suplirá la acreditación por la persona extranjera de los demás requisitos exigidos para la entrada.",
+    "art. 9": "La persona extranjera deberá acreditar, en el momento de la entrada, que dispone de recursos o medios económicos suficientes para su sostenimiento y el de las personas a su cargo que viajen con él, durante el periodo de permanencia en España, o que está en condiciones de obtener legalmente dichos medios, así como para cubrir el traslado a otro país o el retorno al país de procedencia. La cuantía de los medios económicos exigibles a estos efectos, así como el modo de acreditar su posesión, será la dispuesta en el presente Reglamento o, en caso de no estar expresamente prevista, será la determinada mediante Orden del titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, a propuesta de los titulares de los Ministerios competentes.",
+    "art. 10": "Cuando así lo determine el Ministerio del Interior, de acuerdo con los Ministerios de Sanidad, Derechos Sociales, Consumo y Agenda 2030 y de Inclusión, Seguridad Social y Migraciones, las personas que pretendan entrar en territorio español deberán presentar en los pasos fronterizos un certificado sanitario expedido en el país de procedencia por los servicios médicos que designe la oficina consular española, o someterse a su llegada, en la frontera, a un reconocimiento médico por parte de los servicios sanitarios españoles competentes, para acreditar que no padecen ninguna de las enfermedades que pueden tener repercusiones de salud pública graves de conformidad con lo dispuesto en el Reglamento Sanitario Internacional de 2005, así como en los compromisos internacionales sobre la materia suscritos por España.",
+    "art. 12": "1. A su llegada al paso fronterizo para la entrada en España, las personas extranjeras acreditarán con carácter prioritario ante los funcionarios responsables del control que reúnen los requisitos previstos en los artículos de este capítulo para la obligada comprobación de éstos y permitirán la toma de datos biométricos con el fin de alimentar y consultar las bases de datos pertinentes según lo establecido en la normativa reguladora de éstas. 2. Si la documentación presentada fuera hallada conforme y no existiese ninguna prohibición o impedimento para la entrada del titular, se estampará en el pasaporte o título de viaje el sello, signo o marca de control establecido.",
+    "art. 14": "1. Las entradas realizadas en territorio español, de acuerdo con lo previsto en los artículos doce y trece, por las personas extranjeras a las que no les sea de aplicación el régimen de ciudadanos Unión Europea, podrán ser registradas por las autoridades competentes en el Registro Central de Extranjeros, a los efectos de control de su periodo de permanencia legal en España, de conformidad con la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+    "art. 17": "1. Toda compañía, empresa de transporte o transportista deberá remitir a las autoridades españolas encargadas del control de la entrada la información sobre los pasajeros que vayan a ser trasladados, ya sea por vía aérea, marítima o terrestre, con independencia de que el transporte sea en tránsito o tenga como destino final al territorio español. Asimismo, las empresas de transporte deberán suministrar la información comprensiva del número de billetes de vuelta no utilizados por los pasajeros a los que previamente hubieran transportado a España.",
+    "art. 18": "1. Si se negara la entrada en el territorio español a una persona extranjera por incumplimiento de las condiciones de entrada previstas en el derecho de la Unión Europea, el transportista que la hubiera traído a la frontera por vía aérea, marítima o terrestre estará obligado a hacerse cargo de él inmediatamente. En los casos en que se realicen viajes sucesivos mediante escalas, el responsable será el transportista aéreo que efectúe el último tramo de viaje hasta territorio español.",
+    "art. 21": "2. Si la documentación fuera hallada conforme y no existiese ninguna prohibición o impedimento para la salida del titular o de las personas titulares, se estampará en el pasaporte o título de viaje el sello de salida, salvo que las leyes internas o acuerdos internacionales en que España sea parte prevean la no estampación. 3. Si la salida se hiciera con documentación defectuosa, sin documentación o con documento de identidad en el que no se pueda estampar el sello de salida, la persona extranjera cumplimentará, en los servicios policiales de control, el impreso previsto para dejar constancia de la salida.",
+    "art. 50": "La vigencia de la prórroga de estancia de corta duración sin visado se extinguirá por las siguientes causas: a) El transcurso del plazo para el que hubiera sido concedida. b) Hallarse la persona extranjera incursa en alguna de las causas de prohibición de entrada previstas en el título I Régimen de entrada y salida del territorio español.",
+    "art. 62": "1. Las personas extranjeras que deseen residir en España sin realizar una actividad laboral o lucrativa deberán contar con medios económicos suficientes para el periodo de residencia de la autorización, o acreditar una fuente de percepción periódica de ingresos, para sí mismo y, en su caso, su familia, en las siguientes cuantías, que se establecen con carácter de mínimas y referidas al momento de solicitud del visado o de renovación de la autorización: a) Para su sostenimiento, durante su residencia en España, una cantidad que represente mensualmente en euros el 400 % del IPREM, o su equivalente legal en moneda extranjera. b) Para el sostenimiento de cada uno de los familiares a su cargo, durante su residencia en España, una cantidad que represente mensualmente en euros el 100 % del IPREM, o su equivalente legal en moneda extranjera, cantidad a acreditar de forma adicional a la referida en el apartado a) anterior.",
+    "art. 63": "3. Para la valoración del requisito establecido en el artículo 61.2 d), la oficina de extranjería recabará de oficio el informe del registro central de penados para comprobar la inexistencia de antecedentes penales en España y recabará informe policial sobre la persona solicitante. Estos informes serán emitidos en el plazo de siete días. 4. El órgano competente resolverá sobre la autorización de residencia en el plazo máximo de un mes desde la recepción de la comunicación de la oficina consular. Transcurrido este plazo sin respuesta, se entenderá que la solicitud ha sido desestimada. 5. En el plazo de un mes desde la entrada en España, su titular deberá solicitar personalmente la correspondiente tarjeta de identidad de extranjero.",
+    "art. 64": "1. La persona extranjera que desee renovar su autorización de residencia temporal deberá solicitarlo a la oficina de extranjería competente para su tramitación durante los dos meses previos a la fecha de expiración de la vigencia de su autorización. También se prorrogará hasta la resolución del procedimiento en el supuesto en que la solicitud se presentase dentro de los tres meses posteriores a la fecha en que hubiera finalizado la vigencia de la anterior autorización, sin perjuicio de la incoación del correspondiente procedimiento sancionador por la infracción prevista en el artículo 52.b) de la Ley Orgánica 4/2000, de 11 de enero. 2. Para la renovación de una autorización de residencia temporal no lucrativa, la persona extranjera deberá cumplir los siguientes requisitos: f) Haber residido de forma real y efectiva en España durante más de ciento ochenta y tres días durante el año natural. 7. La autorización de residencia temporal renovada tendrá una vigencia de dos años, salvo que corresponda obtener una autorización de residencia de larga duración o de larga duración-UE. 8. La solicitud se resolverá y se notificará a la persona interesada en el plazo de tres meses desde la presentación de la solicitud. Trascurrido dicho plazo se entenderá estimada.",
+    "art. 90": "1. Lo previsto en el presente capítulo se aplicará a la persona extranjera que, siendo titular de una autorización de residencia temporal: a) Se acoja a un programa de retorno voluntario impulsado, financiado o reconocido por la Administración General del Estado; o b) Retorne voluntariamente a su país de origen al margen de programa alguno.",
+    "art. 91": "1. Finalizada la vigencia de su compromiso de no regreso a territorio español, la persona extranjera podrá solicitar, o podrá solicitarse a su favor, una autorización de residencia temporal o de residencia temporal y trabajo. En caso de que el programa de retorno voluntario no establezca un periodo de compromiso de no regreso a España o si la persona extranjera retorna a su país de origen al margen de programa alguno, la solicitud de autorización de residencia temporal o residencia temporal y trabajo de acuerdo con lo establecido en este capítulo podrá ser presentada transcurridos tres años desde la fecha del retorno a su país de origen. 2. A efectos de control de la fecha del retorno, la persona extranjera, cualquiera que sea el programa de retorno voluntario al que se haya acogido o de no haberse acogido a ninguno, deberá comparecer personalmente en la oficina consular española en el país de origen, entregando su tarjeta de identidad de extranjero en vigor.",
+    "art. 92": "1. No resultará de aplicación el requisito relativo a la consideración de la situación nacional de empleo en los procedimientos sobre autorizaciones en los cuales este fuera generalmente exigible, cuando la persona extranjera a cuyo favor se soliciten éstas se encuentre incluido en el supuesto previsto en el artículo 90.1.a). 3. Los procedimientos de solicitud de una autorización de residencia temporal o de residencia temporal y trabajo derivados de lo previsto en este capítulo serán objeto de tramitación preferente. El plazo máximo para la resolución y notificación será de cuarenta y cinco días desde día siguiente al de la fecha en que hayan tenido entrada en el registro del órgano competente para tramitarlas.",
+    "art. 93": "Se encontrará en situación de residencia temporal la persona extranjera que, obteniendo una autorización conforme a lo previsto en este capítulo, no posea la nacionalidad de uno de los Estados miembros de la Unión Europea, ni de otro Estado parte del Acuerdo sobre el Espacio Económico Europeo ni de Suiza y tenga con una persona de nacionalidad española una relación familiar de las que se incluyen en este capítulo, independientemente del lugar y el momento en que se cree el vínculo, siempre que se mantenga y le acompañen, se unan o se reúnan con él en territorio nacional.",
+    "art. 94": "1. Podrán solicitar una autorización de residencia temporal de familiar de una persona de nacionalidad española, siempre que convivan, quienes se encuentren en alguna de las siguientes situaciones: a) El cónyuge mayor de dieciocho años, siempre y cuando no haya recaído acuerdo o declaración de nulidad del vínculo matrimonial o divorcio y no se haya celebrado en fraude de ley. En ningún caso podrá acceder a esta autorización más de un cónyuge, independientemente de que la ley personal de la persona extranjera admita esta modalidad matrimonial. c) La pareja extranjera no casada mayor de dieciocho años que mantenga con la persona de nacionalidad española una relación estable debidamente probada. En todo caso, se entenderá por pareja estable debidamente probada aquella que acredite suficientemente una relación de convivencia análoga a la conyugal, dentro o fuera de España, de, al menos, doce meses continuados. d) Sus hijos o, los de su cónyuge, pareja registrada o pareja estable siempre y cuando esta también resida o vaya a residir en España, menores de veintiséis años, o mayores de dicha edad que estén a su cargo, o que tengan una discapacidad para la que precisen apoyo para el ejercicio de su capacidad jurídica. g) Un único familiar, hasta el segundo grado, que realice o vaya a realizar los cuidados que precise una persona con nacionalidad española que tenga reconocido alguno de los grados de dependencia previstos en el artículo 26 de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia.",
+    "art. 95": "1. A las personas extranjeras a las que se les conceda esta autorización tendrán derecho, durante su vigencia, a residir y trabajar, sin necesidad de realizar ningún trámite administrativo adicional, mientras se mantengan las condiciones previstas en el presente capítulo y siempre que superen la edad mínima de admisión al trabajo. 3. En caso de que la persona extranjera se encuentre en España, la concesión de la autorización de residencia tendrá una validez de 5 años a partir de la fecha de su concesión o, en su caso, se otorgará por el periodo previsto de residencia en España del familiar de nacionalidad española si éste fuera inferior.",
+    "art. 96": "Para obtener una autorización de residencia temporal de familiares de personas con nacionalidad española será necesario cumplir los siguientes requisitos específicos: a) Relativos al familiar de nacionalidad española: 1.º Copia completa del pasaporte, o del documento nacional de identidad, en vigor. 2.º En los casos de solicitud a favor de cónyuge o pareja, declaración responsable de que no reside con él en España otro cónyuge o pareja.",
+    "art. 97": "5. Salvo que se hayan inadmitido o denegado autorizaciones del mismo tipo con base en una identidad sustancial de hechos, una vez admitida a trámite la solicitud presentada conforme a la letra c) del apartado primero, y hasta que se resuelva el procedimiento, se autorizará, de forma provisional, a las personas solicitantes a residir y, en caso de que se encuentre en edad laboral, a trabajar por cuenta ajena y por cuenta propia en todo el territorio nacional y en cualquier ocupación o sector de actividad. 6. Si la documentación estuviera incompleta, formulará el oportuno requerimiento a fin de que se subsanen los defectos en el plazo que se señale en la notificación, que no podrá ser superior a quince días. El órgano competente resolverá y notificará en el plazo de dos meses desde la fecha de presentación de solicitud. Transcurrido dicho plazo sin haber obtenido respuesta se entenderá que la solicitud ha sido desestimada. 8. Los procedimientos regulados en este artículo, serán objeto de tramitación preferente y tendrán carácter gratuito.",
+    "art. 98": "1. La existencia de condenas penales anteriores no constituirá razón automática para acordar la denegación; cuando se adopte por razones de orden público o de seguridad pública, la denegación de la autorización o del visado deberá estar fundada exclusivamente en la conducta personal de la persona extranjera, que, en todo caso, deberá constituir una amenaza real, actual y suficientemente grave que afecte a un interés fundamental de la sociedad. 2. Las personas españolas o el familiar extranjero deberán comunicar los eventuales cambios de circunstancias referidos al domicilio, a su nacionalidad, estado civil y en su caso, la condición de pareja registrada o estable, a la oficina de extranjería de la provincia donde residan o la Comisaría de Policía correspondiente en el plazo de dos meses desde que se produzcan.",
+    "art. 99": "1. Las personas referidas en el artículo 94, con la excepción de los mencionados en las letras c) e i), podrán optar a una autorización independiente cuando se den los supuestos contemplados en los apartados siguientes: 2. El fallecimiento de la persona de nacionalidad española no afectará al derecho de residencia de quienes sean titulares de la autorización siempre que estos hayan residido en España antes del fallecimiento del titular del derecho. Las personas que hubieran obtenido la autorización de residencia temporal de familiares de personas con nacionalidad española tendrán la obligación de comunicar el fallecimiento a la oficina de extranjería donde residan en el plazo máximo de seis meses desde que se produzca. 4. Para conservar el derecho de residencia, deberá acreditarse uno de los siguientes supuestos: a) Duración de al menos tres años del matrimonio o situación de pareja registrada o estable, hasta el inicio del procedimiento judicial de nulidad del matrimonio, divorcio o de la cancelación de la inscripción como pareja registrada, de los cuales deberá acreditarse que al menos uno de los años ha transcurrido en España. 6. En los supuestos previstos en los apartados anteriores, el familiar extranjero, para mantener o conservar la autorización por el tiempo que reste de vigencia hasta su caducidad, deberá solicitar expresamente ante la oficina de extranjería la residencia independiente en el plazo de los seis meses siguientes a la fecha en que se produzca el hecho causante previsto en los ordinales segundo a cuarto de este artículo."
+  },
+  "conceptos": [
+    {
+      "id": "EXTR-260",
+      "articulo": "art. 3",
+      "titulo": "Órgano que acuerda el cierre de pasos fronterizos",
+      "resumen": "El cierre de los pasos fronterizos habilitados se acuerda por Orden del titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, a propuesta de los Ministerios competentes.",
+      "explicacion": "El cierre, temporal o indefinido, de un paso fronterizo, o la limitación de las categorías de personas cuyo cruce se permite, corresponde al Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, mediante orden y a propuesta de los titulares de los Ministerios competentes, en los supuestos que la norma enumera."
+    },
+    {
+      "id": "EXTR-261",
+      "articulo": "art. 3",
+      "titulo": "Comunicación internacional del cierre de pasos fronterizos",
+      "resumen": "El cierre de los pasos fronterizos debe comunicarse a los países con los que España tenga obligación de hacerlo por los compromisos internacionales suscritos con ellos.",
+      "explicacion": "El cierre de un paso fronterizo no es solo una decisión interna: debe notificarse a aquellos países respecto de los cuales España haya asumido esa obligación en virtud de los compromisos internacionales suscritos."
+    },
+    {
+      "id": "EXTR-262",
+      "articulo": "art. 8",
+      "titulo": "Documento exigible para cualquier motivo de entrada",
+      "resumen": "En relación con cualquiera de los motivos de entrada y estancia puede exigirse el billete de vuelta o de circuito turístico.",
+      "explicacion": "Para comprobar la verosimilitud del motivo de entrada, los funcionarios de control pueden pedir documentos. Con carácter común a cualquier motivo, cabe exigir el billete de vuelta o de circuito turístico; después la norma detalla documentos específicos según se trate de viaje profesional, turístico, de estudios u otros."
+    },
+    {
+      "id": "EXTR-263",
+      "articulo": "art. 8",
+      "titulo": "Alcance de la carta de invitación",
+      "resumen": "La carta de invitación de un particular no suple la acreditación por la persona extranjera de los demás requisitos exigidos para la entrada.",
+      "explicacion": "Para los viajes turísticos o privados puede aportarse, como justificante de hospedaje, la carta de invitación de un particular. Pero esa carta solo acredita el alojamiento: en ningún caso sustituye a los demás requisitos de entrada, que deben acreditarse igualmente."
+    },
+    {
+      "id": "EXTR-264",
+      "articulo": "art. 9",
+      "titulo": "Momento de acreditar los medios económicos",
+      "resumen": "La persona extranjera debe acreditar en el momento de la entrada que dispone de recursos o medios económicos suficientes para su sostenimiento.",
+      "explicacion": "La acreditación de medios económicos se exige en el propio momento de la entrada: hay que demostrar recursos suficientes para el sostenimiento propio y de las personas a cargo durante la permanencia, o estar en condiciones de obtenerlos legalmente, así como para el retorno."
+    },
+    {
+      "id": "EXTR-265",
+      "articulo": "art. 9",
+      "titulo": "Determinación de la cuantía de los medios económicos",
+      "resumen": "Cuando la cuantía de los medios económicos no esté expresamente prevista, se determina mediante Orden del titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes.",
+      "explicacion": "La cuantía exigible de medios económicos y el modo de acreditarla es la que fija el Reglamento; si no está expresamente prevista, la determina la orden del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, a propuesta de los Ministerios competentes."
+    },
+    {
+      "id": "EXTR-266",
+      "articulo": "art. 10",
+      "titulo": "Norma de referencia del requisito sanitario",
+      "resumen": "El certificado o reconocimiento médico en frontera acredita que no se padecen enfermedades con repercusiones de salud pública graves conforme al Reglamento Sanitario Internacional de 2005.",
+      "explicacion": "Cuando el Ministerio del Interior lo determine, de acuerdo con Sanidad e Inclusión, puede exigirse un certificado sanitario o un reconocimiento médico en frontera. Su finalidad es comprobar que no se padecen las enfermedades con repercusiones de salud pública graves definidas en el Reglamento Sanitario Internacional de 2005."
+    },
+    {
+      "id": "EXTR-267",
+      "articulo": "art. 12",
+      "titulo": "Toma de datos biométricos a la entrada",
+      "resumen": "A su llegada al paso fronterizo, las personas extranjeras deben permitir la toma de datos biométricos para alimentar y consultar las bases de datos pertinentes.",
+      "explicacion": "Al llegar al paso fronterizo, además de acreditar los requisitos de entrada, la persona extranjera debe permitir que se tomen sus datos biométricos, con el fin de alimentar y consultar las bases de datos pertinentes conforme a su normativa reguladora."
+    },
+    {
+      "id": "EXTR-268",
+      "articulo": "art. 12",
+      "titulo": "Estampación del sello de entrada",
+      "resumen": "Si la documentación es conforme y no hay prohibición o impedimento, se estampa en el pasaporte o título de viaje el sello, signo o marca de control establecido.",
+      "explicacion": "Comprobada la documentación y no existiendo prohibición o impedimento para la entrada, se estampa en el pasaporte o título de viaje el sello, signo o marca de control y queda franco el paso, salvo que una norma prevea la no estampación."
+    },
+    {
+      "id": "EXTR-269",
+      "articulo": "art. 14",
+      "titulo": "Registro de la entrada en el Registro Central de Extranjeros",
+      "resumen": "Las entradas de personas extranjeras no sujetas al régimen UE pueden registrarse en el Registro Central de Extranjeros, a efectos de control de su periodo de permanencia legal.",
+      "explicacion": "Las entradas de quienes no están sujetos al régimen de ciudadanos de la Unión pueden anotarse en el Registro Central de Extranjeros, con la finalidad de controlar su periodo de permanencia legal en España y con respeto a la normativa de protección de datos."
+    },
+    {
+      "id": "EXTR-270",
+      "articulo": "art. 17",
+      "titulo": "Deber del transportista de remitir información de pasajeros",
+      "resumen": "Toda empresa de transporte debe remitir a las autoridades de control la información sobre los pasajeros que vayan a ser trasladados.",
+      "explicacion": "Las compañías de transporte, por vía aérea, marítima o terrestre, están obligadas a remitir a las autoridades españolas de control la información sobre los pasajeros que van a trasladar, tengan como destino España o estén en tránsito."
+    },
+    {
+      "id": "EXTR-271",
+      "articulo": "art. 17",
+      "titulo": "Información sobre billetes de vuelta no utilizados",
+      "resumen": "Las empresas de transporte deben suministrar la información sobre el número de billetes de vuelta no utilizados por los pasajeros que hubieran transportado a España.",
+      "explicacion": "Además de los datos de los pasajeros, las empresas de transporte deben comunicar cuántos billetes de vuelta no han sido utilizados por los pasajeros que previamente trajeron a España, dato relevante para detectar permanencias irregulares."
+    },
+    {
+      "id": "EXTR-272",
+      "articulo": "art. 18",
+      "titulo": "Obligación del transportista de hacerse cargo",
+      "resumen": "Denegada la entrada por incumplir las condiciones, el transportista que trajo a la persona a la frontera está obligado a hacerse cargo de ella inmediatamente.",
+      "explicacion": "Cuando se niega la entrada por incumplir las condiciones del derecho de la Unión, el transportista que trajo a la persona extranjera a la frontera debe hacerse cargo de ella de forma inmediata y, a petición de las autoridades, llevarla al Estado desde el que la transportó o a otro donde se garantice su admisión."
+    },
+    {
+      "id": "EXTR-273",
+      "articulo": "art. 18",
+      "titulo": "Responsable en viajes sucesivos con escalas",
+      "resumen": "En viajes sucesivos mediante escalas, el responsable es el transportista aéreo que efectúe el último tramo de viaje hasta territorio español.",
+      "explicacion": "Cuando el viaje se hace con escalas sucesivas, la norma fija quién responde de las obligaciones: el transportista aéreo que realice el último tramo del viaje hasta llegar a territorio español."
+    },
+    {
+      "id": "EXTR-274",
+      "articulo": "art. 21",
+      "titulo": "Estampación del sello de salida",
+      "resumen": "Si la documentación de salida es conforme y no hay impedimento, se estampa en el pasaporte o título de viaje el sello de salida.",
+      "explicacion": "A la salida, la persona extranjera presenta su documentación; si es conforme y no existe prohibición o impedimento, se estampa el sello de salida en el pasaporte o título de viaje, salvo que proceda la no estampación por norma interna o acuerdo internacional."
+    },
+    {
+      "id": "EXTR-275",
+      "articulo": "art. 21",
+      "titulo": "Salida con documentación defectuosa: impreso de constancia",
+      "resumen": "Si la salida se hace con documentación defectuosa o sin ella, la persona extranjera cumplimenta el impreso previsto para dejar constancia de la salida.",
+      "explicacion": "Cuando no puede estamparse el sello (documentación defectuosa, ausencia de ella o documento en el que no cabe el sello), la persona extranjera debe rellenar, ante los servicios policiales de control, el impreso que deja constancia de la salida."
+    },
+    {
+      "id": "EXTR-276",
+      "articulo": "art. 50",
+      "titulo": "Causas de extinción de la prórroga de estancia sin visado",
+      "resumen": "La prórroga de estancia de corta duración sin visado se extingue, entre otras causas, por el transcurso del plazo para el que hubiera sido concedida.",
+      "explicacion": "La vigencia de la prórroga de estancia de corta duración sin visado termina por el transcurso del plazo por el que se concedió o porque la persona extranjera incurra en alguna causa de prohibición de entrada del título I."
+    },
+    {
+      "id": "EXTR-277",
+      "articulo": "art. 62",
+      "titulo": "Medios económicos para el sostenimiento propio (no lucrativa)",
+      "resumen": "Para la residencia no lucrativa se exige, para el propio sostenimiento, una cantidad mensual equivalente al 400 % del IPREM.",
+      "explicacion": "Quien quiera residir sin trabajar debe acreditar medios económicos suficientes. Para su propio sostenimiento, la cuantía mínima mensual es el 400 % del IPREM, o su equivalente legal en moneda extranjera."
+    },
+    {
+      "id": "EXTR-278",
+      "articulo": "art. 62",
+      "titulo": "Medios económicos por cada familiar a cargo (no lucrativa)",
+      "resumen": "Por cada familiar a cargo se exige, de forma adicional, una cantidad mensual equivalente al 100 % del IPREM.",
+      "explicacion": "Además de la cuantía propia, por el sostenimiento de cada familiar a cargo debe acreditarse, de forma adicional, una cantidad mensual del 100 % del IPREM, o su equivalente legal en moneda extranjera."
+    },
+    {
+      "id": "EXTR-279",
+      "articulo": "art. 63",
+      "titulo": "Silencio en la autorización de residencia no lucrativa",
+      "resumen": "El órgano competente resuelve en el plazo máximo de un mes desde la comunicación consular; transcurrido sin respuesta, la solicitud se entiende desestimada.",
+      "explicacion": "En la residencia no lucrativa, tras la comunicación de la oficina consular, el órgano competente tiene un mes para resolver. Si no responde en ese plazo, opera el silencio negativo: la solicitud se entiende desestimada."
+    },
+    {
+      "id": "EXTR-280",
+      "articulo": "art. 63",
+      "titulo": "Plazo para solicitar la tarjeta de identidad de extranjero",
+      "resumen": "El titular debe solicitar personalmente la tarjeta de identidad de extranjero en el plazo de un mes desde la entrada en España.",
+      "explicacion": "Concedida la residencia no lucrativa y entrado en España, el titular dispone de un mes desde la entrada para pedir, en persona, la correspondiente tarjeta de identidad de extranjero."
+    },
+    {
+      "id": "EXTR-281",
+      "articulo": "art. 63",
+      "titulo": "Plazo de emisión de los informes previos",
+      "resumen": "El informe del registro central de penados y el informe policial se emiten en el plazo de siete días.",
+      "explicacion": "Para valorar la residencia no lucrativa, la oficina de extranjería recaba de oficio el informe del registro central de penados y el informe policial; ambos deben emitirse en el plazo de siete días."
+    },
+    {
+      "id": "EXTR-282",
+      "articulo": "art. 64",
+      "titulo": "Plazo para solicitar la renovación",
+      "resumen": "La renovación de la residencia temporal debe solicitarse durante los dos meses previos a la fecha de expiración de la autorización.",
+      "explicacion": "La solicitud de renovación se presenta ante la oficina de extranjería durante los dos meses previos a que expire la autorización; presentarla en ese plazo prorroga su validez hasta que se resuelva."
+    },
+    {
+      "id": "EXTR-283",
+      "articulo": "art. 64",
+      "titulo": "Renovación presentada tras la caducidad",
+      "resumen": "La solicitud también prorroga la autorización si se presenta dentro de los tres meses posteriores a la finalización de su vigencia, sin perjuicio del procedimiento sancionador.",
+      "explicacion": "Aun presentada fuera de plazo, la solicitud prorroga la validez de la autorización si se hace dentro de los tres meses posteriores a que caducó, sin perjuicio de que se incoe el procedimiento sancionador por la infracción leve del art. 52.b) de la LO 4/2000."
+    },
+    {
+      "id": "EXTR-284",
+      "articulo": "art. 64",
+      "titulo": "Requisito de residencia efectiva para renovar",
+      "resumen": "Para renovar la residencia no lucrativa hay que haber residido de forma real y efectiva en España durante más de ciento ochenta y tres días durante el año natural.",
+      "explicacion": "Uno de los requisitos de renovación de la residencia no lucrativa es acreditar residencia real y efectiva en España durante más de ciento ochenta y tres días en el año natural."
+    },
+    {
+      "id": "EXTR-285",
+      "articulo": "art. 64",
+      "titulo": "Vigencia de la autorización renovada",
+      "resumen": "La autorización de residencia temporal renovada tiene una vigencia de dos años, salvo que corresponda una de larga duración.",
+      "explicacion": "Renovada la residencia temporal no lucrativa, la nueva autorización dura dos años, salvo que corresponda ya obtener una autorización de residencia de larga duración o de larga duración-UE."
+    },
+    {
+      "id": "EXTR-286",
+      "articulo": "art. 64",
+      "titulo": "Silencio en la renovación",
+      "resumen": "La solicitud de renovación se resuelve y notifica en tres meses; transcurrido el plazo, se entiende estimada.",
+      "explicacion": "A diferencia de la concesión inicial, en la renovación el silencio es positivo: si transcurren tres meses desde la presentación sin resolución expresa, la solicitud se entiende estimada."
+    },
+    {
+      "id": "EXTR-287",
+      "articulo": "art. 90",
+      "titulo": "Ámbito de aplicación del retorno voluntario",
+      "resumen": "El capítulo se aplica al titular de residencia temporal que se acoja a un programa de retorno voluntario impulsado, financiado o reconocido por la Administración General del Estado.",
+      "explicacion": "El régimen del retorno voluntario se aplica a quien, siendo titular de una autorización de residencia temporal, se acoge a un programa de retorno voluntario de la Administración General del Estado, o bien retorna a su país al margen de todo programa."
+    },
+    {
+      "id": "EXTR-288",
+      "articulo": "art. 91",
+      "titulo": "Plazo para volver a solicitar tras el retorno",
+      "resumen": "Si no hay compromiso de no regreso o se retornó al margen de programa, la solicitud puede presentarse transcurridos tres años desde la fecha del retorno al país de origen.",
+      "explicacion": "Cuando el programa no fija un periodo de compromiso de no regreso, o el retorno se hizo sin programa, la nueva solicitud de residencia temporal o de residencia y trabajo puede presentarse una vez transcurridos tres años desde la fecha del retorno al país de origen."
+    },
+    {
+      "id": "EXTR-289",
+      "articulo": "art. 91",
+      "titulo": "Comparecencia consular y entrega de la TIE",
+      "resumen": "Para acreditar la fecha del retorno, la persona debe comparecer personalmente en la oficina consular entregando su tarjeta de identidad de extranjero en vigor.",
+      "explicacion": "El control de la fecha del retorno se hace mediante comparecencia personal en la oficina consular española del país de origen, donde la persona entrega su tarjeta de identidad de extranjero en vigor."
+    },
+    {
+      "id": "EXTR-290",
+      "articulo": "art. 92",
+      "titulo": "Plazo de resolución en el retorno voluntario",
+      "resumen": "Los procedimientos derivados del retorno voluntario son de tramitación preferente, con plazo máximo de resolución y notificación de cuarenta y cinco días.",
+      "explicacion": "Las solicitudes de residencia temporal o de residencia y trabajo ligadas al retorno voluntario se tramitan con preferencia; el plazo máximo para resolver y notificar es de cuarenta y cinco días desde su entrada en el registro del órgano competente."
+    },
+    {
+      "id": "EXTR-291",
+      "articulo": "art. 92",
+      "titulo": "No aplicación de la situación nacional de empleo",
+      "resumen": "No se aplica el requisito de la situación nacional de empleo cuando la persona se encuentra en el supuesto del programa de retorno voluntario del art. 90.1.a).",
+      "explicacion": "Para favorecer el retorno, se exceptúa el requisito de la situación nacional de empleo en las autorizaciones donde sería exigible, cuando la persona a cuyo favor se solicitan está incluida en el supuesto del art. 90.1.a) (programa de retorno voluntario)."
+    },
+    {
+      "id": "EXTR-292",
+      "articulo": "art. 93",
+      "titulo": "Definición: residencia de familiar de español",
+      "resumen": "Está en esta residencia temporal la persona que no posea la nacionalidad de un Estado UE, del EEE ni de Suiza y tenga una relación familiar con una persona de nacionalidad española.",
+      "explicacion": "El régimen de familiares de españoles se aplica a la persona extranjera que no sea nacional de un Estado de la Unión Europea, del Espacio Económico Europeo ni de Suiza y que tenga con una persona de nacionalidad española una de las relaciones familiares que el capítulo recoge."
+    },
+    {
+      "id": "EXTR-293",
+      "articulo": "art. 94",
+      "titulo": "Un solo cónyuge por autorización",
+      "resumen": "En ningún caso puede acceder a esta autorización más de un cónyuge, aunque la ley personal admita la poligamia.",
+      "explicacion": "Aunque el cónyuge mayor de dieciocho años puede acceder a la autorización, la norma impide que lo haga más de un cónyuge, con independencia de que la ley personal del extranjero admita el matrimonio poligámico."
+    },
+    {
+      "id": "EXTR-294",
+      "articulo": "art. 94",
+      "titulo": "Pareja estable: convivencia mínima",
+      "resumen": "Se entiende por pareja estable la que acredite una relación de convivencia análoga a la conyugal de, al menos, doce meses continuados.",
+      "explicacion": "La pareja no casada del español accede como pareja estable si prueba una convivencia análoga a la conyugal, dentro o fuera de España, de al menos doce meses continuados; no se exige ese periodo si hay descendencia común."
+    },
+    {
+      "id": "EXTR-295",
+      "articulo": "art. 94",
+      "titulo": "Edad de los hijos reagrupables",
+      "resumen": "Pueden acceder los hijos menores de veintiséis años, o mayores de esa edad que estén a su cargo o con discapacidad que precise apoyo.",
+      "explicacion": "Entre los familiares del español están sus hijos, o los de su cónyuge o pareja, menores de veintiséis años; los mayores de esa edad solo si están a su cargo o tienen una discapacidad para la que precisen apoyo en el ejercicio de su capacidad jurídica."
+    },
+    {
+      "id": "EXTR-296",
+      "articulo": "art. 94",
+      "titulo": "Familiar cuidador de persona en situación de dependencia",
+      "resumen": "Puede acceder un único familiar, hasta el segundo grado, que preste los cuidados que precise un español con grado de dependencia reconocido conforme al art. 26 de la Ley 39/2006.",
+      "explicacion": "Se contempla como familiar reagrupable a un único pariente, hasta el segundo grado, que realice o vaya a realizar los cuidados que necesite una persona de nacionalidad española con un grado de dependencia reconocido conforme al artículo 26 de la Ley 39/2006."
+    },
+    {
+      "id": "EXTR-297",
+      "articulo": "art. 95",
+      "titulo": "Derecho a residir y trabajar sin trámite adicional",
+      "resumen": "El titular de esta autorización tiene derecho a residir y trabajar sin necesidad de realizar ningún trámite administrativo adicional.",
+      "explicacion": "Concedida la autorización de familiar de español, su titular puede, durante la vigencia, residir y trabajar por cuenta ajena o propia sin ningún trámite administrativo adicional, siempre que supere la edad mínima de admisión al trabajo."
+    },
+    {
+      "id": "EXTR-298",
+      "articulo": "art. 95",
+      "titulo": "Validez de la autorización de familiar de español",
+      "resumen": "Si la persona se encuentra en España, la autorización tiene una validez de 5 años a partir de la fecha de su concesión.",
+      "explicacion": "Cuando el familiar extranjero está en España, la autorización concedida vale 5 años desde su concesión, salvo que el periodo previsto de residencia del familiar español sea inferior, en cuyo caso se ajusta a este."
+    },
+    {
+      "id": "EXTR-299",
+      "articulo": "art. 96",
+      "titulo": "Declaración responsable sobre otro cónyuge o pareja",
+      "resumen": "En solicitudes a favor de cónyuge o pareja se exige una declaración responsable de que no reside con él en España otro cónyuge o pareja.",
+      "explicacion": "Entre los requisitos relativos al familiar de nacionalidad española, cuando la solicitud es a favor del cónyuge o pareja, debe aportarse una declaración responsable de que no reside con él en España otro cónyuge o pareja."
+    },
+    {
+      "id": "EXTR-300",
+      "articulo": "art. 97",
+      "titulo": "Plazo de subsanación de la documentación",
+      "resumen": "Si la documentación está incompleta, se requiere la subsanación en un plazo que no podrá ser superior a quince días.",
+      "explicacion": "Recibida la solicitud, si la documentación es incompleta la oficina de extranjería requiere que se subsane; el plazo señalado en la notificación no puede superar los quince días, con advertencia de tener por desistido al solicitante."
+    },
+    {
+      "id": "EXTR-301",
+      "articulo": "art. 97",
+      "titulo": "Silencio en la autorización de familiar de español",
+      "resumen": "El órgano competente resuelve y notifica en dos meses; transcurrido el plazo sin respuesta, la solicitud se entiende desestimada.",
+      "explicacion": "En el procedimiento de familiar de español, el órgano competente dispone de dos meses desde la presentación para resolver y notificar; si no responde, opera el silencio negativo y la solicitud se entiende desestimada."
+    },
+    {
+      "id": "EXTR-302",
+      "articulo": "art. 97",
+      "titulo": "Autorización provisional para trabajar",
+      "resumen": "Admitida a trámite la solicitud del supuesto de la letra c), se autoriza provisionalmente a las personas solicitantes a residir mientras se resuelve.",
+      "explicacion": "Cuando la solicitud se presenta estando ambos en España (letra c del apartado primero), una vez admitida a trámite se autoriza de forma provisional a la persona solicitante a residir y, si está en edad laboral, a trabajar por cuenta ajena o propia hasta que se resuelva."
+    },
+    {
+      "id": "EXTR-303",
+      "articulo": "art. 97",
+      "titulo": "Carácter preferente y gratuito del procedimiento",
+      "resumen": "Los procedimientos de residencia de familiares de españoles son objeto de tramitación preferente y tienen carácter gratuito.",
+      "explicacion": "El procedimiento de familiar de español se tramita con preferencia y, además, es gratuito, lo que lo diferencia de otras autorizaciones sujetas a tasa."
+    },
+    {
+      "id": "EXTR-304",
+      "articulo": "art. 98",
+      "titulo": "Denegación por orden público: amenaza cualificada",
+      "resumen": "La denegación por orden público o seguridad pública debe fundarse en una conducta personal que constituya una amenaza real, actual y suficientemente grave que afecte a un interés fundamental de la sociedad.",
+      "explicacion": "Denegar la autorización o el visado por orden público o seguridad pública exige fundarlo exclusivamente en la conducta personal del extranjero, que debe constituir una amenaza real, actual y suficientemente grave que afecte a un interés fundamental de la sociedad; las condenas anteriores no bastan por sí solas."
+    },
+    {
+      "id": "EXTR-305",
+      "articulo": "art. 98",
+      "titulo": "Plazo para comunicar cambios de circunstancias",
+      "resumen": "Los cambios de circunstancias (domicilio, nacionalidad, estado civil, condición de pareja) deben comunicarse en el plazo de dos meses desde que se produzcan.",
+      "explicacion": "El titular y el familiar español deben mantener informada a la Administración: los cambios de domicilio, nacionalidad, estado civil o condición de pareja registrada o estable se comunican a la oficina de extranjería o comisaría en el plazo de dos meses desde que ocurren."
+    },
+    {
+      "id": "EXTR-306",
+      "articulo": "art. 99",
+      "titulo": "Fallecimiento del español: comunicación",
+      "resumen": "El fallecimiento del familiar español debe comunicarse a la oficina de extranjería en el plazo máximo de seis meses desde que se produzca.",
+      "explicacion": "El fallecimiento del español no priva del derecho de residencia a quien ya residía en España antes de aquel; pero el titular debe comunicar el fallecimiento a la oficina de extranjería en el plazo máximo de seis meses desde que ocurra."
+    },
+    {
+      "id": "EXTR-307",
+      "articulo": "art. 99",
+      "titulo": "Conservación del derecho tras nulidad o divorcio",
+      "resumen": "Tras la nulidad o el divorcio se conserva el derecho si se acredita una duración de al menos tres años del matrimonio o de la situación de pareja registrada o estable.",
+      "explicacion": "En caso de nulidad, divorcio o cancelación de la pareja registrada, para conservar la residencia debe acreditarse, entre otros supuestos, que el matrimonio o la situación de pareja duró al menos tres años, de los que al menos uno transcurrió en España."
+    },
+    {
+      "id": "EXTR-308",
+      "articulo": "art. 99",
+      "titulo": "Excepción del acceso a la residencia independiente",
+      "resumen": "Pueden optar a la autorización independiente los familiares del art. 94, con la excepción de los mencionados en las letras c) e i).",
+      "explicacion": "El derecho a una residencia independiente se reconoce a los familiares del art. 94, salvo a los de las letras c) (pareja estable no casada) e i) (otros familiares a cargo), que quedan excluidos de esta posibilidad."
+    },
+    {
+      "id": "EXTR-309",
+      "articulo": "art. 99",
+      "titulo": "Plazo para solicitar la residencia independiente",
+      "resumen": "La residencia independiente debe solicitarse en el plazo de los seis meses siguientes a la fecha en que se produzca el hecho causante.",
+      "explicacion": "Para conservar la autorización a título propio, el familiar extranjero debe pedir expresamente la residencia independiente ante la oficina de extranjería dentro de los seis meses siguientes a la fecha del hecho causante previsto en la norma."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "EXTR-260",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "¿Mediante qué instrumento y de qué órgano se acuerda el cierre de un paso fronterizo habilitado?",
+      "opciones": [
+        "por Orden del titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+        "por resolución del titular del Ministerio del Interior, oída la Secretaría de Estado de Seguridad",
+        "por acuerdo del Consejo de Ministros a propuesta del Ministerio de Asuntos Exteriores y de Interior",
+        "por orden del Delegado del Gobierno de la comunidad autónoma en cuyo territorio se ubique el paso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se podrá acordar por Orden del titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, a propuesta de los titulares de los Ministerios competentes",
+      "justificacion": "Art. 3.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-261",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "¿A quién debe comunicarse el cierre de los pasos fronterizos?",
+      "opciones": [
+        "a aquellos países con los que España tenga obligación de hacerlo como consecuencia de los compromisos internacionales",
+        "a todos los Estados miembros del Espacio Schengen, con independencia de cualquier compromiso internacional previo",
+        "únicamente a los países limítrofes con los que España comparta la frontera terrestre afectada por el cierre",
+        "a la Comisión Europea y a la Agencia Frontex, que coordinarán la medida con el resto de Estados miembros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El cierre de los pasos fronterizos deberá comunicarse a aquellos países con los que España tenga obligación de hacerlo como consecuencia de los compromisos internacionales suscritos con ellos.",
+      "justificacion": "Art. 3.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-262",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "¿Qué documento puede exigirse en relación con cualquiera de los motivos de solicitud de entrada y estancia?",
+      "opciones": [
+        "billete de vuelta o de circuito turístico",
+        "seguro médico de viaje con cobertura mínima",
+        "certificado de antecedentes penales del país de origen",
+        "justificante bancario del cambio de moneda efectuado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En relación con cualquiera de los motivos de solicitud de entrada y estancia previstos en este apartado, billete de vuelta o de circuito turístico.",
+      "justificacion": "Art. 8.2.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-263",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "¿Qué alcance tiene la carta de invitación de un particular respecto de los demás requisitos de entrada?",
+      "opciones": [
+        "En ningún caso, la carta de invitación suplirá la acreditación por la persona extranjera de los demás requisitos exigidos para la entrada",
+        "La carta de invitación acredita por sí sola el hospedaje y también los medios económicos exigibles para la entrada en el país",
+        "La carta de invitación sustituye al billete de vuelta y a la reserva del viaje organizado exigidos para los viajes turísticos",
+        "La carta de invitación exime a la persona extranjera de presentar el pasaporte o el título de viaje válido y en vigor"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En ningún caso, la carta de invitación suplirá la acreditación por la persona extranjera de los demás requisitos exigidos para la entrada.",
+      "justificacion": "Art. 8.2.c).1.º RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-264",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "¿En qué momento debe la persona extranjera acreditar que dispone de medios económicos suficientes?",
+      "opciones": [
+        "en el momento de la entrada",
+        "en el plazo de tres días desde la entrada",
+        "al solicitar el visado en el consulado",
+        "en el momento de abandonar el país"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberá acreditar, en el momento de la entrada, que dispone de recursos o medios económicos suficientes para su sostenimiento",
+      "justificacion": "Art. 9 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-265",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "Si la cuantía de los medios económicos no está expresamente prevista, ¿cómo se determina?",
+      "opciones": [
+        "mediante Orden del titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+        "mediante resolución del titular de la Secretaría de Estado de Migraciones, oído el Ministerio del Interior",
+        "mediante instrucción de la Comisaría General de Extranjería y Fronteras de la Dirección General de la Policía",
+        "mediante real decreto del Consejo de Ministros a propuesta del Ministerio de Asuntos Exteriores y Cooperación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "será la determinada mediante Orden del titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+      "justificacion": "Art. 9 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-266",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "¿Conforme a qué norma se determinan las enfermedades con repercusiones de salud pública graves a efectos del requisito sanitario de entrada?",
+      "opciones": [
+        "el Reglamento Sanitario Internacional de 2005",
+        "el Reglamento (UE) 2016/399, Código de fronteras Schengen",
+        "la Ley Orgánica 3/2018, de Protección de Datos Personales",
+        "el Reglamento Sanitario Internacional de 1969"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "para acreditar que no padecen ninguna de las enfermedades que pueden tener repercusiones de salud pública graves de conformidad con lo dispuesto en el Reglamento Sanitario Internacional de 2005",
+      "justificacion": "Art. 10 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-267",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "¿Qué deben permitir las personas extranjeras a su llegada al paso fronterizo, además de acreditar los requisitos?",
+      "opciones": [
+        "la toma de datos biométricos",
+        "el registro de su equipaje",
+        "la retención cautelar del pasaporte",
+        "una entrevista con el juez de instrucción"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "permitirán la toma de datos biométricos con el fin de alimentar y consultar las bases de datos pertinentes",
+      "justificacion": "Art. 12.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-268",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "Si la documentación es hallada conforme y no hay impedimento, ¿qué se estampa en el pasaporte o título de viaje?",
+      "opciones": [
+        "el sello, signo o marca de control establecido",
+        "la fecha límite de la estancia que se autoriza",
+        "una etiqueta identificativa del punto fronterizo",
+        "un código de barras con los datos del viajero"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se estampará en el pasaporte o título de viaje el sello, signo o marca de control establecido",
+      "justificacion": "Art. 12.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-269",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "¿En qué registro pueden anotarse las entradas de las personas extranjeras a efectos de control de su permanencia legal?",
+      "opciones": [
+        "en el Registro Central de Extranjeros",
+        "en el Registro Central de Penados",
+        "en el Sistema de Información de Schengen",
+        "en el padrón municipal de habitantes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrán ser registradas por las autoridades competentes en el Registro Central de Extranjeros, a los efectos de control de su periodo de permanencia legal en España",
+      "justificacion": "Art. 14.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-270",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "¿Qué información debe remitir toda empresa de transporte a las autoridades españolas de control de la entrada?",
+      "opciones": [
+        "la información sobre los pasajeros que vayan a ser trasladados",
+        "la relación de la tripulación asignada a cada trayecto",
+        "el inventario de la carga y mercancías transportadas",
+        "el historial de sanciones impuestas a la compañía"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberá remitir a las autoridades españolas encargadas del control de la entrada la información sobre los pasajeros que vayan a ser trasladados",
+      "justificacion": "Art. 17.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-271",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "¿Qué información adicional deben suministrar las empresas de transporte sobre los pasajeros que trajeron a España?",
+      "opciones": [
+        "el número de billetes de vuelta no utilizados por los pasajeros",
+        "el importe total abonado por cada uno de los pasajeros",
+        "la dirección del alojamiento declarado por los pasajeros",
+        "la fecha prevista de salida de cada uno de los pasajeros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "las empresas de transporte deberán suministrar la información comprensiva del número de billetes de vuelta no utilizados por los pasajeros",
+      "justificacion": "Art. 17.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-272",
+      "articulo": "art. 18",
+      "tipo": "test",
+      "enunciado": "Denegada la entrada, ¿qué obligación inmediata tiene el transportista que trajo a la persona a la frontera?",
+      "opciones": [
+        "estará obligado a hacerse cargo de él inmediatamente",
+        "deberá abonar de inmediato la sanción correspondiente",
+        "quedará liberado una vez notificada la denegación",
+        "deberá comunicarlo al consulado del país de origen"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "estará obligado a hacerse cargo de él inmediatamente",
+      "justificacion": "Art. 18.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-273",
+      "articulo": "art. 18",
+      "tipo": "test",
+      "enunciado": "En los viajes sucesivos mediante escalas, ¿quién es el responsable a estos efectos?",
+      "opciones": [
+        "el transportista aéreo que efectúe el último tramo de viaje hasta territorio español",
+        "el transportista aéreo que hubiera efectuado el primer tramo del viaje desde el país de origen",
+        "el operador del aeropuerto de la escala situada en territorio de un Estado miembro de la Unión",
+        "la agencia que hubiera vendido el billete que documenta la totalidad del trayecto contratado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el responsable será el transportista aéreo que efectúe el último tramo de viaje hasta territorio español",
+      "justificacion": "Art. 18.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-274",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Si la documentación de salida es hallada conforme y no hay impedimento, ¿qué se estampa en el pasaporte o título de viaje?",
+      "opciones": [
+        "el sello de salida",
+        "el visado de tránsito",
+        "el sello de control de aduanas",
+        "la autorización de regreso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se estampará en el pasaporte o título de viaje el sello de salida",
+      "justificacion": "Art. 21.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-275",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Si la salida se realiza con documentación defectuosa o sin ella, ¿qué debe cumplimentar la persona extranjera?",
+      "opciones": [
+        "el impreso previsto para dejar constancia de la salida",
+        "una declaración jurada ante el cónsul de su país",
+        "el formulario de solicitud de autorización de regreso",
+        "el parte de denuncia por extravío de documentación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la persona extranjera cumplimentará, en los servicios policiales de control, el impreso previsto para dejar constancia de la salida",
+      "justificacion": "Art. 21.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-276",
+      "articulo": "art. 50",
+      "tipo": "test",
+      "enunciado": "¿Cuál es una causa de extinción de la prórroga de estancia de corta duración sin visado?",
+      "opciones": [
+        "El transcurso del plazo para el que hubiera sido concedida",
+        "La salida voluntaria del titular del territorio del Espacio Schengen",
+        "La solicitud de una autorización de residencia temporal en España",
+        "El cambio de domicilio no comunicado a la oficina de extranjería"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El transcurso del plazo para el que hubiera sido concedida",
+      "justificacion": "Art. 50.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-277",
+      "articulo": "art. 62",
+      "tipo": "test",
+      "enunciado": "¿Qué cuantía mensual de medios económicos se exige para el sostenimiento propio en la residencia no lucrativa?",
+      "opciones": [
+        "el 400 % del IPREM",
+        "el 200 % del IPREM",
+        "el 100 % del IPREM",
+        "el 300 % del IPREM"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "una cantidad que represente mensualmente en euros el 400 % del IPREM",
+      "justificacion": "Art. 62.1.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-278",
+      "articulo": "art. 62",
+      "tipo": "test",
+      "enunciado": "¿Qué cuantía mensual adicional se exige por cada uno de los familiares a cargo en la residencia no lucrativa?",
+      "opciones": [
+        "el 100 % del IPREM",
+        "el 400 % del IPREM",
+        "el 50 % del IPREM",
+        "el 200 % del IPREM"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "una cantidad que represente mensualmente en euros el 100 % del IPREM",
+      "justificacion": "Art. 62.1.b) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-279",
+      "articulo": "art. 63",
+      "tipo": "test",
+      "enunciado": "Transcurrido el plazo de un mes sin respuesta sobre la autorización de residencia no lucrativa, ¿qué efecto se produce?",
+      "opciones": [
+        "se entenderá que la solicitud ha sido desestimada",
+        "se entenderá que la solicitud ha sido estimada",
+        "se prorrogará automáticamente el plazo de resolución",
+        "se archivará el expediente por caducidad del procedimiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Transcurrido este plazo sin respuesta, se entenderá que la solicitud ha sido desestimada",
+      "justificacion": "Art. 63.4 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-280",
+      "articulo": "art. 63",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo debe el titular solicitar personalmente la tarjeta de identidad de extranjero?",
+      "opciones": [
+        "En el plazo de un mes desde la entrada en España",
+        "En el plazo de tres meses desde la entrada en España",
+        "En el plazo de quince días desde la entrada en España",
+        "En el plazo de dos meses desde la entrada en España"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En el plazo de un mes desde la entrada en España",
+      "justificacion": "Art. 63.5 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-281",
+      "articulo": "art. 63",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo deben emitirse el informe del registro central de penados y el informe policial?",
+      "opciones": [
+        "en el plazo de siete días",
+        "en el plazo de diez días",
+        "en el plazo de un mes",
+        "en el plazo de tres días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Estos informes serán emitidos en el plazo de siete días.",
+      "justificacion": "Art. 63.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-282",
+      "articulo": "art. 64",
+      "tipo": "test",
+      "enunciado": "¿Con qué antelación debe solicitarse la renovación de la autorización de residencia temporal?",
+      "opciones": [
+        "durante los dos meses previos a la fecha de expiración de la vigencia de su autorización",
+        "durante los tres meses previos a la fecha de expiración de la vigencia de su autorización",
+        "durante el mes siguiente a la fecha de expiración de la vigencia de su autorización",
+        "durante los quince días previos a la fecha de expiración de la vigencia de su autorización"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "durante los dos meses previos a la fecha de expiración de la vigencia de su autorización",
+      "justificacion": "Art. 64.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-283",
+      "articulo": "art. 64",
+      "tipo": "test",
+      "enunciado": "¿Dentro de qué plazo posterior a la caducidad prorroga la validez la solicitud de renovación?",
+      "opciones": [
+        "dentro de los tres meses posteriores a la fecha en que hubiera finalizado la vigencia de la anterior autorización",
+        "dentro de los dos meses posteriores a la fecha en que hubiera finalizado la vigencia de la anterior autorización",
+        "dentro del mes posterior a la fecha en que hubiera finalizado la vigencia de la anterior autorización",
+        "dentro de los seis meses posteriores a la fecha en que hubiera finalizado la vigencia de la anterior autorización"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "dentro de los tres meses posteriores a la fecha en que hubiera finalizado la vigencia de la anterior autorización",
+      "justificacion": "Art. 64.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-284",
+      "articulo": "art. 64",
+      "tipo": "test",
+      "enunciado": "¿Cuánto tiempo de residencia real y efectiva en España se exige para renovar la residencia no lucrativa?",
+      "opciones": [
+        "durante más de ciento ochenta y tres días durante el año natural",
+        "durante más de noventa días durante el año natural",
+        "durante más de doscientos setenta días durante el año natural",
+        "durante todo el año natural sin ausencias superiores a treinta días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Haber residido de forma real y efectiva en España durante más de ciento ochenta y tres días durante el año natural.",
+      "justificacion": "Art. 64.2.f) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-285",
+      "articulo": "art. 64",
+      "tipo": "test",
+      "enunciado": "¿Qué vigencia tiene la autorización de residencia temporal una vez renovada?",
+      "opciones": [
+        "una vigencia de dos años",
+        "una vigencia de un año",
+        "una vigencia de cinco años",
+        "una vigencia de tres años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La autorización de residencia temporal renovada tendrá una vigencia de dos años",
+      "justificacion": "Art. 64.7 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-286",
+      "articulo": "art. 64",
+      "tipo": "test",
+      "enunciado": "Transcurridos tres meses sin resolver la solicitud de renovación, ¿qué efecto se produce?",
+      "opciones": [
+        "se entenderá estimada",
+        "se entenderá desestimada",
+        "se entenderá caducado el procedimiento",
+        "se entenderá suspendido el plazo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Trascurrido dicho plazo se entenderá estimada.",
+      "justificacion": "Art. 64.8 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-287",
+      "articulo": "art. 90",
+      "tipo": "test",
+      "enunciado": "Siendo titular de residencia temporal, ¿a qué debe acogerse para que se le aplique el capítulo del retorno voluntario?",
+      "opciones": [
+        "un programa de retorno voluntario impulsado, financiado o reconocido por la Administración General del Estado",
+        "un programa de reagrupación familiar impulsado, financiado o coordinado por la comunidad autónoma de residencia",
+        "un programa de movilidad laboral europea gestionado, financiado o reconocido por la Comisión Europea competente",
+        "un convenio de repatriación asistida impulsado, financiado o supervisado por el consulado del país de origen"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se acoja a un programa de retorno voluntario impulsado, financiado o reconocido por la Administración General del Estado",
+      "justificacion": "Art. 90.1.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-288",
+      "articulo": "art. 91",
+      "tipo": "test",
+      "enunciado": "¿Cuándo puede presentarse la solicitud si no hay compromiso de no regreso o se retornó al margen de programa?",
+      "opciones": [
+        "transcurridos tres años desde la fecha del retorno a su país de origen",
+        "transcurridos dos años desde la fecha del retorno a su país de origen",
+        "transcurridos cinco años desde la fecha del retorno a su país de origen",
+        "transcurrido un año desde la fecha del retorno a su país de origen"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrá ser presentada transcurridos tres años desde la fecha del retorno a su país de origen.",
+      "justificacion": "Art. 91.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-289",
+      "articulo": "art. 91",
+      "tipo": "test",
+      "enunciado": "Al comparecer en la oficina consular para acreditar la fecha del retorno, ¿qué debe hacer la persona extranjera?",
+      "opciones": [
+        "entregando su tarjeta de identidad de extranjero en vigor",
+        "presentando un certificado de empadronamiento del país de destino",
+        "aportando el billete de avión utilizado para regresar al país de origen",
+        "remitiendo una declaración responsable de su retorno por vía electrónica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberá comparecer personalmente en la oficina consular española en el país de origen, entregando su tarjeta de identidad de extranjero en vigor.",
+      "justificacion": "Art. 91.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-290",
+      "articulo": "art. 92",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el plazo máximo de resolución y notificación en los procedimientos derivados del retorno voluntario?",
+      "opciones": [
+        "de cuarenta y cinco días",
+        "de treinta días",
+        "de tres meses naturales completos",
+        "de sesenta días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El plazo máximo para la resolución y notificación será de cuarenta y cinco días",
+      "justificacion": "Art. 92.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-291",
+      "articulo": "art. 92",
+      "tipo": "test",
+      "enunciado": "En estos procedimientos, ¿qué requisito no resulta de aplicación cuando la persona está en el supuesto del art. 90.1.a)?",
+      "opciones": [
+        "el requisito relativo a la consideración de la situación nacional de empleo",
+        "el requisito relativo a la acreditación de medios económicos suficientes",
+        "el requisito relativo a la carencia de antecedentes penales en España",
+        "el requisito relativo a la suscripción de un seguro de enfermedad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "No resultará de aplicación el requisito relativo a la consideración de la situación nacional de empleo",
+      "justificacion": "Art. 92.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-292",
+      "articulo": "art. 93",
+      "tipo": "test",
+      "enunciado": "¿Qué nota nacional caracteriza a quien puede obtener la residencia temporal de familiar de español?",
+      "opciones": [
+        "no posea la nacionalidad de uno de los Estados miembros de la Unión Europea, ni de otro Estado parte del Acuerdo sobre el Espacio Económico Europeo ni de Suiza",
+        "posea la nacionalidad de uno de los Estados miembros de la Unión Europea, o de otro Estado parte del Acuerdo sobre el Espacio Económico Europeo o de Suiza",
+        "haya residido legalmente y de forma continuada en el territorio español durante los cinco años inmediatamente anteriores a la presentación de la solicitud",
+        "ostente doble nacionalidad, la española y la de un tercer Estado que no pertenezca a la Unión Europea ni al Espacio Económico Europeo ni sea Suiza"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "no posea la nacionalidad de uno de los Estados miembros de la Unión Europea, ni de otro Estado parte del Acuerdo sobre el Espacio Económico Europeo ni de Suiza",
+      "justificacion": "Art. 93 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-293",
+      "articulo": "art. 94",
+      "tipo": "test",
+      "enunciado": "¿Cuántos cónyuges pueden acceder a la autorización de familiar de español?",
+      "opciones": [
+        "En ningún caso podrá acceder a esta autorización más de un cónyuge",
+        "Podrán acceder a esta autorización todos los cónyuges si la ley personal admite la poligamia",
+        "Podrán acceder a esta autorización dos cónyuges siempre que exista descendencia común",
+        "Podrá acceder a esta autorización el cónyuge y, además, la pareja registrada del español"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En ningún caso podrá acceder a esta autorización más de un cónyuge",
+      "justificacion": "Art. 94.1.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-294",
+      "articulo": "art. 94",
+      "tipo": "test",
+      "enunciado": "¿Qué convivencia mínima acredita a la pareja estable no casada de un español?",
+      "opciones": [
+        "de, al menos, doce meses continuados",
+        "de, al menos, veinticuatro meses continuados",
+        "de, al menos, seis meses continuados",
+        "de, al menos, treinta y seis meses continuados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "una relación de convivencia análoga a la conyugal, dentro o fuera de España, de, al menos, doce meses continuados",
+      "justificacion": "Art. 94.1.c) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-295",
+      "articulo": "art. 94",
+      "tipo": "test",
+      "enunciado": "¿Qué edad de los hijos permite, sin más, acceder a la autorización de familiar de español?",
+      "opciones": [
+        "menores de veintiséis años",
+        "menores de veintiún años",
+        "menores de dieciocho años",
+        "menores de treinta años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "menores de veintiséis años",
+      "justificacion": "Art. 94.1.d) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-296",
+      "articulo": "art. 94",
+      "tipo": "test",
+      "enunciado": "¿Qué familiar puede acceder para cuidar a un español con dependencia reconocida?",
+      "opciones": [
+        "Un único familiar, hasta el segundo grado",
+        "Cualquier familiar suyo, hasta el cuarto grado inclusive",
+        "Un único familiar, hasta el tercer grado",
+        "Dos familiares, hasta el segundo grado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Un único familiar, hasta el segundo grado, que realice o vaya a realizar los cuidados que precise una persona con nacionalidad española",
+      "justificacion": "Art. 94.1.g) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-297",
+      "articulo": "art. 95",
+      "tipo": "test",
+      "enunciado": "¿Qué derecho tiene el titular de la autorización de familiar de español durante su vigencia?",
+      "opciones": [
+        "a residir y trabajar, sin necesidad de realizar ningún trámite administrativo adicional",
+        "a residir, pero necesita una autorización de trabajo independiente para poder trabajar",
+        "a trabajar solo por cuenta ajena, previa comprobación de la situación nacional de empleo",
+        "a residir durante un año, prorrogable únicamente si acredita medios económicos suficientes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "tendrán derecho, durante su vigencia, a residir y trabajar, sin necesidad de realizar ningún trámite administrativo adicional",
+      "justificacion": "Art. 95.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-298",
+      "articulo": "art. 95",
+      "tipo": "test",
+      "enunciado": "Encontrándose la persona en España, ¿qué validez tiene la autorización concedida?",
+      "opciones": [
+        "una validez de 5 años a partir de la fecha de su concesión",
+        "una validez de 2 años contados a partir de la fecha de su concesión",
+        "una validez de 1 año a partir de la fecha de su concesión",
+        "una validez indefinida desde la fecha de su concesión"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la concesión de la autorización de residencia tendrá una validez de 5 años a partir de la fecha de su concesión",
+      "justificacion": "Art. 95.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-299",
+      "articulo": "art. 96",
+      "tipo": "test",
+      "enunciado": "En las solicitudes a favor de cónyuge o pareja, ¿qué declaración responsable debe aportar el español?",
+      "opciones": [
+        "declaración responsable de que no reside con él en España otro cónyuge o pareja",
+        "declaración responsable de disponer de vivienda adecuada para la unidad familiar",
+        "declaración responsable de contar con medios económicos suficientes y estables",
+        "declaración responsable de no haber sido condenado por delitos contra las personas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "declaración responsable de que no reside con él en España otro cónyuge o pareja",
+      "justificacion": "Art. 96.a).2.º RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-300",
+      "articulo": "art. 97",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el plazo máximo que puede señalarse para subsanar la documentación incompleta?",
+      "opciones": [
+        "que no podrá ser superior a quince días",
+        "que no podrá ser superior a diez días",
+        "que no podrá ser superior a un mes",
+        "que en ningún caso podrá ser superior a veinte días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se subsanen los defectos en el plazo que se señale en la notificación, que no podrá ser superior a quince días",
+      "justificacion": "Art. 97.6 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-301",
+      "articulo": "art. 97",
+      "tipo": "test",
+      "enunciado": "Transcurrido el plazo de dos meses sin respuesta, ¿qué efecto tiene la solicitud de familiar de español?",
+      "opciones": [
+        "se entenderá que la solicitud ha sido desestimada",
+        "se entenderá que la solicitud ha sido estimada",
+        "se entenderá prorrogado el plazo por otros dos meses",
+        "se entenderá archivada la solicitud por desistimiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Transcurrido dicho plazo sin haber obtenido respuesta se entenderá que la solicitud ha sido desestimada.",
+      "justificacion": "Art. 97.6 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-302",
+      "articulo": "art. 97",
+      "tipo": "test",
+      "enunciado": "Admitida a trámite la solicitud del supuesto de la letra c), ¿qué se autoriza de forma provisional?",
+      "opciones": [
+        "a las personas solicitantes a residir",
+        "a las personas solicitantes a salir y regresar libremente",
+        "a las personas solicitantes a obtener la nacionalidad",
+        "a las personas solicitantes a reagrupar a sus ascendientes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se autorizará, de forma provisional, a las personas solicitantes a residir",
+      "justificacion": "Art. 97.5 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-303",
+      "articulo": "art. 97",
+      "tipo": "test",
+      "enunciado": "¿Qué caracteres tienen los procedimientos de residencia de familiares de españoles?",
+      "opciones": [
+        "serán objeto de tramitación preferente y tendrán carácter gratuito",
+        "serán objeto de tramitación ordinaria y estarán sujetos a tasa",
+        "serán objeto de tramitación de urgencia y tendrán carácter reservado",
+        "serán objeto de tramitación preferente y estarán sujetos a tasa reducida"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "serán objeto de tramitación preferente y tendrán carácter gratuito.",
+      "justificacion": "Art. 97.8 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-304",
+      "articulo": "art. 98",
+      "tipo": "test",
+      "enunciado": "¿Qué debe constituir la conducta personal para denegar por orden público o seguridad pública?",
+      "opciones": [
+        "una amenaza real, actual y suficientemente grave que afecte a un interés fundamental de la sociedad",
+        "un antecedente penal cancelado o en vías de cancelación en el registro central de penados español",
+        "un riesgo potencial o futuro para la convivencia ciudadana apreciado por la autoridad competente",
+        "una infracción administrativa grave en materia de extranjería cometida durante la estancia previa"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberá constituir una amenaza real, actual y suficientemente grave que afecte a un interés fundamental de la sociedad",
+      "justificacion": "Art. 98.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-305",
+      "articulo": "art. 98",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo deben comunicarse los cambios de circunstancias como el domicilio o el estado civil?",
+      "opciones": [
+        "en el plazo de dos meses desde que se produzcan",
+        "en el plazo de un mes desde que se produzcan",
+        "en el plazo de tres meses desde que se produzcan",
+        "en el plazo de quince días desde que se produzcan"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "en el plazo de dos meses desde que se produzcan",
+      "justificacion": "Art. 98.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-306",
+      "articulo": "art. 99",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo debe comunicarse el fallecimiento del familiar de nacionalidad española?",
+      "opciones": [
+        "en el plazo máximo de seis meses desde que se produzca",
+        "en el plazo máximo de tres meses desde que se produzca",
+        "en el plazo máximo de dos meses desde que se produzca",
+        "en el plazo máximo de un año natural desde que se produzca"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "en el plazo máximo de seis meses desde que se produzca",
+      "justificacion": "Art. 99.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-307",
+      "articulo": "art. 99",
+      "tipo": "test",
+      "enunciado": "¿Qué duración del vínculo permite conservar el derecho de residencia tras la nulidad o el divorcio?",
+      "opciones": [
+        "Duración de al menos tres años del matrimonio o situación de pareja registrada o estable",
+        "Duración de al menos dos años del matrimonio o situación de pareja registrada o estable",
+        "Duración de al menos cinco años del matrimonio o situación de pareja registrada o estable",
+        "Duración de al menos un año del matrimonio o situación de pareja registrada o estable"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Duración de al menos tres años del matrimonio o situación de pareja registrada o estable",
+      "justificacion": "Art. 99.4.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-308",
+      "articulo": "art. 99",
+      "tipo": "test",
+      "enunciado": "¿Qué familiares del art. 94 quedan excluidos de optar a la autorización independiente?",
+      "opciones": [
+        "los mencionados en las letras c) e i)",
+        "los mencionados en las letras a) y b)",
+        "los mencionados en las letras d), e) y f)",
+        "los mencionados en las letras f) y g)"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "con la excepción de los mencionados en las letras c) e i)",
+      "justificacion": "Art. 99.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-309",
+      "articulo": "art. 99",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo debe solicitarse la residencia independiente desde el hecho causante?",
+      "opciones": [
+        "en el plazo de los seis meses siguientes a la fecha en que se produzca el hecho causante",
+        "en el plazo de los dos meses siguientes a la fecha en que se produzca el hecho causante",
+        "en el plazo de los tres meses siguientes a la fecha en que se produzca el hecho causante",
+        "en el plazo del año siguiente a la fecha en que se produzca el hecho causante"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberá solicitar expresamente ante la oficina de extranjería la residencia independiente en el plazo de los seis meses siguientes a la fecha en que se produzca el hecho causante",
+      "justificacion": "Art. 99.6 RD 1155/2024."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "EXTR-260",
+      "destino": "EXTR-003",
+      "tipo": "limita",
+      "justificacion": "El cierre de pasos fronterizos restringe la habilitación de pasos regulada en el art. 2."
+    },
+    {
+      "origen": "EXTR-262",
+      "destino": "EXTR-004",
+      "tipo": "desarrolla",
+      "justificacion": "Los documentos justificativos concretan el requisito de acreditar el objeto y condiciones de la entrada del art. 4."
+    },
+    {
+      "origen": "EXTR-264",
+      "destino": "EXTR-004",
+      "tipo": "desarrolla",
+      "justificacion": "La acreditación de medios económicos desarrolla el requisito de subsistencia del art. 4.1.d)."
+    },
+    {
+      "origen": "EXTR-266",
+      "destino": "EXTR-004",
+      "tipo": "desarrolla",
+      "justificacion": "Los requisitos sanitarios desarrollan la presentación de certificados sanitarios del art. 4.1.e)."
+    },
+    {
+      "origen": "EXTR-267",
+      "destino": "EXTR-001",
+      "tipo": "desarrolla",
+      "justificacion": "La forma de efectuar la entrada concreta la entrada por los pasos habilitados."
+    },
+    {
+      "origen": "EXTR-269",
+      "destino": "EXTR-010",
+      "tipo": "desarrolla",
+      "justificacion": "El registro de entrada complementa la declaración de entrada ante las autoridades policiales."
+    },
+    {
+      "origen": "EXTR-270",
+      "destino": "EXTR-013",
+      "tipo": "desarrolla",
+      "justificacion": "La remisión de información del transportista desarrolla sus obligaciones de control de documentos."
+    },
+    {
+      "origen": "EXTR-274",
+      "destino": "EXTR-015",
+      "tipo": "desarrolla",
+      "justificacion": "La forma de efectuar la salida concreta la documentación y plazos de la salida."
+    },
+    {
+      "origen": "EXTR-276",
+      "destino": "EXTR-021",
+      "tipo": "limita",
+      "justificacion": "La extinción de la prórroga restringe la prórroga de estancia sin visado."
+    },
+    {
+      "origen": "EXTR-277",
+      "destino": "EXTR-025",
+      "tipo": "desarrolla",
+      "justificacion": "Los medios económicos exigibles concretan la residencia temporal no lucrativa."
+    },
+    {
+      "origen": "EXTR-287",
+      "destino": "EXTR-024",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen de retorno voluntario opera sobre titulares de residencia temporal."
+    },
+    {
+      "origen": "EXTR-292",
+      "destino": "EXTR-024",
+      "tipo": "desarrolla",
+      "justificacion": "La residencia de familiares de españoles es una modalidad de residencia temporal."
+    },
+    {
+      "origen": "EXTR-283",
+      "destino": "EXT-003",
+      "tipo": "remite",
+      "justificacion": "La renovación fuera de plazo incoa la infracción leve por retraso en la renovación del art. 52.b) LO 4/2000."
+    },
+    {
+      "origen": "EXTR-305",
+      "destino": "EXT-004",
+      "tipo": "remite",
+      "justificacion": "El deber de comunicar cambios de circunstancias se conecta con la infracción leve por omitir su comunicación (art. 52 LO 4/2000)."
+    },
+    {
+      "origen": "EXTR-261",
+      "destino": "EXTR-260",
+      "tipo": "desarrolla",
+      "justificacion": "La comunicación internacional del cierre completa el régimen del cierre de pasos."
+    },
+    {
+      "origen": "EXTR-263",
+      "destino": "EXTR-262",
+      "tipo": "limita",
+      "justificacion": "El límite de la carta de invitación matiza los documentos justificativos de la entrada."
+    },
+    {
+      "origen": "EXTR-265",
+      "destino": "EXTR-264",
+      "tipo": "desarrolla",
+      "justificacion": "La determinación de la cuantía concreta la acreditación de medios económicos."
+    },
+    {
+      "origen": "EXTR-268",
+      "destino": "EXTR-267",
+      "tipo": "desarrolla",
+      "justificacion": "La estampación del sello es el paso siguiente a la comprobación en la entrada."
+    },
+    {
+      "origen": "EXTR-271",
+      "destino": "EXTR-270",
+      "tipo": "desarrolla",
+      "justificacion": "La información de billetes no utilizados amplía el deber de remisión de información."
+    },
+    {
+      "origen": "EXTR-272",
+      "destino": "EXTR-270",
+      "tipo": "desarrolla",
+      "justificacion": "Las obligaciones ante la denegación completan las obligaciones del transportista."
+    },
+    {
+      "origen": "EXTR-273",
+      "destino": "EXTR-272",
+      "tipo": "desarrolla",
+      "justificacion": "La regla del último tramo concreta quién asume la obligación de hacerse cargo."
+    },
+    {
+      "origen": "EXTR-275",
+      "destino": "EXTR-274",
+      "tipo": "desarrolla",
+      "justificacion": "El impreso de constancia sustituye al sello cuando este no puede estamparse."
+    },
+    {
+      "origen": "EXTR-278",
+      "destino": "EXTR-277",
+      "tipo": "desarrolla",
+      "justificacion": "La cuantía por familiar se suma a la cuantía del sostenimiento propio."
+    },
+    {
+      "origen": "EXTR-279",
+      "destino": "EXTR-277",
+      "tipo": "desarrolla",
+      "justificacion": "El procedimiento de la no lucrativa desarrolla el régimen de sus medios económicos."
+    },
+    {
+      "origen": "EXTR-280",
+      "destino": "EXTR-279",
+      "tipo": "desarrolla",
+      "justificacion": "La solicitud de la TIE es un trámite posterior a la resolución de la autorización."
+    },
+    {
+      "origen": "EXTR-281",
+      "destino": "EXTR-279",
+      "tipo": "desarrolla",
+      "justificacion": "Los informes previos se integran en el procedimiento de la residencia no lucrativa."
+    },
+    {
+      "origen": "EXTR-282",
+      "destino": "EXTR-277",
+      "tipo": "desarrolla",
+      "justificacion": "La renovación prolonga la residencia no lucrativa acreditando de nuevo los medios económicos."
+    },
+    {
+      "origen": "EXTR-283",
+      "destino": "EXTR-282",
+      "tipo": "desarrolla",
+      "justificacion": "La presentación tras la caducidad es una variante del plazo ordinario de renovación."
+    },
+    {
+      "origen": "EXTR-284",
+      "destino": "EXTR-282",
+      "tipo": "desarrolla",
+      "justificacion": "La residencia efectiva es un requisito de la renovación."
+    },
+    {
+      "origen": "EXTR-285",
+      "destino": "EXTR-282",
+      "tipo": "desarrolla",
+      "justificacion": "La vigencia de dos años es el efecto de la renovación concedida."
+    },
+    {
+      "origen": "EXTR-286",
+      "destino": "EXTR-282",
+      "tipo": "desarrolla",
+      "justificacion": "El silencio estimatorio cierra el procedimiento de renovación."
+    },
+    {
+      "origen": "EXTR-288",
+      "destino": "EXTR-287",
+      "tipo": "desarrolla",
+      "justificacion": "El plazo para volver a solicitar concreta el régimen del retorno voluntario."
+    },
+    {
+      "origen": "EXTR-289",
+      "destino": "EXTR-288",
+      "tipo": "desarrolla",
+      "justificacion": "La comparecencia consular fija la fecha desde la que corre el plazo del retorno."
+    },
+    {
+      "origen": "EXTR-290",
+      "destino": "EXTR-287",
+      "tipo": "desarrolla",
+      "justificacion": "El plazo preferente de resolución concreta la tramitación tras el retorno voluntario."
+    },
+    {
+      "origen": "EXTR-291",
+      "destino": "EXTR-290",
+      "tipo": "desarrolla",
+      "justificacion": "La exención de la situación nacional de empleo acompaña a la tramitación preferente."
+    },
+    {
+      "origen": "EXTR-293",
+      "destino": "EXTR-292",
+      "tipo": "desarrolla",
+      "justificacion": "La regla de un solo cónyuge concreta el ámbito de la residencia de familiares de españoles."
+    },
+    {
+      "origen": "EXTR-294",
+      "destino": "EXTR-292",
+      "tipo": "desarrolla",
+      "justificacion": "La pareja estable es uno de los familiares incluidos en el ámbito del capítulo."
+    },
+    {
+      "origen": "EXTR-295",
+      "destino": "EXTR-292",
+      "tipo": "desarrolla",
+      "justificacion": "Los hijos menores de veintiséis años son familiares incluidos en el ámbito del capítulo."
+    },
+    {
+      "origen": "EXTR-296",
+      "destino": "EXTR-292",
+      "tipo": "desarrolla",
+      "justificacion": "El familiar cuidador de un español dependiente es un supuesto del ámbito del capítulo."
+    },
+    {
+      "origen": "EXTR-297",
+      "destino": "EXTR-292",
+      "tipo": "desarrolla",
+      "justificacion": "El derecho a residir y trabajar es el efecto de la autorización de familiar de español."
+    },
+    {
+      "origen": "EXTR-298",
+      "destino": "EXTR-297",
+      "tipo": "desarrolla",
+      "justificacion": "La validez de cinco años concreta la duración del derecho a residir y trabajar."
+    },
+    {
+      "origen": "EXTR-299",
+      "destino": "EXTR-297",
+      "tipo": "prerrequisito",
+      "justificacion": "La declaración responsable es un requisito para obtener la autorización de familiar de español."
+    },
+    {
+      "origen": "EXTR-300",
+      "destino": "EXTR-292",
+      "tipo": "desarrolla",
+      "justificacion": "El plazo de subsanación concreta la tramitación de la autorización de familiar de español."
+    },
+    {
+      "origen": "EXTR-301",
+      "destino": "EXTR-300",
+      "tipo": "desarrolla",
+      "justificacion": "El silencio negativo cierra el plazo de resolución del procedimiento."
+    },
+    {
+      "origen": "EXTR-302",
+      "destino": "EXTR-300",
+      "tipo": "desarrolla",
+      "justificacion": "La autorización provisional para residir se enmarca en la tramitación del procedimiento."
+    },
+    {
+      "origen": "EXTR-303",
+      "destino": "EXTR-300",
+      "tipo": "desarrolla",
+      "justificacion": "El carácter preferente y gratuito califica la tramitación del procedimiento."
+    },
+    {
+      "origen": "EXTR-304",
+      "destino": "EXTR-292",
+      "tipo": "limita",
+      "justificacion": "La denegación por orden público restringe el acceso a la residencia de familiar de español."
+    },
+    {
+      "origen": "EXTR-306",
+      "destino": "EXTR-297",
+      "tipo": "desarrolla",
+      "justificacion": "La residencia independiente conserva el derecho a residir y trabajar del familiar."
+    },
+    {
+      "origen": "EXTR-307",
+      "destino": "EXTR-306",
+      "tipo": "desarrolla",
+      "justificacion": "La duración mínima del vínculo es un supuesto de conservación del derecho."
+    },
+    {
+      "origen": "EXTR-308",
+      "destino": "EXTR-306",
+      "tipo": "limita",
+      "justificacion": "La exclusión de las letras c) e i) restringe el acceso a la residencia independiente."
+    },
+    {
+      "origen": "EXTR-309",
+      "destino": "EXTR-306",
+      "tipo": "desarrolla",
+      "justificacion": "El plazo de seis meses concreta la solicitud de la residencia independiente."
+    }
+  ]
+}

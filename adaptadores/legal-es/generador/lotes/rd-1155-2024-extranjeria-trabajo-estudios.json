@@ -1,0 +1,1514 @@
+{
+  "meta": {
+    "materia": "rd-1155-2024-reglamento-extranjeria",
+    "norma": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+    "referencia_boe": "BOE-A-2024-24099",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia"
+  },
+  "fuentes": {
+    "art. 53": "Artículo 53. Requisitos para la obtención y el mantenimiento de la autorización. 1. Para la obtención de la autorización de estancia de larga duración, deberán cumplirse los siguientes requisitos específicos para cada supuesto previsto en el artículo 52.1: a) Realización de estudios superiores: 1.º Haber sido admitido por una institución o un centro de enseñanza superior reconocido para cursar un programa de estudios en los términos previstos en el artículo 52.1.a). 2.º Haber abonado los derechos de inscripción, matrícula o documento equivalente exigidos por la institución o el centro de enseñanza correspondiente. 2. En cualquiera de los supuestos del artículo 52.1, la persona solicitante no deberá suponer una amenaza para el orden público, la seguridad pública o la salud pública. 3. En cualquiera de los supuestos, el solicitante deberá haber abonado la tasa por tramitación del procedimiento.",
+    "art. 54": "Artículo 54. Procedimiento. En caso de que la persona extranjera presente la solicitud en España deberá presentarse con una antelación mínima de dos meses a la fecha del comienzo de la actividad o estudios que vaya a realizar. 4. Para la valoración del requisito establecido en el artículo 53.2 la oficina de extranjería recabará de oficio el informe del registro central de penados y el informe policial sobre la persona solicitante. Estos informes serán emitidos en el plazo de cinco días. 6. El plazo máximo para resolver y notificar será de 15 días, transcurridos los cuales sin haber obtenido respuesta la solicitud se entenderá desestimada. 9. En caso de que la autorización tenga una vigencia superior a seis meses, la persona extranjera deberá solicitar personalmente, ante la Comisaría de Policía competente, en el plazo de un mes desde la concesión de dicha autorización, la tarjeta de identidad de extranjero.",
+    "art. 55": "Artículo 55. Duración, prórroga y extinción de la autorización de estancia de larga duración por estudios. 1. La duración de la autorización será igual a la de los estudios, programa de movilidad, servicio de voluntariado o actividad formativa, con el límite de un año, salvo en el caso de los estudios superiores previstos en el apartado 1.a) del artículo 52, en cuyo caso la vigencia de la autorización coincidirá con la duración oficial de los estudios. 2. La vigencia se extenderá quince días más allá de la finalización de la actividad o estudios. 5. En el caso de los supuestos previstos en las letras d) y e) del artículo 52.1, solo se permitirá una prórroga por autorización. En el caso de las letras a) y b) de dicho artículo, se permitirán hasta dos prórrogas por autorización.",
+    "art. 56": "Artículo 56. Familiares de la persona titular de una autorización de estancia de larga duración por estudios superiores. 6. Los familiares que sean titulares del visado o de la autorización referidos en el presente artículo no estarán autorizados a trabajar durante su vigencia. 7. Los hijos nacidos en España de la persona extranjera que se encuentre en situación de estancia conforme a lo dispuesto en el artículo 52 adquirirán automáticamente la autorización de estancia de larga duración para familiares. A estos efectos, el padre o la madre deberán solicitar personalmente la autorización de estancia de larga duración en favor del menor en el plazo de los 6 meses siguientes a la fecha del nacimiento.",
+    "art. 57": "Artículo 57. Acceso al empleo de las personas titulares de la autorización. 2. Con carácter general, la actividad laboral a la que se refiere el apartado primero del presente artículo no podrá ser superior a las treinta horas semanales, salvo en el caso de la formación profesional de régimen intensivo que se estará a lo que determine la legislación sectorial. El incumplimiento de dicho límite será causa de extinción de la autorización estancia de larga duración. 3. La autorización se limitará geográficamente a la comunidad autónoma en la que se haya concedido la autorización de estancia de larga duración.",
+    "art. 58": "Artículo 58. Régimen especial de los estudios de especialización en el ámbito sanitario. De acuerdo con el artículo 33.8 de la Ley Orgánica 4/2000, de 11 de enero, se someterán al régimen de estancia de larga duración previsto en este capítulo las personas extranjeras que cursen en España estudios de formación sanitaria especializada de acuerdo con la Ley 44/2003, de 11 de noviembre, de profesiones sanitarias, salvo que ya contasen con una autorización de residencia previamente al inicio de los mismos.",
+    "art. 59": "Artículo 59. Movilidad dentro de la Unión Europea. 1. Las personas estudiantes que posean un visado o una autorización de estancia de larga duración válida para la realización de programas de enseñanza superior, expedida por España, y que participen en un programa de la Unión Europea o multilateral que incluya medidas de movilidad, tendrán derecho a entrar y permanecer en uno o varios Estados miembros, durante un período de hasta trescientos sesenta días por Estado miembro, a fin de realizar parte de sus estudios en una institución de enseñanza superior previa comunicación a las autoridades de dichos Estados.",
+    "art. 72": "Artículo 72. Definición. Se halla en situación de residencia temporal y trabajo por cuenta ajena la persona extranjera mayor de dieciséis años autorizada a residir en España por un periodo superior a noventa días naturales e inferior a cinco años, y a ejercer una actividad laboral por cuenta ajena.",
+    "art. 73": "Artículo 73. Autorización inicial de residencia temporal y trabajo por cuenta ajena. 1. La autorización inicial de residencia temporal y trabajo por cuenta ajena habilitará a sus titulares, siempre que hayan sido dados de alta en el régimen correspondiente de la Seguridad Social dentro del plazo de tres meses desde su entrada legal en España, a residir y trabajar por cuenta ajena en España. La autorización inicial se limitará a un ámbito geográfico autonómico y a una ocupación salvo en los casos en los que no resulte aplicable la situación nacional de empleo. 4. La autorización inicial de residencia temporal y trabajo por cuenta ajena tendrá una duración igual a la de la actividad a desarrollar, con el máximo de un año.",
+    "art. 74": "Artículo 74. Requisitos. 1. Para la concesión de una autorización inicial de residencia temporal y trabajo por cuenta ajena será necesario cumplir los siguientes requisitos específicos: c) Que las condiciones fijadas en el contrato de trabajo se ajusten a las establecidas por la normativa vigente y el convenio colectivo aplicable para la misma actividad, categoría profesional y localidad. En el caso de que la contratación fuera a tiempo parcial, la retribución total a percibir por la persona solicitante deberá ser igual o superior al salario mínimo interprofesional para jornada completa y en cómputo anual.",
+    "art. 75": "Artículo 75. Determinación de la situación nacional de empleo. 1. A los efectos de determinar la situación nacional de empleo, el Servicio Público de Empleo Estatal elaborará, con periodicidad trimestral, de acuerdo con la información suministrada por los servicios públicos de empleo autonómicos y previa consulta de la Comisión Laboral Tripartita de Inmigración, un catálogo de ocupaciones de difícil cobertura para cada Comunidad Autónoma, así como para las ciudades de Ceuta y Melilla.",
+    "art. 76": "Artículo 76. Medios económicos, materiales y personales a acreditar por el empleador. 2. Cuando el empleador requerido sea una persona física, deberá además acreditar que cuenta con medios económicos suficientes para atender sus necesidades y las de su familia. La cuantía mínima exigible se basará en los siguientes porcentajes del salario mínimo interprofesional según el número de personas a su cargo: a) En caso de no existir familiares a cargo del empleador: una cantidad que represente mensualmente el 50 % del SMI. b) En caso de unidades familiares que incluyan dos miembros, contando al empleador solicitante: una cantidad que represente mensualmente el 100 % del SMI. c) En caso de unidades familiares que incluyan más de dos personas: una cantidad que represente mensualmente el 25 % del SMI por cada miembro adicional.",
+    "art. 77": "Artículo 77. Procedimiento. 6. El órgano competente, a la vista de la documentación presentada y de los informes obtenidos, resolverá y notificará de forma motivada en el plazo máximo de tres meses. Transcurrido el plazo de tres meses sin haber obtenido respuesta, se entenderá que la solicitud ha sido desestimada. 8. La eficacia de la autorización quedará suspendida hasta el alta de la persona trabajadora en el régimen correspondiente de Seguridad Social que debe producirse en el plazo de tres meses desde su entrada legal en España.",
+    "art. 78": "Artículo 78. Denegación de las autorizaciones iniciales de residencia temporal y trabajo por cuenta ajena. 1. El órgano u órganos competentes denegarán las autorizaciones iniciales en los supuestos siguientes: c) Cuando el empleador solicitante haya sido sancionado mediante resolución firme en los últimos doce meses por infracciones calificadas como graves o muy graves en la Ley Orgánica 4/2000, de 11 de enero. d) Cuando, para fundamentar la solicitud, se hayan presentado documentos falsos, que hayan sido adquiridos fraudulentamente o manipulados, formulado alegaciones inexactas o medie mala fe.",
+    "art. 79": "Artículo 79. Cambio de empleador. 1. Transcurridos tres meses de la vigencia de la autorización y durante el primer año se permitirá a la persona trabajadora el cambio de empleador en la misma ocupación. 2. Se autorizará el cambio de empleador en cualquier momento de la vigencia de la autorización de residencia y trabajo inicial, si la persona empleadora incumpliera gravemente las obligaciones establecidas en el contrato de trabajo.",
+    "art. 80": "Artículo 80. Renovación de las autorizaciones de residencia temporal y trabajo por cuenta ajena. 1. La renovación deberá solicitarse, en modelo oficial, durante los dos meses previos a la fecha de expiración de la vigencia de su autorización. 9. Transcurrido el plazo de tres meses para resolver y notificar sobre una solicitud de renovación de autorización de residencia y trabajo por cuenta ajena sin que se haya dictado resolución expresa, esta se entenderá estimada.",
+    "art. 81": "Artículo 81. Efectos de la renovación de la autorización de residencia temporal y trabajo por cuenta ajena. 1. La renovación de la autorización de residencia y trabajo por cuenta ajena se hará por un periodo de cuatro años, salvo que corresponda una autorización de residencia de larga duración, y permitirá el ejercicio de cualquier actividad en cualquier parte del territorio nacional, por cuenta ajena y por cuenta propia.",
+    "art. 82": "Artículo 82. Definición, duración y ámbito. Se halla en situación de residencia temporal y trabajo por cuenta propia la persona extranjera mayor de dieciocho años autorizada a residir en España por un periodo superior a noventa días naturales e inferior a cinco años, y a ejercer una actividad lucrativa por cuenta propia.",
+    "art. 83": "Artículo 83. Autorización inicial de residencia temporal y trabajo por cuenta propia. La autorización inicial de residencia temporal y trabajo por cuenta propia tendrá una duración de un año y se limitará a un ámbito geográfico autonómico y a un sector de actividad.",
+    "art. 84": "Artículo 84. Requisitos. Para la concesión de una autorización inicial de residencia temporal y trabajo por cuenta propia será necesario acreditar, los siguientes requisitos específicos: b) Poseer la cualificación profesional legalmente exigida o experiencia acreditada suficiente en el ejercicio de la actividad profesional. c) Acreditar la suficiencia de la inversión prevista para la implantación del proyecto y sobre la incidencia, en su caso, en la creación de empleo, incluyendo como tal el auto empleo.",
+    "art. 85": "Artículo 85. Procedimiento. 4. El órgano competente resolverá sobre la autorización de residencia en el plazo máximo de tres meses desde la recepción de la comunicación de la oficina consular. Transcurrido este plazo sin respuesta, se entenderá que la solicitud ha sido desestimada. 9. Si finalizado el plazo de tres meses de estancia no existiera constancia de que el trabajador se ha dado de alta en el régimen correspondiente de la Seguridad Social, éste quedará obligado a salir del territorio nacional, incurriendo en caso contrario en infracción grave por encontrarse irregularmente en España.",
+    "art. 86": "Artículo 86. Renovación de la autorización de residencia y trabajo por cuenta propia. 2. a) Cuando se acredite la continuidad en la actividad que dio lugar a la autorización que se renueva, previa comprobación de oficio del cumplimiento de sus obligaciones tributarias y de Seguridad Social. Los descubiertos en la cotización a la Seguridad Social no impedirán la renovación de la autorización, siempre que se acredite la realización habitual de la actividad.",
+    "art. 87": "Artículo 87. Efectos de la renovación de la autorización de residencia temporal y trabajo por cuenta propia. 1. La autorización de residencia y trabajo por cuenta propia renovada tendrá una vigencia de cuatro años, salvo que corresponda una autorización de residencia de larga duración, y habilitará a trabajar por cuenta ajena y por cuenta propia en cualquier parte del territorio nacional. 2. Se entenderá que la resolución es favorable en el supuesto de que la Administración no resuelva expresamente en el plazo de tres meses desde la presentación de la solicitud.",
+    "art. 88": "Artículo 88. Excepciones a la autorización de trabajo. Están exceptuados de la obligación de obtener autorización de trabajo para el ejercicio de una actividad lucrativa, laboral o profesional, sin limitación de ámbito geográfico, las personas extranjeras que estén incluidas en el artículo 41 de la Ley Orgánica 4/2000, de 11 de enero, y cumplan las siguientes condiciones: a) Técnicos, investigadores y científicos invitados o contratados por la Administración General del Estado, las Comunidades Autónomas, las universidades, los entes locales o los organismos que tengan por objeto la promoción y el desarrollo de la investigación.",
+    "art. 89": "Artículo 89. Requisitos y procedimiento. 1. La persona trabajadora extranjera no residente en España que esté exceptuada de la obligación de obtener autorización de trabajo, y siempre que la duración prevista de la actividad sea superior a noventa días naturales, deberá presentar una solicitud de autorización de residencia temporal con excepción de la autorización de trabajo. 7. La vigencia de la autorización de residencia temporal con excepción de la autorización de trabajo será igual a la duración de la actividad o programa que se desarrolle, con el límite máximo de un año la autorización inicial, y de cuatro en la prórroga, si subsisten las circunstancias que motivaron la excepción.",
+    "art. 100": "Artículo 100. Definición. Se halla en situación de residencia y trabajo para actividades de temporada la persona extranjera mayor de dieciséis años autorizada a residir en España y a ejercer actividades laborales por cuenta ajena por periodos máximos de nueve meses en un año natural, durante el periodo de vigencia de la autorización, para ejercer una actividad de temporada.",
+    "art. 101": "Artículo 101. Autorización de residencia temporal y trabajo para actividades de temporada. 1. Las autorizaciones de residencia y trabajo para actividades de temporada tendrán una duración de cuatro años y habilitarán a sus titulares, durante su periodo de vigencia, a trabajar por un periodo de actividad máximo de nueve meses durante cada año natural. Las empresas de trabajo temporal no podrán ser titulares de esta autorización de residencia y trabajo para actividades de temporada ni ser autorizados por cambio de empleador o en la cadena de concatenaciones.",
+    "art. 102": "Artículo 102. Requisitos. 1. Para la concesión de las autorizaciones de residencia y trabajo para actividades de temporada, será necesario cumplir con los requisitos establecidos en el artículo 74, con las siguientes especificidades: a) Que la persona trabajadora no resida ni se halle en España. b) Que se formalice por escrito un contrato fijo-discontinuo de conformidad con lo previsto en el artículo 16 de la ley del Estatuto de los Trabajadores. c) Que el empleador ponga a disposición de la persona trabajadora un alojamiento adecuado conforme a lo establecido en el artículo 109.",
+    "art. 103": "Artículo 103. Procedimiento. 2. La presentación de las solicitudes se realizará con una antelación mínima de dos meses al inicio de la actividad laboral prevista, salvo causa motivada. 4. La oficina de extranjería resolverá y notificará de forma motivada en el plazo máximo de un mes. Transcurrido dicho plazo sin haber recaído resolución expresa se entenderá desestimado por silencio administrativo. 6. El empleador deberá proceder al alta en el régimen correspondiente de la Seguridad Social en el plazo máximo de tres días desde la entrada en España de la persona trabajadora.",
+    "art. 104": "Artículo 104. Denegación de la solicitud. 3. Será causa de denegación de la autorización que las personas trabajadoras seleccionados hayan incurrido en alguna de las siguientes circunstancias en los dos años inmediatamente anteriores a la presentación de la solicitud: a) El abandono anticipado e injustificado de la actividad durante la vigencia del contrato. c) El incumplimiento del compromiso de retorno durante la vigencia de una autorización anterior de residencia y trabajo para actividades de temporada.",
+    "art. 105": "Artículo 105. Causas específicas de extinción de la autorización de residencia para actividades de temporada. 3. Si el empleador no diera de alta al trabajador en el régimen correspondiente de la Seguridad Social conforme a lo previsto en el artículo 103.6, se podrá acordar la retirada de la autorización y declarar su extinción. La oficina de extranjería podrá requerir a la persona empleadora que alegue causa justificada de la falta de alta.",
+    "art. 106": "Artículo 106. Llamamientos de las personas titulares de la autorización durante la vigencia de la autorización plurianual. 1. A partir del segundo año de vigencia de la autorización, el empleador deberá comunicar a la autoridad competente, con una antelación mínima de tres meses al inicio de la actividad laboral prevista en ellas salvo causa motivada, el inicio del llamamiento. 2. El nuevo periodo de actividad no podrá ser superior a nueve meses.",
+    "art. 107": "Artículo 107. Derechos y garantías. 1. Los empleadores deberán garantizar a las personas trabajadoras titulares de una autorización de residencia y trabajo para actividades de temporada las siguientes condiciones: c) La organización de los viajes de llegada a España y de regreso al país de origen de la contratación. El empleador asumirá el coste del primero y del segundo, salvo indicación expresa de lo contrario en el documento por el que se compromete a la organización del viaje.",
+    "art. 108": "Artículo 108. Derecho de información. 2. Cuando se expida la autorización se facilitará por la autoridad competente a la persona trabajadora información por escrito sobre sus derechos y obligaciones, incluidos los procedimientos de reclamación y de denuncia en un idioma que comprendan.",
+    "art. 109": "Artículo 109. Alojamiento. 1. El empleador estará obligado a garantizar la puesta a disposición del trabajador de un alojamiento adecuado. El alojamiento se ofrecerá preferentemente de forma gratuita, pero podrá exigirse a la persona trabajadora el pago de una renta que no superará el 15 % del IPREM vigente. Los gastos de suministros, como el agua y la luz, podrán reclamarse a la persona trabajadora, pero en ese caso su suma más la de la renta no podrán ser más del 22 % del IPREM.",
+    "art. 110": "Artículo 110. Cambio de empleador. 1. Se autorizará el cambio de empleador de la persona trabajadora transcurridos tres meses de actividad laboral de cada llamamiento. El nuevo empleador deberá solicitarlo antes de la finalización del periodo de actividad acordado con el anterior empresario. 4. La duración máxima del periodo de actividad, cuando haya cambio de empleador no podrá superar nueve meses durante el año en el que se produzca el cambio.",
+    "art. 111": "Artículo 111. Prórroga de la actividad laboral. El periodo de actividad laboral anual podrá verse prorrogado cuando las personas titulares de la autorización finalicen su relación con el empleador que las contrató. Se admiten prórrogas sucesivas si no superan los nueve meses en el periodo de actividad laboral y hay continuidad entre la finalización de la primera y el inicio de la segunda o sucesivas.",
+    "art. 112": "Artículo 112. Renovación de la autorización tras la finalización de su vigencia. 1. Las autorizaciones de residencia y trabajo para actividades de temporada podrán renovarse tras la finalización de su vigencia, por iguales períodos de cuatro años. 2. La oficina de extranjería resolverá y notificará de forma motivada en el plazo máximo de un mes. Trascurrido dicho plazo se entenderá estimada por silencio administrativo.",
+    "art. 113": "Artículo 113. Definición. 1. La gestión colectiva de contrataciones en origen es el procedimiento para la concesión de múltiples autorizaciones iniciales de residencia y trabajo o de múltiples autorizaciones de residencia y trabajo para actividades de temporada de manera simultánea respecto de aquellas personas trabajadoras extranjeras que no se hallen o residan en España. 2. Las personas trabajadoras extranjeras serán seleccionadas en sus países de procedencia con la participación, en su caso, de las autoridades competentes, sin que éstas ni ningún otro intermediario puedan exigir a aquéllas contraprestación económica por participar en el proceso de selección.",
+    "art. 114": "Artículo 114. Figuras de la gestión colectiva de contrataciones en origen. La gestión colectiva se podrá utilizar para las siguientes figuras: a) Migración de carácter estable para la contratación de forma colectiva de personas trabajadoras extranjeras en origen mediante la gestión simultánea de sus autorizaciones iniciales de residencia y trabajo por cuenta ajena. b) Migración circular para la contratación fijo-discontinua de forma colectiva de personas trabajadoras en su país de procedencia mediante la gestión simultánea de autorizaciones de residencia y trabajo para actividades de temporada. c) Visados de búsqueda de empleo.",
+    "art. 115": "Artículo 115. Previsión anual de la gestión colectiva de las contrataciones en origen. 1. La persona titular del Ministerio de Inclusión, Seguridad Social y Migraciones, teniendo en cuenta la situación nacional de empleo, podrá aprobar anualmente una previsión de las ocupaciones y, en su caso, de la cifra de puestos de trabajo que se podrán cubrir a través de la gestión colectiva de contrataciones en origen. 3. La previsión anual se aprobará mediante orden ministerial y podrá comprender las ocupaciones y, en su caso, las cifras de puestos de trabajo.",
+    "art. 116": "Artículo 116. Requisitos. 1. En relación con las autorizaciones iniciales de residencia y trabajo para la migración estable, será necesario cumplir los requisitos específicos establecidos en el artículo 74. Se requerirá también contar con el visado correspondiente. 2. En relación con las autorizaciones de residencia y trabajo para actividades de temporada y para los llamamientos anuales posteriores, será necesario cumplir respectivamente los requisitos previstos en el artículo 102 y 106 de este Reglamento.",
+    "art. 117": "Artículo 117. Denegación y extinción. 1. Las solicitudes de autorización presentadas a través de la gestión colectiva se denegarán si el empleador ha incurrido, en los dos años anteriores a la presentación de la solicitud, en alguno de los motivos de denegación establecidos en la normativa específica. 2. Si concurriera alguna de las circunstancias del apartado anterior, la Dirección General de Gestión Migratoria podrá denegar de forma motivada las solicitudes de gestión de las ofertas de empleo presentadas por el empleador.",
+    "art. 118": "Artículo 118. Garantías y derechos. 1. En relación con las personas contratadas mediante migración estable, además de las previstas en la regulación específica referida a las autorizaciones iniciales de residencia y trabajo, las establecidas para las personas trabajadoras titulares de autorizaciones de residencia y trabajo para actividades de temporada en las letras b), c), e) y g) del artículo 107. No obstante, el empleador sólo asumirá el coste del viaje de llegada a España desde el país de origen de la contratación y los desplazamientos entre el punto de llegada y el alojamiento.",
+    "art. 119": "Artículo 119. Derecho de información. 3. El empleador deberá garantizar que la persona trabajadora seleccionada, antes de la firma de su contrato, dispone de información clara y, en un idioma que comprenda, acerca de las garantías, derechos y, en su caso, obligaciones contraídas al participar en la gestión colectiva de contrataciones en origen.",
+    "art. 120": "Artículo 120. Formación. Teniendo en cuenta las características del puesto de trabajo que se vaya a desempeñar, se podrán desarrollar cursos de formación, en España o en los países de procedencia, dirigidos a las personas trabajadoras que hayan sido seleccionadas o preseleccionadas. Esta formación será totalmente gratuita para los trabajadores.",
+    "art. 121": "Artículo 121. Sujetos legitimados para solicitar la gestión colectiva de ofertas de empleo. 3. Las ofertas de empleo presentadas por los empleadores irán dirigidas a la contratación de personas trabajadoras a través de las figuras de migración de carácter estable y de migración circular, y podrán formularse de forma genérica o nominativa. 4. Las ofertas tanto genéricas como nominativas deberán contener un mínimo de diez puestos de trabajo, salvo que en la Orden Ministerial que recoge la previsión anual se fije un límite distinto.",
+    "art. 122": "Artículo 122. Tramitación del procedimiento de ofertas genéricas. 2. La presentación de las solicitudes se realizará por medios electrónicos, con una antelación mínima de tres meses al inicio de la actividad laboral prevista en ellas, salvo causa motivada. 10. Posteriormente, la persona titular de la Delegación o Subdelegación de Gobierno competente emitirá resolución en el plazo máximo de un mes, que deberá notificarse de inmediato al empleador solicitante.",
+    "art. 123": "Artículo 123. Tramitación del procedimiento de ofertas nominativas. 1. Podrán solicitarse la gestión colectiva de ofertas nominativas de empleo en los siguientes supuestos: a) Cuando las personas trabajadoras hayan sido titulares de una autorización de residencia temporal y trabajo previa en España para actividades de temporada y hayan acreditado el regreso al país de origen de la contratación. 2. La tramitación se realizará según lo previsto para las ofertas genéricas, excepto para el proceso de selección, que ya fue realizado."
+  },
+  "conceptos": [
+    {
+      "id": "EXTR-150",
+      "articulo": "art. 53",
+      "titulo": "Requisitos de la autorización por estudios superiores",
+      "resumen": "Para estudiar estudios superiores hay que estar admitido por un centro reconocido y haber pagado la matrícula.",
+      "explicacion": "El artículo 53 fija los requisitos específicos de cada supuesto. Para los estudios superiores, además de la admisión en la institución reconocida, exige acreditar el pago de los derechos de inscripción o matrícula."
+    },
+    {
+      "id": "EXTR-151",
+      "articulo": "art. 54",
+      "titulo": "Plazo de emisión de los informes en el procedimiento por estudios",
+      "resumen": "En el procedimiento por estudios, el informe de penados y el policial se emiten en cinco días.",
+      "explicacion": "El artículo 54 regula el procedimiento. Para valorar la ausencia de amenaza para el orden público, la oficina de extranjería recaba de oficio el informe del registro de penados y el informe policial, que deben emitirse en un plazo breve y tasado."
+    },
+    {
+      "id": "EXTR-152",
+      "articulo": "art. 55",
+      "titulo": "Número de prórrogas en estudios superiores y secundaria",
+      "resumen": "En estudios superiores y secundaria postobligatoria se permiten hasta dos prórrogas por autorización.",
+      "explicacion": "El artículo 55 distingue el número de prórrogas según el supuesto: en voluntariado y actividades formativas (letras d y e) solo una, mientras que en estudios superiores y secundaria postobligatoria (letras a y b) se admiten dos."
+    },
+    {
+      "id": "EXTR-153",
+      "articulo": "art. 56",
+      "titulo": "Los familiares del estudiante no pueden trabajar",
+      "resumen": "Los familiares del titular de la autorización por estudios no están autorizados a trabajar.",
+      "explicacion": "El artículo 56 permite a los familiares del estudiante de estudios superiores obtener autorización para acompañarle, pero su permanencia queda vinculada a la del titular y no les habilita para ejercer ninguna actividad laboral."
+    },
+    {
+      "id": "EXTR-154",
+      "articulo": "art. 57",
+      "titulo": "Límite de horas de trabajo del estudiante",
+      "resumen": "Con carácter general, el estudiante no puede trabajar más de treinta horas semanales.",
+      "explicacion": "El artículo 57 permite al titular de la autorización por estudios compatibilizar una actividad laboral con los estudios, pero limita su jornada para que la actividad principal siga siendo la formativa; superar ese límite extingue la autorización."
+    },
+    {
+      "id": "EXTR-155",
+      "articulo": "art. 58",
+      "titulo": "Régimen de los estudios de especialización sanitaria",
+      "resumen": "Quien cursa formación sanitaria especializada se somete al régimen de estancia de larga duración por estudios.",
+      "explicacion": "El artículo 58 aclara que los extranjeros que obtengan plaza de formación sanitaria especializada (MIR y equivalentes) se rigen por el régimen de estancia de larga duración por estudios, salvo que ya tuvieran una autorización de residencia previa."
+    },
+    {
+      "id": "EXTR-156",
+      "articulo": "art. 59",
+      "titulo": "Movilidad de estudiantes en la Unión Europea",
+      "resumen": "El estudiante con autorización española puede estudiar en otro Estado miembro hasta 360 días.",
+      "explicacion": "El artículo 59 traspone la movilidad de la Directiva 2016/801: el estudiante que participa en un programa de la Unión puede cursar parte de sus estudios en otros Estados miembros durante un periodo máximo por Estado, previa comunicación a sus autoridades."
+    },
+    {
+      "id": "EXTR-157",
+      "articulo": "art. 72",
+      "titulo": "Definición de residencia temporal y trabajo por cuenta ajena",
+      "resumen": "Es la situación del extranjero mayor de dieciséis años autorizado a residir y a trabajar por cuenta ajena.",
+      "explicacion": "El artículo 72 define esta situación por tres notas: edad mínima de dieciséis años, residencia autorizada superior a noventa días e inferior a cinco años, y el ejercicio de una actividad laboral por cuenta ajena."
+    },
+    {
+      "id": "EXTR-158",
+      "articulo": "art. 73",
+      "titulo": "Plazo de alta en la Seguridad Social (cuenta ajena)",
+      "resumen": "El titular debe ser dado de alta en la Seguridad Social en tres meses desde su entrada legal.",
+      "explicacion": "El artículo 73 condiciona la habilitación de la autorización inicial por cuenta ajena a que el alta en la Seguridad Social se produzca dentro de un plazo tasado contado desde la entrada legal en España."
+    },
+    {
+      "id": "EXTR-159",
+      "articulo": "art. 74",
+      "titulo": "Retribución mínima en contrato a tiempo parcial",
+      "resumen": "Si el contrato es a tiempo parcial, la retribución debe igualar al menos el SMI a jornada completa en cómputo anual.",
+      "explicacion": "El artículo 74 exige que las condiciones del contrato se ajusten al convenio; y en la contratación a tiempo parcial impone un suelo retributivo referido al salario mínimo interprofesional para jornada completa en cómputo anual."
+    },
+    {
+      "id": "EXTR-160",
+      "articulo": "art. 75",
+      "titulo": "Periodicidad del catálogo de ocupaciones de difícil cobertura",
+      "resumen": "El SEPE elabora con periodicidad trimestral el catálogo de ocupaciones de difícil cobertura.",
+      "explicacion": "El artículo 75 sitúa la situación nacional de empleo en el catálogo de ocupaciones de difícil cobertura, que el Servicio Público de Empleo Estatal elabora de forma periódica por comunidad autónoma."
+    },
+    {
+      "id": "EXTR-161",
+      "articulo": "art. 76",
+      "titulo": "Medios del empleador persona física sin familiares a cargo",
+      "resumen": "El empleador persona física sin familiares a cargo debe acreditar el 50 % del SMI mensual.",
+      "explicacion": "El artículo 76 gradúa los medios económicos que debe acreditar el empleador persona física en función de las personas a su cargo, descontado el salario del trabajador; sin familiares a cargo el umbral es la mitad del SMI."
+    },
+    {
+      "id": "EXTR-162",
+      "articulo": "art. 77",
+      "titulo": "Sentido del silencio en la autorización inicial por cuenta ajena",
+      "resumen": "Si no se resuelve en tres meses, la solicitud inicial por cuenta ajena se entiende desestimada.",
+      "explicacion": "El artículo 77 fija en tres meses el plazo máximo para resolver la autorización inicial por cuenta ajena y anuda al transcurso de ese plazo, sin respuesta, un silencio administrativo negativo."
+    },
+    {
+      "id": "EXTR-163",
+      "articulo": "art. 78",
+      "titulo": "Denegación por sanción firme del empleador",
+      "resumen": "Se deniega si el empleador fue sancionado por resolución firme en los últimos doce meses por infracciones graves o muy graves.",
+      "explicacion": "El artículo 78 enumera las causas de denegación de la autorización inicial por cuenta ajena; una de ellas atiende a la conducta del empleador sancionado con firmeza por infracciones graves o muy graves en un periodo reciente."
+    },
+    {
+      "id": "EXTR-164",
+      "articulo": "art. 79",
+      "titulo": "Cambio de empleador con carácter general",
+      "resumen": "Se permite cambiar de empleador tras tres meses de vigencia y durante el primer año, en la misma ocupación.",
+      "explicacion": "El artículo 79 abre el cambio de empleador con carácter general una vez consolidada la relación inicial, exigiendo que se mantenga la misma ocupación durante el primer año de la autorización."
+    },
+    {
+      "id": "EXTR-165",
+      "articulo": "art. 80",
+      "titulo": "Sentido del silencio en la renovación por cuenta ajena",
+      "resumen": "En la renovación por cuenta ajena, el silencio a los tres meses es positivo: se entiende estimada.",
+      "explicacion": "El artículo 80 invierte la regla del silencio respecto de la autorización inicial: en la renovación por cuenta ajena, transcurrido el plazo para resolver sin respuesta, la solicitud se entiende estimada."
+    },
+    {
+      "id": "EXTR-166",
+      "articulo": "art. 81",
+      "titulo": "Periodo y alcance de la autorización renovada por cuenta ajena",
+      "resumen": "La renovación por cuenta ajena se hace por cuatro años y permite trabajar en todo el territorio, por cuenta ajena y propia.",
+      "explicacion": "El artículo 81 amplía notablemente el alcance tras la primera renovación: cuatro años de vigencia, salvo que proceda la larga duración, y habilitación para cualquier actividad y ámbito, por cuenta ajena y propia."
+    },
+    {
+      "id": "EXTR-167",
+      "articulo": "art. 82",
+      "titulo": "Definición de residencia temporal y trabajo por cuenta propia",
+      "resumen": "Es la situación del extranjero mayor de dieciocho años autorizado a residir y a ejercer una actividad por cuenta propia.",
+      "explicacion": "El artículo 82 define la residencia y trabajo por cuenta propia; a diferencia de la cuenta ajena, la edad mínima es de dieciocho años, coherente con la capacidad para desarrollar una actividad lucrativa autónoma."
+    },
+    {
+      "id": "EXTR-168",
+      "articulo": "art. 83",
+      "titulo": "Duración de la autorización inicial por cuenta propia",
+      "resumen": "La autorización inicial por cuenta propia dura un año y se limita a un ámbito autonómico y a un sector.",
+      "explicacion": "El artículo 83 fija la vigencia de la autorización inicial por cuenta propia en un año y acota su alcance a un ámbito geográfico autonómico y a un sector de actividad."
+    },
+    {
+      "id": "EXTR-169",
+      "articulo": "art. 84",
+      "titulo": "Requisito de inversión en el trabajo por cuenta propia",
+      "resumen": "Hay que acreditar la suficiencia de la inversión prevista para implantar el proyecto.",
+      "explicacion": "El artículo 84 enumera los requisitos específicos del trabajo por cuenta propia; entre ellos, acreditar que la inversión prevista es suficiente para implantar el proyecto y su incidencia en la creación de empleo, incluido el autoempleo."
+    },
+    {
+      "id": "EXTR-170",
+      "articulo": "art. 85",
+      "titulo": "Consecuencia de no darse de alta en tres meses (cuenta propia)",
+      "resumen": "Si en tres meses no consta el alta en la Seguridad Social, el trabajador queda obligado a salir del territorio.",
+      "explicacion": "El artículo 85 condiciona la eficacia de la autorización por cuenta propia al alta en la Seguridad Social dentro de los tres meses siguientes a la entrada; su incumplimiento obliga a salir de España e incurre en infracción grave por estancia irregular."
+    },
+    {
+      "id": "EXTR-171",
+      "articulo": "art. 86",
+      "titulo": "Descubiertos de cotización y renovación por cuenta propia",
+      "resumen": "Los descubiertos de cotización no impiden la renovación si se acredita la actividad habitual.",
+      "explicacion": "El artículo 86 evita que una deuda con la Seguridad Social bloquee por sí sola la renovación del autónomo extranjero: no impide renovar si se acredita que la actividad se ejerce de forma habitual, sin perjuicio de comunicarlo a la Inspección."
+    },
+    {
+      "id": "EXTR-172",
+      "articulo": "art. 87",
+      "titulo": "Sentido del silencio en la renovación por cuenta propia",
+      "resumen": "Si la Administración no resuelve en tres meses, la renovación por cuenta propia se entiende favorable.",
+      "explicacion": "El artículo 87 regula los efectos de la renovación por cuenta propia (cuatro años y trabajo en todo el territorio) y establece un silencio positivo cuando no se resuelve en el plazo de tres meses."
+    },
+    {
+      "id": "EXTR-173",
+      "articulo": "art. 88",
+      "titulo": "Ámbito de la excepción de la autorización de trabajo",
+      "resumen": "Los supuestos exceptuados de autorización de trabajo lo están sin limitación de ámbito geográfico.",
+      "explicacion": "El artículo 88 exceptúa de obtener autorización de trabajo a ciertos colectivos del artículo 41 de la LO 4/2000 (investigadores, docentes, corresponsales, ministros de culto...), y precisa que esa excepción opera sin límite territorial."
+    },
+    {
+      "id": "EXTR-174",
+      "articulo": "art. 89",
+      "titulo": "Vigencia de la autorización con excepción del trabajo",
+      "resumen": "La autorización con excepción del trabajo dura como máximo un año la inicial y cuatro la prórroga.",
+      "explicacion": "El artículo 89 fija la duración de la autorización de residencia temporal con excepción de la autorización de trabajo en función de la actividad, con un tope de un año para la inicial y de cuatro para la prórroga si subsisten las circunstancias."
+    },
+    {
+      "id": "EXTR-175",
+      "articulo": "art. 100",
+      "titulo": "Definición del trabajo para actividades de temporada",
+      "resumen": "El temporero puede trabajar por cuenta ajena por periodos máximos de nueve meses en un año natural.",
+      "explicacion": "El artículo 100 define la residencia y trabajo para actividades de temporada por su límite de actividad: nueve meses como máximo dentro de cada año natural, ligado a una actividad de temporada concreta."
+    },
+    {
+      "id": "EXTR-176",
+      "articulo": "art. 101",
+      "titulo": "Duración de la autorización para actividades de temporada",
+      "resumen": "La autorización para actividades de temporada dura cuatro años (autorización plurianual).",
+      "explicacion": "El artículo 101 configura una autorización plurianual: cuatro años de vigencia que habilitan, cada año natural, a trabajar hasta nueve meses, normalmente para un único empleador."
+    },
+    {
+      "id": "EXTR-177",
+      "articulo": "art. 101",
+      "titulo": "Las ETT no pueden ser titulares de la autorización de temporada",
+      "resumen": "Las empresas de trabajo temporal no pueden ser titulares de la autorización para actividades de temporada.",
+      "explicacion": "El artículo 101 excluye expresamente a las empresas de trabajo temporal como titulares de esta autorización, ni siquiera por cambio de empleador o en la cadena de concatenaciones, para evitar la intermediación en la contratación en origen."
+    },
+    {
+      "id": "EXTR-178",
+      "articulo": "art. 102",
+      "titulo": "Tipo de contrato exigido en las actividades de temporada",
+      "resumen": "En temporada debe formalizarse por escrito un contrato fijo-discontinuo.",
+      "explicacion": "El artículo 102 remite a los requisitos del artículo 74 con especificidades; una esencial es que el vínculo se formalice por escrito como contrato fijo-discontinuo conforme al Estatuto de los Trabajadores."
+    },
+    {
+      "id": "EXTR-179",
+      "articulo": "art. 103",
+      "titulo": "Plazo de alta en la Seguridad Social del temporero",
+      "resumen": "El empleador debe dar de alta al temporero en la Seguridad Social en tres días desde su entrada.",
+      "explicacion": "El artículo 103 aplica el procedimiento del artículo 77 con especialidades; en temporada, el alta en la Seguridad Social debe practicarse en un plazo muy breve tras la entrada del trabajador en España."
+    },
+    {
+      "id": "EXTR-180",
+      "articulo": "art. 104",
+      "titulo": "Periodo para valorar el incumplimiento del trabajador (temporada)",
+      "resumen": "Es causa de denegación que el trabajador incurriera en ciertas conductas en los dos años anteriores.",
+      "explicacion": "El artículo 104 permite denegar la autorización de temporada cuando el trabajador seleccionado incurrió, en un periodo reciente, en conductas como el abandono injustificado o el incumplimiento del compromiso de retorno."
+    },
+    {
+      "id": "EXTR-181",
+      "articulo": "art. 105",
+      "titulo": "Extinción por falta de alta del temporero",
+      "resumen": "Si el empleador no da de alta al temporero, se puede retirar la autorización y declarar su extinción.",
+      "explicacion": "El artículo 105 recoge causas específicas de extinción de la autorización de temporada; entre ellas, la falta de alta del trabajador en la Seguridad Social conforme al artículo 103.6, que puede acarrear la retirada de la autorización."
+    },
+    {
+      "id": "EXTR-182",
+      "articulo": "art. 106",
+      "titulo": "Antelación del llamamiento del temporero",
+      "resumen": "A partir del segundo año el empleador comunica el llamamiento con tres meses de antelación.",
+      "explicacion": "El artículo 106 regula los llamamientos anuales dentro de la autorización plurianual: el empleador debe comunicarlos con antelación suficiente al inicio de la actividad, y el nuevo periodo no puede superar nueve meses."
+    },
+    {
+      "id": "EXTR-183",
+      "articulo": "art. 107",
+      "titulo": "Coste de los viajes del temporero",
+      "resumen": "El empleador asume el coste del viaje de llegada y del de regreso del temporero.",
+      "explicacion": "El artículo 107 impone al empleador garantías reforzadas al temporero; entre ellas, organizar los viajes de llegada y regreso y asumir su coste, salvo indicación expresa en contrario en el documento de compromiso."
+    },
+    {
+      "id": "EXTR-184",
+      "articulo": "art. 108",
+      "titulo": "Información por escrito al temporero",
+      "resumen": "Al expedir la autorización se facilita al temporero información por escrito sobre sus derechos y obligaciones.",
+      "explicacion": "El artículo 108 refuerza el derecho de información del temporero: cuando se expide la autorización, la autoridad competente le entrega información por escrito, en idioma comprensible, sobre sus derechos, obligaciones y vías de reclamación."
+    },
+    {
+      "id": "EXTR-185",
+      "articulo": "art. 109",
+      "titulo": "Renta máxima por el alojamiento del temporero",
+      "resumen": "La renta por el alojamiento no puede superar el 15 % del IPREM.",
+      "explicacion": "El artículo 109 obliga al empleador a poner un alojamiento adecuado a disposición del temporero; puede exigir una renta, pero con un tope referido al IPREM, y con otro tope superior cuando se suman los suministros."
+    },
+    {
+      "id": "EXTR-186",
+      "articulo": "art. 110",
+      "titulo": "Cambio de empleador en la autorización de temporada",
+      "resumen": "Se autoriza el cambio de empleador tras tres meses de actividad de cada llamamiento.",
+      "explicacion": "El artículo 110 permite al temporero cambiar de empleador una vez transcurrido un mínimo de actividad de cada llamamiento, manteniendo los requisitos de la autorización inicial y sin superar los nueve meses anuales sumados."
+    },
+    {
+      "id": "EXTR-187",
+      "articulo": "art. 111",
+      "titulo": "Límite de las prórrogas de la actividad de temporada",
+      "resumen": "Se admiten prórrogas sucesivas si no superan los nueve meses del periodo de actividad.",
+      "explicacion": "El artículo 111 permite prorrogar el periodo de actividad anual con el mismo o distinto empleador, siempre en la misma ocupación y sector, con el tope general de nueve meses y exigiendo continuidad entre tramos."
+    },
+    {
+      "id": "EXTR-188",
+      "articulo": "art. 112",
+      "titulo": "Periodo de renovación de la autorización de temporada",
+      "resumen": "La autorización de temporada se renueva por iguales periodos de cuatro años.",
+      "explicacion": "El artículo 112 permite renovar la autorización plurianual de temporada por periodos idénticos de cuatro años, pudiendo cambiar de empleador, ocupación y ámbito, pero manteniendo el mismo sector de actividad."
+    },
+    {
+      "id": "EXTR-189",
+      "articulo": "art. 113",
+      "titulo": "Prohibición de cobrar al trabajador en la selección en origen",
+      "resumen": "En la gestión colectiva, ni autoridades ni intermediarios pueden exigir contraprestación económica al trabajador.",
+      "explicacion": "El artículo 113 define la gestión colectiva como la concesión simultánea de múltiples autorizaciones a partir de ofertas empresariales, y garantiza la gratuidad del proceso de selección para el trabajador en origen."
+    },
+    {
+      "id": "EXTR-190",
+      "articulo": "art. 114",
+      "titulo": "Figuras de la gestión colectiva de contrataciones en origen",
+      "resumen": "Una figura es la migración circular para contratación fijo-discontinua.",
+      "explicacion": "El artículo 114 enumera las figuras de la gestión colectiva: migración estable (cuenta ajena inicial), migración circular (fijo-discontinuo de temporada con llamamientos) y visados de búsqueda de empleo."
+    },
+    {
+      "id": "EXTR-191",
+      "articulo": "art. 115",
+      "titulo": "Instrumento de aprobación de la previsión anual",
+      "resumen": "La previsión anual de la gestión colectiva se aprueba mediante orden ministerial.",
+      "explicacion": "El artículo 115 atribuye al Ministerio competente la aprobación anual de una previsión de ocupaciones y puestos cubiertos por la gestión colectiva, que se formaliza mediante orden ministerial."
+    },
+    {
+      "id": "EXTR-192",
+      "articulo": "art. 116",
+      "titulo": "Requisitos de la migración estable en gestión colectiva",
+      "resumen": "La migración estable exige cumplir los requisitos del artículo 74 y contar con visado.",
+      "explicacion": "El artículo 116 remite, para la migración estable de la gestión colectiva, a los requisitos específicos de la autorización inicial por cuenta ajena del artículo 74, añadiendo la necesidad de visado."
+    },
+    {
+      "id": "EXTR-193",
+      "articulo": "art. 117",
+      "titulo": "Órgano que deniega las ofertas en gestión colectiva",
+      "resumen": "La Dirección General de Gestión Migratoria puede denegar de forma motivada las solicitudes de gestión de ofertas.",
+      "explicacion": "El artículo 117 permite denegar las solicitudes cuando el empleador incurrió en causas de denegación en los dos años anteriores; y atribuye a la Dirección General de Gestión Migratoria la facultad de denegar de forma motivada la gestión de las ofertas."
+    },
+    {
+      "id": "EXTR-194",
+      "articulo": "art. 118",
+      "titulo": "Coste del viaje en la migración estable",
+      "resumen": "En migración estable el empleador solo asume el coste del viaje de llegada a España.",
+      "explicacion": "El artículo 118 extiende garantías del temporero a la migración estable, pero modula el coste del viaje: el empleador solo asume el de llegada a España y los desplazamientos hasta el alojamiento, no el de regreso."
+    },
+    {
+      "id": "EXTR-195",
+      "articulo": "art. 119",
+      "titulo": "Información previa a la firma en la gestión colectiva",
+      "resumen": "Antes de firmar, el trabajador seleccionado debe disponer de información clara en un idioma que comprenda.",
+      "explicacion": "El artículo 119 obliga al empleador a garantizar que la persona seleccionada dispone, antes de firmar, de información clara y en idioma comprensible sobre garantías, derechos y obligaciones y las condiciones de la oferta."
+    },
+    {
+      "id": "EXTR-196",
+      "articulo": "art. 120",
+      "titulo": "Gratuidad de la formación en la gestión colectiva",
+      "resumen": "Los cursos de formación de la gestión colectiva son totalmente gratuitos para los trabajadores.",
+      "explicacion": "El artículo 120 prevé cursos de formación en España o en origen para las personas seleccionadas o preseleccionadas, y garantiza que sean totalmente gratuitos para los trabajadores."
+    },
+    {
+      "id": "EXTR-197",
+      "articulo": "art. 121",
+      "titulo": "Número mínimo de puestos por oferta",
+      "resumen": "Las ofertas, genéricas o nominativas, deben contener un mínimo de diez puestos de trabajo.",
+      "explicacion": "El artículo 121 exige que cada oferta de empleo reúna un mínimo de puestos para tramitarse por gestión colectiva, salvo que la orden anual fije otro límite, admitiéndose acumular ofertas de varios empleadores."
+    },
+    {
+      "id": "EXTR-198",
+      "articulo": "art. 122",
+      "titulo": "Antelación de las solicitudes de ofertas genéricas",
+      "resumen": "Las ofertas genéricas se presentan con una antelación mínima de tres meses al inicio de la actividad.",
+      "explicacion": "El artículo 122 exige presentar las solicitudes de ofertas genéricas por medios electrónicos con antelación suficiente al inicio de la actividad, y fija en un mes el plazo para que se resuelva."
+    },
+    {
+      "id": "EXTR-199",
+      "articulo": "art. 123",
+      "titulo": "Supuesto de las ofertas nominativas",
+      "resumen": "Cabe oferta nominativa cuando el trabajador fue titular de una autorización de temporada previa y acreditó su regreso.",
+      "explicacion": "El artículo 123 admite ofertas nominativas cuando el trabajador ya fue titular de una autorización de temporada en España y acreditó el regreso al país de origen; su tramitación sigue la de las genéricas salvo la selección, ya realizada."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "EXTR-150",
+      "articulo": "art. 53",
+      "tipo": "test",
+      "enunciado": "Además de haber sido admitido en un centro reconocido, ¿qué debe acreditar quien solicita la autorización para realizar estudios superiores?",
+      "opciones": [
+        "Haber abonado los derechos de inscripción, matrícula o documento equivalente",
+        "Haber residido de forma continuada un año en territorio español",
+        "Haber firmado un contrato de trabajo por cuenta ajena a jornada completa",
+        "Haber superado una prueba oficial de conocimiento del idioma español"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2.º Haber abonado los derechos de inscripción, matrícula o documento equivalente exigidos por la institución o el centro de enseñanza correspondiente.",
+      "justificacion": "Art. 53.1.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-151",
+      "articulo": "art. 54",
+      "tipo": "test",
+      "enunciado": "En el procedimiento de autorización por estudios, ¿en qué plazo deben emitirse el informe del registro de penados y el informe policial?",
+      "opciones": [
+        "en el plazo de cinco días",
+        "en el plazo de siete días",
+        "en el plazo de diez días",
+        "en el plazo de quince días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Estos informes serán emitidos en el plazo de cinco días.",
+      "justificacion": "Art. 54.4 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-152",
+      "articulo": "art. 55",
+      "tipo": "test",
+      "enunciado": "En los supuestos de estudios superiores y educación secundaria postobligatoria (letras a y b), ¿cuántas prórrogas se permiten por autorización?",
+      "opciones": [
+        "se permitirán hasta dos prórrogas por autorización",
+        "se permitirá una única prórroga por autorización",
+        "se permitirán hasta tres prórrogas por autorización",
+        "se permitirán prórrogas sucesivas sin un límite fijado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En el caso de las letras a) y b) de dicho artículo, se permitirán hasta dos prórrogas por autorización.",
+      "justificacion": "Art. 55.5 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-153",
+      "articulo": "art. 56",
+      "tipo": "test",
+      "enunciado": "¿Pueden trabajar los familiares del titular de una autorización de estancia por estudios superiores?",
+      "opciones": [
+        "no estarán autorizados a trabajar durante su vigencia",
+        "podrán trabajar por cuenta ajena a tiempo parcial únicamente",
+        "podrán trabajar previa autorización de la oficina de extranjería",
+        "estarán autorizados a trabajar solo por cuenta propia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los familiares que sean titulares del visado o de la autorización referidos en el presente artículo no estarán autorizados a trabajar durante su vigencia.",
+      "justificacion": "Art. 56.6 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-154",
+      "articulo": "art. 57",
+      "tipo": "test",
+      "enunciado": "Con carácter general, ¿cuál es el máximo de jornada laboral que puede realizar el titular de una autorización por estudios?",
+      "opciones": [
+        "las treinta horas semanales",
+        "las veinte horas semanales",
+        "las cuarenta horas semanales",
+        "las cuarenta y ocho horas semanales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la actividad laboral a la que se refiere el apartado primero del presente artículo no podrá ser superior a las treinta horas semanales",
+      "justificacion": "Art. 57.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-155",
+      "articulo": "art. 58",
+      "tipo": "test",
+      "enunciado": "¿A qué régimen se someten los extranjeros que cursan en España estudios de formación sanitaria especializada?",
+      "opciones": [
+        "al régimen de estancia de larga duración previsto en este capítulo",
+        "al régimen general de residencia temporal y trabajo por cuenta ajena",
+        "al régimen de residencia temporal con excepción de la autorización de trabajo",
+        "al régimen de residencia de larga duración-Unión Europea"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se someterán al régimen de estancia de larga duración previsto en este capítulo las personas extranjeras que cursen en España estudios de formación sanitaria especializada",
+      "justificacion": "Art. 58 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-156",
+      "articulo": "art. 59",
+      "tipo": "test",
+      "enunciado": "El estudiante con autorización española que participe en un programa de la Unión, ¿durante cuánto tiempo puede permanecer en cada Estado miembro?",
+      "opciones": [
+        "hasta trescientos sesenta días por Estado miembro",
+        "hasta ciento ochenta días por Estado miembro",
+        "hasta noventa días por Estado miembro",
+        "hasta cuatrocientos veinte días por Estado miembro"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "tendrán derecho a entrar y permanecer en uno o varios Estados miembros, durante un período de hasta trescientos sesenta días por Estado miembro",
+      "justificacion": "Art. 59.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-157",
+      "articulo": "art. 72",
+      "tipo": "test",
+      "enunciado": "¿Qué edad mínima exige la situación de residencia temporal y trabajo por cuenta ajena?",
+      "opciones": [
+        "mayor de dieciséis años",
+        "mayor de dieciocho años",
+        "mayor de veintiún años",
+        "mayor de veintitrés años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se halla en situación de residencia temporal y trabajo por cuenta ajena la persona extranjera mayor de dieciséis años",
+      "justificacion": "Art. 72 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-158",
+      "articulo": "art. 73",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo desde su entrada legal debe darse de alta en la Seguridad Social el titular de la autorización inicial por cuenta ajena?",
+      "opciones": [
+        "dentro del plazo de tres meses desde su entrada legal en España",
+        "dentro del plazo de un mes desde su entrada legal en España",
+        "dentro del plazo de quince días desde su entrada legal en España",
+        "dentro del plazo de seis meses desde su entrada legal en España"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "siempre que hayan sido dados de alta en el régimen correspondiente de la Seguridad Social dentro del plazo de tres meses desde su entrada legal en España",
+      "justificacion": "Art. 73.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-159",
+      "articulo": "art. 74",
+      "tipo": "test",
+      "enunciado": "En una contratación por cuenta ajena a tiempo parcial, ¿qué retribución mínima debe percibir la persona solicitante?",
+      "opciones": [
+        "igual o superior al salario mínimo interprofesional para jornada completa y en cómputo anual",
+        "igual o superior al doble del salario mínimo interprofesional en cómputo mensual",
+        "igual o superior al indicador público de renta de efectos múltiples anual",
+        "proporcional a la jornada pactada según el convenio colectivo aplicable"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la retribución total a percibir por la persona solicitante deberá ser igual o superior al salario mínimo interprofesional para jornada completa y en cómputo anual",
+      "justificacion": "Art. 74.1.c) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-160",
+      "articulo": "art. 75",
+      "tipo": "test",
+      "enunciado": "¿Con qué periodicidad elabora el Servicio Público de Empleo Estatal el catálogo de ocupaciones de difícil cobertura?",
+      "opciones": [
+        "con periodicidad trimestral",
+        "con periodicidad mensual",
+        "con periodicidad semestral",
+        "con periodicidad anual"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el Servicio Público de Empleo Estatal elaborará, con periodicidad trimestral,",
+      "justificacion": "Art. 75.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-161",
+      "articulo": "art. 76",
+      "tipo": "test",
+      "enunciado": "¿Qué cuantía mínima debe acreditar mensualmente el empleador persona física que no tiene familiares a cargo?",
+      "opciones": [
+        "el 50 % del SMI",
+        "el 100 % del SMI",
+        "el 25 % del SMI",
+        "el 150 % del SMI"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En caso de no existir familiares a cargo del empleador: una cantidad que represente mensualmente el 50 % del SMI.",
+      "justificacion": "Art. 76.2.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-162",
+      "articulo": "art. 77",
+      "tipo": "test",
+      "enunciado": "Transcurrido el plazo de tres meses sin respuesta, ¿qué sentido tiene el silencio en la autorización inicial por cuenta ajena?",
+      "opciones": [
+        "se entenderá que la solicitud ha sido desestimada",
+        "se entenderá que la solicitud ha sido estimada",
+        "se entenderá prorrogada la situación legal anterior",
+        "se procederá sin más al archivo de las actuaciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Transcurrido el plazo de tres meses sin haber obtenido respuesta, se entenderá que la solicitud ha sido desestimada.",
+      "justificacion": "Art. 77.6 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-163",
+      "articulo": "art. 78",
+      "tipo": "test",
+      "enunciado": "¿En qué periodo previo la sanción firme del empleador por infracciones graves o muy graves impide conceder la autorización?",
+      "opciones": [
+        "en los últimos doce meses",
+        "en los últimos seis meses",
+        "en los últimos veinticuatro meses",
+        "en los últimos tres años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cuando el empleador solicitante haya sido sancionado mediante resolución firme en los últimos doce meses por infracciones calificadas como graves o muy graves",
+      "justificacion": "Art. 78.1.c) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-164",
+      "articulo": "art. 79",
+      "tipo": "test",
+      "enunciado": "Con carácter general, ¿cuándo se permite a la persona trabajadora el cambio de empleador en la misma ocupación?",
+      "opciones": [
+        "Transcurridos tres meses de la vigencia de la autorización y durante el primer año",
+        "Transcurridos seis meses de la vigencia de la autorización y durante el primer año",
+        "Transcurrido un mes de la vigencia de la autorización y durante el primer año",
+        "Transcurrido el primer año completo de vigencia de la autorización"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Transcurridos tres meses de la vigencia de la autorización y durante el primer año se permitirá a la persona trabajadora el cambio de empleador en la misma ocupación.",
+      "justificacion": "Art. 79.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-165",
+      "articulo": "art. 80",
+      "tipo": "test",
+      "enunciado": "Transcurrido el plazo de tres meses sin resolución en la renovación por cuenta ajena, ¿qué sentido tiene el silencio?",
+      "opciones": [
+        "esta se entenderá estimada",
+        "esta se entenderá desestimada",
+        "esta se entenderá archivada",
+        "se entenderá prorrogada por un año"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "sin que se haya dictado resolución expresa, esta se entenderá estimada.",
+      "justificacion": "Art. 80.9 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-166",
+      "articulo": "art. 81",
+      "tipo": "test",
+      "enunciado": "¿Por qué periodo se concede la renovación de la autorización de residencia y trabajo por cuenta ajena?",
+      "opciones": [
+        "por un periodo de cuatro años",
+        "por un periodo de dos años",
+        "por un periodo de cinco años",
+        "por un periodo de tres años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La renovación de la autorización de residencia y trabajo por cuenta ajena se hará por un periodo de cuatro años",
+      "justificacion": "Art. 81.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-167",
+      "articulo": "art. 82",
+      "tipo": "test",
+      "enunciado": "¿Qué edad mínima exige la situación de residencia temporal y trabajo por cuenta propia?",
+      "opciones": [
+        "mayor de dieciocho años",
+        "mayor de dieciséis años",
+        "mayor de veintiún años",
+        "mayor de veintitrés años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se halla en situación de residencia temporal y trabajo por cuenta propia la persona extranjera mayor de dieciocho años",
+      "justificacion": "Art. 82 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-168",
+      "articulo": "art. 83",
+      "tipo": "test",
+      "enunciado": "¿Qué duración tiene la autorización inicial de residencia temporal y trabajo por cuenta propia?",
+      "opciones": [
+        "una duración de un año",
+        "una duración de dos años",
+        "una duración de cuatro años",
+        "una duración de seis meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La autorización inicial de residencia temporal y trabajo por cuenta propia tendrá una duración de un año",
+      "justificacion": "Art. 83 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-169",
+      "articulo": "art. 84",
+      "tipo": "test",
+      "enunciado": "¿Qué requisito económico específico exige la autorización inicial por cuenta propia?",
+      "opciones": [
+        "Acreditar la suficiencia de la inversión prevista para la implantación del proyecto",
+        "Depositar una fianza equivalente a seis mensualidades del salario mínimo",
+        "Acreditar un volumen de negocio anual superior al indicador de renta",
+        "Contratar al menos a dos trabajadores dados de alta en la Seguridad Social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Acreditar la suficiencia de la inversión prevista para la implantación del proyecto y sobre la incidencia, en su caso, en la creación de empleo",
+      "justificacion": "Art. 84.c) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-170",
+      "articulo": "art. 85",
+      "tipo": "test",
+      "enunciado": "Si transcurridos tres meses no consta el alta del trabajador por cuenta propia en la Seguridad Social, ¿qué consecuencia se produce?",
+      "opciones": [
+        "quedará obligado a salir del territorio nacional",
+        "podrá solicitar una prórroga de otros tres meses",
+        "obtendrá automáticamente una autorización de estancia",
+        "será dado de alta de oficio por la Administración"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "éste quedará obligado a salir del territorio nacional, incurriendo en caso contrario en infracción grave por encontrarse irregularmente en España.",
+      "justificacion": "Art. 85.9 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-171",
+      "articulo": "art. 86",
+      "tipo": "test",
+      "enunciado": "¿Impiden la renovación por cuenta propia los descubiertos en la cotización a la Seguridad Social?",
+      "opciones": [
+        "no impedirán la renovación de la autorización, siempre que se acredite la realización habitual de la actividad",
+        "impedirán la renovación salvo que se abonen antes de resolver el procedimiento",
+        "impedirán la renovación en todo caso hasta la regularización de la deuda",
+        "obligarán a conceder únicamente una renovación de un año de vigencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los descubiertos en la cotización a la Seguridad Social no impedirán la renovación de la autorización, siempre que se acredite la realización habitual de la actividad.",
+      "justificacion": "Art. 86.2.a) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-172",
+      "articulo": "art. 87",
+      "tipo": "test",
+      "enunciado": "Transcurridos tres meses sin resolución expresa en la renovación por cuenta propia, ¿qué sentido tiene el silencio?",
+      "opciones": [
+        "la resolución es favorable",
+        "la resolución es desestimatoria",
+        "la solicitud queda archivada",
+        "la autorización se prorroga un año"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se entenderá que la resolución es favorable en el supuesto de que la Administración no resuelva expresamente en el plazo de tres meses",
+      "justificacion": "Art. 87.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-173",
+      "articulo": "art. 88",
+      "tipo": "test",
+      "enunciado": "La excepción de la obligación de obtener autorización de trabajo se concede, ¿con qué ámbito?",
+      "opciones": [
+        "sin limitación de ámbito geográfico",
+        "limitada a un ámbito geográfico autonómico",
+        "limitada a la provincia donde se inicie la actividad",
+        "limitada a un único sector de actividad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Están exceptuados de la obligación de obtener autorización de trabajo para el ejercicio de una actividad lucrativa, laboral o profesional, sin limitación de ámbito geográfico",
+      "justificacion": "Art. 88 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-174",
+      "articulo": "art. 89",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el límite máximo de vigencia de la autorización de residencia con excepción de la autorización de trabajo?",
+      "opciones": [
+        "un año la autorización inicial, y de cuatro en la prórroga",
+        "dos años la autorización inicial, y de cuatro en la prórroga",
+        "un año la autorización inicial, y de dos en la prórroga",
+        "seis meses la autorización inicial, y de un año en la prórroga"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "con el límite máximo de un año la autorización inicial, y de cuatro en la prórroga, si subsisten las circunstancias que motivaron la excepción.",
+      "justificacion": "Art. 89.7 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-175",
+      "articulo": "art. 100",
+      "tipo": "test",
+      "enunciado": "¿Por qué periodo máximo puede trabajar el titular de una autorización para actividades de temporada en un año natural?",
+      "opciones": [
+        "nueve meses en un año natural",
+        "seis meses en un año natural",
+        "doce meses en un año natural",
+        "cuatro meses en un año natural"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a ejercer actividades laborales por cuenta ajena por periodos máximos de nueve meses en un año natural",
+      "justificacion": "Art. 100 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-176",
+      "articulo": "art. 101",
+      "tipo": "test",
+      "enunciado": "¿Qué duración tienen las autorizaciones de residencia y trabajo para actividades de temporada?",
+      "opciones": [
+        "una duración de cuatro años",
+        "una duración de un año",
+        "una duración de dos años",
+        "una duración de cinco años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las autorizaciones de residencia y trabajo para actividades de temporada tendrán una duración de cuatro años",
+      "justificacion": "Art. 101.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-177",
+      "articulo": "art. 101",
+      "tipo": "test",
+      "enunciado": "¿Pueden las empresas de trabajo temporal ser titulares de la autorización para actividades de temporada?",
+      "opciones": [
+        "no podrán ser titulares de esta autorización de residencia y trabajo para actividades de temporada",
+        "podrán ser titulares únicamente en el sector agrario de temporada",
+        "podrán ser titulares previa autorización de la autoridad laboral",
+        "podrán ser titulares si asumen el coste del alojamiento del trabajador"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las empresas de trabajo temporal no podrán ser titulares de esta autorización de residencia y trabajo para actividades de temporada ni ser autorizados por cambio de empleador",
+      "justificacion": "Art. 101.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-178",
+      "articulo": "art. 102",
+      "tipo": "test",
+      "enunciado": "¿Qué tipo de contrato debe formalizarse por escrito para la autorización de actividades de temporada?",
+      "opciones": [
+        "un contrato fijo-discontinuo",
+        "un contrato temporal por obra o servicio",
+        "un contrato eventual por circunstancias de la producción",
+        "un contrato indefinido a tiempo completo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Que se formalice por escrito un contrato fijo-discontinuo de conformidad con lo previsto en el artículo 16 de la ley del Estatuto de los Trabajadores",
+      "justificacion": "Art. 102.1.b) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-179",
+      "articulo": "art. 103",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo debe el empleador dar de alta al temporero en la Seguridad Social desde su entrada en España?",
+      "opciones": [
+        "en el plazo máximo de tres días",
+        "en el plazo máximo de un mes",
+        "en el plazo máximo de diez días",
+        "en el plazo máximo de quince días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El empleador deberá proceder al alta en el régimen correspondiente de la Seguridad Social en el plazo máximo de tres días desde la entrada en España de la persona trabajadora.",
+      "justificacion": "Art. 103.6 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-180",
+      "articulo": "art. 104",
+      "tipo": "test",
+      "enunciado": "¿En qué periodo previo el incumplimiento del compromiso de retorno del trabajador es causa de denegación?",
+      "opciones": [
+        "en los dos años inmediatamente anteriores a la presentación de la solicitud",
+        "en el año inmediatamente anterior a la presentación de la solicitud",
+        "en los tres años inmediatamente anteriores a la presentación de la solicitud",
+        "en los cinco años inmediatamente anteriores a la presentación de la solicitud"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "hayan incurrido en alguna de las siguientes circunstancias en los dos años inmediatamente anteriores a la presentación de la solicitud",
+      "justificacion": "Art. 104.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-181",
+      "articulo": "art. 105",
+      "tipo": "test",
+      "enunciado": "Si el empleador no da de alta al trabajador temporero en la Seguridad Social, ¿qué puede acordarse?",
+      "opciones": [
+        "la retirada de la autorización y declarar su extinción",
+        "una sanción económica sin afectar a la autorización",
+        "la suspensión temporal de la autorización por seis meses",
+        "el cambio automático de empleador acordado de oficio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se podrá acordar la retirada de la autorización y declarar su extinción",
+      "justificacion": "Art. 105.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-182",
+      "articulo": "art. 106",
+      "tipo": "test",
+      "enunciado": "A partir del segundo año, ¿con qué antelación mínima debe el empleador comunicar el llamamiento del temporero?",
+      "opciones": [
+        "con una antelación mínima de tres meses al inicio de la actividad laboral",
+        "con una antelación mínima de un mes al inicio de la actividad laboral",
+        "con una antelación mínima de dos meses al inicio de la actividad laboral",
+        "con una antelación mínima de quince días al inicio de la actividad laboral"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el empleador deberá comunicar a la autoridad competente, con una antelación mínima de tres meses al inicio de la actividad laboral prevista en ellas salvo causa motivada",
+      "justificacion": "Art. 106.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-183",
+      "articulo": "art. 107",
+      "tipo": "test",
+      "enunciado": "¿Quién asume el coste de los viajes de llegada y de regreso del trabajador de temporada?",
+      "opciones": [
+        "El empleador asumirá el coste del primero y del segundo",
+        "El trabajador asumirá el coste del primero y del segundo",
+        "El empleador asumirá únicamente el coste del viaje de llegada",
+        "La autoridad competente asumirá el coste de ambos viajes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El empleador asumirá el coste del primero y del segundo, salvo indicación expresa de lo contrario",
+      "justificacion": "Art. 107.1.c) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-184",
+      "articulo": "art. 108",
+      "tipo": "test",
+      "enunciado": "Al expedir la autorización de temporada, ¿cómo se facilita al trabajador la información sobre sus derechos y obligaciones?",
+      "opciones": [
+        "información por escrito sobre sus derechos y obligaciones",
+        "información verbal en el momento de la contratación",
+        "información publicada en el boletín oficial correspondiente",
+        "información facilitada únicamente en lengua española oficial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se facilitará por la autoridad competente a la persona trabajadora información por escrito sobre sus derechos y obligaciones",
+      "justificacion": "Art. 108.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-185",
+      "articulo": "art. 109",
+      "tipo": "test",
+      "enunciado": "¿Qué porcentaje del IPREM no puede superar la renta exigible al temporero por el alojamiento?",
+      "opciones": [
+        "el 15 % del IPREM",
+        "el 22 % del IPREM",
+        "el 10 % del IPREM",
+        "el 30 % del IPREM"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrá exigirse a la persona trabajadora el pago de una renta que no superará el 15 % del IPREM vigente.",
+      "justificacion": "Art. 109.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-186",
+      "articulo": "art. 110",
+      "tipo": "test",
+      "enunciado": "Con carácter general, ¿cuándo se autoriza el cambio de empleador en la autorización de temporada?",
+      "opciones": [
+        "transcurridos tres meses de actividad laboral de cada llamamiento",
+        "transcurrido un mes de actividad laboral de cada llamamiento",
+        "transcurridos seis meses de actividad laboral de cada llamamiento",
+        "transcurrida la mitad del periodo de actividad de cada llamamiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se autorizará el cambio de empleador de la persona trabajadora transcurridos tres meses de actividad laboral de cada llamamiento.",
+      "justificacion": "Art. 110.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-187",
+      "articulo": "art. 111",
+      "tipo": "test",
+      "enunciado": "¿Hasta qué límite se admiten prórrogas sucesivas del periodo de actividad de temporada?",
+      "opciones": [
+        "si no superan los nueve meses en el periodo de actividad laboral",
+        "si no superan los seis meses en el periodo de actividad laboral",
+        "si no superan los doce meses en el periodo de actividad laboral",
+        "si no superan los cuatro meses en el periodo de actividad laboral"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se admiten prórrogas sucesivas si no superan los nueve meses en el periodo de actividad laboral",
+      "justificacion": "Art. 111 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-188",
+      "articulo": "art. 112",
+      "tipo": "test",
+      "enunciado": "¿Por qué periodo se renueva la autorización de residencia y trabajo para actividades de temporada?",
+      "opciones": [
+        "por iguales períodos de cuatro años",
+        "por iguales períodos de dos años",
+        "por iguales períodos de cinco años",
+        "por iguales períodos de un año"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrán renovarse tras la finalización de su vigencia, por iguales períodos de cuatro años.",
+      "justificacion": "Art. 112.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-189",
+      "articulo": "art. 113",
+      "tipo": "test",
+      "enunciado": "En la selección en origen de la gestión colectiva, ¿pueden las autoridades o intermediarios exigir una contraprestación económica al trabajador?",
+      "opciones": [
+        "sin que éstas ni ningún otro intermediario puedan exigir a aquéllas contraprestación económica",
+        "podrán exigir una contraprestación económica proporcional al salario ofertado",
+        "podrán exigir el reembolso de los gastos del proceso de selección",
+        "podrán exigir una tasa fijada por la Orden de gestión colectiva"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "sin que éstas ni ningún otro intermediario puedan exigir a aquéllas contraprestación económica por participar en el proceso de selección.",
+      "justificacion": "Art. 113.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-190",
+      "articulo": "art. 114",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes es una figura de la gestión colectiva de contrataciones en origen?",
+      "opciones": [
+        "Migración circular para la contratación fijo-discontinua",
+        "Migración estacional para la contratación por obra o servicio",
+        "Migración permanente para la reagrupación familiar",
+        "Migración temporal para estudios de posgrado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "b) Migración circular para la contratación fijo-discontinua de forma colectiva de personas trabajadoras en su país de procedencia",
+      "justificacion": "Art. 114.b) RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-191",
+      "articulo": "art. 115",
+      "tipo": "test",
+      "enunciado": "¿Mediante qué instrumento se aprueba la previsión anual de la gestión colectiva de contrataciones en origen?",
+      "opciones": [
+        "mediante orden ministerial",
+        "mediante real decreto del Consejo de Ministros",
+        "mediante acuerdo de la Comisión Laboral Tripartita de Inmigración",
+        "mediante resolución de la Secretaría de Estado de Migraciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La previsión anual se aprobará mediante orden ministerial",
+      "justificacion": "Art. 115.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-192",
+      "articulo": "art. 116",
+      "tipo": "test",
+      "enunciado": "Para las autorizaciones iniciales de la migración estable en gestión colectiva, ¿qué requisitos deben cumplirse?",
+      "opciones": [
+        "los requisitos específicos establecidos en el artículo 74",
+        "los requisitos específicos establecidos en el artículo 84",
+        "los requisitos específicos establecidos en el artículo 102",
+        "los requisitos específicos establecidos en el artículo 88"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "será necesario cumplir los requisitos específicos establecidos en el artículo 74. Se requerirá también contar con el visado correspondiente.",
+      "justificacion": "Art. 116.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-193",
+      "articulo": "art. 117",
+      "tipo": "test",
+      "enunciado": "¿Qué órgano puede denegar de forma motivada las solicitudes de gestión de las ofertas en la gestión colectiva?",
+      "opciones": [
+        "la Dirección General de Gestión Migratoria",
+        "la Secretaría de Estado de Migraciones",
+        "la Comisaría General de Extranjería y Fronteras",
+        "la Comisión Laboral Tripartita de Inmigración"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la Dirección General de Gestión Migratoria podrá denegar de forma motivada las solicitudes de gestión de las ofertas de empleo presentadas por el empleador",
+      "justificacion": "Art. 117.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-194",
+      "articulo": "art. 118",
+      "tipo": "test",
+      "enunciado": "En la migración estable de la gestión colectiva, ¿qué coste de viaje asume el empleador?",
+      "opciones": [
+        "sólo asumirá el coste del viaje de llegada a España desde el país de origen",
+        "asumirá el coste del viaje de llegada y del de regreso al país de origen",
+        "asumirá únicamente el coste del viaje de regreso al país de origen",
+        "no asumirá coste alguno de los viajes del trabajador"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el empleador sólo asumirá el coste del viaje de llegada a España desde el país de origen de la contratación",
+      "justificacion": "Art. 118.1 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-195",
+      "articulo": "art. 119",
+      "tipo": "test",
+      "enunciado": "¿De qué debe disponer la persona trabajadora seleccionada antes de firmar su contrato en la gestión colectiva?",
+      "opciones": [
+        "de información clara y, en un idioma que comprenda, acerca de las garantías, derechos",
+        "de información verbal facilitada a su llegada a territorio español",
+        "de información publicada en la web del consulado correspondiente",
+        "de información redactada únicamente en la lengua oficial del contrato"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "dispone de información clara y, en un idioma que comprenda, acerca de las garantías, derechos y, en su caso, obligaciones",
+      "justificacion": "Art. 119.3 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-196",
+      "articulo": "art. 120",
+      "tipo": "test",
+      "enunciado": "Los cursos de formación previstos en la gestión colectiva, ¿qué coste tienen para los trabajadores?",
+      "opciones": [
+        "totalmente gratuita para los trabajadores",
+        "gratuita solo en los países de procedencia",
+        "cofinanciada al cincuenta por ciento por el trabajador",
+        "a cargo del trabajador salvo pacto en contrario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Esta formación será totalmente gratuita para los trabajadores.",
+      "justificacion": "Art. 120 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-197",
+      "articulo": "art. 121",
+      "tipo": "test",
+      "enunciado": "¿Qué número mínimo de puestos deben contener las ofertas genéricas o nominativas de la gestión colectiva?",
+      "opciones": [
+        "un mínimo de diez puestos de trabajo",
+        "un mínimo de cinco puestos de trabajo",
+        "un mínimo de veinte puestos de trabajo",
+        "un mínimo de veinticinco puestos de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberán contener un mínimo de diez puestos de trabajo, salvo que en la Orden Ministerial que recoge la previsión anual se fije un límite distinto.",
+      "justificacion": "Art. 121.4 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-198",
+      "articulo": "art. 122",
+      "tipo": "test",
+      "enunciado": "¿Con qué antelación mínima deben presentarse las solicitudes de ofertas genéricas de la gestión colectiva?",
+      "opciones": [
+        "con una antelación mínima de tres meses al inicio de la actividad laboral",
+        "con una antelación mínima de dos meses al inicio de la actividad laboral",
+        "con una antelación mínima de un mes al inicio de la actividad laboral",
+        "con una antelación mínima de seis meses al inicio de la actividad laboral"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "con una antelación mínima de tres meses al inicio de la actividad laboral prevista en ellas, salvo causa motivada.",
+      "justificacion": "Art. 122.2 RD 1155/2024."
+    },
+    {
+      "concepto_id": "EXTR-199",
+      "articulo": "art. 123",
+      "tipo": "test",
+      "enunciado": "¿En qué supuesto puede solicitarse la gestión colectiva de ofertas nominativas?",
+      "opciones": [
+        "Cuando las personas trabajadoras hayan sido titulares de una autorización de residencia temporal y trabajo previa en España para actividades de temporada",
+        "Cuando las personas trabajadoras residan regularmente en España con autorización de larga duración",
+        "Cuando las personas trabajadoras hayan obtenido un visado de búsqueda de empleo vigente",
+        "Cuando las personas trabajadoras sean familiares de residentes de larga duración-Unión Europea"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Cuando las personas trabajadoras hayan sido titulares de una autorización de residencia temporal y trabajo previa en España para actividades de temporada y hayan acreditado el regreso al país de origen de la contratación.",
+      "justificacion": "Art. 123.1.a) RD 1155/2024."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "EXTR-150",
+      "destino": "EXTR-023",
+      "tipo": "desarrolla",
+      "justificacion": "Los requisitos por estudios (art. 53) concretan la definición de la autorización por estudios (art. 52)."
+    },
+    {
+      "origen": "EXTR-150",
+      "destino": "EXTR-151",
+      "tipo": "prerrequisito",
+      "justificacion": "Cumplir los requisitos del art. 53 es previo a tramitar el procedimiento del art. 54."
+    },
+    {
+      "origen": "EXTR-152",
+      "destino": "EXTR-151",
+      "tipo": "desarrolla",
+      "justificacion": "La duración y prórrogas (art. 55) desarrollan el régimen procedimental del art. 54."
+    },
+    {
+      "origen": "EXTR-152",
+      "destino": "EXT-003",
+      "tipo": "remite",
+      "justificacion": "La solicitud tardía de prórroga remite a la infracción leve por retraso en la renovación (art. 52 LO 4/2000)."
+    },
+    {
+      "origen": "EXTR-153",
+      "destino": "EXTR-150",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen de familiares (art. 56) desarrolla la autorización por estudios superiores."
+    },
+    {
+      "origen": "EXTR-154",
+      "destino": "EXTR-150",
+      "tipo": "limita",
+      "justificacion": "El límite de treinta horas (art. 57) limita el alcance laboral de la autorización por estudios."
+    },
+    {
+      "origen": "EXTR-155",
+      "destino": "EXTR-152",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen sanitario especializado (art. 58) concreta la duración de la estancia por estudios."
+    },
+    {
+      "origen": "EXTR-156",
+      "destino": "EXTR-154",
+      "tipo": "desarrolla",
+      "justificacion": "La movilidad UE (art. 59) desarrolla el régimen de la autorización por estudios y su ejercicio."
+    },
+    {
+      "origen": "EXTR-157",
+      "destino": "EXTR-024",
+      "tipo": "desarrolla",
+      "justificacion": "La residencia y trabajo por cuenta ajena (art. 72) concreta la residencia temporal definida en el art. 60."
+    },
+    {
+      "origen": "EXTR-158",
+      "destino": "EXTR-157",
+      "tipo": "desarrolla",
+      "justificacion": "La autorización inicial (art. 73) desarrolla la definición de la cuenta ajena."
+    },
+    {
+      "origen": "EXTR-159",
+      "destino": "EXTR-158",
+      "tipo": "prerrequisito",
+      "justificacion": "Cumplir los requisitos del art. 74 es previo a la concesión de la autorización inicial."
+    },
+    {
+      "origen": "EXTR-160",
+      "destino": "EXTR-159",
+      "tipo": "desarrolla",
+      "justificacion": "La situación nacional de empleo (art. 75) concreta el requisito del art. 74.1.a)."
+    },
+    {
+      "origen": "EXTR-161",
+      "destino": "EXTR-159",
+      "tipo": "desarrolla",
+      "justificacion": "Los medios del empleador (art. 76) concretan el requisito del art. 74.1.e)."
+    },
+    {
+      "origen": "EXTR-162",
+      "destino": "EXTR-158",
+      "tipo": "desarrolla",
+      "justificacion": "El procedimiento (art. 77) desarrolla la autorización inicial por cuenta ajena."
+    },
+    {
+      "origen": "EXTR-163",
+      "destino": "EXTR-162",
+      "tipo": "limita",
+      "justificacion": "Las causas de denegación (art. 78) limitan el resultado del procedimiento."
+    },
+    {
+      "origen": "EXTR-163",
+      "destino": "EXT-014",
+      "tipo": "remite",
+      "justificacion": "La denegación por conducta del empleador remite a la infracción muy grave de contratar sin autorización (art. 54 LO 4/2000)."
+    },
+    {
+      "origen": "EXTR-164",
+      "destino": "EXTR-157",
+      "tipo": "desarrolla",
+      "justificacion": "El cambio de empleador (art. 79) desarrolla el régimen de la autorización por cuenta ajena."
+    },
+    {
+      "origen": "EXTR-165",
+      "destino": "EXTR-157",
+      "tipo": "desarrolla",
+      "justificacion": "La renovación (art. 80) desarrolla el régimen de la autorización por cuenta ajena."
+    },
+    {
+      "origen": "EXTR-165",
+      "destino": "EXT-003",
+      "tipo": "remite",
+      "justificacion": "La renovación presentada fuera de plazo remite a la infracción leve por retraso (art. 52 LO 4/2000)."
+    },
+    {
+      "origen": "EXTR-166",
+      "destino": "EXTR-165",
+      "tipo": "desarrolla",
+      "justificacion": "Los efectos de la renovación (art. 81) desarrollan el régimen de renovación del art. 80."
+    },
+    {
+      "origen": "EXTR-166",
+      "destino": "EXTR-026",
+      "tipo": "remite",
+      "justificacion": "La renovación por cuenta ajena remite a la residencia de larga duración cuando procede (art. 175)."
+    },
+    {
+      "origen": "EXTR-167",
+      "destino": "EXTR-024",
+      "tipo": "desarrolla",
+      "justificacion": "La residencia y trabajo por cuenta propia (art. 82) concreta la residencia temporal del art. 60."
+    },
+    {
+      "origen": "EXTR-168",
+      "destino": "EXTR-167",
+      "tipo": "desarrolla",
+      "justificacion": "La autorización inicial por cuenta propia (art. 83) desarrolla su definición."
+    },
+    {
+      "origen": "EXTR-169",
+      "destino": "EXTR-168",
+      "tipo": "prerrequisito",
+      "justificacion": "Acreditar los requisitos del art. 84 es previo a la autorización inicial por cuenta propia."
+    },
+    {
+      "origen": "EXTR-170",
+      "destino": "EXTR-168",
+      "tipo": "desarrolla",
+      "justificacion": "El procedimiento (art. 85) desarrolla la autorización inicial por cuenta propia."
+    },
+    {
+      "origen": "EXTR-170",
+      "destino": "EXT-005",
+      "tipo": "remite",
+      "justificacion": "La estancia sin alta remite a la infracción grave por encontrarse irregularmente en España (art. 53 LO 4/2000)."
+    },
+    {
+      "origen": "EXTR-171",
+      "destino": "EXTR-167",
+      "tipo": "desarrolla",
+      "justificacion": "La renovación (art. 86) desarrolla el régimen de la cuenta propia."
+    },
+    {
+      "origen": "EXTR-171",
+      "destino": "EXT-003",
+      "tipo": "remite",
+      "justificacion": "La renovación tardía remite a la infracción leve por retraso (art. 52 LO 4/2000)."
+    },
+    {
+      "origen": "EXTR-172",
+      "destino": "EXTR-171",
+      "tipo": "desarrolla",
+      "justificacion": "Los efectos de la renovación (art. 87) desarrollan el régimen de renovación del art. 86."
+    },
+    {
+      "origen": "EXTR-173",
+      "destino": "EXTR-024",
+      "tipo": "desarrolla",
+      "justificacion": "La excepción de la autorización de trabajo (art. 88) es una modalidad de residencia temporal del art. 60."
+    },
+    {
+      "origen": "EXTR-174",
+      "destino": "EXTR-173",
+      "tipo": "desarrolla",
+      "justificacion": "Los requisitos y vigencia (art. 89) desarrollan el régimen de excepción del art. 88."
+    },
+    {
+      "origen": "EXTR-175",
+      "destino": "EXTR-024",
+      "tipo": "desarrolla",
+      "justificacion": "El trabajo de temporada (art. 100) concreta una modalidad de residencia temporal."
+    },
+    {
+      "origen": "EXTR-176",
+      "destino": "EXTR-175",
+      "tipo": "desarrolla",
+      "justificacion": "La autorización plurianual (art. 101) desarrolla la definición de temporada."
+    },
+    {
+      "origen": "EXTR-177",
+      "destino": "EXTR-176",
+      "tipo": "limita",
+      "justificacion": "La exclusión de las ETT (art. 101) limita quién puede ser titular de la autorización de temporada."
+    },
+    {
+      "origen": "EXTR-178",
+      "destino": "EXTR-176",
+      "tipo": "prerrequisito",
+      "justificacion": "Cumplir los requisitos del art. 102 es previo a la autorización de temporada."
+    },
+    {
+      "origen": "EXTR-178",
+      "destino": "EXTR-159",
+      "tipo": "remite",
+      "justificacion": "Los requisitos de temporada (art. 102) remiten a los del art. 74 de la cuenta ajena."
+    },
+    {
+      "origen": "EXTR-179",
+      "destino": "EXTR-176",
+      "tipo": "desarrolla",
+      "justificacion": "El procedimiento (art. 103) desarrolla la autorización de temporada."
+    },
+    {
+      "origen": "EXTR-180",
+      "destino": "EXTR-179",
+      "tipo": "limita",
+      "justificacion": "Las causas de denegación (art. 104) limitan el resultado del procedimiento de temporada."
+    },
+    {
+      "origen": "EXTR-181",
+      "destino": "EXTR-176",
+      "tipo": "limita",
+      "justificacion": "Las causas de extinción (art. 105) limitan la vigencia de la autorización de temporada."
+    },
+    {
+      "origen": "EXTR-182",
+      "destino": "EXTR-176",
+      "tipo": "desarrolla",
+      "justificacion": "Los llamamientos anuales (art. 106) desarrollan la autorización plurianual de temporada."
+    },
+    {
+      "origen": "EXTR-183",
+      "destino": "EXTR-178",
+      "tipo": "desarrolla",
+      "justificacion": "Los derechos y garantías (art. 107) desarrollan los requisitos de la autorización de temporada."
+    },
+    {
+      "origen": "EXTR-184",
+      "destino": "EXTR-183",
+      "tipo": "desarrolla",
+      "justificacion": "El derecho de información (art. 108) desarrolla las garantías del art. 107."
+    },
+    {
+      "origen": "EXTR-185",
+      "destino": "EXTR-178",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen de alojamiento (art. 109) concreta el requisito de alojamiento del art. 102.c)."
+    },
+    {
+      "origen": "EXTR-186",
+      "destino": "EXTR-176",
+      "tipo": "desarrolla",
+      "justificacion": "El cambio de empleador (art. 110) desarrolla el régimen de la autorización de temporada."
+    },
+    {
+      "origen": "EXTR-187",
+      "destino": "EXTR-182",
+      "tipo": "desarrolla",
+      "justificacion": "La prórroga de la actividad (art. 111) desarrolla el régimen de periodos de actividad y llamamientos."
+    },
+    {
+      "origen": "EXTR-188",
+      "destino": "EXTR-176",
+      "tipo": "desarrolla",
+      "justificacion": "La renovación (art. 112) desarrolla la vigencia plurianual de la autorización de temporada."
+    },
+    {
+      "origen": "EXTR-189",
+      "destino": "EXTR-175",
+      "tipo": "remite",
+      "justificacion": "La gestión colectiva (art. 113) rige los llamamientos de los titulares de autorizaciones de temporada."
+    },
+    {
+      "origen": "EXTR-190",
+      "destino": "EXTR-189",
+      "tipo": "desarrolla",
+      "justificacion": "Las figuras (art. 114) desarrollan la definición de la gestión colectiva."
+    },
+    {
+      "origen": "EXTR-190",
+      "destino": "EXTR-176",
+      "tipo": "remite",
+      "justificacion": "La migración circular remite a la autorización de temporada (art. 101)."
+    },
+    {
+      "origen": "EXTR-191",
+      "destino": "EXTR-189",
+      "tipo": "desarrolla",
+      "justificacion": "La previsión anual (art. 115) desarrolla el régimen de la gestión colectiva."
+    },
+    {
+      "origen": "EXTR-192",
+      "destino": "EXTR-159",
+      "tipo": "remite",
+      "justificacion": "La migración estable (art. 116) remite a los requisitos del art. 74."
+    },
+    {
+      "origen": "EXTR-193",
+      "destino": "EXTR-189",
+      "tipo": "limita",
+      "justificacion": "La denegación y extinción (art. 117) limitan el alcance de la gestión colectiva."
+    },
+    {
+      "origen": "EXTR-194",
+      "destino": "EXTR-190",
+      "tipo": "desarrolla",
+      "justificacion": "Las garantías por figura (art. 118) desarrollan las figuras de la gestión colectiva."
+    },
+    {
+      "origen": "EXTR-195",
+      "destino": "EXTR-194",
+      "tipo": "desarrolla",
+      "justificacion": "El derecho de información (art. 119) desarrolla las garantías de la gestión colectiva."
+    },
+    {
+      "origen": "EXTR-196",
+      "destino": "EXTR-189",
+      "tipo": "desarrolla",
+      "justificacion": "La formación (art. 120) desarrolla el régimen de la gestión colectiva."
+    },
+    {
+      "origen": "EXTR-197",
+      "destino": "EXTR-191",
+      "tipo": "desarrolla",
+      "justificacion": "El mínimo de puestos por oferta (art. 121) desarrolla la previsión anual."
+    },
+    {
+      "origen": "EXTR-198",
+      "destino": "EXTR-197",
+      "tipo": "desarrolla",
+      "justificacion": "La tramitación de ofertas genéricas (art. 122) desarrolla el régimen de ofertas del art. 121."
+    },
+    {
+      "origen": "EXTR-199",
+      "destino": "EXTR-198",
+      "tipo": "desarrolla",
+      "justificacion": "Las ofertas nominativas (art. 123) desarrollan la tramitación de las genéricas."
+    }
+  ]
+}

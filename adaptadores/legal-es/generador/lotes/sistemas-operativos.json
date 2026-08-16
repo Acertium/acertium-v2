@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "materia": "sistemas-operativos-fundamentos",
+    "norma": "Fuentes técnicas de referencia sobre sistemas operativos: definición y funciones y Linux (Red Hat), sistemas de archivos de Windows FAT/FAT32/NTFS/exFAT (Microsoft Learn), sistema de archivos APFS y formatos MS-DOS (FAT)/ExFAT (Apple) y almacenamiento de datos (Red Hat)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "Red Hat — Linux: qué es, sus elementos y cómo funciona (incluye «Definición de sistema operativo» e «Interfaz gráfica de usuario (GUI) y línea de comandos (CLI)»): https://www.redhat.com/es/topics/linux/what-is-linux (consultado 04/08/2026)",
+      "Red Hat — ¿Qué es el kernel Linux? y ¿Cuáles son sus funciones? (introducción al kernel y sus cuatro tareas: memoria, procesos, controladores de dispositivos, seguridad y llamadas al sistema): https://www.redhat.com/es/topics/linux/what-is-the-linux-kernel (consultado 04/08/2026)",
+      "Red Hat — Almacenamiento de datos: qué es y qué tipos hay (definición, historia HDD/SSD y almacenamiento en archivos, bloques y objetos): https://www.redhat.com/es/topics/data-storage (consultado 04/08/2026)",
+      "Microsoft Learn — Información general sobre los sistemas de archivos FAT, HPFS y NTFS (FAT, nomenclatura 8.3, límites, FAT32, NTFS recuperable, nombres de 255 caracteres): https://learn.microsoft.com/es-es/troubleshoot/windows-client/backup-and-storage/fat-hpfs-and-ntfs-file-systems (consultado 04/08/2026)",
+      "Microsoft Learn — Introducción a NTFS (sistema de archivos predeterminado de Windows moderno): https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview (consultado 04/08/2026)",
+      "Microsoft Learn — Especificación del sistema de archivos exFAT (sucesor de FAT32; 64 bits; clústeres de hasta 32 MB): https://learn.microsoft.com/es-es/windows/win32/fileio/exfat-specification (consultado 04/08/2026)",
+      "Apple — Formatos del sistema de archivos disponibles en Utilidad de Discos en el Mac (APFS por omisión de macOS 10.13 o posterior; MS-DOS (FAT) hasta 32 GB; ExFAT para más de 32 GB): https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac (consultado 04/08/2026)"
+    ],
+    "tipo_fuente": "autoridad",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 38 — Fundamentos de sistemas operativos: funciones de un sistema operativo; tipologías (MS-DOS, UNIX, Linux, Windows, MAC OS); sistemas operativos móviles (iOS, Android); sistemas de almacenamiento; sistemas de archivos"
+  },
+  "fuentes": {
+    "Red Hat — Definición de sistema operativo": "Un SO es un software que gestiona directamente el hardware y los recursos de un sistema, como la CPU, la memoria y el almacenamiento. Se ubica entre las aplicaciones y el hardware y conecta todo el software con los recursos físicos que llevan a cabo el trabajo.",
+    "Red Hat — Interfaz de usuario: GUI y CLI": "Generalmente, cuando utilizas un SO, le proporcionas los comandos a la computadora en una de estas dos maneras: con una interfaz gráfica de usuario (GUI) o con la línea de comandos (CLI). Una GUI hace referencia a todo lo que puedes ver y con lo que puedes interactuar cuando inicias el sistema operativo, como los menús, las ventanas y los iconos del escritorio. Las tareas más complejas suelen realizarse con la línea de comandos, que otorga acceso directo a la computadora.",
+    "Red Hat — Kernel de Linux (introducción)": "El kernel Linux es el elemento principal de los sistemas operativos (SO) Linux, y es la interfaz fundamental entre el hardware de una computadora y sus procesos. Los comunica entre sí y gestiona los recursos de la manera más eficiente posible.",
+    "Red Hat — Funciones del kernel": "El kernel cumple cuatro tareas: Gestión de la memoria: supervisa cuánta memoria se utiliza para almacenar qué tipo de elementos, así como el lugar en que los guarda. Gestión de los procesos: determina qué procesos pueden usar la unidad central de procesamiento (CPU), cuándo y durante cuánto tiempo. Controladores de dispositivos: actúa como mediador o intérprete entre el hardware y los procesos. Seguridad y llamadas al sistema: recibe solicitudes de servicio por parte de los procesos.",
+    "Red Hat — Elementos de Linux: el kernel": "Kernel: es el elemento base del SO, y sin él no funciona el sistema. Gestiona los recursos y se comunica con el hardware. Se encarga de gestionar la memoria, los procesos y los archivos.",
+    "Red Hat — ¿Qué es Linux?": "Linux es un sistema operativo (SO) open source que creó Linus Torvalds en 1991. Todos los sistemas operativos basados en Linux incluyen el kernel, que gestiona los recursos de hardware, y un conjunto de paquetes de software que conforman el resto del SO. Linux se diseñó para que se parezca a UNIX, pero ha evolucionado para ejecutarse en una gran variedad de sistemas de hardware, desde teléfonos hasta supercomputadoras.",
+    "Red Hat — Linux y el open source (GPL)": "Linux es un sistema operativo open source libre que se lanza con una Licencia Pública General (GPL) de GNU. Cualquiera puede ejecutar, estudiar, modificar o redistribuir el código fuente, e incluso comercializar las copias de su código modificado, siempre y cuando lo haga con la misma licencia.",
+    "Red Hat — Almacenamiento de datos (definición)": "El almacenamiento de datos es la recopilación y conservación de la información digital, es decir, de los bits y bytes que se encuentran detrás de las aplicaciones, los protocolos de red, los documentos, el contenido multimedia, las libretas de direcciones y las preferencias de los usuarios, entre otros.",
+    "Red Hat — Historia del almacenamiento: HDD y SSD": "Los disquetes eran el único dispositivo de almacenamiento permanente disponible hasta que bajó el precio de las unidades de disco duro (HDD). Las unidades de disco duro se convirtieron en discos compactos (CD) en la década de 1980, y las unidades de estado sólido (SSD) reemplazaron a los discos giratorios por chips y memorias flash sólidos.",
+    "Red Hat — Tipos de almacenamiento: archivos, bloques y objetos": "El almacenamiento en archivos organiza los datos como archivos jerárquicos que los usuarios pueden abrir y explorar en su totalidad. En el almacenamiento en bloques, los volúmenes de almacenamiento se dividen en instancias individuales conocidas como bloques. Los datos se dividen en distintas unidades denominadas objetos y se alojan en un solo repositorio, en lugar de conservarse como archivos en carpetas o como bloques en servidores.",
+    "Microsoft — Sistema de archivos FAT": "El sistema de archivos FAT se caracteriza por la tabla de asignación de archivos (FAT), que es realmente una tabla que reside en la parte superior del volumen. Para proteger el volumen, se conservan dos copias de FAT en caso de que uno se dañe.",
+    "Microsoft — FAT: nomenclatura, límites y FAT32": "FAT usa la convención tradicional de nomenclatura de archivos 8.3 y todos los nombres de archivo deben crearse con el juego de caracteres ASCII. Las particiones FAT tienen un tamaño limitado a un máximo de 4 Gigabytes (GB) en Windows NT y 2 GB en MS-DOS. La compatibilidad con el sistema de archivos FAT32 se puso a disposición en Windows 98/Windows 95 OSR2 y Windows 2000.",
+    "Microsoft — NTFS (introducción)": "El nuevo sistema de archivos de tecnología (NTFS) es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows. Proporciona características avanzadas, incluidos descriptores de seguridad, cifrado, cuotas de disco y compatibilidad con metadatos enriquecidos, lo que mejora la seguridad y la administración de datos.",
+    "Microsoft — NTFS: recuperable y nombres de archivo": "NTFS es un sistema de archivos recuperable porque realiza un seguimiento de las transacciones en el sistema de archivos. Los nombres de archivo y directorio pueden tener hasta 255 caracteres, incluidas las extensiones.",
+    "Microsoft — Sistema de archivos exFAT": "El sistema de archivos exFAT es el sucesor de FAT32 en la familia FAT de sistemas de archivos. El sistema de archivos exFAT usa 64 bits para describir el tamaño de archivo, lo que permite a las aplicaciones que dependen de archivos muy grandes. El sistema de archivos exFAT también permite clústeres de hasta 32 MB, lo que permite de forma eficaz dispositivos de almacenamiento muy grandes.",
+    "Apple — Sistema de archivos de Apple (APFS)": "El sistema de archivos de Apple (APFS) es el sistema de archivos por omisión de ordenadores Mac con macOS 10.13 o posterior. Aunque el sistema APFS está optimizado para el almacenamiento en Flash o SSD utilizado en los últimos ordenadores Mac, también se puede utilizar en sistemas más antiguos con unidades de disco duro tradicionales (HDD) y unidades de almacenamiento externas conectadas directamente.",
+    "Apple — Formatos compatibles con Windows (MS-DOS FAT y ExFAT)": "MS-DOS (FAT): Se utiliza para los volúmenes de Windows de hasta 32 GB. ExFAT: Se utiliza para los volúmenes de Windows de más de 32 GB."
+  },
+  "conceptos": [
+    { "id": "SO-001", "articulo": "Red Hat — Definición de sistema operativo", "titulo": "Qué es un sistema operativo", "resumen": "Un SO es un software que gestiona directamente el hardware y los recursos de un sistema, como la CPU, la memoria y el almacenamiento.", "explicacion": "El sistema operativo es el software base del equipo: administra directamente los recursos físicos (procesador, memoria y almacenamiento) y hace de puente entre las aplicaciones y el hardware." },
+    { "id": "SO-002", "articulo": "Red Hat — Definición de sistema operativo", "titulo": "El SO entre las aplicaciones y el hardware", "resumen": "El sistema operativo se ubica entre las aplicaciones y el hardware y conecta todo el software con los recursos físicos que llevan a cabo el trabajo.", "explicacion": "El SO actúa como capa intermedia: las aplicaciones no hablan directamente con el hardware, sino a través del sistema operativo, que reparte y coordina los recursos físicos." },
+    { "id": "SO-003", "articulo": "Red Hat — Kernel de Linux (introducción)", "titulo": "El kernel, elemento principal del SO", "resumen": "El kernel es el elemento principal de los sistemas operativos y es la interfaz fundamental entre el hardware de una computadora y sus procesos.", "explicacion": "El kernel (núcleo) es la pieza central del sistema operativo: se sitúa entre el hardware y los procesos, los comunica y gestiona los recursos de la forma más eficiente posible." },
+    { "id": "SO-004", "articulo": "Red Hat — Funciones del kernel", "titulo": "Función del SO: gestión de la memoria", "resumen": "La gestión de la memoria supervisa cuánta memoria se utiliza para almacenar qué tipo de elementos, así como el lugar en que los guarda.", "explicacion": "Una de las funciones básicas del sistema operativo es administrar la memoria: llevar la cuenta de cuánta se usa, para qué y dónde se guarda cada elemento." },
+    { "id": "SO-005", "articulo": "Red Hat — Funciones del kernel", "titulo": "Función del SO: gestión de los procesos", "resumen": "La gestión de los procesos determina qué procesos pueden usar la unidad central de procesamiento (CPU), cuándo y durante cuánto tiempo.", "explicacion": "El sistema operativo decide qué programa usa la CPU en cada momento y durante cuánto tiempo, repartiendo el procesador entre los procesos en ejecución." },
+    { "id": "SO-006", "articulo": "Red Hat — Funciones del kernel", "titulo": "Función del SO: controladores de dispositivos", "resumen": "Los controladores de dispositivos hacen que el kernel actúe como mediador o intérprete entre el hardware y los procesos.", "explicacion": "Para gestionar la entrada/salida, el sistema operativo se apoya en los controladores de dispositivos, que traducen entre el hardware concreto y los procesos que lo usan." },
+    { "id": "SO-007", "articulo": "Red Hat — Funciones del kernel", "titulo": "Función del SO: seguridad y llamadas al sistema", "resumen": "En seguridad y llamadas al sistema, el kernel recibe solicitudes de servicio por parte de los procesos.", "explicacion": "Los procesos piden servicios al núcleo mediante llamadas al sistema; el kernel las atiende controlando la seguridad y el acceso a los recursos." },
+    { "id": "SO-008", "articulo": "Red Hat — Interfaz de usuario: GUI y CLI", "titulo": "Interfaz gráfica de usuario (GUI)", "resumen": "Una GUI hace referencia a todo lo que puedes ver y con lo que puedes interactuar cuando inicias el sistema operativo, como los menús, las ventanas y los iconos del escritorio.", "explicacion": "La interfaz gráfica de usuario (GUI) es la forma visual de manejar el SO: menús, ventanas e iconos con los que se interactúa mediante el ratón." },
+    { "id": "SO-009", "articulo": "Red Hat — Interfaz de usuario: GUI y CLI", "titulo": "Línea de comandos (CLI)", "resumen": "Las tareas más complejas suelen realizarse con la línea de comandos, que otorga acceso directo a la computadora.", "explicacion": "La línea de comandos (CLI) permite dar órdenes escritas al sistema; se usa para tareas complejas porque da acceso directo al equipo." },
+    { "id": "SO-010", "articulo": "Red Hat — ¿Qué es Linux?", "titulo": "Linux: SO open source de Linus Torvalds", "resumen": "Linux es un sistema operativo (SO) open source que creó Linus Torvalds en 1991.", "explicacion": "Linux es un sistema operativo de código abierto creado por Linus Torvalds en 1991; hoy es la base de servidores, móviles y supercomputadoras." },
+    { "id": "SO-011", "articulo": "Red Hat — ¿Qué es Linux?", "titulo": "Composición de un SO basado en Linux", "resumen": "Todos los sistemas operativos basados en Linux incluyen el kernel, que gestiona los recursos de hardware, y un conjunto de paquetes de software que conforman el resto del SO.", "explicacion": "Un sistema Linux está formado por el kernel (que gestiona el hardware) más un conjunto de paquetes de software que completan el sistema operativo." },
+    { "id": "SO-012", "articulo": "Red Hat — ¿Qué es Linux?", "titulo": "Linux y su parecido con UNIX", "resumen": "Linux se diseñó para que se parezca a UNIX, pero ha evolucionado para ejecutarse en una gran variedad de sistemas de hardware, desde teléfonos hasta supercomputadoras.", "explicacion": "Linux se inspiró en UNIX; con el tiempo evolucionó hasta funcionar en hardware muy diverso, desde teléfonos hasta supercomputadoras." },
+    { "id": "SO-013", "articulo": "Red Hat — Linux y el open source (GPL)", "titulo": "Linux, software libre bajo licencia GPL", "resumen": "Linux es un sistema operativo open source libre que se lanza con una Licencia Pública General (GPL) de GNU.", "explicacion": "Linux se distribuye con la Licencia Pública General (GPL) de GNU: cualquiera puede ejecutar, estudiar, modificar y redistribuir su código con la misma licencia." },
+    { "id": "SO-014", "articulo": "Red Hat — Elementos de Linux: el kernel", "titulo": "El kernel gestiona memoria, procesos y archivos", "resumen": "El kernel es el elemento base del SO; gestiona los recursos, se comunica con el hardware y se encarga de gestionar la memoria, los procesos y los archivos.", "explicacion": "El kernel es el elemento base del sistema operativo: sin él no funciona el sistema; gestiona los recursos y se ocupa de la memoria, los procesos y los archivos." },
+    { "id": "SO-015", "articulo": "Red Hat — Almacenamiento de datos (definición)", "titulo": "Qué es el almacenamiento de datos", "resumen": "El almacenamiento de datos es la recopilación y conservación de la información digital, es decir, de los bits y bytes que hay detrás de aplicaciones, documentos y contenido multimedia.", "explicacion": "El almacenamiento de datos consiste en recopilar y conservar la información digital (los bits y bytes) que sostiene las aplicaciones, los documentos y el contenido multimedia." },
+    { "id": "SO-016", "articulo": "Red Hat — Historia del almacenamiento: HDD y SSD", "titulo": "Del disco duro (HDD) a la unidad de estado sólido (SSD)", "resumen": "Las unidades de estado sólido (SSD) reemplazaron a los discos giratorios por chips y memorias flash sólidos.", "explicacion": "La evolución del almacenamiento llevó de los discos duros mecánicos (HDD) a las unidades de estado sólido (SSD), que sustituyen los discos giratorios por chips y memorias flash sin partes móviles." },
+    { "id": "SO-017", "articulo": "Red Hat — Tipos de almacenamiento: archivos, bloques y objetos", "titulo": "Almacenamiento en archivos", "resumen": "El almacenamiento en archivos organiza los datos como archivos jerárquicos que los usuarios pueden abrir y explorar en su totalidad.", "explicacion": "El almacenamiento en archivos guarda los datos en una jerarquía de archivos y carpetas que el usuario puede abrir y recorrer; es el formato más comprensible para las personas." },
+    { "id": "SO-018", "articulo": "Red Hat — Tipos de almacenamiento: archivos, bloques y objetos", "titulo": "Almacenamiento en bloques", "resumen": "En el almacenamiento en bloques, los volúmenes de almacenamiento se dividen en instancias individuales conocidas como bloques.", "explicacion": "El almacenamiento en bloques trocea el volumen en unidades independientes llamadas bloques; al no exigir identificadores únicos, resulta rápido y es ideal para bases de datos." },
+    { "id": "SO-019", "articulo": "Red Hat — Tipos de almacenamiento: archivos, bloques y objetos", "titulo": "Almacenamiento en objetos", "resumen": "En el almacenamiento en objetos los datos se dividen en distintas unidades denominadas objetos y se alojan en un solo repositorio, en lugar de conservarse como archivos en carpetas o como bloques en servidores.", "explicacion": "El almacenamiento en objetos reparte los datos en unidades llamadas objetos dentro de un repositorio plano, en vez de usar la jerarquía de archivos o los bloques." },
+    { "id": "SO-020", "articulo": "Microsoft — Sistema de archivos FAT", "titulo": "FAT: la tabla de asignación de archivos", "resumen": "El sistema de archivos FAT se caracteriza por la tabla de asignación de archivos (FAT), que es realmente una tabla que reside en la parte superior del volumen.", "explicacion": "FAT (File Allocation Table) organiza el disco mediante una tabla situada al principio del volumen; se conservan dos copias por seguridad. Es el sistema de archivos más simple compatible con Windows." },
+    { "id": "SO-021", "articulo": "Microsoft — FAT: nomenclatura, límites y FAT32", "titulo": "FAT: nomenclatura 8.3", "resumen": "FAT usa la convención tradicional de nomenclatura de archivos 8.3 y todos los nombres de archivo deben crearse con el juego de caracteres ASCII.", "explicacion": "En FAT los nombres siguen el formato 8.3 (hasta ocho caracteres, un punto y tres de extensión) y se crean con el juego de caracteres ASCII." },
+    { "id": "SO-022", "articulo": "Microsoft — FAT: nomenclatura, límites y FAT32", "titulo": "FAT: límite de tamaño de partición", "resumen": "Las particiones FAT tienen un tamaño limitado a un máximo de 4 Gigabytes (GB) en Windows NT y 2 GB en MS-DOS.", "explicacion": "El sistema FAT limita el tamaño de las particiones: hasta 4 GB en Windows NT y 2 GB en MS-DOS, una de sus principales desventajas frente a NTFS." },
+    { "id": "SO-023", "articulo": "Microsoft — FAT: nomenclatura, límites y FAT32", "titulo": "Aparición del sistema de archivos FAT32", "resumen": "La compatibilidad con el sistema de archivos FAT32 se puso a disposición en Windows 98/Windows 95 OSR2 y Windows 2000.", "explicacion": "FAT32 es la evolución de FAT: su compatibilidad llegó con Windows 95 OSR2/Windows 98 y Windows 2000, ampliando los límites del FAT original." },
+    { "id": "SO-024", "articulo": "Microsoft — NTFS (introducción)", "titulo": "NTFS: sistema de archivos predeterminado de Windows", "resumen": "NTFS es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows.", "explicacion": "NTFS (New Technology File System) es el sistema de archivos por defecto de las versiones modernas de Windows; aporta seguridad, cifrado, cuotas de disco y metadatos enriquecidos." },
+    { "id": "SO-025", "articulo": "Microsoft — NTFS: recuperable y nombres de archivo", "titulo": "NTFS: sistema de archivos recuperable", "resumen": "NTFS es un sistema de archivos recuperable porque realiza un seguimiento de las transacciones en el sistema de archivos.", "explicacion": "NTFS lleva un registro de las transacciones del sistema de archivos; por eso puede recuperar la coherencia tras un fallo sin perder datos, algo que FAT no ofrece." },
+    { "id": "SO-026", "articulo": "Microsoft — NTFS: recuperable y nombres de archivo", "titulo": "NTFS: longitud de los nombres de archivo", "resumen": "En NTFS los nombres de archivo y directorio pueden tener hasta 255 caracteres, incluidas las extensiones.", "explicacion": "NTFS admite nombres largos: hasta 255 caracteres para archivos y directorios, frente a la limitada convención 8.3 de FAT." },
+    { "id": "SO-027", "articulo": "Microsoft — Sistema de archivos exFAT", "titulo": "exFAT, el sucesor de FAT32", "resumen": "El sistema de archivos exFAT es el sucesor de FAT32 en la familia FAT de sistemas de archivos.", "explicacion": "exFAT (Extensible FAT) es la evolución de FAT32 dentro de la familia FAT; se usa mucho en memorias USB y tarjetas por su compatibilidad y soporte de archivos grandes." },
+    { "id": "SO-028", "articulo": "Microsoft — Sistema de archivos exFAT", "titulo": "exFAT: 64 bits y clústeres grandes", "resumen": "El sistema de archivos exFAT usa 64 bits para describir el tamaño de archivo y permite clústeres de hasta 32 MB, lo que permite dispositivos de almacenamiento muy grandes.", "explicacion": "exFAT describe el tamaño de archivo con 64 bits y admite clústeres de hasta 32 MB, superando el límite de 4 GB por archivo de FAT32 y sirviendo para almacenamiento muy grande." },
+    { "id": "SO-029", "articulo": "Apple — Sistema de archivos de Apple (APFS)", "titulo": "APFS: sistema de archivos por omisión de macOS", "resumen": "El sistema de archivos de Apple (APFS) es el sistema de archivos por omisión de ordenadores Mac con macOS 10.13 o posterior.", "explicacion": "APFS es el sistema de archivos por defecto del Mac desde macOS 10.13; está optimizado para almacenamiento Flash o SSD e incluye encriptación de alta seguridad e instantáneas." },
+    { "id": "SO-030", "articulo": "Apple — Formatos compatibles con Windows (MS-DOS FAT y ExFAT)", "titulo": "MS-DOS (FAT) y ExFAT en el Mac por tamaño de volumen", "resumen": "En el Mac, MS-DOS (FAT) se utiliza para los volúmenes de Windows de hasta 32 GB y ExFAT para los volúmenes de Windows de más de 32 GB.", "explicacion": "Para discos compatibles con Windows, Apple recomienda MS-DOS (FAT) en volúmenes de hasta 32 GB y ExFAT para volúmenes mayores de 32 GB." }
+  ],
+  "actividades": [
+    { "concepto_id": "SO-001", "articulo": "Red Hat — Definición de sistema operativo", "tipo": "test", "enunciado": "Según Red Hat, ¿qué es un sistema operativo (SO)?", "opciones": [
+      "un software que gestiona directamente el hardware y los recursos de un sistema, como la CPU, la memoria y el almacenamiento",
+      "un conjunto de aplicaciones de usuario que se ejecutan directamente sobre el hardware, sin necesidad de ningún software intermedio que las coordine",
+      "un lenguaje de programación que traduce las órdenes escritas por el usuario a las señales eléctricas que es capaz de entender el procesador",
+      "un componente físico del ordenador que realiza los cálculos y accede a la memoria y a los discos de almacenamiento del equipo"
+    ], "indice_correcto": 0, "cotejo": "Un SO es un software que gestiona directamente el hardware y los recursos de un sistema, como la CPU, la memoria y el almacenamiento.", "justificacion": "Red Hat, «Linux: qué es», Definición de sistema operativo." },
+    { "concepto_id": "SO-002", "articulo": "Red Hat — Definición de sistema operativo", "tipo": "test", "enunciado": "¿Dónde se sitúa el sistema operativo respecto de las aplicaciones y el hardware?", "opciones": [
+      "entre las aplicaciones y el hardware y conecta todo el software con los recursos físicos que llevan a cabo el trabajo",
+      "por encima de las aplicaciones de usuario, a las que traduce y presenta en forma de menús, ventanas e iconos del escritorio",
+      "por debajo del hardware físico, del que obtiene la energía y las señales de reloj que necesitan la memoria y el procesador",
+      "dentro de cada aplicación concreta, a la que acompaña como una biblioteca que solo esa aplicación puede utilizar de forma exclusiva"
+    ], "indice_correcto": 0, "cotejo": "Se ubica entre las aplicaciones y el hardware y conecta todo el software con los recursos físicos que llevan a cabo el trabajo.", "justificacion": "Red Hat, «Linux: qué es», Definición de sistema operativo." },
+    { "concepto_id": "SO-003", "articulo": "Red Hat — Kernel de Linux (introducción)", "tipo": "test", "enunciado": "Según Red Hat, ¿qué es el kernel dentro de un sistema operativo?", "opciones": [
+      "la interfaz fundamental entre el hardware de una computadora y sus procesos",
+      "la capa gráfica del sistema operativo con la que interactúa el usuario mediante menús, ventanas e iconos del escritorio",
+      "el conjunto de aplicaciones y herramientas de usuario que se instalan encima del sistema operativo una vez arrancado",
+      "el dispositivo físico de almacenamiento permanente donde el sistema operativo guarda los archivos y los programas"
+    ], "indice_correcto": 0, "cotejo": "El kernel Linux es el elemento principal de los sistemas operativos (SO) Linux, y es la interfaz fundamental entre el hardware de una computadora y sus procesos.", "justificacion": "Red Hat, «¿Qué es el kernel Linux?», introducción." },
+    { "concepto_id": "SO-004", "articulo": "Red Hat — Funciones del kernel", "tipo": "test", "enunciado": "Entre las tareas del kernel, ¿en qué consiste la gestión de la memoria?", "opciones": [
+      "supervisa cuánta memoria se utiliza para almacenar qué tipo de elementos, así como el lugar en que los guarda",
+      "determina qué procesos pueden usar la unidad central de procesamiento, en qué momento y durante cuánto tiempo cada uno",
+      "actúa como mediador o intérprete entre el hardware físico del equipo y los distintos procesos que se ejecutan en él",
+      "recibe las solicitudes de servicio por parte de los procesos y comprueba los permisos de seguridad antes de atenderlas"
+    ], "indice_correcto": 0, "cotejo": "Gestión de la memoria: supervisa cuánta memoria se utiliza para almacenar qué tipo de elementos, así como el lugar en que los guarda.", "justificacion": "Red Hat, «¿Qué es el kernel Linux?», funciones del kernel." },
+    { "concepto_id": "SO-005", "articulo": "Red Hat — Funciones del kernel", "tipo": "test", "enunciado": "Entre las tareas del kernel, ¿qué implica la gestión de los procesos?", "opciones": [
+      "determina qué procesos pueden usar la unidad central de procesamiento (CPU), cuándo y durante cuánto tiempo",
+      "supervisa cuánta memoria se utiliza para guardar cada tipo de elemento, así como el lugar exacto donde lo almacena",
+      "traduce entre el hardware concreto del equipo y los procesos, actuando como mediador o intérprete entre ambos",
+      "atiende las solicitudes de servicio de los procesos y aplica las comprobaciones de seguridad y las llamadas al sistema"
+    ], "indice_correcto": 0, "cotejo": "Gestión de los procesos: determina qué procesos pueden usar la unidad central de procesamiento (CPU), cuándo y durante cuánto tiempo.", "justificacion": "Red Hat, «¿Qué es el kernel Linux?», funciones del kernel." },
+    { "concepto_id": "SO-006", "articulo": "Red Hat — Funciones del kernel", "tipo": "test", "enunciado": "En cuanto a los controladores de dispositivos, ¿qué papel desempeña el kernel?", "opciones": [
+      "actúa como mediador o intérprete entre el hardware y los procesos",
+      "reparte el tiempo de la unidad central de procesamiento entre los procesos",
+      "supervisa cuánta memoria se usa y el lugar en que guarda cada elemento",
+      "recibe las solicitudes de servicio que le envían los distintos procesos"
+    ], "indice_correcto": 0, "cotejo": "Controladores de dispositivos: actúa como mediador o intérprete entre el hardware y los procesos.", "justificacion": "Red Hat, «¿Qué es el kernel Linux?», funciones del kernel." },
+    { "concepto_id": "SO-007", "articulo": "Red Hat — Funciones del kernel", "tipo": "test", "enunciado": "En la tarea de seguridad y llamadas al sistema, ¿qué hace el kernel?", "opciones": [
+      "recibe solicitudes de servicio por parte de los procesos",
+      "reparte el tiempo de la CPU entre los procesos concurrentes",
+      "traduce entre el hardware del equipo y los procesos en ejecución",
+      "supervisa la memoria usada y dónde se guarda cada elemento"
+    ], "indice_correcto": 0, "cotejo": "Seguridad y llamadas al sistema: recibe solicitudes de servicio por parte de los procesos.", "justificacion": "Red Hat, «¿Qué es el kernel Linux?», funciones del kernel." },
+    { "concepto_id": "SO-008", "articulo": "Red Hat — Interfaz de usuario: GUI y CLI", "tipo": "test", "enunciado": "¿A qué hace referencia una interfaz gráfica de usuario (GUI)?", "opciones": [
+      "a todo lo que puedes ver y con lo que puedes interactuar cuando inicias el sistema operativo, como los menús, las ventanas y los iconos del escritorio",
+      "a la forma de dar órdenes escritas al equipo que otorga acceso directo a la computadora para realizar las tareas más complejas del sistema",
+      "al elemento base del sistema operativo que gestiona los recursos, se comunica con el hardware y controla la memoria, los procesos y los archivos",
+      "al conjunto de paquetes de software y herramientas que se añaden sobre el kernel para conformar el resto del sistema operativo funcional"
+    ], "indice_correcto": 0, "cotejo": "Una GUI hace referencia a todo lo que puedes ver y con lo que puedes interactuar cuando inicias el sistema operativo, como los menús, las ventanas y los iconos del escritorio.", "justificacion": "Red Hat, «Linux: qué es», GUI y línea de comandos." },
+    { "concepto_id": "SO-009", "articulo": "Red Hat — Interfaz de usuario: GUI y CLI", "tipo": "test", "enunciado": "Según Red Hat, ¿con qué se realizan habitualmente las tareas más complejas del sistema?", "opciones": [
+      "con la línea de comandos, que otorga acceso directo a la computadora",
+      "con la interfaz gráfica, mediante menús, ventanas e iconos del escritorio",
+      "con los controladores de dispositivos que median entre el hardware y los procesos",
+      "con los paquetes de software que conforman el resto del sistema operativo"
+    ], "indice_correcto": 0, "cotejo": "Las tareas más complejas suelen realizarse con la línea de comandos, que otorga acceso directo a la computadora.", "justificacion": "Red Hat, «Linux: qué es», GUI y línea de comandos." },
+    { "concepto_id": "SO-010", "articulo": "Red Hat — ¿Qué es Linux?", "tipo": "test", "enunciado": "¿Quién creó Linux y en qué año, según Red Hat?", "opciones": [
+      "un sistema operativo (SO) open source que creó Linus Torvalds en 1991",
+      "un sistema operativo propietario que creó la empresa Microsoft en 1985",
+      "un sistema operativo de tipo UNIX que creó la empresa Apple en 2001",
+      "un sistema operativo móvil que creó la empresa Google en el año 2008"
+    ], "indice_correcto": 0, "cotejo": "Linux es un sistema operativo (SO) open source que creó Linus Torvalds en 1991.", "justificacion": "Red Hat, «Linux: qué es», ¿Qué es Linux?" },
+    { "concepto_id": "SO-011", "articulo": "Red Hat — ¿Qué es Linux?", "tipo": "test", "enunciado": "¿Qué incluyen todos los sistemas operativos basados en Linux?", "opciones": [
+      "el kernel, que gestiona los recursos de hardware, y un conjunto de paquetes de software que conforman el resto del SO",
+      "únicamente una interfaz gráfica de usuario con menús, ventanas e iconos, sin necesidad de ningún núcleo que gestione el hardware",
+      "un intérprete de línea de comandos de MS-DOS que arranca el equipo y ejecuta los programas escribiendo sus nombres o números",
+      "un sistema de archivos NTFS con descriptores de seguridad, cifrado y cuotas de disco que administra directamente el almacenamiento"
+    ], "indice_correcto": 0, "cotejo": "Todos los sistemas operativos basados en Linux incluyen el kernel, que gestiona los recursos de hardware, y un conjunto de paquetes de software que conforman el resto del SO.", "justificacion": "Red Hat, «Linux: qué es», ¿Cómo funciona Linux?" },
+    { "concepto_id": "SO-012", "articulo": "Red Hat — ¿Qué es Linux?", "tipo": "test", "enunciado": "¿A qué sistema operativo se diseñó Linux para parecerse?", "opciones": [
+      "Linux se diseñó para que se parezca a UNIX, pero ha evolucionado para ejecutarse en una gran variedad de sistemas de hardware",
+      "Linux se diseñó para que se parezca a MS-DOS, pero ha evolucionado hasta ejecutarse únicamente en teléfonos móviles y tabletas",
+      "Linux se diseñó para que se parezca a Windows, pero ha evolucionado para funcionar solo en servidores de gran capacidad",
+      "Linux se diseñó para que se parezca a macOS, pero ha evolucionado para ejecutarse exclusivamente en ordenadores de la marca Apple"
+    ], "indice_correcto": 0, "cotejo": "Linux se diseñó para que se parezca a UNIX, pero ha evolucionado para ejecutarse en una gran variedad de sistemas de hardware, desde teléfonos hasta supercomputadoras.", "justificacion": "Red Hat, «Linux: qué es», ¿Cómo funciona Linux?" },
+    { "concepto_id": "SO-013", "articulo": "Red Hat — Linux y el open source (GPL)", "tipo": "test", "enunciado": "¿Con qué licencia se lanza Linux como software libre?", "opciones": [
+      "con una Licencia Pública General (GPL) de GNU",
+      "con una licencia propietaria de código cerrado",
+      "con una licencia de dominio público sin condiciones",
+      "con una licencia de prueba limitada a treinta días"
+    ], "indice_correcto": 0, "cotejo": "Linux es un sistema operativo open source libre que se lanza con una Licencia Pública General (GPL) de GNU.", "justificacion": "Red Hat, «Linux: qué es», Linux y el open source." },
+    { "concepto_id": "SO-014", "articulo": "Red Hat — Elementos de Linux: el kernel", "tipo": "test", "enunciado": "Como elemento base del SO, ¿de qué se encarga de gestionar el kernel?", "opciones": [
+      "la memoria, los procesos y los archivos",
+      "los menús, las ventanas y los iconos",
+      "los cables, los conectores y las antenas",
+      "las páginas web, los correos y los vídeos"
+    ], "indice_correcto": 0, "cotejo": "Se encarga de gestionar la memoria, los procesos y los archivos.", "justificacion": "Red Hat, «Linux: qué es», Elementos de Linux (Kernel)." },
+    { "concepto_id": "SO-015", "articulo": "Red Hat — Almacenamiento de datos (definición)", "tipo": "test", "enunciado": "Según Red Hat, ¿qué es el almacenamiento de datos?", "opciones": [
+      "la recopilación y conservación de la información digital, es decir, de los bits y bytes que se encuentran detrás de las aplicaciones",
+      "el procesamiento en tiempo real de la información mientras el equipo está activo, que se pierde en cuanto se apaga la máquina",
+      "el traslado de la información entre dos redes distintas comprobando la dirección de destino de cada uno de los paquetes",
+      "la traducción de los nombres de dominio inteligibles para las personas a las direcciones IP de los sistemas de la red"
+    ], "indice_correcto": 0, "cotejo": "El almacenamiento de datos es la recopilación y conservación de la información digital, es decir, de los bits y bytes que se encuentran detrás de las aplicaciones, los protocolos de red, los documentos, el contenido multimedia, las libretas de direcciones y las preferencias de los usuarios, entre otros.", "justificacion": "Red Hat, «Almacenamiento de datos», ¿Qué es el almacenamiento de datos?" },
+    { "concepto_id": "SO-016", "articulo": "Red Hat — Historia del almacenamiento: HDD y SSD", "tipo": "test", "enunciado": "¿Qué hicieron las unidades de estado sólido (SSD) respecto de los discos giratorios?", "opciones": [
+      "reemplazaron a los discos giratorios por chips y memorias flash sólidos",
+      "sustituyeron a las memorias flash sólidas por platos magnéticos giratorios",
+      "convirtieron las unidades de disco duro en discos compactos ópticos (CD)",
+      "transformaron los disquetes en el único almacenamiento permanente disponible"
+    ], "indice_correcto": 0, "cotejo": "las unidades de estado sólido (SSD) reemplazaron a los discos giratorios por chips y memorias flash sólidos", "justificacion": "Red Hat, «Almacenamiento de datos», breve historia de los dispositivos de almacenamiento." },
+    { "concepto_id": "SO-017", "articulo": "Red Hat — Tipos de almacenamiento: archivos, bloques y objetos", "tipo": "test", "enunciado": "¿Cómo organiza los datos el almacenamiento en archivos?", "opciones": [
+      "organiza los datos como archivos jerárquicos que los usuarios pueden abrir y explorar en su totalidad",
+      "divide los volúmenes de almacenamiento en instancias individuales independientes que se conocen como bloques",
+      "reparte los datos en unidades denominadas objetos que se alojan todas juntas en un único repositorio plano",
+      "guarda los datos de forma temporal en la memoria de acceso aleatorio mientras el equipo permanece encendido"
+    ], "indice_correcto": 0, "cotejo": "El almacenamiento en archivos organiza los datos como archivos jerárquicos que los usuarios pueden abrir y explorar en su totalidad.", "justificacion": "Red Hat, «Almacenamiento de datos», tipos de almacenamiento (archivos)." },
+    { "concepto_id": "SO-018", "articulo": "Red Hat — Tipos de almacenamiento: archivos, bloques y objetos", "tipo": "test", "enunciado": "En el almacenamiento en bloques, ¿cómo se dividen los volúmenes de almacenamiento?", "opciones": [
+      "se dividen en instancias individuales conocidas como bloques",
+      "se organizan como archivos jerárquicos que se pueden explorar",
+      "se reparten en unidades denominadas objetos en un repositorio",
+      "se conservan como carpetas identificadas por su nombre o su URL"
+    ], "indice_correcto": 0, "cotejo": "En el almacenamiento en bloques, los volúmenes de almacenamiento se dividen en instancias individuales conocidas como bloques.", "justificacion": "Red Hat, «Almacenamiento de datos», tipos de almacenamiento (bloques)." },
+    { "concepto_id": "SO-019", "articulo": "Red Hat — Tipos de almacenamiento: archivos, bloques y objetos", "tipo": "test", "enunciado": "En el almacenamiento en objetos, ¿cómo se guardan los datos?", "opciones": [
+      "se dividen en distintas unidades denominadas objetos y se alojan en un solo repositorio",
+      "se organizan en archivos jerárquicos dentro de carpetas que el usuario abre y explora",
+      "se dividen en bloques individuales e independientes repartidos entre varios servidores",
+      "se conservan de forma temporal en la memoria de acceso aleatorio del propio equipo"
+    ], "indice_correcto": 0, "cotejo": "Los datos se dividen en distintas unidades denominadas objetos y se alojan en un solo repositorio, en lugar de conservarse como archivos en carpetas o como bloques en servidores.", "justificacion": "Red Hat, «Almacenamiento de datos», tipos de almacenamiento (objetos)." },
+    { "concepto_id": "SO-020", "articulo": "Microsoft — Sistema de archivos FAT", "tipo": "test", "enunciado": "¿Qué caracteriza al sistema de archivos FAT?", "opciones": [
+      "la tabla de asignación de archivos (FAT), que es realmente una tabla que reside en la parte superior del volumen",
+      "un registro de transacciones que permite recuperar la coherencia del sistema de archivos tras un fallo del sistema",
+      "el uso de 64 bits para describir el tamaño de archivo y de clústeres de hasta 32 MB para dispositivos muy grandes",
+      "un contenedor de APFS en el que el espacio libre se comparte y se asigna automáticamente entre varios volúmenes"
+    ], "indice_correcto": 0, "cotejo": "El sistema de archivos FAT se caracteriza por la tabla de asignación de archivos (FAT), que es realmente una tabla que reside en la parte superior del volumen.", "justificacion": "Microsoft Learn, «FAT, HPFS y NTFS», información general sobre FAT." },
+    { "concepto_id": "SO-021", "articulo": "Microsoft — FAT: nomenclatura, límites y FAT32", "tipo": "test", "enunciado": "¿Qué convención de nomenclatura de archivos usa FAT?", "opciones": [
+      "la convención tradicional de nomenclatura de archivos 8.3",
+      "nombres de hasta 255 caracteres Unicode, incluidas las extensiones de los archivos",
+      "nombres con distinción entre mayúsculas y minúsculas propios de los requisitos POSIX",
+      "nombres largos basados en Unicode con un alias corto almacenado a la vez en el disco"
+    ], "indice_correcto": 0, "cotejo": "FAT usa la convención tradicional de nomenclatura de archivos 8.3 y todos los nombres de archivo deben crearse con el juego de caracteres ASCII.", "justificacion": "Microsoft Learn, «FAT, HPFS y NTFS», convención de nomenclatura FAT." },
+    { "concepto_id": "SO-022", "articulo": "Microsoft — FAT: nomenclatura, límites y FAT32", "tipo": "test", "enunciado": "¿A qué tamaño máximo están limitadas las particiones FAT en Windows NT y en MS-DOS?", "opciones": [
+      "a un máximo de 4 Gigabytes (GB) en Windows NT y 2 GB en MS-DOS",
+      "a un máximo de 32 GB en Windows NT y de 64 GB en el sistema MS-DOS",
+      "a un máximo de 16 TB con clústeres de 4 KB o de 256 TB con clústeres de 64 KB",
+      "a un máximo determinado por los 64 bits que exFAT usa para el tamaño de archivo"
+    ], "indice_correcto": 0, "cotejo": "Las particiones FAT tienen un tamaño limitado a un máximo de 4 Gigabytes (GB) en Windows NT y 2 GB en MS-DOS.", "justificacion": "Microsoft Learn, «FAT, HPFS y NTFS», desventajas de FAT." },
+    { "concepto_id": "SO-023", "articulo": "Microsoft — FAT: nomenclatura, límites y FAT32", "tipo": "test", "enunciado": "¿En qué versiones de Windows se puso a disposición la compatibilidad con FAT32?", "opciones": [
+      "en Windows 98/Windows 95 OSR2 y Windows 2000",
+      "en Windows NT 3.1 y Windows NT 3.51 únicamente",
+      "en Windows 11 y en Windows Server 2025 solamente",
+      "en Windows XP y en Windows Server 2003 en exclusiva"
+    ], "indice_correcto": 0, "cotejo": "La compatibilidad con el sistema de archivos FAT32 se puso a disposición en Windows 98/Windows 95 OSR2 y Windows 2000.", "justificacion": "Microsoft Learn, «FAT, HPFS y NTFS», nota sobre FAT32." },
+    { "concepto_id": "SO-024", "articulo": "Microsoft — NTFS (introducción)", "tipo": "test", "enunciado": "¿Cuál es el sistema de archivos predeterminado del sistema operativo moderno basado en Windows?", "opciones": [
+      "NTFS es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows",
+      "FAT32 es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows",
+      "exFAT es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows",
+      "APFS es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows"
+    ], "indice_correcto": 0, "cotejo": "El nuevo sistema de archivos de tecnología (NTFS) es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows.", "justificacion": "Microsoft Learn, «Introducción a NTFS»." },
+    { "concepto_id": "SO-025", "articulo": "Microsoft — NTFS: recuperable y nombres de archivo", "tipo": "test", "enunciado": "¿Por qué se dice que NTFS es un sistema de archivos recuperable?", "opciones": [
+      "porque realiza un seguimiento de las transacciones en el sistema de archivos",
+      "porque conserva dos copias de la tabla de asignación por si una se daña",
+      "porque usa la convención de nomenclatura 8.3 con caracteres ASCII",
+      "porque emplea 64 bits para describir el tamaño de cada uno de los archivos"
+    ], "indice_correcto": 0, "cotejo": "NTFS es un sistema de archivos recuperable porque realiza un seguimiento de las transacciones en el sistema de archivos.", "justificacion": "Microsoft Learn, «FAT, HPFS y NTFS», fiabilidad de NTFS." },
+    { "concepto_id": "SO-026", "articulo": "Microsoft — NTFS: recuperable y nombres de archivo", "tipo": "test", "enunciado": "¿Qué longitud máxima admiten los nombres de archivo y directorio en NTFS?", "opciones": [
+      "pueden tener hasta 255 caracteres, incluidas las extensiones",
+      "pueden tener hasta 8 caracteres, más 3 de extensión, en formato 8.3",
+      "pueden tener hasta 64 caracteres, sin contar el punto ni la extensión",
+      "pueden tener hasta 127 caracteres, en el juego de caracteres ASCII"
+    ], "indice_correcto": 0, "cotejo": "Los nombres de archivo y directorio pueden tener hasta 255 caracteres, incluidas las extensiones.", "justificacion": "Microsoft Learn, «FAT, HPFS y NTFS», convenciones de nomenclatura NTFS." },
+    { "concepto_id": "SO-027", "articulo": "Microsoft — Sistema de archivos exFAT", "tipo": "test", "enunciado": "¿De qué sistema de archivos es sucesor exFAT dentro de la familia FAT?", "opciones": [
+      "el sistema de archivos exFAT es el sucesor de FAT32 en la familia FAT de sistemas de archivos",
+      "el sistema de archivos exFAT es el sucesor de NTFS en la familia FAT de sistemas de archivos",
+      "el sistema de archivos exFAT es el sucesor de APFS en la familia FAT de sistemas de archivos",
+      "el sistema de archivos exFAT es el sucesor de HPFS en la familia FAT de sistemas de archivos"
+    ], "indice_correcto": 0, "cotejo": "El sistema de archivos exFAT es el sucesor de FAT32 en la familia FAT de sistemas de archivos.", "justificacion": "Microsoft Learn, «Especificación del sistema de archivos exFAT»." },
+    { "concepto_id": "SO-028", "articulo": "Microsoft — Sistema de archivos exFAT", "tipo": "test", "enunciado": "¿Cuántos bits usa exFAT para describir el tamaño de archivo?", "opciones": [
+      "usa 64 bits para describir el tamaño de archivo",
+      "usa 32 bits para describir el tamaño de archivo",
+      "usa 48 bits para describir el tamaño de archivo",
+      "usa 16 bits para describir el tamaño de archivo"
+    ], "indice_correcto": 0, "cotejo": "El sistema de archivos exFAT usa 64 bits para describir el tamaño de archivo, lo que permite a las aplicaciones que dependen de archivos muy grandes.", "justificacion": "Microsoft Learn, «Especificación del sistema de archivos exFAT»." },
+    { "concepto_id": "SO-029", "articulo": "Apple — Sistema de archivos de Apple (APFS)", "tipo": "test", "enunciado": "¿A partir de qué versión de macOS es APFS el sistema de archivos por omisión del Mac?", "opciones": [
+      "es el sistema de archivos por omisión de ordenadores Mac con macOS 10.13 o posterior",
+      "es el sistema de archivos por omisión de ordenadores Mac con macOS 10.15 o posterior",
+      "es el sistema de archivos por omisión de ordenadores Windows con la versión 10 o posterior",
+      "es el sistema de archivos por omisión de dispositivos móviles con iOS 13 o posterior"
+    ], "indice_correcto": 0, "cotejo": "El sistema de archivos de Apple (APFS) es el sistema de archivos por omisión de ordenadores Mac con macOS 10.13 o posterior.", "justificacion": "Apple, «Formatos del sistema de archivos disponibles en Utilidad de Discos», APFS." },
+    { "concepto_id": "SO-030", "articulo": "Apple — Formatos compatibles con Windows (MS-DOS FAT y ExFAT)", "tipo": "test", "enunciado": "En el Mac, ¿para qué volúmenes de Windows se utiliza el formato MS-DOS (FAT)?", "opciones": [
+      "MS-DOS (FAT): Se utiliza para los volúmenes de Windows de hasta 32 GB",
+      "MS-DOS (FAT): Se utiliza para los volúmenes de Windows de más de 32 GB",
+      "MS-DOS (FAT): Se utiliza para los volúmenes de arranque del Mac con macOS 10.13",
+      "MS-DOS (FAT): Se utiliza para los volúmenes encriptados que distinguen mayúsculas"
+    ], "indice_correcto": 0, "cotejo": "MS-DOS (FAT): Se utiliza para los volúmenes de Windows de hasta 32 GB.", "justificacion": "Apple, «Formatos del sistema de archivos disponibles en Utilidad de Discos», formatos compatibles con Windows." }
+  ],
+  "relaciones": [
+    { "origen": "SO-002", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "La ubicación del SO entre aplicaciones y hardware concreta la definición de sistema operativo." },
+    { "origen": "SO-003", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "El kernel es el elemento principal del sistema operativo." },
+    { "origen": "SO-004", "destino": "SO-003", "tipo": "desarrolla", "justificacion": "La gestión de la memoria es una de las tareas del kernel." },
+    { "origen": "SO-005", "destino": "SO-003", "tipo": "desarrolla", "justificacion": "La gestión de los procesos es una de las tareas del kernel." },
+    { "origen": "SO-006", "destino": "SO-003", "tipo": "desarrolla", "justificacion": "Los controladores de dispositivos son una de las tareas del kernel." },
+    { "origen": "SO-007", "destino": "SO-003", "tipo": "desarrolla", "justificacion": "La seguridad y las llamadas al sistema son una de las tareas del kernel." },
+    { "origen": "SO-014", "destino": "SO-003", "tipo": "desarrolla", "justificacion": "Que el kernel gestione memoria, procesos y archivos concreta su papel como elemento del SO." },
+    { "origen": "SO-008", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "La GUI es una de las formas de interactuar con el sistema operativo." },
+    { "origen": "SO-009", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "La CLI es una de las formas de interactuar con el sistema operativo." },
+    { "origen": "SO-010", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "Linux es un sistema operativo concreto." },
+    { "origen": "SO-011", "destino": "SO-010", "tipo": "desarrolla", "justificacion": "La composición kernel + paquetes concreta qué es un sistema Linux." },
+    { "origen": "SO-011", "destino": "SO-003", "tipo": "remite", "justificacion": "Un sistema Linux incluye el kernel, el elemento principal del SO." },
+    { "origen": "SO-012", "destino": "SO-010", "tipo": "remite", "justificacion": "Linux se diseñó para parecerse a UNIX." },
+    { "origen": "SO-013", "destino": "SO-010", "tipo": "desarrolla", "justificacion": "La licencia GPL concreta el carácter de software libre de Linux." },
+    { "origen": "SO-015", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "El almacenamiento es uno de los recursos que gestiona el sistema operativo." },
+    { "origen": "SO-016", "destino": "SO-015", "tipo": "desarrolla", "justificacion": "HDD y SSD son dispositivos concretos de almacenamiento de datos." },
+    { "origen": "SO-017", "destino": "SO-015", "tipo": "desarrolla", "justificacion": "El almacenamiento en archivos es un tipo de almacenamiento de datos." },
+    { "origen": "SO-018", "destino": "SO-015", "tipo": "desarrolla", "justificacion": "El almacenamiento en bloques es un tipo de almacenamiento de datos." },
+    { "origen": "SO-019", "destino": "SO-015", "tipo": "desarrolla", "justificacion": "El almacenamiento en objetos es un tipo de almacenamiento de datos." },
+    { "origen": "SO-020", "destino": "SO-014", "tipo": "desarrolla", "justificacion": "FAT es un sistema de archivos, y gestionar los archivos es tarea del kernel/SO." },
+    { "origen": "SO-021", "destino": "SO-020", "tipo": "desarrolla", "justificacion": "La nomenclatura 8.3 es un rasgo del sistema de archivos FAT." },
+    { "origen": "SO-022", "destino": "SO-020", "tipo": "limita", "justificacion": "El límite de 4 GB/2 GB restringe el tamaño de las particiones FAT." },
+    { "origen": "SO-023", "destino": "SO-020", "tipo": "desarrolla", "justificacion": "FAT32 es la evolución del sistema de archivos FAT." },
+    { "origen": "SO-024", "destino": "SO-014", "tipo": "desarrolla", "justificacion": "NTFS es un sistema de archivos, competencia del SO en la gestión de archivos." },
+    { "origen": "SO-025", "destino": "SO-024", "tipo": "desarrolla", "justificacion": "La recuperabilidad es un rasgo de NTFS." },
+    { "origen": "SO-026", "destino": "SO-024", "tipo": "desarrolla", "justificacion": "El límite de 255 caracteres es un rasgo de nomenclatura de NTFS." },
+    { "origen": "SO-026", "destino": "SO-021", "tipo": "limita", "justificacion": "Los nombres de 255 caracteres de NTFS superan la restrictiva convención 8.3 de FAT." },
+    { "origen": "SO-027", "destino": "SO-023", "tipo": "desarrolla", "justificacion": "exFAT es el sucesor de FAT32." },
+    { "origen": "SO-028", "destino": "SO-027", "tipo": "desarrolla", "justificacion": "El uso de 64 bits y clústeres grandes es un rasgo de exFAT." },
+    { "origen": "SO-029", "destino": "SO-014", "tipo": "desarrolla", "justificacion": "APFS es un sistema de archivos, competencia del SO en la gestión de archivos." },
+    { "origen": "SO-029", "destino": "SO-016", "tipo": "remite", "justificacion": "APFS está optimizado para el almacenamiento en Flash o SSD." },
+    { "origen": "SO-030", "destino": "SO-020", "tipo": "remite", "justificacion": "El formato MS-DOS (FAT) del Mac es el sistema de archivos FAT." },
+    { "origen": "SO-030", "destino": "SO-027", "tipo": "remite", "justificacion": "El formato ExFAT del Mac es el sistema de archivos exFAT." },
+    { "origen": "SO-006", "destino": "REDES-022", "tipo": "remite", "justificacion": "PROPUESTA cruce SO↔REDES: la tarjeta de red (con su dirección MAC grabada en el hardware) es un dispositivo de E/S que el SO maneja mediante controladores de dispositivos." },
+    { "origen": "SO-001", "destino": "REDES-001", "tipo": "remite", "justificacion": "PROPUESTA cruce SO↔REDES: tanto el SO (capas hardware/kernel/usuario) como el modelo OSI son marcos por capas del funcionamiento de un equipo en red." }
+  ]
+}

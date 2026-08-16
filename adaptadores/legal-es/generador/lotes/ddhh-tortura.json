@@ -1,0 +1,778 @@
+{
+  "meta": {
+    "materia": "convencion-contra-la-tortura",
+    "norma": "Convención contra la Tortura (1984), Protocolo facultativo (2002) y MNP del Defensor del Pueblo",
+    "referencia_boe": "BOE-A-1987-25053",
+    "referencia_fuente": [
+      "Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes (Nueva York, 10-12-1984) — BOE-A-1987-25053",
+      "Protocolo facultativo a la Convención contra la tortura (Nueva York, 18-12-2002) — BOE-A-2006-11128",
+      "Ley Orgánica 3/1981, del Defensor del Pueblo, disposición final única (MNP; añadida por LO 1/2009) — BOE-A-1981-10325"
+    ],
+    "tipo_fuente": "oficial",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"
+  },
+  "fuentes": {
+    "Convención art. 1": "A los efectos de la presente Convención, se entenderá por el término «tortura» todo acto por el cual se inflija intencionadamente a una persona dolores o sufrimientos graves, ya sean físicos o mentales, con el fin de obtener de ella o de un tercero información o una confesión, de castigarla por un acto que haya cometido, o se sospeche que ha cometido, o de intimidar o coaccionar a esa persona o a otras, o por cualquier razón basada en cualquier tipo de discriminación, cuando dichos dolores o sufrimientos sean infligidos por un funcionario público u otra persona en el ejercicio de funciones públicas, a instigación suya, o con su consentimiento o aquiescencia. No se considerarán torturas los dolores o sufrimientos que sean consecuencia únicamente de sanciones legítimas, o que sean inherentes o incidentales a éstas.",
+    "Convención art. 2": "1. Todo Estado Parte tomará medidas legislativas, administrativas, judiciales o de otra índole eficaces para impedir los actos de tortura en todo territorio que esté bajo su jurisdicción. 2. En ningún caso podrán invocarse circunstancias excepcionales tales como estado de guerra o amenaza de guerra, inestabilidad política interna o cualquier otra emergencia pública como justificación de la tortura. 3. No podrá invocarse una orden de un funcionario superior o de una autoridad pública como justificación de la tortura.",
+    "Convención art. 3": "1. Ningún Estado Parte procederá a la expulsión, devolución o extradición de una persona a otro Estado cuando haya razones fundadas para creer que estaría en peligro de ser sometida a tortura. 2. A los efectos de determinar si existen esas razones, las autoridades competentes tendrán en cuenta todas las consideraciones pertinentes, inclusive, cuando proceda, la existencia en el Estado de que se trate de un cuadro persistente de violaciones manifiestas, patentes o masivas de los derechos humanos.",
+    "Convención art. 4": "1. Todo Estado Parte velará por que todos los actos de tortura constituyan delitos conforme a su legislación penal. Lo mismo se aplicará a toda tentativa de cometer tortura y a todo acto de cualquier persona que constituya complicidad o participación en la tortura. 2. Todo Estado Parte castigará esos delitos con penas adecuadas en las que se tenga en cuenta su gravedad.",
+    "Convención art. 10": "1. Todo Estado Parte velará por que se incluyan una educación y una información completas sobre la prohibición de la tortura en la formación profesional del personal encargado de la aplicación de la ley, sea éste civil o militar, del personal médico, de los funcionarios públicos y otras personas que puedan participar en la custodia, el interrogatorio o el tratamiento de cualquier persona sometida a cualquier forma de arresto, detención o prisión.",
+    "Convención art. 12": "Todo Estado Parte velará por que, siempre que haya motivos razonables para creer que dentro de su jurisdicción se ha cometido un acto de tortura, las autoridades competentes procedan a una investigación pronta e imparcial.",
+    "Convención art. 13": "Todo Estado Parte velará por que toda persona que alegue haber sido sometida a tortura en cualquier territorio bajo su jurisdicción tenga derecho a presentar una queja y a que su caso sea pronta e imparcialmente examinado por sus autoridades competentes.",
+    "Convención art. 14": "1. Todo Estado Parte velará por que su legislación garantice a la víctima de un acto de tortura la reparación y el derecho a una indemnización justa y adecuada, incluidos los medios para su rehabilitación lo más completa posible. En caso de muerte de la víctima como resultado de un acto de tortura, las personas a su cargo tendrán derecho a indemnización.",
+    "Convención art. 15": "Todo Estado Parte se asegurará de que ninguna declaración que se demuestre que ha sido hecha como resultado de tortura pueda ser invocada como prueba en ningún procedimiento, salvo en contra de una persona acusada de tortura como prueba de que se ha formulado la declaración.",
+    "Convención art. 16": "1. Todo Estado Parte se comprometerá a prohibir en cualquier territorio bajo su jurisdicción otros actos que constituyan tratos o penas crueles, inhumanos o degradantes y que no lleguen a ser tortura tal como se define en el artículo 1, cuando esos actos sean cometidos por un funcionario público u otra persona que actúe en el ejercicio de funciones oficiales, o por instigación o con el consentimiento o la aquiescencia de tal funcionario o persona.",
+    "Convención art. 17": "1. Se constituirá un Comité contra la Tortura (denominado en adelante el Comité), el cual desempeñará las funciones que se señalan más adelante. El Comité estará compuesto de diez expertos de gran integridad moral y reconocida competencia en materia de derechos humanos, que ejercerán sus funciones a título personal. 5. Los miembros del Comité serán elegidos por cuatro años. Podrán ser reelegidos si se presenta de nuevo su candidatura.",
+    "Convención art. 19": "1. Los Estados Partes presentarán al Comité, por conducto del Secretario General de las Naciones Unidas, los informes relativos a las medidas que hayan adoptado para dar efectividad a los compromisos que han contraído en virtud de la presente Convención, dentro del plazo del año siguiente a la entrada en vigor de la Convención en lo que respecta al Estado Parte interesado. A partir de entonces, los Estados Partes presentarán informes suplementarios cada cuatro años sobre cualquier nueva disposición que se haya adoptado, así como los demás informes que solicite el Comité.",
+    "Protocolo art. 1": "El objetivo del presente Protocolo es establecer un sistema de visitas periódicas a cargo de órganos internacionales y nacionales independientes a los lugares en que se encuentren personas privadas de su libertad, con el fin de prevenir la tortura y otros tratos o penas crueles, inhumanos o degradantes.",
+    "Protocolo art. 2": "1. Se establecerá un Subcomité para la Prevención de la Tortura y Otros Tratos o Penas Crueles, Inhumanos, o Degradantes del Comité contra la Tortura (en adelante denominado el Subcomité para la Prevención) que desempeñará las funciones previstas en el presente Protocolo.",
+    "Protocolo art. 3": "Cada Estado Parte establecerá, designará o mantendrá, a nivel nacional, uno o varios órganos de visitas para la prevención de la tortura y otros tratos o penas crueles, inhumanos o degradantes (en adelante denominado el mecanismo nacional de prevención).",
+    "Protocolo art. 4": "2. A los efectos del presente Protocolo, por privación de libertad se entiende cualquier forma de detención o encarcelamiento o de custodia de una persona, por orden de una autoridad judicial o administrativa o de otra autoridad pública, en una institución pública o privada de la cual no pueda salir libremente.",
+    "Protocolo art. 5": "1. El Subcomité para la Prevención estará compuesto de diez miembros. Una vez que se haya registrado la quincuagésima ratificación del presente Protocolo o adhesión a él, el número de miembros del Subcomité para la Prevención aumentará a veinticinco.",
+    "Protocolo art. 17": "Cada Estado Parte mantendrá, designará o creará, a más tardar un año después de la entrada en vigor del presente Protocolo o de su ratificación o adhesión, uno o varios mecanismos nacionales independientes para la prevención de la tortura a nivel nacional.",
+    "Protocolo art. 18": "1. Los Estados Partes garantizarán la independencia funcional de los mecanismos nacionales de prevención, así como la independencia de su personal. 3. Los Estados Partes se comprometen a proporcionar los recursos necesarios para el funcionamiento de los mecanismos nacionales de prevención.",
+    "Protocolo art. 19": "Los mecanismos nacionales de prevención tendrán como mínimo las siguientes facultades: a) Examinar periódicamente el trato de las personas privadas de su libertad en lugares de detención, según la definición del artículo 4, con miras a fortalecer, si fuera necesario, su protección contra la tortura y otros tratos o penas crueles, inhumanos o degradantes; b) Hacer recomendaciones a las autoridades competentes con objeto de mejorar el trato y las condiciones de las personas privadas de su libertad y de prevenir la tortura; c) Hacer propuestas y observaciones acerca de la legislación vigente o de los proyectos de ley en la materia.",
+    "Protocolo art. 21": "1. Ninguna autoridad o funcionario ordenará, aplicará, permitirá o tolerará sanción alguna contra una persona u organización por haber comunicado al mecanismo nacional de prevención cualquier información, ya sea verdadera o falsa, y ninguna de estas personas u organizaciones sufrirá perjuicios de ningún tipo por este motivo.",
+    "LO 3/1981 disposición final única": "Primero. El Defensor del Pueblo ejercerá las funciones del Mecanismo Nacional de Prevención de la Tortura de conformidad con la Constitución, la presente Ley y el Protocolo facultativo de la Convención contra la tortura u otros tratos o penas crueles, inhumanos o degradantes. Segundo. Se crea un Consejo Asesor como órgano de cooperación técnica y jurídica en el ejercicio de las funciones propias del Mecanismo Nacional de Prevención, que será presidido por el Adjunto en el que el Defensor del Pueblo delegue las funciones previstas en esta disposición. El Reglamento determinará su estructura, composición y funcionamiento."
+  },
+  "conceptos": [
+    {
+      "id": "TORT-001",
+      "articulo": "Convención art. 1",
+      "titulo": "Definición de tortura",
+      "resumen": "Se entiende por «tortura» todo acto por el cual se inflige intencionadamente a una persona dolores o sufrimientos graves, físicos o mentales, con un fin (obtener información o confesión, castigar, intimidar o discriminar) e infligidos por un funcionario público u otra persona en el ejercicio de funciones públicas, o con su consentimiento o aquiescencia.",
+      "explicacion": "La Convención de 1984 fija una definición internacional de tortura con cuatro elementos: un acto intencional; que causa dolores o sufrimientos graves (físicos o mentales); con una finalidad concreta (información, confesión, castigo, intimidación o discriminación); y cometido por un agente estatal o con su consentimiento o aquiescencia. Quedan fuera los sufrimientos que sean consecuencia únicamente de sanciones legítimas."
+    },
+    {
+      "id": "TORT-002",
+      "articulo": "Convención art. 2",
+      "titulo": "Prohibición absoluta: ninguna circunstancia excepcional la justifica",
+      "resumen": "En ningún caso pueden invocarse circunstancias excepcionales (estado o amenaza de guerra, inestabilidad política interna o cualquier otra emergencia pública) como justificación de la tortura.",
+      "explicacion": "La prohibición de la tortura es absoluta e inderogable: ni siquiera en guerra o emergencia pública puede justificarse. Es una de las pocas prohibiciones que no admiten excepción alguna en el Derecho internacional de los derechos humanos."
+    },
+    {
+      "id": "TORT-003",
+      "articulo": "Convención art. 2",
+      "titulo": "La orden de un superior no justifica la tortura",
+      "resumen": "No puede invocarse una orden de un funcionario superior o de una autoridad pública como justificación de la tortura.",
+      "explicacion": "El deber de obediencia no ampara la tortura: quien la comete no puede escudarse en que cumplía una orden. Refuerza la responsabilidad individual del agente."
+    },
+    {
+      "id": "TORT-004",
+      "articulo": "Convención art. 3",
+      "titulo": "No devolución (non-refoulement)",
+      "resumen": "Ningún Estado procederá a la expulsión, devolución o extradición de una persona a otro Estado cuando haya razones fundadas para creer que estaría en peligro de ser sometida a tortura.",
+      "explicacion": "El principio de no devolución impide entregar a una persona a un país donde correría un riesgo real de tortura. Para valorarlo se atiende, entre otras cosas, a si en ese Estado existe un cuadro persistente de violaciones graves de derechos humanos."
+    },
+    {
+      "id": "TORT-005",
+      "articulo": "Convención art. 4",
+      "titulo": "La tortura como delito penal",
+      "resumen": "Todo Estado velará por que todos los actos de tortura constituyan delitos conforme a su legislación penal, incluidas la tentativa y la complicidad o participación.",
+      "explicacion": "Los Estados deben tipificar la tortura como delito en su Código Penal, y también la tentativa y la complicidad, castigándola con penas adecuadas a su gravedad."
+    },
+    {
+      "id": "TORT-006",
+      "articulo": "Convención art. 10",
+      "titulo": "Educación y formación sobre la prohibición",
+      "resumen": "Todo Estado velará por incluir educación e información sobre la prohibición de la tortura en la formación del personal encargado de aplicar la ley, sea civil o militar, del personal médico y de los funcionarios públicos.",
+      "explicacion": "La prevención pasa por la formación: quienes custodian, interrogan o tratan a personas detenidas deben conocer la prohibición de la tortura como parte de su formación profesional."
+    },
+    {
+      "id": "TORT-007",
+      "articulo": "Convención art. 12",
+      "titulo": "Investigación pronta e imparcial de oficio",
+      "resumen": "Siempre que haya motivos razonables para creer que se ha cometido un acto de tortura en su jurisdicción, el Estado velará por que las autoridades competentes procedan a una investigación pronta e imparcial.",
+      "explicacion": "Basta con que existan motivos razonables para sospechar tortura para que el Estado deba investigar de oficio, con prontitud e imparcialidad, sin necesidad de denuncia previa."
+    },
+    {
+      "id": "TORT-008",
+      "articulo": "Convención art. 13",
+      "titulo": "Derecho a presentar una queja",
+      "resumen": "Toda persona que alegue haber sido sometida a tortura tiene derecho a presentar una queja y a que su caso sea pronta e imparcialmente examinado por las autoridades competentes.",
+      "explicacion": "La víctima tiene derecho a denunciar y a que su caso se examine con prontitud e imparcialidad, con protección frente a represalias por la queja o el testimonio."
+    },
+    {
+      "id": "TORT-009",
+      "articulo": "Convención art. 14",
+      "titulo": "Reparación e indemnización a la víctima",
+      "resumen": "El Estado garantizará a la víctima de tortura la reparación y el derecho a una indemnización justa y adecuada, incluidos los medios para su rehabilitación; en caso de muerte, las personas a su cargo tendrán derecho a indemnización.",
+      "explicacion": "La víctima tiene derecho a ser reparada e indemnizada de forma justa y adecuada, y a los medios para rehabilitarse. Si muere a causa de la tortura, la indemnización pasa a las personas a su cargo."
+    },
+    {
+      "id": "TORT-010",
+      "articulo": "Convención art. 15",
+      "titulo": "Exclusión probatoria de la declaración obtenida bajo tortura",
+      "resumen": "Ninguna declaración que se demuestre hecha como resultado de tortura puede ser invocada como prueba en un procedimiento, salvo en contra de la persona acusada de tortura para probar que la declaración se formuló.",
+      "explicacion": "Regla de exclusión: lo obtenido bajo tortura no vale como prueba. La única excepción es usar esa declaración contra el propio torturador, para acreditar que se produjo."
+    },
+    {
+      "id": "TORT-011",
+      "articulo": "Convención art. 16",
+      "titulo": "Otros tratos o penas crueles, inhumanos o degradantes",
+      "resumen": "Todo Estado se compromete a prohibir otros actos que constituyan tratos o penas crueles, inhumanos o degradantes que no lleguen a ser tortura, cometidos por un funcionario público o con su consentimiento o aquiescencia.",
+      "explicacion": "La Convención no solo prohíbe la tortura: también obliga a impedir los tratos o penas crueles, inhumanos o degradantes que, sin llegar a ser tortura, cometa o consienta un agente público."
+    },
+    {
+      "id": "TORT-012",
+      "articulo": "Convención art. 17",
+      "titulo": "El Comité contra la Tortura",
+      "resumen": "Se constituye un Comité contra la Tortura, compuesto de diez expertos de gran integridad moral y reconocida competencia en materia de derechos humanos, que ejercen sus funciones a título personal.",
+      "explicacion": "El Comité contra la Tortura (CAT) es el órgano de expertos que vigila el cumplimiento de la Convención. Lo forman diez expertos independientes, elegidos por los Estados Partes, que actúan a título personal."
+    },
+    {
+      "id": "TORT-013",
+      "articulo": "Convención art. 19",
+      "titulo": "Informes periódicos de los Estados al Comité",
+      "resumen": "Los Estados presentan al Comité informes sobre las medidas adoptadas dentro del año siguiente a la entrada en vigor de la Convención para ese Estado y, a partir de entonces, informes suplementarios cada cuatro años.",
+      "explicacion": "Cada Estado rinde cuentas ante el Comité: un primer informe en el año siguiente a la entrada en vigor y después informes cada cuatro años sobre las novedades que adopte."
+    },
+    {
+      "id": "TORT-014",
+      "articulo": "Protocolo art. 1",
+      "titulo": "Objetivo del Protocolo: sistema de visitas periódicas",
+      "resumen": "El objetivo del Protocolo facultativo es establecer un sistema de visitas periódicas de órganos internacionales y nacionales independientes a los lugares donde haya personas privadas de libertad, para prevenir la tortura.",
+      "explicacion": "El Protocolo facultativo (2002) añade a la Convención un enfoque preventivo: visitas periódicas, sin previo aviso, a los lugares de detención, realizadas por órganos independientes tanto internacionales como nacionales."
+    },
+    {
+      "id": "TORT-015",
+      "articulo": "Protocolo art. 2",
+      "titulo": "El Subcomité para la Prevención",
+      "resumen": "Se establece un Subcomité para la Prevención de la Tortura, del Comité contra la Tortura, que desempeña las funciones previstas en el Protocolo.",
+      "explicacion": "El brazo internacional del sistema de visitas es el Subcomité para la Prevención, dependiente del Comité contra la Tortura, que visita los Estados Partes y asesora a los mecanismos nacionales."
+    },
+    {
+      "id": "TORT-016",
+      "articulo": "Protocolo art. 3",
+      "titulo": "El mecanismo nacional de prevención (MNP)",
+      "resumen": "Cada Estado Parte establecerá, designará o mantendrá, a nivel nacional, uno o varios órganos de visitas para la prevención de la tortura, denominados mecanismo nacional de prevención.",
+      "explicacion": "El brazo interno del sistema es el mecanismo nacional de prevención (MNP): uno o varios órganos que cada Estado crea, designa o mantiene para visitar los lugares de detención de su país."
+    },
+    {
+      "id": "TORT-017",
+      "articulo": "Protocolo art. 4",
+      "titulo": "Qué se entiende por privación de libertad",
+      "resumen": "Por privación de libertad se entiende cualquier forma de detención, encarcelamiento o custodia de una persona, por orden de una autoridad pública, en una institución pública o privada de la cual no pueda salir libremente.",
+      "explicacion": "El Protocolo define de forma amplia la privación de libertad para delimitar los lugares que pueden visitarse: no solo cárceles, sino cualquier lugar del que la persona no pueda salir libremente."
+    },
+    {
+      "id": "TORT-018",
+      "articulo": "Protocolo art. 5",
+      "titulo": "Composición del Subcomité (diez y luego veinticinco miembros)",
+      "resumen": "El Subcomité para la Prevención estará compuesto de diez miembros; una vez registrada la quincuagésima ratificación o adhesión, el número aumentará a veinticinco.",
+      "explicacion": "El Subcomité empezó con diez miembros y, al alcanzarse cincuenta Estados Partes, pasó a veinticinco. Es un dato que distingue al Subcomité del Comité contra la Tortura (que tiene diez)."
+    },
+    {
+      "id": "TORT-019",
+      "articulo": "Protocolo art. 17",
+      "titulo": "Plazo para designar el MNP: un año",
+      "resumen": "Cada Estado mantendrá, designará o creará, a más tardar un año después de la entrada en vigor del Protocolo o de su ratificación o adhesión, uno o varios mecanismos nacionales independientes.",
+      "explicacion": "El Protocolo fija un plazo: como máximo un año desde su entrada en vigor para el Estado, este debe tener designado su mecanismo nacional de prevención."
+    },
+    {
+      "id": "TORT-020",
+      "articulo": "Protocolo art. 18",
+      "titulo": "Independencia funcional del MNP",
+      "resumen": "Los Estados garantizarán la independencia funcional de los mecanismos nacionales de prevención y la independencia de su personal, y proporcionarán los recursos necesarios para su funcionamiento.",
+      "explicacion": "Para que el MNP sirva, tiene que ser independiente del poder al que vigila. El Protocolo exige garantizar su independencia funcional y la de su personal, además de dotarlo de recursos."
+    },
+    {
+      "id": "TORT-021",
+      "articulo": "Protocolo art. 19",
+      "titulo": "Facultades mínimas del MNP",
+      "resumen": "Los mecanismos nacionales de prevención tendrán, como mínimo, la facultad de examinar periódicamente el trato de las personas privadas de libertad, hacer recomendaciones a las autoridades y hacer propuestas y observaciones sobre la legislación.",
+      "explicacion": "El MNP tiene tres facultades mínimas: examinar periódicamente el trato de las personas detenidas, recomendar mejoras a las autoridades y opinar sobre las leyes y proyectos de ley en la materia."
+    },
+    {
+      "id": "TORT-022",
+      "articulo": "Protocolo art. 21",
+      "titulo": "Garantía frente a represalias",
+      "resumen": "Ninguna autoridad o funcionario ordenará, aplicará, permitirá o tolerará sanción alguna contra una persona u organización por haber comunicado al mecanismo nacional de prevención cualquier información, verdadera o falsa.",
+      "explicacion": "Quien facilita información al MNP queda protegido: no puede sufrir sanción ni perjuicio por ello, aunque la información resulte ser falsa. Es una garantía esencial para que las visitas sean eficaces."
+    },
+    {
+      "id": "TORT-023",
+      "articulo": "LO 3/1981 disposición final única",
+      "titulo": "El Defensor del Pueblo, Mecanismo Nacional de Prevención en España",
+      "resumen": "El Defensor del Pueblo ejercerá las funciones del Mecanismo Nacional de Prevención de la Tortura, de conformidad con la Constitución, la Ley Orgánica 3/1981 y el Protocolo facultativo.",
+      "explicacion": "España designó como su MNP al Defensor del Pueblo (LO 1/2009, que añadió la disposición final única a la LO 3/1981). Así, la institución que ya defiende los derechos del Título I asume también las visitas preventivas a lugares de detención."
+    },
+    {
+      "id": "TORT-024",
+      "articulo": "LO 3/1981 disposición final única",
+      "titulo": "El Consejo Asesor del MNP",
+      "resumen": "Se crea un Consejo Asesor como órgano de cooperación técnica y jurídica en el ejercicio de las funciones propias del Mecanismo Nacional de Prevención.",
+      "explicacion": "Para apoyar al Defensor del Pueblo en su tarea de MNP, la ley crea un Consejo Asesor, órgano de cooperación técnica y jurídica cuya estructura, composición y funcionamiento desarrolla el Reglamento del Defensor del Pueblo."
+    },
+    {
+      "id": "TORT-025",
+      "articulo": "LO 3/1981 disposición final única",
+      "titulo": "Presidencia del Consejo Asesor por un Adjunto",
+      "resumen": "El Consejo Asesor será presidido por el Adjunto en el que el Defensor del Pueblo delegue las funciones previstas en esta disposición; el Reglamento determinará su estructura, composición y funcionamiento.",
+      "explicacion": "La presidencia del Consejo Asesor recae en el Adjunto en quien el Defensor del Pueblo delegue las funciones de MNP. El detalle de su organización se remite al Reglamento del Defensor del Pueblo."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "TORT-001",
+      "articulo": "Convención art. 1",
+      "tipo": "test",
+      "enunciado": "Según la Convención de 1984, ¿qué elemento es esencial en la definición de tortura?",
+      "opciones": [
+        "se inflija intencionadamente a una persona dolores o sufrimientos graves, ya sean físicos o mentales",
+        "que se cause a una persona cualquier molestia o incomodidad leve durante un interrogatorio policial rutinario",
+        "que se produzca un daño accidental o negligente sin ninguna finalidad concreta por parte de la autoridad",
+        "que un particular ajeno a toda función pública cause a otro un perjuicio económico de carácter grave"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se entenderá por el término «tortura» todo acto por el cual se inflija intencionadamente a una persona dolores o sufrimientos graves, ya sean físicos o mentales",
+      "justificacion": "Convención art. 1"
+    },
+    {
+      "concepto_id": "TORT-001",
+      "articulo": "Convención art. 1",
+      "tipo": "test",
+      "enunciado": "¿En qué caso NO se consideran torturas los dolores o sufrimientos, según el artículo 1?",
+      "opciones": [
+        "que sean consecuencia únicamente de sanciones legítimas, o que sean inherentes o incidentales a éstas",
+        "cuando se hayan producido durante un estado de guerra o cualquier otra situación de emergencia pública declarada",
+        "cuando el funcionario que los causó actuara siguiendo una orden expresa de un superior jerárquico competente",
+        "cuando la víctima no llegue a presentar una queja formal ante las autoridades competentes del Estado Parte"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "No se considerarán torturas los dolores o sufrimientos que sean consecuencia únicamente de sanciones legítimas, o que sean inherentes o incidentales a éstas",
+      "justificacion": "Convención art. 1"
+    },
+    {
+      "concepto_id": "TORT-002",
+      "articulo": "Convención art. 2",
+      "tipo": "test",
+      "enunciado": "¿Pueden invocarse circunstancias excepcionales como justificación de la tortura?",
+      "opciones": [
+        "En ningún caso podrán invocarse circunstancias excepcionales tales como estado de guerra o amenaza de guerra, inestabilidad política interna o cualquier otra emergencia pública",
+        "solo podrán invocarse en caso de estado de guerra o de amenaza inminente de guerra exterior declarada por el Estado",
+        "podrán invocarse cuando exista una situación grave de inestabilidad política interna del Estado",
+        "podrán invocarse siempre que lo autorice previamente una resolución motivada de la autoridad judicial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En ningún caso podrán invocarse circunstancias excepcionales tales como estado de guerra o amenaza de guerra, inestabilidad política interna o cualquier otra emergencia pública como justificación de la tortura",
+      "justificacion": "Convención art. 2"
+    },
+    {
+      "concepto_id": "TORT-003",
+      "articulo": "Convención art. 2",
+      "tipo": "test",
+      "enunciado": "¿Sirve como justificación de la tortura la orden de un superior?",
+      "opciones": [
+        "no podrá invocarse una orden de un funcionario superior o de una autoridad pública como justificación de la tortura",
+        "podrá invocarse cuando la orden de cometerla proceda directamente del máximo responsable de la Administración pública competente en la materia",
+        "podrá invocarse siempre que el funcionario haya dejado constancia escrita de su discrepancia con la orden",
+        "podrá invocarse cuando la orden se dicte en el marco de un estado de excepción o de sitio válidamente declarado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "No podrá invocarse una orden de un funcionario superior o de una autoridad pública como justificación de la tortura",
+      "justificacion": "Convención art. 2"
+    },
+    {
+      "concepto_id": "TORT-004",
+      "articulo": "Convención art. 3",
+      "tipo": "test",
+      "enunciado": "¿Qué prohíbe el principio de no devolución del artículo 3?",
+      "opciones": [
+        "la expulsión, devolución o extradición de una persona a otro Estado cuando haya razones fundadas para creer que estaría en peligro de ser sometida a tortura",
+        "conceder asilo o protección internacional a una persona que ya ha sido condenada por un delito grave en su país",
+        "expulsar del territorio a cualquier extranjero que se encuentre en situación administrativa irregular de estancia",
+        "trasladar a un preso entre distintos centros penitenciarios sin contar con su consentimiento previo y por escrito"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Ningún Estado Parte procederá a la expulsión, devolución o extradición de una persona a otro Estado cuando haya razones fundadas para creer que estaría en peligro de ser sometida a tortura",
+      "justificacion": "Convención art. 3"
+    },
+    {
+      "concepto_id": "TORT-005",
+      "articulo": "Convención art. 4",
+      "tipo": "test",
+      "enunciado": "¿Qué obligación impone el artículo 4 respecto de los actos de tortura?",
+      "opciones": [
+        "velará por que todos los actos de tortura constituyan delitos conforme a su legislación penal",
+        "regular la tortura como una infracción administrativa sancionable con multa económica proporcional a su gravedad",
+        "remitir todos los casos de tortura a un tribunal internacional con competencia exclusiva sobre esos delitos",
+        "prever únicamente medidas disciplinarias internas frente a los funcionarios que cometan actos de tortura"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Todo Estado Parte velará por que todos los actos de tortura constituyan delitos conforme a su legislación penal",
+      "justificacion": "Convención art. 4"
+    },
+    {
+      "concepto_id": "TORT-006",
+      "articulo": "Convención art. 10",
+      "tipo": "test",
+      "enunciado": "¿Sobre qué deben recibir educación e información los agentes encargados de aplicar la ley?",
+      "opciones": [
+        "sobre la prohibición de la tortura en la formación profesional del personal encargado de la aplicación de la ley",
+        "sobre las técnicas de interrogatorio más eficaces para obtener una confesión rápida y fiable del detenido sospechoso de un delito grave",
+        "sobre el régimen disciplinario y las recompensas aplicables al personal de los centros de detención y prisión",
+        "sobre la organización administrativa interna del ministerio del que dependen los cuerpos policiales del Estado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "una educación y una información completas sobre la prohibición de la tortura en la formación profesional del personal encargado de la aplicación de la ley",
+      "justificacion": "Convención art. 10"
+    },
+    {
+      "concepto_id": "TORT-007",
+      "articulo": "Convención art. 12",
+      "tipo": "test",
+      "enunciado": "¿Cómo debe actuar el Estado ante motivos razonables para creer que se ha cometido tortura?",
+      "opciones": [
+        "las autoridades competentes procedan a una investigación pronta e imparcial",
+        "esperará a que la víctima presente una denuncia formal por escrito antes de iniciar cualquier actuación",
+        "trasladará el asunto directamente al Comité contra la Tortura para que sea este quien lo investigue",
+        "abrirá una información reservada de carácter interno cuyo resultado no se comunicará a los interesados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "las autoridades competentes procedan a una investigación pronta e imparcial",
+      "justificacion": "Convención art. 12"
+    },
+    {
+      "concepto_id": "TORT-008",
+      "articulo": "Convención art. 13",
+      "tipo": "test",
+      "enunciado": "¿Qué derecho reconoce el artículo 13 a quien alega haber sido sometido a tortura?",
+      "opciones": [
+        "derecho a presentar una queja y a que su caso sea pronta e imparcialmente examinado por sus autoridades competentes",
+        "derecho a obtener de forma automática una indemnización económica sin necesidad de acreditar en modo alguno los hechos que hubiera alegado",
+        "derecho a que su caso sea juzgado directamente por un tribunal penal internacional especializado en la materia",
+        "derecho a exigir la inmediata destitución del funcionario señalado antes de que concluya cualquier investigación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "tenga derecho a presentar una queja y a que su caso sea pronta e imparcialmente examinado por sus autoridades competentes",
+      "justificacion": "Convención art. 13"
+    },
+    {
+      "concepto_id": "TORT-009",
+      "articulo": "Convención art. 14",
+      "tipo": "test",
+      "enunciado": "¿Qué debe garantizar el Estado a la víctima de un acto de tortura?",
+      "opciones": [
+        "la reparación y el derecho a una indemnización justa y adecuada, incluidos los medios para su rehabilitación lo más completa posible",
+        "una compensación de cuantía fija e igual para todas las víctimas, con independencia del daño concreto sufrido en cada caso y de sus circunstancias personales",
+        "el derecho a elegir libremente el tribunal extranjero que habrá de conocer de su reclamación de responsabilidad",
+        "una pensión vitalicia con cargo a los presupuestos generales, incompatible con cualquier otra vía de reparación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la reparación y el derecho a una indemnización justa y adecuada, incluidos los medios para su rehabilitación lo más completa posible",
+      "justificacion": "Convención art. 14"
+    },
+    {
+      "concepto_id": "TORT-010",
+      "articulo": "Convención art. 15",
+      "tipo": "test",
+      "enunciado": "¿Qué valor probatorio tiene una declaración hecha como resultado de tortura?",
+      "opciones": [
+        "ninguna declaración que se demuestre que ha sido hecha como resultado de tortura pueda ser invocada como prueba en ningún procedimiento",
+        "podrá valorarse libremente por el tribunal junto con el resto de las pruebas practicadas en el procedimiento",
+        "conservará su validez si fue prestada ante la autoridad judicial y con la asistencia de un abogado defensor",
+        "podrá utilizarse como prueba de cargo siempre que resulte corroborada por otros indicios objetivos obtenidos lícitamente durante la instrucción del caso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "ninguna declaración que se demuestre que ha sido hecha como resultado de tortura pueda ser invocada como prueba en ningún procedimiento",
+      "justificacion": "Convención art. 15"
+    },
+    {
+      "concepto_id": "TORT-011",
+      "articulo": "Convención art. 16",
+      "tipo": "test",
+      "enunciado": "Además de la tortura, ¿qué actos se compromete a prohibir cada Estado Parte?",
+      "opciones": [
+        "otros actos que constituyan tratos o penas crueles, inhumanos o degradantes y que no lleguen a ser tortura",
+        "únicamente los actos de violencia física que dejen secuelas permanentes y médicamente acreditables en la persona",
+        "cualquier conducta molesta cometida por particulares aunque no intervenga ningún funcionario ni autoridad pública",
+        "solo los tratos degradantes que se produzcan en el interior de centros penitenciarios de titularidad estatal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "otros actos que constituyan tratos o penas crueles, inhumanos o degradantes y que no lleguen a ser tortura tal como se define en el artículo 1",
+      "justificacion": "Convención art. 16"
+    },
+    {
+      "concepto_id": "TORT-012",
+      "articulo": "Convención art. 17",
+      "tipo": "test",
+      "enunciado": "¿Por cuántos expertos está compuesto el Comité contra la Tortura?",
+      "opciones": [
+        "diez expertos de gran integridad moral y reconocida competencia en materia de derechos humanos",
+        "por dieciocho expertos independientes elegidos por sorteo entre los candidatos de todos los Estados Partes",
+        "por veinticinco miembros que representan de forma equitativa a las distintas regiones geográficas del mundo",
+        "por un número variable de expertos que se fija en cada reunión bienal de los Estados Partes convocada al efecto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Comité estará compuesto de diez expertos de gran integridad moral y reconocida competencia en materia de derechos humanos",
+      "justificacion": "Convención art. 17"
+    },
+    {
+      "concepto_id": "TORT-013",
+      "articulo": "Convención art. 19",
+      "tipo": "test",
+      "enunciado": "¿Con qué periodicidad presentan los Estados informes suplementarios al Comité?",
+      "opciones": [
+        "presentarán informes suplementarios cada cuatro años sobre cualquier nueva disposición que se haya adoptado",
+        "presentarán informes con carácter anual dentro de los tres primeros meses de cada ejercicio presupuestario",
+        "presentarán informes cada dos años coincidiendo con las reuniones bienales de los Estados Partes convocadas",
+        "presentarán un único informe inicial, sin obligación posterior de remitir información al Comité de forma periódica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "los Estados Partes presentarán informes suplementarios cada cuatro años sobre cualquier nueva disposición que se haya adoptado",
+      "justificacion": "Convención art. 19"
+    },
+    {
+      "concepto_id": "TORT-014",
+      "articulo": "Protocolo art. 1",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el objetivo del Protocolo facultativo de 2002?",
+      "opciones": [
+        "establecer un sistema de visitas periódicas a cargo de órganos internacionales y nacionales independientes a los lugares en que se encuentren personas privadas de su libertad",
+        "crear un tribunal internacional permanente con competencia para enjuiciar los delitos de tortura cometidos en cualquier Estado",
+        "unificar en un solo texto las legislaciones penales de los Estados Partes en materia de delitos contra la integridad moral",
+        "instituir un fondo económico internacional destinado a indemnizar de forma directa a las víctimas de actos de tortura"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El objetivo del presente Protocolo es establecer un sistema de visitas periódicas a cargo de órganos internacionales y nacionales independientes a los lugares en que se encuentren personas privadas de su libertad",
+      "justificacion": "Protocolo art. 1"
+    },
+    {
+      "concepto_id": "TORT-015",
+      "articulo": "Protocolo art. 2",
+      "tipo": "test",
+      "enunciado": "¿Qué órgano internacional establece el Protocolo facultativo?",
+      "opciones": [
+        "un Subcomité para la Prevención de la Tortura y Otros Tratos o Penas Crueles, Inhumanos, o Degradantes del Comité contra la Tortura",
+        "un Alto Comisionado de las Naciones Unidas con competencia exclusiva para la prevención de la tortura en el mundo",
+        "una comisión especial de conciliación integrada por representantes de los Estados Partes implicados en cada caso",
+        "un grupo de trabajo temporal dependiente directamente de la Asamblea General de las Naciones Unidas y de sus comisiones especializadas en la materia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se establecerá un Subcomité para la Prevención de la Tortura y Otros Tratos o Penas Crueles, Inhumanos, o Degradantes del Comité contra la Tortura",
+      "justificacion": "Protocolo art. 2"
+    },
+    {
+      "concepto_id": "TORT-016",
+      "articulo": "Protocolo art. 3",
+      "tipo": "test",
+      "enunciado": "¿Qué debe establecer, designar o mantener cada Estado Parte a nivel nacional?",
+      "opciones": [
+        "uno o varios órganos de visitas para la prevención de la tortura y otros tratos o penas crueles, inhumanos o degradantes",
+        "un cuerpo especial de inspectores dependiente del ministerio del interior y encargado de vigilar las prisiones",
+        "un registro público en el que se inscriban todas las personas privadas de libertad en el territorio del Estado",
+        "una fiscalía especializada con competencia exclusiva para la persecución penal de los delitos de tortura cometidos en todo el territorio del Estado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "uno o varios órganos de visitas para la prevención de la tortura y otros tratos o penas crueles, inhumanos o degradantes (en adelante denominado el mecanismo nacional de prevención)",
+      "justificacion": "Protocolo art. 3"
+    },
+    {
+      "concepto_id": "TORT-017",
+      "articulo": "Protocolo art. 4",
+      "tipo": "test",
+      "enunciado": "¿Qué se entiende por privación de libertad a los efectos del Protocolo?",
+      "opciones": [
+        "cualquier forma de detención o encarcelamiento o de custodia de una persona, por orden de una autoridad judicial o administrativa o de otra autoridad pública, en una institución pública o privada de la cual no pueda salir libremente",
+        "exclusivamente el internamiento en un centro penitenciario acordado en virtud de una sentencia penal firme y condenatoria dictada por un juez competente",
+        "únicamente la detención policial practicada sin autorización judicial previa durante la investigación de un delito grave o de un delito de terrorismo",
+        "toda medida cautelar de carácter personal acordada por un juez con independencia de que la persona afectada pueda o no salir libremente del lugar en que se halle"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "por privación de libertad se entiende cualquier forma de detención o encarcelamiento o de custodia de una persona, por orden de una autoridad judicial o administrativa o de otra autoridad pública, en una institución pública o privada de la cual no pueda salir libremente",
+      "justificacion": "Protocolo art. 4"
+    },
+    {
+      "concepto_id": "TORT-018",
+      "articulo": "Protocolo art. 5",
+      "tipo": "test",
+      "enunciado": "¿A cuántos miembros aumenta el Subcomité tras la quincuagésima ratificación o adhesión?",
+      "opciones": [
+        "el número de miembros del Subcomité para la Prevención aumentará a veinticinco",
+        "el número de miembros del Subcomité para la Prevención se mantendrá en los diez miembros iniciales previstos",
+        "el número de miembros del Subcomité para la Prevención aumentará a dieciocho expertos independientes elegidos",
+        "el número de miembros del Subcomité para la Prevención se fijará en cada reunión bienal de los Estados Partes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el número de miembros del Subcomité para la Prevención aumentará a veinticinco",
+      "justificacion": "Protocolo art. 5"
+    },
+    {
+      "concepto_id": "TORT-019",
+      "articulo": "Protocolo art. 17",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo debe cada Estado tener designado su mecanismo nacional de prevención?",
+      "opciones": [
+        "a más tardar un año después de la entrada en vigor del presente Protocolo o de su ratificación o adhesión",
+        "a más tardar seis meses después de la entrada en vigor del Protocolo para el Estado Parte interesado",
+        "a más tardar dos años después de la ratificación, prorrogables por otro año a solicitud del propio Estado",
+        "dentro del plazo que libremente fije cada Estado Parte, sin sujeción a ningún límite temporal predeterminado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a más tardar un año después de la entrada en vigor del presente Protocolo o de su ratificación o adhesión",
+      "justificacion": "Protocolo art. 17"
+    },
+    {
+      "concepto_id": "TORT-020",
+      "articulo": "Protocolo art. 18",
+      "tipo": "test",
+      "enunciado": "¿Qué deben garantizar los Estados respecto de los mecanismos nacionales de prevención?",
+      "opciones": [
+        "la independencia funcional de los mecanismos nacionales de prevención, así como la independencia de su personal",
+        "la dependencia jerárquica de los mecanismos nacionales respecto del ministerio con competencias en instituciones penitenciarias",
+        "la composición de los mecanismos nacionales exclusivamente con funcionarios en activo de los cuerpos de seguridad del Estado",
+        "la publicación previa de cada visita del mecanismo nacional con al menos quince días de antelación al centro afectado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Estados Partes garantizarán la independencia funcional de los mecanismos nacionales de prevención, así como la independencia de su personal",
+      "justificacion": "Protocolo art. 18"
+    },
+    {
+      "concepto_id": "TORT-021",
+      "articulo": "Protocolo art. 19",
+      "tipo": "test",
+      "enunciado": "¿Cuál es una de las facultades mínimas del mecanismo nacional de prevención?",
+      "opciones": [
+        "examinar periódicamente el trato de las personas privadas de su libertad en lugares de detención",
+        "imponer directamente sanciones disciplinarias a los funcionarios responsables de los centros de detención visitados",
+        "ordenar de forma inmediata la puesta en libertad de las personas que considere indebidamente detenidas o retenidas",
+        "instruir y resolver los procedimientos penales derivados de los actos de tortura que detecte durante sus visitas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Examinar periódicamente el trato de las personas privadas de su libertad en lugares de detención",
+      "justificacion": "Protocolo art. 19"
+    },
+    {
+      "concepto_id": "TORT-022",
+      "articulo": "Protocolo art. 21",
+      "tipo": "test",
+      "enunciado": "¿Qué protección tiene quien comunica información al mecanismo nacional de prevención?",
+      "opciones": [
+        "ninguna autoridad o funcionario ordenará, aplicará, permitirá o tolerará sanción alguna contra una persona u organización por haber comunicado al mecanismo nacional de prevención cualquier información",
+        "podrá ser sancionado únicamente en el caso de que la información que haya comunicado resulte finalmente ser falsa o inexacta",
+        "quedará protegido solo si comunica la información de forma anónima y a través de los cauces formales previstos al efecto",
+        "recibirá una compensación económica proporcional a la relevancia de la información que haya facilitado al mecanismo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Ninguna autoridad o funcionario ordenará, aplicará, permitirá o tolerará sanción alguna contra una persona u organización por haber comunicado al mecanismo nacional de prevención cualquier información, ya sea verdadera o falsa",
+      "justificacion": "Protocolo art. 21"
+    },
+    {
+      "concepto_id": "TORT-023",
+      "articulo": "LO 3/1981 disposición final única",
+      "tipo": "test",
+      "enunciado": "¿Qué institución ejerce en España las funciones del Mecanismo Nacional de Prevención de la Tortura?",
+      "opciones": [
+        "el Defensor del Pueblo ejercerá las funciones del Mecanismo Nacional de Prevención de la Tortura",
+        "el Ministerio Fiscal ejercerá las funciones del Mecanismo Nacional de Prevención de la Tortura a nivel estatal",
+        "el Consejo General del Poder Judicial ejercerá las funciones del Mecanismo Nacional de Prevención de la Tortura",
+        "una autoridad administrativa independiente de nueva creación ejercerá las funciones del Mecanismo Nacional de Prevención"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Defensor del Pueblo ejercerá las funciones del Mecanismo Nacional de Prevención de la Tortura de conformidad con la Constitución, la presente Ley y el Protocolo facultativo",
+      "justificacion": "LO 3/1981 disposición final única"
+    },
+    {
+      "concepto_id": "TORT-024",
+      "articulo": "LO 3/1981 disposición final única",
+      "tipo": "test",
+      "enunciado": "¿Qué órgano crea la Ley para cooperar en el ejercicio de las funciones del MNP?",
+      "opciones": [
+        "un Consejo Asesor como órgano de cooperación técnica y jurídica en el ejercicio de las funciones propias del Mecanismo Nacional de Prevención",
+        "una comisión mixta Congreso-Senado encargada de supervisar el ejercicio de las funciones del Mecanismo Nacional de Prevención de la Tortura",
+        "una unidad administrativa dependiente del Ministerio de Justicia con funciones de apoyo material al Mecanismo Nacional de Prevención",
+        "un cuerpo de inspectores externos contratados para realizar por delegación las visitas propias del Mecanismo Nacional de Prevención"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se crea un Consejo Asesor como órgano de cooperación técnica y jurídica en el ejercicio de las funciones propias del Mecanismo Nacional de Prevención",
+      "justificacion": "LO 3/1981 disposición final única"
+    },
+    {
+      "concepto_id": "TORT-025",
+      "articulo": "LO 3/1981 disposición final única",
+      "tipo": "test",
+      "enunciado": "¿Quién preside el Consejo Asesor del Mecanismo Nacional de Prevención?",
+      "opciones": [
+        "el Adjunto en el que el Defensor del Pueblo delegue las funciones previstas en esta disposición",
+        "el propio Defensor del Pueblo, sin posibilidad de delegar esta función de presidencia en ninguno de sus Adjuntos",
+        "un vocal elegido de entre los miembros del Consejo Asesor por mayoría de tres quintas partes de sus componentes",
+        "el Presidente de la Comisión Mixta Congreso-Senado de relaciones con el Defensor del Pueblo constituida al efecto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "que será presidido por el Adjunto en el que el Defensor del Pueblo delegue las funciones previstas en esta disposición",
+      "justificacion": "LO 3/1981 disposición final única"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "TORT-002",
+      "destino": "TORT-001",
+      "tipo": "desarrolla",
+      "justificacion": "La prohibición absoluta concreta el alcance de la definición de tortura."
+    },
+    {
+      "origen": "TORT-003",
+      "destino": "TORT-002",
+      "tipo": "desarrolla",
+      "justificacion": "La orden del superior como no-justificación completa el carácter absoluto de la prohibición."
+    },
+    {
+      "origen": "TORT-004",
+      "destino": "TORT-001",
+      "tipo": "desarrolla",
+      "justificacion": "La no devolución protege frente al riesgo de sufrir la tortura definida en el art. 1."
+    },
+    {
+      "origen": "TORT-005",
+      "destino": "TORT-001",
+      "tipo": "desarrolla",
+      "justificacion": "La tipificación penal concreta la reacción del Estado frente a la tortura definida."
+    },
+    {
+      "origen": "TORT-006",
+      "destino": "TORT-001",
+      "tipo": "desarrolla",
+      "justificacion": "La formación del personal previene los actos de tortura del art. 1."
+    },
+    {
+      "origen": "TORT-007",
+      "destino": "TORT-005",
+      "tipo": "desarrolla",
+      "justificacion": "La investigación de oficio persigue el delito de tortura tipificado en el art. 4."
+    },
+    {
+      "origen": "TORT-008",
+      "destino": "TORT-007",
+      "tipo": "desarrolla",
+      "justificacion": "El derecho a presentar queja activa la investigación pronta e imparcial."
+    },
+    {
+      "origen": "TORT-009",
+      "destino": "TORT-005",
+      "tipo": "desarrolla",
+      "justificacion": "La reparación de la víctima completa la respuesta del Estado al delito de tortura."
+    },
+    {
+      "origen": "TORT-010",
+      "destino": "TORT-005",
+      "tipo": "desarrolla",
+      "justificacion": "La exclusión probatoria refuerza la persecución penal de la tortura."
+    },
+    {
+      "origen": "TORT-011",
+      "destino": "TORT-001",
+      "tipo": "limita",
+      "justificacion": "Los tratos crueles, inhumanos o degradantes son los que no llegan a ser tortura del art. 1."
+    },
+    {
+      "origen": "TORT-012",
+      "destino": "TORT-001",
+      "tipo": "desarrolla",
+      "justificacion": "El Comité contra la Tortura vigila el cumplimiento de la Convención."
+    },
+    {
+      "origen": "TORT-013",
+      "destino": "TORT-012",
+      "tipo": "desarrolla",
+      "justificacion": "Los informes periódicos concretan la supervisión del Comité."
+    },
+    {
+      "origen": "TORT-014",
+      "destino": "TORT-001",
+      "tipo": "desarrolla",
+      "justificacion": "El sistema de visitas del Protocolo previene la tortura definida en la Convención."
+    },
+    {
+      "origen": "TORT-015",
+      "destino": "TORT-014",
+      "tipo": "desarrolla",
+      "justificacion": "El Subcomité es el órgano internacional del sistema de visitas."
+    },
+    {
+      "origen": "TORT-015",
+      "destino": "TORT-012",
+      "tipo": "remite",
+      "justificacion": "El Subcomité para la Prevención depende del Comité contra la Tortura."
+    },
+    {
+      "origen": "TORT-016",
+      "destino": "TORT-014",
+      "tipo": "desarrolla",
+      "justificacion": "El MNP es el órgano nacional del sistema de visitas."
+    },
+    {
+      "origen": "TORT-017",
+      "destino": "TORT-014",
+      "tipo": "desarrolla",
+      "justificacion": "La definición de privación de libertad delimita los lugares a visitar."
+    },
+    {
+      "origen": "TORT-018",
+      "destino": "TORT-015",
+      "tipo": "desarrolla",
+      "justificacion": "La composición concreta el régimen del Subcomité."
+    },
+    {
+      "origen": "TORT-019",
+      "destino": "TORT-016",
+      "tipo": "desarrolla",
+      "justificacion": "El plazo de un año concreta la obligación de designar el MNP."
+    },
+    {
+      "origen": "TORT-020",
+      "destino": "TORT-016",
+      "tipo": "desarrolla",
+      "justificacion": "La independencia funcional es garantía del MNP."
+    },
+    {
+      "origen": "TORT-021",
+      "destino": "TORT-016",
+      "tipo": "desarrolla",
+      "justificacion": "Las facultades mínimas concretan el mandato del MNP."
+    },
+    {
+      "origen": "TORT-022",
+      "destino": "TORT-021",
+      "tipo": "desarrolla",
+      "justificacion": "La garantía frente a represalias hace eficaces las facultades del MNP."
+    },
+    {
+      "origen": "TORT-023",
+      "destino": "TORT-016",
+      "tipo": "desarrolla",
+      "justificacion": "España designa al Defensor del Pueblo como su MNP del art. 3 del Protocolo."
+    },
+    {
+      "origen": "TORT-024",
+      "destino": "TORT-023",
+      "tipo": "desarrolla",
+      "justificacion": "El Consejo Asesor apoya al Defensor del Pueblo en su función de MNP."
+    },
+    {
+      "origen": "TORT-025",
+      "destino": "TORT-024",
+      "tipo": "desarrolla",
+      "justificacion": "La presidencia por un Adjunto concreta la organización del Consejo Asesor."
+    },
+    {
+      "origen": "TORT-023",
+      "destino": "DP-001",
+      "tipo": "desarrolla",
+      "justificacion": "La función de MNP amplía las competencias del alto comisionado (Defensor del Pueblo, art. 1 LO 3/1981)."
+    },
+    {
+      "origen": "TORT-025",
+      "destino": "DP-013",
+      "tipo": "remite",
+      "justificacion": "La presidencia recae en un Adjunto del Defensor del Pueblo (art. 8 LO 3/1981)."
+    },
+    {
+      "origen": "RDP-001",
+      "destino": "TORT-024",
+      "tipo": "desarrolla",
+      "justificacion": "El Reglamento del Defensor del Pueblo desarrolla el Consejo Asesor del MNP creado por la LO."
+    }
+  ]
+}

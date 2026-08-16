@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "materia": "sistemas-operativos-fundamentos",
+    "norma": "Fuentes técnicas de referencia sobre sistemas operativos: definición y funciones y Linux (Red Hat), sistemas de archivos de Windows FAT/FAT32/NTFS/exFAT (Microsoft Learn), sistema de archivos APFS y formatos MS-DOS (FAT)/ExFAT (Apple) y almacenamiento de datos (Red Hat)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "IBM — ¿Qué es un sistema operativo? (sistemas operativos populares: Microsoft Windows, macOS, iOS y Android; y precedentes del Unix de tiempo compartido): https://www.ibm.com/es-es/think/topics/operating-systems (consultado 04/08/2026) — iOS, Android, Windows, macOS, Unix",
+      "Red Hat — 1.4. El sistema de archivos ext4 (Gestión de sistemas de archivos, RHEL 8): https://docs.redhat.com/es/documentation/red_hat_enterprise_linux/8/html/managing_file_systems/the-ext4-file-system_overview-of-available-file-systems (consultado 04/08/2026) — ext4",
+      "Apple — Formatos del sistema de archivos disponibles en Utilidad de Discos en el Mac (versión macOS Monterey 12, que incluye Mac OS Plus / HFS Plus): https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/21.0/mac/12.0 (consultado 04/08/2026) — Mac OS Plus (HFS+)"
+    ],
+    "tipo_fuente": "autoridad",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 38 — Fundamentos de sistemas operativos: funciones de un sistema operativo; tipologías (MS-DOS, UNIX, Linux, Windows, MAC OS); sistemas operativos móviles (iOS, Android); sistemas de almacenamiento; sistemas de archivos"
+  },
+  "fuentes": {
+    "IBM — iOS": "Apple iOS es un sistema operativo móvil propietario que se ejecuta en dispositivos móviles de Apple, como iPhones y iPads.",
+    "IBM — Android": "Desarrollado por Google, Android es un sistema operativo móvil de código abierto ampliamente utilizado en dispositivos de teléfonos inteligentes personales y empresariales.",
+    "IBM — Microsoft Windows": "Microsoft Windows es uno de los sistemas operativos más utilizados a nivel mundial para uso personal y empresarial. Reconocido por su interfaz fácil de usar y versatilidad, es compatible con varias aplicaciones de software, desde herramientas de productividad como Microsoft Office hasta programas especializados para juegos, ingeniería y diseño.",
+    "IBM — macOS": "MacOS (anteriormente llamado OS X) es un sistema operativo propietario similar a Unix diseñado para ejecutarse en ordenadores de sobremesa, ordenadores portátiles y estaciones de trabajo de Apple (por ejemplo, iMac, MacBook, MacBook Pro).",
+    "IBM — Unix (precedentes)": "El desarrollo del sistema operativo Unix de tiempo compartido en los años 60 y 70 sentó importantes precedentes para los sistemas operativos modernos al introducir conceptos como la multitarea, la portabilidad y un sistema de archivos jerárquico, que son fundamentales para los sistemas actuales.",
+    "Red Hat — Sistema de archivos ext4 (definición)": "El sistema de archivos ext4 es la cuarta generación de la familia de sistemas de archivos ext. Fue el sistema de archivos por defecto en Red Hat Enterprise Linux 6.",
+    "Red Hat — ext4 compatibilidad con ext2 y ext3": "El controlador ext4 puede leer y escribir en los sistemas de archivos ext2 y ext3, pero el formato del sistema de archivos ext4 no es compatible con los controladores ext2 y ext3.",
+    "Red Hat — ext4 características": "ext4 añade varias características nuevas y mejoradas, como: Tamaño del sistema de archivos soportado hasta 50 TiB, Metadatos basados en el alcance, Asignación retardada, Suma de comprobación del diario, Gran soporte de almacenamiento.",
+    "Red Hat — ext4 asignación retardada": "La asignación retardada permite que el sistema de archivos posponga la selección de la ubicación permanente para los datos de usuario recién escritos hasta que los datos se descarguen en el disco.",
+    "Red Hat — ext4 reparación fsck": "El tiempo de reparación del sistema de archivos mediante la utilidad fsck en ext4 es mucho más rápido que en ext2 y ext3. Algunas reparaciones de sistemas de archivos han demostrado un aumento del rendimiento de hasta seis veces.",
+    "Apple — Mac OS Plus (versiones)": "Mac OS Plus: Sistema de archivos usado por macOS 10.12 y versiones anteriores.",
+    "Apple — Mac OS Plus (con registro) HFS Plus": "Mac OS Plus (con registro): Utiliza el formato Mac (HFS Plus con registro) para proteger la integridad del sistema de archivos jerárquico. Elige esta opción si no necesitas que el formato esté encriptado ni que distinga entre mayúsculas y minúsculas.",
+    "Apple — Mac OS Plus (mayús./minús.)": "Mac OS Plus (mayús./minús., con registro): Utiliza el formato Mac y distingue las mayúsculas y minúsculas de los nombres de las carpetas. Por ejemplo, las carpetas “Tareas” y “TAREAS” son diferentes."
+  },
+  "conceptos": [
+    { "id": "SO-031", "articulo": "IBM — iOS", "titulo": "iOS: sistema operativo móvil de Apple", "resumen": "Apple iOS es un sistema operativo móvil propietario que se ejecuta en dispositivos móviles de Apple, como iPhones y iPads.", "explicacion": "iOS es el sistema operativo móvil de Apple. Es propietario (código cerrado) y funciona en los dispositivos móviles de la marca, como el iPhone y el iPad, a diferencia de Android, que es de código abierto." },
+    { "id": "SO-032", "articulo": "IBM — Android", "titulo": "Android: sistema operativo móvil de Google", "resumen": "Desarrollado por Google, Android es un sistema operativo móvil de código abierto ampliamente utilizado en dispositivos de teléfonos inteligentes personales y empresariales.", "explicacion": "Android es el sistema operativo móvil de Google. A diferencia de iOS, es de código abierto y se usa de forma muy extendida en teléfonos inteligentes, tanto personales como de empresa, de muchos fabricantes distintos." },
+    { "id": "SO-033", "articulo": "IBM — Microsoft Windows", "titulo": "Microsoft Windows", "resumen": "Microsoft Windows es uno de los sistemas operativos más utilizados a nivel mundial para uso personal y empresarial, reconocido por su interfaz fácil de usar y su versatilidad.", "explicacion": "Windows, de Microsoft, es el sistema operativo de escritorio más extendido del mundo. Destaca por una interfaz sencilla y por ser compatible con multitud de programas, desde ofimática hasta juegos, ingeniería y diseño." },
+    { "id": "SO-034", "articulo": "IBM — macOS", "titulo": "macOS: SO propietario similar a Unix", "resumen": "macOS (anteriormente OS X) es un sistema operativo propietario similar a Unix diseñado para ejecutarse en ordenadores de sobremesa, portátiles y estaciones de trabajo de Apple.", "explicacion": "macOS es el sistema operativo de los ordenadores Apple (iMac, MacBook, MacBook Pro). Es propietario y de tipo Unix, y es muy usado en sectores creativos como el diseño gráfico o la edición de vídeo." },
+    { "id": "SO-035", "articulo": "IBM — Unix (precedentes)", "titulo": "Unix: precedente de los SO modernos", "resumen": "El Unix de tiempo compartido de los años 60 y 70 introdujo conceptos como la multitarea, la portabilidad y un sistema de archivos jerárquico, fundamentales para los sistemas actuales.", "explicacion": "Unix es el sistema operativo del que derivan muchos de los actuales. Sentó las bases de la informática moderna al introducir la multitarea, la portabilidad y el sistema de archivos jerárquico; Linux y macOS son sus herederos." },
+    { "id": "SO-036", "articulo": "Red Hat — Sistema de archivos ext4 (definición)", "titulo": "ext4: cuarta generación de la familia ext", "resumen": "El sistema de archivos ext4 es la cuarta generación de la familia de sistemas de archivos ext.", "explicacion": "ext4 es el sistema de archivos por excelencia de Linux. Es la cuarta generación de la familia ext (tras ext, ext2 y ext3) y mejora a sus predecesores en tamaño, rendimiento y fiabilidad." },
+    { "id": "SO-037", "articulo": "Red Hat — Sistema de archivos ext4 (definición)", "titulo": "ext4 por defecto en Red Hat Enterprise Linux 6", "resumen": "ext4 fue el sistema de archivos por defecto en Red Hat Enterprise Linux 6.", "explicacion": "ext4 llegó a ser el sistema de archivos por defecto de Red Hat Enterprise Linux 6, lo que muestra su papel central en el mundo Linux antes de que XFS lo relevara en versiones posteriores." },
+    { "id": "SO-038", "articulo": "Red Hat — ext4 compatibilidad con ext2 y ext3", "titulo": "ext4: compatibilidad con ext2 y ext3", "resumen": "El controlador ext4 puede leer y escribir en los sistemas de archivos ext2 y ext3, pero el formato de ext4 no es compatible con los controladores ext2 y ext3.", "explicacion": "La compatibilidad de ext4 es hacia atrás: su controlador puede leer y escribir volúmenes ext2 y ext3, pero no al revés, porque los controladores antiguos no entienden el formato de ext4." },
+    { "id": "SO-039", "articulo": "Red Hat — ext4 características", "titulo": "ext4: tamaño soportado hasta 50 TiB", "resumen": "Entre las características de ext4, Red Hat cita un tamaño del sistema de archivos soportado hasta 50 TiB.", "explicacion": "ext4 admite sistemas de archivos de gran tamaño (hasta 50 TiB según Red Hat), junto con metadatos basados en el alcance, asignación retardada y suma de comprobación del diario." },
+    { "id": "SO-040", "articulo": "Red Hat — ext4 asignación retardada", "titulo": "ext4: asignación retardada", "resumen": "La asignación retardada permite que el sistema de archivos posponga la selección de la ubicación permanente de los datos recién escritos hasta que se descarguen en el disco.", "explicacion": "La asignación retardada es una de las mejoras clave de ext4: espera a que los datos vayan al disco para decidir dónde colocarlos, lo que permite asignaciones más grandes y contiguas y mejora el rendimiento." },
+    { "id": "SO-041", "articulo": "Red Hat — ext4 reparación fsck", "titulo": "ext4: reparación con fsck más rápida", "resumen": "El tiempo de reparación del sistema de archivos mediante la utilidad fsck en ext4 es mucho más rápido que en ext2 y ext3.", "explicacion": "La comprobación y reparación con la herramienta fsck es mucho más rápida en ext4 que en ext2 y ext3; algunas reparaciones han mostrado mejoras de hasta seis veces en el rendimiento." },
+    { "id": "SO-042", "articulo": "Apple — Mac OS Plus (versiones)", "titulo": "Mac OS Plus (HFS+): versiones de macOS", "resumen": "Mac OS Plus es el sistema de archivos usado por macOS 10.12 y versiones anteriores.", "explicacion": "Mac OS Plus (también conocido como HFS Plus o HFS+) fue el sistema de archivos del Mac hasta macOS 10.12; a partir de macOS 10.13 lo reemplazó APFS como formato por omisión." },
+    { "id": "SO-043", "articulo": "Apple — Mac OS Plus (con registro) HFS Plus", "titulo": "Mac OS Plus (con registro): formato HFS Plus", "resumen": "Mac OS Plus (con registro) utiliza el formato Mac (HFS Plus con registro) para proteger la integridad del sistema de archivos jerárquico.", "explicacion": "La variante Mac OS Plus (con registro) emplea el formato HFS Plus con registro (journaling), que protege la integridad del sistema de archivos jerárquico tras un fallo. Se elige cuando no se necesita encriptación ni distinción de mayúsculas y minúsculas." },
+    { "id": "SO-044", "articulo": "Apple — Mac OS Plus (mayús./minús.)", "titulo": "Mac OS Plus (mayús./minús., con registro)", "resumen": "La variante Mac OS Plus (mayús./minús., con registro) utiliza el formato Mac y distingue las mayúsculas y minúsculas de los nombres de las carpetas.", "explicacion": "Esta variante de Mac OS Plus añade la distinción entre mayúsculas y minúsculas en los nombres de carpeta: para ella, las carpetas “Tareas” y “TAREAS” son diferentes, algo que la variante estándar no diferencia." }
+  ],
+  "actividades": [
+    { "concepto_id": "SO-031", "articulo": "IBM — iOS", "tipo": "test", "enunciado": "Según IBM, ¿qué es Apple iOS?", "opciones": [
+      "un sistema operativo móvil propietario que se ejecuta en dispositivos móviles de Apple, como iPhones y iPads",
+      "un sistema operativo móvil de código abierto muy utilizado en teléfonos inteligentes personales y empresariales de distintos fabricantes",
+      "un sistema operativo de escritorio propietario reconocido por su interfaz fácil de usar y por su gran versatilidad de uso",
+      "un sistema operativo de código abierto creado por Linus Torvalds y basado por completo en el núcleo del sistema Linux"
+    ], "indice_correcto": 0, "cotejo": "Apple iOS es un sistema operativo móvil propietario que se ejecuta en dispositivos móviles de Apple, como iPhones y iPads.", "justificacion": "IBM, «¿Qué es un sistema operativo?», sistemas operativos populares: iOS." },
+    { "concepto_id": "SO-032", "articulo": "IBM — Android", "tipo": "test", "enunciado": "Según IBM, ¿cómo se describe Android?", "opciones": [
+      "un sistema operativo móvil de código abierto ampliamente utilizado en dispositivos de teléfonos inteligentes personales y empresariales",
+      "un sistema operativo móvil propietario que se ejecuta únicamente en los dispositivos móviles de Apple, como los iPhones y los iPads",
+      "un sistema operativo de escritorio propietario reconocido por su interfaz sencilla y por su enorme versatilidad de uso",
+      "un sistema operativo propietario de tipo Unix pensado para ordenadores de sobremesa, portátiles y estaciones de trabajo"
+    ], "indice_correcto": 0, "cotejo": "Desarrollado por Google, Android es un sistema operativo móvil de código abierto ampliamente utilizado en dispositivos de teléfonos inteligentes personales y empresariales.", "justificacion": "IBM, «¿Qué es un sistema operativo?», sistemas operativos populares: Android." },
+    { "concepto_id": "SO-033", "articulo": "IBM — Microsoft Windows", "tipo": "test", "enunciado": "Según IBM, ¿cómo se caracteriza Microsoft Windows?", "opciones": [
+      "uno de los sistemas operativos más utilizados a nivel mundial para uso personal y empresarial",
+      "un sistema operativo móvil de código abierto muy utilizado en teléfonos inteligentes personales y de empresa",
+      "un sistema operativo propietario de tipo Unix pensado para los ordenadores y estaciones de trabajo de Apple",
+      "un sistema operativo de código abierto muy popular para servidores e infraestructura en la nube empresarial"
+    ], "indice_correcto": 0, "cotejo": "Microsoft Windows es uno de los sistemas operativos más utilizados a nivel mundial para uso personal y empresarial.", "justificacion": "IBM, «¿Qué es un sistema operativo?», sistemas operativos populares: Microsoft Windows." },
+    { "concepto_id": "SO-034", "articulo": "IBM — macOS", "tipo": "test", "enunciado": "Según IBM, ¿cómo se describe macOS (anteriormente OS X)?", "opciones": [
+      "un sistema operativo propietario similar a Unix diseñado para ejecutarse en ordenadores de sobremesa, ordenadores portátiles y estaciones de trabajo de Apple",
+      "un sistema operativo propietario similar a Unix diseñado para ejecutarse en los teléfonos móviles y las tabletas de Apple, como los iPhones y los iPads",
+      "un sistema operativo móvil de código abierto diseñado para ejecutarse en ordenadores de sobremesa, portátiles y estaciones de trabajo de empresa",
+      "un sistema operativo de código abierto similar a Unix diseñado para servidores, equipos de escritorio y sistemas integrados de todo tipo"
+    ], "indice_correcto": 0, "cotejo": "MacOS (anteriormente llamado OS X) es un sistema operativo propietario similar a Unix diseñado para ejecutarse en ordenadores de sobremesa, ordenadores portátiles y estaciones de trabajo de Apple (por ejemplo, iMac, MacBook, MacBook Pro).", "justificacion": "IBM, «¿Qué es un sistema operativo?», sistemas operativos populares: macOS." },
+    { "concepto_id": "SO-035", "articulo": "IBM — Unix (precedentes)", "tipo": "test", "enunciado": "Según IBM, ¿qué conceptos introdujo el Unix de tiempo compartido de los años 60 y 70?", "opciones": [
+      "conceptos como la multitarea, la portabilidad y un sistema de archivos jerárquico, que son fundamentales para los sistemas actuales",
+      "conceptos como la virtualización, la contenerización y la asignación retardada, propios de los entornos de nube empresariales actuales",
+      "conceptos como la interfaz gráfica de usuario, los iconos y las ventanas del escritorio, que definen los sistemas actuales",
+      "conceptos como el procesamiento por lotes, la monoprogramación y la gestión secuencial de tareas de un único usuario"
+    ], "indice_correcto": 0, "cotejo": "El desarrollo del sistema operativo Unix de tiempo compartido en los años 60 y 70 sentó importantes precedentes para los sistemas operativos modernos al introducir conceptos como la multitarea, la portabilidad y un sistema de archivos jerárquico, que son fundamentales para los sistemas actuales.", "justificacion": "IBM, «¿Qué es un sistema operativo?», la evolución de los sistemas operativos: Unix." },
+    { "concepto_id": "SO-036", "articulo": "Red Hat — Sistema de archivos ext4 (definición)", "tipo": "test", "enunciado": "Según Red Hat, ¿qué es el sistema de archivos ext4?", "opciones": [
+      "la cuarta generación de la familia de sistemas de archivos ext",
+      "la primera versión del sistema de archivos con registro por transacciones de Windows",
+      "el sucesor directo de NTFS dentro de la familia de sistemas de archivos de Microsoft",
+      "la evolución del sistema de archivos APFS empleada por omisión en el macOS moderno"
+    ], "indice_correcto": 0, "cotejo": "El sistema de archivos ext4 es la cuarta generación de la familia de sistemas de archivos ext. Fue el sistema de archivos por defecto en Red Hat Enterprise Linux 6.", "justificacion": "Red Hat, «El sistema de archivos ext4» (Gestión de sistemas de archivos, RHEL 8)." },
+    { "concepto_id": "SO-037", "articulo": "Red Hat — Sistema de archivos ext4 (definición)", "tipo": "test", "enunciado": "Según Red Hat, ¿en qué versión fue ext4 el sistema de archivos por defecto?", "opciones": [
+      "Fue el sistema de archivos por defecto en Red Hat Enterprise Linux 6",
+      "Fue el sistema de archivos por defecto en Red Hat Enterprise Linux 8",
+      "Fue el sistema de archivos por defecto en Red Hat Enterprise Linux 5",
+      "Fue el sistema de archivos por defecto en Red Hat Enterprise Linux 9"
+    ], "indice_correcto": 0, "cotejo": "El sistema de archivos ext4 es la cuarta generación de la familia de sistemas de archivos ext. Fue el sistema de archivos por defecto en Red Hat Enterprise Linux 6.", "justificacion": "Red Hat, «El sistema de archivos ext4» (Gestión de sistemas de archivos, RHEL 8)." },
+    { "concepto_id": "SO-038", "articulo": "Red Hat — ext4 compatibilidad con ext2 y ext3", "tipo": "test", "enunciado": "Según Red Hat, ¿qué puede hacer el controlador ext4 con los sistemas ext2 y ext3?", "opciones": [
+      "puede leer y escribir en los sistemas de archivos ext2 y ext3, pero el formato del sistema de archivos ext4 no es compatible con los controladores ext2 y ext3",
+      "solo puede leer los sistemas de archivos ext2 y ext3, pero no escribir en ellos, porque su formato es totalmente incompatible con esos controladores antiguos",
+      "puede leer y escribir en los sistemas de archivos NTFS y FAT32, aunque su propio formato no es compatible con los controladores de disco de Windows",
+      "no puede leer ni escribir en los sistemas de archivos ext2 y ext3, porque el formato de ext4 rompe por completo la compatibilidad con las versiones anteriores"
+    ], "indice_correcto": 0, "cotejo": "El controlador ext4 puede leer y escribir en los sistemas de archivos ext2 y ext3, pero el formato del sistema de archivos ext4 no es compatible con los controladores ext2 y ext3.", "justificacion": "Red Hat, «El sistema de archivos ext4», compatibilidad." },
+    { "concepto_id": "SO-039", "articulo": "Red Hat — ext4 características", "tipo": "test", "enunciado": "Entre las características que cita Red Hat, ¿qué tamaño de sistema de archivos admite ext4?", "opciones": [
+      "Tamaño del sistema de archivos soportado hasta 50 TiB",
+      "Tamaño del sistema de archivos soportado hasta 16 TiB en su configuración estándar",
+      "Tamaño del sistema de archivos soportado hasta 32 TiB",
+      "Tamaño del sistema de archivos soportado hasta 2 TiB"
+    ], "indice_correcto": 0, "cotejo": "ext4 añade varias características nuevas y mejoradas, como: Tamaño del sistema de archivos soportado hasta 50 TiB, Metadatos basados en el alcance, Asignación retardada, Suma de comprobación del diario, Gran soporte de almacenamiento.", "justificacion": "Red Hat, «El sistema de archivos ext4», características nuevas y mejoradas." },
+    { "concepto_id": "SO-040", "articulo": "Red Hat — ext4 asignación retardada", "tipo": "test", "enunciado": "Según Red Hat, ¿qué permite la asignación retardada de ext4?", "opciones": [
+      "posponga la selección de la ubicación permanente para los datos de usuario recién escritos hasta que los datos se descarguen en el disco",
+      "reserve de inmediato la ubicación permanente de cada dato en cuanto la aplicación lo escribe, incluso antes de descargarlo al disco físico",
+      "comprima los datos de usuario recién escritos para reducir el espacio que ocupan los metadatos dentro del sistema de archivos",
+      "duplique en dos copias cada dato de usuario recién escrito para poder recuperarlo si una de las copias resulta dañada por un fallo"
+    ], "indice_correcto": 0, "cotejo": "La asignación retardada permite que el sistema de archivos posponga la selección de la ubicación permanente para los datos de usuario recién escritos hasta que los datos se descarguen en el disco.", "justificacion": "Red Hat, «El sistema de archivos ext4», asignación retardada." },
+    { "concepto_id": "SO-041", "articulo": "Red Hat — ext4 reparación fsck", "tipo": "test", "enunciado": "Según Red Hat, ¿cómo es la reparación con la utilidad fsck en ext4 frente a ext2 y ext3?", "opciones": [
+      "es mucho más rápido que en ext2 y ext3",
+      "es notablemente más lento que en los sistemas de archivos ext2 y ext3",
+      "es prácticamente idéntico al de los sistemas de archivos ext2 y ext3",
+      "no puede compararse con el de los sistemas de archivos ext2 ni ext3"
+    ], "indice_correcto": 0, "cotejo": "El tiempo de reparación del sistema de archivos mediante la utilidad fsck en ext4 es mucho más rápido que en ext2 y ext3.", "justificacion": "Red Hat, «El sistema de archivos ext4», tiempo de reparación con fsck." },
+    { "concepto_id": "SO-042", "articulo": "Apple — Mac OS Plus (versiones)", "tipo": "test", "enunciado": "Según Apple, ¿en qué versiones de macOS se usa el sistema de archivos Mac OS Plus?", "opciones": [
+      "Sistema de archivos usado por macOS 10.12 y versiones anteriores",
+      "Sistema de archivos usado por macOS 10.13 y versiones posteriores del sistema",
+      "Sistema de archivos usado por macOS 11 y versiones posteriores del sistema",
+      "Sistema de archivos usado por los volúmenes de Windows de hasta 32 GB"
+    ], "indice_correcto": 0, "cotejo": "Mac OS Plus: Sistema de archivos usado por macOS 10.12 y versiones anteriores.", "justificacion": "Apple, «Formatos del sistema de archivos disponibles en Utilidad de Discos», Mac OS Plus." },
+    { "concepto_id": "SO-043", "articulo": "Apple — Mac OS Plus (con registro) HFS Plus", "tipo": "test", "enunciado": "Según Apple, ¿qué formato utiliza Mac OS Plus (con registro) y con qué finalidad?", "opciones": [
+      "Utiliza el formato Mac (HFS Plus con registro) para proteger la integridad del sistema de archivos jerárquico",
+      "Utiliza el formato APFS con encriptación de alta seguridad para optimizar el almacenamiento en unidades Flash o SSD",
+      "Utiliza el formato MS-DOS (FAT) para garantizar la compatibilidad con los volúmenes de Windows de hasta 32 GB",
+      "Utiliza el formato ExFAT de 64 bits para admitir archivos muy grandes en los dispositivos de almacenamiento externos"
+    ], "indice_correcto": 0, "cotejo": "Mac OS Plus (con registro): Utiliza el formato Mac (HFS Plus con registro) para proteger la integridad del sistema de archivos jerárquico. Elige esta opción si no necesitas que el formato esté encriptado ni que distinga entre mayúsculas y minúsculas.", "justificacion": "Apple, «Formatos del sistema de archivos disponibles en Utilidad de Discos», Mac OS Plus (con registro)." },
+    { "concepto_id": "SO-044", "articulo": "Apple — Mac OS Plus (mayús./minús.)", "tipo": "test", "enunciado": "Según Apple, ¿qué distingue la variante Mac OS Plus (mayús./minús., con registro)?", "opciones": [
+      "Utiliza el formato Mac y distingue las mayúsculas y minúsculas de los nombres de las carpetas",
+      "Utiliza el formato Mac, requiere una contraseña y encripta por completo la partición del disco",
+      "Utiliza el formato APFS y comparte el espacio libre del contenedor entre todos sus volúmenes",
+      "Utiliza el formato Mac e ignora por completo las mayúsculas y minúsculas de los nombres de carpeta"
+    ], "indice_correcto": 0, "cotejo": "Mac OS Plus (mayús./minús., con registro): Utiliza el formato Mac y distingue las mayúsculas y minúsculas de los nombres de las carpetas. Por ejemplo, las carpetas “Tareas” y “TAREAS” son diferentes.", "justificacion": "Apple, «Formatos del sistema de archivos disponibles en Utilidad de Discos», Mac OS Plus (mayús./minús., con registro)." }
+  ],
+  "relaciones": [
+    { "origen": "SO-031", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "iOS es un sistema operativo concreto (móvil), instancia del concepto de sistema operativo." },
+    { "origen": "SO-032", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "Android es un sistema operativo concreto (móvil)." },
+    { "origen": "SO-033", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "Windows es un sistema operativo concreto (de escritorio)." },
+    { "origen": "SO-034", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "macOS es un sistema operativo concreto (de escritorio)." },
+    { "origen": "SO-035", "destino": "SO-001", "tipo": "desarrolla", "justificacion": "Unix es un sistema operativo concreto y precedente de los modernos." },
+    { "origen": "SO-034", "destino": "SO-035", "tipo": "remite", "justificacion": "macOS es un sistema operativo propietario similar a Unix." },
+    { "origen": "SO-012", "destino": "SO-035", "tipo": "remite", "justificacion": "Linux se diseñó para parecerse a UNIX (concepto del lote original SO-012)." },
+    { "origen": "SO-036", "destino": "SO-014", "tipo": "desarrolla", "justificacion": "ext4 es un sistema de archivos, y gestionar los archivos es competencia del kernel/SO." },
+    { "origen": "SO-036", "destino": "SO-010", "tipo": "remite", "justificacion": "ext4 es el sistema de archivos por excelencia de Linux (fue el predeterminado en RHEL 6)." },
+    { "origen": "SO-037", "destino": "SO-036", "tipo": "desarrolla", "justificacion": "Que fuera el predeterminado en RHEL 6 concreta el papel de ext4." },
+    { "origen": "SO-038", "destino": "SO-036", "tipo": "desarrolla", "justificacion": "La compatibilidad con ext2 y ext3 es un rasgo de ext4." },
+    { "origen": "SO-039", "destino": "SO-036", "tipo": "desarrolla", "justificacion": "El tamaño soportado hasta 50 TiB es una característica de ext4." },
+    { "origen": "SO-040", "destino": "SO-036", "tipo": "desarrolla", "justificacion": "La asignación retardada es una característica de ext4." },
+    { "origen": "SO-041", "destino": "SO-036", "tipo": "desarrolla", "justificacion": "La reparación rápida con fsck es un rasgo de ext4." },
+    { "origen": "SO-042", "destino": "SO-014", "tipo": "desarrolla", "justificacion": "Mac OS Plus (HFS+) es un sistema de archivos, competencia del SO en la gestión de archivos." },
+    { "origen": "SO-043", "destino": "SO-042", "tipo": "desarrolla", "justificacion": "La variante con registro (HFS Plus con registro) es un rasgo de Mac OS Plus." },
+    { "origen": "SO-044", "destino": "SO-042", "tipo": "desarrolla", "justificacion": "La variante que distingue mayúsculas y minúsculas es un rasgo de Mac OS Plus." },
+    { "origen": "SO-042", "destino": "SO-029", "tipo": "remite", "justificacion": "Mac OS Plus (hasta macOS 10.12) fue sustituido por APFS como formato por omisión desde macOS 10.13 (concepto original SO-029)." },
+    { "origen": "SO-032", "destino": "SO-010", "tipo": "remite", "justificacion": "PROPUESTA cruce: Android es un SO móvil de código abierto, en la línea del software libre del que Linux (SO-010) es el máximo exponente." }
+  ]
+}

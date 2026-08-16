@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "materia": "drogodependencias-oms-unodc-oeda",
+    "norma": "Definiciones de la OMS (OMS/CIE) y la UNODC; convenios internacionales de fiscalización de 1961 (estupefacientes) y 1971 (sustancias psicotrópicas); Informe 2024 del Observatorio Español de las Drogas y las Adicciones (OEDA/PNSD)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "OMS/UNODC — conceptos, clasificación de las drogas y patrones de consumo, recogidos por Infodrogas (portal público del Gobierno de La Rioja): https://www.infodrogas.org/drogas — consultado 04/08/2026",
+      "OMS — Glosario de términos de alcohol y drogas (edición en español del Ministerio de Sanidad / Delegación del Gobierno para el PNSD): https://pnsd.sanidad.gob.es/profesionales/publicaciones/catalogo/bibliotecaDigital/publicaciones/pdf/diccionario_prevencion.pdf — consultado 04/08/2026",
+      "Convención Única de 1961 sobre Estupefacientes (Naciones Unidas, Nueva York, 30-03-1961), artículo 1 — texto oficial en español (JIFE/INCB y PNSD; en España BOE-A-1966-5373 y versión enmendada BOE-A-1981-25650): https://pnsd.sanidad.gob.es/pnsd/legislacion/pdfestatal/i16.pdf — consultado 04/08/2026",
+      "Convenio sobre Sustancias Sicotrópicas de 1971 (Viena, 21-02-1971), artículo 1 — texto oficial en español (UNODC; en España BOE-A-1976-17281): https://www.unodc.org/pdf/convention_1971_es.pdf — consultado 04/08/2026",
+      "Observatorio Español de las Drogas y las Adicciones (OEDA). Informe 2024: «Alcohol, tabaco y drogas ilegales en España» (encuesta ESTUDES 2023 en jóvenes de 14-18 años; indicador de admisiones a tratamiento 2022): https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/informesEstadisticas/pdf/2024_OEDA-Informe.pdf — DATOS DE TENDENCIAS CON FECHA (caducan; re-verificar con el informe OEDA vigente) — consultado 04/08/2026"
+    ],
+    "tipo_fuente": "oficial",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 34 — Drogodependencias: conceptos de droga, consumidor, administración, adicción, dependencia, tolerancia, politoxicomanías; clasificación de las drogas; últimas tendencias en el consumo"
+  },
+  "fuentes": {
+    "OMS · droga": "Según la Organización Mundial de la Salud (OMS), droga es toda sustancia que introducida en el organismo por cualquier vía de administración, produce de algún modo una alteración del natural funcionamiento del sistema nervioso central del individuo y además es susceptible de crear dependencia, ya sea psicológica, física o ambas.",
+    "OMS · sustancias psicoactivas": "También, según la OMS, las sustancias psicoactivas, conocidas más comúnmente como drogas, son sustancias que al ser tomadas pueden modificar la conciencia, el estado de ánimo o los procesos de pensamiento de un individuo.",
+    "OMS · clasificación SNC": "Dejando a un lado el resto de perspectivas, quizá lo más práctico sea seguir el criterio de la clasificación por el que opta la OMS, que ha agrupado las drogas según sus efectos sobre el sistema nervioso central. De acuerdo con este criterio, las drogas pueden ser: Depresoras, Estimulantes y Alucinógenas/ Psicodélicas.",
+    "OMS · depresoras": "Depresoras. Son aquellas que disminuyen o retardan el funcionamiento del sistema nervioso central. Producen alteración de la concentración y en ocasiones del juicio; disminuyen la apreciación de los estímulos externos y provocan relajación, sensación de bienestar, sedación, apatía y disminución de la tensión. Son consideradas drogas depresoras el alcohol, los barbitúricos, los tranquilizantes y el opio y sus derivados (morfina, codeína, heroína, metadona).",
+    "OMS · estimulantes": "Estimulantes. Son drogas que aceleran la actividad del sistema nervioso central provocando euforia, desinhibición, menor control emocional, irritabilidad, agresividad, menor fatiga, disminución del sueño, excitación motora, inquietud. Dentro de este grupo se incluyen la cocaína, los estimulantes de tipo anfetamínico y la mayor parte de las sustancias de síntesis y de las nuevas sustancias psicoactivas.",
+    "OMS · alucinógenos": "Alucinógenos / Psicodélicos. Se caracterizan por su capacidad de producir distorsiones en las sensaciones y alterar marcadamente el estado de ánimo y los procesos de pensamiento. Incluyen sustancias de una amplia variedad de fuentes naturales y sintéticas, y son estructuralmente diferentes.",
+    "UNODC · NSP": "Por su entidad la UNODC utiliza únicamente el término «nuevas sustancias psicoactivas (NSP)», aunque el término «nuevas» no se refiere necesariamente a nuevas invenciones, sino que son sustancias que han aparecido recientemente en el mercado y que no han sido incorporadas en las Convenciones de 1961 y 1971. Son sustancias que tienen propiedades químicas y/o farmacológicas similares a las sustancias conocidas y ya controladas internacionalmente.",
+    "Convención 1961 · estupefaciente": "Por «estupefaciente» se entiende cualquiera de las sustancias de las Listas I y II, naturales o sintéticas.",
+    "Convención 1961 · Listas": "Por «Lista I», «Lista II», «Lista III» y «Lista IV» se entiende las listas de estupefacientes o preparados que con esa numeración se anexan a la presente Convención, con las modificaciones que se introduzcan periódicamente en las mismas.",
+    "Convenio 1971 · sustancia psicotrópica": "Por «sustancia psicotrópica» se entiende cualquier sustancia, natural o sintética, o cualquier material natural de la Lista I, II, III o IV.",
+    "OMS · tolerancia": "Tolerancia. Es un estado de adaptación biológica que se caracteriza porque disminuye la respuesta que provoca la administración de la misma cantidad de una droga.",
+    "OMS · tipos de tolerancia": "Tipos de tolerancia. Farmacodinámica: es la que se presenta cuando después de la exposición a la droga, se requieren mayores niveles de la misma para conseguir una respuesta determinada. Metabólica: es el incremento de la capacidad para metabolizar la droga. Cruzada: fenómeno que tiene lugar cuando un órgano o sistema que presenta tolerancia a una determinada substancia desarrolla tolerancia a otra.",
+    "OMS · dependencia": "Dependencia. Se define como el estado psíquico, y en ocasiones también físico, resultado de la interacción entre un organismo vivo y una droga, y que se caracteriza por modificaciones del comportamiento y por otras reacciones. En ese estado, siempre aparece una pulsión a ingerir la sustancia de forma continua o periódica, con objeto de volver a experimentar sus efectos psíquicos o, en otras ocasiones, para evitar el malestar que provoca no poder consumirla.",
+    "OMS · síndrome de abstinencia": "Síndrome de abstinencia. Tras la no administración de la droga a un sujeto que presenta dependencia a ella aparecen un conjunto de síntomas y signos comunes para cada grupo de droga, y es uno de los indicadores de la presencia de síndrome de dependencia.",
+    "Glosario OMS · abstinencia": "Abstinencia. Resultado de evitar el consumo de drogas, ya sea por motivos de salud, personales o de otro tipo.",
+    "Glosario OMS · adicción": "Adicción (al alcohol u otras drogas). Uso repetido de una o varias sustancias psicoactivas, hasta el punto de que el usuario (denominado adicto) está periódica o crónicamente intoxicado, muestra una compulsión a tomar una o varias sustancias, tiene gran dificultad para interrumpir voluntariamente o modificar el consumo y se muestra decidido a obtenerlas casi por cualquier medio.",
+    "Glosario OMS · recomendación años 60": "En los años 60, la OMS recomendó que ambos términos fueran abandonados en beneficio del término «dependencia», el cual admite varios grados de severidad.",
+    "OMS · conducta adictiva": "Conducta adictiva. Es aquel comportamiento de búsqueda, obtención y consumo de drogas, o realización de la conducta problema, en la que su consecución cobra mayor protagonismo que otras actividades que anteriormente eran importantes para la persona, haciendo que estas pasen a segundo plano o parezcan innecesarias o carentes de interés.",
+    "OMS · drogadicción": "Drogadicción. La drogadicción es considerada una enfermedad crónica del cerebro, a menudo con recaídas, caracterizada por la búsqueda y el consumo compulsivo de drogas a pesar de las consecuencias nocivas para la persona adicta y para los que le rodean.",
+    "Glosario OMS · alucinógeno": "Alucinógeno. Agente químico que induce alteraciones en la percepción, el pensamiento y las emociones.",
+    "OMS · uso nocivo": "Uso nocivo. Patrón de uso de sustancias psicoactivas que produce daños a la salud. Este daño puede ser físico o mental.",
+    "OMS · consumo de riesgo": "Consumo de riesgo. Patrón de uso de sustancias psicoactivas que incrementa el riesgo de consecuencias nocivas para el usuario.",
+    "OMS · abuso": "Abuso. El abuso es el patrón de uso de la sustancia que produce perturbaciones o limitaciones clínicamente significativas, que se manifiestan por uno o más indicadores, como el incumplimiento de obligaciones transcendentes o el uso recurrente en situaciones que conllevan un peligro físico.",
+    "Glosario OMS · abuso de sustancias psicoactivas": "Abuso de sustancias psicoactivas. La característica esencial del abuso de sustancias consiste en un patrón desadaptativo de consumo de sustancias psicoactivas manifestado por consecuencias adversas significativas y recurrentes relacionadas con el consumo repetido de drogas.",
+    "OMS · intoxicación": "Intoxicación. Condición que sucede a la administración de una sustancia psicoactiva y que produce perturbaciones a nivel cognitivo, perceptivo, afectivo, de conciencia, conductual, o relacionado con otras funciones y reacciones psicofisiológicas.",
+    "OMS · patología dual": "Patología dual. Cuando una de las enfermedades asociadas es un trastorno mental y otra un trastorno por uso de sustancias (TUS) habitualmente se denomina patología dual.",
+    "OMS · patrones de consumo": "Patrones de consumo. El uso experimental: una droga se consume para probar sus efectos y, después de un determinado número de usos, se abandona. El uso regular o social: se continúa usando la sustancia después de haber experimentado y su consumo se integra al estilo de vida habitual. El uso nocivo, definido por la OMS como un patrón de uso que causa daño, ya sea mental o físico.",
+    "OEDA 2024 · drogas más consumidas 14-18": "En 2023, las drogas más consumidas por los jóvenes (14-18 años) son las legales (alcohol y tabaco), seguidas del cannabis.",
+    "OEDA 2024 · cannabis": "El cannabis es la droga ilegal más consumida por los estudiantes de 14 a 18 años. En 2023 el 26,9% declaró haber consumido alguna vez en la vida, el 21,8% en el último año y el 15,6% en el último mes.",
+    "OEDA 2024 · cocaína tratamiento 2022": "En 2022 la cocaína se mantiene como la droga ilegal que causó un mayor número de admisiones a tratamiento (47,6% del total), seguida del cannabis (27,4%) y los opioides (18,7%).",
+    "OEDA 2024 · alcohol": "En 2023, el 75,9% de los jóvenes de 14 a 18 años había consumido alcohol alguna vez en la vida, el 73,6% en el último año y el 56,6% en el último mes.",
+    "OEDA 2024 · hipnosedantes": "Los hipnosedantes son la sustancia que mayor proporción de estudiantes consume después del alcohol, el tabaco y el cannabis.",
+    "OEDA 2024 · perfil admisiones 2022": "Siguiendo las tendencias que venían observándose, en 2022, la mayoría de los pacientes admitidos a tratamiento por abuso o dependencia de drogas ilegales fueron varones (81,5%). La edad media fue de 37 años para el conjunto de las admisiones."
+  },
+  "conceptos": [
+    { "id": "DROGA-001", "articulo": "OMS · droga", "titulo": "Concepto de droga (OMS)", "resumen": "Para la OMS, droga es toda sustancia que, introducida en el organismo por cualquier vía, altera el funcionamiento del sistema nervioso central y es susceptible de crear dependencia, psicológica, física o ambas.", "explicacion": "La definición de la OMS reúne dos rasgos clave: la sustancia actúa sobre el sistema nervioso central (es psicoactiva) y puede generar dependencia. Da igual la vía de administración (oral, inhalada, inyectada). Esta definición engloba tanto drogas legales (alcohol, tabaco, hipnosedantes) como ilegales." },
+    { "id": "DROGA-002", "articulo": "OMS · sustancias psicoactivas", "titulo": "Sustancias psicoactivas", "resumen": "Las sustancias psicoactivas, comúnmente llamadas drogas, son las que al tomarse pueden modificar la conciencia, el estado de ánimo o los procesos de pensamiento.", "explicacion": "«Sustancia psicoactiva» es el término técnico que la OMS usa como sinónimo de droga: lo decisivo es que actúa sobre la mente (conciencia, ánimo, pensamiento), no su origen ni su estatus legal." },
+    { "id": "DROGA-003", "articulo": "OMS · clasificación SNC", "titulo": "Clasificación de la OMS por efectos sobre el SNC", "resumen": "La OMS agrupa las drogas según sus efectos sobre el sistema nervioso central en tres grandes grupos: depresoras, estimulantes y alucinógenas o psicodélicas.", "explicacion": "Aunque hay muchos criterios de clasificación (origen, química, estatus legal), el más usado es el de la OMS por el efecto sobre el sistema nervioso central: unas lo frenan (depresoras), otras lo aceleran (estimulantes) y otras lo distorsionan (alucinógenas)." },
+    { "id": "DROGA-004", "articulo": "OMS · depresoras", "titulo": "Drogas depresoras", "resumen": "Las depresoras disminuyen o retardan el funcionamiento del sistema nervioso central; entre ellas están el alcohol, los barbitúricos, los tranquilizantes y el opio y sus derivados.", "explicacion": "Frenan la actividad cerebral: producen sedación, relajación y disminución de la tensión. El alcohol y los opiáceos (morfina, heroína, metadona) son ejemplos típicos." },
+    { "id": "DROGA-005", "articulo": "OMS · estimulantes", "titulo": "Drogas estimulantes", "resumen": "Las estimulantes aceleran la actividad del sistema nervioso central, provocando euforia, desinhibición, menor fatiga y excitación; incluyen la cocaína y los estimulantes de tipo anfetamínico.", "explicacion": "Aceleran el cerebro: dan euforia, energía y disminución del sueño y la fatiga. La cocaína y las anfetaminas son los ejemplos más conocidos." },
+    { "id": "DROGA-006", "articulo": "OMS · alucinógenos", "titulo": "Drogas alucinógenas o psicodélicas", "resumen": "Se caracterizan por producir distorsiones en las sensaciones y alterar marcadamente el estado de ánimo y los procesos de pensamiento; provienen de fuentes naturales y sintéticas.", "explicacion": "No frenan ni aceleran, sino que distorsionan la percepción y el pensamiento. Son un grupo químicamente muy variado (naturales y sintéticos)." },
+    { "id": "DROGA-007", "articulo": "UNODC · NSP", "titulo": "Nuevas sustancias psicoactivas (NSP)", "resumen": "Para la UNODC, las NSP son sustancias que han aparecido recientemente en el mercado y que no han sido incorporadas en las Convenciones de 1961 y 1971.", "explicacion": "El rasgo definitorio no es que sean químicamente nuevas, sino que no están todavía incluidas en los convenios internacionales de fiscalización, por lo que escapan al control clásico pese a imitar los efectos de drogas ya controladas." },
+    { "id": "DROGA-008", "articulo": "Convención 1961 · estupefaciente", "titulo": "Concepto de estupefaciente (Convención de 1961)", "resumen": "La Convención Única de 1961 define «estupefaciente» como cualquiera de las sustancias de las Listas I y II, naturales o sintéticas.", "explicacion": "El convenio de 1961 controla los estupefacientes (opio, cocaína, cannabis y derivados). «Estupefaciente» es un concepto jurídico: lo es la sustancia que figura en las Listas I y II del propio convenio." },
+    { "id": "DROGA-009", "articulo": "Convención 1961 · Listas", "titulo": "Las Listas de la Convención de 1961", "resumen": "En la Convención de 1961, las Listas I a IV son las listas de estupefacientes o preparados que se anexan al convenio y se van modificando periódicamente.", "explicacion": "El sistema de fiscalización funciona por listas anexas: incluir una sustancia en una Lista determina su régimen de control. Las listas se actualizan con el tiempo." },
+    { "id": "DROGA-010", "articulo": "Convenio 1971 · sustancia psicotrópica", "titulo": "Concepto de sustancia psicotrópica (Convenio de 1971)", "resumen": "El Convenio de 1971 define «sustancia psicotrópica» como cualquier sustancia, natural o sintética, o cualquier material natural de la Lista I, II, III o IV.", "explicacion": "Diez años después del de 1961, el convenio de 1971 creó un sistema paralelo para las sustancias psicotrópicas (alucinógenos, anfetaminas, hipnosedantes). También funciona por Listas anexas." },
+    { "id": "DROGA-011", "articulo": "OMS · tolerancia", "titulo": "Tolerancia", "resumen": "La tolerancia es un estado de adaptación biológica en el que disminuye la respuesta que provoca la administración de la misma cantidad de una droga.", "explicacion": "El cuerpo se adapta: con la misma dosis se nota menos efecto, por lo que la persona tiende a aumentar la cantidad para lograr lo mismo que al principio." },
+    { "id": "DROGA-012", "articulo": "OMS · tipos de tolerancia", "titulo": "Tipos de tolerancia (cruzada)", "resumen": "La tolerancia cruzada es el fenómeno que tiene lugar cuando un órgano o sistema que presenta tolerancia a una determinada substancia desarrolla tolerancia a otra.", "explicacion": "Hay varios tipos de tolerancia (farmacodinámica, metabólica, cruzada). En la cruzada, la tolerancia adquirida a una sustancia se traslada a otra, normalmente del mismo grupo." },
+    { "id": "DROGA-013", "articulo": "OMS · dependencia", "titulo": "Dependencia (OMS)", "resumen": "La dependencia es el estado psíquico, y en ocasiones también físico, resultado de la interacción entre un organismo vivo y una droga, con una pulsión a consumirla de forma continua o periódica.", "explicacion": "Puede ser psíquica (necesidad mental de consumir) y física (el cuerpo la necesita). Aparece la pulsión de repetir el consumo, para buscar el efecto o para evitar el malestar de no consumir." },
+    { "id": "DROGA-014", "articulo": "OMS · síndrome de abstinencia", "titulo": "Síndrome de abstinencia", "resumen": "Al dejar de administrar la droga a un sujeto dependiente aparece un conjunto de síntomas y signos comunes para cada grupo de droga; es uno de los indicadores de la dependencia.", "explicacion": "Es el «mono»: el malestar físico y psíquico que sufre la persona dependiente cuando deja de consumir. Cada grupo de droga tiene su cuadro característico." },
+    { "id": "DROGA-015", "articulo": "Glosario OMS · abstinencia", "titulo": "Abstinencia (concepto)", "resumen": "En el glosario de la OMS, la abstinencia es el resultado de evitar el consumo de drogas, por motivos de salud, personales o de otro tipo.", "explicacion": "Abstinencia (no consumir) no es lo mismo que síndrome de abstinencia (los síntomas del «mono»). Abstenerse es simplemente no consumir." },
+    { "id": "DROGA-016", "articulo": "Glosario OMS · adicción", "titulo": "Adicción (glosario OMS)", "resumen": "La adicción es el uso repetido de una o varias sustancias psicoactivas hasta el punto de que el usuario está periódica o crónicamente intoxicado y muestra una compulsión a consumir.", "explicacion": "El adicto consume de forma compulsiva, le cuesta mucho parar o reducir y llega a procurarse la sustancia casi por cualquier medio, desplazando el resto de su vida." },
+    { "id": "DROGA-017", "articulo": "Glosario OMS · recomendación años 60", "titulo": "La OMS prefiere «dependencia» a «adicción»", "resumen": "En los años 60 la OMS recomendó que los términos «adicción» y «habituación» fueran abandonados en beneficio del término «dependencia», que admite varios grados de severidad.", "explicacion": "La OMS unificó la terminología: en vez de discutir entre «adicción» y «habituación», adoptó «dependencia», más preciso porque permite graduar la gravedad." },
+    { "id": "DROGA-018", "articulo": "OMS · conducta adictiva", "titulo": "Conducta adictiva", "resumen": "La conducta adictiva es el comportamiento de búsqueda, obtención y consumo de drogas en el que su consecución cobra mayor protagonismo que otras actividades antes importantes para la persona.", "explicacion": "La vida gira en torno a conseguir y consumir: el trabajo, la familia o las aficiones quedan en segundo plano frente a la sustancia." },
+    { "id": "DROGA-019", "articulo": "OMS · drogadicción", "titulo": "Drogadicción como enfermedad", "resumen": "La drogadicción se considera una enfermedad crónica del cerebro, a menudo con recaídas, caracterizada por la búsqueda y el consumo compulsivo de drogas pese a las consecuencias nocivas.", "explicacion": "Aunque el primer consumo suele ser voluntario, los cambios cerebrales acaban dificultando el control. Por eso se considera una enfermedad crónica con recaídas, no una simple falta de voluntad." },
+    { "id": "DROGA-020", "articulo": "Glosario OMS · alucinógeno", "titulo": "Alucinógeno (definición del glosario)", "resumen": "En el glosario de la OMS, un alucinógeno es un agente químico que induce alteraciones en la percepción, el pensamiento y las emociones.", "explicacion": "Complementa la clasificación por efectos: el alucinógeno actúa sobre percepción, pensamiento y emociones, provocando distorsiones sensoriales." },
+    { "id": "DROGA-021", "articulo": "OMS · uso nocivo", "titulo": "Uso nocivo", "resumen": "El uso nocivo es el patrón de uso de sustancias psicoactivas que produce daños a la salud, ya sean físicos o mentales.", "explicacion": "Lo define el daño ya producido: el consumo ha causado un perjuicio real para la salud física o mental de la persona." },
+    { "id": "DROGA-022", "articulo": "OMS · consumo de riesgo", "titulo": "Consumo de riesgo", "resumen": "El consumo de riesgo es el patrón de uso de sustancias psicoactivas que incrementa el riesgo de consecuencias nocivas para el usuario.", "explicacion": "A diferencia del uso nocivo (daño ya causado), el consumo de riesgo aún no ha producido el daño, pero aumenta la probabilidad de que aparezca." },
+    { "id": "DROGA-023", "articulo": "OMS · abuso", "titulo": "Abuso de sustancias", "resumen": "El abuso es el patrón de uso de la sustancia que produce perturbaciones o limitaciones clínicamente significativas, como el incumplimiento de obligaciones o el uso en situaciones peligrosas.", "explicacion": "El abuso se reconoce por sus consecuencias: fracaso en obligaciones del hogar, la escuela o el trabajo, uso en situaciones peligrosas o problemas sociales por el consumo." },
+    { "id": "DROGA-024", "articulo": "Glosario OMS · abuso de sustancias psicoactivas", "titulo": "Abuso de sustancias psicoactivas (glosario OMS)", "resumen": "Su característica esencial es un patrón desadaptativo de consumo de sustancias psicoactivas manifestado por consecuencias adversas significativas y recurrentes.", "explicacion": "El glosario de la OMS insiste en «patrón desadaptativo»: no es un consumo puntual, sino un modo de consumir que acarrea de forma repetida consecuencias negativas." },
+    { "id": "DROGA-025", "articulo": "OMS · intoxicación", "titulo": "Intoxicación", "resumen": "La intoxicación es la condición que sigue a la administración de una sustancia psicoactiva y que produce perturbaciones a nivel cognitivo, perceptivo, afectivo, de conciencia o conductual.", "explicacion": "Es el efecto agudo tras consumir: alteraciones pasajeras del pensamiento, la percepción, el ánimo o la conducta, que suelen resolverse con el tiempo." },
+    { "id": "DROGA-026", "articulo": "OMS · patología dual", "titulo": "Patología dual", "resumen": "Se llama patología dual cuando una de las enfermedades asociadas en la misma persona es un trastorno mental y otra un trastorno por uso de sustancias.", "explicacion": "Coinciden en la persona un trastorno mental (p. ej. depresión) y un trastorno por consumo de sustancias, y ambos se influyen y complican mutuamente." },
+    { "id": "DROGA-027", "articulo": "OMS · patrones de consumo", "titulo": "Patrones de consumo: uso experimental", "resumen": "En el uso experimental una droga se consume para probar sus efectos y, después de un determinado número de usos, se abandona.", "explicacion": "No todo consumo es adicción. El experimental es probar por curiosidad y dejarlo; existen también el uso regular o social, el uso nocivo y la dependencia." },
+    { "id": "DROGA-028", "articulo": "OEDA 2024 · drogas más consumidas 14-18", "titulo": "Tendencias: drogas más consumidas por jóvenes (ESTUDES 2023)", "resumen": "Según ESTUDES 2023, las drogas más consumidas por los jóvenes de 14-18 años son las legales (alcohol y tabaco), seguidas del cannabis.", "explicacion": "Dato de tendencia con fecha (Informe OEDA 2024, encuesta ESTUDES 2023). Entre los estudiantes, las más consumidas son las legales (alcohol y tabaco) y, a continuación, el cannabis." },
+    { "id": "DROGA-029", "articulo": "OEDA 2024 · cannabis", "titulo": "Tendencias: el cannabis, droga ilegal más consumida", "resumen": "Según ESTUDES 2023, el cannabis es la droga ilegal más consumida por los estudiantes de 14 a 18 años.", "explicacion": "Dato de tendencia con fecha (ESTUDES 2023). Entre las drogas ilegales, el cannabis es la más extendida entre los jóvenes, muy por delante del resto." },
+    { "id": "DROGA-030", "articulo": "OEDA 2024 · cocaína tratamiento 2022", "titulo": "Tendencias: la cocaína lidera las admisiones a tratamiento (2022)", "resumen": "Según el OEDA, en 2022 la cocaína se mantiene como la droga ilegal que causó un mayor número de admisiones a tratamiento, seguida del cannabis y los opioides.", "explicacion": "Dato de tendencia con fecha (indicador de admisiones a tratamiento 2022). En consumo juvenil manda el cannabis, pero en demanda de tratamiento la cocaína es la primera droga ilegal." },
+    { "id": "DROGA-031", "articulo": "OEDA 2024 · alcohol", "titulo": "Tendencias: prevalencia de consumo de alcohol (14-18 años)", "resumen": "Según ESTUDES 2023, el 73,6% de los jóvenes de 14 a 18 años había consumido alcohol en el último año (75,9% alguna vez y 56,6% en el último mes).", "explicacion": "Dato de tendencia con fecha (ESTUDES 2023). El alcohol es, con diferencia, la sustancia más consumida por los adolescentes." },
+    { "id": "DROGA-032", "articulo": "OEDA 2024 · hipnosedantes", "titulo": "Tendencias: los hipnosedantes", "resumen": "Según ESTUDES 2023, los hipnosedantes son la sustancia que mayor proporción de estudiantes consume después del alcohol, el tabaco y el cannabis.", "explicacion": "Dato de tendencia con fecha (ESTUDES 2023). Tras las tres sustancias más extendidas, los hipnosedantes sin receta son la siguiente en consumo, con mayor prevalencia en las chicas." },
+    { "id": "DROGA-033", "articulo": "OEDA 2024 · perfil admisiones 2022", "titulo": "Tendencias: perfil de admitidos a tratamiento (2022)", "resumen": "Según el OEDA, en 2022 la mayoría de los pacientes admitidos a tratamiento por abuso o dependencia de drogas ilegales fueron varones, con una edad media de 37 años.", "explicacion": "Dato de tendencia con fecha (indicador de admisiones a tratamiento 2022). El perfil mayoritario es varón y la edad media de las admisiones sigue una tendencia ascendente." }
+  ],
+  "actividades": [
+    { "concepto_id": "DROGA-001", "articulo": "OMS · droga", "tipo": "test", "enunciado": "Según la Organización Mundial de la Salud, ¿qué es una droga?", "opciones": [
+      "toda sustancia que introducida en el organismo por cualquier vía de administración, produce de algún modo una alteración del natural funcionamiento del sistema nervioso central del individuo y además es susceptible de crear dependencia",
+      "toda sustancia de origen exclusivamente vegetal que, empleada con fines terapéuticos por prescripción médica, cura enfermedades del sistema nervioso central sin generar ninguna forma de dependencia",
+      "cualquier producto químico de síntesis industrial que, ingerido solo por vía oral, altera de forma pasajera el estado de ánimo pero nunca llega a producir tolerancia ni dependencia física",
+      "toda sustancia psicoactiva incluida en las Listas de la Convención de 1961 cuya venta requiere siempre receta médica y un control sanitario estricto de su administración"
+    ], "indice_correcto": 0, "cotejo": "droga es toda sustancia que introducida en el organismo por cualquier vía de administración, produce de algún modo una alteración del natural funcionamiento del sistema nervioso central del individuo y además es susceptible de crear dependencia, ya sea psicológica, física o ambas", "justificacion": "OMS, recogido por Infodrogas (Gobierno de La Rioja)" },
+    { "concepto_id": "DROGA-002", "articulo": "OMS · sustancias psicoactivas", "tipo": "test", "enunciado": "Según la OMS, ¿qué son las sustancias psicoactivas?", "opciones": [
+      "sustancias que al ser tomadas pueden modificar la conciencia, el estado de ánimo o los procesos de pensamiento de un individuo",
+      "sustancias que solo actúan sobre el aparato digestivo y el sistema muscular, sin ningún efecto sobre la actividad mental de la persona",
+      "sustancias de uso industrial o alimentario que carecen por completo de efectos sobre el sistema nervioso central de quien las consume",
+      "sustancias que, por su peligrosidad, están todas prohibidas por los convenios internacionales de fiscalización de estupefacientes de 1961"
+    ], "indice_correcto": 0, "cotejo": "las sustancias psicoactivas, conocidas más comúnmente como drogas, son sustancias que al ser tomadas pueden modificar la conciencia, el estado de ánimo o los procesos de pensamiento de un individuo", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-003", "articulo": "OMS · clasificación SNC", "tipo": "test", "enunciado": "¿En qué tres grandes grupos clasifica la OMS las drogas según sus efectos sobre el sistema nervioso central?", "opciones": [
+      "Depresoras, Estimulantes y Alucinógenas",
+      "Naturales, semisintéticas y sintéticas",
+      "Legales, ilegales y a-legales o de diseño",
+      "Estupefacientes, psicotrópicos y precursores"
+    ], "indice_correcto": 0, "cotejo": "las drogas pueden ser: Depresoras, Estimulantes y Alucinógenas/ Psicodélicas", "justificacion": "OMS, criterio de clasificación por efectos sobre el SNC" },
+    { "concepto_id": "DROGA-004", "articulo": "OMS · depresoras", "tipo": "test", "enunciado": "¿Qué caracteriza a las drogas depresoras según la clasificación de la OMS?", "opciones": [
+      "disminuyen o retardan el funcionamiento del sistema nervioso central",
+      "aceleran la actividad del sistema nervioso central provocando euforia y desinhibición",
+      "producen distorsiones en las sensaciones y alteran marcadamente los procesos de pensamiento",
+      "carecen de todo efecto sobre el sistema nervioso central y solo actúan sobre la musculatura"
+    ], "indice_correcto": 0, "cotejo": "Son aquellas que disminuyen o retardan el funcionamiento del sistema nervioso central", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-005", "articulo": "OMS · estimulantes", "tipo": "test", "enunciado": "¿Qué efecto tienen sobre el organismo las drogas estimulantes?", "opciones": [
+      "aceleran la actividad del sistema nervioso central provocando euforia, desinhibición",
+      "disminuyen o retardan el funcionamiento del sistema nervioso central y provocan sedación",
+      "producen distorsiones en las sensaciones y alteran marcadamente el estado de ánimo",
+      "bloquean por completo la transmisión nerviosa y anulan la percepción del dolor físico"
+    ], "indice_correcto": 0, "cotejo": "Son drogas que aceleran la actividad del sistema nervioso central provocando euforia, desinhibición, menor control emocional", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-006", "articulo": "OMS · alucinógenos", "tipo": "test", "enunciado": "¿Qué caracteriza a las drogas alucinógenas o psicodélicas?", "opciones": [
+      "producir distorsiones en las sensaciones y alterar marcadamente el estado de ánimo y los procesos de pensamiento",
+      "acelerar la actividad del sistema nervioso central y aumentar el estado de alerta y la resistencia a la fatiga",
+      "disminuir o retardar el funcionamiento del sistema nervioso central y producir una intensa sedación y relajación",
+      "crear con enorme rapidez una dependencia física muy grave que obliga a aumentar continuamente la dosis consumida"
+    ], "indice_correcto": 0, "cotejo": "Se caracterizan por su capacidad de producir distorsiones en las sensaciones y alterar marcadamente el estado de ánimo y los procesos de pensamiento", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-007", "articulo": "UNODC · NSP", "tipo": "test", "enunciado": "Según la UNODC, ¿qué rasgo define a las nuevas sustancias psicoactivas (NSP)?", "opciones": [
+      "son sustancias que han aparecido recientemente en el mercado y que no han sido incorporadas en las Convenciones de 1961 y 1971",
+      "son sustancias de origen siempre vegetal que se han empezado a consumir en Europa en los últimos cinco años y ya están fiscalizadas",
+      "son sustancias que figuran en las Listas I y II de la Convención de 1961 pero cuyo uso médico se ha autorizado muy recientemente",
+      "son sustancias sintéticas que carecen por completo de efectos psicoactivos y por eso su venta es libre en la mayoría de los países"
+    ], "indice_correcto": 0, "cotejo": "son sustancias que han aparecido recientemente en el mercado y que no han sido incorporadas en las Convenciones de 1961 y 1971", "justificacion": "UNODC, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-008", "articulo": "Convención 1961 · estupefaciente", "tipo": "test", "enunciado": "Según la Convención Única de 1961, ¿qué se entiende por «estupefaciente»?", "opciones": [
+      "cualquiera de las sustancias de las Listas I y II, naturales o sintéticas",
+      "cualquier sustancia de origen vegetal capaz de generar dependencia física en el consumidor",
+      "toda sustancia psicotrópica incluida en las Listas I, II, III o IV del Convenio de 1971",
+      "cualquier producto farmacéutico sujeto a receta médica y a un control sanitario especial"
+    ], "indice_correcto": 0, "cotejo": "Por «estupefaciente» se entiende cualquiera de las sustancias de las Listas I y II, naturales o sintéticas", "justificacion": "Convención Única de 1961, art. 1" },
+    { "concepto_id": "DROGA-009", "articulo": "Convención 1961 · Listas", "tipo": "test", "enunciado": "En la Convención de 1961, ¿qué son las Listas I, II, III y IV?", "opciones": [
+      "las listas de estupefacientes o preparados que con esa numeración se anexan a la presente Convención",
+      "las listas de países firmantes que se comprometen a fiscalizar el comercio internacional de estupefacientes",
+      "las listas de sanciones penales previstas para cada modalidad de tráfico ilícito de estupefacientes",
+      "las listas de órganos de las Naciones Unidas encargados de vigilar el cumplimiento del convenio"
+    ], "indice_correcto": 0, "cotejo": "Por «Lista I», «Lista II», «Lista III» y «Lista IV» se entiende las listas de estupefacientes o preparados que con esa numeración se anexan a la presente Convención", "justificacion": "Convención Única de 1961, art. 1" },
+    { "concepto_id": "DROGA-010", "articulo": "Convenio 1971 · sustancia psicotrópica", "tipo": "test", "enunciado": "Según el Convenio de 1971, ¿qué se entiende por «sustancia psicotrópica»?", "opciones": [
+      "cualquier sustancia, natural o sintética, o cualquier material natural de la Lista I, II, III o IV",
+      "cualquier sustancia de origen exclusivamente sintético que figure en las Listas I y II de la Convención de 1961",
+      "cualquier bebida alcohólica o labor de tabaco cuyo consumo esté sometido a control sanitario en cada país",
+      "cualquier medicamento de venta libre que produzca somnolencia o altere levemente el estado de ánimo del paciente"
+    ], "indice_correcto": 0, "cotejo": "Por «sustancia psicotrópica» se entiende cualquier sustancia, natural o sintética, o cualquier material natural de la Lista I, II, III o IV", "justificacion": "Convenio sobre Sustancias Sicotrópicas de 1971, art. 1" },
+    { "concepto_id": "DROGA-011", "articulo": "OMS · tolerancia", "tipo": "test", "enunciado": "¿Qué es la tolerancia a una droga?", "opciones": [
+      "un estado de adaptación biológica que se caracteriza porque disminuye la respuesta que provoca la administración de la misma cantidad de una droga",
+      "el conjunto de síntomas y signos desagradables que aparecen cuando un sujeto dependiente interrumpe bruscamente el consumo de la droga",
+      "la pulsión psíquica a repetir el consumo de la sustancia de forma continua para volver a experimentar sus efectos placenteros",
+      "el daño físico y mental permanente que la droga produce en el organismo tras un consumo prolongado a lo largo de los años"
+    ], "indice_correcto": 0, "cotejo": "Es un estado de adaptación biológica que se caracteriza porque disminuye la respuesta que provoca la administración de la misma cantidad de una droga", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-012", "articulo": "OMS · tipos de tolerancia", "tipo": "test", "enunciado": "¿En qué consiste la tolerancia cruzada?", "opciones": [
+      "fenómeno que tiene lugar cuando un órgano o sistema que presenta tolerancia a una determinada substancia desarrolla tolerancia a otra",
+      "fenómeno por el que, tras la exposición a la droga, se requieren mayores niveles de la misma para conseguir una respuesta determinada",
+      "fenómeno consistente en el incremento de la capacidad del organismo para metabolizar y eliminar más deprisa la droga consumida",
+      "fenómeno de pérdida de tolerancia que se relaciona con el daño neuronal o con la alteración del aclaramiento metabólico"
+    ], "indice_correcto": 0, "cotejo": "Cruzada: fenómeno que tiene lugar cuando un órgano o sistema que presenta tolerancia a una determinada substancia desarrolla tolerancia a otra", "justificacion": "OMS, tipos de tolerancia, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-013", "articulo": "OMS · dependencia", "tipo": "test", "enunciado": "Según la OMS, ¿cómo se define la dependencia?", "opciones": [
+      "el estado psíquico, y en ocasiones también físico, resultado de la interacción entre un organismo vivo y una droga",
+      "el estado de adaptación biológica en el que disminuye la respuesta a la misma cantidad de la droga consumida",
+      "el patrón de consumo que produce daños a la salud física o mental del usuario que la consume habitualmente",
+      "la condición aguda y pasajera que sigue a la administración de una sustancia psicoactiva en un momento dado"
+    ], "indice_correcto": 0, "cotejo": "Se define como el estado psíquico, y en ocasiones también físico, resultado de la interacción entre un organismo vivo y una droga, y que se caracteriza por modificaciones del comportamiento", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-014", "articulo": "OMS · síndrome de abstinencia", "tipo": "test", "enunciado": "Tras dejar de administrar la droga a un sujeto dependiente, ¿qué es el síndrome de abstinencia?", "opciones": [
+      "un conjunto de síntomas y signos comunes para cada grupo de droga",
+      "un aumento progresivo de la dosis necesaria para notar los mismos efectos",
+      "una alteración pasajera de la percepción durante la intoxicación aguda",
+      "una compulsión irresistible a conseguir la droga por cualquier medio"
+    ], "indice_correcto": 0, "cotejo": "aparecen un conjunto de síntomas y signos comunes para cada grupo de droga, y es uno de los indicadores de la presencia de síndrome de dependencia", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-015", "articulo": "Glosario OMS · abstinencia", "tipo": "test", "enunciado": "En el glosario de la OMS, el término «abstinencia» (que no debe confundirse con el síndrome de abstinencia) designa:", "opciones": [
+      "resultado de evitar el consumo de drogas",
+      "conjunto de síntomas y signos que aparecen al dejar de consumir la droga",
+      "la fase inicial de intoxicación aguda por una sustancia",
+      "la pérdida progresiva de tolerancia a una droga dada"
+    ], "indice_correcto": 0, "cotejo": "Abstinencia. Resultado de evitar el consumo de drogas, ya sea por motivos de salud, personales o de otro tipo", "justificacion": "OMS, Glosario de términos de alcohol y drogas (PNSD)" },
+    { "concepto_id": "DROGA-016", "articulo": "Glosario OMS · adicción", "tipo": "test", "enunciado": "Según el glosario de la OMS, ¿cómo se describe la adicción?", "opciones": [
+      "uso repetido de una o varias sustancias psicoactivas, hasta el punto de que el usuario (denominado adicto) está periódica o crónicamente intoxicado",
+      "consumo puntual y esporádico de una sustancia psicoactiva con el que la persona solo pretende probar sus efectos y después lo abandona",
+      "estado de adaptación del organismo por el que hace falta aumentar la dosis para obtener el mismo efecto que se lograba al principio",
+      "malestar físico y psíquico intenso que sufre la persona en las horas siguientes a la interrupción del consumo de la sustancia"
+    ], "indice_correcto": 0, "cotejo": "Uso repetido de una o varias sustancias psicoactivas, hasta el punto de que el usuario (denominado adicto) está periódica o crónicamente intoxicado, muestra una compulsión a tomar una o varias sustancias", "justificacion": "OMS, Glosario de términos de alcohol y drogas (PNSD)" },
+    { "concepto_id": "DROGA-017", "articulo": "Glosario OMS · recomendación años 60", "tipo": "test", "enunciado": "¿Qué recomendó la OMS en los años 60 respecto a los términos «adicción» y «habituación»?", "opciones": [
+      "que ambos términos fueran abandonados en beneficio del término dependencia",
+      "que ambos términos se reservaran únicamente para el consumo de opiáceos ilegales",
+      "que ambos términos se unificaran en un solo concepto llamado toxicomanía grave",
+      "que ambos términos se mantuvieran como sinónimos plenos sin ninguna diferencia"
+    ], "indice_correcto": 0, "cotejo": "En los años 60, la OMS recomendó que ambos términos fueran abandonados en beneficio del término «dependencia», el cual admite varios grados de severidad", "justificacion": "OMS, Glosario de términos de alcohol y drogas (PNSD)" },
+    { "concepto_id": "DROGA-018", "articulo": "OMS · conducta adictiva", "tipo": "test", "enunciado": "¿Qué rasgo define a la conducta adictiva?", "opciones": [
+      "su consecución cobra mayor protagonismo que otras actividades que anteriormente eran importantes para la persona",
+      "se limita a episodios aislados de consumo recreativo que no interfieren en la vida familiar ni laboral de la persona",
+      "aparece únicamente cuando el organismo ha desarrollado tolerancia física y necesita dosis cada vez más elevadas",
+      "consiste en evitar por completo el consumo de la sustancia por motivos de salud o por decisión personal firme"
+    ], "indice_correcto": 0, "cotejo": "en la que su consecución cobra mayor protagonismo que otras actividades que anteriormente eran importantes para la persona", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-019", "articulo": "OMS · drogadicción", "tipo": "test", "enunciado": "¿Cómo se considera hoy la drogadicción?", "opciones": [
+      "una enfermedad crónica del cerebro, a menudo con recaídas, caracterizada por la búsqueda y el consumo compulsivo de drogas",
+      "un simple hábito o vicio pasajero que la persona puede abandonar con voluntad en cuanto se lo proponga seriamente",
+      "una reacción alérgica del organismo frente a determinadas sustancias químicas de origen natural o sintético",
+      "una consecuencia inevitable de cualquier primer consumo de una sustancia psicoactiva, sea legal o ilegal"
+    ], "indice_correcto": 0, "cotejo": "La drogadicción es considerada una enfermedad crónica del cerebro, a menudo con recaídas, caracterizada por la búsqueda y el consumo compulsivo de drogas a pesar de las consecuencias nocivas", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-020", "articulo": "Glosario OMS · alucinógeno", "tipo": "test", "enunciado": "Según el glosario de la OMS, ¿qué es un alucinógeno?", "opciones": [
+      "agente químico que induce alteraciones en la percepción, el pensamiento y las emociones",
+      "agente químico que retarda las funciones corporales y produce una intensa sedación y sueño",
+      "agente químico que acelera el sistema nervioso y elimina la sensación de fatiga y de hambre",
+      "agente químico que bloquea los receptores opiáceos y precipita el síndrome de abstinencia"
+    ], "indice_correcto": 0, "cotejo": "Alucinógeno. Agente químico que induce alteraciones en la percepción, el pensamiento y las emociones", "justificacion": "OMS, Glosario de términos de alcohol y drogas (PNSD)" },
+    { "concepto_id": "DROGA-021", "articulo": "OMS · uso nocivo", "tipo": "test", "enunciado": "Según la OMS, ¿qué es el uso nocivo de sustancias psicoactivas?", "opciones": [
+      "patrón de uso de sustancias psicoactivas que produce daños a la salud",
+      "patrón de uso que solo incrementa el riesgo de consecuencias nocivas",
+      "consumo experimental que se abandona tras probar sus primeros efectos",
+      "consumo integrado en el estilo de vida sin ninguna consecuencia adversa"
+    ], "indice_correcto": 0, "cotejo": "Uso nocivo. Patrón de uso de sustancias psicoactivas que produce daños a la salud. Este daño puede ser físico o mental", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-022", "articulo": "OMS · consumo de riesgo", "tipo": "test", "enunciado": "Según la OMS, ¿qué es el consumo de riesgo?", "opciones": [
+      "patrón de uso de sustancias psicoactivas que incrementa el riesgo de consecuencias nocivas para el usuario",
+      "patrón de uso de sustancias psicoactivas que ya ha producido daños graves y comprobados a la salud física del usuario",
+      "consumo puntual con el que la persona solo pretende experimentar los efectos de la droga por curiosidad",
+      "estado de adaptación del organismo que obliga a aumentar la dosis para lograr el mismo efecto de antes"
+    ], "indice_correcto": 0, "cotejo": "Consumo de riesgo. Patrón de uso de sustancias psicoactivas que incrementa el riesgo de consecuencias nocivas para el usuario", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-023", "articulo": "OMS · abuso", "tipo": "test", "enunciado": "¿Qué es el abuso de una sustancia?", "opciones": [
+      "el patrón de uso de la sustancia que produce perturbaciones o limitaciones clínicamente significativas",
+      "el estado psíquico, y en ocasiones también físico, que obliga a consumir la sustancia de forma continua o periódica",
+      "el consumo social integrado en la vida cotidiana que no acarrea ninguna consecuencia negativa",
+      "el conjunto de síntomas que aparecen al suspender el consumo en una persona ya dependiente"
+    ], "indice_correcto": 0, "cotejo": "El abuso es el patrón de uso de la sustancia que produce perturbaciones o limitaciones clínicamente significativas", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-024", "articulo": "Glosario OMS · abuso de sustancias psicoactivas", "tipo": "test", "enunciado": "Según el glosario de la OMS, ¿cuál es la característica esencial del abuso de sustancias?", "opciones": [
+      "un patrón desadaptativo de consumo de sustancias psicoactivas manifestado por consecuencias adversas significativas y recurrentes",
+      "un consumo ocasional y controlado de sustancias psicoactivas que no llega a interferir en la vida diaria de la persona",
+      "un estado de adaptación del organismo que exige elevar de forma continua la cantidad de sustancia para notar su efecto",
+      "una enfermedad crónica del cerebro con recaídas que se caracteriza por la búsqueda y el consumo compulsivo de la droga"
+    ], "indice_correcto": 0, "cotejo": "La característica esencial del abuso de sustancias consiste en un patrón desadaptativo de consumo de sustancias psicoactivas manifestado por consecuencias adversas significativas y recurrentes", "justificacion": "OMS, Glosario de términos de alcohol y drogas (PNSD)" },
+    { "concepto_id": "DROGA-025", "articulo": "OMS · intoxicación", "tipo": "test", "enunciado": "¿Qué es la intoxicación por una sustancia psicoactiva?", "opciones": [
+      "condición que sucede a la administración de una sustancia psicoactiva y que produce perturbaciones a nivel cognitivo, perceptivo, afectivo, de conciencia, conductual",
+      "adaptación biológica del organismo que hace que disminuya la respuesta ante la administración de la misma cantidad de la sustancia consumida",
+      "conjunto de síntomas y signos desagradables que aparecen cuando una persona dependiente interrumpe de forma brusca el consumo de la sustancia",
+      "patrón desadaptativo y repetido de consumo que acaba produciendo consecuencias adversas significativas y recurrentes para la salud del usuario"
+    ], "indice_correcto": 0, "cotejo": "Condición que sucede a la administración de una sustancia psicoactiva y que produce perturbaciones a nivel cognitivo, perceptivo, afectivo, de conciencia, conductual", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-026", "articulo": "OMS · patología dual", "tipo": "test", "enunciado": "¿A qué situación se le llama patología dual?", "opciones": [
+      "cuando una de las enfermedades asociadas es un trastorno mental y otra un trastorno por uso de sustancias",
+      "cuando una persona consume a la vez dos o más sustancias psicoactivas distintas para combinar sus diversos efectos",
+      "cuando coinciden en el mismo paciente una dependencia física y otra dependencia de tipo psicológico",
+      "cuando una persona desarrolla tolerancia y, a la vez, un síndrome de abstinencia a la misma sustancia"
+    ], "indice_correcto": 0, "cotejo": "Cuando una de las enfermedades asociadas es un trastorno mental y otra un trastorno por uso de sustancias (TUS) habitualmente se denomina patología dual", "justificacion": "OMS, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-027", "articulo": "OMS · patrones de consumo", "tipo": "test", "enunciado": "¿Qué caracteriza al uso experimental de una droga?", "opciones": [
+      "una droga se consume para probar sus efectos y, después de un determinado número de usos, se abandona",
+      "la sustancia se sigue usando tras experimentar y su consumo se integra plenamente en el estilo de vida habitual de la persona",
+      "el consumo produce daños comprobados a la salud física o mental de la persona que la utiliza",
+      "el consumo se vuelve compulsivo y la persona es incapaz de dejarlo pese a ser consciente del daño"
+    ], "indice_correcto": 0, "cotejo": "El uso experimental: una droga se consume para probar sus efectos y, después de un determinado número de usos, se abandona", "justificacion": "OMS, patrones de consumo, recogido por Infodrogas" },
+    { "concepto_id": "DROGA-028", "articulo": "OEDA 2024 · drogas más consumidas 14-18", "tipo": "test", "enunciado": "Según ESTUDES 2023 (Informe OEDA 2024), ¿cuáles son las drogas más consumidas por los jóvenes de 14 a 18 años?", "opciones": [
+      "las legales (alcohol y tabaco), seguidas del cannabis",
+      "el cannabis y la cocaína, seguidos de los hipnosedantes",
+      "los hipnosedantes y los alucinógenos, tras el alcohol",
+      "las ilegales (cannabis y cocaína), seguidas de las NSP"
+    ], "indice_correcto": 0, "cotejo": "las drogas más consumidas por los jóvenes (14-18 años) son las legales (alcohol y tabaco), seguidas del cannabis", "justificacion": "OEDA, Informe 2024 (ESTUDES 2023) — dato con fecha" },
+    { "concepto_id": "DROGA-029", "articulo": "OEDA 2024 · cannabis", "tipo": "test", "enunciado": "Según ESTUDES 2023 (Informe OEDA 2024), ¿qué lugar ocupa el cannabis entre las drogas ilegales en jóvenes de 14 a 18 años?", "opciones": [
+      "es la droga ilegal más consumida por los estudiantes de 14 a 18 años",
+      "es la tercera droga ilegal más consumida por los estudiantes de 14 a 18 años",
+      "es una droga ilegal apenas consumida por los estudiantes de 14 a 18 años",
+      "es la droga ilegal menos disponible para los estudiantes de 14 a 18 años"
+    ], "indice_correcto": 0, "cotejo": "El cannabis es la droga ilegal más consumida por los estudiantes de 14 a 18 años", "justificacion": "OEDA, Informe 2024 (ESTUDES 2023) — dato con fecha" },
+    { "concepto_id": "DROGA-030", "articulo": "OEDA 2024 · cocaína tratamiento 2022", "tipo": "test", "enunciado": "Según el Informe OEDA 2024, ¿qué droga ilegal causó el mayor número de admisiones a tratamiento en 2022?", "opciones": [
+      "la cocaína se mantiene como la droga ilegal que causó un mayor número de admisiones a tratamiento",
+      "el cannabis se mantiene como la droga ilegal que causó un mayor número de admisiones a tratamiento",
+      "los opioides se mantienen como la droga ilegal que causó un mayor número de admisiones a tratamiento",
+      "las anfetaminas se mantienen como la droga ilegal que causó un mayor número de admisiones a tratamiento"
+    ], "indice_correcto": 0, "cotejo": "En 2022 la cocaína se mantiene como la droga ilegal que causó un mayor número de admisiones a tratamiento (47,6% del total), seguida del cannabis (27,4%) y los opioides (18,7%)", "justificacion": "OEDA, Informe 2024 (admisiones a tratamiento 2022) — dato con fecha" },
+    { "concepto_id": "DROGA-031", "articulo": "OEDA 2024 · alcohol", "tipo": "test", "enunciado": "Según ESTUDES 2023 (Informe OEDA 2024), ¿qué porcentaje de jóvenes de 14 a 18 años había consumido alcohol en el último año?", "opciones": [
+      "el 73,6% en el último año",
+      "el 56,6% en el último año",
+      "el 26,9% en el último año",
+      "el 33,4% de los estudiantes en el último año"
+    ], "indice_correcto": 0, "cotejo": "el 75,9% de los jóvenes de 14 a 18 años había consumido alcohol alguna vez en la vida, el 73,6% en el último año y el 56,6% en el último mes", "justificacion": "OEDA, Informe 2024 (ESTUDES 2023) — dato con fecha" },
+    { "concepto_id": "DROGA-032", "articulo": "OEDA 2024 · hipnosedantes", "tipo": "test", "enunciado": "Según ESTUDES 2023 (Informe OEDA 2024), ¿qué posición ocupan los hipnosedantes en el consumo de los jóvenes de 14 a 18 años?", "opciones": [
+      "son la sustancia que mayor proporción de estudiantes consume después del alcohol, el tabaco y el cannabis",
+      "son la sustancia que mayor proporción de estudiantes consume, por delante del alcohol y del tabaco",
+      "son la sustancia ilegal más consumida por los estudiantes, por delante incluso del cannabis",
+      "son una sustancia prácticamente sin consumo entre los estudiantes de 14 a 18 años en España"
+    ], "indice_correcto": 0, "cotejo": "Los hipnosedantes son la sustancia que mayor proporción de estudiantes consume después del alcohol, el tabaco y el cannabis", "justificacion": "OEDA, Informe 2024 (ESTUDES 2023) — dato con fecha" },
+    { "concepto_id": "DROGA-033", "articulo": "OEDA 2024 · perfil admisiones 2022", "tipo": "test", "enunciado": "Según el Informe OEDA 2024, ¿cuál era el perfil mayoritario de los admitidos a tratamiento por drogas ilegales en 2022?", "opciones": [
+      "la mayoría de los pacientes admitidos a tratamiento por abuso o dependencia de drogas ilegales fueron varones",
+      "la mayoría de los pacientes admitidos a tratamiento por abuso o dependencia de drogas ilegales fueron mujeres",
+      "la mayoría de los pacientes admitidos a tratamiento por abuso o dependencia de drogas ilegales fueron menores de edad",
+      "la mayoría de los pacientes admitidos a tratamiento por abuso o dependencia de drogas ilegales fueron mayores de 65 años"
+    ], "indice_correcto": 0, "cotejo": "en 2022, la mayoría de los pacientes admitidos a tratamiento por abuso o dependencia de drogas ilegales fueron varones (81,5%). La edad media fue de 37 años", "justificacion": "OEDA, Informe 2024 (admisiones a tratamiento 2022) — dato con fecha" }
+  ],
+  "relaciones": [
+    { "origen": "DROGA-002", "destino": "DROGA-001", "tipo": "desarrolla", "justificacion": "«Sustancia psicoactiva» concreta el concepto de droga de la OMS." },
+    { "origen": "DROGA-003", "destino": "DROGA-001", "tipo": "desarrolla", "justificacion": "La clasificación por efectos sobre el SNC organiza el concepto de droga." },
+    { "origen": "DROGA-004", "destino": "DROGA-003", "tipo": "desarrolla", "justificacion": "Las depresoras son uno de los tres grupos de la clasificación de la OMS." },
+    { "origen": "DROGA-005", "destino": "DROGA-003", "tipo": "desarrolla", "justificacion": "Las estimulantes son uno de los tres grupos de la clasificación de la OMS." },
+    { "origen": "DROGA-006", "destino": "DROGA-003", "tipo": "desarrolla", "justificacion": "Las alucinógenas son uno de los tres grupos de la clasificación de la OMS." },
+    { "origen": "DROGA-007", "destino": "DROGA-003", "tipo": "desarrolla", "justificacion": "Las NSP amplían la clasificación con sustancias de aparición reciente." },
+    { "origen": "DROGA-007", "destino": "DROGA-010", "tipo": "remite", "justificacion": "Las NSP se definen por no estar aún incorporadas a los convenios de 1961 y 1971." },
+    { "origen": "DROGA-008", "destino": "DROGA-001", "tipo": "desarrolla", "justificacion": "El estupefaciente es la droga jurídicamente controlada por el convenio de 1961." },
+    { "origen": "DROGA-009", "destino": "DROGA-008", "tipo": "desarrolla", "justificacion": "Las Listas concretan qué sustancias son estupefacientes." },
+    { "origen": "DROGA-010", "destino": "DROGA-001", "tipo": "desarrolla", "justificacion": "La sustancia psicotrópica es la droga controlada por el convenio de 1971." },
+    { "origen": "DROGA-011", "destino": "DROGA-013", "tipo": "desarrolla", "justificacion": "La tolerancia es uno de los fenómenos asociados a la dependencia." },
+    { "origen": "DROGA-012", "destino": "DROGA-011", "tipo": "desarrolla", "justificacion": "La tolerancia cruzada es un tipo dentro del concepto de tolerancia." },
+    { "origen": "DROGA-014", "destino": "DROGA-013", "tipo": "desarrolla", "justificacion": "El síndrome de abstinencia es un indicador de la dependencia." },
+    { "origen": "DROGA-015", "destino": "DROGA-014", "tipo": "limita", "justificacion": "La abstinencia (no consumir) se distingue del síndrome de abstinencia (sus síntomas)." },
+    { "origen": "DROGA-016", "destino": "DROGA-013", "tipo": "remite", "justificacion": "La adicción se solapa con la dependencia; la OMS prefiere «dependencia»." },
+    { "origen": "DROGA-017", "destino": "DROGA-016", "tipo": "limita", "justificacion": "La OMS recomendó abandonar «adicción» en favor de «dependencia»." },
+    { "origen": "DROGA-018", "destino": "DROGA-016", "tipo": "desarrolla", "justificacion": "La conducta adictiva describe el comportamiento propio de la adicción." },
+    { "origen": "DROGA-019", "destino": "DROGA-016", "tipo": "desarrolla", "justificacion": "La drogadicción es la adicción entendida como enfermedad crónica." },
+    { "origen": "DROGA-020", "destino": "DROGA-006", "tipo": "desarrolla", "justificacion": "La definición de alucinógeno concreta el grupo de las alucinógenas." },
+    { "origen": "DROGA-027", "destino": "DROGA-001", "tipo": "desarrolla", "justificacion": "Los patrones de consumo describen formas de relación con la droga." },
+    { "origen": "DROGA-021", "destino": "DROGA-027", "tipo": "desarrolla", "justificacion": "El uso nocivo es uno de los patrones de consumo." },
+    { "origen": "DROGA-022", "destino": "DROGA-027", "tipo": "desarrolla", "justificacion": "El consumo de riesgo es uno de los patrones de consumo." },
+    { "origen": "DROGA-023", "destino": "DROGA-027", "tipo": "desarrolla", "justificacion": "El abuso es un patrón de consumo con consecuencias negativas." },
+    { "origen": "DROGA-024", "destino": "DROGA-023", "tipo": "desarrolla", "justificacion": "El abuso de sustancias psicoactivas precisa el concepto de abuso." },
+    { "origen": "DROGA-022", "destino": "DROGA-021", "tipo": "limita", "justificacion": "El consumo de riesgo (aún sin daño) se distingue del uso nocivo (daño ya producido)." },
+    { "origen": "DROGA-025", "destino": "DROGA-001", "tipo": "desarrolla", "justificacion": "La intoxicación es el efecto agudo de administrar una droga." },
+    { "origen": "DROGA-026", "destino": "DROGA-013", "tipo": "desarrolla", "justificacion": "La patología dual asocia un trastorno mental con un trastorno por uso de sustancias." },
+    { "origen": "DROGA-028", "destino": "DROGA-001", "tipo": "desarrolla", "justificacion": "Las tendencias de consumo miden el uso real de las drogas en España." },
+    { "origen": "DROGA-029", "destino": "DROGA-028", "tipo": "desarrolla", "justificacion": "El dato del cannabis concreta las tendencias de consumo juvenil." },
+    { "origen": "DROGA-031", "destino": "DROGA-028", "tipo": "desarrolla", "justificacion": "La prevalencia de alcohol concreta las tendencias de consumo juvenil." },
+    { "origen": "DROGA-032", "destino": "DROGA-028", "tipo": "desarrolla", "justificacion": "El dato de los hipnosedantes concreta las tendencias de consumo juvenil." },
+    { "origen": "DROGA-030", "destino": "DROGA-013", "tipo": "desarrolla", "justificacion": "Las admisiones a tratamiento reflejan casos de abuso o dependencia." },
+    { "origen": "DROGA-033", "destino": "DROGA-030", "tipo": "desarrolla", "justificacion": "El perfil de admitidos concreta el dato de admisiones a tratamiento." }
+  ]
+}

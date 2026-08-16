@@ -1,0 +1,542 @@
+{
+  "meta": {
+    "materia": "inteligencia-osint-fuentes-abiertas",
+    "norma": "Doctrina de inteligencia del CNI (ciclo de Inteligencia y disciplinas de obtención) y glosario de ciberseguridad de INCIBE (OSINT, deep web y dark web)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "CNI — La Inteligencia (ciclo de Inteligencia: dirección, obtención, elaboración y difusión; disciplinas HUMINT/OSINT/SIGINT/GEOINT) — https://www.cni.es/la-inteligencia (consultado 04/08/2026)",
+      "CNI — Preguntas frecuentes (qué es un Servicio de Inteligencia; obtención de fuentes humanas, técnicas, geográficas y abiertas) — https://www.cni.es/trabaja-con-nosotros/preguntas-frecuentes (consultado 04/08/2026)",
+      "INCIBE-CERT — «OSINT - La información es poder» (definición de OSINT, ejemplos de fuentes abiertas y fases del proceso OSINT) — https://www.incibe.es/incibe-cert/blog/osint-la-informacion-es-poder (consultado 04/08/2026)",
+      "INCIBE (OSI) — «Navegadores y Deep Web. Profundicemos en el tema» (deep web, dark web y acceso mediante TOR) — https://www.incibe.es/ciudadania/blog/navegadores-y-deep-web-profundicemos-en-el-tema (consultado 04/08/2026)"
+    ],
+    "tipo_fuente": "autoridad",
+    "estado_verificacion": "verificado",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 40 — Inteligencia: dato, información e inteligencia; tipologías de inteligencia; ciclo de inteligencia; OSINT (fuentes abiertas); surface web, deep web, dark web, dark net"
+  },
+  "fuentes": {
+    "CNI FAQ — Servicio de Inteligencia": "Un Servicio de Inteligencia es un organismo del Estado que obtiene información por medios y procedimientos propios con el fin de elaborar Inteligencia para facilitar a las autoridades el proceso de toma de decisiones.",
+    "CNI — Ciclo de Inteligencia": "El resultado final del trabajo del CNI es la Inteligencia que entrega a las autoridades para facilitar la toma de decisiones y que se elabora siguiendo un proceso con fases bien definidas, denominado ciclo de Inteligencia.",
+    "CNI — Dirección": "El ciclo de Inteligencia se inicia con la aprobación anual de la Directiva de Inteligencia por parte de la Comisión Delegada del Gobierno para Asuntos de Inteligencia y del presidente del Gobierno. La directiva es un documento con carácter secreto que recoge los objetivos o necesidades de Inteligencia del Gobierno. Una vez aprobada la Directiva de Inteligencia, el CNI realiza un proceso de planificación y organización de los recursos disponibles para obtener la información necesaria y elaborar la Inteligencia que satisfaga esas necesidades planteadas por el Gobierno.",
+    "CNI — Obtención (disciplinas)": "El CNI obtiene información de fuentes humanas (HUMINT), fuentes técnicas (SIGINT), imágenes e información geográfica (GEOINT) y fuentes abiertas (OSINT). HUMINT: Información procedente de fuentes humanas. OSINT: Información procedente de fuentes abiertas. SIGINT: Información procedente de fuentes técnicas. GEOINT: Información procedente de la explotación y análisis de imágenes e información geográfica.",
+    "CNI — Elaboración": "Valoración: Se analiza la calidad y origen de la información. Examen: Se estudia toda la información disponible. Integración: Se integra toda la información procedente de distintas fuentes. Interpretación: Se interpreta la información según distintos contextos. Redacción: Se redacta el producto final: la Inteligencia.",
+    "CNI — Difusión": "Es el final del ciclo, resultado de todo el proceso. En esta fase, la Inteligencia se distribuye a sus destinatarios: las autoridades responsables de adoptar decisiones.",
+    "INCIBE — OSINT (definición)": "Inteligencia de fuentes abiertas u «Open Source Intelligence» (OSINT) hace referencia al conocimiento recopilado a partir de fuentes de acceso público. El proceso incluye la búsqueda, selección y adquisición de la información, así como un posterior procesado y análisis de la misma con el fin de obtener conocimiento útil y aplicable en distintos ámbitos.",
+    "INCIBE — Fuentes abiertas (ejemplos)": "Existen multitud de fuentes abiertas a partir de las cuales se puede obtener información relevante, entre las que destacan: Medios de comunicación: revistas, periódicos, radio, etc. Información pública de fuentes gubernamentales. Foros, redes sociales, blogs, wikis, etc. Conferencias, simposios, «papers», bibliotecas online, etc.",
+    "INCIBE — Fases del proceso OSINT": "El proceso OSINT consta de las siguientes fases: Requisitos: es la fase en la que se establecen todos los requerimientos que se deben cumplir, es decir, aquellas condiciones que deben satisfacerse para conseguir el objetivo o resolver el problema que ha originado el desarrollo del sistema OSINT. Identificar fuentes de información relevante: consiste en especificar, a partir de los requisitos establecidos, las fuentes de interés que serán recopiladas. Adquisición: etapa en la que se obtiene la información a partir de los orígenes indicados. Procesamiento: consiste en dar formato a toda la información recopilada de manera que posteriormente pueda ser analizada. Análisis: es la fase en la que se genera inteligencia a partir de los datos recopilados y procesados. Presentación de inteligencia: consiste en presentar la información obtenida de una manera eficaz, potencialmente útil y comprensible, de manera que pueda ser correctamente explotada.",
+    "INCIBE — Deep web": "La Deep web hace referencia a todo el contenido de Internet que no está indexado por los buscadores tradicionales y que, por tanto, está oculto. Muchos contenidos no están indexados en buscadores convencionales, como Bing o Google, porque es necesario identificarse de alguna forma para acceder a ellos o porque se necesiten programas o protocolos de comunicación adecuados para visualizar las webs. Búsquedas en la Deep web arrojarán resultados que incluyan publicaciones científicas, documentos gubernamentales, foros privados y otras de bases de datos privadas.",
+    "INCIBE — Dark web": "Existe una parte más «oscura» dentro de la propia Deep web, conocida como Dark web, donde muchos de los contenidos están relacionados con acciones ilícitas. La Dark web hace referencia a una parte específica de la Deep web, en la que su contenido sí puede considerarse peligroso y difícil de acceder. Ambos términos son diferentes y en ningún caso deberían utilizarse como sinónimos.",
+    "INCIBE — Acceso a la Dark web (TOR)": "Para acceder son necesarios recursos especiales, como por ejemplo TOR, cuyas siglas significan «The Onion Router» y que dispone de un navegador específico para acceder a dicha red. TOR es sólo un ejemplo pero se puede acceder a la Deep web de otras muchas formas: Freenet, I2P, etc."
+  },
+  "conceptos": [
+    {
+      "id": "INTEL-001",
+      "articulo": "CNI FAQ — Servicio de Inteligencia",
+      "titulo": "Servicio de Inteligencia: de la información a la Inteligencia",
+      "resumen": "Un Servicio de Inteligencia es un organismo del Estado que obtiene información por medios y procedimientos propios con el fin de elaborar Inteligencia para facilitar a las autoridades el proceso de toma de decisiones.",
+      "explicacion": "La distinción clave de este tema es que la información es la materia prima que se obtiene, y la Inteligencia es el producto ya elaborado a partir de esa información. Un Servicio de Inteligencia como el CNI no se limita a recopilar datos: los procesa y analiza para producir Inteligencia útil que ayude a las autoridades a decidir."
+    },
+    {
+      "id": "INTEL-002",
+      "articulo": "CNI — Ciclo de Inteligencia",
+      "titulo": "El ciclo de Inteligencia",
+      "resumen": "El resultado final del trabajo del CNI es la Inteligencia, que se elabora siguiendo un proceso con fases bien definidas, denominado ciclo de Inteligencia.",
+      "explicacion": "La Inteligencia no se improvisa: se produce mediante un proceso ordenado y con fases bien definidas llamado ciclo de Inteligencia. El CNI emplea una versión simplificada con las fases de dirección, obtención, elaboración y difusión."
+    },
+    {
+      "id": "INTEL-003",
+      "articulo": "CNI — Dirección",
+      "titulo": "Fase de dirección: la Directiva de Inteligencia",
+      "resumen": "El ciclo se inicia con la aprobación anual de la Directiva de Inteligencia por la Comisión Delegada del Gobierno para Asuntos de Inteligencia y el presidente del Gobierno; después el CNI planifica y organiza los recursos.",
+      "explicacion": "La primera fase del ciclo es la dirección: se fijan las necesidades de Inteligencia. Arranca con la aprobación anual de la Directiva de Inteligencia, documento de carácter secreto que recoge los objetivos del Gobierno; a partir de ahí el CNI planifica y organiza sus recursos."
+    },
+    {
+      "id": "INTEL-004",
+      "articulo": "CNI — Obtención (disciplinas)",
+      "titulo": "Fase de obtención: HUMINT, SIGINT, GEOINT y OSINT",
+      "resumen": "En la obtención, el CNI reúne información de fuentes humanas (HUMINT), fuentes técnicas (SIGINT), imágenes e información geográfica (GEOINT) y fuentes abiertas (OSINT).",
+      "explicacion": "Las tipologías o disciplinas de obtención se distinguen por el tipo de fuente: HUMINT (fuentes humanas), SIGINT (fuentes técnicas o de señales), GEOINT (imágenes e información geográfica) y OSINT (fuentes abiertas o de acceso público)."
+    },
+    {
+      "id": "INTEL-005",
+      "articulo": "CNI — Elaboración",
+      "titulo": "Fase de elaboración: de la información a la Inteligencia",
+      "resumen": "En la elaboración se valora, examina, integra e interpreta la información y se redacta el producto final: la Inteligencia.",
+      "explicacion": "La elaboración transforma la información en Inteligencia mediante varios pasos: valoración (calidad y origen), examen, integración de fuentes, interpretación según contextos y redacción del producto final, que es la Inteligencia."
+    },
+    {
+      "id": "INTEL-006",
+      "articulo": "CNI — Difusión",
+      "titulo": "Fase de difusión: entrega a los destinatarios",
+      "resumen": "La difusión es el final del ciclo: la Inteligencia se distribuye a sus destinatarios, las autoridades responsables de adoptar decisiones.",
+      "explicacion": "La última fase cierra el ciclo: la Inteligencia ya elaborada se distribuye a quienes deben usarla, las autoridades responsables de tomar decisiones. Sin difusión, el trabajo previo no sirve para decidir."
+    },
+    {
+      "id": "INTEL-007",
+      "articulo": "INCIBE — OSINT (definición)",
+      "titulo": "OSINT: inteligencia de fuentes abiertas",
+      "resumen": "OSINT (Open Source Intelligence) hace referencia al conocimiento recopilado a partir de fuentes de acceso público, mediante búsqueda, selección, adquisición, procesado y análisis de la información.",
+      "explicacion": "OSINT es la inteligencia de fuentes abiertas: se obtiene conocimiento a partir de información de acceso público. No consiste solo en recopilar; incluye buscar, seleccionar, adquirir, procesar y analizar esa información para obtener conocimiento útil."
+    },
+    {
+      "id": "INTEL-008",
+      "articulo": "INCIBE — Fuentes abiertas (ejemplos)",
+      "titulo": "Qué son las fuentes abiertas",
+      "resumen": "Entre las fuentes abiertas destacan los medios de comunicación, la información pública de fuentes gubernamentales, los foros, redes sociales, blogs y wikis, y las conferencias, simposios y bibliotecas online.",
+      "explicacion": "Las fuentes abiertas son las de acceso público: medios de comunicación, información pública de organismos, foros y redes sociales, blogs, wikis, conferencias, papers y bibliotecas online. Lo que las define es que cualquiera puede acceder a ellas legalmente."
+    },
+    {
+      "id": "INTEL-009",
+      "articulo": "INCIBE — Fases del proceso OSINT",
+      "titulo": "Fases del proceso OSINT",
+      "resumen": "El proceso OSINT consta de fases: requisitos, identificar fuentes de información relevante, adquisición, procesamiento, análisis (donde se genera inteligencia) y presentación de inteligencia.",
+      "explicacion": "OSINT tiene su propio proceso por fases: fijar requisitos, identificar fuentes relevantes, adquirir la información, procesarla (darle formato), analizarla (aquí se genera inteligencia a partir de los datos) y presentar la inteligencia de forma comprensible."
+    },
+    {
+      "id": "INTEL-010",
+      "articulo": "INCIBE — Deep web",
+      "titulo": "Deep web: el contenido no indexado",
+      "resumen": "La Deep web hace referencia a todo el contenido de Internet que no está indexado por los buscadores tradicionales y que, por tanto, está oculto.",
+      "explicacion": "Frente a la web superficial (la que indexan buscadores como Google o Bing), la Deep web es todo el contenido que NO está indexado y queda oculto, bien porque exige identificarse para acceder, bien porque necesita programas o protocolos específicos. Incluye publicaciones científicas, documentos gubernamentales o bases de datos privadas."
+    },
+    {
+      "id": "INTEL-011",
+      "articulo": "INCIBE — Dark web",
+      "titulo": "Dark web: una parte específica de la Deep web",
+      "resumen": "La Dark web es una parte específica de la Deep web, en la que su contenido sí puede considerarse peligroso y difícil de acceder; no es sinónimo de Deep web.",
+      "explicacion": "La Dark web es un subconjunto concreto de la Deep web, la parte más «oscura», donde abundan contenidos ilícitos y de difícil acceso. Deep web y Dark web NO son sinónimos: toda la Dark web es Deep web, pero no toda la Deep web es Dark web."
+    },
+    {
+      "id": "INTEL-012",
+      "articulo": "INCIBE — Acceso a la Dark web (TOR)",
+      "titulo": "Acceso a la Dark web: TOR y otras redes",
+      "resumen": "Para acceder se necesitan recursos especiales como TOR («The Onion Router»), con navegador propio; también se puede acceder mediante otras redes como Freenet o I2P.",
+      "explicacion": "A la Dark web no se llega con un navegador convencional: hacen falta recursos especiales. El más conocido es TOR («The Onion Router»), que cifra el tráfico por capas para el anonimato, pero no es el único: también existen Freenet, I2P, etc."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "INTEL-001",
+      "articulo": "CNI FAQ — Servicio de Inteligencia",
+      "tipo": "test",
+      "enunciado": "Según el CNI, ¿qué es un Servicio de Inteligencia?",
+      "opciones": [
+        "un organismo del Estado que obtiene información por medios y procedimientos propios con el fin de elaborar Inteligencia para facilitar a las autoridades el proceso de toma de decisiones",
+        "un órgano judicial que autoriza la obtención de información reservada por medios especiales para su empleo posterior como prueba de cargo en el proceso penal ante los tribunales",
+        "un cuerpo policial que investiga los delitos ya cometidos y detiene a sus autores para ponerlos a disposición de la autoridad judicial competente en cada caso concreto",
+        "un centro de estudios que difunde públicamente análisis y estadísticas sobre riesgos y amenazas para orientar a la opinión pública y a los medios de comunicación social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Un Servicio de Inteligencia es un organismo del Estado que obtiene información por medios y procedimientos propios con el fin de elaborar Inteligencia para facilitar a las autoridades el proceso de toma de decisiones.",
+      "justificacion": "CNI, Preguntas frecuentes: «¿Qué es un Servicio de Inteligencia?»"
+    },
+    {
+      "concepto_id": "INTEL-001",
+      "articulo": "CNI FAQ — Servicio de Inteligencia",
+      "tipo": "test",
+      "enunciado": "¿Con qué finalidad obtiene información un Servicio de Inteligencia?",
+      "opciones": [
+        "con el fin de elaborar Inteligencia para facilitar a las autoridades el proceso de toma de decisiones",
+        "con el fin de sancionar administrativamente a los responsables de las amenazas detectadas contra el Estado",
+        "con el fin de sustituir a los tribunales en la investigación y el enjuiciamiento de los delitos más graves",
+        "con el fin de hacer pública de inmediato la información obtenida para su difusión en los medios sociales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "obtiene información por medios y procedimientos propios con el fin de elaborar Inteligencia para facilitar a las autoridades el proceso de toma de decisiones.",
+      "justificacion": "CNI, Preguntas frecuentes: distinción información obtenida / Inteligencia elaborada."
+    },
+    {
+      "concepto_id": "INTEL-002",
+      "articulo": "CNI — Ciclo de Inteligencia",
+      "tipo": "test",
+      "enunciado": "¿Cómo se denomina el proceso, con fases bien definidas, mediante el que el CNI elabora la Inteligencia?",
+      "opciones": [
+        "un proceso con fases bien definidas, denominado ciclo de Inteligencia",
+        "un procedimiento reglado y de carácter público, denominado protocolo de actuación operativa",
+        "un método propio de investigación criminal, denominado ciclo de la instrucción penal",
+        "un sistema interno de gestión documental, denominado cadena de custodia de la información"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se elabora siguiendo un proceso con fases bien definidas, denominado ciclo de Inteligencia.",
+      "justificacion": "CNI, La Inteligencia: definición del ciclo de Inteligencia."
+    },
+    {
+      "concepto_id": "INTEL-002",
+      "articulo": "CNI — Ciclo de Inteligencia",
+      "tipo": "test",
+      "enunciado": "Según el CNI, ¿cuál es el resultado final de su trabajo?",
+      "opciones": [
+        "la Inteligencia que entrega a las autoridades para facilitar la toma de decisiones",
+        "la información en bruto que remite sin procesar a los cuerpos policiales para su archivo",
+        "el atestado policial que traslada a la autoridad judicial para el ejercicio de la acción penal",
+        "el informe estadístico que publica periódicamente para conocimiento general de la ciudadanía"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El resultado final del trabajo del CNI es la Inteligencia que entrega a las autoridades para facilitar la toma de decisiones",
+      "justificacion": "CNI, La Inteligencia: la Inteligencia como producto final."
+    },
+    {
+      "concepto_id": "INTEL-003",
+      "articulo": "CNI — Dirección",
+      "tipo": "test",
+      "enunciado": "¿Con qué acto se inicia el ciclo de Inteligencia?",
+      "opciones": [
+        "con la aprobación anual de la Directiva de Inteligencia",
+        "con la apertura de una investigación reservada por el juez competente en la materia",
+        "con la difusión del primer informe de Inteligencia a sus destinatarios habituales",
+        "con la firma de un acuerdo de colaboración con los Servicios de Inteligencia homólogos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El ciclo de Inteligencia se inicia con la aprobación anual de la Directiva de Inteligencia por parte de la Comisión Delegada del Gobierno para Asuntos de Inteligencia y del presidente del Gobierno.",
+      "justificacion": "CNI, La Inteligencia: inicio del ciclo con la Directiva de Inteligencia."
+    },
+    {
+      "concepto_id": "INTEL-003",
+      "articulo": "CNI — Dirección",
+      "tipo": "test",
+      "enunciado": "¿Quién aprueba anualmente la Directiva de Inteligencia que da inicio al ciclo?",
+      "opciones": [
+        "la Comisión Delegada del Gobierno para Asuntos de Inteligencia y del presidente del Gobierno",
+        "el Consejo de Seguridad Nacional y el Departamento de Seguridad Nacional de la Presidencia del Gobierno",
+        "la Comisión Delegada del Gobierno para Situaciones de Crisis junto con el Ministro del Interior",
+        "el Consejo de Ministros, a propuesta del Ministro de Defensa y del Director del propio Centro"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la aprobación anual de la Directiva de Inteligencia por parte de la Comisión Delegada del Gobierno para Asuntos de Inteligencia y del presidente del Gobierno.",
+      "justificacion": "CNI, La Inteligencia: órgano que aprueba la Directiva de Inteligencia."
+    },
+    {
+      "concepto_id": "INTEL-003",
+      "articulo": "CNI — Dirección",
+      "tipo": "test",
+      "enunciado": "Una vez aprobada la Directiva, ¿qué realiza el CNI con los recursos disponibles?",
+      "opciones": [
+        "un proceso de planificación y organización de los recursos disponibles para obtener la información necesaria y elaborar la Inteligencia",
+        "un reparto formal de competencias entre las distintas fuerzas y cuerpos de seguridad del Estado para la instrucción de las diligencias correspondientes",
+        "una consulta pública para recabar de la ciudadanía las necesidades de información que deben orientar la actividad del Centro durante el ejercicio",
+        "una petición de autorización judicial previa e individualizada para cada una de las actuaciones de obtención que tenga previsto llevar a cabo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el CNI realiza un proceso de planificación y organización de los recursos disponibles para obtener la información necesaria y elaborar la Inteligencia que satisfaga esas necesidades planteadas por el Gobierno.",
+      "justificacion": "CNI, La Inteligencia: planificación y organización tras la Directiva."
+    },
+    {
+      "concepto_id": "INTEL-004",
+      "articulo": "CNI — Obtención (disciplinas)",
+      "tipo": "test",
+      "enunciado": "¿De qué tipos de fuentes obtiene información el CNI en la fase de obtención?",
+      "opciones": [
+        "de fuentes humanas (HUMINT), fuentes técnicas (SIGINT), imágenes e información geográfica (GEOINT) y fuentes abiertas (OSINT)",
+        "de fuentes humanas (HUMINT), fuentes financieras (FININT), fuentes diplomáticas (DIPINT) y fuentes policiales (POLINT)",
+        "de fuentes técnicas (SIGINT), fuentes abiertas (OSINT), fuentes documentales (DOCINT) y fuentes biométricas (BIOINT)",
+        "de fuentes humanas (HUMINT), fuentes electrónicas (ELINT), fuentes acústicas (ACINT) y fuentes cibernéticas (CYBINT)"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El CNI obtiene información de fuentes humanas (HUMINT), fuentes técnicas (SIGINT), imágenes e información geográfica (GEOINT) y fuentes abiertas (OSINT).",
+      "justificacion": "CNI: disciplinas de obtención HUMINT/SIGINT/GEOINT/OSINT."
+    },
+    {
+      "concepto_id": "INTEL-004",
+      "articulo": "CNI — Obtención (disciplinas)",
+      "tipo": "test",
+      "enunciado": "En las disciplinas de obtención del CNI, ¿qué designa la sigla HUMINT?",
+      "opciones": [
+        "Información procedente de fuentes humanas",
+        "Información procedente de fuentes abiertas",
+        "Información procedente de fuentes técnicas",
+        "Información procedente de la explotación y análisis de imágenes e información geográfica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "HUMINT: Información procedente de fuentes humanas.",
+      "justificacion": "CNI, La Inteligencia: HUMINT = fuentes humanas."
+    },
+    {
+      "concepto_id": "INTEL-004",
+      "articulo": "CNI — Obtención (disciplinas)",
+      "tipo": "test",
+      "enunciado": "Dentro de las disciplinas de obtención del CNI, ¿a qué corresponde OSINT?",
+      "opciones": [
+        "Información procedente de fuentes abiertas",
+        "Información procedente de fuentes humanas",
+        "Información procedente de fuentes técnicas",
+        "Información procedente de la explotación y análisis de imágenes e información geográfica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "OSINT: Información procedente de fuentes abiertas.",
+      "justificacion": "CNI, La Inteligencia: OSINT = fuentes abiertas."
+    },
+    {
+      "concepto_id": "INTEL-004",
+      "articulo": "CNI — Obtención (disciplinas)",
+      "tipo": "test",
+      "enunciado": "¿Qué sigla designa la información procedente de fuentes técnicas?",
+      "opciones": [
+        "fuentes técnicas (SIGINT)",
+        "fuentes humanas (HUMINT)",
+        "fuentes abiertas (OSINT)",
+        "imágenes e información geográfica (GEOINT)"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El CNI obtiene información de fuentes humanas (HUMINT), fuentes técnicas (SIGINT), imágenes e información geográfica (GEOINT) y fuentes abiertas (OSINT).",
+      "justificacion": "CNI, La Inteligencia: SIGINT = fuentes técnicas."
+    },
+    {
+      "concepto_id": "INTEL-005",
+      "articulo": "CNI — Elaboración",
+      "tipo": "test",
+      "enunciado": "En la fase de elaboración, ¿en qué consiste la valoración?",
+      "opciones": [
+        "Se analiza la calidad y origen de la información",
+        "Se distribuye la Inteligencia a las autoridades destinatarias del ciclo",
+        "Se establecen anualmente las necesidades de Inteligencia del Gobierno",
+        "Se obtiene la información a partir de las fuentes de obtención disponibles"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Valoración: Se analiza la calidad y origen de la información.",
+      "justificacion": "CNI, La Inteligencia: subfase de valoración."
+    },
+    {
+      "concepto_id": "INTEL-005",
+      "articulo": "CNI — Elaboración",
+      "tipo": "test",
+      "enunciado": "Dentro de la elaboración, ¿qué subfase produce el producto final?",
+      "opciones": [
+        "Se redacta el producto final: la Inteligencia",
+        "Se integra toda la información procedente de las distintas fuentes",
+        "Se interpreta la información según los distintos contextos posibles",
+        "Se estudia y se archiva toda la información secreta que esté disponible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Redacción: Se redacta el producto final: la Inteligencia.",
+      "justificacion": "CNI, La Inteligencia: subfase de redacción."
+    },
+    {
+      "concepto_id": "INTEL-006",
+      "articulo": "CNI — Difusión",
+      "tipo": "test",
+      "enunciado": "¿Qué ocurre en la fase de difusión, final del ciclo?",
+      "opciones": [
+        "la Inteligencia se distribuye a sus destinatarios: las autoridades responsables de adoptar decisiones",
+        "la información se archiva de forma clasificada sin remitirse todavía a ninguna autoridad del Estado",
+        "la información en bruto se somete a valoración, examen e integración por el equipo de elaboración",
+        "los datos recopilados se entregan a los cuerpos policiales para la instrucción del atestado oportuno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En esta fase, la Inteligencia se distribuye a sus destinatarios: las autoridades responsables de adoptar decisiones.",
+      "justificacion": "CNI, La Inteligencia: fase de difusión."
+    },
+    {
+      "concepto_id": "INTEL-007",
+      "articulo": "INCIBE — OSINT (definición)",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, ¿a qué hace referencia OSINT (inteligencia de fuentes abiertas)?",
+      "opciones": [
+        "al conocimiento recopilado a partir de fuentes de acceso público",
+        "al conocimiento obtenido mediante la interceptación de comunicaciones privadas ajenas",
+        "a la información sustraída de las bases de datos confidenciales de los organismos públicos",
+        "a los datos personales cedidos de forma voluntaria por los usuarios a las redes sociales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "hace referencia al conocimiento recopilado a partir de fuentes de acceso público.",
+      "justificacion": "INCIBE-CERT: definición de OSINT."
+    },
+    {
+      "concepto_id": "INTEL-007",
+      "articulo": "INCIBE — OSINT (definición)",
+      "tipo": "test",
+      "enunciado": "¿Qué incluye el proceso OSINT según INCIBE?",
+      "opciones": [
+        "la búsqueda, selección y adquisición de la información, así como un posterior procesado y análisis de la misma",
+        "la interceptación, el descifrado y el almacenamiento permanente de comunicaciones ajenas privadas",
+        "la vigilancia física, el seguimiento y la identificación de determinadas personas en la vía pública",
+        "la solicitud, la autorización judicial y la ejecución de registros en domicilios particulares concretos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El proceso incluye la búsqueda, selección y adquisición de la información, así como un posterior procesado y análisis de la misma con el fin de obtener conocimiento útil y aplicable en distintos ámbitos.",
+      "justificacion": "INCIBE-CERT: proceso OSINT."
+    },
+    {
+      "concepto_id": "INTEL-008",
+      "articulo": "INCIBE — Fuentes abiertas (ejemplos)",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes es una fuente abierta según INCIBE?",
+      "opciones": [
+        "Información pública de fuentes gubernamentales",
+        "Comunicaciones telefónicas interceptadas por orden judicial",
+        "Bases de datos policiales de acceso restringido y reservado",
+        "Ficheros clasificados de los servicios de inteligencia extranjeros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Información pública de fuentes gubernamentales.",
+      "justificacion": "INCIBE-CERT: ejemplos de fuentes abiertas."
+    },
+    {
+      "concepto_id": "INTEL-008",
+      "articulo": "INCIBE — Fuentes abiertas (ejemplos)",
+      "tipo": "test",
+      "enunciado": "Entre las fuentes abiertas que destaca INCIBE se encuentran:",
+      "opciones": [
+        "Foros, redes sociales, blogs, wikis, etc.",
+        "Escuchas telefónicas, correos privados y mensajería cifrada",
+        "Expedientes judiciales secretos y sumarios declarados bajo reserva",
+        "Registros bancarios confidenciales y declaraciones tributarias reservadas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Foros, redes sociales, blogs, wikis, etc.",
+      "justificacion": "INCIBE-CERT: ejemplos de fuentes abiertas."
+    },
+    {
+      "concepto_id": "INTEL-009",
+      "articulo": "INCIBE — Fases del proceso OSINT",
+      "tipo": "test",
+      "enunciado": "¿Qué se hace en la fase de análisis del proceso OSINT?",
+      "opciones": [
+        "se genera inteligencia a partir de los datos recopilados y procesados",
+        "se establecen los requerimientos que se deben cumplir para conseguir el objetivo fijado",
+        "se obtiene la información a partir de los distintos orígenes previamente indicados",
+        "se da formato a toda la información recopilada para que pueda ser presentada al usuario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Análisis: es la fase en la que se genera inteligencia a partir de los datos recopilados y procesados.",
+      "justificacion": "INCIBE-CERT: fase de análisis del proceso OSINT."
+    },
+    {
+      "concepto_id": "INTEL-009",
+      "articulo": "INCIBE — Fases del proceso OSINT",
+      "tipo": "test",
+      "enunciado": "En el proceso OSINT, ¿en qué consiste la fase de adquisición?",
+      "opciones": [
+        "etapa en la que se obtiene la información a partir de los orígenes indicados",
+        "fase en la que se da formato a toda la información recopilada para su análisis",
+        "fase en la que se establecen todos los requerimientos que se deben cumplir",
+        "fase en la que se presenta la información obtenida de una manera comprensible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Adquisición: etapa en la que se obtiene la información a partir de los orígenes indicados.",
+      "justificacion": "INCIBE-CERT: fase de adquisición del proceso OSINT."
+    },
+    {
+      "concepto_id": "INTEL-009",
+      "articulo": "INCIBE — Fases del proceso OSINT",
+      "tipo": "test",
+      "enunciado": "¿Qué finalidad tiene la fase de procesamiento en el proceso OSINT?",
+      "opciones": [
+        "dar formato a toda la información recopilada de manera que posteriormente pueda ser analizada",
+        "obtener la información a partir de los distintos orígenes que se hayan indicado previamente",
+        "presentar la información obtenida de una manera eficaz, potencialmente útil y comprensible",
+        "especificar las fuentes de interés que serán recopiladas a lo largo de todo el proceso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Procesamiento: consiste en dar formato a toda la información recopilada de manera que posteriormente pueda ser analizada.",
+      "justificacion": "INCIBE-CERT: fase de procesamiento del proceso OSINT."
+    },
+    {
+      "concepto_id": "INTEL-010",
+      "articulo": "INCIBE — Deep web",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, ¿a qué hace referencia la Deep web?",
+      "opciones": [
+        "a todo el contenido de Internet que no está indexado por los buscadores tradicionales",
+        "a la parte de Internet cuyos contenidos ilícitos solo son accesibles mediante la red TOR",
+        "al conjunto de páginas web indexadas y accesibles desde cualquier buscador convencional",
+        "a los sitios oficiales de los organismos públicos protegidos con certificado digital seguro"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La Deep web hace referencia a todo el contenido de Internet que no está indexado por los buscadores tradicionales y que, por tanto, está oculto.",
+      "justificacion": "INCIBE (OSI): definición de Deep web."
+    },
+    {
+      "concepto_id": "INTEL-010",
+      "articulo": "INCIBE — Deep web",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, ¿por qué muchos contenidos de la Deep web no están indexados?",
+      "opciones": [
+        "porque es necesario identificarse de alguna forma para acceder a ellos",
+        "porque han sido eliminados de forma definitiva por los buscadores convencionales",
+        "porque su contenido es siempre de carácter ilícito y está perseguido por la ley penal",
+        "porque solo pueden ser consultados por los servicios de inteligencia del propio Estado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "porque es necesario identificarse de alguna forma para acceder a ellos o porque se necesiten programas o protocolos de comunicación adecuados para visualizar las webs.",
+      "justificacion": "INCIBE (OSI): motivos de no indexación de la Deep web."
+    },
+    {
+      "concepto_id": "INTEL-011",
+      "articulo": "INCIBE — Dark web",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, ¿qué es la Dark web?",
+      "opciones": [
+        "una parte específica de la Deep web, en la que su contenido sí puede considerarse peligroso y difícil de acceder",
+        "el conjunto de toda la Internet que no aparece indexada en los buscadores tradicionales más habituales",
+        "una red pública y de acceso libre en la que se alojan los portales oficiales de las administraciones",
+        "un navegador específico que cifra por capas el tráfico de datos para preservar el anonimato del usuario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La Dark web hace referencia a una parte específica de la Deep web, en la que su contenido sí puede considerarse peligroso y difícil de acceder.",
+      "justificacion": "INCIBE (OSI): definición de Dark web."
+    },
+    {
+      "concepto_id": "INTEL-011",
+      "articulo": "INCIBE — Dark web",
+      "tipo": "test",
+      "enunciado": "¿Qué relación establece INCIBE entre los términos Deep web y Dark web?",
+      "opciones": [
+        "Ambos términos son diferentes y en ningún caso deberían utilizarse como sinónimos",
+        "Son exactamente lo mismo y pueden emplearse de forma totalmente indistinta como sinónimos",
+        "La Deep web es una parte concreta y más peligrosa de la Dark web general y pública",
+        "La Dark web engloba a la Deep web y a la Internet superficial dentro de un mismo conjunto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Ambos términos son diferentes y en ningún caso deberían utilizarse como sinónimos.",
+      "justificacion": "INCIBE (OSI): Deep web y Dark web no son sinónimos."
+    },
+    {
+      "concepto_id": "INTEL-012",
+      "articulo": "INCIBE — Acceso a la Dark web (TOR)",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, ¿qué es TOR?",
+      "opciones": [
+        "cuyas siglas significan «The Onion Router» y que dispone de un navegador específico para acceder a dicha red",
+        "un buscador convencional que indexa los contenidos de la Internet superficial de acceso público",
+        "una base de datos gubernamental de acceso restringido y sometida a control judicial permanente",
+        "un protocolo de cifrado empleado habitualmente por los buscadores tradicionales como Google o Bing"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "como por ejemplo TOR, cuyas siglas significan «The Onion Router» y que dispone de un navegador específico para acceder a dicha red.",
+      "justificacion": "INCIBE (OSI): TOR, The Onion Router."
+    },
+    {
+      "concepto_id": "INTEL-012",
+      "articulo": "INCIBE — Acceso a la Dark web (TOR)",
+      "tipo": "test",
+      "enunciado": "Además de TOR, ¿de qué otras formas cabe acceder a la Deep web según INCIBE?",
+      "opciones": [
+        "se puede acceder a la Deep web de otras muchas formas: Freenet, I2P",
+        "solo se puede acceder mediante el navegador oficial que facilita cada uno de los buscadores",
+        "únicamente a través de los buscadores convencionales como Bing, Google o Yahoo en su versión web",
+        "exclusivamente con una autorización judicial previa concedida a las fuerzas y cuerpos policiales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "TOR es sólo un ejemplo pero se puede acceder a la Deep web de otras muchas formas: Freenet, I2P, etc.",
+      "justificacion": "INCIBE (OSI): otras redes de acceso (Freenet, I2P)."
+    }
+  ],
+  "relaciones": [
+    { "origen": "INTEL-002", "destino": "INTEL-001", "tipo": "desarrolla", "justificacion": "El ciclo de Inteligencia concreta cómo el Servicio de Inteligencia elabora la Inteligencia a partir de la información." },
+    { "origen": "INTEL-003", "destino": "INTEL-002", "tipo": "desarrolla", "justificacion": "La dirección es la primera fase del ciclo de Inteligencia." },
+    { "origen": "INTEL-004", "destino": "INTEL-002", "tipo": "desarrolla", "justificacion": "La obtención es la segunda fase del ciclo de Inteligencia." },
+    { "origen": "INTEL-005", "destino": "INTEL-002", "tipo": "desarrolla", "justificacion": "La elaboración es la tercera fase del ciclo de Inteligencia." },
+    { "origen": "INTEL-006", "destino": "INTEL-002", "tipo": "desarrolla", "justificacion": "La difusión es la fase final del ciclo de Inteligencia." },
+    { "origen": "INTEL-003", "destino": "INTEL-004", "tipo": "prerrequisito", "justificacion": "La dirección fija las necesidades antes de que pueda iniciarse la obtención." },
+    { "origen": "INTEL-004", "destino": "INTEL-005", "tipo": "prerrequisito", "justificacion": "Hay que obtener la información antes de poder elaborarla." },
+    { "origen": "INTEL-005", "destino": "INTEL-006", "tipo": "prerrequisito", "justificacion": "Hay que elaborar la Inteligencia antes de difundirla." },
+    { "origen": "INTEL-007", "destino": "INTEL-004", "tipo": "desarrolla", "justificacion": "OSINT (fuentes abiertas) es una de las disciplinas de la fase de obtención." },
+    { "origen": "INTEL-008", "destino": "INTEL-007", "tipo": "desarrolla", "justificacion": "Los ejemplos de fuentes abiertas concretan qué alimenta a OSINT." },
+    { "origen": "INTEL-009", "destino": "INTEL-007", "tipo": "desarrolla", "justificacion": "Las fases del proceso OSINT desarrollan cómo se produce la inteligencia de fuentes abiertas." },
+    { "origen": "INTEL-007", "destino": "INTEL-010", "tipo": "remite", "justificacion": "OSINT puede nutrirse también de la información alojada en la Deep web." },
+    { "origen": "INTEL-011", "destino": "INTEL-010", "tipo": "desarrolla", "justificacion": "La Dark web es una parte específica de la Deep web." },
+    { "origen": "INTEL-012", "destino": "INTEL-011", "tipo": "desarrolla", "justificacion": "El acceso mediante TOR y otras redes concreta cómo se llega a la Dark web." },
+    { "origen": "INTEL-011", "destino": "ENC-013", "tipo": "remite", "justificacion": "PROPUESTA CIBER: la Dark web se relaciona con la cibercriminalidad definida en la Estrategia Nacional de Ciberseguridad (ENC-013)." },
+    { "origen": "INTEL-007", "destino": "ENC-009", "tipo": "remite", "justificacion": "PROPUESTA CIBER: OSINT se emplea para identificar y prevenir las ciberamenazas definidas en la Estrategia Nacional de Ciberseguridad (ENC-009)." }
+  ]
+}
