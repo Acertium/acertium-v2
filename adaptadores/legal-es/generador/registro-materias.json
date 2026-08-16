@@ -342,8 +342,14 @@
   "CEDH": {
     "materia": "convenio-europeo-derechos-humanos",
     "norma": "Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales (Roma, 4 de noviembre de 1950)",
+    "_instrumentos": "Familia multi-instrumento: Convenio (1950) + Protocolo 11 (1994) + Protocolo 14 (2004) + Protocolo 15 (2013). Los cuatro BOE-A de abajo son la lista de instrumentos ADMITIDOS: un lote puede declarar cualquiera de ellos como su referencia_boe. Verificados en boe.es el 16/08/2026.",
     "referencia_boe": "BOE-A-1979-24010",
-    "referencia_fuentes": ["BOE-A-1979-24010", "BOE-A-1998-15127"],
+    "referencia_fuentes": [
+      "BOE-A-1979-24010",
+      "BOE-A-1998-15127",
+      "BOE-A-2010-8504",
+      "BOE-A-2021-7554"
+    ],
     "temas": ["Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"]
   },
   "CIBER": {

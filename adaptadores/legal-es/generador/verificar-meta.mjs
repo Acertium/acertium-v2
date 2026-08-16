@@ -98,21 +98,79 @@ export function verificarMeta(conceptos, meta, registro) {
   if (esperado) {
     if (meta.materia !== esperado.materia)
       errores.push(`meta.materia="${meta.materia}" ≠ esperado "${esperado.materia}" (familia ${familia})`);
-    if (meta.norma !== esperado.norma)
-      errores.push(`meta.norma="${meta.norma}" ≠ esperado "${esperado.norma}"`);
     const boeEsperado = String(esperado.referencia_boe ?? "").trim();
-    if (boe) {
+
+    // FAMILIAS MULTI-INSTRUMENTO (16/08/2026, PROMPT_015). Algunas familias son
+    // un bloque temático formado por varios textos oficiales: CEDH = Convenio +
+    // Protocolos 11, 14 y 15; TORT = Convención + Protocolo facultativo + MNP.
+    // Cada instrumento tiene SU BOE-A y SU título, así que un lote del Protocolo
+    // 15 nunca cuadraría con el BOE ni la norma del Convenio.
+    //
+    // La solución no es relajar, es declarar: el registro lista en
+    // `referencia_fuentes` los BOE-A admitidos de esa familia, y la puerta
+    // acepta el principal O uno de esa lista. Lo que NO está declarado sigue
+    // rechazándose. Cuando el lote usa un instrumento secundario, la `norma`
+    // no se compara —por definición es otro título—, pero materia, tema y
+    // familia siguen exactos, que es lo que impide estampar el meta de otra
+    // materia (el fallo del 02/08).
+    const instrumentos = new Set(
+      (Array.isArray(esperado.referencia_fuentes) ? esperado.referencia_fuentes : [])
+        .map((s) => String(s).trim())
+        .filter(Boolean),
+    );
+    const esInstrumentoSecundario = Boolean(boe) && boe !== boeEsperado && instrumentos.has(boe);
+
+    // La `norma` solo se compara cuando el lote es del instrumento principal.
+    if (!esInstrumentoSecundario && meta.norma !== esperado.norma)
+      errores.push(`meta.norma="${meta.norma}" ≠ esperado "${esperado.norma}"`);
+    else if (esInstrumentoSecundario && !String(meta.norma ?? "").trim())
+      errores.push("meta.norma vacío: un instrumento secundario debe decir cuál es");
+
+    if (esInstrumentoSecundario) {
+      // Instrumento declarado de la familia: nada más que comprobar aquí.
+    } else if (boe) {
       // Camino BOE de siempre: comparación exacta, sin relajar nada.
       if (boe !== boeEsperado)
-        errores.push(`meta.referencia_boe="${boe}" ≠ esperado "${boeEsperado}"`);
+        errores.push(
+          `meta.referencia_boe="${boe}" ≠ esperado "${boeEsperado}"` +
+            (instrumentos.size
+              ? ` (ni está entre los instrumentos declarados de ${familia}: ${[...instrumentos].join(", ")})`
+              : ""),
+        );
     } else if (boeEsperado) {
       // La familia SÍ tiene BOE en el registro: no se puede cargar sin él.
       errores.push(
         `meta.referencia_boe vacío pero la familia ${familia} tiene BOE registrado ("${boeEsperado}")`,
       );
+    } else if (meta.tipo_fuente === "autoridad") {
+      // ------------------------------------------------------------------
+      // Camino `autoridad` — se exige que HAYA fuente, no CUÁL (16/08/2026,
+      // PROMPT_015).
+      //
+      // Una familia de autoridad (RAE, INCIBE, técnicas) no tiene una fuente
+      // única: se apoya en varias obras solventes, y la lista crece con cada
+      // tanda. Encadenarla al dominio que se registró el primer día es
+      // demasiado estricto y bloquea contenido bueno: rechazó `ciber-incibe-2`
+      // por citar CCN-CERT y `sistemas-operativos-2` por citar IBM y
+      // docs.redhat.com — las dos, fuentes perfectamente autorizadas.
+      //
+      // Lo que se conserva: la referencia sigue siendo obligatoria y no vacía, y
+      // familia/materia/norma/tema se siguen contrastando exactos contra el
+      // registro. Ese cuarteto es el que impide de verdad estampar un lote con
+      // el meta de otra materia (el fallo del 02/08); el dominio era un cinturón
+      // extra que aquí estorba más de lo que aporta.
+      //
+      // Lo que NO se relaja: los `oficial` con BOE siguen con comparación
+      // exacta, arriba. Ahí la fuente ES la norma y no admite sustitutos.
+      // ------------------------------------------------------------------
+      if (!textoDeFuente(esperado).trim())
+        errores.push(
+          `familia ${familia} sin referencia_fuente en el registro: añádela antes de cargar`,
+        );
     } else {
-      // Camino no-BOE: el registro debe declarar su fuente canónica y el lote
-      // debe citar de verdad esos dominios.
+      // Resto de no-BOE (incluido `oficial` sin BOE, p. ej. la DUDH de la ONU):
+      // el registro declara su fuente canónica y el lote debe citar de verdad
+      // esos dominios.
       const fuenteEsperada = textoDeFuente(esperado).trim();
       if (!fuenteEsperada)
         errores.push(
@@ -171,6 +229,12 @@ if (esEjecucionDirecta(import.meta.url)) {
   ];
   const casos = [
     ["no-BOE con referencia_fuente que cita rae.es → PASA", orto({ referencia_boe: "", referencia_fuente: ["RAE-ASALE, Ortografía básica — https://www.rae.es/ortografía-básica [2026-08-04]"] }), true],
+    // PROMPT_015: una familia `autoridad` puede citar fuentes solventes que no
+    // estaban registradas el primer día (CCN-CERT, IBM…). Se exige que HAYA
+    // fuente, no cuál; el resto del cuarteto sigue estricto.
+    ["autoridad citando OTRA fuente solvente → PASA", orto({ tipo_fuente: "autoridad", referencia_fuente: "CCN-CERT, guía CCN-STIC-401 — https://www.ccn-cert.cni.es/guia" }), true],
+    ["autoridad sin ninguna referencia → sigue RECHAZANDO", orto({ tipo_fuente: "autoridad" }), false],
+    ["autoridad con materia que no cuadra → sigue RECHAZANDO", orto({ tipo_fuente: "autoridad", materia: "gramatica-rae", referencia_fuente: "https://www.rae.es" }), false],
     ["no-BOE sin ninguna referencia → RECHAZA", orto({}), false],
     ["no-BOE citando otra fuente (incibe.es) → RECHAZA", orto({ referencia_fuente: "https://www.incibe.es/glosario" }), false],
     ["familia CON BOE registrado y meta sin BOE → RECHAZA", [[{ id: "SP-001" }], { ...bien, referencia_boe: "", referencia_fuente: "https://ejemplo.org" }, regNB], false],

@@ -5,6 +5,50 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-16 — PROMPT_015: los 3 lotes de relleno, desbloqueados
+
+**Encargo.** Refinar la puerta de metadatos —no relajarla— para que entren `ciber-incibe-2`,
+`sistemas-operativos-2` y `ddhh-cedh-2`. Detalle en `RESULTADO_015.md`.
+
+### Qué cambia
+
+1. **`autoridad`: se exige que HAYA fuente, no cuál.** Una familia de autoridad (RAE, INCIBE,
+   técnicas) se apoya en varias obras solventes y la lista crece con cada tanda; encadenarla al
+   dominio del primer día bloqueaba contenido bueno (CCN-CERT, IBM). Familia/materia/norma/tema
+   siguen exactos, y los `oficial` con BOE no se tocan.
+2. **Familias multi-instrumento.** El registro de CEDH declara ahora los cuatro BOE-A admitidos
+   (Convenio, Protocolos 11, 14 y 15) y la puerta acepta el principal **o uno declarado**; con un
+   instrumento secundario la `norma` no se compara (es otro título) pero se exige no vacía. Lista
+   blanca, no relajación. **Los BOE-A de los Protocolos 14 y 15 los verifiqué en boe.es**, no de
+   memoria: BOE-A-2010-8504 y BOE-A-2021-7554.
+3. **La aserción post-carga (b) y (c) excluyen ahora CEDH y TORT**, con la excepción *declarada* y
+   comentada, más una consulta (d) informativa que lista los instrumentos reales de cada familia. La
+   (a) —familia repartida entre dos materias— no lleva excepción: es la que detecta contaminación.
+
+### Resultado
+
+Los tres lotes estaban **completos** (no truncados, pese al aviso) y **los tres entraron**:
+CIBER 22→**29**, SO 30→**44**, CEDH 34→**49**. Base: **2.517 conceptos**, **2.455 preguntas**.
+Aserciones a 0. Suites: meta **8/8**, cotejo 13/13, ortografía 12/12, fuente 11/11. Build verde.
+
+### Un error de cita, encontrado y corregido
+
+`ddhh-cedh-2` mezcla artículos de **dos** instrumentos pero `meta.referencia_boe` es uno por lote:
+los 9 conceptos del Protocolo 14 quedaron estampados con el BOE del Protocolo 15. Corregidos en la
+base a `BOE-A-2010-8504`, y arreglada la causa en `cargar.mjs` (un concepto puede traer su propia
+`referencia_boe`/`norma` y manda sobre la del meta).
+
+### Pendientes / notas
+
+- CIBER-2 (43 %) y CEDH-2 (47 %) superan el 35 % de sesgo de longitud del estándar de Capa 2, aunque
+  pasan la puerta dura (55 %). Son lotes de 7 y 15 preguntas: una sola mueve mucho el porcentaje.
+  Afinar distractores es trabajo del generador.
+- Sigue sin lote **Crime as a Service** (T41).
+- La lista de excepciones del SQL de aserciones está a mano: familia multi-instrumento nueva = tocar
+  registro **y** `asercion-post-carga.sql`.
+
+---
+
 ## 2026-08-16 — PROMPT_009, 011 y 012: ortografía, consenso y el panel de revisión
 
 **Encargo.** Los tres encargos de código que quedaban tras la carga de contenido. Detalle en

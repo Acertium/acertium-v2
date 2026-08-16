@@ -207,11 +207,18 @@ export async function cargarLote(db, v, meta, registro) {
   // referencia_boe va a NULL cuando la fuente no es del BOE (tratados, RAE,
   // INCIBE…). Con cadena vacía, la aserción (b) —"una familia no puede tener dos
   // referencias BOE"— contaría "" como una referencia más.
+  //
+  // El concepto puede traer su PROPIA `referencia_boe`/`norma` y entonces manda
+  // sobre la del meta. Hace falta para lotes multi-instrumento: `ddhh-cedh-2`
+  // mezcla artículos del Protocolo 14 y del 15, y con una sola referencia por
+  // lote los 9 conceptos del P14 quedaron estampados con el BOE del P15
+  // (corregido a mano el 16/08/2026). Citar mal la fuente de una pregunta es
+  // justo lo que este pipeline existe para impedir.
   const filasFuente = v.conceptosOK.map((c) => ({
     concepto_id: c.id,
-    norma,
+    norma: c.norma ?? norma,
     articulo: c.articulo,
-    referencia_boe: String(referencia_boe ?? "").trim() || null,
+    referencia_boe: String(c.referencia_boe ?? referencia_boe ?? "").trim() || null,
   }));
   try {
     insertado.concepto_fuente = await enTandas(filasFuente, async (trozo) => {
