@@ -19,6 +19,7 @@ import { readFileSync, writeFileSync, existsSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { verificarMeta, cargarRegistro } from "./verificar-meta.mjs";
+import { estadoSegunTipoFuente } from "../../../nucleo/verificar-fuente.mjs";
 
 function q(s) {
   return "'" + String(s ?? "").replace(/'/g, "''") + "'";
@@ -144,6 +145,15 @@ export async function cargarLote(db, v, meta, registro) {
   const { materia, norma, referencia_boe, convocatoria, tema } = meta;
   const familia = vm.familia;
   const ids = v.conceptosOK.map((c) => c.id);
+
+  // PROMPT_011: el estado con el que entra el contenido lo decide el TIPO DE
+  // FUENTE, no el cargador. `consenso` (temas 28-33, sin fuente única) entra
+  // como `pendiente_revision` y no se sirve hasta que un humano lo promueve;
+  // `oficial`/`autoridad` —que ya han pasado el check literal— entran como
+  // `verificado`. Un lote sin `tipo_fuente` es del corpus BOE de siempre y va a
+  // `verificado`. La regla vive en nucleo/verificar-fuente.mjs para que puerta y
+  // cargador no puedan discrepar.
+  const estado = meta.tipo_fuente ? estadoSegunTipoFuente(meta.tipo_fuente) : "verificado";
   const errores = [];
   const insertado = { concepto: 0, concepto_fuente: 0, overlay_entrada: 0, actividad: 0, relacion_concepto: 0 };
 
@@ -177,8 +187,8 @@ export async function cargarLote(db, v, meta, registro) {
     titulo: c.titulo,
     resumen: c.resumen,
     explicacion: c.explicacion,
-    estado_verificacion: "verificado",
-    explicacion_verificacion: "verificado",
+    estado_verificacion: estado,
+    explicacion_verificacion: estado,
   }));
   try {
     insertado.concepto = await enTandas(filasConcepto, async (trozo) => {
@@ -253,7 +263,7 @@ export async function cargarLote(db, v, meta, registro) {
       respuesta,
       justificacion: a.justificacion,
       cotejo_fuente: a.cotejo,
-      estado_verificacion: "verificado",
+      estado_verificacion: estado,
     };
   });
   try {
@@ -347,6 +357,8 @@ export function loteASql(v, meta, registro) {
     throw new Error("meta incoherente, no se emite SQL:\n  - " + vm.errores.join("\n  - "));
 
   const { materia, norma, referencia_boe, convocatoria, tema } = meta;
+  // Mismo criterio que cargarLote(): el estado lo decide el tipo de fuente.
+  const estadoSql = meta.tipo_fuente ? estadoSegunTipoFuente(meta.tipo_fuente) : "verificado";
   const out = [];
 
   if (v.conceptosOK.length) {
@@ -357,7 +369,7 @@ export function loteASql(v, meta, registro) {
       v.conceptosOK
         .map(
           (c) =>
-            `(${q(c.id)},${q(materia)},${q(c.titulo)},${q(c.resumen)},${q(c.explicacion)},'verificado','verificado')`,
+            `(${q(c.id)},${q(materia)},${q(c.titulo)},${q(c.resumen)},${q(c.explicacion)},${q(estadoSql)},${q(estadoSql)})`,
         )
         .join(",\n") + ";",
     );
@@ -396,7 +408,7 @@ export function loteASql(v, meta, registro) {
           const indice = barajadas.indexOf(correcta);
           const resp = JSON.stringify({ correcta, indice });
           const ops = JSON.stringify(barajadas);
-          return `(${q(a.concepto_id)},'test',${q(a.enunciado)},${q(ops)}::jsonb,${q(resp)}::jsonb,${q(a.justificacion)},${q(a.cotejo)},'verificado')`;
+          return `(${q(a.concepto_id)},'test',${q(a.enunciado)},${q(ops)}::jsonb,${q(resp)}::jsonb,${q(a.justificacion)},${q(a.cotejo)},${q(estadoSql)})`;
         })
         .join(",\n") + ";",
     );

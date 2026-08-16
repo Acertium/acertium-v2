@@ -24,6 +24,7 @@ import { verificarLote } from "../../../nucleo/verificar-lote.mjs";
 import { loteASql, cargarLote, marcarCobertura } from "./cargar.mjs";
 import { verificarMeta, cargarRegistro, textoDeFuente } from "./verificar-meta.mjs";
 import { verificarCalidad } from "./verificar-calidad.mjs";
+import { verificarFuente } from "../../../nucleo/verificar-fuente.mjs";
 import { createCerebroClient } from "./cliente-cerebro.mjs";
 
 const args = process.argv.slice(2);
@@ -65,6 +66,26 @@ const refCorta =
   String(meta.referencia_boe ?? "").trim() ||
   `fuente no-BOE: ${[...new Set(textoDeFuente(meta).match(/(?:www\.)?[a-z0-9-]+\.[a-z.]{2,6}/gi) || [])].slice(0, 4).join(", ") || "sin dominio"}`;
 console.error(`  ✓ meta coherente (familia ${vm.familia} → ${meta.materia} · ${refCorta})`);
+
+// Puerta de FUENTE — solo lotes que declaran `tipo_fuente` (adaptadores no-BOE,
+// temas 27-41). Un lote BOE no la ejecuta: su grounding ya lo cubre
+// verificar-lote. FAIL-CLOSED. Ver docs/contrato-fuentes-no-boe.md §3.
+if (meta.tipo_fuente) {
+  const vf = verificarFuente(lote);
+  console.error("== verificación de fuente ==");
+  console.error("  " + vf.resumen);
+  for (const a of vf.avisos) console.error(`  · aviso [${a.concepto}] ${a.aviso}`);
+  if (!vf.ok) {
+    for (const r of vf.rechazos) console.error(`  ✗ FUENTE [${r.concepto}] ${r.motivo}`);
+    console.error("  → fuente insuficiente: NO se carga.");
+    process.exit(1);
+  }
+  if (vf.estadoDestino !== "verificado")
+    console.error(
+      `  ⚠ este lote se cargará como ${vf.estadoDestino}: NO se servirá a nadie hasta que se promueva\n` +
+        "    (adaptadores/legal-es/generador/revision-pendientes.mjs)",
+    );
+}
 
 // Puerta de ORTOGRAFÍA — solo familia ORTO (Tema 37). El resto de familias no
 // la pasan porque el cotejo normal ya les sirve; ver nucleo/verificar-ortografia.mjs.
