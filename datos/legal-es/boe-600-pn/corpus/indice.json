@@ -109,7 +109,7 @@
       "titulo": "Real Decreto 853/2022, de 11 de octubre, por el que se aprueba el Reglamento de procesos selectivos y formación de la Policía Nacional",
       "referencia_boe": "BOE-A-2022-16582",
       "ultima_modificacion": "sin modificaciones",
-      "articulos": 47,
+      "articulos": 48,
       "fichero": "seccion-015.json"
     },
     {
@@ -133,7 +133,7 @@
       "titulo": "Real Decreto 49/2024, de 16 de enero, por el que se aprueba el Reglamento de los centros docentes de la Policía Nacional",
       "referencia_boe": "BOE-A-2024-814",
       "ultima_modificacion": "sin modificaciones",
-      "articulos": 36,
+      "articulos": 37,
       "fichero": "seccion-018.json"
     },
     {
@@ -173,7 +173,7 @@
       "titulo": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
       "referencia_boe": "BOE-A-2024-24099",
       "ultima_modificacion": "15 de abril de 2026",
-      "articulos": 265,
+      "articulos": 266,
       "fichero": "seccion-023.json"
     },
     {
@@ -197,7 +197,7 @@
       "titulo": "Real Decreto 203/1995, de 10 de febrero, por el que se aprueba el Reglamento de aplicación de la Ley 5/1984, de 26 de marzo, reguladora del derecho de asilo y de la condición de refugiado, modificada por la Ley 9/1994, de 19 de mayo",
       "referencia_boe": "BOE-A-1995-5542",
       "ultima_modificacion": "7 de mayo de 2005",
-      "articulos": 40,
+      "articulos": 41,
       "fichero": "seccion-026.json"
     },
     {
@@ -205,7 +205,7 @@
       "titulo": "Real Decreto 865/2001, de 20 de julio, por el que se aprueba el Reglamento de reconocimiento del estatuto de apátrida",
       "referencia_boe": "BOE-A-2001-14166",
       "ultima_modificacion": "sin modificaciones",
-      "articulos": 18,
+      "articulos": 19,
       "fichero": "seccion-027.json"
     },
     {
@@ -213,7 +213,7 @@
       "titulo": "Real Decreto 1325/2003, de 24 de octubre, por el que se aprueba el Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2003-19714",
       "ultima_modificacion": "sin modificaciones",
-      "articulos": 26,
+      "articulos": 27,
       "fichero": "seccion-028.json"
     },
     {
@@ -221,7 +221,7 @@
       "titulo": "Real Decreto 220/2022, de 29 de marzo, por el que se aprueba el Reglamento por el que se regula el sistema de acogida en materia de protección internacional",
       "referencia_boe": "BOE-A-2022-4978",
       "ultima_modificacion": "sin modificaciones",
-      "articulos": 53,
+      "articulos": 54,
       "fichero": "seccion-029.json"
     },
     {
@@ -253,7 +253,7 @@
       "titulo": "Real Decreto 704/2011, de 20 de mayo, por el que se aprueba el Reglamento de protección de las infraestructuras críticas",
       "referencia_boe": "BOE-A-2011-8849",
       "ultima_modificacion": "sin modificaciones",
-      "articulos": 36,
+      "articulos": 37,
       "fichero": "seccion-033.json"
     },
     {
@@ -367,6 +367,54 @@
       "ultima_modificacion": "27 de diciembre de 2025",
       "articulos": 98,
       "fichero": "seccion-047.json"
+    },
+    {
+      "seccion": 48,
+      "titulo": "Ley Orgánica 7/2021, de 26 de mayo, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales y de ejecución de sanciones penales. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2021-8806",
+      "ultima_modificacion": "29 de julio de 2022",
+      "articulos": 65,
+      "fichero": "seccion-048.json"
+    },
+    {
+      "seccion": 49,
+      "titulo": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo, aprobado por las Mesas del Congreso y del Senado, a propuesta del Defensor del Pueblo, en su reunión conjunta de 6 de abril de 1983. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-1983-10613",
+      "ultima_modificacion": "1 de marzo de 2012",
+      "articulos": 4,
+      "fichero": "seccion-049.json"
+    },
+    {
+      "seccion": 50,
+      "titulo": "Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas",
+      "referencia_boe": "BOE-A-1993-6202",
+      "ultima_modificacion": "4 de abril de 2025",
+      "articulos": 174,
+      "fichero": "seccion-050.json"
+    },
+    {
+      "seccion": 51,
+      "titulo": "Real Decreto 2822/1998, de 23 de diciembre, por el que se aprueba el Reglamento General de Vehículos. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-1999-1826",
+      "ultima_modificacion": "30 de enero de 2026",
+      "articulos": 3,
+      "fichero": "seccion-051.json"
+    },
+    {
+      "seccion": 52,
+      "titulo": "Real Decreto 1428/2003, de 21 de noviembre, por el que se aprueba el Reglamento General de Circulación para la aplicación y desarrollo del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial, aprobado por el Real Decreto Legislativo 339/1990, de 2 de marzo. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2003-23514",
+      "ultima_modificacion": "17 de junio de 2025",
+      "articulos": 4,
+      "fichero": "seccion-052.json"
+    },
+    {
+      "seccion": 53,
+      "titulo": "Orden INT/2573/2015, de 30 de noviembre, por la que se determinan las especificaciones técnicas que deben reunir los vehículos destinados a la conducción de detenidos, presos y penados",
+      "referencia_boe": "BOE-A-2015-13138",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 2,
+      "fichero": "seccion-053.json"
     }
   ]
 }

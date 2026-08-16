@@ -8,6 +8,12 @@
   },
   "articulos": [
     {
+      "numero": null,
+      "ref": "único",
+      "texto": "Aprobación del reglamento por el que se regula el sistema de acogida en materia de protección internacional. Se aprueba el reglamento por el que se regula el sistema de acogida en materia de protección internacional, cuyo texto se inserta a continuación.",
+      "rubrica": "Aprobación del reglamento por el que se regula el sistema de acogida en"
+    },
+    {
       "numero": 1,
       "ref": "1",
       "texto": "Objeto. El objeto de este reglamento es desarrollar lo dispuesto en el capítulo III del título II de la Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria, configurando el sistema de acogida en materia de protección internacional.",

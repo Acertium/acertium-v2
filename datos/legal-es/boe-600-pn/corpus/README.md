@@ -2,6 +2,8 @@
 
 Texto **literal** de las normas del *Código Electrónico «Normativa para ingreso en la Policía Nacional, Escalas Básica y Ejecutiva»* (el BOE-600), extraído mecánicamente de los PDF oficiales.
 
+**Estado: COMPLETO** (16/08/2026). Las **52 normas** del Código —§2 a §53; el §1 es la Introducción y no es una norma— con **3.354 artículos**. Edición del Código: 20 de mayo de 2026.
+
 **Para qué existe:** para que ningún agente tenga que abrir un PDF ni tirar de memoria. Si necesitas el texto de un artículo, está aquí. Es la fuente que consume el generador — regla de oro del Doc 006: *«el generador consume ESTE JSON, nunca el PDF»*.
 
 Los PDF **no se versionan** (`.gitignore`: `datos/**/*.pdf`); estos JSON **sí**. Esa es la copia permanente.
@@ -45,7 +47,8 @@ python3 adaptadores/legal-es/ingestor.py --indice <este_directorio>             
 
 - **Las disposiciones** (adicionales, transitorias, derogatorias, finales) y los preámbulos: el ingestor corta en ellas. Quien necesite citarlas no las encontrará aquí.
 - **Las secciones que no se estructuran en artículos.** `§34` (Orden PCI/487/2019) publica la Estrategia Nacional de Ciberseguridad **como anexo dividido en capítulos**, sin un solo artículo: aparece en el índice con `0 artículos` y eso es correcto, no una ingesta fallida. Su familia (`ENC`) no se puede auditar por artículo.
-- **Las normas cuyo trozo aún no se ha ingerido.** `indice.json` dice lo que hay; lo que no está en él, no está.
+- **Lo que no es del Código 600.** Los instrumentos internacionales que el temario sí pide —Declaración Universal (`DUDH`), Convenio Europeo de Derechos Humanos (`CEDH`), Convenio contra la Tortura (`TORT`)— **no son secciones del Código** y por tanto no están aquí, aunque se publicaran en el BOE. Si hicieran falta, se ingieren aparte desde su propio PDF del BOE.
+- **Las fuentes no-BOE** (temas 27-41: `CIBER`, `GRAM`, `SO`, `DROGA`, `GLOB`, `ORTO`, `REDES`…). Nunca tendrán corpus: su fidelidad depende de `verificar-fuente` y de revisión humana.
 - El Código es una **recopilación con inclusiones parciales**: varios títulos llevan `[Inclusión parcial]` y no traen todos los artículos de la norma. El propio Código avisa de que «NO constituye la totalidad del contenido de los temarios». Que un artículo no esté aquí no significa que no exista: significa que el Código no lo incluye.
 
 ## Quién lo usa

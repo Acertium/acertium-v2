@@ -8,6 +8,12 @@
   },
   "articulos": [
     {
+      "numero": null,
+      "ref": "único",
+      "texto": "Aprobación del Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas. Se aprueba el Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas, cuyo texto se inserta a continuación.",
+      "rubrica": "Aprobación del Reglamento sobre régimen de protección temporal en caso"
+    },
+    {
       "numero": 1,
       "ref": "1",
       "texto": "Objeto. Este reglamento tiene por objeto regular el régimen de protección temporal en caso de afluencia masiva de personas desplazadas procedentes de terceros países no miembros de la Unión Europea que no puedan regresar en condiciones seguras y duraderas debido a la situación existente en ese país, y que puedan eventualmente caer dentro del ámbito de aplicación del artículo 1.A de la Convención de Ginebra sobre el Estatuto de los Refugiados, de 28 de julio de 1951, u otros instrumentos internacionales o nacionales de protección internacional.",

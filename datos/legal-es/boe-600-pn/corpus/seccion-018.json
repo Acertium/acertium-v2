@@ -8,6 +8,12 @@
   },
   "articulos": [
     {
+      "numero": null,
+      "ref": "único",
+      "texto": "Aprobación del Reglamento de los centros docentes de la Policía Nacional. Se aprueba el Reglamento de los centros docentes de la Policía Nacional, cuyo texto se incluye a continuación.",
+      "rubrica": "Aprobación del Reglamento de los centros docentes de la Policía Nacional."
+    },
+    {
       "numero": 1,
       "ref": "1",
       "texto": "Objeto y ámbito de aplicación. 1. El presente reglamento tiene como objeto regular la organización y funcionamiento de los centros docentes dependientes de la División de Formación y Perfeccionamiento de la Dirección General de la Policía, así como el régimen aplicable al personal docente adscrito a aquéllos y al alumnado que cursa estudios en dichos centros. 2. En lo no previsto en este reglamento se estará a lo previsto en la normativa reguladora de los procesos selectivos y formación y de provisión de puestos de trabajo de la Policía Nacional, así como en la demás normativa que resulte de aplicación.",

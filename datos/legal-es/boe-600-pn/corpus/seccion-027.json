@@ -8,6 +8,12 @@
   },
   "articulos": [
     {
+      "numero": null,
+      "ref": "único",
+      "texto": "Aprobación. Se aprueba el Reglamento de reconocimiento del estatuto de apátrida, cuyo texto se inserta a continuación.",
+      "rubrica": "Aprobación."
+    },
+    {
       "numero": 1,
       "ref": "1",
       "texto": "Reconocimiento del estatuto de apátrida. 1. Se reconocerá el estatuto de apátrida conforme a lo dispuesto en la Convención sobre el Estatuto de los Apátridas, hecha en Nueva York el 28 de septiembre de 1954, a toda persona que no sea considerada como nacional suyo por ningún Estado, conforme a su legislación, y manifieste carecer de nacionalidad. Para hacer efectivo dicho reconocimiento, deberá cumplir los requisitos y procedimiento previstos en el presente Reglamento. 2. En ningún caso se concederá dicho estatuto a quienes se encuentren comprendidos en alguno de los supuestos previstos en el artículo 1.2 de la citada Convención.",

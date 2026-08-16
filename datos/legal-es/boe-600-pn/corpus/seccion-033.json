@@ -8,6 +8,12 @@
   },
   "articulos": [
     {
+      "numero": null,
+      "ref": "único",
+      "texto": "Aprobación del Reglamento de Protección de las infraestructuras críticas. En desarrollo y ejecución de la Ley 8/2011, de 28 de abril, por la que se establecen medidas para la protección de las infraestructuras críticas, se aprueba el Reglamento de Protección de las Infraestructuras Críticas, cuyo texto se inserta a continuación.",
+      "rubrica": "Aprobación del Reglamento de Protección de las infraestructuras críticas."
+    },
+    {
       "numero": 1,
       "ref": "1",
       "texto": "Objeto. 1. El presente reglamento tiene por objeto desarrollar el marco previsto en la Ley 8/2011, de 28 de abril, por la que se establecen medidas para la protección de las infraestructuras críticas, a fin de concretar las actuaciones de los distintos órganos integrantes del Sistema de Protección de Infraestructuras Críticas (en adelante, el Sistema) así como los diferentes instrumentos de planificación del mismo. 2. Asimismo, regula las especiales obligaciones que deben asumir tanto el Estado como los operadores de aquellas infraestructuras que se determinen como críticas, según lo dispuesto en el artículo 2, párrafos e) y f) de la citada Ley.",

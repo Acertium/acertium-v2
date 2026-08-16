@@ -8,6 +8,11 @@
   },
   "articulos": [
     {
+      "numero": null,
+      "ref": "único",
+      "texto": "Se aprueba el Reglamento para la aplicación de la Ley 5/1984, de 26 de marzo, reguladora del derecho de asilo y de la condición de refugiado, modificada por la Ley 9/1994, cuyo texto se inserta a continuación."
+    },
+    {
       "numero": 1,
       "ref": "1",
       "texto": "Regulación aplicable. El reconocimiento de la condición de refugiado, así como el régimen jurídico que corresponda a los solicitantes de asilo, se regularán por lo establecido en la Convención de Ginebra de 28 de julio de 1951 y el Protocolo de Nueva York de 31 de enero de 1967 sobre el Estatuto de los Refugiados; por los Tratados Internacionales y Convenios sobre la materia suscritos por España o que suscriba en el futuro, en especial en el seno de la Unión Europea; por la Ley 5/1984, de 26 de marzo, reguladora del derecho de asilo y de la condición de refugiado, y por el presente Reglamento.",

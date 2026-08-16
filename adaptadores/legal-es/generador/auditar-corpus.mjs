@@ -95,6 +95,12 @@ const SECCION = {
   PRLP: 45, // RD 2/2006, PRL en la Policía Nacional
   PRLAGE: 46, // RD 67/2010, PRL en la AGE
   LOPD: 47, // LO 3/2018, Protección de Datos y garantía de derechos digitales
+  LOPD7: 48, // LO 7/2021, datos personales en el ámbito penal
+  RDP: 49, // Reglamento de Organización del Defensor del Pueblo
+  ARM: 50, // RD 137/1993, Reglamento de Armas
+  RGV: 51, // RD 2822/1998, Reglamento General de Vehículos [parcial]
+  TRAF: 52, // RD 1428/2003, Reglamento General de Circulación [parcial]
+  VCD: 53, // Orden INT/2573/2015, vehículos de conducción de detenidos
 };
 
 // Los 8 corpus sueltos que se ingirieron antes de tener el Código entero

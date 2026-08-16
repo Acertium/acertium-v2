@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "seccion": 53,
+    "titulo": "Orden INT/2573/2015, de 30 de noviembre, por la que se determinan las especificaciones técnicas que deben reunir los vehículos destinados a la conducción de detenidos, presos y penados",
+    "referencia_boe": "BOE-A-2015-13138",
+    "publicacion": "«BOE» núm. 290, de 4 de diciembre de 2015",
+    "ultima_modificacion": "sin modificaciones"
+  },
+  "articulos": [
+    {
+      "numero": 1,
+      "ref": "1",
+      "texto": "Objeto y ámbito de aplicación. Esta orden tiene por objeto regular las condiciones técnicas y de seguridad que, como mínimo, habrán de reunir los vehículos destinados al transporte de detenidos, presos y penados, utilizados por las Fuerzas y Cuerpos de Seguridad del Estado, que se adquieran a partir de su entrada en vigor.",
+      "rubrica": "Objeto y ámbito de aplicación."
+    },
+    {
+      "numero": 2,
+      "ref": "2",
+      "texto": "Características técnicas y de seguridad. Las características técnicas de los vehículos utilizados para el traslado de detenidos, presos y penados, se acomodarán a las especificaciones que figuran en el anexo I de esta orden, cuando el número de plazas no exceda de nueve, incluido el conductor y la escolta, y a las del anexo II, cuando se trate de vehículos de más de nueve plazas incluido el conductor y la escolta.",
+      "rubrica": "Características técnicas y de seguridad."
+    }
+  ]
+}

@@ -170,6 +170,14 @@ def parsear(raw):
         r'^Artículo\s+([A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+(?:\s+y\s+[A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+)?)'
         r'(?:\s+(' + SUFIJOS + r'))?\.')
     re_stop = re.compile(r'^(TÍTULO|CAPÍTULO|Sección|SECCIÓN|Disposición|PREÁMBULO|ANEXO)')
+    # "Artículo único." es cabecera real, pero "único" no es un número, así que
+    # `palabra_a_numero` lo rechazaba y su texto se acumulaba en el artículo
+    # ANTERIOR — la misma contaminación que causaban los bis/ter. Aparece 9 veces
+    # en el Código, siempre en la norma que aprueba un reglamento ("Artículo
+    # único. Se aprueba el Reglamento de…"). No se le asigna número: comparte
+    # documento con los artículos 1, 2, 3… del reglamento aprobado y numerarlo
+    # como 1 chocaría con el suyo. Se identifica por `ref`.
+    re_unico = re.compile(r'^Artículo\s+único\.', re.IGNORECASE)
     arts, cur, cur_suf, cur_rub, buf = [], None, None, None, []
 
     def flush():
@@ -177,8 +185,9 @@ def parsear(raw):
             # `numero` se mantiene como entero (compatibilidad con los JSON ya
             # versionados y con quien indexe por número). `ref` es la cita
             # canónica del artículo, que es lo que debe usar el generador.
-            art = {"numero": cur,
-                   "ref": f"{cur} {cur_suf}" if cur_suf else str(cur),
+            unico = cur == "único"
+            art = {"numero": None if unico else cur,
+                   "ref": "único" if unico else (f"{cur} {cur_suf}" if cur_suf else str(cur)),
                    "texto": re.sub(r'\s+', ' ', " ".join(buf)).strip()}
             if cur_suf:
                 art["sufijo"] = cur_suf
@@ -188,12 +197,13 @@ def parsear(raw):
 
     for l in lines:
         s = l.strip()
-        m = re_art.match(s)
-        num = palabra_a_numero(m.group(1)) if m else None
+        mu = re_unico.match(s)
+        m = None if mu else re_art.match(s)
+        num = "único" if mu else (palabra_a_numero(m.group(1)) if m else None)
         if num is not None:
             flush()
             cur = num
-            cur_suf = (m.group(2) or "").lower() or None
+            cur_suf = None if mu else ((m.group(2) or "").lower() or None)
             # La RÚBRICA (el título del artículo) va en la MISMA línea que la
             # cabecera: "Artículo 53. Requisitos para la obtención...". Antes se
             # descartaba con el resto de la línea, así que el corpus no la tenía
@@ -201,7 +211,7 @@ def parsear(raw):
             # (16/08/2026: en el §23 la llevan las 250 cabeceras.) Se guarda
             # aparte Y se abre el texto con ella, para que el artículo quede
             # completo tal como está impreso.
-            cur_rub = s[m.end():].strip() or None
+            cur_rub = s[(mu or m).end():].strip() or None
             buf = [cur_rub] if cur_rub else []
         elif re_stop.match(s):
             flush(); cur = None; cur_suf = None; cur_rub = None; buf = []

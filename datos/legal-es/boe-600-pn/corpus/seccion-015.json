@@ -8,6 +8,12 @@
   },
   "articulos": [
     {
+      "numero": null,
+      "ref": "único",
+      "texto": "Aprobación del Reglamento de procesos selectivos y formación de la Policía Nacional. Se aprueba el Reglamento de procesos selectivos y formación de la Policía Nacional, cuyo texto se incluye a continuación.",
+      "rubrica": "Aprobación del Reglamento de procesos selectivos y formación de la"
+    },
+    {
       "numero": 1,
       "ref": "1",
       "texto": "Objeto. Este reglamento tiene como objeto regular los procesos selectivos de ingreso, acceso y promoción interna de la Policía Nacional, así como la formación en sus distintas modalidades.",
