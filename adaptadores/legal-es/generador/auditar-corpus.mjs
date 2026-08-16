@@ -78,20 +78,30 @@ const SECCION = {
   SP: 30, // Ley 5/2014, Seguridad Privada
   SC: 31, // LO 4/2015, protección de la seguridad ciudadana
   IC: 32, // Ley 8/2011, infraestructuras críticas
+  ICR: 33, // RD 704/2011, Reglamento de infraestructuras críticas
+  // §34 Orden PCI/487/2019 (familia ENC) NO entra: publica la Estrategia
+  // Nacional de Ciberseguridad como ANEXO con capítulos, sin un solo artículo.
+  // No es un fallo de ingesta — no hay artículos que ingerir.
+  CP: 35, // LO 10/1995, Código Penal [parcial]
+  LOPJ: 36, // LO 6/1985, Poder Judicial [parcial]
+  LEC: 37, // LECrim (RD de 14/09/1882) [parcial]
+  HC: 38, // LO 6/1984, habeas corpus
+  MF: 39, // Ley 50/1981, Estatuto Orgánico del Ministerio Fiscal
+  VIC: 40, // Ley 4/2015, Estatuto de la víctima del delito
+  VG: 41, // LO 1/2004, violencia de género
+  IG: 42, // LO 3/2007, igualdad efectiva de mujeres y hombres
+  LGTBI: 43, // Ley 4/2023, igualdad real y efectiva de las personas trans
+  PRL: 44, // Ley 31/1995, Prevención de Riesgos Laborales
+  PRLP: 45, // RD 2/2006, PRL en la Policía Nacional
+  PRLAGE: 46, // RD 67/2010, PRL en la AGE
+  LOPD: 47, // LO 3/2018, Protección de Datos y garantía de derechos digitales
 };
 
-// Corpus antiguos, ingeridos uno a uno antes de tener el Código entero. Se
-// mantienen hasta que su sección entre por la vía de arriba.
-const CORPUS = {
-  CP: "lo-10-1995-codigo-penal/cp-articulos.json",
-  LEC: "rd-1882-ley-enjuiciamiento-criminal/lecrim-articulos.json",
-  PRL: "ley-31-1995-prevencion-riesgos-laborales/prl-articulos.json",
-  DISC: "lo-4-2010-disciplinario/lo-4-2010-disciplinario-articulos.json",
-  SP: "ley-5-2014-seguridad-privada/ley-5-2014-seguridad-privada-articulos.json",
-  VIC: "ley-4-2015-estatuto-victima/ley-4-2015-estatuto-victima-articulos.json",
-  SC: "lo-4-2015-seguridad-ciudadana/lo-4-2015-articulos.json",
-  FCS: "lo-2-1986-fcse/lo-2-1986-articulos.json",
-};
+// Los 8 corpus sueltos que se ingirieron antes de tener el Código entero
+// (CP, LECrim, PRL, DISC, SP, VIC, SC y FCS) están YA cubiertos por su sección,
+// así que dejan de consultarse. Verificado norma a norma que el texto coincide;
+// los ficheros viejos, además, son anteriores al arreglo de la rúbrica.
+const CORPUS = {};
 
 // Normalización CONSERVADORA: unifica comillas/guiones tipográficos y espacios.
 // No toca acentos, mayúsculas NI puntuación: el cotejo ha de ser literal.

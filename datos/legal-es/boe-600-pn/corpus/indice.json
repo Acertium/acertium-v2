@@ -247,6 +247,126 @@
       "ultima_modificacion": "29 de julio de 2022",
       "articulos": 18,
       "fichero": "seccion-032.json"
+    },
+    {
+      "seccion": 33,
+      "titulo": "Real Decreto 704/2011, de 20 de mayo, por el que se aprueba el Reglamento de protección de las infraestructuras críticas",
+      "referencia_boe": "BOE-A-2011-8849",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 36,
+      "fichero": "seccion-033.json"
+    },
+    {
+      "seccion": 34,
+      "titulo": "Orden PCI/487/2019, de 26 de abril, por la que se publica la Estrategia Nacional de Ciberseguridad 2019, aprobada por el Consejo de Seguridad Nacional",
+      "referencia_boe": "BOE-A-2019-6347",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 0,
+      "fichero": "seccion-034.json"
+    },
+    {
+      "seccion": 35,
+      "titulo": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-1995-25444",
+      "ultima_modificacion": "9 de abril de 2026",
+      "articulos": 268,
+      "fichero": "seccion-035.json"
+    },
+    {
+      "seccion": 36,
+      "titulo": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-1985-12666",
+      "ultima_modificacion": "17 de febrero de 2025",
+      "articulos": 220,
+      "fichero": "seccion-036.json"
+    },
+    {
+      "seccion": 37,
+      "titulo": "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-1882-6036",
+      "ultima_modificacion": "9 de abril de 2026",
+      "articulos": 121,
+      "fichero": "seccion-037.json"
+    },
+    {
+      "seccion": 38,
+      "titulo": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus»",
+      "referencia_boe": "BOE-A-1984-11620",
+      "ultima_modificacion": "14 de noviembre de 2024",
+      "articulos": 9,
+      "fichero": "seccion-038.json"
+    },
+    {
+      "seccion": 39,
+      "titulo": "Ley 50/1981, de 30 de diciembre, por la que se regula el Estatuto Orgánico del Ministerio Fiscal. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-1982-837",
+      "ultima_modificacion": "3 de enero de 2025",
+      "articulos": 33,
+      "fichero": "seccion-039.json"
+    },
+    {
+      "seccion": 40,
+      "titulo": "Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2015-4606",
+      "ultima_modificacion": "7 de septiembre de 2022",
+      "articulos": 35,
+      "fichero": "seccion-040.json"
+    },
+    {
+      "seccion": 41,
+      "titulo": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2004-21760",
+      "ultima_modificacion": "7 de septiembre de 2022",
+      "articulos": 44,
+      "fichero": "seccion-041.json"
+    },
+    {
+      "seccion": 42,
+      "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2007-6115",
+      "ultima_modificacion": "2 de agosto de 2024",
+      "articulos": 78,
+      "fichero": "seccion-042.json"
+    },
+    {
+      "seccion": 43,
+      "titulo": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2023-5366",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 82,
+      "fichero": "seccion-043.json"
+    },
+    {
+      "seccion": 44,
+      "titulo": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales",
+      "referencia_boe": "BOE-A-1995-24292",
+      "ultima_modificacion": "9 de abril de 2026",
+      "articulos": 55,
+      "fichero": "seccion-044.json"
+    },
+    {
+      "seccion": 45,
+      "titulo": "Real Decreto 2/2006, de 16 de enero, por el que se establecen normas sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía",
+      "referencia_boe": "BOE-A-2006-624",
+      "ultima_modificacion": "sin modificaciones",
+      "articulos": 19,
+      "fichero": "seccion-045.json"
+    },
+    {
+      "seccion": 46,
+      "titulo": "Real Decreto 67/2010, de 29 de enero, de adaptación de la legislación de Prevención de Riesgos Laborales a la Administración General del Estado",
+      "referencia_boe": "BOE-A-2010-2161",
+      "ultima_modificacion": "24 de diciembre de 2014",
+      "articulos": 11,
+      "fichero": "seccion-046.json"
+    },
+    {
+      "seccion": 47,
+      "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. [Inclusión parcial]",
+      "referencia_boe": "BOE-A-2018-16673",
+      "ultima_modificacion": "27 de diciembre de 2025",
+      "articulos": 98,
+      "fichero": "seccion-047.json"
     }
   ]
 }

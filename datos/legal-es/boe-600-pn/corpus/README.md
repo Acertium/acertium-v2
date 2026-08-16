@@ -44,6 +44,7 @@ python3 adaptadores/legal-es/ingestor.py --indice <este_directorio>             
 ## Lo que NO trae
 
 - **Las disposiciones** (adicionales, transitorias, derogatorias, finales) y los preámbulos: el ingestor corta en ellas. Quien necesite citarlas no las encontrará aquí.
+- **Las secciones que no se estructuran en artículos.** `§34` (Orden PCI/487/2019) publica la Estrategia Nacional de Ciberseguridad **como anexo dividido en capítulos**, sin un solo artículo: aparece en el índice con `0 artículos` y eso es correcto, no una ingesta fallida. Su familia (`ENC`) no se puede auditar por artículo.
 - **Las normas cuyo trozo aún no se ha ingerido.** `indice.json` dice lo que hay; lo que no está en él, no está.
 - El Código es una **recopilación con inclusiones parciales**: varios títulos llevan `[Inclusión parcial]` y no traen todos los artículos de la norma. El propio Código avisa de que «NO constituye la totalidad del contenido de los temarios». Que un artículo no esté aquí no significa que no exista: significa que el Código no lo incluye.
 
