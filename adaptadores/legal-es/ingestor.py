@@ -76,9 +76,22 @@ def ingerir(pdf_path):
         m = re.match(r'^§\s*(\d+)\s*$', l)
         if m and meta["seccion"] is None:
             meta["seccion"] = int(m.group(1))
-            if i + 1 < len(head):
-                meta["titulo"] = head[i + 1]
-        if l.startswith("«BOE»") and not meta["publicacion"]:
+            # El título puede ocupar VARIAS líneas ("Real Decreto de 14 de
+            # septiembre de 1882 por el que se aprueba la / Ley de Enjuiciamiento
+            # Criminal. [Inclusión parcial]"). Se acumula hasta el primer dato de
+            # cabecera (órgano emisor, boletín, fecha o referencia); quedarse con
+            # la primera línea truncaba el título de las normas de nombre largo.
+            titulo = []
+            for t in head[i + 1:i + 6]:
+                if (t.startswith("Ministerio") or t.startswith("«")
+                        or t.startswith("Jefatura") or t.startswith("Cortes")
+                        or t.startswith("Última modificación") or t.startswith("Referencia:")):
+                    break
+                titulo.append(t)
+            meta["titulo"] = " ".join(titulo) or None
+        # El boletín no siempre es el «BOE»: las normas antiguas salieron en la
+        # «Gaceta de Madrid» (p. ej. la LECrim de 1882).
+        if l.startswith("«") and not meta["publicacion"]:
             meta["publicacion"] = l
         if l.startswith("Última modificación") and not meta["ultima_modificacion"]:
             meta["ultima_modificacion"] = l.split(":", 1)[-1].strip()
@@ -101,23 +114,43 @@ def ingerir(pdf_path):
     # El número va SEGUIDO DE PUNTO en una cabecera real ("Artículo 5." /
     # "Artículo treinta y uno."); una referencia cruzada ("Artículo 126 de la
     # Constitución") no lleva punto tras el número, así que no matchea.
-    re_art = re.compile(r'^Artículo\s+([A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+(?:\s+y\s+[A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+)?)\.')
+    # Un artículo puede llevar SUFIJO ORDINAL latino ("Artículo 31 bis.",
+    # "Artículo 156 quinquies."). Sin capturarlo, su cabecera no matcheaba, no se
+    # cerraba el artículo en curso y su texto se acumulaba en el ANTERIOR: el
+    # art. 557 acababa conteniendo el 557 bis y el 557 ter, y el 31 se comía del
+    # 31 bis al 31 quinquies. Es contaminación de la fuente literal, no una
+    # omisión: rompe el grounding de cualquier cotejo que salga de ahí.
+    # (Detectado el 16/08/2026: 28 artículos afectados en el CP, 12 en la LECrim.)
+    # OJO: sin IGNORECASE. La cabecera real siempre es "Artículo" con mayúscula;
+    # activarlo hacía que una línea que empieza por "artículo 149." en mitad de
+    # una frase se tomara por cabecera (la Ley 31/1995 arrancaba en el art. 149).
+    SUFIJOS = "bis|ter|quater|quáter|quinquies|sexies|septies|octies|nonies|decies"
+    re_art = re.compile(
+        r'^Artículo\s+([A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+(?:\s+y\s+[A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+)?)'
+        r'(?:\s+(' + SUFIJOS + r'))?\.')
     re_stop = re.compile(r'^(TÍTULO|CAPÍTULO|Sección|SECCIÓN|Disposición|PREÁMBULO|ANEXO)')
-    arts, cur, buf = [], None, []
+    arts, cur, cur_suf, buf = [], None, None, []
 
     def flush():
         if cur is not None:
-            arts.append({"numero": cur,
-                         "texto": re.sub(r'\s+', ' ', " ".join(buf)).strip()})
+            # `numero` se mantiene como entero (compatibilidad con los JSON ya
+            # versionados y con quien indexe por número). `ref` es la cita
+            # canónica del artículo, que es lo que debe usar el generador.
+            art = {"numero": cur,
+                   "ref": f"{cur} {cur_suf}" if cur_suf else str(cur),
+                   "texto": re.sub(r'\s+', ' ', " ".join(buf)).strip()}
+            if cur_suf:
+                art["sufijo"] = cur_suf
+            arts.append(art)
 
     for l in lines:
         s = l.strip()
         m = re_art.match(s)
         num = palabra_a_numero(m.group(1)) if m else None
         if num is not None:
-            flush(); cur = num; buf = []
+            flush(); cur = num; cur_suf = (m.group(2) or "").lower() or None; buf = []
         elif re_stop.match(s):
-            flush(); cur = None; buf = []
+            flush(); cur = None; cur_suf = None; buf = []
         elif cur is not None:
             buf.append(l)
     flush()
@@ -133,7 +166,10 @@ def main():
     data = ingerir(pdf)
     json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     n = len(data["articulos"])
-    rng = f"{data['articulos'][0]['numero']}-{data['articulos'][-1]['numero']}" if n else "—"
+    rng = f"{data['articulos'][0]['ref']}-{data['articulos'][-1]['ref']}" if n else "—"
+    con_sufijo = sum(1 for a in data["articulos"] if a.get("sufijo"))
+    if con_sufijo:
+        rng += f", {con_sufijo} con sufijo (bis/ter/…)"
     print(f"§{data['meta']['seccion']} {data['meta']['titulo']}")
     print(f"  {n} artículos ({rng}) · ref {data['meta']['referencia_boe']} · {out}")
 
