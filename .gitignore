@@ -16,5 +16,9 @@ datos/**/*.pdf
 prototipos/*.html
 prototipos/_descartes/
 
+# temporales de agentes (runners de verificacion, nunca se versionan)
+_ELIMINAR_*
+/tmp/
+
 # sistema
 .DS_Store
