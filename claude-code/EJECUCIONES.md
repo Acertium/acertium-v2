@@ -5,6 +5,69 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-16 — PROMPT_009, 011 y 012: ortografía, consenso y el panel de revisión
+
+**Encargo.** Los tres encargos de código que quedaban tras la carga de contenido. Detalle en
+`RESULTADO_009.md`, `RESULTADO_011.md` y `RESULTADO_012.md`.
+
+### PROMPT_009 — puerta de ortografía
+
+Diccionario hunspell **es_ES de RLA-ES 2.8** (57.345 entradas, triple licencia GPL/LGPL/MPL) en
+`adaptadores/tecnico-es/recursos/`, consultado con `nspell` (aplica las 6.755 reglas de afijo; una
+lista plana habría dado millones de formas). Nueva `nucleo/verificar-ortografia.mjs`: modo `grafia`
+(la correcta existe, los distractores no; rechaza si hay dos válidas) y modo `regla` (cotejo
+sensible). `verificador-cotejo` gana un modo que **conserva tildes**, apagado por defecto.
+
+Ignora la caja a propósito: comparándola rechazaba ORTO-031, cuya fuente empieza con mayúscula de
+frase. El lote ORTO ya cargado pasa la puerta con 0 rechazos.
+
+**Y `npm run test:motor` pasaba en vacío desde el 03/08** — el guard nunca se cumplía en Windows.
+Arreglado (`nucleo/ejecucion-directa.mjs`). `verificador-cotejo` no tenía self-test: ahora 13 casos.
+
+### PROMPT_011 — módulo de consenso
+
+Migración del enum (`pendiente_revision`), `nucleo/verificar-fuente.mjs` (consenso sin substring pero
+con referencia concreta; **rechaza un consenso marcado verificado**), `cargar.mjs` fija el estado por
+`tipo_fuente`, y `revision-pendientes.mjs` para revisar desde terminal.
+
+La red de seguridad no se dio por buena leyendo el `where`: `probar-aislamiento-revision.mjs` monta
+contenido `pendiente_revision` **dentro del overlay**, comprueba que ninguna de las cuatro vías lo
+sirve, que al promoverlo sí, y lo borra en `finally`. **5/5.**
+
+Mi primera versión de la puerta normalizaba por su cuenta y rechazaba 7 actividades ya cargadas por
+diferencias de puntuación. Ahora reutiliza `normalizarNumeros`, como decía el contrato.
+
+### PROMPT_012 — panel `/admin`
+
+Dos bloques: avisos de usuarios (con nota interna; migración `nota_interna` + `atendido`) y cola de
+contenido por aprobar (por familia, con aprobar/rechazar individual y por familia).
+
+Gate **`ADMIN_TOKEN`** en cookie httpOnly, porque **la app no tiene login** (`DEMO_USUARIO_ID` fijo):
+un gate por UID no tendría con qué comparar. Fail-closed con **404**, comparación en tiempo constante
+y `esAdmin()` revalidado en cada server action. Al aprobar una actividad se promueve también su
+concepto.
+
+**Probado clicando en el navegador**, no solo compilado: 404 sin cookie · 404 con token malo · 200
+con cookie · reporte a `revisado` con nota y fecha · actividad y concepto a `verificado` · y
+`actividad_de_concepto()` la devuelve después. Datos de prueba borrados, base intacta.
+
+### Verificación
+
+`npm run build` verde. Suites: cotejo 13/13 · ortografía 12/12 · fuente 11/11 · meta no-BOE 5/5 ·
+aislamiento 5/5.
+
+### Pendientes / notas
+
+- **Falta que Jonathan fije `ADMIN_TOKEN`** en Vercel y `.env.local`; sin ella `/admin` es 404 para
+  todos. **No pude añadirla a `.env.local.example`**: mis permisos deniegan ese fichero por la regla
+  de secretos.
+- No hay contenido de consenso todavía: la cola de revisión está vacía a propósito.
+- No se ha generado ningún lote ORTO de *grafía*; la puerta está lista esperándolo.
+- El test de aislamiento **escribe en producción** (filas `ZZTEST-`, borradas en `finally`).
+- El panel no permite editar preguntas, solo aprobar/rechazar/cerrar.
+
+---
+
 ## 2026-08-16 — PROMPT_014 (+ 002-008 y 010): el cargador ya inserta de verdad
 
 **Encargo.** `PROMPT_014`, disparado a mitad de la cola de contenido porque Cowork detectó que el
