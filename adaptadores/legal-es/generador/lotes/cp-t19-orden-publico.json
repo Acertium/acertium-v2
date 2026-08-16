@@ -1,0 +1,984 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 19 — Delitos contra el orden público: atentados contra la autoridad, resistencia y desobediencia; desórdenes públicos; tenencia, tráfico y depósito de armas, municiones o explosivos"
+  },
+  "fuentes": {
+    "art. 550": "1. Son reos de atentado los que agredieren o, con intimidación grave o violencia, opusieren resistencia grave a la autoridad, a sus agentes o funcionarios públicos, o los acometieren, cuando se hallen en el ejercicio de las funciones de sus cargos o con ocasión de ellas. En todo caso, se considerarán actos de atentado los cometidos contra los funcionarios docentes o sanitarios que se hallen en el ejercicio de las funciones propias de su cargo, o con ocasión de ellas. 2. Los atentados serán castigados con las penas de prisión de uno a cuatro años y multa de tres a seis meses si el atentado fuera contra autoridad y de prisión de seis meses a tres años en los demás casos. 3. No obstante lo previsto en el apartado anterior, si la autoridad contra la que se atentare fuera miembro del Gobierno, de los Consejos de Gobierno de las Comunidades Autónomas, del Congreso de los Diputados, del Senado o de las Asambleas Legislativas de las Comunidades Autónomas, de las Corporaciones locales, del Consejo General del Poder Judicial, Magistrado del Tribunal Constitucional, juez, magistrado o miembro del Ministerio Fiscal, se impondrá la pena de prisión de uno a seis años y multa de seis a doce meses.",
+    "art. 551": "Se impondrán las penas superiores en grado a las respectivamente previstas en el artículo anterior siempre que el atentado se cometa: 1.º Haciendo uso de armas u otros objetos peligrosos. 2.º Cuando el acto de violencia ejecutado resulte potencialmente peligroso para la vida de las personas o pueda causar lesiones graves. En particular, están incluidos los supuestos de lanzamiento de objetos contundentes o líquidos inflamables, el incendio y la utilización de explosivos. 3.º Acometiendo a la autoridad, a su agente o al funcionario público haciendo uso de un vehículo de motor. 4.º Cuando los hechos se lleven a cabo con ocasión de un motín, plante o incidente colectivo en el interior de un centro penitenciario.",
+    "art. 553": "La provocación, la conspiración y la proposición para cualquiera de los delitos previstos en los artículos anteriores, será castigada con la pena inferior en uno o dos grados a la del delito correspondiente.",
+    "art. 554": "1. Los hechos descritos en los artículos 550 y 551 serán también castigados con las penas expresadas en ellos cuando se cometieren contra un miembro de las Fuerzas Armadas que, vistiendo uniforme, estuviera prestando un servicio que le hubiera sido legalmente encomendado. 2. Las mismas penas se impondrán a quienes acometan, empleen violencia o intimiden a las personas que acudan en auxilio de la autoridad, sus agentes o funcionarios. 3. También se impondrán las penas de los artículos 550 y 551 a quienes acometan, empleen violencia o intimiden gravemente: a) A los bomberos o miembros del personal sanitario o equipos de socorro que estuvieran interviniendo con ocasión de un siniestro, calamidad pública o situación de emergencia, con la finalidad de impedirles el ejercicio de sus funciones. b) Al personal de seguridad privada, debidamente identificado, que desarrolle actividades de seguridad privada en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad.",
+    "art. 556": "1. Serán castigados con la pena de prisión de tres meses a un año o multa de seis a dieciocho meses, los que, sin estar comprendidos en el artículo 550, resistieren o desobedecieren gravemente a la autoridad o sus agentes en el ejercicio de sus funciones, o al personal de seguridad privada, debidamente identificado, que desarrolle actividades de seguridad privada en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad. 2. Los que faltaren al respeto y consideración debida a la autoridad, en el ejercicio de sus funciones, serán castigados con la pena de multa de uno a tres meses.",
+    "art. 557": "1. Serán castigados con la pena de prisión de seis meses a tres años los que, actuando en grupo y con el fin de atentar contra la paz pública, ejecuten actos de violencia o intimidación: a) Sobre las personas o las cosas; u b) obstaculizando las vías públicas ocasionando un peligro para la vida o salud de las personas; o c) invadiendo instalaciones o edificios alterando gravemente el funcionamiento efectivo de servicios esenciales en esos lugares. 2. Los hechos descritos en el apartado anterior serán castigados con la pena de prisión de tres a cinco años e inhabilitación especial para empleo o cargo público por el mismo tiempo cuando se cometan por una multitud cuyo número, organización y propósito sean idóneos para afectar gravemente el orden público. En caso de hallarse los autores constituidos en autoridad, la pena de inhabilitación será absoluta por tiempo de seis a ocho años. 3. Las penas de los apartados anteriores se impondrán en su mitad superior a los intervinientes que portaran instrumentos peligrosos o a los que llevaran a cabo actos de pillaje. Estas penas se aplicarán en un grado superior cuando se portaran armas de fuego. 4. La provocación, la conspiración y la proposición para las conductas previstas en los apartados 2 y 3 del presente artículo serán castigadas con las penas inferiores en uno o dos grados a las respectivamente previstas. 5. Será castigado con pena de prisión de seis meses a dos años quien en lugar concurrido provocara avalancha, estampida u otra reacción análoga en el público que pongan en situación de peligro la vida o la salud de las personas. 6. Las penas señaladas en este artículo se impondrán sin perjuicio de las que les puedan corresponder a los actos concretos de lesiones, amenazas, coacciones o daños que se hubieran llevado a cabo.",
+    "art. 557 bis": "Los que, actuando en grupo, invadan u ocupen, contra la voluntad de su titular, el domicilio de una persona jurídica pública o privada, un despacho, oficina, establecimiento o local, aunque se encuentre abierto al público, y causen con ello una perturbación relevante de la paz pública y de su actividad normal, serán castigados con una pena de prisión de tres a seis meses o multa de seis a doce meses, salvo que los hechos ya estuvieran castigados con una pena más grave en otro precepto de este Código.",
+    "art. 558": "Serán castigados con la pena de prisión de tres a seis meses o multa de seis a 12 meses, los que perturben gravemente el orden en la audiencia de un tribunal o juzgado, en los actos públicos propios de cualquier autoridad o corporación, en colegio electoral, oficina o establecimiento público, centro docente o con motivo de la celebración de espectáculos deportivos o culturales. En estos casos se podrá imponer también la pena de privación de acudir a los lugares, eventos o espectáculos de la misma naturaleza por un tiempo superior hasta tres años a la pena de prisión impuesta.",
+    "art. 560": "1. Los que causaren daños que interrumpan, obstaculicen o destruyan líneas o instalaciones de telecomunicaciones o la correspondencia postal, serán castigados con la pena de prisión de uno a cinco años. 2. En la misma pena incurrirán los que causen daños en vías férreas u originen un grave daño para la circulación ferroviaria de alguna de las formas previstas en el artículo 382. 3. Igual pena se impondrá a los que dañen las conducciones o transmisiones de agua, gas o electricidad para las poblaciones, interrumpiendo o alterando gravemente el suministro o servicio.",
+    "art. 561": "Quien afirme falsamente o simule una situación de peligro para la comunidad o la producción de un siniestro a consecuencia del cual es necesario prestar auxilio a otro, y con ello provoque la movilización de los servicios de policía, asistencia o salvamento, será castigado con la pena de prisión de tres meses y un día a un año o multa de tres a dieciocho meses.",
+    "art. 562": "En el caso de hallarse constituido en autoridad el que cometa cualquiera de los delitos expresados en los capítulos anteriores de este Título, la pena de inhabilitación que estuviese prevista en cada caso se sustituirá por la inhabilitación absoluta por tiempo de diez a quince años, salvo que dicha circunstancia esté específicamente contemplada en el tipo penal de que se trate.",
+    "art. 563": "La tenencia de armas prohibidas y la de aquellas que sean resultado de la modificación sustancial de las características de fabricación de armas reglamentadas, será castigada con la pena de prisión de uno a tres años.",
+    "art. 564": "1. La tenencia de armas de fuego reglamentadas, careciendo de las licencias o permisos necesarios, será castigada: 1.º Con la pena de prisión de uno a dos años, si se trata de armas cortas. 2.º Con la pena de prisión de seis meses a un año, si se trata de armas largas. 2. Los delitos previstos en el número anterior se castigarán, respectivamente, con las penas de prisión de dos a tres años y de uno a dos años, cuando concurra alguna de las circunstancias siguientes: 1.ª Que las armas carezcan de marcas de fábrica o de número, o los tengan alterados o borrados. 2.ª Que hayan sido introducidas ilegalmente en territorio español. 3.ª Que hayan sido transformadas, modificando sus características originales.",
+    "art. 565": "Los Jueces o Tribunales podrán rebajar en un grado las penas señaladas en los artículos anteriores, siempre que por las circunstancias del hecho y del culpable se evidencie la falta de intención de usar las armas con fines ilícitos.",
+    "art. 566": "1. Los que fabriquen, comercialicen o establezcan depósitos de armas o municiones no autorizados por las leyes o la autoridad competente serán castigados: 1.º Si se trata de armas o municiones de guerra o de armas químicas, biológicas, nucleares o radiológicas o de minas antipersonas o municiones en racimo, con la pena de prisión de cinco a diez años los promotores y organizadores, y con la de prisión de tres a cinco años los que hayan cooperado a su formación. 2.º Si se trata de armas de fuego reglamentadas o municiones para las mismas, con la pena de prisión de dos a cuatro años los promotores y organizadores, y con la de prisión de seis meses a dos años los que hayan cooperado a su formación. 3.º Con las mismas penas será castigado, en sus respectivos casos, el tráfico de armas o municiones de guerra o de defensa, o de armas químicas, biológicas, nucleares o radiológicas o de minas antipersonas o municiones en racimo. 2. Las penas contempladas en el punto 1.º del apartado anterior se impondrán a los que desarrollen o empleen armas químicas, biológicas, nucleares o radiológicas o minas antipersonas o municiones en racimo, o inicien preparativos militares para su empleo o no las destruyan con infracción de los tratados o convenios internacionales en los que España sea parte.",
+    "art. 567": "1. Se considera depósito de armas de guerra la fabricación, la comercialización o la tenencia de cualquiera de dichas armas, con independencia de su modelo o clase, aun cuando se hallen en piezas desmontadas. Se considera depósito de armas químicas, biológicas, nucleares o radiológicas o de minas antipersonas o de municiones en racimo la fabricación, la comercialización o la tenencia de las mismas. El depósito de armas, en su vertiente de comercialización, comprende tanto la adquisición como la enajenación. 2. Se consideran armas de guerra las determinadas como tales en las disposiciones reguladoras de la defensa nacional. Se consideran armas químicas, biológicas, nucleares o radiológicas, minas antipersonas o municiones en racimo las determinadas como tales en los tratados o convenios internacionales en los que España sea parte. Se entiende por desarrollo de armas químicas, biológicas, nucleares o radiológicas, minas antipersonas o municiones en racimo cualquier actividad consistente en la investigación o estudio de carácter científico o técnico encaminada a la creación de una nueva arma química, biológica, nuclear o radiológica, o mina antipersona o munición en racimo o la modificación de una preexistente. 3. Se considera depósito de armas de fuego reglamentadas la fabricación, comercialización o reunión de cinco o más de dichas armas, aun cuando se hallen en piezas desmontadas. 4. Respecto de las municiones, los Jueces y Tribunales, teniendo en cuenta la cantidad y clase de las mismas, declararán si constituyen depósito a los efectos de este capítulo.",
+    "art. 568": "1. La tenencia o el depósito de sustancias o aparatos explosivos, inflamables, incendiarios o asfixiantes, o sus componentes, así como su fabricación, tráfico o transporte, o suministro de cualquier forma, no autorizado por las Leyes o la autoridad competente, serán castigados con la pena de prisión de cuatro a ocho años, si se trata de sus promotores y organizadores, y con la pena de prisión de tres a cinco años para los que hayan cooperado a su formación. 2. En los supuestos del apartado anterior, cuando la sustancia inflamable sea un combustible líquido, la pena será de tres a cinco años de prisión. En este caso, los tribunales podrán imponer las penas inferiores en grado cuando se trate de conductas de menor entidad, atendiendo a las circunstancias del hecho y del autor.",
+    "art. 569": "Los depósitos de armas, municiones o explosivos establecidos en nombre o por cuenta de una asociación con propósito delictivo, determinarán la declaración judicial de ilicitud y su consiguiente disolución.",
+    "art. 570": "1. En los casos previstos en este capítulo se podrá imponer la pena de privación del derecho a la tenencia y porte de armas por tiempo superior en tres años a la pena de prisión impuesta. 2. Igualmente, si el delincuente estuviera autorizado para fabricar o traficar con alguna o algunas de las sustancias, armas y municiones mencionadas en el mismo, sufrirá, además de las penas señaladas, la de inhabilitación especial para el ejercicio de su industria o comercio por tiempo de 12 a 20 años. [ . . . ]"
+  },
+  "conceptos": [
+    {
+      "id": "CP-550-tipo",
+      "articulo": "art. 550",
+      "titulo": "Atentado: concepto",
+      "resumen": "Son reos de atentado quienes agreden, resisten gravemente con violencia o intimidación grave, o acometen a la autoridad, sus agentes o funcionarios públicos en el ejercicio de sus funciones.",
+      "explicacion": "Tipo básico del atentado. Exige que la víctima esté en el ejercicio del cargo o que el hecho se cometa con ocasión de él; si no, no hay atentado sino el delito común que corresponda."
+    },
+    {
+      "id": "CP-550-doc",
+      "articulo": "art. 550",
+      "titulo": "Atentado a docentes y sanitarios",
+      "resumen": "En todo caso se consideran actos de atentado los cometidos contra funcionarios docentes o sanitarios en el ejercicio de su cargo o con ocasión de él.",
+      "explicacion": "Equiparación expresa introducida para proteger a profesores y personal sanitario: no hay que discutir si son «autoridad», la ley lo resuelve."
+    },
+    {
+      "id": "CP-550-pena",
+      "articulo": "art. 550",
+      "titulo": "Penas del atentado",
+      "resumen": "El atentado se castiga con prisión de uno a cuatro años y multa de tres a seis meses si es contra autoridad, y con prisión de seis meses a tres años en los demás casos.",
+      "explicacion": "La pena sube cuando la víctima es autoridad, no un simple agente o funcionario. Distinguir bien los dos marcos."
+    },
+    {
+      "id": "CP-550-cualif",
+      "articulo": "art. 550",
+      "titulo": "Atentado a autoridades cualificadas",
+      "resumen": "Si la autoridad atacada es miembro del Gobierno, de las Cámaras, del CGPJ, magistrado del TC, juez, magistrado o fiscal, la pena es de prisión de uno a seis años y multa de seis a doce meses.",
+      "explicacion": "Subtipo agravado por la condición de la víctima. Ojo a la lista: es cerrada."
+    },
+    {
+      "id": "CP-551",
+      "articulo": "art. 551",
+      "titulo": "Atentado: tipos agravados",
+      "resumen": "Se imponen las penas superiores en grado cuando el atentado se comete con armas u objetos peligrosos, con actos peligrosos para la vida, acometiendo con vehículo de motor o en un motín penitenciario.",
+      "explicacion": "Cuatro supuestos tasados. El lanzamiento de objetos contundentes o líquidos inflamables, el incendio y los explosivos entran expresamente en el segundo."
+    },
+    {
+      "id": "CP-553",
+      "articulo": "art. 553",
+      "titulo": "Provocación, conspiración y proposición al atentado",
+      "resumen": "La provocación, la conspiración y la proposición para el atentado se castigan con la pena inferior en uno o dos grados a la del delito correspondiente.",
+      "explicacion": "Actos preparatorios punibles: solo lo son porque la ley lo dice expresamente para estos delitos."
+    },
+    {
+      "id": "CP-554-ffaa",
+      "articulo": "art. 554",
+      "titulo": "Atentado a miembros de las Fuerzas Armadas",
+      "resumen": "Los hechos de los artículos 550 y 551 se castigan igual cuando se cometen contra un miembro de las Fuerzas Armadas que, vistiendo uniforme, presta un servicio legalmente encomendado.",
+      "explicacion": "Dos requisitos acumulativos: uniforme y servicio legalmente encomendado."
+    },
+    {
+      "id": "CP-554-aux",
+      "articulo": "art. 554",
+      "titulo": "Atentado a quienes auxilian a la autoridad",
+      "resumen": "Se imponen las mismas penas a quienes acometen, emplean violencia o intimidan a las personas que acuden en auxilio de la autoridad, sus agentes o funcionarios.",
+      "explicacion": "Protege al particular que colabora: no hace falta que sea funcionario."
+    },
+    {
+      "id": "CP-554-emerg",
+      "articulo": "art. 554",
+      "titulo": "Atentado a bomberos y personal de socorro",
+      "resumen": "Se imponen las penas de los artículos 550 y 551 a quienes acometen, emplean violencia o intimidan gravemente a bomberos, personal sanitario o equipos de socorro que intervienen en un siniestro, calamidad pública o emergencia, con la finalidad de impedirles el ejercicio de sus funciones.",
+      "explicacion": "Exige un elemento subjetivo: la finalidad de impedirles ejercer sus funciones."
+    },
+    {
+      "id": "CP-554-sp",
+      "articulo": "art. 554",
+      "titulo": "Atentado a personal de seguridad privada",
+      "resumen": "Se imponen las penas de los artículos 550 y 551 a quienes acometen o intimidan gravemente al personal de seguridad privada, debidamente identificado, que actúa en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad.",
+      "explicacion": "Dos requisitos: identificación debida y actuación bajo el mando de las FCS. Fuera de eso, no hay atentado."
+    },
+    {
+      "id": "CP-556-resist",
+      "articulo": "art. 556",
+      "titulo": "Resistencia y desobediencia grave",
+      "resumen": "Quienes, sin estar comprendidos en el artículo 550, resisten o desobedecen gravemente a la autoridad o sus agentes en el ejercicio de sus funciones son castigados con prisión de tres meses a un año o multa de seis a dieciocho meses.",
+      "explicacion": "Tipo residual respecto del atentado: aquí no hay agresión ni acometimiento, solo resistencia o desobediencia grave."
+    },
+    {
+      "id": "CP-556-respeto",
+      "articulo": "art. 556",
+      "titulo": "Falta de respeto a la autoridad",
+      "resumen": "Quienes faltan al respeto y consideración debida a la autoridad en el ejercicio de sus funciones son castigados con multa de uno a tres meses.",
+      "explicacion": "Conducta menos grave que la resistencia: solo pena de multa."
+    },
+    {
+      "id": "CP-557-tipo",
+      "articulo": "art. 557",
+      "titulo": "Desórdenes públicos: tipo básico",
+      "resumen": "Se castiga con prisión de seis meses a tres años a quienes, actuando en grupo y con el fin de atentar contra la paz pública, ejecutan actos de violencia o intimidación sobre las personas o las cosas, obstaculizando vías públicas con peligro para la vida o la salud, o invadiendo instalaciones alterando gravemente servicios esenciales.",
+      "explicacion": "Tres elementos: actuar en grupo, finalidad de atentar contra la paz pública y una de las tres conductas."
+    },
+    {
+      "id": "CP-557-multitud",
+      "articulo": "art. 557",
+      "titulo": "Desórdenes cometidos por multitud",
+      "resumen": "Cuando los desórdenes se cometen por una multitud cuyo número, organización y propósito son idóneos para afectar gravemente al orden público, la pena es de prisión de tres a cinco años e inhabilitación especial por el mismo tiempo.",
+      "explicacion": "Si los autores son autoridad, la inhabilitación pasa a ser absoluta de seis a ocho años."
+    },
+    {
+      "id": "CP-557-armas",
+      "articulo": "art. 557",
+      "titulo": "Desórdenes: instrumentos peligrosos, pillaje y armas de fuego",
+      "resumen": "Las penas se imponen en su mitad superior a quienes porten instrumentos peligrosos o lleven a cabo actos de pillaje, y se aplican en un grado superior cuando se porten armas de fuego.",
+      "explicacion": "Dos escalones distintos: mitad superior para instrumentos peligrosos y pillaje; grado superior si hay armas de fuego."
+    },
+    {
+      "id": "CP-557-avalancha",
+      "articulo": "art. 557",
+      "titulo": "Provocación de avalancha o estampida",
+      "resumen": "Quien en lugar concurrido provoca avalancha, estampida u otra reacción análoga que ponga en peligro la vida o la salud de las personas es castigado con prisión de seis meses a dos años.",
+      "explicacion": "No exige actuar en grupo ni finalidad de atentar contra la paz pública: basta provocar la reacción en lugar concurrido."
+    },
+    {
+      "id": "CP-557-bis",
+      "articulo": "art. 557 bis",
+      "titulo": "Invasión u ocupación en grupo",
+      "resumen": "Quienes, actuando en grupo, invaden u ocupan contra la voluntad de su titular el domicilio de una persona jurídica, un despacho, oficina, establecimiento o local, causando una perturbación relevante de la paz pública y de su actividad normal, son castigados con prisión de tres a seis meses o multa de seis a doce meses.",
+      "explicacion": "Se aplica aunque el local esté abierto al público, y cede si los hechos ya están castigados con pena más grave en otro precepto."
+    },
+    {
+      "id": "CP-558",
+      "articulo": "art. 558",
+      "titulo": "Perturbación grave del orden en actos públicos",
+      "resumen": "Se castiga con prisión de tres a seis meses o multa de seis a 12 meses a quienes perturban gravemente el orden en la audiencia de un tribunal, en actos públicos, colegio electoral, oficina o establecimiento público, centro docente o espectáculos deportivos o culturales.",
+      "explicacion": "Puede imponerse además la privación de acudir a lugares o espectáculos de la misma naturaleza por tiempo superior hasta tres años a la prisión impuesta."
+    },
+    {
+      "id": "CP-560-telecom",
+      "articulo": "art. 560",
+      "titulo": "Daños en telecomunicaciones y correspondencia",
+      "resumen": "Quienes causan daños que interrumpan, obstaculicen o destruyan líneas o instalaciones de telecomunicaciones o la correspondencia postal son castigados con prisión de uno a cinco años.",
+      "explicacion": "Es un delito de daños cualificado por el objeto: lo que se protege es el servicio, no solo la cosa."
+    },
+    {
+      "id": "CP-560-suministros",
+      "articulo": "art. 560",
+      "titulo": "Daños en conducciones de agua, gas o electricidad",
+      "resumen": "Se impone la misma pena a quienes dañan las conducciones o transmisiones de agua, gas o electricidad para las poblaciones, interrumpiendo o alterando gravemente el suministro o servicio.",
+      "explicacion": "Mismo marco penal que los daños en telecomunicaciones y en vías férreas."
+    },
+    {
+      "id": "CP-561",
+      "articulo": "art. 561",
+      "titulo": "Falsa alarma de siniestro",
+      "resumen": "Quien afirma falsamente o simula una situación de peligro para la comunidad o un siniestro que exige auxilio, provocando la movilización de los servicios de policía, asistencia o salvamento, es castigado con prisión de tres meses y un día a un año o multa de tres a dieciocho meses.",
+      "explicacion": "El delito se consuma con la movilización efectiva de los servicios: sin ella, no hay tipo."
+    },
+    {
+      "id": "CP-562",
+      "articulo": "art. 562",
+      "titulo": "Disposición común: autoridad autora del delito",
+      "resumen": "Si quien comete estos delitos está constituido en autoridad, la inhabilitación prevista se sustituye por inhabilitación absoluta de diez a quince años, salvo que el tipo penal ya contemple esa circunstancia.",
+      "explicacion": "Es la «disposición común» del Título. Cede ante los tipos que ya prevén expresamente la condición de autoridad."
+    },
+    {
+      "id": "CP-563",
+      "articulo": "art. 563",
+      "titulo": "Tenencia de armas prohibidas",
+      "resumen": "La tenencia de armas prohibidas y la de aquellas resultantes de la modificación sustancial de las características de fabricación de armas reglamentadas se castiga con prisión de uno a tres años.",
+      "explicacion": "Distinguir de la tenencia ilícita del artículo siguiente: aquí el arma es prohibida o está sustancialmente modificada."
+    },
+    {
+      "id": "CP-564-tenencia",
+      "articulo": "art. 564",
+      "titulo": "Tenencia ilícita de armas de fuego reglamentadas",
+      "resumen": "La tenencia de armas de fuego reglamentadas sin licencia o permiso se castiga con prisión de uno a dos años si son armas cortas, y de seis meses a un año si son armas largas.",
+      "explicacion": "La distinción corta/larga marca el marco penal: es de las preguntas más repetidas."
+    },
+    {
+      "id": "CP-564-circ",
+      "articulo": "art. 564",
+      "titulo": "Tenencia ilícita: circunstancias agravantes",
+      "resumen": "Las penas suben a prisión de dos a tres años y de uno a dos años cuando las armas carecen de marcas de fábrica o número, o los tienen alterados o borrados, han sido introducidas ilegalmente en España o han sido transformadas.",
+      "explicacion": "Tres circunstancias tasadas que elevan el marco de ambos supuestos."
+    },
+    {
+      "id": "CP-565",
+      "articulo": "art. 565",
+      "titulo": "Rebaja por falta de intención ilícita",
+      "resumen": "Los Jueces o Tribunales pueden rebajar en un grado las penas cuando por las circunstancias del hecho y del culpable se evidencie la falta de intención de usar las armas con fines ilícitos.",
+      "explicacion": "Es una facultad del tribunal, no un derecho del reo: la ley dice «podrán»."
+    },
+    {
+      "id": "CP-566-guerra",
+      "articulo": "art. 566",
+      "titulo": "Depósito de armas de guerra y NBQ",
+      "resumen": "Quienes fabrican, comercializan o establecen depósitos no autorizados de armas o municiones de guerra, o de armas químicas, biológicas, nucleares o radiológicas, minas antipersonas o municiones en racimo, son castigados con prisión de cinco a diez años los promotores y organizadores, y de tres a cinco años los cooperadores.",
+      "explicacion": "Distinguir siempre dos escalones: promotores y organizadores frente a cooperadores."
+    },
+    {
+      "id": "CP-566-regl",
+      "articulo": "art. 566",
+      "titulo": "Depósito de armas de fuego reglamentadas",
+      "resumen": "Si el depósito no autorizado es de armas de fuego reglamentadas o de sus municiones, la pena es de prisión de dos a cuatro años para promotores y organizadores y de seis meses a dos años para los cooperadores.",
+      "explicacion": "Marco penal sensiblemente menor que el de las armas de guerra."
+    },
+    {
+      "id": "CP-567-guerra",
+      "articulo": "art. 567",
+      "titulo": "Concepto de depósito de armas de guerra",
+      "resumen": "Se considera depósito de armas de guerra la fabricación, la comercialización o la tenencia de cualquiera de dichas armas, con independencia de su modelo o clase, aun cuando se hallen en piezas desmontadas.",
+      "explicacion": "Basta UNA sola arma de guerra: no se exige número mínimo, a diferencia de las reglamentadas."
+    },
+    {
+      "id": "CP-567-regl",
+      "articulo": "art. 567",
+      "titulo": "Depósito de armas reglamentadas: cinco o más",
+      "resumen": "Se considera depósito de armas de fuego reglamentadas la fabricación, comercialización o reunión de cinco o más de dichas armas, aun cuando se hallen en piezas desmontadas.",
+      "explicacion": "El número mínimo —cinco— es la diferencia clave con el depósito de armas de guerra."
+    },
+    {
+      "id": "CP-568",
+      "articulo": "art. 568",
+      "titulo": "Tenencia y depósito de explosivos",
+      "resumen": "La tenencia o depósito no autorizado de sustancias o aparatos explosivos, inflamables, incendiarios o asfixiantes, así como su fabricación, tráfico, transporte o suministro, se castiga con prisión de cuatro a ocho años a promotores y organizadores y de tres a cinco años a los cooperadores.",
+      "explicacion": "Si la sustancia inflamable es un combustible líquido, la pena baja a tres a cinco años y cabe rebajar en grado en conductas de menor entidad."
+    },
+    {
+      "id": "CP-569",
+      "articulo": "art. 569",
+      "titulo": "Depósitos por cuenta de asociación delictiva",
+      "resumen": "Los depósitos de armas, municiones o explosivos establecidos en nombre o por cuenta de una asociación con propósito delictivo determinan la declaración judicial de ilicitud y su consiguiente disolución.",
+      "explicacion": "Consecuencia añadida sobre la asociación, no una pena sobre la persona física."
+    },
+    {
+      "id": "CP-570",
+      "articulo": "art. 570",
+      "titulo": "Privación del derecho a tenencia y porte de armas",
+      "resumen": "En los delitos de este capítulo puede imponerse la privación del derecho a la tenencia y porte de armas por tiempo superior en tres años a la pena de prisión impuesta.",
+      "explicacion": "Si el autor estaba autorizado para fabricar o traficar, se añade inhabilitación especial para su industria o comercio de 12 a 20 años."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-550-tipo",
+      "articulo": "art. 550",
+      "tipo": "test",
+      "enunciado": "¿Quiénes son reos de atentado según el artículo 550.1?",
+      "opciones": [
+        "los que agredieren o, con intimidación grave o violencia, opusieren resistencia grave a la autoridad, a sus agentes o funcionarios públicos, o los acometieren",
+        "los que desobedecieren de forma leve a la autoridad o a sus agentes cuando estén fuera del ejercicio de su cargo",
+        "los que faltaren al respeto y consideración debida a la autoridad en cualquier circunstancia, aunque no medie violencia",
+        "los que resistieren pasivamente a la autoridad o a sus agentes sin emplear violencia ni intimidación de ninguna clase"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Son reos de atentado los que agredieren o, con intimidación grave o violencia, opusieren resistencia grave a la autoridad, a sus agentes o funcionarios públicos, o los acometieren, cuando se hallen en el ejercicio de las funciones de sus cargos o con ocasión de ellas.",
+      "justificacion": "Art. 550 CP."
+    },
+    {
+      "concepto_id": "CP-550-doc",
+      "articulo": "art. 550",
+      "tipo": "test",
+      "enunciado": "¿Qué se considera EN TODO CASO acto de atentado según el artículo 550.1?",
+      "opciones": [
+        "los cometidos contra los funcionarios docentes o sanitarios que se hallen en el ejercicio de las funciones propias de su cargo",
+        "los cometidos contra cualquier empleado público que preste servicio de atención directa a la ciudadanía en oficinas abiertas",
+        "los cometidos contra el personal de seguridad privada que preste servicio en centros docentes o sanitarios debidamente identificado",
+        "los cometidos contra los miembros de las Fuerzas Armadas que se hallen de servicio en instalaciones docentes o sanitarias"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En todo caso, se considerarán actos de atentado los cometidos contra los funcionarios docentes o sanitarios que se hallen en el ejercicio de las funciones propias de su cargo, o con ocasión de ellas.",
+      "justificacion": "Art. 550 CP."
+    },
+    {
+      "concepto_id": "CP-550-pena",
+      "articulo": "art. 550",
+      "tipo": "test",
+      "enunciado": "¿Con qué pena se castiga el atentado cometido contra una autoridad?",
+      "opciones": [
+        "las penas de prisión de uno a cuatro años y multa de tres a seis meses",
+        "las penas de prisión de seis meses a tres años y multa de seis a doce meses",
+        "las penas de prisión de dos a cinco años y multa de tres a seis meses",
+        "las penas de prisión de tres meses a un año y multa de seis a dieciocho meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los atentados serán castigados con las penas de prisión de uno a cuatro años y multa de tres a seis meses si el atentado fuera contra autoridad y de prisión de seis meses a tres años en los demás casos.",
+      "justificacion": "Art. 550 CP."
+    },
+    {
+      "concepto_id": "CP-550-cualif",
+      "articulo": "art. 550",
+      "tipo": "test",
+      "enunciado": "Si la autoridad contra la que se atenta es un juez, magistrado o miembro del Ministerio Fiscal, ¿qué pena se impone?",
+      "opciones": [
+        "la pena de prisión de uno a seis años y multa de seis a doce meses",
+        "la pena de prisión de uno a cuatro años y multa de tres a seis meses",
+        "la pena de prisión de dos a seis años e inhabilitación especial por igual tiempo",
+        "la pena de prisión de seis meses a tres años y multa de seis a doce meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se impondrá la pena de prisión de uno a seis años y multa de seis a doce meses",
+      "justificacion": "Art. 550 CP."
+    },
+    {
+      "concepto_id": "CP-551",
+      "articulo": "art. 551",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas circunstancias agrava el atentado conforme al artículo 551?",
+      "opciones": [
+        "Acometiendo a la autoridad, a su agente o al funcionario público haciendo uso de un vehículo de motor",
+        "Cometiendo el hecho en lugar concurrido o durante la celebración de un espectáculo deportivo o cultural",
+        "Actuando en grupo con el propósito de alterar gravemente la paz pública en una vía urbana de gran afluencia",
+        "Aprovechando la nocturnidad o el disfraz para asegurar la impunidad de quienes ejecutan el acometimiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se impondrán las penas superiores en grado a las respectivamente previstas en el artículo anterior siempre que el atentado se cometa: 1.º Haciendo uso de armas u otros objetos peligrosos. 2.º Cuando el acto de violencia ejecutado resulte potencialmente peligroso para la vida de las personas o pueda causar lesiones graves. En particular, están incluidos los supuestos de lanzamiento de objetos contundentes o líquidos inflamables, el incendio y la utilización de explosivos. 3.º Acometiendo a la autoridad, a su agente o al funcionario público haciendo uso de un vehículo de motor. 4.º Cuando los hechos se lleven a cabo con ocasión de un motín, plante o incidente colectivo en el interior de un centro penitenciario.",
+      "justificacion": "Art. 551 CP."
+    },
+    {
+      "concepto_id": "CP-553",
+      "articulo": "art. 553",
+      "tipo": "test",
+      "enunciado": "¿Cómo se castiga la provocación, conspiración y proposición para los delitos de atentado?",
+      "opciones": [
+        "con la pena inferior en uno o dos grados a la del delito correspondiente",
+        "con la pena inferior en grado a la del delito correspondiente, sin posibilidad de rebaja mayor",
+        "con la misma pena prevista para el delito consumado, atendida la gravedad del riesgo creado",
+        "con la pena superior en grado a la del delito correspondiente cuando medie uso de armas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La provocación, la conspiración y la proposición para cualquiera de los delitos previstos en los artículos anteriores, será castigada con la pena inferior en uno o dos grados a la del delito correspondiente.",
+      "justificacion": "Art. 553 CP."
+    },
+    {
+      "concepto_id": "CP-554-ffaa",
+      "articulo": "art. 554",
+      "tipo": "test",
+      "enunciado": "¿En qué condiciones se equipara al atentado la agresión a un miembro de las Fuerzas Armadas?",
+      "opciones": [
+        "cuando se cometieren contra un miembro de las Fuerzas Armadas que, vistiendo uniforme, estuviera prestando un servicio que le hubiera sido legalmente encomendado",
+        "cuando se cometieren contra un miembro de las Fuerzas Armadas que se encuentre fuera de servicio pero sea reconocido como tal",
+        "cuando se cometieren contra un miembro de las Fuerzas Armadas en el interior de un acuartelamiento, vista o no el uniforme reglamentario",
+        "cuando se cometieren contra un miembro de las Fuerzas Armadas que participe en una operación conjunta con las Fuerzas y Cuerpos de Seguridad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los hechos descritos en los artículos 550 y 551 serán también castigados con las penas expresadas en ellos cuando se cometieren contra un miembro de las Fuerzas Armadas que, vistiendo uniforme, estuviera prestando un servicio que le hubiera sido legalmente encomendado.",
+      "justificacion": "Art. 554 CP."
+    },
+    {
+      "concepto_id": "CP-554-aux",
+      "articulo": "art. 554",
+      "tipo": "test",
+      "enunciado": "¿Qué ocurre con quien intimida a un particular que acude en auxilio de un agente de la autoridad?",
+      "opciones": [
+        "Las mismas penas se impondrán a quienes acometan, empleen violencia o intimiden a las personas que acudan en auxilio de la autoridad, sus agentes o funcionarios",
+        "Responderá únicamente por el delito de desobediencia grave del artículo 556, al no dirigirse el acto contra un agente",
+        "Responderá por una falta de respeto y consideración debida, castigada con la pena de multa de uno a tres meses",
+        "Quedará exento de responsabilidad penal salvo que el auxiliador hubiera sido requerido formalmente por el agente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Las mismas penas se impondrán a quienes acometan, empleen violencia o intimiden a las personas que acudan en auxilio de la autoridad, sus agentes o funcionarios.",
+      "justificacion": "Art. 554 CP."
+    },
+    {
+      "concepto_id": "CP-554-emerg",
+      "articulo": "art. 554",
+      "tipo": "test",
+      "enunciado": "Para que la agresión a bomberos o equipos de socorro se castigue con las penas del atentado, ¿qué finalidad debe concurrir?",
+      "opciones": [
+        "con la finalidad de impedirles el ejercicio de sus funciones",
+        "con la finalidad de obtener un beneficio económico o de sustraer el material del equipo interviniente",
+        "con la finalidad de alterar gravemente la paz pública en el lugar donde se presta el auxilio",
+        "con la finalidad de menoscabar el prestigio o la consideración debida al servicio público de emergencias"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) A los bomberos o miembros del personal sanitario o equipos de socorro que estuvieran interviniendo con ocasión de un siniestro, calamidad pública o situación de emergencia, con la finalidad de impedirles el ejercicio de sus funciones.",
+      "justificacion": "Art. 554 CP."
+    },
+    {
+      "concepto_id": "CP-554-sp",
+      "articulo": "art. 554",
+      "tipo": "test",
+      "enunciado": "¿En qué condiciones se protege como atentado la agresión al personal de seguridad privada?",
+      "opciones": [
+        "que desarrolle actividades de seguridad privada en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad",
+        "que preste servicio en establecimientos abiertos al público durante el horario de apertura al público",
+        "que se encuentre de servicio en instalaciones declaradas infraestructuras críticas por la autoridad competente",
+        "que actúe por encargo directo del titular del establecimiento en defensa de las personas y los bienes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "b) Al personal de seguridad privada, debidamente identificado, que desarrolle actividades de seguridad privada en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad.",
+      "justificacion": "Art. 554 CP."
+    },
+    {
+      "concepto_id": "CP-556-resist",
+      "articulo": "art. 556",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a quien resiste o desobedece gravemente a la autoridad sin estar comprendido en el artículo 550?",
+      "opciones": [
+        "la pena de prisión de tres meses a un año o multa de seis a dieciocho meses",
+        "la pena de prisión de seis meses a tres años o multa de seis a doce meses",
+        "la pena de prisión de uno a cuatro años y multa de tres a seis meses",
+        "la pena de multa de uno a tres meses, sin que proceda imponer pena privativa de libertad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Serán castigados con la pena de prisión de tres meses a un año o multa de seis a dieciocho meses, los que, sin estar comprendidos en el artículo 550, resistieren o desobedecieren gravemente a la autoridad o sus agentes en el ejercicio de sus funciones",
+      "justificacion": "Art. 556 CP."
+    },
+    {
+      "concepto_id": "CP-556-respeto",
+      "articulo": "art. 556",
+      "tipo": "test",
+      "enunciado": "¿Cómo se castiga a quien falta al respeto y consideración debida a la autoridad en el ejercicio de sus funciones?",
+      "opciones": [
+        "con la pena de multa de uno a tres meses",
+        "con la pena de multa de seis a dieciocho meses o prisión de tres meses a un año",
+        "con la pena de multa de tres a seis meses y trabajos en beneficio de la comunidad",
+        "con la pena de prisión de tres a seis meses o multa de seis a doce meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los que faltaren al respeto y consideración debida a la autoridad, en el ejercicio de sus funciones, serán castigados con la pena de multa de uno a tres meses.",
+      "justificacion": "Art. 556 CP."
+    },
+    {
+      "concepto_id": "CP-557-tipo",
+      "articulo": "art. 557",
+      "tipo": "test",
+      "enunciado": "¿Qué elementos exige el tipo básico de desórdenes públicos del artículo 557.1?",
+      "opciones": [
+        "actuando en grupo y con el fin de atentar contra la paz pública, ejecuten actos de violencia o intimidación",
+        "actuando individualmente y con el fin de menoscabar el principio de autoridad, ejecuten actos de resistencia grave",
+        "actuando en grupo y con el fin de obtener un beneficio patrimonial, ejecuten actos de pillaje o de daños",
+        "actuando en muchedumbre y con el fin de impedir el funcionamiento de los servicios públicos esenciales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Serán castigados con la pena de prisión de seis meses a tres años los que, actuando en grupo y con el fin de atentar contra la paz pública, ejecuten actos de violencia o intimidación: a) Sobre las personas o las cosas; u b) obstaculizando las vías públicas ocasionando un peligro para la vida o salud de las personas; o c) invadiendo instalaciones o edificios alterando gravemente el funcionamiento efectivo de servicios esenciales en esos lugares.",
+      "justificacion": "Art. 557 CP."
+    },
+    {
+      "concepto_id": "CP-557-multitud",
+      "articulo": "art. 557",
+      "tipo": "test",
+      "enunciado": "¿Qué pena se impone cuando los desórdenes públicos se cometen por una multitud idónea para afectar gravemente al orden público?",
+      "opciones": [
+        "la pena de prisión de tres a cinco años e inhabilitación especial para empleo o cargo público por el mismo tiempo",
+        "la pena de prisión de seis meses a tres años e inhabilitación especial para empleo o cargo público por igual tiempo",
+        "la pena de prisión de cinco a diez años e inhabilitación absoluta por tiempo de seis a ocho años",
+        "la pena de prisión de uno a seis años y multa de seis a doce meses, en su mitad superior"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los hechos descritos en el apartado anterior serán castigados con la pena de prisión de tres a cinco años e inhabilitación especial para empleo o cargo público por el mismo tiempo cuando se cometan por una multitud cuyo número, organización y propósito sean idóneos para afectar gravemente el orden público.",
+      "justificacion": "Art. 557 CP."
+    },
+    {
+      "concepto_id": "CP-557-armas",
+      "articulo": "art. 557",
+      "tipo": "test",
+      "enunciado": "En los desórdenes públicos, ¿qué ocurre cuando los intervinientes portan armas de fuego?",
+      "opciones": [
+        "Estas penas se aplicarán en un grado superior cuando se portaran armas de fuego",
+        "Estas penas se aplicarán en su mitad superior cuando se portaran armas de fuego, igual que en el pillaje",
+        "Estas penas se aplicarán en dos grados superiores cuando se portaran armas de fuego reglamentadas",
+        "Estas penas se sustituirán por las del delito de tenencia ilícita de armas del artículo 564"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las penas de los apartados anteriores se impondrán en su mitad superior a los intervinientes que portaran instrumentos peligrosos o a los que llevaran a cabo actos de pillaje. Estas penas se aplicarán en un grado superior cuando se portaran armas de fuego.",
+      "justificacion": "Art. 557 CP."
+    },
+    {
+      "concepto_id": "CP-557-avalancha",
+      "articulo": "art. 557",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a quien provoca en lugar concurrido una avalancha que pone en peligro la vida o la salud de las personas?",
+      "opciones": [
+        "pena de prisión de seis meses a dos años",
+        "pena de prisión de seis meses a tres años, por tratarse de un desorden público",
+        "pena de prisión de tres a cinco años e inhabilitación especial para empleo o cargo público",
+        "pena de prisión de tres meses a un año o multa de seis a dieciocho meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Será castigado con pena de prisión de seis meses a dos años quien en lugar concurrido provocara avalancha, estampida u otra reacción análoga en el público que pongan en situación de peligro la vida o la salud de las personas.",
+      "justificacion": "Art. 557 CP."
+    },
+    {
+      "concepto_id": "CP-557-bis",
+      "articulo": "art. 557 bis",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a quienes, actuando en grupo, ocupan una oficina contra la voluntad de su titular causando una perturbación relevante de la paz pública?",
+      "opciones": [
+        "una pena de prisión de tres a seis meses o multa de seis a doce meses",
+        "una pena de prisión de seis meses a tres años o multa de seis a dieciocho meses",
+        "una pena de prisión de tres a cinco años e inhabilitación especial para empleo o cargo público",
+        "una pena de prisión de uno a tres años, por tratarse de una alteración grave del orden"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "serán castigados con una pena de prisión de tres a seis meses o multa de seis a doce meses, salvo que los hechos ya estuvieran castigados con una pena más grave en otro precepto de este Código",
+      "justificacion": "Art. 557 bis CP."
+    },
+    {
+      "concepto_id": "CP-558",
+      "articulo": "art. 558",
+      "tipo": "test",
+      "enunciado": "¿En cuál de estos lugares castiga el artículo 558 la perturbación grave del orden?",
+      "opciones": [
+        "en la audiencia de un tribunal o juzgado, en los actos públicos propios de cualquier autoridad o corporación, en colegio electoral, oficina o establecimiento público, centro docente",
+        "en el interior de un centro penitenciario, en un acuartelamiento militar o en las dependencias de un servicio de emergencias",
+        "en el domicilio de una persona jurídica pública o privada, en un despacho profesional o en un local abierto al público",
+        "en las vías públicas urbanas, en los accesos a instalaciones de servicios esenciales o en los transportes colectivos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Serán castigados con la pena de prisión de tres a seis meses o multa de seis a 12 meses, los que perturben gravemente el orden en la audiencia de un tribunal o juzgado, en los actos públicos propios de cualquier autoridad o corporación, en colegio electoral, oficina o establecimiento público, centro docente o con motivo de la celebración de espectáculos deportivos o culturales.",
+      "justificacion": "Art. 558 CP."
+    },
+    {
+      "concepto_id": "CP-560-telecom",
+      "articulo": "art. 560",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a quien causa daños que destruyen líneas de telecomunicaciones?",
+      "opciones": [
+        "la pena de prisión de uno a cinco años",
+        "la pena de prisión de seis meses a tres años o multa de seis a dieciocho meses",
+        "la pena de prisión de tres a seis meses o multa de seis a doce meses",
+        "la pena de prisión de dos a cuatro años e inhabilitación especial para empleo o cargo público"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los que causaren daños que interrumpan, obstaculicen o destruyan líneas o instalaciones de telecomunicaciones o la correspondencia postal, serán castigados con la pena de prisión de uno a cinco años.",
+      "justificacion": "Art. 560 CP."
+    },
+    {
+      "concepto_id": "CP-560-suministros",
+      "articulo": "art. 560",
+      "tipo": "test",
+      "enunciado": "¿Qué exige el artículo 560.3 para castigar los daños en las conducciones de agua, gas o electricidad?",
+      "opciones": [
+        "interrumpiendo o alterando gravemente el suministro o servicio",
+        "poniendo en peligro concreto la vida o la salud de las personas abastecidas por la conducción",
+        "actuando en grupo y con la finalidad de atentar contra la paz pública de la población afectada",
+        "causando un perjuicio económico superior al que fije reglamentariamente la autoridad competente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Igual pena se impondrá a los que dañen las conducciones o transmisiones de agua, gas o electricidad para las poblaciones, interrumpiendo o alterando gravemente el suministro o servicio.",
+      "justificacion": "Art. 560 CP."
+    },
+    {
+      "concepto_id": "CP-561",
+      "articulo": "art. 561",
+      "tipo": "test",
+      "enunciado": "¿Qué resultado exige el artículo 561 para castigar la falsa afirmación de una situación de peligro?",
+      "opciones": [
+        "y con ello provoque la movilización de los servicios de policía, asistencia o salvamento",
+        "y con ello genere una alarma social relevante entre la población del lugar donde se simula el siniestro",
+        "y con ello cause un perjuicio económico efectivo a la Administración titular del servicio de emergencias",
+        "y con ello impida la prestación de un servicio esencial para la comunidad durante un tiempo relevante"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Quien afirme falsamente o simule una situación de peligro para la comunidad o la producción de un siniestro a consecuencia del cual es necesario prestar auxilio a otro, y con ello provoque la movilización de los servicios de policía, asistencia o salvamento, será castigado con la pena de prisión de tres meses y un día a un año o multa de tres a dieciocho meses.",
+      "justificacion": "Art. 561 CP."
+    },
+    {
+      "concepto_id": "CP-562",
+      "articulo": "art. 562",
+      "tipo": "test",
+      "enunciado": "¿Por qué pena se sustituye la inhabilitación cuando el autor de estos delitos está constituido en autoridad?",
+      "opciones": [
+        "por la inhabilitación absoluta por tiempo de diez a quince años",
+        "por la inhabilitación absoluta por tiempo de seis a ocho años, como en los desórdenes por multitud",
+        "por la inhabilitación especial para empleo o cargo público por tiempo de diez a quince años",
+        "por la inhabilitación absoluta por tiempo de doce a veinte años, además de las penas señaladas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la pena de inhabilitación que estuviese prevista en cada caso se sustituirá por la inhabilitación absoluta por tiempo de diez a quince años, salvo que dicha circunstancia esté específicamente contemplada en el tipo penal de que se trate",
+      "justificacion": "Art. 562 CP."
+    },
+    {
+      "concepto_id": "CP-563",
+      "articulo": "art. 563",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a la tenencia de armas prohibidas?",
+      "opciones": [
+        "la pena de prisión de uno a tres años",
+        "la pena de prisión de uno a dos años, si se trata de armas cortas",
+        "la pena de prisión de seis meses a un año, si se trata de armas largas",
+        "la pena de prisión de dos a cuatro años y multa de seis a doce meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La tenencia de armas prohibidas y la de aquellas que sean resultado de la modificación sustancial de las características de fabricación de armas reglamentadas, será castigada con la pena de prisión de uno a tres años.",
+      "justificacion": "Art. 563 CP."
+    },
+    {
+      "concepto_id": "CP-564-tenencia",
+      "articulo": "art. 564",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a la tenencia de armas de fuego reglamentadas cortas careciendo de licencia?",
+      "opciones": [
+        "Con la pena de prisión de uno a dos años, si se trata de armas cortas",
+        "Con la pena de prisión de seis meses a un año, si se trata de armas cortas",
+        "Con la pena de prisión de uno a tres años, si se trata de armas cortas o largas",
+        "Con la pena de prisión de dos a tres años, si se trata de armas cortas sin marcas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. La tenencia de armas de fuego reglamentadas, careciendo de las licencias o permisos necesarios, será castigada: 1.º Con la pena de prisión de uno a dos años, si se trata de armas cortas. 2.º Con la pena de prisión de seis meses a un año, si se trata de armas largas.",
+      "justificacion": "Art. 564 CP."
+    },
+    {
+      "concepto_id": "CP-564-circ",
+      "articulo": "art. 564",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas circunstancias agrava la tenencia ilícita de armas de fuego reglamentadas?",
+      "opciones": [
+        "Que las armas carezcan de marcas de fábrica o de número, o los tengan alterados o borrados",
+        "Que las armas se hallen en piezas desmontadas o guardadas en lugar distinto del domicilio del tenedor",
+        "Que las armas se porten en lugar concurrido o con ocasión de un espectáculo deportivo o cultural",
+        "Que las armas pertenezcan a un tercero que sí disponga de la licencia o permiso correspondiente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Los delitos previstos en el número anterior se castigarán, respectivamente, con las penas de prisión de dos a tres años y de uno a dos años, cuando concurra alguna de las circunstancias siguientes: 1.ª Que las armas carezcan de marcas de fábrica o de número, o los tengan alterados o borrados. 2.ª Que hayan sido introducidas ilegalmente en territorio español. 3.ª Que hayan sido transformadas, modificando sus características originales.",
+      "justificacion": "Art. 564 CP."
+    },
+    {
+      "concepto_id": "CP-565",
+      "articulo": "art. 565",
+      "tipo": "test",
+      "enunciado": "¿Qué pueden hacer los Jueces o Tribunales si se evidencia la falta de intención de usar las armas con fines ilícitos?",
+      "opciones": [
+        "podrán rebajar en un grado las penas señaladas en los artículos anteriores",
+        "deberán rebajar en uno o dos grados las penas señaladas en los artículos anteriores",
+        "podrán sustituir la pena de prisión por multa de seis a dieciocho meses en todo caso",
+        "podrán acordar la exención de responsabilidad penal atendidas las circunstancias del culpable"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Jueces o Tribunales podrán rebajar en un grado las penas señaladas en los artículos anteriores, siempre que por las circunstancias del hecho y del culpable se evidencie la falta de intención de usar las armas con fines ilícitos.",
+      "justificacion": "Art. 565 CP."
+    },
+    {
+      "concepto_id": "CP-566-guerra",
+      "articulo": "art. 566",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a los promotores y organizadores de un depósito no autorizado de armas de guerra?",
+      "opciones": [
+        "con la pena de prisión de cinco a diez años los promotores y organizadores",
+        "con la pena de prisión de tres a cinco años los promotores y organizadores",
+        "con la pena de prisión de dos a cuatro años los promotores y organizadores",
+        "con la pena de prisión de cuatro a ocho años los promotores y organizadores"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1.º Si se trata de armas o municiones de guerra o de armas químicas, biológicas, nucleares o radiológicas o de minas antipersonas o municiones en racimo, con la pena de prisión de cinco a diez años los promotores y organizadores, y con la de prisión de tres a cinco años los que hayan cooperado a su formación.",
+      "justificacion": "Art. 566 CP."
+    },
+    {
+      "concepto_id": "CP-566-regl",
+      "articulo": "art. 566",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a quienes hayan cooperado a la formación de un depósito de armas de fuego reglamentadas?",
+      "opciones": [
+        "con la de prisión de seis meses a dos años los que hayan cooperado a su formación",
+        "con la de prisión de tres a cinco años los que hayan cooperado a su formación",
+        "con la de prisión de dos a cuatro años los que hayan cooperado a su formación",
+        "con la de prisión de uno a tres años los que hayan cooperado a su formación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2.º Si se trata de armas de fuego reglamentadas o municiones para las mismas, con la pena de prisión de dos a cuatro años los promotores y organizadores, y con la de prisión de seis meses a dos años los que hayan cooperado a su formación.",
+      "justificacion": "Art. 566 CP."
+    },
+    {
+      "concepto_id": "CP-567-guerra",
+      "articulo": "art. 567",
+      "tipo": "test",
+      "enunciado": "¿Qué se considera depósito de armas de guerra?",
+      "opciones": [
+        "la fabricación, la comercialización o la tenencia de cualquiera de dichas armas, con independencia de su modelo o clase, aun cuando se hallen en piezas desmontadas",
+        "la fabricación, comercialización o reunión de cinco o más de dichas armas, aun cuando se hallen en piezas desmontadas",
+        "la tenencia de dos o más de dichas armas siempre que se hallen en condiciones de uso inmediato",
+        "la adquisición o enajenación de cualquiera de dichas armas cuando se realice con ánimo de lucro"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. Se considera depósito de armas de guerra la fabricación, la comercialización o la tenencia de cualquiera de dichas armas, con independencia de su modelo o clase, aun cuando se hallen en piezas desmontadas.",
+      "justificacion": "Art. 567 CP."
+    },
+    {
+      "concepto_id": "CP-567-regl",
+      "articulo": "art. 567",
+      "tipo": "test",
+      "enunciado": "¿Cuántas armas de fuego reglamentadas se exigen para apreciar depósito?",
+      "opciones": [
+        "la fabricación, comercialización o reunión de cinco o más de dichas armas",
+        "la fabricación, comercialización o reunión de tres o más de dichas armas",
+        "la fabricación, comercialización o reunión de diez o más de dichas armas",
+        "la fabricación, comercialización o tenencia de cualquiera de dichas armas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. Se considera depósito de armas de fuego reglamentadas la fabricación, comercialización o reunión de cinco o más de dichas armas",
+      "justificacion": "Art. 567 CP."
+    },
+    {
+      "concepto_id": "CP-568",
+      "articulo": "art. 568",
+      "tipo": "test",
+      "enunciado": "¿Qué pena corresponde a los promotores y organizadores de un depósito no autorizado de sustancias explosivas?",
+      "opciones": [
+        "serán castigados con la pena de prisión de cuatro a ocho años, si se trata de sus promotores y organizadores",
+        "serán castigados con la pena de prisión de cinco a diez años, si se trata de sus promotores y organizadores",
+        "serán castigados con la pena de prisión de tres a cinco años, si se trata de sus promotores y organizadores",
+        "serán castigados con la pena de prisión de dos a cuatro años, si se trata de sus promotores y organizadores"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. La tenencia o el depósito de sustancias o aparatos explosivos, inflamables, incendiarios o asfixiantes, o sus componentes, así como su fabricación, tráfico o transporte, o suministro de cualquier forma, no autorizado por las Leyes o la autoridad competente, serán castigados con la pena de prisión de cuatro a ocho años, si se trata de sus promotores y organizadores, y con la pena de prisión de tres a cinco años para los que hayan cooperado a su formación.",
+      "justificacion": "Art. 568 CP."
+    },
+    {
+      "concepto_id": "CP-569",
+      "articulo": "art. 569",
+      "tipo": "test",
+      "enunciado": "¿Qué consecuencia tiene establecer un depósito de armas por cuenta de una asociación con propósito delictivo?",
+      "opciones": [
+        "determinarán la declaración judicial de ilicitud y su consiguiente disolución",
+        "determinarán la inhabilitación absoluta de sus promotores por tiempo de diez a quince años",
+        "determinarán la clausura temporal de sus locales por tiempo superior hasta tres años a la pena impuesta",
+        "determinarán la intervención judicial de la asociación durante el tiempo que dure el procedimiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los depósitos de armas, municiones o explosivos establecidos en nombre o por cuenta de una asociación con propósito delictivo, determinarán la declaración judicial de ilicitud y su consiguiente disolución.",
+      "justificacion": "Art. 569 CP."
+    },
+    {
+      "concepto_id": "CP-570",
+      "articulo": "art. 570",
+      "tipo": "test",
+      "enunciado": "¿Por cuánto tiempo puede imponerse la privación del derecho a la tenencia y porte de armas en estos delitos?",
+      "opciones": [
+        "por tiempo superior en tres años a la pena de prisión impuesta",
+        "por tiempo superior en cinco años a la pena de prisión impuesta",
+        "por tiempo superior hasta tres años a la pena de prisión impuesta",
+        "por tiempo de doce a veinte años, con independencia de la pena de prisión impuesta"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. En los casos previstos en este capítulo se podrá imponer la pena de privación del derecho a la tenencia y porte de armas por tiempo superior en tres años a la pena de prisión impuesta.",
+      "justificacion": "Art. 570 CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-550-pena",
+      "destino": "CP-550-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "El apartado 2 fija la pena del tipo definido en el apartado 1."
+    },
+    {
+      "origen": "CP-550-cualif",
+      "destino": "CP-550-pena",
+      "tipo": "desarrolla",
+      "justificacion": "El apartado 3 agrava la pena del apartado 2 por la condición de la víctima."
+    },
+    {
+      "origen": "CP-550-doc",
+      "destino": "CP-550-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Equipara expresamente a docentes y sanitarios al sujeto pasivo del tipo básico."
+    },
+    {
+      "origen": "CP-551",
+      "destino": "CP-550-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Agrava en un grado el atentado del artículo anterior."
+    },
+    {
+      "origen": "CP-553",
+      "destino": "CP-550-tipo",
+      "tipo": "remite",
+      "justificacion": "Castiga los actos preparatorios de los delitos previstos en los artículos anteriores."
+    },
+    {
+      "origen": "CP-554-ffaa",
+      "destino": "CP-550-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende los hechos de los artículos 550 y 551 a los miembros de las Fuerzas Armadas de uniforme."
+    },
+    {
+      "origen": "CP-554-aux",
+      "destino": "CP-550-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende la protección a quienes acuden en auxilio de la autoridad."
+    },
+    {
+      "origen": "CP-554-emerg",
+      "destino": "CP-550-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende las penas del atentado a bomberos y equipos de socorro."
+    },
+    {
+      "origen": "CP-554-sp",
+      "destino": "CP-550-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende las penas del atentado al personal de seguridad privada bajo mando de las FCS."
+    },
+    {
+      "origen": "CP-556-resist",
+      "destino": "CP-550-tipo",
+      "tipo": "limita",
+      "justificacion": "Es el tipo residual: solo se aplica a quienes NO están comprendidos en el artículo 550."
+    },
+    {
+      "origen": "CP-556-respeto",
+      "destino": "CP-556-resist",
+      "tipo": "limita",
+      "justificacion": "Conducta de menor entidad que la resistencia grave, solo con pena de multa."
+    },
+    {
+      "origen": "CP-557-multitud",
+      "destino": "CP-557-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Agrava el tipo básico cuando lo comete una multitud idónea para afectar al orden público."
+    },
+    {
+      "origen": "CP-557-armas",
+      "destino": "CP-557-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Eleva las penas de los apartados anteriores por instrumentos peligrosos, pillaje o armas de fuego."
+    },
+    {
+      "origen": "CP-557-avalancha",
+      "destino": "CP-557-tipo",
+      "tipo": "limita",
+      "justificacion": "Supuesto autónomo que no exige actuar en grupo ni ánimo de atentar contra la paz pública."
+    },
+    {
+      "origen": "CP-557-bis",
+      "destino": "CP-557-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Tipifica la invasión u ocupación en grupo como modalidad de alteración de la paz pública."
+    },
+    {
+      "origen": "CP-557-tipo",
+      "destino": "CP-558",
+      "tipo": "prerrequisito",
+      "justificacion": "Entender el desorden público básico es previo a la perturbación del orden en actos concretos."
+    },
+    {
+      "origen": "CP-561",
+      "destino": "CP-557-avalancha",
+      "tipo": "limita",
+      "justificacion": "La avalancha del 557.5 se provoca materialmente; aquí basta simular el peligro y que se movilicen los servicios."
+    },
+    {
+      "origen": "CP-560-suministros",
+      "destino": "CP-560-telecom",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende la misma pena a las conducciones de agua, gas o electricidad."
+    },
+    {
+      "origen": "CP-562",
+      "destino": "CP-557-multitud",
+      "tipo": "limita",
+      "justificacion": "La disposición común cede cuando el tipo ya contempla la condición de autoridad, como hace el 557.2."
+    },
+    {
+      "origen": "CP-564-circ",
+      "destino": "CP-564-tenencia",
+      "tipo": "desarrolla",
+      "justificacion": "Agrava las penas de la tenencia ilícita por marcas, introducción ilegal o transformación."
+    },
+    {
+      "origen": "CP-565",
+      "destino": "CP-564-tenencia",
+      "tipo": "limita",
+      "justificacion": "Permite rebajar en un grado si falta la intención de usar las armas con fines ilícitos."
+    },
+    {
+      "origen": "CP-567-guerra",
+      "destino": "CP-566-guerra",
+      "tipo": "desarrolla",
+      "justificacion": "Define qué se entiende por depósito a efectos del tipo del artículo 566."
+    },
+    {
+      "origen": "CP-567-regl",
+      "destino": "CP-566-regl",
+      "tipo": "desarrolla",
+      "justificacion": "Fija en cinco el número de armas reglamentadas que constituye depósito."
+    },
+    {
+      "origen": "CP-569",
+      "destino": "CP-566-guerra",
+      "tipo": "desarrolla",
+      "justificacion": "Añade la disolución judicial cuando el depósito se establece por cuenta de una asociación delictiva."
+    },
+    {
+      "origen": "CP-570",
+      "destino": "CP-563",
+      "tipo": "desarrolla",
+      "justificacion": "Añade la privación del derecho a la tenencia y porte de armas a los delitos del capítulo."
+    },
+    {
+      "origen": "CP-568",
+      "destino": "CP-566-guerra",
+      "tipo": "limita",
+      "justificacion": "Somete los explosivos a un marco penal propio, distinto del de las armas de guerra."
+    },
+    {
+      "origen": "CP-563",
+      "destino": "ARM-016",
+      "tipo": "remite",
+      "justificacion": "El concepto penal de arma prohibida se llena con el artículo 4 del Reglamento de Armas."
+    },
+    {
+      "origen": "CP-563",
+      "destino": "ARM-017",
+      "tipo": "remite",
+      "justificacion": "El artículo 5 del Reglamento completa el catálogo de armas prohibidas salvo para funcionarios habilitados."
+    },
+    {
+      "origen": "CP-564-tenencia",
+      "destino": "ARM-007",
+      "tipo": "remite",
+      "justificacion": "Qué es un arma reglamentada y en qué categoría está lo determina el Reglamento de Armas."
+    },
+    {
+      "origen": "CP-556-resist",
+      "destino": "SC-036-desob",
+      "tipo": "limita",
+      "justificacion": "El delito desplaza a la infracción administrativa grave de desobediencia o resistencia."
+    },
+    {
+      "origen": "CP-556-respeto",
+      "destino": "SC-037-respeto",
+      "tipo": "limita",
+      "justificacion": "Delimita la falta de respeto penal frente a la infracción leve de la LO 4/2015."
+    },
+    {
+      "origen": "CP-557-tipo",
+      "destino": "SC-036-desord",
+      "tipo": "limita",
+      "justificacion": "El delito de desórdenes desplaza a la infracción administrativa grave equivalente."
+    },
+    {
+      "origen": "CP-557-bis",
+      "destino": "SC-037-ocupa",
+      "tipo": "limita",
+      "justificacion": "Delimita la ocupación penal en grupo frente a la infracción leve de ocupación de inmueble."
+    },
+    {
+      "origen": "CP-554-emerg",
+      "destino": "SC-036-emerg",
+      "tipo": "limita",
+      "justificacion": "El atentado desplaza a la infracción administrativa de obstaculizar los servicios de emergencia."
+    },
+    {
+      "origen": "CP-551",
+      "destino": "CP-147-trat",
+      "tipo": "remite",
+      "justificacion": "El apartado 2.º agrava cuando el acto pueda causar lesiones graves del artículo 147."
+    },
+    {
+      "origen": "CP-016-def",
+      "destino": "CP-553",
+      "tipo": "prerrequisito",
+      "justificacion": "Distinguir tentativa de actos preparatorios punibles exige dominar antes el concepto de tentativa."
+    },
+    {
+      "origen": "CP-550-tipo",
+      "destino": "CP-138",
+      "tipo": "limita",
+      "justificacion": "El atentado concurre con el homicidio: las penas del Título se imponen sin perjuicio de los delitos concretos."
+    }
+  ]
+}
