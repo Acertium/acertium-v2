@@ -1,0 +1,669 @@
+{
+  "meta": {
+    "materia": "actitudes-valores-sociales-psicologia-social",
+    "norma": "Actitudes y valores sociales (psicología social): concepto de actitud (Allport, 1935; DLE RAE-ASALE), componentes de la actitud (Rosenberg y Hovland, 1960), funciones de las actitudes (Katz, 1960), estereotipo/prejuicio/discriminación/xenofobia/dogmatismo (DLE RAE-ASALE; Allport, 1954), personalidad autoritaria (Adorno y cols., 1950), dogmatismo (Rokeach, 1960) y grupos sociales (Cooley, 1909; Sumner, 1906)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "RAE-ASALE — Diccionario de la lengua española (DLE), s.v. «actitud», «estereotipo», «prejuicio», «discriminación», «xenofobia», «dogmatismo» — https://dle.rae.es (consultado 2026-08-16)",
+      "Allport, G. W. (1935), «Attitudes», en C. Murchison (ed.), Handbook of Social Psychology, Clark University Press, pág. 810 (definición clásica de actitud)",
+      "Rosenberg, M. J. y Hovland, C. I. (1960), «Cognitive, Affective and Behavioral Components of Attitudes», en Attitude Organization and Change, Yale University Press, pág. 1-14 (modelo tricomponencial)",
+      "Katz, D. (1960), «The Functional Approach to the Study of Attitudes», Public Opinion Quarterly, vol. 24, pág. 163-204 (cuatro funciones de las actitudes)",
+      "Adorno, T. W., Frenkel-Brunswik, E., Levinson, D. J. y Sanford, R. N. (1950), The Authoritarian Personality, Harper & Row (Studies in Prejudice, III); apartado «escala F» (personalidad autoritaria, etnocentrismo)",
+      "Rokeach, M. (1960), The Open and Closed Mind: Investigations into the Nature of Belief Systems and Personality Systems, Basic Books — https://archive.org/details/openclosedmindin0000roke (dogmatismo)",
+      "Allport, G. W. (1954), The Nature of Prejudice, Addison-Wesley, pág. 9 (definición de prejuicio)",
+      "Cooley, C. H. (1909), Social Organization: A Study of the Larger Mind, Charles Scribner's Sons, capítulo III «Primary Groups» (grupos primarios y secundarios)",
+      "Sumner, W. G. (1906), Folkways, Ginn & Co. — https://www.gutenberg.org/files/24253/24253-h/24253-h.htm (endogrupo, exogrupo y etnocentrismo)"
+    ],
+    "tipo_fuente": "consenso",
+    "estado_verificacion": "pendiente_revision",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 29 — Actitudes y valores sociales: formación de actitudes (concepto, componentes, funciones); estereotipos, prejuicios, discriminación; personalidad autoritaria (xenofobia, dogmatismo); grupos sociales",
+    "_nota_grouping": "GRUPO C (mixto), familia única ACTIT. Mezcla dos tipos de fuente por concepto: 6 conceptos AUTORIDAD = cita literal del DLE (ACTIT-001..006; términos actitud, estereotipo, prejuicio, discriminación, xenofobia, dogmatismo) y 8 conceptos CONSENSO = paráfrasis fiel de modelos de psicología social con referencia concreta a autor/obra reconocidos (ACTIT-007..014). Como cargar.mjs estampa UN solo estado por lote a partir de meta.tipo_fuente, el meta se fija en 'consenso'/'pendiente_revision' (opción segura: nada se sirve sin revisión humana). El revisor puede promover a 'verificado' de forma rápida los 6 conceptos AUTORIDAD (cita literal del DLE, gate literal ya cumplido) y debe revisar con cuidado los 8 CONSENSO. El tipo por concepto va en cada concepto y actividad (campo tipo_fuente). La familia ACTIT NO está en registro-materias.json: verificar-meta dará 'familia no registrada' (ESPERADO; no se ha tocado el registro por indicación del encargo).",
+    "_entrada_registro_propuesta": {
+      "ACTIT": {
+        "materia": "actitudes-valores-sociales-psicologia-social",
+        "norma": "Actitudes y valores sociales (psicología social): concepto, componentes y funciones de la actitud; estereotipo, prejuicio y discriminación; personalidad autoritaria y dogmatismo; grupos sociales",
+        "referencia_boe": "",
+        "referencia_fuente": "https://dle.rae.es (DLE, autoridad) + Allport 1935/1954, Rosenberg y Hovland 1960, Katz 1960, Adorno y cols. 1950, Rokeach 1960, Cooley 1909, Sumner 1906 (consenso); dominios citables: dle.rae.es, archive.org, gutenberg.org (consulta 2026-08-16)",
+        "temas": ["Tema 29 — Actitudes y valores sociales: formación de actitudes (concepto, componentes, funciones); estereotipos, prejuicios, discriminación; personalidad autoritaria (xenofobia, dogmatismo); grupos sociales"]
+      }
+    }
+  },
+  "fuentes": {
+    "DLE — actitud": "Del lat. actitūdo. 1. f. Postura del cuerpo, especialmente cuando expresa un estado de ánimo. Las actitudes de un orador. La actitud agresiva del perro. 2. f. Disposición de ánimo manifestada de algún modo. Actitud benévola, pacífica, amenazadora, de una persona, de un partido, de un Gobierno.",
+    "DLE — estereotipo": "Del gr. στερεός stereós 'sólido' y τύπος týpos 'molde'. 1. m. Imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable. 2. m. Impr. Plancha utilizada en estereotipia.",
+    "DLE — prejuicio": "Del lat. praeiudicium 'juicio previo', 'decisión prematura'. 1. m. Acción y efecto de prejuzgar. 2. m. Opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal.",
+    "DLE — discriminación": "Del lat. discriminatio, -ōnis. 1. f. Acción y efecto de discriminar. discriminación positiva 1. f. Protección de carácter extraordinario que se da a un grupo social históricamente discriminado.",
+    "DLE — xenofobia": "De xeno- y -fobia. 1. f. Fobia a lo extranjero o a los extranjeros.",
+    "DLE — dogmatismo": "Del lat. tardío dogmatismus 'enseñanza de la fe cristiana', y este del gr. δογματισμός dogmatismós 'principio doctrinal'. 1. m. Presunción de quienes quieren que su doctrina o sus aseveraciones sean tenidas por verdades inconcusas. 2. m. Conjunto de las proposiciones que se tienen por principios innegables en una ciencia. 3. m. Conjunto de todo lo que es dogmático en religión. 4. m. Fil. Concepción filosófica opuesta al escepticismo, la cual considera la razón humana capaz del conocimiento de verdades absolutas.",
+    "Allport 1935 — definición de actitud": "Según Gordon Allport (1935), la actitud es un estado de disposición mental y neurológica, organizado a través de la experiencia, que ejerce una influencia directriz o dinámica sobre la respuesta del individuo ante todos los objetos y situaciones con los que se relaciona.",
+    "Rosenberg y Hovland 1960 — componentes de la actitud": "Según el modelo tricomponencial de Rosenberg y Hovland (1960), la actitud se compone de tres elementos —cognitivo, afectivo y conductual o comportamental—: un componente cognitivo, que reúne las creencias e ideas sobre el objeto de la actitud; un componente afectivo, que son los sentimientos y emociones que ese objeto suscita; y un componente conductual o comportamental, que es la predisposición a actuar de un determinado modo hacia el objeto.",
+    "Katz 1960 — funciones de las actitudes": "Daniel Katz (1960) distinguió cuatro funciones de las actitudes —de conocimiento, utilitaria o instrumental, expresiva de valores y de defensa del yo—: la función de conocimiento, que organiza y da sentido a la información sobre el mundo; la función utilitaria o instrumental, que ayuda a obtener recompensas y evitar castigos; la función expresiva de valores, que permite expresar los valores centrales del propio yo; y la función de defensa del yo, que protege a la persona de conflictos internos y de amenazas a su autoestima.",
+    "Adorno 1950 — personalidad autoritaria": "En La personalidad autoritaria (1950), Theodor W. Adorno y sus colaboradores describieron un tipo de personalidad caracterizado por el sometimiento rígido a la autoridad del propio grupo, la hostilidad hacia los grupos ajenos, el convencionalismo y la intolerancia a la ambigüedad; para medir esta predisposición elaboraron la escala F o escala de fascismo. El prejuicio y el etnocentrismo se entienden así como expresión de esa estructura de personalidad.",
+    "Rokeach 1960 — dogmatismo": "Milton Rokeach (1960), en La mente abierta y cerrada, definió el dogmatismo como un sistema cerrado de creencias y descreencias organizado en torno a un conjunto central de creencias sobre la autoridad, concebida como absoluta. La mente cerrada se distingue por su estructura, no por el contenido de las ideas, de modo que una persona puede sostener cualquier ideología de forma dogmática.",
+    "Allport 1954 — prejuicio": "Gordon Allport (1954), en La naturaleza del prejuicio, definió el prejuicio como una antipatía basada en una generalización defectuosa e inflexible, que puede sentirse o expresarse y puede dirigirse contra un grupo en su conjunto o contra un individuo por pertenecer a ese grupo.",
+    "Cooley 1909 — grupos primarios y secundarios": "El sociólogo Charles H. Cooley (1909) llamó grupos primarios a los caracterizados por una asociación y cooperación íntimas y cara a cara, que son fundamentales en la formación de la naturaleza social y los ideales del individuo, como la familia. Frente a ellos, los grupos secundarios son más amplios, impersonales y orientados a una finalidad o tarea.",
+    "Sumner 1906 — endogrupo, exogrupo y etnocentrismo": "William G. Sumner (1906), en Folkways, introdujo la distinción entre el endogrupo o in-group, aquel al que la persona pertenece, y el exogrupo u out-group, aquel al que no pertenece, y acuñó el término etnocentrismo para designar la visión de las cosas según la cual el propio grupo es el centro de todo y los demás se valoran y ordenan con referencia a él."
+  },
+  "conceptos": [
+    {
+      "id": "ACTIT-001",
+      "articulo": "DLE — actitud",
+      "titulo": "Actitud (definición del DLE)",
+      "resumen": "En su segunda acepción, el DLE define la actitud como la disposición de ánimo manifestada de algún modo; en la primera, como la postura del cuerpo, especialmente cuando expresa un estado de ánimo.",
+      "explicacion": "El punto de partida del tema es el término «actitud». El Diccionario de la lengua española recoge dos acepciones: una física (postura del cuerpo que expresa un estado de ánimo) y otra psicológica (disposición de ánimo manifestada de algún modo). La psicología social parte de esta segunda para construir su propio concepto técnico.",
+      "tipo_fuente": "autoridad",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «actitud» — https://dle.rae.es/actitud"
+    },
+    {
+      "id": "ACTIT-002",
+      "articulo": "DLE — estereotipo",
+      "titulo": "Estereotipo (definición del DLE)",
+      "resumen": "El DLE define el estereotipo como la imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable.",
+      "explicacion": "El estereotipo es una imagen fija y compartida que un grupo aplica a otro sin matices. El DLE subraya dos rasgos: es aceptada «comúnmente» por un grupo o sociedad y tiene «carácter inmutable». En el esquema clásico, el estereotipo es el ingrediente cognitivo que alimenta el prejuicio y la discriminación.",
+      "tipo_fuente": "autoridad",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «estereotipo» — https://dle.rae.es/estereotipo"
+    },
+    {
+      "id": "ACTIT-003",
+      "articulo": "DLE — prejuicio",
+      "titulo": "Prejuicio (definición del DLE)",
+      "resumen": "En su segunda acepción, el DLE define el prejuicio como la opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal.",
+      "explicacion": "El prejuicio es un juicio previo. El DLE lo define como una «opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal»: se forma antes de conocer y resiste a la evidencia. En el esquema del tema es el componente afectivo, entre el estereotipo (cognitivo) y la discriminación (conductual).",
+      "tipo_fuente": "autoridad",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «prejuicio» — https://dle.rae.es/prejuicio"
+    },
+    {
+      "id": "ACTIT-004",
+      "articulo": "DLE — discriminación",
+      "titulo": "Discriminación y discriminación positiva (DLE)",
+      "resumen": "El DLE define la discriminación como la acción y efecto de discriminar; y la discriminación positiva como la protección de carácter extraordinario que se da a un grupo social históricamente discriminado.",
+      "explicacion": "La discriminación es la conducta: la acción y efecto de discriminar (dar trato desigual). El DLE recoge además la «discriminación positiva», que no es discriminar en sentido peyorativo, sino una protección extraordinaria a favor de un grupo históricamente discriminado. En el tema, la discriminación es el componente conductual que sigue al estereotipo y al prejuicio.",
+      "tipo_fuente": "autoridad",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «discriminación» — https://dle.rae.es/discriminación"
+    },
+    {
+      "id": "ACTIT-005",
+      "articulo": "DLE — xenofobia",
+      "titulo": "Xenofobia (definición del DLE)",
+      "resumen": "El DLE define la xenofobia como la fobia a lo extranjero o a los extranjeros.",
+      "explicacion": "La xenofobia es, según el DLE, la «fobia a lo extranjero o a los extranjeros». Conviene no confundirla con el racismo (que sostiene la superioridad de un grupo étnico): la xenofobia es rechazo a lo extranjero. Es una de las manifestaciones típicas de la hostilidad hacia el exogrupo propia de la personalidad autoritaria.",
+      "tipo_fuente": "autoridad",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «xenofobia» — https://dle.rae.es/xenofobia"
+    },
+    {
+      "id": "ACTIT-006",
+      "articulo": "DLE — dogmatismo",
+      "titulo": "Dogmatismo (definición del DLE)",
+      "resumen": "En su primera acepción, el DLE define el dogmatismo como la presunción de quienes quieren que su doctrina o sus aseveraciones sean tenidas por verdades inconcusas; en la acepción filosófica, como la concepción opuesta al escepticismo que considera la razón capaz de conocer verdades absolutas.",
+      "explicacion": "El DLE ofrece varias acepciones de «dogmatismo». La primera, la más útil para el tema, es la «presunción de quienes quieren que su doctrina o sus aseveraciones sean tenidas por verdades inconcusas» (indiscutibles). La acepción filosófica lo opone al escepticismo. La psicología social (Rokeach) retomará el término para describir la mente cerrada.",
+      "tipo_fuente": "autoridad",
+      "estado_verificacion": "verificado",
+      "revision_humana": "no_requerida",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «dogmatismo» — https://dle.rae.es/dogmatismo"
+    },
+    {
+      "id": "ACTIT-007",
+      "articulo": "Allport 1935 — definición de actitud",
+      "titulo": "Concepto psicosocial de actitud (Allport, 1935)",
+      "resumen": "Para Gordon Allport (1935), la actitud es un estado de disposición mental y neurológica, organizado a través de la experiencia, que ejerce una influencia directriz o dinámica sobre la respuesta del individuo ante los objetos y situaciones con los que se relaciona.",
+      "explicacion": "La definición clásica de actitud en psicología social es la de Allport (1935). Tres claves: es una «disposición» (no una conducta ya realizada), está «organizada a través de la experiencia» (se aprende, no se hereda) y «ejerce una influencia directriz o dinámica» sobre la respuesta (orienta cómo reaccionamos). De aquí parten los componentes y las funciones.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Allport, G. W. (1935), «Attitudes», en Handbook of Social Psychology (ed. C. Murchison), Clark University Press, pág. 810"
+    },
+    {
+      "id": "ACTIT-008",
+      "articulo": "Rosenberg y Hovland 1960 — componentes de la actitud",
+      "titulo": "Componentes de la actitud: cognitivo, afectivo y conductual (Rosenberg y Hovland, 1960)",
+      "resumen": "Según el modelo tricomponencial de Rosenberg y Hovland (1960), la actitud tiene tres componentes: cognitivo (creencias e ideas), afectivo (sentimientos y emociones) y conductual o comportamental (predisposición a actuar).",
+      "explicacion": "El modelo tricomponencial (o modelo ABC) de Rosenberg y Hovland (1960) descompone la actitud en tres partes: el componente cognitivo (lo que creo y pienso del objeto), el afectivo (lo que siento) y el conductual (cómo tiendo a actuar). Aplicado al tema: el estereotipo es cognitivo, el prejuicio es afectivo y la discriminación es conductual.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Rosenberg, M. J. y Hovland, C. I. (1960), Attitude Organization and Change, Yale University Press, pág. 1-14"
+    },
+    {
+      "id": "ACTIT-009",
+      "articulo": "Katz 1960 — funciones de las actitudes",
+      "titulo": "Funciones de las actitudes (Katz, 1960)",
+      "resumen": "Katz (1960) distinguió cuatro funciones de las actitudes: de conocimiento, utilitaria o instrumental, expresiva de valores y de defensa del yo.",
+      "explicacion": "Katz (1960) preguntó para qué sirven las actitudes y describió cuatro funciones: de conocimiento (ordenar la información del mundo), utilitaria o instrumental (obtener recompensas y evitar castigos), expresiva de valores (mostrar quiénes somos) y de defensa del yo (protegernos de amenazas a la autoestima). Conocer la función explica por qué una actitud es difícil de cambiar.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Katz, D. (1960), «The Functional Approach to the Study of Attitudes», Public Opinion Quarterly, vol. 24, pág. 163-204"
+    },
+    {
+      "id": "ACTIT-010",
+      "articulo": "Adorno 1950 — personalidad autoritaria",
+      "titulo": "La personalidad autoritaria (Adorno y cols., 1950)",
+      "resumen": "En La personalidad autoritaria (1950), Adorno y sus colaboradores describieron una personalidad marcada por el sometimiento rígido a la autoridad del propio grupo, la hostilidad hacia los grupos ajenos, el convencionalismo y la intolerancia a la ambigüedad, y elaboraron la escala F para medirla.",
+      "explicacion": "Tras la Segunda Guerra Mundial, Adorno, Frenkel-Brunswik, Levinson y Sanford (1950) estudiaron por qué algunas personas son especialmente propensas al prejuicio. Definieron la «personalidad autoritaria»: sumisión a la autoridad del propio grupo, hostilidad al exogrupo, convencionalismo e intolerancia a la ambigüedad. Para medirla crearon la escala F (de fascismo). La xenofobia y el etnocentrismo son manifestaciones de esta estructura.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Adorno, T. W., Frenkel-Brunswik, E., Levinson, D. J. y Sanford, R. N. (1950), The Authoritarian Personality, Harper & Row; apartado «escala F»"
+    },
+    {
+      "id": "ACTIT-011",
+      "articulo": "Rokeach 1960 — dogmatismo",
+      "titulo": "Dogmatismo y mente cerrada (Rokeach, 1960)",
+      "resumen": "Rokeach (1960) definió el dogmatismo como un sistema cerrado de creencias y descreencias organizado en torno a un conjunto central de creencias sobre la autoridad, concebida como absoluta; la mente cerrada se distingue por su estructura, no por el contenido de las ideas.",
+      "explicacion": "Rokeach (1960) generalizó la idea de autoritarismo con el concepto de «dogmatismo»: no importa qué se cree, sino cómo se cree. La mente cerrada organiza sus creencias en torno a una autoridad absoluta y rechaza toda información que la contradiga. Por eso una persona de cualquier ideología puede ser dogmática. Es el enfoque estructural, no de contenido.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Rokeach, M. (1960), The Open and Closed Mind, Basic Books — https://archive.org/details/openclosedmindin0000roke"
+    },
+    {
+      "id": "ACTIT-012",
+      "articulo": "Allport 1954 — prejuicio",
+      "titulo": "El prejuicio en psicología social (Allport, 1954)",
+      "resumen": "Allport (1954) definió el prejuicio como una antipatía basada en una generalización defectuosa e inflexible, que puede sentirse o expresarse y dirigirse contra un grupo en su conjunto o contra un individuo por pertenecer a él.",
+      "explicacion": "La definición de prejuicio más citada en psicología social es la de Allport (1954): «una antipatía basada en una generalización defectuosa e inflexible». Dos notas clave: la generalización es «defectuosa» (mal fundada) e «inflexible» (resiste a la evidencia); si la persona corrige su juicio ante nuevos datos, no hay prejuicio. Amplía la definición del DLE con el rasgo de rigidez.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Allport, G. W. (1954), The Nature of Prejudice, Addison-Wesley, pág. 9"
+    },
+    {
+      "id": "ACTIT-013",
+      "articulo": "Cooley 1909 — grupos primarios y secundarios",
+      "titulo": "Grupos primarios y secundarios (Cooley, 1909)",
+      "resumen": "Cooley (1909) llamó grupos primarios a los caracterizados por una asociación y cooperación íntimas y cara a cara, como la familia; frente a ellos, los grupos secundarios son más amplios, impersonales y orientados a una finalidad o tarea.",
+      "explicacion": "Cooley (1909) distinguió dos clases de grupos sociales. Los grupos primarios se definen por la relación «íntima y cara a cara» (la familia, los amigos): son los que forman la naturaleza social del individuo. Los grupos secundarios son mayores, impersonales y orientados a una tarea (una empresa, un partido). El contacto directo es lo que separa unos de otros.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Cooley, C. H. (1909), Social Organization: A Study of the Larger Mind, capítulo III «Primary Groups»"
+    },
+    {
+      "id": "ACTIT-014",
+      "articulo": "Sumner 1906 — endogrupo, exogrupo y etnocentrismo",
+      "titulo": "Endogrupo, exogrupo y etnocentrismo (Sumner, 1906)",
+      "resumen": "Sumner (1906) distinguió el endogrupo o in-group (al que la persona pertenece) del exogrupo u out-group (al que no pertenece), y acuñó el término etnocentrismo como la visión según la cual el propio grupo es el centro de todo y los demás se valoran con referencia a él.",
+      "explicacion": "Sumner (1906) aportó tres conceptos clave sobre los grupos. El endogrupo (in-group) es aquel al que uno pertenece; el exogrupo (out-group), aquel al que no pertenece. Y el etnocentrismo es tomar al propio grupo como centro de todo y medir a los demás con su vara. El etnocentrismo enlaza con la hostilidad al exogrupo de la personalidad autoritaria.",
+      "tipo_fuente": "consenso",
+      "estado_verificacion": "pendiente_revision",
+      "revision_humana": "pendiente",
+      "referencia_fuente": "Sumner, W. G. (1906), Folkways, Ginn & Co. — https://www.gutenberg.org/files/24253/24253-h/24253-h.htm"
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "ACTIT-001",
+      "articulo": "DLE — actitud",
+      "tipo": "test",
+      "enunciado": "Según la segunda acepción del Diccionario de la lengua española, ¿qué es la actitud?",
+      "opciones": [
+        "Disposición de ánimo manifestada de algún modo",
+        "Aptitud o capacidad natural para desempeñar bien una tarea determinada",
+        "Reacción emocional pasajera provocada por un estímulo externo repentino",
+        "Conjunto de rasgos heredados que definen el temperamento de la persona"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. f. Disposición de ánimo manifestada de algún modo.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «actitud», acepción 2.",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «actitud» — https://dle.rae.es/actitud"
+    },
+    {
+      "concepto_id": "ACTIT-001",
+      "articulo": "DLE — actitud",
+      "tipo": "test",
+      "enunciado": "En su primera acepción, ¿cómo define el DLE la actitud?",
+      "opciones": [
+        "Postura del cuerpo, especialmente cuando expresa un estado de ánimo",
+        "Manera de vestir o de arreglarse que refleja la personalidad de alguien",
+        "Movimiento brusco del cuerpo con el que se responde a una amenaza",
+        "Gesto del rostro con el que se disimula el verdadero estado de ánimo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. f. Postura del cuerpo, especialmente cuando expresa un estado de ánimo.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «actitud», acepción 1.",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «actitud» — https://dle.rae.es/actitud"
+    },
+    {
+      "concepto_id": "ACTIT-002",
+      "articulo": "DLE — estereotipo",
+      "tipo": "test",
+      "enunciado": "Según el Diccionario de la lengua española, ¿qué es un estereotipo?",
+      "opciones": [
+        "Imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable",
+        "Opinión previa y desfavorable que una persona se forma sobre otra a la que en realidad conoce mal",
+        "Trato desigual y perjudicial que se da a alguien por su origen o su condición social",
+        "Creencia que afirma la superioridad de un grupo étnico sobre todos los demás grupos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. m. Imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «estereotipo», acepción 1. Los distractores son definiciones reales de prejuicio, discriminación y racismo.",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «estereotipo» — https://dle.rae.es/estereotipo"
+    },
+    {
+      "concepto_id": "ACTIT-003",
+      "articulo": "DLE — prejuicio",
+      "tipo": "test",
+      "enunciado": "En su segunda acepción, ¿cómo define el DLE el prejuicio?",
+      "opciones": [
+        "Opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal",
+        "Imagen o idea aceptada comúnmente por un grupo o por toda una sociedad, con carácter fijo e inmutable",
+        "Daño moral o material causado a alguien de forma injusta, deliberada y difícil de reparar",
+        "Rechazo instintivo hacia lo extranjero y hacia las personas procedentes de otros países"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. m. Opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «prejuicio», acepción 2.",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «prejuicio» — https://dle.rae.es/prejuicio"
+    },
+    {
+      "concepto_id": "ACTIT-004",
+      "articulo": "DLE — discriminación",
+      "tipo": "test",
+      "enunciado": "¿Cómo define el DLE la «discriminación positiva»?",
+      "opciones": [
+        "Protección de carácter extraordinario que se da a un grupo social históricamente discriminado",
+        "Distinción justificada y razonable que la ley permite hacer entre situaciones que son objetivamente distintas",
+        "Trato de favor que se concede a una persona por sus méritos y por su propio esfuerzo personal",
+        "Preferencia arbitraria hacia el propio grupo en el reparto de los recursos y servicios públicos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "discriminación positiva 1. f. Protección de carácter extraordinario que se da a un grupo social históricamente discriminado.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «discriminación» (subentrada «discriminación positiva»).",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «discriminación» — https://dle.rae.es/discriminación"
+    },
+    {
+      "concepto_id": "ACTIT-004",
+      "articulo": "DLE — discriminación",
+      "tipo": "test",
+      "enunciado": "En su primera acepción, ¿qué es la discriminación según el DLE?",
+      "opciones": [
+        "Acción y efecto de discriminar",
+        "Acción y efecto de prejuzgar",
+        "Acción y efecto de estereotipar",
+        "Acción y efecto de segregar"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. f. Acción y efecto de discriminar.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «discriminación», acepción 1.",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «discriminación» — https://dle.rae.es/discriminación"
+    },
+    {
+      "concepto_id": "ACTIT-005",
+      "articulo": "DLE — xenofobia",
+      "tipo": "test",
+      "enunciado": "Según el Diccionario de la lengua española, ¿qué es la xenofobia?",
+      "opciones": [
+        "Fobia a lo extranjero o a los extranjeros",
+        "Odio a las personas de otra religión",
+        "Rechazo hacia las personas de otra raza",
+        "Temor a los espacios abiertos y concurridos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. f. Fobia a lo extranjero o a los extranjeros.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «xenofobia».",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «xenofobia» — https://dle.rae.es/xenofobia"
+    },
+    {
+      "concepto_id": "ACTIT-006",
+      "articulo": "DLE — dogmatismo",
+      "tipo": "test",
+      "enunciado": "En su primera acepción, ¿cómo define el DLE el dogmatismo?",
+      "opciones": [
+        "Presunción de quienes quieren que su doctrina o sus aseveraciones sean tenidas por verdades inconcusas",
+        "Actitud de quienes ponen en duda de forma sistemática cualquier doctrina o afirmación ajena",
+        "Tendencia de quienes cambian con facilidad de doctrina según las circunstancias del momento",
+        "Rechazo de quienes niegan que la razón humana pueda alcanzar ningún conocimiento verdadero"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. m. Presunción de quienes quieren que su doctrina o sus aseveraciones sean tenidas por verdades inconcusas.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «dogmatismo», acepción 1.",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «dogmatismo» — https://dle.rae.es/dogmatismo"
+    },
+    {
+      "concepto_id": "ACTIT-006",
+      "articulo": "DLE — dogmatismo",
+      "tipo": "test",
+      "enunciado": "En su acepción filosófica (Fil.), ¿cómo define el DLE el dogmatismo?",
+      "opciones": [
+        "Concepción filosófica opuesta al escepticismo, la cual considera la razón humana capaz del conocimiento de verdades absolutas",
+        "Concepción filosófica opuesta al dogmatismo, la cual niega que la razón humana pueda alcanzar ninguna verdad segura",
+        "Concepción filosófica próxima al empirismo, la cual sostiene que todo conocimiento procede solo de la experiencia sensible",
+        "Concepción filosófica derivada del relativismo, la cual afirma que la verdad depende siempre del punto de vista de cada cual"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "4. m. Fil. Concepción filosófica opuesta al escepticismo, la cual considera la razón humana capaz del conocimiento de verdades absolutas.",
+      "justificacion": "RAE-ASALE, DLE, s.v. «dogmatismo», acepción 4 (Filosofía).",
+      "tipo_fuente": "autoridad",
+      "referencia_fuente": "RAE-ASALE, DLE, s.v. «dogmatismo» — https://dle.rae.es/dogmatismo"
+    },
+    {
+      "concepto_id": "ACTIT-007",
+      "articulo": "Allport 1935 — definición de actitud",
+      "tipo": "test",
+      "enunciado": "Según la definición clásica de Allport (1935), la actitud es sobre todo:",
+      "opciones": [
+        "un estado de disposición mental y neurológica, organizado a través de la experiencia, que ejerce una influencia directriz o dinámica sobre la respuesta del individuo",
+        "una pauta de conducta estable y observable que la persona repite de forma automática ante cualquier situación de su vida cotidiana",
+        "un rasgo de temperamento heredado que permanece invariable a lo largo de toda la vida del individuo y no depende de su experiencia",
+        "una emoción intensa y momentánea que aparece ante un objeto y desaparece en cuanto ese objeto deja de estar presente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la actitud es un estado de disposición mental y neurológica, organizado a través de la experiencia, que ejerce una influencia directriz o dinámica sobre la respuesta del individuo ante todos los objetos y situaciones con los que se relaciona",
+      "justificacion": "Allport (1935), definición clásica de actitud (Handbook of Social Psychology, pág. 810); paráfrasis fiel (consenso).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Allport, G. W. (1935), «Attitudes», Handbook of Social Psychology (ed. Murchison), pág. 810"
+    },
+    {
+      "concepto_id": "ACTIT-007",
+      "articulo": "Allport 1935 — definición de actitud",
+      "tipo": "test",
+      "enunciado": "Según Allport, la actitud es un estado de disposición mental y neurológica que está:",
+      "opciones": [
+        "organizado a través de la experiencia",
+        "determinado por la sola herencia biológica",
+        "fijado por completo desde el nacimiento",
+        "impuesto en exclusiva por el grupo social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la actitud es un estado de disposición mental y neurológica, organizado a través de la experiencia",
+      "justificacion": "Allport (1935): el carácter aprendido de la actitud («organizado a través de la experiencia»); paráfrasis fiel (consenso).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Allport, G. W. (1935), «Attitudes», Handbook of Social Psychology (ed. Murchison), pág. 810"
+    },
+    {
+      "concepto_id": "ACTIT-008",
+      "articulo": "Rosenberg y Hovland 1960 — componentes de la actitud",
+      "tipo": "test",
+      "enunciado": "Según el modelo tricomponencial de Rosenberg y Hovland (1960), ¿cuáles son los tres componentes de la actitud?",
+      "opciones": [
+        "cognitivo, afectivo y conductual o comportamental",
+        "perceptivo, motivacional y volitivo o de la voluntad",
+        "racional, emocional y moral o de los valores propios",
+        "hereditario, aprendido y cultural o del entorno social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la actitud se compone de tres elementos —cognitivo, afectivo y conductual o comportamental—",
+      "justificacion": "Rosenberg y Hovland (1960), modelo tricomponencial; paráfrasis fiel (consenso).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Rosenberg y Hovland (1960), Attitude Organization and Change, Yale University Press, pág. 1-14"
+    },
+    {
+      "concepto_id": "ACTIT-008",
+      "articulo": "Rosenberg y Hovland 1960 — componentes de la actitud",
+      "tipo": "test",
+      "enunciado": "En el modelo tricomponencial, ¿a qué corresponde el componente cognitivo de la actitud?",
+      "opciones": [
+        "las creencias e ideas sobre el objeto de la actitud",
+        "los sentimientos y emociones que ese objeto suscita",
+        "la predisposición a actuar de un determinado modo hacia el objeto",
+        "la conducta observable que la persona muestra ante el objeto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "un componente cognitivo, que reúne las creencias e ideas sobre el objeto de la actitud",
+      "justificacion": "Rosenberg y Hovland (1960): componente cognitivo; los distractores son los otros dos componentes del propio modelo.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Rosenberg y Hovland (1960), Attitude Organization and Change, Yale University Press, pág. 1-14"
+    },
+    {
+      "concepto_id": "ACTIT-008",
+      "articulo": "Rosenberg y Hovland 1960 — componentes de la actitud",
+      "tipo": "test",
+      "enunciado": "En el modelo tricomponencial, el componente afectivo de la actitud se refiere a:",
+      "opciones": [
+        "los sentimientos y emociones que ese objeto suscita",
+        "las creencias e ideas sobre el objeto de la actitud",
+        "la predisposición a actuar de un determinado modo hacia el objeto",
+        "el conocimiento objetivo que se posee acerca del objeto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "un componente afectivo, que son los sentimientos y emociones que ese objeto suscita",
+      "justificacion": "Rosenberg y Hovland (1960): componente afectivo; los distractores son los otros componentes del modelo.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Rosenberg y Hovland (1960), Attitude Organization and Change, Yale University Press, pág. 1-14"
+    },
+    {
+      "concepto_id": "ACTIT-009",
+      "articulo": "Katz 1960 — funciones de las actitudes",
+      "tipo": "test",
+      "enunciado": "¿Cuáles son las cuatro funciones de las actitudes que distinguió Katz (1960)?",
+      "opciones": [
+        "de conocimiento, utilitaria o instrumental, expresiva de valores y de defensa del yo",
+        "de percepción, de motivación interna, de aprendizaje social y de adaptación al medio",
+        "cognitiva, afectiva, conductual y volitiva, según los componentes de la propia actitud",
+        "de identidad, de pertenencia, de comparación social y de cohesión con el propio grupo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "cuatro funciones de las actitudes —de conocimiento, utilitaria o instrumental, expresiva de valores y de defensa del yo—",
+      "justificacion": "Katz (1960): las cuatro funciones; paráfrasis fiel (consenso).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Katz, D. (1960), Public Opinion Quarterly, vol. 24, pág. 163-204"
+    },
+    {
+      "concepto_id": "ACTIT-009",
+      "articulo": "Katz 1960 — funciones de las actitudes",
+      "tipo": "test",
+      "enunciado": "Según Katz (1960), ¿qué hace la función de defensa del yo de las actitudes?",
+      "opciones": [
+        "protege a la persona de conflictos internos y de amenazas a su autoestima",
+        "ayuda a la persona a obtener recompensas y a evitar los castigos del entorno",
+        "organiza y da sentido a la información que la persona recibe sobre el mundo",
+        "permite a la persona expresar los valores centrales de su propio yo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la función de defensa del yo, que protege a la persona de conflictos internos y de amenazas a su autoestima",
+      "justificacion": "Katz (1960): función de defensa del yo; los distractores son las otras tres funciones del modelo.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Katz, D. (1960), Public Opinion Quarterly, vol. 24, pág. 163-204"
+    },
+    {
+      "concepto_id": "ACTIT-009",
+      "articulo": "Katz 1960 — funciones de las actitudes",
+      "tipo": "test",
+      "enunciado": "En el modelo de Katz, la función utilitaria o instrumental de una actitud sirve para:",
+      "opciones": [
+        "obtener recompensas y evitar castigos",
+        "expresar los valores centrales del propio yo",
+        "ordenar y dar sentido a la información sobre el mundo",
+        "defender a la persona frente a la ansiedad interna"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la función utilitaria o instrumental, que ayuda a obtener recompensas y evitar castigos",
+      "justificacion": "Katz (1960): función utilitaria o instrumental; los distractores son las otras tres funciones.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Katz, D. (1960), Public Opinion Quarterly, vol. 24, pág. 163-204"
+    },
+    {
+      "concepto_id": "ACTIT-010",
+      "articulo": "Adorno 1950 — personalidad autoritaria",
+      "tipo": "test",
+      "enunciado": "¿Qué instrumento elaboraron Adorno y sus colaboradores (1950) para medir la personalidad autoritaria?",
+      "opciones": [
+        "la escala F o escala de fascismo",
+        "la escala de distancia social de Bogardus",
+        "el diferencial semántico de las actitudes",
+        "la escala de dogmatismo de la mente cerrada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "para medir esta predisposición elaboraron la escala F o escala de fascismo",
+      "justificacion": "Adorno y cols. (1950): la escala F; los distractores son otros instrumentos reales de medición de actitudes/prejuicio.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Adorno y cols. (1950), The Authoritarian Personality, Harper & Row; apartado «escala F»"
+    },
+    {
+      "concepto_id": "ACTIT-010",
+      "articulo": "Adorno 1950 — personalidad autoritaria",
+      "tipo": "test",
+      "enunciado": "¿Qué rasgos caracterizan a la personalidad autoritaria descrita por Adorno y sus colaboradores (1950)?",
+      "opciones": [
+        "el sometimiento rígido a la autoridad del propio grupo, la hostilidad hacia los grupos ajenos, el convencionalismo y la intolerancia a la ambigüedad",
+        "la apertura a la experiencia, la tolerancia hacia lo diferente, el pensamiento crítico y la facilidad para revisar las propias creencias",
+        "la inseguridad afectiva, la dependencia emocional del grupo, la timidez social y la tendencia a evitar cualquier tipo de conflicto",
+        "la ambición personal, el afán de liderazgo, la competitividad extrema y el desprecio de las normas impuestas por la autoridad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "un tipo de personalidad caracterizado por el sometimiento rígido a la autoridad del propio grupo, la hostilidad hacia los grupos ajenos, el convencionalismo y la intolerancia a la ambigüedad",
+      "justificacion": "Adorno y cols. (1950): rasgos de la personalidad autoritaria; paráfrasis fiel (consenso).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Adorno y cols. (1950), The Authoritarian Personality, Harper & Row; apartado «escala F»"
+    },
+    {
+      "concepto_id": "ACTIT-011",
+      "articulo": "Rokeach 1960 — dogmatismo",
+      "tipo": "test",
+      "enunciado": "¿Cómo definió Rokeach (1960) el dogmatismo?",
+      "opciones": [
+        "un sistema cerrado de creencias y descreencias organizado en torno a un conjunto central de creencias sobre la autoridad, concebida como absoluta",
+        "una defensa apasionada y sin medida de unas creencias religiosas o políticas frente a quienes las ponen en duda",
+        "una opinión previa y tenaz, por lo general desfavorable, que la persona se forma sobre algo que en realidad conoce mal",
+        "una antipatía basada en una generalización defectuosa e inflexible dirigida contra los miembros de otro grupo social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "definió el dogmatismo como un sistema cerrado de creencias y descreencias organizado en torno a un conjunto central de creencias sobre la autoridad, concebida como absoluta",
+      "justificacion": "Rokeach (1960): definición de dogmatismo; los distractores describen fanatismo, prejuicio (DLE) y prejuicio (Allport), conceptos afines pero distintos.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Rokeach, M. (1960), The Open and Closed Mind, Basic Books — https://archive.org/details/openclosedmindin0000roke"
+    },
+    {
+      "concepto_id": "ACTIT-011",
+      "articulo": "Rokeach 1960 — dogmatismo",
+      "tipo": "test",
+      "enunciado": "Según Rokeach, ¿por qué se distingue la mente cerrada o dogmática?",
+      "opciones": [
+        "por su estructura, no por el contenido de las ideas",
+        "por el contenido político concreto de las ideas que defiende",
+        "por la escasa inteligencia de la persona que la posee",
+        "por la ausencia total de creencias firmes y estables"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La mente cerrada se distingue por su estructura, no por el contenido de las ideas, de modo que una persona puede sostener cualquier ideología de forma dogmática",
+      "justificacion": "Rokeach (1960): el enfoque estructural (no de contenido) del dogmatismo; paráfrasis fiel (consenso).",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Rokeach, M. (1960), The Open and Closed Mind, Basic Books — https://archive.org/details/openclosedmindin0000roke"
+    },
+    {
+      "concepto_id": "ACTIT-012",
+      "articulo": "Allport 1954 — prejuicio",
+      "tipo": "test",
+      "enunciado": "¿Cómo definió Gordon Allport (1954) el prejuicio en psicología social?",
+      "opciones": [
+        "una antipatía basada en una generalización defectuosa e inflexible",
+        "una imagen aceptada comúnmente por un grupo con carácter fijo e inmutable",
+        "un trato desigual y claramente perjudicial hacia los miembros de otro grupo",
+        "un rechazo instintivo hacia todo aquello que resulta extranjero o simplemente ajeno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "definió el prejuicio como una antipatía basada en una generalización defectuosa e inflexible",
+      "justificacion": "Allport (1954): definición de prejuicio; los distractores describen estereotipo, discriminación y xenofobia.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Allport, G. W. (1954), The Nature of Prejudice, Addison-Wesley, pág. 9"
+    },
+    {
+      "concepto_id": "ACTIT-013",
+      "articulo": "Cooley 1909 — grupos primarios y secundarios",
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza a los grupos primarios según Cooley (1909)?",
+      "opciones": [
+        "una asociación y cooperación íntimas y cara a cara",
+        "una organización amplia, impersonal y orientada a la tarea",
+        "una relación contractual y temporal entre desconocidos",
+        "un vínculo jerárquico regulado por normas escritas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "llamó grupos primarios a los caracterizados por una asociación y cooperación íntimas y cara a cara, que son fundamentales en la formación de la naturaleza social y los ideales del individuo, como la familia",
+      "justificacion": "Cooley (1909): grupos primarios; el distractor principal describe los grupos secundarios del propio autor.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Cooley, C. H. (1909), Social Organization, capítulo III «Primary Groups»"
+    },
+    {
+      "concepto_id": "ACTIT-013",
+      "articulo": "Cooley 1909 — grupos primarios y secundarios",
+      "tipo": "test",
+      "enunciado": "Frente a los grupos primarios, ¿cómo son los grupos secundarios según Cooley?",
+      "opciones": [
+        "más amplios, impersonales y orientados a una finalidad o tarea",
+        "más reducidos, íntimos y basados en el trato directo y afectivo",
+        "más antiguos, estables y transmitidos de una generación a otra",
+        "más igualitarios, espontáneos y sin ninguna clase de jerarquía"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "los grupos secundarios son más amplios, impersonales y orientados a una finalidad o tarea",
+      "justificacion": "Cooley (1909): grupos secundarios; el distractor principal describe los grupos primarios.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Cooley, C. H. (1909), Social Organization, capítulo III «Primary Groups»"
+    },
+    {
+      "concepto_id": "ACTIT-014",
+      "articulo": "Sumner 1906 — endogrupo, exogrupo y etnocentrismo",
+      "tipo": "test",
+      "enunciado": "¿Cómo definió Sumner (1906) el etnocentrismo?",
+      "opciones": [
+        "la visión de las cosas según la cual el propio grupo es el centro de todo y los demás se valoran y ordenan con referencia a él",
+        "la fobia a lo extranjero y el rechazo sistemático de las costumbres de las personas que proceden de otros países",
+        "la creencia que sostiene la superioridad biológica de un grupo étnico sobre todos los demás grupos humanos",
+        "la tendencia a preferir el trato con el propio grupo familiar por resultar más cómodo y previsible que el ajeno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "acuñó el término etnocentrismo para designar la visión de las cosas según la cual el propio grupo es el centro de todo y los demás se valoran y ordenan con referencia a él",
+      "justificacion": "Sumner (1906): definición de etnocentrismo; los distractores describen xenofobia y racismo, conceptos afines pero distintos.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Sumner, W. G. (1906), Folkways — https://www.gutenberg.org/files/24253/24253-h/24253-h.htm"
+    },
+    {
+      "concepto_id": "ACTIT-014",
+      "articulo": "Sumner 1906 — endogrupo, exogrupo y etnocentrismo",
+      "tipo": "test",
+      "enunciado": "En la terminología de Sumner (1906), ¿qué es el endogrupo o in-group?",
+      "opciones": [
+        "aquel al que la persona pertenece",
+        "aquel al que la persona no pertenece",
+        "aquel formado solo por la familia directa",
+        "aquel impuesto por la autoridad del Estado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el endogrupo o in-group, aquel al que la persona pertenece",
+      "justificacion": "Sumner (1906): endogrupo; el primer distractor es la definición del exogrupo del propio autor.",
+      "tipo_fuente": "consenso",
+      "referencia_fuente": "Sumner, W. G. (1906), Folkways — https://www.gutenberg.org/files/24253/24253-h/24253-h.htm"
+    }
+  ],
+  "relaciones": [
+    { "origen": "ACTIT-007", "destino": "ACTIT-001", "tipo": "desarrolla", "justificacion": "El concepto psicosocial de actitud de Allport concreta y amplía la definición común del DLE." },
+    { "origen": "ACTIT-008", "destino": "ACTIT-007", "tipo": "desarrolla", "justificacion": "Los tres componentes descomponen internamente la actitud definida por Allport." },
+    { "origen": "ACTIT-009", "destino": "ACTIT-007", "tipo": "desarrolla", "justificacion": "Las funciones explican para qué sirven las actitudes definidas por Allport." },
+    { "origen": "ACTIT-002", "destino": "ACTIT-003", "tipo": "prerrequisito", "justificacion": "El estereotipo (componente cognitivo) es la base sobre la que se forma el prejuicio." },
+    { "origen": "ACTIT-003", "destino": "ACTIT-004", "tipo": "prerrequisito", "justificacion": "El prejuicio (componente afectivo) precede a la discriminación (conducta) en el esquema clásico." },
+    { "origen": "ACTIT-002", "destino": "ACTIT-008", "tipo": "remite", "justificacion": "El estereotipo ejemplifica el componente cognitivo de la actitud." },
+    { "origen": "ACTIT-003", "destino": "ACTIT-008", "tipo": "remite", "justificacion": "El prejuicio ejemplifica el componente afectivo de la actitud." },
+    { "origen": "ACTIT-004", "destino": "ACTIT-008", "tipo": "remite", "justificacion": "La discriminación ejemplifica el componente conductual de la actitud." },
+    { "origen": "ACTIT-012", "destino": "ACTIT-003", "tipo": "desarrolla", "justificacion": "La definición psicosocial de prejuicio de Allport concreta la definición del DLE añadiendo el rasgo de rigidez." },
+    { "origen": "ACTIT-005", "destino": "ACTIT-003", "tipo": "desarrolla", "justificacion": "La xenofobia es un prejuicio específico dirigido a lo extranjero." },
+    { "origen": "ACTIT-011", "destino": "ACTIT-006", "tipo": "desarrolla", "justificacion": "El dogmatismo de Rokeach retoma y amplía la noción del DLE aplicándola a la estructura de la mente cerrada." },
+    { "origen": "ACTIT-011", "destino": "ACTIT-010", "tipo": "remite", "justificacion": "Rokeach generaliza el autoritarismo de Adorno en el concepto estructural de dogmatismo." },
+    { "origen": "ACTIT-010", "destino": "ACTIT-005", "tipo": "remite", "justificacion": "La hostilidad al exogrupo de la personalidad autoritaria se manifiesta en la xenofobia." },
+    { "origen": "ACTIT-010", "destino": "ACTIT-014", "tipo": "remite", "justificacion": "El etnocentrismo es la expresión grupal de la hostilidad al exogrupo de la personalidad autoritaria." },
+    { "origen": "ACTIT-014", "destino": "ACTIT-013", "tipo": "remite", "justificacion": "El endogrupo/exogrupo de Sumner complementa la clasificación de grupos primarios y secundarios de Cooley." },
+    { "origen": "ACTIT-004", "destino": "ETICA-003", "tipo": "remite", "justificacion": "PROPUESTA (externa ETICA): la discriminación conecta con la igualdad ante la ley y la no discriminación del art. 14 CE (ETICA-003)." },
+    { "origen": "ACTIT-005", "destino": "ETICA-006", "tipo": "remite", "justificacion": "PROPUESTA (externa ETICA): la xenofobia es un contravalor afín al racismo (ETICA-006)." },
+    { "origen": "ACTIT-012", "destino": "ETICA-004", "tipo": "limita", "justificacion": "PROPUESTA (externa ETICA): el prejuicio se opone a la tolerancia definida por la UNESCO (ETICA-004)." },
+    { "origen": "ACTIT-011", "destino": "ETICA-007", "tipo": "remite", "justificacion": "PROPUESTA (externa ETICA): el dogmatismo es afín al fanatismo como contravalor (ETICA-007)." }
+  ]
+}

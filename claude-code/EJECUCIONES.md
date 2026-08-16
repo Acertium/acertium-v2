@@ -5,6 +5,49 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-16 — PROMPT_017: Grupo C oleada 2 — y el temario NO queda completo
+
+**Encargo.** Cargar GLOB, ACTIT y SEGT (temas 28, 29, 33) con la mecánica del PROMPT_016. Detalle en
+`RESULTADO_017.md`.
+
+### Resultado
+
+| Familia | Conceptos | verificado | pendiente_revision |
+|---|---|---|---|
+| GLOB | 23 | 17 | 6 |
+| ACTIT | 14 | 6 | 8 |
+| SEGT | 21 | 10 | 11 |
+
+Exactamente lo previsto. Base: **2.634 conceptos**, **2.542 servibles**, **56 en cola**. Aserciones a
+0. Las 8 aristas cruzadas (ACTIT→ETICA, SEGT→SC/SP) resuelven; ninguna a `remision_pendiente`.
+Aislamiento: 0 pendientes alcanzables.
+
+### Un control mío que rechazaba contenido bueno
+
+`globalizacion.json` fue rechazado de entrada: sus 17 conceptos `autoridad` vienen marcados
+`pendiente_revision`, contra su propio `tipo_fuente`. El control lo añadí yo en el 016 y comparaba en
+**los dos sentidos**. Lo que hay que impedir es reclamar MÁS confianza de la que sostiene la fuente;
+reclamar menos es cauteloso, no peligroso. Ahora es asimétrico: rechaza el exceso, avisa del defecto,
+y manda el `tipo_fuente` (la regla del contrato). GLOB es el único de los seis lotes del Grupo C que
+lo declara así, y el encargo espera 17 verificado — pero **conviene que Cowork lo confirme**: son 17
+preguntas que se sirven y el lote pedía revisarlas.
+
+### **El temario no está completo — faltan 4 temas**
+
+La nota del encargo dice que con esto "el temario completo (1-45) está en el cerebro". **Comprobado
+contra el overlay: 41 de 45.** Tienen CERO conceptos los temas **19** (delitos contra el orden
+público: atentados a la autoridad, desórdenes, armas), **20** (delitos informáticos, prueba digital),
+**24** (introducción a PRL — lo cargado cubre el Tema 25, no el 24) y **45** (PRL en seguridad vial).
+No he inventado contenido para taparlos: hay que generarlos.
+
+### Pendientes / notas
+
+- Las 56 de consenso siguen sin revisar; los temas 28-33 se sirven solo con su parte citable.
+- El registro de SEGT se ajustó igual que ETICA: el lote cita el BOE por id y no `boe.es`, pero sí
+  `un.org` (DUDH), que el encargo no listaba.
+
+---
+
 ## 2026-08-16 — PROMPT_016: Grupo C oleada 1 + estado por concepto
 
 **Encargo.** Cargar ETICA, INMIG y GEOD (temas 30-32), lotes **mixtos**, y hacer que el estado de

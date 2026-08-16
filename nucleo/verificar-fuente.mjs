@@ -91,15 +91,23 @@ export function verificarFuente(lote) {
   const estadoDestino = estadoSegunTipoFuente(tipo);
 
   // El lote no puede autoproclamarse verificado si es consenso.
+  // Mismo criterio asimétrico que abajo: solo se rechaza reclamar MÁS confianza.
   const estadoDeclarado = meta.estado_verificacion;
-  if (estadoDeclarado && estadoDeclarado !== estadoDestino)
-    rechazos.push({
-      concepto: "(meta)",
-      motivo:
-        `el lote se declara estado_verificacion="${estadoDeclarado}" pero un lote ${tipo} ` +
-        `debe cargarse como "${estadoDestino}"` +
-        (tipo === "consenso" ? " (un consenso NUNCA se carga verificado)" : ""),
-    });
+  if (estadoDeclarado && estadoDeclarado !== estadoDestino) {
+    if (estadoDeclarado === "verificado")
+      rechazos.push({
+        concepto: "(meta)",
+        motivo:
+          `el lote se declara estado_verificacion="verificado" pero un lote ${tipo} ` +
+          `debe cargarse como "${estadoDestino}"` +
+          (tipo === "consenso" ? " (un consenso NUNCA se carga verificado)" : ""),
+      });
+    else
+      avisos.push({
+        concepto: "(meta)",
+        aviso: `el lote se declara "${estadoDeclarado}" siendo ${tipo}: manda el tipo_fuente`,
+      });
+  }
 
   // PROMPT_016: LOTES MIXTOS. Los del Grupo C traen su `tipo_fuente` POR
   // CONCEPTO: "inmigración" son 13 definiciones de la OIM y 3 del INE (citables
@@ -158,16 +166,35 @@ export function verificarFuente(lote) {
     }
   }
 
-  // Un concepto no puede autoproclamarse verificado si es de consenso, igual que
-  // el lote. Es el mismo control del contrato §3, aplicado al nivel donde ahora
-  // vive el tipo de fuente.
+  // Un concepto no puede autoproclamarse `verificado` si es de consenso (contrato
+  // §3), aplicado al nivel donde ahora vive el tipo de fuente.
+  //
+  // El control es ASIMÉTRICO a propósito. Lo que hay que impedir es que un lote
+  // reclame MÁS confianza de la que su fuente sostiene; que reclame MENOS no es
+  // peligroso, solo cauteloso. La primera versión comparaba `!==` y tumbó el
+  // lote de globalización entero: sus 17 conceptos de `autoridad` venían
+  // marcados `pendiente_revision`, contradiciendo su propio `tipo_fuente` —los
+  // otros cinco lotes del Grupo C lo declaran coherente, así que parece un
+  // bloque copiado, no una decisión—. Rechazar por exceso de prudencia es
+  // rechazar contenido bueno.
+  //
+  // Quien manda para cargar es el `tipo_fuente`, que es la regla del contrato;
+  // la discrepancia se avisa para que se revise el lote.
   for (const c of lote.conceptos || []) {
     const t = tipoPorConcepto.get(c.id) ?? tipo;
     const destino = estadoSegunTipoFuente(t);
-    if (c.estado_verificacion && c.estado_verificacion !== destino)
+    if (!c.estado_verificacion || c.estado_verificacion === destino) continue;
+    if (c.estado_verificacion === "verificado")
       rechazos.push({
         concepto: c.id,
-        motivo: `el concepto se declara estado_verificacion="${c.estado_verificacion}" pero siendo ${t} debe cargarse como "${destino}"`,
+        motivo: `el concepto se declara "verificado" pero siendo ${t} debe cargarse como "${destino}"`,
+      });
+    else
+      avisos.push({
+        concepto: c.id,
+        aviso:
+          `se declara "${c.estado_verificacion}" siendo ${t} (que iría a "${destino}"): ` +
+          "se carga según su tipo_fuente; revisa si la declaración del lote es la intencionada",
       });
   }
 
