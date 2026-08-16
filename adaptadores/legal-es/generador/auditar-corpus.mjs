@@ -3,117 +3,75 @@
 //   node adaptadores/legal-es/generador/auditar-corpus.mjs            todo el banco
 //   node adaptadores/legal-es/generador/auditar-corpus.mjs <lote.json>  un solo lote
 //
-// El segundo modo sirve para pasar esta comprobación ANTES de cargar, que es
-// cuando arreglar sale gratis: las 10 preguntas que hubo que corregir el 16/08
-// se detectaron con el contenido ya servido. Sale con código 1 si encuentra
-// contaminación o elisión, así que encadena con `&&` delante de generar.mjs.
+// También se usa como PUERTA desde `generar.mjs` (importando `auditarLote`), que
+// es donde de verdad sirve: las 10 preguntas que hubo que corregir el 16/08 se
+// detectaron con el contenido ya servido, y arreglarlo entonces costó un `update`
+// en producción. Antes de cargar cuesta cero.
 //
-// Contrasta cada lote versionado contra el TEXTO DEL CORPUS (`datos/legal-es/
-// <norma>/*-articulos.json`), que es la ingesta mecánica del PDF del Código-600.
+// Contrasta cada lote contra el TEXTO DEL CORPUS
+// (`datos/legal-es/boe-600-pn/corpus/`), que es la ingesta mecánica del PDF del
+// Código 600.
 //
 // POR QUÉ NO BASTA `verificar-lote`: esa puerta compara el `cotejo` contra el
-// bloque `fuentes` DEL PROPIO LOTE, así que solo prueba coherencia interna —
-// si el `fuentes` se transcribió mal, el cotejo "cuadra" con un texto que no es
-// el de la norma. Y su normalización (`normalizarNumeros`) tokeniza con
+// bloque `fuentes` DEL PROPIO LOTE, así que solo prueba coherencia interna — si
+// el `fuentes` se transcribió mal, el cotejo "cuadra" con un texto que no es el
+// de la norma. Y su normalización (`normalizarNumeros`) tokeniza con
 // /\d+|[a-zñ]+/, es decir DESCARTA LA PUNTUACIÓN: una cita truncada en una coma
-// y cerrada con punto le resulta indistinguible de la cita completa.
-// Esta auditoría cierra las dos cosas, conservando la puntuación.
+// y cerrada con punto le resulta indistinguible de la cita entera. Esta
+// auditoría cierra las dos cosas, conservando la puntuación.
 //
-// Busca cuatro cosas:
-//   (A) TRUNCADAS  — el cotejo no aparece literalmente en el artículo que dice
-//       citar, normalmente porque corta una cláusula que matiza la regla.
-//   (B) CONTAMINACIÓN bis/ter — el cotejo sí existe, pero en un artículo con
-//       sufijo (31 bis, 557 ter…) y no en el que se le atribuye. Es la firma del
-//       fallo del ingestor corregido el 16/08/2026.
-//   (C) ELISIÓN — un bloque `fuentes` con una frase que NO existe en la norma
-//       porque se unió texto saltándose una cláusula intermedia sin marcarlo:
-//       "…a la persona titular de la Dirección General existirá un Gabinete
-//       Técnico" cuando la norma dice "…Dirección General, PARA FACILITARLE EL
-//       DESPACHO Y LA COORDINACIÓN…, existirá un Gabinete Técnico". No hay texto
-//       inventado —de ahí que no se llame fabricación—, pero el resultado parece
-//       literal y no lo es. Un recorte NO contiguo entre frases (apartado 1 +
-//       apartado 3) sí es legítimo y no cuenta.
-//   (D) REFORMULADAS — el cotejo no es literal ni respecto del `fuentes` de su
-//       PROPIO lote: recorta a mitad de frase o recapitaliza. No necesita corpus,
-//       así que ESTA comprobación cubre el banco ENTERO, también las familias de
-//       fuente no-BOE. Es la única de las cuatro que no depende de tener el PDF.
+// Cinco comprobaciones. Las cuatro primeras necesitan corpus; la (E), no.
 //
-// Cobertura: (A)(B)(C) solo alcanzan a las familias con corpus en `datos/`; las
-// demás se informan como NO AUDITABLES — que no salgan en los fallos no
-// significa que estén bien, significa que no se miraron. (D) alcanza a todas.
+//   (A) CERRADA — el cotejo deja de ser literal SOLO por el signo con que se
+//       cerró: quitándoselo, vuelve a encajar. Es una cita que para a mitad de
+//       frase y se disfraza de completa poniendo un punto donde la norma seguía
+//       con coma. SP-013 escondía así "así como todo hecho delictivo…" y
+//       DISC-026 la condición "siempre que durante aquel tiempo…". BLOQUEA.
+//   (B) CONTAMINACIÓN bis/ter — el cotejo existe, pero en un artículo con sufijo
+//       (31 bis, 557 ter…) y no en el que se le atribuye. Firma del fallo del
+//       ingestor corregido el 16/08/2026. BLOQUEA.
+//   (C) ELISIÓN — un `fuentes` con una frase que NO existe en la norma porque se
+//       unió texto saltándose una cláusula intermedia sin marcarlo: "…a la
+//       persona titular de la Dirección General existirá un Gabinete Técnico"
+//       cuando la norma dice "…Dirección General, PARA FACILITARLE EL DESPACHO Y
+//       LA COORDINACIÓN…, existirá un Gabinete Técnico". No hay texto inventado
+//       —por eso no se llama fabricación—, pero el resultado parece literal y no
+//       lo es. Un recorte NO contiguo ENTRE frases (apartado 1 + apartado 3) sí
+//       es legítimo y no cuenta. BLOQUEA.
+//   (D) FORMATO — no encaja ni quitándole el cierre. No es culpa del lote: o es
+//       un artefacto del render (la viñeta que pdftotext deja pegada en
+//       "-Policía", el "º" de "artículo 5.º", un guion de fin de línea) o una
+//       errata de la propia fuente que el lote corrigió — el BOE escribe "a la
+//       Unidades" y "del senado" en minúscula. AVISA, no bloquea: alinear el
+//       lote con la errata empeoraría lo que lee el opositor.
+//   (E) REFORMULADA — el cotejo no es literal ni respecto del `fuentes` de su
+//       PROPIO lote. No necesita corpus, así que alcanza al banco ENTERO,
+//       también a las familias de fuente no-BOE. AVISA.
+//
+// Lo que no tiene corpus se informa como NO AUDITABLE: que algo no salga en los
+// fallos no significa que esté bien, significa que no se ha mirado.
 import { readFileSync, readdirSync, existsSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { normalizarNumeros } from "../../../nucleo/verificador-cotejo.mjs";
+import { esEjecucionDirecta } from "../../../nucleo/ejecucion-directa.mjs";
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), "../../..");
 const LOTES = join(RAIZ, "adaptadores/legal-es/generador/lotes");
 
-// familia → sección del Código 600 en `datos/legal-es/boe-600-pn/corpus/`.
-// Esa carpeta es la copia del Código que consulta cualquier agente sin abrir un
-// PDF; se va llenando según se ingieren los trozos (ver ingestor.py --codigo).
+// familia → sección del Código 600. Esa carpeta es la copia del Código que
+// consulta cualquier agente sin abrir un PDF (ver ingestor.py --codigo).
 const SECCION = {
-  CC: 2, // Código Civil [parcial]
-  CE: 3, // Constitución Española
-  TC: 4, // LO 2/1979, Tribunal Constitucional
-  DP: 5, // LO 3/1981, Defensor del Pueblo
-  EAES: 6, // LO 4/1981, estados de alarma, excepción y sitio
-  FE: 7, // LO 9/2021, Fiscalía Europea
-  AGE: 8, // Ley 40/2015, Régimen Jurídico del Sector Público [parcial]
-  GOB: 9, // Ley 50/1997, del Gobierno
-  EBEP: 10, // RDLeg 5/2015, Estatuto Básico del Empleado Público [parcial]
-  MININT: 11, // RD 207/2024, estructura orgánica del Ministerio del Interior
-  DGP: 12, // Orden INT/859/2023, Dirección General de la Policía
-  PPN: 13, // LO 9/2015, Régimen de Personal de la Policía Nacional [parcial]
-  DISC: 14, // LO 4/2010, Régimen disciplinario — gana al corpus suelto de abajo
-  SEL: 15, // RD 853/2022, procesos selectivos
-  DPSF: 16, // Orden INT/632/2024, desarrollo de los procesos selectivos
-  UNI: 17, // Orden INT/430/2014, uniformidad
-  CDPN: 18, // RD 49/2024, centros docentes
-  FCS: 19, // LO 2/1986, Fuerzas y Cuerpos de Seguridad
-  CPOL: 20, // RD 555/2011, régimen electoral del Consejo de Policía
-  PJ: 21, // RD 769/1987, Policía Judicial
-  EXT: 22, // LO 4/2000, derechos y libertades de los extranjeros
-  EXTR: 23, // RD 1155/2024, Reglamento de extranjería
-  UE: 24, // RD 240/2007, entrada y residencia de ciudadanos de la UE
-  ASI: 25, // Ley 12/2009, derecho de asilo
-  ASIR: 26, // RD 203/1995, Reglamento de asilo
-  APAT: 27, // RD 865/2001, Reglamento de apatridia
-  PTEMP: 28, // RD 1325/2003, protección temporal
-  ACOG: 29, // RD 220/2022, sistema de acogida
-  SP: 30, // Ley 5/2014, Seguridad Privada
-  SC: 31, // LO 4/2015, protección de la seguridad ciudadana
-  IC: 32, // Ley 8/2011, infraestructuras críticas
-  ICR: 33, // RD 704/2011, Reglamento de infraestructuras críticas
-  // §34 Orden PCI/487/2019 (familia ENC) NO entra: publica la Estrategia
-  // Nacional de Ciberseguridad como ANEXO con capítulos, sin un solo artículo.
-  // No es un fallo de ingesta — no hay artículos que ingerir.
-  CP: 35, // LO 10/1995, Código Penal [parcial]
-  LOPJ: 36, // LO 6/1985, Poder Judicial [parcial]
-  LEC: 37, // LECrim (RD de 14/09/1882) [parcial]
-  HC: 38, // LO 6/1984, habeas corpus
-  MF: 39, // Ley 50/1981, Estatuto Orgánico del Ministerio Fiscal
-  VIC: 40, // Ley 4/2015, Estatuto de la víctima del delito
-  VG: 41, // LO 1/2004, violencia de género
-  IG: 42, // LO 3/2007, igualdad efectiva de mujeres y hombres
-  LGTBI: 43, // Ley 4/2023, igualdad real y efectiva de las personas trans
-  PRL: 44, // Ley 31/1995, Prevención de Riesgos Laborales
-  PRLP: 45, // RD 2/2006, PRL en la Policía Nacional
-  PRLAGE: 46, // RD 67/2010, PRL en la AGE
-  LOPD: 47, // LO 3/2018, Protección de Datos y garantía de derechos digitales
-  LOPD7: 48, // LO 7/2021, datos personales en el ámbito penal
-  RDP: 49, // Reglamento de Organización del Defensor del Pueblo
-  ARM: 50, // RD 137/1993, Reglamento de Armas
-  RGV: 51, // RD 2822/1998, Reglamento General de Vehículos [parcial]
-  TRAF: 52, // RD 1428/2003, Reglamento General de Circulación [parcial]
-  VCD: 53, // Orden INT/2573/2015, vehículos de conducción de detenidos
+  CC: 2, CE: 3, TC: 4, DP: 5, EAES: 6, FE: 7, AGE: 8, GOB: 9, EBEP: 10,
+  MININT: 11, DGP: 12, PPN: 13, DISC: 14, SEL: 15, DPSF: 16, UNI: 17, CDPN: 18,
+  FCS: 19, CPOL: 20, PJ: 21, EXT: 22, EXTR: 23, UE: 24, ASI: 25, ASIR: 26,
+  APAT: 27, PTEMP: 28, ACOG: 29, SP: 30, SC: 31, IC: 32, ICR: 33,
+  // §34 (familia ENC) NO entra: publica la Estrategia Nacional de
+  // Ciberseguridad como ANEXO con capítulos, sin un solo artículo que ingerir.
+  CP: 35, LOPJ: 36, LEC: 37, HC: 38, MF: 39, VIC: 40, VG: 41, IG: 42,
+  LGTBI: 43, PRL: 44, PRLP: 45, PRLAGE: 46, LOPD: 47, LOPD7: 48, RDP: 49,
+  ARM: 50, RGV: 51, TRAF: 52, VCD: 53,
 };
-
-// Los 8 corpus sueltos que se ingirieron antes de tener el Código entero
-// (CP, LECrim, PRL, DISC, SP, VIC, SC y FCS) están YA cubiertos por su sección,
-// así que dejan de consultarse. Verificado norma a norma que el texto coincide;
-// los ficheros viejos, además, son anteriores al arreglo de la rúbrica.
-const CORPUS = {};
 
 // Normalización CONSERVADORA: unifica comillas/guiones tipográficos y espacios.
 // No toca acentos, mayúsculas NI puntuación: el cotejo ha de ser literal.
@@ -125,10 +83,9 @@ const norm = (s) =>
     .replace(/\s+/g, " ")
     .trim();
 
-// "art. 31 bis" / "art. 31.2" / "arts. 5 y 6" → "31 bis" / "31"
 const SUF = "bis|ter|quater|quáter|quinquies|sexies|septies|octies|nonies|decies";
 
-// Las leyes antiguas numeran en palabra ("Artículo primero"). El ingestor las
+// Las leyes antiguas numeran en palabra ("Artículo primero"); el ingestor las
 // guarda ya como número, así que aquí hay que traducir en el mismo sentido.
 const ORDINAL = {
   primero: 1, segundo: 2, tercero: 3, cuarto: 4, quinto: 5, sexto: 6,
@@ -136,13 +93,10 @@ const ORDINAL = {
   undecimo: 11, undécimo: 11, duodecimo: 12, duodécimo: 12,
 };
 
-// Lo que NO es un artículo: disposiciones adicionales, transitorias,
-// derogatorias y finales, y los preámbulos. El ingestor corta en ellas
-// (`re_stop`), así que no están en el corpus. Devolver null aquí las manda a
-// "no auditable" en vez de compararlas contra un artículo que no les toca:
-// "D.A. 1ª" NO es el artículo 1.
-// Se abrevian de muchas formas según quién escribiera el lote: "D.A. 1ª",
-// "DA 7ª", "D.F.", "disp. final 3ª", "Disposición transitoria segunda".
+// Lo que NO es un artículo. El ingestor corta en las disposiciones y preámbulos,
+// así que no están en el corpus; devolver null las manda a "no auditable" en vez
+// de compararlas contra un artículo que no les toca: "D.A. 1ª" NO es el art. 1.
+// Se abrevian de muchas formas: "D.A. 1ª", "DA 7ª", "D.F.", "disp. final 3ª".
 const RE_NO_ARTICULO = /^\s*(d\.?\s?[atdf]\.?(\s|\d|$)|disp\.|disposici[oó]n|pre[aá]mbulo|anexo)/i;
 
 function refDe(articulo) {
@@ -155,51 +109,28 @@ function refDe(articulo) {
 }
 
 const corpus = {};
-function cargar(fam, ruta) {
-  if (!existsSync(ruta)) return;
+for (const [fam, sec] of Object.entries(SECCION)) {
+  const ruta = join(RAIZ, "datos/legal-es/boe-600-pn/corpus", `seccion-${String(sec).padStart(3, "0")}.json`);
+  if (!existsSync(ruta)) continue;
   const arts = JSON.parse(readFileSync(ruta, "utf8")).articulos || [];
   if (arts.length) corpus[fam] = new Map(arts.map((a) => [a.ref ?? String(a.numero), a.texto]));
 }
-for (const [fam, rel] of Object.entries(CORPUS)) cargar(fam, join(RAIZ, "datos/legal-es", rel));
-for (const [fam, sec] of Object.entries(SECCION))
-  cargar(fam, join(RAIZ, "datos/legal-es/boe-600-pn/corpus", `seccion-${String(sec).padStart(3, "0")}.json`));
 
-const r = {
-  ok: 0,
-  noAuditable: 0,
-  truncadas: [],
-  formato: [],
-  contaminadas: [],
-  fabricadas: [],
-  reformuladas: [],
-  familiasSinCorpus: new Set(),
-};
+export function auditarLote(lote, nombre = "(lote)") {
+  const r = {
+    ok: 0, noAuditable: 0,
+    cerradas: [], alteradas: [], contaminadas: [], elididas: [], formato: [], reformuladas: [],
+    familiasSinCorpus: new Set(),
+  };
 
-// Sin argumento, todo el banco; con él, solo ese lote (para usarlo como puerta).
-const soloUno = process.argv[2];
-const ficheros = soloUno
-  ? [soloUno]
-  : readdirSync(LOTES).filter((x) => x.endsWith(".json")).map((x) => join(LOTES, x));
-
-for (const ruta of ficheros) {
-  const f = ruta.split("/").pop();
-  let lote;
-  try {
-    lote = JSON.parse(readFileSync(ruta, "utf8"));
-  } catch {
-    continue;
-  }
-
-  // (D) — cotejo vs el `fuentes` del PROPIO lote, conservando la puntuación.
-  // No necesita corpus: cubre también las familias de fuente no-BOE.
+  // (E) — cotejo vs el `fuentes` del PROPIO lote. No necesita corpus.
   for (const act of lote.actividades || []) {
     const src = (lote.fuentes || {})[act.articulo];
-    if (!src) continue;
-    if (!norm(src).includes(norm(act.cotejo)))
-      r.reformuladas.push({ lote: f, concepto: act.concepto_id, art: act.articulo });
+    if (src && !norm(src).includes(norm(act.cotejo)))
+      r.reformuladas.push({ lote: nombre, concepto: act.concepto_id, art: act.articulo });
   }
 
-  // (A) y (B) — un cotejo por actividad
+  // (A), (B) y (D) — un cotejo por actividad, contra el corpus
   for (const act of lote.actividades || []) {
     const fam = String(act.concepto_id || "").split("-")[0];
     if (!corpus[fam]) {
@@ -208,37 +139,29 @@ for (const ruta of ficheros) {
       continue;
     }
     const ref = refDe(act.articulo);
-    if (!ref) {
-      // Disposiciones y demás: el corpus no las trae, así que no se pueden
-      // contrastar. No son un fallo — son cobertura que falta.
-      r.noAuditable++;
-      continue;
-    }
+    if (!ref) { r.noAuditable++; continue; }
     const texto = corpus[fam].get(ref);
     const cotejo = norm(act.cotejo);
-    if (texto && norm(texto).includes(cotejo)) {
-      r.ok++;
-      continue;
-    }
+    if (texto && norm(texto).includes(cotejo)) { r.ok++; continue; }
+
     const donde = [...corpus[fam].entries()]
       .filter(([, t]) => norm(t).includes(cotejo))
       .map(([k]) => k);
-    const reg = { lote: f, concepto: act.concepto_id, dice: act.articulo, donde };
-    // Si el texto vive en un artículo que comparte número base y lleva sufijo,
-    // es la contaminación del ingestor, no una cita truncada.
-    if (donde.some((d) => ref && d.startsWith(ref + " "))) r.contaminadas.push(reg);
-    // Si el desajuste DESAPARECE al ignorar puntuación, acentos y mayúsculas,
-    // las palabras del cotejo SÍ están en la norma, seguidas y en orden: no se ha
-    // alterado ni empalmado nada. Queda o un artefacto de formato (la viñeta de
-    // "-Policía" que pdftotext deja pegada, el "º" de "artículo 5.º", un guion de
-    // fin de línea) o una cita que PARA ANTES cerrando con punto donde la norma
-    // seguía con coma. Lo segundo sí puede importar —SP-013 y DISC-026 eran de
-    // aquí— pero solo se sabe leyendo QUÉ quedó fuera; no se puede decidir
-    // automáticamente, así que se listan aparte en vez de mezclarlas con las de
-    // abajo, que son de otra naturaleza.
-    else if (texto && normalizarNumeros(texto).includes(normalizarNumeros(act.cotejo)))
-      r.formato.push(reg);
-    else r.truncadas.push(reg);
+    const reg = { lote: nombre, concepto: act.concepto_id, dice: act.articulo, donde };
+
+    if (donde.some((d) => d.startsWith(ref + " "))) r.contaminadas.push(reg);
+    else if (!texto) r.formato.push(reg);
+    // Las palabras están todas, seguidas y en orden: no se alteró ni empalmó
+    // nada. Si además vuelve a encajar quitándole el signo de cierre, es una
+    // cita truncada disfrazada; si no, es formato de la fuente.
+    else if (normalizarNumeros(texto).includes(normalizarNumeros(act.cotejo)))
+      (norm(texto).includes(cotejo.replace(/[.;,:]+$/, "")) ? r.cerradas : r.formato).push(reg);
+    // Ni siquiera ignorando puntuación y acentos: hay PALABRAS que no están.
+    // O se empalmó saltándose algo (MININT-014 unía dos apartados de una lista)
+    // o el lote corrigió una errata de la fuente (PJ-020: el BOE dice "a la
+    // Unidades" y "Comisión Provincial Coordinación"). Mecánicamente son
+    // idénticos, así que bloquea y que lo mire una persona.
+    else r.alteradas.push(reg);
   }
 
   // (C) — cada bloque `fuentes` troceado en frases; toda frase debe existir
@@ -246,39 +169,71 @@ for (const ruta of ficheros) {
     const fam = ((lote.conceptos || [])[0] || {}).id?.split("-")[0];
     if (!corpus[fam]) continue;
     const ref = refDe(art);
-    if (!ref) continue; // disposiciones: no están en el corpus
+    if (!ref) continue;
     const texto = corpus[fam].get(ref);
     if (!texto) continue;
     const T = normalizarNumeros(texto);
-    if (T.includes(normalizarNumeros(txt))) continue; // literal contiguo
-    const trozos = String(txt)
-      .split(/(?<=[.;:])\s+/)
-      .filter((s) => s.split(/\s+/).length >= 8);
+    if (T.includes(normalizarNumeros(txt))) continue;
+    const trozos = String(txt).split(/(?<=[.;:])\s+/).filter((s) => s.split(/\s+/).length >= 8);
     const fuera = trozos.filter((s) => !T.includes(normalizarNumeros(s)));
-    if (fuera.length) r.fabricadas.push({ lote: f, art, fuera: fuera.length, total: trozos.length });
+    if (fuera.length) r.elididas.push({ lote: nombre, art, fuera: fuera.length, total: trozos.length });
   }
+
+  // Fail-closed solo en lo que es defecto del lote sin lugar a interpretación.
+  r.ok_gate = r.cerradas.length === 0 && r.alteradas.length === 0
+    && r.contaminadas.length === 0 && r.elididas.length === 0;
+  return r;
 }
 
-console.log("=== AUDITORÍA DE GROUNDING CONTRA EL CORPUS OFICIAL ===");
-console.log(`  cotejos literales OK          : ${r.ok}`);
-console.log(`  NO auditables (sin corpus)    : ${r.noAuditable}`);
-console.log(`  (A) citas truncadas           : ${r.truncadas.length}`);
-console.log(`      · palabras intactas, corta antes o difiere el formato: ${r.formato.length}`);
-console.log(`  (B) contaminación bis/ter     : ${r.contaminadas.length}`);
-console.log(`  (C) frases con elisión        : ${r.fabricadas.length}`);
-console.log(`  (D) citas reformuladas (TODO el banco, sin corpus): ${r.reformuladas.length}`);
-for (const c of r.contaminadas)
-  console.log(`   ⚠ [${c.concepto}] dice "${c.dice}" pero su texto está en ${c.donde.join(", ")} — ${c.lote}`);
-for (const c of r.truncadas)
-  console.log(`   ✗ [${c.concepto}] ${c.lote} · dice "${c.dice}" — PALABRAS ALTERADAS (elisión, empalme o errata corregida)`);
-for (const c of r.formato)
-  console.log(`   · [${c.concepto}] ${c.lote} "${c.dice}" — palabras intactas: revisar qué quedó fuera`);
-for (const c of r.fabricadas)
-  console.log(`   ✗ ${c.lote} ${c.art}: ${c.fuera}/${c.total} frases no existen asi en la norma (elision)`);
-for (const c of r.reformuladas)
-  console.log(`   · [${c.concepto}] ${c.lote} "${c.art}" — la cita no es literal ni en su propio bloque fuentes`);
-console.log(`  familias sin corpus con el que contrastar: ${[...r.familiasSinCorpus].sort().join(" ")}`);
+export function informe(r) {
+  const l = [];
+  l.push(`  cotejos literales OK          : ${r.ok}`);
+  l.push(`  NO auditables (sin corpus)    : ${r.noAuditable}`);
+  l.push(`  (A) citas cerradas de más     : ${r.cerradas.length}   ← bloquea`);
+  l.push(`  (A bis) palabras alteradas    : ${r.alteradas.length}   ← bloquea`);
+  l.push(`  (B) contaminación bis/ter     : ${r.contaminadas.length}   ← bloquea`);
+  l.push(`  (C) frases con elisión        : ${r.elididas.length}   ← bloquea`);
+  l.push(`  (D) formato/errata de la fuente: ${r.formato.length}   (solo aviso)`);
+  l.push(`  (E) citas reformuladas        : ${r.reformuladas.length}   (solo aviso)`);
+  for (const c of r.contaminadas)
+    l.push(`   ✗ (B) [${c.concepto}] dice "${c.dice}" pero su texto está en ${c.donde.join(", ")} — ${c.lote}`);
+  for (const c of r.cerradas)
+    l.push(`   ✗ (A) [${c.concepto}] ${c.lote} · "${c.dice}": la cita corta antes y cierra con un signo que la norma no tiene`);
+  for (const c of r.alteradas)
+    l.push(`   ✗ (A bis) [${c.concepto}] ${c.lote} · "${c.dice}": faltan o sobran PALABRAS (empalme, o errata de la fuente que el lote corrigió)`);
+  for (const c of r.elididas)
+    l.push(`   ✗ (C) ${c.lote} ${c.art}: ${c.fuera}/${c.total} frases no existen así en la norma`);
+  for (const c of r.formato)
+    l.push(`   · (D) [${c.concepto}] ${c.lote} "${c.dice}"`);
+  for (const c of r.reformuladas)
+    l.push(`   · (E) [${c.concepto}] ${c.lote} "${c.art}"`);
+  return l.join("\n");
+}
 
-// Fail-closed en lo que de verdad rompe el grounding. Las truncadas se informan
-// pero no tumban el proceso: no inventan texto, recortan una cláusula.
-process.exit(r.contaminadas.length || r.fabricadas.length ? 1 : 0);
+if (esEjecucionDirecta(import.meta.url)) {
+  const soloUno = process.argv[2];
+  const ficheros = soloUno
+    ? [soloUno]
+    : readdirSync(LOTES).filter((x) => x.endsWith(".json")).map((x) => join(LOTES, x));
+
+  const total = {
+    ok: 0, noAuditable: 0,
+    cerradas: [], alteradas: [], contaminadas: [], elididas: [], formato: [], reformuladas: [],
+    familiasSinCorpus: new Set(),
+  };
+  for (const ruta of ficheros) {
+    let lote;
+    try { lote = JSON.parse(readFileSync(ruta, "utf8")); } catch { continue; }
+    const r = auditarLote(lote, ruta.split("/").pop());
+    total.ok += r.ok;
+    total.noAuditable += r.noAuditable;
+    for (const k of ["cerradas", "alteradas", "contaminadas", "elididas", "formato", "reformuladas"])
+      total[k].push(...r[k]);
+    for (const f of r.familiasSinCorpus) total.familiasSinCorpus.add(f);
+  }
+  console.log("=== AUDITORÍA DE GROUNDING CONTRA EL CORPUS OFICIAL ===");
+  console.log(informe(total));
+  console.log(`  familias sin corpus: ${[...total.familiasSinCorpus].sort().join(" ") || "—"}`);
+  process.exit(total.cerradas.length || total.alteradas.length
+    || total.contaminadas.length || total.elididas.length ? 1 : 0);
+}

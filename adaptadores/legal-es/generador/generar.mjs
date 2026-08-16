@@ -1,6 +1,7 @@
 // Acertium — adaptador legal-es / generador / orquestador
 // Pipeline: lote generado (JSON) → verificar-lote (puerta de contenido) →
-//           verificar-calidad → verificar-meta → CARGA en la base → manifiesto.
+//           verificar-calidad → verificar-meta → auditar-corpus (fidelidad a la
+//           norma) → CARGA en la base → manifiesto.
 //
 //   node generar.mjs <lote.json>          carga de verdad (inserta y confirma)
 //   node generar.mjs <lote.json> --sql    NO toca la base: emite el SQL por stdout
@@ -25,6 +26,7 @@ import { loteASql, cargarLote, marcarCobertura } from "./cargar.mjs";
 import { verificarMeta, cargarRegistro, textoDeFuente } from "./verificar-meta.mjs";
 import { verificarCalidad } from "./verificar-calidad.mjs";
 import { verificarFuente } from "../../../nucleo/verificar-fuente.mjs";
+import { auditarLote, informe } from "./auditar-corpus.mjs";
 import { createCerebroClient } from "./cliente-cerebro.mjs";
 
 const args = process.argv.slice(2);
@@ -108,6 +110,29 @@ if (vm.familia === "ORTO") {
     console.error("  → ortografía insuficiente: NO se carga.");
     process.exit(1);
   }
+}
+
+// Puerta de CORPUS — contrasta los cotejos contra el texto del Código 600
+// (`datos/legal-es/boe-600-pn/corpus/`), no contra el `fuentes` del propio lote.
+// FAIL-CLOSED. Solo alcanza a las familias con corpus; el resto pasa de largo y
+// se informa como no auditable.
+//
+// Es la puerta que faltaba, y se añadió el 16/08/2026 después de tener que
+// corregir DIEZ preguntas YA SERVIDAS: citas cortadas a mitad de cláusula y
+// cerradas con un punto que la norma no tiene (SP-013 escondía así "así como
+// todo hecho delictivo…", DISC-026 la condición "siempre que durante aquel
+// tiempo…"), y empalmes que se saltaban un apartado entero sin marcarlo
+// (CDPN-010 unía el a) con el c)). `verificar-lote` no puede verlo: compara el
+// cotejo contra el `fuentes` DEL LOTE —si ese bloque se transcribió mal, todo
+// cuadra— y además su normalización descarta la puntuación, que es justo donde
+// vive el defecto. Aquí eso ya no entra.
+const vc2 = auditarLote(lote, rutas[0].split("/").pop());
+console.error("== verificación contra el corpus ==");
+console.error("  " + informe(vc2).split("\n").join("\n  "));
+if (!vc2.ok_gate) {
+  console.error("  → el cotejo no es fiel a la norma: NO se carga. Copia el texto del corpus,");
+  console.error("    no lo transcribas; y si de verdad la fuente tiene una errata, dilo en el parte.");
+  process.exit(1);
 }
 
 // Modo inspección: emite el SQL y no toca ni la base ni el índice.
