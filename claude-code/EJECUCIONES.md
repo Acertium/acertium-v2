@@ -5,6 +5,45 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-16 — PROMPT_013: a salvo en GitHub todo el trabajo pendiente (solo git)
+
+**Encargo.** Versionar lo que llevaba semanas sin comitear. Sin tocar Supabase ni
+montar módulos. Detalle en **`RESULTADO_013.md`**.
+
+### Qué se hizo
+
+1. **26 temporales borrados**: los 25 `_ELIMINAR_*` (raíz, `generador/` y
+   `generador/lotes/`) y `generador/err`, que era la salida de error de un `mv`
+   fallido redirigida a fichero. Ninguno entró en el commit.
+2. **`8c64a46` — contenido**: 33 lotes nuevos, 16.186 líneas. BOE (protección
+   internacional, PRL, uniformidad, centros docentes, Consejo de Policía, Policía
+   Judicial, Extranjería y sus ampliaciones, ciberseguridad, vehículos, conducción
+   de detenidos, selectivos, Defensor del Pueblo) y no-BOE (DDHH, CIBER, INTEL,
+   ORTO, SOST, DROGA, REDES, GRAM, SO). **Generados, sin cargar en base.**
+3. **`9601e49` — docs+canal**: los cuatro `docs/*-no-boe*/ortografia`,
+   `PROMPT_002…013` y el `.gitignore`, que ahora ignora `_ELIMINAR_*` y `/tmp/`.
+4. Push a `main` (`184b316..9601e49`).
+
+### Verificación
+
+- `git status` limpio tras el push; **cero** `_ELIMINAR_*` y cero `/tmp` versionados.
+- Barrido de secretos (`SUPABASE`, `SERVICE_ROLE`, `ANTHROPIC`, `sk-ant`, JWT) sobre
+  los lotes nuevos: 0 coincidencias. `.env` no se leyó.
+- `npm run build` **no se ejecutó**: no se toca código de app, como decía el encargo.
+
+### Pendientes / notas
+
+- **La duda del CSV se cayó sola:** `pn-oficial-examenes-600.csv` ya no aparece
+  modificado; su último cambio está en `da36ecb`. No se tocó.
+- **No existe `CLAUDE.md` en el repo**, aunque el encargo lo da por hecho. Se
+  siguieron las reglas globales. Si debía haber uno de proyecto, falta.
+- Un `.git/index.lock` huérfano (vacío, 15 min, sin proceso git vivo) bloqueó el
+  primer `git add`; se eliminó y siguió. Conviene saber qué lo deja.
+- PROMPT_002–012 siguen **sin ejecutar** (ninguno tiene `RESULTADO_NNN.md`): la
+  carga en base y el montaje de módulos siguen pendientes.
+
+---
+
 ## 2026-08-03 — PROMPT_001: protección internacional + el motor decidiendo en /practicar
 
 **Encargo.** Primer encargo por el canal `claude-code/` (ver `README.md`):
