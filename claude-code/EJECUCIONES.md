@@ -5,6 +5,40 @@ verificó y qué quedó pendiente. Una entrada por sesión, la más reciente arr
 
 ---
 
+## 2026-08-16 — PROMPT_018: ya estaba subido; y el corpus no está en el repo
+
+**Encargo.** Subir a GitHub 9 ficheros (los 6 lotes del Grupo C y los PROMPT_015-017) para poder
+trabajar desde la nube. Detalle en `RESULTADO_018.md`.
+
+### Qué se hizo
+
+**Nada de contenido: los 9 ya estaban en `origin/main`.** El encargo se escribió antes de que
+ejecutara los PROMPT_015-017, y en esos tres se comitearon y empujaron (`de48d52`, `b39a219`,
+`82ddec7`). Verificado con `git ls-tree`. Tampoco existía el `index.lock` del §0, ni el CSV del §2
+sale modificado (su último cambio sigue en `da36ecb`).
+
+Verificación: `git status` limpio · `git rev-list --left-right --count origin/main...HEAD` = `0 0` ·
+los 9 ficheros en el remoto · **78 de 78 lotes versionados**.
+
+**Limpieza:** borrados 6 `_ELIMINAR_*` nuevos que dejaron los agentes del Grupo C. El `.gitignore`
+ya impedía que se colaran, pero seguían en el árbol.
+
+### Lo importante: subir esto NO basta para trabajar desde la nube
+
+El `.gitignore` excluye `datos/**/*.pdf` **a propósito** ("corpus pesado: fuente local"). En el PC
+hay **56 PDFs (21 MB)** del corpus BOE-600 más 1,9 MB de fuentes brutas; en el remoto, **cero**.
+
+Cargar en Supabase desde la nube sí se puede (los lotes son JSON versionados). **Generar contenido
+nuevo, no** — y hace falta ya: los temas **19, 20, 24 y 45** que faltan (ver PROMPT_017) salen de
+fuentes que solo están en el PC; los 19 y 20, del PDF del Código Penal. Un agente en la nube se
+encontraría el fichero ausente o tiraría de memoria, que es lo que `CLAUDE.md` prohíbe.
+
+Tres salidas, con coste, para que decida Jonathan: **versionar el corpus** (23 MB, simple, cambia una
+decisión escrita), **Git LFS** (repo ligero, una herramienta más) o **dejarlo** y aceptar que generar
+contenido se hace desde el PC. **No he tocado el `.gitignore`**: eso se decide, no se asume.
+
+---
+
 ## 2026-08-16 — PROMPT_017: Grupo C oleada 2 — y el temario NO queda completo
 
 **Encargo.** Cargar GLOB, ACTIT y SEGT (temas 28, 29, 33) con la mecánica del PROMPT_016. Detalle en
