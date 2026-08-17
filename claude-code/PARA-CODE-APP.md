@@ -36,15 +36,13 @@
      en el T20. Dos lotes: `cp-t18-defraudaciones.json` (8) y `cp-t18-usurpacion-apropiacion.json`
      (21: llaves falsas del 239, usurpación 245-247, otras defraudaciones 251 y 251 bis,
      administración desleal 252, apropiación indebida 253 y apropiación de cosa mueble 254).
-     Antes de esto era **AMPLIADO** de 16 a 24 conceptos y **reetiquetado** al enunciado oficial
-     (`lotes/cp-t18-defraudaciones.json`, arts. 248, 250, 255 y 256). Esos 8 conceptos se cargaron
-     por error dentro del lote del T20 y se reasignaron el mismo día: el temario pone las
-     defraudaciones —«estafas; apropiación indebida; defraudaciones de fluido eléctrico y análogo»—
-     en el T18, no en el T20. El art. 249 se queda en el T20 por ser estafa informática y fraude con
-     instrumentos de pago. Como `overlay_entrada` tiene PK `(convocatoria, concepto)`, un concepto
-     vive en UN solo tema: comprobar el temario ANTES de asignar, no después.
-     Sigue faltando del T18: usurpación (arts. 245-247) y apropiación indebida (arts. 252-254),
-     ambos **ya en el corpus** — no hace falta descargar nada.
+     El tema se reetiquetó ese mismo día al enunciado oficial: estaba como «Delitos contra el
+     patrimonio: hurto y robo», que con las defraudaciones dentro habría sido falso.
+     **Lección del incidente:** los 8 conceptos de `cp-t18-defraudaciones.json` se cargaron por error
+     dentro del lote del T20 y hubo que reasignarlos. El temario pone las defraudaciones —«estafas;
+     apropiación indebida; defraudaciones de fluido eléctrico y análogo»— en el T18, no en el T20.
+     Como `overlay_entrada` tiene PK `(convocatoria, concepto)`, un concepto vive en UN solo tema:
+     comprobar el temario ANTES de asignar, no después.
    - **T24** — **PARCIALMENTE HECHO**: 7 conceptos. Falta el remate doctrinal (concepto de trabajo y
      concepto de salud); necesita fuente de autoridad tipo INSST/OMS, no sale de la Ley 31/1995.
      Sí están ya cubiertos por corpus: *consecuencia de los riesgos* = art. 4.3 LPRL («daños derivados
