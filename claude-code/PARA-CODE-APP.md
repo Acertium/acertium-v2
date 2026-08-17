@@ -66,11 +66,16 @@
      texto consolidado íntegro y el §37 pasó de 121 a 1.037 artículos. Al ingerirlo aparecieron dos
      fallos del ingestor (numeración con letra tipo «588 bis a» y pie del formato «Legislación
      Consolidada»), ya corregidos. Protocolo para sustituir otras secciones: `corpus/README.md`.
-   - **CP**: el corpus tiene el art. 197 (apartados 1 a 7) y el 264, pero **no** 197 bis/ter/quater/
-     quinquies ni 264 bis/ter/quater — el acceso ilícito a sistemas y las modalidades autónomas de
-     daños informáticos. No es un fallo del ingestor: la compilación los omite y marca `[ . . . ]`.
-   No inventar esos artículos ni traerlos de memoria: o entra el PDF consolidado, o el tema queda
-   con la cobertura que permite el Código 600, que es el material oficial de la convocatoria.
+   - ~~**CP**: el corpus no tiene 197 bis/ter/quater/quinquies ni 264 bis/ter/quater…~~ **RESUELTO el
+     17/08/2026**: entró el texto consolidado y el §35 pasó de 268 a 723 artículos. Esos siete están
+     ya disponibles; **el T20 puede ampliarse con ellos** (acceso ilícito a sistemas y modalidades
+     autónomas de daños informáticos), cosa que aún no se ha hecho.
+
+   **Ya no queda ningún hueco de fuente BOE.** Las dos únicas normas que el temario citaba por su
+   nombre y que el Código 600 no incluía —RD 39/1997 y Ley 39/2006— se ingirieron el 17/08/2026 como
+   §54 y §55. Antes de sustituir o añadir una sección, leer el protocolo de `corpus/README.md`: hay
+   que comprobar que el consolidado contiene lo que ya traía el Código y que `auditar-corpus` sobre el
+   banco entero no empeora ningún contador que bloquee.
 2. **Revisar/aprobar las 56 de consenso en `/admin`** (acción de Jonathan).
 3. **Calidad pendiente** (de RESULTADO_016/017): arts. 22.4ª y 510 del CP en `remision_pendiente`
    (aristas de ETICA); *Crime as a Service* del T41; 21 aristas sin id concreto del PROMPT_014;
