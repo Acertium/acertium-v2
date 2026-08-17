@@ -102,8 +102,25 @@
      silenciadores, municiones dum-dum, imitaciones y navajas de más de 11 cm).
      **Lo que sigue sin fuente en el T42** es solo lo técnico-doctrinal: *origen de las armas de
      fuego*, *funcionamiento* y *balística forense*. Eso sí es no-BOE.
-   - **T45** — PRL en seguridad vial (factores del tráfico, factor humano/ambiental/vehículo, EPI).
-     Fuente probable **no-BOE** (autoridad/consenso). Pendiente entero.
+   - **T45** — **ARRANCADO** (17/08/2026): 27 conceptos, cuando estaba **entero a cero**. Jonathan
+     aportó los dos RD que le faltaban y son su primera fuente BOE (§56 y §57 del corpus).
+     - `epi-t45-proteccion-individual.json` (14, RD 773/1997): definición de EPI, criterio de último
+       recurso frente a la protección colectiva, condiciones que deben reunir, elección y su
+       revisión, utilización conforme al fabricante, carácter personal del uso, información previa
+       y obligaciones del trabajador.
+     - `eqt-t45-equipos-trabajo.json` (13, RD 1215/1997): el **vehículo policial es un equipo de
+       trabajo** (art. 2 a), y de ahí cuelgan el deber de mantenimiento (art. 3.5) y el régimen de
+       comprobaciones (art. 4), que es lo que fundamenta el «mantenimiento preventivo del vehículo
+       prioritario» del temario.
+     ⚠ **Ojo al art. 2.2 c) del RD 773/1997**: excluye de su definición «los equipos de protección
+     individual de los militares, de los **policías** y de las personas de los servicios de
+     mantenimiento del orden», y la letra d) los de «los medios de transporte por carretera».
+     Está cargado como concepto propio (`EPI-003`) porque es el matiz que decide la pregunta, pero
+     significa que el epígrafe **«EPI del conductor y pasajeros de vehículos policiales» sigue sin
+     fuente**: este RD da el régimen general, no el policial. Hace falta la norma o instrucción
+     específica de dotación del CNP, o una fuente de autoridad.
+     Siguen sin fuente los factores del tráfico (humano, ambiental y vehículo) y la siniestralidad
+     vial: son **no-BOE**, y la vía es un manual de la DGT.
    - **T44** — 41 conceptos cargados (familia `VCD`). Lo que falta —*seguridad activa y pasiva*,
      sistemas en turismo y motocicleta— es técnico y no sale del corpus: **no-BOE**.
 

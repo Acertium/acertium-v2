@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "materia": "rd-1215-1997-equipos-trabajo",
+    "norma": "Real Decreto 1215/1997, sobre utilización por los trabajadores de los equipos de trabajo",
+    "referencia_boe": "BOE-A-1997-17824",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 45 — Prevención de riesgos laborales en seguridad vial: factores del tráfico, riesgos laborales en la conducción de vehículos prioritarios y equipos de protección individual"
+  },
+  "fuentes": {
+    "art. 1": "Objeto. 1. El presente Real Decreto establece, en el marco de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, las disposiciones mínimas de segu ridad y salud para la utilización de los equipos de trabajo empleados por los trabajadores en el trabajo. 2. Las disposiciones del Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención, se aplicarán plenamente al conjunto del ámbito contemplado en el apartado anterior, sin perjuicio de las disposiciones específicas contenidas en el presente Real Decreto.",
+    "art. 2": "Definiciones. A efectos del presente Real Decreto se entenderá por: a) Equipo de trabajo: cualquier máquina, aparato, instrumento o instalación utilizado en el trabajo. b) Utilización de un equipo de trabajo: cualquier actividad referida a un equipo de trabajo, tal como la puesta en marcha o la detención, el empleo, el transporte, la reparación, la transformación, el mantenimiento y la conservación, incluida, en particular, la limpieza. c) Zona peligrosa: cualquier zona situada en el interior o alrededor de un equipo de trabajo en la que la presencia de un trabajador expuesto entrañe un riesgo para su seguridad o para su salud. d) Trabajador expuesto: cualquier trabajador que se encuentre total o parcialmente en una zona peligrosa. e) Operador del equipo: el trabajador encargado de la utilización de un equipo de trabajo.",
+    "art. 3": "Obligaciones generales del empresario. 1. El empresario adoptará las medidas necesarias para que los equipos de trabajo que se pongan a disposición de los trabajadores sean adecuados al trabajo que deba realizarse y convenientemente adaptados al mismo, de forma que garanticen la seguridad y la salud de los trabajadores al utilizar dichos equipos de trabajo. Cuando no sea posible garantizar de este modo totalmente la seguridad y la salud de los trabajadores durante la utilización de los equipos de trabajo, el empresario tomará las medidas adecuadas para reducir tales riesgos al mínimo. En cualquier caso, el empresario deberá utilizar únicamente equipos que satisfagan: a) Cualquier disposición legal o reglamentaria que les sea de aplicación. b) Las condiciones generales previstas en el anexo I de este Real Decreto. 2. Para la elección de los equipos de trabajo el empresario deberá tener en cuenta los siguientes factores: a) Las condiciones y características específicas del trabajo a desarrollar. b) Los riesgos existentes para la seguridad y salud de los trabajadores en el lugar de trabajo y, en particular, en los puestos de trabajo, así como los riesgos que puedan derivarse de la presencia o utilización de dichos equipos o agravarse por ellos. c) En su caso, las adaptaciones necesarias para su utilización por trabajadores discapacitados. 3. Para la aplicación de las disposiciones mínimas de seguridad y salud previstas en el presente Real Decreto, el empresario tendrá en cuenta los principios ergonómicos, especialmente en cuanto al diseño del puesto de trabajo y la posición de los trabajadores durante la utilización del equipo de trabajo. 4. La utilización de los equipos de trabajo deberá cumplir las condiciones generales establecidas en el anexo II del presente Real Decreto. Cuando, a fin de evitar o controlar un riesgo específico para la seguridad o salud de los trabajadores, la utilización de un equipo de trabajo deba realizarse en condiciones o formas determinadas, que requieran un particular conocimiento por parte de aquéllos, el empresario adoptará las medidas necesarias para que la utilización de dicho equipo quede reservada a los trabajadores designados para ello. 5. El empresario adoptará las medidas necesarias para que, mediante un mantenimiento adecuado, los equipos de trabajo se conserven durante todo el tiempo de utilización en unas condiciones tales que satisfagan las disposiciones del segundo párrafo del apartado 1. Dicho mantenimiento se realizará teniendo en cuenta las instrucciones del fabricante o, en su defecto, las características de estos equipos, sus condiciones de utilización y cualquier otra circunstancia normal o excepcional que pueda influir en su deterioro o desajuste. Las operaciones de mantenimiento, reparación o transformación de los equipos de trabajo cuya realización suponga un riesgo específico para los trabajadores sólo podrán ser encomendadas al personal especialmente capacitado para ello.",
+    "art. 4": "Comprobación de los equipos de trabajo. 1. El empresario adoptará las medidas necesarias para que aquellos equipos de trabajo cuya seguridad dependa de sus condiciones de instalación se sometan a una comprobación inicial, tras su instalación y antes de la puesta en marcha por primera vez, y a una nueva comprobación después de cada montaje en un nuevo lugar o emplazamiento, con objeto de asegurar la correcta instalación y el buen funcionamiento de los equipos. 2. El empresario adoptará las medidas necesarias para que aquellos equipos de trabajo sometidos a influencias susceptibles de ocasionar deterioros que puedan generar situaciones peligrosas estén sujetos a comprobaciones y, en su caso, pruebas de carácter periódico, con objeto de asegurar el cumplimiento de las disposiciones de seguridad y de salud y de remediar a tiempo dichos deterioros. Igualmente, se deberán realizar comprobaciones adicionales de tales equipos cada vez que se produzcan acontecimientos excepcionales, tales como transformaciones, accidentes, fenómenos naturales o falta prolongada de uso, que puedan tener consecuencias perjudiciales para la seguridad. 3. Las comprobaciones serán efectuadas por personal competente. 4. Los resultados de las comprobaciones deberán documentarse y estar a disposición de la autoridad laboral. Dichos resultados deberán conservarse durante toda la vida útil de los equipos. Cuando los equipos de trabajo se empleen fuera de la empresa, deberán ir acompañados de una prueba material de la realización de la última comprobación. 5. Los requisitos y condiciones de las comprobaciones de los equipos de trabajo se ajustarán a lo dispuesto en la normativa específica que les sea de aplicación.",
+    "art. 5": "Obligaciones en materia de formación e información. 1. De conformidad con los artículos 18 y 19 de la Ley de Prevención de Riesgos Laborales, el empresario deberá garantizar que los trabajadores y los representantes de los trabajadores reciban una formación e información adecuadas sobre los riesgos derivados de la utilización de los equipos de trabajo, así como sobre las medidas de prevención y protección que hayan de adoptarse en aplicación del presente Real Decreto. 2. La información, suministrada preferentemente por escrito, deberá contener, como mínimo, las indicaciones relativas a: a) Las condiciones y forma correcta de utilización de los equipos de trabajo, teniendo en cuenta las instrucciones del fabricante, así como las situaciones o formas de utilización anormales y peligrosas que puedan preverse. b) Las conclusiones que, en su caso, se puedan obtener de la experiencia adquirida en la utilización de los equipos de trabajo. c) Cualquier otra información de utilidad preventiva. La información deberá ser comprensible para los trabajadores a los que va dirigida e incluir o presentarse en forma de folletos informativos cuando sea necesario por su volumen o complejidad o por la utilización poco frecuente del equipo. La documentación informativa facilitada por el fabricante estará a disposición de los trabajadores. 3. Igualmente, se informará a los trabajadores sobre la necesidad de prestar atención a los riesgos derivados de los equipos de trabajo presentes en su entorno de trabajo inmediato, o de las modificaciones introducidas en los mismos, aun cuando no los utilicen directamente. 4. Los trabajadores a los que se refieren los apartados 4 y 5 del artículo 3 de este Real Decreto deberán recibir una formación específica adecuada."
+  },
+  "conceptos": [
+    {
+      "id": "EQT-001",
+      "articulo": "art. 1",
+      "titulo": "Objeto del RD 1215/1997",
+      "resumen": "El Real Decreto establece, en el marco de la Ley 31/1995, las disposiciones mínimas de seguridad y salud para la utilización de los equipos de trabajo empleados por los trabajadores en el trabajo.",
+      "explicacion": "Regula el uso del equipo, no su fabricación ni su comercialización."
+    },
+    {
+      "id": "EQT-002",
+      "articulo": "art. 2",
+      "titulo": "Equipo de trabajo",
+      "resumen": "Equipo de trabajo es cualquier máquina, aparato, instrumento o instalación utilizado en el trabajo.",
+      "explicacion": "La definición es deliberadamente amplia: el vehículo policial encaja de lleno en ella."
+    },
+    {
+      "id": "EQT-003",
+      "articulo": "art. 2",
+      "titulo": "Utilización de un equipo de trabajo",
+      "resumen": "Utilización de un equipo de trabajo es cualquier actividad referida a un equipo de trabajo, tal como la puesta en marcha o la detención, el empleo, el transporte, la reparación, la transformación, el mantenimiento y la conservación, incluida en particular la limpieza.",
+      "explicacion": "«Utilización» abarca mucho más que conducir: incluye reparar, mantener y hasta limpiar."
+    },
+    {
+      "id": "EQT-004",
+      "articulo": "art. 2",
+      "titulo": "Zona peligrosa",
+      "resumen": "Zona peligrosa es cualquier zona situada en el interior o alrededor de un equipo de trabajo en la que la presencia de un trabajador expuesto entrañe un riesgo para su seguridad o para su salud.",
+      "explicacion": "No es solo el interior del equipo: también su entorno."
+    },
+    {
+      "id": "EQT-005",
+      "articulo": "art. 2",
+      "titulo": "Trabajador expuesto y operador del equipo",
+      "resumen": "Trabajador expuesto es cualquier trabajador que se encuentre total o parcialmente en una zona peligrosa; operador del equipo es el trabajador encargado de la utilización de un equipo de trabajo.",
+      "explicacion": "Se puede estar expuesto sin ser el operador: basta con estar parcialmente en la zona peligrosa."
+    },
+    {
+      "id": "EQT-006",
+      "articulo": "art. 3",
+      "titulo": "Factores para la elección del equipo",
+      "resumen": "Para elegir los equipos de trabajo el empresario debe tener en cuenta las condiciones y características específicas del trabajo a desarrollar, los riesgos existentes para la seguridad y salud de los trabajadores en el lugar de trabajo y, en su caso, las adaptaciones necesarias para su utilización por trabajadores discapacitados.",
+      "explicacion": "Incluye expresamente los riesgos que puedan derivarse de la presencia del propio equipo o agravarse por él."
+    },
+    {
+      "id": "EQT-007",
+      "articulo": "art. 3",
+      "titulo": "Principios ergonómicos",
+      "resumen": "Para aplicar las disposiciones mínimas del Real Decreto el empresario tendrá en cuenta los principios ergonómicos, especialmente en cuanto al diseño del puesto de trabajo y la posición de los trabajadores durante la utilización del equipo de trabajo.",
+      "explicacion": "Es la ergonomía aplicada al puesto de conducción."
+    },
+    {
+      "id": "EQT-008",
+      "articulo": "art. 3",
+      "titulo": "Deber de mantenimiento del equipo",
+      "resumen": "El empresario debe adoptar las medidas necesarias para que, mediante un mantenimiento adecuado, los equipos de trabajo se conserven durante todo el tiempo de utilización en condiciones que garanticen la seguridad y la salud; el mantenimiento se realiza teniendo en cuenta las instrucciones del fabricante o, en su defecto, las características de los equipos, sus condiciones de utilización y cualquier otra circunstancia que pueda influir en su deterioro o desajuste.",
+      "explicacion": "Es la base normativa del mantenimiento preventivo del vehículo prioritario."
+    },
+    {
+      "id": "EQT-009",
+      "articulo": "art. 3",
+      "titulo": "Operaciones de mantenimiento con riesgo específico",
+      "resumen": "Las operaciones de mantenimiento, reparación o transformación de los equipos de trabajo cuya realización suponga un riesgo específico para los trabajadores solo pueden ser encomendadas al personal especialmente capacitado para ello.",
+      "explicacion": "El límite es el riesgo específico, no la complejidad técnica de la operación."
+    },
+    {
+      "id": "EQT-010",
+      "articulo": "art. 4",
+      "titulo": "Comprobación inicial y tras cada montaje",
+      "resumen": "Los equipos cuya seguridad dependa de sus condiciones de instalación deben someterse a una comprobación inicial, tras su instalación y antes de la puesta en marcha por primera vez, y a una nueva comprobación después de cada montaje en un nuevo lugar o emplazamiento.",
+      "explicacion": "Dos momentos: antes de la primera puesta en marcha y después de cada nuevo montaje."
+    },
+    {
+      "id": "EQT-011",
+      "articulo": "art. 4",
+      "titulo": "Comprobaciones adicionales tras acontecimientos excepcionales",
+      "resumen": "Deben realizarse comprobaciones adicionales cada vez que se produzcan acontecimientos excepcionales, tales como transformaciones, accidentes, fenómenos naturales o falta prolongada de uso, que puedan tener consecuencias perjudiciales para la seguridad.",
+      "explicacion": "La falta prolongada de uso cuenta como acontecimiento excepcional, igual que un accidente."
+    },
+    {
+      "id": "EQT-012",
+      "articulo": "art. 4",
+      "titulo": "Quién comprueba y qué se conserva",
+      "resumen": "Las comprobaciones son efectuadas por personal competente; sus resultados deben documentarse y estar a disposición de la autoridad laboral, y se conservan durante toda la vida útil de los equipos. Cuando los equipos se empleen fuera de la empresa, deberán ir acompañados de una prueba material de la realización de la última comprobación.",
+      "explicacion": "El plazo de conservación no es de años: es toda la vida útil del equipo."
+    },
+    {
+      "id": "EQT-013",
+      "articulo": "art. 5",
+      "titulo": "Contenido mínimo de la información",
+      "resumen": "La información, suministrada preferentemente por escrito, debe contener como mínimo las indicaciones relativas a las condiciones y forma correcta de utilización de los equipos, teniendo en cuenta las instrucciones del fabricante, así como las situaciones o formas de utilización anormales y peligrosas que puedan preverse.",
+      "explicacion": "La norma obliga a informar también de los usos anormales previsibles, no solo del uso correcto."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "EQT-001",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "El Real Decreto 1215/1997 establece, en el marco de la Ley 31/1995, las disposiciones mínimas de seguridad y salud…",
+      "opciones": [
+        "para la utilización de los equipos de trabajo empleados por los trabajadores en el trabajo",
+        "para la elección, utilización y mantenimiento de los equipos de protección individual empleados por los trabajadores",
+        "para el diseño y la fabricación de las máquinas que vayan a ser comercializadas y puestas en servicio en el mercado interior",
+        "para las inspecciones técnicas periódicas a que han de someterse los vehículos y la maquinaria utilizados por cuenta ajena"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Objeto. 1. El presente Real Decreto establece, en el marco de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, las disposiciones mínimas de segu ridad y salud para la utilización de los equipos de trabajo empleados por los trabajadores en el trabajo.",
+      "justificacion": "Art. 1.1 RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-002",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2 del Real Decreto 1215/1997, ¿qué es un equipo de trabajo?",
+      "opciones": [
+        "cualquier máquina, aparato, instrumento o instalación utilizado en el trabajo",
+        "cualquier máquina o instalación utilizada en el trabajo que sea susceptible de generar una zona peligrosa para los trabajadores que operen en su entorno inmediato",
+        "cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que amenacen su seguridad o su salud",
+        "cualquier máquina, aparato o instalación que requiera para su manejo una autorización o habilitación administrativa específica del operador"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Equipo de trabajo: cualquier máquina, aparato, instrumento o instalación utilizado en el trabajo.",
+      "justificacion": "Art. 2 a) RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-003",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2 del Real Decreto 1215/1997, la «utilización de un equipo de trabajo» comprende…",
+      "opciones": [
+        "cualquier actividad referida a un equipo de trabajo, tal como la puesta en marcha o la detención, el empleo, el transporte, la reparación, la transformación, el mantenimiento y la conservación, incluida, en particular, la limpieza",
+        "el empleo del equipo conforme a su destino, quedando fuera de la definición las operaciones de reparación, mantenimiento, conservación y limpieza",
+        "la puesta en marcha, el empleo y la detención del equipo por el operador designado, sin comprender su transporte ni su transformación posterior",
+        "cualquier actividad referida a un equipo de trabajo que se realice dentro del centro de trabajo, quedando excluidas las que se realicen fuera de él"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "b) Utilización de un equipo de trabajo: cualquier actividad referida a un equipo de trabajo, tal como la puesta en marcha o la detención, el empleo, el transporte, la reparación, la transformación, el mantenimiento y la conservación, incluida, en particular, la limpieza.",
+      "justificacion": "Art. 2 b) RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-004",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2 del Real Decreto 1215/1997, la zona peligrosa es cualquier zona…",
+      "opciones": [
+        "situada en el interior o alrededor de un equipo de trabajo en la que la presencia de un trabajador expuesto entrañe un riesgo para su seguridad o para su salud",
+        "situada en el interior de un equipo de trabajo cuyo acceso esté materialmente impedido por resguardos fijos o por dispositivos de protección equivalentes",
+        "del centro de trabajo señalizada como tal por el empresario en aplicación de la normativa sobre señalización de seguridad y salud en el trabajo",
+        "situada alrededor de un equipo de trabajo en la que solo puedan acceder los trabajadores designados por el empresario para su utilización"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "c) Zona peligrosa: cualquier zona situada en el interior o alrededor de un equipo de trabajo en la que la presencia de un trabajador expuesto entrañe un riesgo para su seguridad o para su salud.",
+      "justificacion": "Art. 2 c) RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-005",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2 del Real Decreto 1215/1997, ¿quién es trabajador expuesto?",
+      "opciones": [
+        "cualquier trabajador que se encuentre total o parcialmente en una zona peligrosa",
+        "el trabajador encargado de la utilización de un equipo de trabajo, cuando este pueda generar riesgos específicos para su seguridad o para su salud",
+        "cualquier trabajador que se encuentre íntegramente dentro de una zona peligrosa, sin que baste la presencia parcial en ella para adquirir esa condición",
+        "el trabajador especialmente sensible a los riesgos derivados de la utilización de un equipo de trabajo por razón de sus características personales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "d) Trabajador expuesto: cualquier trabajador que se encuentre total o parcialmente en una zona peligrosa. e) Operador del equipo: el trabajador encargado de la utilización de un equipo de trabajo.",
+      "justificacion": "Art. 2 d) y e) RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-006",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estos factores impone tener en cuenta el artículo 3.2 del Real Decreto 1215/1997 para la elección de los equipos de trabajo?",
+      "opciones": [
+        "En su caso, las adaptaciones necesarias para su utilización por trabajadores discapacitados",
+        "El coste de adquisición y de mantenimiento del equipo en relación con la vida útil que quepa esperar de él según las condiciones de uso previstas",
+        "La opinión mayoritaria de los trabajadores que vayan a utilizarlo, recabada a través de sus representantes en el Comité de Seguridad y Salud",
+        "La antigüedad del equipo que se pretenda sustituir y su grado de deterioro conforme al último informe de comprobación periódica realizado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "c) En su caso, las adaptaciones necesarias para su utilización por trabajadores discapacitados.",
+      "justificacion": "Art. 3.2 c) RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-007",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Según el artículo 3.3 del Real Decreto 1215/1997, el empresario tendrá en cuenta los principios ergonómicos especialmente en cuanto…",
+      "opciones": [
+        "al diseño del puesto de trabajo y la posición de los trabajadores durante la utilización del equipo de trabajo",
+        "a la duración máxima de los períodos de utilización continuada del equipo y a los descansos que deban intercalarse entre ellos",
+        "a la formación específica que ha de recibir el operador antes de hacerse cargo por primera vez del equipo de trabajo asignado",
+        "a la elección de los equipos de protección individual que hayan de utilizarse conjuntamente con el equipo de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. Para la aplicación de las disposiciones mínimas de seguridad y salud previstas en el presente Real Decreto, el empresario tendrá en cuenta los principios ergonómicos, especialmente en cuanto al diseño del puesto de trabajo y la posición de los trabajadores durante la utilización del equipo de trabajo.",
+      "justificacion": "Art. 3.3 RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-008",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Según el artículo 3.5 del Real Decreto 1215/1997, el mantenimiento de los equipos de trabajo se realizará teniendo en cuenta…",
+      "opciones": [
+        "las instrucciones del fabricante o, en su defecto, las características de estos equipos, sus condiciones de utilización y cualquier otra circunstancia normal o excepcional que pueda influir en su deterioro o desajuste",
+        "exclusivamente las instrucciones del fabricante, sin que quepa apartarse de ellas aunque las condiciones de utilización del equipo sean distintas de las previstas",
+        "el plan de mantenimiento aprobado por el servicio de prevención propio o ajeno de la empresa, que prevalece sobre las instrucciones del fabricante",
+        "los plazos que fije la normativa sobre inspecciones técnicas periódicas aplicable a la clase de equipo de que se trate en cada caso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Dicho mantenimiento se realizará teniendo en cuenta las instrucciones del fabricante o, en su defecto, las características de estos equipos, sus condiciones de utilización y cualquier otra circunstancia normal o excepcional que pueda influir en su deterioro o desajuste.",
+      "justificacion": "Art. 3.5 RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-009",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Según el artículo 3.5 del Real Decreto 1215/1997, las operaciones de mantenimiento, reparación o transformación cuya realización suponga un riesgo específico para los trabajadores…",
+      "opciones": [
+        "sólo podrán ser encomendadas al personal especialmente capacitado para ello",
+        "deberán ser encomendadas necesariamente a una empresa externa acreditada, sin que puedan realizarlas trabajadores propios de la empresa titular",
+        "podrán ser realizadas por cualquier trabajador siempre que haya recibido la información previa sobre los riesgos que entrañan",
+        "requerirán la presencia de un recurso preventivo durante todo el tiempo que dure su ejecución material en el centro de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las operaciones de mantenimiento, reparación o transformación de los equipos de trabajo cuya realización suponga un riesgo específico para los trabajadores sólo podrán ser encomendadas al personal especialmente capacitado para ello.",
+      "justificacion": "Art. 3.5 RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-010",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "Según el artículo 4.1 del Real Decreto 1215/1997, los equipos de trabajo cuya seguridad dependa de sus condiciones de instalación se someten a una comprobación…",
+      "opciones": [
+        "inicial, tras su instalación y antes de la puesta en marcha por primera vez, y a una nueva comprobación después de cada montaje en un nuevo lugar o emplazamiento",
+        "inicial antes de la puesta en marcha y, a partir de entonces, a comprobaciones anuales mientras el equipo permanezca en el mismo emplazamiento",
+        "previa a su adquisición, realizada por el fabricante o su representante legal, que acreditará la conformidad del equipo con la normativa aplicable",
+        "inicial tras su instalación, sin que sea exigible una nueva comprobación cuando el equipo se traslade a otro lugar o emplazamiento distinto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El empresario adoptará las medidas necesarias para que aquellos equipos de trabajo cuya seguridad dependa de sus condiciones de instalación se sometan a una comprobación inicial, tras su instalación y antes de la puesta en marcha por primera vez, y a una nueva comprobación después de cada montaje en un nuevo lugar o emplazamiento, con objeto de asegurar la correcta instalación y el buen funcionamiento de los equipos.",
+      "justificacion": "Art. 4.1 RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-011",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas circunstancias obliga, según el artículo 4.2 del Real Decreto 1215/1997, a realizar comprobaciones adicionales de los equipos de trabajo?",
+      "opciones": [
+        "falta prolongada de uso",
+        "El cambio del trabajador designado como operador habitual del equipo de trabajo de que se trate",
+        "La finalización del período de garantía otorgado por el fabricante del equipo de trabajo",
+        "La incorporación del equipo al inventario de bienes del centro de trabajo correspondiente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Igualmente, se deberán realizar comprobaciones adicionales de tales equipos cada vez que se produzcan acontecimientos excepcionales, tales como transformaciones, accidentes, fenómenos naturales o falta prolongada de uso, que puedan tener consecuencias perjudiciales para la seguridad.",
+      "justificacion": "Art. 4.2 RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-012",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "Según el artículo 4.4 del Real Decreto 1215/1997, los resultados de las comprobaciones deberán conservarse…",
+      "opciones": [
+        "durante toda la vida útil de los equipos",
+        "durante los cinco años siguientes a la fecha en que la comprobación se hubiera realizado",
+        "mientras el equipo permanezca adscrito al mismo centro de trabajo en el que se comprobó",
+        "durante el plazo que determine el fabricante en las instrucciones del propio equipo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "4. Los resultados de las comprobaciones deberán documentarse y estar a disposición de la autoridad laboral. Dichos resultados deberán conservarse durante toda la vida útil de los equipos.",
+      "justificacion": "Art. 4.4 RD 1215/1997."
+    },
+    {
+      "concepto_id": "EQT-013",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "Según el artículo 5.2 del Real Decreto 1215/1997, la información sobre las condiciones y forma correcta de utilización de los equipos debe abarcar además…",
+      "opciones": [
+        "las situaciones o formas de utilización anormales y peligrosas que puedan preverse",
+        "el historial completo de comprobaciones e incidencias del equipo desde su puesta en servicio",
+        "las características técnicas de diseño y fabricación que acreditan la conformidad del equipo",
+        "la relación de trabajadores autorizados a utilizar el equipo dentro del centro de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Las condiciones y forma correcta de utilización de los equipos de trabajo, teniendo en cuenta las instrucciones del fabricante, así como las situaciones o formas de utilización anormales y peligrosas que puedan preverse.",
+      "justificacion": "Art. 5.2 a) RD 1215/1997."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "EQT-002",
+      "destino": "EQT-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-003",
+      "destino": "EQT-002",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-004",
+      "destino": "EQT-002",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-005",
+      "destino": "EQT-004",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-006",
+      "destino": "EQT-002",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-007",
+      "destino": "EQT-006",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-008",
+      "destino": "EQT-003",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-009",
+      "destino": "EQT-008",
+      "tipo": "limita"
+    },
+    {
+      "origen": "EQT-010",
+      "destino": "EQT-008",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-011",
+      "destino": "EQT-010",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-012",
+      "destino": "EQT-010",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-013",
+      "destino": "EQT-003",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-002",
+      "destino": "PRL-007",
+      "tipo": "remite"
+    },
+    {
+      "origen": "EQT-007",
+      "destino": "PRL-036",
+      "tipo": "remite"
+    },
+    {
+      "origen": "EQT-006",
+      "destino": "PRL-013",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "EQT-013",
+      "destino": "PRL-018",
+      "tipo": "remite"
+    },
+    {
+      "origen": "EQT-009",
+      "destino": "PRL-042",
+      "tipo": "remite"
+    },
+    {
+      "origen": "EQT-002",
+      "destino": "EPI-002",
+      "tipo": "limita"
+    }
+  ]
+}
