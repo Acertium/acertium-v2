@@ -1,0 +1,1154 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 17 — Derecho Penal Especial: homicidio y sus formas, aborto, lesiones, delitos contra la libertad, torturas y otros delitos contra la integridad moral, y delitos contra la libertad sexual"
+  },
+  "fuentes": {
+    "art. 140 bis": "1. A las personas condenadas por la comisión de uno o más delitos comprendidos en este título se les podrá imponer además una medida de libertad vigilada. 2. Si la víctima y quien sea autor de los delitos previstos en los tres artículos precedentes tuvieran un hijo o hija en común, la autoridad judicial impondrá, respecto de este, la pena de privación de la patria potestad. La misma pena se impondrá cuando la víctima fuere hijo o hija del autor, respecto de otros hijos e hijas, si existieren.",
+    "art. 141": "La provocación, la conspiración y la proposición para cometer los delitos previstos en los tres artículos precedentes, será castigada con la pena inferior en uno o dos grados a la señalada en su caso en los artículos anteriores.",
+    "art. 142 bis": "En los casos previstos en el número 1 del artículo anterior, el Juez o Tribunal podrá imponer motivadamente la pena superior en un grado, en la extensión que estime conveniente, si el hecho revistiere notoria gravedad, en atención a la singular entidad y relevancia del riesgo creado y del deber normativo de cuidado infringido, y hubiere provocado la muerte de dos o más personas o la muerte de una y lesiones constitutivas de delito del artículo 152.1.2.º o 3.º en las demás, y en dos grados si el número de fallecidos fuere muy elevado.",
+    "art. 143 bis": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección será castigada con la pena de prisión de uno a cuatro años. Las autoridades judiciales ordenarán la adopción de las medidas necesarias para la retirada de los contenidos a los que se refiere el párrafo anterior, para la interrupción de los servicios que ofrezcan predominantemente dichos contenidos o para el bloqueo de unos y otros cuando radiquen en el extranjero.",
+    "art. 145 bis": "1. Será castigado con la pena de multa de seis a doce meses e inhabilitación especial para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de seis meses a dos años, el que dentro de los casos contemplados en la ley, practique un aborto: a) Sin contar con los dictámenes previos preceptivos; b) Fuera de un centro o establecimiento público o privado acreditado. En este caso, el juez podrá imponer la pena en su mitad superior. 2. En todo caso, el juez o tribunal impondrá las penas previstas en este artículo en su mitad superior cuando el aborto se haya practicado a partir de la vigésimo segunda semana de gestación. 3. La embarazada no será penada a tenor de este precepto.",
+    "art. 151": "La provocación, la conspiración y la proposición para cometer los delitos previstos en los artículos precedentes de este Título, será castigada con la pena inferior en uno o dos grados a la del delito correspondiente.",
+    "art. 152": "1. El que por imprudencia grave causare alguna de las lesiones previstas en los artículos anteriores será castigado, en atención al riesgo creado y el resultado producido: 1.° Con la pena de prisión de tres a seis meses o multa de seis a dieciocho meses, si se tratare de las lesiones del apartado 1 del artículo 147. 2.° Con la pena de prisión de uno a tres años, si se tratare de las lesiones del artículo 149. 3.° Con la pena de prisión de seis meses a dos años, si se tratare de las lesiones del artículo 150. Si los hechos se hubieran cometido utilizando un vehículo a motor o un ciclomotor, se impondrá asimismo la pena de privación del derecho a conducir vehículos a motor y ciclomotores de uno a cuatro años. A los efectos de este apartado, se reputará en todo caso como imprudencia grave la conducción en la que la concurrencia de alguna de las circunstancias previstas en el artículo 379 determinara la producción del hecho. Si las lesiones se hubieran causado utilizando un arma de fuego, se impondrá también la pena de privación del derecho al porte o tenencia de armas por tiempo de uno a cuatro años. Si las lesiones hubieran sido cometidas por imprudencia profesional, se impondrá además la pena de inhabilitación especial para el ejercicio de la profesión, oficio o cargo por un período de seis meses a cuatro años. 2. El que por imprudencia menos grave causare alguna de las lesiones a que se refiere el artículo 147.1, será castigado con la pena de multa de uno a dos meses, y si se causaren las lesiones a que se refieren los artículos 149 y 150, será castigado con la pena de multa de tres meses a doce meses. Si los hechos se hubieran cometido utilizando un vehículo a motor o un ciclomotor, se impondrá también la pena de privación del derecho a conducir vehículos a motor y ciclomotores de tres a dieciocho meses. A los efectos de este apartado, se reputará en todo caso como imprudencia menos grave aquella no calificada como grave en la que para la producción del hecho haya sido determinante la comisión de alguna de las infracciones graves de las normas de tráfico, circulación de vehículos y seguridad vial. La valoración sobre la existencia o no de la determinación deberá apreciarse en resolución motivada. Si las lesiones se hubieran causado utilizando un arma de fuego, se podrá imponer también la pena de privación del derecho al porte o tenencia de armas por tiempo de tres meses a un año. El delito previsto en este apartado solo será perseguible mediante denuncia de la persona agraviada o de su representante legal.",
+    "art. 152 bis": "En los casos previstos en el número 1 del artículo anterior, el Juez o Tribunal podrá imponer motivadamente la pena superior en un grado, en la extensión que estime conveniente, si el hecho revistiere notoria gravedad, en atención a la singular entidad y relevancia del riesgo creado y del deber normativo de cuidado infringido, y hubiere provocado lesiones constitutivas de delito del artículo 152.1.2.º o 3.º a una pluralidad de personas, y en dos grados si el número de lesionados fuere muy elevado.",
+    "art. 153": "1. El que por cualquier medio o procedimiento causare a otro menoscabo psíquico o una lesión de menor gravedad de las previstas en el apartado 2 del artículo 147, o golpeare o maltratare de obra a otro sin causarle lesión, cuando la ofendida sea o haya sido esposa, o mujer que esté o haya estado ligada a él por una análoga relación de afectividad aun sin convivencia, o persona especialmente vulnerable que conviva con el autor, será castigado con la pena de prisión de seis meses a un año o de trabajos en beneficios de la comunidad de treinta y uno a ochenta días y, en todo caso, privación del derecho a la tenencia y porte de armas de un año y un día a tres años, así como, cuando el juez o tribunal lo estime adecuado al interés del menor o persona con discapacidad necesitada de especial protección, inhabilitación para el ejercicio de la patria potestad, tutela, curatela, guarda o acogimiento hasta cinco años. 2. Si la víctima del delito previsto en el apartado anterior fuere alguna de las personas a que se refiere el artículo 173.2, exceptuadas las personas contempladas en el apartado anterior de este artículo, el autor será castigado con la pena de prisión de tres meses a un año o de trabajos en beneficio de la comunidad de treinta y uno a ochenta días y, en todo caso, privación del derecho a la tenencia y porte de armas de un año y un día a tres años, así como, cuando el Juez o Tribunal lo estime adecuado al interés del menor o persona con discapacidad necesitada de especial protección, inhabilitación para el ejercicio de la patria potestad, tutela, curatela, guarda o acogimiento de seis meses a tres años. 3. Las penas previstas en los apartados 1 y 2 se impondrán en su mitad superior cuando el delito se perpetre en presencia de menores, o utilizando armas, o tenga lugar en el domicilio común o en el domicilio de la víctima, o se realice quebrantando una pena de las contempladas en el artículo 48 de este Código o una medida cautelar o de seguridad de la misma naturaleza. 4. No obstante lo previsto en los apartados anteriores, el Juez o Tribunal, razonándolo en sentencia, en atención a las circunstancias personales del autor y las concurrentes en la realización del hecho, podrá imponer la pena inferior en grado.",
+    "art. 154": "Quienes riñeren entre sí, acometiéndose tumultuariamente, y utilizando medios o instrumentos que pongan en peligro la vida o integridad de las personas, serán castigados por su participación en la riña con la pena de prisión de tres meses a un año o multa de seis a 24 meses.",
+    "art. 155": "En los delitos de lesiones, si ha mediado el consentimiento válida, libre, espontánea y expresamente emitido del ofendido, se impondrá la pena inferior en uno o dos grados. No será válido el consentimiento otorgado por un menor de edad o una persona con discapacidad necesitada de especial protección.",
+    "art. 156": "No obstante lo dispuesto en el artículo anterior, el consentimiento válida, libre, consciente y expresamente emitido exime de responsabilidad penal en los supuestos de trasplante de órganos efectuado con arreglo a lo dispuesto en la ley, esterilizaciones y cirugía transexual realizadas por facultativo, salvo que el consentimiento se haya obtenido viciadamente, o mediante precio o recompensa, o el otorgante sea menor de edad o carezca absolutamente de aptitud para prestarlo, en cuyo caso no será válido el prestado por éstos ni por sus representantes legales.",
+    "art. 156 bis": "1. Los que de cualquier modo promovieren, favorecieren, facilitaren, publicitaren o ejecutaren el tráfico de órganos humanos serán castigados con la pena de prisión de seis a doce años tratándose del órgano de una persona viva y de prisión de tres a seis años tratándose del órgano de una persona fallecida. A estos efectos, se entenderá por tráfico de órganos humanos: a) La extracción u obtención ilícita de órganos humanos ajenos. Dicha extracción u obtención será ilícita si se produce concurriendo cualquiera de las circunstancias siguientes: 1.ª que se haya realizado sin el consentimiento libre, informado y expreso del donante vivo en la forma y con los requisitos previstos legalmente; 2.ª que se haya realizado sin la necesaria autorización exigida por la ley en el caso del donante fallecido, 3.ª que, a cambio de la extracción u obtención, en provecho propio o ajeno, se solicitare o recibiere por el donante o un tercero, por sí o por persona interpuesta, dádiva o retribución de cualquier clase o se aceptare ofrecimiento o promesa. No se entenderá por dádiva o retribución el resarcimiento de los gastos o pérdida de ingresos derivados de la donación. b) La preparación, preservación, almacenamiento, transporte, traslado, recepción, importación o exportación de órganos ilícitamente extraídos. c) El uso de órganos ilícitamente extraídos con la finalidad de su trasplante o para otros fines. 2. Del mismo modo se castigará a los que, en provecho propio o ajeno: a) solicitaren o recibieren, por sí o por persona interpuesta, dádiva o retribución de cualquier clase, o aceptaren ofrecimiento o promesa por proponer o captar a un donante o a un receptor de órganos; b) ofrecieren o entregaren, por sí o por persona interpuesta, dádiva o retribución de cualquier clase a personal facultativo, funcionario público o particular con ocasión del ejercicio de su profesión o cargo en clínicas, establecimientos o consultorios, públicos o privados, con el fin de que se lleve a cabo o se facilite la extracción u obtención ilícitas o la implantación de órganos ilícitamente extraídos. 3. Si el receptor del órgano consintiere la realización del trasplante conociendo su origen ilícito será castigado con las mismas penas previstas en el apartado 1, que podrán ser rebajadas en uno o dos grados atendiendo a las circunstancias del hecho y del culpable. 4. Se impondrán las penas superiores en grado a las previstas en el apartado 1 cuando: a) se hubiera puesto en grave peligro la vida o la integridad física o psíquica de la víctima del delito. b) la víctima sea menor de edad o especialmente vulnerable por razón de su edad, discapacidad, enfermedad o situación. Si concurrieren ambas circunstancias, se impondrá la pena en su mitad superior. 5. El facultativo, funcionario público o particular que, con ocasión del ejercicio de su profesión o cargo, realizare en centros públicos o privados las conductas descritas en los apartados 1 y 2, o solicitare o recibiere la dádiva o retribución a que se refiere la letra b) de este último apartado, o aceptare el ofrecimiento o promesa de recibirla, incurrirá en la pena en ellos señalada superior en grado y, además, en la de inhabilitación especial para empleo o cargo público, profesión u oficio, para ejercer cualquier profesión sanitaria o para prestar servicios de toda índole en clínicas, establecimientos o consultorios, públicos o privados, por el tiempo de la condena. Si concurriere, además, alguna de las circunstancias previstas en el apartado 4, se impondrán las penas en su mitad superior. A los efectos de este artículo, el término facultativo comprende los médicos, personal de enfermería y cualquier otra persona que realice una actividad sanitaria o socio-sanitaria. 6. Se impondrá la pena superior en grado a la prevista en el apartado 1 e inhabilitación especial para profesión, oficio, industria o comercio por el tiempo de la condena, cuando el culpable perteneciere a una organización o grupo criminal dedicado a la realización de tales actividades. Si concurriere alguna de las circunstancias previstas en el apartado 4, se impondrán las penas en la mitad superior. Si concurriere la circunstancia prevista en el apartado 5, se impondrán las penas señaladas en este en su mitad superior. Cuando se tratare de los jefes, administradores o encargados de dichas organizaciones o grupos, se les aplicará la pena en su mitad superior, que podrá elevarse a la inmediatamente superior en grado. En todo caso se elevará la pena a la inmediatamente superior en grado si concurriera alguna de las circunstancias previstas en el apartado 4 o la circunstancia prevista en el apartado 5. 7. Cuando de acuerdo con lo establecido en el artículo 31 bis una persona jurídica sea responsable de los delitos comprendidos en este artículo, se le impondrá la pena de multa del triple al quíntuple del beneficio obtenido. Atendidas las reglas establecidas en el artículo 66 bis, los jueces y tribunales podrán asimismo imponer las penas recogidas en las letras b) a g) del apartado 7 del artículo 33. 8. La provocación, la conspiración y la proposición para cometer los delitos previstos en este artículo se castigarán con la pena inferior en uno a dos grados a la que corresponde, respectivamente, a los hechos previstos en los apartados anteriores. 9. En todo caso, las penas previstas en este artículo se impondrán sin perjuicio de las que correspondan, en su caso, por el delito del artículo 177 bis de este Código y demás delitos efectivamente cometidos. 10. Las condenas de jueces o tribunales extranjeros por delitos de la misma naturaleza que los previstos en este artículo producirán los efectos de reincidencia, salvo que el antecedente penal haya sido cancelado o pueda serlo con arreglo al Derecho español.",
+    "art. 156 quater": "A las personas condenadas por la comisión de uno o más delitos comprendidos en este Título, cuando la víctima fuere alguna de las personas a que se refiere el apartado 2 del artículo 173, se les podrá imponer además una medida de libertad vigilada.",
+    "art. 156 quinquies": "A las personas condenadas por la comisión de alguno de los delitos previstos en los artículos 147.1, 148, 149, 150 y 153 en los que la víctima sea una persona menor de edad se les podrá imponer, además de las penas que procedan, la pena de inhabilitación especial para cualquier profesión, oficio u otras actividades, sean o no retribuidos, que conlleve contacto regular y directo con personas menores de edad, por un tiempo superior entre tres y cinco años al de la duración de la pena de privación de libertad impuesta en la sentencia o por un tiempo de dos a cinco años cuando no se hubiere impuesto una pena de prisión, en ambos casos se atenderá proporcionalmente a la gravedad del delito, el número de los delitos cometidos y a las circunstancias que concurran en la persona condenada.",
+    "art. 156 ter": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar a la autolesión de personas menores de edad o personas con discapacidad necesitadas de especial protección será castigada con la pena de prisión de seis meses a tres años. Las autoridades judiciales ordenarán la adopción de las medidas necesarias para la retirada de los contenidos a los que se refiere el párrafo anterior, para la interrupción de los servicios que ofrezcan predominantemente dichos contenidos o para el bloqueo de unos y otros cuando radiquen en el extranjero.",
+    "art. 157": "El que, por cualquier medio o procedimiento, causare en un feto una lesión o enfermedad que perjudique gravemente su normal desarrollo, o provoque en el mismo una grave tara física o psíquica, será castigado con pena de prisión de uno a cuatro años e inhabilitación especial para ejercer cualquier profesión sanitaria, o para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de dos a ocho años.",
+    "art. 158": "El que, por imprudencia grave, cometiere los hechos descritos en el artículo anterior, será castigado con la pena de prisión de tres a cinco meses o multa de seis a 10 meses. Cuando los hechos descritos en el artículo anterior fueren cometidos por imprudencia profesional se impondrá asimismo la pena de inhabilitación especial para el ejercicio de la profesión, oficio o cargo por un período de seis meses a dos años. La embarazada no será penada a tenor de este precepto.",
+    "art. 159": "1. Serán castigados con la pena de prisión de dos a seis años e inhabilitación especial para empleo o cargo público, profesión u oficio de siete a diez años los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo. 2. Si la alteración del genotipo fuere realizada por imprudencia grave, la pena será de multa de seis a quince meses e inhabilitación especial para empleo o cargo público, profesión u oficio de uno a tres años.",
+    "art. 160": "1. La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana, será castigada con la pena de prisión de tres a siete años e inhabilitación especial para empleo o cargo público, profesión u oficio por tiempo de siete a 10 años. 2. Serán castigados con la pena de prisión de uno a cinco años e inhabilitación especial para empleo o cargo público, profesión u oficio de seis a 10 años quienes fecunden óvulos humanos con cualquier fin distinto a la procreación humana. 3. Con la misma pena se castigará la creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.",
+    "art. 161": "1. Quien practicare reproducción asistida en una mujer, sin su consentimiento, será castigado con la pena de prisión de dos a seis años, e inhabilitación especial para empleo o cargo público, profesión u oficio por tiempo de uno a cuatro años. 2. Para proceder por este delito será precisa denuncia de la persona agraviada o de su representante legal. Cuando aquélla sea menor de edad, persona con discapacidad necesitada de especial protección o una persona desvalida, también podrá denunciar el Ministerio Fiscal.",
+    "art. 162": "En los delitos contemplados en este título, la autoridad judicial podrá imponer alguna o algunas de las consecuencias previstas en el artículo 129 de este Código cuando el culpable perteneciere a una sociedad, organización o asociación, incluso de carácter transitorio, que se dedicare a la realización de tales actividades."
+  },
+  "conceptos": [
+    {
+      "id": "CP-140bis-libertad-vigilada",
+      "articulo": "art. 140 bis",
+      "titulo": "Libertad vigilada en los delitos contra la vida",
+      "resumen": "A las personas condenadas por la comisión de uno o más delitos comprendidos en el título del homicidio se les puede imponer además una medida de libertad vigilada.",
+      "explicacion": "Es potestativa, no automática, y se suma a la pena."
+    },
+    {
+      "id": "CP-140bis-patria-potestad",
+      "articulo": "art. 140 bis",
+      "titulo": "Privación de la patria potestad",
+      "resumen": "Si la víctima y el autor de los delitos de los tres artículos precedentes tuvieran un hijo o hija en común, la autoridad judicial impone respecto de este la pena de privación de la patria potestad; la misma pena se impone cuando la víctima fuere hijo o hija del autor, respecto de otros hijos e hijas, si existieren.",
+      "explicacion": "Es imperativa: la ley dice «impondrá», no «podrá imponer»."
+    },
+    {
+      "id": "CP-141-preparatorios",
+      "articulo": "art. 141",
+      "titulo": "Actos preparatorios del homicidio",
+      "resumen": "La provocación, la conspiración y la proposición para cometer los delitos de los tres artículos precedentes se castigan con la pena inferior en uno o dos grados a la señalada en su caso en los artículos anteriores.",
+      "explicacion": "Los actos preparatorios solo se castigan cuando la ley lo dice expresamente, como aquí."
+    },
+    {
+      "id": "CP-142bis-agravacion",
+      "articulo": "art. 142 bis",
+      "titulo": "Agravación del homicidio imprudente por notoria gravedad",
+      "resumen": "En el homicidio por imprudencia grave el juez o tribunal puede imponer motivadamente la pena superior en un grado si el hecho reviste notoria gravedad y ha provocado la muerte de dos o más personas, o la muerte de una y lesiones de los apartados 2.º o 3.º del artículo 152.1 en las demás; y en dos grados si el número de fallecidos fuere muy elevado.",
+      "explicacion": "Es potestativa y ha de motivarse. Los dos escalones se distinguen por el número de fallecidos."
+    },
+    {
+      "id": "CP-143bis-incitacion-suicidio",
+      "articulo": "art. 143 bis",
+      "titulo": "Incitación al suicidio de menores por medios tecnológicos",
+      "resumen": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección se castiga con prisión de uno a cuatro años.",
+      "explicacion": "No exige que ningún menor llegue a suicidarse: basta la difusión de los contenidos."
+    },
+    {
+      "id": "CP-143bis-retirada",
+      "articulo": "art. 143 bis",
+      "titulo": "Medidas judiciales de retirada y bloqueo",
+      "resumen": "Las autoridades judiciales ordenan la adopción de las medidas necesarias para la retirada de esos contenidos, para la interrupción de los servicios que los ofrezcan predominantemente o para el bloqueo de unos y otros cuando radiquen en el extranjero.",
+      "explicacion": "La retirada es una consecuencia del propio artículo, al margen de la pena que se imponga."
+    },
+    {
+      "id": "CP-145bis-tipo",
+      "articulo": "art. 145 bis",
+      "titulo": "Aborto practicado sin los requisitos legales",
+      "resumen": "Se castiga con multa de seis a doce meses e inhabilitación especial para prestar servicios en clínicas, establecimientos o consultorios ginecológicos de seis meses a dos años a quien, dentro de los casos contemplados en la ley, practique un aborto sin contar con los dictámenes previos preceptivos o fuera de un centro o establecimiento público o privado acreditado; en este segundo caso el juez puede imponer la pena en su mitad superior.",
+      "explicacion": "Es el aborto legal mal hecho: el supuesto está permitido, pero se han incumplido los requisitos."
+    },
+    {
+      "id": "CP-145bis-semana",
+      "articulo": "art. 145 bis",
+      "titulo": "Agravación a partir de la vigésimo segunda semana",
+      "resumen": "El juez o tribunal impone en todo caso las penas del artículo en su mitad superior cuando el aborto se haya practicado a partir de la vigésimo segunda semana de gestación.",
+      "explicacion": "Es el único límite temporal que da el precepto y es dato de examen."
+    },
+    {
+      "id": "CP-145bis-embarazada",
+      "articulo": "art. 145 bis",
+      "titulo": "Impunidad de la embarazada",
+      "resumen": "La embarazada no es penada a tenor de este precepto.",
+      "explicacion": "El reproche recae sobre quien practica el aborto, no sobre ella."
+    },
+    {
+      "id": "CP-151-preparatorios",
+      "articulo": "art. 151",
+      "titulo": "Actos preparatorios de las lesiones",
+      "resumen": "La provocación, la conspiración y la proposición para cometer los delitos de lesiones se castigan con la pena inferior en uno o dos grados a la del delito correspondiente.",
+      "explicacion": "Paralelo al del homicidio: la ley castiga expresamente los actos preparatorios."
+    },
+    {
+      "id": "CP-152-imprudencia-grave",
+      "articulo": "art. 152",
+      "titulo": "Lesiones por imprudencia grave",
+      "resumen": "Quien por imprudencia grave causa lesiones es castigado, en atención al riesgo creado y al resultado producido, con prisión de tres a seis meses o multa de seis a dieciocho meses si son las del apartado 1 del artículo 147, con prisión de uno a tres años si son las del artículo 149, y con prisión de seis meses a dos años si son las del artículo 150.",
+      "explicacion": "El escalón más grave no es el último de la lista: las lesiones del artículo 149 llevan más pena que las del 150."
+    },
+    {
+      "id": "CP-152-vehiculo",
+      "articulo": "art. 152",
+      "titulo": "Lesiones imprudentes con vehículo a motor",
+      "resumen": "Si los hechos se cometen utilizando un vehículo a motor o un ciclomotor se impone asimismo la privación del derecho a conducir vehículos a motor y ciclomotores de uno a cuatro años; se reputa en todo caso imprudencia grave la conducción en la que la concurrencia de alguna de las circunstancias del artículo 379 determinara la producción del hecho.",
+      "explicacion": "La remisión al artículo 379 convierte en grave, por ley, la imprudencia del conductor en el que concurre alguna de esas circunstancias."
+    },
+    {
+      "id": "CP-152-arma-profesional",
+      "articulo": "art. 152",
+      "titulo": "Arma de fuego e imprudencia profesional",
+      "resumen": "Si las lesiones se causan utilizando un arma de fuego se impone también la privación del derecho al porte o tenencia de armas de uno a cuatro años; si se cometen por imprudencia profesional, además la inhabilitación especial para el ejercicio de la profesión, oficio o cargo de seis meses a cuatro años.",
+      "explicacion": "En la imprudencia grave la privación del derecho al porte de armas es obligatoria; en la menos grave, potestativa."
+    },
+    {
+      "id": "CP-152-menos-grave",
+      "articulo": "art. 152",
+      "titulo": "Lesiones por imprudencia menos grave",
+      "resumen": "La imprudencia menos grave se castiga con multa de uno a dos meses si la lesión es de las del artículo 147.1, y con multa de tres meses a doce meses si son las de los artículos 149 y 150.",
+      "explicacion": "Aquí no hay prisión: la respuesta es siempre pena de multa."
+    },
+    {
+      "id": "CP-152-denuncia",
+      "articulo": "art. 152",
+      "titulo": "Denuncia previa en la imprudencia menos grave",
+      "resumen": "El delito de lesiones por imprudencia menos grave solo es perseguible mediante denuncia de la persona agraviada o de su representante legal.",
+      "explicacion": "Es semipúblico, a diferencia de la imprudencia grave."
+    },
+    {
+      "id": "CP-152bis-agravacion",
+      "articulo": "art. 152 bis",
+      "titulo": "Agravación de las lesiones imprudentes por notoria gravedad",
+      "resumen": "En las lesiones por imprudencia grave el juez o tribunal puede imponer motivadamente la pena superior en un grado si el hecho reviste notoria gravedad y ha provocado lesiones de los apartados 2.º o 3.º del artículo 152.1 a una pluralidad de personas, y en dos grados si el número de lesionados fuere muy elevado.",
+      "explicacion": "Mismo mecanismo que en el homicidio imprudente, aplicado al número de lesionados."
+    },
+    {
+      "id": "CP-153-genero",
+      "articulo": "art. 153",
+      "titulo": "Maltrato de obra en el ámbito de la violencia de género",
+      "resumen": "Causar por cualquier medio un menoscabo psíquico o una lesión de menor gravedad de las del apartado 2 del artículo 147, o golpear o maltratar de obra sin causar lesión, cuando la ofendida sea o haya sido esposa o mujer ligada al autor por análoga relación de afectividad aun sin convivencia, o persona especialmente vulnerable que conviva con él, se castiga con prisión de seis meses a un año o trabajos en beneficio de la comunidad de treinta y uno a ochenta días y, en todo caso, privación del derecho a la tenencia y porte de armas de un año y un día a tres años.",
+      "explicacion": "El maltrato de obra sin lesión ya es delito aquí, y con pena de prisión."
+    },
+    {
+      "id": "CP-153-ambito-familiar",
+      "articulo": "art. 153",
+      "titulo": "Maltrato sobre el resto de víctimas del ámbito familiar",
+      "resumen": "Si la víctima es alguna de las personas del apartado 2 del artículo 173 distinta de las del apartado anterior, la pena es de prisión de tres meses a un año o de trabajos en beneficio de la comunidad de treinta y uno a ochenta días.",
+      "explicacion": "La diferencia con el apartado anterior está en el suelo de la pena de prisión."
+    },
+    {
+      "id": "CP-153-mitad-superior",
+      "articulo": "art. 153",
+      "titulo": "Circunstancias que llevan la pena a su mitad superior",
+      "resumen": "Las penas de los apartados 1 y 2 se imponen en su mitad superior cuando el delito se perpetre en presencia de menores, o utilizando armas, o tenga lugar en el domicilio común o en el domicilio de la víctima, o se realice quebrantando una pena de las contempladas en el artículo 48 o una medida cautelar o de seguridad de la misma naturaleza.",
+      "explicacion": "Cuatro circunstancias tasadas; las dos primeras son las más preguntadas."
+    },
+    {
+      "id": "CP-153-inferior-grado",
+      "articulo": "art. 153",
+      "titulo": "Rebaja facultativa de la pena",
+      "resumen": "El juez o tribunal, razonándolo en sentencia y en atención a las circunstancias personales del autor y a las concurrentes en la realización del hecho, puede imponer la pena inferior en grado.",
+      "explicacion": "Es la válvula de escape del precepto, y exige motivación expresa en la sentencia."
+    },
+    {
+      "id": "CP-154-rina",
+      "articulo": "art. 154",
+      "titulo": "Riña tumultuaria",
+      "resumen": "Quienes riñen entre sí acometiéndose tumultuariamente y utilizando medios o instrumentos que pongan en peligro la vida o integridad de las personas son castigados por su participación en la riña con prisión de tres meses a un año o multa de seis a 24 meses.",
+      "explicacion": "Se castiga la participación en la riña, no el resultado lesivo, que se pena aparte."
+    },
+    {
+      "id": "CP-155-consentimiento",
+      "articulo": "art. 155",
+      "titulo": "Eficacia atenuante del consentimiento en las lesiones",
+      "resumen": "En los delitos de lesiones, si ha mediado el consentimiento válida, libre, espontánea y expresamente emitido del ofendido, se impone la pena inferior en uno o dos grados; no es válido el consentimiento otorgado por un menor de edad o una persona con discapacidad necesitada de especial protección.",
+      "explicacion": "El consentimiento atenúa, no exime, salvo en los supuestos del artículo siguiente."
+    },
+    {
+      "id": "CP-156-eximente",
+      "articulo": "art. 156",
+      "titulo": "Consentimiento eximente",
+      "resumen": "El consentimiento válida, libre, consciente y expresamente emitido exime de responsabilidad penal en los supuestos de trasplante de órganos efectuado con arreglo a la ley, esterilizaciones y cirugía transexual realizadas por facultativo, salvo que se haya obtenido viciadamente, mediante precio o recompensa, o el otorgante sea menor de edad o carezca absolutamente de aptitud para prestarlo.",
+      "explicacion": "Aquí el consentimiento sí exime; en el artículo anterior solo atenúa."
+    },
+    {
+      "id": "CP-156bis-trafico",
+      "articulo": "art. 156 bis",
+      "titulo": "Tráfico de órganos humanos",
+      "resumen": "Quienes de cualquier modo promuevan, favorezcan, faciliten, publiciten o ejecuten el tráfico de órganos humanos son castigados con prisión de seis a doce años tratándose del órgano de una persona viva y de tres a seis años tratándose del órgano de una persona fallecida.",
+      "explicacion": "La pena depende de si el órgano procede de una persona viva o fallecida."
+    },
+    {
+      "id": "CP-156bis-extraccion-ilicita",
+      "articulo": "art. 156 bis",
+      "titulo": "Cuándo es ilícita la extracción de órganos",
+      "resumen": "La extracción u obtención de órganos humanos ajenos es ilícita, entre otros supuestos, cuando se haya realizado sin el consentimiento libre, informado y expreso del donante vivo en la forma y con los requisitos previstos legalmente.",
+      "explicacion": "El consentimiento del donante vivo ha de reunir las tres notas: libre, informado y expreso."
+    },
+    {
+      "id": "CP-156bis-receptor",
+      "articulo": "art. 156 bis",
+      "titulo": "Responsabilidad del receptor del órgano",
+      "resumen": "Si el receptor del órgano consiente la realización del trasplante conociendo su origen ilícito es castigado con las mismas penas del apartado 1, que pueden ser rebajadas en uno o dos grados atendiendo a las circunstancias del hecho y del culpable.",
+      "explicacion": "El receptor no queda impune, pero la rebaja es potestativa."
+    },
+    {
+      "id": "CP-156bis-agravaciones",
+      "articulo": "art. 156 bis",
+      "titulo": "Agravaciones del tráfico de órganos",
+      "resumen": "Se imponen las penas superiores en grado cuando se hubiera puesto en grave peligro la vida o la integridad física o psíquica de la víctima, o cuando esta sea menor de edad o especialmente vulnerable por razón de su edad, discapacidad, enfermedad o situación; si concurrieren ambas circunstancias, se impone la pena en su mitad superior.",
+      "explicacion": "Primero se sube el grado y sobre el marco resultante se busca la mitad superior."
+    },
+    {
+      "id": "CP-156ter-autolesion",
+      "articulo": "art. 156 ter",
+      "titulo": "Incitación a la autolesión de menores por medios tecnológicos",
+      "resumen": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de contenidos específicamente destinados a promover, fomentar o incitar a la autolesión de personas menores de edad o personas con discapacidad necesitadas de especial protección se castiga con prisión de seis meses a tres años.",
+      "explicacion": "Paralelo al delito de incitación al suicidio de menores, pero con pena menor."
+    },
+    {
+      "id": "CP-156quater-libertad-vigilada",
+      "articulo": "art. 156 quater",
+      "titulo": "Libertad vigilada en las lesiones del ámbito familiar",
+      "resumen": "A las personas condenadas por uno o más delitos del título de las lesiones, cuando la víctima fuere alguna de las personas del apartado 2 del artículo 173, se les puede imponer además una medida de libertad vigilada.",
+      "explicacion": "La medida no depende de la gravedad de la lesión sino de quién sea la víctima."
+    },
+    {
+      "id": "CP-156quinquies-inhabilitacion",
+      "articulo": "art. 156 quinquies",
+      "titulo": "Inhabilitación para actividades con menores",
+      "resumen": "A quien sea condenado por los delitos de los artículos 147.1, 148, 149, 150 y 153 siendo la víctima una persona menor de edad se le puede imponer, además de las penas que procedan, la inhabilitación especial para cualquier profesión, oficio u otras actividades, retribuidas o no, que conlleven contacto regular y directo con personas menores de edad.",
+      "explicacion": "La duración se fija por encima de la pena de prisión impuesta, o de dos a cinco años si no hubo prisión."
+    },
+    {
+      "id": "CP-157-lesiones-feto",
+      "articulo": "art. 157",
+      "titulo": "Lesiones al feto",
+      "resumen": "Quien por cualquier medio o procedimiento causa en un feto una lesión o enfermedad que perjudique gravemente su normal desarrollo, o le provoca una grave tara física o psíquica, es castigado con prisión de uno a cuatro años e inhabilitación especial para ejercer cualquier profesión sanitaria, o para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de dos a ocho años.",
+      "explicacion": "El sujeto pasivo es el feto, no la embarazada: por eso es un título propio y no un delito de lesiones."
+    },
+    {
+      "id": "CP-158-feto-imprudencia",
+      "articulo": "art. 158",
+      "titulo": "Lesiones al feto por imprudencia grave",
+      "resumen": "Quien por imprudencia grave causa las lesiones al feto del artículo anterior es castigado con prisión de tres a cinco meses o multa de seis a 10 meses; si los hechos se cometen por imprudencia profesional se impone asimismo inhabilitación especial para el ejercicio de la profesión, oficio o cargo por un período de seis meses a dos años. La embarazada no es penada.",
+      "explicacion": "La embarazada queda fuera del reproche penal también aquí."
+    },
+    {
+      "id": "CP-159-genotipo",
+      "articulo": "art. 159",
+      "titulo": "Manipulación de genes humanos",
+      "resumen": "Se castiga con prisión de dos a seis años e inhabilitación especial para empleo o cargo público, profesión u oficio de siete a diez años a quienes, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo.",
+      "explicacion": "La finalidad terapéutica es lo que deja la conducta fuera del tipo."
+    },
+    {
+      "id": "CP-159-imprudencia",
+      "articulo": "art. 159",
+      "titulo": "Alteración del genotipo por imprudencia grave",
+      "resumen": "Si la alteración del genotipo se realiza por imprudencia grave, la pena es de multa de seis a quince meses e inhabilitación especial para empleo o cargo público, profesión u oficio de uno a tres años.",
+      "explicacion": "La modalidad imprudente cambia la prisión por multa, pero mantiene la inhabilitación."
+    },
+    {
+      "id": "CP-160-armas-biologicas",
+      "articulo": "art. 160",
+      "titulo": "Ingeniería genética para producir armas biológicas",
+      "resumen": "La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana se castiga con prisión de tres a siete años e inhabilitación especial para empleo o cargo público, profesión u oficio por tiempo de siete a 10 años.",
+      "explicacion": "Es la conducta más castigada del capítulo relativo a la manipulación genética."
+    },
+    {
+      "id": "CP-160-fecundacion",
+      "articulo": "art. 160",
+      "titulo": "Fecundación de óvulos con fin distinto a la procreación",
+      "resumen": "Se castiga con prisión de uno a cinco años e inhabilitación especial para empleo o cargo público, profesión u oficio de seis a 10 años a quienes fecunden óvulos humanos con cualquier fin distinto a la procreación humana.",
+      "explicacion": "Basta el fin distinto a la procreación: no hace falta que se llegue a implantar nada."
+    },
+    {
+      "id": "CP-160-clonacion",
+      "articulo": "art. 160",
+      "titulo": "Clonación y selección de la raza",
+      "resumen": "Con la misma pena del apartado anterior se castiga la creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.",
+      "explicacion": "Se remite a la pena del apartado precedente, no a la del primero, que es mayor."
+    },
+    {
+      "id": "CP-161-reproduccion",
+      "articulo": "art. 161",
+      "titulo": "Reproducción asistida sin consentimiento",
+      "resumen": "Quien practica reproducción asistida en una mujer sin su consentimiento es castigado con prisión de dos a seis años e inhabilitación especial para empleo o cargo público, profesión u oficio por tiempo de uno a cuatro años.",
+      "explicacion": "El bien jurídico protegido es la libertad reproductiva de la mujer."
+    },
+    {
+      "id": "CP-161-denuncia",
+      "articulo": "art. 161",
+      "titulo": "Denuncia previa en la reproducción asistida sin consentimiento",
+      "resumen": "Para proceder por este delito es precisa denuncia de la persona agraviada o de su representante legal; cuando aquella sea menor de edad, persona con discapacidad necesitada de especial protección o desvalida, también puede denunciar el Ministerio Fiscal.",
+      "explicacion": "Delito semipúblico, con la puerta abierta al Ministerio Fiscal para las víctimas más vulnerables."
+    },
+    {
+      "id": "CP-162-consecuencias",
+      "articulo": "art. 162",
+      "titulo": "Consecuencias accesorias para organizaciones",
+      "resumen": "En los delitos de este título la autoridad judicial puede imponer alguna o algunas de las consecuencias previstas en el artículo 129 cuando el culpable perteneciere a una sociedad, organización o asociación, incluso de carácter transitorio, que se dedicare a la realización de tales actividades.",
+      "explicacion": "Alcanza también a las organizaciones de carácter transitorio."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-140bis-libertad-vigilada",
+      "articulo": "art. 140 bis",
+      "tipo": "test",
+      "enunciado": "A las personas condenadas por uno o más delitos del título del homicidio, el artículo 140 bis.1 del Código Penal permite imponer además…",
+      "opciones": [
+        "una medida de libertad vigilada",
+        "la pena de inhabilitación absoluta durante el tiempo de la condena y hasta cinco años después de su cumplimiento",
+        "la pena de privación del derecho a residir en el lugar en que se cometió el delito por tiempo de uno a diez años",
+        "una medida de internamiento en centro psiquiátrico cuando el autor presentare anomalía o alteración psíquica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. A las personas condenadas por la comisión de uno o más delitos comprendidos en este título se les podrá imponer además una medida de libertad vigilada.",
+      "justificacion": "Art. 140 bis.1 CP."
+    },
+    {
+      "concepto_id": "CP-140bis-patria-potestad",
+      "articulo": "art. 140 bis",
+      "tipo": "test",
+      "enunciado": "Si la víctima y el autor de los delitos de los tres artículos precedentes tuvieran un hijo o hija en común, el artículo 140 bis.2 del Código Penal dispone que la autoridad judicial…",
+      "opciones": [
+        "impondrá, respecto de este, la pena de privación de la patria potestad",
+        "podrá acordar, si lo estima conveniente para el interés del menor, la suspensión temporal del ejercicio de la patria potestad",
+        "impondrá la inhabilitación especial para el ejercicio de la patria potestad por tiempo de cuatro a diez años",
+        "remitirá testimonio al juzgado de familia para que sea este el que resuelva sobre la privación de la patria potestad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Si la víctima y quien sea autor de los delitos previstos en los tres artículos precedentes tuvieran un hijo o hija en común, la autoridad judicial impondrá, respecto de este, la pena de privación de la patria potestad.",
+      "justificacion": "Art. 140 bis.2 CP."
+    },
+    {
+      "concepto_id": "CP-141-preparatorios",
+      "articulo": "art. 141",
+      "tipo": "test",
+      "enunciado": "¿Cómo castiga el artículo 141 del Código Penal la provocación, la conspiración y la proposición para cometer los delitos de los tres artículos precedentes?",
+      "opciones": [
+        "con la pena inferior en uno o dos grados a la señalada en su caso en los artículos anteriores",
+        "con la pena inferior en grado a la del delito consumado, sin que quepa rebajarla en dos grados en ningún caso",
+        "con la misma pena prevista para la tentativa del delito de que se trate, atendida la gravedad del peligro creado",
+        "con una pena de prisión de uno a tres años, cualquiera que sea el delito para el que se conspire o se proponga"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La provocación, la conspiración y la proposición para cometer los delitos previstos en los tres artículos precedentes, será castigada con la pena inferior en uno o dos grados a la señalada en su caso en los artículos anteriores.",
+      "justificacion": "Art. 141 CP."
+    },
+    {
+      "concepto_id": "CP-142bis-agravacion",
+      "articulo": "art. 142 bis",
+      "tipo": "test",
+      "enunciado": "En el homicidio por imprudencia grave, ¿cuándo permite el artículo 142 bis del Código Penal elevar la pena en dos grados?",
+      "opciones": [
+        "si el número de fallecidos fuere muy elevado",
+        "si el hecho se hubiera cometido utilizando un vehículo a motor o un ciclomotor conducido bajo la influencia de bebidas alcohólicas",
+        "si el autor hubiera actuado con imprudencia profesional en el ejercicio de una profesión sanitaria",
+        "si además de los fallecidos hubiera lesionados constitutivos de delito, cualquiera que fuese el número de unos y otros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el Juez o Tribunal podrá imponer motivadamente la pena superior en un grado, en la extensión que estime conveniente, si el hecho revistiere notoria gravedad, en atención a la singular entidad y relevancia del riesgo creado y del deber normativo de cuidado infringido, y hubiere provocado la muerte de dos o más personas o la muerte de una y lesiones constitutivas de delito del artículo 152.1.2.º o 3.º en las demás, y en dos grados si el número de fallecidos fuere muy elevado.",
+      "justificacion": "Art. 142 bis CP."
+    },
+    {
+      "concepto_id": "CP-143bis-incitacion-suicidio",
+      "articulo": "art. 143 bis",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 143 bis del Código Penal a la difusión pública a través de Internet de contenidos destinados a incitar al suicidio de personas menores de edad?",
+      "opciones": [
+        "la pena de prisión de uno a cuatro años",
+        "la pena de prisión de seis meses a tres años, que es la prevista para la incitación a la autolesión",
+        "la pena de prisión de dos a cinco años, por equipararse a la cooperación necesaria al suicidio ajeno",
+        "la pena de multa de seis a doce meses, junto con la retirada inmediata de los contenidos difundidos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección será castigada con la pena de prisión de uno a cuatro años.",
+      "justificacion": "Art. 143 bis, párrafo primero, CP."
+    },
+    {
+      "concepto_id": "CP-143bis-retirada",
+      "articulo": "art. 143 bis",
+      "tipo": "test",
+      "enunciado": "Además de la pena, el artículo 143 bis del Código Penal dispone que las autoridades judiciales ordenarán la adopción de las medidas necesarias para…",
+      "opciones": [
+        "la retirada de los contenidos a los que se refiere el párrafo anterior, para la interrupción de los servicios que ofrezcan predominantemente dichos contenidos o para el bloqueo de unos y otros cuando radiquen en el extranjero",
+        "la identificación de los usuarios que hubieran accedido a los contenidos, para la conservación de los datos de tráfico asociados a ellos y para el precinto de los equipos desde los que se difundieron",
+        "la clausura definitiva del establecimiento desde el que se difundieron los contenidos, para la disolución de la persona jurídica titular del servicio y para el comiso de los equipos empleados",
+        "la retirada de los contenidos únicamente cuando el servicio radique en territorio español, sin que quepa acordar el bloqueo de los que se alojen en servidores situados en el extranjero"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las autoridades judiciales ordenarán la adopción de las medidas necesarias para la retirada de los contenidos a los que se refiere el párrafo anterior, para la interrupción de los servicios que ofrezcan predominantemente dichos contenidos o para el bloqueo de unos y otros cuando radiquen en el extranjero.",
+      "justificacion": "Art. 143 bis, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-145bis-tipo",
+      "articulo": "art. 145 bis",
+      "tipo": "test",
+      "enunciado": "El artículo 145 bis.1 del Código Penal castiga a quien, dentro de los casos contemplados en la ley, practique un aborto sin los dictámenes previos preceptivos o fuera de un centro acreditado con…",
+      "opciones": [
+        "la pena de multa de seis a doce meses e inhabilitación especial para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de seis meses a dos años",
+        "la pena de prisión de uno a tres años e inhabilitación especial para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de uno a seis años",
+        "la pena de multa de seis a doce meses, sin que proceda imponer además inhabilitación alguna cuando el aborto se hubiera practicado dentro de los casos contemplados en la ley",
+        "la pena de prisión de seis meses a un año e inhabilitación especial para el ejercicio de cualquier profesión sanitaria por tiempo de dos a cinco años, además de la clausura del centro"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. Será castigado con la pena de multa de seis a doce meses e inhabilitación especial para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de seis meses a dos años, el que dentro de los casos contemplados en la ley, practique un aborto:",
+      "justificacion": "Art. 145 bis.1 CP."
+    },
+    {
+      "concepto_id": "CP-145bis-semana",
+      "articulo": "art. 145 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 145 bis.2 del Código Penal, ¿cuándo se imponen en todo caso las penas de este artículo en su mitad superior?",
+      "opciones": [
+        "cuando el aborto se haya practicado a partir de la vigésimo segunda semana de gestación",
+        "cuando el aborto se haya practicado a partir de la decimocuarta semana de gestación sin contar con los dictámenes previos preceptivos",
+        "cuando el aborto se haya practicado fuera de un centro o establecimiento público o privado acreditado para ello",
+        "cuando el aborto se haya practicado sobre una mujer menor de edad o con discapacidad necesitada de especial protección"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. En todo caso, el juez o tribunal impondrá las penas previstas en este artículo en su mitad superior cuando el aborto se haya practicado a partir de la vigésimo segunda semana de gestación.",
+      "justificacion": "Art. 145 bis.2 CP."
+    },
+    {
+      "concepto_id": "CP-145bis-embarazada",
+      "articulo": "art. 145 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 145 bis.3 del Código Penal, la embarazada…",
+      "opciones": [
+        "no será penada a tenor de este precepto",
+        "será castigada con la pena de multa de seis a doce meses cuando hubiera consentido que el aborto se practicara fuera de un centro acreditado",
+        "será penada únicamente cuando el aborto se hubiera practicado a partir de la vigésimo segunda semana de gestación",
+        "será castigada con la pena inferior en uno o dos grados a la señalada para quien practica el aborto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. La embarazada no será penada a tenor de este precepto.",
+      "justificacion": "Art. 145 bis.3 CP."
+    },
+    {
+      "concepto_id": "CP-151-preparatorios",
+      "articulo": "art. 151",
+      "tipo": "test",
+      "enunciado": "¿Cómo castiga el artículo 151 del Código Penal la provocación, la conspiración y la proposición para cometer los delitos de lesiones?",
+      "opciones": [
+        "con la pena inferior en uno o dos grados a la del delito correspondiente",
+        "con la pena inferior en grado a la del delito correspondiente, sin que quepa rebajarla en dos grados",
+        "con la misma pena prevista para la tentativa del delito de lesiones de que se trate",
+        "con la pena de multa de uno a dos meses, cualquiera que sea el delito de lesiones proyectado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La provocación, la conspiración y la proposición para cometer los delitos previstos en los artículos precedentes de este Título, será castigada con la pena inferior en uno o dos grados a la del delito correspondiente.",
+      "justificacion": "Art. 151 CP."
+    },
+    {
+      "concepto_id": "CP-152-imprudencia-grave",
+      "articulo": "art. 152",
+      "tipo": "test",
+      "enunciado": "Según el artículo 152.1 del Código Penal, ¿qué pena corresponde a quien por imprudencia grave causa las lesiones del artículo 149?",
+      "opciones": [
+        "prisión de uno a tres años",
+        "prisión de tres a seis meses o multa de seis a dieciocho meses, que es la que corresponde a las lesiones del apartado 1 del artículo 147",
+        "prisión de seis meses a dos años, que es la que corresponde a las lesiones del artículo 150",
+        "multa de tres meses a doce meses, que es la que corresponde cuando la imprudencia es menos grave"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El que por imprudencia grave causare alguna de las lesiones previstas en los artículos anteriores será castigado, en atención al riesgo creado y el resultado producido: 1.° Con la pena de prisión de tres a seis meses o multa de seis a dieciocho meses, si se tratare de las lesiones del apartado 1 del artículo 147. 2.° Con la pena de prisión de uno a tres años, si se tratare de las lesiones del artículo 149. 3.° Con la pena de prisión de seis meses a dos años, si se tratare de las lesiones del artículo 150.",
+      "justificacion": "Art. 152.1 CP."
+    },
+    {
+      "concepto_id": "CP-152-vehiculo",
+      "articulo": "art. 152",
+      "tipo": "test",
+      "enunciado": "En las lesiones por imprudencia grave cometidas utilizando un vehículo a motor o un ciclomotor, ¿qué añade el artículo 152.1 del Código Penal?",
+      "opciones": [
+        "la pena de privación del derecho a conducir vehículos a motor y ciclomotores de uno a cuatro años",
+        "la pena de privación del derecho a conducir vehículos a motor y ciclomotores de tres a dieciocho meses, prevista para la imprudencia menos grave",
+        "la pena de privación definitiva del permiso de conducir cuando el resultado fuera alguna de las lesiones más graves del título",
+        "la pena de inhabilitación especial para el ejercicio de la profesión de conductor por un período de seis meses a cuatro años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si los hechos se hubieran cometido utilizando un vehículo a motor o un ciclomotor, se impondrá asimismo la pena de privación del derecho a conducir vehículos a motor y ciclomotores de uno a cuatro años. A los efectos de este apartado, se reputará en todo caso como imprudencia grave la conducción en la que la concurrencia de alguna de las circunstancias previstas en el artículo 379 determinara la producción del hecho.",
+      "justificacion": "Art. 152.1, párrafos segundo y tercero, CP."
+    },
+    {
+      "concepto_id": "CP-152-arma-profesional",
+      "articulo": "art. 152",
+      "tipo": "test",
+      "enunciado": "Si las lesiones por imprudencia grave se causan utilizando un arma de fuego, el artículo 152.1 del Código Penal impone también…",
+      "opciones": [
+        "la pena de privación del derecho al porte o tenencia de armas por tiempo de uno a cuatro años",
+        "la pena de privación del derecho al porte o tenencia de armas por tiempo de tres meses a un año, que el precepto prevé con carácter potestativo",
+        "la pena de inhabilitación especial para el ejercicio de la profesión, oficio o cargo por un período de seis meses a cuatro años",
+        "el comiso del arma empleada y la retirada definitiva de la licencia administrativa que amparase su tenencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si las lesiones se hubieran causado utilizando un arma de fuego, se impondrá también la pena de privación del derecho al porte o tenencia de armas por tiempo de uno a cuatro años. Si las lesiones hubieran sido cometidas por imprudencia profesional, se impondrá además la pena de inhabilitación especial para el ejercicio de la profesión, oficio o cargo por un período de seis meses a cuatro años.",
+      "justificacion": "Art. 152.1, párrafos cuarto y quinto, CP."
+    },
+    {
+      "concepto_id": "CP-152-menos-grave",
+      "articulo": "art. 152",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 152.2 del Código Penal a quien por imprudencia menos grave causa las lesiones de los artículos 149 y 150?",
+      "opciones": [
+        "la pena de multa de tres meses a doce meses",
+        "la pena de multa de uno a dos meses, que es la que corresponde a las lesiones del artículo 147.1",
+        "la pena de prisión de tres a seis meses o multa de seis a dieciocho meses",
+        "la pena de prisión de uno a tres años, la misma que corresponde a la imprudencia grave"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. El que por imprudencia menos grave causare alguna de las lesiones a que se refiere el artículo 147.1, será castigado con la pena de multa de uno a dos meses, y si se causaren las lesiones a que se refieren los artículos 149 y 150, será castigado con la pena de multa de tres meses a doce meses.",
+      "justificacion": "Art. 152.2 CP."
+    },
+    {
+      "concepto_id": "CP-152-denuncia",
+      "articulo": "art. 152",
+      "tipo": "test",
+      "enunciado": "Según el artículo 152.2 del Código Penal, el delito de lesiones por imprudencia menos grave…",
+      "opciones": [
+        "solo será perseguible mediante denuncia de la persona agraviada o de su representante legal",
+        "será perseguible de oficio cuando se hubiera cometido utilizando un vehículo a motor o un ciclomotor",
+        "solo será perseguible mediante querella del Ministerio Fiscal cuando la persona agraviada fuera menor de edad",
+        "será perseguible de oficio en todo caso, por tratarse de un delito público como el resto de las lesiones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El delito previsto en este apartado solo será perseguible mediante denuncia de la persona agraviada o de su representante legal.",
+      "justificacion": "Art. 152.2, último párrafo, CP."
+    },
+    {
+      "concepto_id": "CP-152bis-agravacion",
+      "articulo": "art. 152 bis",
+      "tipo": "test",
+      "enunciado": "El artículo 152 bis del Código Penal permite elevar en dos grados la pena de las lesiones por imprudencia grave…",
+      "opciones": [
+        "si el número de lesionados fuere muy elevado",
+        "si el hecho se hubiera cometido utilizando un vehículo a motor o un ciclomotor y concurriera alguna de las circunstancias del artículo 379",
+        "si las lesiones se hubieran causado a una pluralidad de personas, cualquiera que sea su número",
+        "si además de los lesionados se hubiera producido el fallecimiento de alguna de las personas afectadas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el Juez o Tribunal podrá imponer motivadamente la pena superior en un grado, en la extensión que estime conveniente, si el hecho revistiere notoria gravedad, en atención a la singular entidad y relevancia del riesgo creado y del deber normativo de cuidado infringido, y hubiere provocado lesiones constitutivas de delito del artículo 152.1.2.º o 3.º a una pluralidad de personas, y en dos grados si el número de lesionados fuere muy elevado.",
+      "justificacion": "Art. 152 bis CP."
+    },
+    {
+      "concepto_id": "CP-153-genero",
+      "articulo": "art. 153",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 153.1 del Código Penal a quien causa un menoscabo psíquico o una lesión de menor gravedad, o golpea o maltrata de obra sin causar lesión, cuando la ofendida sea o haya sido su esposa o mujer ligada a él por análoga relación de afectividad?",
+      "opciones": [
+        "la pena de prisión de seis meses a un año o de trabajos en beneficios de la comunidad de treinta y uno a ochenta días",
+        "la pena de prisión de tres meses a un año o de trabajos en beneficio de la comunidad de treinta y uno a ochenta días, prevista para el resto de víctimas del ámbito familiar",
+        "la pena de prisión de seis meses a tres años, junto con la privación del derecho a la tenencia y porte de armas de tres a cinco años",
+        "la pena de multa de uno a tres meses, salvo que el hecho se perpetre en presencia de menores o utilizando armas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El que por cualquier medio o procedimiento causare a otro menoscabo psíquico o una lesión de menor gravedad de las previstas en el apartado 2 del artículo 147, o golpeare o maltratare de obra a otro sin causarle lesión, cuando la ofendida sea o haya sido esposa, o mujer que esté o haya estado ligada a él por una análoga relación de afectividad aun sin convivencia, o persona especialmente vulnerable que conviva con el autor, será castigado con la pena de prisión de seis meses a un año o de trabajos en beneficios de la comunidad de treinta y uno a ochenta días",
+      "justificacion": "Art. 153.1 CP."
+    },
+    {
+      "concepto_id": "CP-153-ambito-familiar",
+      "articulo": "art. 153",
+      "tipo": "test",
+      "enunciado": "Si la víctima del maltrato del artículo 153 del Código Penal es alguna de las personas a que se refiere el artículo 173.2, distinta de las del apartado anterior, el artículo 153.2 impone…",
+      "opciones": [
+        "la pena de prisión de tres meses a un año o de trabajos en beneficio de la comunidad de treinta y uno a ochenta días",
+        "la pena de prisión de seis meses a un año o de trabajos en beneficio de la comunidad de treinta y uno a ochenta días, la misma del apartado anterior",
+        "la pena de prisión de seis meses a tres años, por tratarse de violencia habitual ejercida en el ámbito familiar",
+        "la pena de multa de uno a dos meses, al no concurrir la relación de pareja que cualifica el apartado anterior"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Si la víctima del delito previsto en el apartado anterior fuere alguna de las personas a que se refiere el artículo 173.2, exceptuadas las personas contempladas en el apartado anterior de este artículo, el autor será castigado con la pena de prisión de tres meses a un año o de trabajos en beneficio de la comunidad de treinta y uno a ochenta días",
+      "justificacion": "Art. 153.2 CP."
+    },
+    {
+      "concepto_id": "CP-153-mitad-superior",
+      "articulo": "art. 153",
+      "tipo": "test",
+      "enunciado": "¿En cuál de estos casos impone el artículo 153.3 del Código Penal las penas en su mitad superior?",
+      "opciones": [
+        "cuando el delito se perpetre en presencia de menores, o utilizando armas, o tenga lugar en el domicilio común o en el domicilio de la víctima",
+        "cuando el autor y la víctima hubieran tenido un hijo o hija en común, aunque no llegaran a convivir en el mismo domicilio",
+        "cuando el delito se cometa sobre persona especialmente vulnerable que conviva con el autor, cualquiera que sea el lugar de los hechos",
+        "cuando el autor tuviera antecedentes penales no cancelados por un delito de la misma naturaleza cometido con anterioridad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. Las penas previstas en los apartados 1 y 2 se impondrán en su mitad superior cuando el delito se perpetre en presencia de menores, o utilizando armas, o tenga lugar en el domicilio común o en el domicilio de la víctima, o se realice quebrantando una pena de las contempladas en el artículo 48 de este Código o una medida cautelar o de seguridad de la misma naturaleza.",
+      "justificacion": "Art. 153.3 CP."
+    },
+    {
+      "concepto_id": "CP-153-inferior-grado",
+      "articulo": "art. 153",
+      "tipo": "test",
+      "enunciado": "Según el artículo 153.4 del Código Penal, el juez o tribunal, razonándolo en sentencia y atendiendo a las circunstancias personales del autor y a las concurrentes en la realización del hecho…",
+      "opciones": [
+        "podrá imponer la pena inferior en grado",
+        "podrá imponer la pena inferior en uno o dos grados, salvo que el delito se hubiera perpetrado en presencia de menores",
+        "podrá sustituir la pena de prisión por la de trabajos en beneficio de la comunidad, pero no rebajarla en grado",
+        "podrá imponer únicamente la privación del derecho a la tenencia y porte de armas, prescindiendo de la pena principal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "4. No obstante lo previsto en los apartados anteriores, el Juez o Tribunal, razonándolo en sentencia, en atención a las circunstancias personales del autor y las concurrentes en la realización del hecho, podrá imponer la pena inferior en grado.",
+      "justificacion": "Art. 153.4 CP."
+    },
+    {
+      "concepto_id": "CP-154-rina",
+      "articulo": "art. 154",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 154 del Código Penal a quienes riñeren entre sí acometiéndose tumultuariamente y utilizando medios o instrumentos que pongan en peligro la vida o integridad de las personas?",
+      "opciones": [
+        "la pena de prisión de tres meses a un año o multa de seis a 24 meses",
+        "la pena de prisión de seis meses a un año o de trabajos en beneficio de la comunidad de treinta y uno a ochenta días",
+        "la pena de prisión de tres a seis meses o multa de seis a dieciocho meses, en atención al riesgo creado",
+        "la pena de multa de uno a dos meses, por tratarse de una infracción de menor entidad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Quienes riñeren entre sí, acometiéndose tumultuariamente, y utilizando medios o instrumentos que pongan en peligro la vida o integridad de las personas, serán castigados por su participación en la riña con la pena de prisión de tres meses a un año o multa de seis a 24 meses.",
+      "justificacion": "Art. 154 CP."
+    },
+    {
+      "concepto_id": "CP-155-consentimiento",
+      "articulo": "art. 155",
+      "tipo": "test",
+      "enunciado": "En los delitos de lesiones, si ha mediado el consentimiento válida, libre, espontánea y expresamente emitido del ofendido, el artículo 155 del Código Penal dispone que…",
+      "opciones": [
+        "se impondrá la pena inferior en uno o dos grados",
+        "quedará exento de responsabilidad penal quien causó la lesión, salvo que hubiera actuado por precio o recompensa",
+        "se impondrá la pena inferior en grado, sin que quepa rebajarla en dos grados en ningún caso",
+        "se impondrá la pena en su mitad inferior, atendidas las circunstancias personales del ofendido"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En los delitos de lesiones, si ha mediado el consentimiento válida, libre, espontánea y expresamente emitido del ofendido, se impondrá la pena inferior en uno o dos grados.",
+      "justificacion": "Art. 155, párrafo primero, CP."
+    },
+    {
+      "concepto_id": "CP-156-eximente",
+      "articulo": "art. 156",
+      "tipo": "test",
+      "enunciado": "¿En qué supuestos exime de responsabilidad penal el consentimiento válida, libre, consciente y expresamente emitido, según el artículo 156 del Código Penal?",
+      "opciones": [
+        "en los supuestos de trasplante de órganos efectuado con arreglo a lo dispuesto en la ley, esterilizaciones y cirugía transexual realizadas por facultativo",
+        "en cualquier delito de lesiones cometido en el ámbito de la actividad sanitaria, siempre que el facultativo hubiera actuado conforme a la lex artis",
+        "en los supuestos de trasplante de órganos y de donación de sangre o tejidos, quedando fuera las esterilizaciones y la cirugía transexual",
+        "en las lesiones producidas en la práctica de deportes reglamentados y en las intervenciones quirúrgicas de carácter estético"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "el consentimiento válida, libre, consciente y expresamente emitido exime de responsabilidad penal en los supuestos de trasplante de órganos efectuado con arreglo a lo dispuesto en la ley, esterilizaciones y cirugía transexual realizadas por facultativo",
+      "justificacion": "Art. 156 CP."
+    },
+    {
+      "concepto_id": "CP-156bis-trafico",
+      "articulo": "art. 156 bis",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 156 bis.1 del Código Penal al tráfico de órganos humanos?",
+      "opciones": [
+        "la pena de prisión de seis a doce años tratándose del órgano de una persona viva y de prisión de tres a seis años tratándose del órgano de una persona fallecida",
+        "la pena de prisión de tres a seis años tratándose del órgano de una persona viva y de prisión de seis a doce años tratándose del órgano de una persona fallecida",
+        "la pena de prisión de seis a doce años en todo caso, con independencia de que el órgano proceda de una persona viva o de una persona fallecida",
+        "la pena de prisión de dos a seis años y multa del triple al quíntuple del beneficio obtenido, cualquiera que sea el origen del órgano trasplantado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. Los que de cualquier modo promovieren, favorecieren, facilitaren, publicitaren o ejecutaren el tráfico de órganos humanos serán castigados con la pena de prisión de seis a doce años tratándose del órgano de una persona viva y de prisión de tres a seis años tratándose del órgano de una persona fallecida.",
+      "justificacion": "Art. 156 bis.1 CP."
+    },
+    {
+      "concepto_id": "CP-156bis-extraccion-ilicita",
+      "articulo": "art. 156 bis",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas circunstancias hace ilícita la extracción u obtención de órganos humanos ajenos a los efectos del artículo 156 bis del Código Penal?",
+      "opciones": [
+        "que se haya realizado sin el consentimiento libre, informado y expreso del donante vivo en la forma y con los requisitos previstos legalmente",
+        "que se haya realizado en un centro o establecimiento que no estuviera acreditado para la extracción y el trasplante de órganos humanos",
+        "que se haya realizado por quien no ostente la condición de facultativo conforme a la legislación sanitaria vigente en ese momento",
+        "que se haya realizado sobre un donante vivo menor de edad, aun cuando hubieran prestado su consentimiento los representantes legales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1.ª que se haya realizado sin el consentimiento libre, informado y expreso del donante vivo en la forma y con los requisitos previstos legalmente",
+      "justificacion": "Art. 156 bis.1 a) 1.ª CP."
+    },
+    {
+      "concepto_id": "CP-156bis-receptor",
+      "articulo": "art. 156 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 156 bis.3 del Código Penal, el receptor del órgano que consintiere la realización del trasplante conociendo su origen ilícito…",
+      "opciones": [
+        "será castigado con las mismas penas previstas en el apartado 1, que podrán ser rebajadas en uno o dos grados atendiendo a las circunstancias del hecho y del culpable",
+        "quedará exento de responsabilidad penal, por tratarse de un acto dirigido a preservar su propia vida o su propia salud",
+        "será castigado con la pena inferior en grado a la del apartado 1, sin que el juez pueda rebajarla más allá de ese único grado",
+        "será castigado con la pena de multa del triple al quíntuple del beneficio obtenido, además de la inhabilitación especial correspondiente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. Si el receptor del órgano consintiere la realización del trasplante conociendo su origen ilícito será castigado con las mismas penas previstas en el apartado 1, que podrán ser rebajadas en uno o dos grados atendiendo a las circunstancias del hecho y del culpable.",
+      "justificacion": "Art. 156 bis.3 CP."
+    },
+    {
+      "concepto_id": "CP-156bis-agravaciones",
+      "articulo": "art. 156 bis",
+      "tipo": "test",
+      "enunciado": "Si en el tráfico de órganos concurren a la vez el grave peligro para la vida de la víctima y su condición de menor de edad, el artículo 156 bis.4 del Código Penal dispone que…",
+      "opciones": [
+        "se impondrá la pena en su mitad superior",
+        "se impondrá la pena superior en dos grados a la prevista en el apartado 1 del propio artículo",
+        "se impondrá la pena superior en grado, sin que la concurrencia de ambas circunstancias añada efecto alguno",
+        "se impondrá la pena en su mitad superior solamente cuando el culpable perteneciere a una organización criminal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "4. Se impondrán las penas superiores en grado a las previstas en el apartado 1 cuando: a) se hubiera puesto en grave peligro la vida o la integridad física o psíquica de la víctima del delito. b) la víctima sea menor de edad o especialmente vulnerable por razón de su edad, discapacidad, enfermedad o situación. Si concurrieren ambas circunstancias, se impondrá la pena en su mitad superior.",
+      "justificacion": "Art. 156 bis.4 CP."
+    },
+    {
+      "concepto_id": "CP-156ter-autolesion",
+      "articulo": "art. 156 ter",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 156 ter del Código Penal a la difusión pública por medios tecnológicos de contenidos destinados a incitar a la autolesión de personas menores de edad?",
+      "opciones": [
+        "la pena de prisión de seis meses a tres años",
+        "la pena de prisión de uno a cuatro años, que es la prevista para la incitación al suicidio de menores",
+        "la pena de prisión de seis meses a dos años y multa de doce a veinticuatro meses",
+        "la pena de multa de seis a doce meses, junto con la retirada de los contenidos difundidos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar a la autolesión de personas menores de edad o personas con discapacidad necesitadas de especial protección será castigada con la pena de prisión de seis meses a tres años.",
+      "justificacion": "Art. 156 ter, párrafo primero, CP."
+    },
+    {
+      "concepto_id": "CP-156quater-libertad-vigilada",
+      "articulo": "art. 156 quater",
+      "tipo": "test",
+      "enunciado": "Según el artículo 156 quater del Código Penal, ¿a quién se puede imponer además una medida de libertad vigilada?",
+      "opciones": [
+        "A las personas condenadas por la comisión de uno o más delitos comprendidos en este Título, cuando la víctima fuere alguna de las personas a que se refiere el apartado 2 del artículo 173",
+        "A las personas condenadas por la comisión de uno o más delitos comprendidos en este Título, cualquiera que sea la relación que les uniera con la víctima de los hechos",
+        "A las personas condenadas por delitos de lesiones cometidos por imprudencia grave utilizando un vehículo a motor o un ciclomotor",
+        "A las personas condenadas por delitos de este Título cuando la víctima fuere menor de edad o persona con discapacidad necesitada de especial protección"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "A las personas condenadas por la comisión de uno o más delitos comprendidos en este Título, cuando la víctima fuere alguna de las personas a que se refiere el apartado 2 del artículo 173, se les podrá imponer además una medida de libertad vigilada.",
+      "justificacion": "Art. 156 quater CP."
+    },
+    {
+      "concepto_id": "CP-156quinquies-inhabilitacion",
+      "articulo": "art. 156 quinquies",
+      "tipo": "test",
+      "enunciado": "A quien sea condenado por alguno de los delitos de los artículos 147.1, 148, 149, 150 y 153 del Código Penal siendo la víctima una persona menor de edad, el artículo 156 quinquies permite imponer además…",
+      "opciones": [
+        "la pena de inhabilitación especial para cualquier profesión, oficio u otras actividades, sean o no retribuidos, que conlleve contacto regular y directo con personas menores de edad",
+        "la pena de privación de la patria potestad respecto de los hijos comunes y del resto de hijos e hijas del condenado, si existieren",
+        "la medida de libertad vigilada por un tiempo de cinco a diez años posterior al cumplimiento de la pena privativa de libertad",
+        "la pena de inhabilitación absoluta durante el tiempo de la condena y hasta cinco años después de su cumplimiento efectivo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se les podrá imponer, además de las penas que procedan, la pena de inhabilitación especial para cualquier profesión, oficio u otras actividades, sean o no retribuidos, que conlleve contacto regular y directo con personas menores de edad",
+      "justificacion": "Art. 156 quinquies CP."
+    },
+    {
+      "concepto_id": "CP-157-lesiones-feto",
+      "articulo": "art. 157",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 157 del Código Penal a quien causare en un feto una lesión o enfermedad que perjudique gravemente su normal desarrollo, o le provoque una grave tara física o psíquica?",
+      "opciones": [
+        "pena de prisión de uno a cuatro años e inhabilitación especial para ejercer cualquier profesión sanitaria, o para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de dos a ocho años",
+        "pena de prisión de tres a cinco meses o multa de seis a 10 meses e inhabilitación especial para el ejercicio de la profesión, oficio o cargo por un período de seis meses a dos años, que es la propia de la modalidad imprudente",
+        "pena de multa de seis a doce meses e inhabilitación especial para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de seis meses a dos años",
+        "pena de prisión de uno a cuatro años e inhabilitación absoluta por tiempo de dos a ocho años, además de la clausura definitiva del centro en el que se hubieran producido los hechos enjuiciados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El que, por cualquier medio o procedimiento, causare en un feto una lesión o enfermedad que perjudique gravemente su normal desarrollo, o provoque en el mismo una grave tara física o psíquica, será castigado con pena de prisión de uno a cuatro años e inhabilitación especial para ejercer cualquier profesión sanitaria, o para prestar servicios de toda índole en clínicas, establecimientos o consultorios ginecológicos, públicos o privados, por tiempo de dos a ocho años.",
+      "justificacion": "Art. 157 CP."
+    },
+    {
+      "concepto_id": "CP-158-feto-imprudencia",
+      "articulo": "art. 158",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 158 del Código Penal a quien por imprudencia grave causa lesiones al feto?",
+      "opciones": [
+        "la pena de prisión de tres a cinco meses o multa de seis a 10 meses",
+        "la pena de prisión de uno a cuatro años e inhabilitación especial para ejercer cualquier profesión sanitaria",
+        "la pena de prisión de tres a seis meses o multa de seis a dieciocho meses, prevista para las lesiones causadas por imprudencia grave",
+        "la pena de multa de tres meses a doce meses, que es la propia de la imprudencia menos grave"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El que, por imprudencia grave, cometiere los hechos descritos en el artículo anterior, será castigado con la pena de prisión de tres a cinco meses o multa de seis a 10 meses.",
+      "justificacion": "Art. 158, párrafo primero, CP."
+    },
+    {
+      "concepto_id": "CP-159-genotipo",
+      "articulo": "art. 159",
+      "tipo": "test",
+      "enunciado": "El artículo 159.1 del Código Penal castiga a quienes manipulen genes humanos de manera que se altere el genotipo…",
+      "opciones": [
+        "con finalidad distinta a la eliminación o disminución de taras o enfermedades graves",
+        "con cualquier finalidad, incluso terapéutica, cuando la manipulación se realice sin la autorización administrativa previa",
+        "con la finalidad de producir armas biológicas o exterminadoras de la especie humana",
+        "con la finalidad de seleccionar la raza o de crear seres humanos idénticos por clonación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. Serán castigados con la pena de prisión de dos a seis años e inhabilitación especial para empleo o cargo público, profesión u oficio de siete a diez años los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo.",
+      "justificacion": "Art. 159.1 CP."
+    },
+    {
+      "concepto_id": "CP-159-imprudencia",
+      "articulo": "art. 159",
+      "tipo": "test",
+      "enunciado": "Si la alteración del genotipo fuere realizada por imprudencia grave, el artículo 159.2 del Código Penal impone…",
+      "opciones": [
+        "multa de seis a quince meses e inhabilitación especial para empleo o cargo público, profesión u oficio de uno a tres años",
+        "prisión de dos a seis años e inhabilitación especial para empleo o cargo público, profesión u oficio de siete a diez años",
+        "multa de seis a doce meses e inhabilitación especial para el ejercicio de cualquier profesión sanitaria por tiempo de dos a ocho años",
+        "prisión de tres a cinco meses o multa de seis a 10 meses, sin inhabilitación alguna por tratarse de una conducta imprudente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Si la alteración del genotipo fuere realizada por imprudencia grave, la pena será de multa de seis a quince meses e inhabilitación especial para empleo o cargo público, profesión u oficio de uno a tres años.",
+      "justificacion": "Art. 159.2 CP."
+    },
+    {
+      "concepto_id": "CP-160-armas-biologicas",
+      "articulo": "art. 160",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 160.1 del Código Penal a la utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana?",
+      "opciones": [
+        "la pena de prisión de tres a siete años e inhabilitación especial para empleo o cargo público, profesión u oficio por tiempo de siete a 10 años",
+        "la pena de prisión de uno a cinco años e inhabilitación especial para empleo o cargo público, profesión u oficio de seis a 10 años",
+        "la pena de prisión de dos a seis años e inhabilitación especial para empleo o cargo público, profesión u oficio de siete a diez años",
+        "la pena de multa de seis a quince meses e inhabilitación especial para empleo o cargo público, profesión u oficio de uno a tres años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana, será castigada con la pena de prisión de tres a siete años e inhabilitación especial para empleo o cargo público, profesión u oficio por tiempo de siete a 10 años.",
+      "justificacion": "Art. 160.1 CP."
+    },
+    {
+      "concepto_id": "CP-160-fecundacion",
+      "articulo": "art. 160",
+      "tipo": "test",
+      "enunciado": "¿Qué conducta castiga el artículo 160.2 del Código Penal con prisión de uno a cinco años e inhabilitación especial de seis a 10 años?",
+      "opciones": [
+        "quienes fecunden óvulos humanos con cualquier fin distinto a la procreación humana",
+        "quienes manipulen genes humanos de manera que se altere el genotipo con finalidad distinta a la terapéutica",
+        "quienes utilicen la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana",
+        "quienes practiquen reproducción asistida en una mujer sin contar con su consentimiento previo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Serán castigados con la pena de prisión de uno a cinco años e inhabilitación especial para empleo o cargo público, profesión u oficio de seis a 10 años quienes fecunden óvulos humanos con cualquier fin distinto a la procreación humana.",
+      "justificacion": "Art. 160.2 CP."
+    },
+    {
+      "concepto_id": "CP-160-clonacion",
+      "articulo": "art. 160",
+      "tipo": "test",
+      "enunciado": "¿Cómo castiga el artículo 160.3 del Código Penal la creación de seres humanos idénticos por clonación?",
+      "opciones": [
+        "Con la misma pena se castigará la creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.",
+        "Con la pena de prisión de tres a siete años e inhabilitación especial de siete a 10 años se castigará la creación de seres humanos idénticos por clonación.",
+        "Con la pena superior en grado a la del apartado anterior se castigará la creación de seres humanos idénticos por clonación o por otros procedimientos.",
+        "Con la pena de multa de seis a quince meses e inhabilitación especial de uno a tres años se castigará la creación de seres humanos idénticos por clonación."
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. Con la misma pena se castigará la creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.",
+      "justificacion": "Art. 160.3 CP."
+    },
+    {
+      "concepto_id": "CP-161-reproduccion",
+      "articulo": "art. 161",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 161.1 del Código Penal a quien practicare reproducción asistida en una mujer sin su consentimiento?",
+      "opciones": [
+        "la pena de prisión de dos a seis años, e inhabilitación especial para empleo o cargo público, profesión u oficio por tiempo de uno a cuatro años",
+        "la pena de prisión de uno a cinco años e inhabilitación especial para empleo o cargo público, profesión u oficio de seis a 10 años",
+        "la pena de prisión de uno a cuatro años e inhabilitación especial para ejercer cualquier profesión sanitaria por tiempo de dos a ocho años",
+        "la pena de multa de seis a doce meses e inhabilitación especial para prestar servicios en clínicas o consultorios ginecológicos de seis meses a dos años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. Quien practicare reproducción asistida en una mujer, sin su consentimiento, será castigado con la pena de prisión de dos a seis años, e inhabilitación especial para empleo o cargo público, profesión u oficio por tiempo de uno a cuatro años.",
+      "justificacion": "Art. 161.1 CP."
+    },
+    {
+      "concepto_id": "CP-161-denuncia",
+      "articulo": "art. 161",
+      "tipo": "test",
+      "enunciado": "Para proceder por el delito de reproducción asistida sin consentimiento, el artículo 161.2 del Código Penal exige…",
+      "opciones": [
+        "denuncia de la persona agraviada o de su representante legal",
+        "querella del Ministerio Fiscal, que actuará ponderando los legítimos intereses en presencia en cada caso",
+        "denuncia de la persona agraviada, sin que el Ministerio Fiscal pueda denunciar en ningún caso",
+        "la simple notitia criminis, por tratarse de un delito público perseguible de oficio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Para proceder por este delito será precisa denuncia de la persona agraviada o de su representante legal. Cuando aquélla sea menor de edad, persona con discapacidad necesitada de especial protección o una persona desvalida, también podrá denunciar el Ministerio Fiscal.",
+      "justificacion": "Art. 161.2 CP."
+    },
+    {
+      "concepto_id": "CP-162-consecuencias",
+      "articulo": "art. 162",
+      "tipo": "test",
+      "enunciado": "Cuando el culpable de un delito de este título perteneciere a una sociedad, organización o asociación que se dedicare a tales actividades, el artículo 162 del Código Penal permite a la autoridad judicial…",
+      "opciones": [
+        "imponer alguna o algunas de las consecuencias previstas en el artículo 129 de este Código",
+        "imponer a la persona jurídica la pena de multa del triple al quíntuple del beneficio obtenido por la organización",
+        "acordar la disolución obligatoria de la sociedad, organización o asociación, sin que quepa medida de menor alcance",
+        "elevar la pena en un grado a todos los integrantes de la organización, con independencia de su participación en el hecho"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En los delitos contemplados en este título, la autoridad judicial podrá imponer alguna o algunas de las consecuencias previstas en el artículo 129 de este Código cuando el culpable perteneciere a una sociedad, organización o asociación, incluso de carácter transitorio, que se dedicare a la realización de tales actividades.",
+      "justificacion": "Art. 162 CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-140bis-libertad-vigilada",
+      "destino": "CP-140",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-140bis-patria-potestad",
+      "destino": "CP-140",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-141-preparatorios",
+      "destino": "CP-138",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-142bis-agravacion",
+      "destino": "CP-142",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-143bis-incitacion-suicidio",
+      "destino": "CP-143-ind",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-143bis-retirada",
+      "destino": "CP-143bis-incitacion-suicidio",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-145bis-tipo",
+      "destino": "CP-145-mujer",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-145bis-tipo",
+      "destino": "CP-146",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-145bis-semana",
+      "destino": "CP-145bis-tipo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-145bis-embarazada",
+      "destino": "CP-145bis-tipo",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-151-preparatorios",
+      "destino": "CP-147-pena",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-152-imprudencia-grave",
+      "destino": "CP-147-pena",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-152-imprudencia-grave",
+      "destino": "CP-149",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-152-imprudencia-grave",
+      "destino": "CP-150",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-152-vehiculo",
+      "destino": "CP-152-imprudencia-grave",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-152-arma-profesional",
+      "destino": "CP-152-imprudencia-grave",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-152-menos-grave",
+      "destino": "CP-152-imprudencia-grave",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-152-denuncia",
+      "destino": "CP-152-menos-grave",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-152bis-agravacion",
+      "destino": "CP-152-imprudencia-grave",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-152bis-agravacion",
+      "destino": "CP-142bis-agravacion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-153-genero",
+      "destino": "CP-147-pena",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-153-ambito-familiar",
+      "destino": "CP-153-genero",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-153-ambito-familiar",
+      "destino": "CP-173-violencia-habitual",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-153-mitad-superior",
+      "destino": "CP-153-genero",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-153-inferior-grado",
+      "destino": "CP-153-genero",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-154-rina",
+      "destino": "CP-147-pena",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-155-consentimiento",
+      "destino": "CP-147-pena",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-156-eximente",
+      "destino": "CP-155-consentimiento",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-156bis-trafico",
+      "destino": "CP-156-eximente",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-156bis-trafico",
+      "destino": "CP-177bis-tipo",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-156bis-extraccion-ilicita",
+      "destino": "CP-156bis-trafico",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-156bis-receptor",
+      "destino": "CP-156bis-trafico",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-156bis-agravaciones",
+      "destino": "CP-156bis-trafico",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-156ter-autolesion",
+      "destino": "CP-143bis-incitacion-suicidio",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-156quater-libertad-vigilada",
+      "destino": "CP-153-genero",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-156quinquies-inhabilitacion",
+      "destino": "CP-153-genero",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-156quinquies-inhabilitacion",
+      "destino": "CP-149",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-157-lesiones-feto",
+      "destino": "CP-147-pena",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-158-feto-imprudencia",
+      "destino": "CP-157-lesiones-feto",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-159-genotipo",
+      "destino": "CP-157-lesiones-feto",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-159-imprudencia",
+      "destino": "CP-159-genotipo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-160-armas-biologicas",
+      "destino": "CP-159-genotipo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-160-fecundacion",
+      "destino": "CP-159-genotipo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-160-clonacion",
+      "destino": "CP-160-fecundacion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-161-reproduccion",
+      "destino": "CP-160-fecundacion",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-161-denuncia",
+      "destino": "CP-161-reproduccion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-162-consecuencias",
+      "destino": "CP-159-genotipo",
+      "tipo": "desarrolla"
+    }
+  ]
+}

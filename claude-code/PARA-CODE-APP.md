@@ -45,18 +45,20 @@
      apropiación indebida; defraudaciones de fluido eléctrico y análogo»— en el T18, no en el T20.
      Como `overlay_entrada` tiene PK `(convocatoria, concepto)`, un concepto vive en UN solo tema:
      comprobar el temario ANTES de asignar, no después.
-   - **T17** — **EN CURSO** (3 de 4 bloques, 111 conceptos). Hechos: delitos contra la libertad
-     (`cp-t17-libertad.json`, arts. 163-172 quater, 34), torturas e integridad moral
-     (`cp-t17-integridad-moral.json`, arts. 173-177 bis, 23, con la trata de seres humanos) y
-     libertad sexual (`cp-t17-libertad-sexual.json`, arts. 178-194 bis, 38: agresión sexual y
-     definición legal de consentimiento, violación, circunstancias del 180, actos sexuales con
-     menor de dieciséis años y cláusula de proximidad del 183 bis, grooming, acoso sexual,
-     exhibicionismo, prostitución, pornografía infantil y disposiciones comunes).
+   - **T17** — **CERRADO** (17/08/2026): 151 conceptos en cuatro bloques, y es el tema más grande
+     del CP. Cubre **73 de los 74 artículos** que el corpus tiene entre el 138 y el 194 bis; el
+     único que falta es el **189 bis**, que vive en el T20 (un concepto = un solo tema).
+     - `cp-t17-libertad.json` — arts. 163-172 quater (34).
+     - `cp-t17-integridad-moral.json` — arts. 173-177 bis (23), con la trata de seres humanos.
+     - `cp-t17-libertad-sexual.json` — arts. 178-194 bis (38): agresión sexual y definición legal
+       de consentimiento, violación, circunstancias del 180, actos sexuales con menor de dieciséis
+       años y cláusula de proximidad del 183 bis, grooming, acoso sexual, exhibicionismo,
+       prostitución, pornografía infantil y disposiciones comunes.
+     - `cp-t17-homicidio-lesiones.json` — los huecos del bloque de homicidio, aborto y lesiones
+       (40): 140 bis, 141, 142 bis, 143 bis, 145 bis, 151, 152, 152 bis, 153, 154, 155, 156,
+       156 bis/ter/quater/quinquies y 157-162 (lesiones al feto y manipulación genética).
      El tema se reetiquetó al enunciado oficial: antes decía solo «homicidio, aborto y lesiones».
-     Falta un bloque, **ya en el corpus**: los huecos de homicidio, aborto y lesiones
-     (140 bis, 141, 142 bis, 143 bis, 145 bis y 151-162).
-     Del tramo 178-195 quedan fuera a propósito el **189 bis** (vive en el T20) y el **195**
-     (omisión del deber de socorro, de otro título).
+     Fuera del tema a propósito: el **195** (omisión del deber de socorro), que es de otro título.
    - **T24** — **PARCIALMENTE HECHO**: 7 conceptos. Falta el remate doctrinal (concepto de trabajo y
      concepto de salud); necesita fuente de autoridad tipo INSST/OMS, no sale de la Ley 31/1995.
      Sí están ya cubiertos por corpus: *consecuencia de los riesgos* = art. 4.3 LPRL («daños derivados
