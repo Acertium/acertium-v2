@@ -1,0 +1,632 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 18 — Delitos contra el patrimonio y el orden socioeconómico: hurto, robo, extorsión, robo y hurto de uso de vehículos, usurpación y defraudaciones"
+  },
+  "fuentes": {
+    "art. 239": "Se considerarán llaves falsas: 1. Las ganzúas u otros instrumentos análogos. 2. Las llaves legítimas perdidas por el propietario u obtenidas por un medio que constituya infracción penal. 3. Cualesquiera otras que no sean las destinadas por el propietario para abrir la cerradura violentada por el reo. A los efectos del presente artículo, se consideran llaves las tarjetas, magnéticas o perforadas, los mandos o instrumentos de apertura a distancia y cualquier otro instrumento tecnológico de eficacia similar.",
+    "art. 245": "1. Al que con violencia o intimidación en las personas ocupare una cosa inmueble o usurpare un derecho real inmobiliario de pertenencia ajena, se le impondrá, además de las penas en que incurriere por las violencias ejercidas, la pena de prisión de uno a dos años, que se fijará teniendo en cuenta la utilidad obtenida y el daño causado. 2. El que ocupare, sin autorización debida, un inmueble, vivienda o edificio ajenos que no constituyan morada, o se mantuviere en ellos contra la voluntad de su titular, será castigado con la pena de multa de tres a seis meses.",
+    "art. 246": "1. El que alterare términos o lindes de pueblos o heredades o cualquier clase de señales o mojones destinados a fijar los límites de propiedades o demarcaciones de predios contiguos, tanto de dominio público como privado, será castigado con la pena de multa de tres a dieciocho meses. 2. Si la utilidad reportada no excediere de 400 euros, se impondrá la pena de multa de uno a tres meses.",
+    "art. 247": "1. El que, sin hallarse autorizado, distrajere las aguas de uso público o privativo de su curso, o de su embalse natural o artificial, será castigado con la pena de multa de tres a seis meses. 2. Si la utilidad reportada no excediere de 400 euros, se impondrá la pena de multa de uno a tres meses.",
+    "art. 251": "Será castigado con la pena de prisión de uno a cuatro años: 1.º Quien, atribuyéndose falsamente sobre una cosa mueble o inmueble facultad de disposición de la que carece, bien por no haberla tenido nunca, bien por haberla ya ejercitado, la enajenare, gravare o arrendare a otro, en perjuicio de éste o de tercero. 2.º El que dispusiere de una cosa mueble o inmueble ocultando la existencia de cualquier carga sobre la misma, o el que, habiéndola enajenado como libre, la gravare o enajenare nuevamente antes de la definitiva transmisión al adquirente, en perjuicio de éste, o de un tercero. 3.º El que otorgare en perjuicio de otro un contrato simulado.",
+    "art. 251 bis": "Cuando de acuerdo con lo establecido en el artículo 31 bis una persona jurídica sea responsable de los delitos comprendidos en esta Sección, se le impondrán las siguientes penas: a) Multa del triple al quíntuple de la cantidad defraudada, si el delito cometido por la persona física tiene prevista una pena de prisión de más de cinco años. b) Multa del doble al cuádruple de la cantidad defraudada, en el resto de los casos. Atendidas las reglas establecidas en el artículo 66 bis, los jueces y tribunales podrán asimismo imponer las penas recogidas en las letras b) a g) del apartado 7 del artículo 33.",
+    "art. 252": "1. Serán castigados con las penas del artículo 248 o, en su caso, con las del artículo 250, los que teniendo facultades para administrar un patrimonio ajeno, emanadas de la ley, encomendadas por la autoridad o asumidas mediante un negocio jurídico, las infrinjan excediéndose en el ejercicio de las mismas y, de esa manera, causen un perjuicio al patrimonio administrado. 2. Si la cuantía del perjuicio patrimonial no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+    "art. 253": "1. Serán castigados con las penas del artículo 248 o, en su caso, del artículo 250, salvo que ya estuvieran castigados con una pena más grave en otro precepto de este Código, los que, en perjuicio de otro, se apropiaren para sí o para un tercero, de dinero, efectos, valores o cualquier otra cosa mueble, que hubieran recibido en depósito, comisión, o custodia, o que les hubieran sido confiados en virtud de cualquier otro título que produzca la obligación de entregarlos o devolverlos, o negaren haberlos recibido. 2. Si la cuantía de lo apropiado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+    "art. 254": "1. Quien, fuera de los supuestos del artículo anterior, se apropiare de una cosa mueble ajena, será castigado con una pena de multa de tres a seis meses. Si se tratara de cosas de valor artístico, histórico, cultural o científico, la pena será de prisión de seis meses a dos años. 2. Si la cuantía de lo apropiado no excediere de 400 euros, se impondrá una pena de multa de uno a dos meses."
+  },
+  "conceptos": [
+    {
+      "id": "CP-239-catalogo",
+      "articulo": "art. 239",
+      "titulo": "Llaves falsas: catálogo legal",
+      "resumen": "Se consideran llaves falsas las ganzúas e instrumentos análogos, las llaves legítimas perdidas por el propietario u obtenidas por medio delictivo, y cualesquiera otras que no sean las destinadas por el propietario a abrir la cerradura violentada.",
+      "explicacion": "Definición auténtica que da contenido al robo con fuerza. La tercera categoría es la más amplia: basta que la llave no sea la destinada por el propietario a esa cerradura."
+    },
+    {
+      "id": "CP-239-tecnologicos",
+      "articulo": "art. 239",
+      "titulo": "Llaves tecnológicas",
+      "resumen": "A efectos de este artículo se consideran llaves las tarjetas magnéticas o perforadas, los mandos o instrumentos de apertura a distancia y cualquier otro instrumento tecnológico de eficacia similar.",
+      "explicacion": "Equipara el mando del garaje o la tarjeta del hotel a la llave metálica: usarlos indebidamente puede constituir robo con fuerza, no hurto."
+    },
+    {
+      "id": "CP-245-violenta",
+      "articulo": "art. 245",
+      "titulo": "Usurpación violenta de inmuebles",
+      "resumen": "Quien con violencia o intimidación en las personas ocupa una cosa inmueble o usurpa un derecho real inmobiliario ajeno sufre, además de las penas por las violencias ejercidas, prisión de uno a dos años.",
+      "explicacion": "La pena se suma a la de las violencias, no las absorbe, y se gradúa por la utilidad obtenida y el daño causado."
+    },
+    {
+      "id": "CP-245-ocupacion",
+      "articulo": "art. 245",
+      "titulo": "Ocupación de inmueble que no constituye morada",
+      "resumen": "Quien ocupa sin autorización debida un inmueble, vivienda o edificio ajenos que no constituyan morada, o se mantiene en ellos contra la voluntad de su titular, es castigado con multa de tres a seis meses.",
+      "explicacion": "Es la ocupación pacífica. Si el inmueble sí es morada, la conducta sale de aquí y entra en el allanamiento."
+    },
+    {
+      "id": "CP-246-lindes",
+      "articulo": "art. 246",
+      "titulo": "Alteración de términos o lindes",
+      "resumen": "Se castiga con multa de tres a dieciocho meses a quien altera términos o lindes de pueblos o heredades, o señales y mojones destinados a fijar los límites de propiedades o demarcaciones de predios contiguos, sean de dominio público o privado.",
+      "explicacion": "Cubre por igual el dominio público y el privado: el texto lo dice expresamente."
+    },
+    {
+      "id": "CP-246-leve",
+      "articulo": "art. 246",
+      "titulo": "Alteración de lindes de escasa utilidad",
+      "resumen": "Si la utilidad reportada no excede de 400 euros, la pena es de multa de uno a tres meses.",
+      "explicacion": "Aquí el umbral se mide por la utilidad reportada al autor, no por el daño causado."
+    },
+    {
+      "id": "CP-247-aguas",
+      "articulo": "art. 247",
+      "titulo": "Distracción de aguas",
+      "resumen": "Quien, sin hallarse autorizado, distrae las aguas de uso público o privativo de su curso, o de su embalse natural o artificial, es castigado con multa de tres a seis meses.",
+      "explicacion": "Comprende tanto las aguas públicas como las privativas, y tanto el curso como el embalse."
+    },
+    {
+      "id": "CP-247-leve",
+      "articulo": "art. 247",
+      "titulo": "Distracción de aguas de escasa utilidad",
+      "resumen": "Si la utilidad reportada no excede de 400 euros, la pena es de multa de uno a tres meses.",
+      "explicacion": "Mismo umbral y misma técnica que en la alteración de lindes."
+    },
+    {
+      "id": "CP-251-pena",
+      "articulo": "art. 251",
+      "titulo": "Otras defraudaciones: pena",
+      "resumen": "Las tres modalidades del artículo 251 se castigan con la pena de prisión de uno a cuatro años.",
+      "explicacion": "Pena única para los tres números, sin escalón por cuantía: aquí no hay modalidad leve."
+    },
+    {
+      "id": "CP-251-1",
+      "articulo": "art. 251",
+      "titulo": "Disposición atribuyéndose falsamente la facultad",
+      "resumen": "Comete el delito quien, atribuyéndose falsamente sobre una cosa mueble o inmueble una facultad de disposición de la que carece, la enajena, grava o arrienda a otro en perjuicio de éste o de tercero.",
+      "explicacion": "Da igual que nunca hubiera tenido la facultad o que ya la hubiera ejercitado: el texto contempla los dos casos."
+    },
+    {
+      "id": "CP-251-2",
+      "articulo": "art. 251",
+      "titulo": "Ocultación de cargas y doble venta",
+      "resumen": "Comete el delito quien dispone de una cosa ocultando la existencia de cualquier carga sobre ella, o quien, habiéndola enajenado como libre, la grava o enajena de nuevo antes de la transmisión definitiva al adquirente.",
+      "explicacion": "Es la llamada doble venta. El perjuicio puede recaer en el primer adquirente o en un tercero."
+    },
+    {
+      "id": "CP-251-3",
+      "articulo": "art. 251",
+      "titulo": "Contrato simulado",
+      "resumen": "Comete el delito quien otorga en perjuicio de otro un contrato simulado.",
+      "explicacion": "El número más breve del artículo y el más preguntado: basta el otorgamiento del contrato simulado en perjuicio ajeno."
+    },
+    {
+      "id": "CP-251bis-multa",
+      "articulo": "art. 251 bis",
+      "titulo": "Persona jurídica: multa",
+      "resumen": "Si una persona jurídica es responsable de estos delitos, la multa es del triple al quíntuple de lo defraudado cuando el delito de la persona física tiene prevista prisión de más de cinco años, y del doble al cuádruple en el resto de los casos.",
+      "explicacion": "La multa es proporcional a lo defraudado, y el escalón depende de la pena prevista para la persona física, no de la efectivamente impuesta."
+    },
+    {
+      "id": "CP-251bis-otras",
+      "articulo": "art. 251 bis",
+      "titulo": "Persona jurídica: penas adicionales",
+      "resumen": "Atendidas las reglas del artículo 66 bis, los jueces y tribunales pueden imponer además las penas recogidas en las letras b) a g) del apartado 7 del artículo 33.",
+      "explicacion": "Es potestativo. Nótese que la disolución, que es la letra a), queda fuera de esta remisión."
+    },
+    {
+      "id": "CP-252-tipo",
+      "articulo": "art. 252",
+      "titulo": "Administración desleal",
+      "resumen": "Quienes, teniendo facultades para administrar un patrimonio ajeno emanadas de la ley, encomendadas por la autoridad o asumidas mediante negocio jurídico, las infringen excediéndose en su ejercicio y causan así un perjuicio al patrimonio administrado, se castigan con las penas del artículo 248 o, en su caso, del 250.",
+      "explicacion": "Tres orígenes posibles de la facultad: ley, autoridad o negocio jurídico. La pena se toma prestada de la estafa."
+    },
+    {
+      "id": "CP-252-leve",
+      "articulo": "art. 252",
+      "titulo": "Administración desleal de escaso perjuicio",
+      "resumen": "Si la cuantía del perjuicio patrimonial no excede de 400 euros, se impone multa de uno a tres meses.",
+      "explicacion": "El umbral se mide sobre el perjuicio al patrimonio administrado."
+    },
+    {
+      "id": "CP-253-tipo",
+      "articulo": "art. 253",
+      "titulo": "Apropiación indebida",
+      "resumen": "Se castiga con las penas del artículo 248 o, en su caso, del 250, a quienes en perjuicio de otro se apropian de dinero, efectos, valores o cualquier otra cosa mueble recibidos en depósito, comisión o custodia, o confiados con obligación de entregarlos o devolverlos, o niegan haberlos recibido.",
+      "explicacion": "Se aplica salvo que el hecho ya esté castigado con pena más grave en otro precepto. La negativa a haber recibido la cosa equivale a la apropiación."
+    },
+    {
+      "id": "CP-253-leve",
+      "articulo": "art. 253",
+      "titulo": "Apropiación indebida de escasa cuantía",
+      "resumen": "Si la cuantía de lo apropiado no excede de 400 euros, se impone una pena de multa de uno a tres meses.",
+      "explicacion": "Delito leve paralelo al de la estafa, con el mismo umbral."
+    },
+    {
+      "id": "CP-254-tipo",
+      "articulo": "art. 254",
+      "titulo": "Apropiación de cosa mueble ajena",
+      "resumen": "Quien, fuera de los supuestos del artículo anterior, se apropia de una cosa mueble ajena, es castigado con multa de tres a seis meses.",
+      "explicacion": "Tipo residual: entra aquí lo que no encaja en la apropiación indebida, como el hallazgo no restituido."
+    },
+    {
+      "id": "CP-254-artistico",
+      "articulo": "art. 254",
+      "titulo": "Apropiación de cosas de valor artístico o histórico",
+      "resumen": "Si se trata de cosas de valor artístico, histórico, cultural o científico, la pena es de prisión de seis meses a dos años.",
+      "explicacion": "Único caso del artículo con pena privativa de libertad: el resto son multas."
+    },
+    {
+      "id": "CP-254-leve",
+      "articulo": "art. 254",
+      "titulo": "Apropiación de cosa mueble de escasa cuantía",
+      "resumen": "Si la cuantía de lo apropiado no excede de 400 euros, se impone una pena de multa de uno a dos meses.",
+      "explicacion": "Ojo al detalle: aquí la multa es de uno a DOS meses, no de uno a tres como en los demás delitos leves del capítulo."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-239-catalogo",
+      "articulo": "art. 239",
+      "tipo": "test",
+      "enunciado": "Según el artículo 239 del Código Penal, se consideran llaves falsas…",
+      "opciones": [
+        "Las llaves legítimas que el propietario hubiera entregado voluntariamente a un tercero para un uso distinto de la apertura de la cerradura violentada por el reo",
+        "Las llaves legítimas perdidas por el propietario u obtenidas por un medio que constituya infracción penal",
+        "Las llaves destinadas por el propietario para abrir la cerradura violentada, cuando el reo las hubiera empleado sin el consentimiento de aquel",
+        "Las copias de llaves legítimas obtenidas con autorización del propietario, siempre que se empleen para acceder al inmueble fuera del horario convenido con él"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Se considerarán llaves falsas: 1. Las ganzúas u otros instrumentos análogos. 2. Las llaves legítimas perdidas por el propietario u obtenidas por un medio que constituya infracción penal. 3. Cualesquiera otras que no sean las destinadas por el propietario para abrir la cerradura violentada por el reo.",
+      "justificacion": "Art. 239.2 CP."
+    },
+    {
+      "concepto_id": "CP-239-tecnologicos",
+      "articulo": "art. 239",
+      "tipo": "test",
+      "enunciado": "A los efectos del artículo 239 del Código Penal, ¿qué otros instrumentos se consideran llaves?",
+      "opciones": [
+        "los dispositivos de apertura biométrica y los sistemas de reconocimiento facial instalados en el inmueble, siempre que su elusión requiera conocimientos técnicos especializados",
+        "cualquier instrumento que permita la apertura de una cerradura sin causar en ella daño aparente, con independencia de su naturaleza mecánica, magnética o electrónica",
+        "las tarjetas, magnéticas o perforadas, los mandos o instrumentos de apertura a distancia y cualquier otro instrumento tecnológico de eficacia similar",
+        "los programas informáticos capaces de desactivar los sistemas de alarma del inmueble, así como los inhibidores de frecuencia empleados sobre los mandos a distancia"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "A los efectos del presente artículo, se consideran llaves las tarjetas, magnéticas o perforadas, los mandos o instrumentos de apertura a distancia y cualquier otro instrumento tecnológico de eficacia similar.",
+      "justificacion": "Art. 239, párrafo final, CP."
+    },
+    {
+      "concepto_id": "CP-245-violenta",
+      "articulo": "art. 245",
+      "tipo": "test",
+      "enunciado": "Según el artículo 245.1 del Código Penal, a quien con violencia o intimidación en las personas ocupare una cosa inmueble o usurpare un derecho real inmobiliario ajeno se le impondrá…",
+      "opciones": [
+        "la pena de prisión de uno a dos años, que absorberá las penas correspondientes a las violencias ejercidas cuando éstas no constituyan por sí solas un delito más grave",
+        "únicamente la pena que corresponda por las violencias ejercidas, al quedar la ocupación consumida por el delito contra las personas efectivamente cometido",
+        "la pena de multa de tres a seis meses, que se fijará teniendo en cuenta la utilidad obtenida por el autor y el daño causado al titular del inmueble ocupado",
+        "además de las penas en que incurriere por las violencias ejercidas, la pena de prisión de uno a dos años, que se fijará teniendo en cuenta la utilidad obtenida y el daño causado"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "1. Al que con violencia o intimidación en las personas ocupare una cosa inmueble o usurpare un derecho real inmobiliario de pertenencia ajena, se le impondrá, además de las penas en que incurriere por las violencias ejercidas, la pena de prisión de uno a dos años, que se fijará teniendo en cuenta la utilidad obtenida y el daño causado.",
+      "justificacion": "Art. 245.1 CP."
+    },
+    {
+      "concepto_id": "CP-245-ocupacion",
+      "articulo": "art. 245",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 245.2 del Código Penal a quien ocupa sin autorización debida un inmueble, vivienda o edificio ajenos que no constituyan morada?",
+      "opciones": [
+        "la pena de prisión de uno a dos años, que se fijará atendiendo a la utilidad obtenida por el ocupante y al daño causado al titular",
+        "la pena de multa de tres a seis meses",
+        "la pena de multa de uno a tres meses cuando la utilidad reportada por la ocupación no excediere de 400 euros",
+        "la pena de multa de tres a dieciocho meses, salvo que el ocupante se mantuviere en el inmueble tras ser requerido por su titular"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. El que ocupare, sin autorización debida, un inmueble, vivienda o edificio ajenos que no constituyan morada, o se mantuviere en ellos contra la voluntad de su titular, será castigado con la pena de multa de tres a seis meses.",
+      "justificacion": "Art. 245.2 CP."
+    },
+    {
+      "concepto_id": "CP-246-lindes",
+      "articulo": "art. 246",
+      "tipo": "test",
+      "enunciado": "El artículo 246.1 del Código Penal castiga con multa de tres a dieciocho meses a quien…",
+      "opciones": [
+        "alterare términos o lindes de pueblos o heredades o cualquier clase de señales o mojones destinados a fijar los límites de propiedades o demarcaciones de predios contiguos",
+        "ocupare una franja de terreno colindante con la finca de su propiedad, incorporándola de hecho a ésta mediante el desplazamiento de la cerca que las separaba",
+        "alterare los límites de fincas de dominio privado, quedando fuera del tipo las demarcaciones de predios pertenecientes al dominio público",
+        "destruyere los mojones o señales que delimitan una propiedad ajena, siempre que con ello obtuviere una utilidad económica superior a los 400 euros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El que alterare términos o lindes de pueblos o heredades o cualquier clase de señales o mojones destinados a fijar los límites de propiedades o demarcaciones de predios contiguos, tanto de dominio público como privado, será castigado con la pena de multa de tres a dieciocho meses.",
+      "justificacion": "Art. 246.1 CP."
+    },
+    {
+      "concepto_id": "CP-246-leve",
+      "articulo": "art. 246",
+      "tipo": "test",
+      "enunciado": "En la alteración de términos o lindes del artículo 246 del Código Penal, si la utilidad reportada no excediere de 400 euros…",
+      "opciones": [
+        "se impondrá la pena de multa de tres a seis meses, por tratarse de la modalidad atenuada común a los delitos de usurpación",
+        "se mantendrá la pena de multa de tres a dieciocho meses, sin que la escasa utilidad obtenida permita degradar la sanción",
+        "se impondrá la pena de multa de uno a tres meses",
+        "se impondrá la pena de multa de uno a dos meses, igual que en la apropiación de cosa mueble ajena de escasa cuantía"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "2. Si la utilidad reportada no excediere de 400 euros, se impondrá la pena de multa de uno a tres meses.",
+      "justificacion": "Art. 246.2 CP."
+    },
+    {
+      "concepto_id": "CP-247-aguas",
+      "articulo": "art. 247",
+      "tipo": "test",
+      "enunciado": "El artículo 247.1 del Código Penal castiga con multa de tres a seis meses a quien, sin hallarse autorizado…",
+      "opciones": [
+        "aprovechare las aguas de un embalse ajeno para el riego de fincas propias, siempre que con ello causare un perjuicio apreciable a su titular legítimo",
+        "distrajere las aguas de uso público o privativo de su curso, o de su embalse natural o artificial",
+        "distrajere de su curso las aguas de uso público, quedando excluidas del tipo las aguas de aprovechamiento privativo por corresponder su tutela a la vía civil",
+        "contaminare o alterare la calidad de las aguas de uso público o privativo, con independencia de que llegare a distraerlas efectivamente de su curso natural"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. El que, sin hallarse autorizado, distrajere las aguas de uso público o privativo de su curso, o de su embalse natural o artificial, será castigado con la pena de multa de tres a seis meses.",
+      "justificacion": "Art. 247.1 CP."
+    },
+    {
+      "concepto_id": "CP-247-leve",
+      "articulo": "art. 247",
+      "tipo": "test",
+      "enunciado": "En la distracción de aguas del artículo 247 del Código Penal, si la utilidad reportada no excediere de 400 euros…",
+      "opciones": [
+        "se impondrá la pena de multa de uno a dos meses, por aplicación de la regla general de los delitos leves patrimoniales",
+        "se impondrá la misma pena de multa de tres a seis meses, atendiendo a la naturaleza demanial del bien afectado por la conducta",
+        "se impondrá la pena de multa de tres a dieciocho meses cuando las aguas distraídas fueran de aprovechamiento público",
+        "se impondrá la pena de multa de uno a tres meses"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "2. Si la utilidad reportada no excediere de 400 euros, se impondrá la pena de multa de uno a tres meses.",
+      "justificacion": "Art. 247.2 CP."
+    },
+    {
+      "concepto_id": "CP-251-pena",
+      "articulo": "art. 251",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 251 del Código Penal para las defraudaciones que enumera?",
+      "opciones": [
+        "la pena de prisión de uno a cuatro años",
+        "las penas del artículo 248 o, en su caso, las del artículo 250, según concurra o no alguna circunstancia cualificativa de la estafa",
+        "la pena de prisión de uno a seis años y multa de seis a doce meses cuando el valor de lo defraudado superare los 50.000 euros",
+        "la pena de prisión de seis meses a tres años, que se impondrá en su mitad superior si el perjudicado fuera una persona especialmente vulnerable"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Será castigado con la pena de prisión de uno a cuatro años:",
+      "justificacion": "Art. 251, párrafo primero, CP."
+    },
+    {
+      "concepto_id": "CP-251-1",
+      "articulo": "art. 251",
+      "tipo": "test",
+      "enunciado": "El artículo 251.1.º del Código Penal castiga a quien, atribuyéndose falsamente sobre una cosa mueble o inmueble una facultad de disposición de la que carece…",
+      "opciones": [
+        "ocultare a quien la adquiere la existencia de cualquier carga que pesare sobre la cosa, causando con ello un perjuicio al adquirente o a un tercero",
+        "otorgare respecto de ella, y en perjuicio de otra persona, un contrato que resultare ser enteramente simulado",
+        "la enajenare, gravare o arrendare a otro, en perjuicio de éste o de tercero",
+        "se apropiare de ella para sí o para un tercero después de haberla recibido en depósito, comisión o custodia de su legítimo titular"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "1.º Quien, atribuyéndose falsamente sobre una cosa mueble o inmueble facultad de disposición de la que carece, bien por no haberla tenido nunca, bien por haberla ya ejercitado, la enajenare, gravare o arrendare a otro, en perjuicio de éste o de tercero.",
+      "justificacion": "Art. 251.1.º CP."
+    },
+    {
+      "concepto_id": "CP-251-2",
+      "articulo": "art. 251",
+      "tipo": "test",
+      "enunciado": "El artículo 251.2.º del Código Penal castiga al que…",
+      "opciones": [
+        "se atribuyere falsamente sobre una cosa mueble o inmueble una facultad de disposición de la que carece, por no haberla tenido nunca o por haberla ya ejercitado antes",
+        "dispusiere de una cosa mueble o inmueble ocultando la existencia de cualquier carga sobre la misma",
+        "enajenare una cosa gravada haciendo constar expresamente la existencia del gravamen, si el adquirente sufriere por ello un perjuicio patrimonial efectivo",
+        "arrendare a un tercero una cosa inmueble sobre la que ya pesaba un contrato de arrendamiento anterior todavía vigente y conocido por el arrendador"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2.º El que dispusiere de una cosa mueble o inmueble ocultando la existencia de cualquier carga sobre la misma, o el que, habiéndola enajenado como libre, la gravare o enajenare nuevamente antes de la definitiva transmisión al adquirente, en perjuicio de éste, o de un tercero.",
+      "justificacion": "Art. 251.2.º CP."
+    },
+    {
+      "concepto_id": "CP-251-3",
+      "articulo": "art. 251",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la conducta que describe el artículo 251.3.º del Código Penal?",
+      "opciones": [
+        "El que celebrare un contrato con la intención de no cumplir las obligaciones que de él se derivan, obteniendo así una ventaja patrimonial en perjuicio de la otra parte",
+        "El que otorgare un contrato válido y eficaz aprovechando el error en que la otra parte hubiera incurrido sobre el objeto o la causa del negocio celebrado",
+        "El que simulare la existencia de una carga sobre una cosa propia con el fin de eludir su embargo por parte de sus acreedores legítimos",
+        "El que otorgare en perjuicio de otro un contrato simulado"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "3.º El que otorgare en perjuicio de otro un contrato simulado.",
+      "justificacion": "Art. 251.3.º CP."
+    },
+    {
+      "concepto_id": "CP-251bis-multa",
+      "articulo": "art. 251 bis",
+      "tipo": "test",
+      "enunciado": "El artículo 251 bis del Código Penal impone a la persona jurídica responsable multa del triple al quíntuple de la cantidad defraudada…",
+      "opciones": [
+        "si el delito cometido por la persona física tiene prevista una pena de prisión de más de cinco años",
+        "si el delito cometido por la persona física hubiera sido efectivamente castigado con una pena de prisión superior a cinco años de duración",
+        "si la cantidad defraudada superare los 250.000 euros o la defraudación hubiera afectado a un número elevado de personas perjudicadas",
+        "si la persona jurídica hubiera obtenido de la defraudación un beneficio superior al triple de la cantidad efectivamente defraudada a los perjudicados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Multa del triple al quíntuple de la cantidad defraudada, si el delito cometido por la persona física tiene prevista una pena de prisión de más de cinco años.",
+      "justificacion": "Art. 251 bis a) CP."
+    },
+    {
+      "concepto_id": "CP-251bis-otras",
+      "articulo": "art. 251 bis",
+      "tipo": "test",
+      "enunciado": "Además de la multa, y atendidas las reglas del artículo 66 bis, el artículo 251 bis del Código Penal permite a los jueces y tribunales imponer a la persona jurídica…",
+      "opciones": [
+        "la disolución de la persona jurídica, así como cualquiera de las restantes penas previstas en el apartado 7 del artículo 33 que resulten compatibles con ella",
+        "todas las penas recogidas en el apartado 7 del artículo 33, sin excepción alguna, cuando el delito hubiera sido cometido de forma reiterada por sus administradores",
+        "las penas recogidas en las letras b) a g) del apartado 7 del artículo 33",
+        "las penas de suspensión de actividades y de clausura de locales, que son las únicas expresamente previstas para las defraudaciones de esta Sección"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Atendidas las reglas establecidas en el artículo 66 bis, los jueces y tribunales podrán asimismo imponer las penas recogidas en las letras b) a g) del apartado 7 del artículo 33.",
+      "justificacion": "Art. 251 bis, párrafo final, CP."
+    },
+    {
+      "concepto_id": "CP-252-tipo",
+      "articulo": "art. 252",
+      "tipo": "test",
+      "enunciado": "Según el artículo 252.1 del Código Penal, ¿de dónde pueden emanar las facultades de administrar un patrimonio ajeno cuya infracción constituye administración desleal?",
+      "opciones": [
+        "de la ley, de una resolución judicial firme o de un acuerdo adoptado por el órgano de gobierno de la entidad titular del patrimonio administrado",
+        "de la ley, encomendadas por la autoridad o asumidas mediante un negocio jurídico",
+        "exclusivamente de un negocio jurídico válidamente celebrado entre el administrador y el titular del patrimonio que resulta administrado",
+        "de la ley o de la autoridad, quedando fuera del tipo las facultades asumidas voluntariamente por quien administra sin título alguno que lo ampare"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Serán castigados con las penas del artículo 248 o, en su caso, con las del artículo 250, los que teniendo facultades para administrar un patrimonio ajeno, emanadas de la ley, encomendadas por la autoridad o asumidas mediante un negocio jurídico, las infrinjan excediéndose en el ejercicio de las mismas y, de esa manera, causen un perjuicio al patrimonio administrado.",
+      "justificacion": "Art. 252.1 CP."
+    },
+    {
+      "concepto_id": "CP-252-leve",
+      "articulo": "art. 252",
+      "tipo": "test",
+      "enunciado": "En la administración desleal del artículo 252 del Código Penal se impone una pena de multa de uno a tres meses si…",
+      "opciones": [
+        "la cuantía del perjuicio patrimonial no excediere de 400 euros",
+        "el valor del patrimonio administrado no excediere de 400 euros, con independencia del perjuicio finalmente causado a su titular",
+        "la cuantía de lo apropiado por el administrador no excediere de 400 euros, computándose a tal efecto el beneficio que hubiera obtenido",
+        "la cuantía del perjuicio patrimonial no excediere de 400 euros y el administrador no hubiera actuado con ánimo de lucro propio o ajeno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Si la cuantía del perjuicio patrimonial no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+      "justificacion": "Art. 252.2 CP."
+    },
+    {
+      "concepto_id": "CP-253-tipo",
+      "articulo": "art. 253",
+      "tipo": "test",
+      "enunciado": "El artículo 253.1 del Código Penal castiga a quienes, en perjuicio de otro, se apropiaren de dinero, efectos, valores o cualquier otra cosa mueble…",
+      "opciones": [
+        "de los que se hubieran incautado materialmente sin la voluntad de su dueño, siempre que no mediare fuerza en las cosas ni violencia o intimidación en las personas",
+        "sobre los que se hubieran atribuido falsamente una facultad de disposición de la que en realidad carecían, por no haberla tenido nunca o por haberla ya ejercitado",
+        "cuya administración les hubiera sido encomendada por la ley o por la autoridad, cuando se excedieren en el ejercicio de las facultades que tuvieran conferidas",
+        "que hubieran recibido en depósito, comisión, o custodia, o que les hubieran sido confiados en virtud de cualquier otro título que produzca la obligación de entregarlos o devolverlos, o negaren haberlos recibido"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "1. Serán castigados con las penas del artículo 248 o, en su caso, del artículo 250, salvo que ya estuvieran castigados con una pena más grave en otro precepto de este Código, los que, en perjuicio de otro, se apropiaren para sí o para un tercero, de dinero, efectos, valores o cualquier otra cosa mueble, que hubieran recibido en depósito, comisión, o custodia, o que les hubieran sido confiados en virtud de cualquier otro título que produzca la obligación de entregarlos o devolverlos, o negaren haberlos recibido.",
+      "justificacion": "Art. 253.1 CP."
+    },
+    {
+      "concepto_id": "CP-253-leve",
+      "articulo": "art. 253",
+      "tipo": "test",
+      "enunciado": "En la apropiación indebida del artículo 253 del Código Penal, si la cuantía de lo apropiado no excediere de 400 euros…",
+      "opciones": [
+        "se impondrá una pena de multa de uno a dos meses, coincidente con la del delito leve de apropiación de cosa mueble ajena",
+        "se impondrá una pena de multa de uno a tres meses",
+        "se impondrán igualmente las penas del artículo 248, sin que la escasa cuantía de lo apropiado permita degradar la pena señalada",
+        "se impondrá una pena de multa de tres a seis meses, salvo que lo apropiado fueran cosas de valor artístico, histórico, cultural o científico"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Si la cuantía de lo apropiado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+      "justificacion": "Art. 253.2 CP."
+    },
+    {
+      "concepto_id": "CP-254-tipo",
+      "articulo": "art. 254",
+      "tipo": "test",
+      "enunciado": "El artículo 254.1 del Código Penal castiga con una pena de multa de tres a seis meses a quien…",
+      "opciones": [
+        "se apropiare de una cosa mueble ajena que hubiera recibido en depósito, comisión o custodia de su legítimo titular, negando después haberla recibido",
+        "hallare una cosa mueble perdida y la entregare a la autoridad fuera del plazo legalmente establecido para hacerlo, sin ánimo de apropiársela definitivamente",
+        "fuera de los supuestos del artículo anterior, se apropiare de una cosa mueble ajena",
+        "se apropiare de una cosa mueble ajena de valor artístico, histórico, cultural o científico, siempre que su cuantía no excediere de los 400 euros"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "1. Quien, fuera de los supuestos del artículo anterior, se apropiare de una cosa mueble ajena, será castigado con una pena de multa de tres a seis meses.",
+      "justificacion": "Art. 254.1 CP."
+    },
+    {
+      "concepto_id": "CP-254-artistico",
+      "articulo": "art. 254",
+      "tipo": "test",
+      "enunciado": "Según el artículo 254.1 del Código Penal, si la apropiación recayere sobre cosas de valor artístico, histórico, cultural o científico, la pena será…",
+      "opciones": [
+        "de prisión de seis meses a dos años",
+        "de multa de tres a seis meses, la misma prevista con carácter general para la apropiación de cualquier cosa mueble ajena",
+        "de prisión de uno a cuatro años, coincidente con la señalada para las restantes defraudaciones reguladas en este mismo capítulo",
+        "de prisión de seis meses a dos años solamente cuando la cuantía de lo apropiado excediere de los 400 euros que marcan el delito leve"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si se tratara de cosas de valor artístico, histórico, cultural o científico, la pena será de prisión de seis meses a dos años.",
+      "justificacion": "Art. 254.1, inciso segundo, CP."
+    },
+    {
+      "concepto_id": "CP-254-leve",
+      "articulo": "art. 254",
+      "tipo": "test",
+      "enunciado": "En la apropiación de cosa mueble ajena del artículo 254 del Código Penal, si la cuantía de lo apropiado no excediere de 400 euros…",
+      "opciones": [
+        "se impondrá una pena de multa de uno a tres meses, igual que en la apropiación indebida del artículo anterior",
+        "se impondrá una pena de multa de tres a seis meses, sin que la escasa cuantía permita degradar la pena legalmente señalada",
+        "se impondrá una pena de multa de uno a dos meses únicamente si la cosa apropiada careciere de valor artístico, histórico, cultural o científico",
+        "se impondrá una pena de multa de uno a dos meses"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "2. Si la cuantía de lo apropiado no excediere de 400 euros, se impondrá una pena de multa de uno a dos meses.",
+      "justificacion": "Art. 254.2 CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-239-catalogo",
+      "destino": "CP-238-llaves",
+      "tipo": "desarrolla",
+      "justificacion": "Define qué es llave falsa a efectos de la modalidad de robo con fuerza del artículo 238."
+    },
+    {
+      "origen": "CP-239-tecnologicos",
+      "destino": "CP-239-catalogo",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende el concepto de llave a las tarjetas y mandos de apertura a distancia."
+    },
+    {
+      "origen": "CP-245-ocupacion",
+      "destino": "CP-245-violenta",
+      "tipo": "limita",
+      "justificacion": "Delimita la ocupación pacífica, mucho más leve, frente a la usurpación con violencia o intimidación."
+    },
+    {
+      "origen": "CP-245-violenta",
+      "destino": "CP-242-pena",
+      "tipo": "limita",
+      "justificacion": "Deslinda la violencia sobre inmuebles (usurpación) de la violencia sobre cosas muebles (robo)."
+    },
+    {
+      "origen": "CP-246-leve",
+      "destino": "CP-246-lindes",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por la escasa utilidad reportada."
+    },
+    {
+      "origen": "CP-247-leve",
+      "destino": "CP-247-aguas",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por la escasa utilidad reportada."
+    },
+    {
+      "origen": "CP-247-aguas",
+      "destino": "CP-246-lindes",
+      "tipo": "limita",
+      "justificacion": "Ambas son usurpaciones no violentas, pero recaen sobre objetos distintos: los lindes y las aguas."
+    },
+    {
+      "origen": "CP-251-1",
+      "destino": "CP-251-pena",
+      "tipo": "desarrolla",
+      "justificacion": "Primera modalidad a la que se aplica la pena del párrafo inicial."
+    },
+    {
+      "origen": "CP-251-2",
+      "destino": "CP-251-pena",
+      "tipo": "desarrolla",
+      "justificacion": "Segunda modalidad a la que se aplica la pena del párrafo inicial."
+    },
+    {
+      "origen": "CP-251-3",
+      "destino": "CP-251-pena",
+      "tipo": "desarrolla",
+      "justificacion": "Tercera modalidad a la que se aplica la pena del párrafo inicial."
+    },
+    {
+      "origen": "CP-251-pena",
+      "destino": "CP-248-estafa",
+      "tipo": "limita",
+      "justificacion": "Son defraudaciones con tipo y pena propios, distintos del tipo general de estafa."
+    },
+    {
+      "origen": "CP-251bis-multa",
+      "destino": "CP-251-pena",
+      "tipo": "desarrolla",
+      "justificacion": "Fija la responsabilidad de la persona jurídica por los delitos de esta Sección."
+    },
+    {
+      "origen": "CP-251bis-otras",
+      "destino": "CP-251bis-multa",
+      "tipo": "desarrolla",
+      "justificacion": "Añade las penas potestativas a la multa obligatoria."
+    },
+    {
+      "origen": "CP-252-tipo",
+      "destino": "CP-248-estafa",
+      "tipo": "remite",
+      "justificacion": "La administración desleal se castiga con las penas del artículo 248."
+    },
+    {
+      "origen": "CP-252-tipo",
+      "destino": "CP-250-cuantia",
+      "tipo": "remite",
+      "justificacion": "En su caso se aplican las penas cualificadas del artículo 250."
+    },
+    {
+      "origen": "CP-252-leve",
+      "destino": "CP-252-tipo",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por la escasa cuantía del perjuicio."
+    },
+    {
+      "origen": "CP-253-tipo",
+      "destino": "CP-248-estafa",
+      "tipo": "remite",
+      "justificacion": "La apropiación indebida se castiga con las penas del artículo 248."
+    },
+    {
+      "origen": "CP-253-tipo",
+      "destino": "CP-252-tipo",
+      "tipo": "limita",
+      "justificacion": "Deslinda apropiarse de lo recibido (253) de excederse administrando un patrimonio ajeno (252)."
+    },
+    {
+      "origen": "CP-253-leve",
+      "destino": "CP-253-tipo",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por la escasa cuantía de lo apropiado."
+    },
+    {
+      "origen": "CP-254-tipo",
+      "destino": "CP-253-tipo",
+      "tipo": "limita",
+      "justificacion": "Tipo residual: solo entra fuera de los supuestos de la apropiación indebida."
+    },
+    {
+      "origen": "CP-254-artistico",
+      "destino": "CP-254-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Agrava la pena por la naturaleza de la cosa apropiada."
+    },
+    {
+      "origen": "CP-254-leve",
+      "destino": "CP-254-tipo",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por la escasa cuantía de lo apropiado."
+    },
+    {
+      "origen": "CP-254-tipo",
+      "destino": "CP-234-def",
+      "tipo": "limita",
+      "justificacion": "Deslinda apropiarse de una cosa ya poseída del apoderamiento propio del hurto."
+    },
+    {
+      "origen": "CP-245-ocupacion",
+      "destino": "SC-037-ocupa",
+      "tipo": "limita",
+      "justificacion": "Deslinda el delito leve de ocupación de la infracción administrativa leve de la Ley de Seguridad Ciudadana."
+    }
+  ]
+}

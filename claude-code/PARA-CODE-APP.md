@@ -32,7 +32,11 @@
      CE 18.1/18.3/18.4 (T2), LOPD7-006 (T26), IC-006 (T15) y CIBER-010/012 (T41).
      **Falta el tercer bloque del enunciado: "la prueba digital en el proceso penal"** — ver el aviso
      de abajo, no se puede generar con lo que hay en el repo.
-   - **T18** — **AMPLIADO** de 16 a 24 conceptos y **reetiquetado** al enunciado oficial
+   - **T18** — **CERRADO** (16/08/2026): 45 conceptos, arts. 234-256 del CP salvo el 249, que vive
+     en el T20. Dos lotes: `cp-t18-defraudaciones.json` (8) y `cp-t18-usurpacion-apropiacion.json`
+     (21: llaves falsas del 239, usurpación 245-247, otras defraudaciones 251 y 251 bis,
+     administración desleal 252, apropiación indebida 253 y apropiación de cosa mueble 254).
+     Antes de esto era **AMPLIADO** de 16 a 24 conceptos y **reetiquetado** al enunciado oficial
      (`lotes/cp-t18-defraudaciones.json`, arts. 248, 250, 255 y 256). Esos 8 conceptos se cargaron
      por error dentro del lote del T20 y se reasignaron el mismo día: el temario pone las
      defraudaciones —«estafas; apropiación indebida; defraudaciones de fluido eléctrico y análogo»—
