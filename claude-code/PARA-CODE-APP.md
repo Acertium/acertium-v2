@@ -88,8 +88,24 @@
        Necesitan una fuente de **autoridad** (INSST para el concepto de trabajo, OMS para el de
        salud) con cita literal, conforme a `docs/contrato-fuentes-no-boe.md`. El contenedor no tiene
        salida a insst.es ni a who.int (403), así que hay que aportar el PDF.
+   - **T42** — **AMPLIADO** (17/08/2026): de 30 a 58 conceptos con
+     `arm-t42-prohibidas-definiciones.json` (28). El parte daba este tema por «bloque técnico
+     no-BOE», y era falso: el §50 del corpus es el **Reglamento de Armas con 174 artículos** y los
+     dos epígrafes más preguntados estaban cubiertos con **un solo concepto por artículo**.
+     Ahora entran las definiciones del art. 2 que faltaban (repetición, un solo tiro, blanca,
+     asimilada, alarma y señales, avancarga, **munición y sus componentes** —que es el «cartucho:
+     definición y componentes» del temario—, balas expansiva y perforante, imitación, reproducción,
+     Flobert, acústica, armero y corredor) y las **dos listas de armas prohibidas** desglosadas:
+     art. 4 (puñal de hoja menor de 11 cm con dos filos y punta, armas disimuladas y culatines,
+     defensas y rompecabezas, excepción de museos) y art. 5 (capacidad de carga 21/11, cargadores
+     de más de 20/10, recortadas y culata plegable, sprays, defensas eléctricas y extensibles,
+     silenciadores, municiones dum-dum, imitaciones y navajas de más de 11 cm).
+     **Lo que sigue sin fuente en el T42** es solo lo técnico-doctrinal: *origen de las armas de
+     fuego*, *funcionamiento* y *balística forense*. Eso sí es no-BOE.
    - **T45** — PRL en seguridad vial (factores del tráfico, factor humano/ambiental/vehículo, EPI).
      Fuente probable **no-BOE** (autoridad/consenso). Pendiente entero.
+   - **T44** — 41 conceptos cargados (familia `VCD`). Lo que falta —*seguridad activa y pasiva*,
+     sistemas en turismo y motocicleta— es técnico y no sale del corpus: **no-BOE**.
 
    ⚠ **HUECOS DEL CÓDIGO 600 detectados al mapear el T20 (16/08/2026).** El Código 600 incluye el CP
    y la LECrim en **[Inclusión parcial]**, y lo que deja fuera afecta de lleno a este tema. Verificado
