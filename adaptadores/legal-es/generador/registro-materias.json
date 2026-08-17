@@ -36,19 +36,25 @@
     "materia": "ley-5-2014-seguridad-privada",
     "norma": "Ley 5/2014, de Seguridad Privada",
     "referencia_boe": "BOE-A-2014-3649",
-    "temas": ["Tema 13 — Disposiciones generales en materia de seguridad privada en España"]
+    "temas": [
+      "Tema 13 — Disposiciones generales en materia de seguridad privada en España"
+    ]
   },
   "VIC": {
     "materia": "ley-4-2015-estatuto-victima",
     "norma": "Ley 4/2015, del Estatuto de la víctima del delito",
     "referencia_boe": "BOE-A-2015-4606",
-    "temas": ["Tema 22 — La Ley 4/2015, del Estatuto de la víctima del delito"]
+    "temas": [
+      "Tema 22 — La Ley 4/2015, del Estatuto de la víctima del delito"
+    ]
   },
   "DISC": {
     "materia": "lo-4-2010-regimen-disciplinario",
     "norma": "Ley Orgánica 4/2010, del Régimen disciplinario del Cuerpo Nacional de Policía",
     "referencia_boe": "BOE-A-2010-8115",
-    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+    "temas": [
+      "Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"
+    ]
   },
   "EXT": {
     "materia": "lo-4-2000-extranjeria",
@@ -63,55 +69,73 @@
     "materia": "lo-3-2018-proteccion-datos",
     "norma": "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales",
     "referencia_boe": "BOE-A-2018-16673",
-    "temas": ["Tema 26 — La protección de datos de carácter personal: LO 3/2018 y LO 7/2021"]
+    "temas": [
+      "Tema 26 — La protección de datos de carácter personal: LO 3/2018 y LO 7/2021"
+    ]
   },
   "ARM": {
     "materia": "rd-137-1993-reglamento-armas",
     "norma": "Real Decreto 137/1993, por el que se aprueba el Reglamento de Armas",
     "referencia_boe": "BOE-A-1993-6202",
-    "temas": ["Tema 42 — Las armas de fuego: definición, clasificación, categorías; el Reglamento de Armas; armas prohibidas; documentación de tenencia y porte"]
+    "temas": [
+      "Tema 42 — Las armas de fuego: definición, clasificación, categorías; el Reglamento de Armas; armas prohibidas; documentación de tenencia y porte"
+    ]
   },
   "AGE": {
     "materia": "ley-40-2015-sector-publico",
     "norma": "Ley 40/2015, de Régimen Jurídico del Sector Público",
     "referencia_boe": "BOE-A-2015-10566",
-    "temas": ["Tema 5 — La organización y funcionamiento de la Administración General del Estado: principios, órganos superiores y directivos; el Gobierno: composición, organización y funciones"]
+    "temas": [
+      "Tema 5 — La organización y funcionamiento de la Administración General del Estado: principios, órganos superiores y directivos; el Gobierno: composición, organización y funciones"
+    ]
   },
   "GOB": {
     "materia": "ley-50-1997-gobierno",
     "norma": "Ley 50/1997, del Gobierno",
     "referencia_boe": "BOE-A-1997-25336",
-    "temas": ["Tema 5 — La organización y funcionamiento de la Administración General del Estado: principios, órganos superiores y directivos; el Gobierno: composición, organización y funciones"]
+    "temas": [
+      "Tema 5 — La organización y funcionamiento de la Administración General del Estado: principios, órganos superiores y directivos; el Gobierno: composición, organización y funciones"
+    ]
   },
   "EBEP": {
     "materia": "rdleg-5-2015-ebep",
     "norma": "Real Decreto Legislativo 5/2015, texto refundido de la Ley del Estatuto Básico del Empleado Público",
     "referencia_boe": "BOE-A-2015-11719",
-    "temas": ["Tema 6 — Los funcionarios públicos: concepto y clases; adquisición y pérdida de la condición de funcionario"]
+    "temas": [
+      "Tema 6 — Los funcionarios públicos: concepto y clases; adquisición y pérdida de la condición de funcionario"
+    ]
   },
   "PPN": {
     "materia": "lo-9-2015-personal-policia-nacional",
     "norma": "Ley Orgánica 9/2015, de Régimen de Personal de la Policía Nacional",
     "referencia_boe": "BOE-A-2015-8468",
-    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+    "temas": [
+      "Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"
+    ]
   },
   "ASI": {
     "materia": "ley-12-2009-asilo",
     "norma": "Ley 12/2009, reguladora del derecho de asilo y de la protección subsidiaria",
     "referencia_boe": "BOE-A-2009-17242",
-    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+    "temas": [
+      "Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"
+    ]
   },
   "VG": {
     "materia": "lo-1-2004-violencia-genero",
     "norma": "Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género",
     "referencia_boe": "BOE-A-2004-21760",
-    "temas": ["Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"]
+    "temas": [
+      "Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"
+    ]
   },
   "IG": {
     "materia": "lo-3-2007-igualdad",
     "norma": "Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres",
     "referencia_boe": "BOE-A-2007-6115",
-    "temas": ["Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"]
+    "temas": [
+      "Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"
+    ]
   },
   "PRL": {
     "materia": "ley-31-1995-prl",
@@ -127,181 +151,234 @@
     "materia": "ley-8-2011-infraestructuras-criticas",
     "norma": "Ley 8/2011, por la que se establecen medidas para la protección de las infraestructuras críticas",
     "referencia_boe": "BOE-A-2011-7630",
-    "temas": ["Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"]
+    "temas": [
+      "Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"
+    ]
   },
   "ICR": {
     "materia": "rd-704-2011-reglamento-infraestructuras-criticas",
     "norma": "Real Decreto 704/2011, por el que se aprueba el Reglamento de protección de las infraestructuras críticas",
     "referencia_boe": "BOE-A-2011-8849",
-    "temas": ["Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"]
+    "temas": [
+      "Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"
+    ]
   },
   "LOPJ": {
     "materia": "lo-6-1985-poder-judicial",
     "norma": "Ley Orgánica 6/1985, del Poder Judicial",
     "referencia_boe": "BOE-A-1985-12666",
-    "temas": ["Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"]
+    "temas": [
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"
+    ]
   },
   "LEC": {
     "materia": "lecrim-1882",
     "norma": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal",
     "referencia_boe": "BOE-A-1882-6036",
-    "temas": ["Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"]
+    "temas": [
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención",
+      "Tema 20 — Delitos informáticos; especial consideración al derecho a la intimidad; la prueba digital en el proceso penal"
+    ]
   },
   "MF": {
     "materia": "ley-50-1981-ministerio-fiscal",
     "norma": "Ley 50/1981, por la que se regula el Estatuto Orgánico del Ministerio Fiscal",
     "referencia_boe": "BOE-A-1982-837",
-    "temas": ["Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"]
+    "temas": [
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"
+    ]
   },
   "HC": {
     "materia": "lo-6-1984-habeas-corpus",
     "norma": "Ley Orgánica 6/1984, reguladora del procedimiento de Habeas Corpus",
     "referencia_boe": "BOE-A-1984-11620",
-    "temas": ["Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"]
+    "temas": [
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"
+    ]
   },
   "TC": {
     "materia": "lo-2-1979-tribunal-constitucional",
     "norma": "Ley Orgánica 2/1979, del Tribunal Constitucional",
     "referencia_boe": "BOE-A-1979-23709",
-    "temas": ["Tema 3 — La Constitución Española (II): Corona, Cortes Generales, Gobierno, Poder Judicial, organización territorial, Tribunal Constitucional y reforma constitucional"]
+    "temas": [
+      "Tema 3 — La Constitución Española (II): Corona, Cortes Generales, Gobierno, Poder Judicial, organización territorial, Tribunal Constitucional y reforma constitucional"
+    ]
   },
   "DP": {
     "materia": "lo-3-1981-defensor-del-pueblo",
     "norma": "Ley Orgánica 3/1981, del Defensor del Pueblo",
     "referencia_boe": "BOE-A-1981-10325",
-    "temas": ["Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"]
+    "temas": [
+      "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+    ]
   },
   "CC": {
     "materia": "codigo-civil-titulo-preliminar",
     "norma": "Real Decreto de 24 de julio de 1889, Código Civil",
     "referencia_boe": "BOE-A-1889-4763",
-    "temas": ["Tema 1 — El Derecho: concepto y acepciones; las normas jurídicas positivas: concepto, estructura y clases; la costumbre y los principios generales del derecho"]
+    "temas": [
+      "Tema 1 — El Derecho: concepto y acepciones; las normas jurídicas positivas: concepto, estructura y clases; la costumbre y los principios generales del derecho"
+    ]
   },
   "EAES": {
     "materia": "lo-4-1981-estados-alarma-excepcion-sitio",
     "norma": "Ley Orgánica 4/1981, de los estados de alarma, excepción y sitio",
     "referencia_boe": "BOE-A-1981-12774",
-    "temas": ["Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"]
+    "temas": [
+      "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+    ]
   },
   "LOPD7": {
     "materia": "lo-7-2021-datos-penales",
     "norma": "Ley Orgánica 7/2021, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales",
     "referencia_boe": "BOE-A-2021-8806",
-    "temas": ["Tema 26 — La protección de datos de carácter personal: LO 3/2018 y LO 7/2021"]
+    "temas": [
+      "Tema 26 — La protección de datos de carácter personal: LO 3/2018 y LO 7/2021"
+    ]
   },
   "LGTBI": {
     "materia": "ley-4-2023-trans-lgtbi",
     "norma": "Ley 4/2023, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI",
     "referencia_boe": "BOE-A-2023-5366",
-    "temas": ["Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"]
+    "temas": [
+      "Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"
+    ]
   },
   "UE": {
     "materia": "rd-240-2007-libre-circulacion-ue",
     "norma": "Real Decreto 240/2007, sobre entrada, libre circulación y residencia en España de ciudadanos de los Estados miembros de la UE y de otros Estados parte en el Acuerdo sobre el EEE",
     "referencia_boe": "BOE-A-2007-4184",
-    "temas": ["Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia"]
+    "temas": [
+      "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia"
+    ]
   },
   "TRAF": {
     "materia": "rd-1428-2003-reglamento-circulacion",
     "norma": "Real Decreto 1428/2003, por el que se aprueba el Reglamento General de Circulación",
     "referencia_boe": "BOE-A-2003-23514",
-    "temas": ["Tema 43 — El vehículo prioritario: definición, facultades de los conductores de vehículos prioritarios; señales; el Reglamento General de Circulación"]
+    "temas": [
+      "Tema 43 — El vehículo prioritario: definición, facultades de los conductores de vehículos prioritarios; señales; el Reglamento General de Circulación"
+    ]
   },
   "DGP": {
     "materia": "orden-int-859-2023-estructura-dgp",
     "norma": "Orden INT/859/2023, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía",
     "referencia_boe": "BOE-A-2023-17072",
-    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+    "temas": [
+      "Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"
+    ]
   },
   "MININT": {
     "materia": "rd-207-2024-estructura-ministerio-interior",
     "norma": "Real Decreto 207/2024, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior",
     "referencia_boe": "BOE-A-2024-3793",
-    "temas": ["Tema 7 — El Ministerio del Interior: estructura orgánica básica; la Secretaría de Estado de Seguridad: estructura y funciones"]
+    "temas": [
+      "Tema 7 — El Ministerio del Interior: estructura orgánica básica; la Secretaría de Estado de Seguridad: estructura y funciones"
+    ]
   },
   "SEL": {
     "materia": "rd-853-2022-procesos-selectivos-pn",
     "norma": "Real Decreto 853/2022, por el que se regulan los procesos selectivos y la formación en las Escalas Básica y Ejecutiva de la Policía Nacional",
     "referencia_boe": "BOE-A-2022-16582",
-    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
-  },
-  "ICR": {
-    "materia": "rd-704-2011-reglamento-infraestructuras-criticas",
-    "norma": "Real Decreto 704/2011, por el que se aprueba el Reglamento de protección de las infraestructuras críticas",
-    "referencia_boe": "BOE-A-2011-8849",
-    "temas": ["Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"]
+    "temas": [
+      "Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"
+    ]
   },
   "ASIR": {
     "materia": "rd-203-1995-reglamento-asilo",
     "norma": "Real Decreto 203/1995, por el que se aprueba el Reglamento de aplicación de la Ley reguladora del derecho de asilo",
     "referencia_boe": "BOE-A-1995-5542",
-    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+    "temas": [
+      "Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"
+    ]
   },
   "APAT": {
     "materia": "rd-865-2001-reglamento-apatrida",
     "norma": "Real Decreto 865/2001, por el que se aprueba el Reglamento de reconocimiento del estatuto de apátrida",
     "referencia_boe": "BOE-A-2001-14166",
-    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+    "temas": [
+      "Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"
+    ]
   },
   "PTEMP": {
     "materia": "rd-1325-2003-proteccion-temporal",
     "norma": "Real Decreto 1325/2003, por el que se aprueba el Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas",
     "referencia_boe": "BOE-A-2003-19714",
-    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+    "temas": [
+      "Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"
+    ]
   },
   "ACOG": {
     "materia": "rd-220-2022-acogida-proteccion-internacional",
     "norma": "Real Decreto 220/2022, por el que se aprueba el Reglamento por el que se regula el sistema de acogida en materia de protección internacional",
     "referencia_boe": "BOE-A-2022-4978",
-    "temas": ["Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"]
+    "temas": [
+      "Tema 12 — La protección internacional: reglas procedimentales; menores y personas vulnerables; centros de acogida; apátridas y desplazados"
+    ]
   },
   "PRLP": {
     "materia": "rd-2-2006-prl-policia",
     "norma": "Real Decreto 2/2006, por el que se establecen normas sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía",
     "referencia_boe": "BOE-A-2006-624",
-    "temas": ["Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"]
+    "temas": [
+      "Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"
+    ]
   },
   "PRLAGE": {
     "materia": "rd-67-2010-prl-age",
     "norma": "Real Decreto 67/2010, de 29 de enero, de adaptación de la legislación de Prevención de Riesgos Laborales a la Administración General del Estado",
     "referencia_boe": "BOE-A-2010-2161",
-    "temas": ["Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"]
+    "temas": [
+      "Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"
+    ]
   },
   "RDP": {
     "materia": "reglamento-defensor-del-pueblo",
     "norma": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo",
     "referencia_boe": "BOE-A-1983-10613",
-    "temas": ["Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"]
+    "temas": [
+      "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+    ]
   },
   "FE": {
     "materia": "lo-9-2021-fiscalia-europea",
     "norma": "Ley Orgánica 9/2021, de 1 de julio, de aplicación del Reglamento (UE) 2017/1939 del Consejo, de 12 de octubre de 2017, por el que se establece una cooperación reforzada para la creación de la Fiscalía Europea",
     "referencia_boe": "BOE-A-2021-10957",
-    "temas": ["Tema 4 — La Unión Europea; cooperación policial internacional"]
+    "temas": [
+      "Tema 4 — La Unión Europea; cooperación policial internacional"
+    ]
   },
   "UNI": {
     "materia": "orden-int-430-2014-uniformidad",
     "norma": "Orden INT/430/2014, de 10 de marzo, por la que se regula la uniformidad en el Cuerpo Nacional de Policía",
     "referencia_boe": "BOE-A-2014-2997",
-    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+    "temas": [
+      "Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"
+    ]
   },
   "CDPN": {
     "materia": "rd-49-2024-centros-docentes-pn",
     "norma": "Real Decreto 49/2024, por el que se aprueba el Reglamento de los centros docentes de la Policía Nacional",
     "referencia_boe": "BOE-A-2024-814",
-    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+    "temas": [
+      "Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"
+    ]
   },
   "CPOL": {
     "materia": "rd-555-2011-regimen-electoral-consejo-policia",
     "norma": "Real Decreto 555/2011, de 20 de abril, por el que se establece el régimen electoral del Consejo de Policía",
     "referencia_boe": "BOE-A-2011-7173",
-    "temas": ["Tema 9 — La Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad: los derechos de representación colectiva; el Consejo de Policía"]
+    "temas": [
+      "Tema 9 — La Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad: los derechos de representación colectiva; el Consejo de Policía"
+    ]
   },
   "PJ": {
     "materia": "rd-769-1987-policia-judicial",
     "norma": "Real Decreto 769/1987, de 19 de junio, sobre regulación de la Policía Judicial",
     "referencia_boe": "BOE-A-1987-14578",
-    "temas": ["Tema 21 — Derecho Procesal Penal: órganos de la jurisdicción penal; la detención; el Ministerio Fiscal; la Policía Judicial"]
+    "temas": [
+      "Tema 21 — Derecho Procesal Penal: órganos de la jurisdicción penal; la detención; el Ministerio Fiscal; la Policía Judicial"
+    ]
   },
   "EXTR": {
     "materia": "rd-1155-2024-reglamento-extranjeria",
@@ -313,42 +390,56 @@
     "materia": "orden-pci-487-2019-estrategia-nacional-ciberseguridad",
     "norma": "Orden PCI/487/2019, por la que se publica la Estrategia Nacional de Ciberseguridad 2019",
     "referencia_boe": "BOE-A-2019-6347",
-    "temas": ["Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"]
+    "temas": [
+      "Tema 15 — Protección de Infraestructuras Críticas: Catálogo Nacional, Sistema de Protección; ciberseguridad"
+    ]
   },
   "RGV": {
     "materia": "rd-2822-1998-reglamento-vehiculos",
     "norma": "Real Decreto 2822/1998, por el que se aprueba el Reglamento General de Vehículos",
     "referencia_boe": "BOE-A-1999-1826",
-    "temas": ["Tema 43 — El vehículo prioritario: definición y señales de emergencia; señales en los vehículos (Reglamento General de Vehículos)"]
+    "temas": [
+      "Tema 43 — El vehículo prioritario: definición y señales de emergencia; señales en los vehículos (Reglamento General de Vehículos)"
+    ]
   },
   "VCD": {
     "materia": "orden-int-2573-2015-vehiculos-conduccion-detenidos",
     "norma": "Orden INT/2573/2015, de 30 de noviembre, por la que se determinan las especificaciones técnicas que deben reunir los vehículos destinados a la conducción de detenidos, presos y penados",
     "referencia_boe": "BOE-A-2015-13138",
-    "temas": ["Tema 44 — La Seguridad en la Conducción de Vehículos Prioritarios: seguridad activa y pasiva; repercusión de los sistemas de seguridad en la conducción policial y traslado de detenidos"]
+    "temas": [
+      "Tema 44 — La Seguridad en la Conducción de Vehículos Prioritarios: seguridad activa y pasiva; repercusión de los sistemas de seguridad en la conducción policial y traslado de detenidos"
+    ]
   },
   "DPSF": {
     "materia": "orden-int-632-2024-desarrollo-procesos-selectivos-pn",
     "norma": "Orden INT/632/2024, de 20 de junio, por la que se establecen normas para la aplicación y desarrollo del Reglamento de procesos selectivos y formación de la Policía Nacional, aprobado por el Real Decreto 853/2022, de 11 de octubre",
     "referencia_boe": "BOE-A-2024-12811",
-    "temas": ["Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"]
+    "temas": [
+      "Tema 8 — La Dirección General de la Policía y la Policía Nacional: estructura, funciones, escalas y categorías, sistemas de acceso, régimen disciplinario y situaciones administrativas"
+    ]
   },
-
   "_doc_no_boe": "A partir de aquí, familias de fuentes NO-BOE (temas 27 y 34-41). Con referencia_boe vacía, la puerta exige referencia_fuente y comprueba que el lote cite de verdad los DOMINIOS de aquí (ver verificar-meta.mjs). TORT y CEDH sí tienen BOE: se validan como cualquier lote BOE.",
-
   "DUDH": {
     "materia": "declaracion-universal-derechos-humanos",
     "norma": "Declaración Universal de Derechos Humanos, 1948",
     "referencia_boe": "",
     "referencia_fuente": "https://www.un.org/es/about-us/universal-declaration-of-human-rights",
-    "temas": ["Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"]
+    "temas": [
+      "Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"
+    ]
   },
   "TORT": {
     "materia": "convencion-contra-la-tortura",
     "norma": "Convención contra la Tortura (1984), Protocolo facultativo (2002) y MNP del Defensor del Pueblo",
     "referencia_boe": "BOE-A-1987-25053",
-    "referencia_fuentes": ["BOE-A-1987-25053", "BOE-A-2006-11128", "BOE-A-1981-10325"],
-    "temas": ["Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"]
+    "referencia_fuentes": [
+      "BOE-A-1987-25053",
+      "BOE-A-2006-11128",
+      "BOE-A-1981-10325"
+    ],
+    "temas": [
+      "Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"
+    ]
   },
   "CEDH": {
     "materia": "convenio-europeo-derechos-humanos",
@@ -361,108 +452,135 @@
       "BOE-A-2010-8504",
       "BOE-A-2021-7554"
     ],
-    "temas": ["Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"]
+    "temas": [
+      "Tema 27 — Derechos Humanos: Declaración Universal; Convenio Europeo DDHH; Convenio contra la Tortura; Protocolo facultativo; Mecanismo Nacional de Prevención de la Tortura del Defensor del Pueblo"
+    ]
   },
   "CIBER": {
     "materia": "glosario-ciberseguridad-incibe",
     "norma": "Glosario y recursos oficiales de ciberseguridad de INCIBE (glosario de términos 2021, temáticas, Guía de ciberataques de la OSI, blogs y dosieres de INCIBE)",
     "referencia_boe": "",
     "referencia_fuente": "https://www.incibe.es (glosario y guías, consulta 2026-08-04)",
-    "temas": ["Tema 41 — Ciberdelincuencia y agentes de la amenaza: malware, phishing, ransomware y demás; cibercriminales; APT; Cyber Kill Chain"]
+    "temas": [
+      "Tema 41 — Ciberdelincuencia y agentes de la amenaza: malware, phishing, ransomware y demás; cibercriminales; APT; Cyber Kill Chain"
+    ]
   },
   "INTEL": {
     "materia": "inteligencia-osint-fuentes-abiertas",
     "norma": "Doctrina de inteligencia del CNI (ciclo de Inteligencia y disciplinas de obtención) y glosario de ciberseguridad de INCIBE (OSINT, deep web y dark web)",
     "referencia_boe": "",
     "referencia_fuente": "https://www.cni.es/la-inteligencia + https://www.incibe.es (consulta 2026-08-04)",
-    "temas": ["Tema 40 — Inteligencia: dato, información e inteligencia; tipologías de inteligencia; ciclo de inteligencia; OSINT (fuentes abiertas); surface web, deep web, dark web, dark net"]
+    "temas": [
+      "Tema 40 — Inteligencia: dato, información e inteligencia; tipologías de inteligencia; ciclo de inteligencia; OSINT (fuentes abiertas); surface web, deep web, dark web, dark net"
+    ]
   },
   "ORTO": {
     "materia": "ortografia-rae",
     "norma": "Ortografía de la lengua española (RAE-ASALE)",
     "referencia_boe": "",
     "referencia_fuente": "https://www.rae.es (Ortografía / OLE 2010, consulta 2026-08-04)",
-    "temas": ["Tema 37 — Ortografía de la lengua española: reglas ortográficas; uso de las letras o grafemas; uso de la tilde, de los signos ortográficos y de mayúsculas y minúsculas"]
+    "temas": [
+      "Tema 37 — Ortografía de la lengua española: reglas ortográficas; uso de las letras o grafemas; uso de la tilde, de los signos ortográficos y de mayúsculas y minúsculas"
+    ]
   },
   "SOST": {
     "materia": "agenda-2030-desarrollo-sostenible",
     "norma": "Agenda 2030 para el Desarrollo Sostenible (Resolución A/RES/70/1 de la Asamblea General de las Naciones Unidas)",
     "referencia_boe": "",
     "referencia_fuente": "A/RES/70/1 — https://unctad.org/system/files/official-document/ares70d1_es.pdf + https://www.un.org/sustainabledevelopment/es, consulta 2026-08-04",
-    "temas": ["Tema 35 — El desarrollo sostenible: concepto; coordinación y cooperación internacional; sociedad y desarrollo sostenible; instrumentos de gestión ambiental"]
+    "temas": [
+      "Tema 35 — El desarrollo sostenible: concepto; coordinación y cooperación internacional; sociedad y desarrollo sostenible; instrumentos de gestión ambiental"
+    ]
   },
   "DROGA": {
     "materia": "drogodependencias-oms-unodc-oeda",
     "norma": "Definiciones de la OMS (OMS/CIE) y la UNODC; convenios internacionales de fiscalización de 1961 (estupefacientes) y 1971 (sustancias psicotrópicas); Informe 2024 del Observatorio Español de las Drogas y las Adicciones (OEDA/PNSD)",
     "referencia_boe": "",
     "referencia_fuente": "https://pnsd.sanidad.gob.es (glosario OMS, OEDA 2024) + https://www.unodc.org, consulta 2026-08-04 (datos de tendencias con fecha, caducan)",
-    "temas": ["Tema 34 — Drogodependencias: conceptos de droga, consumidor, administración, adicción, dependencia, tolerancia, politoxicomanías; clasificación de las drogas; últimas tendencias en el consumo"]
+    "temas": [
+      "Tema 34 — Drogodependencias: conceptos de droga, consumidor, administración, adicción, dependencia, tolerancia, politoxicomanías; clasificación de las drogas; últimas tendencias en el consumo"
+    ]
   },
   "REDES": {
     "materia": "redes-informaticas-osi-tcpip",
     "norma": "Fuentes técnicas de referencia sobre redes informáticas: modelo OSI y modelo TCP/IP (Check Point, IBM), dispositivos de red (glosario INCIBE, Microsoft, VAS Experts, Universidad de Huelva) y direccionamiento IP (Oracle)",
     "referencia_boe": "",
     "referencia_fuente": "https://www.incibe.es + https://www.checkpoint.com + https://www.ibm.com + https://docs.oracle.com, consulta 2026-08-04",
-    "temas": ["Tema 39 — Redes informáticas: modelo OSI; modelo TCP/IP; dispositivos de red; direccionamiento IP (clases, IPv4, IPv6)"]
+    "temas": [
+      "Tema 39 — Redes informáticas: modelo OSI; modelo TCP/IP; dispositivos de red; direccionamiento IP (clases, IPv4, IPv6)"
+    ]
   },
   "GRAM": {
     "materia": "gramatica-rae",
     "norma": "Gramática de la lengua española (RAE-ASALE): Glosario de términos gramaticales y Nueva gramática básica de la lengua española",
     "referencia_boe": "",
     "referencia_fuente": "https://www.rae.es (GTG, NGB), consulta 2026-08-04",
-    "temas": ["Tema 36 — Gramática de la lengua española: morfología (sufijos, sustantivos, pronombres, adjetivos y sus grados/tipos, adverbios y tipos, verbos —modos y conjugación—, preposiciones y conjunciones); sintaxis (la oración: partes y tipos; análisis sintáctico)"]
+    "temas": [
+      "Tema 36 — Gramática de la lengua española: morfología (sufijos, sustantivos, pronombres, adjetivos y sus grados/tipos, adverbios y tipos, verbos —modos y conjugación—, preposiciones y conjunciones); sintaxis (la oración: partes y tipos; análisis sintáctico)"
+    ]
   },
   "_doc_grupo_c": "Grupo C (temas 28-33): lotes MIXTOS. Cada concepto lleva su propio tipo_fuente; los oficial/autoridad entran verificado y los consenso, pendiente_revision (ver cargar.mjs y nucleo/verificar-fuente.mjs). En referencia_fuente solo se ponen con URL los dominios que el lote DEBE citar; las normas del BOE van por su id BOE-A-… sin URL, porque la puerta exige los dominios y el BOE no siempre se cita con enlace.",
-
   "ETICA": {
     "materia": "etica-valores-contravalores-delitos-odio",
     "norma": "Principios éticos, valores y contravalores (Constitución Española arts. 1, 10 y 14; Declaración de Principios sobre la Tolerancia de la UNESCO, 1995; Diccionario de la lengua española RAE-ASALE; Berger y Luckmann; Ley 19/2007 contra la violencia en el deporte) y delitos de odio del Código Penal (arts. 22.4ª y 510)",
     "referencia_boe": "",
     "referencia_fuente": "https://www.unesco.org + https://dle.rae.es + Código Penal BOE-A-1995-25444 (arts. 22.4ª y 510, redacción de la LO 6/2022, BOE-A-2022-11588) y CE BOE-A-1978-31229, consulta 2026-08-16",
-    "temas": ["Tema 30 — Principios éticos de la sociedad actual; transmisión de valores; libertad, igualdad, tolerancia; contravalores; delitos de odio"]
+    "temas": [
+      "Tema 30 — Principios éticos de la sociedad actual; transmisión de valores; libertad, igualdad, tolerancia; contravalores; delitos de odio"
+    ]
   },
   "INMIG": {
     "materia": "inmigracion-movimientos-migratorios",
     "norma": "Glosario de la OIM sobre Migración (Términos fundamentales sobre migración, OIM/ONU), Parlamento Europeo (causas de la migración) e INE (Estadística de Migraciones y Cambios de Residencia, año 2024)",
     "referencia_boe": "",
     "referencia_fuente": "https://www.iom.int + https://www.europarl.europa.eu + https://www.ine.es, consulta 2026-08-16",
-    "temas": ["Tema 31 — Inmigración: movimientos migratorios (concepto, causas, tipos, efectos); grandes migraciones; migraciones actuales; integración social"]
+    "temas": [
+      "Tema 31 — Inmigración: movimientos migratorios (concepto, causas, tipos, efectos); grandes migraciones; migraciones actuales; integración social"
+    ]
   },
   "GEOD": {
     "materia": "geografia-humana-demografia-ine-rae",
     "norma": "Definiciones demográficas del INE (Indicadores Demográficos Básicos e Indicadores Urbanos/DEGURBA) y del Diccionario de la lengua española (RAE-ASALE, 23.ª ed.); conceptos de geografía humana, la ciudad y la sociedad de masas de fuentes académicas de consenso (Wikipedia en español; Ortega y Gasset, La rebelión de las masas, 1929)",
     "referencia_boe": "",
     "referencia_fuente": "https://www.ine.es + https://dle.rae.es + https://es.wikipedia.org, consulta 2026-08-16",
-    "temas": ["Tema 32 — Geografía humana; la ciudad; población y grupos sociales; demografía (densidad, natalidad, mortalidad, crecimiento vegetativo); sociedad de masas; medio ambiente"]
+    "temas": [
+      "Tema 32 — Geografía humana; la ciudad; población y grupos sociales; demografía (densidad, natalidad, mortalidad, crecimiento vegetativo); sociedad de masas; medio ambiente"
+    ]
   },
-
   "GLOB": {
     "materia": "globalizacion-antiglobalizacion-foro-social-mundial",
     "norma": "Concepto y características de la globalización (Diccionario de la lengua española RAE-ASALE, 23.ª ed.; FMI, «La globalización: ¿amenaza u oportunidad?», 2000), sus consecuencias y reacciones; Movimiento Antiglobalización / altermundismo (fuente de consenso: Wikipedia en español) y Foro Social Mundial (Carta de Principios del FSM, 2001)",
     "referencia_boe": "",
     "referencia_fuente": "https://dle.rae.es + https://www.imf.org + https://es.wikipedia.org + https://wsf2021.net, consulta 2026-08-16",
-    "temas": ["Tema 28 — Globalización y antiglobalización: conceptos, características, consecuencias, reacciones; Movimiento Antiglobalización; Foro Social Mundial"]
+    "temas": [
+      "Tema 28 — Globalización y antiglobalización: conceptos, características, consecuencias, reacciones; Movimiento Antiglobalización; Foro Social Mundial"
+    ]
   },
   "ACTIT": {
     "materia": "actitudes-valores-sociales-psicologia-social",
     "norma": "Actitudes y valores sociales (psicología social): concepto de actitud (Allport, 1935; DLE RAE-ASALE), componentes de la actitud (Rosenberg y Hovland, 1960), funciones de las actitudes (Katz, 1960), estereotipo/prejuicio/discriminación/xenofobia/dogmatismo (DLE RAE-ASALE; Allport, 1954), personalidad autoritaria (Adorno y cols., 1950), dogmatismo (Rokeach, 1960) y grupos sociales (Cooley, 1909; Sumner, 1906)",
     "referencia_boe": "",
     "referencia_fuente": "https://dle.rae.es + https://archive.org + https://www.gutenberg.org, consulta 2026-08-16",
-    "temas": ["Tema 29 — Actitudes y valores sociales: formación de actitudes (concepto, componentes, funciones); estereotipos, prejuicios, discriminación; personalidad autoritaria (xenofobia, dogmatismo); grupos sociales"]
+    "temas": [
+      "Tema 29 — Actitudes y valores sociales: formación de actitudes (concepto, componentes, funciones); estereotipos, prejuicios, discriminación; personalidad autoritaria (xenofobia, dogmatismo); grupos sociales"
+    ]
   },
   "SEGT": {
     "materia": "seguridad-y-teorias-de-la-delincuencia",
     "norma": "Concepto de seguridad y teorías explicativas de la delincuencia (GRUPO C, mixto): anclajes citables en la LO 4/2015 de protección de la seguridad ciudadana (BOE-A-2015-3442), la Ley 5/2014 de Seguridad Privada (BOE-A-2014-3649), la Declaración Universal de Derechos Humanos (art. 3) y el Diccionario de la lengua española (RAE-ASALE); teorías de la delincuencia como consenso académico (Beccaria, Lombroso, Merton, subcultura, etiquetado, asociación diferencial, aprendizaje social de Akers, control) referidas a la Encyclopaedia Britannica y a las obras primarias",
     "referencia_boe": "",
     "referencia_fuente": "https://www.un.org + https://dle.rae.es + https://www.britannica.com + LO 4/2015 BOE-A-2015-3442 y Ley 5/2014 BOE-A-2014-3649 (citadas por id, sin URL), consulta 2026-08-16",
-    "temas": ["Tema 33 — La seguridad: concepto; individual/colectiva; pública/privada; inseguridad; teorías explicativas de la delincuencia (modelos y clases)"]
+    "temas": [
+      "Tema 33 — La seguridad: concepto; individual/colectiva; pública/privada; inseguridad; teorías explicativas de la delincuencia (modelos y clases)"
+    ]
   },
-
   "SO": {
     "materia": "sistemas-operativos-fundamentos",
     "norma": "Fuentes técnicas de referencia sobre sistemas operativos: definición y funciones y Linux (Red Hat), sistemas de archivos de Windows FAT/FAT32/NTFS/exFAT (Microsoft Learn), sistema de archivos APFS y formatos MS-DOS (FAT)/ExFAT (Apple) y almacenamiento de datos (Red Hat)",
     "referencia_boe": "",
     "referencia_fuente": "https://www.redhat.com + https://learn.microsoft.com + https://support.apple.com, consulta 2026-08-04",
-    "temas": ["Tema 38 — Fundamentos de sistemas operativos: funciones de un sistema operativo; tipologías (MS-DOS, UNIX, Linux, Windows, MAC OS); sistemas operativos móviles (iOS, Android); sistemas de almacenamiento; sistemas de archivos"]
+    "temas": [
+      "Tema 38 — Fundamentos de sistemas operativos: funciones de un sistema operativo; tipologías (MS-DOS, UNIX, Linux, Windows, MAC OS); sistemas operativos móviles (iOS, Android); sistemas de almacenamiento; sistemas de archivos"
+    ]
   }
 }

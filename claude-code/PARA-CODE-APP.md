@@ -27,11 +27,13 @@
 ## 2. Lo que falta — por prioridad
 1. **Generar los 4 temas que faltan (cero conceptos): 19, 20, 24, 45.** ⚠ VER §3 antes de intentarlo.
    - ~~**T19**~~ — **HECHO** (16/08/2026): 33 conceptos, arts. 550-570 CP, `lotes/cp-t19-orden-publico.json`.
-   - **T20** — **PARCIALMENTE HECHO** (16/08/2026): 25 conceptos cargados y verificados,
-     `lotes/cp-t20-delitos-informaticos.json` (CP arts. 197, 249, 264 y 189 bis), enlazados a
-     CE 18.1/18.3/18.4 (T2), LOPD7-006 (T26), IC-006 (T15) y CIBER-010/012 (T41).
-     **Falta el tercer bloque del enunciado: "la prueba digital en el proceso penal"** — ver el aviso
-     de abajo, no se puede generar con lo que hay en el repo.
+   - **T20** — **CERRADO** (17/08/2026): 60 conceptos en dos lotes. Delitos informáticos e
+     intimidad en `lotes/cp-t20-delitos-informaticos.json` (CP arts. 197, 249, 264 y 189 bis, 25
+     conceptos) y la prueba digital en `lotes/lecrim-t20-prueba-digital.json` (LECrim arts. 588 bis a
+     – 588 octies, 35 conceptos: principios rectores, interceptación de comunicaciones, grabación de
+     conversaciones orales, seguimiento y localización, registro de dispositivos de almacenamiento
+     masivo, registro remoto y orden de conservación de datos).
+     El tercer bloque se desbloqueó al ingerir la LECrim consolidada: ver §37 del corpus.
    - **T18** — **CERRADO** (16/08/2026): 45 conceptos, arts. 234-256 del CP salvo el 249, que vive
      en el T20. Dos lotes: `cp-t18-defraudaciones.json` (8) y `cp-t18-usurpacion-apropiacion.json`
      (21: llaves falsas del 239, usurpación 245-247, otras defraudaciones 251 y 251 bis,
@@ -53,9 +55,10 @@
    ⚠ **HUECOS DEL CÓDIGO 600 detectados al mapear el T20 (16/08/2026).** El Código 600 incluye el CP
    y la LECrim en **[Inclusión parcial]**, y lo que deja fuera afecta de lleno a este tema. Verificado
    sección a sección sobre `corpus/`, no de memoria:
-   - **LECrim**: el corpus llega al art. 328 (más 787 bis/ter y 988 bis). **No contiene los arts.
-     588 bis y ss.**, que son justamente la prueba digital (interceptación, registro de dispositivos,
-     datos de tráfico). Sin el PDF consolidado de la LECrim ese bloque **no se puede fundamentar**.
+   - ~~**LECrim**: el corpus llega al art. 328…~~ **RESUELTO el 17/08/2026**: Jonathan aportó el
+     texto consolidado íntegro y el §37 pasó de 121 a 1.037 artículos. Al ingerirlo aparecieron dos
+     fallos del ingestor (numeración con letra tipo «588 bis a» y pie del formato «Legislación
+     Consolidada»), ya corregidos. Protocolo para sustituir otras secciones: `corpus/README.md`.
    - **CP**: el corpus tiene el art. 197 (apartados 1 a 7) y el 264, pero **no** 197 bis/ter/quater/
      quinquies ni 264 bis/ter/quater — el acceso ilícito a sistemas y las modalidades autónomas de
      daños informáticos. No es un fallo del ingestor: la compilación los omite y marca `[ . . . ]`.

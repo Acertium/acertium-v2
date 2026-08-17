@@ -1,0 +1,1062 @@
+{
+  "meta": {
+    "materia": "lecrim-1882",
+    "norma": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal",
+    "referencia_boe": "BOE-A-1882-6036",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 20 — Delitos informáticos; especial consideración al derecho a la intimidad; la prueba digital en el proceso penal"
+  },
+  "fuentes": {
+    "art. 588 bis a": "Principios rectores. 1. Durante la instrucción de las causas se podrá acordar alguna de las medidas de investigación reguladas en el presente capítulo siempre que medie autorización judicial dictada con plena sujeción a los principios de especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad de la medida. 2. El principio de especialidad exige que una medida esté relacionada con la investigación de un delito concreto. No podrán autorizarse medidas de investigación tecnológica que tengan por objeto prevenir o descubrir delitos o despejar sospechas sin base objetiva. 3. El principio de idoneidad servirá para definir el ámbito objetivo y subjetivo y la duración de la medida en virtud de su utilidad. 4. En aplicación de los principios de excepcionalidad y necesidad solo podrá acordarse la medida: a) cuando no estén a disposición de la investigación, en atención a sus características, otras medidas menos gravosas para los derechos fundamentales del investigado o encausado e igualmente útiles para el esclarecimiento del hecho, o b) cuando el descubrimiento o la comprobación del hecho investigado, la determinación de su autor o autores, la averiguación de su paradero, o la localización de los efectos del delito se vea gravemente dificultada sin el recurso a esta medida. 5. Las medidas de investigación reguladas en este capítulo solo se reputarán proporcionadas cuando, tomadas en consideración todas las circunstancias del caso, el sacrificio de los derechos e intereses afectados no sea superior al beneficio que de su adopción resulte para el interés público y de terceros. Para la ponderación de los intereses en conflicto, la valoración del interés público se basará en la gravedad del hecho, su trascendencia social o el ámbito tecnológico de producción, la intensidad de los indicios existentes y la relevancia del resultado perseguido con la restricción del derecho.",
+    "art. 588 bis b": "Solicitud de autorización judicial. 1. El juez podrá acordar las medidas reguladas en este capítulo de oficio o a instancia del Ministerio Fiscal o de la Policía Judicial. 2. Cuando el Ministerio Fiscal o la Policía Judicial soliciten del juez de instrucción una medida de investigación tecnológica, la petición habrá de contener: 1.º La descripción del hecho objeto de investigación y la identidad del investigado o de cualquier otro afectado por la medida, siempre que tales datos resulten conocidos. 2.º La exposición detallada de las razones que justifiquen la necesidad de la medida de acuerdo a los principios rectores establecidos en el artículo 588 bis a, así como los indicios de criminalidad que se hayan puesto de manifiesto durante la investigación previa a la solicitud de autorización del acto de injerencia. 3.º Los datos de identificación del investigado o encausado y, en su caso, de los medios de comunicación empleados que permitan la ejecución de la medida. 4.º La extensión de la medida con especificación de su contenido. 5.º La unidad investigadora de la Policía Judicial que se hará cargo de la intervención. 6.º La forma de ejecución de la medida. 7.º La duración de la medida que se solicita. 8.º El sujeto obligado que llevará a cabo la medida, en caso de conocerse.",
+    "art. 588 bis c": "Resolución judicial. 1. El juez de instrucción autorizará o denegará la medida solicitada mediante auto motivado, oído el Ministerio Fiscal. Esta resolución se dictará en el plazo máximo de veinticuatro horas desde que se presente la solicitud. 2. Siempre que resulte necesario para resolver sobre el cumplimiento de alguno de los requisitos expresados en los artículos anteriores, el juez podrá requerir, con interrupción del plazo a que se refiere el apartado anterior, una ampliación o aclaración de los términos de la solicitud. 3. La resolución judicial que autorice la medida concretará al menos los siguientes extremos: a) El hecho punible objeto de investigación y su calificación jurídica, con expresión de los indicios racionales en los que funde la medida. b) La identidad de los investigados y de cualquier otro afectado por la medida, de ser conocido. c) La extensión de la medida de injerencia, especificando su alcance así como la motivación relativa al cumplimiento de los principios rectores establecidos en el artículo 588 bis a. d) La unidad investigadora de Policía Judicial que se hará cargo de la intervención. e) La duración de la medida. f) La forma y la periodicidad con la que el solicitante informará al juez sobre los resultados de la medida. g) La finalidad perseguida con la medida. h) El sujeto obligado que llevará a cabo la medida, en caso de conocerse, con expresa mención del deber de colaboración y de guardar secreto, cuando proceda, bajo apercibimiento de incurrir en un delito de desobediencia.",
+    "art. 588 bis d": "Secreto. La solicitud y las actuaciones posteriores relativas a la medida solicitada se sustanciarán en una pieza separada y secreta, sin necesidad de que se acuerde expresamente el secreto de la causa.",
+    "art. 588 bis e": "Duración. 1. Las medidas reguladas en el presente capítulo tendrán la duración que se especifique para cada una de ellas y no podrán exceder del tiempo imprescindible para el esclarecimiento de los hechos. 2. La medida podrá ser prorrogada, mediante auto motivado, por el juez competente, de oficio o previa petición razonada del solicitante, siempre que subsistan las causas que la motivaron. 3. Transcurrido el plazo por el que resultó concedida la medida, sin haberse acordado su prórroga, o, en su caso, finalizada ésta, cesará a todos los efectos.",
+    "art. 588 bis f": "Solicitud de prórroga. 1. La solicitud de prórroga se dirigirá por el Ministerio Fiscal o la Policía Judicial al juez competente con la antelación suficiente a la expiración del plazo concedido. Deberá incluir en todo caso: a) Un informe detallado del resultado de la medida. b) Las razones que justifiquen la continuación de la misma. 2. En el plazo de los dos días siguientes a la presentación de la solicitud, el juez resolverá sobre el fin de la medida o su prórroga mediante auto motivado. Antes de dictar la resolución podrá solicitar aclaraciones o mayor información. 3. Concedida la prórroga, su cómputo se iniciará desde la fecha de expiración del plazo de la medida acordada.",
+    "art. 588 bis j": "Cese de la medida. El juez acordará el cese de la medida cuando desaparezcan las circunstancias que justificaron su adopción o resulte evidente que a través de la misma no se están obteniendo los resultados pretendidos, y, en todo caso, cuando haya transcurrido el plazo para el que hubiera sido autorizada.",
+    "art. 588 bis k": "Destrucción de registros. 1. Una vez que se ponga término al procedimiento mediante resolución firme, se ordenará el borrado y eliminación de los registros originales que puedan constar en los sistemas electrónicos e informáticos utilizados en la ejecución de la medida. Se conservará una copia bajo custodia del secretario judicial. 2. Se acordará la destrucción de las copias conservadas cuando hayan transcurrido cinco años desde que la pena se haya ejecutado o cuando el delito o la pena hayan prescrito o se haya decretado el sobreseimiento libre o haya recaído sentencia absolutoria firme respecto del investigado, siempre que no fuera precisa su conservación a juicio del Tribunal. 3. Los tribunales dictarán las órdenes oportunas a la Policía Judicial para que lleve a efecto la destrucción contemplada en los anteriores apartados.",
+    "art. 588 octies": "Orden de conservación de datos. El Ministerio Fiscal o la Policía Judicial podrán requerir a cualquier persona física o jurídica la conservación y protección de datos o informaciones concretas incluidas en un sistema informático de almacenamiento que se encuentren a su disposición hasta que se obtenga la autorización judicial correspondiente para su cesión con arreglo a lo dispuesto en los artículos precedentes. Los datos se conservarán durante un periodo máximo de noventa días, prorrogable una sola vez hasta que se autorice la cesión o se cumplan ciento ochenta días. El requerido vendrá obligado a prestar su colaboración y a guardar secreto del desarrollo de esta diligencia, quedando sujeto a la responsabilidad descrita en el apartado·3 del artículo 588 ter e.",
+    "art. 588 quater a": "Grabación de las comunicaciones orales directas. 1. Podrá autorizarse la colocación y utilización de dispositivos electrónicos que permitan la captación y grabación de las comunicaciones orales directas que se mantengan por el investigado, en la vía pública o en otro espacio abierto, en su domicilio o en cualesquiera otros lugares cerrados. Los dispositivos de escucha y grabación podrán ser colocados tanto en el exterior como en el interior del domicilio o lugar cerrado. 2. En el supuesto en que fuera necesaria la entrada en el domicilio o en alguno de los espacios destinados al ejercicio de la privacidad, la resolución habilitante habrá de extender su motivación a la procedencia del acceso a dichos lugares. 3. La escucha y grabación de las conversaciones privadas se podrá complementar con la obtención de imágenes cuando expresamente lo autorice la resolución judicial que la acuerde.",
+    "art. 588 quater b": "Presupuestos. 1. La utilización de los dispositivos a que se refiere el artículo anterior ha de estar vinculada a comunicaciones que puedan tener lugar en uno o varios encuentros concretos del investigado con otras personas y sobre cuya previsibilidad haya indicios puestos de manifiesto por la investigación. 2. Solo podrá autorizarse cuando concurran los requisitos siguientes: a) Que los hechos que estén siendo investigados sean constitutivos de alguno de los siguientes delitos: 1.º Delitos dolosos castigados con pena con límite máximo de, al menos, tres años de prisión. 2.º Delitos cometidos en el seno de un grupo u organización criminal. 3.º Delitos de terrorismo. b) Que pueda racionalmente preverse que la utilización de los dispositivos aportará datos esenciales y de relevancia probatoria para el esclarecimiento de los hechos y la identificación de su autor.",
+    "art. 588 quater e": "Cese. Cesada la medida por alguna de las causas previstas en el artículo 588 bis j, la grabación de conversaciones que puedan tener lugar en otros encuentros o la captación de imágenes de tales momentos exigirán una nueva autorización judicial.",
+    "art. 588 quinquies a": "Captación de imágenes en lugares o espacios públicos. 1. La Policía Judicial podrá obtener y grabar por cualquier medio técnico imágenes de la persona investigada cuando se encuentre en un lugar o espacio público, si ello fuera necesario para facilitar su identificación, para localizar los instrumentos o efectos del delito u obtener datos relevantes para el esclarecimiento de los hechos. 2. La medida podrá ser llevada a cabo aun cuando afecte a personas diferentes del investigado, siempre que de otro modo se reduzca de forma relevante la utilidad de la vigilancia o existan indicios fundados de la relación de dichas personas con el investigado y los hechos objeto de la investigación.",
+    "art. 588 quinquies b": "Utilización de dispositivos o medios técnicos de seguimiento y localización. 1. Cuando concurran acreditadas razones de necesidad y la medida resulte proporcionada, el juez competente podrá autorizar la utilización de dispositivos o medios técnicos de seguimiento y localización. 2. La autorización deberá especificar el medio técnico que va a ser utilizado. 3. Los prestadores, agentes y personas a que se refiere el artículo 588 ter e están obligados a prestar al juez, al Ministerio Fiscal y a los agentes de la Policía Judicial designados para la práctica de la medida la asistencia y colaboración precisas para facilitar el cumplimiento de los autos por los que se ordene el seguimiento, bajo apercibimiento de incurrir en delito de desobediencia. 4. Cuando concurran razones de urgencia que hagan razonablemente temer que de no colocarse inmediatamente el dispositivo o medio técnico de seguimiento y localización se frustrará la investigación, la Policía Judicial podrá proceder a su colocación, dando cuenta a la mayor brevedad posible, y en todo caso en el plazo máximo de veinticuatro horas, a la autoridad judicial, quien podrá ratificar la medida adoptada o acordar su inmediato cese en el mismo plazo. En este último supuesto, la información obtenida a partir del dispositivo colocado carecerá de efectos en el proceso.",
+    "art. 588 quinquies c": "Duración de la medida. 1. La medida de utilización de dispositivos técnicos de seguimiento y localización prevista en el artículo anterior tendrá una duración máxima de tres meses a partir de la fecha de su autorización. Excepcionalmente, el juez podrá acordar prórrogas sucesivas por el mismo o inferior plazo hasta un máximo de dieciocho meses, si así estuviera justificado a la vista de los resultados obtenidos con la medida. 2. La Policía Judicial entregará al juez los soportes originales o copias electrónicas auténticas que contengan la información recogida cuando éste se lo solicite y, en todo caso, cuando terminen las investigaciones. 3. La información obtenida a través de los dispositivos técnicos de seguimiento y localización a los que se refieren los artículos anteriores deberá ser debidamente custodiada para evitar su utilización indebida.",
+    "art. 588 septies a": "Presupuestos. 1. El juez competente podrá autorizar la utilización de datos de identificación y códigos, así como la instalación de un software, que permitan, de forma remota y telemática, el examen a distancia y sin conocimiento de su titular o usuario del contenido de un ordenador, dispositivo electrónico, sistema informático, instrumento de almacenamiento masivo de datos informáticos o base de datos, siempre que persiga la investigación de alguno de los siguientes delitos: a) Delitos cometidos en el seno de organizaciones criminales. b) Delitos de terrorismo. c) Delitos cometidos contra menores o personas con capacidad modificada judicialmente. d) Delitos contra la Constitución, de traición y relativos a la defensa nacional. e) Delitos cometidos a través de instrumentos informáticos o de cualquier otra tecnología de la información o la telecomunicación o servicio de comunicación. 2. La resolución judicial que autorice el registro deberá especificar: a) Los ordenadores, dispositivos electrónicos, sistemas informáticos o parte de los mismos, medios informáticos de almacenamiento de datos o bases de datos, datos u otros contenidos digitales objeto de la medida. b) El alcance de la misma, la forma en la que se procederá al acceso y aprehensión de los datos o archivos informáticos relevantes para la causa y el software mediante el que se ejecutará el control de la información. c) Los agentes autorizados para la ejecución de la medida. d) La autorización, en su caso, para la realización y conservación de copias de los datos informáticos. e) Las medidas precisas para la preservación de la integridad de los datos almacenados, así como para la inaccesibilidad o supresión de dichos datos del sistema informático al que se ha tenido acceso. 3. Cuando los agentes que lleven a cabo el registro remoto tengan razones para creer que los datos buscados están almacenados en otro sistema informático o en una parte del mismo, pondrán este hecho en conocimiento del juez, quien podrá autorizar una ampliación de los términos del registro.",
+    "art. 588 septies c": "Duración. La medida tendrá una duración máxima de un mes, prorrogable por iguales períodos hasta un máximo de tres meses.",
+    "art. 588 sexies a": "Necesidad de motivación individualizada. 1. Cuando con ocasión de la práctica de un registro domiciliario sea previsible la aprehensión de ordenadores, instrumentos de comunicación telefónica o telemática o dispositivos de almacenamiento masivo de información digital o el acceso a repositorios telemáticos de datos, la resolución del juez de instrucción habrá de extender su razonamiento a la justificación, en su caso, de las razones que legitiman el acceso de los agentes facultados a la información contenida en tales dispositivos. 2. La simple incautación de cualquiera de los dispositivos a los que se refiere el apartado anterior, practicada durante el transcurso de la diligencia de registro domiciliario, no legitima el acceso a su contenido, sin perjuicio de que dicho acceso pueda ser autorizado ulteriormente por el juez competente.",
+    "art. 588 sexies b": "Acceso a la información de dispositivos electrónicos incautados fuera del domicilio del investigado. La exigencia prevista en el apartado 1 del artículo anterior será también aplicable a aquellos casos en los que los ordenadores, instrumentos de comunicación o dispositivos de almacenamiento masivo de datos, o el acceso a repositorios telemáticos de datos, sean aprehendidos con independencia de un registro domiciliario. En tales casos, los agentes pondrán en conocimiento del juez la incautación de tales efectos. Si éste considera indispensable el acceso a la información albergada en su contenido, otorgará la correspondiente autorización.",
+    "art. 588 ter a": "Presupuestos. La autorización para la interceptación de las comunicaciones telefónicas y telemáticas solo podrá ser concedida cuando la investigación tenga por objeto alguno de los delitos a que se refiere el artículo 579.1 de esta ley o delitos cometidos a través de instrumentos informáticos o de cualquier otra tecnología de la información o la comunicación o servicio de comunicación.",
+    "art. 588 ter b": "Ámbito. 1. Los terminales o medios de comunicación objeto de intervención han de ser aquellos habitual u ocasionalmente utilizados por el investigado. 2. La intervención judicialmente acordada podrá autorizar el acceso al contenido de las comunicaciones y a los datos electrónicos de tráfico o asociados al proceso de comunicación, así como a los que se produzcan con independencia del establecimiento o no de una concreta comunicación, en los que participe el sujeto investigado, ya sea como emisor o como receptor, y podrá afectar a los terminales o los medios de comunicación de los que el investigado sea titular o usuario. También podrán intervenirse los terminales o medios de comunicación de la víctima cuando sea previsible un grave riesgo para su vida o integridad. A los efectos previstos en este artículo, se entenderá por datos electrónicos de tráfico o asociados todos aquellos que se generan como consecuencia de la conducción de la comunicación a través de una red de comunicaciones electrónicas, de su puesta a disposición del usuario, así como de la prestación de un servicio de la sociedad de la información o comunicación telemática de naturaleza análoga.",
+    "art. 588 ter d": "Solicitud de autorización judicial. 1. La solicitud de autorización judicial deberá contener, además de los requisitos mencionados en el artículo 588 bis b, los siguientes: a) la identificación del número de abonado, del terminal o de la etiqueta técnica, b) la identificación de la conexión objeto de la intervención o c) los datos necesarios para identificar el medio de telecomunicación de que se trate. 2. Para determinar la extensión de la medida, la solicitud de autorización judicial podrá tener por objeto alguno de los siguientes extremos: a) El registro y la grabación del contenido de la comunicación, con indicación de la forma o tipo de comunicaciones a las que afecta. b) El conocimiento de su origen o destino, en el momento en el que la comunicación se realiza. c) La localización geográfica del origen o destino de la comunicación. d) El conocimiento de otros datos de tráfico asociados o no asociados pero de valor añadido a la comunicación. En este caso, la solicitud especificará los datos concretos que han de ser obtenidos. 3. En caso de urgencia, cuando las investigaciones se realicen para la averiguación de delitos relacionados con la actuación de bandas armadas o elementos terroristas y existan razones fundadas que hagan imprescindible la medida prevista en los apartados anteriores de este artículo, podrá ordenarla el Ministro del Interior o, en su defecto, el Secretario de Estado de Seguridad. Esta medida se comunicará inmediatamente al juez competente y, en todo caso, dentro del plazo máximo de veinticuatro horas, haciendo constar las razones que justificaron la adopción de la medida, la actuación realizada, la forma en que se ha efectuado y su resultado. El juez competente, también de forma motivada, revocará o confirmará tal actuación en un plazo máximo de setenta y dos horas desde que fue ordenada la medida.",
+    "art. 588 ter e": "Deber de colaboración. 1. Todos los prestadores de servicios de telecomunicaciones, de acceso a una red de telecomunicaciones o de servicios de la sociedad de la información, así como toda persona que de cualquier modo contribuya a facilitar las comunicaciones a través del teléfono o de cualquier otro medio o sistema de comunicación telemática, lógica o virtual, están obligados a prestar al juez, al Ministerio Fiscal y a los agentes de la Policía Judicial designados para la práctica de la medida la asistencia y colaboración precisas para facilitar el cumplimiento de los autos de intervención de las telecomunicaciones. 2. Los sujetos requeridos para prestar colaboración tendrán la obligación de guardar secreto acerca de las actividades requeridas por las autoridades. 3. Los sujetos obligados que incumplieren los anteriores deberes podrán incurrir en delito de desobediencia.",
+    "art. 588 ter g": "Duración. La duración máxima inicial de la intervención, que se computará desde la fecha de autorización judicial, será de tres meses, prorrogables por períodos sucesivos de igual duración hasta el plazo máximo de dieciocho meses.",
+    "art. 588 ter i": "Acceso de las partes a las grabaciones. 1. Alzado el secreto y expirada la vigencia de la medida de intervención, se entregará a las partes copia de las grabaciones y de las transcripciones realizadas. Si en la grabación hubiera datos referidos a aspectos de la vida íntima de las personas, solo se entregará la grabación y transcripción de aquellas partes que no se refieran a ellos. La no inclusión de la totalidad de la grabación en la transcripción entregada se hará constar de modo expreso. 2. Una vez examinadas las grabaciones y en el plazo fijado por el juez, en atención al volumen de la información contenida en los soportes, cualquiera de las partes podrá solicitar la inclusión en las copias de aquellas comunicaciones que entienda relevantes y hayan sido excluidas. El juez de instrucción, oídas o examinadas por sí esas comunicaciones, decidirá sobre su exclusión o incorporación a la causa. 3. Se notificará por el juez de instrucción a las personas intervinientes en las comunicaciones interceptadas el hecho de la práctica de la injerencia y se les informará de las concretas comunicaciones en las que haya participado que resulten afectadas, salvo que sea imposible, exija un esfuerzo desproporcionado o puedan perjudicar futuras investigaciones. Si la persona notificada lo solicita se le entregará copia de la grabación o transcripción de tales comunicaciones, en la medida que esto no afecte al derecho a la intimidad de otras personas o resulte contrario a los fines del proceso en cuyo marco se hubiere adoptado la medida de injerencia.",
+    "art. 588 ter j": "Datos obrantes en archivos automatizados de los prestadores de servicios. 1. Los datos electrónicos conservados por los prestadores de servicios o personas que faciliten la comunicación en cumplimiento de la legislación sobre retención de datos relativos a las comunicaciones electrónicas o por propia iniciativa por motivos comerciales o de otra índole y que se encuentren vinculados a procesos de comunicación, solo podrán ser cedidos para su incorporación al proceso con autorización judicial. 2. Cuando el conocimiento de esos datos resulte indispensable para la investigación, se solicitará del juez competente autorización para recabar la información que conste en los archivos automatizados de los prestadores de servicios, incluida la búsqueda entrecruzada o inteligente de datos, siempre que se precisen la naturaleza de los datos que hayan de ser conocidos y las razones que justifican la cesión.",
+    "art. 588 ter k": "Identificación mediante número IP. Cuando en el ejercicio de las funciones de prevención y descubrimiento de los delitos cometidos en internet, los agentes de la Policía Judicial tuvieran acceso a una dirección IP que estuviera siendo utilizada para la comisión algún delito y no constara la identificación y localización del equipo o del dispositivo de conectividad correspondiente ni los datos de identificación personal del usuario, solicitarán del juez de instrucción que requiera de los agentes sujetos al deber de colaboración según el artículo 588 ter e, la cesión de los datos que permitan la identificación y localización del terminal o del dispositivo de conectividad y la identificación del sospechoso.",
+    "art. 588 ter l": "Identificación de los terminales mediante captación de códigos de identificación del aparato o de sus componentes. 1. Siempre que en el marco de una investigación no hubiera sido posible obtener un determinado número de abonado y este resulte indispensable a los fines de la investigación, los agentes de Policía Judicial podrán valerse de artificios técnicos que permitan acceder al conocimiento de los códigos de identificación o etiquetas técnicas del aparato de telecomunicación o de alguno de sus componentes, tales como la numeración IMSI o IMEI y, en general, de cualquier medio técnico que, de acuerdo con el estado de la tecnología, sea apto para identificar el equipo de comunicación utilizado o la tarjeta utilizada para acceder a la red de telecomunicaciones. 2. Una vez obtenidos los códigos que permiten la identificación del aparato o de alguno de sus componentes, los agentes de la Policía Judicial podrán solicitar del juez competente la intervención de las comunicaciones en los términos establecidos en el artículo 588 ter d. La solicitud habrá de poner en conocimiento del órgano jurisdiccional la utilización de los artificios a que se refiere el apartado anterior. El tribunal dictará resolución motivada concediendo o denegando la solicitud de intervención en el plazo establecido en el artículo 588 bis c.",
+    "art. 588 ter m": "Identificación de titulares o terminales o dispositivos de conectividad. Cuando, en el ejercicio de sus funciones, el Ministerio Fiscal o la Policía Judicial necesiten conocer la titularidad de un número de teléfono o de cualquier otro medio de comunicación, o, en sentido inverso, precisen el número de teléfono o los datos identificativos de cualquier medio de comunicación, podrán dirigirse directamente a los prestadores de servicios de telecomunicaciones, de acceso a una red de telecomunicaciones o de servicios de la sociedad de la información, quienes estarán obligados a cumplir el requerimiento, bajo apercibimiento de incurrir en el delito de desobediencia."
+  },
+  "conceptos": [
+    {
+      "id": "LEC-588bisa-principios",
+      "articulo": "art. 588 bis a",
+      "titulo": "Principios rectores de las medidas de investigación tecnológica",
+      "resumen": "Toda medida del capítulo exige autorización judicial dictada con plena sujeción a los principios de especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad.",
+      "explicacion": "Los cinco principios son la puerta de entrada de todo el bloque. Conviene memorizar el orden en que los enumera la ley."
+    },
+    {
+      "id": "LEC-588bisa-especialidad",
+      "articulo": "art. 588 bis a",
+      "titulo": "Principio de especialidad",
+      "resumen": "Exige que la medida esté relacionada con la investigación de un delito concreto: no caben medidas para prevenir o descubrir delitos ni para despejar sospechas sin base objetiva.",
+      "explicacion": "Prohíbe la investigación prospectiva. Es el principio que más se pregunta del artículo."
+    },
+    {
+      "id": "LEC-588bisa-idoneidad",
+      "articulo": "art. 588 bis a",
+      "titulo": "Principio de idoneidad",
+      "resumen": "Sirve para definir el ámbito objetivo y subjetivo y la duración de la medida en virtud de su utilidad.",
+      "explicacion": "No decide si la medida cabe, sino hasta dónde llega: a quién, sobre qué y por cuánto tiempo."
+    },
+    {
+      "id": "LEC-588bisa-proporcionalidad",
+      "articulo": "art. 588 bis a",
+      "titulo": "Principio de proporcionalidad",
+      "resumen": "La medida solo es proporcionada cuando el sacrificio de los derechos e intereses afectados no es superior al beneficio que de su adopción resulte para el interés público y de terceros.",
+      "explicacion": "Para ponderar, la ley manda valorar la gravedad del hecho, su trascendencia social o el ámbito tecnológico de producción, la intensidad de los indicios y la relevancia del resultado."
+    },
+    {
+      "id": "LEC-588bisb-solicitud",
+      "articulo": "art. 588 bis b",
+      "titulo": "Quién puede instar la medida",
+      "resumen": "El juez puede acordar estas medidas de oficio o a instancia del Ministerio Fiscal o de la Policía Judicial.",
+      "explicacion": "Tres vías de inicio. La solicitud debe contener ocho extremos tasados, entre ellos la unidad de Policía Judicial que se hará cargo."
+    },
+    {
+      "id": "LEC-588bisc-plazo",
+      "articulo": "art. 588 bis c",
+      "titulo": "Resolución judicial: forma y plazo",
+      "resumen": "El juez de instrucción autoriza o deniega mediante auto motivado, oído el Ministerio Fiscal, en el plazo máximo de veinticuatro horas desde que se presenta la solicitud.",
+      "explicacion": "Plazo clave. Si el juez pide aclaración o ampliación, el plazo se interrumpe."
+    },
+    {
+      "id": "LEC-588bisc-contenido",
+      "articulo": "art. 588 bis c",
+      "titulo": "Contenido de la resolución que autoriza",
+      "resumen": "La resolución concreta al menos el hecho punible y su calificación, la identidad de los afectados, la extensión de la injerencia, la unidad de Policía Judicial, la duración, la periodicidad de la información al juez, la finalidad y el sujeto obligado.",
+      "explicacion": "Al sujeto obligado se le advierte del deber de colaboración y de secreto bajo apercibimiento de desobediencia."
+    },
+    {
+      "id": "LEC-588bisd-secreto",
+      "articulo": "art. 588 bis d",
+      "titulo": "Pieza separada y secreta",
+      "resumen": "La solicitud y las actuaciones posteriores se sustancian en una pieza separada y secreta, sin necesidad de que se acuerde expresamente el secreto de la causa.",
+      "explicacion": "El secreto es automático para la pieza: no hace falta declararlo aparte."
+    },
+    {
+      "id": "LEC-588bise-duracion",
+      "articulo": "art. 588 bis e",
+      "titulo": "Duración y cese automático",
+      "resumen": "Las medidas duran lo que se especifique para cada una y no pueden exceder del tiempo imprescindible para el esclarecimiento de los hechos; transcurrido el plazo sin prórroga, cesan a todos los efectos.",
+      "explicacion": "El cese al vencimiento es automático, no hace falta resolución que lo declare."
+    },
+    {
+      "id": "LEC-588bisf-prorroga",
+      "articulo": "art. 588 bis f",
+      "titulo": "Solicitud de prórroga",
+      "resumen": "La solicitud incluye en todo caso un informe detallado del resultado de la medida y las razones que justifican su continuación; el juez resuelve por auto motivado en el plazo de los dos días siguientes.",
+      "explicacion": "Dos días para resolver, y el cómputo de la prórroga arranca desde la expiración del plazo anterior, no desde el auto."
+    },
+    {
+      "id": "LEC-588bisj-cese",
+      "articulo": "art. 588 bis j",
+      "titulo": "Cese de la medida",
+      "resumen": "El juez acuerda el cese cuando desaparecen las circunstancias que justificaron su adopción o resulta evidente que no se están obteniendo los resultados pretendidos, y en todo caso al transcurrir el plazo autorizado.",
+      "explicacion": "Las causas iniciales exigen valoración del juez; el vencimiento del plazo opera de forma automática."
+    },
+    {
+      "id": "LEC-588bisk-destruccion",
+      "articulo": "art. 588 bis k",
+      "titulo": "Destrucción de registros",
+      "resumen": "Al terminar el procedimiento por resolución firme se ordena el borrado de los registros originales, conservándose una copia bajo custodia del secretario judicial; las copias se destruyen a los cinco años de ejecutada la pena o cuando el delito o la pena hayan prescrito.",
+      "explicacion": "Ojo al plazo de cinco años y a que siempre queda una copia bajo custodia judicial."
+    },
+    {
+      "id": "LEC-588tera-presupuestos",
+      "articulo": "art. 588 ter a",
+      "titulo": "Interceptación de comunicaciones: presupuestos",
+      "resumen": "Solo cabe autorizarla cuando la investigación tenga por objeto alguno de los delitos del artículo 579.1 o delitos cometidos a través de instrumentos informáticos o de cualquier otra tecnología de la información o la comunicación o servicio de comunicación.",
+      "explicacion": "Puertas alternativas: o el catálogo de delitos graves al que remite, o el medio comisivo tecnológico."
+    },
+    {
+      "id": "LEC-588terb-ambito",
+      "articulo": "art. 588 ter b",
+      "titulo": "Terminales que pueden intervenirse",
+      "resumen": "Los terminales o medios de comunicación objeto de intervención han de ser aquellos habitual u ocasionalmente utilizados por el investigado.",
+      "explicacion": "Basta el uso ocasional; no se exige que el investigado sea titular del terminal."
+    },
+    {
+      "id": "LEC-588terb-victima",
+      "articulo": "art. 588 ter b",
+      "titulo": "Intervención del terminal de la víctima",
+      "resumen": "También pueden intervenirse los terminales o medios de comunicación de la víctima cuando sea previsible un grave riesgo para su vida o integridad.",
+      "explicacion": "Excepción pensada para secuestros y amenazas graves: la víctima no es investigada y aun así se interviene su terminal."
+    },
+    {
+      "id": "LEC-588terb-trafico",
+      "articulo": "art. 588 ter b",
+      "titulo": "Datos electrónicos de tráfico o asociados",
+      "resumen": "Son todos los que se generan como consecuencia de la conducción de la comunicación a través de una red de comunicaciones electrónicas, de su puesta a disposición del usuario y de la prestación de un servicio de la sociedad de la información o comunicación telemática análoga.",
+      "explicacion": "Definición legal. Los datos de tráfico se distinguen del contenido: pueden intervenirse aunque no llegue a establecerse una comunicación concreta."
+    },
+    {
+      "id": "LEC-588terd-urgencia",
+      "articulo": "art. 588 ter d",
+      "titulo": "Interceptación urgente en terrorismo",
+      "resumen": "En caso de urgencia, en delitos de bandas armadas o elementos terroristas, puede ordenarla el Ministro del Interior o, en su defecto, el Secretario de Estado de Seguridad, comunicándolo al juez en el plazo máximo de veinticuatro horas; el juez revoca o confirma en un máximo de setenta y dos horas desde que se ordenó.",
+      "explicacion": "Los dos plazos son de examen seguro: 24 horas para comunicar y 72 para que el juez resuelva."
+    },
+    {
+      "id": "LEC-588tere-colaboracion",
+      "articulo": "art. 588 ter e",
+      "titulo": "Deber de colaboración de los prestadores",
+      "resumen": "Los prestadores de servicios de telecomunicaciones, de acceso a red o de servicios de la sociedad de la información, y quien contribuya a facilitar las comunicaciones, están obligados a prestar asistencia al juez, al Ministerio Fiscal y a los agentes designados, y a guardar secreto.",
+      "explicacion": "Quien incumpla estos deberes puede incurrir en delito de desobediencia."
+    },
+    {
+      "id": "LEC-588terg-duracion",
+      "articulo": "art. 588 ter g",
+      "titulo": "Duración de la interceptación",
+      "resumen": "La duración máxima inicial es de tres meses desde la autorización judicial, prorrogables por períodos sucesivos de igual duración hasta el plazo máximo de dieciocho meses.",
+      "explicacion": "Tres meses iniciales y dieciocho de tope: el par de cifras más preguntado del bloque."
+    },
+    {
+      "id": "LEC-588teri-acceso",
+      "articulo": "art. 588 ter i",
+      "titulo": "Acceso de las partes a las grabaciones",
+      "resumen": "Alzado el secreto y expirada la vigencia de la medida, se entrega a las partes copia de las grabaciones y transcripciones; si hay datos de la vida íntima, solo se entregan las partes que no se refieran a ellos, haciéndose constar expresamente la exclusión.",
+      "explicacion": "La exclusión debe constar de modo expreso, para que la defensa sepa que la copia no es íntegra."
+    },
+    {
+      "id": "LEC-588terj-archivos",
+      "articulo": "art. 588 ter j",
+      "titulo": "Datos conservados por los prestadores",
+      "resumen": "Los datos electrónicos conservados por los prestadores en cumplimiento de la legislación sobre retención de datos, o por iniciativa propia, solo pueden ser cedidos para su incorporación al proceso con autorización judicial.",
+      "explicacion": "Incluye la búsqueda entrecruzada o inteligente de datos, que también exige autorización."
+    },
+    {
+      "id": "LEC-588terk-ip",
+      "articulo": "art. 588 ter k",
+      "titulo": "Identificación mediante número IP",
+      "resumen": "Cuando los agentes accedan a una dirección IP usada para cometer un delito y no consten la identificación y localización del equipo ni los datos del usuario, solicitarán del juez que requiera la cesión de los datos que permitan identificar el terminal y al sospechoso.",
+      "explicacion": "La IP por sí sola no basta: la cesión de los datos de abonado exige autorización judicial."
+    },
+    {
+      "id": "LEC-588terl-imsi",
+      "articulo": "art. 588 ter l",
+      "titulo": "Captación de IMSI e IMEI",
+      "resumen": "Cuando no haya sido posible obtener el número de abonado y resulte indispensable, los agentes pueden valerse de artificios técnicos que permitan acceder a los códigos de identificación o etiquetas técnicas del aparato, como la numeración IMSI o IMEI.",
+      "explicacion": "Esto lo hace la Policía Judicial sin autorización judicial previa; la intervención posterior de las comunicaciones sí la exige."
+    },
+    {
+      "id": "LEC-588term-titularidad",
+      "articulo": "art. 588 ter m",
+      "titulo": "Identificación de titulares y terminales",
+      "resumen": "Cuando el Ministerio Fiscal o la Policía Judicial necesiten conocer la titularidad de un número o los datos identificativos de un medio de comunicación, pueden dirigirse directamente a los prestadores, obligados a cumplir bajo apercibimiento de desobediencia.",
+      "explicacion": "Aquí no hace falta autorización judicial: es la excepción del bloque y por eso se pregunta mucho."
+    },
+    {
+      "id": "LEC-588quatera-dispositivos",
+      "articulo": "art. 588 quater a",
+      "titulo": "Grabación de comunicaciones orales directas",
+      "resumen": "Puede autorizarse la colocación de dispositivos que capten y graben las comunicaciones orales directas del investigado en la vía pública, en otro espacio abierto, en su domicilio o en cualquier lugar cerrado, colocándose tanto en el exterior como en el interior.",
+      "explicacion": "La escucha puede complementarse con imágenes solo cuando lo autorice expresamente la resolución judicial."
+    },
+    {
+      "id": "LEC-588quaterb-delitos",
+      "articulo": "art. 588 quater b",
+      "titulo": "Delitos que permiten la grabación de conversaciones",
+      "resumen": "Solo cabe en delitos dolosos castigados con pena con límite máximo de al menos tres años de prisión, delitos cometidos en el seno de un grupo u organización criminal y delitos de terrorismo.",
+      "explicacion": "Catálogo más estrecho que el de la interceptación telefónica. Además debe preverse que aportará datos esenciales y de relevancia probatoria."
+    },
+    {
+      "id": "LEC-588quatere-cese",
+      "articulo": "art. 588 quater e",
+      "titulo": "Cese y nueva autorización",
+      "resumen": "Cesada la medida, la grabación de conversaciones en otros encuentros o la captación de imágenes en esos momentos exigen una nueva autorización judicial.",
+      "explicacion": "La autorización se agota en los encuentros concretos previstos: no es una habilitación abierta."
+    },
+    {
+      "id": "LEC-588quinquiesa-imagen",
+      "articulo": "art. 588 quinquies a",
+      "titulo": "Captación de imágenes en espacios públicos",
+      "resumen": "La Policía Judicial puede obtener y grabar por cualquier medio técnico imágenes de la persona investigada cuando se encuentre en un lugar o espacio público, si es necesario para facilitar su identificación, localizar los instrumentos o efectos del delito u obtener datos relevantes.",
+      "explicacion": "No exige autorización judicial. Puede afectar a terceros si de otro modo se reduce de forma relevante la utilidad de la vigilancia."
+    },
+    {
+      "id": "LEC-588quinquiesb-urgencia",
+      "articulo": "art. 588 quinquies b",
+      "titulo": "Colocación urgente de dispositivos de seguimiento",
+      "resumen": "Por razones de urgencia la Policía Judicial puede colocar el dispositivo de seguimiento y localización dando cuenta a la autoridad judicial en el plazo máximo de veinticuatro horas; si el juez acuerda el cese, la información obtenida carecerá de efectos en el proceso.",
+      "explicacion": "La sanción es la ineficacia probatoria, no la nulidad de la medida: el dato deja de valer en el proceso."
+    },
+    {
+      "id": "LEC-588quinquiesc-duracion",
+      "articulo": "art. 588 quinquies c",
+      "titulo": "Duración del seguimiento y localización",
+      "resumen": "La medida tiene una duración máxima de tres meses desde su autorización; excepcionalmente el juez puede acordar prórrogas sucesivas por el mismo o inferior plazo hasta un máximo de dieciocho meses.",
+      "explicacion": "Mismos topes que la interceptación telefónica, pero aquí las prórrogas pueden ser por plazo inferior."
+    },
+    {
+      "id": "LEC-588sexiesa-incautacion",
+      "articulo": "art. 588 sexies a",
+      "titulo": "La incautación no legitima el acceso",
+      "resumen": "La simple incautación de ordenadores, instrumentos de comunicación o dispositivos de almacenamiento masivo practicada durante un registro domiciliario no legitima el acceso a su contenido, sin perjuicio de que pueda autorizarlo ulteriormente el juez competente.",
+      "explicacion": "Regla capital de la prueba digital: coger el dispositivo y mirar dentro son dos cosas distintas y cada una necesita su título."
+    },
+    {
+      "id": "LEC-588sexiesb-fuera",
+      "articulo": "art. 588 sexies b",
+      "titulo": "Dispositivos incautados fuera del domicilio",
+      "resumen": "La misma exigencia se aplica cuando los dispositivos se aprehenden con independencia de un registro domiciliario: los agentes ponen la incautación en conocimiento del juez, que otorgará la autorización si considera indispensable el acceso.",
+      "explicacion": "Cubre el caso típico del móvil intervenido en un cacheo o en la detención."
+    },
+    {
+      "id": "LEC-588septiesa-delitos",
+      "articulo": "art. 588 septies a",
+      "titulo": "Registro remoto: delitos que lo permiten",
+      "resumen": "El registro remoto sobre equipos informáticos solo cabe en delitos cometidos en el seno de organizaciones criminales, de terrorismo, contra menores o personas con capacidad modificada judicialmente, contra la Constitución, de traición y relativos a la defensa nacional, y los cometidos a través de instrumentos informáticos.",
+      "explicacion": "Es la medida más invasiva del bloque y por eso el catálogo es el más restrictivo."
+    },
+    {
+      "id": "LEC-588septiesc-duracion",
+      "articulo": "art. 588 septies c",
+      "titulo": "Duración del registro remoto",
+      "resumen": "La medida tiene una duración máxima de un mes, prorrogable por iguales períodos hasta un máximo de tres meses.",
+      "explicacion": "Los plazos más cortos del bloque, muy por debajo de los de la interceptación de comunicaciones."
+    },
+    {
+      "id": "LEC-588octies-conservacion",
+      "articulo": "art. 588 octies",
+      "titulo": "Orden de conservación de datos",
+      "resumen": "El Ministerio Fiscal o la Policía Judicial pueden requerir a cualquier persona física o jurídica la conservación y protección de datos concretos incluidos en un sistema informático de almacenamiento hasta que se obtenga la autorización judicial para su cesión.",
+      "explicacion": "Es el «congelado rápido» de la prueba digital: no da acceso al dato, solo impide que desaparezca mientras llega la autorización."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "LEC-588bisa-principios",
+      "articulo": "art. 588 bis a",
+      "tipo": "test",
+      "enunciado": "¿A qué principios debe sujetarse la autorización judicial de las medidas de investigación tecnológica, según el artículo 588 bis a de la LECrim?",
+      "opciones": [
+        "legalidad, congruencia, oportunidad y proporcionalidad, ponderando en cada caso el sacrificio de los derechos fundamentales afectados por la injerencia acordada",
+        "especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad de la medida",
+        "necesidad, urgencia y subsidiariedad, de modo que la medida solo pueda acordarse cuando no existan otros medios de investigación disponibles",
+        "especialidad, idoneidad y proporcionalidad, sin que la ley exija expresamente la excepcionalidad ni la necesidad de la medida acordada"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Durante la instrucción de las causas se podrá acordar alguna de las medidas de investigación reguladas en el presente capítulo siempre que medie autorización judicial dictada con plena sujeción a los principios de especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad de la medida.",
+      "justificacion": "Art. 588 bis a.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisa-especialidad",
+      "articulo": "art. 588 bis a",
+      "tipo": "test",
+      "enunciado": "Conforme al principio de especialidad del artículo 588 bis a de la LECrim, no podrán autorizarse medidas de investigación tecnológica que…",
+      "opciones": [
+        "afecten a personas distintas del investigado, aunque de otro modo se reduzca de forma relevante la utilidad de la vigilancia acordada",
+        "recaigan sobre terminales de los que el investigado no sea titular, aunque los venga utilizando de forma habitual u ocasional",
+        "tengan por objeto prevenir o descubrir delitos o despejar sospechas sin base objetiva",
+        "se prolonguen más allá del tiempo imprescindible para el esclarecimiento de los hechos que estén siendo objeto de investigación"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "2. El principio de especialidad exige que una medida esté relacionada con la investigación de un delito concreto. No podrán autorizarse medidas de investigación tecnológica que tengan por objeto prevenir o descubrir delitos o despejar sospechas sin base objetiva.",
+      "justificacion": "Art. 588 bis a.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisa-idoneidad",
+      "articulo": "art. 588 bis a",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 bis a.3 de la LECrim, ¿para qué sirve el principio de idoneidad?",
+      "opciones": [
+        "para exigir que la medida esté relacionada con la investigación de un delito concreto, excluyendo las investigaciones de carácter prospectivo",
+        "para definir el ámbito objetivo y subjetivo y la duración de la medida en virtud de su utilidad",
+        "para ponderar si el sacrificio de los derechos afectados resulta superior al beneficio que su adopción reporte al interés público y de terceros",
+        "para determinar si existen otras medidas menos gravosas e igualmente útiles a disposición de la investigación en curso"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. El principio de idoneidad servirá para definir el ámbito objetivo y subjetivo y la duración de la medida en virtud de su utilidad.",
+      "justificacion": "Art. 588 bis a.3 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisa-proporcionalidad",
+      "articulo": "art. 588 bis a",
+      "tipo": "test",
+      "enunciado": "El artículo 588 bis a.5 de la LECrim considera proporcionada la medida cuando, tomadas en consideración todas las circunstancias del caso…",
+      "opciones": [
+        "el sacrificio de los derechos e intereses afectados no sea superior al beneficio que de su adopción resulte para el interés público y de terceros",
+        "la gravedad del hecho investigado y su trascendencia social justifiquen por sí solas la restricción del derecho fundamental afectado por la injerencia",
+        "no existan a disposición de la investigación otras medidas menos gravosas para los derechos fundamentales del investigado e igualmente útiles",
+        "el beneficio perseguido para el interés público sea al menos equivalente al sacrificio de los derechos del investigado y de los terceros afectados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "5. Las medidas de investigación reguladas en este capítulo solo se reputarán proporcionadas cuando, tomadas en consideración todas las circunstancias del caso, el sacrificio de los derechos e intereses afectados no sea superior al beneficio que de su adopción resulte para el interés público y de terceros.",
+      "justificacion": "Art. 588 bis a.5 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisb-solicitud",
+      "articulo": "art. 588 bis b",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 bis b.1 de la LECrim, el juez podrá acordar las medidas de investigación tecnológica…",
+      "opciones": [
+        "únicamente a instancia del Ministerio Fiscal, que ostenta el monopolio de la solicitud en esta clase de diligencias de injerencia",
+        "de oficio o a instancia del Ministerio Fiscal o de la Policía Judicial",
+        "a instancia del Ministerio Fiscal o de la Policía Judicial, sin que pueda acordarlas de oficio por tratarse de medidas restrictivas de derechos",
+        "de oficio o a instancia de cualquiera de las partes personadas en la causa, incluida la acusación particular y la acusación popular"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. El juez podrá acordar las medidas reguladas en este capítulo de oficio o a instancia del Ministerio Fiscal o de la Policía Judicial.",
+      "justificacion": "Art. 588 bis b.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisc-plazo",
+      "articulo": "art. 588 bis c",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo debe dictar el juez de instrucción el auto que autoriza o deniega la medida, conforme al artículo 588 bis c.1 de la LECrim?",
+      "opciones": [
+        "en el plazo máximo de setenta y dos horas desde que se presente la solicitud, que es el mismo previsto para confirmar las intervenciones urgentes",
+        "en el plazo máximo de veinticuatro horas desde que se presente la solicitud",
+        "en el plazo de los dos días siguientes a la presentación de la solicitud, oído previamente el Ministerio Fiscal sobre su procedencia",
+        "en el plazo máximo de veinticuatro horas desde que se presente la solicitud, sin que quepa interrumpirlo para pedir aclaraciones"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. El juez de instrucción autorizará o denegará la medida solicitada mediante auto motivado, oído el Ministerio Fiscal. Esta resolución se dictará en el plazo máximo de veinticuatro horas desde que se presente la solicitud.",
+      "justificacion": "Art. 588 bis c.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisc-contenido",
+      "articulo": "art. 588 bis c",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estos extremos debe concretar la resolución judicial que autoriza la medida, según el artículo 588 bis c.3 de la LECrim?",
+      "opciones": [
+        "El informe detallado del resultado de la medida y las razones que justifiquen la continuación de la misma más allá del plazo concedido",
+        "La unidad investigadora de Policía Judicial que se hará cargo de la intervención",
+        "La relación de terceros afectados que hayan de ser notificados una vez alzado el secreto y expirada la vigencia de la medida acordada",
+        "El medio técnico concreto que vaya a emplearse, con indicación de su marca, modelo y características de funcionamiento"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "d) La unidad investigadora de Policía Judicial que se hará cargo de la intervención.",
+      "justificacion": "Art. 588 bis c.3 d) LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisd-secreto",
+      "articulo": "art. 588 bis d",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 bis d de la LECrim, la solicitud y las actuaciones posteriores relativas a la medida se sustanciarán…",
+      "opciones": [
+        "en la propia causa, previa declaración expresa del secreto de las actuaciones acordada por el juez de instrucción mediante auto motivado",
+        "en una pieza separada y secreta, sin necesidad de que se acuerde expresamente el secreto de la causa",
+        "en una pieza separada, cuyo secreto deberá prorrogarse expresamente cada mes mientras dure la medida de investigación acordada",
+        "en una pieza separada y secreta, salvo que el Ministerio Fiscal se oponga por entender innecesaria la reserva de las actuaciones"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La solicitud y las actuaciones posteriores relativas a la medida solicitada se sustanciarán en una pieza separada y secreta, sin necesidad de que se acuerde expresamente el secreto de la causa.",
+      "justificacion": "Art. 588 bis d LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bise-duracion",
+      "articulo": "art. 588 bis e",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 bis e.3 de la LECrim, si transcurre el plazo por el que se concedió la medida sin haberse acordado su prórroga…",
+      "opciones": [
+        "el juez deberá dictar auto declarando su cese, sin el cual la medida se entenderá prorrogada tácitamente por igual plazo",
+        "cesará a todos los efectos",
+        "la Policía Judicial podrá mantenerla durante veinticuatro horas más, dando cuenta inmediata al juez para que ratifique o revoque lo actuado",
+        "la información obtenida a partir de ese momento carecerá de efectos en el proceso, aunque la medida continúe hasta su cese formal"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. Transcurrido el plazo por el que resultó concedida la medida, sin haberse acordado su prórroga, o, en su caso, finalizada ésta, cesará a todos los efectos.",
+      "justificacion": "Art. 588 bis e.3 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisf-prorroga",
+      "articulo": "art. 588 bis f",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 588 bis f.2 de la LECrim, el juez resuelve sobre el fin de la medida o su prórroga, mediante auto motivado, en el plazo de…",
+      "opciones": [
+        "veinticuatro horas desde la presentación de la solicitud, igual que en la autorización inicial de la medida de investigación",
+        "los dos días siguientes a la presentación de la solicitud",
+        "setenta y dos horas, pudiendo solicitar antes aclaraciones o mayor información al solicitante de la prórroga de la medida",
+        "diez días desde la presentación de la solicitud, siempre que resuelva antes de que expire el plazo de la medida en curso"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. En el plazo de los dos días siguientes a la presentación de la solicitud, el juez resolverá sobre el fin de la medida o su prórroga mediante auto motivado.",
+      "justificacion": "Art. 588 bis f.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisj-cese",
+      "articulo": "art. 588 bis j",
+      "tipo": "test",
+      "enunciado": "El artículo 588 bis j de la LECrim ordena al juez acordar el cese de la medida cuando…",
+      "opciones": [
+        "lo solicite el investigado una vez alzado el secreto de la pieza separada en la que se sustancia la medida acordada",
+        "desaparezcan las circunstancias que justificaron su adopción o resulte evidente que a través de la misma no se están obteniendo los resultados pretendidos",
+        "la Policía Judicial deje de informar al juez con la periodicidad fijada en la resolución que autorizó la medida de investigación",
+        "hayan transcurrido tres meses desde la fecha de la autorización judicial, salvo que se hubiera acordado expresamente su prórroga"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El juez acordará el cese de la medida cuando desaparezcan las circunstancias que justificaron su adopción o resulte evidente que a través de la misma no se están obteniendo los resultados pretendidos, y, en todo caso, cuando haya transcurrido el plazo para el que hubiera sido autorizada.",
+      "justificacion": "Art. 588 bis j LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisk-destruccion",
+      "articulo": "art. 588 bis k",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 bis k.2 de la LECrim, ¿cuándo se acuerda la destrucción de las copias conservadas?",
+      "opciones": [
+        "cuando hayan transcurrido tres años desde que la pena se haya ejecutado, salvo que el tribunal considere precisa su conservación",
+        "cuando hayan transcurrido cinco años desde que la pena se haya ejecutado o cuando el delito o la pena hayan prescrito",
+        "inmediatamente después de que el procedimiento termine mediante resolución firme, sin que quepa conservar copia alguna de los registros",
+        "cuando lo solicite el investigado absuelto por sentencia firme, aunque el tribunal estime precisa su conservación para otras causas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Se acordará la destrucción de las copias conservadas cuando hayan transcurrido cinco años desde que la pena se haya ejecutado o cuando el delito o la pena hayan prescrito o se haya decretado el sobreseimiento libre o haya recaído sentencia absolutoria firme respecto del investigado, siempre que no fuera precisa su conservación a juicio del Tribunal.",
+      "justificacion": "Art. 588 bis k.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588tera-presupuestos",
+      "articulo": "art. 588 ter a",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 ter a de la LECrim, la interceptación de las comunicaciones telefónicas y telemáticas solo podrá autorizarse cuando la investigación tenga por objeto…",
+      "opciones": [
+        "delitos dolosos castigados con pena con límite máximo de, al menos, tres años de prisión, delitos de organización criminal o delitos de terrorismo",
+        "alguno de los delitos a que se refiere el artículo 579.1 de esta ley o delitos cometidos a través de instrumentos informáticos o de cualquier otra tecnología de la información o la comunicación o servicio de comunicación",
+        "cualquier delito para cuya investigación resulte indispensable el acceso al contenido de las comunicaciones, atendida la gravedad del hecho",
+        "delitos cometidos en el seno de organizaciones criminales, de terrorismo, contra menores o contra la Constitución y la defensa nacional"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La autorización para la interceptación de las comunicaciones telefónicas y telemáticas solo podrá ser concedida cuando la investigación tenga por objeto alguno de los delitos a que se refiere el artículo 579.1 de esta ley o delitos cometidos a través de instrumentos informáticos o de cualquier otra tecnología de la información o la comunicación o servicio de comunicación.",
+      "justificacion": "Art. 588 ter a LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terb-ambito",
+      "articulo": "art. 588 ter b",
+      "tipo": "test",
+      "enunciado": "¿Qué terminales pueden ser objeto de intervención, según el artículo 588 ter b.1 de la LECrim?",
+      "opciones": [
+        "únicamente aquellos de los que el investigado sea titular registral ante el prestador del servicio de telecomunicaciones",
+        "aquellos habitual u ocasionalmente utilizados por el investigado",
+        "aquellos utilizados de forma habitual por el investigado, quedando excluidos los de uso meramente ocasional o esporádico",
+        "cualesquiera terminales situados en el domicilio del investigado, con independencia de quién sea su titular o usuario efectivo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Los terminales o medios de comunicación objeto de intervención han de ser aquellos habitual u ocasionalmente utilizados por el investigado.",
+      "justificacion": "Art. 588 ter b.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terb-victima",
+      "articulo": "art. 588 ter b",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 ter b.2 de la LECrim, ¿en qué caso pueden intervenirse los terminales o medios de comunicación de la víctima?",
+      "opciones": [
+        "cuando la víctima preste su consentimiento expreso a la intervención de sus comunicaciones ante el juez de instrucción",
+        "cuando sea previsible un grave riesgo para su vida o integridad",
+        "cuando resulte indispensable para el esclarecimiento de los hechos y no existan otras medidas menos gravosas igualmente útiles",
+        "cuando la víctima sea menor de edad o persona con discapacidad necesitada de especial protección, previa audiencia del Ministerio Fiscal"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "También podrán intervenirse los terminales o medios de comunicación de la víctima cuando sea previsible un grave riesgo para su vida o integridad.",
+      "justificacion": "Art. 588 ter b.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terb-trafico",
+      "articulo": "art. 588 ter b",
+      "tipo": "test",
+      "enunciado": "A los efectos del artículo 588 ter b de la LECrim, se entenderá por datos electrónicos de tráfico o asociados…",
+      "opciones": [
+        "el contenido de las comunicaciones en las que participe el sujeto investigado, ya sea como emisor o como receptor de las mismas",
+        "todos aquellos que se generan como consecuencia de la conducción de la comunicación a través de una red de comunicaciones electrónicas, de su puesta a disposición del usuario, así como de la prestación de un servicio de la sociedad de la información o comunicación telemática de naturaleza análoga",
+        "los datos conservados por los prestadores de servicios en cumplimiento de la legislación sobre retención de datos relativos a las comunicaciones electrónicas",
+        "los códigos de identificación o etiquetas técnicas del aparato de telecomunicación o de alguno de sus componentes, tales como la numeración IMSI o IMEI"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "A los efectos previstos en este artículo, se entenderá por datos electrónicos de tráfico o asociados todos aquellos que se generan como consecuencia de la conducción de la comunicación a través de una red de comunicaciones electrónicas, de su puesta a disposición del usuario, así como de la prestación de un servicio de la sociedad de la información o comunicación telemática de naturaleza análoga.",
+      "justificacion": "Art. 588 ter b.2, párrafo final, LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terd-urgencia",
+      "articulo": "art. 588 ter d",
+      "tipo": "test",
+      "enunciado": "En los casos de urgencia del artículo 588 ter d.3 de la LECrim, relativos a bandas armadas o elementos terroristas, ¿quién puede ordenar la interceptación?",
+      "opciones": [
+        "el Director General de la Policía o, en su defecto, el jefe de la unidad investigadora de Policía Judicial que se haga cargo de la intervención",
+        "el Ministro del Interior o, en su defecto, el Secretario de Estado de Seguridad",
+        "el Ministerio Fiscal, que deberá comunicarlo al juez competente en el plazo máximo de veinticuatro horas desde que la hubiera ordenado",
+        "el Secretario de Estado de Seguridad o, en su defecto, el Ministro del Interior, dando cuenta al juez en el plazo de setenta y dos horas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. En caso de urgencia, cuando las investigaciones se realicen para la averiguación de delitos relacionados con la actuación de bandas armadas o elementos terroristas y existan razones fundadas que hagan imprescindible la medida prevista en los apartados anteriores de este artículo, podrá ordenarla el Ministro del Interior o, en su defecto, el Secretario de Estado de Seguridad.",
+      "justificacion": "Art. 588 ter d.3 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588tere-colaboracion",
+      "articulo": "art. 588 ter e",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 ter e de la LECrim, los sujetos obligados a colaborar que incumplieren sus deberes…",
+      "opciones": [
+        "serán sancionados administrativamente por la autoridad competente en materia de telecomunicaciones, sin perjuicio de la responsabilidad civil",
+        "podrán incurrir en delito de desobediencia",
+        "incurrirán en delito de revelación de secretos, por afectar su conducta al deber de sigilo impuesto por la autoridad judicial",
+        "quedarán excluidos del registro de operadores habilitados para prestar servicios de comunicaciones electrónicas en territorio español"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. Los sujetos obligados que incumplieren los anteriores deberes podrán incurrir en delito de desobediencia.",
+      "justificacion": "Art. 588 ter e.3 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terg-duracion",
+      "articulo": "art. 588 ter g",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la duración máxima inicial de la interceptación de las comunicaciones y hasta qué plazo total puede prorrogarse, según el artículo 588 ter g de la LECrim?",
+      "opciones": [
+        "un mes inicial, prorrogable por iguales períodos hasta un máximo de tres meses desde la fecha de la autorización judicial",
+        "tres meses, prorrogables por períodos sucesivos de igual duración hasta el plazo máximo de dieciocho meses",
+        "tres meses, prorrogables por períodos sucesivos de igual o inferior duración hasta el plazo máximo de veinticuatro meses",
+        "seis meses, prorrogables por una sola vez por el mismo plazo, hasta un total máximo de doce meses de intervención"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La duración máxima inicial de la intervención, que se computará desde la fecha de autorización judicial, será de tres meses, prorrogables por períodos sucesivos de igual duración hasta el plazo máximo de dieciocho meses.",
+      "justificacion": "Art. 588 ter g LECrim."
+    },
+    {
+      "concepto_id": "LEC-588teri-acceso",
+      "articulo": "art. 588 ter i",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 ter i.1 de la LECrim, si en la grabación hubiera datos referidos a aspectos de la vida íntima de las personas…",
+      "opciones": [
+        "se entregará la grabación íntegra a las partes, que quedarán sujetas al deber de reserva sobre los datos íntimos que contenga",
+        "solo se entregará la grabación y transcripción de aquellas partes que no se refieran a ellos",
+        "no se entregará copia alguna a las partes hasta que el juez resuelva sobre la exclusión de esos pasajes de la causa",
+        "se entregará la grabación completa salvo que alguna de las partes solicite expresamente la exclusión de esos pasajes"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Si en la grabación hubiera datos referidos a aspectos de la vida íntima de las personas, solo se entregará la grabación y transcripción de aquellas partes que no se refieran a ellos.",
+      "justificacion": "Art. 588 ter i.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terj-archivos",
+      "articulo": "art. 588 ter j",
+      "tipo": "test",
+      "enunciado": "Los datos electrónicos conservados por los prestadores de servicios en cumplimiento de la legislación sobre retención de datos, según el artículo 588 ter j.1 de la LECrim…",
+      "opciones": [
+        "podrán ser cedidos a la Policía Judicial mediante simple requerimiento, por tratarse de datos ya conservados y no del contenido de la comunicación",
+        "solo podrán ser cedidos para su incorporación al proceso con autorización judicial",
+        "podrán ser cedidos al Ministerio Fiscal sin autorización judicial cuando resulten indispensables para la investigación en curso",
+        "solo podrán ser cedidos con autorización judicial cuando se refieran al contenido de la comunicación, y no a los datos de tráfico asociados"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Los datos electrónicos conservados por los prestadores de servicios o personas que faciliten la comunicación en cumplimiento de la legislación sobre retención de datos relativos a las comunicaciones electrónicas o por propia iniciativa por motivos comerciales o de otra índole y que se encuentren vinculados a procesos de comunicación, solo podrán ser cedidos para su incorporación al proceso con autorización judicial.",
+      "justificacion": "Art. 588 ter j.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terk-ip",
+      "articulo": "art. 588 ter k",
+      "tipo": "test",
+      "enunciado": "Cuando los agentes de la Policía Judicial accedan a una dirección IP utilizada para cometer un delito y no consten la identificación del equipo ni los datos del usuario, el artículo 588 ter k de la LECrim dispone que…",
+      "opciones": [
+        "requerirán directamente al prestador de servicios la cesión de los datos, que estará obligado a facilitarlos bajo apercibimiento de desobediencia",
+        "solicitarán del juez de instrucción que requiera de los agentes sujetos al deber de colaboración según el artículo 588 ter e, la cesión de los datos que permitan la identificación y localización del terminal o del dispositivo de conectividad y la identificación del sospechoso",
+        "podrán valerse de artificios técnicos que permitan acceder a los códigos de identificación del aparato, dando cuenta después al juez competente",
+        "darán cuenta al Ministerio Fiscal, que recabará de los prestadores la información necesaria para identificar al titular de la conexión utilizada"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Cuando en el ejercicio de las funciones de prevención y descubrimiento de los delitos cometidos en internet, los agentes de la Policía Judicial tuvieran acceso a una dirección IP que estuviera siendo utilizada para la comisión algún delito y no constara la identificación y localización del equipo o del dispositivo de conectividad correspondiente ni los datos de identificación personal del usuario, solicitarán del juez de instrucción que requiera de los agentes sujetos al deber de colaboración según el artículo 588 ter e, la cesión de los datos que permitan la identificación y localización del terminal o del dispositivo de conectividad y la identificación del sospechoso.",
+      "justificacion": "Art. 588 ter k LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terl-imsi",
+      "articulo": "art. 588 ter l",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 ter l.1 de la LECrim, ¿cuándo pueden los agentes de Policía Judicial valerse de artificios técnicos para captar los códigos IMSI o IMEI de un aparato?",
+      "opciones": [
+        "Siempre que lo autorice previamente el juez competente mediante auto motivado dictado en el plazo máximo de veinticuatro horas",
+        "Siempre que en el marco de una investigación no hubiera sido posible obtener un determinado número de abonado y este resulte indispensable a los fines de la investigación",
+        "Cuando la investigación tenga por objeto delitos cometidos en el seno de organizaciones criminales o delitos de terrorismo, previa dación de cuenta al Ministerio Fiscal",
+        "Cuando existan razones de urgencia que hagan temer que la investigación se frustrará, dando cuenta al juez en el plazo máximo de veinticuatro horas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Siempre que en el marco de una investigación no hubiera sido posible obtener un determinado número de abonado y este resulte indispensable a los fines de la investigación, los agentes de Policía Judicial podrán valerse de artificios técnicos que permitan acceder al conocimiento de los códigos de identificación o etiquetas técnicas del aparato de telecomunicación o de alguno de sus componentes, tales como la numeración IMSI o IMEI y, en general, de cualquier medio técnico que, de acuerdo con el estado de la tecnología, sea apto para identificar el equipo de comunicación utilizado o la tarjeta utilizada para acceder a la red de telecomunicaciones.",
+      "justificacion": "Art. 588 ter l.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588term-titularidad",
+      "articulo": "art. 588 ter m",
+      "tipo": "test",
+      "enunciado": "Cuando el Ministerio Fiscal o la Policía Judicial necesiten conocer la titularidad de un número de teléfono, el artículo 588 ter m de la LECrim les permite…",
+      "opciones": [
+        "solicitar del juez de instrucción que requiera a los prestadores la cesión de los datos identificativos del titular de la línea",
+        "dirigirse directamente a los prestadores de servicios de telecomunicaciones, de acceso a una red de telecomunicaciones o de servicios de la sociedad de la información",
+        "acceder a los archivos automatizados de los prestadores, incluida la búsqueda entrecruzada o inteligente de datos, previa autorización judicial",
+        "valerse de artificios técnicos que permitan captar los códigos de identificación del aparato, dando cuenta después al órgano jurisdiccional"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Cuando, en el ejercicio de sus funciones, el Ministerio Fiscal o la Policía Judicial necesiten conocer la titularidad de un número de teléfono o de cualquier otro medio de comunicación, o, en sentido inverso, precisen el número de teléfono o los datos identificativos de cualquier medio de comunicación, podrán dirigirse directamente a los prestadores de servicios de telecomunicaciones, de acceso a una red de telecomunicaciones o de servicios de la sociedad de la información, quienes estarán obligados a cumplir el requerimiento, bajo apercibimiento de incurrir en el delito de desobediencia.",
+      "justificacion": "Art. 588 ter m LECrim."
+    },
+    {
+      "concepto_id": "LEC-588quatera-dispositivos",
+      "articulo": "art. 588 quater a",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 quater a.1 de la LECrim, los dispositivos de escucha y grabación de comunicaciones orales directas…",
+      "opciones": [
+        "solo podrán colocarse en la vía pública o en espacios abiertos, quedando excluido el domicilio y cualquier otro lugar cerrado",
+        "podrán ser colocados tanto en el exterior como en el interior del domicilio o lugar cerrado",
+        "solo podrán colocarse en el interior del domicilio cuando el investigado no se encuentre en él en el momento de la instalación",
+        "podrán colocarse en el interior del domicilio únicamente cuando la investigación tenga por objeto delitos de terrorismo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los dispositivos de escucha y grabación podrán ser colocados tanto en el exterior como en el interior del domicilio o lugar cerrado.",
+      "justificacion": "Art. 588 quater a.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588quaterb-delitos",
+      "articulo": "art. 588 quater b",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estos delitos permite autorizar la grabación de comunicaciones orales directas, conforme al artículo 588 quater b.2 de la LECrim?",
+      "opciones": [
+        "Delitos cometidos a través de instrumentos informáticos o de cualquier otra tecnología de la información o la comunicación",
+        "Delitos dolosos castigados con pena con límite máximo de, al menos, tres años de prisión",
+        "Delitos cometidos contra menores o personas con capacidad modificada judicialmente, así como los relativos a la defensa nacional",
+        "Delitos castigados con pena de prisión cuyo límite mínimo sea de al menos tres años, cometidos por más de dos personas de común acuerdo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1.º Delitos dolosos castigados con pena con límite máximo de, al menos, tres años de prisión.",
+      "justificacion": "Art. 588 quater b.2 a) 1.º LECrim."
+    },
+    {
+      "concepto_id": "LEC-588quatere-cese",
+      "articulo": "art. 588 quater e",
+      "tipo": "test",
+      "enunciado": "Cesada la medida de grabación de comunicaciones orales, el artículo 588 quater e de la LECrim dispone que la grabación de conversaciones en otros encuentros…",
+      "opciones": [
+        "podrá continuar al amparo de la autorización inicial mientras subsistan las causas que motivaron su adopción",
+        "exigirán una nueva autorización judicial",
+        "requerirá únicamente dar cuenta al juez de instrucción en el plazo máximo de veinticuatro horas desde que se produzca el encuentro",
+        "quedará prohibida de forma absoluta durante el resto de la instrucción de la causa en la que se acordó la medida"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Cesada la medida por alguna de las causas previstas en el artículo 588 bis j, la grabación de conversaciones que puedan tener lugar en otros encuentros o la captación de imágenes de tales momentos exigirán una nueva autorización judicial.",
+      "justificacion": "Art. 588 quater e LECrim."
+    },
+    {
+      "concepto_id": "LEC-588quinquiesa-imagen",
+      "articulo": "art. 588 quinquies a",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 quinquies a.1 de la LECrim, ¿quién puede obtener y grabar imágenes de la persona investigada cuando se encuentre en un lugar o espacio público?",
+      "opciones": [
+        "el juez de instrucción, mediante auto motivado dictado a instancia del Ministerio Fiscal o de la Policía Judicial",
+        "La Policía Judicial",
+        "la Policía Judicial, previa autorización judicial que especifique el medio técnico que va a ser utilizado para la captación",
+        "el Ministerio Fiscal, que deberá dar cuenta al juez competente en el plazo máximo de veinticuatro horas desde la captación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. La Policía Judicial podrá obtener y grabar por cualquier medio técnico imágenes de la persona investigada cuando se encuentre en un lugar o espacio público, si ello fuera necesario para facilitar su identificación, para localizar los instrumentos o efectos del delito u obtener datos relevantes para el esclarecimiento de los hechos.",
+      "justificacion": "Art. 588 quinquies a.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588quinquiesb-urgencia",
+      "articulo": "art. 588 quinquies b",
+      "tipo": "test",
+      "enunciado": "Si la Policía Judicial coloca por urgencia un dispositivo de seguimiento y el juez acuerda su inmediato cese, el artículo 588 quinquies b.4 de la LECrim establece que…",
+      "opciones": [
+        "la medida se entenderá convalidada respecto del período transcurrido hasta la resolución judicial de cese",
+        "la información obtenida a partir del dispositivo colocado carecerá de efectos en el proceso",
+        "los agentes que la hubieran colocado incurrirán en responsabilidad disciplinaria por exceso en el ejercicio de sus funciones",
+        "deberá procederse al borrado inmediato de los registros, conservándose una copia bajo custodia del secretario judicial"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "En este último supuesto, la información obtenida a partir del dispositivo colocado carecerá de efectos en el proceso.",
+      "justificacion": "Art. 588 quinquies b.4 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588quinquiesc-duracion",
+      "articulo": "art. 588 quinquies c",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 quinquies c.1 de la LECrim, la medida de utilización de dispositivos técnicos de seguimiento y localización tendrá una duración máxima de…",
+      "opciones": [
+        "un mes a partir de la fecha de su autorización, prorrogable por iguales períodos hasta un máximo de tres meses",
+        "tres meses a partir de la fecha de su autorización",
+        "tres meses a partir de la fecha de su autorización, sin que quepa acordar prórroga alguna una vez agotado ese plazo inicial",
+        "seis meses a partir de la fecha de su autorización, prorrogables por períodos sucesivos de igual duración hasta dieciocho"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. La medida de utilización de dispositivos técnicos de seguimiento y localización prevista en el artículo anterior tendrá una duración máxima de tres meses a partir de la fecha de su autorización. Excepcionalmente, el juez podrá acordar prórrogas sucesivas por el mismo o inferior plazo hasta un máximo de dieciocho meses, si así estuviera justificado a la vista de los resultados obtenidos con la medida.",
+      "justificacion": "Art. 588 quinquies c.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588sexiesa-incautacion",
+      "articulo": "art. 588 sexies a",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 sexies a.2 de la LECrim, la simple incautación de un ordenador o dispositivo de almacenamiento masivo durante un registro domiciliario…",
+      "opciones": [
+        "legitima el acceso a su contenido, por estar amparada en la resolución que autorizó el registro del domicilio",
+        "no legitima el acceso a su contenido, sin perjuicio de que dicho acceso pueda ser autorizado ulteriormente por el juez competente",
+        "legitima el acceso a su contenido siempre que los agentes den cuenta al juez en el plazo máximo de veinticuatro horas",
+        "no legitima el acceso a su contenido, sin que quepa ya autorizarlo después por haberse practicado la incautación sin cobertura"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. La simple incautación de cualquiera de los dispositivos a los que se refiere el apartado anterior, practicada durante el transcurso de la diligencia de registro domiciliario, no legitima el acceso a su contenido, sin perjuicio de que dicho acceso pueda ser autorizado ulteriormente por el juez competente.",
+      "justificacion": "Art. 588 sexies a.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588sexiesb-fuera",
+      "articulo": "art. 588 sexies b",
+      "tipo": "test",
+      "enunciado": "Cuando los dispositivos electrónicos se aprehenden con independencia de un registro domiciliario, el artículo 588 sexies b de la LECrim ordena que…",
+      "opciones": [
+        "los agentes puedan acceder directamente a su contenido, al no estar en juego la inviolabilidad del domicilio del investigado",
+        "los agentes pondrán en conocimiento del juez la incautación de tales efectos",
+        "el Ministerio Fiscal autorice el acceso cuando lo considere indispensable para el esclarecimiento de los hechos investigados",
+        "se solicite del juez una nueva autorización de entrada y registro que ampare el acceso a la información albergada en ellos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "En tales casos, los agentes pondrán en conocimiento del juez la incautación de tales efectos.",
+      "justificacion": "Art. 588 sexies b LECrim."
+    },
+    {
+      "concepto_id": "LEC-588septiesa-delitos",
+      "articulo": "art. 588 septies a",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estos delitos permite autorizar el registro remoto sobre equipos informáticos, conforme al artículo 588 septies a.1 de la LECrim?",
+      "opciones": [
+        "Delitos dolosos castigados con pena con límite máximo de, al menos, tres años de prisión, cualquiera que sea su naturaleza",
+        "Delitos cometidos contra menores o personas con capacidad modificada judicialmente",
+        "Delitos contra el patrimonio y el orden socioeconómico cometidos por más de dos personas actuando de común acuerdo",
+        "Delitos a que se refiere el artículo 579.1 de esta ley, cuando la investigación no pueda avanzar por otros medios menos gravosos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "c) Delitos cometidos contra menores o personas con capacidad modificada judicialmente.",
+      "justificacion": "Art. 588 septies a.1 c) LECrim."
+    },
+    {
+      "concepto_id": "LEC-588septiesc-duracion",
+      "articulo": "art. 588 septies c",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la duración máxima del registro remoto sobre equipos informáticos, según el artículo 588 septies c de la LECrim?",
+      "opciones": [
+        "tres meses, prorrogable por períodos sucesivos de igual duración hasta un máximo de dieciocho meses",
+        "un mes, prorrogable por iguales períodos hasta un máximo de tres meses",
+        "un mes, prorrogable por una sola vez por igual plazo, hasta un máximo total de dos meses de duración",
+        "tres meses, prorrogable excepcionalmente por el mismo o inferior plazo hasta un máximo de seis meses"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La medida tendrá una duración máxima de un mes, prorrogable por iguales períodos hasta un máximo de tres meses.",
+      "justificacion": "Art. 588 septies c LECrim."
+    },
+    {
+      "concepto_id": "LEC-588octies-conservacion",
+      "articulo": "art. 588 octies",
+      "tipo": "test",
+      "enunciado": "En la orden de conservación de datos del artículo 588 octies de la LECrim, ¿durante cuánto tiempo se conservan los datos?",
+      "opciones": [
+        "durante un periodo máximo de treinta días, prorrogable una sola vez hasta que se cumplan sesenta días",
+        "durante un periodo máximo de noventa días, prorrogable una sola vez hasta que se autorice la cesión o se cumplan ciento ochenta días",
+        "durante un periodo máximo de noventa días, prorrogable por períodos sucesivos de igual duración mientras dure la investigación",
+        "durante el tiempo imprescindible para obtener la autorización judicial, sin que la ley fije un plazo máximo de conservación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los datos se conservarán durante un periodo máximo de noventa días, prorrogable una sola vez hasta que se autorice la cesión o se cumplan ciento ochenta días.",
+      "justificacion": "Art. 588 octies LECrim."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "LEC-588bisa-especialidad",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "desarrolla",
+      "justificacion": "Concreta uno de los cinco principios rectores enunciados en el apartado 1."
+    },
+    {
+      "origen": "LEC-588bisa-idoneidad",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "desarrolla",
+      "justificacion": "Concreta el principio de idoneidad enunciado en el apartado 1."
+    },
+    {
+      "origen": "LEC-588bisa-proporcionalidad",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "desarrolla",
+      "justificacion": "Concreta el principio de proporcionalidad y fija los criterios de ponderación."
+    },
+    {
+      "origen": "LEC-588bisb-solicitud",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "desarrolla",
+      "justificacion": "Abre el procedimiento de adopción de las medidas sujetas a esos principios."
+    },
+    {
+      "origen": "LEC-588bisc-plazo",
+      "destino": "LEC-588bisb-solicitud",
+      "tipo": "desarrolla",
+      "justificacion": "Fija la respuesta judicial a la solicitud regulada en el artículo anterior."
+    },
+    {
+      "origen": "LEC-588bisc-contenido",
+      "destino": "LEC-588bisc-plazo",
+      "tipo": "desarrolla",
+      "justificacion": "Detalla los extremos que debe concretar el auto que autoriza la medida."
+    },
+    {
+      "origen": "LEC-588bisd-secreto",
+      "destino": "LEC-588bisb-solicitud",
+      "tipo": "desarrolla",
+      "justificacion": "Impone la tramitación en pieza separada y secreta de la solicitud y lo que la sigue."
+    },
+    {
+      "origen": "LEC-588bise-duracion",
+      "destino": "LEC-588bisc-contenido",
+      "tipo": "desarrolla",
+      "justificacion": "Desarrolla el extremo relativo a la duración que debe fijar la resolución."
+    },
+    {
+      "origen": "LEC-588bisf-prorroga",
+      "destino": "LEC-588bise-duracion",
+      "tipo": "desarrolla",
+      "justificacion": "Regula la prórroga anunciada en el régimen de duración."
+    },
+    {
+      "origen": "LEC-588bisj-cese",
+      "destino": "LEC-588bise-duracion",
+      "tipo": "desarrolla",
+      "justificacion": "Completa el régimen temporal con las causas de cese anticipado."
+    },
+    {
+      "origen": "LEC-588bisk-destruccion",
+      "destino": "LEC-588bisj-cese",
+      "tipo": "desarrolla",
+      "justificacion": "Regula qué ocurre con los registros una vez terminada la medida y el procedimiento."
+    },
+    {
+      "origen": "LEC-588tera-presupuestos",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "desarrolla",
+      "justificacion": "Aplica el régimen común a la interceptación de comunicaciones."
+    },
+    {
+      "origen": "LEC-588terb-ambito",
+      "destino": "LEC-588tera-presupuestos",
+      "tipo": "desarrolla",
+      "justificacion": "Delimita el objeto de la medida cuyos presupuestos fija el artículo anterior."
+    },
+    {
+      "origen": "LEC-588terb-victima",
+      "destino": "LEC-588terb-ambito",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende el ámbito al terminal de la víctima en caso de riesgo grave."
+    },
+    {
+      "origen": "LEC-588terb-trafico",
+      "destino": "LEC-588terb-ambito",
+      "tipo": "desarrolla",
+      "justificacion": "Define el objeto de la intervención más allá del contenido de la comunicación."
+    },
+    {
+      "origen": "LEC-588terd-urgencia",
+      "destino": "LEC-588bisc-plazo",
+      "tipo": "limita",
+      "justificacion": "Excepciona la regla de autorización judicial previa en supuestos de urgencia terrorista."
+    },
+    {
+      "origen": "LEC-588tere-colaboracion",
+      "destino": "LEC-588tera-presupuestos",
+      "tipo": "desarrolla",
+      "justificacion": "Impone a los prestadores el deber de hacer efectiva la intervención."
+    },
+    {
+      "origen": "LEC-588terg-duracion",
+      "destino": "LEC-588bise-duracion",
+      "tipo": "desarrolla",
+      "justificacion": "Concreta para la interceptación la duración que el régimen común remite a cada medida."
+    },
+    {
+      "origen": "LEC-588teri-acceso",
+      "destino": "LEC-588bisd-secreto",
+      "tipo": "limita",
+      "justificacion": "Delimita el fin del secreto: alzado este, las partes acceden a las grabaciones."
+    },
+    {
+      "origen": "LEC-588terj-archivos",
+      "destino": "LEC-588terb-trafico",
+      "tipo": "desarrolla",
+      "justificacion": "Regula la cesión de los datos ya conservados por los prestadores."
+    },
+    {
+      "origen": "LEC-588terk-ip",
+      "destino": "LEC-588tere-colaboracion",
+      "tipo": "remite",
+      "justificacion": "La cesión se pide a los sujetos obligados a colaborar del artículo 588 ter e."
+    },
+    {
+      "origen": "LEC-588terl-imsi",
+      "destino": "LEC-588terk-ip",
+      "tipo": "limita",
+      "justificacion": "Ambas identifican al sospechoso, pero el IMSI/IMEI no exige autorización judicial previa y la IP sí."
+    },
+    {
+      "origen": "LEC-588term-titularidad",
+      "destino": "LEC-588terl-imsi",
+      "tipo": "desarrolla",
+      "justificacion": "Cierra el bloque de identificación permitiendo dirigirse directamente a los prestadores."
+    },
+    {
+      "origen": "LEC-588quatera-dispositivos",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "desarrolla",
+      "justificacion": "Aplica el régimen común a la grabación de comunicaciones orales directas."
+    },
+    {
+      "origen": "LEC-588quaterb-delitos",
+      "destino": "LEC-588quatera-dispositivos",
+      "tipo": "desarrolla",
+      "justificacion": "Fija el catálogo de delitos que permite la medida."
+    },
+    {
+      "origen": "LEC-588quaterb-delitos",
+      "destino": "LEC-588tera-presupuestos",
+      "tipo": "limita",
+      "justificacion": "Catálogo más estrecho que el de la interceptación telefónica: delimita ambos ámbitos."
+    },
+    {
+      "origen": "LEC-588quatere-cese",
+      "destino": "LEC-588bisj-cese",
+      "tipo": "desarrolla",
+      "justificacion": "Aplica el cese común y exige nueva autorización para encuentros distintos."
+    },
+    {
+      "origen": "LEC-588quinquiesa-imagen",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "limita",
+      "justificacion": "Medida que la Policía Judicial adopta sin autorización judicial: excepciona la regla general del capítulo."
+    },
+    {
+      "origen": "LEC-588quinquiesb-urgencia",
+      "destino": "LEC-588quinquiesa-imagen",
+      "tipo": "desarrolla",
+      "justificacion": "Regula la colocación urgente de dispositivos de seguimiento y su convalidación."
+    },
+    {
+      "origen": "LEC-588quinquiesc-duracion",
+      "destino": "LEC-588quinquiesb-urgencia",
+      "tipo": "desarrolla",
+      "justificacion": "Fija la duración de la medida de seguimiento y localización."
+    },
+    {
+      "origen": "LEC-588sexiesa-incautacion",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "desarrolla",
+      "justificacion": "Aplica el régimen común al registro de dispositivos de almacenamiento masivo."
+    },
+    {
+      "origen": "LEC-588sexiesb-fuera",
+      "destino": "LEC-588sexiesa-incautacion",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende la exigencia a los dispositivos aprehendidos fuera del domicilio."
+    },
+    {
+      "origen": "LEC-588septiesa-delitos",
+      "destino": "LEC-588sexiesa-incautacion",
+      "tipo": "limita",
+      "justificacion": "El registro remoto es más invasivo que el de un dispositivo ya incautado y su catálogo es más estrecho."
+    },
+    {
+      "origen": "LEC-588septiesc-duracion",
+      "destino": "LEC-588septiesa-delitos",
+      "tipo": "desarrolla",
+      "justificacion": "Fija la duración del registro remoto."
+    },
+    {
+      "origen": "LEC-588septiesc-duracion",
+      "destino": "LEC-588terg-duracion",
+      "tipo": "limita",
+      "justificacion": "Contrasta los dos regímenes temporales: un mes y tres frente a tres meses y dieciocho."
+    },
+    {
+      "origen": "LEC-588octies-conservacion",
+      "destino": "LEC-588terj-archivos",
+      "tipo": "desarrolla",
+      "justificacion": "Congela los datos hasta que llegue la autorización judicial que permite su cesión."
+    },
+    {
+      "origen": "LEC-588tera-presupuestos",
+      "destino": "CP-264-danos",
+      "tipo": "remite",
+      "justificacion": "Los daños informáticos son delito cometido a través de instrumentos informáticos, una de las dos puertas del artículo."
+    },
+    {
+      "origen": "LEC-588tera-presupuestos",
+      "destino": "CP-249-1a-informatica",
+      "tipo": "remite",
+      "justificacion": "La estafa informática entra igualmente por el medio comisivo tecnológico."
+    },
+    {
+      "origen": "LEC-588terb-ambito",
+      "destino": "CE-T1-023",
+      "tipo": "desarrolla",
+      "justificacion": "Concreta la resolución judicial que el artículo 18.3 CE exige para levantar el secreto de las comunicaciones."
+    },
+    {
+      "origen": "LEC-588sexiesa-incautacion",
+      "destino": "CP-197-2-datos",
+      "tipo": "limita",
+      "justificacion": "Deslinda el acceso legítimo autorizado judicialmente del acceso no autorizado que castiga el Código Penal."
+    },
+    {
+      "origen": "LEC-588terj-archivos",
+      "destino": "LOPD7-006",
+      "tipo": "remite",
+      "justificacion": "Los datos cedidos son datos personales, cuyo concepto define la legislación de protección de datos."
+    }
+  ]
+}
