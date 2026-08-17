@@ -27,11 +27,20 @@
 ## 2. Lo que falta — por prioridad
 1. **Generar los 4 temas que faltan (cero conceptos): 19, 20, 24, 45.** ⚠ VER §3 antes de intentarlo.
    - ~~**T19**~~ — **HECHO** (16/08/2026): 33 conceptos, arts. 550-570 CP, `lotes/cp-t19-orden-publico.json`.
-   - **T20** — **PARCIALMENTE HECHO** (16/08/2026): 33 conceptos cargados y verificados,
-     `lotes/cp-t20-delitos-informaticos.json` (CP arts. 197, 248, 249, 250, 255, 256, 264 y 189 bis),
-     enlazados a CE 18.1/18.3/18.4 (T2), LOPD7-006 (T26), IC-006 (T15) y CIBER-010/012 (T41).
+   - **T20** — **PARCIALMENTE HECHO** (16/08/2026): 25 conceptos cargados y verificados,
+     `lotes/cp-t20-delitos-informaticos.json` (CP arts. 197, 249, 264 y 189 bis), enlazados a
+     CE 18.1/18.3/18.4 (T2), LOPD7-006 (T26), IC-006 (T15) y CIBER-010/012 (T41).
      **Falta el tercer bloque del enunciado: "la prueba digital en el proceso penal"** — ver el aviso
      de abajo, no se puede generar con lo que hay en el repo.
+   - **T18** — **AMPLIADO** de 16 a 24 conceptos y **reetiquetado** al enunciado oficial
+     (`lotes/cp-t18-defraudaciones.json`, arts. 248, 250, 255 y 256). Esos 8 conceptos se cargaron
+     por error dentro del lote del T20 y se reasignaron el mismo día: el temario pone las
+     defraudaciones —«estafas; apropiación indebida; defraudaciones de fluido eléctrico y análogo»—
+     en el T18, no en el T20. El art. 249 se queda en el T20 por ser estafa informática y fraude con
+     instrumentos de pago. Como `overlay_entrada` tiene PK `(convocatoria, concepto)`, un concepto
+     vive en UN solo tema: comprobar el temario ANTES de asignar, no después.
+     Sigue faltando del T18: usurpación (arts. 245-247) y apropiación indebida (arts. 252-254),
+     ambos **ya en el corpus** — no hace falta descargar nada.
    - **T24** — **PARCIALMENTE HECHO**: 7 conceptos. Falta el remate doctrinal (concepto de trabajo y
      concepto de salud); necesita fuente de autoridad tipo INSST/OMS, no sale de la Ley 31/1995.
      Sí están ya cubiertos por corpus: *consecuencia de los riesgos* = art. 4.3 LPRL («daños derivados

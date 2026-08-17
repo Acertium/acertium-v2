@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 18 — Delitos contra el patrimonio y el orden socioeconómico: hurto, robo, extorsión, robo y hurto de uso de vehículos, usurpación y defraudaciones"
+  },
+  "fuentes": {
+    "art. 248": "Cometen estafa los que, con ánimo de lucro, utilizaren engaño bastante para producir error en otro, induciéndolo a realizar un acto de disposición en perjuicio propio o ajeno. Los reos de estafa serán castigados con la pena de prisión de seis meses a tres años. Para la fijación de la pena se tendrá en cuenta el importe de lo defraudado, el quebranto económico causado al perjudicado, las relaciones entre este y el defraudador, los medios empleados por este y cuantas otras circunstancias sirvan para valorar la gravedad de la infracción. Si la cuantía de lo defraudado no excediere de 400 euros, se impondrá la pena de multa de uno a tres meses, salvo si concurriere alguna de las circunstancias del artículo 250. No obstante, en el caso de que el culpable hubiera sido condenado ejecutoriamente al menos por tres delitos de la misma naturaleza, comprendidos en este capítulo, y siendo al menos uno de ellos leve, se impondrá la pena prevista en el párrafo segundo del presente artículo. No se tendrán en cuenta los antecedentes penales cancelados o que debieran serlo.",
+    "art. 250": "1. El delito de estafa será castigado con las penas de prisión de uno a seis años y multa de seis a doce meses, cuando: 1.º Recaiga sobre cosas de primera necesidad, viviendas u otros bienes de reconocida utilidad social. 2.º Se perpetre abusando de firma de otro, o sustrayendo, ocultando o inutilizando, en todo o en parte, algún proceso, expediente, protocolo o documento público u oficial de cualquier clase. 3.º Recaiga sobre bienes que integren el patrimonio artístico, histórico, cultural o científico. 4.º Revista especial gravedad, atendiendo a la entidad del perjuicio y a la situación económica en que deje a la víctima o a su familia. 5.º El valor de la defraudación supere los 50.000 euros, o afecte a un elevado número de personas. 6.º Se cometa con abuso de las relaciones personales existentes entre víctima y defraudador, o aproveche éste su credibilidad empresarial o profesional. 7.º Se cometa estafa procesal. Incurren en la misma los que, en un procedimiento judicial de cualquier clase, manipularen las pruebas en que pretendieran fundar sus alegaciones o emplearen otro fraude procesal análogo, provocando error en el juez o tribunal y llevándole a dictar una resolución que perjudique los intereses económicos de la otra parte o de un tercero. 8.º Al delinquir el culpable hubiera sido condenado ejecutoriamente, al menos, por tres delitos menos graves o graves comprendidos en este capítulo, siempre que sean de la misma naturaleza. No se tendrán en cuenta los antecedentes cancelados o que debieran serlo. 2. Si concurrieran las circunstancias incluidas en los numerales 4.º, 5.º, 6.º o 7.º con la del numeral 1.º del apartado anterior, se impondrán las penas de prisión de cuatro a ocho años y multa de doce a veinticuatro meses. La misma pena se impondrá cuando el valor de la defraudación supere los 250.000 euros.",
+    "art. 255": "1. Será castigado con la pena de multa de tres a doce meses el que cometiere defraudación utilizando energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos, por alguno de los medios siguientes: 1.º Valiéndose de mecanismos instalados para realizar la defraudación. 2.º Alterando maliciosamente las indicaciones o aparatos contadores. 3.º Empleando cualesquiera otros medios clandestinos. 2. Si la cuantía de lo defraudado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses. 3. Cuando la defraudación prevista en este artículo, cualquiera que fuese su cuantía, se cometa con la finalidad de abastecer de energía eléctrica instalaciones utilizadas para la comisión de alguna de las conductas señaladas en el artículo 368, se impondrá la pena de prisión de seis a dieciocho meses o multa de doce a veinticuatro meses.",
+    "art. 256": "1. El que hiciere uso de cualquier equipo terminal de telecomunicación, sin consentimiento de su titular, y causando a éste un perjuicio económico, será castigado con la pena de multa de tres a doce meses. 2. Si la cuantía del perjuicio causado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses."
+  },
+  "conceptos": [
+    {
+      "id": "CP-248-estafa",
+      "articulo": "art. 248",
+      "titulo": "Estafa: concepto",
+      "resumen": "Cometen estafa quienes, con ánimo de lucro, utilizan engaño bastante para producir error en otro, induciéndolo a realizar un acto de disposición en perjuicio propio o ajeno.",
+      "explicacion": "Definición legal de la estafa clásica. El engaño debe ser bastante, es decir, idóneo para provocar el error."
+    },
+    {
+      "id": "CP-248-leve",
+      "articulo": "art. 248",
+      "titulo": "Estafa de cuantía no superior a 400 euros",
+      "resumen": "Si la cuantía defraudada no excede de 400 euros se impone multa de uno a tres meses, salvo si concurre alguna de las circunstancias del artículo 250.",
+      "explicacion": "Es el delito leve de estafa. La salvedad del 250 impide degradar la pena cuando hay una cualificación."
+    },
+    {
+      "id": "CP-250-cuantia",
+      "articulo": "art. 250",
+      "titulo": "Estafa agravada por la cuantía o el número de afectados",
+      "resumen": "La estafa se castiga con prisión de uno a seis años y multa de seis a doce meses, entre otros casos, cuando el valor de la defraudación supera los 50.000 euros o afecta a un elevado número de personas.",
+      "explicacion": "Cualificación clave para las estafas informáticas masivas: la alternativa del elevado número de personas opera aunque no se alcancen los 50.000 euros."
+    },
+    {
+      "id": "CP-250-supercualificada",
+      "articulo": "art. 250",
+      "titulo": "Estafa hiperagravada por la cuantía",
+      "resumen": "Se impone prisión de cuatro a ocho años y multa de doce a veinticuatro meses cuando el valor de la defraudación supera los 250.000 euros.",
+      "explicacion": "Segundo escalón de cuantía. No confundir el umbral de 50.000 euros del apartado 1 con el de 250.000 del apartado 2."
+    },
+    {
+      "id": "CP-255-defraudacion",
+      "articulo": "art. 255",
+      "titulo": "Defraudación de fluidos y telecomunicaciones",
+      "resumen": "Se castiga con multa de tres a doce meses a quien defrauda energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos valiéndose de mecanismos instalados al efecto, alterando los contadores o empleando otros medios clandestinos.",
+      "explicacion": "Los tres medios son numerus clausus. Las telecomunicaciones figuran expresamente entre los objetos protegidos."
+    },
+    {
+      "id": "CP-255-leve",
+      "articulo": "art. 255",
+      "titulo": "Defraudación de fluidos de cuantía no superior a 400 euros",
+      "resumen": "Si la cuantía de lo defraudado no excede de 400 euros se impone una pena de multa de uno a tres meses.",
+      "explicacion": "Delito leve paralelo al de la estafa, con el mismo umbral de 400 euros."
+    },
+    {
+      "id": "CP-256-terminal",
+      "articulo": "art. 256",
+      "titulo": "Uso de terminal de telecomunicación ajeno",
+      "resumen": "Quien usa cualquier equipo terminal de telecomunicación sin consentimiento de su titular causándole un perjuicio económico es castigado con multa de tres a doce meses.",
+      "explicacion": "No se defrauda el fluido sino el terminal. Requiere perjuicio económico efectivo: sin él, no hay delito."
+    },
+    {
+      "id": "CP-256-leve",
+      "articulo": "art. 256",
+      "titulo": "Uso de terminal ajeno con perjuicio no superior a 400 euros",
+      "resumen": "Si la cuantía del perjuicio causado no excede de 400 euros se impone una pena de multa de uno a tres meses.",
+      "explicacion": "Mismo umbral de 400 euros que en el artículo anterior, pero referido al perjuicio causado, no a lo defraudado."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-248-estafa",
+      "articulo": "art. 248",
+      "tipo": "test",
+      "enunciado": "¿Cómo define el artículo 248 del Código Penal el delito de estafa?",
+      "opciones": [
+        "Cometen estafa los que, con ánimo de lucro, utilizaren engaño bastante para producir error en otro, induciéndolo a realizar un acto de disposición en perjuicio propio o ajeno",
+        "Cometen estafa los que, con ánimo de lucro y en perjuicio de tercero, se apoderaren de cosas muebles ajenas sin la voluntad de su dueño y sin emplear fuerza en las cosas ni violencia o intimidación en las personas",
+        "Cometen estafa los que, habiendo recibido en depósito, comisión o custodia una cosa mueble, la apropiaren o distrajeren en perjuicio de otro, negando después haberla recibido o incumpliendo la obligación de entregarla",
+        "Cometen estafa los que, con ánimo de lucro, se aprovecharen del error en que hubiere incurrido otra persona por causa ajena a su intervención, absteniéndose de advertirlo y obteniendo así una ventaja patrimonial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cometen estafa los que, con ánimo de lucro, utilizaren engaño bastante para producir error en otro, induciéndolo a realizar un acto de disposición en perjuicio propio o ajeno.",
+      "justificacion": "Art. 248, párrafo primero, CP."
+    },
+    {
+      "concepto_id": "CP-248-leve",
+      "articulo": "art. 248",
+      "tipo": "test",
+      "enunciado": "Según el artículo 248 del Código Penal, si la cuantía de lo defraudado en la estafa no excediere de 400 euros…",
+      "opciones": [
+        "se impondrá la pena de prisión de seis meses a un año, que podrá sustituirse por multa cuando concurran circunstancias que atenúen la responsabilidad del culpable",
+        "se impondrá la pena de multa de uno a tres meses, salvo si concurriere alguna de las circunstancias del artículo 250",
+        "se impondrá la pena de multa de tres a doce meses, salvo que el perjudicado fuera una persona especialmente vulnerable por razón de su edad o de su situación económica",
+        "se impondrá la pena de multa de uno a tres meses en todo caso, sin que quepa aplicar las circunstancias cualificativas previstas en el artículo 250 del propio Código"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Si la cuantía de lo defraudado no excediere de 400 euros, se impondrá la pena de multa de uno a tres meses, salvo si concurriere alguna de las circunstancias del artículo 250.",
+      "justificacion": "Art. 248, párrafo tercero, CP."
+    },
+    {
+      "concepto_id": "CP-250-cuantia",
+      "articulo": "art. 250",
+      "tipo": "test",
+      "enunciado": "Entre las circunstancias que agravan la estafa con prisión de uno a seis años y multa de seis a doce meses, el artículo 250.1 del Código Penal incluye que…",
+      "opciones": [
+        "El valor de la defraudación supere los 250.000 euros, o bien que los hechos hubieran dejado a la víctima o a su familia en una situación económica de especial precariedad",
+        "El valor de la defraudación supere los 50.000 euros, o afecte a un elevado número de personas",
+        "El valor de la defraudación supere los 400 euros, umbral por encima del cual la estafa deja de considerarse delito leve conforme al propio artículo 248 del Código",
+        "El valor de la defraudación supere los 50.000 euros y además afecte a un elevado número de personas, debiendo concurrir ambos requisitos de forma acumulativa"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "5.º El valor de la defraudación supere los 50.000 euros, o afecte a un elevado número de personas.",
+      "justificacion": "Art. 250.1.5.º CP."
+    },
+    {
+      "concepto_id": "CP-250-supercualificada",
+      "articulo": "art. 250",
+      "tipo": "test",
+      "enunciado": "El artículo 250.2 del Código Penal impone prisión de cuatro a ocho años y multa de doce a veinticuatro meses cuando el valor de la defraudación…",
+      "opciones": [
+        "supere los 50.000 euros y concurra además alguna de las circunstancias relativas a la especial gravedad del perjuicio o al abuso de las relaciones personales entre víctima y defraudador",
+        "supere los 100.000 euros, o bien cuando la estafa hubiera recaído sobre bienes que integren el patrimonio artístico, histórico, cultural o científico de titularidad pública",
+        "supere los 250.000 euros",
+        "supere los 250.000 euros, siempre que la defraudación hubiera afectado además a un elevado número de personas o se hubiera cometido mediante estafa procesal"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La misma pena se impondrá cuando el valor de la defraudación supere los 250.000 euros.",
+      "justificacion": "Art. 250.2, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-255-defraudacion",
+      "articulo": "art. 255",
+      "tipo": "test",
+      "enunciado": "¿Qué elementos enumera el artículo 255.1 del Código Penal como objeto de la defraudación?",
+      "opciones": [
+        "energía eléctrica, gas, agua, hidrocarburos u otro elemento, energía o fluido ajenos, así como los servicios de acceso condicional a la televisión de pago",
+        "energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos",
+        "energía eléctrica, gas, agua y telecomunicaciones, quedando excluido cualquier otro elemento, energía o fluido que no aparezca expresamente mencionado",
+        "cualquier elemento, energía o fluido ajenos, así como los equipos terminales de telecomunicación cuyo uso se realizare sin consentimiento de su titular"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Será castigado con la pena de multa de tres a doce meses el que cometiere defraudación utilizando energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos, por alguno de los medios siguientes: 1.º Valiéndose de mecanismos instalados para realizar la defraudación. 2.º Alterando maliciosamente las indicaciones o aparatos contadores. 3.º Empleando cualesquiera otros medios clandestinos.",
+      "justificacion": "Art. 255.1 CP."
+    },
+    {
+      "concepto_id": "CP-255-leve",
+      "articulo": "art. 255",
+      "tipo": "test",
+      "enunciado": "Si la cuantía de lo defraudado en la defraudación de fluidos del artículo 255 del Código Penal no excediere de 400 euros, ¿qué pena se impone?",
+      "opciones": [
+        "una pena de multa de tres a doce meses, que es la misma prevista con carácter general para esta modalidad de defraudación con independencia de su cuantía",
+        "una pena de multa de uno a tres meses",
+        "una pena de multa de uno a tres meses, salvo que concurriere alguna de las circunstancias cualificativas de la estafa previstas en el artículo 250 del propio Código",
+        "una pena de prisión de seis a dieciocho meses o multa de doce a veinticuatro meses, según el tribunal aprecie la gravedad de los medios clandestinos empleados"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Si la cuantía de lo defraudado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+      "justificacion": "Art. 255.2 CP."
+    },
+    {
+      "concepto_id": "CP-256-terminal",
+      "articulo": "art. 256",
+      "tipo": "test",
+      "enunciado": "El artículo 256.1 del Código Penal castiga con multa de tres a doce meses a quien hiciere uso de cualquier equipo terminal de telecomunicación…",
+      "opciones": [
+        "sin consentimiento de su titular, y causando a éste un perjuicio económico",
+        "sin consentimiento de su titular, aunque de ese uso no se derivare perjuicio económico alguno para el titular del equipo indebidamente utilizado",
+        "sin consentimiento de su titular y con la finalidad de acceder a los datos reservados de carácter personal que se hallaren registrados en el propio equipo terminal",
+        "valiéndose de mecanismos clandestinos instalados en el equipo o alterando maliciosamente las indicaciones de los aparatos contadores del servicio de telecomunicación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El que hiciere uso de cualquier equipo terminal de telecomunicación, sin consentimiento de su titular, y causando a éste un perjuicio económico, será castigado con la pena de multa de tres a doce meses.",
+      "justificacion": "Art. 256.1 CP."
+    },
+    {
+      "concepto_id": "CP-256-leve",
+      "articulo": "art. 256",
+      "tipo": "test",
+      "enunciado": "En el uso de terminal de telecomunicación ajeno del artículo 256 del Código Penal se impone la pena de multa de uno a tres meses si…",
+      "opciones": [
+        "el valor del equipo terminal indebidamente utilizado no excediere de 400 euros, con independencia del perjuicio finalmente ocasionado a su titular",
+        "la cuantía del perjuicio causado no excediere de 400 euros",
+        "la cuantía de lo defraudado no excediere de 400 euros, computándose a tal efecto el importe total del consumo realizado con cargo al terminal ajeno",
+        "el perjuicio causado no excediere de 400 euros y el uso del terminal se hubiera producido sin emplear ningún medio clandestino de los previstos en el artículo anterior"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Si la cuantía del perjuicio causado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+      "justificacion": "Art. 256.2 CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-248-leve",
+      "destino": "CP-248-estafa",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena de la estafa por razón de la cuantía."
+    },
+    {
+      "origen": "CP-250-cuantia",
+      "destino": "CP-248-estafa",
+      "tipo": "desarrolla",
+      "justificacion": "Cualifica la estafa por la cuantía o el número de afectados."
+    },
+    {
+      "origen": "CP-250-supercualificada",
+      "destino": "CP-250-cuantia",
+      "tipo": "desarrolla",
+      "justificacion": "Añade un segundo escalón de cuantía sobre la cualificación del apartado 1."
+    },
+    {
+      "origen": "CP-250-cuantia",
+      "destino": "CP-249-1a-informatica",
+      "tipo": "remite",
+      "justificacion": "Las cualificaciones del artículo 250 se aplican también a las estafas del artículo 249."
+    },
+    {
+      "origen": "CP-255-leve",
+      "destino": "CP-255-defraudacion",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por razón de la cuantía defraudada."
+    },
+    {
+      "origen": "CP-256-terminal",
+      "destino": "CP-255-defraudacion",
+      "tipo": "limita",
+      "justificacion": "Delimita su ámbito frente al artículo 255: allí se defrauda el fluido o servicio, aquí se usa el terminal ajeno."
+    },
+    {
+      "origen": "CP-256-leve",
+      "destino": "CP-256-terminal",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por razón del perjuicio causado."
+    }
+  ]
+}
