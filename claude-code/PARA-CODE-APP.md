@@ -45,6 +45,13 @@
      apropiación indebida; defraudaciones de fluido eléctrico y análogo»— en el T18, no en el T20.
      Como `overlay_entrada` tiene PK `(convocatoria, concepto)`, un concepto vive en UN solo tema:
      comprobar el temario ANTES de asignar, no después.
+   - **T17** — **EN CURSO** (2 de 4 bloques, 73 conceptos). Hechos: delitos contra la libertad
+     (`cp-t17-libertad.json`, arts. 163-172 quater, 34) y torturas e integridad moral
+     (`cp-t17-integridad-moral.json`, arts. 173-177 bis, 23, con la trata de seres humanos).
+     El tema se reetiquetó al enunciado oficial: antes decía solo «homicidio, aborto y lesiones».
+     Faltan dos bloques, los dos **ya en el corpus**: delitos contra la libertad sexual
+     (arts. 178-194 bis, salvo el 189 bis que vive en el T20) y los huecos de homicidio, aborto y
+     lesiones (140 bis, 141, 142 bis, 143 bis, 145 bis y 151-162).
    - **T24** — **PARCIALMENTE HECHO**: 7 conceptos. Falta el remate doctrinal (concepto de trabajo y
      concepto de salud); necesita fuente de autoridad tipo INSST/OMS, no sale de la Ley 31/1995.
      Sí están ya cubiertos por corpus: *consecuencia de los riesgos* = art. 4.3 LPRL («daños derivados

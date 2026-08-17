@@ -1,0 +1,691 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 17 — Derecho Penal Especial: homicidio y sus formas, aborto, lesiones, delitos contra la libertad, torturas y otros delitos contra la integridad moral, y delitos contra la libertad sexual"
+  },
+  "fuentes": {
+    "art. 173": "1. El que infligiera a otra persona un trato degradante, menoscabando gravemente su integridad moral, será castigado con la pena de prisión de seis meses a dos años. Igual pena se impondrá a quienes, teniendo conocimiento del paradero del cadáver de una persona, oculten de modo reiterado tal información a los familiares o allegados de la misma. Con la misma pena serán castigados los que, en el ámbito de cualquier relación laboral o funcionarial y prevaliéndose de su relación de superioridad, realicen contra otro de forma reiterada actos hostiles o humillantes que, sin llegar a constituir trato degradante, supongan grave acoso contra la víctima. Se impondrá también la misma pena al que de forma reiterada lleve a cabo actos hostiles o humillantes que, sin llegar a constituir trato degradante, tengan por objeto impedir el legítimo disfrute de la vivienda. Cuando de acuerdo con lo establecido en el artículo 31 bis, una persona jurídica sea responsable de los delitos comprendidos en los párrafos anteriores, se le impondrá la pena de multa de seis meses a dos años. Atendidas las reglas establecidas en el artículo 66 bis, los Jueces y Tribunales podrán asimismo imponer las penas recogidas en las letras b) a g) del apartado 7 del artículo 33. 2. El que habitualmente ejerza violencia física o psíquica sobre quien sea o haya sido su cónyuge o sobre persona que esté o haya estado ligada a él por una análoga relación de afectividad aun sin convivencia, o sobre los descendientes, ascendientes o hermanos por naturaleza, adopción o afinidad, propios o del cónyuge o conviviente, o sobre los menores o personas con discapacidad necesitadas de especial protección que con él convivan o que se hallen sujetos a la potestad, tutela, curatela, acogimiento o guarda de hecho del cónyuge o conviviente, o sobre persona amparada en cualquier otra relación por la que se encuentre integrada en el núcleo de su convivencia familiar, así como sobre las personas que por su especial vulnerabilidad se encuentran sometidas a custodia o guarda en centros públicos o privados, será castigado con la pena de prisión de seis meses a tres años, privación del derecho a la tenencia y porte de armas de tres a cinco años y, en su caso, cuando el juez o tribunal lo estime adecuado al interés del menor o persona con discapacidad necesitada de especial protección, inhabilitación especial para el ejercicio de la patria potestad, tutela, curatela, guarda o acogimiento por tiempo de uno a cinco años, sin perjuicio de las penas que pudieran corresponder a los delitos en que se hubieran concretado los actos de violencia física o psíquica. Se impondrán las penas en su mitad superior cuando alguno o algunos de los actos de violencia se perpetren en presencia de menores, o utilizando armas, o tengan lugar en el domicilio común o en el domicilio de la víctima, o se realicen quebrantando una pena de las contempladas en el artículo 48 o una medida cautelar o de seguridad o prohibición de la misma naturaleza. En los supuestos a que se refiere este apartado, podrá además imponerse una medida de libertad vigilada. 3. Para apreciar la habitualidad a que se refiere el apartado anterior, se atenderá al número de actos de violencia que resulten acreditados, así como a la proximidad temporal de los mismos, con independencia de que dicha violencia se haya ejercido sobre la misma o diferentes víctimas de las comprendidas en este artículo, y de que los actos violentos hayan sido o no objeto de enjuiciamiento en procesos anteriores. 4. Quien cause injuria o vejación injusta de carácter leve, cuando el ofendido fuera una de las personas a las que se refiere el apartado 2 del artículo 173, será castigado con la pena de localización permanente de cinco a treinta días, siempre en domicilio diferente y alejado del de la víctima, o trabajos en beneficio de la comunidad de cinco a treinta días, o multa de uno a cuatro meses, esta última únicamente en los supuestos en los que concurren las circunstancias expresadas en el apartado 2 del artículo 84. Las mismas penas se impondrán a quienes se dirijan a otra persona con expresiones, comportamientos o proposiciones de carácter sexual que creen a la víctima una situación objetivamente humillante, hostil o intimidatoria, sin llegar a constituir otros delitos de mayor gravedad. Los delitos tipificados en los dos párrafos anteriores sólo serán perseguibles mediante denuncia de la persona agraviada o su representante legal.",
+    "art. 174": "1. Comete tortura la autoridad o funcionario público que, abusando de su cargo, y con el fin de obtener una confesión o información de cualquier persona o de castigarla por cualquier hecho que haya cometido o se sospeche que ha cometido, o por cualquier razón basada en algún tipo de discriminación, la sometiere a condiciones o procedimientos que por su naturaleza, duración u otras circunstancias, le supongan sufrimientos físicos o mentales, la supresión o disminución de sus facultades de conocimiento, discernimiento o decisión o que, de cualquier otro modo, atenten contra su integridad moral. El culpable de tortura será castigado con la pena de prisión de dos a seis años si el atentado fuera grave, y de prisión de uno a tres años si no lo es. Además de las penas señaladas se impondrá, en todo caso, la pena de inhabilitación absoluta de ocho a 12 años. 2. En las mismas penas incurrirán, respectivamente, la autoridad o funcionario de instituciones penitenciarias o de centros de protección o corrección de menores que cometiere, respecto de detenidos, internos o presos, los actos a que se refiere el apartado anterior.",
+    "art. 175": "La autoridad o funcionario público que, abusando de su cargo y fuera de los casos comprendidos en el artículo anterior, atentare contra la integridad moral de una persona será castigado con la pena de prisión de dos a cuatro años si el atentado fuera grave, y de prisión de seis meses a dos años si no lo es. Se impondrá, en todo caso, al autor, además de las penas señaladas, la de inhabilitación especial para empleo o cargo público de dos a cuatro años.",
+    "art. 176": "Se impondrán las penas respectivamente establecidas en los artículos precedentes a la autoridad o funcionario que, faltando a los deberes de su cargo, permitiere que otras personas ejecuten los hechos previstos en ellos.",
+    "art. 177": "Si en los delitos descritos en los artículos precedentes, además del atentado a la integridad moral, se produjere lesión o daño a la vida, integridad física, salud, libertad sexual o bienes de la víctima o de un tercero, se castigarán los hechos separadamente con la pena que les corresponda por los delitos cometidos, excepto cuando aquél ya se halle especialmente castigado por la ley.",
+    "art. 177 bis": "1. Será castigado con la pena de cinco a ocho años de prisión como reo de trata de seres humanos el que, sea en territorio español, sea desde España, en tránsito o con destino a ella, empleando violencia, intimidación o engaño, o abusando de una situación de superioridad o de necesidad o de vulnerabilidad de la víctima nacional o extranjera, o mediante la entrega o recepción de pagos o beneficios para lograr el consentimiento de la persona que poseyera el control sobre la víctima, la captare, transportare, trasladare, acogiere, o recibiere, incluido el intercambio o transferencia de control sobre esas personas, con cualquiera de las finalidades siguientes: a) La imposición de trabajo o de servicios forzados, la esclavitud o prácticas similares a la esclavitud, a la servidumbre o a la mendicidad. b) La explotación sexual, incluyendo la pornografía. c) La explotación para realizar actividades delictivas. d) La extracción de sus órganos corporales. e) La celebración de matrimonios forzados. Existe una situación de necesidad o vulnerabilidad cuando la persona en cuestión no tiene otra alternativa, real o aceptable, que someterse al abuso. Cuando la víctima de trata de seres humanos fuera una persona menor de edad se impondrá, en todo caso, la pena de inhabilitación especial para cualquier profesión, oficio o actividades, sean o no retribuidos, que conlleve contacto regular y directo con personas menores de edad, por un tiempo superior entre seis y veinte años al de la duración de la pena de privación de libertad impuesta. 2. Aun cuando no se recurra a ninguno de los medios enunciados en el apartado anterior, se considerará trata de seres humanos cualquiera de las acciones indicadas en el apartado anterior cuando se llevare a cabo respecto de menores de edad con fines de explotación. 3. El consentimiento de una víctima de trata de seres humanos será irrelevante cuando se haya recurrido a alguno de los medios indicados en el apartado primero de este artículo. 4. Se impondrá la pena superior en grado a la prevista en el apartado primero de este artículo cuando: a) se hubiera puesto en peligro la vida o la integridad física o psíquica de las personas objeto del delito; b) la víctima sea especialmente vulnerable por razón de enfermedad, estado gestacional, discapacidad o situación personal, o sea menor de edad. c) la víctima sea una persona cuya situación de vulnerabilidad haya sido originada o agravada por el desplazamiento derivado de un conflicto armado o una catástrofe humanitaria. Si concurriere más de una circunstancia se impondrá la pena en su mitad superior. 5. Se impondrá la pena superior en grado a la prevista en el apartado 1 de este artículo e inhabilitación absoluta de seis a doce años a los que realicen los hechos prevaliéndose de su condición de autoridad, agente de ésta o funcionario público. Si concurriere además alguna de las circunstancias previstas en el apartado 4 de este artículo se impondrán las penas en su mitad superior. 6. Se impondrá la pena superior en grado a la prevista en el apartado 1 de este artículo e inhabilitación especial para profesión, oficio, industria o comercio por el tiempo de la condena, cuando el culpable perteneciera a una organización o asociación de más de dos personas, incluso de carácter transitorio, que se dedicase a la realización de tales actividades. Si concurriere alguna de las circunstancias previstas en el apartado 4 de este artículo se impondrán las penas en la mitad superior. Si concurriere la circunstancia prevista en el apartado 5 de este artículo se impondrán las penas señaladas en este en su mitad superior. Cuando se trate de los jefes, administradores o encargados de dichas organizaciones o asociaciones, se les aplicará la pena en su mitad superior, que podrá elevarse a la inmediatamente superior en grado. En todo caso se elevará la pena a la inmediatamente superior en grado si concurriera alguna de las circunstancias previstas en el apartado 4 o la circunstancia prevista en el apartado 5 de este artículo. 7. Cuando de acuerdo con lo establecido en el artículo 31 bis una persona jurídica sea responsable de los delitos comprendidos en este artículo, se le impondrá la pena de multa del triple al quíntuple del beneficio obtenido. Atendidas las reglas establecidas en el artículo 66 bis, los jueces y tribunales podrán asimismo imponer las penas recogidas en las letras b) a g) del apartado 7 del artículo 33. 8. La provocación, la conspiración y la proposición para cometer el delito de trata de seres humanos serán castigadas con la pena inferior en uno o dos grados a la del delito correspondiente. 9. En todo caso, las penas previstas en este artículo se impondrán sin perjuicio de las que correspondan, en su caso, por el delito del artículo 318 bis de este Código y demás delitos efectivamente cometidos, incluidos los constitutivos de la correspondiente explotación. 10. Las condenas de jueces o tribunales extranjeros por delitos de la misma naturaleza que los previstos en este artículo producirán los efectos de reincidencia, salvo que el antecedente penal haya sido cancelado o pueda serlo con arreglo al Derecho español. 11. Sin perjuicio de la aplicación de las reglas generales de este Código, la víctima de trata de seres humanos quedará exenta de pena por las infracciones penales que haya cometido en la situación de explotación sufrida, siempre que su participación en ellas haya sido consecuencia directa de la situación de violencia, intimidación, engaño o abuso a que haya sido sometida y que exista una adecuada proporcionalidad entre dicha situación y el hecho criminal realizado."
+  },
+  "conceptos": [
+    {
+      "id": "CP-173-degradante",
+      "articulo": "art. 173",
+      "titulo": "Trato degradante",
+      "resumen": "Quien inflige a otra persona un trato degradante menoscabando gravemente su integridad moral es castigado con prisión de seis meses a dos años.",
+      "explicacion": "Tipo básico del título. Exige menoscabo grave: el trato meramente descortés o vejatorio leve va al apartado 4."
+    },
+    {
+      "id": "CP-173-cadaver",
+      "articulo": "art. 173",
+      "titulo": "Ocultación reiterada del paradero de un cadáver",
+      "resumen": "Igual pena se impone a quienes, teniendo conocimiento del paradero del cadáver de una persona, ocultan de modo reiterado tal información a los familiares o allegados.",
+      "explicacion": "Añadido reciente al artículo. Exige reiteración en la ocultación, no basta una negativa aislada."
+    },
+    {
+      "id": "CP-173-acoso-laboral",
+      "articulo": "art. 173",
+      "titulo": "Acoso laboral",
+      "resumen": "Se castiga con la misma pena a quienes, en el ámbito de cualquier relación laboral o funcionarial y prevaliéndose de su relación de superioridad, realizan contra otro de forma reiterada actos hostiles o humillantes que, sin llegar a constituir trato degradante, suponen grave acoso.",
+      "explicacion": "El llamado mobbing. Requiere relación de superioridad y reiteración; entre iguales no encaja aquí."
+    },
+    {
+      "id": "CP-173-acoso-inmobiliario",
+      "articulo": "art. 173",
+      "titulo": "Acoso inmobiliario",
+      "resumen": "Se impone también la misma pena a quien de forma reiterada lleva a cabo actos hostiles o humillantes que, sin llegar a constituir trato degradante, tienen por objeto impedir el legítimo disfrute de la vivienda.",
+      "explicacion": "Convive con la coacción inmobiliaria: aquí no hay violencia, sino hostigamiento reiterado."
+    },
+    {
+      "id": "CP-173-violencia-habitual",
+      "articulo": "art. 173",
+      "titulo": "Violencia habitual en el ámbito familiar",
+      "resumen": "Quien habitualmente ejerce violencia física o psíquica sobre su cónyuge o persona ligada por análoga relación de afectividad aun sin convivencia, o sobre ascendientes, descendientes, hermanos o personas integradas en el núcleo de convivencia, es castigado con prisión de seis meses a tres años y privación del derecho a la tenencia y porte de armas de tres a cinco años.",
+      "explicacion": "Se castiga sin perjuicio de las penas de los actos concretos de violencia: no hay absorción."
+    },
+    {
+      "id": "CP-173-habitualidad",
+      "articulo": "art. 173",
+      "titulo": "Criterios para apreciar la habitualidad",
+      "resumen": "Para apreciar la habitualidad se atiende al número de actos de violencia acreditados y a su proximidad temporal, con independencia de que la violencia se haya ejercido sobre la misma o distintas víctimas y de que los actos hayan sido o no enjuiciados antes.",
+      "explicacion": "Los actos ya juzgados cuentan igual: es la clave del precepto y lo que más se pregunta."
+    },
+    {
+      "id": "CP-173-injuria-leve",
+      "articulo": "art. 173",
+      "titulo": "Injuria o vejación leve y acoso sexual verbal",
+      "resumen": "La injuria o vejación injusta de carácter leve contra las personas del apartado 2 se castiga con localización permanente de cinco a treinta días, trabajos en beneficio de la comunidad de cinco a treinta días o multa de uno a cuatro meses; las mismas penas se imponen a quien dirige a otra persona expresiones, comportamientos o proposiciones de carácter sexual que le creen una situación objetivamente humillante, hostil o intimidatoria.",
+      "explicacion": "Ambos delitos leves solo son perseguibles mediante denuncia de la persona agraviada o su representante legal."
+    },
+    {
+      "id": "CP-174-tortura-concepto",
+      "articulo": "art. 174",
+      "titulo": "Tortura: concepto",
+      "resumen": "Comete tortura la autoridad o funcionario público que, abusando de su cargo y con el fin de obtener una confesión o información, de castigar por un hecho cometido o sospechado, o por cualquier razón basada en algún tipo de discriminación, somete a una persona a condiciones o procedimientos que le supongan sufrimientos físicos o mentales o atenten contra su integridad moral.",
+      "explicacion": "Tres finalidades típicas: indagatoria, punitiva y discriminatoria. Sin ellas hay atentado contra la integridad moral, pero no tortura."
+    },
+    {
+      "id": "CP-174-tortura-pena",
+      "articulo": "art. 174",
+      "titulo": "Pena de la tortura",
+      "resumen": "El culpable de tortura es castigado con prisión de dos a seis años si el atentado fuera grave y de uno a tres años si no lo es, y en todo caso con inhabilitación absoluta de ocho a doce años.",
+      "explicacion": "La inhabilitación absoluta es acumulativa y no depende de la gravedad del atentado."
+    },
+    {
+      "id": "CP-174-penitenciarias",
+      "articulo": "art. 174",
+      "titulo": "Tortura por funcionarios de prisiones o de centros de menores",
+      "resumen": "En las mismas penas incurre la autoridad o funcionario de instituciones penitenciarias o de centros de protección o corrección de menores que cometa esos actos respecto de detenidos, internos o presos.",
+      "explicacion": "Extiende el tipo a un ámbito distinto del policial o judicial, sin cambiar la pena."
+    },
+    {
+      "id": "CP-175-atentado-integridad",
+      "articulo": "art. 175",
+      "titulo": "Atentado a la integridad moral por funcionario",
+      "resumen": "La autoridad o funcionario público que, abusando de su cargo y fuera de los casos de tortura, atenta contra la integridad moral de una persona es castigado con prisión de dos a cuatro años si el atentado fuera grave y de seis meses a dos años si no lo es.",
+      "explicacion": "Tipo residual respecto de la tortura: falta la finalidad indagatoria, punitiva o discriminatoria. Lleva inhabilitación especial, no absoluta."
+    },
+    {
+      "id": "CP-176-permisividad",
+      "articulo": "art. 176",
+      "titulo": "Permitir que otros ejecuten los hechos",
+      "resumen": "Se imponen las penas de los artículos precedentes a la autoridad o funcionario que, faltando a los deberes de su cargo, permite que otras personas ejecuten esos hechos.",
+      "explicacion": "Castiga la comisión por omisión con la misma pena que la acción: no mirar hacia otro lado es parte del tipo."
+    },
+    {
+      "id": "CP-177-concurso",
+      "articulo": "art. 177",
+      "titulo": "Concurso con las lesiones y otros daños",
+      "resumen": "Si además del atentado a la integridad moral se produce lesión o daño a la vida, integridad física, salud, libertad sexual o bienes de la víctima o de un tercero, los hechos se castigan separadamente con la pena que corresponda, salvo que aquél ya esté especialmente castigado por la ley.",
+      "explicacion": "Regla de concurso real: la integridad moral y el resultado lesivo se penan por separado."
+    },
+    {
+      "id": "CP-177bis-tipo",
+      "articulo": "art. 177 bis",
+      "titulo": "Trata de seres humanos: conducta y pena",
+      "resumen": "Se castiga con prisión de cinco a ocho años a quien, en territorio español, desde España, en tránsito o con destino a ella, empleando violencia, intimidación o engaño, o abusando de una situación de superioridad, necesidad o vulnerabilidad, capta, transporta, traslada, acoge o recibe a una persona con alguna de las finalidades del artículo.",
+      "explicacion": "Tres elementos: la acción, el medio y la finalidad. El delito se consuma con la captación, aunque la explotación no llegue a producirse."
+    },
+    {
+      "id": "CP-177bis-finalidades",
+      "articulo": "art. 177 bis",
+      "titulo": "Finalidades de la trata",
+      "resumen": "Las finalidades son la imposición de trabajo o servicios forzados, esclavitud, servidumbre o mendicidad; la explotación sexual, incluida la pornografía; la explotación para realizar actividades delictivas; la extracción de órganos corporales; y la celebración de matrimonios forzados.",
+      "explicacion": "Lista cerrada de cinco letras. Es la enumeración más preguntada del artículo."
+    },
+    {
+      "id": "CP-177bis-vulnerabilidad",
+      "articulo": "art. 177 bis",
+      "titulo": "Situación de necesidad o vulnerabilidad",
+      "resumen": "Existe situación de necesidad o vulnerabilidad cuando la persona en cuestión no tiene otra alternativa, real o aceptable, que someterse al abuso.",
+      "explicacion": "Definición legal. La alternativa ha de ser real y además aceptable: no basta con que exista sobre el papel."
+    },
+    {
+      "id": "CP-177bis-menores",
+      "articulo": "art. 177 bis",
+      "titulo": "Trata de menores",
+      "resumen": "Aun cuando no se recurra a ninguno de los medios enunciados, se considera trata cualquiera de esas acciones cuando se lleva a cabo respecto de menores de edad con fines de explotación.",
+      "explicacion": "Con menores el medio comisivo es irrelevante: basta la acción y la finalidad."
+    },
+    {
+      "id": "CP-177bis-consentimiento",
+      "articulo": "art. 177 bis",
+      "titulo": "Irrelevancia del consentimiento",
+      "resumen": "El consentimiento de una víctima de trata de seres humanos es irrelevante cuando se haya recurrido a alguno de los medios indicados en el apartado primero.",
+      "explicacion": "Cierra la puerta a la defensa basada en que la víctima aceptó: si hubo violencia, engaño o abuso, ese consentimiento no cuenta."
+    },
+    {
+      "id": "CP-177bis-agravantes",
+      "articulo": "art. 177 bis",
+      "titulo": "Agravaciones por la víctima o el riesgo",
+      "resumen": "Se impone la pena superior en grado cuando se pone en peligro la vida o la integridad física o psíquica de las víctimas, cuando la víctima es especialmente vulnerable por enfermedad, estado gestacional, discapacidad, situación personal o minoría de edad, o cuando su vulnerabilidad procede de un conflicto armado o una catástrofe humanitaria.",
+      "explicacion": "Si concurre más de una circunstancia, la pena superior en grado se impone además en su mitad superior."
+    },
+    {
+      "id": "CP-177bis-autoridad",
+      "articulo": "art. 177 bis",
+      "titulo": "Trata cometida por autoridad o funcionario",
+      "resumen": "Se impone la pena superior en grado e inhabilitación absoluta de seis a doce años a quienes realizan los hechos prevaliéndose de su condición de autoridad, agente de ésta o funcionario público.",
+      "explicacion": "Si además concurre alguna agravante de la víctima, las penas se imponen en su mitad superior."
+    },
+    {
+      "id": "CP-177bis-organizacion",
+      "articulo": "art. 177 bis",
+      "titulo": "Trata en organización o asociación",
+      "resumen": "Se impone la pena superior en grado e inhabilitación especial para profesión, oficio, industria o comercio por el tiempo de la condena cuando el culpable pertenece a una organización o asociación de más de dos personas, incluso de carácter transitorio, dedicada a estas actividades.",
+      "explicacion": "Basta que sea de carácter transitorio. A los jefes, administradores o encargados se les aplica la pena en su mitad superior."
+    },
+    {
+      "id": "CP-177bis-preparatorios",
+      "articulo": "art. 177 bis",
+      "titulo": "Actos preparatorios de la trata",
+      "resumen": "La provocación, la conspiración y la proposición para cometer el delito de trata de seres humanos se castigan con la pena inferior en uno o dos grados a la del delito correspondiente.",
+      "explicacion": "Mismo esquema que en las detenciones ilegales: los tres actos preparatorios son punibles."
+    },
+    {
+      "id": "CP-177bis-exencion",
+      "articulo": "art. 177 bis",
+      "titulo": "Exención de pena de la víctima de trata",
+      "resumen": "La víctima de trata queda exenta de pena por las infracciones penales cometidas en la situación de explotación sufrida, siempre que su participación sea consecuencia directa de la violencia, intimidación, engaño o abuso padecidos y exista adecuada proporcionalidad entre esa situación y el hecho realizado.",
+      "explicacion": "Excusa absolutoria con dos requisitos: causalidad directa y proporcionalidad. Es la norma que evita castigar a quien es víctima."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-173-degradante",
+      "articulo": "art. 173",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 173.1 del Código Penal a quien inflige a otra persona un trato degradante menoscabando gravemente su integridad moral?",
+      "opciones": [
+        "la pena de prisión de seis meses a dos años",
+        "la pena de prisión de seis meses a tres años y privación del derecho a la tenencia y porte de armas de tres a cinco años",
+        "la pena de prisión de dos a cuatro años si el atentado fuera grave, y de seis meses a dos años si no lo fuera",
+        "la pena de localización permanente de cinco a treinta días o multa de uno a cuatro meses, según las circunstancias del hecho"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El que infligiera a otra persona un trato degradante, menoscabando gravemente su integridad moral, será castigado con la pena de prisión de seis meses a dos años.",
+      "justificacion": "Art. 173.1 CP."
+    },
+    {
+      "concepto_id": "CP-173-cadaver",
+      "articulo": "art. 173",
+      "tipo": "test",
+      "enunciado": "El artículo 173.1 del Código Penal impone igual pena que al trato degradante a quienes…",
+      "opciones": [
+        "hallándose obligados a ello por razón de su cargo o profesión, no dieren cuenta a la autoridad competente del hallazgo del cadáver de una persona cuya desaparición hubiera sido previamente denunciada",
+        "teniendo conocimiento del paradero del cadáver de una persona, oculten de modo reiterado tal información a los familiares o allegados de la misma",
+        "profanaren el cadáver de una persona o destruyeren los restos con el fin de dificultar la identificación de la víctima o del autor del hecho",
+        "difundieren públicamente imágenes del cadáver de una persona sin autorización de sus familiares, menoscabando gravemente su memoria"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Igual pena se impondrá a quienes, teniendo conocimiento del paradero del cadáver de una persona, oculten de modo reiterado tal información a los familiares o allegados de la misma.",
+      "justificacion": "Art. 173.1, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-173-acoso-laboral",
+      "articulo": "art. 173",
+      "tipo": "test",
+      "enunciado": "El acoso laboral del artículo 173.1 del Código Penal exige que el autor realice los actos hostiles o humillantes…",
+      "opciones": [
+        "en el ámbito de cualquier relación laboral o funcionarial y prevaliéndose de su relación de superioridad, realicen contra otro de forma reiterada actos hostiles o humillantes",
+        "en el ámbito de una relación laboral, con independencia de que exista o no relación de superioridad entre el autor y la víctima del acoso",
+        "de forma reiterada y con el resultado de menoscabar gravemente la integridad moral de la víctima, requisito sin el cual la conducta es atípica",
+        "aprovechando una situación de necesidad o de vulnerabilidad de la víctima que le impida abandonar el puesto de trabajo en el que sufre el acoso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Con la misma pena serán castigados los que, en el ámbito de cualquier relación laboral o funcionarial y prevaliéndose de su relación de superioridad, realicen contra otro de forma reiterada actos hostiles o humillantes que, sin llegar a constituir trato degradante, supongan grave acoso contra la víctima.",
+      "justificacion": "Art. 173.1, párrafo tercero, CP."
+    },
+    {
+      "concepto_id": "CP-173-acoso-inmobiliario",
+      "articulo": "art. 173",
+      "tipo": "test",
+      "enunciado": "Según el artículo 173.1 del Código Penal, también se castiga con la misma pena a quien de forma reiterada lleva a cabo actos hostiles o humillantes que…",
+      "opciones": [
+        "impidan con violencia a otro el legítimo disfrute de su vivienda, siempre que la coacción se ejerza sobre quien la ocupa legítimamente",
+        "menoscaben gravemente la integridad moral del ocupante de una vivienda ajena que carezca de título para permanecer en ella",
+        "tengan por objeto impedir el legítimo disfrute de la vivienda",
+        "tengan por objeto obligar al arrendatario a abandonar la vivienda antes de la finalización del contrato de arrendamiento en vigor"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Se impondrá también la misma pena al que de forma reiterada lleve a cabo actos hostiles o humillantes que, sin llegar a constituir trato degradante, tengan por objeto impedir el legítimo disfrute de la vivienda.",
+      "justificacion": "Art. 173.1, párrafo cuarto, CP."
+    },
+    {
+      "concepto_id": "CP-173-violencia-habitual",
+      "articulo": "art. 173",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 173.2 del Código Penal a quien habitualmente ejerce violencia física o psíquica en el ámbito familiar?",
+      "opciones": [
+        "la pena de prisión de seis meses a dos años, que absorberá las penas correspondientes a los actos concretos de violencia ejercidos",
+        "la pena de prisión de uno a tres años y privación del derecho a la tenencia y porte de armas de uno a tres años",
+        "la pena de prisión de seis meses a tres años, privación del derecho a la tenencia y porte de armas de tres a cinco años",
+        "la pena de prisión de dos a seis años si la violencia fuera grave, y de uno a tres años si no lo fuera, con inhabilitación absoluta"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "2. El que habitualmente ejerza violencia física o psíquica sobre quien sea o haya sido su cónyuge o sobre persona que esté o haya estado ligada a él por una análoga relación de afectividad aun sin convivencia, o sobre los descendientes, ascendientes o hermanos por naturaleza, adopción o afinidad, propios o del cónyuge o conviviente, o sobre los menores o personas con discapacidad necesitadas de especial protección que con él convivan o que se hallen sujetos a la potestad, tutela, curatela, acogimiento o guarda de hecho del cónyuge o conviviente, o sobre persona amparada en cualquier otra relación por la que se encuentre integrada en el núcleo de su convivencia familiar, así como sobre las personas que por su especial vulnerabilidad se encuentran sometidas a custodia o guarda en centros públicos o privados, será castigado con la pena de prisión de seis meses a tres años, privación del derecho a la tenencia y porte de armas de tres a cinco años",
+      "justificacion": "Art. 173.2 CP."
+    },
+    {
+      "concepto_id": "CP-173-habitualidad",
+      "articulo": "art. 173",
+      "tipo": "test",
+      "enunciado": "Según el artículo 173.3 del Código Penal, para apreciar la habitualidad se atiende al número de actos de violencia acreditados y a su proximidad temporal…",
+      "opciones": [
+        "siempre que todos ellos se hayan ejercido sobre la misma víctima y no hayan sido objeto de enjuiciamiento en procesos anteriores",
+        "con independencia de que dicha violencia se haya ejercido sobre la misma o diferentes víctimas de las comprendidas en este artículo, y de que los actos violentos hayan sido o no objeto de enjuiciamiento en procesos anteriores",
+        "quedando excluidos del cómputo los actos que ya hubieran sido enjuiciados, en aplicación de la prohibición de doble sanción por el mismo hecho",
+        "exigiéndose en todo caso que consten acreditados al menos tres actos de violencia producidos dentro del año anterior a la denuncia"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. Para apreciar la habitualidad a que se refiere el apartado anterior, se atenderá al número de actos de violencia que resulten acreditados, así como a la proximidad temporal de los mismos, con independencia de que dicha violencia se haya ejercido sobre la misma o diferentes víctimas de las comprendidas en este artículo, y de que los actos violentos hayan sido o no objeto de enjuiciamiento en procesos anteriores.",
+      "justificacion": "Art. 173.3 CP."
+    },
+    {
+      "concepto_id": "CP-173-injuria-leve",
+      "articulo": "art. 173",
+      "tipo": "test",
+      "enunciado": "El artículo 173.4 del Código Penal castiga con las mismas penas que la injuria o vejación leve a quienes se dirijan a otra persona con expresiones, comportamientos o proposiciones de carácter sexual que…",
+      "opciones": [
+        "menoscaben gravemente su integridad moral, aunque no lleguen a constituir un trato degradante de los previstos en el apartado primero",
+        "se produzcan en el ámbito de una relación laboral o funcionarial prevaliéndose el autor de su relación de superioridad sobre la víctima",
+        "creen a la víctima una situación objetivamente humillante, hostil o intimidatoria, sin llegar a constituir otros delitos de mayor gravedad",
+        "supongan un atentado contra su libertad sexual, con independencia de la gravedad de las expresiones o proposiciones empleadas por el autor"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Las mismas penas se impondrán a quienes se dirijan a otra persona con expresiones, comportamientos o proposiciones de carácter sexual que creen a la víctima una situación objetivamente humillante, hostil o intimidatoria, sin llegar a constituir otros delitos de mayor gravedad.",
+      "justificacion": "Art. 173.4, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-174-tortura-concepto",
+      "articulo": "art. 174",
+      "tipo": "test",
+      "enunciado": "¿Con qué finalidad ha de actuar la autoridad o funcionario público para que exista tortura conforme al artículo 174.1 del Código Penal?",
+      "opciones": [
+        "con el fin de obtener una confesión o información de cualquier persona o de castigarla por cualquier hecho que haya cometido o se sospeche que ha cometido, o por cualquier razón basada en algún tipo de discriminación",
+        "con el fin de menoscabar gravemente la integridad moral de la persona sometida a su custodia, cualquiera que sea el motivo que le llevare a actuar de ese modo y con independencia de que llegare a obtener alguna información",
+        "con cualquier finalidad, pues el tipo se consuma por el mero hecho de someter a la persona a sufrimientos físicos o mentales abusando del cargo",
+        "con el fin de impedir que la persona ejerza los derechos que le corresponden como detenido, interno o preso en un centro público o privado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. Comete tortura la autoridad o funcionario público que, abusando de su cargo, y con el fin de obtener una confesión o información de cualquier persona o de castigarla por cualquier hecho que haya cometido o se sospeche que ha cometido, o por cualquier razón basada en algún tipo de discriminación, la sometiere a condiciones o procedimientos que por su naturaleza, duración u otras circunstancias, le supongan sufrimientos físicos o mentales, la supresión o disminución de sus facultades de conocimiento, discernimiento o decisión o que, de cualquier otro modo, atenten contra su integridad moral.",
+      "justificacion": "Art. 174.1 CP."
+    },
+    {
+      "concepto_id": "CP-174-tortura-pena",
+      "articulo": "art. 174",
+      "tipo": "test",
+      "enunciado": "Además de la prisión, ¿qué pena impone en todo caso el artículo 174.1 del Código Penal al culpable de tortura?",
+      "opciones": [
+        "la pena de inhabilitación especial para empleo o cargo público de dos a cuatro años",
+        "la pena de inhabilitación absoluta de ocho a 12 años",
+        "la pena de suspensión de empleo o cargo público durante el tiempo que dure la condena de prisión impuesta por el delito de tortura",
+        "la pena de inhabilitación absoluta de seis a doce años, que se impondrá en su mitad superior si el atentado hubiera sido grave"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Además de las penas señaladas se impondrá, en todo caso, la pena de inhabilitación absoluta de ocho a 12 años.",
+      "justificacion": "Art. 174.1, párrafo tercero, CP."
+    },
+    {
+      "concepto_id": "CP-174-penitenciarias",
+      "articulo": "art. 174",
+      "tipo": "test",
+      "enunciado": "Según el artículo 174.2 del Código Penal, ¿quiénes incurren en las mismas penas que el autor de tortura respecto de detenidos, internos o presos?",
+      "opciones": [
+        "los particulares que hubieran ejecutado los hechos con la autorización, el apoyo o la aquiescencia de la autoridad o funcionario público",
+        "la autoridad o funcionario de instituciones penitenciarias o de centros de protección o corrección de menores",
+        "los funcionarios de la Policía Judicial que hubieran practicado la detención o que tuvieran encomendada la custodia del detenido",
+        "cualesquiera autoridades o funcionarios públicos que, faltando a los deberes de su cargo, permitieren que otras personas ejecuten los hechos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. En las mismas penas incurrirán, respectivamente, la autoridad o funcionario de instituciones penitenciarias o de centros de protección o corrección de menores que cometiere, respecto de detenidos, internos o presos, los actos a que se refiere el apartado anterior.",
+      "justificacion": "Art. 174.2 CP."
+    },
+    {
+      "concepto_id": "CP-175-atentado-integridad",
+      "articulo": "art. 175",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 175 del Código Penal a la autoridad o funcionario que, abusando de su cargo y fuera de los casos de tortura, atenta contra la integridad moral de una persona, si el atentado fuera grave?",
+      "opciones": [
+        "la pena de prisión de dos a seis años, que es la misma prevista para la tortura grave del artículo anterior del Código",
+        "la pena de prisión de dos a cuatro años",
+        "la pena de prisión de seis meses a dos años, con inhabilitación especial para empleo o cargo público de dos a cuatro años",
+        "la pena de prisión de dos a cuatro años, acompañada en todo caso de la inhabilitación absoluta de ocho a doce años"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La autoridad o funcionario público que, abusando de su cargo y fuera de los casos comprendidos en el artículo anterior, atentare contra la integridad moral de una persona será castigado con la pena de prisión de dos a cuatro años si el atentado fuera grave, y de prisión de seis meses a dos años si no lo es.",
+      "justificacion": "Art. 175 CP."
+    },
+    {
+      "concepto_id": "CP-176-permisividad",
+      "articulo": "art. 176",
+      "tipo": "test",
+      "enunciado": "El artículo 176 del Código Penal impone las penas de los artículos precedentes a la autoridad o funcionario que…",
+      "opciones": [
+        "faltando a los deberes de su cargo, permitiere que otras personas ejecuten los hechos previstos en ellos",
+        "teniendo conocimiento de los hechos, no los denunciare ante la autoridad judicial competente en el plazo legalmente establecido",
+        "hubiera ordenado a sus subordinados la ejecución de los hechos, respondiendo entonces como inductor de los delitos cometidos",
+        "encubriere a los autores de los hechos una vez cometidos, ayudándoles a eludir la investigación de la autoridad o de sus agentes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se impondrán las penas respectivamente establecidas en los artículos precedentes a la autoridad o funcionario que, faltando a los deberes de su cargo, permitiere que otras personas ejecuten los hechos previstos en ellos.",
+      "justificacion": "Art. 176 CP."
+    },
+    {
+      "concepto_id": "CP-177-concurso",
+      "articulo": "art. 177",
+      "tipo": "test",
+      "enunciado": "Si además del atentado a la integridad moral se produce lesión o daño a la vida, integridad física, salud, libertad sexual o bienes de la víctima, el artículo 177 del Código Penal dispone que…",
+      "opciones": [
+        "se castigarán los hechos separadamente con la pena que les corresponda por los delitos cometidos, excepto cuando aquél ya se halle especialmente castigado por la ley",
+        "se impondrá únicamente la pena del delito más grave en su mitad superior, quedando absorbido el atentado a la integridad moral",
+        "se impondrán las penas del atentado a la integridad moral en su mitad superior, atendida la entidad del resultado lesivo producido",
+        "se castigarán los hechos separadamente en todo caso, sin excepción alguna, por afectar a bienes jurídicos de distinta naturaleza"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si en los delitos descritos en los artículos precedentes, además del atentado a la integridad moral, se produjere lesión o daño a la vida, integridad física, salud, libertad sexual o bienes de la víctima o de un tercero, se castigarán los hechos separadamente con la pena que les corresponda por los delitos cometidos, excepto cuando aquél ya se halle especialmente castigado por la ley.",
+      "justificacion": "Art. 177 CP."
+    },
+    {
+      "concepto_id": "CP-177bis-tipo",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 177 bis.1 del Código Penal al reo de trata de seres humanos?",
+      "opciones": [
+        "la pena de cuatro a ocho años de prisión y multa de doce a veinticuatro meses, atendida la finalidad perseguida con la captación",
+        "la pena de cinco a ocho años de prisión",
+        "la pena de seis a diez años de prisión, que se impondrá en su mitad superior cuando la víctima fuera menor de edad",
+        "la pena de cinco a ocho años de prisión e inhabilitación absoluta de seis a doce años en todos los casos previstos en el artículo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Será castigado con la pena de cinco a ocho años de prisión como reo de trata de seres humanos el que, sea en territorio español, sea desde España, en tránsito o con destino a ella, empleando violencia, intimidación o engaño, o abusando de una situación de superioridad o de necesidad o de vulnerabilidad de la víctima nacional o extranjera, o mediante la entrega o recepción de pagos o beneficios para lograr el consentimiento de la persona que poseyera el control sobre la víctima, la captare, transportare, trasladare, acogiere, o recibiere, incluido el intercambio o transferencia de control sobre esas personas, con cualquiera de las finalidades siguientes:",
+      "justificacion": "Art. 177 bis.1 CP."
+    },
+    {
+      "concepto_id": "CP-177bis-finalidades",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas finalidades figura entre las que enumera el artículo 177 bis.1 del Código Penal para el delito de trata de seres humanos?",
+      "opciones": [
+        "La obtención de un beneficio económico mediante la entrada o el tránsito ilegal de la víctima por el territorio de un Estado miembro",
+        "La celebración de matrimonios forzados",
+        "La utilización de la víctima como testigo falso en un procedimiento judicial seguido contra un tercero por delitos de terrorismo",
+        "El sometimiento de la víctima a condiciones laborales que perjudiquen, supriman o restrinjan los derechos reconocidos por la legislación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "e) La celebración de matrimonios forzados.",
+      "justificacion": "Art. 177 bis.1 e) CP."
+    },
+    {
+      "concepto_id": "CP-177bis-vulnerabilidad",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "A efectos del artículo 177 bis del Código Penal, existe una situación de necesidad o vulnerabilidad cuando la persona en cuestión…",
+      "opciones": [
+        "se encuentre en situación administrativa irregular en territorio español y carezca de medios económicos para su subsistencia",
+        "no tiene otra alternativa, real o aceptable, que someterse al abuso",
+        "padezca una enfermedad, un estado gestacional o una discapacidad que le impida oponerse eficazmente a la conducta del autor",
+        "haya visto agravada su situación personal por el desplazamiento derivado de un conflicto armado o de una catástrofe humanitaria"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Existe una situación de necesidad o vulnerabilidad cuando la persona en cuestión no tiene otra alternativa, real o aceptable, que someterse al abuso.",
+      "justificacion": "Art. 177 bis.1, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-177bis-menores",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 177 bis.2 del Código Penal, aun cuando no se recurra a ninguno de los medios enunciados en el apartado anterior…",
+      "opciones": [
+        "se impondrá en todo caso la pena superior en grado a las acciones realizadas sobre menores, por tratarse de víctimas especialmente vulnerables",
+        "se considerará trata de seres humanos cualquiera de las acciones indicadas en el apartado anterior cuando se llevare a cabo respecto de menores de edad con fines de explotación",
+        "se exigirá igualmente el abuso de una situación de superioridad cuando la víctima de las acciones indicadas fuere un menor de edad",
+        "se considerará trata de seres humanos solo si el menor careciere de capacidad para prestar un consentimiento válido a las acciones indicadas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Aun cuando no se recurra a ninguno de los medios enunciados en el apartado anterior, se considerará trata de seres humanos cualquiera de las acciones indicadas en el apartado anterior cuando se llevare a cabo respecto de menores de edad con fines de explotación.",
+      "justificacion": "Art. 177 bis.2 CP."
+    },
+    {
+      "concepto_id": "CP-177bis-consentimiento",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 177 bis.3 del Código Penal, el consentimiento de una víctima de trata de seres humanos…",
+      "opciones": [
+        "excluirá la responsabilidad penal del autor siempre que la víctima fuera mayor de edad y hubiera actuado con pleno conocimiento",
+        "será irrelevante cuando se haya recurrido a alguno de los medios indicados en el apartado primero de este artículo",
+        "será irrelevante en todo caso, con independencia de que el autor haya empleado o no alguno de los medios comisivos típicos",
+        "atenuará la pena en uno o dos grados cuando la víctima hubiera sido informada previamente de la finalidad del traslado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. El consentimiento de una víctima de trata de seres humanos será irrelevante cuando se haya recurrido a alguno de los medios indicados en el apartado primero de este artículo.",
+      "justificacion": "Art. 177 bis.3 CP."
+    },
+    {
+      "concepto_id": "CP-177bis-agravantes",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas circunstancias determina la imposición de la pena superior en grado conforme al artículo 177 bis.4 del Código Penal?",
+      "opciones": [
+        "el culpable perteneciera a una organización o asociación de más de dos personas dedicada a la realización de tales actividades",
+        "la víctima sea una persona cuya situación de vulnerabilidad haya sido originada o agravada por el desplazamiento derivado de un conflicto armado o una catástrofe humanitaria",
+        "los hechos se hubieran realizado prevaliéndose el autor de su condición de autoridad, agente de ésta o funcionario público",
+        "la víctima hubiera sido trasladada desde un tercer Estado con destino al territorio español, en tránsito o desde España"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "c) la víctima sea una persona cuya situación de vulnerabilidad haya sido originada o agravada por el desplazamiento derivado de un conflicto armado o una catástrofe humanitaria.",
+      "justificacion": "Art. 177 bis.4 c) CP."
+    },
+    {
+      "concepto_id": "CP-177bis-autoridad",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 177 bis.5 del Código Penal, a quienes realicen los hechos prevaliéndose de su condición de autoridad, agente de ésta o funcionario público se les impondrá la pena superior en grado y, además…",
+      "opciones": [
+        "inhabilitación absoluta de ocho a doce años, igual que en el delito de tortura del artículo 174 del propio Código",
+        "inhabilitación absoluta de seis a doce años",
+        "inhabilitación especial para empleo o cargo público por el tiempo de duración de la condena de prisión que les fuera impuesta",
+        "inhabilitación especial para profesión, oficio, industria o comercio por el tiempo de la condena impuesta por el delito de trata"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "5. Se impondrá la pena superior en grado a la prevista en el apartado 1 de este artículo e inhabilitación absoluta de seis a doce años a los que realicen los hechos prevaliéndose de su condición de autoridad, agente de ésta o funcionario público.",
+      "justificacion": "Art. 177 bis.5 CP."
+    },
+    {
+      "concepto_id": "CP-177bis-organizacion",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "El artículo 177 bis.6 del Código Penal agrava la pena cuando el culpable perteneciera a una organización o asociación…",
+      "opciones": [
+        "de más de dos personas, incluso de carácter transitorio, que se dedicase a la realización de tales actividades",
+        "de carácter estable y con vocación de permanencia, integrada por al menos tres personas dedicadas a la realización de tales actividades",
+        "de más de dos personas, siempre que el culpable ostentare en ella la condición de jefe, administrador o encargado de la misma",
+        "de cualquier número de personas dedicada a la trata, con independencia de que su estructura fuere estable o meramente transitoria"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "6. Se impondrá la pena superior en grado a la prevista en el apartado 1 de este artículo e inhabilitación especial para profesión, oficio, industria o comercio por el tiempo de la condena, cuando el culpable perteneciera a una organización o asociación de más de dos personas, incluso de carácter transitorio, que se dedicase a la realización de tales actividades.",
+      "justificacion": "Art. 177 bis.6 CP."
+    },
+    {
+      "concepto_id": "CP-177bis-preparatorios",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 177 bis.8 del Código Penal, la provocación, la conspiración y la proposición para cometer el delito de trata de seres humanos se castigan…",
+      "opciones": [
+        "con la misma pena prevista para el delito consumado, atendida la especial gravedad del delito de trata de seres humanos",
+        "con la pena inferior en uno o dos grados a la del delito correspondiente",
+        "con la pena inferior en grado a la del delito correspondiente, sin que quepa rebajarla en dos grados en ningún caso",
+        "con la pena inferior en uno o dos grados, salvo cuando la víctima prevista fuera menor de edad o persona especialmente vulnerable"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "8. La provocación, la conspiración y la proposición para cometer el delito de trata de seres humanos serán castigadas con la pena inferior en uno o dos grados a la del delito correspondiente.",
+      "justificacion": "Art. 177 bis.8 CP."
+    },
+    {
+      "concepto_id": "CP-177bis-exencion",
+      "articulo": "art. 177 bis",
+      "tipo": "test",
+      "enunciado": "El artículo 177 bis.11 del Código Penal deja exenta de pena a la víctima de trata por las infracciones cometidas en la situación de explotación sufrida, siempre que…",
+      "opciones": [
+        "la víctima denuncie los hechos ante la autoridad competente dentro del plazo legalmente previsto y colabore activamente en la identificación, localización y detención de los autores de la trata y de quienes la explotaron",
+        "su participación en ellas haya sido consecuencia directa de la situación de violencia, intimidación, engaño o abuso a que haya sido sometida y que exista una adecuada proporcionalidad entre dicha situación y el hecho criminal realizado",
+        "las infracciones cometidas no estuvieran castigadas con pena de prisión superior a dos años en el momento de su comisión",
+        "la víctima fuera menor de edad o persona especialmente vulnerable por razón de enfermedad, estado gestacional o discapacidad"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "11. Sin perjuicio de la aplicación de las reglas generales de este Código, la víctima de trata de seres humanos quedará exenta de pena por las infracciones penales que haya cometido en la situación de explotación sufrida, siempre que su participación en ellas haya sido consecuencia directa de la situación de violencia, intimidación, engaño o abuso a que haya sido sometida y que exista una adecuada proporcionalidad entre dicha situación y el hecho criminal realizado.",
+      "justificacion": "Art. 177 bis.11 CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-173-cadaver",
+      "destino": "CP-173-degradante",
+      "tipo": "desarrolla",
+      "justificacion": "Equipara la ocultación reiterada del paradero del cadáver al trato degradante."
+    },
+    {
+      "origen": "CP-173-acoso-laboral",
+      "destino": "CP-173-degradante",
+      "tipo": "limita",
+      "justificacion": "Delimita por abajo el trato degradante: aquí los actos no llegan a serlo pero suponen grave acoso."
+    },
+    {
+      "origen": "CP-173-acoso-inmobiliario",
+      "destino": "CP-173-degradante",
+      "tipo": "limita",
+      "justificacion": "Misma técnica: actos hostiles que no alcanzan el trato degradante."
+    },
+    {
+      "origen": "CP-173-acoso-inmobiliario",
+      "destino": "CP-172-cualificado",
+      "tipo": "limita",
+      "justificacion": "Deslinda el acoso inmobiliario, que no exige violencia, de la coacción cualificada, que sí."
+    },
+    {
+      "origen": "CP-173-violencia-habitual",
+      "destino": "CP-173-degradante",
+      "tipo": "desarrolla",
+      "justificacion": "Tipo autónomo dentro del artículo, con pena y ámbito propios."
+    },
+    {
+      "origen": "CP-173-habitualidad",
+      "destino": "CP-173-violencia-habitual",
+      "tipo": "desarrolla",
+      "justificacion": "Fija los criterios para apreciar la habitualidad que el apartado 2 exige."
+    },
+    {
+      "origen": "CP-173-injuria-leve",
+      "destino": "CP-173-violencia-habitual",
+      "tipo": "limita",
+      "justificacion": "Modalidad leve para las mismas víctimas del apartado 2."
+    },
+    {
+      "origen": "CP-173-violencia-habitual",
+      "destino": "CP-171-genero",
+      "tipo": "limita",
+      "justificacion": "Deslinda la violencia habitual del acto aislado de amenaza leve en el ámbito de la pareja."
+    },
+    {
+      "origen": "CP-173-violencia-habitual",
+      "destino": "CP-172-genero",
+      "tipo": "limita",
+      "justificacion": "Igual deslinde frente a la coacción leve en el ámbito de la pareja."
+    },
+    {
+      "origen": "CP-174-tortura-concepto",
+      "destino": "CP-173-degradante",
+      "tipo": "desarrolla",
+      "justificacion": "Tipo cualificado por el sujeto activo y la finalidad perseguida."
+    },
+    {
+      "origen": "CP-174-tortura-pena",
+      "destino": "CP-174-tortura-concepto",
+      "tipo": "desarrolla",
+      "justificacion": "Fija la pena del tipo definido en el mismo apartado."
+    },
+    {
+      "origen": "CP-174-penitenciarias",
+      "destino": "CP-174-tortura-concepto",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende el tipo a funcionarios de prisiones y de centros de menores."
+    },
+    {
+      "origen": "CP-175-atentado-integridad",
+      "destino": "CP-174-tortura-concepto",
+      "tipo": "limita",
+      "justificacion": "Tipo residual: se aplica fuera de los casos de tortura, cuando falta la finalidad típica."
+    },
+    {
+      "origen": "CP-176-permisividad",
+      "destino": "CP-174-tortura-concepto",
+      "tipo": "desarrolla",
+      "justificacion": "Castiga con la misma pena a quien permite que otros ejecuten los hechos."
+    },
+    {
+      "origen": "CP-177-concurso",
+      "destino": "CP-174-tortura-concepto",
+      "tipo": "desarrolla",
+      "justificacion": "Regla de concurso aplicable a todos los delitos precedentes del capítulo."
+    },
+    {
+      "origen": "CP-177bis-finalidades",
+      "destino": "CP-177bis-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Enumera las finalidades que integran el tipo."
+    },
+    {
+      "origen": "CP-177bis-vulnerabilidad",
+      "destino": "CP-177bis-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Define uno de los medios comisivos del apartado 1."
+    },
+    {
+      "origen": "CP-177bis-menores",
+      "destino": "CP-177bis-tipo",
+      "tipo": "limita",
+      "justificacion": "Excepciona la exigencia de medio comisivo cuando la víctima es menor."
+    },
+    {
+      "origen": "CP-177bis-consentimiento",
+      "destino": "CP-177bis-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Priva de eficacia al consentimiento cuando concurre alguno de los medios del apartado 1."
+    },
+    {
+      "origen": "CP-177bis-agravantes",
+      "destino": "CP-177bis-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Eleva en grado la pena del tipo básico."
+    },
+    {
+      "origen": "CP-177bis-autoridad",
+      "destino": "CP-177bis-agravantes",
+      "tipo": "desarrolla",
+      "justificacion": "Segunda agravación, por la condición del autor."
+    },
+    {
+      "origen": "CP-177bis-organizacion",
+      "destino": "CP-177bis-agravantes",
+      "tipo": "desarrolla",
+      "justificacion": "Tercera agravación, por la pertenencia a una organización."
+    },
+    {
+      "origen": "CP-177bis-preparatorios",
+      "destino": "CP-177bis-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende la punición a los actos preparatorios de la trata."
+    },
+    {
+      "origen": "CP-177bis-exencion",
+      "destino": "CP-177bis-tipo",
+      "tipo": "limita",
+      "justificacion": "Excusa absolutoria a favor de la víctima del propio delito."
+    },
+    {
+      "origen": "CP-177bis-tipo",
+      "destino": "CP-163-tipo",
+      "tipo": "limita",
+      "justificacion": "Deslinda la trata, que exige finalidad de explotación, de la mera privación de libertad."
+    },
+    {
+      "origen": "CP-174-tortura-concepto",
+      "destino": "TORT-001",
+      "tipo": "desarrolla",
+      "justificacion": "El tipo penal español concreta la definición de tortura de la Convención contra la Tortura."
+    },
+    {
+      "origen": "CP-177bis-exencion",
+      "destino": "VIC-001",
+      "tipo": "remite",
+      "justificacion": "La persona de trata es víctima directa a efectos del Estatuto de la víctima del delito."
+    }
+  ]
+}
