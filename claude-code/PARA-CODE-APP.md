@@ -26,13 +26,30 @@
 
 ## 2. Lo que falta — por prioridad
 1. **Generar los 4 temas que faltan (cero conceptos): 19, 20, 24, 45.** ⚠ VER §3 antes de intentarlo.
-   - **T19** — delitos contra el orden público: atentados/resistencia/desobediencia, desórdenes,
-     tenencia/tráfico/depósito de armas. Fuente: **Código Penal (LO 10/1995)**, títulos específicos.
-   - **T20** — delitos informáticos; intimidad; prueba digital. Fuente: **CP + LECrim**.
-   - **T24** — introducción a PRL (trabajo y salud, riesgos, principios de la actividad preventiva,
-     daños). Fuente: **Ley 31/1995**, arts. iniciales (lo cargado hoy cubre el T25, no el 24).
+   - ~~**T19**~~ — **HECHO** (16/08/2026): 33 conceptos, arts. 550-570 CP, `lotes/cp-t19-orden-publico.json`.
+   - **T20** — **PARCIALMENTE HECHO** (16/08/2026): 33 conceptos cargados y verificados,
+     `lotes/cp-t20-delitos-informaticos.json` (CP arts. 197, 248, 249, 250, 255, 256, 264 y 189 bis),
+     enlazados a CE 18.1/18.3/18.4 (T2), LOPD7-006 (T26), IC-006 (T15) y CIBER-010/012 (T41).
+     **Falta el tercer bloque del enunciado: "la prueba digital en el proceso penal"** — ver el aviso
+     de abajo, no se puede generar con lo que hay en el repo.
+   - **T24** — **PARCIALMENTE HECHO**: 7 conceptos. Falta el remate doctrinal (concepto de trabajo y
+     concepto de salud); necesita fuente de autoridad tipo INSST/OMS, no sale de la Ley 31/1995.
+     Sí están ya cubiertos por corpus: *consecuencia de los riesgos* = art. 4.3 LPRL («daños derivados
+     del trabajo») y las cuatro disciplinas preventivas = art. 8 c) RD 67/2010.
    - **T45** — PRL en seguridad vial (factores del tráfico, factor humano/ambiental/vehículo, EPI).
-     Fuente probable **no-BOE** (autoridad/consenso).
+     Fuente probable **no-BOE** (autoridad/consenso). Pendiente entero.
+
+   ⚠ **HUECOS DEL CÓDIGO 600 detectados al mapear el T20 (16/08/2026).** El Código 600 incluye el CP
+   y la LECrim en **[Inclusión parcial]**, y lo que deja fuera afecta de lleno a este tema. Verificado
+   sección a sección sobre `corpus/`, no de memoria:
+   - **LECrim**: el corpus llega al art. 328 (más 787 bis/ter y 988 bis). **No contiene los arts.
+     588 bis y ss.**, que son justamente la prueba digital (interceptación, registro de dispositivos,
+     datos de tráfico). Sin el PDF consolidado de la LECrim ese bloque **no se puede fundamentar**.
+   - **CP**: el corpus tiene el art. 197 (apartados 1 a 7) y el 264, pero **no** 197 bis/ter/quater/
+     quinquies ni 264 bis/ter/quater — el acceso ilícito a sistemas y las modalidades autónomas de
+     daños informáticos. No es un fallo del ingestor: la compilación los omite y marca `[ . . . ]`.
+   No inventar esos artículos ni traerlos de memoria: o entra el PDF consolidado, o el tema queda
+   con la cobertura que permite el Código 600, que es el material oficial de la convocatoria.
 2. **Revisar/aprobar las 56 de consenso en `/admin`** (acción de Jonathan).
 3. **Calidad pendiente** (de RESULTADO_016/017): arts. 22.4ª y 510 del CP en `remision_pendiente`
    (aristas de ETICA); *Crime as a Service* del T41; 21 aristas sin id concreto del PROMPT_014;

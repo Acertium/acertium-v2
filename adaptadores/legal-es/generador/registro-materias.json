@@ -23,12 +23,13 @@
     "materia": "lo-10-1995-codigo-penal",
     "norma": "Ley Orgánica 10/1995, del Código Penal",
     "referencia_boe": "BOE-A-1995-25444",
-    "_nota": "Los tres primeros temas se han tomado LITERALES de overlay_entrada en la base, que es lo que se cargó; el cuarto entra con el lote del Tema 19. Estaba a null, así que hasta hoy la puerta no podía cazar un tema equivocado en un lote de CP.",
+    "_nota": "Los tres primeros temas se han tomado LITERALES de overlay_entrada en la base, que es lo que se cargó; el cuarto entra con el lote del Tema 19 y el quinto con el del Tema 20. Estaba a null, así que hasta el 16/08/2026 la puerta no podía cazar un tema equivocado en un lote de CP.",
     "temas": [
       "Tema 16 — Derecho Penal. Parte General",
       "Tema 17 — Derecho Penal Especial: homicidio, aborto y lesiones",
       "Tema 18 — Delitos contra el patrimonio: hurto y robo",
-      "Tema 19 — Delitos contra el orden público: atentados contra la autoridad, resistencia y desobediencia; desórdenes públicos; tenencia, tráfico y depósito de armas, municiones o explosivos"
+      "Tema 19 — Delitos contra el orden público: atentados contra la autoridad, resistencia y desobediencia; desórdenes públicos; tenencia, tráfico y depósito de armas, municiones o explosivos",
+      "Tema 20 — Delitos informáticos; especial consideración al derecho a la intimidad; la prueba digital en el proceso penal"
     ]
   },
   "SP": {

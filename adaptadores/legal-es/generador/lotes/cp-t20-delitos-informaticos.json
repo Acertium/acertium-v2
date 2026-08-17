@@ -1,0 +1,967 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 20 — Delitos informáticos; especial consideración al derecho a la intimidad; la prueba digital en el proceso penal"
+  },
+  "fuentes": {
+    "art. 189 bis": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar a la comisión de los delitos previstos en este capítulo y en los capítulos II y IV del presente título será castigada con la pena de multa de seis a doce meses o pena de prisión de uno a tres años. Las autoridades judiciales ordenarán la adopción de las medidas necesarias para la retirada de los contenidos a los que se refiere el párrafo anterior, para la interrupción de los servicios que ofrezcan predominantemente dichos contenidos o para el bloqueo de unos y otros cuando radiquen en el extranjero.",
+    "art. 197": "1. El que, para descubrir los secretos o vulnerar la intimidad de otro, sin su consentimiento, se apodere de sus papeles, cartas, mensajes de correo electrónico o cualesquiera otros documentos o efectos personales, intercepte sus telecomunicaciones o utilice artificios técnicos de escucha, transmisión, grabación o reproducción del sonido o de la imagen, o de cualquier otra señal de comunicación, será castigado con las penas de prisión de uno a cuatro años y multa de doce a veinticuatro meses. 2. Las mismas penas se impondrán al que, sin estar autorizado, se apodere, utilice o modifique, en perjuicio de tercero, datos reservados de carácter personal o familiar de otro que se hallen registrados en ficheros o soportes informáticos, electrónicos o telemáticos, o en cualquier otro tipo de archivo o registro público o privado. Iguales penas se impondrán a quien, sin estar autorizado, acceda por cualquier medio a los mismos y a quien los altere o utilice en perjuicio del titular de los datos o de un tercero. 3. Se impondrá la pena de prisión de dos a cinco años si se difunden, revelan o ceden a terceros los datos o hechos descubiertos o las imágenes captadas a que se refieren los números anteriores. Será castigado con las penas de prisión de uno a tres años y multa de doce a veinticuatro meses, el que, con conocimiento de su origen ilícito y sin haber tomado parte en su descubrimiento, realizare la conducta descrita en el párrafo anterior. 4. Los hechos descritos en los apartados 1 y 2 de este artículo serán castigados con una pena de prisión de tres a cinco años cuando: a) Se cometan por las personas encargadas o responsables de los ficheros, soportes informáticos, electrónicos o telemáticos, archivos o registros; o b) se lleven a cabo mediante la utilización no autorizada de datos personales de la víctima. Si los datos reservados se hubieran difundido, cedido o revelado a terceros, se impondrán las penas en su mitad superior. 5. Igualmente, cuando los hechos descritos en los apartados anteriores afecten a datos de carácter personal que revelen la ideología, religión, creencias, salud, origen racial o vida sexual, o la víctima fuere un menor de edad o una persona con discapacidad necesitada de especial protección, se impondrán las penas previstas en su mitad superior. 6. Si los hechos se realizan con fines lucrativos, se impondrán las penas respectivamente previstas en los apartados 1 al 4 de este artículo en su mitad superior. Si además afectan a datos de los mencionados en el apartado anterior, la pena a imponer será la de prisión de cuatro a siete años. 7. Será castigado con una pena de prisión de tres meses a un año o multa de seis a doce meses el que, sin autorización de la persona afectada, difunda, revele o ceda a terceros imágenes o grabaciones audiovisuales de aquélla que hubiera obtenido con su anuencia en un domicilio o en cualquier otro lugar fuera del alcance de la mirada de terceros, cuando la divulgación menoscabe gravemente la intimidad personal de esa persona. Se impondrá la pena de multa de uno a tres meses a quien habiendo recibido las imágenes o grabaciones audiovisuales a las que se refiere el párrafo anterior las difunda, revele o ceda a terceros sin el consentimiento de la persona afectada. En los supuestos de los párrafos anteriores, la pena se impondrá en su mitad superior cuando los hechos hubieran sido cometidos por el cónyuge o por persona que esté o haya estado unida a él por análoga relación de afectividad, aun sin convivencia, la víctima fuera menor de edad o una persona con discapacidad necesitada de especial protección, o los hechos se hubieran cometido con una finalidad lucrativa. [ . . . ]",
+    "art. 248": "Cometen estafa los que, con ánimo de lucro, utilizaren engaño bastante para producir error en otro, induciéndolo a realizar un acto de disposición en perjuicio propio o ajeno. Los reos de estafa serán castigados con la pena de prisión de seis meses a tres años. Para la fijación de la pena se tendrá en cuenta el importe de lo defraudado, el quebranto económico causado al perjudicado, las relaciones entre este y el defraudador, los medios empleados por este y cuantas otras circunstancias sirvan para valorar la gravedad de la infracción. Si la cuantía de lo defraudado no excediere de 400 euros, se impondrá la pena de multa de uno a tres meses, salvo si concurriere alguna de las circunstancias del artículo 250. No obstante, en el caso de que el culpable hubiera sido condenado ejecutoriamente al menos por tres delitos de la misma naturaleza, comprendidos en este capítulo, y siendo al menos uno de ellos leve, se impondrá la pena prevista en el párrafo segundo del presente artículo. No se tendrán en cuenta los antecedentes penales cancelados o que debieran serlo.",
+    "art. 249": "1. También se consideran reos de estafa y serán castigados con la pena de prisión de seis meses a tres años: a) Los que, con ánimo de lucro, obstaculizando o interfiriendo indebidamente en el funcionamiento de un sistema de información o introduciendo, alterando, borrando, transmitiendo o suprimiendo indebidamente datos informáticos o valiéndose de cualquier otra manipulación informática o artificio semejante, consigan una transferencia no consentida de cualquier activo patrimonial en perjuicio de otro. b) Los que, utilizando de forma fraudulenta tarjetas de crédito o débito, cheques de viaje o cualquier otro instrumento de pago material o inmaterial distinto del efectivo o los datos obrantes en cualquiera de ellos, realicen operaciones de cualquier clase en perjuicio de su titular o de un tercero. 2. Con la misma pena prevista en el apartado anterior serán castigados: a) Los que fabricaren, importaren, obtuvieren, poseyeren, transportaren, comerciaren o de otro modo facilitaren a terceros dispositivos, instrumentos o datos o programas informáticos, o cualquier otro medio diseñado o adaptado específicamente para la comisión de las estafas previstas en este artículo. b) Los que, para su utilización fraudulenta, sustraigan, se apropiaren o adquieran de forma ilícita tarjetas de crédito o débito, cheques de viaje o cualquier otro instrumento de pago material o inmaterial distinto del efectivo. 3. Se impondrá la pena en su mitad inferior a los que, para su utilización fraudulenta y sabiendo que fueron obtenidos ilícitamente, posean, adquieran, transfieran, distribuyan o pongan a disposición de terceros tarjetas de crédito o débito, cheques de viaje o cualesquiera otros instrumentos de pago materiales o inmateriales distintos del efectivo.",
+    "art. 250": "1. El delito de estafa será castigado con las penas de prisión de uno a seis años y multa de seis a doce meses, cuando: 1.º Recaiga sobre cosas de primera necesidad, viviendas u otros bienes de reconocida utilidad social. 2.º Se perpetre abusando de firma de otro, o sustrayendo, ocultando o inutilizando, en todo o en parte, algún proceso, expediente, protocolo o documento público u oficial de cualquier clase. 3.º Recaiga sobre bienes que integren el patrimonio artístico, histórico, cultural o científico. 4.º Revista especial gravedad, atendiendo a la entidad del perjuicio y a la situación económica en que deje a la víctima o a su familia. 5.º El valor de la defraudación supere los 50.000 euros, o afecte a un elevado número de personas. 6.º Se cometa con abuso de las relaciones personales existentes entre víctima y defraudador, o aproveche éste su credibilidad empresarial o profesional. 7.º Se cometa estafa procesal. Incurren en la misma los que, en un procedimiento judicial de cualquier clase, manipularen las pruebas en que pretendieran fundar sus alegaciones o emplearen otro fraude procesal análogo, provocando error en el juez o tribunal y llevándole a dictar una resolución que perjudique los intereses económicos de la otra parte o de un tercero. 8.º Al delinquir el culpable hubiera sido condenado ejecutoriamente, al menos, por tres delitos menos graves o graves comprendidos en este capítulo, siempre que sean de la misma naturaleza. No se tendrán en cuenta los antecedentes cancelados o que debieran serlo. 2. Si concurrieran las circunstancias incluidas en los numerales 4.º, 5.º, 6.º o 7.º con la del numeral 1.º del apartado anterior, se impondrán las penas de prisión de cuatro a ocho años y multa de doce a veinticuatro meses. La misma pena se impondrá cuando el valor de la defraudación supere los 250.000 euros.",
+    "art. 255": "1. Será castigado con la pena de multa de tres a doce meses el que cometiere defraudación utilizando energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos, por alguno de los medios siguientes: 1.º Valiéndose de mecanismos instalados para realizar la defraudación. 2.º Alterando maliciosamente las indicaciones o aparatos contadores. 3.º Empleando cualesquiera otros medios clandestinos. 2. Si la cuantía de lo defraudado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses. 3. Cuando la defraudación prevista en este artículo, cualquiera que fuese su cuantía, se cometa con la finalidad de abastecer de energía eléctrica instalaciones utilizadas para la comisión de alguna de las conductas señaladas en el artículo 368, se impondrá la pena de prisión de seis a dieciocho meses o multa de doce a veinticuatro meses.",
+    "art. 256": "1. El que hiciere uso de cualquier equipo terminal de telecomunicación, sin consentimiento de su titular, y causando a éste un perjuicio económico, será castigado con la pena de multa de tres a doce meses. 2. Si la cuantía del perjuicio causado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+    "art. 264": "1. El que por cualquier medio, sin autorización y de manera grave borrase, dañase, deteriorase, alterase, suprimiese o hiciese inaccesibles datos informáticos, programas informáticos o documentos electrónicos ajenos, cuando el resultado producido fuera grave, será castigado con la pena de prisión de seis meses a tres años. 2. Se impondrá una pena de prisión de dos a cinco años y multa del tanto al décuplo del perjuicio ocasionado, cuando en las conductas descritas concurra alguna de las siguientes circunstancias: 1.ª Se hubiese cometido en el marco de una organización criminal. 2.ª Haya ocasionado daños de especial gravedad o afectado a un número elevado de sistemas informáticos. 3.ª El hecho hubiera perjudicado gravemente el funcionamiento de servicios públicos esenciales o la provisión de bienes de primera necesidad. 4.ª Los hechos hayan afectado al sistema informático de una infraestructura crítica o se hubiera creado una situación de peligro grave para la seguridad del Estado, de la Unión Europea o de un Estado Miembro de la Unión Europea. A estos efectos se considerará infraestructura crítica un elemento, sistema o parte de este que sea esencial para el mantenimiento de funciones vitales de la sociedad, la salud, la seguridad, la protección y el bienestar económico y social de la población cuya perturbación o destrucción tendría un impacto significativo al no poder mantener sus funciones. 5.ª El delito se haya cometido utilizando alguno de los medios a que se refiere el artículo 264 ter. Si los hechos hubieran resultado de extrema gravedad, podrá imponerse la pena superior en grado. 3. Las penas previstas en los apartados anteriores se impondrán, en sus respectivos casos, en su mitad superior, cuando los hechos se hubieran cometido mediante la utilización ilícita de datos personales de otra persona para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero. [ . . . ]"
+  },
+  "conceptos": [
+    {
+      "id": "CP-197-1-tipo",
+      "articulo": "art. 197",
+      "titulo": "Descubrimiento de secretos: tipo básico",
+      "resumen": "Comete el tipo básico quien, para descubrir los secretos o vulnerar la intimidad de otro y sin su consentimiento, se apodera de sus documentos, intercepta sus telecomunicaciones o usa artificios técnicos de escucha o grabación.",
+      "explicacion": "Es el delito nuclear de la intimidad. Exige dolo específico (descubrir secretos o vulnerar la intimidad) y ausencia de consentimiento: sin ese ánimo, el apoderamiento será otro delito, no este."
+    },
+    {
+      "id": "CP-197-1-pena",
+      "articulo": "art. 197",
+      "titulo": "Pena del tipo básico del artículo 197.1",
+      "resumen": "El tipo básico se castiga con prisión de uno a cuatro años y multa de doce a veinticuatro meses.",
+      "explicacion": "Pena del apartado 1, sobre la que operan después las agravaciones de los apartados 3 a 6."
+    },
+    {
+      "id": "CP-197-2-datos",
+      "articulo": "art. 197",
+      "titulo": "Apoderamiento o modificación de datos reservados en ficheros",
+      "resumen": "Se castiga con las mismas penas a quien, sin autorización, se apodera, utiliza o modifica en perjuicio de tercero datos reservados de carácter personal o familiar registrados en ficheros o soportes informáticos, electrónicos o telemáticos.",
+      "explicacion": "Modalidad informática de este artículo. Aquí no hace falta el ánimo de descubrir secretos del apartado anterior: basta actuar sin autorización y en perjuicio de tercero."
+    },
+    {
+      "id": "CP-197-2-acceso",
+      "articulo": "art. 197",
+      "titulo": "Acceso, alteración o utilización de datos reservados",
+      "resumen": "Iguales penas se imponen a quien, sin estar autorizado, accede por cualquier medio a esos datos y a quien los altera o utiliza en perjuicio del titular o de un tercero.",
+      "explicacion": "Cierra el círculo del apartado 2: castiga el mero acceso no autorizado, sin necesidad de apoderamiento."
+    },
+    {
+      "id": "CP-197-3-difusion",
+      "articulo": "art. 197",
+      "titulo": "Difusión de los datos o imágenes descubiertos",
+      "resumen": "Se impone prisión de dos a cinco años si se difunden, revelan o ceden a terceros los datos o hechos descubiertos o las imágenes captadas.",
+      "explicacion": "Es la fase de revelación, más grave que el descubrimiento: la pena sube respecto del apartado 1."
+    },
+    {
+      "id": "CP-197-3-receptor",
+      "articulo": "art. 197",
+      "titulo": "Difusión por quien no participó en el descubrimiento",
+      "resumen": "Quien, conociendo el origen ilícito y sin haber tomado parte en el descubrimiento, difunde los datos, es castigado con prisión de uno a tres años y multa de doce a veinticuatro meses.",
+      "explicacion": "Pena atenuada respecto del que sí descubrió: el reproche es menor porque no intervino en la obtención."
+    },
+    {
+      "id": "CP-197-4-agravado",
+      "articulo": "art. 197",
+      "titulo": "Agravación por responsable del fichero o uso de datos de la víctima",
+      "resumen": "Los hechos de los apartados 1 y 2 se castigan con prisión de tres a cinco años cuando los cometen los encargados o responsables de los ficheros, o se llevan a cabo usando sin autorización datos personales de la víctima.",
+      "explicacion": "Agrava por abuso de la posición de confianza sobre el fichero o por instrumentalizar los propios datos de la víctima."
+    },
+    {
+      "id": "CP-197-4-difundidos",
+      "articulo": "art. 197",
+      "titulo": "Difusión de los datos en el supuesto agravado",
+      "resumen": "Si los datos reservados se hubieran difundido, cedido o revelado a terceros, las penas del apartado 4 se imponen en su mitad superior.",
+      "explicacion": "Segunda vuelta de agravación dentro del apartado 4: primero la cualificación por el sujeto, después por la difusión."
+    },
+    {
+      "id": "CP-197-5-sensibles",
+      "articulo": "art. 197",
+      "titulo": "Agravación por datos sensibles o víctima especialmente protegida",
+      "resumen": "Las penas se imponen en su mitad superior cuando los hechos afectan a datos que revelan ideología, religión, creencias, salud, origen racial o vida sexual, o la víctima es menor de edad o persona con discapacidad necesitada de especial protección.",
+      "explicacion": "Lista cerrada de categorías especialmente protegidas. Conviene memorizarla: es la que más se pregunta del artículo."
+    },
+    {
+      "id": "CP-197-6-lucro",
+      "articulo": "art. 197",
+      "titulo": "Agravación por fines lucrativos",
+      "resumen": "Si los hechos se realizan con fines lucrativos las penas de los apartados 1 a 4 se imponen en su mitad superior, y si además afectan a datos sensibles la pena es de prisión de cuatro a siete años.",
+      "explicacion": "Doble escalón: mitad superior por el lucro y marco propio de cuatro a siete años si concurre además el dato sensible."
+    },
+    {
+      "id": "CP-197-7-imagenes",
+      "articulo": "art. 197",
+      "titulo": "Difusión de imágenes obtenidas con anuencia",
+      "resumen": "Se castiga con prisión de tres meses a un año o multa de seis a doce meses a quien difunde sin autorización imágenes o grabaciones de otra persona obtenidas con su anuencia en un domicilio o lugar fuera del alcance de la mirada de terceros, cuando la divulgación menoscabe gravemente su intimidad.",
+      "explicacion": "El supuesto llamado sexting. La clave es que la obtención fue consentida y lo ilícito es la difusión posterior."
+    },
+    {
+      "id": "CP-197-7-receptor",
+      "articulo": "art. 197",
+      "titulo": "Reenvío por quien recibió las imágenes",
+      "resumen": "Quien, habiendo recibido esas imágenes o grabaciones, las difunde, revela o cede a terceros sin consentimiento de la persona afectada, es castigado con multa de uno a tres meses.",
+      "explicacion": "Castiga la cadena de reenvíos, pero solo con pena de multa: es la modalidad más leve del artículo."
+    },
+    {
+      "id": "CP-197-7-agravado",
+      "articulo": "art. 197",
+      "titulo": "Agravación en la difusión de imágenes",
+      "resumen": "La pena se impone en su mitad superior cuando los hechos los comete el cónyuge o persona unida por análoga relación de afectividad, la víctima es menor o persona con discapacidad necesitada de especial protección, o media finalidad lucrativa.",
+      "explicacion": "Recoge el escenario típico de las exparejas. No exige convivencia ni que la relación subsista."
+    },
+    {
+      "id": "CP-248-estafa",
+      "articulo": "art. 248",
+      "titulo": "Estafa: concepto",
+      "resumen": "Cometen estafa quienes, con ánimo de lucro, utilizan engaño bastante para producir error en otro, induciéndolo a realizar un acto de disposición en perjuicio propio o ajeno.",
+      "explicacion": "Definición legal de la estafa clásica. El engaño debe ser bastante, es decir, idóneo para provocar el error."
+    },
+    {
+      "id": "CP-248-leve",
+      "articulo": "art. 248",
+      "titulo": "Estafa de cuantía no superior a 400 euros",
+      "resumen": "Si la cuantía defraudada no excede de 400 euros se impone multa de uno a tres meses, salvo si concurre alguna de las circunstancias del artículo 250.",
+      "explicacion": "Es el delito leve de estafa. La salvedad del 250 impide degradar la pena cuando hay una cualificación."
+    },
+    {
+      "id": "CP-249-1a-informatica",
+      "articulo": "art. 249",
+      "titulo": "Estafa informática",
+      "resumen": "Se consideran reos de estafa quienes, con ánimo de lucro, obstaculizan o interfieren en el funcionamiento de un sistema de información o manipulan datos informáticos y consiguen una transferencia no consentida de un activo patrimonial en perjuicio de otro.",
+      "explicacion": "Aquí no hay engaño a una persona sino manipulación de una máquina: por eso el legislador necesitó un tipo propio."
+    },
+    {
+      "id": "CP-249-1b-tarjetas",
+      "articulo": "art. 249",
+      "titulo": "Uso fraudulento de instrumentos de pago",
+      "resumen": "También son reos de estafa quienes, usando de forma fraudulenta tarjetas de crédito o débito, cheques de viaje u otro instrumento de pago distinto del efectivo, o los datos que constan en ellos, realizan operaciones en perjuicio de su titular o de un tercero.",
+      "explicacion": "Abarca tanto la tarjeta física como los datos: el carding entra por esta letra."
+    },
+    {
+      "id": "CP-249-2a-dispositivos",
+      "articulo": "art. 249",
+      "titulo": "Fabricación o facilitación de medios para la estafa",
+      "resumen": "Con la misma pena se castiga a quienes fabrican, importan, obtienen, poseen, transportan, comercian o facilitan a terceros dispositivos, instrumentos, datos o programas informáticos diseñados o adaptados específicamente para cometer estas estafas.",
+      "explicacion": "Adelanta la barrera de protección a los actos preparatorios: se castiga tener la herramienta, sin necesidad de defraudar."
+    },
+    {
+      "id": "CP-249-2b-sustraccion",
+      "articulo": "art. 249",
+      "titulo": "Sustracción o adquisición ilícita de instrumentos de pago",
+      "resumen": "Con la misma pena se castiga a quienes, para su utilización fraudulenta, sustraen, se apropian o adquieren de forma ilícita tarjetas de crédito o débito, cheques de viaje u otros instrumentos de pago distintos del efectivo.",
+      "explicacion": "Exige el fin de utilización fraudulenta: sin ese elemento subjetivo la sustracción sería hurto."
+    },
+    {
+      "id": "CP-249-3-posesion",
+      "articulo": "art. 249",
+      "titulo": "Posesión o distribución de instrumentos de pago obtenidos ilícitamente",
+      "resumen": "Se impone la pena en su mitad inferior a quienes, para su utilización fraudulenta y sabiendo que fueron obtenidos ilícitamente, poseen, adquieren, transfieren, distribuyen o ponen a disposición de terceros esos instrumentos de pago.",
+      "explicacion": "Modalidad atenuada: el sujeto no los sustrajo, solo los recibe o los mueve conociendo su origen."
+    },
+    {
+      "id": "CP-250-cuantia",
+      "articulo": "art. 250",
+      "titulo": "Estafa agravada por la cuantía o el número de afectados",
+      "resumen": "La estafa se castiga con prisión de uno a seis años y multa de seis a doce meses, entre otros casos, cuando el valor de la defraudación supera los 50.000 euros o afecta a un elevado número de personas.",
+      "explicacion": "Cualificación clave para las estafas informáticas masivas: la alternativa del elevado número de personas opera aunque no se alcancen los 50.000 euros."
+    },
+    {
+      "id": "CP-250-supercualificada",
+      "articulo": "art. 250",
+      "titulo": "Estafa hiperagravada por la cuantía",
+      "resumen": "Se impone prisión de cuatro a ocho años y multa de doce a veinticuatro meses cuando el valor de la defraudación supera los 250.000 euros.",
+      "explicacion": "Segundo escalón de cuantía. No confundir el umbral de 50.000 euros del apartado 1 con el de 250.000 del apartado 2."
+    },
+    {
+      "id": "CP-255-defraudacion",
+      "articulo": "art. 255",
+      "titulo": "Defraudación de fluidos y telecomunicaciones",
+      "resumen": "Se castiga con multa de tres a doce meses a quien defrauda energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos valiéndose de mecanismos instalados al efecto, alterando los contadores o empleando otros medios clandestinos.",
+      "explicacion": "Los tres medios son numerus clausus. Las telecomunicaciones figuran expresamente entre los objetos protegidos."
+    },
+    {
+      "id": "CP-255-leve",
+      "articulo": "art. 255",
+      "titulo": "Defraudación de fluidos de cuantía no superior a 400 euros",
+      "resumen": "Si la cuantía de lo defraudado no excede de 400 euros se impone una pena de multa de uno a tres meses.",
+      "explicacion": "Delito leve paralelo al de la estafa, con el mismo umbral de 400 euros."
+    },
+    {
+      "id": "CP-256-terminal",
+      "articulo": "art. 256",
+      "titulo": "Uso de terminal de telecomunicación ajeno",
+      "resumen": "Quien usa cualquier equipo terminal de telecomunicación sin consentimiento de su titular causándole un perjuicio económico es castigado con multa de tres a doce meses.",
+      "explicacion": "No se defrauda el fluido sino el terminal. Requiere perjuicio económico efectivo: sin él, no hay delito."
+    },
+    {
+      "id": "CP-256-leve",
+      "articulo": "art. 256",
+      "titulo": "Uso de terminal ajeno con perjuicio no superior a 400 euros",
+      "resumen": "Si la cuantía del perjuicio causado no excede de 400 euros se impone una pena de multa de uno a tres meses.",
+      "explicacion": "Mismo umbral de 400 euros que en el artículo anterior, pero referido al perjuicio causado, no a lo defraudado."
+    },
+    {
+      "id": "CP-264-danos",
+      "articulo": "art. 264",
+      "titulo": "Daños informáticos: tipo básico",
+      "resumen": "Se castiga con prisión de seis meses a tres años a quien, sin autorización y de manera grave, borra, daña, deteriora, altera, suprime o hace inaccesibles datos informáticos, programas informáticos o documentos electrónicos ajenos, cuando el resultado producido fuera grave.",
+      "explicacion": "Doble exigencia de gravedad: en la conducta y en el resultado. Es el tipo que cubre el sabotaje y el cifrado por ransomware."
+    },
+    {
+      "id": "CP-264-agravantes",
+      "articulo": "art. 264",
+      "titulo": "Daños informáticos: circunstancias agravantes",
+      "resumen": "La pena sube a prisión de dos a cinco años y multa del tanto al décuplo del perjuicio cuando el hecho se comete en el marco de una organización criminal, causa daños de especial gravedad o afecta a un número elevado de sistemas informáticos, entre otras circunstancias.",
+      "explicacion": "Cinco circunstancias tasadas. La multa es proporcional al perjuicio, no por cuotas."
+    },
+    {
+      "id": "CP-264-infraestructura",
+      "articulo": "art. 264",
+      "titulo": "Infraestructura crítica a efectos del artículo 264",
+      "resumen": "A efectos de este artículo, infraestructura crítica es un elemento, sistema o parte de este esencial para el mantenimiento de funciones vitales de la sociedad, la salud, la seguridad, la protección y el bienestar económico y social de la población, cuya perturbación o destrucción tendría un impacto significativo.",
+      "explicacion": "El Código Penal da su propia definición a efectos penales, que hay que distinguir de la de la legislación de protección de infraestructuras críticas."
+    },
+    {
+      "id": "CP-264-extrema",
+      "articulo": "art. 264",
+      "titulo": "Daños informáticos de extrema gravedad",
+      "resumen": "Si los hechos hubieran resultado de extrema gravedad podrá imponerse la pena superior en grado.",
+      "explicacion": "Facultad del tribunal, no imperativo: la norma dice podrá, no impondrá."
+    },
+    {
+      "id": "CP-264-datos-personales",
+      "articulo": "art. 264",
+      "titulo": "Daños informáticos con uso ilícito de datos personales",
+      "resumen": "Las penas se imponen en su mitad superior cuando los hechos se cometen usando ilícitamente datos personales de otra persona para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero.",
+      "explicacion": "Cubre la suplantación de identidad como vía de entrada: es la agravación típica del phishing previo al sabotaje."
+    },
+    {
+      "id": "CP-189bis-difusion",
+      "articulo": "art. 189 bis",
+      "titulo": "Difusión por Internet de contenidos que incitan a delitos sexuales",
+      "resumen": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información de contenidos destinados a promover, fomentar o incitar a la comisión de estos delitos se castiga con multa de seis a doce meses o prisión de uno a tres años.",
+      "explicacion": "Pena alternativa: multa o prisión, a elección del tribunal."
+    },
+    {
+      "id": "CP-189bis-retirada",
+      "articulo": "art. 189 bis",
+      "titulo": "Retirada, interrupción y bloqueo de contenidos",
+      "resumen": "Las autoridades judiciales ordenarán las medidas necesarias para la retirada de esos contenidos, la interrupción de los servicios que los ofrezcan predominantemente o el bloqueo de unos y otros cuando radiquen en el extranjero.",
+      "explicacion": "El bloqueo se reserva a los contenidos alojados fuera de España; dentro, la vía es la retirada o la interrupción."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-197-1-tipo",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "Según el artículo 197.1 del Código Penal, comete el tipo básico quien, para descubrir los secretos o vulnerar la intimidad de otro y sin su consentimiento…",
+      "opciones": [
+        "accediere al domicilio de la víctima con el fin de registrar sus efectos personales y llegare a difundir después, por cualquier medio de comunicación, los documentos íntimos que allí encontrare",
+        "se apodere de sus papeles, cartas, mensajes de correo electrónico o cualesquiera otros documentos o efectos personales, intercepte sus telecomunicaciones o utilice artificios técnicos de escucha",
+        "obtuviere datos reservados de carácter personal hallándose debidamente autorizado para acceder al fichero, pero los empleare a continuación para una finalidad distinta de la que motivó ese acceso",
+        "difundiere a terceros los datos o las imágenes que otra persona hubiera descubierto previamente, siempre que conociere el origen ilícito de aquellos y no hubiere tomado parte en su descubrimiento"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. El que, para descubrir los secretos o vulnerar la intimidad de otro, sin su consentimiento, se apodere de sus papeles, cartas, mensajes de correo electrónico o cualesquiera otros documentos o efectos personales, intercepte sus telecomunicaciones o utilice artificios técnicos de escucha, transmisión, grabación o reproducción del sonido o de la imagen, o de cualquier otra señal de comunicación, será castigado con las penas de prisión de uno a cuatro años y multa de doce a veinticuatro meses.",
+      "justificacion": "Art. 197.1 CP."
+    },
+    {
+      "concepto_id": "CP-197-1-pena",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 197.1 del Código Penal para el apoderamiento de documentos o la interceptación de telecomunicaciones dirigidos a vulnerar la intimidad?",
+      "opciones": [
+        "prisión de uno a cuatro años y multa de doce a veinticuatro meses",
+        "prisión de dos a cinco años y multa de doce a veinticuatro meses, junto con la inhabilitación especial para empleo o cargo público por el mismo tiempo",
+        "prisión de uno a tres años y multa de doce a veinticuatro meses, salvo que los hechos se hubieran cometido persiguiendo una finalidad lucrativa",
+        "prisión de tres meses a un año o multa de seis a doce meses, atendiendo el tribunal a la gravedad de la intromisión producida en la intimidad ajena"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "será castigado con las penas de prisión de uno a cuatro años y multa de doce a veinticuatro meses.",
+      "justificacion": "Art. 197.1 CP."
+    },
+    {
+      "concepto_id": "CP-197-2-datos",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "El artículo 197.2 del Código Penal impone las mismas penas del apartado 1 al que, sin estar autorizado…",
+      "opciones": [
+        "accediere a un sistema informático ajeno vulnerando las medidas de seguridad establecidas para impedirlo y se mantuviere en él en contra de la voluntad de quien tuviere el legítimo derecho a excluirlo",
+        "interceptare transmisiones no públicas de datos informáticos que se produzcan desde un sistema de información, hacia él o dentro del mismo, mediante la utilización de artificios o instrumentos técnicos",
+        "se apodere, utilice o modifique, en perjuicio de tercero, datos reservados de carácter personal o familiar de otro que se hallen registrados en ficheros o soportes informáticos, electrónicos o telemáticos",
+        "cediere o comunicare a un tercero datos reservados de carácter personal contenidos en un fichero público, siempre que la cesión se realizare a cambio de una contraprestación económica de cualquier clase"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "2. Las mismas penas se impondrán al que, sin estar autorizado, se apodere, utilice o modifique, en perjuicio de tercero, datos reservados de carácter personal o familiar de otro que se hallen registrados en ficheros o soportes informáticos, electrónicos o telemáticos, o en cualquier otro tipo de archivo o registro público o privado.",
+      "justificacion": "Art. 197.2 CP."
+    },
+    {
+      "concepto_id": "CP-197-2-acceso",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "Además del apoderamiento, el artículo 197.2 del Código Penal impone iguales penas a quien, sin estar autorizado…",
+      "opciones": [
+        "acceda por cualquier medio a los mismos y a quien los altere o utilice en perjuicio del titular de los datos o de un tercero",
+        "conserve los datos una vez cumplida la finalidad que justificó su recogida, siempre que de esa conservación indebida se derive un perjuicio efectivo para el titular de los datos o para un tercero",
+        "reclame el acceso a los datos ante el responsable del fichero alegando una condición de interesado que en realidad no ostenta, con el fin de conocer información reservada de otra persona",
+        "facilite a un tercero las claves o credenciales que permiten acceder al fichero, aunque ese tercero no llegue finalmente a consultar ninguno de los datos reservados allí registrados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Iguales penas se impondrán a quien, sin estar autorizado, acceda por cualquier medio a los mismos y a quien los altere o utilice en perjuicio del titular de los datos o de un tercero.",
+      "justificacion": "Art. 197.2, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-197-3-difusion",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 197.3 del Código Penal si se difunden, revelan o ceden a terceros los datos o hechos descubiertos o las imágenes captadas?",
+      "opciones": [
+        "la pena de prisión de uno a cuatro años y multa de doce a veinticuatro meses, que es la misma prevista para el descubrimiento del apartado primero",
+        "la pena de prisión de dos a cinco años",
+        "la pena de prisión de tres a cinco años cuando la difusión la realice quien fuera responsable o encargado del fichero en que constaban los datos revelados",
+        "la pena de prisión de uno a tres años y multa de doce a veinticuatro meses, por tratarse de una conducta posterior al descubrimiento ya consumado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. Se impondrá la pena de prisión de dos a cinco años si se difunden, revelan o ceden a terceros los datos o hechos descubiertos o las imágenes captadas a que se refieren los números anteriores.",
+      "justificacion": "Art. 197.3 CP."
+    },
+    {
+      "concepto_id": "CP-197-3-receptor",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "Según el artículo 197.3 del Código Penal, ¿cómo se castiga a quien difunde los datos con conocimiento de su origen ilícito pero sin haber tomado parte en su descubrimiento?",
+      "opciones": [
+        "con las penas de prisión de dos a cinco años, las mismas que corresponden a quien difunde los datos que él mismo había descubierto previamente",
+        "con las penas de prisión de uno a tres años y multa de doce a veinticuatro meses",
+        "con la pena de multa de uno a tres meses, por tratarse de una conducta de mera recepción y reenvío ajena al descubrimiento inicial",
+        "con las penas previstas para el descubrimiento en su mitad inferior, atendiendo a que no intervino en la obtención ilícita de los datos difundidos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Será castigado con las penas de prisión de uno a tres años y multa de doce a veinticuatro meses, el que, con conocimiento de su origen ilícito y sin haber tomado parte en su descubrimiento, realizare la conducta descrita en el párrafo anterior.",
+      "justificacion": "Art. 197.3, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-197-4-agravado",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "El artículo 197.4 del Código Penal castiga con prisión de tres a cinco años los hechos de los apartados 1 y 2 cuando…",
+      "opciones": [
+        "Se cometan aprovechando la situación de superioridad jerárquica que el autor ostente sobre la víctima dentro de la empresa u organismo en que ambos presten sus servicios profesionales",
+        "Afecten a datos de carácter personal que revelen la ideología, la religión, las creencias, la salud, el origen racial o la vida sexual de la persona titular de esos datos reservados",
+        "Se cometan por las personas encargadas o responsables de los ficheros, soportes informáticos, electrónicos o telemáticos, archivos o registros",
+        "Se realicen persiguiendo una finalidad lucrativa, ya sea directa o indirecta, para el propio autor de los hechos o para cualquier tercero relacionado con él"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "4. Los hechos descritos en los apartados 1 y 2 de este artículo serán castigados con una pena de prisión de tres a cinco años cuando: a) Se cometan por las personas encargadas o responsables de los ficheros, soportes informáticos, electrónicos o telemáticos, archivos o registros; o b) se lleven a cabo mediante la utilización no autorizada de datos personales de la víctima.",
+      "justificacion": "Art. 197.4 a) CP."
+    },
+    {
+      "concepto_id": "CP-197-4-difundidos",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "En el supuesto agravado del artículo 197.4 del Código Penal, si los datos reservados se hubieran difundido, cedido o revelado a terceros…",
+      "opciones": [
+        "se impondrán las penas en su mitad superior",
+        "se impondrá la pena superior en grado, siempre que el tribunal aprecie que los hechos han resultado de extrema gravedad para la intimidad de la víctima",
+        "se impondrá la pena de prisión de cuatro a siete años, que es la prevista para los supuestos en que concurre además una finalidad lucrativa",
+        "se impondrán las penas en su mitad superior únicamente cuando la difusión hubiera alcanzado a un número elevado de personas o se hubiera producido a través de Internet"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si los datos reservados se hubieran difundido, cedido o revelado a terceros, se impondrán las penas en su mitad superior.",
+      "justificacion": "Art. 197.4, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-197-5-sensibles",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "El artículo 197.5 del Código Penal impone las penas en su mitad superior cuando los hechos afecten a datos de carácter personal que revelen…",
+      "opciones": [
+        "la situación económica, bancaria o tributaria del titular, así como su solvencia patrimonial, su situación laboral o sus antecedentes penales",
+        "la ideología, religión, creencias, salud, origen racial o vida sexual",
+        "las características biométricas o genéticas del titular, las condenas penales que le hubieran sido impuestas o cualquier identificador unívoco de una persona física",
+        "la afiliación sindical, la orientación política o la vida familiar, siempre que su titular hubiera manifestado expresamente su voluntad de mantenerlas reservadas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "5. Igualmente, cuando los hechos descritos en los apartados anteriores afecten a datos de carácter personal que revelen la ideología, religión, creencias, salud, origen racial o vida sexual, o la víctima fuere un menor de edad o una persona con discapacidad necesitada de especial protección, se impondrán las penas previstas en su mitad superior.",
+      "justificacion": "Art. 197.5 CP."
+    },
+    {
+      "concepto_id": "CP-197-6-lucro",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "Según el artículo 197.6 del Código Penal, si los hechos se realizan con fines lucrativos y además afectan a datos que revelen la ideología, la salud o la vida sexual, la pena a imponer será…",
+      "opciones": [
+        "la de prisión de tres a cinco años, que es la misma prevista para los hechos cometidos por los responsables de los ficheros o soportes informáticos afectados",
+        "la de las penas de los apartados 1 al 4 impuestas en su mitad superior, sin que proceda aplicar ningún marco penal distinto del legalmente previsto para cada una",
+        "la de prisión de dos a cinco años, coincidente con la señalada para la difusión de los datos o hechos descubiertos a que se refiere el apartado tercero",
+        "la de prisión de cuatro a siete años"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "6. Si los hechos se realizan con fines lucrativos, se impondrán las penas respectivamente previstas en los apartados 1 al 4 de este artículo en su mitad superior. Si además afectan a datos de los mencionados en el apartado anterior, la pena a imponer será la de prisión de cuatro a siete años.",
+      "justificacion": "Art. 197.6 CP."
+    },
+    {
+      "concepto_id": "CP-197-7-imagenes",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "El artículo 197.7 del Código Penal castiga con prisión de tres meses a un año o multa de seis a doce meses a quien, sin autorización de la persona afectada…",
+      "opciones": [
+        "captare imágenes o grabaciones audiovisuales de otra persona en un domicilio o en cualquier otro lugar situado fuera del alcance de la mirada de terceros, valiéndose para ello de artificios técnicos de grabación",
+        "difunda, revele o ceda a terceros imágenes o grabaciones audiovisuales de aquélla que hubiera obtenido con su anuencia en un domicilio o en cualquier otro lugar fuera del alcance de la mirada de terceros",
+        "conservare en su poder imágenes o grabaciones audiovisuales de contenido íntimo obtenidas con la anuencia de la persona afectada una vez extinguida la relación afectiva que las hubiera motivado",
+        "difundiere imágenes o grabaciones audiovisuales de otra persona obtenidas en un lugar público, cuando de la divulgación se derivare un menoscabo grave de la reputación personal o profesional de aquélla"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "7. Será castigado con una pena de prisión de tres meses a un año o multa de seis a doce meses el que, sin autorización de la persona afectada, difunda, revele o ceda a terceros imágenes o grabaciones audiovisuales de aquélla que hubiera obtenido con su anuencia en un domicilio o en cualquier otro lugar fuera del alcance de la mirada de terceros, cuando la divulgación menoscabe gravemente la intimidad personal de esa persona.",
+      "justificacion": "Art. 197.7 CP."
+    },
+    {
+      "concepto_id": "CP-197-7-receptor",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 197.7 del Código Penal a quien, habiendo recibido esas imágenes o grabaciones, las difunde a terceros sin consentimiento de la persona afectada?",
+      "opciones": [
+        "la pena de prisión de tres meses a un año o multa de seis a doce meses, la misma que corresponde a quien realizó la primera difusión no autorizada",
+        "la pena de prisión de tres meses a un año, impuesta en su mitad inferior por tratarse de una intervención posterior a la difusión inicial de las imágenes",
+        "la pena de multa de uno a tres meses",
+        "la pena de multa de seis a doce meses, salvo que la difusión posterior se hubiera realizado a través de servicios de mensajería instantánea o de redes sociales"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Se impondrá la pena de multa de uno a tres meses a quien habiendo recibido las imágenes o grabaciones audiovisuales a las que se refiere el párrafo anterior las difunda, revele o ceda a terceros sin el consentimiento de la persona afectada.",
+      "justificacion": "Art. 197.7, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-197-7-agravado",
+      "articulo": "art. 197",
+      "tipo": "test",
+      "enunciado": "Según el artículo 197.7 del Código Penal, la pena se impone en su mitad superior cuando los hechos hubieran sido cometidos…",
+      "opciones": [
+        "por quien fuera responsable o encargado del servicio de comunicaciones electrónicas a través del cual se hubieran difundido las imágenes o grabaciones audiovisuales de la persona afectada",
+        "por el cónyuge o por persona que esté o haya estado unida a él por análoga relación de afectividad, aun sin convivencia",
+        "por persona que estuviera conviviendo con la víctima en el momento de la difusión, quedando excluidas las relaciones de afectividad ya extinguidas o que nunca comportaron convivencia alguna",
+        "por más de dos personas actuando de común acuerdo, o mediante la utilización de perfiles anónimos creados específicamente para ocultar la identidad de quienes difunden las imágenes"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "En los supuestos de los párrafos anteriores, la pena se impondrá en su mitad superior cuando los hechos hubieran sido cometidos por el cónyuge o por persona que esté o haya estado unida a él por análoga relación de afectividad, aun sin convivencia, la víctima fuera menor de edad o una persona con discapacidad necesitada de especial protección, o los hechos se hubieran cometido con una finalidad lucrativa.",
+      "justificacion": "Art. 197.7, párrafo tercero, CP."
+    },
+    {
+      "concepto_id": "CP-248-estafa",
+      "articulo": "art. 248",
+      "tipo": "test",
+      "enunciado": "¿Cómo define el artículo 248 del Código Penal el delito de estafa?",
+      "opciones": [
+        "Cometen estafa los que, con ánimo de lucro, utilizaren engaño bastante para producir error en otro, induciéndolo a realizar un acto de disposición en perjuicio propio o ajeno",
+        "Cometen estafa los que, con ánimo de lucro y en perjuicio de tercero, se apoderaren de cosas muebles ajenas sin la voluntad de su dueño y sin emplear fuerza en las cosas ni violencia o intimidación en las personas",
+        "Cometen estafa los que, habiendo recibido en depósito, comisión o custodia una cosa mueble, la apropiaren o distrajeren en perjuicio de otro, negando después haberla recibido o incumpliendo la obligación de entregarla",
+        "Cometen estafa los que, con ánimo de lucro, se aprovecharen del error en que hubiere incurrido otra persona por causa ajena a su intervención, absteniéndose de advertirlo y obteniendo así una ventaja patrimonial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cometen estafa los que, con ánimo de lucro, utilizaren engaño bastante para producir error en otro, induciéndolo a realizar un acto de disposición en perjuicio propio o ajeno.",
+      "justificacion": "Art. 248, párrafo primero, CP."
+    },
+    {
+      "concepto_id": "CP-248-leve",
+      "articulo": "art. 248",
+      "tipo": "test",
+      "enunciado": "Según el artículo 248 del Código Penal, si la cuantía de lo defraudado en la estafa no excediere de 400 euros…",
+      "opciones": [
+        "se impondrá la pena de prisión de seis meses a un año, que podrá sustituirse por multa cuando concurran circunstancias que atenúen la responsabilidad del culpable",
+        "se impondrá la pena de multa de uno a tres meses, salvo si concurriere alguna de las circunstancias del artículo 250",
+        "se impondrá la pena de multa de tres a doce meses, salvo que el perjudicado fuera una persona especialmente vulnerable por razón de su edad o de su situación económica",
+        "se impondrá la pena de multa de uno a tres meses en todo caso, sin que quepa aplicar las circunstancias cualificativas previstas en el artículo 250 del propio Código"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Si la cuantía de lo defraudado no excediere de 400 euros, se impondrá la pena de multa de uno a tres meses, salvo si concurriere alguna de las circunstancias del artículo 250.",
+      "justificacion": "Art. 248, párrafo tercero, CP."
+    },
+    {
+      "concepto_id": "CP-249-1a-informatica",
+      "articulo": "art. 249",
+      "tipo": "test",
+      "enunciado": "El artículo 249.1 a) del Código Penal considera reos de estafa a quienes, con ánimo de lucro, mediante manipulación informática…",
+      "opciones": [
+        "accedieren sin autorización a un sistema de información ajeno vulnerando las medidas de seguridad dispuestas para impedirlo, con independencia de que llegaren o no a obtener una ventaja patrimonial",
+        "alteraren o suprimieren datos informáticos ajenos de manera grave y sin autorización, causando con ello un resultado igualmente grave para el patrimonio del titular del sistema afectado",
+        "consigan una transferencia no consentida de cualquier activo patrimonial en perjuicio de otro",
+        "obtuvieren las claves de acceso a los servicios de banca electrónica de un tercero mediante el envío de comunicaciones que suplanten la identidad de una entidad financiera legítimamente establecida"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "1. También se consideran reos de estafa y serán castigados con la pena de prisión de seis meses a tres años: a) Los que, con ánimo de lucro, obstaculizando o interfiriendo indebidamente en el funcionamiento de un sistema de información o introduciendo, alterando, borrando, transmitiendo o suprimiendo indebidamente datos informáticos o valiéndose de cualquier otra manipulación informática o artificio semejante, consigan una transferencia no consentida de cualquier activo patrimonial en perjuicio de otro.",
+      "justificacion": "Art. 249.1 a) CP."
+    },
+    {
+      "concepto_id": "CP-249-1b-tarjetas",
+      "articulo": "art. 249",
+      "tipo": "test",
+      "enunciado": "Según el artículo 249.1 b) del Código Penal, también son reos de estafa quienes, utilizando de forma fraudulenta tarjetas de crédito o débito, cheques de viaje u otros instrumentos de pago…",
+      "opciones": [
+        "los sustrajeren o se apropiaren de ellos de forma ilícita con la finalidad de emplearlos después fraudulentamente en operaciones de cualquier clase en perjuicio de su legítimo titular",
+        "realicen operaciones de cualquier clase en perjuicio de su titular o de un tercero",
+        "los pusieren a disposición de terceros sabiendo que habían sido obtenidos ilícitamente, aunque no llegaren a realizar personalmente ninguna operación con cargo a los mismos",
+        "obtuvieren un beneficio patrimonial superior a 400 euros, quedando el resto de los supuestos remitidos al delito leve de estafa previsto en el artículo 248 del propio Código"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "b) Los que, utilizando de forma fraudulenta tarjetas de crédito o débito, cheques de viaje o cualquier otro instrumento de pago material o inmaterial distinto del efectivo o los datos obrantes en cualquiera de ellos, realicen operaciones de cualquier clase en perjuicio de su titular o de un tercero.",
+      "justificacion": "Art. 249.1 b) CP."
+    },
+    {
+      "concepto_id": "CP-249-2a-dispositivos",
+      "articulo": "art. 249",
+      "tipo": "test",
+      "enunciado": "El artículo 249.2 a) del Código Penal castiga con la misma pena a quienes fabricaren, importaren, poseyeren o facilitaren a terceros…",
+      "opciones": [
+        "dispositivos, instrumentos o datos o programas informáticos, o cualquier otro medio diseñado o adaptado específicamente para la comisión de las estafas previstas en este artículo",
+        "cualquier clase de dispositivo o programa informático susceptible de ser empleado para acceder sin autorización a sistemas de información ajenos, con independencia de la finalidad perseguida por el autor",
+        "tarjetas de crédito o débito, cheques de viaje o cualquier otro instrumento de pago material o inmaterial distinto del efectivo que hubieran sido obtenidos de forma ilícita por un tercero",
+        "programas informáticos destinados a interferir en el funcionamiento de un sistema de información, siempre que la interferencia llegare a producirse y ocasionare un perjuicio patrimonial efectivo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Con la misma pena prevista en el apartado anterior serán castigados: a) Los que fabricaren, importaren, obtuvieren, poseyeren, transportaren, comerciaren o de otro modo facilitaren a terceros dispositivos, instrumentos o datos o programas informáticos, o cualquier otro medio diseñado o adaptado específicamente para la comisión de las estafas previstas en este artículo.",
+      "justificacion": "Art. 249.2 a) CP."
+    },
+    {
+      "concepto_id": "CP-249-2b-sustraccion",
+      "articulo": "art. 249",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 249.2 b) del Código Penal, ¿con qué finalidad han de sustraerse, apropiarse o adquirirse ilícitamente las tarjetas o instrumentos de pago para aplicar este tipo?",
+      "opciones": [
+        "con la finalidad de obtener un beneficio patrimonial propio o para un tercero que exceda de la cuantía de 400 euros a que se refiere el delito leve de estafa",
+        "para su utilización fraudulenta",
+        "con la finalidad de ponerlos a disposición de terceros, distribuirlos o transferirlos a personas que conozcan el origen ilícito de esos instrumentos de pago",
+        "con la finalidad de acceder a los datos de identificación personal de su titular y suplantar después su identidad ante la entidad emisora de la tarjeta o instrumento"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "b) Los que, para su utilización fraudulenta, sustraigan, se apropiaren o adquieran de forma ilícita tarjetas de crédito o débito, cheques de viaje o cualquier otro instrumento de pago material o inmaterial distinto del efectivo.",
+      "justificacion": "Art. 249.2 b) CP."
+    },
+    {
+      "concepto_id": "CP-249-3-posesion",
+      "articulo": "art. 249",
+      "tipo": "test",
+      "enunciado": "Según el artículo 249.3 del Código Penal, a quienes poseen, adquieren, transfieren o distribuyen instrumentos de pago sabiendo que fueron obtenidos ilícitamente y para su utilización fraudulenta…",
+      "opciones": [
+        "Se les impondrá la pena señalada en el apartado primero en toda su extensión, atendiendo el tribunal al número de instrumentos de pago poseídos o distribuidos",
+        "Se impondrá la pena en su mitad inferior",
+        "Se les impondrá la pena de multa de uno a tres meses cuando el perjuicio que hubieran podido causar no excediere de la cuantía de 400 euros",
+        "Se les impondrá la misma pena prevista para quienes los sustrajeren o adquirieren ilícitamente, por tratarse de conductas de idéntica gravedad material"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. Se impondrá la pena en su mitad inferior a los que, para su utilización fraudulenta y sabiendo que fueron obtenidos ilícitamente, posean, adquieran, transfieran, distribuyan o pongan a disposición de terceros tarjetas de crédito o débito, cheques de viaje o cualesquiera otros instrumentos de pago materiales o inmateriales distintos del efectivo.",
+      "justificacion": "Art. 249.3 CP."
+    },
+    {
+      "concepto_id": "CP-250-cuantia",
+      "articulo": "art. 250",
+      "tipo": "test",
+      "enunciado": "Entre las circunstancias que agravan la estafa con prisión de uno a seis años y multa de seis a doce meses, el artículo 250.1 del Código Penal incluye que…",
+      "opciones": [
+        "El valor de la defraudación supere los 250.000 euros, o bien que los hechos hubieran dejado a la víctima o a su familia en una situación económica de especial precariedad",
+        "El valor de la defraudación supere los 50.000 euros, o afecte a un elevado número de personas",
+        "El valor de la defraudación supere los 400 euros, umbral por encima del cual la estafa deja de considerarse delito leve conforme al propio artículo 248 del Código",
+        "El valor de la defraudación supere los 50.000 euros y además afecte a un elevado número de personas, debiendo concurrir ambos requisitos de forma acumulativa"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "5.º El valor de la defraudación supere los 50.000 euros, o afecte a un elevado número de personas.",
+      "justificacion": "Art. 250.1.5.º CP."
+    },
+    {
+      "concepto_id": "CP-250-supercualificada",
+      "articulo": "art. 250",
+      "tipo": "test",
+      "enunciado": "El artículo 250.2 del Código Penal impone prisión de cuatro a ocho años y multa de doce a veinticuatro meses cuando el valor de la defraudación…",
+      "opciones": [
+        "supere los 50.000 euros y concurra además alguna de las circunstancias relativas a la especial gravedad del perjuicio o al abuso de las relaciones personales entre víctima y defraudador",
+        "supere los 100.000 euros, o bien cuando la estafa hubiera recaído sobre bienes que integren el patrimonio artístico, histórico, cultural o científico de titularidad pública",
+        "supere los 250.000 euros",
+        "supere los 250.000 euros, siempre que la defraudación hubiera afectado además a un elevado número de personas o se hubiera cometido mediante estafa procesal"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La misma pena se impondrá cuando el valor de la defraudación supere los 250.000 euros.",
+      "justificacion": "Art. 250.2, párrafo segundo, CP."
+    },
+    {
+      "concepto_id": "CP-255-defraudacion",
+      "articulo": "art. 255",
+      "tipo": "test",
+      "enunciado": "¿Qué elementos enumera el artículo 255.1 del Código Penal como objeto de la defraudación?",
+      "opciones": [
+        "energía eléctrica, gas, agua, hidrocarburos u otro elemento, energía o fluido ajenos, así como los servicios de acceso condicional a la televisión de pago",
+        "energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos",
+        "energía eléctrica, gas, agua y telecomunicaciones, quedando excluido cualquier otro elemento, energía o fluido que no aparezca expresamente mencionado",
+        "cualquier elemento, energía o fluido ajenos, así como los equipos terminales de telecomunicación cuyo uso se realizare sin consentimiento de su titular"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. Será castigado con la pena de multa de tres a doce meses el que cometiere defraudación utilizando energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos, por alguno de los medios siguientes: 1.º Valiéndose de mecanismos instalados para realizar la defraudación. 2.º Alterando maliciosamente las indicaciones o aparatos contadores. 3.º Empleando cualesquiera otros medios clandestinos.",
+      "justificacion": "Art. 255.1 CP."
+    },
+    {
+      "concepto_id": "CP-255-leve",
+      "articulo": "art. 255",
+      "tipo": "test",
+      "enunciado": "Si la cuantía de lo defraudado en la defraudación de fluidos del artículo 255 del Código Penal no excediere de 400 euros, ¿qué pena se impone?",
+      "opciones": [
+        "una pena de multa de tres a doce meses, que es la misma prevista con carácter general para esta modalidad de defraudación con independencia de su cuantía",
+        "una pena de multa de uno a tres meses",
+        "una pena de multa de uno a tres meses, salvo que concurriere alguna de las circunstancias cualificativas de la estafa previstas en el artículo 250 del propio Código",
+        "una pena de prisión de seis a dieciocho meses o multa de doce a veinticuatro meses, según el tribunal aprecie la gravedad de los medios clandestinos empleados"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Si la cuantía de lo defraudado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+      "justificacion": "Art. 255.2 CP."
+    },
+    {
+      "concepto_id": "CP-256-terminal",
+      "articulo": "art. 256",
+      "tipo": "test",
+      "enunciado": "El artículo 256.1 del Código Penal castiga con multa de tres a doce meses a quien hiciere uso de cualquier equipo terminal de telecomunicación…",
+      "opciones": [
+        "sin consentimiento de su titular, y causando a éste un perjuicio económico",
+        "sin consentimiento de su titular, aunque de ese uso no se derivare perjuicio económico alguno para el titular del equipo indebidamente utilizado",
+        "sin consentimiento de su titular y con la finalidad de acceder a los datos reservados de carácter personal que se hallaren registrados en el propio equipo terminal",
+        "valiéndose de mecanismos clandestinos instalados en el equipo o alterando maliciosamente las indicaciones de los aparatos contadores del servicio de telecomunicación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El que hiciere uso de cualquier equipo terminal de telecomunicación, sin consentimiento de su titular, y causando a éste un perjuicio económico, será castigado con la pena de multa de tres a doce meses.",
+      "justificacion": "Art. 256.1 CP."
+    },
+    {
+      "concepto_id": "CP-256-leve",
+      "articulo": "art. 256",
+      "tipo": "test",
+      "enunciado": "En el uso de terminal de telecomunicación ajeno del artículo 256 del Código Penal se impone la pena de multa de uno a tres meses si…",
+      "opciones": [
+        "el valor del equipo terminal indebidamente utilizado no excediere de 400 euros, con independencia del perjuicio finalmente ocasionado a su titular",
+        "la cuantía del perjuicio causado no excediere de 400 euros",
+        "la cuantía de lo defraudado no excediere de 400 euros, computándose a tal efecto el importe total del consumo realizado con cargo al terminal ajeno",
+        "el perjuicio causado no excediere de 400 euros y el uso del terminal se hubiera producido sin emplear ningún medio clandestino de los previstos en el artículo anterior"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Si la cuantía del perjuicio causado no excediere de 400 euros, se impondrá una pena de multa de uno a tres meses.",
+      "justificacion": "Art. 256.2 CP."
+    },
+    {
+      "concepto_id": "CP-264-danos",
+      "articulo": "art. 264",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 264.1 del Código Penal a quien, sin autorización y de manera grave, borra, altera o hace inaccesibles datos, programas informáticos o documentos electrónicos ajenos, cuando el resultado producido fuera grave?",
+      "opciones": [
+        "la pena de prisión de seis meses a tres años",
+        "la pena de prisión de dos a cinco años y multa del tanto al décuplo del perjuicio ocasionado a los titulares de los datos, programas o documentos afectados",
+        "la pena de prisión de uno a tres años y multa de doce a veinticuatro meses, atendiendo el tribunal a la entidad del daño causado en el sistema informático",
+        "la pena de prisión de seis meses a tres años, que se impondrá en su mitad superior cuando los hechos afectaren a un número elevado de sistemas informáticos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El que por cualquier medio, sin autorización y de manera grave borrase, dañase, deteriorase, alterase, suprimiese o hiciese inaccesibles datos informáticos, programas informáticos o documentos electrónicos ajenos, cuando el resultado producido fuera grave, será castigado con la pena de prisión de seis meses a tres años.",
+      "justificacion": "Art. 264.1 CP."
+    },
+    {
+      "concepto_id": "CP-264-agravantes",
+      "articulo": "art. 264",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas circunstancias eleva la pena de los daños informáticos a prisión de dos a cinco años y multa del tanto al décuplo del perjuicio, conforme al artículo 264.2 del Código Penal?",
+      "opciones": [
+        "Se hubieran cometido mediante la utilización ilícita de datos personales de otra persona para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero",
+        "Se hubiese cometido en el marco de una organización criminal",
+        "Se hubiera producido un resultado de extrema gravedad, en cuyo caso el tribunal impondrá necesariamente la pena superior en grado a la prevista en el apartado primero",
+        "Se hubiera cometido por la persona encargada o responsable de los ficheros, soportes informáticos, electrónicos o telemáticos, archivos o registros en que se hallaren los datos dañados"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Se impondrá una pena de prisión de dos a cinco años y multa del tanto al décuplo del perjuicio ocasionado, cuando en las conductas descritas concurra alguna de las siguientes circunstancias: 1.ª Se hubiese cometido en el marco de una organización criminal.",
+      "justificacion": "Art. 264.2.1.ª CP."
+    },
+    {
+      "concepto_id": "CP-264-infraestructura",
+      "articulo": "art. 264",
+      "tipo": "test",
+      "enunciado": "A los efectos del artículo 264 del Código Penal, se considerará infraestructura crítica…",
+      "opciones": [
+        "aquella infraestructura estratégica cuyo funcionamiento resulta indispensable y no permite soluciones alternativas, por lo que su perturbación o destrucción tendría un grave impacto sobre los servicios esenciales",
+        "un elemento, sistema o parte de este que sea esencial para el mantenimiento de funciones vitales de la sociedad, la salud, la seguridad, la protección y el bienestar económico y social de la población",
+        "el sistema informático de titularidad pública que soporte la prestación de servicios públicos esenciales o la provisión de bienes de primera necesidad a la población de un Estado miembro de la Unión Europea",
+        "cualquier sistema informático cuya perturbación o destrucción hubiera creado una situación de peligro grave para la seguridad del Estado, de la Unión Europea o de un Estado Miembro de la Unión Europea"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "A estos efectos se considerará infraestructura crítica un elemento, sistema o parte de este que sea esencial para el mantenimiento de funciones vitales de la sociedad, la salud, la seguridad, la protección y el bienestar económico y social de la población cuya perturbación o destrucción tendría un impacto significativo al no poder mantener sus funciones.",
+      "justificacion": "Art. 264.2.4.ª CP."
+    },
+    {
+      "concepto_id": "CP-264-extrema",
+      "articulo": "art. 264",
+      "tipo": "test",
+      "enunciado": "Según el artículo 264.2 del Código Penal, si los hechos hubieran resultado de extrema gravedad…",
+      "opciones": [
+        "se impondrá en todo caso la pena superior en grado, sin que el tribunal disponga de margen alguno de apreciación sobre la procedencia de esa elevación punitiva",
+        "podrá imponerse la pena superior en grado",
+        "se impondrán las penas previstas en el apartado anterior en su mitad superior, atendiendo a la entidad del perjuicio ocasionado y al número de sistemas informáticos afectados",
+        "podrá imponerse la pena superior en grado siempre que concurran al menos dos de las circunstancias agravantes enumeradas en el propio apartado segundo del artículo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Si los hechos hubieran resultado de extrema gravedad, podrá imponerse la pena superior en grado.",
+      "justificacion": "Art. 264.2, párrafo final, CP."
+    },
+    {
+      "concepto_id": "CP-264-datos-personales",
+      "articulo": "art. 264",
+      "tipo": "test",
+      "enunciado": "El artículo 264.3 del Código Penal impone las penas en su mitad superior cuando los hechos se hubieran cometido mediante la utilización ilícita de datos personales de otra persona…",
+      "opciones": [
+        "para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero",
+        "para ocultar la identidad del autor de los hechos ante los sistemas de registro y trazabilidad del sistema informático objeto del ataque",
+        "cuando esos datos revelaren la ideología, la religión, las creencias, la salud, el origen racial o la vida sexual de la persona a la que pertenecieren",
+        "siempre que la persona cuyos datos se utilizaren fuera menor de edad o persona con discapacidad necesitada de especial protección conforme a la legislación civil"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. Las penas previstas en los apartados anteriores se impondrán, en sus respectivos casos, en su mitad superior, cuando los hechos se hubieran cometido mediante la utilización ilícita de datos personales de otra persona para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero.",
+      "justificacion": "Art. 264.3 CP."
+    },
+    {
+      "concepto_id": "CP-189bis-difusion",
+      "articulo": "art. 189 bis",
+      "tipo": "test",
+      "enunciado": "¿Qué pena prevé el artículo 189 bis del Código Penal para la distribución o difusión pública a través de Internet de contenidos destinados a promover, fomentar o incitar a la comisión de esos delitos?",
+      "opciones": [
+        "la pena de prisión de uno a tres años y multa de seis a doce meses, que se impondrán conjuntamente por tratarse de conductas de difusión masiva",
+        "la pena de multa de seis a doce meses o pena de prisión de uno a tres años",
+        "la pena de prisión de seis meses a tres años, salvo que los contenidos difundidos radicaren en servidores situados fuera del territorio español",
+        "la pena de multa de seis a doce meses cuando la difusión se realizare por medios telefónicos, y de prisión de uno a tres años cuando se realizare a través de Internet"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar a la comisión de los delitos previstos en este capítulo y en los capítulos II y IV del presente título será castigada con la pena de multa de seis a doce meses o pena de prisión de uno a tres años.",
+      "justificacion": "Art. 189 bis, párrafo primero, CP."
+    },
+    {
+      "concepto_id": "CP-189bis-retirada",
+      "articulo": "art. 189 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 189 bis del Código Penal, ¿en qué caso ordenarán las autoridades judiciales el bloqueo de los contenidos y de los servicios que los ofrezcan?",
+      "opciones": [
+        "cuando los contenidos hubieran sido difundidos a través de servicios de mensajería instantánea o de redes sociales que no dispusieren de establecimiento permanente en territorio español",
+        "cuando radiquen en el extranjero",
+        "cuando la retirada de los contenidos o la interrupción de los servicios no hubiera resultado posible pese a los requerimientos dirigidos previamente a los prestadores responsables",
+        "cuando los contenidos promovieren, fomentaren o incitaren a la comisión de delitos castigados con pena de prisión superior a cinco años conforme al presente capítulo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las autoridades judiciales ordenarán la adopción de las medidas necesarias para la retirada de los contenidos a los que se refiere el párrafo anterior, para la interrupción de los servicios que ofrezcan predominantemente dichos contenidos o para el bloqueo de unos y otros cuando radiquen en el extranjero.",
+      "justificacion": "Art. 189 bis, párrafo segundo, CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-197-1-pena",
+      "destino": "CP-197-1-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "La pena del apartado 1 corresponde al tipo básico definido en ese mismo apartado."
+    },
+    {
+      "origen": "CP-197-2-datos",
+      "destino": "CP-197-1-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "El apartado 2 extiende las penas del tipo básico a la modalidad sobre datos registrados en ficheros."
+    },
+    {
+      "origen": "CP-197-2-acceso",
+      "destino": "CP-197-2-datos",
+      "tipo": "desarrolla",
+      "justificacion": "El párrafo segundo del apartado 2 añade el mero acceso no autorizado a los datos del párrafo primero."
+    },
+    {
+      "origen": "CP-197-3-difusion",
+      "destino": "CP-197-1-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "La difusión agrava la conducta de descubrimiento de los apartados anteriores."
+    },
+    {
+      "origen": "CP-197-3-receptor",
+      "destino": "CP-197-3-difusion",
+      "tipo": "limita",
+      "justificacion": "Atenúa la pena de la difusión cuando el autor no participó en el descubrimiento previo."
+    },
+    {
+      "origen": "CP-197-4-agravado",
+      "destino": "CP-197-1-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Cualifica por el sujeto los hechos de los apartados 1 y 2."
+    },
+    {
+      "origen": "CP-197-4-difundidos",
+      "destino": "CP-197-4-agravado",
+      "tipo": "desarrolla",
+      "justificacion": "Añade una segunda agravación dentro del propio apartado 4."
+    },
+    {
+      "origen": "CP-197-5-sensibles",
+      "destino": "CP-197-1-tipo",
+      "tipo": "desarrolla",
+      "justificacion": "Agrava las penas de los apartados anteriores por la naturaleza del dato o la condición de la víctima."
+    },
+    {
+      "origen": "CP-197-6-lucro",
+      "destino": "CP-197-5-sensibles",
+      "tipo": "desarrolla",
+      "justificacion": "El apartado 6 se remite al catálogo de datos del apartado 5 para fijar el marco de cuatro a siete años."
+    },
+    {
+      "origen": "CP-197-7-imagenes",
+      "destino": "CP-197-1-tipo",
+      "tipo": "limita",
+      "justificacion": "Delimita un tipo autónomo y más leve para las imágenes obtenidas con anuencia, fuera del descubrimiento del apartado 1."
+    },
+    {
+      "origen": "CP-197-7-receptor",
+      "destino": "CP-197-7-imagenes",
+      "tipo": "desarrolla",
+      "justificacion": "Extiende el tipo a quien reenvía las imágenes recibidas."
+    },
+    {
+      "origen": "CP-197-7-agravado",
+      "destino": "CP-197-7-imagenes",
+      "tipo": "desarrolla",
+      "justificacion": "Fija la mitad superior para los supuestos del apartado 7."
+    },
+    {
+      "origen": "CP-248-leve",
+      "destino": "CP-248-estafa",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena de la estafa por razón de la cuantía."
+    },
+    {
+      "origen": "CP-249-1a-informatica",
+      "destino": "CP-248-estafa",
+      "tipo": "desarrolla",
+      "justificacion": "Equipara a la estafa la manipulación informática que logra una transferencia no consentida."
+    },
+    {
+      "origen": "CP-249-1b-tarjetas",
+      "destino": "CP-248-estafa",
+      "tipo": "desarrolla",
+      "justificacion": "Equipara a la estafa el uso fraudulento de instrumentos de pago."
+    },
+    {
+      "origen": "CP-249-2a-dispositivos",
+      "destino": "CP-249-1a-informatica",
+      "tipo": "desarrolla",
+      "justificacion": "Adelanta la punición a los medios diseñados para cometer la estafa informática."
+    },
+    {
+      "origen": "CP-249-2b-sustraccion",
+      "destino": "CP-249-1b-tarjetas",
+      "tipo": "desarrolla",
+      "justificacion": "Castiga la obtención ilícita previa del instrumento de pago que luego se usa fraudulentamente."
+    },
+    {
+      "origen": "CP-249-3-posesion",
+      "destino": "CP-249-2b-sustraccion",
+      "tipo": "limita",
+      "justificacion": "Atenúa a la mitad inferior cuando el sujeto solo posee o distribuye el instrumento obtenido por otro."
+    },
+    {
+      "origen": "CP-250-cuantia",
+      "destino": "CP-248-estafa",
+      "tipo": "desarrolla",
+      "justificacion": "Cualifica la estafa por la cuantía o el número de afectados."
+    },
+    {
+      "origen": "CP-250-supercualificada",
+      "destino": "CP-250-cuantia",
+      "tipo": "desarrolla",
+      "justificacion": "Añade un segundo escalón de cuantía sobre la cualificación del apartado 1."
+    },
+    {
+      "origen": "CP-250-cuantia",
+      "destino": "CP-249-1a-informatica",
+      "tipo": "remite",
+      "justificacion": "Las cualificaciones del artículo 250 se aplican también a las estafas del artículo 249."
+    },
+    {
+      "origen": "CP-255-leve",
+      "destino": "CP-255-defraudacion",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por razón de la cuantía defraudada."
+    },
+    {
+      "origen": "CP-256-terminal",
+      "destino": "CP-255-defraudacion",
+      "tipo": "limita",
+      "justificacion": "Delimita su ámbito frente al artículo 255: allí se defrauda el fluido o servicio, aquí se usa el terminal ajeno."
+    },
+    {
+      "origen": "CP-256-leve",
+      "destino": "CP-256-terminal",
+      "tipo": "limita",
+      "justificacion": "Degrada la pena por razón del perjuicio causado."
+    },
+    {
+      "origen": "CP-264-agravantes",
+      "destino": "CP-264-danos",
+      "tipo": "desarrolla",
+      "justificacion": "Cualifica el tipo básico de daños informáticos."
+    },
+    {
+      "origen": "CP-264-infraestructura",
+      "destino": "CP-264-agravantes",
+      "tipo": "desarrolla",
+      "justificacion": "Define, a efectos penales, la infraestructura crítica de la circunstancia 4.ª."
+    },
+    {
+      "origen": "CP-264-extrema",
+      "destino": "CP-264-agravantes",
+      "tipo": "desarrolla",
+      "justificacion": "Permite elevar en grado la pena del apartado 2."
+    },
+    {
+      "origen": "CP-264-datos-personales",
+      "destino": "CP-264-danos",
+      "tipo": "desarrolla",
+      "justificacion": "Agrava por el medio comisivo: la suplantación mediante datos personales ajenos."
+    },
+    {
+      "origen": "CP-189bis-retirada",
+      "destino": "CP-189bis-difusion",
+      "tipo": "desarrolla",
+      "justificacion": "Establece las medidas judiciales frente a los contenidos del párrafo anterior."
+    },
+    {
+      "origen": "CP-197-1-tipo",
+      "destino": "CE-T1-021",
+      "tipo": "desarrolla",
+      "justificacion": "El tipo penal da protección al derecho a la intimidad personal y familiar garantizado por el artículo 18.1 CE."
+    },
+    {
+      "origen": "CP-197-1-tipo",
+      "destino": "CE-T1-023",
+      "tipo": "desarrolla",
+      "justificacion": "La interceptación de telecomunicaciones castigada aquí es la lesión del secreto de las comunicaciones del artículo 18.3 CE."
+    },
+    {
+      "origen": "CP-197-2-datos",
+      "destino": "CE-T1-024",
+      "tipo": "desarrolla",
+      "justificacion": "La modalidad sobre ficheros informáticos concreta el límite al uso de la informática del artículo 18.4 CE."
+    },
+    {
+      "origen": "CP-197-2-datos",
+      "destino": "LOPD7-006",
+      "tipo": "remite",
+      "justificacion": "El objeto material del tipo son datos de carácter personal, cuyo concepto define la legislación de protección de datos."
+    },
+    {
+      "origen": "CP-264-infraestructura",
+      "destino": "IC-006",
+      "tipo": "remite",
+      "justificacion": "El Código Penal fija su propia definición a efectos penales, que debe contrastarse con la de la legislación de protección de infraestructuras críticas."
+    },
+    {
+      "origen": "CP-249-1a-informatica",
+      "destino": "CIBER-010",
+      "tipo": "remite",
+      "justificacion": "El phishing es la técnica con la que habitualmente se consuma la estafa informática."
+    },
+    {
+      "origen": "CP-264-danos",
+      "destino": "CIBER-012",
+      "tipo": "remite",
+      "justificacion": "El cifrado de datos por ransomware encaja en la conducta de hacer inaccesibles datos informáticos ajenos."
+    }
+  ]
+}
