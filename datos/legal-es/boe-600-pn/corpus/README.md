@@ -51,6 +51,22 @@ python3 adaptadores/legal-es/ingestor.py --indice <este_directorio>             
 - **Las fuentes no-BOE** (temas 27-41: `CIBER`, `GRAM`, `SO`, `DROGA`, `GLOB`, `ORTO`, `REDES`…). Nunca tendrán corpus: su fidelidad depende de `verificar-fuente` y de revisión humana.
 - El Código es una **recopilación con inclusiones parciales**: varios títulos llevan `[Inclusión parcial]` y no traen todos los artículos de la norma. El propio Código avisa de que «NO constituye la totalidad del contenido de los temarios». Que un artículo no esté aquí no significa que no exista: significa que el Código no lo incluye.
 
+## Secciones ampliadas con el texto consolidado (excepciones declaradas)
+
+Cuando una inclusión parcial deja fuera algo que el temario **sí** exige, la sección se
+sustituye por el **texto consolidado íntegro** de esa misma norma, descargado de boe.es. Es la
+única forma de fundamentar el tema sin inventar, y no rompe nada: el consolidado contiene todo
+lo que traía el Código. Cada excepción se declara aquí y en el campo `meta.fuente` del fichero.
+
+| § | Norma | Motivo | Efecto |
+|---|-------|--------|--------|
+| 37 | LECrim (BOE-A-1882-6036) | El Código llegaba al art. 328 y no traía el bloque **588 bis a – 588 octies**, que es «la prueba digital en el proceso penal» del Tema 20 | 121 → **1.037 artículos**. De los 121 originales, 116 con texto idéntico y 5 que solo pierden el marcador `[ . . . ]` de la inclusión parcial |
+
+Antes de sustituir una sección hay que comprobar dos cosas, en este orden: que el consolidado
+**contiene los artículos que ya traía el Código** y con el mismo texto, y que `auditar-corpus.mjs`
+sobre el banco entero **no empeora ningún contador que bloquee**. Si el texto cambiara, cotejos ya
+verificados podrían dejar de ser literales sin que nadie se entere.
+
 ## Quién lo usa
 
 `adaptadores/legal-es/generador/auditar-corpus.mjs` contrasta contra este corpus los cotejos de todos los lotes, para detectar citas truncadas, contaminación entre artículos y texto que no esté en la norma.

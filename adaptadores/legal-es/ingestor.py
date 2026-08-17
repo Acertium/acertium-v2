@@ -65,6 +65,16 @@ def es_pie(linea):
         return True
     if st in ("EJECUTIVA", "ESCALAS BÁSICA Y EJECUTIVA"):
         return True
+    # Pie del formato «Legislación Consolidada» del BOE (el de una norma suelta
+    # descargada de boe.es, distinto del Código 600). Son tres líneas sueltas que
+    # se repiten en cada página; sin descartarlas se cuelan DENTRO del texto del
+    # artículo que atraviesa el salto de página y el cotejo literal deja de
+    # coincidir. (17/08/2026: 665 líneas en la LECrim consolidada, que ensuciaban
+    # 32 de los 121 artículos que el Código 600 ya traía.)
+    if st in ("BOLETÍN OFICIAL DEL ESTADO", "LEGISLACIÓN CONSOLIDADA"):
+        return True
+    if re.fullmatch(r'Página\s+\d+', st):
+        return True
     if re.match(r'^§\s*\d+', st):          # cabecera de sección corrida
         return True
     if re.fullmatch(r'[–\-]\s*\d+\s*[–\-]', st):   # número de página
@@ -166,9 +176,18 @@ def parsear(raw):
     # activarlo hacía que una línea que empieza por "artículo 149." en mitad de
     # una frase se tomara por cabecera (la Ley 31/1995 arrancaba en el art. 149).
     SUFIJOS = "bis|ter|quater|quáter|quinquies|sexies|septies|octies|nonies|decies"
+    # La LETRA final ("Artículo 588 bis a.", "Artículo 588 ter m.") es la forma
+    # que usa la LECrim para los capítulos añadidos en bloque: un mismo número
+    # con sufijo se subdivide de la a) a la m). Sin capturarla, la cabecera no
+    # casaba, el artículo no hacía flush y su texto se acumulaba dentro del
+    # ANTERIOR — la misma contaminación silenciosa que los bis/ter de agosto.
+    # (17/08/2026: 43 artículos afectados en la LECrim consolidada, entre ellos
+    # TODO el bloque 588 bis a – 588 octies, que es la prueba digital del T20.)
+    # Solo se admite la letra DETRÁS de un sufijo, que es como aparece siempre;
+    # admitirla suelta abriría la puerta a falsos positivos.
     re_art = re.compile(
         r'^Artículo\s+([A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+(?:\s+y\s+[A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+)?)'
-        r'(?:\s+(' + SUFIJOS + r'))?\.')
+        r'(?:\s+(' + SUFIJOS + r')(?:\s+([a-z]))?)?\.')
     re_stop = re.compile(r'^(TÍTULO|CAPÍTULO|Sección|SECCIÓN|Disposición|PREÁMBULO|ANEXO)')
     # "Artículo único." es cabecera real, pero "único" no es un número, así que
     # `palabra_a_numero` lo rechazaba y su texto se acumulaba en el artículo
@@ -178,7 +197,7 @@ def parsear(raw):
     # documento con los artículos 1, 2, 3… del reglamento aprobado y numerarlo
     # como 1 chocaría con el suyo. Se identifica por `ref`.
     re_unico = re.compile(r'^Artículo\s+único\.', re.IGNORECASE)
-    arts, cur, cur_suf, cur_rub, buf = [], None, None, None, []
+    arts, cur, cur_suf, cur_let, cur_rub, buf = [], None, None, None, None, []
 
     def flush():
         if cur is not None:
@@ -186,11 +205,16 @@ def parsear(raw):
             # versionados y con quien indexe por número). `ref` es la cita
             # canónica del artículo, que es lo que debe usar el generador.
             unico = cur == "único"
+            ref = "único" if unico else str(cur)
+            if not unico and cur_suf:
+                ref += f" {cur_suf}" + (f" {cur_let}" if cur_let else "")
             art = {"numero": None if unico else cur,
-                   "ref": "único" if unico else (f"{cur} {cur_suf}" if cur_suf else str(cur)),
+                   "ref": ref,
                    "texto": re.sub(r'\s+', ' ', " ".join(buf)).strip()}
             if cur_suf:
                 art["sufijo"] = cur_suf
+            if cur_let:
+                art["letra"] = cur_let
             if cur_rub:
                 art["rubrica"] = cur_rub
             arts.append(art)
@@ -204,6 +228,7 @@ def parsear(raw):
             flush()
             cur = num
             cur_suf = None if mu else ((m.group(2) or "").lower() or None)
+            cur_let = None if mu else ((m.group(3) or "").lower() or None)
             # La RÚBRICA (el título del artículo) va en la MISMA línea que la
             # cabecera: "Artículo 53. Requisitos para la obtención...". Antes se
             # descartaba con el resto de la línea, así que el corpus no la tenía
@@ -214,7 +239,7 @@ def parsear(raw):
             cur_rub = s[(mu or m).end():].strip() or None
             buf = [cur_rub] if cur_rub else []
         elif re_stop.match(s):
-            flush(); cur = None; cur_suf = None; cur_rub = None; buf = []
+            flush(); cur = None; cur_suf = None; cur_let = None; cur_rub = None; buf = []
         elif cur is not None:
             buf.append(l)
     flush()

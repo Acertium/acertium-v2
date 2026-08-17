@@ -102,8 +102,14 @@ const RE_NO_ARTICULO = /^\s*(d\.?\s?[atdf]\.?(\s|\d|$)|disp\.|disposici[oó]n|pr
 function refDe(articulo) {
   const s = String(articulo ?? "");
   if (RE_NO_ARTICULO.test(s)) return null;
-  const m = s.match(new RegExp(`(\\d+)(?:\\s+(${SUF}))?`, "i"));
-  if (m) return m[2] ? `${m[1]} ${m[2].toLowerCase()}` : m[1];
+  // La LETRA final ("art. 588 bis a") solo se admite detrás de un sufijo y como
+  // palabra suelta: el `\b` impide que "art. 264 ter del Código" capture la "d"
+  // de "del" y acabe buscando un inexistente "264 ter d".
+  const m = s.match(new RegExp(`(\\d+)(?:\\s+(${SUF})(?:\\s+([a-z])\\b)?)?`, "i"));
+  if (m)
+    return m[2]
+      ? `${m[1]} ${m[2].toLowerCase()}` + (m[3] ? ` ${m[3].toLowerCase()}` : "")
+      : m[1];
   const p = s.toLowerCase().match(/\b([a-záéíóú]+)\b\s*$/);
   return p && ORDINAL[p[1]] ? String(ORDINAL[p[1]]) : null;
 }
