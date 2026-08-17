@@ -394,10 +394,10 @@
     },
     {
       "seccion": 51,
-      "titulo": "Real Decreto 2822/1998, de 23 de diciembre, por el que se aprueba el Reglamento General de Vehículos. [Inclusión parcial]",
+      "titulo": "Real Decreto 2822/1998, de 23 de diciembre, por el que se aprueba el Reglamento General de Vehículos.",
       "referencia_boe": "BOE-A-1999-1826",
-      "ultima_modificacion": "30 de enero de 2026",
-      "articulos": 3,
+      "ultima_modificacion": "26 de junio de 2026",
+      "articulos": 54,
       "fichero": "seccion-051.json"
     },
     {
@@ -431,6 +431,22 @@
       "ultima_modificacion": null,
       "articulos": 48,
       "fichero": "seccion-055.json"
+    },
+    {
+      "seccion": 56,
+      "titulo": "Real Decreto 773/1997, de 30 de mayo, sobre disposiciones mínimas de seguridad y salud relativas a la utilización por los trabajadores de equipos de protección individual.",
+      "referencia_boe": "BOE-A-1997-12735",
+      "ultima_modificacion": "8 de diciembre de 2021",
+      "articulos": 10,
+      "fichero": "seccion-056.json"
+    },
+    {
+      "seccion": 57,
+      "titulo": "Real Decreto 1215/1997, de 18 de julio, por el que se establecen las disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo.",
+      "referencia_boe": "BOE-A-1997-17824",
+      "ultima_modificacion": "13 de noviembre de 2004",
+      "articulos": 6,
+      "fichero": "seccion-057.json"
     }
   ]
 }

@@ -582,5 +582,21 @@
     "temas": [
       "Tema 38 — Fundamentos de sistemas operativos: funciones de un sistema operativo; tipologías (MS-DOS, UNIX, Linux, Windows, MAC OS); sistemas operativos móviles (iOS, Android); sistemas de almacenamiento; sistemas de archivos"
     ]
+  },
+  "EPI": {
+    "materia": "rd-773-1997-epi",
+    "norma": "Real Decreto 773/1997, sobre utilización por los trabajadores de equipos de protección individual",
+    "referencia_boe": "BOE-A-1997-12735",
+    "temas": [
+      "Tema 45 — Prevención de riesgos laborales en seguridad vial: factores del tráfico, riesgos laborales en la conducción de vehículos prioritarios y equipos de protección individual"
+    ]
+  },
+  "EQT": {
+    "materia": "rd-1215-1997-equipos-trabajo",
+    "norma": "Real Decreto 1215/1997, sobre utilización por los trabajadores de los equipos de trabajo",
+    "referencia_boe": "BOE-A-1997-17824",
+    "temas": [
+      "Tema 45 — Prevención de riesgos laborales en seguridad vial: factores del tráfico, riesgos laborales en la conducción de vehículos prioritarios y equipos de protección individual"
+    ]
   }
 }

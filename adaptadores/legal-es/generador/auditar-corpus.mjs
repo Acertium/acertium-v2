@@ -71,10 +71,10 @@ const SECCION = {
   CP: 35, LOPJ: 36, LEC: 37, HC: 38, MF: 39, VIC: 40, VG: 41, IG: 42,
   LGTBI: 43, PRL: 44, PRLP: 45, PRLAGE: 46, LOPD: 47, LOPD7: 48, RDP: 49,
   ARM: 50, RGV: 51, TRAF: 52, VCD: 53,
-  // §54 y §55 NO son secciones del Código 600: son normas que el temario cita por
-  // su nombre y que la recopilación no incluye, ingeridas aparte desde su texto
-  // consolidado. Ver "Secciones que no vienen del Código 600" en corpus/README.md.
-  RSP: 54, DEP: 55,
+  // §54 a §57 NO son secciones del Código 600: son normas que el temario necesita y
+  // que la recopilación no incluye, ingeridas aparte desde su texto consolidado.
+  // Ver "Secciones que no vienen del Código 600" en corpus/README.md.
+  RSP: 54, DEP: 55, EPI: 56, EQT: 57,
 };
 
 // Normalización CONSERVADORA: unifica comillas/guiones tipográficos y espacios.

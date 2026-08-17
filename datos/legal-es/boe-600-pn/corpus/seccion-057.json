@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "seccion": 57,
+    "titulo": "Real Decreto 1215/1997, de 18 de julio, por el que se establecen las disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo.",
+    "referencia_boe": "BOE-A-1997-17824",
+    "publicacion": "«BOE» núm. 188, de 7 de agosto de 1997",
+    "ultima_modificacion": "13 de noviembre de 2004",
+    "fuente": "texto consolidado íntegro de boe.es (BOE-A-1997-17824), aportado el 17/08/2026. NO es una sección del Código 600: se añade para el Tema 45 (el vehículo prioritario como equipo de trabajo)."
+  },
+  "articulos": [
+    {
+      "numero": 1,
+      "ref": "1",
+      "texto": "Objeto. 1. El presente Real Decreto establece, en el marco de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, las disposiciones mínimas de segu ridad y salud para la utilización de los equipos de trabajo empleados por los trabajadores en el trabajo. 2. Las disposiciones del Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención, se aplicarán plenamente al conjunto del ámbito contemplado en el apartado anterior, sin perjuicio de las disposiciones específicas contenidas en el presente Real Decreto.",
+      "rubrica": "Objeto."
+    },
+    {
+      "numero": 2,
+      "ref": "2",
+      "texto": "Definiciones. A efectos del presente Real Decreto se entenderá por: a) Equipo de trabajo: cualquier máquina, aparato, instrumento o instalación utilizado en el trabajo. b) Utilización de un equipo de trabajo: cualquier actividad referida a un equipo de trabajo, tal como la puesta en marcha o la detención, el empleo, el transporte, la reparación, la transformación, el mantenimiento y la conservación, incluida, en particular, la limpieza. c) Zona peligrosa: cualquier zona situada en el interior o alrededor de un equipo de trabajo en la que la presencia de un trabajador expuesto entrañe un riesgo para su seguridad o para su salud. d) Trabajador expuesto: cualquier trabajador que se encuentre total o parcialmente en una zona peligrosa. e) Operador del equipo: el trabajador encargado de la utilización de un equipo de trabajo.",
+      "rubrica": "Definiciones."
+    },
+    {
+      "numero": 3,
+      "ref": "3",
+      "texto": "Obligaciones generales del empresario. 1. El empresario adoptará las medidas necesarias para que los equipos de trabajo que se pongan a disposición de los trabajadores sean adecuados al trabajo que deba realizarse y convenientemente adaptados al mismo, de forma que garanticen la seguridad y la salud de los trabajadores al utilizar dichos equipos de trabajo. Cuando no sea posible garantizar de este modo totalmente la seguridad y la salud de los trabajadores durante la utilización de los equipos de trabajo, el empresario tomará las medidas adecuadas para reducir tales riesgos al mínimo. En cualquier caso, el empresario deberá utilizar únicamente equipos que satisfagan: a) Cualquier disposición legal o reglamentaria que les sea de aplicación. b) Las condiciones generales previstas en el anexo I de este Real Decreto. 2. Para la elección de los equipos de trabajo el empresario deberá tener en cuenta los siguientes factores: a) Las condiciones y características específicas del trabajo a desarrollar. b) Los riesgos existentes para la seguridad y salud de los trabajadores en el lugar de trabajo y, en particular, en los puestos de trabajo, así como los riesgos que puedan derivarse de la presencia o utilización de dichos equipos o agravarse por ellos. c) En su caso, las adaptaciones necesarias para su utilización por trabajadores discapacitados. 3. Para la aplicación de las disposiciones mínimas de seguridad y salud previstas en el presente Real Decreto, el empresario tendrá en cuenta los principios ergonómicos, especialmente en cuanto al diseño del puesto de trabajo y la posición de los trabajadores durante la utilización del equipo de trabajo. 4. La utilización de los equipos de trabajo deberá cumplir las condiciones generales establecidas en el anexo II del presente Real Decreto. Cuando, a fin de evitar o controlar un riesgo específico para la seguridad o salud de los trabajadores, la utilización de un equipo de trabajo deba realizarse en condiciones o formas determinadas, que requieran un particular conocimiento por parte de aquéllos, el empresario adoptará las medidas necesarias para que la utilización de dicho equipo quede reservada a los trabajadores designados para ello. 5. El empresario adoptará las medidas necesarias para que, mediante un mantenimiento adecuado, los equipos de trabajo se conserven durante todo el tiempo de utilización en unas condiciones tales que satisfagan las disposiciones del segundo párrafo del apartado 1. Dicho mantenimiento se realizará teniendo en cuenta las instrucciones del fabricante o, en su defecto, las características de estos equipos, sus condiciones de utilización y cualquier otra circunstancia normal o excepcional que pueda influir en su deterioro o desajuste. Las operaciones de mantenimiento, reparación o transformación de los equipos de trabajo cuya realización suponga un riesgo específico para los trabajadores sólo podrán ser encomendadas al personal especialmente capacitado para ello.",
+      "rubrica": "Obligaciones generales del empresario."
+    },
+    {
+      "numero": 4,
+      "ref": "4",
+      "texto": "Comprobación de los equipos de trabajo. 1. El empresario adoptará las medidas necesarias para que aquellos equipos de trabajo cuya seguridad dependa de sus condiciones de instalación se sometan a una comprobación inicial, tras su instalación y antes de la puesta en marcha por primera vez, y a una nueva comprobación después de cada montaje en un nuevo lugar o emplazamiento, con objeto de asegurar la correcta instalación y el buen funcionamiento de los equipos. 2. El empresario adoptará las medidas necesarias para que aquellos equipos de trabajo sometidos a influencias susceptibles de ocasionar deterioros que puedan generar situaciones peligrosas estén sujetos a comprobaciones y, en su caso, pruebas de carácter periódico, con objeto de asegurar el cumplimiento de las disposiciones de seguridad y de salud y de remediar a tiempo dichos deterioros. Igualmente, se deberán realizar comprobaciones adicionales de tales equipos cada vez que se produzcan acontecimientos excepcionales, tales como transformaciones, accidentes, fenómenos naturales o falta prolongada de uso, que puedan tener consecuencias perjudiciales para la seguridad. 3. Las comprobaciones serán efectuadas por personal competente. 4. Los resultados de las comprobaciones deberán documentarse y estar a disposición de la autoridad laboral. Dichos resultados deberán conservarse durante toda la vida útil de los equipos. Cuando los equipos de trabajo se empleen fuera de la empresa, deberán ir acompañados de una prueba material de la realización de la última comprobación. 5. Los requisitos y condiciones de las comprobaciones de los equipos de trabajo se ajustarán a lo dispuesto en la normativa específica que les sea de aplicación.",
+      "rubrica": "Comprobación de los equipos de trabajo."
+    },
+    {
+      "numero": 5,
+      "ref": "5",
+      "texto": "Obligaciones en materia de formación e información. 1. De conformidad con los artículos 18 y 19 de la Ley de Prevención de Riesgos Laborales, el empresario deberá garantizar que los trabajadores y los representantes de los trabajadores reciban una formación e información adecuadas sobre los riesgos derivados de la utilización de los equipos de trabajo, así como sobre las medidas de prevención y protección que hayan de adoptarse en aplicación del presente Real Decreto. 2. La información, suministrada preferentemente por escrito, deberá contener, como mínimo, las indicaciones relativas a: a) Las condiciones y forma correcta de utilización de los equipos de trabajo, teniendo en cuenta las instrucciones del fabricante, así como las situaciones o formas de utilización anormales y peligrosas que puedan preverse. b) Las conclusiones que, en su caso, se puedan obtener de la experiencia adquirida en la utilización de los equipos de trabajo. c) Cualquier otra información de utilidad preventiva. La información deberá ser comprensible para los trabajadores a los que va dirigida e incluir o presentarse en forma de folletos informativos cuando sea necesario por su volumen o complejidad o por la utilización poco frecuente del equipo. La documentación informativa facilitada por el fabricante estará a disposición de los trabajadores. 3. Igualmente, se informará a los trabajadores sobre la necesidad de prestar atención a los riesgos derivados de los equipos de trabajo presentes en su entorno de trabajo inmediato, o de las modificaciones introducidas en los mismos, aun cuando no los utilicen directamente. 4. Los trabajadores a los que se refieren los apartados 4 y 5 del artículo 3 de este Real Decreto deberán recibir una formación específica adecuada.",
+      "rubrica": "Obligaciones en materia de formación e información."
+    },
+    {
+      "numero": 6,
+      "ref": "6",
+      "texto": "Consulta y participación de los trabajadores. La consulta y participación de los trabajadores o sus representantes sobre las cuestiones a las que se refiere este Real Decreto se realizarán de conformidad con lo dispuesto en el apartado 2 del artículo 18 de la Ley de Prevención de Riesgos Laborales.",
+      "rubrica": "Consulta y participación de los trabajadores."
+    }
+  ]
+}
