@@ -70,10 +70,24 @@
        156 bis/ter/quater/quinquies y 157-162 (lesiones al feto y manipulación genética).
      El tema se reetiquetó al enunciado oficial: antes decía solo «homicidio, aborto y lesiones».
      Fuera del tema a propósito: el **195** (omisión del deber de socorro), que es de otro título.
-   - **T24** — **PARCIALMENTE HECHO**: 7 conceptos. Falta el remate doctrinal (concepto de trabajo y
-     concepto de salud); necesita fuente de autoridad tipo INSST/OMS, no sale de la Ley 31/1995.
-     Sí están ya cubiertos por corpus: *consecuencia de los riesgos* = art. 4.3 LPRL («daños derivados
-     del trabajo») y las cuatro disciplinas preventivas = art. 8 c) RD 67/2010.
+   - **T24** — **PARCIALMENTE HECHO**: 18 conceptos (17/08/2026). **Agotado todo lo que se puede
+     fundamentar en BOE**; lo que falta no tiene fuente en el corpus.
+     - `prl-t24-accion-preventiva.json` (11) cierra el epígrafe *principios generales de la actividad
+       preventiva*: el art. 15 LPRL entero, con los nueve principios de la lista y los apartados 2 a
+       5 (capacidades profesionales, acceso a zonas de riesgo grave y específico, previsión de
+       distracciones e imprudencias no temerarias, riesgos adicionales de las propias medidas y
+       operaciones de seguro). Antes solo había dos conceptos sobre ese artículo.
+     - Ya estaban cubiertos por corpus: *riesgo laboral* (art. 4.2), *daños derivados del trabajo* =
+       consecuencia de los riesgos (art. 4.3), *condición de trabajo* (art. 4.7), *prevención*
+       (art. 4.1) y *procesos potencialmente peligrosos* (art. 4.5).
+     - Las **cuatro disciplinas preventivas** (art. 8 c) RD 67/2010) **ya están cargadas**, pero en
+       el **T25** (`PRLAGE-023`), que es donde el temario sitúa esa norma. No se duplican aquí: un
+       concepto vive en un solo tema.
+     - **Lo único que falta** son los tres epígrafes doctrinales —*concepto general de trabajo*,
+       *concepto de salud* y *el trabajo y la salud*—, que no salen de ninguna norma del corpus.
+       Necesitan una fuente de **autoridad** (INSST para el concepto de trabajo, OMS para el de
+       salud) con cita literal, conforme a `docs/contrato-fuentes-no-boe.md`. El contenedor no tiene
+       salida a insst.es ni a who.int (403), así que hay que aportar el PDF.
    - **T45** — PRL en seguridad vial (factores del tráfico, factor humano/ambiental/vehículo, EPI).
      Fuente probable **no-BOE** (autoridad/consenso). Pendiente entero.
 

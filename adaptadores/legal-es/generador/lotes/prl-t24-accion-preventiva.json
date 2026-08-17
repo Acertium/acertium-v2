@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "materia": "ley-31-1995-prl",
+    "norma": "Ley 31/1995, de Prevención de Riesgos Laborales",
+    "referencia_boe": "BOE-A-1995-24292",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
+  },
+  "fuentes": {
+    "art. 15": "Principios de la acción preventiva. 1. El empresario aplicará las medidas que integran el deber general de prevención previsto en el artículo anterior, con arreglo a los siguientes principios generales: a) Evitar los riesgos. b) Evaluar los riesgos que no se puedan evitar. c) Combatir los riesgos en su origen. d) Adaptar el trabajo a la persona, en particular en lo que respecta a la concepción de los puestos de trabajo, así como a la elección de los equipos y los métodos de trabajo y de producción, con miras, en particular, a atenuar el trabajo monótono y repetitivo y a reducir los efectos del mismo en la salud. e) Tener en cuenta la evolución de la técnica. f) Sustituir lo peligroso por lo que entrañe poco o ningún peligro. g) Planificar la prevención, buscando un conjunto coherente que integre en ella la técnica, la organización del trabajo, las condiciones de trabajo, las relaciones sociales y la influencia de los factores ambientales en el trabajo. h) Adoptar medidas que antepongan la protección colectiva a la individual. i) Dar las debidas instrucciones a los trabajadores. 2. El empresario tomará en consideración las capacidades profesionales de los trabajadores en materia de seguridad y de salud en el momento de encomendarles las tareas. 3. El empresario adoptará las medidas necesarias a fin de garantizar que sólo los trabajadores que hayan recibido información suficiente y adecuada puedan acceder a las zonas de riesgo grave y específico. 4. La efectividad de las medidas preventivas deberá prever las distracciones o imprudencias no temerarias que pudiera cometer el trabajador. Para su adopción se tendrán en cuenta los riesgos adicionales que pudieran implicar determinadas medidas preventivas, las cuales sólo podrán adoptarse cuando la magnitud de dichos riesgos sea sustancialmente inferior a la de los que se pretende controlar y no existan alternativas más seguras. 5. Podrán concertar operaciones de seguro que tengan como fin garantizar como ámbito de cobertura la previsión de riesgos derivados del trabajo, la empresa respecto de sus trabajadores, los trabajadores autónomos respecto a ellos mismos y las sociedades cooperativas respecto a sus socios cuya actividad consista en la prestación de su trabajo personal."
+  },
+  "conceptos": [
+    {
+      "id": "PRL-035",
+      "articulo": "art. 15",
+      "titulo": "Evitar y evaluar: los dos primeros principios",
+      "resumen": "Los dos primeros principios generales de la acción preventiva son, por este orden, evitar los riesgos y evaluar los riesgos que no se puedan evitar.",
+      "explicacion": "El orden importa: primero se evita; solo lo que no se puede evitar se evalúa."
+    },
+    {
+      "id": "PRL-036",
+      "articulo": "art. 15",
+      "titulo": "Adaptar el trabajo a la persona",
+      "resumen": "El empresario debe adaptar el trabajo a la persona, en particular en la concepción de los puestos de trabajo y en la elección de los equipos y los métodos de trabajo y de producción, con miras a atenuar el trabajo monótono y repetitivo y a reducir sus efectos en la salud.",
+      "explicacion": "Es el principio que da entrada a la ergonomía: se adapta el puesto al trabajador, no al revés."
+    },
+    {
+      "id": "PRL-037",
+      "articulo": "art. 15",
+      "titulo": "Tener en cuenta la evolución de la técnica",
+      "resumen": "Entre los principios generales de la acción preventiva figura tener en cuenta la evolución de la técnica.",
+      "explicacion": "Obliga a revisar lo ya implantado: lo que era suficiente hace años puede no serlo hoy."
+    },
+    {
+      "id": "PRL-038",
+      "articulo": "art. 15",
+      "titulo": "Sustituir lo peligroso",
+      "resumen": "Entre los principios generales de la acción preventiva figura sustituir lo peligroso por lo que entrañe poco o ningún peligro.",
+      "explicacion": "No exige eliminar todo peligro: basta con rebajarlo sustituyendo lo peligroso."
+    },
+    {
+      "id": "PRL-039",
+      "articulo": "art. 15",
+      "titulo": "Planificar la prevención",
+      "resumen": "Planificar la prevención buscando un conjunto coherente que integre en ella la técnica, la organización del trabajo, las condiciones de trabajo, las relaciones sociales y la influencia de los factores ambientales en el trabajo.",
+      "explicacion": "Cinco elementos que hay que integrar; las relaciones sociales y los factores ambientales son los que más se olvidan."
+    },
+    {
+      "id": "PRL-040",
+      "articulo": "art. 15",
+      "titulo": "Dar las debidas instrucciones a los trabajadores",
+      "resumen": "El último de los principios generales de la acción preventiva es dar las debidas instrucciones a los trabajadores.",
+      "explicacion": "Cierra la lista de principios y es el más breve de todos ellos."
+    },
+    {
+      "id": "PRL-041",
+      "articulo": "art. 15",
+      "titulo": "Capacidades profesionales al encomendar tareas",
+      "resumen": "El empresario toma en consideración las capacidades profesionales de los trabajadores en materia de seguridad y de salud en el momento de encomendarles las tareas.",
+      "explicacion": "El momento es el de encomendar la tarea, no el de contratar."
+    },
+    {
+      "id": "PRL-042",
+      "articulo": "art. 15",
+      "titulo": "Acceso a las zonas de riesgo grave y específico",
+      "resumen": "El empresario adopta las medidas necesarias para garantizar que solo los trabajadores que hayan recibido información suficiente y adecuada puedan acceder a las zonas de riesgo grave y específico.",
+      "explicacion": "El filtro es la información recibida, no la formación acreditada ni el reconocimiento médico."
+    },
+    {
+      "id": "PRL-043",
+      "articulo": "art. 15",
+      "titulo": "Previsión de distracciones e imprudencias no temerarias",
+      "resumen": "La efectividad de las medidas preventivas deberá prever las distracciones o imprudencias no temerarias que pudiera cometer el trabajador.",
+      "explicacion": "La imprudencia temeraria queda fuera: la medida no tiene que resistirlo todo."
+    },
+    {
+      "id": "PRL-044",
+      "articulo": "art. 15",
+      "titulo": "Riesgos adicionales de las propias medidas preventivas",
+      "resumen": "Para adoptar una medida preventiva se tienen en cuenta los riesgos adicionales que pudiera implicar; solo puede adoptarse cuando la magnitud de esos riesgos sea sustancialmente inferior a la de los que se pretende controlar y no existan alternativas más seguras.",
+      "explicacion": "Dos requisitos acumulativos: riesgo sustancialmente inferior y ausencia de alternativa más segura."
+    },
+    {
+      "id": "PRL-045",
+      "articulo": "art. 15",
+      "titulo": "Operaciones de seguro sobre los riesgos del trabajo",
+      "resumen": "Pueden concertar operaciones de seguro que garanticen como ámbito de cobertura la previsión de riesgos derivados del trabajo la empresa respecto de sus trabajadores, los trabajadores autónomos respecto a ellos mismos y las sociedades cooperativas respecto a sus socios cuya actividad consista en la prestación de su trabajo personal.",
+      "explicacion": "Tres sujetos, y el de las cooperativas lleva un matiz: solo los socios que aportan trabajo personal."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "PRL-035",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "¿Cuáles son, por este orden, los dos primeros principios generales de la acción preventiva del artículo 15.1 de la Ley 31/1995?",
+      "opciones": [
+        "a) Evitar los riesgos. b) Evaluar los riesgos que no se puedan evitar.",
+        "a) Evaluar los riesgos del puesto de trabajo. b) Evitar aquellos riesgos que no se puedan evaluar previamente.",
+        "a) Combatir los riesgos en su origen. b) Evitar los riesgos que no se puedan combatir de esa manera.",
+        "a) Evaluar todos los riesgos de la empresa. b) Planificar la prevención de los que resulten inevitables."
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Evitar los riesgos. b) Evaluar los riesgos que no se puedan evitar.",
+      "justificacion": "Art. 15.1 a) y b) LPRL."
+    },
+    {
+      "concepto_id": "PRL-036",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "El principio de adaptar el trabajo a la persona del artículo 15.1 d) de la Ley 31/1995 persigue, en particular…",
+      "opciones": [
+        "atenuar el trabajo monótono y repetitivo y a reducir los efectos del mismo en la salud",
+        "adecuar la jornada y los tiempos de descanso del trabajador a las exigencias del proceso productivo de la empresa",
+        "asignar a cada trabajador las tareas que se correspondan con su categoría profesional y con su antigüedad",
+        "sustituir lo peligroso por lo que entrañe poco o ningún peligro en la concepción de los puestos de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "d) Adaptar el trabajo a la persona, en particular en lo que respecta a la concepción de los puestos de trabajo, así como a la elección de los equipos y los métodos de trabajo y de producción, con miras, en particular, a atenuar el trabajo monótono y repetitivo y a reducir los efectos del mismo en la salud.",
+      "justificacion": "Art. 15.1 d) LPRL."
+    },
+    {
+      "concepto_id": "PRL-037",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estos es, literalmente, un principio general de la acción preventiva del artículo 15.1 de la Ley 31/1995?",
+      "opciones": [
+        "Tener en cuenta la evolución de la técnica",
+        "Tener en cuenta la evolución del sector y la situación económica de la empresa en cada momento",
+        "Tener en cuenta la antigüedad de los equipos de trabajo antes de proceder a su sustitución",
+        "Tener en cuenta la opinión de los trabajadores sobre los riesgos que perciben en su puesto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "e) Tener en cuenta la evolución de la técnica.",
+      "justificacion": "Art. 15.1 e) LPRL."
+    },
+    {
+      "concepto_id": "PRL-038",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "Según el artículo 15.1 f) de la Ley 31/1995, uno de los principios de la acción preventiva consiste en…",
+      "opciones": [
+        "Sustituir lo peligroso por lo que entrañe poco o ningún peligro",
+        "Sustituir lo peligroso únicamente por lo que no entrañe peligro alguno, sin que baste reducirlo a un nivel bajo",
+        "Eliminar del centro de trabajo todo equipo o producto que haya sido calificado como potencialmente peligroso",
+        "Sustituir al trabajador expuesto por otro que no resulte especialmente sensible al riesgo de que se trate"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "f) Sustituir lo peligroso por lo que entrañe poco o ningún peligro.",
+      "justificacion": "Art. 15.1 f) LPRL."
+    },
+    {
+      "concepto_id": "PRL-039",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "El principio de planificar la prevención del artículo 15.1 g) de la Ley 31/1995 busca un conjunto coherente que integre en ella…",
+      "opciones": [
+        "la técnica, la organización del trabajo, las condiciones de trabajo, las relaciones sociales y la influencia de los factores ambientales en el trabajo",
+        "la técnica, la organización del trabajo y las condiciones de trabajo, quedando fuera las relaciones sociales y los factores ambientales del centro",
+        "la evaluación de los riesgos, la planificación de la actividad preventiva y la vigilancia periódica del estado de salud de los trabajadores",
+        "la formación de los trabajadores, la información sobre los riesgos y las medidas de emergencia previstas en el centro de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "g) Planificar la prevención, buscando un conjunto coherente que integre en ella la técnica, la organización del trabajo, las condiciones de trabajo, las relaciones sociales y la influencia de los factores ambientales en el trabajo.",
+      "justificacion": "Art. 15.1 g) LPRL."
+    },
+    {
+      "concepto_id": "PRL-040",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "¿Con qué principio cierra el artículo 15.1 de la Ley 31/1995 la lista de principios generales de la acción preventiva?",
+      "opciones": [
+        "Dar las debidas instrucciones a los trabajadores",
+        "Dar a cada trabajador una formación teórica y práctica suficiente y adecuada en materia preventiva",
+        "Adoptar medidas que antepongan la protección colectiva a la individual en todos los puestos de trabajo",
+        "Informar a los representantes de los trabajadores de los riesgos evaluados en el centro de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "i) Dar las debidas instrucciones a los trabajadores.",
+      "justificacion": "Art. 15.1 i) LPRL."
+    },
+    {
+      "concepto_id": "PRL-041",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "Según el artículo 15.2 de la Ley 31/1995, el empresario tomará en consideración las capacidades profesionales de los trabajadores en materia de seguridad y de salud…",
+      "opciones": [
+        "en el momento de encomendarles las tareas",
+        "en el momento de su contratación y con ocasión de cada renovación de su relación laboral con la empresa",
+        "al elaborar la evaluación de riesgos y al planificar la actividad preventiva del centro de trabajo",
+        "únicamente cuando se trate de trabajadores especialmente sensibles a determinados riesgos laborales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. El empresario tomará en consideración las capacidades profesionales de los trabajadores en materia de seguridad y de salud en el momento de encomendarles las tareas.",
+      "justificacion": "Art. 15.2 LPRL."
+    },
+    {
+      "concepto_id": "PRL-042",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "¿Quiénes pueden acceder a las zonas de riesgo grave y específico, según el artículo 15.3 de la Ley 31/1995?",
+      "opciones": [
+        "sólo los trabajadores que hayan recibido información suficiente y adecuada",
+        "sólo los trabajadores que dispongan de la formación de nivel básico en prevención de riesgos laborales",
+        "sólo los trabajadores acompañados por un recurso preventivo designado expresamente por el empresario",
+        "sólo los trabajadores que hayan superado el reconocimiento médico previo a la exposición al riesgo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. El empresario adoptará las medidas necesarias a fin de garantizar que sólo los trabajadores que hayan recibido información suficiente y adecuada puedan acceder a las zonas de riesgo grave y específico.",
+      "justificacion": "Art. 15.3 LPRL."
+    },
+    {
+      "concepto_id": "PRL-043",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "Según el artículo 15.4 de la Ley 31/1995, la efectividad de las medidas preventivas deberá prever…",
+      "opciones": [
+        "las distracciones o imprudencias no temerarias que pudiera cometer el trabajador",
+        "cualquier imprudencia del trabajador, incluidas las temerarias, por grave que resulte la infracción cometida",
+        "las distracciones del trabajador únicamente cuando deriven de un trabajo monótono o repetitivo",
+        "los incumplimientos de las instrucciones recibidas que el trabajador pudiera cometer de forma deliberada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "4. La efectividad de las medidas preventivas deberá prever las distracciones o imprudencias no temerarias que pudiera cometer el trabajador.",
+      "justificacion": "Art. 15.4, inciso primero, LPRL."
+    },
+    {
+      "concepto_id": "PRL-044",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "Cuando una medida preventiva implique a su vez riesgos adicionales, el artículo 15.4 de la Ley 31/1995 permite adoptarla…",
+      "opciones": [
+        "cuando la magnitud de dichos riesgos sea sustancialmente inferior a la de los que se pretende controlar y no existan alternativas más seguras",
+        "cuando la magnitud de dichos riesgos sea inferior a la de los que se pretende controlar, aunque existan otras alternativas más seguras disponibles",
+        "cuando los trabajadores afectados hayan sido informados de esos riesgos adicionales y dispongan de los equipos de protección individual adecuados",
+        "en todo caso, siempre que la medida figure recogida en la planificación de la actividad preventiva aprobada por el empresario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Para su adopción se tendrán en cuenta los riesgos adicionales que pudieran implicar determinadas medidas preventivas, las cuales sólo podrán adoptarse cuando la magnitud de dichos riesgos sea sustancialmente inferior a la de los que se pretende controlar y no existan alternativas más seguras.",
+      "justificacion": "Art. 15.4, inciso segundo, LPRL."
+    },
+    {
+      "concepto_id": "PRL-045",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "¿Quiénes pueden concertar operaciones de seguro para garantizar la cobertura de la previsión de riesgos derivados del trabajo, según el artículo 15.5 de la Ley 31/1995?",
+      "opciones": [
+        "la empresa respecto de sus trabajadores, los trabajadores autónomos respecto a ellos mismos y las sociedades cooperativas respecto a sus socios cuya actividad consista en la prestación de su trabajo personal",
+        "únicamente la empresa respecto de sus trabajadores, quedando excluidos de esta posibilidad los trabajadores autónomos y las sociedades cooperativas",
+        "la empresa respecto de sus trabajadores y las mutuas colaboradoras con la Seguridad Social respecto de las empresas que estuvieran asociadas a ellas",
+        "la empresa, los trabajadores autónomos y las sociedades cooperativas, siempre que el seguro cubra además la responsabilidad civil frente a terceros perjudicados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "5. Podrán concertar operaciones de seguro que tengan como fin garantizar como ámbito de cobertura la previsión de riesgos derivados del trabajo, la empresa respecto de sus trabajadores, los trabajadores autónomos respecto a ellos mismos y las sociedades cooperativas respecto a sus socios cuya actividad consista en la prestación de su trabajo personal.",
+      "justificacion": "Art. 15.5 LPRL."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PRL-035",
+      "destino": "PRL-013",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-036",
+      "destino": "PRL-013",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-037",
+      "destino": "PRL-013",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-038",
+      "destino": "PRL-013",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-039",
+      "destino": "PRL-013",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-040",
+      "destino": "PRL-013",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-041",
+      "destino": "PRL-013",
+      "tipo": "limita"
+    },
+    {
+      "origen": "PRL-042",
+      "destino": "PRL-013",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-043",
+      "destino": "PRL-013",
+      "tipo": "limita"
+    },
+    {
+      "origen": "PRL-044",
+      "destino": "PRL-043",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-045",
+      "destino": "PRL-013",
+      "tipo": "limita"
+    },
+    {
+      "origen": "PRL-035",
+      "destino": "PRL-033",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-035",
+      "destino": "PRL-004",
+      "tipo": "remite"
+    },
+    {
+      "origen": "PRL-036",
+      "destino": "PRL-008",
+      "tipo": "remite"
+    },
+    {
+      "origen": "PRL-039",
+      "destino": "PRL-008",
+      "tipo": "remite"
+    },
+    {
+      "origen": "PRL-038",
+      "destino": "PRL-034",
+      "tipo": "remite"
+    },
+    {
+      "origen": "PRL-041",
+      "destino": "PRL-042",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "PRL-042",
+      "destino": "PRL-011",
+      "tipo": "remite"
+    },
+    {
+      "origen": "PRL-044",
+      "destino": "PRL-014",
+      "tipo": "limita"
+    },
+    {
+      "origen": "PRL-045",
+      "destino": "PRL-005",
+      "tipo": "remite"
+    }
+  ]
+}
