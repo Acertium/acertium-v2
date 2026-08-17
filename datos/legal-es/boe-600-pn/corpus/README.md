@@ -60,7 +60,23 @@ lo que traía el Código. Cada excepción se declara aquí y en el campo `meta.f
 
 | § | Norma | Motivo | Efecto |
 |---|-------|--------|--------|
+| 35 | Código Penal (BOE-A-1995-25444) | El Código no traía los arts. **197 bis/ter/quater/quinquies** (acceso ilícito a sistemas) ni **264 bis/ter/quater** (daños informáticos autónomos), del Tema 20 | 268 → **723 artículos**. De los 268 originales, 262 con texto idéntico y 6 que solo pierden el marcador `[ . . . ]` |
 | 37 | LECrim (BOE-A-1882-6036) | El Código llegaba al art. 328 y no traía el bloque **588 bis a – 588 octies**, que es «la prueba digital en el proceso penal» del Tema 20 | 121 → **1.037 artículos**. De los 121 originales, 116 con texto idéntico y 5 que solo pierden el marcador `[ . . . ]` de la inclusión parcial |
+
+## Secciones que no vienen del Código 600
+
+El temario cita por su nombre dos normas que la recopilación **no incluye en absoluto**. Se ingieren
+igual, desde su texto consolidado, y ocupan números de sección por encima de los 53 del Código para
+que se vea de un vistazo que no forman parte de él. Salieron de un cruce automático de todas las
+citas «Ley/LO/RD n/aaaa» del temario contra este índice: son las dos únicas que faltaban.
+
+| § | Familia | Norma | Tema |
+|---|---------|-------|------|
+| 54 | `RSP` | RD 39/1997, Reglamento de los Servicios de Prevención (BOE-A-1997-1853) | 25 |
+| 55 | `DEP` | Ley 39/2006, de promoción de la autonomía personal y atención a las personas en situación de dependencia (BOE-A-2006-21990) | 23 |
+
+`00-indice.md` **no** las lista: ese índice rastrea la cobertura de las 52 normas del Código 600 y
+`marcarCobertura()` se apoya en él. Estas viven solo aquí y en el `SECCION` de `auditar-corpus.mjs`.
 
 Antes de sustituir una sección hay que comprobar dos cosas, en este orden: que el consolidado
 **contiene los artículos que ya traía el Código** y con el mismo texto, y que `auditar-corpus.mjs`

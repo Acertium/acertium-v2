@@ -75,6 +75,15 @@ def es_pie(linea):
         return True
     if re.fullmatch(r'Página\s+\d+', st):
         return True
+    # Línea del ÍNDICE del PDF consolidado ("Artículo 1. Objeto de la Ley. . . . . . 5").
+    # Casa con la regex de cabecera, así que sin descartarla cada artículo se abría
+    # DOS veces: una con la rúbrica y los puntos suspensivos del índice y otra con el
+    # texto real. (17/08/2026: 42 duplicados en el RD 39/1997 y 48 en la Ley 39/2006;
+    # el CP y la LECrim no traen índice y por eso no estaban afectados.)
+    # Se exigen SEIS puntos para no confundirlo con el marcador «[ . . . ]» que el
+    # Código 600 usa para señalar lo que omite de una inclusión parcial.
+    if re.search(r'(?:\.\s){5}\.', st):
+        return True
     if re.match(r'^§\s*\d+', st):          # cabecera de sección corrida
         return True
     if re.fullmatch(r'[–\-]\s*\d+\s*[–\-]', st):   # número de página
@@ -243,6 +252,25 @@ def parsear(raw):
         elif cur is not None:
             buf.append(l)
     flush()
+
+    # DEDUPLICACIÓN por `ref`. Dentro de una norma un artículo aparece UNA vez; si
+    # sale dos, la de más es ruido del índice del PDF consolidado, cuyas entradas
+    # ("Artículo 1. Objeto de la Ley. . . . . 5") casan con la regex de cabecera.
+    # `es_pie` descarta las que llevan los puntos en la propia línea, pero cuando la
+    # rúbrica es larga y envuelve, los puntos caen en la línea siguiente y la entrada
+    # sobrevive. Nos quedamos con la ocurrencia de TEXTO MÁS LARGO, que es el artículo
+    # de verdad: una entrada de índice solo tiene la rúbrica.
+    # No altera las normas sin índice —el CP y la LECrim salen byte a byte iguales—
+    # porque ahí no hay ningún `ref` repetido.
+    por_ref = {}
+    for a in arts:
+        prev = por_ref.get(a["ref"])
+        if prev is None or len(a["texto"]) > len(prev["texto"]):
+            por_ref[a["ref"]] = a
+    descartados = len(arts) - len(por_ref)
+    arts = [a for a in arts if a is por_ref[a["ref"]]]
+    if descartados:
+        print(f"  · {descartados} entradas duplicadas descartadas (índice del PDF)", file=sys.stderr)
 
     return {"meta": meta, "articulos": arts}
 
