@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 20 — Delitos informáticos; especial consideración al derecho a la intimidad; la prueba digital en el proceso penal"
+  },
+  "fuentes": {
+    "art. 197 bis": "1. El que por cualquier medio o procedimiento, vulnerando las medidas de seguridad establecidas para impedirlo, y sin estar debidamente autorizado, acceda o facilite a otro el acceso al conjunto o una parte de un sistema de información o se mantenga en él en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, será castigado con pena de prisión de seis meses a dos años. 2. El que mediante la utilización de artificios o instrumentos técnicos, y sin estar debidamente autorizado, intercepte transmisiones no públicas de datos informáticos que se produzcan desde, hacia o dentro de un sistema de información, incluidas las emisiones electromagnéticas de los mismos, será castigado con una pena de prisión de tres meses a dos años o multa de tres a doce meses.",
+    "art. 197 quater": "Si los hechos descritos en este Capítulo se hubieran cometido en el seno de una organización o grupo criminal, se aplicarán respectivamente las penas superiores en grado.",
+    "art. 197 quinquies": "Cuando de acuerdo con lo establecido en el artículo 31 bis una persona jurídica sea responsable de los delitos comprendidos en los artículos 197, 197 bis y 197 ter, se le impondrá la pena de multa de seis meses a dos años. Atendidas las reglas establecidas en el artículo 66 bis, los jueces y tribunales podrán asimismo imponer las penas recogidas en las letras b) a g) del apartado 7 del artículo 33.",
+    "art. 197 ter": "Será castigado con una pena de prisión de seis meses a dos años o multa de tres a dieciocho meses el que, sin estar debidamente autorizado, produzca, adquiera para su uso, importe o, de cualquier modo, facilite a terceros, con la intención de facilitar la comisión de alguno de los delitos a que se refieren los apartados 1 y 2 del artículo 197 o el artículo 197 bis: a) un programa informático, concebido o adaptado principalmente para cometer dichos delitos; o b) una contraseña de ordenador, un código de acceso o datos similares que permitan acceder a la totalidad o a una parte de un sistema de información.",
+    "art. 264 bis": "1. Será castigado con la pena de prisión de seis meses a tres años el que, sin estar autorizado y de manera grave, obstaculizara o interrumpiera el funcionamiento de un sistema informático ajeno: a) realizando alguna de las conductas a que se refiere el artículo anterior; b) introduciendo o transmitiendo datos; o c) destruyendo, dañando, inutilizando, eliminando o sustituyendo un sistema informático, telemático o de almacenamiento de información electrónica. Si los hechos hubieran perjudicado de forma relevante la actividad normal de una empresa, negocio o de una Administración pública, se impondrá la pena en su mitad superior, pudiéndose alcanzar la pena superior en grado. 2. Se impondrá una pena de prisión de tres a ocho años y multa del triplo al décuplo del perjuicio ocasionado, cuando en los hechos a que se refiere el apartado anterior hubiera concurrido alguna de las circunstancias del apartado 2 del artículo anterior. 3. Las penas previstas en los apartados anteriores se impondrán, en sus respectivos casos, en su mitad superior, cuando los hechos se hubieran cometido mediante la utilización ilícita de datos personales de otra persona para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero.",
+    "art. 264 quater": "Cuando de acuerdo con lo establecido en el artículo 31 bis una persona jurídica sea responsable de los delitos comprendidos en los tres artículos anteriores, se le impondrán las siguientes penas: a) Multa de dos a cinco años o del quíntuplo a doce veces el valor del perjuicio causado, si resulta una cantidad superior, cuando se trate de delitos castigados con una pena de prisión de más de tres años. b) Multa de uno a tres años o del triple a ocho veces el valor del perjuicio causado, si resulta una cantidad superior, en el resto de los casos. Atendidas las reglas establecidas en el artículo 66 bis, los jueces y tribunales podrán asimismo imponer las penas recogidas en las letras b) a g) del apartado 7 del artículo 33.",
+    "art. 264 ter": "Será castigado con una pena de prisión de seis meses a dos años o multa de tres a dieciocho meses el que, sin estar debidamente autorizado, produzca, adquiera para su uso, importe o, de cualquier modo, facilite a terceros, con la intención de facilitar la comisión de alguno de los delitos a que se refieren los dos artículos anteriores: a) un programa informático, concebido o adaptado principalmente para cometer alguno de los delitos a que se refieren los dos artículos anteriores; o b) una contraseña de ordenador, un código de acceso o datos similares que permitan acceder a la totalidad o a una parte de un sistema de información."
+  },
+  "conceptos": [
+    {
+      "id": "CP-197bis-acceso",
+      "articulo": "art. 197 bis",
+      "titulo": "Acceso ilícito a un sistema de información",
+      "resumen": "Quien, vulnerando las medidas de seguridad establecidas para impedirlo y sin estar debidamente autorizado, accede o facilita a otro el acceso al conjunto o a una parte de un sistema de información, o se mantiene en él contra la voluntad de quien tenga el legítimo derecho a excluirlo, es castigado con prisión de seis meses a dos años.",
+      "explicacion": "El llamado hacking: se castiga el acceso en sí, sin necesidad de que se toque ni un dato."
+    },
+    {
+      "id": "CP-197bis-medidas-seguridad",
+      "articulo": "art. 197 bis",
+      "titulo": "Requisito de vulnerar las medidas de seguridad",
+      "resumen": "El acceso solo es típico si se produce vulnerando las medidas de seguridad establecidas para impedirlo y sin estar el autor debidamente autorizado; la conducta abarca acceder, facilitar a otro el acceso y mantenerse en el sistema.",
+      "explicacion": "Si el sistema no tenía medidas de seguridad que vulnerar, el tipo no se aplica."
+    },
+    {
+      "id": "CP-197bis-interceptacion",
+      "articulo": "art. 197 bis",
+      "titulo": "Interceptación de transmisiones no públicas de datos",
+      "resumen": "Quien, mediante artificios o instrumentos técnicos y sin estar debidamente autorizado, intercepta transmisiones no públicas de datos informáticos que se produzcan desde, hacia o dentro de un sistema de información, incluidas las emisiones electromagnéticas de los mismos, es castigado con prisión de tres meses a dos años o multa de tres a doce meses.",
+      "explicacion": "Las emisiones electromagnéticas entran expresamente en el tipo: es el matiz que se pregunta."
+    },
+    {
+      "id": "CP-197ter-tipo",
+      "articulo": "art. 197 ter",
+      "titulo": "Producción y facilitación de instrumentos para el acceso ilícito",
+      "resumen": "Quien, sin estar debidamente autorizado, produce, adquiere para su uso, importa o de cualquier modo facilita a terceros, con la intención de facilitar la comisión de los delitos de los apartados 1 y 2 del artículo 197 o del artículo 197 bis, un programa informático concebido o adaptado principalmente para cometerlos o una contraseña, código de acceso o datos similares, es castigado con prisión de seis meses a dos años o multa de tres a dieciocho meses.",
+      "explicacion": "Es un acto preparatorio elevado a delito autónomo: basta con producir o facilitar la herramienta."
+    },
+    {
+      "id": "CP-197ter-objetos",
+      "articulo": "art. 197 ter",
+      "titulo": "Qué instrumentos abarca el tipo",
+      "resumen": "El artículo alcanza a dos objetos: un programa informático concebido o adaptado principalmente para cometer esos delitos, y una contraseña de ordenador, un código de acceso o datos similares que permitan acceder a la totalidad o a una parte de un sistema de información.",
+      "explicacion": "No basta cualquier programa: ha de estar concebido o adaptado principalmente para delinquir."
+    },
+    {
+      "id": "CP-197quater-organizacion",
+      "articulo": "art. 197 quater",
+      "titulo": "Comisión en organización o grupo criminal",
+      "resumen": "Si los hechos del capítulo se hubieran cometido en el seno de una organización o grupo criminal, se aplican respectivamente las penas superiores en grado.",
+      "explicacion": "Alcanza a todo el capítulo, no solo al acceso ilícito."
+    },
+    {
+      "id": "CP-197quinquies-persona-juridica",
+      "articulo": "art. 197 quinquies",
+      "titulo": "Responsabilidad de la persona jurídica",
+      "resumen": "Cuando conforme al artículo 31 bis una persona jurídica sea responsable de los delitos de los artículos 197, 197 bis y 197 ter, se le impone la pena de multa de seis meses a dos años, y los jueces y tribunales pueden imponer además las penas de las letras b) a g) del apartado 7 del artículo 33.",
+      "explicacion": "La multa se mide en tiempo, no en proporción al beneficio, a diferencia del tráfico de órganos."
+    },
+    {
+      "id": "CP-264bis-obstaculizacion",
+      "articulo": "art. 264 bis",
+      "titulo": "Obstaculización del funcionamiento de un sistema informático",
+      "resumen": "Quien, sin estar autorizado y de manera grave, obstaculiza o interrumpe el funcionamiento de un sistema informático ajeno es castigado con prisión de seis meses a tres años.",
+      "explicacion": "Aquí no se dañan los datos sino el funcionamiento del sistema: es el sabotaje informático."
+    },
+    {
+      "id": "CP-264bis-conductas",
+      "articulo": "art. 264 bis",
+      "titulo": "Modalidades de la obstaculización",
+      "resumen": "La obstaculización puede cometerse realizando alguna de las conductas de daños informáticos del artículo anterior, introduciendo o transmitiendo datos, o destruyendo, dañando, inutilizando, eliminando o sustituyendo un sistema informático, telemático o de almacenamiento de información electrónica.",
+      "explicacion": "La letra b) es la que cubre los ataques de denegación de servicio: basta con introducir o transmitir datos."
+    },
+    {
+      "id": "CP-264bis-empresa",
+      "articulo": "art. 264 bis",
+      "titulo": "Perjuicio relevante para una empresa o Administración",
+      "resumen": "Si los hechos hubieran perjudicado de forma relevante la actividad normal de una empresa, negocio o de una Administración pública, se impone la pena en su mitad superior, pudiéndose alcanzar la pena superior en grado.",
+      "explicacion": "Es el único caso del artículo en el que la mitad superior puede llegar a superarse."
+    },
+    {
+      "id": "CP-264bis-agravado",
+      "articulo": "art. 264 bis",
+      "titulo": "Tipo agravado por las circunstancias del artículo anterior",
+      "resumen": "Cuando en los hechos hubiera concurrido alguna de las circunstancias del apartado 2 del artículo anterior, se impone prisión de tres a ocho años y multa del triplo al décuplo del perjuicio ocasionado.",
+      "explicacion": "Salto muy fuerte de pena: de tres años de techo a ocho de techo, más multa proporcional."
+    },
+    {
+      "id": "CP-264bis-datos-personales",
+      "articulo": "art. 264 bis",
+      "titulo": "Uso ilícito de datos personales ajenos",
+      "resumen": "Las penas de los apartados anteriores se imponen en su mitad superior cuando los hechos se hubieran cometido mediante la utilización ilícita de datos personales de otra persona para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero.",
+      "explicacion": "Es la agravación pensada para la suplantación de identidad y la ingeniería social."
+    },
+    {
+      "id": "CP-264ter-tipo",
+      "articulo": "art. 264 ter",
+      "titulo": "Instrumentos para cometer daños informáticos",
+      "resumen": "Quien, sin estar debidamente autorizado, produce, adquiere para su uso, importa o de cualquier modo facilita a terceros un programa informático o una contraseña, código de acceso o datos similares, con la intención de facilitar la comisión de los delitos de los dos artículos anteriores, es castigado con prisión de seis meses a dos años o multa de tres a dieciocho meses.",
+      "explicacion": "Gemelo del tipo de instrumentos del capítulo de los secretos, con la misma pena, pero referido a los daños informáticos."
+    },
+    {
+      "id": "CP-264ter-objetos",
+      "articulo": "art. 264 ter",
+      "titulo": "Objetos del tipo de instrumentos",
+      "resumen": "El artículo abarca un programa informático concebido o adaptado principalmente para cometer alguno de los delitos de los dos artículos anteriores, y una contraseña de ordenador, un código de acceso o datos similares que permitan acceder a la totalidad o a una parte de un sistema de información.",
+      "explicacion": "Mismos dos objetos que en el tipo paralelo del capítulo de los secretos: el programa y la credencial."
+    },
+    {
+      "id": "CP-264quater-pj-grave",
+      "articulo": "art. 264 quater",
+      "titulo": "Persona jurídica: delitos con prisión de más de tres años",
+      "resumen": "Cuando conforme al artículo 31 bis una persona jurídica sea responsable de los delitos de los tres artículos anteriores, se le impone multa de dos a cinco años o del quíntuplo a doce veces el valor del perjuicio causado, si resulta una cantidad superior, cuando se trate de delitos castigados con una pena de prisión de más de tres años.",
+      "explicacion": "La multa se calcula por el camino que resulte más alto: el plazo o el múltiplo del perjuicio."
+    },
+    {
+      "id": "CP-264quater-pj-resto",
+      "articulo": "art. 264 quater",
+      "titulo": "Persona jurídica: resto de los casos",
+      "resumen": "En el resto de los casos la multa es de uno a tres años o del triple a ocho veces el valor del perjuicio causado, si resulta una cantidad superior; atendidas las reglas del artículo 66 bis pueden imponerse además las penas de las letras b) a g) del apartado 7 del artículo 33.",
+      "explicacion": "Dos escalones, y el criterio que los separa es la pena de prisión prevista para la persona física."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-197bis-acceso",
+      "articulo": "art. 197 bis",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 197 bis.1 del Código Penal a quien, vulnerando las medidas de seguridad y sin autorización, accede a un sistema de información?",
+      "opciones": [
+        "pena de prisión de seis meses a dos años",
+        "pena de prisión de uno a cuatro años y multa de doce a veinticuatro meses, la misma prevista para el descubrimiento de secretos",
+        "pena de prisión de tres meses a dos años o multa de tres a doce meses, que es la prevista para la interceptación de transmisiones",
+        "pena de prisión de seis meses a tres años, que es la que corresponde a quien obstaculiza el funcionamiento de un sistema ajeno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. El que por cualquier medio o procedimiento, vulnerando las medidas de seguridad establecidas para impedirlo, y sin estar debidamente autorizado, acceda o facilite a otro el acceso al conjunto o una parte de un sistema de información o se mantenga en él en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, será castigado con pena de prisión de seis meses a dos años.",
+      "justificacion": "Art. 197 bis.1 CP."
+    },
+    {
+      "concepto_id": "CP-197bis-medidas-seguridad",
+      "articulo": "art. 197 bis",
+      "tipo": "test",
+      "enunciado": "El acceso ilícito del artículo 197 bis.1 del Código Penal exige que el autor actúe…",
+      "opciones": [
+        "con ánimo de descubrir los secretos o vulnerar la intimidad del titular del sistema de información",
+        "vulnerando las medidas de seguridad establecidas para impedirlo, y sin estar debidamente autorizado",
+        "empleando un programa informático específicamente concebido o adaptado para acceder a sistemas ajenos",
+        "causando un perjuicio efectivo al titular del sistema o a la actividad normal de su empresa o negocio"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. El que por cualquier medio o procedimiento, vulnerando las medidas de seguridad establecidas para impedirlo, y sin estar debidamente autorizado, acceda o facilite a otro el acceso al conjunto o una parte de un sistema de información o se mantenga en él en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, será castigado con pena de prisión de seis meses a dos años.",
+      "justificacion": "Art. 197 bis.1 CP."
+    },
+    {
+      "concepto_id": "CP-197bis-interceptacion",
+      "articulo": "art. 197 bis",
+      "tipo": "test",
+      "enunciado": "El artículo 197 bis.2 del Código Penal castiga la interceptación de transmisiones no públicas de datos informáticos que se produzcan desde, hacia o dentro de un sistema de información…",
+      "opciones": [
+        "quedando fuera del tipo las emisiones electromagnéticas, que solo pueden captarse con autorización judicial",
+        "siempre que el autor haya vulnerado previamente las medidas de seguridad establecidas para impedir el acceso",
+        "incluidas las emisiones electromagnéticas de los mismos",
+        "siempre que la interceptación se realice con ánimo de lucro o de causar un perjuicio a tercero"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "2. El que mediante la utilización de artificios o instrumentos técnicos, y sin estar debidamente autorizado, intercepte transmisiones no públicas de datos informáticos que se produzcan desde, hacia o dentro de un sistema de información, incluidas las emisiones electromagnéticas de los mismos, será castigado con una pena de prisión de tres meses a dos años o multa de tres a doce meses.",
+      "justificacion": "Art. 197 bis.2 CP."
+    },
+    {
+      "concepto_id": "CP-197ter-tipo",
+      "articulo": "art. 197 ter",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 197 ter del Código Penal a quien produce, adquiere para su uso, importa o facilita a terceros un programa informático o una contraseña con la intención de facilitar el acceso ilícito a sistemas?",
+      "opciones": [
+        "una pena de prisión de seis meses a dos años o multa de tres a dieciocho meses",
+        "una pena de prisión de seis meses a dos años, sin que quepa sustituirla por multa dada la gravedad de la conducta",
+        "una pena de prisión de uno a cuatro años y multa de doce a veinticuatro meses, la misma del descubrimiento de secretos",
+        "una pena de prisión de tres meses a dos años o multa de tres a doce meses, la misma prevista para la interceptación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Será castigado con una pena de prisión de seis meses a dos años o multa de tres a dieciocho meses el que, sin estar debidamente autorizado, produzca, adquiera para su uso, importe o, de cualquier modo, facilite a terceros, con la intención de facilitar la comisión de alguno de los delitos a que se refieren los apartados 1 y 2 del artículo 197 o el artículo 197 bis:",
+      "justificacion": "Art. 197 ter CP."
+    },
+    {
+      "concepto_id": "CP-197ter-objetos",
+      "articulo": "art. 197 ter",
+      "tipo": "test",
+      "enunciado": "¿Qué instrumentos enumera el artículo 197 ter del Código Penal?",
+      "opciones": [
+        "únicamente el programa informático concebido o adaptado principalmente para cometer dichos delitos, quedando fuera las contraseñas",
+        "cualquier dispositivo, instrumento o medio técnico apto para acceder a un sistema de información ajeno, sea cual sea su finalidad original",
+        "un programa informático, concebido o adaptado principalmente para cometer dichos delitos; o b) una contraseña de ordenador, un código de acceso o datos similares que permitan acceder a la totalidad o a una parte de un sistema de información",
+        "los datos personales de otra persona utilizados ilícitamente para facilitarse el acceso al sistema o para ganarse la confianza de un tercero"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "a) un programa informático, concebido o adaptado principalmente para cometer dichos delitos; o b) una contraseña de ordenador, un código de acceso o datos similares que permitan acceder a la totalidad o a una parte de un sistema de información.",
+      "justificacion": "Art. 197 ter a) y b) CP."
+    },
+    {
+      "concepto_id": "CP-197quater-organizacion",
+      "articulo": "art. 197 quater",
+      "tipo": "test",
+      "enunciado": "Si los hechos del capítulo relativo al descubrimiento y revelación de secretos se cometen en el seno de una organización o grupo criminal, el artículo 197 quater del Código Penal dispone que…",
+      "opciones": [
+        "se aplicarán respectivamente las penas superiores en grado",
+        "se aplicarán las penas previstas en su mitad superior, pudiendo alcanzarse la pena superior en grado",
+        "se aplicará además la pena de multa del triple al quíntuple del beneficio obtenido por la organización",
+        "se aplicarán las penas superiores en dos grados cuando se trate de los jefes o encargados de la organización"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si los hechos descritos en este Capítulo se hubieran cometido en el seno de una organización o grupo criminal, se aplicarán respectivamente las penas superiores en grado.",
+      "justificacion": "Art. 197 quater CP."
+    },
+    {
+      "concepto_id": "CP-197quinquies-persona-juridica",
+      "articulo": "art. 197 quinquies",
+      "tipo": "test",
+      "enunciado": "Cuando una persona jurídica sea responsable de los delitos de los artículos 197, 197 bis y 197 ter, ¿qué pena le impone el artículo 197 quinquies del Código Penal?",
+      "opciones": [
+        "la pena de multa de seis meses a dos años",
+        "la pena de multa del triple al quíntuple del beneficio obtenido por la persona jurídica responsable",
+        "la pena de multa de dos a cinco años o del quíntuplo a doce veces el valor del perjuicio causado, si resulta cantidad superior",
+        "la pena de disolución de la persona jurídica, junto con la multa de uno a tres años cuando proceda"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cuando de acuerdo con lo establecido en el artículo 31 bis una persona jurídica sea responsable de los delitos comprendidos en los artículos 197, 197 bis y 197 ter, se le impondrá la pena de multa de seis meses a dos años.",
+      "justificacion": "Art. 197 quinquies CP."
+    },
+    {
+      "concepto_id": "CP-264bis-obstaculizacion",
+      "articulo": "art. 264 bis",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 264 bis.1 del Código Penal a quien, sin estar autorizado y de manera grave, obstaculizara o interrumpiera el funcionamiento de un sistema informático ajeno?",
+      "opciones": [
+        "la pena de prisión de seis meses a tres años",
+        "la pena de prisión de seis meses a dos años o multa de tres a dieciocho meses",
+        "la pena de prisión de tres a ocho años y multa del triplo al décuplo del perjuicio ocasionado",
+        "la pena de prisión de uno a tres años y multa de doce a veinticuatro meses"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1. Será castigado con la pena de prisión de seis meses a tres años el que, sin estar autorizado y de manera grave, obstaculizara o interrumpiera el funcionamiento de un sistema informático ajeno:",
+      "justificacion": "Art. 264 bis.1 CP."
+    },
+    {
+      "concepto_id": "CP-264bis-conductas",
+      "articulo": "art. 264 bis",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas conductas enumera el artículo 264 bis.1 del Código Penal como forma de obstaculizar el funcionamiento de un sistema informático ajeno?",
+      "opciones": [
+        "interceptando transmisiones no públicas de datos informáticos, incluidas las emisiones electromagnéticas del sistema",
+        "accediendo al sistema tras vulnerar las medidas de seguridad establecidas para impedirlo y sin estar autorizado",
+        "produciendo o facilitando a terceros un programa informático concebido principalmente para obstaculizar sistemas ajenos",
+        "introduciendo o transmitiendo datos"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "b) introduciendo o transmitiendo datos; o c) destruyendo, dañando, inutilizando, eliminando o sustituyendo un sistema informático, telemático o de almacenamiento de información electrónica.",
+      "justificacion": "Art. 264 bis.1 b) CP."
+    },
+    {
+      "concepto_id": "CP-264bis-empresa",
+      "articulo": "art. 264 bis",
+      "tipo": "test",
+      "enunciado": "Si la obstaculización del sistema informático hubiera perjudicado de forma relevante la actividad normal de una empresa, negocio o de una Administración pública, el artículo 264 bis.1 del Código Penal dispone que…",
+      "opciones": [
+        "se impondrá la pena en su mitad superior, pudiéndose alcanzar la pena superior en grado",
+        "se impondrá en todo caso la pena superior en grado, sin que quepa quedarse en la mitad superior del marco previsto",
+        "se impondrá la pena de prisión de tres a ocho años y multa del triplo al décuplo del perjuicio ocasionado",
+        "se impondrá la pena en su mitad superior solamente si el perjuicio recayera sobre una Administración pública"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si los hechos hubieran perjudicado de forma relevante la actividad normal de una empresa, negocio o de una Administración pública, se impondrá la pena en su mitad superior, pudiéndose alcanzar la pena superior en grado.",
+      "justificacion": "Art. 264 bis.1, párrafo final, CP."
+    },
+    {
+      "concepto_id": "CP-264bis-agravado",
+      "articulo": "art. 264 bis",
+      "tipo": "test",
+      "enunciado": "¿Qué pena impone el artículo 264 bis.2 del Código Penal cuando en la obstaculización hubiera concurrido alguna de las circunstancias del apartado 2 del artículo anterior?",
+      "opciones": [
+        "una pena de prisión de tres a ocho años y multa del triplo al décuplo del perjuicio ocasionado",
+        "una pena de prisión de seis meses a tres años impuesta en su mitad superior, pudiendo alcanzarse la superior en grado",
+        "una pena de prisión de dos a cinco años y multa del tanto al décuplo del perjuicio efectivamente ocasionado",
+        "una pena de prisión de seis meses a dos años o multa de tres a dieciocho meses, según la entidad del perjuicio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Se impondrá una pena de prisión de tres a ocho años y multa del triplo al décuplo del perjuicio ocasionado, cuando en los hechos a que se refiere el apartado anterior hubiera concurrido alguna de las circunstancias del apartado 2 del artículo anterior.",
+      "justificacion": "Art. 264 bis.2 CP."
+    },
+    {
+      "concepto_id": "CP-264bis-datos-personales",
+      "articulo": "art. 264 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 264 bis.3 del Código Penal, las penas se imponen en su mitad superior cuando los hechos se hubieran cometido…",
+      "opciones": [
+        "mediante la utilización ilícita de datos personales de otra persona para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero",
+        "mediante la utilización de un programa informático concebido o adaptado principalmente para obstaculizar el funcionamiento de sistemas ajenos",
+        "en el seno de una organización o grupo criminal dedicado a la realización de esta clase de actividades delictivas",
+        "sobre sistemas informáticos que formen parte de una infraestructura crítica o presten un servicio esencial a la comunidad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "3. Las penas previstas en los apartados anteriores se impondrán, en sus respectivos casos, en su mitad superior, cuando los hechos se hubieran cometido mediante la utilización ilícita de datos personales de otra persona para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero.",
+      "justificacion": "Art. 264 bis.3 CP."
+    },
+    {
+      "concepto_id": "CP-264ter-tipo",
+      "articulo": "art. 264 ter",
+      "tipo": "test",
+      "enunciado": "¿Qué pena señala el artículo 264 ter del Código Penal a quien produce o facilita a terceros un programa informático o una contraseña con la intención de facilitar la comisión de daños informáticos?",
+      "opciones": [
+        "una pena de prisión de seis meses a dos años o multa de tres a dieciocho meses",
+        "una pena de prisión de seis meses a tres años, la misma prevista para la obstaculización del funcionamiento del sistema",
+        "una pena de prisión de tres meses a dos años o multa de tres a doce meses, según la entidad del programa facilitado",
+        "una pena de multa de uno a tres años o del triple a ocho veces el valor del perjuicio causado, si resulta cantidad superior"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Será castigado con una pena de prisión de seis meses a dos años o multa de tres a dieciocho meses el que, sin estar debidamente autorizado, produzca, adquiera para su uso, importe o, de cualquier modo, facilite a terceros, con la intención de facilitar la comisión de alguno de los delitos a que se refieren los dos artículos anteriores:",
+      "justificacion": "Art. 264 ter CP."
+    },
+    {
+      "concepto_id": "CP-264ter-objetos",
+      "articulo": "art. 264 ter",
+      "tipo": "test",
+      "enunciado": "¿Qué objeto describe la letra b) del artículo 264 ter del Código Penal?",
+      "opciones": [
+        "un programa informático, concebido o adaptado principalmente para cometer alguno de los delitos a que se refieren los dos artículos anteriores",
+        "una contraseña de ordenador, un código de acceso o datos similares que permitan acceder a la totalidad o a una parte de un sistema de información",
+        "los datos personales de otra persona empleados para facilitarse el acceso al sistema informático o para ganarse la confianza de un tercero",
+        "cualquier artificio o instrumento técnico apto para interceptar transmisiones no públicas de datos informáticos entre sistemas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "b) una contraseña de ordenador, un código de acceso o datos similares que permitan acceder a la totalidad o a una parte de un sistema de información.",
+      "justificacion": "Art. 264 ter b) CP."
+    },
+    {
+      "concepto_id": "CP-264quater-pj-grave",
+      "articulo": "art. 264 quater",
+      "tipo": "test",
+      "enunciado": "Si una persona jurídica es responsable de un delito informático castigado con pena de prisión de más de tres años, ¿qué multa impone el artículo 264 quater del Código Penal?",
+      "opciones": [
+        "Multa de dos a cinco años o del quíntuplo a doce veces el valor del perjuicio causado, si resulta una cantidad superior",
+        "Multa de uno a tres años o del triple a ocho veces el valor del perjuicio causado, si resulta una cantidad superior",
+        "Multa de seis meses a dos años, que es la prevista para la persona jurídica responsable del acceso ilícito a sistemas",
+        "Multa del triplo al décuplo del perjuicio ocasionado, además de la disolución obligatoria de la persona jurídica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Multa de dos a cinco años o del quíntuplo a doce veces el valor del perjuicio causado, si resulta una cantidad superior, cuando se trate de delitos castigados con una pena de prisión de más de tres años.",
+      "justificacion": "Art. 264 quater a) CP."
+    },
+    {
+      "concepto_id": "CP-264quater-pj-resto",
+      "articulo": "art. 264 quater",
+      "tipo": "test",
+      "enunciado": "En el resto de los casos distintos de los delitos castigados con prisión de más de tres años, ¿qué multa impone a la persona jurídica el artículo 264 quater del Código Penal?",
+      "opciones": [
+        "Multa de dos a cinco años o del quíntuplo a doce veces el valor del perjuicio causado, si resulta una cantidad superior",
+        "Multa de seis meses a dos años, la misma prevista en el capítulo relativo al descubrimiento y revelación de secretos",
+        "Multa de uno a tres años o del triple a ocho veces el valor del perjuicio causado, si resulta una cantidad superior",
+        "Multa del triple al quíntuple del beneficio obtenido, atendidas las reglas establecidas en el artículo 66 bis"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "b) Multa de uno a tres años o del triple a ocho veces el valor del perjuicio causado, si resulta una cantidad superior, en el resto de los casos.",
+      "justificacion": "Art. 264 quater b) CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-197bis-medidas-seguridad",
+      "destino": "CP-197bis-acceso",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-197bis-interceptacion",
+      "destino": "CP-197bis-acceso",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-197bis-acceso",
+      "destino": "CP-197-1-tipo",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-197bis-interceptacion",
+      "destino": "CP-197-1-tipo",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-197ter-tipo",
+      "destino": "CP-197bis-acceso",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-197ter-tipo",
+      "destino": "CP-197-1-tipo",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-197ter-objetos",
+      "destino": "CP-197ter-tipo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-197quater-organizacion",
+      "destino": "CP-197bis-acceso",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-197quater-organizacion",
+      "destino": "CP-197-1-tipo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-197quinquies-persona-juridica",
+      "destino": "CP-197ter-tipo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-197quinquies-persona-juridica",
+      "destino": "CP-197bis-acceso",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-264bis-obstaculizacion",
+      "destino": "CP-264-danos",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-264bis-conductas",
+      "destino": "CP-264bis-obstaculizacion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-264bis-conductas",
+      "destino": "CP-264-danos",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-264bis-empresa",
+      "destino": "CP-264bis-obstaculizacion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-264bis-agravado",
+      "destino": "CP-264bis-obstaculizacion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-264bis-agravado",
+      "destino": "CP-264-agravantes",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-264bis-datos-personales",
+      "destino": "CP-264bis-obstaculizacion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-264ter-tipo",
+      "destino": "CP-264bis-obstaculizacion",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-264ter-tipo",
+      "destino": "CP-264-danos",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-264ter-objetos",
+      "destino": "CP-264ter-tipo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-264ter-tipo",
+      "destino": "CP-197ter-tipo",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-264quater-pj-grave",
+      "destino": "CP-264bis-obstaculizacion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-264quater-pj-resto",
+      "destino": "CP-264quater-pj-grave",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-264quater-pj-grave",
+      "destino": "CP-197quinquies-persona-juridica",
+      "tipo": "limita"
+    }
+  ]
+}

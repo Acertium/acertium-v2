@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "materia": "lecrim-1882",
+    "norma": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal",
+    "referencia_boe": "BOE-A-1882-6036",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 20 — Delitos informáticos; especial consideración al derecho a la intimidad; la prueba digital en el proceso penal"
+  },
+  "fuentes": {
+    "art. 588 bis g": "Control de la medida. La Policía Judicial informará al juez de instrucción del desarrollo y los resultados de la medida, en la forma y con la periodicidad que este determine y, en todo caso, cuando por cualquier causa se ponga fin a la misma.",
+    "art. 588 bis h": "Afectación de terceras personas. Podrán acordarse las medidas de investigación reguladas en los siguientes capítulos aun cuando afecten a terceras personas en los casos y con las condiciones que se regulan en las disposiciones específicas de cada una de ellas.",
+    "art. 588 bis i": "Utilización de la información obtenida en un procedimiento distinto y descubrimientos casuales. El uso de las informaciones obtenidas en un procedimiento distinto y los descubrimientos casuales se regularan con arreglo a lo dispuesto en el artículo 579 bis.",
+    "art. 588 quater c": "Contenido de la resolución judicial. La resolución judicial que autorice la medida, deberá contener, además de las exigencias reguladas en el artículo 588 bis c, una mención concreta al lugar o dependencias, así como a los encuentros del investigado que van a ser sometidos a vigilancia.",
+    "art. 588 quater d": "Control de la medida. En cumplimiento de lo dispuesto en el artículo 588 bis g, la Policía Judicial pondrá a disposición de la autoridad judicial el soporte original o copia electrónica auténtica de las grabaciones e imágenes, que deberá ir acompañado de una transcripción de las conversaciones que considere de interés. El informe identificará a todos los agentes que hayan participado en la ejecución y seguimiento de la medida.",
+    "art. 588 septies b": "Deber de colaboración. 1. Los prestadores de servicios y personas señaladas en el artículo 588 ter e y los titulares o responsables del sistema informático o base de datos objeto del registro están obligados a facilitar a los agentes investigadores la colaboración precisa para la práctica de la medida y el acceso al sistema. Asimismo, están obligados a facilitar la asistencia necesaria para que los datos e información recogidos puedan ser objeto de examen y visualización. 2. Las autoridades y los agentes encargados de la investigación podrán ordenar a cualquier persona que conozca el funcionamiento del sistema informático o las medidas aplicadas para proteger los datos informáticos contenidos en el mismo que facilite la información que resulte necesaria para el buen fin de la diligencia. Esta disposición no será aplicable al investigado o encausado, a las personas que están dispensadas de la obligación de declarar por razón de parentesco, y a aquellas que, de conformidad con el artículo 416.2, no pueden declarar en virtud del secreto profesional. 3. Los sujetos requeridos para prestar colaboración tendrán la obligación de guardar secreto acerca de las actividades requeridas por las autoridades. 4. Los sujetos mencionados en los apartados 1 y 2 de este artículo quedarán sujetos a la responsabilidad regulada en el apartado 3 del artículo 588 ter e.",
+    "art. 588 sexies c": "Autorización judicial. 1. La resolución del juez de instrucción mediante la que se autorice el acceso a la información contenida en los dispositivos a que se refiere la presente sección, fijará los términos y el alcance del registro y podrá autorizar la realización de copias de los datos informáticos. Fijará también las condiciones necesarias para asegurar la integridad de los datos y las garantías de su preservación para hacer posible, en su caso, la práctica de un dictamen pericial. 2. Salvo que constituyan el objeto o instrumento del delito o existan otras razones que lo justifiquen, se evitará la incautación de los soportes físicos que contengan los datos o archivos informáticos, cuando ello pueda causar un grave perjuicio a su titular o propietario y sea posible la obtención de una copia de ellos en condiciones que garanticen la autenticidad e integridad de los datos. 3. Cuando quienes lleven a cabo el registro o tengan acceso al sistema de información o a una parte del mismo conforme a lo dispuesto en este capítulo, tengan razones fundadas para considerar que los datos buscados están almacenados en otro sistema informático o en una parte de él, podrán ampliar el registro, siempre que los datos sean lícitamente accesibles por medio del sistema inicial o estén disponibles para este. Esta ampliación del registro deberá ser autorizada por el juez, salvo que ya lo hubiera sido en la autorización inicial. En caso de urgencia, la Policía Judicial o el fiscal podrán llevarlo a cabo, informando al juez inmediatamente, y en todo caso dentro del plazo máximo de veinticuatro horas, de la actuación realizada, la forma en que se ha efectuado y su resultado. El juez competente, también de forma motivada, revocará o confirmará tal actuación en un plazo máximo de setenta y dos horas desde que fue ordenada la interceptación. 4. En los casos de urgencia en que se aprecie un interés constitucional legítimo que haga imprescindible la medida prevista en los apartados anteriores de este artículo, la Policía Judicial podrá llevar a cabo el examen directo de los datos contenidos en el dispositivo incautado, comunicándolo inmediatamente, y en todo caso dentro del plazo máximo de veinticuatro horas, por escrito motivado al juez competente, haciendo constar las razones que justificaron la adopción de la medida, la actuación realizada, la forma en que se ha efectuado y su resultado. El juez competente, también de forma motivada, revocará o confirmará tal actuación en un plazo máximo de 72 horas desde que fue ordenada la medida. 5. Las autoridades y agentes encargados de la investigación podrán ordenar a cualquier persona que conozca el funcionamiento del sistema informático o las medidas aplicadas para proteger los datos informáticos contenidos en el mismo que facilite la información que resulte necesaria, siempre que de ello no derive una carga desproporcionada para el afectado, bajo apercibimiento de incurrir en delito de desobediencia. Esta disposición no será aplicable al investigado o encausado, a las personas que están dispensadas de la obligación de declarar por razón de parentesco y a aquellas que, de conformidad con el artículo 416.2, no pueden declarar en virtud del secreto profesional.",
+    "art. 588 ter c": "Afectación a tercero. Podrá acordarse la intervención judicial de las comunicaciones emitidas desde terminales o medios de comunicación telemática pertenecientes a una tercera persona siempre que: 1.º exista constancia de que el sujeto investigado se sirve de aquella para transmitir o recibir información, o 2.º el titular colabore con la persona investigada en sus fines ilícitos o se beneficie de su actividad. También podrá autorizarse dicha intervención cuando el dispositivo objeto de investigación sea utilizado maliciosamente por terceros por vía telemática, sin conocimiento de su titular.",
+    "art. 588 ter f": "Control de la medida. En cumplimiento de lo dispuesto en el artículo 588 bis g, la Policía Judicial pondrá a disposición del juez, con la periodicidad que este determine y en soportes digitales distintos, la transcripción de los pasajes que considere de interés y las grabaciones íntegras realizadas. Se indicará el origen y destino de cada una de ellas y se asegurará, mediante un sistema de sellado o firma electrónica avanzado o sistema de adveración suficientemente fiable, la autenticidad e integridad de la información volcada desde el ordenador central a los soportes digitales en que las comunicaciones hubieran sido grabadas.",
+    "art. 588 ter h": "Solicitud de prórroga. Para la fundamentación de la solicitud de la prórroga, la Policía Judicial aportará, en su caso, la transcripción de aquellos pasajes de las conversaciones de las que se deduzcan informaciones relevantes para decidir sobre el mantenimiento de la medida. Antes de dictar la resolución, el juez podrá solicitar aclaraciones o mayor información, incluido el contenido íntegro de las conversaciones intervenidas."
+  },
+  "conceptos": [
+    {
+      "id": "LEC-588bisg-control",
+      "articulo": "art. 588 bis g",
+      "titulo": "Control de la medida",
+      "resumen": "La Policía Judicial informa al juez de instrucción del desarrollo y los resultados de la medida, en la forma y con la periodicidad que este determine y, en todo caso, cuando por cualquier causa se ponga fin a la misma.",
+      "explicacion": "Es la regla general de control, común a todas las medidas del título; cada capítulo la concreta después."
+    },
+    {
+      "id": "LEC-588bish-terceros",
+      "articulo": "art. 588 bis h",
+      "titulo": "Afectación de terceras personas",
+      "resumen": "Las medidas de investigación tecnológica pueden acordarse aun cuando afecten a terceras personas, en los casos y con las condiciones que se regulan en las disposiciones específicas de cada una de ellas.",
+      "explicacion": "La afectación de terceros no está prohibida, pero solo cabe en los términos que fije cada capítulo."
+    },
+    {
+      "id": "LEC-588bisi-casuales",
+      "articulo": "art. 588 bis i",
+      "titulo": "Descubrimientos casuales",
+      "resumen": "El uso de las informaciones obtenidas en un procedimiento distinto y los descubrimientos casuales se regulan con arreglo a lo dispuesto en el artículo 579 bis.",
+      "explicacion": "El artículo no resuelve el problema: remite en bloque a la regla del 579 bis."
+    },
+    {
+      "id": "LEC-588terc-tercero",
+      "articulo": "art. 588 ter c",
+      "titulo": "Intervención del terminal de un tercero",
+      "resumen": "Puede acordarse la intervención judicial de las comunicaciones emitidas desde terminales o medios de comunicación telemática pertenecientes a una tercera persona siempre que exista constancia de que el sujeto investigado se sirve de aquella para transmitir o recibir información, o que el titular colabore con la persona investigada en sus fines ilícitos o se beneficie de su actividad.",
+      "explicacion": "Dos supuestos alternativos: que el investigado use el terminal, o que el titular colabore o se beneficie."
+    },
+    {
+      "id": "LEC-588terc-malicioso",
+      "articulo": "art. 588 ter c",
+      "titulo": "Dispositivo utilizado maliciosamente por terceros",
+      "resumen": "También puede autorizarse la intervención cuando el dispositivo objeto de investigación sea utilizado maliciosamente por terceros por vía telemática, sin conocimiento de su titular.",
+      "explicacion": "Es el supuesto del equipo secuestrado: el titular es víctima, no investigado."
+    },
+    {
+      "id": "LEC-588terf-soportes",
+      "articulo": "art. 588 ter f",
+      "titulo": "Puesta a disposición de las grabaciones",
+      "resumen": "En cumplimiento del artículo 588 bis g, la Policía Judicial pone a disposición del juez, con la periodicidad que este determine y en soportes digitales distintos, la transcripción de los pasajes que considere de interés y las grabaciones íntegras realizadas, indicando el origen y destino de cada una de ellas.",
+      "explicacion": "Transcripción y grabación íntegra van en soportes digitales distintos: no se mezclan."
+    },
+    {
+      "id": "LEC-588terf-autenticidad",
+      "articulo": "art. 588 ter f",
+      "titulo": "Garantía de autenticidad e integridad",
+      "resumen": "Se asegura, mediante un sistema de sellado o firma electrónica avanzado o sistema de adveración suficientemente fiable, la autenticidad e integridad de la información volcada desde el ordenador central a los soportes digitales en que las comunicaciones hubieran sido grabadas.",
+      "explicacion": "Es la cadena de custodia digital de las escuchas: sellado o firma avanzada, o adveración fiable."
+    },
+    {
+      "id": "LEC-588terh-prorroga",
+      "articulo": "art. 588 ter h",
+      "titulo": "Fundamentación de la solicitud de prórroga",
+      "resumen": "Para fundamentar la solicitud de prórroga la Policía Judicial aporta, en su caso, la transcripción de aquellos pasajes de las conversaciones de las que se deduzcan informaciones relevantes para decidir sobre el mantenimiento de la medida; antes de resolver, el juez puede solicitar aclaraciones o mayor información, incluido el contenido íntegro de las conversaciones intervenidas.",
+      "explicacion": "La prórroga no se pide en abstracto: hay que enseñar los pasajes que la justifican."
+    },
+    {
+      "id": "LEC-588quaterc-resolucion",
+      "articulo": "art. 588 quater c",
+      "titulo": "Contenido de la resolución en la grabación de conversaciones orales",
+      "resumen": "La resolución judicial que autorice la grabación de comunicaciones orales directas debe contener, además de las exigencias del artículo 588 bis c, una mención concreta al lugar o dependencias, así como a los encuentros del investigado que van a ser sometidos a vigilancia.",
+      "explicacion": "No basta con autorizar la escucha: hay que acotar el lugar y los encuentros concretos."
+    },
+    {
+      "id": "LEC-588quaterd-control",
+      "articulo": "art. 588 quater d",
+      "titulo": "Control de la grabación de conversaciones orales",
+      "resumen": "La Policía Judicial pone a disposición de la autoridad judicial el soporte original o copia electrónica auténtica de las grabaciones e imágenes, acompañado de una transcripción de las conversaciones que considere de interés; el informe identifica a todos los agentes que hayan participado en la ejecución y seguimiento de la medida.",
+      "explicacion": "Aquí se exige además identificar a todos los agentes intervinientes, cosa que no pide el capítulo de las escuchas telefónicas."
+    },
+    {
+      "id": "LEC-588sexiesc-alcance",
+      "articulo": "art. 588 sexies c",
+      "titulo": "Alcance de la autorización de registro de dispositivos",
+      "resumen": "La resolución que autorice el acceso a la información contenida en los dispositivos fija los términos y el alcance del registro y puede autorizar la realización de copias de los datos informáticos; fija también las condiciones necesarias para asegurar la integridad de los datos y las garantías de su preservación para hacer posible, en su caso, la práctica de un dictamen pericial.",
+      "explicacion": "El juez acota el registro: no es una patente para mirarlo todo."
+    },
+    {
+      "id": "LEC-588sexiesc-no-incautacion",
+      "articulo": "art. 588 sexies c",
+      "titulo": "Preferencia por la copia frente a la incautación",
+      "resumen": "Salvo que constituyan el objeto o instrumento del delito o existan otras razones que lo justifiquen, se evita la incautación de los soportes físicos que contengan los datos o archivos informáticos cuando ello pueda causar un grave perjuicio a su titular o propietario y sea posible obtener una copia en condiciones que garanticen la autenticidad e integridad de los datos.",
+      "explicacion": "La regla es copiar, no llevarse el equipo: interesa mucho a la actuación policial."
+    },
+    {
+      "id": "LEC-588sexiesc-ampliacion",
+      "articulo": "art. 588 sexies c",
+      "titulo": "Ampliación del registro a otro sistema",
+      "resumen": "Si quienes llevan a cabo el registro tienen razones fundadas para considerar que los datos buscados están almacenados en otro sistema informático o en una parte de él, pueden ampliar el registro siempre que los datos sean lícitamente accesibles por medio del sistema inicial o estén disponibles para este; la ampliación debe ser autorizada por el juez, salvo que ya lo hubiera sido en la autorización inicial.",
+      "explicacion": "El límite es la accesibilidad lícita desde el sistema inicial: no vale saltar a cualquier sistema."
+    },
+    {
+      "id": "LEC-588sexiesc-urgencia",
+      "articulo": "art. 588 sexies c",
+      "titulo": "Examen directo por la Policía Judicial en caso de urgencia",
+      "resumen": "En los casos de urgencia en que se aprecie un interés constitucional legítimo que haga imprescindible la medida, la Policía Judicial puede llevar a cabo el examen directo de los datos contenidos en el dispositivo incautado, comunicándolo por escrito motivado al juez inmediatamente y en todo caso dentro del plazo máximo de veinticuatro horas; el juez, también de forma motivada, revoca o confirma la actuación en un plazo máximo de 72 horas.",
+      "explicacion": "Los dos plazos son de examen: veinticuatro horas para comunicar y setenta y dos para que el juez resuelva."
+    },
+    {
+      "id": "LEC-588sexiesc-colaboracion",
+      "articulo": "art. 588 sexies c",
+      "titulo": "Deber de informar sobre el funcionamiento del sistema",
+      "resumen": "Las autoridades y agentes encargados de la investigación pueden ordenar a cualquier persona que conozca el funcionamiento del sistema informático o las medidas aplicadas para proteger los datos que facilite la información necesaria, siempre que de ello no derive una carga desproporcionada, bajo apercibimiento de incurrir en delito de desobediencia; no se aplica al investigado o encausado, a los dispensados de declarar por parentesco ni a los amparados por el secreto profesional.",
+      "explicacion": "Nadie puede ser obligado a entregar la clave de su propio dispositivo: el investigado queda excluido."
+    },
+    {
+      "id": "LEC-588septiesb-colaboracion",
+      "articulo": "art. 588 septies b",
+      "titulo": "Deber de colaboración en el registro remoto",
+      "resumen": "Los prestadores de servicios y personas señaladas en el artículo 588 ter e y los titulares o responsables del sistema informático o base de datos objeto del registro están obligados a facilitar a los agentes investigadores la colaboración precisa para la práctica de la medida y el acceso al sistema, así como la asistencia necesaria para que los datos e información recogidos puedan ser objeto de examen y visualización.",
+      "explicacion": "El deber alcanza a dos círculos: los prestadores de servicios y los propios titulares del sistema registrado."
+    },
+    {
+      "id": "LEC-588septiesb-secreto",
+      "articulo": "art. 588 septies b",
+      "titulo": "Obligación de secreto de los sujetos requeridos",
+      "resumen": "Los sujetos requeridos para prestar colaboración tienen la obligación de guardar secreto acerca de las actividades requeridas por las autoridades.",
+      "explicacion": "El secreto es una obligación autónoma, distinta del secreto de las actuaciones que pueda declarar el juez."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "LEC-588bisg-control",
+      "articulo": "art. 588 bis g",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 bis g de la Ley de Enjuiciamiento Criminal, la Policía Judicial informará al juez de instrucción del desarrollo y los resultados de la medida…",
+      "opciones": [
+        "semanalmente mientras dure la medida, y además siempre que el juez lo solicite de forma expresa y motivada",
+        "en la forma y con la periodicidad que este determine y, en todo caso, cuando por cualquier causa se ponga fin a la misma",
+        "únicamente al término de la medida, mediante informe único que recoja todo lo actuado durante su vigencia",
+        "cuando lo estime oportuno el instructor del atestado policial, salvo que se hubiera declarado el secreto de las actuaciones por resolución motivada del juez"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Control de la medida. La Policía Judicial informará al juez de instrucción del desarrollo y los resultados de la medida, en la forma y con la periodicidad que este determine y, en todo caso, cuando por cualquier causa se ponga fin a la misma.",
+      "justificacion": "Art. 588 bis g LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bish-terceros",
+      "articulo": "art. 588 bis h",
+      "tipo": "test",
+      "enunciado": "¿Cómo trata el artículo 588 bis h de la Ley de Enjuiciamiento Criminal la afectación de terceras personas por las medidas de investigación tecnológica?",
+      "opciones": [
+        "No podrán acordarse las medidas de investigación reguladas en los siguientes capítulos cuando afecten a personas distintas del investigado, salvo consentimiento expreso de aquellas.",
+        "Podrán acordarse las medidas de investigación reguladas en los siguientes capítulos aun cuando afecten a terceras personas en los casos y con las condiciones que se regulan en las disposiciones específicas de cada una de ellas.",
+        "Podrán acordarse las medidas de investigación reguladas en los siguientes capítulos frente a cualquier tercero, sin necesidad de previsión específica alguna, siempre que resulten proporcionadas al fin perseguido por la investigación.",
+        "Solo podrán afectar a terceras personas las medidas de investigación reguladas en los siguientes capítulos cuando estas colaboren con el investigado o se beneficien de su actividad ilícita."
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Afectación de terceras personas. Podrán acordarse las medidas de investigación reguladas en los siguientes capítulos aun cuando afecten a terceras personas en los casos y con las condiciones que se regulan en las disposiciones específicas de cada una de ellas.",
+      "justificacion": "Art. 588 bis h LECrim."
+    },
+    {
+      "concepto_id": "LEC-588bisi-casuales",
+      "articulo": "art. 588 bis i",
+      "tipo": "test",
+      "enunciado": "¿Cómo resuelve el artículo 588 bis i de la Ley de Enjuiciamiento Criminal el uso de la información obtenida en un procedimiento distinto y los descubrimientos casuales?",
+      "opciones": [
+        "se regularan con arreglo a lo dispuesto en el artículo 579 bis",
+        "quedarán excluidos del proceso, por aplicación de la regla general de exclusión de la prueba ilícitamente obtenida",
+        "podrán utilizarse libremente en cualquier otro procedimiento, siempre que la medida inicial hubiera sido acordada con autorización judicial",
+        "requerirán una nueva autorización judicial que valore de forma específica la proporcionalidad del uso pretendido"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Utilización de la información obtenida en un procedimiento distinto y descubrimientos casuales. El uso de las informaciones obtenidas en un procedimiento distinto y los descubrimientos casuales se regularan con arreglo a lo dispuesto en el artículo 579 bis.",
+      "justificacion": "Art. 588 bis i LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terc-tercero",
+      "articulo": "art. 588 ter c",
+      "tipo": "test",
+      "enunciado": "¿En qué supuesto permite el artículo 588 ter c de la Ley de Enjuiciamiento Criminal intervenir las comunicaciones emitidas desde el terminal de una tercera persona?",
+      "opciones": [
+        "cuando el titular del terminal haya sido previamente informado de la medida y no se hubiera opuesto a ella",
+        "cuando el delito investigado sea de los castigados con pena de prisión igual o superior a tres años, cualquiera que sea la relación del titular con el investigado",
+        "exista constancia de que el sujeto investigado se sirve de aquella para transmitir o recibir información",
+        "cuando el terminal se encuentre físicamente en el domicilio del investigado, aunque su titularidad corresponda a otra persona"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Afectación a tercero. Podrá acordarse la intervención judicial de las comunicaciones emitidas desde terminales o medios de comunicación telemática pertenecientes a una tercera persona siempre que: 1.º exista constancia de que el sujeto investigado se sirve de aquella para transmitir o recibir información, o 2.º el titular colabore con la persona investigada en sus fines ilícitos o se beneficie de su actividad.",
+      "justificacion": "Art. 588 ter c, regla 1.ª, LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terc-malicioso",
+      "articulo": "art. 588 ter c",
+      "tipo": "test",
+      "enunciado": "El artículo 588 ter c de la Ley de Enjuiciamiento Criminal permite además autorizar la intervención…",
+      "opciones": [
+        "cuando el dispositivo objeto de investigación sea utilizado maliciosamente por terceros por vía telemática, sin conocimiento de su titular",
+        "cuando el dispositivo objeto de investigación haya sido sustraído a su titular legítimo y se encuentre materialmente en poder de la persona investigada",
+        "cuando el titular del dispositivo preste su consentimiento expreso a la intervención tras ser informado del objeto de la investigación",
+        "cuando el dispositivo se utilice para acceder a servicios de comunicación cifrada que impidan identificar al usuario que los emplea"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "También podrá autorizarse dicha intervención cuando el dispositivo objeto de investigación sea utilizado maliciosamente por terceros por vía telemática, sin conocimiento de su titular.",
+      "justificacion": "Art. 588 ter c, párrafo final, LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terf-soportes",
+      "articulo": "art. 588 ter f",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 ter f de la Ley de Enjuiciamiento Criminal, la Policía Judicial pondrá a disposición del juez, en soportes digitales distintos…",
+      "opciones": [
+        "únicamente la transcripción de los pasajes que considere de interés, quedando las grabaciones íntegras bajo su custodia",
+        "la transcripción de los pasajes que considere de interés y las grabaciones íntegras realizadas",
+        "las grabaciones íntegras realizadas, sin que sea exigible transcripción alguna mientras dure la intervención",
+        "un informe de los agentes intervinientes acompañado de las grabaciones que el instructor del atestado seleccione"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Control de la medida. En cumplimiento de lo dispuesto en el artículo 588 bis g, la Policía Judicial pondrá a disposición del juez, con la periodicidad que este determine y en soportes digitales distintos, la transcripción de los pasajes que considere de interés y las grabaciones íntegras realizadas.",
+      "justificacion": "Art. 588 ter f, inciso primero, LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terf-autenticidad",
+      "articulo": "art. 588 ter f",
+      "tipo": "test",
+      "enunciado": "¿Cómo asegura el artículo 588 ter f de la Ley de Enjuiciamiento Criminal la autenticidad e integridad de la información volcada a los soportes digitales?",
+      "opciones": [
+        "mediante el depósito de los soportes originales en la secretaría del juzgado dentro de las veinticuatro horas siguientes al volcado",
+        "mediante la intervención del letrado de la Administración de Justicia, que dará fe del volcado y de su contenido íntegro",
+        "mediante un sistema de sellado o firma electrónica avanzado o sistema de adveración suficientemente fiable",
+        "mediante el cotejo pericial de los soportes por un perito informático designado judicialmente antes de su incorporación"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Se indicará el origen y destino de cada una de ellas y se asegurará, mediante un sistema de sellado o firma electrónica avanzado o sistema de adveración suficientemente fiable, la autenticidad e integridad de la información volcada desde el ordenador central a los soportes digitales en que las comunicaciones hubieran sido grabadas.",
+      "justificacion": "Art. 588 ter f, inciso segundo, LECrim."
+    },
+    {
+      "concepto_id": "LEC-588terh-prorroga",
+      "articulo": "art. 588 ter h",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 ter h de la Ley de Enjuiciamiento Criminal, antes de dictar la resolución sobre la prórroga, el juez…",
+      "opciones": [
+        "deberá oír necesariamente al Ministerio Fiscal y a la representación procesal del investigado antes de resolver",
+        "podrá solicitar aclaraciones o mayor información, incluido el contenido íntegro de las conversaciones intervenidas",
+        "resolverá exclusivamente con la transcripción aportada, sin que pueda reclamar el contenido íntegro de las conversaciones",
+        "acordará de oficio la práctica de un dictamen pericial sobre la autenticidad de las grabaciones aportadas por la Policía"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Antes de dictar la resolución, el juez podrá solicitar aclaraciones o mayor información, incluido el contenido íntegro de las conversaciones intervenidas.",
+      "justificacion": "Art. 588 ter h, inciso segundo, LECrim."
+    },
+    {
+      "concepto_id": "LEC-588quaterc-resolucion",
+      "articulo": "art. 588 quater c",
+      "tipo": "test",
+      "enunciado": "Además de las exigencias generales, ¿qué debe contener la resolución que autoriza la grabación de comunicaciones orales directas, según el artículo 588 quater c de la Ley de Enjuiciamiento Criminal?",
+      "opciones": [
+        "la identidad de los agentes que van a ejecutar la medida y el sistema de sellado que garantizará la integridad de las grabaciones",
+        "el plazo máximo de duración de la medida, que en ningún caso podrá exceder de tres meses prorrogables hasta dieciocho",
+        "una mención concreta al lugar o dependencias, así como a los encuentros del investigado que van a ser sometidos a vigilancia",
+        "una relación de los terceros que previsiblemente resultarán afectados por la medida y de los motivos que justifican su afectación"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Contenido de la resolución judicial. La resolución judicial que autorice la medida, deberá contener, además de las exigencias reguladas en el artículo 588 bis c, una mención concreta al lugar o dependencias, así como a los encuentros del investigado que van a ser sometidos a vigilancia.",
+      "justificacion": "Art. 588 quater c LECrim."
+    },
+    {
+      "concepto_id": "LEC-588quaterd-control",
+      "articulo": "art. 588 quater d",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 quater d de la Ley de Enjuiciamiento Criminal, el informe con que la Policía Judicial pone a disposición judicial las grabaciones e imágenes…",
+      "opciones": [
+        "identificará a todos los agentes que hayan participado en la ejecución y seguimiento de la medida",
+        "identificará únicamente al instructor y al secretario del atestado, para preservar la seguridad del resto de los agentes",
+        "incluirá el dictamen pericial que acredite la autenticidad e integridad del soporte original entregado al juzgado",
+        "relacionará las personas afectadas por la medida y los encuentros que finalmente fueron sometidos a vigilancia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Control de la medida. En cumplimiento de lo dispuesto en el artículo 588 bis g, la Policía Judicial pondrá a disposición de la autoridad judicial el soporte original o copia electrónica auténtica de las grabaciones e imágenes, que deberá ir acompañado de una transcripción de las conversaciones que considere de interés. El informe identificará a todos los agentes que hayan participado en la ejecución y seguimiento de la medida.",
+      "justificacion": "Art. 588 quater d LECrim."
+    },
+    {
+      "concepto_id": "LEC-588sexiesc-alcance",
+      "articulo": "art. 588 sexies c",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 sexies c.1 de la Ley de Enjuiciamiento Criminal, la resolución que autorice el acceso a la información contenida en los dispositivos…",
+      "opciones": [
+        "autorizará el acceso a la totalidad del contenido del dispositivo incautado, sin que quepa limitación por razón de la materia",
+        "fijará los términos y el alcance del registro y podrá autorizar la realización de copias de los datos informáticos",
+        "deberá limitarse a los archivos previamente identificados en el atestado policial que sirvió de base a la solicitud",
+        "ordenará en todo caso la incautación del soporte físico para garantizar la integridad de los datos que contenga"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "1. La resolución del juez de instrucción mediante la que se autorice el acceso a la información contenida en los dispositivos a que se refiere la presente sección, fijará los términos y el alcance del registro y podrá autorizar la realización de copias de los datos informáticos.",
+      "justificacion": "Art. 588 sexies c.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588sexiesc-no-incautacion",
+      "articulo": "art. 588 sexies c",
+      "tipo": "test",
+      "enunciado": "¿Qué regla establece el artículo 588 sexies c.2 de la Ley de Enjuiciamiento Criminal sobre los soportes físicos?",
+      "opciones": [
+        "se incautarán siempre los soportes físicos, y solo se devolverán una vez practicado el dictamen pericial correspondiente",
+        "se evitará la incautación de los soportes físicos que contengan los datos o archivos informáticos, cuando ello pueda causar un grave perjuicio a su titular o propietario y sea posible la obtención de una copia de ellos en condiciones que garanticen la autenticidad e integridad de los datos",
+        "se incautarán los soportes físicos únicamente cuando el titular sea la persona investigada, y nunca cuando pertenezcan a un tercero",
+        "se evitará la incautación de los soportes físicos que contengan los datos o archivos informáticos, salvo que el registro deba ampliarse a otro sistema informático distinto del inicial, en cuyo caso se incautarán ambos para garantizar la integridad del conjunto de la información obtenida"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Salvo que constituyan el objeto o instrumento del delito o existan otras razones que lo justifiquen, se evitará la incautación de los soportes físicos que contengan los datos o archivos informáticos, cuando ello pueda causar un grave perjuicio a su titular o propietario y sea posible la obtención de una copia de ellos en condiciones que garanticen la autenticidad e integridad de los datos.",
+      "justificacion": "Art. 588 sexies c.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588sexiesc-ampliacion",
+      "articulo": "art. 588 sexies c",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 sexies c.3 de la Ley de Enjuiciamiento Criminal, la ampliación del registro a otro sistema informático solo cabe…",
+      "opciones": [
+        "cuando el otro sistema pertenezca también a la persona investigada y se encuentre en el mismo lugar que el dispositivo inicial",
+        "cuando lo autorice el Ministerio Fiscal por razones de urgencia, dando cuenta al juez dentro de las veinticuatro horas siguientes",
+        "cuando el titular del otro sistema preste su consentimiento expreso tras ser informado del objeto del registro que se practica",
+        "siempre que los datos sean lícitamente accesibles por medio del sistema inicial o estén disponibles para este"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "3. Cuando quienes lleven a cabo el registro o tengan acceso al sistema de información o a una parte del mismo conforme a lo dispuesto en este capítulo, tengan razones fundadas para considerar que los datos buscados están almacenados en otro sistema informático o en una parte de él, podrán ampliar el registro, siempre que los datos sean lícitamente accesibles por medio del sistema inicial o estén disponibles para este.",
+      "justificacion": "Art. 588 sexies c.3, inciso primero, LECrim."
+    },
+    {
+      "concepto_id": "LEC-588sexiesc-urgencia",
+      "articulo": "art. 588 sexies c",
+      "tipo": "test",
+      "enunciado": "En los casos de urgencia del artículo 588 sexies c.4 de la Ley de Enjuiciamiento Criminal, ¿en qué plazo debe la Policía Judicial comunicar al juez el examen directo de los datos del dispositivo incautado?",
+      "opciones": [
+        "inmediatamente, y en todo caso dentro del plazo máximo de veinticuatro horas",
+        "inmediatamente, y en todo caso dentro del plazo máximo de setenta y dos horas desde que se ordenó la medida",
+        "dentro del plazo máximo de veinticuatro horas, salvo que se hubiera declarado el secreto de las actuaciones",
+        "en el primer informe periódico de control de la medida que corresponda remitir al juzgado de instrucción"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "4. En los casos de urgencia en que se aprecie un interés constitucional legítimo que haga imprescindible la medida prevista en los apartados anteriores de este artículo, la Policía Judicial podrá llevar a cabo el examen directo de los datos contenidos en el dispositivo incautado, comunicándolo inmediatamente, y en todo caso dentro del plazo máximo de veinticuatro horas, por escrito motivado al juez competente, haciendo constar las razones que justificaron la adopción de la medida, la actuación realizada, la forma en que se ha efectuado y su resultado.",
+      "justificacion": "Art. 588 sexies c.4 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588sexiesc-colaboracion",
+      "articulo": "art. 588 sexies c",
+      "tipo": "test",
+      "enunciado": "El deber de facilitar información sobre el funcionamiento del sistema informático del artículo 588 sexies c.5 de la Ley de Enjuiciamiento Criminal no es aplicable…",
+      "opciones": [
+        "al titular del dispositivo incautado, aunque no tenga la condición de investigado en el procedimiento",
+        "a los prestadores de servicios de telecomunicaciones y de acceso a una red de telecomunicación, que se rigen por su propio deber específico de colaboración regulado en el capítulo de la interceptación",
+        "al investigado o encausado, a las personas que están dispensadas de la obligación de declarar por razón de parentesco y a aquellas que, de conformidad con el artículo 416.2, no pueden declarar en virtud del secreto profesional",
+        "a los agentes de la Policía Judicial que hubieran intervenido en la ejecución material de la medida acordada"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "5. Las autoridades y agentes encargados de la investigación podrán ordenar a cualquier persona que conozca el funcionamiento del sistema informático o las medidas aplicadas para proteger los datos informáticos contenidos en el mismo que facilite la información que resulte necesaria, siempre que de ello no derive una carga desproporcionada para el afectado, bajo apercibimiento de incurrir en delito de desobediencia. Esta disposición no será aplicable al investigado o encausado, a las personas que están dispensadas de la obligación de declarar por razón de parentesco y a aquellas que, de conformidad con el artículo 416.2, no pueden declarar en virtud del secreto profesional.",
+      "justificacion": "Art. 588 sexies c.5 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588septiesb-colaboracion",
+      "articulo": "art. 588 septies b",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 septies b.1 de la Ley de Enjuiciamiento Criminal, ¿a qué están obligados los prestadores de servicios y los titulares o responsables del sistema informático objeto del registro remoto?",
+      "opciones": [
+        "a conservar durante un plazo máximo de noventa días los datos e información que resulten del registro practicado",
+        "a facilitar a los agentes investigadores la colaboración precisa para la práctica de la medida y el acceso al sistema",
+        "a comunicar previamente al titular de los datos la existencia del registro y su alcance, salvo que se hubiera declarado el secreto de las actuaciones",
+        "a designar un responsable técnico que asista presencialmente a la práctica de la diligencia en la sede judicial"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Deber de colaboración. 1. Los prestadores de servicios y personas señaladas en el artículo 588 ter e y los titulares o responsables del sistema informático o base de datos objeto del registro están obligados a facilitar a los agentes investigadores la colaboración precisa para la práctica de la medida y el acceso al sistema.",
+      "justificacion": "Art. 588 septies b.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-588septiesb-secreto",
+      "articulo": "art. 588 septies b",
+      "tipo": "test",
+      "enunciado": "Según el artículo 588 septies b.3 de la Ley de Enjuiciamiento Criminal, los sujetos requeridos para prestar colaboración en el registro remoto…",
+      "opciones": [
+        "podrán informar al titular del sistema del requerimiento recibido, salvo que el juez hubiera declarado el secreto de las actuaciones",
+        "tendrán derecho a ser resarcidos de los gastos que la colaboración les ocasione, con cargo a los presupuestos del Ministerio",
+        "tendrán la obligación de guardar secreto acerca de las actividades requeridas por las autoridades",
+        "quedarán exentos de toda responsabilidad por los daños que la colaboración pudiera causar a los usuarios del sistema"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "3. Los sujetos requeridos para prestar colaboración tendrán la obligación de guardar secreto acerca de las actividades requeridas por las autoridades.",
+      "justificacion": "Art. 588 septies b.3 LECrim."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "LEC-588bisg-control",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588bish-terceros",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "limita"
+    },
+    {
+      "origen": "LEC-588bisi-casuales",
+      "destino": "LEC-588bisa-principios",
+      "tipo": "limita"
+    },
+    {
+      "origen": "LEC-588terc-tercero",
+      "destino": "LEC-588bish-terceros",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588terc-tercero",
+      "destino": "LEC-588terb-ambito",
+      "tipo": "limita"
+    },
+    {
+      "origen": "LEC-588terc-malicioso",
+      "destino": "LEC-588terc-tercero",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588terf-soportes",
+      "destino": "LEC-588bisg-control",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588terf-autenticidad",
+      "destino": "LEC-588terf-soportes",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588terh-prorroga",
+      "destino": "LEC-588bisf-prorroga",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588terh-prorroga",
+      "destino": "LEC-588terg-duracion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588quaterc-resolucion",
+      "destino": "LEC-588bisc-contenido",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588quaterc-resolucion",
+      "destino": "LEC-588quatera-dispositivos",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588quaterd-control",
+      "destino": "LEC-588bisg-control",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588sexiesc-alcance",
+      "destino": "LEC-588sexiesa-incautacion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588sexiesc-no-incautacion",
+      "destino": "LEC-588sexiesc-alcance",
+      "tipo": "limita"
+    },
+    {
+      "origen": "LEC-588sexiesc-ampliacion",
+      "destino": "LEC-588sexiesc-alcance",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588sexiesc-urgencia",
+      "destino": "LEC-588sexiesc-alcance",
+      "tipo": "limita"
+    },
+    {
+      "origen": "LEC-588sexiesc-colaboracion",
+      "destino": "LEC-588sexiesc-alcance",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588septiesb-colaboracion",
+      "destino": "LEC-588septiesa-delitos",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588septiesb-colaboracion",
+      "destino": "LEC-588tere-colaboracion",
+      "tipo": "remite"
+    },
+    {
+      "origen": "LEC-588septiesb-secreto",
+      "destino": "LEC-588septiesb-colaboracion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "LEC-588sexiesc-colaboracion",
+      "destino": "LEC-588septiesb-colaboracion",
+      "tipo": "limita"
+    }
+  ]
+}

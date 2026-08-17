@@ -27,13 +27,24 @@
 ## 2. Lo que falta — por prioridad
 1. **Generar los 4 temas que faltan (cero conceptos): 19, 20, 24, 45.** ⚠ VER §3 antes de intentarlo.
    - ~~**T19**~~ — **HECHO** (16/08/2026): 33 conceptos, arts. 550-570 CP, `lotes/cp-t19-orden-publico.json`.
-   - **T20** — **CERRADO** (17/08/2026): 60 conceptos en dos lotes. Delitos informáticos e
-     intimidad en `lotes/cp-t20-delitos-informaticos.json` (CP arts. 197, 249, 264 y 189 bis, 25
-     conceptos) y la prueba digital en `lotes/lecrim-t20-prueba-digital.json` (LECrim arts. 588 bis a
-     – 588 octies, 35 conceptos: principios rectores, interceptación de comunicaciones, grabación de
-     conversaciones orales, seguimiento y localización, registro de dispositivos de almacenamiento
-     masivo, registro remoto y orden de conservación de datos).
-     El tercer bloque se desbloqueó al ingerir la LECrim consolidada: ver §37 del corpus.
+   - **T20** — **CERRADO** (17/08/2026): 93 conceptos en cuatro lotes. La parte de la LECrim cubre
+     **los 39 artículos** del bloque 588 bis a – 588 octies, sin hueco.
+     - `cp-t20-delitos-informaticos.json` — CP arts. 197, 249, 264 y 189 bis (25).
+     - `lecrim-t20-prueba-digital.json` — LECrim arts. 588 bis a – 588 octies (35): principios
+       rectores, interceptación de comunicaciones, grabación de conversaciones orales, seguimiento y
+       localización, registro de dispositivos de almacenamiento masivo, registro remoto y orden de
+       conservación de datos.
+     - `cp-t20-acceso-sistemas.json` — los **7 artículos que desbloqueó el CP consolidado** (16):
+       197 bis (acceso ilícito e interceptación de transmisiones), 197 ter, 197 quater,
+       197 quinquies, 264 bis (obstaculización del funcionamiento), 264 ter y 264 quater.
+     - `lecrim-t20-garantias.json` — los huecos del bloque 588 (17): control de la medida
+       (588 bis g), afectación de terceros (588 bis h), descubrimientos casuales (588 bis i),
+       terminal de tercero (588 ter c), soportes y sellado (588 ter f), prórroga (588 ter h),
+       resolución y control de la grabación oral (588 quater c y d), garantías del registro de
+       dispositivos (588 sexies c) y deber de colaboración en el registro remoto (588 septies b).
+     Los dos últimos lotes se desbloquearon al ingerir los textos consolidados: ver §35 y §37 del
+     corpus. Queda fuera a propósito el **art. 588** (apertura de la correspondencia postal): no es
+     prueba digital y el enunciado del tema no lo pide.
    - **T18** — **CERRADO** (16/08/2026): 45 conceptos, arts. 234-256 del CP salvo el 249, que vive
      en el T20. Dos lotes: `cp-t18-defraudaciones.json` (8) y `cp-t18-usurpacion-apropiacion.json`
      (21: llaves falsas del 239, usurpación 245-247, otras defraudaciones 251 y 251 bis,
@@ -74,9 +85,8 @@
      fallos del ingestor (numeración con letra tipo «588 bis a» y pie del formato «Legislación
      Consolidada»), ya corregidos. Protocolo para sustituir otras secciones: `corpus/README.md`.
    - ~~**CP**: el corpus no tiene 197 bis/ter/quater/quinquies ni 264 bis/ter/quater…~~ **RESUELTO el
-     17/08/2026**: entró el texto consolidado y el §35 pasó de 268 a 723 artículos. Esos siete están
-     ya disponibles; **el T20 puede ampliarse con ellos** (acceso ilícito a sistemas y modalidades
-     autónomas de daños informáticos), cosa que aún no se ha hecho.
+     17/08/2026**: entró el texto consolidado y el §35 pasó de 268 a 723 artículos. Los siete
+     artículos ya están **cargados en el T20** (`cp-t20-acceso-sistemas.json`).
 
    **Ya no queda ningún hueco de fuente BOE.** Las dos únicas normas que el temario citaba por su
    nombre y que el Código 600 no incluía —RD 39/1997 y Ley 39/2006— se ingirieron el 17/08/2026 como
