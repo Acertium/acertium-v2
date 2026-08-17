@@ -115,10 +115,19 @@
      ⚠ **Ojo al art. 2.2 c) del RD 773/1997**: excluye de su definición «los equipos de protección
      individual de los militares, de los **policías** y de las personas de los servicios de
      mantenimiento del orden», y la letra d) los de «los medios de transporte por carretera».
-     Está cargado como concepto propio (`EPI-003`) porque es el matiz que decide la pregunta, pero
-     significa que el epígrafe **«EPI del conductor y pasajeros de vehículos policiales» sigue sin
-     fuente**: este RD da el régimen general, no el policial. Hace falta la norma o instrucción
-     específica de dotación del CNP, o una fuente de autoridad.
+     Está cargado como concepto propio (`EPI-003`) porque es el matiz que decide la pregunta.
+     **Corrección (17/08/2026):** al cerrar el T45 se anotó aquí que por esa exclusión el epígrafe
+     «EPI del conductor y pasajeros de vehículos policiales» quedaba **sin fuente**. Era falso. La
+     cadena está completa y ya cargada: la Ley 31/1995 excluye a la policía «en aquellas actividades
+     cuyas particularidades lo impidan» y remite a normativa específica (art. 3.2, `PRL-003`), y esa
+     normativa es el **RD 2/2006, cuyo art. 6.2 dice literalmente que «La Administración
+     proporcionará a los funcionarios del Cuerpo Nacional de Policía equipos de protección individual
+     adecuados para el desempeño de sus funciones y velará por su uso efectivo y correcto»**
+     (§45 del corpus, concepto `PRLP-014`, cargado en el **T25** porque ahí sitúa el temario esa
+     norma). No se duplica en el T45: un concepto vive en un solo tema. En su lugar, `EPI-003`
+     **remite** a `PRLP-014` y a `PRL-003`, que es para lo que está el grafo.
+     Lo único que no existe como norma publicada es la **dotación concreta** (qué EPI lleva de hecho
+     un conductor policial): eso es una instrucción interna de la DGP, no citable literalmente.
      Siguen sin fuente los factores del tráfico (humano, ambiental y vehículo) y la siniestralidad
      vial: son **no-BOE**, y la vía es un manual de la DGT.
    - **T44** — 41 conceptos cargados (familia `VCD`). Lo que falta —*seguridad activa y pasiva*,
