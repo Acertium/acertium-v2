@@ -1,0 +1,1715 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 16 — Derecho Penal. Parte General"
+  },
+  "fuentes": {
+    "art. 2": "1. No será castigado ningún delito con pena que no se halle prevista por ley anterior a su perpetración. Carecerán, igualmente, de efecto retroactivo las leyes que establezcan medidas de seguridad. 2. No obstante, tendrán efecto retroactivo aquellas leyes penales que favorezcan al reo, aunque al entrar en vigor hubiera recaído sentencia firme y el sujeto estuviese cumpliendo condena. En caso de duda sobre la determinación de la Ley más favorable, será oído el reo. Los hechos cometidos bajo la vigencia de una Ley temporal serán juzgados, sin embargo, conforme a ella, salvo que se disponga expresamente lo contrario.",
+    "art. 3": "1. No podrá ejecutarse pena ni medida de seguridad sino en virtud de sentencia firme dictada por el Juez o Tribunal competente, de acuerdo con las leyes procesales. 2. Tampoco podrá ejecutarse pena ni medida de seguridad en otra forma que la prescrita por la Ley y reglamentos que la desarrollan, ni con otras circunstancias o accidentes que los expresados en su texto. La ejecución de la pena o de la medida de seguridad se realizará bajo el control de los Jueces y Tribunales competentes.",
+    "art. 4": "1. Las leyes penales no se aplicarán a casos distintos de los comprendidos expresamente en ellas. 2. En el caso de que un Juez o Tribunal, en el ejercicio de su jurisdicción, tenga conocimiento de alguna acción u omisión que, sin estar penada por la Ley, estime digna de represión, se abstendrá de todo procedimiento sobre ella y expondrá al Gobierno las razones que le asistan para creer que debiera ser objeto de sanción penal. 3. Del mismo modo acudirá al Gobierno exponiendo lo conveniente sobre la derogación o modificación del precepto o la concesión de indulto, sin perjuicio de ejecutar desde luego la sentencia, cuando de la rigurosa aplicación de las disposiciones de la Ley resulte penada una acción u omisión que, a juicio del Juez o Tribunal, no debiera serlo, o cuando la pena sea notablemente excesiva, atendidos el mal causado por la infracción y las circunstancias personales del reo. 4. Si mediara petición de indulto, y el Juez o Tribunal hubiere apreciado en resolución fundada que por el cumplimiento de la pena puede resultar vulnerado el derecho a un proceso sin dilaciones indebidas, suspenderá la ejecución de la misma en tanto no se resuelva sobre la petición formulada. También podrá el Juez o Tribunal suspender la ejecución de la pena, mientras no se resuelva sobre el indulto cuando, de ser ejecutada la sentencia, la finalidad de éste pudiera resultar ilusoria.",
+    "art. 6": "1. Las medidas de seguridad se fundamentan en la peligrosidad criminal del sujeto al que se impongan, exteriorizada en la comisión de un hecho previsto como delito. 2. Las medidas de seguridad no pueden resultar ni más gravosas ni de mayor duración que la pena abstractamente aplicable al hecho cometido, ni exceder el límite de lo necesario para prevenir la peligrosidad del autor.",
+    "art. 7": "A los efectos de determinar la ley penal aplicable en el tiempo, los delitos se consideran cometidos en el momento en que el sujeto ejecuta la acción u omite el acto que estaba obligado a realizar.",
+    "art. 8": "Los hechos susceptibles de ser calificados con arreglo a dos o más preceptos de este Código, y no comprendidos en los artículos 73 a 77, se castigarán observando las siguientes reglas: 1.ª El precepto especial se aplicará con preferencia al general. 2.ª El precepto subsidiario se aplicará sólo en defecto del principal, ya se declare expresamente dicha subsidiariedad, ya sea ésta tácitamente deducible. 3.ª El precepto penal más amplio o complejo absorberá a los que castiguen las infracciones consumidas en aquél. 4.ª En defecto de los criterios anteriores, el precepto penal más grave excluirá los que castiguen el hecho con pena menor.",
+    "art. 9": "Las disposiciones de este Título se aplicarán a los delitos que se hallen penados por leyes especiales. Las restantes disposiciones de este Código se aplicarán como supletorias en lo no previsto expresamente por aquéllas. LIBRO I Disposiciones generales sobre los delitos, las personas responsables, las penas, medidas de seguridad y demás consecuencias de la infracción penal.",
+    "art. 14": "1. El error invencible sobre un hecho constitutivo de la infracción penal excluye la responsabilidad criminal. Si el error, atendidas las circunstancias del hecho y las personales del autor, fuera vencible, la infracción será castigada, en su caso, como imprudente. 2. El error sobre un hecho que cualifique la infracción o sobre una circunstancia agravante, impedirá su apreciación. 3. El error invencible sobre la ilicitud del hecho constitutivo de la infracción penal excluye la responsabilidad criminal. Si el error fuera vencible, se aplicará la pena inferior en uno o dos grados.",
+    "art. 17": "1. La conspiración existe cuando dos o más personas se conciertan para la ejecución de un delito y resuelven ejecutarlo. 2. La proposición existe cuando el que ha resuelto cometer un delito invita a otra u otras personas a participar en él. 3. La conspiración y la proposición para delinquir sólo se castigarán en los casos especialmente previstos en la ley.",
+    "art. 18": "1. La provocación existe cuando directamente se incita por medio de la imprenta, la radiodifusión o cualquier otro medio de eficacia semejante, que facilite la publicidad, o ante una concurrencia de personas, a la perpetración de un delito. Es apología, a los efectos de este Código, la exposición, ante una concurrencia de personas o por cualquier medio de difusión, de ideas o doctrinas que ensalcen el crimen o enaltezcan a su autor. La apología sólo será delictiva como forma de provocación y si por su naturaleza y circunstancias constituye una incitación directa a cometer un delito. 2. La provocación se castigará exclusivamente en los casos en que la Ley así lo prevea. Si a la provocación hubiese seguido la perpetración del delito, se castigará como inducción.",
+    "art. 19": "Los menores de dieciocho años no serán responsables criminalmente con arreglo a este Código. Cuando un menor de dicha edad cometa un hecho delictivo podrá ser responsable con arreglo a lo dispuesto en la ley que regule la responsabilidad penal del menor.",
+    "art. 69": "Al mayor de dieciocho años y menor de veintiuno que cometa un hecho delictivo, podrán aplicársele las disposiciones de la ley que regule la responsabilidad penal del menor en los casos y con los requisitos que ésta disponga.",
+    "art. 20": "Están exentos de responsabilidad criminal: 1.º El que al tiempo de cometer la infracción penal, a causa de cualquier anomalía o alteración psíquica, no pueda comprender la ilicitud del hecho o actuar conforme a esa comprensión. El trastorno mental transitorio no eximirá de pena cuando hubiese sido provocado por el sujeto con el propósito de cometer el delito o hubiera previsto o debido prever su comisión. 2.º El que al tiempo de cometer la infracción penal se halle en estado de intoxicación plena por el consumo de bebidas alcohólicas, drogas tóxicas, estupefacientes, sustancias psicotrópicas u otras que produzcan efectos análogos, siempre que no haya sido buscado con el propósito de cometerla o no se hubiese previsto o debido prever su comisión, o se halle bajo la influencia de un síndrome de abstinencia, a causa de su dependencia de tales sustancias, que le impida comprender la ilicitud del hecho o actuar conforme a esa comprensión. 3.º El que, por sufrir alteraciones en la percepción desde el nacimiento o desde la infancia, tenga alterada gravemente la conciencia de la realidad. 4.º El que obre en defensa de la persona o derechos propios o ajenos, siempre que concurran los requisitos siguientes: Primero. Agresión ilegítima. En caso de defensa de los bienes se reputará agresión ilegítima el ataque a los mismos que constituya delito y los ponga en grave peligro de deterioro o pérdida inminentes. En caso de defensa de la morada o sus dependencias, se reputará agresión ilegítima la entrada indebida en aquélla o éstas. Segundo. Necesidad racional del medio empleado para impedirla o repelerla. Tercero. Falta de provocación suficiente por parte del defensor. 5.º El que, en estado de necesidad, para evitar un mal propio o ajeno lesione un bien jurídico de otra persona o infrinja un deber, siempre que concurran los siguientes requisitos: Primero. Que el mal causado no sea mayor que el que se trate de evitar. Segundo. Que la situación de necesidad no haya sido provocada intencionadamente por el sujeto. Tercero. Que el necesitado no tenga, por su oficio o cargo, obligación de sacrificarse. 6.º El que obre impulsado por miedo insuperable. 7.º El que obre en cumplimiento de un deber o en el ejercicio legítimo de un derecho, oficio o cargo. En los supuestos de los tres primeros números se aplicarán, en su caso, las medidas de seguridad previstas en este Código.",
+    "art. 21": "Son circunstancias atenuantes: 1.ª Las causas expresadas en el capítulo anterior, cuando no concurrieren todos los requisitos necesarios para eximir de responsabilidad en sus respectivos casos. 2.ª La de actuar el culpable a causa de su grave adicción a las sustancias mencionadas en el número 2.º del artículo anterior. 3.ª La de obrar por causas o estímulos tan poderosos que hayan producido arrebato, obcecación u otro estado pasional de entidad semejante. 4.ª La de haber procedido el culpable, antes de conocer que el procedimiento judicial se dirige contra él, a confesar la infracción a las autoridades. 5.ª La de haber procedido el culpable a reparar el daño ocasionado a la víctima, o disminuir sus efectos, en cualquier momento del procedimiento y con anterioridad a la celebración del acto del juicio oral. 6.ª La dilación extraordinaria e indebida en la tramitación del procedimiento, siempre que no sea atribuible al propio inculpado y que no guarde proporción con la complejidad de la causa. 7.ª Cualquier otra circunstancia de análoga significación que las anteriores.",
+    "art. 22": "Son circunstancias agravantes: 1.ª Ejecutar el hecho con alevosía. Hay alevosía cuando el culpable comete cualquiera de los delitos contra las personas empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido. 2.ª Ejecutar el hecho mediante disfraz, con abuso de superioridad o aprovechando las circunstancias de lugar, tiempo o auxilio de otras personas que debiliten la defensa del ofendido o faciliten la impunidad del delincuente. 3.ª Ejecutar el hecho mediante precio, recompensa o promesa. 4.ª Cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación referente a la ideología, religión o creencias de la víctima, la etnia, raza o nación a la que pertenezca, su sexo, edad, orientación o identidad sexual o de género, razones de género, de aporofobia o de exclusión social, la enfermedad que padezca o su discapacidad, con independencia de que tales condiciones o circunstancias concurran efectivamente en la persona sobre la que recaiga la conducta. 5.ª Aumentar deliberada e inhumanamente el sufrimiento de la víctima, causando a ésta padecimientos innecesarios para la ejecución del delito. 6.ª Obrar con abuso de confianza. 7.ª Prevalerse del carácter público que tenga el culpable. 8.ª Ser reincidente. Hay reincidencia cuando, al delinquir, el culpable haya sido condenado ejecutoriamente por un delito comprendido en el mismo título de este código, siempre que sea de la misma naturaleza. A los efectos de este número no se computarán los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos leves, salvo lo dispuesto para los tipos agravados por multirreincidencia de delitos leves. Las condenas firmes de jueces o tribunales impuestas en otros Estados de la Unión Europea producirán los efectos de reincidencia salvo que el antecedente penal haya sido cancelado o pudiera serlo con arreglo al Derecho español.",
+    "art. 23": "Es circunstancia que puede atenuar o agravar la responsabilidad, según la naturaleza, los motivos y los efectos del delito, ser o haber sido el agraviado cónyuge o persona que esté o haya estado ligada de forma estable por análoga relación de afectividad, o ser ascendiente, descendiente o hermano por naturaleza o adopción del ofensor o de su cónyuge o conviviente.",
+    "art. 24": "1. A los efectos penales se reputará autoridad al que por sí solo o como miembro de alguna corporación, tribunal u órgano colegiado tenga mando o ejerza jurisdicción propia. En todo caso, tendrán la consideración de autoridad los miembros del Congreso de los Diputados, del Senado, de las Asambleas Legislativas de las Comunidades Autónomas y del Parlamento Europeo. Tendrán también la consideración de autoridad los funcionarios del Ministerio Fiscal y los Fiscales de la Fiscalía Europea. 2. Se considerará funcionario público todo el que por disposición inmediata de la Ley o por elección o por nombramiento de autoridad competente participe en el ejercicio de funciones públicas.",
+    "art. 26": "A los efectos de este Código se considera documento todo soporte material que exprese o incorpore datos, hechos o narraciones con eficacia probatoria o cualquier otro tipo de relevancia jurídica.",
+    "art. 30": "1. En los delitos que se cometan utilizando medios o soportes de difusión mecánicos no responderán criminalmente ni los cómplices ni quienes los hubieren favorecido personal o realmente. 2. Los autores a los que se refiere el artículo 28 responderán de forma escalonada, excluyente y subsidiaria de acuerdo con el siguiente orden: 1.º Los que realmente hayan redactado el texto o producido el signo de que se trate, y quienes les hayan inducido a realizarlo. 2.º Los directores de la publicación o programa en que se difunda. 3.º Los directores de la empresa editora, emisora o difusora. 4.º Los directores de la empresa grabadora, reproductora o impresora. 3. Cuando por cualquier motivo distinto de la extinción de la responsabilidad penal, incluso la declaración de rebeldía o la residencia fuera de España, no pueda perseguirse a ninguna de las personas comprendidas en alguno de los números del apartado anterior, se dirigirá el procedimiento contra las mencionadas en el número inmediatamente posterior.",
+    "art. 31": "El que actúe como administrador de hecho o de derecho de una persona jurídica, o en nombre o representación legal o voluntaria de otro, responderá personalmente, aunque no concurran en él las condiciones, cualidades o relaciones que la correspondiente figura de delito requiera para poder ser sujeto activo del mismo, si tales circunstancias se dan en la entidad o persona en cuyo nombre o representación obre.",
+    "art. 31 bis": "1. En los supuestos previstos en este Código, las personas jurídicas serán penalmente responsables: a) De los delitos cometidos en nombre o por cuenta de las mismas, y en su beneficio directo o indirecto, por sus representantes legales o por aquellos que actuando individualmente o como integrantes de un órgano de la persona jurídica, están autorizados para tomar decisiones en nombre de la persona jurídica u ostentan facultades de organización y control dentro de la misma. b) De los delitos cometidos, en el ejercicio de actividades sociales y por cuenta y en beneficio directo o indirecto de las mismas, por quienes, estando sometidos a la autoridad de las personas físicas mencionadas en el párrafo anterior, han podido realizar los hechos por haberse incumplido gravemente por aquéllos los deberes de supervisión, vigilancia y control de su actividad atendidas las concretas circunstancias del caso. 2. Si el delito fuere cometido por las personas indicadas en la letra a) del apartado anterior, la persona jurídica quedará exenta de responsabilidad si se cumplen las siguientes condiciones: 1.ª el órgano de administración ha adoptado y ejecutado con eficacia, antes de la comisión del delito, modelos de organización y gestión que incluyen las medidas de vigilancia y control idóneas para prevenir delitos de la misma naturaleza o para reducir de forma significativa el riesgo de su comisión; 2.ª la supervisión del funcionamiento y del cumplimiento del modelo de prevención implantado ha sido confiada a un órgano de la persona jurídica con poderes autónomos de iniciativa y de control o que tenga encomendada legalmente la función de supervisar la eficacia de los controles internos de la persona jurídica; 3.ª los autores individuales han cometido el delito eludiendo fraudulentamente los modelos de organización y de prevención y 4.ª no se ha producido una omisión o un ejercicio insuficiente de sus funciones de supervisión, vigilancia y control por parte del órgano al que se refiere la condición 2.ª En los casos en los que las anteriores circunstancias solamente puedan ser objeto de acreditación parcial, esta circunstancia será valorada a los efectos de atenuación de la pena. 3. En las personas jurídicas de pequeñas dimensiones, las funciones de supervisión a que se refiere la condición 2.ª del apartado 2 podrán ser asumidas directamente por el órgano de administración. A estos efectos, son personas jurídicas de pequeñas dimensiones aquéllas que, según la legislación aplicable, estén autorizadas a presentar cuenta de pérdidas y ganancias abreviada. 4. Si el delito fuera cometido por las personas indicadas en la letra b) del apartado 1, la persona jurídica quedará exenta de responsabilidad si, antes de la comisión del delito, ha adoptado y ejecutado eficazmente un modelo de organización y gestión que resulte adecuado para prevenir delitos de la naturaleza del que fue cometido o para reducir de forma significativa el riesgo de su comisión. En este caso resultará igualmente aplicable la atenuación prevista en el párrafo segundo del apartado 2 de este artículo. 5. Los modelos de organización y gestión a que se refieren la condición 1.ª del apartado 2 y el apartado anterior deberán cumplir los siguientes requisitos: 1.º Identificarán las actividades en cuyo ámbito puedan ser cometidos los delitos que deben ser prevenidos. 2.º Establecerán los protocolos o procedimientos que concreten el proceso de formación de la voluntad de la persona jurídica, de adopción de decisiones y de ejecución de las mismas con relación a aquéllos. 3.º Dispondrán de modelos de gestión de los recursos financieros adecuados para impedir la comisión de los delitos que deben ser prevenidos. 4.º Impondrán la obligación de informar de posibles riesgos e incumplimientos al organismo encargado de vigilar el funcionamiento y observancia del modelo de prevención. 5.º Establecerán un sistema disciplinario que sancione adecuadamente el incumplimiento de las medidas que establezca el modelo. 6.º Realizarán una verificación periódica del modelo y de su eventual modificación cuando se pongan de manifiesto infracciones relevantes de sus disposiciones, o cuando se produzcan cambios en la organización, en la estructura de control o en la actividad desarrollada que los hagan necesarios.",
+    "art. 31 ter": "1. La responsabilidad penal de las personas jurídicas será exigible siempre que se constate la comisión de un delito que haya tenido que cometerse por quien ostente los cargos o funciones aludidas en el artículo anterior, aun cuando la concreta persona física responsable no haya sido individualizada o no haya sido posible dirigir el procedimiento contra ella. Cuando como consecuencia de los mismos hechos se impusiere a ambas la pena de multa, los jueces o tribunales modularán las respectivas cuantías, de modo que la suma resultante no sea desproporcionada en relación con la gravedad de aquéllos. 2. La concurrencia, en las personas que materialmente hayan realizado los hechos o en las que los hubiesen hecho posibles por no haber ejercido el debido control, de circunstancias que afecten a la culpabilidad del acusado o agraven su responsabilidad, o el hecho de que dichas personas hayan fallecido o se hubieren sustraído a la acción de la justicia, no excluirá ni modificará la responsabilidad penal de las personas jurídicas, sin perjuicio de lo que se dispone en el artículo siguiente.",
+    "art. 31 quater": "1. Sólo podrán considerarse circunstancias atenuantes de la responsabilidad penal de las personas jurídicas haber realizado, con posterioridad a la comisión del delito y a través de sus representantes legales, las siguientes actividades: a) Haber procedido, antes de conocer que el procedimiento judicial se dirige contra ella, a confesar la infracción a las autoridades. b) Haber colaborado en la investigación del hecho aportando pruebas, en cualquier momento del proceso, que fueran nuevas y decisivas para esclarecer las responsabilidades penales dimanantes de los hechos. c) Haber procedido en cualquier momento del procedimiento y con anterioridad al juicio oral a reparar o disminuir el daño causado por el delito. d) Haber establecido, antes del comienzo del juicio oral, medidas eficaces para prevenir y descubrir los delitos que en el futuro pudieran cometerse con los medios o bajo la cobertura de la persona jurídica.",
+    "art. 31 quinquies": "1. Las disposiciones relativas a la responsabilidad penal de las personas jurídicas no serán aplicables al Estado, a las Administraciones públicas territoriales e institucionales, a los Organismos Reguladores, las Agencias y Entidades públicas Empresariales, a las organizaciones internacionales de derecho público, ni a aquellas otras que ejerzan potestades públicas de soberanía o administrativas. 2. En el caso de las Sociedades mercantiles públicas que ejecuten políticas públicas o presten servicios de interés económico general, solamente les podrán ser impuestas las penas previstas en las letras a) y g) del apartado 7 del artículo 33. Esta limitación no será aplicable cuando el juez o tribunal aprecie que se trata de una forma jurídica creada por sus promotores, fundadores, administradores o representantes con el propósito de eludir una eventual responsabilidad penal."
+  },
+  "conceptos": [
+    {
+      "id": "CP-002-irretro",
+      "articulo": "art. 2",
+      "titulo": "Irretroactividad de la ley penal desfavorable",
+      "resumen": "No será castigado ningún delito con pena que no se halle prevista por ley anterior a su perpetración. Carecerán, igualmente, de efecto retroactivo las leyes que establezcan medidas de seguridad.",
+      "explicacion": "La regla general: la ley penal NO se aplica hacia atrás. Y ojo, alcanza también a las medidas de seguridad."
+    },
+    {
+      "id": "CP-002-retro",
+      "articulo": "art. 2",
+      "titulo": "Retroactividad de la ley penal más favorable",
+      "resumen": "Tendrán efecto retroactivo aquellas leyes penales que favorezcan al reo, aunque al entrar en vigor hubiera recaído sentencia firme y el sujeto estuviese cumpliendo condena.",
+      "explicacion": "La excepción, y la que más se pregunta: la ley favorable SÍ retrotrae, incluso con sentencia firme y condena en curso."
+    },
+    {
+      "id": "CP-002-duda",
+      "articulo": "art. 2",
+      "titulo": "Duda sobre la ley más favorable: audiencia del reo",
+      "resumen": "En caso de duda sobre la determinación de la Ley más favorable, será oído el reo.",
+      "explicacion": "Un detalle corto y muy preguntable: en la duda, se oye al reo. No decide él, pero se le oye."
+    },
+    {
+      "id": "CP-002-temporal",
+      "articulo": "art. 2",
+      "titulo": "Las leyes penales temporales",
+      "resumen": "Los hechos cometidos bajo la vigencia de una Ley temporal serán juzgados, sin embargo, conforme a ella, salvo que se disponga expresamente lo contrario.",
+      "explicacion": "Excepción a la excepción: la ley temporal sigue juzgando sus hechos aunque ya no esté vigente. Si no, bastaría con esperar."
+    },
+    {
+      "id": "CP-003-jurisd",
+      "articulo": "art. 3",
+      "titulo": "Principio de jurisdiccionalidad: no hay pena sin sentencia firme",
+      "resumen": "No podrá ejecutarse pena ni medida de seguridad sino en virtud de sentencia firme dictada por el Juez o Tribunal competente, de acuerdo con las leyes procesales.",
+      "explicacion": "Garantía jurisdiccional. Fíjate en que exige sentencia FIRME y juez COMPETENTE."
+    },
+    {
+      "id": "CP-003-ejec",
+      "articulo": "art. 3",
+      "titulo": "Principio de legalidad en la ejecución",
+      "resumen": "Tampoco podrá ejecutarse pena ni medida de seguridad en otra forma que la prescrita por la Ley y reglamentos que la desarrollan. La ejecución se realizará bajo el control de los Jueces y Tribunales competentes.",
+      "explicacion": "La legalidad no acaba en la condena: alcanza a CÓMO se cumple. Y el control es judicial."
+    },
+    {
+      "id": "CP-004-analogia",
+      "articulo": "art. 4",
+      "titulo": "Prohibición de la analogía",
+      "resumen": "Las leyes penales no se aplicarán a casos distintos de los comprendidos expresamente en ellas.",
+      "explicacion": "Corolario de la legalidad: nada de extender el tipo por parecido. Si no está escrito, no es delito."
+    },
+    {
+      "id": "CP-004-abstencion",
+      "articulo": "art. 4",
+      "titulo": "Conducta del juez ante una acción no penada pero digna de represión",
+      "resumen": "Se abstendrá de todo procedimiento sobre ella y expondrá al Gobierno las razones que le asistan para creer que debiera ser objeto de sanción penal.",
+      "explicacion": "El juez no puede crear delito. Lo que hace es abstenerse y avisar al Gobierno. Dos verbos: abstenerse y exponer."
+    },
+    {
+      "id": "CP-004-indulto",
+      "articulo": "art. 4",
+      "titulo": "Suspensión de la ejecución por petición de indulto",
+      "resumen": "Si mediara petición de indulto, y el Juez o Tribunal hubiere apreciado en resolución fundada que por el cumplimiento de la pena puede resultar vulnerado el derecho a un proceso sin dilaciones indebidas, suspenderá la ejecución de la misma en tanto no se resuelva sobre la petición formulada.",
+      "explicacion": "Aquí el verbo es imperativo —«suspenderá»—, frente al «podrá suspender» del párrafo siguiente cuando el indulto pudiera quedar ilusorio."
+    },
+    {
+      "id": "CP-006-fundamento",
+      "articulo": "art. 6",
+      "titulo": "Fundamento de las medidas de seguridad",
+      "resumen": "Las medidas de seguridad se fundamentan en la peligrosidad criminal del sujeto al que se impongan, exteriorizada en la comisión de un hecho previsto como delito.",
+      "explicacion": "La pena mira a la culpabilidad; la medida de seguridad, a la PELIGROSIDAD. Y esa peligrosidad tiene que haberse exteriorizado en un hecho previsto como delito."
+    },
+    {
+      "id": "CP-006-limite",
+      "articulo": "art. 6",
+      "titulo": "Límite de las medidas de seguridad",
+      "resumen": "No pueden resultar ni más gravosas ni de mayor duración que la pena abstractamente aplicable al hecho cometido, ni exceder el límite de lo necesario para prevenir la peligrosidad del autor.",
+      "explicacion": "Doble tope: el de la pena abstracta y el de lo necesario. El que antes se alcance."
+    },
+    {
+      "id": "CP-007",
+      "articulo": "art. 7",
+      "titulo": "Momento de comisión del delito (tiempo)",
+      "resumen": "A los efectos de determinar la ley penal aplicable en el tiempo, los delitos se consideran cometidos en el momento en que el sujeto ejecuta la acción u omite el acto que estaba obligado a realizar.",
+      "explicacion": "Teoría de la ACCIÓN, no la del resultado. Cuenta cuándo actuó, no cuándo se produjo el daño."
+    },
+    {
+      "id": "CP-008-especial",
+      "articulo": "art. 8",
+      "titulo": "Concurso de leyes: principio de especialidad",
+      "resumen": "El precepto especial se aplicará con preferencia al general.",
+      "explicacion": "Es la regla 1.ª del art. 8, y la primera que se aplica. El orden importa: especialidad, subsidiariedad, absorción y alternatividad."
+    },
+    {
+      "id": "CP-008-alternativ",
+      "articulo": "art. 8",
+      "titulo": "Concurso de leyes: principio de alternatividad",
+      "resumen": "En defecto de los criterios anteriores, el precepto penal más grave excluirá los que castiguen el hecho con pena menor.",
+      "explicacion": "La regla 4.ª y última: solo entra cuando han fallado especialidad, subsidiariedad y absorción."
+    },
+    {
+      "id": "CP-009",
+      "articulo": "art. 9",
+      "titulo": "Aplicación supletoria del Código Penal a las leyes especiales",
+      "resumen": "Las disposiciones del Título Preliminar se aplicarán a los delitos penados por leyes especiales; las restantes disposiciones del Código se aplicarán como supletorias en lo no previsto expresamente por aquéllas.",
+      "explicacion": "Distingue: el Título Preliminar se aplica siempre; el resto del Código, solo como supletorio."
+    },
+    {
+      "id": "CP-014-hecho",
+      "articulo": "art. 14",
+      "titulo": "Error invencible sobre un hecho constitutivo de la infracción",
+      "resumen": "El error invencible sobre un hecho constitutivo de la infracción penal excluye la responsabilidad criminal. Si fuera vencible, la infracción será castigada, en su caso, como imprudente.",
+      "explicacion": "Error de tipo. Invencible → nada; vencible → imprudencia. Compáralo con el error de prohibición del 14.3."
+    },
+    {
+      "id": "CP-014-agravante",
+      "articulo": "art. 14",
+      "titulo": "Error sobre una circunstancia agravante",
+      "resumen": "El error sobre un hecho que cualifique la infracción o sobre una circunstancia agravante, impedirá su apreciación.",
+      "explicacion": "No excluye el delito: solo impide que se aprecie la agravante o la cualificación."
+    },
+    {
+      "id": "CP-014-prohib",
+      "articulo": "art. 14",
+      "titulo": "Error sobre la ilicitud del hecho (error de prohibición)",
+      "resumen": "El error invencible sobre la ilicitud del hecho constitutivo de la infracción penal excluye la responsabilidad criminal. Si el error fuera vencible, se aplicará la pena inferior en uno o dos grados.",
+      "explicacion": "Aquí el vencible NO va a imprudencia: baja uno o dos grados. Es la diferencia clave con el 14.1."
+    },
+    {
+      "id": "CP-017-conspir",
+      "articulo": "art. 17",
+      "titulo": "La conspiración",
+      "resumen": "La conspiración existe cuando dos o más personas se conciertan para la ejecución de un delito y resuelven ejecutarlo.",
+      "explicacion": "Dos requisitos: concertarse Y resolver ejecutarlo. Si falta la resolución, no hay conspiración."
+    },
+    {
+      "id": "CP-017-propos",
+      "articulo": "art. 17",
+      "titulo": "La proposición",
+      "resumen": "La proposición existe cuando el que ha resuelto cometer un delito invita a otra u otras personas a participar en él.",
+      "explicacion": "El proponente YA ha resuelto delinquir e invita. Compáralo con la conspiración, donde la resolución es conjunta."
+    },
+    {
+      "id": "CP-017-castigo",
+      "articulo": "art. 17",
+      "titulo": "Cuándo se castigan la conspiración y la proposición",
+      "resumen": "La conspiración y la proposición para delinquir sólo se castigarán en los casos especialmente previstos en la ley.",
+      "explicacion": "Regla de excepción, igual que la provocación del 18.2. No son punibles con carácter general."
+    },
+    {
+      "id": "CP-018-provoc",
+      "articulo": "art. 18",
+      "titulo": "La provocación",
+      "resumen": "La provocación existe cuando directamente se incita por medio de la imprenta, la radiodifusión o cualquier otro medio de eficacia semejante, que facilite la publicidad, o ante una concurrencia de personas, a la perpetración de un delito.",
+      "explicacion": "Exige publicidad: medio de difusión o concurrencia de personas. Sin eso no hay provocación."
+    },
+    {
+      "id": "CP-018-apologia",
+      "articulo": "art. 18",
+      "titulo": "La apología y cuándo es delictiva",
+      "resumen": "Es apología la exposición, ante una concurrencia de personas o por cualquier medio de difusión, de ideas o doctrinas que ensalcen el crimen o enaltezcan a su autor. Sólo será delictiva como forma de provocación y si constituye una incitación directa a cometer un delito.",
+      "explicacion": "La apología por sí sola no es delito: solo lo es si llega a ser incitación DIRECTA. Es el matiz que decide la pregunta."
+    },
+    {
+      "id": "CP-018-seguida",
+      "articulo": "art. 18",
+      "titulo": "Provocación seguida de la perpetración del delito",
+      "resumen": "Si a la provocación hubiese seguido la perpetración del delito, se castigará como inducción.",
+      "explicacion": "La provocación que fructifica cambia de etiqueta: pasa a castigarse como inducción, que es autoría del art. 28."
+    },
+    {
+      "id": "CP-019",
+      "articulo": "art. 19",
+      "titulo": "La edad penal: los menores de dieciocho años",
+      "resumen": "Los menores de dieciocho años no serán responsables criminalmente con arreglo a este Código. Cuando un menor de dicha edad cometa un hecho delictivo podrá ser responsable con arreglo a lo dispuesto en la ley que regule la responsabilidad penal del menor.",
+      "explicacion": "No es impunidad: es OTRA ley. El menor no responde «con arreglo a este Código», pero sí conforme a la ley penal del menor."
+    },
+    {
+      "id": "CP-069",
+      "articulo": "art. 69",
+      "titulo": "Mayores de dieciocho y menores de veintiún años",
+      "resumen": "Al mayor de dieciocho años y menor de veintiuno que cometa un hecho delictivo, podrán aplicársele las disposiciones de la ley que regule la responsabilidad penal del menor en los casos y con los requisitos que ésta disponga.",
+      "explicacion": "«Podrán», no «se les aplicará». Es una posibilidad y con los requisitos de la ley del menor."
+    },
+    {
+      "id": "CP-020-3",
+      "articulo": "art. 20",
+      "titulo": "Eximente: alteraciones en la percepción",
+      "resumen": "Está exento de responsabilidad criminal el que, por sufrir alteraciones en la percepción desde el nacimiento o desde la infancia, tenga alterada gravemente la conciencia de la realidad.",
+      "explicacion": "Dos requisitos temporales —desde el nacimiento o la infancia— y uno de intensidad: alteración GRAVE de la conciencia de la realidad."
+    },
+    {
+      "id": "CP-020-4",
+      "articulo": "art. 20",
+      "titulo": "Eximente: legítima defensa y sus requisitos",
+      "resumen": "Está exento el que obre en defensa de la persona o derechos propios o ajenos, siempre que concurran: agresión ilegítima; necesidad racional del medio empleado para impedirla o repelerla; y falta de provocación suficiente por parte del defensor.",
+      "explicacion": "Tres requisitos, y el primero es el imprescindible: sin agresión ilegítima no hay legítima defensa ni completa ni incompleta."
+    },
+    {
+      "id": "CP-020-4-morada",
+      "articulo": "art. 20",
+      "titulo": "Agresión ilegítima en la defensa de la morada",
+      "resumen": "En caso de defensa de la morada o sus dependencias, se reputará agresión ilegítima la entrada indebida en aquélla o éstas.",
+      "explicacion": "El Código define qué cuenta como agresión ilegítima en dos casos concretos: los bienes y la morada. En la morada, basta la entrada indebida."
+    },
+    {
+      "id": "CP-020-5",
+      "articulo": "art. 20",
+      "titulo": "Eximente: estado de necesidad y sus requisitos",
+      "resumen": "Está exento el que, en estado de necesidad, para evitar un mal propio o ajeno lesione un bien jurídico de otra persona o infrinja un deber, siempre que el mal causado no sea mayor que el que se trate de evitar, que la situación no haya sido provocada intencionadamente y que el necesitado no tenga, por su oficio o cargo, obligación de sacrificarse.",
+      "explicacion": "El tercer requisito es el que más importa a un policía: hay oficios con obligación de sacrificarse."
+    },
+    {
+      "id": "CP-020-6-7",
+      "articulo": "art. 20",
+      "titulo": "Eximentes: miedo insuperable y cumplimiento de un deber",
+      "resumen": "Están exentos el que obre impulsado por miedo insuperable (20.6.º) y el que obre en cumplimiento de un deber o en el ejercicio legítimo de un derecho, oficio o cargo (20.7.º).",
+      "explicacion": "Fíjate en el orden: 6.º miedo insuperable; 7.º cumplimiento de un deber o ejercicio legítimo de un derecho, oficio o cargo. La numeración es lo que se pregunta."
+    },
+    {
+      "id": "CP-020-medidas",
+      "articulo": "art. 20",
+      "titulo": "Medidas de seguridad en los tres primeros números del art. 20",
+      "resumen": "En los supuestos de los tres primeros números del art. 20 se aplicarán, en su caso, las medidas de seguridad previstas en este Código.",
+      "explicacion": "Solo los TRES primeros: anomalía psíquica, intoxicación plena y alteraciones de la percepción. Los demás exentos no llevan medida."
+    },
+    {
+      "id": "CP-021-1",
+      "articulo": "art. 21",
+      "titulo": "Atenuante de eximente incompleta",
+      "resumen": "Son circunstancias atenuantes las causas expresadas en el capítulo anterior, cuando no concurrieren todos los requisitos necesarios para eximir de responsabilidad en sus respectivos casos.",
+      "explicacion": "Es la 1.ª del art. 21 y la puerta de entrada del art. 68 (rebaja en uno o dos grados). Se la llama eximente incompleta."
+    },
+    {
+      "id": "CP-021-2",
+      "articulo": "art. 21",
+      "titulo": "Atenuante de grave adicción",
+      "resumen": "Es atenuante la de actuar el culpable a causa de su grave adicción a las sustancias mencionadas en el número 2.º del artículo anterior.",
+      "explicacion": "Exige que actúe A CAUSA de la adicción, y que la adicción sea GRAVE. No basta con ser consumidor."
+    },
+    {
+      "id": "CP-021-3",
+      "articulo": "art. 21",
+      "titulo": "Atenuante de estado pasional",
+      "resumen": "Es atenuante la de obrar por causas o estímulos tan poderosos que hayan producido arrebato, obcecación u otro estado pasional de entidad semejante.",
+      "explicacion": "Arrebato, obcecación «u otro estado pasional de entidad semejante»: la lista está abierta pero exige entidad equivalente."
+    },
+    {
+      "id": "CP-021-4",
+      "articulo": "art. 21",
+      "titulo": "Atenuante de confesión",
+      "resumen": "Es atenuante la de haber procedido el culpable, antes de conocer que el procedimiento judicial se dirige contra él, a confesar la infracción a las autoridades.",
+      "explicacion": "El límite temporal es lo que se pregunta: ANTES de conocer que el procedimiento se dirige contra él. Después ya no vale."
+    },
+    {
+      "id": "CP-021-5",
+      "articulo": "art. 21",
+      "titulo": "Atenuante de reparación del daño",
+      "resumen": "Es atenuante la de haber procedido el culpable a reparar el daño ocasionado a la víctima, o disminuir sus efectos, en cualquier momento del procedimiento y con anterioridad a la celebración del acto del juicio oral.",
+      "explicacion": "Aquí el límite temporal es distinto al de la confesión: vale hasta el juicio oral. No los confundas."
+    },
+    {
+      "id": "CP-021-6",
+      "articulo": "art. 21",
+      "titulo": "Atenuante de dilaciones indebidas",
+      "resumen": "Es atenuante la dilación extraordinaria e indebida en la tramitación del procedimiento, siempre que no sea atribuible al propio inculpado y que no guarde proporción con la complejidad de la causa.",
+      "explicacion": "Tres exigencias: extraordinaria e indebida, no imputable al inculpado, y desproporcionada respecto de la complejidad."
+    },
+    {
+      "id": "CP-021-7",
+      "articulo": "art. 21",
+      "titulo": "Atenuante analógica",
+      "resumen": "Es atenuante cualquier otra circunstancia de análoga significación que las anteriores.",
+      "explicacion": "La cláusula de cierre del art. 21. Es la 7.ª y permite atenuar por analogía —lo contrario de lo que ocurre con las agravantes, que son lista cerrada."
+    },
+    {
+      "id": "CP-022-1",
+      "articulo": "art. 22",
+      "titulo": "Agravante de alevosía",
+      "resumen": "Es agravante ejecutar el hecho con alevosía. Hay alevosía cuando el culpable comete cualquiera de los delitos contra las personas empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido.",
+      "explicacion": "Solo cabe en delitos CONTRA LAS PERSONAS. Y su esencia es doble: asegurar la ejecución y eliminar el riesgo de la defensa."
+    },
+    {
+      "id": "CP-022-2",
+      "articulo": "art. 22",
+      "titulo": "Agravante de disfraz, abuso de superioridad y aprovechamiento",
+      "resumen": "Es agravante ejecutar el hecho mediante disfraz, con abuso de superioridad o aprovechando las circunstancias de lugar, tiempo o auxilio de otras personas que debiliten la defensa del ofendido o faciliten la impunidad del delincuente.",
+      "explicacion": "Tres modalidades en una sola circunstancia, unidas por la misma finalidad: debilitar la defensa o facilitar la impunidad."
+    },
+    {
+      "id": "CP-022-3",
+      "articulo": "art. 22",
+      "titulo": "Agravante de precio, recompensa o promesa",
+      "resumen": "Es agravante ejecutar el hecho mediante precio, recompensa o promesa.",
+      "explicacion": "Tres palabras exactas: precio, recompensa o promesa. Basta la promesa: el texto no exige que llegue a pagarse."
+    },
+    {
+      "id": "CP-022-4",
+      "articulo": "art. 22",
+      "titulo": "Agravante de discriminación (delitos de odio)",
+      "resumen": "Es agravante cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación referente a la ideología, religión o creencias de la víctima, la etnia, raza o nación a la que pertenezca, su sexo, edad, orientación o identidad sexual o de género, razones de género, de aporofobia o de exclusión social, la enfermedad que padezca o su discapacidad.",
+      "explicacion": "La agravante de los delitos de odio, y con un matiz decisivo: se aplica con independencia de que esas condiciones concurran EFECTIVAMENTE en la víctima."
+    },
+    {
+      "id": "CP-022-5",
+      "articulo": "art. 22",
+      "titulo": "Agravante de ensañamiento",
+      "resumen": "Es agravante aumentar deliberada e inhumanamente el sufrimiento de la víctima, causando a ésta padecimientos innecesarios para la ejecución del delito.",
+      "explicacion": "Ensañamiento. Dos adverbios que hay que retener: deliberada e inhumanamente. Y los padecimientos han de ser INNECESARIOS para la ejecución."
+    },
+    {
+      "id": "CP-022-6-7",
+      "articulo": "art. 22",
+      "titulo": "Agravantes de abuso de confianza y de carácter público",
+      "resumen": "Son agravantes obrar con abuso de confianza (22.6.ª) y prevalerse del carácter público que tenga el culpable (22.7.ª).",
+      "explicacion": "La 7.ª es la que puede afectar a un funcionario: no basta con serlo, hay que PREVALERSE de ello."
+    },
+    {
+      "id": "CP-022-8-def",
+      "articulo": "art. 22",
+      "titulo": "Agravante de reincidencia: concepto",
+      "resumen": "Hay reincidencia cuando, al delinquir, el culpable haya sido condenado ejecutoriamente por un delito comprendido en el mismo título de este código, siempre que sea de la misma naturaleza.",
+      "explicacion": "Tres exigencias: condena EJECUTORIA, mismo TÍTULO del Código y misma NATURALEZA. Falla una y no hay reincidencia."
+    },
+    {
+      "id": "CP-022-8-comp",
+      "articulo": "art. 22",
+      "titulo": "Antecedentes que no se computan para la reincidencia",
+      "resumen": "No se computarán los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos leves, salvo lo dispuesto para los tipos agravados por multirreincidencia de delitos leves.",
+      "explicacion": "«O que debieran serlo»: aunque materialmente no se hayan cancelado todavía. Y los delitos leves quedan fuera, con la salvedad de la multirreincidencia."
+    },
+    {
+      "id": "CP-022-8-ue",
+      "articulo": "art. 22",
+      "titulo": "Condenas de otros Estados de la UE y reincidencia",
+      "resumen": "Las condenas firmes de jueces o tribunales impuestas en otros Estados de la Unión Europea producirán los efectos de reincidencia salvo que el antecedente penal haya sido cancelado o pudiera serlo con arreglo al Derecho español.",
+      "explicacion": "Sí cuentan las condenas de la UE. La excepción se mide con el rasero del Derecho español."
+    },
+    {
+      "id": "CP-023",
+      "articulo": "art. 23",
+      "titulo": "La circunstancia mixta de parentesco",
+      "resumen": "Es circunstancia que puede atenuar o agravar la responsabilidad, según la naturaleza, los motivos y los efectos del delito, ser o haber sido el agraviado cónyuge o persona ligada de forma estable por análoga relación de afectividad, o ser ascendiente, descendiente o hermano por naturaleza o adopción del ofensor o de su cónyuge o conviviente.",
+      "explicacion": "Es MIXTA: puede jugar en los dos sentidos. Y alcanza al «ser o haber sido», es decir, también a la relación ya extinguida."
+    },
+    {
+      "id": "CP-024-autoridad",
+      "articulo": "art. 24",
+      "titulo": "Concepto penal de autoridad",
+      "resumen": "A los efectos penales se reputará autoridad al que por sí solo o como miembro de alguna corporación, tribunal u órgano colegiado tenga mando o ejerza jurisdicción propia.",
+      "explicacion": "La clave es «mando o jurisdicción propia». Y el Código añade una lista cerrada que en todo caso lo son."
+    },
+    {
+      "id": "CP-024-lista",
+      "articulo": "art. 24",
+      "titulo": "Quiénes tienen en todo caso la consideración de autoridad",
+      "resumen": "En todo caso tendrán la consideración de autoridad los miembros del Congreso de los Diputados, del Senado, de las Asambleas Legislativas de las Comunidades Autónomas y del Parlamento Europeo, así como los funcionarios del Ministerio Fiscal y los Fiscales de la Fiscalía Europea.",
+      "explicacion": "Lista que conviene memorizar: las cuatro cámaras, más el Ministerio Fiscal y la Fiscalía Europea."
+    },
+    {
+      "id": "CP-024-funcionario",
+      "articulo": "art. 24",
+      "titulo": "Concepto penal de funcionario público",
+      "resumen": "Se considerará funcionario público todo el que por disposición inmediata de la Ley o por elección o por nombramiento de autoridad competente participe en el ejercicio de funciones públicas.",
+      "explicacion": "El concepto penal es más amplio que el administrativo: basta con participar en funciones públicas por uno de esos tres títulos."
+    },
+    {
+      "id": "CP-026",
+      "articulo": "art. 26",
+      "titulo": "Concepto penal de documento",
+      "resumen": "A los efectos de este Código se considera documento todo soporte material que exprese o incorpore datos, hechos o narraciones con eficacia probatoria o cualquier otro tipo de relevancia jurídica.",
+      "explicacion": "«Todo soporte material»: no exige papel. Y basta con eficacia probatoria O cualquier otra relevancia jurídica."
+    },
+    {
+      "id": "CP-030-exclusion",
+      "articulo": "art. 30",
+      "titulo": "Delitos cometidos por medios de difusión: quiénes no responden",
+      "resumen": "En los delitos que se cometan utilizando medios o soportes de difusión mecánicos no responderán criminalmente ni los cómplices ni quienes los hubieren favorecido personal o realmente.",
+      "explicacion": "Excepción a las reglas generales de participación: aquí desaparecen cómplices y favorecedores."
+    },
+    {
+      "id": "CP-030-escalonada",
+      "articulo": "art. 30",
+      "titulo": "Responsabilidad escalonada en los delitos de difusión",
+      "resumen": "Los autores responderán de forma escalonada, excluyente y subsidiaria: 1.º los que hayan redactado el texto o producido el signo y quienes les hayan inducido; 2.º los directores de la publicación o programa; 3.º los directores de la empresa editora, emisora o difusora; 4.º los directores de la empresa grabadora, reproductora o impresora.",
+      "explicacion": "Tres adjetivos que caen en el examen: escalonada, EXCLUYENTE y subsidiaria. Y el orden de los cuatro escalones."
+    },
+    {
+      "id": "CP-031",
+      "articulo": "art. 31",
+      "titulo": "Actuación en nombre de otro",
+      "resumen": "El que actúe como administrador de hecho o de derecho de una persona jurídica, o en nombre o representación legal o voluntaria de otro, responderá personalmente aunque no concurran en él las condiciones, cualidades o relaciones que la figura de delito requiera, si tales circunstancias se dan en la entidad o persona en cuyo nombre obre.",
+      "explicacion": "Cierra la laguna de los delitos especiales: quien reúne la cualidad es la empresa, quien actúa es el administrador. Responde el que actúa."
+    },
+    {
+      "id": "CP-031bis-a",
+      "articulo": "art. 31 bis",
+      "titulo": "Responsabilidad penal de la persona jurídica por sus representantes",
+      "resumen": "Las personas jurídicas serán penalmente responsables de los delitos cometidos en nombre o por cuenta de las mismas, y en su beneficio directo o indirecto, por sus representantes legales o por quienes están autorizados para tomar decisiones u ostentan facultades de organización y control.",
+      "explicacion": "Dos requisitos acumulativos: en nombre o por cuenta de la persona jurídica Y en su beneficio directo o indirecto."
+    },
+    {
+      "id": "CP-031bis-b",
+      "articulo": "art. 31 bis",
+      "titulo": "Responsabilidad penal de la persona jurídica por sus subordinados",
+      "resumen": "También responde de los delitos cometidos, en el ejercicio de actividades sociales y por cuenta y en beneficio directo o indirecto de la misma, por quienes, estando sometidos a la autoridad de aquellas personas físicas, han podido realizar los hechos por haberse incumplido gravemente los deberes de supervisión, vigilancia y control.",
+      "explicacion": "La vía b) exige un incumplimiento GRAVE de los deberes de supervisión, vigilancia y control. Ese adverbio es el que se pregunta."
+    },
+    {
+      "id": "CP-031bis-pequenas",
+      "articulo": "art. 31 bis",
+      "titulo": "Personas jurídicas de pequeñas dimensiones",
+      "resumen": "En las personas jurídicas de pequeñas dimensiones las funciones de supervisión podrán ser asumidas directamente por el órgano de administración. Son de pequeñas dimensiones aquéllas que, según la legislación aplicable, estén autorizadas a presentar cuenta de pérdidas y ganancias abreviada.",
+      "explicacion": "El criterio no es el número de empleados ni la facturación: es poder presentar cuenta de pérdidas y ganancias ABREVIADA."
+    },
+    {
+      "id": "CP-031ter",
+      "articulo": "art. 31 ter",
+      "titulo": "Autonomía de la responsabilidad de la persona jurídica",
+      "resumen": "Será exigible siempre que se constate la comisión del delito por quien ostente los cargos o funciones aludidos, aun cuando la concreta persona física responsable no haya sido individualizada o no haya sido posible dirigir el procedimiento contra ella.",
+      "explicacion": "No hace falta condenar antes a nadie. Basta con constatar que el delito se cometió por alguien de ese círculo."
+    },
+    {
+      "id": "CP-031quater",
+      "articulo": "art. 31 quater",
+      "titulo": "Atenuantes de la persona jurídica",
+      "resumen": "Sólo podrán considerarse atenuantes las actividades realizadas con posterioridad al delito y a través de sus representantes legales: confesar, colaborar aportando pruebas nuevas y decisivas, reparar o disminuir el daño, y establecer medidas eficaces para prevenir y descubrir delitos futuros.",
+      "explicacion": "Lista cerrada («sólo podrán») y todas POSTERIORES al delito. Ojo a la d): el modelo de prevención implantado después atenúa; implantado antes, exime."
+    },
+    {
+      "id": "CP-031quinquies",
+      "articulo": "art. 31 quinquies",
+      "titulo": "Entidades excluidas de la responsabilidad penal",
+      "resumen": "Las disposiciones sobre responsabilidad penal de las personas jurídicas no serán aplicables al Estado, a las Administraciones públicas territoriales e institucionales, a los Organismos Reguladores, las Agencias y Entidades públicas Empresariales, a las organizaciones internacionales de derecho público, ni a aquellas otras que ejerzan potestades públicas de soberanía o administrativas.",
+      "explicacion": "El Estado y las Administraciones quedan fuera. Las sociedades mercantiles públicas, no: a ellas se les pueden imponer las penas de las letras a) y g) del art. 33.7."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-002-irretro",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el art. 2.1 del Código Penal, respecto de las leyes que establezcan medidas de seguridad…",
+      "opciones": [
+        "Carecerán, igualmente, de efecto retroactivo",
+        "Tendrán efecto retroactivo en todo caso, por no ser penas en sentido estricto",
+        "Tendrán efecto retroactivo cuando el sujeto no estuviera aún cumpliendo condena",
+        "Se aplicarán retroactivamente si así lo acuerda el juez de vigilancia penitenciaria"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "No será castigado ningún delito con pena que no se halle prevista por ley anterior a su perpetración. Carecerán, igualmente, de efecto retroactivo las leyes que establezcan medidas de seguridad.",
+      "justificacion": "Art. 2.1 CP."
+    },
+    {
+      "concepto_id": "CP-002-retro",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el art. 2.2 del Código Penal, las leyes penales que favorezcan al reo tendrán efecto retroactivo…",
+      "opciones": [
+        "solo mientras no haya recaído sentencia firme sobre los hechos enjuiciados, sin que quepa revisar lo ya juzgado",
+        "aunque al entrar en vigor hubiera recaído sentencia firme y el sujeto estuviese cumpliendo condena",
+        "solo si el reo lo solicita expresamente dentro de los seis meses siguientes a su entrada en vigor",
+        "únicamente cuando la nueva ley despenalice por completo la conducta enjuiciada"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "tendrán efecto retroactivo aquellas leyes penales que favorezcan al reo, aunque al entrar en vigor hubiera recaído sentencia firme y el sujeto estuviese cumpliendo condena",
+      "justificacion": "Art. 2.2 CP."
+    },
+    {
+      "concepto_id": "CP-002-duda",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el art. 2.2 del Código Penal, en caso de duda sobre la determinación de la ley más favorable…",
+      "opciones": [
+        "se aplicará siempre la ley vigente en el momento de dictarse la sentencia",
+        "resolverá el Tribunal Supremo mediante recurso de casación en interés de ley",
+        "será oído el reo",
+        "se aplicará la ley anterior por respeto al principio de irretroactividad"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "En caso de duda sobre la determinación de la Ley más favorable, será oído el reo.",
+      "justificacion": "Art. 2.2 CP."
+    },
+    {
+      "concepto_id": "CP-002-temporal",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el art. 2.2 del Código Penal, los hechos cometidos bajo la vigencia de una ley temporal…",
+      "opciones": [
+        "quedarán impunes cuando la ley temporal hubiera perdido su vigencia antes de la celebración del juicio oral",
+        "serán juzgados conforme a la ley posterior, por ser siempre más favorable al reo",
+        "serán juzgados, sin embargo, conforme a ella, salvo que se disponga expresamente lo contrario",
+        "serán juzgados conforme a la ley temporal solo si el reo presta su conformidad"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Los hechos cometidos bajo la vigencia de una Ley temporal serán juzgados, sin embargo, conforme a ella, salvo que se disponga expresamente lo contrario.",
+      "justificacion": "Art. 2.2 CP."
+    },
+    {
+      "concepto_id": "CP-003-jurisd",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Según el art. 3.1 del Código Penal, no podrá ejecutarse pena ni medida de seguridad sino en virtud de…",
+      "opciones": [
+        "resolución motivada del Ministerio Fiscal que declare acreditados los hechos",
+        "sentencia firme dictada por el Juez o Tribunal competente",
+        "auto de procesamiento dictado por el Juez de Instrucción que conozca de la causa",
+        "sentencia dictada en primera instancia, aunque haya sido recurrida en apelación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "No podrá ejecutarse pena ni medida de seguridad sino en virtud de sentencia firme dictada por el Juez o Tribunal competente, de acuerdo con las leyes procesales.",
+      "justificacion": "Art. 3.1 CP."
+    },
+    {
+      "concepto_id": "CP-003-ejec",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Según el art. 3.2 del Código Penal, la ejecución de la pena o de la medida de seguridad se realizará…",
+      "opciones": [
+        "bajo el control de la Administración penitenciaria competente",
+        "bajo el control del Ministerio Fiscal, como garante de la legalidad",
+        "bajo el control de los Jueces y Tribunales competentes",
+        "bajo el control del Juez que hubiera instruido el procedimiento"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La ejecución de la pena o de la medida de seguridad se realizará bajo el control de los Jueces y Tribunales competentes.",
+      "justificacion": "Art. 3.2 CP."
+    },
+    {
+      "concepto_id": "CP-004-analogia",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "Según el art. 4.1 del Código Penal, las leyes penales…",
+      "opciones": [
+        "se aplicarán por analogía a los casos semejantes cuando lo exija la justicia material",
+        "podrán extenderse a casos análogos siempre que resulte favorable al reo",
+        "no se aplicarán a casos distintos de los comprendidos expresamente en ellas",
+        "se interpretarán siempre en el sentido más amplio que permita su literalidad"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Las leyes penales no se aplicarán a casos distintos de los comprendidos expresamente en ellas.",
+      "justificacion": "Art. 4.1 CP."
+    },
+    {
+      "concepto_id": "CP-004-abstencion",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "Según el art. 4.2 del Código Penal, cuando un Juez o Tribunal conozca de una acción u omisión que, sin estar penada por la ley, estime digna de represión…",
+      "opciones": [
+        "se abstendrá de todo procedimiento sobre ella y expondrá al Gobierno las razones que le asistan",
+        "elevará exposición razonada al Tribunal Constitucional para que se pronuncie sobre la laguna legal",
+        "aplicará por analogía el precepto penal que castigue la conducta más semejante",
+        "remitirá las actuaciones al Ministerio Fiscal para que ejercite la acción penal que proceda"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se abstendrá de todo procedimiento sobre ella y expondrá al Gobierno las razones que le asistan para creer que debiera ser objeto de sanción penal",
+      "justificacion": "Art. 4.2 CP."
+    },
+    {
+      "concepto_id": "CP-004-indulto",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "Según el art. 4.4 del Código Penal, si media petición de indulto y el juez aprecia en resolución fundada que el cumplimiento de la pena puede vulnerar el derecho a un proceso sin dilaciones indebidas…",
+      "opciones": [
+        "podrá suspender la ejecución, valorando discrecionalmente las circunstancias del penado",
+        "suspenderá la ejecución de la misma en tanto no se resuelva sobre la petición formulada",
+        "continuará la ejecución, sin perjuicio de informar favorablemente la petición de indulto",
+        "elevará la petición al Gobierno, que decidirá sobre la suspensión de la ejecución"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "suspenderá la ejecución de la misma en tanto no se resuelva sobre la petición formulada",
+      "justificacion": "Art. 4.4 CP."
+    },
+    {
+      "concepto_id": "CP-006-fundamento",
+      "articulo": "art. 6",
+      "tipo": "test",
+      "enunciado": "Según el art. 6.1 del Código Penal, las medidas de seguridad se fundamentan en…",
+      "opciones": [
+        "la gravedad del hecho cometido y el grado de culpabilidad con que hubiera actuado el autor al ejecutarlo",
+        "la alarma social generada por el hecho y la necesidad de prevención general que de ella se derive para la comunidad",
+        "la peligrosidad criminal del sujeto al que se impongan, exteriorizada en la comisión de un hecho previsto como delito",
+        "la reincidencia del sujeto y en sus antecedentes penales no cancelados"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Las medidas de seguridad se fundamentan en la peligrosidad criminal del sujeto al que se impongan, exteriorizada en la comisión de un hecho previsto como delito.",
+      "justificacion": "Art. 6.1 CP."
+    },
+    {
+      "concepto_id": "CP-006-limite",
+      "articulo": "art. 6",
+      "tipo": "test",
+      "enunciado": "Según el art. 6.2 del Código Penal, las medidas de seguridad no pueden resultar…",
+      "opciones": [
+        "ni más gravosas ni de mayor duración que la pena abstractamente aplicable al hecho cometido",
+        "de duración superior a diez años en ningún caso, cualquiera que sea la pena abstractamente aplicable al hecho cometido",
+        "más gravosas que la pena concretamente impuesta en la sentencia condenatoria",
+        "de duración superior a la mitad de la pena abstractamente aplicable al hecho"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las medidas de seguridad no pueden resultar ni más gravosas ni de mayor duración que la pena abstractamente aplicable al hecho cometido, ni exceder el límite de lo necesario para prevenir la peligrosidad del autor.",
+      "justificacion": "Art. 6.2 CP."
+    },
+    {
+      "concepto_id": "CP-007",
+      "articulo": "art. 7",
+      "tipo": "test",
+      "enunciado": "Según el art. 7 del Código Penal, a efectos de la ley penal aplicable en el tiempo, los delitos se consideran cometidos…",
+      "opciones": [
+        "en el momento en que se produce el resultado lesivo descrito en el tipo penal correspondiente",
+        "en el momento en que el sujeto ejecuta la acción u omite el acto que estaba obligado a realizar",
+        "en el momento en que el hecho llega a conocimiento de la autoridad judicial",
+        "en el momento en que se agota la totalidad del plan delictivo del autor"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "los delitos se consideran cometidos en el momento en que el sujeto ejecuta la acción u omite el acto que estaba obligado a realizar",
+      "justificacion": "Art. 7 CP."
+    },
+    {
+      "concepto_id": "CP-008-especial",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "Según la regla 1.ª del art. 8 del Código Penal, cuando un hecho sea susceptible de calificarse con arreglo a dos o más preceptos…",
+      "opciones": [
+        "El precepto más grave excluirá a los que castiguen el hecho con pena menor",
+        "El precepto más amplio o complejo absorberá a los que castiguen las infracciones consumidas",
+        "El precepto especial se aplicará con preferencia al general",
+        "El precepto subsidiario se aplicará solo en defecto del principal"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "1.ª El precepto especial se aplicará con preferencia al general.",
+      "justificacion": "Art. 8.1.ª CP."
+    },
+    {
+      "concepto_id": "CP-008-alternativ",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "Según la regla 4.ª del art. 8 del Código Penal, en defecto de los criterios anteriores…",
+      "opciones": [
+        "el precepto penal más grave excluirá los que castiguen el hecho con pena menor",
+        "el precepto penal más favorable al reo excluirá a los demás preceptos concurrentes",
+        "se aplicarán todos los preceptos concurrentes conforme a las reglas del concurso real",
+        "resolverá el tribunal atendiendo a la mayor alarma social producida por el hecho"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "4.ª En defecto de los criterios anteriores, el precepto penal más grave excluirá los que castiguen el hecho con pena menor.",
+      "justificacion": "Art. 8.4.ª CP."
+    },
+    {
+      "concepto_id": "CP-009",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "Según el art. 9 del Código Penal, las restantes disposiciones de este Código, respecto de los delitos penados por leyes especiales…",
+      "opciones": [
+        "no serán aplicables en ningún caso, por regir el principio de especialidad",
+        "se aplicarán con preferencia a lo dispuesto en la ley especial",
+        "se aplicarán como supletorias en lo no previsto expresamente por aquéllas",
+        "se aplicarán únicamente cuando la ley especial se remita a ellas de forma expresa"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Las restantes disposiciones de este Código se aplicarán como supletorias en lo no previsto expresamente por aquéllas.",
+      "justificacion": "Art. 9 CP."
+    },
+    {
+      "concepto_id": "CP-014-hecho",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el art. 14.1 del Código Penal, el error VENCIBLE sobre un hecho constitutivo de la infracción penal determina que…",
+      "opciones": [
+        "quede excluida por completo la responsabilidad criminal del autor",
+        "la infracción será castigada, en su caso, como imprudente",
+        "se aplique la pena inferior en uno o dos grados a la señalada al delito doloso",
+        "la infracción se castigue como dolosa, aplicando una atenuante analógica"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El error invencible sobre un hecho constitutivo de la infracción penal excluye la responsabilidad criminal. Si el error, atendidas las circunstancias del hecho y las personales del autor, fuera vencible, la infracción será castigada, en su caso, como imprudente.",
+      "justificacion": "Art. 14.1 CP."
+    },
+    {
+      "concepto_id": "CP-014-agravante",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el art. 14.2 del Código Penal, el error sobre un hecho que cualifique la infracción o sobre una circunstancia agravante…",
+      "opciones": [
+        "excluye la responsabilidad criminal por el delito cometido",
+        "obliga a castigar el hecho como imprudente si el error fuera vencible",
+        "impedirá su apreciación",
+        "se apreciará como circunstancia atenuante analógica del art. 21.7.ª"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "El error sobre un hecho que cualifique la infracción o sobre una circunstancia agravante, impedirá su apreciación.",
+      "justificacion": "Art. 14.2 CP."
+    },
+    {
+      "concepto_id": "CP-014-prohib",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el art. 14.3 del Código Penal, si el error sobre la ilicitud del hecho fuera VENCIBLE…",
+      "opciones": [
+        "la infracción será castigada, en su caso, como imprudente",
+        "se aplicará la pena inferior en uno o dos grados",
+        "se aplicará la pena inferior en grado, con carácter preceptivo",
+        "quedará excluida la responsabilidad criminal del autor"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El error invencible sobre la ilicitud del hecho constitutivo de la infracción penal excluye la responsabilidad criminal. Si el error fuera vencible, se aplicará la pena inferior en uno o dos grados.",
+      "justificacion": "Art. 14.3 CP."
+    },
+    {
+      "concepto_id": "CP-017-conspir",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "Según el art. 17.1 del Código Penal, la conspiración existe cuando…",
+      "opciones": [
+        "el que ha resuelto cometer un delito invita a otra u otras personas a participar en él",
+        "dos o más personas se conciertan para la ejecución de un delito y resuelven ejecutarlo",
+        "se incita directamente por medio de la imprenta o la radiodifusión a la perpetración de un delito",
+        "dos o más personas acuerdan constituir una organización para cometer delitos de forma reiterada"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La conspiración existe cuando dos o más personas se conciertan para la ejecución de un delito y resuelven ejecutarlo.",
+      "justificacion": "Art. 17.1 CP."
+    },
+    {
+      "concepto_id": "CP-017-propos",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "Según el art. 17.2 del Código Penal, la proposición existe cuando…",
+      "opciones": [
+        "dos o más personas se conciertan para la ejecución de un delito y resuelven ejecutarlo",
+        "se ensalza públicamente el crimen o se enaltece a su autor ante una concurrencia de personas",
+        "el que ha resuelto cometer un delito invita a otra u otras personas a participar en él",
+        "una persona ofrece precio o recompensa a otra para que cometa un delito en su lugar"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La proposición existe cuando el que ha resuelto cometer un delito invita a otra u otras personas a participar en él.",
+      "justificacion": "Art. 17.2 CP."
+    },
+    {
+      "concepto_id": "CP-017-castigo",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "Según el art. 17.3 del Código Penal, la conspiración y la proposición para delinquir…",
+      "opciones": [
+        "se castigarán siempre con la pena inferior en dos grados a la del delito proyectado",
+        "sólo se castigarán en los casos especialmente previstos en la ley",
+        "se castigarán en todo delito grave, y nunca en los delitos menos graves o leves",
+        "no se castigan nunca, por tratarse de meros actos internos no exteriorizados"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La conspiración y la proposición para delinquir sólo se castigarán en los casos especialmente previstos en la ley.",
+      "justificacion": "Art. 17.3 CP."
+    },
+    {
+      "concepto_id": "CP-018-provoc",
+      "articulo": "art. 18",
+      "tipo": "test",
+      "enunciado": "Según el art. 18.1 del Código Penal, la provocación existe cuando directamente se incita a la perpetración de un delito…",
+      "opciones": [
+        "por cualquier medio, con publicidad o sin ella y ante una o varias personas, siempre que la incitación sea directa y se refiera a un delito determinado",
+        "por medio de la imprenta, la radiodifusión o cualquier otro medio de eficacia semejante, que facilite la publicidad, o ante una concurrencia de personas",
+        "en el seno de una organización o grupo criminal constituido a tal fin",
+        "mediante precio, recompensa o promesa dirigida a persona determinada"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La provocación existe cuando directamente se incita por medio de la imprenta, la radiodifusión o cualquier otro medio de eficacia semejante, que facilite la publicidad, o ante una concurrencia de personas, a la perpetración de un delito.",
+      "justificacion": "Art. 18.1 CP."
+    },
+    {
+      "concepto_id": "CP-018-apologia",
+      "articulo": "art. 18",
+      "tipo": "test",
+      "enunciado": "Según el art. 18.1 del Código Penal, la apología…",
+      "opciones": [
+        "es siempre delictiva cuando se realiza ante una concurrencia de personas o por cualquier medio de difusión que facilite la publicidad",
+        "es delictiva únicamente cuando el delito ensalzado llega efectivamente a cometerse",
+        "sólo será delictiva como forma de provocación y si por su naturaleza y circunstancias constituye una incitación directa a cometer un delito",
+        "constituye una modalidad autónoma de participación castigada como complicidad"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La apología sólo será delictiva como forma de provocación y si por su naturaleza y circunstancias constituye una incitación directa a cometer un delito.",
+      "justificacion": "Art. 18.1 CP."
+    },
+    {
+      "concepto_id": "CP-018-seguida",
+      "articulo": "art. 18",
+      "tipo": "test",
+      "enunciado": "Según el art. 18.2 del Código Penal, si a la provocación hubiese seguido la perpetración del delito, se castigará como…",
+      "opciones": [
+        "complicidad",
+        "conspiración",
+        "encubrimiento",
+        "inducción"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "Si a la provocación hubiese seguido la perpetración del delito, se castigará como inducción.",
+      "justificacion": "Art. 18.2 CP."
+    },
+    {
+      "concepto_id": "CP-019",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "Según el art. 19 del Código Penal, cuando un menor de dieciocho años cometa un hecho delictivo…",
+      "opciones": [
+        "quedará exento de toda responsabilidad criminal y civil, sin que quepa imponerle medida alguna por el hecho",
+        "responderá conforme a este Código, aplicándosele la pena inferior en dos grados",
+        "podrá ser responsable con arreglo a lo dispuesto en la ley que regule la responsabilidad penal del menor",
+        "responderán civilmente sus padres o tutores, sin consecuencia alguna para el menor"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Los menores de dieciocho años no serán responsables criminalmente con arreglo a este Código. Cuando un menor de dicha edad cometa un hecho delictivo podrá ser responsable con arreglo a lo dispuesto en la ley que regule la responsabilidad penal del menor.",
+      "justificacion": "Art. 19 CP."
+    },
+    {
+      "concepto_id": "CP-069",
+      "articulo": "art. 69",
+      "tipo": "test",
+      "enunciado": "Según el art. 69 del Código Penal, al mayor de dieciocho años y menor de veintiuno que cometa un hecho delictivo…",
+      "opciones": [
+        "se le aplicarán en todo caso las disposiciones de la ley que regule la responsabilidad penal del menor",
+        "podrán aplicársele las disposiciones de la ley que regule la responsabilidad penal del menor",
+        "se le aplicará siempre este Código, con la atenuante de minoría de edad",
+        "podrá aplicársele la ley del menor únicamente si el hecho fuera constitutivo de delito leve"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Al mayor de dieciocho años y menor de veintiuno que cometa un hecho delictivo, podrán aplicársele las disposiciones de la ley que regule la responsabilidad penal del menor en los casos y con los requisitos que ésta disponga.",
+      "justificacion": "Art. 69 CP."
+    },
+    {
+      "concepto_id": "CP-020-3",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Según el art. 20.3.º del Código Penal, está exento de responsabilidad criminal el que…",
+      "opciones": [
+        "padezca cualquier anomalía o alteración psíquica en el momento de cometer el hecho, aunque no le impida comprender su ilicitud",
+        "sufra un trastorno mental transitorio, aunque lo hubiera provocado con propósito delictivo",
+        "por sufrir alteraciones en la percepción desde el nacimiento o desde la infancia, tenga alterada gravemente la conciencia de la realidad",
+        "actúe bajo los efectos de un síndrome de abstinencia por su dependencia de sustancias tóxicas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "3.º El que, por sufrir alteraciones en la percepción desde el nacimiento o desde la infancia, tenga alterada gravemente la conciencia de la realidad.",
+      "justificacion": "Art. 20.3.º CP."
+    },
+    {
+      "concepto_id": "CP-020-4",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Según el art. 20.4.º del Código Penal, el tercero de los requisitos de la legítima defensa es…",
+      "opciones": [
+        "Necesidad racional del medio empleado para impedirla o repelerla",
+        "Falta de provocación suficiente por parte del defensor",
+        "Proporcionalidad entre el mal causado y el que se trataba de evitar",
+        "Que el defensor no tenga, por su oficio o cargo, obligación de sacrificarse"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "4.º El que obre en defensa de la persona o derechos propios o ajenos, siempre que concurran los requisitos siguientes: Primero. Agresión ilegítima. En caso de defensa de los bienes se reputará agresión ilegítima el ataque a los mismos que constituya delito y los ponga en grave peligro de deterioro o pérdida inminentes. En caso de defensa de la morada o sus dependencias, se reputará agresión ilegítima la entrada indebida en aquélla o éstas. Segundo. Necesidad racional del medio empleado para impedirla o repelerla. Tercero. Falta de provocación suficiente por parte del defensor.",
+      "justificacion": "Art. 20.4.º CP."
+    },
+    {
+      "concepto_id": "CP-020-4-morada",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Según el art. 20.4.º del Código Penal, en caso de defensa de la morada o sus dependencias, se reputará agresión ilegítima…",
+      "opciones": [
+        "la entrada indebida en aquélla o éstas",
+        "únicamente la entrada acompañada de violencia o intimidación sobre las personas",
+        "la entrada indebida siempre que se realice en horario nocturno",
+        "la permanencia en ella contra la voluntad del morador, pero no la simple entrada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En caso de defensa de la morada o sus dependencias, se reputará agresión ilegítima la entrada indebida en aquélla o éstas.",
+      "justificacion": "Art. 20.4.º CP."
+    },
+    {
+      "concepto_id": "CP-020-5",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Según el art. 20.5.º del Código Penal, el tercero de los requisitos del estado de necesidad es…",
+      "opciones": [
+        "Que el mal causado no sea mayor que el que se trate de evitar",
+        "Que la situación de necesidad no haya sido provocada intencionadamente por el sujeto",
+        "Que el necesitado no tenga, por su oficio o cargo, obligación de sacrificarse",
+        "Que no exista otro medio menos lesivo para evitar el mal que amenaza"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "5.º El que, en estado de necesidad, para evitar un mal propio o ajeno lesione un bien jurídico de otra persona o infrinja un deber, siempre que concurran los siguientes requisitos: Primero. Que el mal causado no sea mayor que el que se trate de evitar. Segundo. Que la situación de necesidad no haya sido provocada intencionadamente por el sujeto. Tercero. Que el necesitado no tenga, por su oficio o cargo, obligación de sacrificarse.",
+      "justificacion": "Art. 20.5.º CP."
+    },
+    {
+      "concepto_id": "CP-020-6-7",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Según el art. 20 del Código Penal, la eximente de obrar en cumplimiento de un deber o en el ejercicio legítimo de un derecho, oficio o cargo es la del número…",
+      "opciones": [
+        "5.º",
+        "6.º",
+        "7.º",
+        "4.º"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "6.º El que obre impulsado por miedo insuperable. 7.º El que obre en cumplimiento de un deber o en el ejercicio legítimo de un derecho, oficio o cargo.",
+      "justificacion": "Art. 20.7.º CP."
+    },
+    {
+      "concepto_id": "CP-020-medidas",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Según el art. 20 del Código Penal, las medidas de seguridad previstas en el Código podrán aplicarse, en su caso, en los supuestos de…",
+      "opciones": [
+        "todos los números del artículo 20",
+        "los tres primeros números",
+        "los números 4.º, 5.º y 6.º, por tratarse de causas de justificación",
+        "los dos primeros números únicamente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "En los supuestos de los tres primeros números se aplicarán, en su caso, las medidas de seguridad previstas en este Código.",
+      "justificacion": "Art. 20 CP, último párrafo."
+    },
+    {
+      "concepto_id": "CP-021-1",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Según el art. 21.1.ª del Código Penal, son circunstancias atenuantes…",
+      "opciones": [
+        "Las causas expresadas en el capítulo anterior, cuando no concurrieren todos los requisitos necesarios para eximir de responsabilidad",
+        "Las causas expresadas en el capítulo anterior, cuando concurran todos sus requisitos pero el hecho revista escasa entidad o gravedad",
+        "Cualquier circunstancia personal del reo que el tribunal estime digna de menor reproche",
+        "La escasa gravedad del daño causado y la ausencia de antecedentes penales del culpable"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Son circunstancias atenuantes: 1.ª Las causas expresadas en el capítulo anterior, cuando no concurrieren todos los requisitos necesarios para eximir de responsabilidad en sus respectivos casos.",
+      "justificacion": "Art. 21.1.ª CP."
+    },
+    {
+      "concepto_id": "CP-021-2",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Según el art. 21.2.ª del Código Penal, es circunstancia atenuante…",
+      "opciones": [
+        "La de haber consumido bebidas alcohólicas o drogas tóxicas antes de cometer el hecho",
+        "La de actuar el culpable a causa de su grave adicción a las sustancias mencionadas en el número 2.º del artículo anterior",
+        "La de hallarse el culpable en estado de intoxicación plena en el momento de cometer la infracción",
+        "La de someterse voluntariamente el culpable, después de cometido el delito, a un tratamiento de deshabituación de las sustancias que consumía"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2.ª La de actuar el culpable a causa de su grave adicción a las sustancias mencionadas en el número 2.º del artículo anterior.",
+      "justificacion": "Art. 21.2.ª CP."
+    },
+    {
+      "concepto_id": "CP-021-3",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Según el art. 21.3.ª del Código Penal, es atenuante obrar por causas o estímulos tan poderosos que hayan producido…",
+      "opciones": [
+        "un trastorno mental transitorio que impida comprender la ilicitud del hecho",
+        "una situación de miedo, aunque este resulte vencible para una persona media",
+        "arrebato, obcecación u otro estado pasional de entidad semejante",
+        "una alteración grave de la conciencia de la realidad"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "3.ª La de obrar por causas o estímulos tan poderosos que hayan producido arrebato, obcecación u otro estado pasional de entidad semejante.",
+      "justificacion": "Art. 21.3.ª CP."
+    },
+    {
+      "concepto_id": "CP-021-4",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Según el art. 21.4.ª del Código Penal, la atenuante de confesión exige que el culpable confiese la infracción a las autoridades…",
+      "opciones": [
+        "en cualquier momento del procedimiento anterior al juicio oral",
+        "antes de conocer que el procedimiento judicial se dirige contra él",
+        "antes de que llegue a dictarse el auto de apertura del juicio oral en la causa",
+        "en el plazo de setenta y dos horas desde la comisión del hecho"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "4.ª La de haber procedido el culpable, antes de conocer que el procedimiento judicial se dirige contra él, a confesar la infracción a las autoridades.",
+      "justificacion": "Art. 21.4.ª CP."
+    },
+    {
+      "concepto_id": "CP-021-5",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Según el art. 21.5.ª del Código Penal, la reparación del daño opera como atenuante si se produce…",
+      "opciones": [
+        "antes de conocer el culpable que el procedimiento judicial se dirige contra él por esos hechos",
+        "en cualquier momento del procedimiento y con anterioridad a la celebración del acto del juicio oral",
+        "en cualquier momento anterior a que la sentencia condenatoria adquiera firmeza",
+        "durante la fase de ejecución, siempre que sea total y no meramente parcial"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "5.ª La de haber procedido el culpable a reparar el daño ocasionado a la víctima, o disminuir sus efectos, en cualquier momento del procedimiento y con anterioridad a la celebración del acto del juicio oral.",
+      "justificacion": "Art. 21.5.ª CP."
+    },
+    {
+      "concepto_id": "CP-021-6",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Según el art. 21.6.ª del Código Penal, la atenuante de dilaciones exige que la dilación sea extraordinaria e indebida, que no sea atribuible al propio inculpado y que…",
+      "opciones": [
+        "haya superado el plazo máximo de instrucción legalmente previsto",
+        "no guarde proporción con la complejidad de la causa",
+        "haya causado un perjuicio efectivo y acreditado al inculpado",
+        "sea imputable a negligencia del órgano judicial declarada en resolución firme"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "6.ª La dilación extraordinaria e indebida en la tramitación del procedimiento, siempre que no sea atribuible al propio inculpado y que no guarde proporción con la complejidad de la causa.",
+      "justificacion": "Art. 21.6.ª CP."
+    },
+    {
+      "concepto_id": "CP-021-7",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Según el art. 21 del Código Penal, la circunstancia atenuante que permite apreciar cualquier otra de análoga significación es la del número…",
+      "opciones": [
+        "6.ª",
+        "7.ª",
+        "5.ª",
+        "1.ª"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "7.ª Cualquier otra circunstancia de análoga significación que las anteriores.",
+      "justificacion": "Art. 21.7.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-1",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22.1.ª del Código Penal, hay alevosía cuando el culpable comete cualquiera de los delitos contra las personas empleando medios, modos o formas que tiendan directa o especialmente a asegurar la ejecución…",
+      "opciones": [
+        "y a causar un padecimiento innecesario a la víctima",
+        "aprovechando las circunstancias de lugar, tiempo o auxilio de otras personas presentes",
+        "sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido",
+        "y a facilitar la impunidad del delincuente tras la comisión del hecho"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "1.ª Ejecutar el hecho con alevosía. Hay alevosía cuando el culpable comete cualquiera de los delitos contra las personas empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido.",
+      "justificacion": "Art. 22.1.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-2",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22.2.ª del Código Penal, ejecutar el hecho mediante disfraz o con abuso de superioridad agrava porque tales circunstancias…",
+      "opciones": [
+        "revelan una peligrosidad criminal del sujeto activo mayor que la ordinaria",
+        "debiliten la defensa del ofendido o faciliten la impunidad del delincuente",
+        "aumentan deliberada e inhumanamente el sufrimiento de la víctima",
+        "aseguran la ejecución sin riesgo para la persona del culpable"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2.ª Ejecutar el hecho mediante disfraz, con abuso de superioridad o aprovechando las circunstancias de lugar, tiempo o auxilio de otras personas que debiliten la defensa del ofendido o faciliten la impunidad del delincuente.",
+      "justificacion": "Art. 22.2.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-3",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22.3.ª del Código Penal, es circunstancia agravante ejecutar el hecho mediante…",
+      "opciones": [
+        "engaño, abuso de confianza o aprovechamiento de una relación de dependencia",
+        "precio, recompensa o promesa",
+        "precio o recompensa, quedando excluida la simple promesa no cumplida",
+        "violencia o intimidación sobre las personas o fuerza en las cosas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3.ª Ejecutar el hecho mediante precio, recompensa o promesa.",
+      "justificacion": "Art. 22.3.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-4",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22.4.ª del Código Penal, la agravante por motivos discriminatorios se aplica…",
+      "opciones": [
+        "solo si se acredita en el juicio que la víctima reunía efectivamente la condición o circunstancia discriminatoria invocada por el autor",
+        "con independencia de que tales condiciones o circunstancias concurran efectivamente en la persona sobre la que recaiga la conducta",
+        "solo cuando el delito cometido sea de naturaleza violenta contra las personas",
+        "únicamente si el autor pertenece a una organización de carácter discriminatorio"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "con independencia de que tales condiciones o circunstancias concurran efectivamente en la persona sobre la que recaiga la conducta",
+      "justificacion": "Art. 22.4.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-5",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22.5.ª del Código Penal, el ensañamiento consiste en aumentar deliberada e inhumanamente el sufrimiento de la víctima, causando a ésta…",
+      "opciones": [
+        "padecimientos innecesarios para la ejecución del delito",
+        "lesiones que requieran tratamiento médico o quirúrgico para su sanidad",
+        "un sufrimiento prolongado durante más de veinticuatro horas",
+        "padecimientos que aseguren la ejecución del delito sin riesgo para el autor"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "5.ª Aumentar deliberada e inhumanamente el sufrimiento de la víctima, causando a ésta padecimientos innecesarios para la ejecución del delito.",
+      "justificacion": "Art. 22.5.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-6-7",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22 del Código Penal, la agravante consistente en prevalerse del carácter público que tenga el culpable es la del número…",
+      "opciones": [
+        "5.ª",
+        "6.ª",
+        "7.ª",
+        "8.ª"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "6.ª Obrar con abuso de confianza. 7.ª Prevalerse del carácter público que tenga el culpable.",
+      "justificacion": "Art. 22.7.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-8-def",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22.8.ª del Código Penal, hay reincidencia cuando, al delinquir, el culpable haya sido condenado ejecutoriamente…",
+      "opciones": [
+        "por cualquier delito doloso, con independencia de su naturaleza y del título en que se ubique",
+        "por un delito comprendido en el mismo título de este código, siempre que sea de la misma naturaleza",
+        "por dos o más delitos anteriores, aunque pertenezcan a títulos distintos de este Código",
+        "por un delito castigado con pena de la misma gravedad que el ahora cometido"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "8.ª Ser reincidente. Hay reincidencia cuando, al delinquir, el culpable haya sido condenado ejecutoriamente por un delito comprendido en el mismo título de este código, siempre que sea de la misma naturaleza.",
+      "justificacion": "Art. 22.8.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-8-comp",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22.8.ª del Código Penal, a efectos de la reincidencia no se computarán…",
+      "opciones": [
+        "los antecedentes penales cancelados, pero sí los que aún no lo hayan sido aunque procediera su cancelación",
+        "los antecedentes correspondientes a delitos cometidos hace más de diez años",
+        "los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos leves",
+        "los antecedentes derivados de condenas impuestas por tribunales de otros Estados de la Unión Europea"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "A los efectos de este número no se computarán los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos leves, salvo lo dispuesto para los tipos agravados por multirreincidencia de delitos leves.",
+      "justificacion": "Art. 22.8.ª CP."
+    },
+    {
+      "concepto_id": "CP-022-8-ue",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el art. 22.8.ª del Código Penal, las condenas firmes impuestas en otros Estados de la Unión Europea…",
+      "opciones": [
+        "no producen en ningún caso los efectos de reincidencia en España",
+        "producirán los efectos de reincidencia salvo que el antecedente penal haya sido cancelado o pudiera serlo con arreglo al Derecho español",
+        "producen los efectos de reincidencia solo si existe un convenio bilateral de reconocimiento con el Estado en que se dictó la condena",
+        "producen los efectos de reincidencia únicamente cuando el delito sea de terrorismo o crimen organizado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las condenas firmes de jueces o tribunales impuestas en otros Estados de la Unión Europea producirán los efectos de reincidencia salvo que el antecedente penal haya sido cancelado o pudiera serlo con arreglo al Derecho español.",
+      "justificacion": "Art. 22.8.ª CP."
+    },
+    {
+      "concepto_id": "CP-023",
+      "articulo": "art. 23",
+      "tipo": "test",
+      "enunciado": "Según el art. 23 del Código Penal, la circunstancia de parentesco…",
+      "opciones": [
+        "agrava siempre la responsabilidad criminal, cualquiera que sean la naturaleza, los motivos y los efectos del delito",
+        "atenúa siempre la responsabilidad criminal en los delitos cometidos en el ámbito familiar",
+        "puede atenuar o agravar la responsabilidad, según la naturaleza, los motivos y los efectos del delito",
+        "solo se aprecia cuando la relación de parentesco o afectividad subsista al cometerse el hecho"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Es circunstancia que puede atenuar o agravar la responsabilidad, según la naturaleza, los motivos y los efectos del delito, ser o haber sido el agraviado cónyuge o persona que esté o haya estado ligada de forma estable por análoga relación de afectividad, o ser ascendiente, descendiente o hermano por naturaleza o adopción del ofensor o de su cónyuge o conviviente.",
+      "justificacion": "Art. 23 CP."
+    },
+    {
+      "concepto_id": "CP-024-autoridad",
+      "articulo": "art. 24",
+      "tipo": "test",
+      "enunciado": "Según el art. 24.1 del Código Penal, se reputará autoridad al que, por sí solo o como miembro de alguna corporación, tribunal u órgano colegiado…",
+      "opciones": [
+        "participe en el ejercicio de funciones públicas por disposición inmediata de la ley",
+        "tenga mando o ejerza jurisdicción propia",
+        "ostente la condición de funcionario público de carrera con habilitación nacional",
+        "haya sido elegido por sufragio universal directo para el desempeño de su cargo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "A los efectos penales se reputará autoridad al que por sí solo o como miembro de alguna corporación, tribunal u órgano colegiado tenga mando o ejerza jurisdicción propia.",
+      "justificacion": "Art. 24.1 CP."
+    },
+    {
+      "concepto_id": "CP-024-lista",
+      "articulo": "art. 24",
+      "tipo": "test",
+      "enunciado": "Según el art. 24.1 del Código Penal, tienen también la consideración de autoridad…",
+      "opciones": [
+        "los funcionarios del Ministerio Fiscal y los Fiscales de la Fiscalía Europea",
+        "los funcionarios de la Policía Nacional con categoría de Inspector o superior",
+        "los concejales de los ayuntamientos y los diputados provinciales",
+        "los letrados de la Administración de Justicia y los peritos judiciales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Tendrán también la consideración de autoridad los funcionarios del Ministerio Fiscal y los Fiscales de la Fiscalía Europea.",
+      "justificacion": "Art. 24.1 CP."
+    },
+    {
+      "concepto_id": "CP-024-funcionario",
+      "articulo": "art. 24",
+      "tipo": "test",
+      "enunciado": "Según el art. 24.2 del Código Penal, se considerará funcionario público todo el que participe en el ejercicio de funciones públicas por…",
+      "opciones": [
+        "disposición inmediata de la Ley o por elección o por nombramiento de autoridad competente",
+        "nombramiento de autoridad competente, siempre que perciba retribución con cargo a fondos públicos",
+        "haber superado un proceso selectivo de acceso a la función pública",
+        "disposición reglamentaria o por contrato laboral suscrito con una Administración pública"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se considerará funcionario público todo el que por disposición inmediata de la Ley o por elección o por nombramiento de autoridad competente participe en el ejercicio de funciones públicas.",
+      "justificacion": "Art. 24.2 CP."
+    },
+    {
+      "concepto_id": "CP-026",
+      "articulo": "art. 26",
+      "tipo": "test",
+      "enunciado": "Según el art. 26 del Código Penal, se considera documento…",
+      "opciones": [
+        "todo escrito en soporte papel firmado por su autor con eficacia probatoria",
+        "todo soporte material que exprese o incorpore datos, hechos o narraciones con eficacia probatoria o cualquier otro tipo de relevancia jurídica",
+        "todo soporte material expedido por una autoridad o funcionario público en el ejercicio de su cargo",
+        "todo soporte material o electrónico que haya sido incorporado a un procedimiento judicial o administrativo con eficacia probatoria"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "A los efectos de este Código se considera documento todo soporte material que exprese o incorpore datos, hechos o narraciones con eficacia probatoria o cualquier otro tipo de relevancia jurídica.",
+      "justificacion": "Art. 26 CP."
+    },
+    {
+      "concepto_id": "CP-030-exclusion",
+      "articulo": "art. 30",
+      "tipo": "test",
+      "enunciado": "Según el art. 30.1 del Código Penal, en los delitos cometidos utilizando medios o soportes de difusión mecánicos no responderán criminalmente…",
+      "opciones": [
+        "ni los inductores ni los cooperadores necesarios",
+        "ni los autores materiales del texto ni quienes los hubieren inducido",
+        "ni los cómplices ni quienes los hubieren favorecido personal o realmente",
+        "ni los directores de la publicación o programa ni los de la empresa editora"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "En los delitos que se cometan utilizando medios o soportes de difusión mecánicos no responderán criminalmente ni los cómplices ni quienes los hubieren favorecido personal o realmente.",
+      "justificacion": "Art. 30.1 CP."
+    },
+    {
+      "concepto_id": "CP-030-escalonada",
+      "articulo": "art. 30",
+      "tipo": "test",
+      "enunciado": "Según el art. 30.2 del Código Penal, los autores de los delitos cometidos por medios de difusión responderán de forma…",
+      "opciones": [
+        "solidaria, conjunta y simultánea",
+        "escalonada, excluyente y subsidiaria",
+        "escalonada, acumulativa y solidaria",
+        "subsidiaria, mancomunada y proporcional a su participación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los autores a los que se refiere el artículo 28 responderán de forma escalonada, excluyente y subsidiaria de acuerdo con el siguiente orden:",
+      "justificacion": "Art. 30.2 CP."
+    },
+    {
+      "concepto_id": "CP-031",
+      "articulo": "art. 31",
+      "tipo": "test",
+      "enunciado": "Según el art. 31 del Código Penal, quien actúe como administrador de hecho o de derecho de una persona jurídica responderá personalmente aunque no concurran en él las condiciones que la figura de delito requiera…",
+      "opciones": [
+        "siempre que la persona jurídica hubiera sido previamente condenada por esos mismos hechos",
+        "si tales circunstancias se dan en la entidad o persona en cuyo nombre o representación obre",
+        "solo si actuaba en beneficio directo o indirecto de la persona jurídica",
+        "salvo que la persona jurídica hubiera implantado un modelo eficaz de prevención de delitos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "responderá personalmente, aunque no concurran en él las condiciones, cualidades o relaciones que la correspondiente figura de delito requiera para poder ser sujeto activo del mismo, si tales circunstancias se dan en la entidad o persona en cuyo nombre o representación obre",
+      "justificacion": "Art. 31 CP."
+    },
+    {
+      "concepto_id": "CP-031bis-a",
+      "articulo": "art. 31 bis",
+      "tipo": "test",
+      "enunciado": "Según el art. 31 bis 1 a) del Código Penal, la persona jurídica responde de los delitos cometidos por sus representantes legales cuando se cometan en nombre o por cuenta de la misma y…",
+      "opciones": [
+        "con conocimiento y consentimiento expreso del órgano de administración",
+        "en su beneficio directo o indirecto",
+        "en su beneficio directo, quedando excluido el beneficio meramente indirecto",
+        "en el ejercicio de actividades sociales, aunque no reporten beneficio alguno"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "a) De los delitos cometidos en nombre o por cuenta de las mismas, y en su beneficio directo o indirecto, por sus representantes legales o por aquellos que actuando individualmente o como integrantes de un órgano de la persona jurídica, están autorizados para tomar decisiones en nombre de la persona jurídica u ostentan facultades de organización y control dentro de la misma.",
+      "justificacion": "Art. 31 bis 1 a) CP."
+    },
+    {
+      "concepto_id": "CP-031bis-b",
+      "articulo": "art. 31 bis",
+      "tipo": "test",
+      "enunciado": "Según el art. 31 bis 1 b) del Código Penal, la persona jurídica responde por los hechos de los sometidos a la autoridad de sus representantes cuando aquéllos han podido realizarlos por…",
+      "opciones": [
+        "haberse incumplido gravemente por aquéllos los deberes de supervisión, vigilancia y control de su actividad",
+        "haberse incumplido, siquiera levemente, los deberes de supervisión y vigilancia exigibles al empresario",
+        "haber recibido instrucciones expresas del órgano de administración de la entidad",
+        "carecer la entidad de un órgano específico de cumplimiento normativo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "b) De los delitos cometidos, en el ejercicio de actividades sociales y por cuenta y en beneficio directo o indirecto de las mismas, por quienes, estando sometidos a la autoridad de las personas físicas mencionadas en el párrafo anterior, han podido realizar los hechos por haberse incumplido gravemente por aquéllos los deberes de supervisión, vigilancia y control de su actividad atendidas las concretas circunstancias del caso.",
+      "justificacion": "Art. 31 bis 1 b) CP."
+    },
+    {
+      "concepto_id": "CP-031bis-pequenas",
+      "articulo": "art. 31 bis",
+      "tipo": "test",
+      "enunciado": "Según el art. 31 bis 3 del Código Penal, son personas jurídicas de pequeñas dimensiones aquéllas que…",
+      "opciones": [
+        "tengan menos de cincuenta trabajadores a su servicio",
+        "no superen los diez millones de euros de cifra anual de negocios en el último ejercicio",
+        "estén autorizadas a presentar cuenta de pérdidas y ganancias abreviada",
+        "carezcan de órgano de administración colegiado"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "A estos efectos, son personas jurídicas de pequeñas dimensiones aquéllas que, según la legislación aplicable, estén autorizadas a presentar cuenta de pérdidas y ganancias abreviada.",
+      "justificacion": "Art. 31 bis 3 CP."
+    },
+    {
+      "concepto_id": "CP-031ter",
+      "articulo": "art. 31 ter",
+      "tipo": "test",
+      "enunciado": "Según el art. 31 ter 1 del Código Penal, la responsabilidad penal de las personas jurídicas será exigible…",
+      "opciones": [
+        "solo cuando haya recaído sentencia condenatoria firme contra la concreta persona física responsable del delito",
+        "aun cuando la concreta persona física responsable no haya sido individualizada o no haya sido posible dirigir el procedimiento contra ella",
+        "únicamente si la persona física responsable ostenta la representación legal de la entidad",
+        "solo si la persona física y la jurídica son juzgadas en el mismo procedimiento"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La responsabilidad penal de las personas jurídicas será exigible siempre que se constate la comisión de un delito que haya tenido que cometerse por quien ostente los cargos o funciones aludidas en el artículo anterior, aun cuando la concreta persona física responsable no haya sido individualizada o no haya sido posible dirigir el procedimiento contra ella.",
+      "justificacion": "Art. 31 ter 1 CP."
+    },
+    {
+      "concepto_id": "CP-031quater",
+      "articulo": "art. 31 quater",
+      "tipo": "test",
+      "enunciado": "Según el art. 31 quater del Código Penal, para que una actividad pueda considerarse circunstancia atenuante de la responsabilidad penal de la persona jurídica, ha de haberse realizado…",
+      "opciones": [
+        "antes de la comisión del delito y por acuerdo del órgano de administración",
+        "con posterioridad a la comisión del delito y a través de sus representantes legales",
+        "en cualquier momento, antes o después del delito, por cualquier empleado de la entidad",
+        "con posterioridad a la comisión del delito y por medio del órgano de cumplimiento normativo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Sólo podrán considerarse circunstancias atenuantes de la responsabilidad penal de las personas jurídicas haber realizado, con posterioridad a la comisión del delito y a través de sus representantes legales, las siguientes actividades:",
+      "justificacion": "Art. 31 quater 1 CP."
+    },
+    {
+      "concepto_id": "CP-031quinquies",
+      "articulo": "art. 31 quinquies",
+      "tipo": "test",
+      "enunciado": "Según el art. 31 quinquies 1 del Código Penal, las disposiciones relativas a la responsabilidad penal de las personas jurídicas NO serán aplicables…",
+      "opciones": [
+        "a las sociedades mercantiles públicas que ejecuten políticas públicas o presten servicios de interés económico general",
+        "a las fundaciones y asociaciones declaradas de utilidad pública",
+        "al Estado, a las Administraciones públicas territoriales e institucionales, a los Organismos Reguladores, las Agencias y Entidades públicas Empresariales",
+        "a los partidos políticos, a las organizaciones sindicales y a las asociaciones empresariales legalmente constituidas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Las disposiciones relativas a la responsabilidad penal de las personas jurídicas no serán aplicables al Estado, a las Administraciones públicas territoriales e institucionales, a los Organismos Reguladores, las Agencias y Entidades públicas Empresariales, a las organizaciones internacionales de derecho público, ni a aquellas otras que ejerzan potestades públicas de soberanía o administrativas.",
+      "justificacion": "Art. 31 quinquies 1 CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-002-irretro",
+      "destino": "CP-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-002-retro",
+      "destino": "CP-002-irretro",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-002-duda",
+      "destino": "CP-002-retro",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-002-temporal",
+      "destino": "CP-002-retro",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-007",
+      "destino": "CP-002-irretro",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-003-jurisd",
+      "destino": "CP-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-003-ejec",
+      "destino": "CP-003-jurisd",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-004-analogia",
+      "destino": "CP-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-004-abstencion",
+      "destino": "CP-004-analogia",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-004-indulto",
+      "destino": "CP-004-abstencion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-006-fundamento",
+      "destino": "CP-002-irretro",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-006-limite",
+      "destino": "CP-006-fundamento",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-008-especial",
+      "destino": "CP-004-analogia",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-008-alternativ",
+      "destino": "CP-008-especial",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-009",
+      "destino": "CP-001",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-014-hecho",
+      "destino": "CP-005",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-014-agravante",
+      "destino": "CP-014-hecho",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-014-prohib",
+      "destino": "CP-014-hecho",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-017-conspir",
+      "destino": "CP-015",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-017-propos",
+      "destino": "CP-017-conspir",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-017-castigo",
+      "destino": "CP-017-conspir",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-018-provoc",
+      "destino": "CP-017-castigo",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-018-apologia",
+      "destino": "CP-018-provoc",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-018-seguida",
+      "destino": "CP-018-provoc",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-019",
+      "destino": "CP-027",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-069",
+      "destino": "CP-019",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-020-3",
+      "destino": "CP-020-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-020-4",
+      "destino": "CP-020-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-020-4-morada",
+      "destino": "CP-020-4",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-020-5",
+      "destino": "CP-020-4",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-020-6-7",
+      "destino": "CP-020-5",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-020-medidas",
+      "destino": "CP-020-3",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-021-1",
+      "destino": "CP-020-1",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-021-2",
+      "destino": "CP-021-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-021-3",
+      "destino": "CP-021-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-021-4",
+      "destino": "CP-021-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-021-5",
+      "destino": "CP-021-4",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-021-6",
+      "destino": "CP-021-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-021-7",
+      "destino": "CP-021-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-022-1",
+      "destino": "CP-021-1",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-022-2",
+      "destino": "CP-022-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-022-3",
+      "destino": "CP-022-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-022-4",
+      "destino": "CP-022-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-022-5",
+      "destino": "CP-022-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-022-6-7",
+      "destino": "CP-022-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-022-8-def",
+      "destino": "CP-022-1",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-022-8-comp",
+      "destino": "CP-022-8-def",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-022-8-ue",
+      "destino": "CP-022-8-def",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-023",
+      "destino": "CP-022-1",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-024-autoridad",
+      "destino": "CP-027",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-024-lista",
+      "destino": "CP-024-autoridad",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-024-funcionario",
+      "destino": "CP-024-autoridad",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-026",
+      "destino": "CP-024-funcionario",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-030-exclusion",
+      "destino": "CP-029",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-030-escalonada",
+      "destino": "CP-030-exclusion",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-031",
+      "destino": "CP-027",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-031bis-a",
+      "destino": "CP-031",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-031bis-b",
+      "destino": "CP-031bis-a",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-031bis-pequenas",
+      "destino": "CP-031bis-a",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-031ter",
+      "destino": "CP-031bis-a",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-031quater",
+      "destino": "CP-031bis-a",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-031quinquies",
+      "destino": "CP-031bis-a",
+      "tipo": "limita"
+    }
+  ]
+}
