@@ -25,7 +25,7 @@ Fuente: `datos/legal-es/_fuentes-brutas/BOE-A-2026-15055.pdf` (temario oficial).
 
 **Tema 11.** De las infracciones en materia de extranjería y su régimen sancionador. Tipos de infracciones: infracciones leves, infracciones graves e infracciones muy graves. Sanciones. Prescripción de las infracciones y de las sanciones. Efectos de la expulsión y devolución. Efectos de la denegación de entrada.
 
-**Tema 12.** La protección internacional. Reglas procedimentales para el reconocimiento de la protección internacional. De los menores y otras personas vulnerables. Centros de acogida a refugiados. Apátridas y desplazados. BOLETÍN OFICIAL DEL ESTADO Núm. 167                                 Viernes 10 de julio de 2026                         Sec. II.B. Pág. 96280
+**Tema 12.** La protección internacional. Reglas procedimentales para el reconocimiento de la protección internacional. De los menores y otras personas vulnerables. Centros de acogida a refugiados. Apátridas y desplazados.
 
 **Tema 13.** Disposiciones generales en materia de seguridad privada en España. Coordinación. Empresas de seguridad privada y despachos de detectives privados. Personal de seguridad privada. Servicios y medidas de seguridad.
 
@@ -51,7 +51,7 @@ Fuente: `datos/legal-es/_fuentes-brutas/BOE-A-2026-15055.pdf` (temario oficial).
 
 **Tema 24.** Introducción a la Prevención de Riesgos Laborales. Concepto general de trabajo. Concepto de salud y condiciones de trabajo. El trabajo y la salud. Concepto general de riesgos Laborales. Principios generales de la actividad preventiva. Conceptos de prevención y protección. Consecuencia de los riesgos. Daños a la salud.
 
-**Tema 25.** Marco normativo básico en prevención de riesgos laborales. La Ley 31/1995, de Prevención de Riesgos Laborales. RD 39/1997, Reglamento de los servicios de prevención. El RD 2/2006, sobre Prevención de Riesgos Laborales en los funcionarios del Cuerpo Nacional de Policía. El RD 67/2010 sobre adaptación de la Prevención de Riesgos Laborales en la Administración General del Estado. Derechos y deberes básicos en materia de Prevención de Riesgos laborales. BOLETÍN OFICIAL DEL ESTADO Núm. 167                                 Viernes 10 de julio de 2026                         Sec. II.B. Pág. 96281
+**Tema 25.** Marco normativo básico en prevención de riesgos laborales. La Ley 31/1995, de Prevención de Riesgos Laborales. RD 39/1997, Reglamento de los servicios de prevención. El RD 2/2006, sobre Prevención de Riesgos Laborales en los funcionarios del Cuerpo Nacional de Policía. El RD 67/2010 sobre adaptación de la Prevención de Riesgos Laborales en la Administración General del Estado. Derechos y deberes básicos en materia de Prevención de Riesgos laborales.
 
 **Tema 26.** La protección de datos de carácter personal: la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Ley Orgánica 7/2021, de 26 de mayo, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales y de ejecución de sanciones penales. B)   Ciencias Sociales
 
@@ -75,7 +75,7 @@ Fuente: `datos/legal-es/_fuentes-brutas/BOE-A-2026-15055.pdf` (temario oficial).
 
 **Tema 36.** Gramática de la lengua española. Morfología. Sufijos, sustantivos y pronombres. Adjetivos: sus grados y tipos. Los adverbios y sus tipos. Verbos: modos y conjugación. Preposiciones y conjunciones. Sintaxis. La oración: partes y tipos. Análisis sintáctico.
 
-**Tema 37.** Ortografía de la lengua española. Reglas ortográficas. Uso de las letras o grafemas. Uso de la tilde, de los signos ortográficos y de las letras mayúsculas y minúsculas. Representación gráfica de las unidades léxicas. Ortografía de las expresiones procedentes de otras lenguas, de nombres propios y expresiones numéricas. BOLETÍN OFICIAL DEL ESTADO Núm. 167                                   Viernes 10 de julio de 2026                         Sec. II.B. Pág. 96282 C)    Materias Técnico-Científicas
+**Tema 37.** Ortografía de la lengua española. Reglas ortográficas. Uso de las letras o grafemas. Uso de la tilde, de los signos ortográficos y de las letras mayúsculas y minúsculas. Representación gráfica de las unidades léxicas. Ortografía de las expresiones procedentes de otras lenguas, de nombres propios y expresiones numéricas.
 
 **Tema 38.** Fundamentos de sistemas operativos: Funciones de un sistema operativo. Tipologías: MS/DOS; UNIX; Linux; Windows; MAC OS. Sistemas operativos móviles: iOS, Android. Sistemas de almacenamiento. Sistemas de archivos.
 
@@ -91,4 +91,4 @@ Fuente: `datos/legal-es/_fuentes-brutas/BOE-A-2026-15055.pdf` (temario oficial).
 
 **Tema 44.** La Seguridad en la Conducción de Vehículos Prioritarios. Definición de Seguridad Activa y Pasiva. Sistemas de Seguridad Activa y Pasiva en vehículos tipo turismo y motocicleta. Influencia de los Sistemas de Seguridad en los accidentes de tráfico. Repercusión de los Sistemas de Seguridad en la conducción policial y traslado de detenidos.
 
-**Tema 45.** Prevención de Riesgos Laborales en Seguridad Vial. Factores del Tráfico y su influencia en la siniestralidad vial. Factor Humano, Factor Ambiental y Factor Vehículo. Riesgos Laborales en la conducción de vehículos prioritarios. Equipos de Protección Individual del conductor y pasajeros de vehículos policiales. Estrategias y mantenimiento preventivo del vehículo prioritario. Anexo II BOLETÍN OFICIAL DEL ESTADO A) DESCRIPCIÓN DE LAS PRUEBAS DE APTITUD FÍSICA Núm. 167                                      Viernes 10 de julio de 2026                           Sec. II.B. Pág. 96283 ANEXO II PRIMER EJERCICIO (Hombres y Mujeres) A)   Descripción de las pruebas de aptitud física OBJETIVO: Medir la agilidad dePrimer movimientos ejercicio del ejecutante.
+**Tema 45.** Prevención de Riesgos Laborales en Seguridad Vial. Factores del Tráfico y su influencia en la siniestralidad vial. Factor Humano, Factor Ambiental y Factor Vehículo. Riesgos Laborales en la conducción de vehículos prioritarios. Equipos de Protección Individual del conductor y pasajeros de vehículos policiales. Estrategias y mantenimiento preventivo del vehículo prioritario.
