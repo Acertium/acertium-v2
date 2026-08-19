@@ -22,7 +22,7 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 ## Resumen
 
 - **250 epígrafes** en 45 temas.
-- **61** sin ningún concepto que los cubra.
+- **59** sin ningún concepto que los cubra.
 - De esos, **20** están en temas con encaje fiable: esa es la lista corta.
 
 ### Los epígrafes vacíos en temas fiables
@@ -506,15 +506,15 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 5 | La conducción de vehículos en situación de emergencia. | 5 |
 | 6 | Utilización de las señales de emergencia. | 2 |
 
-### Tema 44 — 41 conceptos · 12 % de encaje ⚠ **encaje bajo: los ceros de este tema no son concluyentes**
+### Tema 44 — 57 conceptos · 23 % de encaje ⚠ **encaje bajo: los ceros de este tema no son concluyentes**
 
 | # | Epígrafe | Conceptos |
 |---|---|---|
-| 1 | La Seguridad en la Conducción de Vehículos Prioritarios. | 5 |
-| 2 | Definición de Seguridad Activa y Pasiva. | **0** |
-| 3 | Sistemas de Seguridad Activa y Pasiva en vehículos tipo turismo y motocicleta. | 1 |
-| 4 | Influencia de los Sistemas de Seguridad en los accidentes de tráfico. | **0** |
-| 5 | Repercusión de los Sistemas de Seguridad en la conducción policial y traslado de detenidos. | 3 |
+| 1 | La Seguridad en la Conducción de Vehículos Prioritarios. | 11 |
+| 2 | Definición de Seguridad Activa y Pasiva. | 6 |
+| 3 | Sistemas de Seguridad Activa y Pasiva en vehículos tipo turismo y motocicleta. | 8 |
+| 4 | Influencia de los Sistemas de Seguridad en los accidentes de tráfico. | 4 |
+| 5 | Repercusión de los Sistemas de Seguridad en la conducción policial y traslado de detenidos. | 5 |
 
 ### Tema 45 — 27 conceptos · 44 % de encaje
 

@@ -14,7 +14,7 @@
   bajo, escribes `RESULTADO_NNN.md` y añades línea a `EJECUCIONES.md`. Jonathan solo dispara.
 
 ## 1. Estado del cerebro (verificado por MCP el 19/08)
-- **3.040 conceptos · 2.954 preguntas servibles · 56 en cola de revisión (`pendiente_revision`) · 0 islas.**
+- **3.056 conceptos · 2.970 preguntas servibles · 56 en cola de revisión (`pendiente_revision`) · 0 islas.**
 - **Corpus BOE-600: 52/52 normas cargadas**, más 6 secciones que NO son del Código 600 (§54 a §59;
   ver `datos/legal-es/boe-600-pn/corpus/README.md`). El directorio tiene 58 ficheros y 4.980 artículos.
   Índice autogestionado en
@@ -40,7 +40,7 @@ sola pregunta.
 
 **`docs/cobertura-epigrafes.md`** cuenta el banco contra el temario, no contra las normas.
 Se regenera con `node adaptadores/legal-es/generador/cobertura-epigrafes.mjs` (necesita
-`.env.local`). Estado al crearlo: **250 epígrafes, 61 sin cubrir, 20 de ellos en temas
+`.env.local`). Estado tras cargar el T44: **250 epígrafes, 59 sin cubrir, 20 de ellos en temas
 donde la medición es fiable**.
 
 Léelo con su advertencia puesta: el emparejamiento epígrafe↔concepto es una **heurística
@@ -207,7 +207,27 @@ en un tema fiable sí es una pregunta que hacerse — no una condena.
      un conductor policial): eso es una instrucción interna de la DGP, no citable literalmente.
      Siguen sin fuente los factores del tráfico (humano, ambiental y vehículo) y la siniestralidad
      vial: son **no-BOE**, y la vía es un manual de la DGT.
-   - **T44** — 41 conceptos cargados (familia `VCD`). Lo que falta —*seguridad activa y pasiva*,
+   - **T44** — **57 conceptos** (19/08/2026), tras `dgt-t44-seguridad-activa-pasiva.json` (16).
+     Cierra los tres epígrafes que el informe de cobertura daba vacíos: *definición de seguridad
+     activa y pasiva*, *sistemas en turismo y motocicleta* e *influencia de los sistemas de
+     seguridad en los accidentes*. Fuente: **Manual II «Cuestiones de Seguridad Vial» de la DGT**
+     (edición 2023, NIPO 128-23-010-3), familia `DGT`, `tipo_fuente: autoridad` → se sirve.
+     Entra la definición de seguridad activa o primaria y de pasiva o secundaria, la regla que las
+     separa, el peso del vehículo como factor de riesgo (12 % de causa exclusiva, 25-30 % indirecta),
+     ABS, BAS, PCS y ESP —con su forma cruzada de actuar ante el derrape—, las dos funciones del
+     chasis y su incompatibilidad, el fundamento físico del cinturón y la **seguridad preventiva**
+     como tercera categoría.
+     - **Un concepto se quedó fuera a propósito**: el recuadro con los cinco elementos de seguridad
+       activa (alumbrado, ruedas, suspensión, frenos, dirección) sale **entrelazado** con el párrafo
+       de al lado en el volcado del PDF —«…es vital para evitar el accidente y salvarnos la vida,
+       Seguridad activa: o para evitar lesiones graves…»—, así que no hay cadena contigua que citar.
+       Antes que forzar una cita que no es literal, se dejó fuera; la enumeración ya está en
+       `DGT-002`. Lo mismo obligó a reorientar otros tres cotejos a fragmentos contiguos.
+     - El **traslado de detenidos**, último epígrafe del tema, NO se duplica: ya está cargado desde
+       la Orden INT/2573/2015 (familia `VCD`, 41 conceptos). Se enlaza por relación.
+     - El informe sigue marcando el T44 como de **encaje bajo** (23 %), y es correcto: los 41
+       conceptos de `VCD` hablan de mamparas y anclajes, no del vocabulario del temario.
+   - **T44 (estado anterior)** — 41 conceptos cargados (familia `VCD`). Lo que faltaba —*seguridad activa y pasiva*,
      sistemas en turismo y motocicleta— es técnico y no sale del corpus: **no-BOE**.
 
    ⚠ **HUECOS DEL CÓDIGO 600 detectados al mapear el T20 (16/08/2026).** El Código 600 incluye el CP

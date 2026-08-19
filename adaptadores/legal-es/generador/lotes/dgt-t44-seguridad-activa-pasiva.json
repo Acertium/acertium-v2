@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "materia": "dgt-cuestiones-seguridad-vial",
+    "norma": "Cuestiones de Seguridad Vial — Manual II de la formación del Profesor de Formación Vial (DGT)",
+    "referencia_boe": "",
+    "referencia_fuente": "Dirección General de Tráfico, Ministerio del Interior, «Cuestiones de Seguridad Vial», Manual II de la formación a distancia del Profesor de Formación Vial, edición 2023, NIPO 128-23-010-3, temas 8, 9 y 10 (págs. 181 a 274) — www.dgt.es [2026-08-19]",
+    "tipo_fuente": "autoridad",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 44 — La Seguridad en la Conducción de Vehículos Prioritarios: seguridad activa y pasiva; repercusión de los sistemas de seguridad en la conducción policial y traslado de detenidos"
+  },
+  "fuentes": {
+    "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos": "Bajo la denominación de seguridad activa o primaria se agrupan todos aquellos elementos que incorpora un vehículo y que pueden contribuir a evitar un accidente. Entre ellos estarían algunos como los siguientes: dirección, frenos, suspensiones, neumáticos, controles de tracción y de estabilidad, etc. A su vez, la seguridad pasiva o secundaria se refiere a todos aquellos elementos, dispositivos o sistemas que incorpora el vehículo con el fin de evitar o reducir al mínimo las consecuencias sobre los ocupantes o sobre terceros cuando el accidente se está produciendo, especialmente, y cuando ha finalizado éste. Aquí se incluyen elementos como los chasis deformables y los habitáculos de seguridad, los sistemas de retención de los ocupantes (cinturones de seguridad, airbags y reposacabezas), las barras de protección lateral, los sistemas de retención infantil, etc. Seguridad Activa: Contribuye a evitar que se produzca el accidente. Seguridad Pasiva: Minimiza las consecuencias durante el accidente. Originalmente los automóviles deben su seguridad activa y pasiva a los fabricantes de vehículos que a lo largo de los años han realizado un importante esfuerzo humano y económico para mejorar de manera permanente esta importante dimensión, dotando a los vehículos con equipos y sistemas cada vez más sofisticados que sirvan para potenciar sus niveles de seguridad. Las estadísticas conceden al vehículo un porcentaje medio de causa exclusiva de accidente próximo al 12%, lo que demuestra que el vehículo es uno de los grandes factores de riesgo, junto con la vía y el elemento humano. No obstante, si tenemos en cuenta que el vehículo es también en muchas ocasiones causa compartida de accidentes, y que detrás de todos ellos se encuentra el factor humano, el riesgo puede situarse de manera indirecta entre el 25 y el 30% de incidencia en los siniestros.",
+    "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad": "Anteriormente ya nos hemos referido a este sistema de seguridad, destacando su enorme importancia para la seguridad. El ABS ha sido uno de los inventos que más ha contribuido a la seguridad activa, ya que una de las situaciones más críticas con las que puede enfrentarse cualquier conductor es una frenada de emergencia, sobre todo si se realiza en superficie deslizante. Bajo estas condiciones, un exceso de presión sobre el pedal del freno provocará un bloqueo de las ruedas que llevará irremediablemente al deslizamiento y al derrape, aumentando notablemente la distancia de frenado, a la vez que se puede perder el control sobre la dirección del vehículo. Para solucionar estos dos graves problemas nacen los sistemas antibloqueo, más conocidos en general con las siglas ABS, que tiene su origen en la aviación y luego se extienden a los vehículos de transporte por carretera. Su desarrollo se inició con sistemas puramente mecánicos, que presentaron algunos problemas, dado que entraban en acción demasiado pronto. El ABS sirve, sintetizando:  No sólo para evitar el bloqueo en frenadas en línea recta,  sino que tiene otra utilidad posiblemente más importante: permite mantener la direccionalidad (por ejemplo, para esquivar un obstáculo) incluso con el freno pisado a fondo, pues las ruedas encargadas de dirigir el vehículo no llegan en ningún momento a bloquearse por completo.  Además, evita que se produzca un desplazamiento violento del punto de aplicación del peso hacia el eje delantero (lo que en curva significaría una alta probabilidad de sobreviraje)  y, simultáneamente, las ruedas traseras conservan mayor capacidad de frenada. Funcionamiento: Se basa en la detección del bloqueo de una o varias ruedas. Cuando el sistema capta que se está produciendo dicho bloqueo, disminuye de modo inmediato la fuerza de frenado sobre la rueda o ruedas que están a punto de bloquearse y deslizarse para, de este modo, recuperar su adherencia. Dicho de otro modo, el ABS regula de modo automático la intensidad de la frenada, con independencia de la posible sobrepresión que el conductor pueda ejercer sobre el pedal del freno. Los actuales sistemas antibloqueo se componen básicamente de unos sensores instalados sobre las ruedas, que se encargan de medir sus respectivas velocidades de giro. Esta información se transmite a una unidad de control electrónica que la analiza con objeto de aumentar o disminuir la intensidad de frenado de cada rueda o grupo de ruedas. El sistema realiza de 50 a 100 comprobaciones por segundo. Estas comprobaciones, cada vez que se corrige la presión abriendo o cerrando las válvulas, son las que provocan la vibración en el pedal de freno. Existen sistemas incluso más sofisticados, que no sólo tienen en cuenta las circunstancias de bloqueo de las ruedas, sino que disponen de sensores que calibran las aceleraciones longitudinales y transversales del vehículo con el fin de evaluar mejor las circunstancias de la frenada. El resultado es que los sistemas ABS sólo entran en acción cuando realmente hacen falta: en el último momento en que se va a bloquear la rueda, ni antes ni después. La técnica para frenar con ABS es distinta a la del sistema convencional sólo en el caso de frenadas extremas. En estas situaciones, si nuestro vehículo viene equipado con ABS no debemos tener miedo de pisar a fondo el pedal, sea cual sea la circunstancia: en seco o en mojado, en recta o en curva, al esquivar un obstáculo o no, aunque habrá que estar preparados por si el vehículo hiciera algún tipo de movimiento extraño. Es muy importante tener en cuenta que la eficacia del ABS depende mucho, entre otras cosas, del estado de los amortiguadores del vehículo, ya que la función primordial del amortiguador es la de mantener al neumático en contacto constante con el suelo, y si el amortiguador está en mal estado, la rueda va permanentemente dando pequeños saltos (está a merced de los movimientos de estiramiento y acortamiento del muelle, o bien, del elemento elástico), lo que favorece el bloqueo de la misma cuando frenamos al estar descargada de peso. Esto puede provocar que el ABS actúe antes de tiempo, alargando innecesariamente las distancias de detención. También es importante saber que mientras el ABS está actuando, se nota una especie de temblor o de rebotes en el pedal del freno. Se trata de algo completamente normal, y no debemos asustarnos por ello ni ir al taller mecánico, como hacen algunos conductores que desconocen este hecho. Su utilización en pavimentos deslizantes, por hielo o nieve, o bien con lluvia, es especialmente interesante ya que, en estas circunstancias, la diferencia entre el coeficiente de rozamiento dinámico y el estático es mucho mayor. La incorporación del ABS a las motocicletas ha permitido que el riesgo de caída de los ocupantes se reduzca considerablemente, suponiendo un paso importante en la seguridad vial de estos vehículos. 2. BAS: Brake Assist System (Asistencia a la Frenada de Emergencia). Numerosos estudios indican que existe un elevado número de conductores que no aplican suficiente presión a los frenos ante una situación de emergencia. Con la introducción del sistema BAS se puede mejorar este problema, ya que unos sensores permiten a una centralita electrónica analizar cómo está frenando el conductor, siendo capaz de reconocer una eventual situación o frenada de emergencia por la velocidad con la que se actúa sobre el pedal. Combinado este sistema con el ABS, un servofreno convenientemente modificado aplica toda la presión posible, aunque el conductor no ejerza la fuerza necesaria sobre el pedal. En vehículos que tienen sistemas para medir la distancia con el vehículo que circula delante, o detectan un posible obstáculo, el cálculo de la distancia que resta para la colisión, y la velocidad que lleva el propio vehículo, ayuda al sistema BAS a incrementar, si fuera necesario, la presión de frenado para evitar la colisión. 3. PCS: Pre-Collision System (Sistema de Seguridad de Pre-colisión). Es un sistema que mide constantemente la distancia que hay con el vehículo que circula delante. En caso de detectar una reducción de esta separación, y en función de la velocidad del vehículo, realiza un cálculo del espacio disponible para detener el vehículo sin colisionar. Al acercarnos a este umbral de riesgo el vehículo emite una señal acústica y luminosa para advertir de esta circunstancia al conductor. En algunos vehículos el sistema actúa, directamente, sobre el pedal de freno cuando estima que el riesgo de colisión es inminente y percibe que el conductor no realiza ninguna acción de frenado. 4. ESP: Electronic Stability Program. (Programa Electrónico de Estabilidad). Funcionamiento: Por medio de un sistema de sensores, una centralita electrónica es capaz de saber si el coche inicia un derrape del eje delantero o del eje trasero al abordar una curva. En caso de derrape del eje delantero, los frenos actúan sobre la rueda trasera interior a la curva; en el caso de derrape del eje trasero, lo hacen sobre la delantera exterior a la curva, produciendo un momento de giro sobre el eje vertical del vehículo que limita la tendencia al derrape (también conocido como momento de guiñada). Según diversos estudios se ha podido constatar que los conductores que llevan vehículos equipados con el sistema ESP se ven implicados en un menor número de accidentes de tráfico. Se trata, pues, de un sistema muy eficaz de seguridad activa. La eficacia de este sistema está ampliamente demostrada; se estima que puede reducir el número de víctimas mortales entre un 15% y un 30%.",
+    "Manual II, tema 9, apartado 1 — Elementos o sistemas de seguridad pasiva": "Las consecuencias de un accidente y la gravedad de las lesiones pueden variar mucho de un vehículo a otro. Esto es debido, en buena medida, a las diferencias existentes en los sistemas de seguridad pasiva de que se disponga o a la utilización correcta de éstos por parte de los usuarios. Seguridad pasiva o Comprende todos los elementos que contribuyen a evitar o a atenuar las consecuencias de un accidente cuando éste se secundaria está produciendo y cuando finaliza. Hay unos en los que como conductores no podemos intervenir directamente (como, por ejemplo, la deformación de la carrocería) y otros en los que nuestro papel es importante (tal como el cinturón de seguridad). Entre los elementos más significativos de lo que denominamos seguridad pasiva se encuentran los siguientes: Elementos de Seguridad pasiva • Habitáculo de seguridad. • Refuerzos transversales integrados en el techo. • Tapicería ignífuga. • Carrocería con formas redondeadas y sin elementos que sobresalgan de la misma (diseños menos lesivos para los peatones en caso de atropello). • Travesaño lateral reforzado y protección “sideimpact”. • Sistema de depósito de combustible y canalizaciones de seguridad. • Airbags (conductor y pasajeros). • Retrovisores abatibles. • Columna de dirección de seguridad. • Parachoques absorbentes, zonas de deformación programada. • Cercos de las puertas, bisagras y cerraduras reforzados. • Cinturones de seguridad con tensor y ajuste de altura. • Reposacabezas. • Superficies interiores redondeadas y acolchadas. • Asientos con anclajes de seguridad. Sistema ISOFIX. • Cristales laminados. • Casco. Como se puede apreciar, son muchos los sistemas que pueden contribuir a nuestra seguridad, por lo que sólo se desarrollarán y se analizarán a continuación los elementos o sistemas de seguridad pasiva más importantes, especialmente aquellos sobre los que el conductor puede tener una intervención más directa.",
+    "Manual II, tema 9, apartado 1.1 — El chasis y la carrocería": "Es muy importante conocer la relevancia que tiene la carrocería en las consecuencias del accidente. Precisamente el estudio de la rigidez y la deformación de la estructura es uno de los principales puntos de partida de cualquier trabajo sobre seguridad pasiva en un automóvil. De poco sirve la presencia de elementos tan conocidos como el airbag o los pretensores de los cinturones, por citar sólo dos ejemplos, si previamente no se ha efectuado un exhaustivo estudio que suponga un compromiso entre rigidez y deformación de la estructura metálica del vehículo. Por tanto, una buena base de toda la tecnología de seguridad en la construcción de un automóvil es su estructura, siendo su fabricación uno de los puntos que más tiempo y coste requieren ya que, aparte de lo trabajoso de su gestación, hay también que constatar su eficacia mediante pruebas reales llamadas “crashtests” (ensayos de colisión), que se describen posteriormente. La estructura del coche situada debajo de la carrocería, conocida como bastidor o chasis, cumple dos funciones en caso de choque: • Absorber la energía que se libera en dicho choque • Proteger a los ocupantes de agresiones externas. Ambas funciones son difícilmente compatibles, ya que para absorber la energía en caso de impacto hace falta cierta flexibilidad, y para que los pasajeros no sufran estas agresiones debe ser resistente. Este es, sin duda, un importante reto para los fabricantes de vehículos. Una deceleración excesiva es nefasta para los ocupantes de un vehículo, ya que hasta los mejores sistemas de retención (como el cinturón unido al airbag) tienen un límite de protección que es fácil alcanzar. Además, se pueden causar heridas internas aunque el cuerpo no sufra ningún golpe directo. Por tanto es necesario que la estructura se deforme lo suficiente para que la deceleración no sea demasiado fuerte. Pero, al mismo tiempo, si un bastidor se deforma con excesiva facilidad resulta incapaz de absorber toda la energía del impacto. De ser así, la estructura cedería demasiado y el impacto acabaría afectando a los pasajeros. La solución actual a este problema es dividir la estructura en una parte deformable y otra rígida. La primera tiene la misión de deformarse en caso de choque, es decir, proporcionar ese espacio necesario para que la deceleración no sea brusca y pueda absorber la energía que se libera en el impacto. La segunda está prevista para mantener un habitáculo en el que los pasajeros no sufran daño. Los automóviles modernos están diseñados para deformarse lo más posible, es decir, para implicar a la mayor parte de la estructura en la absorción del choque. Esto se debe a que, en la mayoría de los casos, un choque no afecta a la totalidad de la estructura deformable, sino sólo a una parte de ella. En consecuencia, hay menos metal que doblar y, por tanto, menos capacidad para absorber la energía del impacto. Así pues, los diseñadores conectan las distintas partes de la estructura deformable para que el impacto en una zona concreta transmita el movimiento de unas partes a otras. Cuanta más energía del impacto se emplee en doblar la estructura, menos peligro correrán los pasajeros. Entre las estructuras deformables delantera y trasera se encuentra el habitáculo de los pasajeros, que debe ser lo más rígido posible. La función del mismo –que, en teoría, debe ser indeformable– es doble: por un lado, impedir que objetos externos golpeen a los ocupantes; por otro, conservar un espacio para que los pasajeros puedan moverse dentro de él en caso de impacto. Si el golpe es tan fuerte que supera la resistencia de las estructuras de deformación lo único que puede hacer ya la célula de seguridad es deformarse de la mejor manera posible para no aprisionar a los ocupantes. Por encima de un cierto límite, la estructura llega a un colapso y resulta imposible saber cómo va a reaccionar. Es importante destacar que los ensayos de colisión, pruebas crashtest, se realizan generalmente a velocidades entre 48 y 64 km/h. Protección para impactos laterales. Dentro de los elementos de seguridad pasiva es importante conocer también que el habitáculo de un vehículo tiene estructuras deformables que lo protegen tanto por delante como por detrás, pero no por los lados. Si tenemos en cuenta que el golpe lateral es el segundo más frecuente después del frontal, queda claro que la protección de los laterales es una de las tareas principales para los técnicos en seguridad pasiva. Una medida adicional de seguridad para evitar las consecuencias del golpe lateral la constituyen las barras de protección lateral en las puertas. Este elemento no es del todo eficaz cuando un coche choca contra otro, pues en este caso la barra entera retrocede y no ofrece resistencia. Sin embargo, las barras sí son de gran eficacia cuando se impacta contra un objeto fijo (postes, bionda metálica, etc.). Estos casos son menos frecuentes que los accidentes entre coches, pero también son muy peligrosos, si tenemos en cuenta el número y la gravedad de las heridas que producen. La efectividad de las barras de las puertas está condicionada por elementos como la propia dureza y diseño de las mismas, la calidad de las bisagras, las cerraduras o el propio marco de la puerta, que es lo que aguanta la tensión cuando se hace presión sobre la barra. Tamaño, peso y seguridad. Uno de los mayores prejuicios de los compradores de un coche pequeño, con un morro bastante corto, consiste en la falta de seguridad pasiva que parece tener. Pero la seguridad de un automóvil no depende del tamaño del morro, ni del peso, ni de la apariencia en general, sino de su estructura y, especialmente, de cómo se deforme ésta. Es cierto que un vehículo de mayor tamaño dispone de una mayor superficie para absorber la energía liberada en el impacto y, por tanto, es más fácil obtener buenos resultados en caso de accidente. Esto no quiere decir, sin embargo, que con un coche pequeño no se puedan conseguir esos mismos resultados, aunque sea una empresa más difícil, al disponer de menor cantidad de carrocería que deformar para decelerar. En principio, no existe una relación directamente proporcional entre tamaño y seguridad. No obstante, a igualdad de todos los demás factores, que son muchos, un vehículo es tanto más seguro cuanto más grande (que no más pesado), ya que, como hemos dicho, dispone de mayores estructuras deformables capaces de absorber la energía del impacto. Ahora bien, el tamaño por sí solo no garantiza nada, dado que un vehículo, por el hecho de ser grande, no tiene por qué tener unas estructuras deformables bien resueltas. Con el peso del vehículo ocurre algo similar. Actualmente, un coche seguro desde el punto de vista de la seguridad pasiva es pesado (porque se han ido incorporando multitud de sistemas y elementos de seguridad que han hecho que el tamaño medio de un turismo se haya incrementado y, consecuentemente, su peso), pero no todos los vehículos pesados son seguros. Si comparamos los modelos aparecidos a principios de los años noventa con los de principios de los ochenta, se puede verificar que el peso de los bastidores ha aumentado, debido principalmente a las mayores exigencias en seguridad pasiva. No obstante, a igualdad de todos los demás factores, un vehículo es tanto más seguro cuanto más ligero, porque la energía que tiene que dispersar en caso de impacto es producto de su masa por el cuadrado de su velocidad: Ec= ½ mv2, y porque también es más seguro desde el punto de vista activo (es más manejable, soporta menos inercias, es más fácil de frenar, se ve sometido a menores fuerzas en curva, etc.). Además, la fuerza que debe soportar la carrocería es menor, siendo ésta el producto de su masa por la deceleración sufrida. Los estudios que se están realizando actualmente pronostican que en los próximos años se producirán avances espectaculares en materia de seguridad pasiva, que irán encaminados al perfeccionamiento de los sistemas monocasco con estructuras deformables con el fin de aumentar la seguridad o, en su caso, de disminuir el peso. La innovación más importante que ha habido en los últimos tiempos ha sido el empleo de materiales alternativos al acero. Se ha trabajado con materiales sintéticos y, sobre todo, con el aluminio, que ciertas marcas ya emplean en algunos de sus modelos, con las ventajas que este material aporta en cuanto a seguridad pasiva y reducción de peso. La estructura del vehículo cumple dos funciones en caso de choque: absorber la energía que se libera en dicho impacto y proteger a los ocupantes de agresiones externas. Finalmente, destacar muy brevemente respecto de la carrocería que esta también cumple otras importantes funciones aparte de proteger a los ocupantes. En primer lugar, con su diseño se logra un buen coeficiente de resistencia aerodinámica. Hay que tener en cuenta que a 120 kilómetros por hora, la resistencia al aire representa alrededor del 50% del consumo de un vehículo. Por otra parte, la carrocería debe ser lo menos lesiva en caso de golpe con otro vehículo o con un peatón. Por ello, no se deben introducir modificaciones no autorizadas que alteren la carrocería, por el grave riesgo que puedan significar especialmente en caso de atropello de un viandante. El caso especial de la cabina de los camiones. Pese a que en nuestro país hay un gran número de camiones y miles de profesionales que desarrollan su trabajo en ellos, habitualmente no se trata el tema de la seguridad de las cabinas de estos vehículos. Existe una zona del camión cuya estructura, al igual que la de los automóviles, no conviene que sea deformable, sino que, al contrario, interesa que sea lo más rígida posible. Esta zona se denomina habitáculo o cabina, y es el lugar donde viajan los ocupantes. Los camiones, a diferencia de los turismos, tienen la carga situada detrás del habitáculo por lo que, en caso de colisión, la energía (Ec) que posee la carga y la fuerza (F) que genera la deceleración aplastaría la cabina. Por este motivo, la cabina debe ser especialmente resistente. El habitáculo debe constituir, pues, una auténtica célula de supervivencia que, entre otras cosas, cumpla las siguientes funciones: • Impedir que en caso de accidente penetren elementos externos (como las ruedas o partes del motor). • Garantizar un espacio libre de obstáculos que puedan interponerse en el recorrido hacia adelante que, sobre todo en choques frontales y debido a la inercia, experimentan los pasajeros. Si las estructuras del habitáculo fuesen también deformables podrían aprisionar a los ocupantes y causarles heridas muy graves. • Con el objetivo de garantizar ese espacio de supervivencia para los ocupantes en las cabinas de los camiones, los vehículos industriales se someten a tres tipos de pruebas de resistencia: impacto frontal, techo y panel trasero. Tras esos ensayos: • La deformación de la cabina debe garantizar unas dimensiones mínimas para la seguridad del conductor y los pasajeros. • Las puertas de la cabina deben permanecer cerradas. • Todas las fijaciones de la cabina deben seguir manteniéndola sujeta al chasis, aunque puede haber algunas roturas y deformaciones. Es importante tener en cuenta que las cabinas totalmente seguras e indeformables no existen, pues en choques a partir de una cierta velocidad y bajo determinadas circunstancias pueden llegar a producirse deformaciones en ese habitáculo teóricamente rígido, resultando algunas de ellas muy importantes. Es un error grave creer que un vehículo es una especie de fortaleza capaz de protegernos en cualquier circunstancia.",
+    "Manual II, tema 9, apartado 1.2 — El cinturón de seguridad": "En caso de impacto, no es suficiente que la estructura deformable de un vehículo absorba la energía del choque y que la célula de seguridad que forma el habitáculo quede intacta. La razón es muy simple: el coche puede perder su energía cinética gracias a su estructura deformable, pero también hace falta que los pasajeros pierdan la suya. En otras palabras, si los pasajeros no “frenan” también con el coche, continuarán a la misma velocidad que éste, incluso después de que comience el impacto. Un ejemplo claro es lo que pasa en un autobús urbano cuando frena: si la gente que está de pie no se agarra, no decelera al mismo tiempo que el vehículo y se desplazan peligrosamente hacia adelante. En el caso de un automóvil que choca, la deceleración es tan grande que mientras el vehículo empieza a perder velocidad, el pasajero continúa a la que llevaba aquél. Por ejemplo, si el vehículo impacta a 50 km/h contra un muro rígido, sólo dos centésimas de segundo después de que el coche se estrelle, los pasajeros que no estén sujetos con el cinturón chocaría a una velocidad de 14 km/h sufriendo con toda probabilidad importantes lesiones. Otra cosa a tener muy en cuenta es la deceleración que sufre el organismo en una deceleración tan violenta; de 50 km/h a cero en 0,2 s supone que el cuerpo ha sufrido 7 veces la aceleración de la gravedad.",
+    "Manual II, tema 9, apartado 2 — La seguridad preventiva": "Los dispositivos de seguridad activa y pasiva están sometidos a una evolución tecnológica constante. Sin embargo, cada vez encontramos más circunstancias y elementos que afectan claramente a la seguridad de un vehículo y que no pueden considerarse parte de la seguridad activa o pasiva. No se puede negar, por ejemplo, que una temperatura idónea y un buen diseño ergonómico del cuadro de mandos, que proporcione la máxima información en el menor tiempo posible, contribuyen positivamente a la seguridad. Son dos ejemplos de elementos que actualmente se tiende a clasificar dentro del grupo de lo que se denomina la seguridad preventiva. Seguridad Cualquier sistema que ayude al conductor a mantener su atención en la conducción o facilite su respuesta ante una determinada preventiva situación crítica. Muy brevemente, entre algunos de los principales dispositivos que se suelen incluir dentro de la seguridad preventiva destacarían los siguientes: • Visibilidad. La amplitud de la superficie acristalada, extendida al mayor perímetro posible del vehículo así como espejos retrovisores, limpialunetas y limpiaparabrisas, nos permiten captar mejor el entorno de la carretera y nos facilitan las maniobras incluso en condiciones atmosféricas desfavorables. • Dispositivos de señalización. En el diseño de los vehículos se tiene muy en cuenta “ver bien y ser vistos”, la mejor disposición de los elementos de posición, dirección del sentido de las luces, así como la incorporación de técnicas modernas en el alumbrado que nos permiten una conducción segura."
+  },
+  "conceptos": [
+    {
+      "id": "DGT-001",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "titulo": "Seguridad activa o primaria: definición",
+      "resumen": "Bajo la denominación de seguridad activa o primaria se agrupan todos aquellos elementos que incorpora un vehículo y que pueden contribuir a evitar un accidente.",
+      "explicacion": "«Contribuir a evitar»: la seguridad activa actúa ANTES del accidente. Ese es el criterio que separa una categoría de la otra.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-002",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "titulo": "Ejemplos de elementos de seguridad activa",
+      "resumen": "Entre los elementos de seguridad activa estarían la dirección, los frenos, las suspensiones, los neumáticos y los controles de tracción y de estabilidad.",
+      "explicacion": "Todos tienen algo en común: sirven para que el accidente no llegue a producirse.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-003",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "titulo": "Seguridad pasiva o secundaria: definición",
+      "resumen": "La seguridad pasiva o secundaria se refiere a todos aquellos elementos, dispositivos o sistemas que incorpora el vehículo con el fin de evitar o reducir al mínimo las consecuencias sobre los ocupantes o sobre terceros cuando el accidente se está produciendo y cuando ha finalizado.",
+      "explicacion": "Ojo al alcance: protege a los ocupantes Y a terceros, y actúa durante el accidente y después.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-004",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "titulo": "La regla que separa seguridad activa de pasiva",
+      "resumen": "Seguridad activa: contribuye a evitar que se produzca el accidente. Seguridad pasiva: minimiza las consecuencias durante el accidente.",
+      "explicacion": "Es el recuadro que el manual destaca, y la forma en que suele preguntarse.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-005",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "titulo": "El vehículo como factor de riesgo en los accidentes",
+      "resumen": "Las estadísticas conceden al vehículo un porcentaje medio de causa exclusiva de accidente próximo al 12 %, y como causa compartida el riesgo puede situarse de manera indirecta entre el 25 y el 30 % de incidencia en los siniestros.",
+      "explicacion": "Es el epígrafe de la influencia de los sistemas de seguridad en los accidentes: el vehículo es uno de los grandes factores de riesgo, junto con la vía y el elemento humano.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-007",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "titulo": "ABS: para qué sirve además de evitar el bloqueo",
+      "resumen": "El ABS no sirve solo para evitar el bloqueo en frenadas en línea recta: permite mantener la direccionalidad incluso con el freno pisado a fondo, porque las ruedas que dirigen el vehículo no llegan en ningún momento a bloquearse por completo.",
+      "explicacion": "La utilidad que el manual llama «posiblemente más importante» es la direccionalidad, no la distancia de frenado.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-008",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "titulo": "BAS: asistencia a la frenada de emergencia",
+      "resumen": "El BAS reconoce una eventual frenada de emergencia por la velocidad con la que el conductor actúa sobre el pedal y, combinado con el ABS, un servofreno modificado aplica toda la presión posible aunque el conductor no ejerza la fuerza necesaria.",
+      "explicacion": "El problema que resuelve: mucha gente no pisa el freno lo bastante fuerte en una emergencia.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-009",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "titulo": "PCS: sistema de seguridad de precolisión",
+      "resumen": "El PCS mide constantemente la distancia con el vehículo que circula delante y, al acercarse al umbral de riesgo, emite una señal acústica y luminosa para advertir al conductor.",
+      "explicacion": "En algunos vehículos llega a actuar sobre el pedal de freno si el conductor no reacciona.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-010",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "titulo": "ESP: cómo actúa ante un derrape",
+      "resumen": "Ante un derrape del eje delantero los frenos actúan sobre la rueda trasera interior a la curva; ante un derrape del eje trasero, sobre la delantera exterior.",
+      "explicacion": "Cruzado: si derrapa delante, frena detrás por dentro; si derrapa detrás, frena delante por fuera. Es la pregunta clásica del ESP.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-011",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "titulo": "Eficacia del ESP sobre la mortalidad",
+      "resumen": "Se estima que el ESP puede reducir el número de víctimas mortales entre un 15 % y un 30 %.",
+      "explicacion": "Es el dato con el que el manual justifica llamarlo «un sistema muy eficaz de seguridad activa».",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-012",
+      "articulo": "Manual II, tema 9, apartado 1 — Elementos o sistemas de seguridad pasiva",
+      "titulo": "De qué depende la gravedad de las lesiones en un accidente",
+      "resumen": "Las consecuencias de un accidente y la gravedad de las lesiones pueden variar mucho de un vehículo a otro, por las diferencias en los sistemas de seguridad pasiva de que se disponga o por la utilización correcta de estos por parte de los usuarios.",
+      "explicacion": "La segunda causa depende del usuario: tener el sistema no basta, hay que usarlo bien.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-013",
+      "articulo": "Manual II, tema 9, apartado 1.1 — El chasis y la carrocería",
+      "titulo": "Las dos funciones del chasis en caso de choque",
+      "resumen": "La estructura situada debajo de la carrocería, conocida como bastidor o chasis, cumple dos funciones en caso de choque: absorber la energía que se libera en dicho choque y proteger a los ocupantes de agresiones externas.",
+      "explicacion": "Y son difícilmente compatibles, que es lo que se pregunta a continuación.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-014",
+      "articulo": "Manual II, tema 9, apartado 1.1 — El chasis y la carrocería",
+      "titulo": "Por qué las dos funciones del chasis son difícilmente compatibles",
+      "resumen": "Para absorber la energía en caso de impacto hace falta cierta flexibilidad, y para que los pasajeros no sufran agresiones la estructura debe ser resistente.",
+      "explicacion": "El compromiso entre rigidez y deformación es, dice el manual, el punto de partida de cualquier trabajo sobre seguridad pasiva.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-015",
+      "articulo": "Manual II, tema 9, apartado 1.2 — El cinturón de seguridad",
+      "titulo": "Por qué no basta con que la estructura absorba la energía",
+      "resumen": "El coche puede perder su energía cinética gracias a su estructura deformable, pero también hace falta que los pasajeros pierdan la suya: si no «frenan» también con el coche, continuarán a la misma velocidad incluso después de que comience el impacto.",
+      "explicacion": "Es el fundamento físico del cinturón, y explica por qué el habitáculo intacto no basta.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-016",
+      "articulo": "Manual II, tema 9, apartado 2 — La seguridad preventiva",
+      "titulo": "La seguridad preventiva: la tercera categoría",
+      "resumen": "Es cualquier sistema que ayude al conductor a mantener su atención en la conducción o facilite su respuesta ante una determinada situación crítica.",
+      "explicacion": "Ni activa ni pasiva: el manual la separa expresamente de las otras dos. La definición sigue: «o facilite su respuesta ante una determinada situación crítica».",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-017",
+      "articulo": "Manual II, tema 9, apartado 2 — La seguridad preventiva",
+      "titulo": "Por qué la seguridad preventiva es una categoría aparte",
+      "resumen": "Cada vez hay más circunstancias y elementos que afectan claramente a la seguridad de un vehículo y que no pueden considerarse parte de la seguridad activa o pasiva, como una temperatura idónea o un buen diseño ergonómico del cuadro de mandos.",
+      "explicacion": "Los ejemplos que da el manual son la visibilidad, los dispositivos de señalización y la climatización.",
+      "tipo_fuente": "autoridad"
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "DGT-001",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "tipo": "test",
+      "enunciado": "Según la DGT, bajo la denominación de seguridad activa o primaria se agrupan…",
+      "opciones": [
+        "todos aquellos elementos que incorpora un vehículo y que pueden contribuir a evitar un accidente",
+        "todos aquellos elementos que incorpora un vehículo y que reducen las lesiones de los ocupantes cuando el accidente ya se ha producido",
+        "los elementos que el conductor puede manejar directamente desde su puesto de conducción durante la marcha del vehículo",
+        "los dispositivos que la normativa exige que lleve todo vehículo para poder obtener la autorización de circulación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Bajo la denominación de seguridad activa o primaria se agrupan todos aquellos elementos que incorpora un vehículo y que pueden contribuir a evitar un accidente.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-002",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "tipo": "test",
+      "enunciado": "Entre los elementos de seguridad activa que enumera la DGT estarían…",
+      "opciones": [
+        "dirección, frenos, suspensiones, neumáticos, controles de tracción y de estabilidad",
+        "cinturones de seguridad, airbags, reposacabezas, barras de protección lateral y sistemas de retención infantil",
+        "chasis deformables, habitáculos de seguridad y barras de protección lateral",
+        "climatización, superficie acristalada, espejos retrovisores y limpiaparabrisas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Entre ellos estarían algunos como los siguientes: dirección, frenos, suspensiones, neumáticos, controles de tracción y de estabilidad, etc.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-003",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "tipo": "test",
+      "enunciado": "La seguridad pasiva o secundaria se refiere a los elementos que incorpora el vehículo con el fin de evitar o reducir al mínimo las consecuencias…",
+      "opciones": [
+        "sobre los ocupantes o sobre terceros cuando el accidente se está produciendo, especialmente, y cuando ha finalizado éste",
+        "sobre los ocupantes del vehículo, exclusivamente, y únicamente mientras el accidente se está produciendo, no después de que haya finalizado",
+        "sobre los peatones atropellados, que son a quienes la normativa considera terceros a estos efectos",
+        "sobre el propio vehículo, limitando los daños materiales que el impacto pueda ocasionarle"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "la seguridad pasiva o secundaria se refiere a todos aquellos elementos, dispositivos o sistemas que incorpora el vehículo con el fin de evitar o reducir al mínimo las consecuencias sobre los ocupantes o sobre terceros cuando el accidente se está produciendo, especialmente, y cuando ha finalizado éste.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-004",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "tipo": "test",
+      "enunciado": "El manual de la DGT resume la diferencia así: la seguridad activa contribuye a evitar que se produzca el accidente. ¿Y la seguridad pasiva?",
+      "opciones": [
+        "Minimiza las consecuencias durante el accidente",
+        "Impide que el vehículo pueda llegar a verse implicado en una colisión",
+        "Corrige la conducta del conductor antes de que el accidente ocurra",
+        "Repara los daños que el accidente haya causado al vehículo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Seguridad Activa: Contribuye a evitar que se produzca el accidente. Seguridad Pasiva: Minimiza las consecuencias durante el accidente.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 1 (recuadro).",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-005",
+      "articulo": "Manual II, tema 8, apartado 1 — Seguridad activa y pasiva de los vehículos",
+      "tipo": "test",
+      "enunciado": "Según las estadísticas que cita la DGT, el vehículo tiene un porcentaje medio de causa exclusiva de accidente…",
+      "opciones": [
+        "próximo al 12%",
+        "superior al 30%",
+        "próximo al 25%",
+        "cercano al 50%"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las estadísticas conceden al vehículo un porcentaje medio de causa exclusiva de accidente próximo al 12%, lo que demuestra que el vehículo es uno de los grandes factores de riesgo, junto con la vía y el elemento humano.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-007",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "tipo": "test",
+      "enunciado": "Según la DGT, la otra utilidad del ABS, posiblemente más importante que evitar el bloqueo en frenadas en línea recta, es que…",
+      "opciones": [
+        "permite mantener la direccionalidad (por ejemplo, para esquivar un obstáculo) incluso con el freno pisado a fondo",
+        "acorta siempre la distancia de frenado, cualquiera que sea el estado de adherencia de la superficie sobre la que se circule",
+        "reparte la fuerza de frenado entre los dos ejes en función de la carga que soporta cada uno",
+        "aplica automáticamente toda la presión posible cuando detecta una frenada de emergencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "permite mantener la direccionalidad (por ejemplo, para esquivar un obstáculo) incluso con el freno pisado a fondo, pues las ruedas encargadas de dirigir el vehículo no llegan en ningún momento a bloquearse por completo.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 2.4.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-008",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "tipo": "test",
+      "enunciado": "¿Cómo reconoce el sistema BAS una eventual situación o frenada de emergencia?",
+      "opciones": [
+        "por la velocidad con la que se actúa sobre el pedal",
+        "por la distancia que resta hasta el vehículo que circula delante",
+        "por el ángulo de giro que el conductor imprime al volante",
+        "por el bloqueo simultáneo de las cuatro ruedas del vehículo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "unos sensores permiten a una centralita electrónica analizar cómo está frenando el conductor, siendo capaz de reconocer una eventual situación o frenada de emergencia por la velocidad con la que se actúa sobre el pedal.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 2.4.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-009",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "tipo": "test",
+      "enunciado": "Cuando el sistema PCS detecta que el vehículo se acerca al umbral de riesgo de colisión…",
+      "opciones": [
+        "el vehículo emite una señal acústica y luminosa para advertir de esta circunstancia al conductor",
+        "el vehículo reduce automáticamente la potencia del motor hasta recuperar la distancia de seguridad",
+        "el sistema desconecta el control de crucero y bloquea la aceleración durante unos segundos",
+        "el sistema tensa los cinturones de seguridad y prepara el despliegue del airbag frontal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Al acercarnos a este umbral de riesgo el vehículo emite una señal acústica y luminosa para advertir de esta circunstancia al conductor.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 2.4.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-010",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "tipo": "test",
+      "enunciado": "En el sistema ESP, si se inicia un derrape del eje trasero al abordar una curva, los frenos actúan…",
+      "opciones": [
+        "sobre la delantera exterior a la curva",
+        "sobre la trasera interior a la curva",
+        "sobre las dos ruedas del eje trasero a la vez",
+        "sobre las cuatro ruedas con igual intensidad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En caso de derrape del eje delantero, los frenos actúan sobre la rueda trasera interior a la curva; en el caso de derrape del eje trasero, lo hacen sobre la delantera exterior a la curva, produciendo un momento de giro sobre el eje vertical del vehículo que limita la tendencia al derrape (también conocido como momento de guiñada).",
+      "justificacion": "DGT, Manual II, tema 8, apartado 2.4.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-011",
+      "articulo": "Manual II, tema 8, apartado 2.4 — Sistemas de ayuda a la frenada y a la estabilidad",
+      "tipo": "test",
+      "enunciado": "¿En qué medida se estima que el sistema ESP puede reducir el número de víctimas mortales?",
+      "opciones": [
+        "entre un 15% y un 30%",
+        "aproximadamente entre un 5% y un 10%",
+        "entre un 30% y un 50%",
+        "entre un 40% y un 60%"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se estima que puede reducir el número de víctimas mortales entre un 15% y un 30%.",
+      "justificacion": "DGT, Manual II, tema 8, apartado 2.4.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-012",
+      "articulo": "Manual II, tema 9, apartado 1 — Elementos o sistemas de seguridad pasiva",
+      "tipo": "test",
+      "enunciado": "Según la DGT, que las consecuencias de un accidente y la gravedad de las lesiones varíen mucho de un vehículo a otro se debe, en buena medida…",
+      "opciones": [
+        "a las diferencias existentes en los sistemas de seguridad pasiva de que se disponga o a la utilización correcta de éstos por parte de los usuarios",
+        "a la antigüedad del vehículo, al número de kilómetros recorridos desde su matriculación y al mantenimiento que haya recibido",
+        "a la diferencia de masa entre los vehículos implicados en la colisión y a la velocidad de cada uno",
+        "a la rapidez con que los servicios de emergencia lleguen al lugar en que se ha producido el siniestro"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Esto es debido, en buena medida, a las diferencias existentes en los sistemas de seguridad pasiva de que se disponga o a la utilización correcta de éstos por parte de los usuarios.",
+      "justificacion": "DGT, Manual II, tema 9, apartado 1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-013",
+      "articulo": "Manual II, tema 9, apartado 1.1 — El chasis y la carrocería",
+      "tipo": "test",
+      "enunciado": "El bastidor o chasis cumple dos funciones en caso de choque. Una de ellas es…",
+      "opciones": [
+        "Absorber la energía que se libera en dicho choque",
+        "Transmitir la energía del choque al eje trasero del vehículo",
+        "Mantener la trayectoria del vehículo para evitar que vuelque",
+        "Alojar los sistemas de retención de los ocupantes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "cumple dos funciones en caso de choque: • Absorber la energía que se libera en dicho choque",
+      "justificacion": "DGT, Manual II, tema 9, apartado 1.1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-014",
+      "articulo": "Manual II, tema 9, apartado 1.1 — El chasis y la carrocería",
+      "tipo": "test",
+      "enunciado": "El manual señala que las dos funciones del chasis son difícilmente compatibles porque…",
+      "opciones": [
+        "para absorber la energía en caso de impacto hace falta cierta flexibilidad, y para que los pasajeros no sufran estas agresiones debe ser resistente",
+        "la flexibilidad encarece la fabricación hasta hacerla inviable en los vehículos de gran serie",
+        "la resistencia obliga a aumentar el peso del vehículo y con ello su distancia de frenado",
+        "absorber la energía exige que el habitáculo entero se deforme, y proteger a los ocupantes exige justamente lo contrario, que no lo haga en absoluto"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Ambas funciones son difícilmente compatibles, ya que para absorber la energía en caso de impacto hace falta cierta flexibilidad, y para que los pasajeros no sufran estas agresiones debe ser resistente.",
+      "justificacion": "DGT, Manual II, tema 9, apartado 1.1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-015",
+      "articulo": "Manual II, tema 9, apartado 1.2 — El cinturón de seguridad",
+      "tipo": "test",
+      "enunciado": "Según la DGT, si los pasajeros no «frenan» también con el coche…",
+      "opciones": [
+        "continuarán a la misma velocidad que éste, incluso después de que comience el impacto",
+        "se detendrán bruscamente al mismo tiempo que lo hace la estructura deformable del vehículo",
+        "reducirán su velocidad de forma proporcional a la deformación de la carrocería",
+        "quedarán retenidos por la propia inercia del habitáculo de seguridad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "si los pasajeros no “frenan” también con el coche, continuarán a la misma velocidad que éste, incluso después de que comience el impacto.",
+      "justificacion": "DGT, Manual II, tema 9, apartado 1.2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-016",
+      "articulo": "Manual II, tema 9, apartado 2 — La seguridad preventiva",
+      "tipo": "test",
+      "enunciado": "La DGT define la seguridad preventiva como…",
+      "opciones": [
+        "Cualquier sistema que ayude al conductor a mantener su atención en la conducción",
+        "Cualquier sistema que actúe sobre los mandos cuando detecte un riesgo de colisión",
+        "El conjunto de revisiones periódicas que ha de pasar el vehículo para circular",
+        "El conjunto de elementos que reducen las lesiones tras finalizar el accidente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cualquier sistema que ayude al conductor a mantener su atención en la conducción",
+      "justificacion": "DGT, Manual II, tema 9, apartado 2 (recuadro).",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-017",
+      "articulo": "Manual II, tema 9, apartado 2 — La seguridad preventiva",
+      "tipo": "test",
+      "enunciado": "El manual justifica la categoría de seguridad preventiva porque cada vez hay más elementos que afectan a la seguridad del vehículo y que…",
+      "opciones": [
+        "no pueden considerarse parte de la seguridad activa o pasiva",
+        "solo actúan cuando el accidente ya se ha producido y ha finalizado",
+        "dependen exclusivamente del mantenimiento que haga su propietario",
+        "la normativa todavía no exige que se incorporen de serie"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "cada vez encontramos más circunstancias y elementos que afectan claramente a la seguridad de un vehículo y que no pueden considerarse parte de la seguridad activa o pasiva.",
+      "justificacion": "DGT, Manual II, tema 9, apartado 2.",
+      "tipo_fuente": "autoridad"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "DGT-002",
+      "destino": "DGT-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-003",
+      "destino": "DGT-001",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DGT-004",
+      "destino": "DGT-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-005",
+      "destino": "DGT-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-007",
+      "destino": "DGT-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-008",
+      "destino": "DGT-007",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-009",
+      "destino": "DGT-007",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-010",
+      "destino": "DGT-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-011",
+      "destino": "DGT-010",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-012",
+      "destino": "DGT-003",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-013",
+      "destino": "DGT-012",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-014",
+      "destino": "DGT-013",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DGT-015",
+      "destino": "DGT-012",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-016",
+      "destino": "DGT-001",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DGT-017",
+      "destino": "DGT-016",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-012",
+      "destino": "VCD-001",
+      "tipo": "remite"
+    },
+    {
+      "origen": "DGT-003",
+      "destino": "VCD-001",
+      "tipo": "remite"
+    }
+  ]
+}

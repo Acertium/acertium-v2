@@ -637,5 +637,16 @@
     "temas": [
       "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
     ]
+  },
+  "DGT": {
+    "materia": "dgt-cuestiones-seguridad-vial",
+    "norma": "Cuestiones de Seguridad Vial — Manual II de la formación del Profesor de Formación Vial (DGT)",
+    "referencia_boe": "",
+    "referencia_fuente": "Dirección General de Tráfico, Ministerio del Interior, «Cuestiones de Seguridad Vial», Manual II de la formación a distancia del Profesor de Formación Vial, edición 2023, NIPO 128-23-010-3 — www.dgt.es",
+    "_nota": "tipo_fuente = autoridad (§1 de docs/contrato-fuentes-no-boe.md): manual de formacion de la propia DGT, con NIPO. NO tiene corpus, por la regla de corpus/README.md: el texto literal viaja en el bloque `fuentes` del lote. Cubre los epigrafes tecnicos del T44 y del T45 que ninguna norma fundamenta. El traslado de detenidos del T44 NO es suyo: eso es la Orden INT/2573/2015 (familia VCD).",
+    "temas": [
+      "Tema 44 — La Seguridad en la Conducción de Vehículos Prioritarios: seguridad activa y pasiva; repercusión de los sistemas de seguridad en la conducción policial y traslado de detenidos",
+      "Tema 45 — Prevención de riesgos laborales en seguridad vial: factores del tráfico, riesgos laborales en la conducción de vehículos prioritarios y equipos de protección individual"
+    ]
   }
 }
