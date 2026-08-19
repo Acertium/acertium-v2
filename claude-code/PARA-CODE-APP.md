@@ -196,12 +196,25 @@ en un tema fiable sí es una pregunta que hacerse — no una condena.
      - **Accidentalidad laboral-vial** (refuerza el 45.1): accidente laboral-vial, **in itinere 70 %
        / en misión 30 %** y los cuatro requisitos del in itinere (teleológico, mecánico, topográfico
        y cronológico).
-     - Cuidado al leer el informe aquí: **45.4** («riesgos laborales en la conducción de vehículos
-       prioritarios») y **45.6** («estrategias y mantenimiento preventivo del vehículo prioritario»)
-       ya no salen a cero, pero eso es **falso positivo** de la heurística léxica —casan por
-       *riesgo*, *laboral*, *vehículo*, *mantenimiento*—. Lo específico de **vehículo prioritario**
-       sigue sin fuente propia: el Manual II no lo trata y el Manual III de la DGT (que sí regula
-       los prioritarios) no está ingerido.
+     - **Cuidado al leer el informe en el 45.4 y el 45.6, pero al revés de lo que parece.** Los
+       conceptos que la heurística les asigna (`DGT-019`, `DGT-028`, `DGT-037`, `DGT-041`) casan por
+       palabras genéricas —*riesgo*, *vehículo*, *mantenimiento*— y no son su fundamento. Pero eso
+       **no significa que estén sin fuente**: lo que hay debajo es un **falso negativo**, que es el
+       caso que la advertencia del informe describe.
+       - **45.6** («estrategias y mantenimiento preventivo del vehículo prioritario») lo fundamentan
+         **`EQT-008` a `EQT-012`** (RD 1215/1997: deber de mantenimiento, comprobación inicial y tras
+         cada montaje, comprobaciones tras acontecimientos excepcionales, quién comprueba y qué se
+         conserva). La heurística no los cuenta porque dicen *«equipo de trabajo»* y nunca
+         *«vehículo prioritario»* — el puente es `EQT-002`: el vehículo policial ES un equipo de trabajo.
+       - **45.4** («riesgos laborales en la conducción de vehículos prioritarios») es la
+         intersección de tres bloques ya cargados, repartidos por la regla de un concepto = un tema:
+         el marco de PRL (`PRL-003`, `PRLP-014`, en el **T25**), los factores del tráfico de este
+         lote, y los **arts. 67-70 del RGC** más las definiciones del Anexo XI, en el **T43**
+         (38 conceptos).
+       - **NO hace falta el Manual III de la DGT.** Es un manual didáctico sobre lo que ya regula el
+         RGC, que es la norma y está ingerida. Esto se decidió el 19/08 y se reafirma aquí porque el
+         20/08 llegué a escribir lo contrario en este mismo sitio, por leer mal el informe: marqué
+         bien el falso positivo y de ahí salté sin comprobar a «luego sigue sin fuente». No se deduce.
    - **T45 (estado anterior)** — **ARRANCADO** (17/08/2026): 27 conceptos, cuando estaba **entero a
      cero**. Jonathan aportó los dos RD que le faltaban y son su primera fuente BOE (§56 y §57 del corpus).
      - `epi-t45-proteccion-individual.json` (14, RD 773/1997): definición de EPI, criterio de último
