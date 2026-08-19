@@ -25,6 +25,19 @@ function q(s) {
   return "'" + String(s ?? "").replace(/'/g, "''") + "'";
 }
 
+// Como `q`, pero lo vacío es NULL y no cadena vacía. Necesario para
+// `concepto_fuente.referencia_boe`: el camino JS ya guardaba null cuando la
+// fuente no es del BOE (`|| null`, más abajo) y el camino --sql escribía ''. La
+// diferencia no es cosmética — la aserción (b) de asercion-post-carga.sql cuenta
+// las referencias BOE distintas de una familia y '' le cuenta como una más—, y
+// solo salta cuando se carga por SQL una familia sin BOE-A: la primera fue
+// `OMS` (Constitución de la OMS, publicada en un BOE de 1973 en facsímil, que no
+// lleva identificador).
+function qN(s) {
+  const t = String(s ?? "").trim();
+  return t ? q(t) : "null";
+}
+
 // ---------------------------------------------------------------------------
 // MANIFIESTO DE COBERTURA — que el índice se mantenga solo.
 //
@@ -414,7 +427,10 @@ export function loteASql(v, meta, registro) {
     );
     out.push(
       v.conceptosOK
-        .map((c) => `(${q(c.id)},${q(norma)},${q(c.articulo)},${q(referencia_boe)})`)
+        .map(
+          (c) =>
+            `(${q(c.id)},${q(c.norma ?? norma)},${q(c.articulo)},${qN(c.referencia_boe ?? referencia_boe)})`,
+        )
         .join(",\n") + "\non conflict do nothing;",
     );
 

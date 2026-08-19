@@ -13,9 +13,11 @@
 - Canal de trabajo: cada encargo es `claude-code/PROMPT_NNN.md`; ejecutas el pendiente de número más
   bajo, escribes `RESULTADO_NNN.md` y añades línea a `EJECUCIONES.md`. Jonathan solo dispara.
 
-## 1. Estado del cerebro (verificado por MCP el 16/08, tras PROMPT_017)
-- **2.634 conceptos · 2.542 preguntas servibles · 56 en cola de revisión (`pendiente_revision`) · 0 islas.**
-- **Corpus BOE-600: 52/52 normas cargadas.** Índice autogestionado en
+## 1. Estado del cerebro (verificado por MCP el 19/08)
+- **3.025 conceptos · 2.939 preguntas servibles · 56 en cola de revisión (`pendiente_revision`) · 0 islas.**
+- **Corpus BOE-600: 52/52 normas cargadas**, más 6 secciones que NO son del Código 600 (§54 a §59;
+  ver `datos/legal-es/boe-600-pn/corpus/README.md`). El directorio tiene 58 ficheros y 4.899 artículos.
+  Índice autogestionado en
   `datos/legal-es/boe-600-pn/00-indice.md` (la marca ✓ exige confirmación de la base desde el 16/08;
   auditar con `node adaptadores/legal-es/generador/reconciliar-indice.mjs`).
 - **Temas no-BOE:** todos los citables (oficial/autoridad) cargados y verificados; el Grupo C
@@ -70,8 +72,24 @@
        156 bis/ter/quater/quinquies y 157-162 (lesiones al feto y manipulación genética).
      El tema se reetiquetó al enunciado oficial: antes decía solo «homicidio, aborto y lesiones».
      Fuera del tema a propósito: el **195** (omisión del deber de socorro), que es de otro título.
-   - **T24** — **PARCIALMENTE HECHO**: 18 conceptos (17/08/2026). **Agotado todo lo que se puede
-     fundamentar en BOE**; lo que falta no tiene fuente en el corpus.
+   - **T24** — **PARCIALMENTE HECHO**: **30 conceptos** (19/08/2026). Queda un solo epígrafe sin
+     fuente, no tres.
+     - `oms-t24-concepto-salud.json` (12, **19/08/2026**) cierra el epígrafe **concepto de salud**,
+       que este parte daba por bloqueado. Jonathan aportó el BOE núm. 116, de 15/05/1973, que publica
+       la **Constitución de la OMS**: es §59 del corpus y familia `OMS`, con `tipo_fuente: oficial`
+       (tratado en BOE, §1 del contrato de fuentes no-BOE), así que va a `verificado` y se sirve.
+       Entran los nueve principios del preámbulo —empezando por la definición de salud como «estado
+       de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o
+       enfermedades»—, la declaración inicial, la fórmula de aceptación y el artículo 1 (finalidad).
+       Enganchado al T24 ya cargado por `OMS-001 → PRL-005`, `OMS-001 → PRL-001` y `OMS-002 → PRL-011`.
+       **Ojo al leer §59:** no es ingesta mecánica como el resto del corpus —el BOE de 1973 es
+       facsímil escaneado— sino transcripción cotejada contra la imagen a 300 ppp, y es parcial
+       (preámbulo y artículo 1). Conserva la errata del BOE («Organización *Mundical* de la Salud»
+       en el artículo 1), así que ninguna pregunta cita ese tramo.
+     - **Lo único que sigue sin fuente** son *concepto general de trabajo* y *el trabajo y la salud*,
+       que necesitan al INSST. El contenedor no tiene salida a insst.es (403): hay que aportar el PDF.
+     - Lo de abajo es el estado anterior (17/08), que sigue siendo válido salvo en lo que corrige
+       este bloque.
      - `prl-t24-accion-preventiva.json` (11) cierra el epígrafe *principios generales de la actividad
        preventiva*: el art. 15 LPRL entero, con los nueve principios de la lista y los apartados 2 a
        5 (capacidades profesionales, acceso a zonas de riesgo grave y específico, previsión de
@@ -83,12 +101,27 @@
      - Las **cuatro disciplinas preventivas** (art. 8 c) RD 67/2010) **ya están cargadas**, pero en
        el **T25** (`PRLAGE-023`), que es donde el temario sitúa esa norma. No se duplican aquí: un
        concepto vive en un solo tema.
-     - **Lo único que falta** son los tres epígrafes doctrinales —*concepto general de trabajo*,
-       *concepto de salud* y *el trabajo y la salud*—, que no salen de ninguna norma del corpus.
-       Necesitan una fuente de **autoridad** (INSST para el concepto de trabajo, OMS para el de
-       salud) con cita literal, conforme a `docs/contrato-fuentes-no-boe.md`. El contenedor no tiene
-       salida a insst.es ni a who.int (403), así que hay que aportar el PDF.
-   - **T42** — **AMPLIADO** (17/08/2026): de 30 a 58 conceptos con
+     - ~~**Lo único que falta** son los tres epígrafes doctrinales~~ — corregido arriba: el de
+       *concepto de salud* quedó cerrado el 19/08 con la Constitución de la OMS. Siguen abiertos
+       *concepto general de trabajo* y *el trabajo y la salud*, que necesitan al INSST.
+   - **T42** — **79 conceptos** (19/08/2026), tras `itc-t42-instrucciones-tecnicas.json` (21).
+     Las **ITC 1 a 5** no estaban en el corpus porque no son artículos del RD 137/1993: se aprobaron
+     por el artículo segundo del **RD 726/2020** y se publicaron como anexos suyos, donde el ingestor
+     corta. Ahora son el **§58** del corpus y la familia `ITC`. Lo que entra:
+     - **ITC 5 — Tarjeta Europea de Armas de Fuego** (4): objeto, quién fija sus características
+       (Dirección General de la Guardia Civil), formato plegable en un único impreso DIN-A4 y la
+       fotografía del titular. Es el epígrafe *documentación que ampara la tenencia y porte*.
+     - **ITC 3 — armas de alarma y señales** (5): la clave es que las que **no** cumplen las
+       especificaciones «serán clasificadas como armas de fuego en su correspondiente categoría».
+     - **ITC 2 — inutilización** (7): quién puede inutilizar y la excepción de las armas de guerra y
+       **de dotación de la Policía Nacional** (Centros del Ministerio de Defensa o Servicios de
+       Armamento), certificado en castellano y en inglés, marcado que conserva el número de serie, y
+       las armas seccionadas para enseñanza.
+     - **ITC 4 — marcado y componentes esenciales** (5): tamaño de letra de 1,6 mm y la
+       **profundidad mínima de 0,0762 mm** que introdujo la Orden INT/291/2025.
+     - **Lo que sigue sin fuente en el T42 no cambia**: *origen de las armas de fuego*,
+       *funcionamiento* y *balística forense*. Las ITC no los tocan.
+   - **T42 (ampliación anterior)** — (17/08/2026): de 30 a 58 conceptos con
      `arm-t42-prohibidas-definiciones.json` (28). El parte daba este tema por «bloque técnico
      no-BOE», y era falso: el §50 del corpus es el **Reglamento de Armas con 174 artículos** y los
      dos epígrafes más preguntados estaban cubiertos con **un solo concepto por artículo**.
@@ -223,6 +256,21 @@ anexo); y las inclusiones parciales del propio Código. Que un artículo no est�
 no exista en la norma: significa que el Código 600 no lo recoge. Caso real: el **art. 510 CP**
 (delitos de odio) no aparece ni una sola vez en el PDF oficial del §35, así que la remisión
 `ETICA→CP art. 510` que el PROMPT_016 dejó esperando **no se resolverá nunca** desde este corpus.
+
+**Y tampoco trae los anexos.** El ingestor corta en `ANEXO`, así que lo que una norma aprueba como
+anexo se queda fuera aunque sea contenido de examen. Es lo que pasaba con las **ITC del Reglamento
+de Armas**: existían desde 2020 y no estaban en ninguna parte porque no son artículos del RD
+137/1993. Se ingieren aparte (§58). Antes de dar por inexistente algo de una norma que sí está en el
+corpus, mira si vive en un anexo.
+
+### Arreglo del 19/08 en `cargar.mjs` (camino `--sql`)
+El camino JS guardaba `concepto_fuente.referencia_boe` como **NULL** cuando la fuente no es del BOE
+(`|| null`), pero el camino `--sql` escribía **cadena vacía**. No es cosmético: la aserción (b) de
+`asercion-post-carga.sql` cuenta las referencias BOE distintas de una familia y `''` le cuenta como
+una más. Solo se manifiesta al cargar por SQL una familia sin `BOE-A`, y la primera fue `OMS` (la
+Constitución de la OMS se publicó en un BOE de 1973 en facsímil, que no lleva identificador). Ahora
+el emisor usa `qN()`, que escribe `null`, y además respeta el `norma`/`referencia_boe` propio del
+concepto igual que hacía el camino JS.
 
 ## 4. Dónde mirar
 - Manual y reglas: `CLAUDE.md` (raíz).

@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "materia": "constitucion-oms",
+    "norma": "Constitución de la Organización Mundial de la Salud",
+    "referencia_boe": "",
+    "referencia_fuente": "Constitución de la Organización Mundial de la Salud, «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772 (facsímil escaneado; los boletines anteriores a 1994 no llevan identificador BOE-A)",
+    "tipo_fuente": "oficial",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
+  },
+  "fuentes": {
+    "Declaración de principios": "Los Estados partes de esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:",
+    "Fórmula de aceptación": "Aceptando estos principios, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como Organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
+    "Principio 1": "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades.",
+    "Principio 2": "El goce del grado máximo de salud que se pueda lograr es uno de los derechos fundamentales de todo ser humano sin distinción de raza, religión, ideología política o condición económica o social.",
+    "Principio 3": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad y depende de la más amplia cooperación de las personas y de los Estados.",
+    "Principio 4": "Los resultados alcanzados por cada Estado en el fomento y protección de la salud son valiosos para todos.",
+    "Principio 5": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles, constituye un peligro común.",
+    "Principio 6": "El desarrollo saludable del niño es de importancia fundamental; la capacidad de vivir en armonía en un mundo que cambia constantemente es indispensable para este desarrollo.",
+    "Principio 7": "La extensión a todos los pueblos de los beneficios de los conocimientos médicos, psicológicos y afines es esencial para alcanzar el más alto grado de salud.",
+    "Principio 8": "Una opinión pública bien informada y una cooperación activa por parte del público son de importancia capital para el mejoramiento de la salud del pueblo.",
+    "Principio 9": "Los Gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas.",
+    "art. 1": "La finalidad de la Organización Mundical de la Salud (llamada de ahora en adelante Organización) será alcanzar para todos los pueblos el grado más alto posible de salud."
+  },
+  "conceptos": [
+    {
+      "id": "OMS-001",
+      "articulo": "Principio 1",
+      "titulo": "Concepto de salud: completo bienestar físico, mental y social",
+      "resumen": "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades.",
+      "explicacion": "Es la definición que maneja toda la prevención de riesgos laborales: la salud no se agota en no estar enfermo, sino que abarca el bienestar físico, el mental y el social.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-002",
+      "articulo": "Principio 2",
+      "titulo": "El grado máximo de salud como derecho fundamental",
+      "resumen": "El goce del grado máximo de salud que se pueda lograr es uno de los derechos fundamentales de todo ser humano, sin distinción de raza, religión, ideología política o condición económica o social.",
+      "explicacion": "La cláusula de no discriminación es literal y es lo que suele preguntarse: raza, religión, ideología política, condición económica o social.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-003",
+      "articulo": "Principio 3",
+      "titulo": "La salud de los pueblos, condición para la paz y la seguridad",
+      "resumen": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad, y depende de la más amplia cooperación de las personas y de los Estados.",
+      "explicacion": "Ojo al doble sujeto de la cooperación: las personas Y los Estados, no solo los Estados.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-004",
+      "articulo": "Principio 4",
+      "titulo": "Los resultados de cada Estado son valiosos para todos",
+      "resumen": "Los resultados alcanzados por cada Estado en el fomento y protección de la salud son valiosos para todos.",
+      "explicacion": "Principio de aprovechamiento común: lo que logra cada Estado sirve también a los demás.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-005",
+      "articulo": "Principio 5",
+      "titulo": "La desigualdad entre países como peligro común",
+      "resumen": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles, constituye un peligro común.",
+      "explicacion": "No dice que sea un problema de los países atrasados: dice peligro COMÚN, de todos.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-006",
+      "articulo": "Principio 6",
+      "titulo": "El desarrollo saludable del niño",
+      "resumen": "El desarrollo saludable del niño es de importancia fundamental, y la capacidad de vivir en armonía en un mundo que cambia constantemente es indispensable para ese desarrollo.",
+      "explicacion": "La capacidad de vivir en armonía vuelve a asomar en el preámbulo; aquí es requisito del desarrollo del niño.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-007",
+      "articulo": "Principio 7",
+      "titulo": "Extensión de los conocimientos médicos a todos los pueblos",
+      "resumen": "La extensión a todos los pueblos de los beneficios de los conocimientos médicos, psicológicos y afines es esencial para alcanzar el más alto grado de salud.",
+      "explicacion": "Fíjate en «y afines»: el preámbulo no se limita a la medicina ni a la psicología.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-008",
+      "articulo": "Principio 8",
+      "titulo": "Opinión pública informada y cooperación del público",
+      "resumen": "Una opinión pública bien informada y una cooperación activa por parte del público son de importancia capital para el mejoramiento de la salud del pueblo.",
+      "explicacion": "No basta con que el público esté informado: el preámbulo pide además que coopere de forma activa.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-009",
+      "articulo": "Principio 9",
+      "titulo": "La responsabilidad de los Gobiernos en la salud de sus pueblos",
+      "resumen": "Los Gobiernos tienen responsabilidad en la salud de sus pueblos, responsabilidad que solo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas.",
+      "explicacion": "Sanitarias Y sociales: el preámbulo no reduce la salud a la asistencia médica.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-010",
+      "articulo": "Declaración de principios",
+      "titulo": "Para qué son básicos los principios del preámbulo",
+      "resumen": "Los Estados partes declaran, en conformidad con la Carta de las Naciones Unidas, que los principios del preámbulo son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos.",
+      "explicacion": "El trío es literal y se pregunta tal cual: felicidad, relaciones armoniosas y seguridad.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-011",
+      "articulo": "Fórmula de aceptación",
+      "titulo": "La OMS se establece como Organismo especializado",
+      "resumen": "Aceptando esos principios, las Partes Contratantes convienen en la Constitución y por ese acto establecen la Organización Mundial de la Salud como Organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
+      "explicacion": "La OMS no nace como organización independiente: nace vinculada a las Naciones Unidas por la vía de los organismos especializados.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "id": "OMS-012",
+      "articulo": "art. 1",
+      "titulo": "Finalidad de la Organización Mundial de la Salud",
+      "resumen": "La finalidad de la Organización será alcanzar para todos los pueblos el grado más alto posible de salud.",
+      "explicacion": "No dice «el grado máximo», que es lo del segundo principio del preámbulo: aquí es «el grado más alto posible».",
+      "tipo_fuente": "oficial"
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "OMS-001",
+      "articulo": "Principio 1",
+      "tipo": "test",
+      "enunciado": "Según el preámbulo de la Constitución de la Organización Mundial de la Salud, la salud es…",
+      "opciones": [
+        "un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades",
+        "un estado de completo bienestar físico y mental que se acredita mediante los reconocimientos médicos periódicos que se practican al trabajador",
+        "la ausencia de afecciones o enfermedades que impidan al trabajador desempeñar las tareas propias de su puesto de trabajo",
+        "el equilibrio entre las exigencias del puesto de trabajo y las capacidades físicas y psíquicas de quien lo ocupa"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, primer principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-002",
+      "articulo": "Principio 2",
+      "tipo": "test",
+      "enunciado": "El preámbulo de la Constitución de la OMS califica el goce del grado máximo de salud que se pueda lograr como…",
+      "opciones": [
+        "uno de los derechos fundamentales de todo ser humano sin distinción de raza, religión, ideología política o condición económica o social",
+        "un principio rector de la política social y económica cuya tutela corresponde a cada Estado conforme a lo que disponga por sí mismo su propio ordenamiento interno",
+        "un objetivo programático que los Estados miembros asumen en la medida en que se lo permitan los recursos sanitarios de que dispongan en cada momento",
+        "un derecho de los trabajadores frente a los riesgos derivados de las condiciones en que prestan sus servicios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El goce del grado máximo de salud que se pueda lograr es uno de los derechos fundamentales de todo ser humano sin distinción de raza, religión, ideología política o condición económica o social.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, segundo principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-003",
+      "articulo": "Principio 3",
+      "tipo": "test",
+      "enunciado": "Según el preámbulo, la salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad, y depende…",
+      "opciones": [
+        "de la más amplia cooperación de las personas y de los Estados",
+        "de la cooperación entre los Estados miembros de la Organización y sus organismos especializados",
+        "de la coordinación de las administraciones oficiales de salubridad entre sí",
+        "del nivel de desarrollo económico que cada Estado alcance por sí mismo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad y depende de la más amplia cooperación de las personas y de los Estados.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, tercer principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-004",
+      "articulo": "Principio 4",
+      "tipo": "test",
+      "enunciado": "El preámbulo afirma que los resultados alcanzados por cada Estado en el fomento y protección de la salud…",
+      "opciones": [
+        "son valiosos para todos",
+        "vinculan a los demás Estados partes de esta Constitución",
+        "deben comunicarse a la Asamblea de la Salud en su sesión anual ordinaria",
+        "se miden por el descenso de las enfermedades trasmisibles en su territorio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los resultados alcanzados por cada Estado en el fomento y protección de la salud son valiosos para todos.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, cuarto principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-005",
+      "articulo": "Principio 5",
+      "tipo": "test",
+      "enunciado": "Según el preámbulo de la Constitución de la OMS, la desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles…",
+      "opciones": [
+        "constituye un peligro común",
+        "obliga a los países más adelantados a prestar asistencia técnica a los demás",
+        "faculta a la Organización para intervenir sin solicitud del Gobierno afectado",
+        "impide la cooperación entre las agrupaciones científicas y profesionales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles, constituye un peligro común.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, quinto principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-006",
+      "articulo": "Principio 6",
+      "tipo": "test",
+      "enunciado": "Según el preámbulo, ¿qué es indispensable para el desarrollo saludable del niño, que la Constitución de la OMS considera de importancia fundamental?",
+      "opciones": [
+        "la capacidad de vivir en armonía en un mundo que cambia constantemente",
+        "el acceso a los servicios de salubridad pública desde el momento mismo del nacimiento",
+        "la protección de la salud maternal durante el embarazo y en los años posteriores al parto",
+        "la extensión de los conocimientos médicos y psicológicos a quienes lo tienen a su cargo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El desarrollo saludable del niño es de importancia fundamental; la capacidad de vivir en armonía en un mundo que cambia constantemente es indispensable para este desarrollo.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, sexto principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-007",
+      "articulo": "Principio 7",
+      "tipo": "test",
+      "enunciado": "El preámbulo considera esencial para alcanzar el más alto grado de salud…",
+      "opciones": [
+        "extensión a todos los pueblos de los beneficios de los conocimientos médicos, psicológicos y afines",
+        "adaptación de los servicios de salubridad de cada país a las condiciones económicas en que se encuentre",
+        "creación de los servicios administrativos y técnicos que sean necesarios, inclusive los epidemiológicos",
+        "colaboración de las agrupaciones profesionales con las administraciones oficiales de salubridad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La extensión a todos los pueblos de los beneficios de los conocimientos médicos, psicológicos y afines es esencial para alcanzar el más alto grado de salud.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, séptimo principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-008",
+      "articulo": "Principio 8",
+      "tipo": "test",
+      "enunciado": "¿Qué considera el preámbulo de la Constitución de la OMS de importancia capital para el mejoramiento de la salud del pueblo?",
+      "opciones": [
+        "Una opinión pública bien informada y una cooperación activa por parte del público",
+        "Una red de servicios hospitalarios accesible a toda la población en condiciones de igualdad",
+        "Un sistema de seguro social que cubra la asistencia médica preventiva y también la curativa",
+        "Una nomenclatura internacional uniforme de las enfermedades y de las causas de muerte"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Una opinión pública bien informada y una cooperación activa por parte del público son de importancia capital para el mejoramiento de la salud del pueblo.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, octavo principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-009",
+      "articulo": "Principio 9",
+      "tipo": "test",
+      "enunciado": "Según el preámbulo, la responsabilidad que los Gobiernos tienen en la salud de sus pueblos solo puede ser cumplida…",
+      "opciones": [
+        "mediante la adopción de medidas sanitarias y sociales adecuadas",
+        "mediante la ratificación de las convenciones y Reglamentos que proponga la Organización",
+        "con la ayuda técnica que la Organización les preste cuando ellos mismos la soliciten",
+        "delegando su ejercicio en la administración oficial de salubridad correspondiente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, noveno principio.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-010",
+      "articulo": "Declaración de principios",
+      "tipo": "test",
+      "enunciado": "Los Estados partes de la Constitución de la OMS declaran, en conformidad con la Carta de las Naciones Unidas, que los principios que enuncia son básicos para…",
+      "opciones": [
+        "la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos",
+        "la paz, el desarrollo económico y el progreso social de todos los pueblos",
+        "la cooperación internacional en materia de salubridad pública",
+        "el funcionamiento de la Organización como organismo especializado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los Estados partes de esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:",
+      "justificacion": "Preámbulo de la Constitución de la OMS, declaración inicial.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-011",
+      "articulo": "Fórmula de aceptación",
+      "tipo": "test",
+      "enunciado": "Al convenir en la Constitución, las Partes Contratantes establecen la Organización Mundial de la Salud…",
+      "opciones": [
+        "como Organismo especializado",
+        "como organismo subsidiario de la Asamblea General de las Naciones Unidas",
+        "como organización intergubernamental independiente de las Naciones Unidas",
+        "como comisión técnica del Consejo Económico y Social de las Naciones Unidas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Aceptando estos principios, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como Organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
+      "justificacion": "Preámbulo de la Constitución de la OMS, fórmula de aceptación (remite al artículo 57 de la Carta de las Naciones Unidas).",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "OMS-012",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "Según el artículo 1 de su Constitución, la finalidad de la Organización Mundial de la Salud será…",
+      "opciones": [
+        "alcanzar para todos los pueblos el grado más alto posible de salud",
+        "actuar como autoridad directiva y coordinadora en asuntos de sanidad internacional",
+        "suprimir las enfermedades trasmisibles que constituyen un peligro común para los pueblos",
+        "prestar a los Gobiernos la cooperación técnica que soliciten o que estén dispuestos a aceptar"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La finalidad de la Organización Mundical de la Salud (llamada de ahora en adelante Organización) será alcanzar para todos los pueblos el grado más alto posible de salud.",
+      "justificacion": "Artículo 1 de la Constitución de la OMS.",
+      "tipo_fuente": "oficial"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "OMS-001",
+      "destino": "OMS-010",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-002",
+      "destino": "OMS-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-003",
+      "destino": "OMS-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-004",
+      "destino": "OMS-003",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-005",
+      "destino": "OMS-003",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-006",
+      "destino": "OMS-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-007",
+      "destino": "OMS-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-008",
+      "destino": "OMS-009",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-009",
+      "destino": "OMS-003",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-011",
+      "destino": "OMS-010",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-012",
+      "destino": "OMS-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "OMS-001",
+      "destino": "PRL-005",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "OMS-001",
+      "destino": "PRL-001",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "OMS-002",
+      "destino": "PRL-011",
+      "tipo": "prerrequisito"
+    }
+  ]
+}
