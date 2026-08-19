@@ -1,6 +1,8 @@
 -- Acertium — Barrera 3: aserción post-carga (cinturón)
--- El cargador la ejecuta DESPUÉS de cada lote. Las tres consultas deben devolver
--- 0 filas. Si alguna devuelve filas, hubo contaminación de meta: NO seguir, revisar.
+-- El cargador la ejecuta DESPUÉS de cada lote. Las CUATRO consultas (a), (b), (c) y (e)
+-- deben devolver 0 filas. Si alguna devuelve filas: NO seguir, revisar. Las tres
+-- primeras cazan contaminación de meta; la (e), conceptos que el motor no puede
+-- preguntar.
 -- Es independiente del registro (no confía en él): comprueba invariantes internas.
 
 -- (a) Una FAMILIA (primer token del id) no puede repartirse entre dos materias.
@@ -55,6 +57,33 @@ join acertium_v2.concepto_fuente cf on cf.concepto_id = c.id
 where split_part(c.id, '-', 1) not in ('CEDH', 'TORT')
 group by 1
 having count(distinct cf.norma) > 1;
+
+-- (e) Un CONCEPTO no puede quedarse sin ninguna actividad servible.
+--     Añadida el 19/08/2026 tras encontrar el agujero del Tema 2: la Constitución
+--     se había cargado entera como grafo, pero las preguntas solo se generaron para
+--     los Títulos II a X. El Título I —derechos fundamentales— tenía 92 conceptos y
+--     11 preguntas, y NADA lo detectaba: ni la pantalla de temas, que cuenta
+--     conceptos, ni `docs/cobertura-epigrafes.md`, que cruza títulos y resúmenes, ni
+--     `verificar-lote`, que solo mira dentro del lote que se está cargando.
+--
+--     No es un problema cosmético de cobertura: rompe el motor. `siguienteActividad()`
+--     (lib/cerebro.ts) pide al planificador un concepto y luego una actividad suya con
+--     `actividad_de_concepto`; si el concepto no tiene ninguna, la función no devuelve
+--     nada y el runtime CAE AL FALLBACK aleatorio (`siguiente_actividad_test`). Es
+--     decir: la decisión del BKT se descarta en silencio y el opositor recibe una
+--     pregunta de cualquier otro tema. Cuantos más conceptos mudos, más se degrada el
+--     planificador hasta ser indistinguible del azar.
+select
+  c.id,
+  c.materia,
+  (select o.tema from acertium_v2.overlay_entrada o where o.concepto_id = c.id limit 1) as tema
+from acertium_v2.concepto c
+where not exists (
+  select 1 from acertium_v2.actividad a
+  where a.concepto_id = c.id
+    and a.tipo = 'test'
+    and a.estado_verificacion = 'verificado'
+);
 
 -- (d) INFORMATIVA, no es una aserción: qué instrumentos tiene de verdad cada
 --     familia declarada multi-instrumento. Sirve para revisar de un vistazo que
