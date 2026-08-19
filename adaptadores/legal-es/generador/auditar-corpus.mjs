@@ -71,10 +71,10 @@ const SECCION = {
   CP: 35, LOPJ: 36, LEC: 37, HC: 38, MF: 39, VIC: 40, VG: 41, IG: 42,
   LGTBI: 43, PRL: 44, PRLP: 45, PRLAGE: 46, LOPD: 47, LOPD7: 48, RDP: 49,
   ARM: 50, RGV: 51, TRAF: 52, VCD: 53,
-  // §54 a §57 NO son secciones del Código 600: son normas que el temario necesita y
+  // §54 a §59 NO son secciones del Código 600: son normas que el temario necesita y
   // que la recopilación no incluye, ingeridas aparte desde su texto consolidado.
   // Ver "Secciones que no vienen del Código 600" en corpus/README.md.
-  RSP: 54, DEP: 55, EPI: 56, EQT: 57,
+  RSP: 54, DEP: 55, EPI: 56, EQT: 57, ITC: 58, OMS: 59,
 };
 
 // Normalización CONSERVADORA: unifica comillas/guiones tipográficos y espacios.
@@ -105,6 +105,17 @@ const RE_NO_ARTICULO = /^\s*(d\.?\s?[atdf]\.?(\s|\d|$)|disp\.|disposici[oó]n|pr
 
 function refDe(articulo) {
   const s = String(articulo ?? "");
+  // Dos secciones no se dividen en artículos y por eso su cita canónica no es un
+  // número suelto. Van ANTES que todo lo demás: sin esto, "ITC 4" acabaría
+  // buscando el artículo 4 y "Preámbulo, principio 2" caería en RE_NO_ARTICULO y
+  // se daría por no auditable, que es justo lo que no queremos de una fuente
+  // transcrita a mano.
+  //   §58 ITC del Reglamento de Armas → refs "ITC 1".."ITC 5".
+  //   §59 Constitución de la OMS      → refs "Principio 1".."Principio 9".
+  const mi = s.match(/\bITC\s+(\d+)/i);
+  if (mi) return `ITC ${mi[1]}`;
+  const mp = s.match(/\bprincipio\s+(\d+)/i);
+  if (mp) return `Principio ${mp[1]}`;
   if (RE_NO_ARTICULO.test(s)) return null;
   // La LETRA final ("art. 588 bis a") solo se admite detrás de un sufijo y como
   // palabra suelta: el `\b` impide que "art. 264 ter del Código" capture la "d"

@@ -447,6 +447,22 @@
       "ultima_modificacion": "13 de noviembre de 2004",
       "articulos": 6,
       "fichero": "seccion-057.json"
+    },
+    {
+      "seccion": 58,
+      "titulo": "Instrucciones técnicas complementarias del Reglamento de Armas (ITC 1 a ITC 5), aprobadas por el artículo segundo del Real Decreto 726/2020, de 4 de agosto",
+      "referencia_boe": "BOE-A-2020-9134",
+      "ultima_modificacion": "4 de abril de 2025",
+      "articulos": 5,
+      "fichero": "seccion-058.json"
+    },
+    {
+      "seccion": 59,
+      "titulo": "Constitución de la Organización Mundial de la Salud",
+      "referencia_boe": "",
+      "ultima_modificacion": "15 de mayo de 1973",
+      "articulos": 12,
+      "fichero": "seccion-059.json"
     }
   ]
 }

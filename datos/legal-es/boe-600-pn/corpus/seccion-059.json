@@ -1,0 +1,76 @@
+{
+ "meta": {
+  "seccion": 59,
+  "titulo": "Constitución de la Organización Mundial de la Salud",
+  "referencia_boe": "",
+  "referencia_fuente": "Constitución de la Organización Mundial de la Salud, «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772 (facsímil escaneado)",
+  "publicacion": "«BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772",
+  "ultima_modificacion": "15 de mayo de 1973",
+  "nota_referencia": "SIN identificador BOE-A: los boletines anteriores a 1994 se publican en facsímil y este no lleva ninguno impreso. No se inventa: la cita verificable es el número de boletín, la fecha y las páginas, que sí están en la propia página escaneada. Por eso la familia se registra con `referencia_fuente` y no con `referencia_boe`, conforme al §4 de docs/contrato-fuentes-no-boe.md. La fecha de firma que imprime la rúbrica («22 de julio de 194?») tiene el último dígito degradado en el escaneo y NO se transcribe.",
+  "fuente": "NO es una sección del Código 600. Es la única fuente con rango de tratado publicado en el BOE para el epígrafe «concepto de salud» del Tema 24, que ninguna norma del corpus define. El BOE de 1973 no tiene texto digital: es un FACSÍMIL ESCANEADO, y su capa de OCR está sucia. Esta sección no es, por tanto, ingesta mecánica como el resto del corpus: es una TRANSCRIPCIÓN COTEJADA CONTRA LA IMAGEN de la página 9767 a 300 ppp, palabra por palabra. Criterios aplicados: (1) los errores evidentes del OCR se corrigen contra la imagen; (2) las erratas del propio BOE se conservan —el artículo 1 dice «Organización Mundical de la Salud», así impreso, y no se toca—; (3) las tildes que el facsímil ha perdido por desgaste de la impresión, y solo esas, se restituyen («Una opinión pública bien informada»). INGESTA PARCIAL DECLARADA: solo el preámbulo y el artículo 1. El artículo 2 (funciones, apartados a a v) y los capítulos III a XIX no se ingieren porque el temario no llega a ellos y su OCR, en columna estrecha y con letras de apartado degradadas, no es transcribible con garantías. Que un artículo no esté aquí no significa que no exista.",
+  "advertencia_ref": "Los `ref` «Principio N» son los nueve principios del preámbulo, NO artículos. El `ref` «1» sí es el artículo 1."
+ },
+ "articulos": [
+  {
+   "numero": null,
+   "ref": "Declaración de principios",
+   "texto": "Los Estados partes de esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:"
+  },
+  {
+   "numero": 1,
+   "ref": "Principio 1",
+   "texto": "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades."
+  },
+  {
+   "numero": 2,
+   "ref": "Principio 2",
+   "texto": "El goce del grado máximo de salud que se pueda lograr es uno de los derechos fundamentales de todo ser humano sin distinción de raza, religión, ideología política o condición económica o social."
+  },
+  {
+   "numero": 3,
+   "ref": "Principio 3",
+   "texto": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad y depende de la más amplia cooperación de las personas y de los Estados."
+  },
+  {
+   "numero": 4,
+   "ref": "Principio 4",
+   "texto": "Los resultados alcanzados por cada Estado en el fomento y protección de la salud son valiosos para todos."
+  },
+  {
+   "numero": 5,
+   "ref": "Principio 5",
+   "texto": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles, constituye un peligro común."
+  },
+  {
+   "numero": 6,
+   "ref": "Principio 6",
+   "texto": "El desarrollo saludable del niño es de importancia fundamental; la capacidad de vivir en armonía en un mundo que cambia constantemente es indispensable para este desarrollo."
+  },
+  {
+   "numero": 7,
+   "ref": "Principio 7",
+   "texto": "La extensión a todos los pueblos de los beneficios de los conocimientos médicos, psicológicos y afines es esencial para alcanzar el más alto grado de salud."
+  },
+  {
+   "numero": 8,
+   "ref": "Principio 8",
+   "texto": "Una opinión pública bien informada y una cooperación activa por parte del público son de importancia capital para el mejoramiento de la salud del pueblo."
+  },
+  {
+   "numero": 9,
+   "ref": "Principio 9",
+   "texto": "Los Gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas."
+  },
+  {
+   "numero": null,
+   "ref": "Fórmula de aceptación",
+   "texto": "Aceptando estos principios, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como Organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas."
+  },
+  {
+   "numero": 1,
+   "ref": "1",
+   "rubrica": "Finalidad",
+   "texto": "La finalidad de la Organización Mundical de la Salud (llamada de ahora en adelante Organización) será alcanzar para todos los pueblos el grado más alto posible de salud."
+  }
+ ]
+}

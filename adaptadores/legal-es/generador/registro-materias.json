@@ -598,5 +598,24 @@
     "temas": [
       "Tema 45 — Prevención de riesgos laborales en seguridad vial: factores del tráfico, riesgos laborales en la conducción de vehículos prioritarios y equipos de protección individual"
     ]
+  },
+  "ITC": {
+    "materia": "itc-reglamento-armas",
+    "norma": "Instrucciones técnicas complementarias del Reglamento de Armas (ITC 1 a ITC 5), aprobadas por el Real Decreto 726/2020",
+    "referencia_boe": "BOE-A-2020-9134",
+    "_nota": "Las ITC no son artículos del Reglamento de Armas: son anexos del RD 726/2020 y por eso no estan en la familia ARM (§50), sino en el §58 del corpus. La ITC 4 esta en la redaccion vigente de la Orden INT/291/2025 y la ITC 1 incluye el apartado C) que le anadio la Orden INT/330/2025.",
+    "temas": [
+      "Tema 42 — Las armas de fuego: definición, clasificación, categorías; el Reglamento de Armas; armas prohibidas; documentación de tenencia y porte"
+    ]
+  },
+  "OMS": {
+    "materia": "constitucion-oms",
+    "norma": "Constitución de la Organización Mundial de la Salud",
+    "referencia_boe": "",
+    "referencia_fuente": "Constitución de la Organización Mundial de la Salud, «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772 (facsímil escaneado; los boletines anteriores a 1994 no llevan identificador BOE-A)",
+    "_nota": "tipo_fuente = oficial (tratado publicado en el BOE), §1 de docs/contrato-fuentes-no-boe.md: cita literal y puerta literal aplicable. Se registra con referencia_fuente y no con referencia_boe porque el facsimil de 1973 no tiene identificador BOE-A que citar, y no se inventa.",
+    "temas": [
+      "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
+    ]
   }
 }
