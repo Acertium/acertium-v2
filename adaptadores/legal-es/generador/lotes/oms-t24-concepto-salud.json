@@ -3,31 +3,31 @@
     "materia": "constitucion-oms",
     "norma": "Constitución de la Organización Mundial de la Salud",
     "referencia_boe": "",
-    "referencia_fuente": "Constitución de la Organización Mundial de la Salud, «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772 (facsímil escaneado; los boletines anteriores a 1994 no llevan identificador BOE-A)",
+    "referencia_fuente": "Organización Mundial de la Salud, Documentos básicos, 49.ª edición (con las modificaciones adoptadas hasta el 31 de mayo de 2019), Ginebra, OMS, 2020, ISBN 978-92-4-000056-8. Publicada también en el «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772.",
     "tipo_fuente": "oficial",
     "convocatoria": "policia-nacional-2026",
     "tema": "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
   },
   "fuentes": {
-    "Declaración de principios": "Los Estados partes de esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:",
-    "Fórmula de aceptación": "Aceptando estos principios, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como Organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
-    "Principio 1": "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades.",
+    "Declaración de principios": "LOS ESTADOS partes en esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:",
+    "Fórmula de aceptación": "ACEPTANDO ESTOS PRINCIPIOS, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como organismo especializado de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
+    "Principio 1": "La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades.",
     "Principio 2": "El goce del grado máximo de salud que se pueda lograr es uno de los derechos fundamentales de todo ser humano sin distinción de raza, religión, ideología política o condición económica o social.",
-    "Principio 3": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad y depende de la más amplia cooperación de las personas y de los Estados.",
+    "Principio 3": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad, y depende de la más amplia cooperación de las personas y de los Estados.",
     "Principio 4": "Los resultados alcanzados por cada Estado en el fomento y protección de la salud son valiosos para todos.",
-    "Principio 5": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles, constituye un peligro común.",
+    "Principio 5": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las transmisibles, constituye un peligro común.",
     "Principio 6": "El desarrollo saludable del niño es de importancia fundamental; la capacidad de vivir en armonía en un mundo que cambia constantemente es indispensable para este desarrollo.",
     "Principio 7": "La extensión a todos los pueblos de los beneficios de los conocimientos médicos, psicológicos y afines es esencial para alcanzar el más alto grado de salud.",
     "Principio 8": "Una opinión pública bien informada y una cooperación activa por parte del público son de importancia capital para el mejoramiento de la salud del pueblo.",
-    "Principio 9": "Los Gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas.",
-    "art. 1": "La finalidad de la Organización Mundical de la Salud (llamada de ahora en adelante Organización) será alcanzar para todos los pueblos el grado más alto posible de salud."
+    "Principio 9": "Los gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas.",
+    "art. 1": "La finalidad de la Organización Mundial de la Salud (llamada de ahora en adelante la Organización) será alcanzar para todos los pueblos el grado más alto posible de salud."
   },
   "conceptos": [
     {
       "id": "OMS-001",
       "articulo": "Principio 1",
       "titulo": "Concepto de salud: completo bienestar físico, mental y social",
-      "resumen": "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades.",
+      "resumen": "La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades.",
       "explicacion": "Es la definición que maneja toda la prevención de riesgos laborales: la salud no se agota en no estar enfermo, sino que abarca el bienestar físico, el mental y el social.",
       "tipo_fuente": "oficial"
     },
@@ -59,7 +59,7 @@
       "id": "OMS-005",
       "articulo": "Principio 5",
       "titulo": "La desigualdad entre países como peligro común",
-      "resumen": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles, constituye un peligro común.",
+      "resumen": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las transmisibles, constituye un peligro común.",
       "explicacion": "No dice que sea un problema de los países atrasados: dice peligro COMÚN, de todos.",
       "tipo_fuente": "oficial"
     },
@@ -106,8 +106,8 @@
     {
       "id": "OMS-011",
       "articulo": "Fórmula de aceptación",
-      "titulo": "La OMS se establece como Organismo especializado",
-      "resumen": "Aceptando esos principios, las Partes Contratantes convienen en la Constitución y por ese acto establecen la Organización Mundial de la Salud como Organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
+      "titulo": "La OMS se establece como organismo especializado",
+      "resumen": "Aceptando esos principios, las Partes Contratantes convienen en la Constitución y por ese acto establecen la Organización Mundial de la Salud como organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
       "explicacion": "La OMS no nace como organización independiente: nace vinculada a las Naciones Unidas por la vía de los organismos especializados.",
       "tipo_fuente": "oficial"
     },
@@ -127,13 +127,13 @@
       "tipo": "test",
       "enunciado": "Según el preámbulo de la Constitución de la Organización Mundial de la Salud, la salud es…",
       "opciones": [
-        "un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades",
+        "un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades",
         "un estado de completo bienestar físico y mental que se acredita mediante los reconocimientos médicos periódicos que se practican al trabajador",
         "la ausencia de afecciones o enfermedades que impidan al trabajador desempeñar las tareas propias de su puesto de trabajo",
         "el equilibrio entre las exigencias del puesto de trabajo y las capacidades físicas y psíquicas de quien lo ocupa"
       ],
       "indice_correcto": 0,
-      "cotejo": "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades.",
+      "cotejo": "La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades.",
       "justificacion": "Preámbulo de la Constitución de la OMS, primer principio.",
       "tipo_fuente": "oficial"
     },
@@ -165,7 +165,7 @@
         "del nivel de desarrollo económico que cada Estado alcance por sí mismo"
       ],
       "indice_correcto": 0,
-      "cotejo": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad y depende de la más amplia cooperación de las personas y de los Estados.",
+      "cotejo": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad, y depende de la más amplia cooperación de las personas y de los Estados.",
       "justificacion": "Preámbulo de la Constitución de la OMS, tercer principio.",
       "tipo_fuente": "oficial"
     },
@@ -178,7 +178,7 @@
         "son valiosos para todos",
         "vinculan a los demás Estados partes de esta Constitución",
         "deben comunicarse a la Asamblea de la Salud en su sesión anual ordinaria",
-        "se miden por el descenso de las enfermedades trasmisibles en su territorio"
+        "se miden por el descenso de las enfermedades transmisibles en su territorio"
       ],
       "indice_correcto": 0,
       "cotejo": "Los resultados alcanzados por cada Estado en el fomento y protección de la salud son valiosos para todos.",
@@ -189,7 +189,7 @@
       "concepto_id": "OMS-005",
       "articulo": "Principio 5",
       "tipo": "test",
-      "enunciado": "Según el preámbulo de la Constitución de la OMS, la desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles…",
+      "enunciado": "Según el preámbulo de la Constitución de la OMS, la desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las transmisibles…",
       "opciones": [
         "constituye un peligro común",
         "obliga a los países más adelantados a prestar asistencia técnica a los demás",
@@ -197,7 +197,7 @@
         "impide la cooperación entre las agrupaciones científicas y profesionales"
       ],
       "indice_correcto": 0,
-      "cotejo": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles, constituye un peligro común.",
+      "cotejo": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las transmisibles, constituye un peligro común.",
       "justificacion": "Preámbulo de la Constitución de la OMS, quinto principio.",
       "tipo_fuente": "oficial"
     },
@@ -253,7 +253,7 @@
       "concepto_id": "OMS-009",
       "articulo": "Principio 9",
       "tipo": "test",
-      "enunciado": "Según el preámbulo, la responsabilidad que los Gobiernos tienen en la salud de sus pueblos solo puede ser cumplida…",
+      "enunciado": "Según el preámbulo, la responsabilidad que los gobiernos tienen en la salud de sus pueblos solo puede ser cumplida…",
       "opciones": [
         "mediante la adopción de medidas sanitarias y sociales adecuadas",
         "mediante la ratificación de las convenciones y Reglamentos que proponga la Organización",
@@ -261,7 +261,7 @@
         "delegando su ejercicio en la administración oficial de salubridad correspondiente"
       ],
       "indice_correcto": 0,
-      "cotejo": "Los Gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas.",
+      "cotejo": "Los gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas.",
       "justificacion": "Preámbulo de la Constitución de la OMS, noveno principio.",
       "tipo_fuente": "oficial"
     },
@@ -277,7 +277,7 @@
         "el funcionamiento de la Organización como organismo especializado"
       ],
       "indice_correcto": 0,
-      "cotejo": "Los Estados partes de esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:",
+      "cotejo": "LOS ESTADOS partes en esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:",
       "justificacion": "Preámbulo de la Constitución de la OMS, declaración inicial.",
       "tipo_fuente": "oficial"
     },
@@ -287,13 +287,13 @@
       "tipo": "test",
       "enunciado": "Al convenir en la Constitución, las Partes Contratantes establecen la Organización Mundial de la Salud…",
       "opciones": [
-        "como Organismo especializado",
+        "como organismo especializado",
         "como organismo subsidiario de la Asamblea General de las Naciones Unidas",
         "como organización intergubernamental independiente de las Naciones Unidas",
         "como comisión técnica del Consejo Económico y Social de las Naciones Unidas"
       ],
       "indice_correcto": 0,
-      "cotejo": "Aceptando estos principios, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como Organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
+      "cotejo": "ACEPTANDO ESTOS PRINCIPIOS, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como organismo especializado de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas.",
       "justificacion": "Preámbulo de la Constitución de la OMS, fórmula de aceptación (remite al artículo 57 de la Carta de las Naciones Unidas).",
       "tipo_fuente": "oficial"
     },
@@ -305,11 +305,11 @@
       "opciones": [
         "alcanzar para todos los pueblos el grado más alto posible de salud",
         "actuar como autoridad directiva y coordinadora en asuntos de sanidad internacional",
-        "suprimir las enfermedades trasmisibles que constituyen un peligro común para los pueblos",
+        "suprimir las enfermedades transmisibles que constituyen un peligro común para los pueblos",
         "prestar a los Gobiernos la cooperación técnica que soliciten o que estén dispuestos a aceptar"
       ],
       "indice_correcto": 0,
-      "cotejo": "La finalidad de la Organización Mundical de la Salud (llamada de ahora en adelante Organización) será alcanzar para todos los pueblos el grado más alto posible de salud.",
+      "cotejo": "La finalidad de la Organización Mundial de la Salud (llamada de ahora en adelante la Organización) será alcanzar para todos los pueblos el grado más alto posible de salud.",
       "justificacion": "Artículo 1 de la Constitución de la OMS.",
       "tipo_fuente": "oficial"
     }

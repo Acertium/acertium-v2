@@ -612,8 +612,18 @@
     "materia": "constitucion-oms",
     "norma": "Constitución de la Organización Mundial de la Salud",
     "referencia_boe": "",
-    "referencia_fuente": "Constitución de la Organización Mundial de la Salud, «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772 (facsímil escaneado; los boletines anteriores a 1994 no llevan identificador BOE-A)",
-    "_nota": "tipo_fuente = oficial (tratado publicado en el BOE), §1 de docs/contrato-fuentes-no-boe.md: cita literal y puerta literal aplicable. Se registra con referencia_fuente y no con referencia_boe porque el facsimil de 1973 no tiene identificador BOE-A que citar, y no se inventa.",
+    "referencia_fuente": "Organización Mundial de la Salud, Documentos básicos, 49.ª edición (con las modificaciones adoptadas hasta el 31 de mayo de 2019), Ginebra, OMS, 2020, ISBN 978-92-4-000056-8. Publicada también en el «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772.",
+    "_nota": "tipo_fuente = oficial (tratado; el texto espanol es autentico por su propio articulo 74), §1 de docs/contrato-fuentes-no-boe.md: cita literal y puerta literal. Se registra con referencia_fuente y no con referencia_boe porque el facsimil del BOE de 1973 no tiene identificador BOE-A que citar, y no se inventa. El corpus (§59) se ingiere del texto de la OMS, no del BOE: ver meta.fuente de seccion-059.json.",
+    "temas": [
+      "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
+    ]
+  },
+  "INSST": {
+    "materia": "insst-nivel-basico",
+    "norma": "Curso de capacitación para el desempeño de funciones de nivel básico (INSST)",
+    "referencia_boe": "",
+    "referencia_fuente": "Instituto Nacional de Seguridad y Salud en el Trabajo (INSST), «Curso de capacitación para el desempeño de funciones de nivel básico», Madrid, marzo de 2019, NIPO 871-19-037-9, ISBN 978-84-7425-829-5 — www.insst.es",
+    "_nota": "tipo_fuente = autoridad (§1 de docs/contrato-fuentes-no-boe.md): obra de referencia del organismo cientifico tecnico del Estado en prevencion de riesgos laborales, con cita literal y puerta literal aplicable. NO tiene corpus, por la regla de corpus/README.md: el texto literal viaja en el bloque `fuentes` del lote. Cubre los epigrafes doctrinales del Tema 24 que ninguna norma fundamenta.",
     "temas": [
       "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
     ]

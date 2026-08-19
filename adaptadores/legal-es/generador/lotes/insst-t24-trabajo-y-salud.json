@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "materia": "insst-nivel-basico",
+    "norma": "Curso de capacitación para el desempeño de funciones de nivel básico (INSST)",
+    "referencia_boe": "",
+    "referencia_fuente": "Instituto Nacional de Seguridad y Salud en el Trabajo (INSST), «Curso de capacitación para el desempeño de funciones de nivel básico», Madrid, marzo de 2019, NIPO 871-19-037-9, ISBN 978-84-7425-829-5, unidad 1 «Conceptos básicos sobre seguridad y salud en el trabajo», apartados 2 y 3 (págs. 19 a 24) — www.insst.es [2026-08-19]",
+    "tipo_fuente": "autoridad",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 24 — Introducción a la prevención de riesgos laborales: trabajo y salud, riesgos laborales, principios de la actividad preventiva y daños a la salud"
+  },
+  "fuentes": {
+    "Unidad 1, apartado 2 — El trabajo y la salud": "Trabajo y salud están interrelacionados, ya que a través del trabajo se busca satisfacer una serie de necesidades, pero en este proceso puede verse perjudicada la salud del trabajador. Los constantes cambios en los sistemas de trabajo, la competitividad entre empresas así como los conceptos de calidad (entendida como la aptitud de un producto, servicio o proceso para satisfacer las necesidades de los usuarios) y calidad total (que implica hacer las cosas bien y mejorarlas constantemente) van dirigidos a aumentar la eficacia productiva, y muchas veces mejoran las condiciones de trabajo, pero también pueden conllevar modificaciones que, directa o indirectamente, perjudiquen la salud de los trabajadores. La salud está relacionada con todos esos aspectos y, cuando en una empresa cambia el proceso de trabajo o los elementos técnicos, materiales u organizativos, hay que tener en cuenta que también pueden cambiar las condiciones de seguridad y salud. La Organización Mundial de la Salud define la salud como “el estado de bienestar físico, mental y social completo y no meramente la ausencia de daño o enfermedad”. Hay que destacar la triple dimensión de la salud y la importancia de lograr que el organismo, la mente y las relaciones sociales estén en equilibrio.",
+    "Unidad 1, apartado 2 — Factores de riesgo": "Hay que tener en cuenta todo lo que pueda representar un peligro o afectar a la salud del trabajador, por lo que se deben analizar en detalle las “condiciones de trabajo” y sus posibles consecuencias, a fin de identificar aquellos factores de riesgo que pudieran producir daños en el trabajador. Las condiciones de trabajo se refieren a aquellos aspectos del trabajo de naturaleza muy diversa, que incluyen desde los locales, instalaciones, equipos y productos, hasta los procedimientos de trabajo y en general todo el ámbito de la organización del trabajo y su ordenación. La actividad preventiva debe analizar esas condiciones de trabajo en función de las características de los trabajadores, sus capacidades y sus necesidades. Por lo tanto, deben controlarse los posibles efectos negativos sobre la salud del trabajador y aprovechar aquellos aspectos que favorezcan su desarrollo, como, por ejemplo, aplicando estrategias de participación y comunicación.",
+    "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales": "Los accidentes de trabajo son uno de los indicadores inmediatos y más evidentes de unas malas condiciones de trabajo, y la lucha contra ellos es una de las actividades preventivas más importantes. Legalmente, se entiende por accidente de trabajo “toda lesión corporal que el trabajador sufra con ocasión o a consecuencia del trabajo que ejecuta por cuenta ajena”. Esta definición se refiere tanto a las lesiones que se producen en el centro de trabajo como a las producidas en el trayecto habitual que puede sufrir el trabajador al ir o al volver del lugar de trabajo. Estos últimos serían los accidentes llamados “in itinere”. Se excluyen del concepto legal de accidente de trabajo las lesiones que sean debidas a fuerza mayor extraña al trabajo, entendiendo por esta “la que sea de tal naturaleza que ninguna relación guarda con el trabajo que se ejecutaba al ocurrir el accidente”. Sin embargo, y así lo establece la ley, “en ningún caso se considerará fuerza mayor extraña al trabajo la insolación, el rayo y otros fenómenos análogos de la naturaleza”. Desde un punto de vista técnico – preventivo, accidente de trabajo es todo suceso anormal, no querido ni deseado, que se presenta de forma brusca e inesperada, aunque normalmente es evitable, que interrumpe la normal continuidad del trabajo y puede causar lesiones a las personas. En todo caso, hay que tener en cuenta que los accidentes, por muy inesperados, sorprendentes o indeseados que sean, son consecuencia de una situación anterior, en la que existían las condiciones para que se produjera. La Seguridad en el Trabajo es el conjunto de técnicas y procedimientos que tienen por objeto eliminar o disminuir el riesgo de que se produzcan los accidentes de trabajo. En este punto se debe diferenciar lo que es una enfermedad profesional de las enfermedades relacionadas con el trabajo. Es importante tener claro que el término “enfermedad profesional” hace referencia al concepto legal, mientras que el de “enfermedad relacionada con el trabajo” hace referencia al concepto técnico-preventivo. Las dos tienen en común que son debidas o se producen con ocasión o por consecuencia del trabajo, pero el concepto de enfermedad profesional es más restringido que el de enfermedad de trabajo. La Higiene Industrial es una técnica de prevención de las enfermedades profesionales mediante la actuación en el medio ambiente de trabajo. A continuación se analizan cada una de estas definiciones. Enfermedad profesional es “toda enfermedad contraída a consecuencia del trabajo ejecutado por cuenta ajena, en las actividades que se especifiquen en el cuadro que se aprueba por las disposiciones de aplicación y desarrollo de la ley, y que esté provocada por la acción de los elementos o substancias que en dicho cuadro se indique para toda enfermedad profesional”. Esta es la definición según la Ley General de la Seguridad Social. El cuadro vigente en la actualidad fue aprobado por Real Decreto 1299/2006, de 10 de noviembre. Las enfermedades contraídas como consecuencia del trabajo y que no estén contempladas como enfermedades profesionales serán consideradas, a efectos legales, como accidentes de trabajo. Desde el punto de vista técnico-preventivo, se habla también de enfermedad relacionada con el trabajo, entendiendo por ella aquel deterioro lento y paulatino de la salud del trabajador, producido por una exposición crónica a situaciones adversas, sean estas producidas por el ambiente en que se desarrolla el trabajo o por la forma en que este esté organizado.",
+    "Unidad 1, apartado 3 — Otras patologías derivadas del trabajo": "Hay que tener en cuenta que en el trabajo también pueden existir otros elementos perjudiciales capaces de ocasionar trastornos que, sin ser de naturaleza física, pueden causar daño al trabajador. Estos elementos pueden ser negativos para el equilibrio mental y social de los individuos e, incluso, llegar a materializarse en dolencias. Se trata de aquellos aspectos relativos a la carga de trabajo que pueden producir fatiga mental, en ocasiones acompañada también de fatiga física, ocasionando, entre otros daños, estrés e insatisfacción laboral. Para actuar sobre estas “otras patologías para la salud” se cuenta con la Ergonomía y la Psicosociología aplicada a la prevención de riesgos laborales, además de la aportación general de la Medicina del Trabajo, al igual que lo hace en relación con los accidentes de trabajo y las enfermedades profesionales. Se define la Ergonomía como el conjunto de técnicas cuyo objetivo es la adecuación entre el trabajo y la persona. Por su parte la Psicosociología Aplicada a la Prevención de Riesgos Laborales estudia los factores de naturaleza psicosocial y organizativa existentes en el trabajo, que pueden repercutir en la salud del trabajador. En relación con la Medicina de Trabajo, partiendo del conocimiento del funcionamiento del cuerpo humano y del medio en que este desarrolla su actividad, en este caso el laboral, tiene como objetivos la promoción de la salud (o prevención de la pérdida de salud), la curación de las enfermedades y la rehabilitación.",
+    "Unidad 1, apartado 3 — Costes de los daños a la salud": "Además de las razones de carácter ético-moral, existen también los costes económicos que tienen para la sociedad los daños a la salud que sufren los trabajadores. Estos costes podemos diferenciarlos en directos e indirectos. Los costes directos son los relativos a las cuotas a la Seguridad Social por accidente de trabajo y enfermedad profesional y las jornadas no trabajadas por accidente de trabajo y enfermedad profesional; mientras que los costes indirectos serían aquellos tales como la producción no realizada, el contrato y formación del personal que sustituya al accidentado, los daños materiales producidos, los retrasos en el suministro y la posible pérdida de clientela así como el deterioro de imagen interna y externa. Aunque estos costes indirectos, en la mayoría de los casos, son muy difíciles de evaluar, tienen una importancia enorme en el cálculo del coste total de los accidentes, dado que suelen ser bastante superiores a los directos."
+  },
+  "conceptos": [
+    {
+      "id": "INSST-001",
+      "articulo": "Unidad 1, apartado 2 — El trabajo y la salud",
+      "titulo": "Trabajo y salud están interrelacionados",
+      "resumen": "A través del trabajo se busca satisfacer una serie de necesidades, pero en ese proceso puede verse perjudicada la salud del trabajador.",
+      "explicacion": "Es la idea que abre el tema: el trabajo no es solo fuente de sustento, también puede dañar.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-002",
+      "articulo": "Unidad 1, apartado 2 — El trabajo y la salud",
+      "titulo": "La triple dimensión de la salud",
+      "resumen": "Hay que destacar la triple dimensión de la salud y la importancia de lograr que el organismo, la mente y las relaciones sociales estén en equilibrio.",
+      "explicacion": "El organismo, la mente y las relaciones sociales: es la lectura preventiva de la definición de salud de la OMS.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-003",
+      "articulo": "Unidad 1, apartado 2 — El trabajo y la salud",
+      "titulo": "Los cambios en el proceso de trabajo cambian las condiciones de seguridad y salud",
+      "resumen": "Cuando en una empresa cambia el proceso de trabajo o los elementos técnicos, materiales u organizativos, hay que tener en cuenta que también pueden cambiar las condiciones de seguridad y salud.",
+      "explicacion": "De aquí sale la obligación práctica de reevaluar: si cambia cómo se trabaja, hay que volver a mirar los riesgos.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-004",
+      "articulo": "Unidad 1, apartado 2 — Factores de riesgo",
+      "titulo": "Qué comprenden las condiciones de trabajo",
+      "resumen": "Las condiciones de trabajo se refieren a aspectos del trabajo de naturaleza muy diversa, que incluyen desde los locales, instalaciones, equipos y productos hasta los procedimientos de trabajo y, en general, todo el ámbito de la organización del trabajo y su ordenación.",
+      "explicacion": "Ojo a la amplitud: no son solo las máquinas y los locales, también la organización del trabajo.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-005",
+      "articulo": "Unidad 1, apartado 2 — Factores de riesgo",
+      "titulo": "La actividad preventiva analiza las condiciones en función de los trabajadores",
+      "resumen": "La actividad preventiva debe analizar las condiciones de trabajo en función de las características de los trabajadores, sus capacidades y sus necesidades.",
+      "explicacion": "Es el mismo criterio que el principio de adaptar el trabajo a la persona de la Ley de Prevención de Riesgos Laborales, dicho en clave de análisis.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-006",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "titulo": "Concepto legal de accidente de trabajo",
+      "resumen": "Legalmente se entiende por accidente de trabajo toda lesión corporal que el trabajador sufra con ocasión o a consecuencia del trabajo que ejecuta por cuenta ajena.",
+      "explicacion": "Las piezas se preguntan juntas: lesión corporal, con ocasión o a consecuencia del trabajo, y por cuenta ajena.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-007",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "titulo": "Los accidentes in itinere",
+      "resumen": "La definición alcanza también a las lesiones producidas en el trayecto habitual que puede sufrir el trabajador al ir o al volver del lugar de trabajo: son los accidentes llamados «in itinere».",
+      "explicacion": "Trayecto habitual, de ida o de vuelta: si el recorrido no es el habitual, deja de serlo.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-008",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "titulo": "La insolación y el rayo no son fuerza mayor extraña al trabajo",
+      "resumen": "Se excluyen del concepto legal de accidente de trabajo las lesiones debidas a fuerza mayor extraña al trabajo, pero en ningún caso se considerará fuerza mayor extraña al trabajo la insolación, el rayo y otros fenómenos análogos de la naturaleza.",
+      "explicacion": "Es de las preguntas más repetidas: la insolación y el rayo NO excluyen el accidente de trabajo.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-009",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "titulo": "Accidente de trabajo desde el punto de vista técnico-preventivo",
+      "resumen": "Desde un punto de vista técnico-preventivo, accidente de trabajo es todo suceso anormal, no querido ni deseado, que se presenta de forma brusca e inesperada, aunque normalmente es evitable, que interrumpe la normal continuidad del trabajo y puede causar lesiones a las personas.",
+      "explicacion": "Fíjate en el «normalmente es evitable» y en el «puede causar»: técnicamente hay accidente aunque no haya lesión.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-010",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "titulo": "Los accidentes son consecuencia de una situación anterior",
+      "resumen": "Por muy inesperados, sorprendentes o indeseados que sean, los accidentes son consecuencia de una situación anterior en la que existían las condiciones para que se produjera.",
+      "explicacion": "Es la base de toda la investigación de accidentes: no hay «mala suerte», hay condiciones previas.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-011",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "titulo": "Concepto legal de enfermedad profesional",
+      "resumen": "Enfermedad profesional es toda enfermedad contraída a consecuencia del trabajo ejecutado por cuenta ajena, en las actividades que se especifiquen en el cuadro aprobado por las disposiciones de aplicación y desarrollo de la ley, y provocada por la acción de los elementos o substancias que en dicho cuadro se indique.",
+      "explicacion": "La clave del concepto legal es el cuadro: sin actividad y agente en el cuadro, no hay enfermedad profesional.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-012",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "titulo": "Las enfermedades del trabajo no incluidas en el cuadro son accidentes de trabajo",
+      "resumen": "Las enfermedades contraídas como consecuencia del trabajo que no estén contempladas como enfermedades profesionales serán consideradas, a efectos legales, como accidentes de trabajo.",
+      "explicacion": "Es la consecuencia práctica del cuadro cerrado: lo que no entra como enfermedad profesional no queda fuera de protección, entra como accidente.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-013",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "titulo": "Enfermedad relacionada con el trabajo (concepto técnico-preventivo)",
+      "resumen": "Es el deterioro lento y paulatino de la salud del trabajador producido por una exposición crónica a situaciones adversas, sean estas producidas por el ambiente en que se desarrolla el trabajo o por la forma en que este esté organizado.",
+      "explicacion": "No confundir con la enfermedad profesional: aquella es el concepto legal y esta el técnico-preventivo, más amplio.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-014",
+      "articulo": "Unidad 1, apartado 3 — Otras patologías derivadas del trabajo",
+      "titulo": "Otras patologías derivadas del trabajo: fatiga, estrés e insatisfacción",
+      "resumen": "Los aspectos relativos a la carga de trabajo pueden producir fatiga mental, en ocasiones acompañada también de fatiga física, ocasionando entre otros daños estrés e insatisfacción laboral.",
+      "explicacion": "Son los daños que no son lesión ni enfermedad profesional, y por eso el temario los llama «otras patologías».",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INSST-015",
+      "articulo": "Unidad 1, apartado 3 — Costes de los daños a la salud",
+      "titulo": "Costes directos e indirectos de los daños a la salud",
+      "resumen": "Los costes directos son los relativos a las cuotas a la Seguridad Social por accidente de trabajo y enfermedad profesional y las jornadas no trabajadas; los indirectos, la producción no realizada, el contrato y formación del personal sustituto, los daños materiales, los retrasos en el suministro, la posible pérdida de clientela y el deterioro de imagen.",
+      "explicacion": "Y el dato que se pregunta: los indirectos, con ser los más difíciles de evaluar, suelen ser bastante superiores a los directos.",
+      "tipo_fuente": "autoridad"
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "INSST-001",
+      "articulo": "Unidad 1, apartado 2 — El trabajo y la salud",
+      "tipo": "test",
+      "enunciado": "Según el INSST, trabajo y salud…",
+      "opciones": [
+        "están interrelacionados, ya que a través del trabajo se busca satisfacer una serie de necesidades, pero en este proceso puede verse perjudicada la salud del trabajador",
+        "son independientes entre sí, y solo llegan a relacionarse cuando el trabajador sufre un accidente de trabajo o contrae alguna de las enfermedades profesionales reconocidas",
+        "se oponen, porque toda actividad laboral supone por definición un deterioro progresivo e inevitable de la salud de quien la desempeña",
+        "coinciden, porque el trabajo es en sí mismo un factor de promoción de la salud y no puede llegar a generar daño cuando se organiza correctamente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Trabajo y salud están interrelacionados, ya que a través del trabajo se busca satisfacer una serie de necesidades, pero en este proceso puede verse perjudicada la salud del trabajador.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-002",
+      "articulo": "Unidad 1, apartado 2 — El trabajo y la salud",
+      "tipo": "test",
+      "enunciado": "Al hablar de la triple dimensión de la salud, el INSST destaca la importancia de lograr…",
+      "opciones": [
+        "que el organismo, la mente y las relaciones sociales estén en equilibrio",
+        "que el organismo, la mente y el entorno familiar del trabajador estén en equilibrio",
+        "que la carga de trabajo, el descanso y la retribución percibida estén en equilibrio",
+        "que las exigencias del puesto y la formación de quien lo ocupa estén en equilibrio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Hay que destacar la triple dimensión de la salud y la importancia de lograr que el organismo, la mente y las relaciones sociales estén en equilibrio.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-003",
+      "articulo": "Unidad 1, apartado 2 — El trabajo y la salud",
+      "tipo": "test",
+      "enunciado": "Según el INSST, cuando en una empresa cambia el proceso de trabajo o los elementos técnicos, materiales u organizativos…",
+      "opciones": [
+        "también pueden cambiar las condiciones de seguridad y salud",
+        "debe repetirse el reconocimiento médico de todos los trabajadores afectados por el cambio",
+        "se mantienen las condiciones de seguridad y salud mientras no varíe la plantilla",
+        "hay que comunicarlo a la autoridad laboral antes de aplicar la modificación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "cuando en una empresa cambia el proceso de trabajo o los elementos técnicos, materiales u organizativos, hay que tener en cuenta que también pueden cambiar las condiciones de seguridad y salud.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-004",
+      "articulo": "Unidad 1, apartado 2 — Factores de riesgo",
+      "tipo": "test",
+      "enunciado": "Según el INSST, las condiciones de trabajo se refieren a aspectos del trabajo de naturaleza muy diversa, que incluyen…",
+      "opciones": [
+        "desde los locales, instalaciones, equipos y productos, hasta los procedimientos de trabajo y en general todo el ámbito de la organización del trabajo y su ordenación",
+        "los locales, las instalaciones, los equipos y los productos, quedando la organización del trabajo fuera de su ámbito por corresponder al poder de dirección de la empresa",
+        "exclusivamente los elementos materiales del puesto que pueden causar una lesión corporal inmediata al trabajador que lo ocupa",
+        "las características personales del trabajador, sus capacidades y sus necesidades, junto con el horario de trabajo que tenga asignado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las condiciones de trabajo se refieren a aquellos aspectos del trabajo de naturaleza muy diversa, que incluyen desde los locales, instalaciones, equipos y productos, hasta los procedimientos de trabajo y en general todo el ámbito de la organización del trabajo y su ordenación.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 2, «Factores de riesgo».",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-005",
+      "articulo": "Unidad 1, apartado 2 — Factores de riesgo",
+      "tipo": "test",
+      "enunciado": "¿En función de qué debe analizar la actividad preventiva las condiciones de trabajo, según el INSST?",
+      "opciones": [
+        "de las características de los trabajadores, sus capacidades y sus necesidades",
+        "del sector de actividad de la empresa y del tamaño de su plantilla",
+        "de la siniestralidad registrada en la empresa durante los ejercicios anteriores",
+        "de los medios económicos y técnicos de que disponga la empresa en cada momento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La actividad preventiva debe analizar esas condiciones de trabajo en función de las características de los trabajadores, sus capacidades y sus necesidades.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 2, «Factores de riesgo».",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-006",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "tipo": "test",
+      "enunciado": "El concepto legal de accidente de trabajo es…",
+      "opciones": [
+        "toda lesión corporal que el trabajador sufra con ocasión o a consecuencia del trabajo que ejecuta por cuenta ajena",
+        "todo suceso anormal, no querido ni deseado, que se presenta de forma brusca e inesperada y que interrumpe la normal continuidad del trabajo",
+        "toda lesión corporal que el trabajador sufra a consecuencia del trabajo, quedando excluidas las que solo guarden con él una relación de ocasión",
+        "toda enfermedad contraída a consecuencia del trabajo ejecutado por cuenta ajena en las actividades que especifique el cuadro reglamentario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Legalmente, se entiende por accidente de trabajo “toda lesión corporal que el trabajador sufra con ocasión o a consecuencia del trabajo que ejecuta por cuenta ajena”.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-007",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "tipo": "test",
+      "enunciado": "¿A qué lesiones se refieren los accidentes llamados «in itinere»?",
+      "opciones": [
+        "las producidas en el trayecto habitual que puede sufrir el trabajador al ir o al volver del lugar de trabajo",
+        "las que sufre el trabajador durante los desplazamientos que realiza dentro de su jornada por orden de la empresa",
+        "las ocurridas en el centro de trabajo mientras el trabajador se desplaza entre distintas dependencias de este",
+        "las que se producen en cualquier desplazamiento del trabajador durante los días en que presta servicios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "las producidas en el trayecto habitual que puede sufrir el trabajador al ir o al volver del lugar de trabajo. Estos últimos serían los accidentes llamados “in itinere”.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-008",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "tipo": "test",
+      "enunciado": "Según el INSST, respecto de la fuerza mayor extraña al trabajo…",
+      "opciones": [
+        "en ningún caso se considerará fuerza mayor extraña al trabajo la insolación, el rayo y otros fenómenos análogos de la naturaleza",
+        "la insolación y el rayo son los dos únicos fenómenos de la naturaleza a los que la ley reconoce la condición de fuerza mayor extraña al trabajo",
+        "cualquier fenómeno de la naturaleza tiene la consideración de fuerza mayor extraña al trabajo y excluye el accidente",
+        "los fenómenos de la naturaleza excluyen el accidente salvo que el trabajador desempeñe habitualmente su labor a la intemperie"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "“en ningún caso se considerará fuerza mayor extraña al trabajo la insolación, el rayo y otros fenómenos análogos de la naturaleza”.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-009",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "tipo": "test",
+      "enunciado": "Desde el punto de vista técnico-preventivo, el accidente de trabajo es todo suceso anormal, no querido ni deseado, que se presenta de forma brusca e inesperada,…",
+      "opciones": [
+        "aunque normalmente es evitable, que interrumpe la normal continuidad del trabajo y puede causar lesiones a las personas",
+        "por ser imprevisible e inevitable, que interrumpe la normal continuidad del trabajo y causa siempre lesiones a las personas",
+        "y que obliga a paralizar la actividad de la empresa hasta que la autoridad laboral autorice su reanudación",
+        "y que produce una lesión corporal al trabajador por cuenta ajena con ocasión o a consecuencia del trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "accidente de trabajo es todo suceso anormal, no querido ni deseado, que se presenta de forma brusca e inesperada, aunque normalmente es evitable, que interrumpe la normal continuidad del trabajo y puede causar lesiones a las personas.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-010",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "tipo": "test",
+      "enunciado": "El INSST advierte que los accidentes, por muy inesperados, sorprendentes o indeseados que sean…",
+      "opciones": [
+        "son consecuencia de una situación anterior, en la que existían las condiciones para que se produjera",
+        "responden a un factor aleatorio que la actividad preventiva no llega nunca a eliminar del todo, por bien planificada que esté",
+        "tienen como causa principal un incumplimiento imputable al propio trabajador accidentado",
+        "solo pueden analizarse cuando han llegado a producir una lesión corporal a alguna persona"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "los accidentes, por muy inesperados, sorprendentes o indeseados que sean, son consecuencia de una situación anterior, en la que existían las condiciones para que se produjera.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-011",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "tipo": "test",
+      "enunciado": "Según la definición legal que recoge el INSST, enfermedad profesional es toda enfermedad contraída a consecuencia del trabajo ejecutado por cuenta ajena…",
+      "opciones": [
+        "en las actividades que se especifiquen en el cuadro que se aprueba por las disposiciones de aplicación y desarrollo de la ley",
+        "siempre que el deterioro de la salud se haya producido de forma lenta y paulatina por una exposición crónica a situaciones adversas",
+        "siempre que quede acreditada por el servicio de prevención de la empresa en el reconocimiento médico periódico",
+        "en cualquier actividad, siempre que exista relación de causalidad entre la dolencia y las tareas desempeñadas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Enfermedad profesional es “toda enfermedad contraída a consecuencia del trabajo ejecutado por cuenta ajena, en las actividades que se especifiquen en el cuadro que se aprueba por las disposiciones de aplicación y desarrollo de la ley, y que esté provocada por la acción de los elementos o substancias que en dicho cuadro se indique para toda enfermedad profesional”.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3 (definición de la Ley General de la Seguridad Social).",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-012",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "tipo": "test",
+      "enunciado": "Las enfermedades contraídas como consecuencia del trabajo que no estén contempladas como enfermedades profesionales serán consideradas, a efectos legales…",
+      "opciones": [
+        "como accidentes de trabajo",
+        "como enfermedades comunes sin relación con el trabajo",
+        "como enfermedades relacionadas con el trabajo, con su propio régimen de protección",
+        "como enfermedades profesionales, previo informe del servicio de prevención"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las enfermedades contraídas como consecuencia del trabajo y que no estén contempladas como enfermedades profesionales serán consideradas, a efectos legales, como accidentes de trabajo.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-013",
+      "articulo": "Unidad 1, apartado 3 — Accidentes de trabajo y enfermedades profesionales",
+      "tipo": "test",
+      "enunciado": "¿Qué se entiende, desde el punto de vista técnico-preventivo, por enfermedad relacionada con el trabajo?",
+      "opciones": [
+        "aquel deterioro lento y paulatino de la salud del trabajador, producido por una exposición crónica a situaciones adversas",
+        "aquella dolencia de aparición brusca e inesperada que obliga a interrumpir de inmediato la prestación de servicios del trabajador afectado",
+        "la que figura en el cuadro aprobado por las disposiciones de aplicación y desarrollo de la ley",
+        "la que se manifiesta una vez extinguida la relación laboral que la originó en su día"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se habla también de enfermedad relacionada con el trabajo, entendiendo por ella aquel deterioro lento y paulatino de la salud del trabajador, producido por una exposición crónica a situaciones adversas, sean estas producidas por el ambiente en que se desarrolla el trabajo o por la forma en que este esté organizado.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-014",
+      "articulo": "Unidad 1, apartado 3 — Otras patologías derivadas del trabajo",
+      "tipo": "test",
+      "enunciado": "Según el INSST, los aspectos relativos a la carga de trabajo pueden producir fatiga mental, en ocasiones acompañada también de fatiga física, ocasionando entre otros daños…",
+      "opciones": [
+        "estrés e insatisfacción laboral",
+        "lesiones musculoesqueléticas de aparición brusca",
+        "enfermedades profesionales del cuadro reglamentario",
+        "accidentes in itinere en el trayecto de vuelta"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "aquellos aspectos relativos a la carga de trabajo que pueden producir fatiga mental, en ocasiones acompañada también de fatiga física, ocasionando, entre otros daños, estrés e insatisfacción laboral.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3, «Otras patologías derivadas del trabajo».",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INSST-015",
+      "articulo": "Unidad 1, apartado 3 — Costes de los daños a la salud",
+      "tipo": "test",
+      "enunciado": "Sobre los costes indirectos de los daños a la salud de los trabajadores, el INSST advierte que, aunque en la mayoría de los casos son muy difíciles de evaluar…",
+      "opciones": [
+        "suelen ser bastante superiores a los directos",
+        "suelen ser muy inferiores a los directos, que son los que soporta la empresa",
+        "no se computan en el cálculo del coste total de los accidentes",
+        "coinciden aproximadamente con las cuotas a la Seguridad Social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "tienen una importancia enorme en el cálculo del coste total de los accidentes, dado que suelen ser bastante superiores a los directos.",
+      "justificacion": "INSST, Curso de nivel básico, unidad 1, apartado 3, costes de los daños a la salud.",
+      "tipo_fuente": "autoridad"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "INSST-002",
+      "destino": "INSST-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-003",
+      "destino": "INSST-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-005",
+      "destino": "INSST-004",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-007",
+      "destino": "INSST-006",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-008",
+      "destino": "INSST-006",
+      "tipo": "limita"
+    },
+    {
+      "origen": "INSST-009",
+      "destino": "INSST-006",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-010",
+      "destino": "INSST-009",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-012",
+      "destino": "INSST-011",
+      "tipo": "limita"
+    },
+    {
+      "origen": "INSST-013",
+      "destino": "INSST-011",
+      "tipo": "limita"
+    },
+    {
+      "origen": "INSST-014",
+      "destino": "INSST-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-015",
+      "destino": "INSST-006",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-002",
+      "destino": "OMS-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-001",
+      "destino": "PRL-005",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "INSST-004",
+      "destino": "PRL-008",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-006",
+      "destino": "PRL-005",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-011",
+      "destino": "PRL-005",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "INSST-014",
+      "destino": "PRLAGE-023",
+      "tipo": "remite"
+    },
+    {
+      "origen": "INSST-005",
+      "destino": "PRL-036",
+      "tipo": "remite"
+    }
+  ]
+}

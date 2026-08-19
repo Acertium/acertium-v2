@@ -2,7 +2,7 @@
 
 Texto **literal** de las normas del *Código Electrónico «Normativa para ingreso en la Policía Nacional, Escalas Básica y Ejecutiva»* (el BOE-600), extraído mecánicamente de los PDF oficiales.
 
-**Estado: COMPLETO** (16/08/2026). Las **52 normas** del Código —§2 a §53; el §1 es la Introducción y no es una norma— con **3.354 artículos**. Con las secciones ampliadas y las añadidas de más abajo, el directorio tiene hoy **58 ficheros y 4.899 artículos**. Edición del Código: 20 de mayo de 2026.
+**Estado: COMPLETO** (16/08/2026). Las **52 normas** del Código —§2 a §53; el §1 es la Introducción y no es una norma— con **3.354 artículos**. Con las secciones ampliadas y las añadidas de más abajo, el directorio tiene hoy **58 ficheros y 4.980 artículos**. Edición del Código: 20 de mayo de 2026.
 
 **Para qué existe:** para que ningún agente tenga que abrir un PDF ni tirar de memoria. Si necesitas el texto de un artículo, está aquí. Es la fuente que consume el generador — regla de oro del Doc 006: *«el generador consume ESTE JSON, nunca el PDF»*.
 
@@ -72,8 +72,14 @@ de los 53 del Código para que se vea de un vistazo que no forman parte de él.
 
 Las dos primeras (§54 y §55) salieron de un cruce automático de todas las citas «Ley/LO/RD n/aaaa»
 del temario contra este índice. Las cuatro restantes no las cita el temario por su número: son la
-única fuente publicada en el BOE de epígrafes que estaban sin fundamentar —§56 y §57 en el Tema 45,
-§58 en el 42 y §59 en el 24—.
+única fuente oficial de epígrafes que estaban sin fundamentar —§56 y §57 en el Tema 45, §58 en el 42
+y §59 en el 24—.
+
+**Lo que NO entra aquí aunque fundamente contenido:** las fuentes no-BOE que no son normas. El
+manual del INSST «Curso de capacitación para el desempeño de funciones de nivel básico», que
+fundamenta los epígrafes doctrinales del Tema 24 (familia `INSST`, `tipo_fuente: autoridad`), es
+obra de referencia, no norma: su texto literal viaja en el bloque `fuentes` del lote y su fidelidad
+la cubren `verificar-fuente` y la revisión humana, como dice «Lo que NO trae» más arriba.
 
 | § | Familia | Norma | Tema |
 |---|---------|-------|------|
@@ -82,7 +88,7 @@ del temario contra este índice. Las cuatro restantes no las cita el temario por
 | 56 | `EPI` | RD 773/1997, utilización por los trabajadores de equipos de protección individual (BOE-A-1997-12735) | 45 |
 | 57 | `EQT` | RD 1215/1997, utilización por los trabajadores de los equipos de trabajo (BOE-A-1997-17824) | 45 |
 | 58 | `ITC` | Instrucciones técnicas complementarias 1 a 5 del Reglamento de Armas (BOE-A-2020-9134) | 42 |
-| 59 | `OMS` | Constitución de la Organización Mundial de la Salud («BOE» núm. 116, de 15/05/1973) | 24 |
+| 59 | `OMS` | Constitución de la Organización Mundial de la Salud (texto español auténtico, OMS) | 24 |
 
 Las dos últimas rompen, cada una por su lado, un supuesto que el resto del corpus da por hecho, y
 por eso llevan su propia advertencia:
@@ -93,14 +99,25 @@ por eso llevan su propia advertencia:
   `"ITC 1"` … `"ITC 5"`, porque la unidad de cita es la ITC entera. Dos de ellas no salen del RD:
   la **ITC 4** está en la redacción vigente que le dio la Orden INT/291/2025 (que sustituyó la de 2020
   por entero) y la **ITC 1** incorpora el apartado C) que le añadió la Orden INT/330/2025.
-- **§59 no es ingesta mecánica.** El BOE de 1973 se publica en **facsímil escaneado** y su capa de OCR
-  está sucia, así que la sección es una **transcripción cotejada contra la imagen** de la página a
-  300 ppp. Se corrigen los fallos evidentes del OCR y se restituyen las tildes que el desgaste de la
-  impresión se comió; **las erratas del propio BOE se conservan** —el artículo 1 dice «Organización
-  *Mundical* de la Salud»—. Es **ingesta parcial declarada**: solo el preámbulo (con `ref`
-  `"Principio 1"` … `"Principio 9"`, que **no** son artículos) y el artículo 1. Tampoco tiene
-  identificador `BOE-A`: los boletines anteriores a 1994 no lo llevan, así que la familia se registra
-  con `referencia_fuente`, no con `referencia_boe`.
+- **§59 no sale del BOE, y es deliberado.** El «BOE» núm. 116 de 15/05/1973, que publicó esta
+  Constitución en España, es un **facsímil escaneado** con el OCR sucio y con una errata propia
+  («Organización *Mundical* de la Salud», artículo 1). No hacía falta pelearse con él: el
+  **artículo 74 de la propia Constitución** dispone que los textos en chino, español, francés,
+  inglés y ruso «serán considerados igualmente auténticos», y la cláusula de firma lo repite. El
+  **texto español que publica la OMS es el instrumento mismo**, no una traducción, así que la
+  sección se ingiere de *Documentos básicos*, 49.ª edición (OMS, 2020), que además incorpora las
+  reformas en vigor. Los `ref` `"Principio 1"` … `"Principio 9"` son los nueve principios del
+  preámbulo y **no** son artículos; los `ref` numéricos sí son los artículos 1 a 82. Tampoco tiene
+  identificador `BOE-A` que citar —los boletines anteriores a 1994 no lo llevan—, así que la familia
+  se registra con `referencia_fuente`, no con `referencia_boe`.
+
+  Esto **sustituyó** una primera ingesta (18/08/2026) transcrita a mano contra la imagen del
+  facsímil. Las diferencias entre uno y otro texto son solo ortográficas y de puntuación
+  («trasmisibles»/«transmisibles», comas, mayúsculas), ninguna sustantiva, pero **rompen la
+  literalidad**: las doce actividades que ya se habían cargado contra el texto del BOE se
+  regeneraron contra este y se actualizaron en base. Es el caso que el protocolo del final de esta
+  página anticipa —cambiar el texto de una sección puede invalidar cotejos ya verificados sin que
+  nadie se entere— y la razón de que aquí se deje escrito.
 
 Como ninguna de las dos cita por número de artículo, `refDe()` en `auditar-corpus.mjs` reconoce
 además `"ITC N"` y `"principio N"`; sin eso, `"ITC 4"` iría a buscar el artículo 4 y

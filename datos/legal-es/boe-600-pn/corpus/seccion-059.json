@@ -3,23 +3,22 @@
   "seccion": 59,
   "titulo": "Constitución de la Organización Mundial de la Salud",
   "referencia_boe": "",
-  "referencia_fuente": "Constitución de la Organización Mundial de la Salud, «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772 (facsímil escaneado)",
-  "publicacion": "«BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772",
-  "ultima_modificacion": "15 de mayo de 1973",
-  "nota_referencia": "SIN identificador BOE-A: los boletines anteriores a 1994 se publican en facsímil y este no lleva ninguno impreso. No se inventa: la cita verificable es el número de boletín, la fecha y las páginas, que sí están en la propia página escaneada. Por eso la familia se registra con `referencia_fuente` y no con `referencia_boe`, conforme al §4 de docs/contrato-fuentes-no-boe.md. La fecha de firma que imprime la rúbrica («22 de julio de 194?») tiene el último dígito degradado en el escaneo y NO se transcribe.",
-  "fuente": "NO es una sección del Código 600. Es la única fuente con rango de tratado publicado en el BOE para el epígrafe «concepto de salud» del Tema 24, que ninguna norma del corpus define. El BOE de 1973 no tiene texto digital: es un FACSÍMIL ESCANEADO, y su capa de OCR está sucia. Esta sección no es, por tanto, ingesta mecánica como el resto del corpus: es una TRANSCRIPCIÓN COTEJADA CONTRA LA IMAGEN de la página 9767 a 300 ppp, palabra por palabra. Criterios aplicados: (1) los errores evidentes del OCR se corrigen contra la imagen; (2) las erratas del propio BOE se conservan —el artículo 1 dice «Organización Mundical de la Salud», así impreso, y no se toca—; (3) las tildes que el facsímil ha perdido por desgaste de la impresión, y solo esas, se restituyen («Una opinión pública bien informada»). INGESTA PARCIAL DECLARADA: solo el preámbulo y el artículo 1. El artículo 2 (funciones, apartados a a v) y los capítulos III a XIX no se ingieren porque el temario no llega a ellos y su OCR, en columna estrecha y con letras de apartado degradadas, no es transcribible con garantías. Que un artículo no esté aquí no significa que no exista.",
-  "advertencia_ref": "Los `ref` «Principio N» son los nueve principios del preámbulo, NO artículos. El `ref` «1» sí es el artículo 1."
+  "referencia_fuente": "Organización Mundial de la Salud, Documentos básicos, 49.ª edición (con las modificaciones adoptadas hasta el 31 de mayo de 2019), Ginebra, OMS, 2020, ISBN 978-92-4-000056-8, págs. 1 a 19. Publicada también en el «BOE» núm. 116, de 15 de mayo de 1973, págs. 9767 a 9772.",
+  "ultima_modificacion": "15 de septiembre de 2005 (reforma WHA51.23)",
+  "fuente": "NO es una sección del Código 600. Es la fuente del epígrafe «concepto de salud» del Tema 24, que ninguna norma del corpus define. Se ingiere del TEXTO ESPAÑOL AUTÉNTICO que publica la propia OMS y no del «BOE» de 1973, porque el artículo 74 de esta Constitución dispone que los textos en chino, español, francés, inglés y ruso «serán considerados igualmente auténticos», y la cláusula de firma lo repite: se firmó en Nueva York el 22 de julio de 1946 en una sola copia en esos cinco idiomas, «siendo cada texto igualmente auténtico». El español es, por tanto, el instrumento mismo, y el BOE fue su republicación en España. Ingesta parcial declarada: el preámbulo y los artículos 1 a 82 de la Constitución; el volumen «Documentos básicos» trae después otros textos (reglamentos interiores, acuerdos con otras organizaciones) que no son la Constitución y no se ingieren.",
+  "sustituye": "Ingesta anterior (18/08/2026) del facsímil escaneado del «BOE» núm. 116, de 15/05/1973, transcrita cotejando contra la imagen. Aquel texto llevaba una errata del propio BOE en el artículo 1 («Organización Mundical de la Salud») y ortografía de la época («trasmisibles», «Los Gobiernos» en mayúscula), y difería del auténtico en varias comas. Las diferencias son ortográficas y de puntuación, ninguna sustantiva, pero rompen la literalidad: las actividades que ya se habían cargado contra aquel texto se regeneraron contra este.",
+  "advertencia_ref": "Los `ref` «Principio N» son los nueve principios del preámbulo, NO artículos. Los `ref` numéricos sí son los artículos 1 a 82."
  },
  "articulos": [
   {
    "numero": null,
    "ref": "Declaración de principios",
-   "texto": "Los Estados partes de esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:"
+   "texto": "LOS ESTADOS partes en esta Constitución declaran, en conformidad con la Carta de las Naciones Unidas, que los siguientes principios son básicos para la felicidad, las relaciones armoniosas y la seguridad de todos los pueblos:"
   },
   {
    "numero": 1,
    "ref": "Principio 1",
-   "texto": "La salud es un estado de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o enfermedades."
+   "texto": "La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades."
   },
   {
    "numero": 2,
@@ -29,7 +28,7 @@
   {
    "numero": 3,
    "ref": "Principio 3",
-   "texto": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad y depende de la más amplia cooperación de las personas y de los Estados."
+   "texto": "La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad, y depende de la más amplia cooperación de las personas y de los Estados."
   },
   {
    "numero": 4,
@@ -39,7 +38,7 @@
   {
    "numero": 5,
    "ref": "Principio 5",
-   "texto": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las trasmisibles, constituye un peligro común."
+   "texto": "La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las transmisibles, constituye un peligro común."
   },
   {
    "numero": 6,
@@ -59,18 +58,504 @@
   {
    "numero": 9,
    "ref": "Principio 9",
-   "texto": "Los Gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas."
+   "texto": "Los gobiernos tienen responsabilidad en la salud de sus pueblos, la cual sólo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas."
   },
   {
    "numero": null,
    "ref": "Fórmula de aceptación",
-   "texto": "Aceptando estos principios, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como Organismo especializado, de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas."
+   "texto": "ACEPTANDO ESTOS PRINCIPIOS, con el fin de cooperar entre sí y con otras en el fomento y protección de la salud de todos los pueblos, las Partes Contratantes convienen en la presente Constitución y por este acto establecen la Organización Mundial de la Salud como organismo especializado de conformidad con los términos del artículo 57 de la Carta de las Naciones Unidas."
   },
   {
    "numero": 1,
    "ref": "1",
-   "rubrica": "Finalidad",
-   "texto": "La finalidad de la Organización Mundical de la Salud (llamada de ahora en adelante Organización) será alcanzar para todos los pueblos el grado más alto posible de salud."
+   "texto": "La finalidad de la Organización Mundial de la Salud (llamada de ahora en adelante la Organización) será alcanzar para todos los pueblos el grado más alto posible de salud.",
+   "capitulo": "Finalidad"
+  },
+  {
+   "numero": 2,
+   "ref": "2",
+   "texto": "Para alcanzar esta finalidad, las funciones de la Organización serán: a) actuar como autoridad directiva y coordinadora en asuntos de sanidad internacional; b) establecer y mantener colaboración eficaz con las Naciones Unidas, los organismos especializados, las administraciones oficiales de salubridad, las agrupaciones profesionales y demás organizaciones que se juzgue convenientes; c) ayudar a los gobiernos, a su solicitud, a fortalecer sus servicios de salubridad; d) proporcionar ayuda técnica adecuada y, en casos de emergencia, prestar a los gobiernos la cooperación necesaria que soliciten, o acepten; e) proveer o ayudar a proveer, a solicitud de las Naciones Unidas, servicios y recursos de salubridad a grupos especiales, tales como los habitantes de los territorios fideicometidos; f) establecer y mantener los servicios administrativos y técnicos que sean necesarios, inclusive los epidemiológicos y de estadística; g) estimular y adelantar labores destinadas a suprimir enfermedades epidémicas, endémicas y otras; h) promover, con la cooperación de otros organismos especializados cuando fuere necesario, la prevención de accidentes; i) promover, con la cooperación de otros organismos especializados cuando fuere necesario, el mejoramiento de la nutrición, la habitación, el saneamiento, la recreación, las condiciones económicas y de trabajo, y otros aspectos de la higiene del medio; j) promover la cooperación entre las agrupaciones científicas y profesionales que contribuyan al mejoramiento de la salud; k) proponer convenciones, acuerdos y reglamentos y hacer recomendaciones referentes a asuntos de salubridad internacional, así como desempeñar las funciones que en ellos se asignen a la Organización y que estén de acuerdo con su finalidad; l) promover la salud y la asistencia maternal e infantil, y fomentar la capacidad de vivir en armonía en un mundo que cambia constantemente; m) fomentar las actividades en el campo de la higiene mental, especialmente aquellas que afectan las relaciones armónicas de los hombres; n) promover y realizar investigaciones en el campo de la salud; o) promover el mejoramiento de las normas de enseñanza y adiestramiento en las profesiones de salubridad, medicina y afines; p) estudiar y dar a conocer, con la cooperación de otros organismos especializados, cuando fuere necesario, técnicas administrativas y sociales que afecten la salud pública y la asistencia médica desde los puntos de vista preventivo y curativo, incluyendo servicios hospitalarios y el seguro social; q) suministrar información, consejo y ayuda en el campo de la salud; r) contribuir a crear en todos los pueblos una opinión pública bien informada en asuntos de salud; s) establecer y revisar, según sea necesario, la nomenclatura internacional de las enfermedades, de las causas de muerte y de las prácticas de salubridad pública; t) establecer normas uniformes de diagnóstico, según sea necesario; u) desarrollar, establecer y promover normas internacionales con respecto a productos alimenticios, biológicos, farmacéuticos y similares; v) en general, tomar todas las medidas necesarias para alcanzar la finalidad que persigue la Organización.",
+   "capitulo": "Funciones"
+  },
+  {
+   "numero": 3,
+   "ref": "3",
+   "texto": "La calidad de miembro de la Organización es accesible a todos los Estados.",
+   "capitulo": "Miembros y miembros asociados"
+  },
+  {
+   "numero": 4,
+   "ref": "4",
+   "texto": "Los Miembros de las Naciones Unidas pueden llegar a ser Miembros de la Organización firmando o aceptando en otra forma esta Constitución de conformidad con las disposiciones del capítulo XIX y de acuerdo con sus respectivos procedimientos constitucionales.",
+   "capitulo": "Miembros y miembros asociados"
+  },
+  {
+   "numero": 5,
+   "ref": "5",
+   "texto": "Los Estados cuyos gobiernos fueron invitados a enviar observadores a la Conferencia Internacional de Salubridad celebrada en Nueva York, en 1946, pueden llegar a ser Miembros firmando o aceptando en otra forma esta Constitución, de conformidad con las disposiciones del capítulo XIX y de acuerdo con sus respectivos procedimientos constitucionales siempre que su firma o aceptación se completen antes de la primera reunión de la Asamblea de la Salud.",
+   "capitulo": "Miembros y miembros asociados"
+  },
+  {
+   "numero": 6,
+   "ref": "6",
+   "texto": "Sujeto a las condiciones de todo acuerdo que se concierte entre las Naciones Unidas y la Organización, aprobado conforme al capítulo XVI, los Estados que no lleguen a ser Miembros, según los Artículos 4 y 5, podrán hacer solicitud de ingreso como Miembros y serán admitidos como tales cuando sus solicitudes sean aprobadas por mayoría simple de votos de la Asamblea de la Salud.",
+   "capitulo": "Miembros y miembros asociados"
+  },
+  {
+   "numero": 7,
+   "ref": "7",
+   "texto": "Si un Miembro deja de cumplir con las obligaciones financieras para con la Organización, o en otras circunstancias excepcionales, la Asamblea de la Salud podrá, en las condiciones que juzgue apropiadas, suspender los privilegios de voto y los servicios a que tenga derecho tal Miembro. La Asamblea de la Salud tendrá autoridad para restablecer tales privilegios de voto y servicios.",
+   "capitulo": "Miembros y miembros asociados"
+  },
+  {
+   "numero": 8,
+   "ref": "8",
+   "texto": "Los territorios o grupos de territorios que no sean responsables de la dirección de sus relaciones internacionales podrán ser admitidos por la Asamblea de la Salud como Miembros Asociados a solicitud hecha en nombre de tal territorio o grupo de territorios por un Miembro u otra autoridad responsable de la dirección de sus relaciones internacionales. Los representantes de los Miembros Asociados en la Asamblea de la Salud deberán tener competencia técnica en el sector de la salud y se elegirán entre la población nativa. La naturaleza y el alcance de los derechos y obligaciones de los Miembros Asociados serán determinados por la Asamblea de la Salud.",
+   "capitulo": "Miembros y miembros asociados"
+  },
+  {
+   "numero": 9,
+   "ref": "9",
+   "texto": "Los trabajos de la Organización serán llevados a cabo por: a) La Asamblea Mundial de la Salud (llamada en adelante la Asamblea de la Salud); b) El Consejo Ejecutivo (llamado en adelante el Consejo); c) La Secretaría.",
+   "capitulo": "Órganos"
+  },
+  {
+   "numero": 10,
+   "ref": "10",
+   "texto": "La Asamblea de la Salud estará compuesta por delegados representantes de los Miembros.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 11,
+   "ref": "11",
+   "texto": "Cada Miembro estará representado por no más de tres delegados, uno de los cuales será designado por el Miembro como presidente de la delegación. Estos delegados deben ser elegidos entre las personas más capacitadas por su competencia técnica en el campo de la salubridad, y representando, de preferencia, la administración nacional de salubridad del Miembro.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 12,
+   "ref": "12",
+   "texto": "Los delegados podrán ser acompañados de suplentes y asesores.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 13,
+   "ref": "13",
+   "texto": "La Asamblea de la Salud se reunirá en sesiones anuales ordinarias y en sesiones extraordinarias cuando sea necesario. Las sesiones extraordinarias serán convocadas a solicitud del Consejo o de la mayoría de los Miembros.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 14,
+   "ref": "14",
+   "texto": "La Asamblea de la Salud, en cada sesión anual, designará el país o región en el cual se celebrará la siguiente sesión anual; el Consejo fijará posteriormente el lugar. El Consejo designará el lugar en que se celebre cada sesión extraordinaria.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 15,
+   "ref": "15",
+   "texto": "El Consejo, previa consulta con el Secretario General de las Naciones Unidas, fijará la fecha de cada sesión anual o extraordinaria.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 16,
+   "ref": "16",
+   "texto": "La Asamblea de la Salud elegirá su Presidente y demás funcionarios al principio de cada sesión anual. Estos permanecerán en sus cargos hasta que se elijan sus sucesores.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 17,
+   "ref": "17",
+   "texto": "La Asamblea de la Salud adoptará su propio reglamento interno.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 18,
+   "ref": "18",
+   "texto": "Las funciones de la Asamblea de la Salud serán: a) determinar la política de la Organización; b) nombrar los Miembros que tengan derecho a designar una persona para el Consejo; c) nombrar el Director General; d) estudiar y aprobar los informes y actividades del Consejo y del Director General y dar instrucciones al Consejo sobre los asuntos en los cuales se considere conveniente acción, estudio, investigación o informe; e) establecer los comités que considere necesarios para el trabajo de la Organización; f) vigilar la política financiera de la Organización y estudiar y aprobar su presupuesto; g) dar instrucciones al Consejo y al Director General para llamar la atención de los Miembros y de las organizaciones internacionales, gubernamentales o no, sobre cualquier asunto relacionado con la salubridad que estime conveniente la Asamblea de la Salud; h) invitar a cualquier organización internacional o nacional, gubernamental o no gubernamental, que tenga responsabilidades relacionadas con las de la Organización, a que nombre representantes para participar, sin derecho a voto, en sus reuniones o en las de comités y conferencias celebradas bajo sus auspicios, en las condiciones que prescriba la Asamblea de la Salud; pero en el caso de organizaciones nacionales, las invitaciones se harán solamente con el consentimiento del Gobierno interesado; i) considerar las recomendaciones sobre salubridad hechas por la Asamblea General, el Consejo Económico y Social, el Consejo de Seguridad o el Consejo de Administración Fiduciaria de las Naciones Unidas, e informarles sobre las medidas tomadas por la Organización para poner en práctica tales recomendaciones; j) informar al Consejo Económico y Social, conforme a los acuerdos que se concierten entre la Organización y las Naciones Unidas; k) promover y realizar investigaciones en el campo de la salubridad, mediante el personal de la Organización, por el establecimiento de sus propias instituciones, o en cooperación con instituciones oficiales o no oficiales de cualquier Miembro, con el consentimiento de su gobierno; l) establecer otras instituciones que considere conveniente; m) emprender cualquier acción apropiada para el adelanto de la finalidad de la Organización.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 19,
+   "ref": "19",
+   "texto": "La Asamblea de la Salud tendrá autoridad para adoptar convenciones o acuerdos respecto a todo asunto que esté dentro de la competencia de la Organización. Para la adopción de convenciones y acuerdos se requiere el voto de aprobación de las dos terceras partes de la Asamblea de la Salud; las convenciones y acuerdos entrarán en vigor para cada Miembro al ser aceptados por éste de acuerdo con sus procedimientos constitucionales.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 20,
+   "ref": "20",
+   "texto": "Cada Miembro se compromete a que, dentro de los dieciocho meses después de la adopción por la Asamblea de la Salud de una convención o acuerdo, tomará acción relativa a la aceptación de tal convención o acuerdo. Cada Miembro notificará al Director General la acción tomada y, si no acepta dicho acuerdo o convención dentro del plazo fijado, suministrará una declaración de las razones de su no aceptación. En caso de aceptación, cada Miembro conviene en presentar un informe anual al Director General, de acuerdo con el capítulo XIV.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 21,
+   "ref": "21",
+   "texto": "La Asamblea de la Salud tendrá autoridad para adoptar reglamentos referentes a: a) requisitos sanitarios y de cuarentena y otros procedimientos destinados a prevenir la propagación internacional de enfermedades; b) nomenclaturas de enfermedades, causas de muerte y prácticas de salubridad pública; c) normas uniformes sobre procedimientos de diagnóstico de uso internacional; d) normas uniformes sobre la seguridad, pureza y potencia de productos biológicos, farmacéuticos y similares de comercio internacional; e) propaganda y rotulación de productos biológicos, farmacéuticos y similares de comercio internacional.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 22,
+   "ref": "22",
+   "texto": "Estas reglamentaciones entrarán en vigor para todos los Miembros después de que se haya dado el debido aviso de su adopción por la Asamblea de la Salud, excepto para aquellos Miembros que comuniquen al Director General que las rechazan o hacen reservas dentro del periodo fijado en el aviso.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 23,
+   "ref": "23",
+   "texto": "La Asamblea de la Salud tendrá autoridad para hacer recomendaciones a los Miembros respecto a cualquier asunto que esté dentro de la competencia de la Organización.",
+   "capitulo": "La asamblea mundial de la salud"
+  },
+  {
+   "numero": 24,
+   "ref": "24",
+   "texto": "El Consejo estará integrado por treinta y cuatro personas, designadas por igual número de Miembros. La Asamblea de la Salud, teniendo en cuenta una distribución geográfica equitativa, elegirá a los Miembros que tengan derecho a designar una persona para integrar el Consejo, quedando entendido que no podrá elegirse a menos de tres Miembros de cada una de las organizaciones regionales establecidas en cumplimiento del Artículo 44. Cada uno de los Miembros debe nombrar para el Consejo a una persona técnicamente capacitada en el campo de la salud, que podrá ser acompañada por suplentes y asesores.",
+   "capitulo": "El consejo ejecutivo"
+  },
+  {
+   "numero": 25,
+   "ref": "25",
+   "texto": "Los Miembros serán elegidos por un periodo de tres años y podrán ser reelegidos, con la salvedad de que entre los elegidos en la primera reunión que celebre la Asamblea de la Salud después de entrar en vigor esta reforma de la Constitución, que aumenta de treinta y dos a treinta y cuatro el número de puestos del Consejo, la duración del mandato de los Miembros suplementarios se reducirá, si fuese menester, en la medida necesaria para facilitar la elección anual de un Miembro, por lo menos, de cada una de las organizaciones regionales.",
+   "capitulo": "El consejo ejecutivo"
+  },
+  {
+   "numero": 26,
+   "ref": "26",
+   "texto": "El Consejo se reunirá por lo menos dos veces al año y determinará el lugar de cada reunión.",
+   "capitulo": "El consejo ejecutivo"
+  },
+  {
+   "numero": 27,
+   "ref": "27",
+   "texto": "El Consejo elegirá entre sus miembros su Presidente, y adoptará su reglamento interior.",
+   "capitulo": "El consejo ejecutivo"
+  },
+  {
+   "numero": 28,
+   "ref": "28",
+   "texto": "Las funciones del Consejo serán: a) dar efecto a las decisiones y a la política de la Asamblea de la Salud; b) actuar como órgano ejecutivo de la Asamblea de la Salud; c) desempeñar toda otra función que la Asamblea de la Salud le encomiende; d) asesorar a la Asamblea de la Salud en los asuntos que ésta le encomiende y en los que sean asignados a la Organización por convenciones, acuerdos y reglamentos; e) asesorar y presentar propuestas a la Asamblea de la Salud por iniciativa propia; f) preparar el programa de las sesiones de la Asamblea de la Salud; g) someter a la Asamblea de la Salud, para su consideración y aprobación, un plan general de trabajo para un periodo determinado; h) estudiar todo asunto que esté dentro de su competencia; i) tomar medidas de emergencia, de conformidad con las funciones y los recursos financieros de la Organización, para hacer frente a casos que requieran acción inmediata. En particular, podrá autorizar al Director General para tomar las medidas necesarias para combatir epidemias, participar en la organización de socorro sanitario para las víctimas de calamidades y emprender estudios e investigaciones cuya urgencia haya sido señalada a la atención del Consejo por cualquier Miembro o el Director General.",
+   "capitulo": "El consejo ejecutivo"
+  },
+  {
+   "numero": 29,
+   "ref": "29",
+   "texto": "El Consejo ejercerá, en nombre y representación de toda la Asamblea de la Salud, las funciones delegadas por ésta.",
+   "capitulo": "El consejo ejecutivo"
+  },
+  {
+   "numero": 30,
+   "ref": "30",
+   "texto": "La Secretaría se compondrá del Director General y del personal técnico y administrativo que requiera la Organización.",
+   "capitulo": "Secretaría"
+  },
+  {
+   "numero": 31,
+   "ref": "31",
+   "texto": "El Director General será nombrado por la Asamblea de la Salud, a propuesta del Consejo, en las condiciones que determine la Asamblea. Sujeto a la autoridad del Consejo, el Director General será el funcionario principal técnico y administrativo de la Organización.",
+   "capitulo": "Secretaría"
+  },
+  {
+   "numero": 32,
+   "ref": "32",
+   "texto": "El Director General será Secretario ex officio de la Asamblea de la Salud, del Consejo, de todas las comisiones y comités de la Organización y de las conferencias que ésta convoque. Podrá delegar tales funciones.",
+   "capitulo": "Secretaría"
+  },
+  {
+   "numero": 33,
+   "ref": "33",
+   "texto": "El Director General, o su representante, podrá establecer un procedimiento, mediante acuerdo con los Miembros, que le permita tener acceso directo, en el desempeño de sus funciones, a las diversas dependencias de estos últimos, especialmente a sus administraciones de salubridad y organizaciones nacionales de salubridad, ya sean gubernamentales o no. Podrá asimismo establecer relaciones directas con organizaciones internacionales cuyas actividades estén dentro de la competencia de la Organización. Mantendrá a las oficinas regionales informadas de todo asunto que concierna a las respectivas regiones.",
+   "capitulo": "Secretaría"
+  },
+  {
+   "numero": 34,
+   "ref": "34",
+   "texto": "El Director General preparará y presentará al Consejo los balances y proyectos de presupuestos de la Organización.",
+   "capitulo": "Secretaría"
+  },
+  {
+   "numero": 35,
+   "ref": "35",
+   "texto": "El Director General nombrará el personal de la Secretaría de acuerdo con el reglamento de personal que establezca la Asamblea de la Salud. La consideración primordial que se tendrá en cuenta al nombrar el personal será asegurar que la eficiencia, la integridad y el carácter internacionalmente representativo de la Secretaría se mantenga en el nivel más alto posible. Se dará debida consideración a la importancia de contratar el personal de forma que haya la más amplia representación geográfica posible.",
+   "capitulo": "Secretaría"
+  },
+  {
+   "numero": 36,
+   "ref": "36",
+   "texto": "Las condiciones de empleo para el personal de la Organización se ajustarán en lo posible a las de otras organizaciones de las Naciones Unidas.",
+   "capitulo": "Secretaría"
+  },
+  {
+   "numero": 37,
+   "ref": "37",
+   "texto": "En el cumplimiento de sus deberes, el Director General y el personal no solicitarán ni recibirán instrucciones de ningún gobierno ni de ninguna autoridad ajena a la Organización. Se abstendrán de actuar en forma alguna que sea incompatible con su condición de funcionarios internacionales. Cada uno de los Miembros de la Organización se compromete, por su parte, a respetar el carácter exclusivamente internacional del Director General y del personal y a no tratar de influir sobre ellos.",
+   "capitulo": "Secretaría"
+  },
+  {
+   "numero": 38,
+   "ref": "38",
+   "texto": "El Consejo establecerá los comités que la Asamblea de la Salud indique y, por iniciativa propia o a propuesta del Director General, podrá establecer cualquier otro comité que considere conveniente para atender todo propósito que esté dentro de la competencia de la Organización.",
+   "capitulo": "Comités"
+  },
+  {
+   "numero": 39,
+   "ref": "39",
+   "texto": "El Consejo considerará periódicamente y, por lo menos anualmente, la necesidad de que continúe cada comité.",
+   "capitulo": "Comités"
+  },
+  {
+   "numero": 40,
+   "ref": "40",
+   "texto": "El Consejo puede disponer la creación de comités conjuntos o mixtos con otras organizaciones o la participación en ellos de la Organización, así como la representación de ésta en comités establecidos por otras organizaciones.",
+   "capitulo": "Comités"
+  },
+  {
+   "numero": 41,
+   "ref": "41",
+   "texto": "La Asamblea de la Salud o el Consejo pueden convocar conferencias locales, generales, técnicas u otras de índole especial para el estudio de cualquier asunto que esté dentro de la competencia de la Organización y pueden disponer la representación en dichas conferencias de organizaciones internacionales y, con el consentimiento del gobierno interesado, de organizaciones nacionales, gubernamentales o no gubernamentales. La Asamblea de la Salud o el Consejo determinarán la forma en que se efectúe tal representación.",
+   "capitulo": "Conferencias"
+  },
+  {
+   "numero": 42,
+   "ref": "42",
+   "texto": "El Consejo puede disponer la representación de la Organización en conferencias que éste considere que sean de interés para la Organización.",
+   "capitulo": "Conferencias"
+  },
+  {
+   "numero": 43,
+   "ref": "43",
+   "texto": "La ubicación de la sede de la Organización será determinada por la Asamblea de la Salud previa consulta con las Naciones Unidas.",
+   "capitulo": "Sede"
+  },
+  {
+   "numero": 44,
+   "ref": "44",
+   "texto": "a) La Asamblea de la Salud determinará periódicamente las regiones geográficas en las cuales sea conveniente establecer una organización regional. b) Con la aprobación de la mayoría de los Miembros comprendidos en cada región así determinada, la Asamblea de la Salud podrá establecer una organización regional para satisfacer las necesidades especiales de cada zona. En cada región no habrá más de una organización regional.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 45,
+   "ref": "45",
+   "texto": "De conformidad con esta Constitución, cada organización regional será parte integrante de la Organización.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 46,
+   "ref": "46",
+   "texto": "Cada organización regional constará de un Comité Regional y de una Oficina Regional.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 47,
+   "ref": "47",
+   "texto": "Los Comités Regionales estarán compuestos por representantes de los Estados Miembros y Miembros Asociados de la región de que se trate. Los territorios o grupos de territorios de la región que no sean responsables de la dirección de sus relaciones internacionales, y que no sean Miembros Asociados, gozarán del derecho de representación y participación en los Comités Regionales. La naturaleza y extensión de los derechos y obligaciones de estos territorios o grupos de territorios en los Comités Regionales serán determinadas por la Asamblea de la Salud, en consulta con el Miembro u otra autoridad responsable de la dirección de las relaciones internacionales de dichos territorios y con los Estados Miembros de la región.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 48,
+   "ref": "48",
+   "texto": "Los Comités Regionales se reunirán con la frecuencia que consideren necesaria y fijarán el lugar para cada reunión.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 49,
+   "ref": "49",
+   "texto": "Los Comités Regionales adoptarán su propio reglamento interno.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 50,
+   "ref": "50",
+   "texto": "Las funciones del Comité Regional serán: a) formular la política que ha de regir los asuntos de índole exclusivamente regional; b) vigilar las actividades de la Oficina Regional; c) recomendar a la Oficina Regional que se convoquen conferencias técnicas y se lleven a cabo los trabajos o investigaciones adicionales en materia de salubridad que en opinión del Comité Regional promuevan en la región la finalidad de la Organización; d) cooperar con los respectivos comités regionales de las Naciones Unidas, con los de otros organismos especializados y con otras organizaciones internacionales regionales que tengan intereses comunes con la Organización; e) asesorar a la Organización, por conducto del Director General, en asuntos de salubridad internacional cuya importancia trascienda la esfera regional; f) recomendar contribuciones regionales adicionales por parte de los gobiernos de las respectivas regiones si la proporción del presupuesto central de la Organización asignada a la región es insuficiente para desempeñar las funciones regionales; g) otras funciones que puedan ser delegadas al Comité Regional por la Asamblea de la Salud, el Consejo o el Director General.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 51,
+   "ref": "51",
+   "texto": "Bajo la autoridad general del Director General de la Organización, la Oficina Regional será el órgano administrativo del Comité Regional. Además, llevará a efecto, en la región, las decisiones de la Asamblea de la Salud y del Consejo.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 52,
+   "ref": "52",
+   "texto": "El jefe de la Oficina Regional será el Director Regional, nombrado por el Consejo de acuerdo con el Comité Regional.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 53,
+   "ref": "53",
+   "texto": "El personal de la Oficina Regional será nombrado de la manera que se determine mediante acuerdo entre el Director General y el Director Regional.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 54,
+   "ref": "54",
+   "texto": "La Organización Sanitaria Panamericana 1 representada por la Oficina Sanitaria Panamericana y las Conferencias Sanitarias Panamericanas, y todas las demás organizaciones intergubernamentales regionales de salubridad que existan antes de la fecha en que se firme esta Constitución serán integradas a su debido tiempo en la Organización. La integración se efectuará tan pronto como sea factible mediante acción común basada en el mutuo consentimiento de las autoridades competentes, expresado por medio de las organizaciones interesadas.",
+   "capitulo": "Arreglos regionales"
+  },
+  {
+   "numero": 55,
+   "ref": "55",
+   "texto": "El Director General preparará y someterá al Consejo el proyecto de presupuesto de la Organización. El Consejo considerará y someterá a la Asamblea de la Salud dicho proyecto de presupuesto con las recomendaciones que estime convenientes. Denominada actualmente Organización Panamericana de la Salud por decisión de la XV Conferencia Sanitaria Panamericana, septiembre-octubre de 1958.",
+   "capitulo": "Presupuesto y erogaciones"
+  },
+  {
+   "numero": 56,
+   "ref": "56",
+   "texto": "Sujeta a los acuerdos que se concierten entre la Organización y las Naciones Unidas, la Asamblea de la Salud estudiará y aprobará los presupuestos y prorrateará su monto entre los Miembros de conformidad con la escala que fije la Asamblea de la Salud.",
+   "capitulo": "Presupuesto y erogaciones"
+  },
+  {
+   "numero": 57,
+   "ref": "57",
+   "texto": "La Asamblea de la Salud, o el Consejo en nombre y representación de ésta, puede aceptar y administrar las donaciones y los legados que se hagan a la Organización siempre que las condiciones a que estén sujetos sean aceptables por la Asamblea de la Salud o por el Consejo y compatibles con la finalidad y política de la Organización.",
+   "capitulo": "Presupuesto y erogaciones"
+  },
+  {
+   "numero": 58,
+   "ref": "58",
+   "texto": "Se establecerá un fondo especial para ser utilizado a discreción del Consejo para hacer frente a emergencias y contingencias imprevistas.",
+   "capitulo": "Presupuesto y erogaciones"
+  },
+  {
+   "numero": 59,
+   "ref": "59",
+   "texto": "Cada Miembro tendrá un voto en la Asamblea de la Salud.",
+   "capitulo": "Votaciones"
+  },
+  {
+   "numero": 60,
+   "ref": "60",
+   "texto": "a) Las decisiones de la Asamblea de la Salud en asuntos importantes se tomarán por el voto de una mayoría de dos tercios de los Miembros presentes y votantes. Estos asuntos comprenderán: la adopción de convenciones o acuerdos; la aprobación de acuerdos que vinculen a la Organización con las Naciones Unidas y organizaciones u organismos intergubernamentales de conformidad con los Artículos 69, 70 y 72; y las reformas a esta Constitución. b) Las decisiones sobre otros asuntos, incluso la determinación de categorías adicionales de asuntos que deban resolverse por mayoría de dos tercios, se tomarán por la mayoría de los Miembros presentes y votantes. c) Las votaciones sobre asuntos análogos se harán en el Consejo y en los comités de la Organización de conformidad con los párrafos (a) y (b) de este Artículo.",
+   "capitulo": "Votaciones"
+  },
+  {
+   "numero": 61,
+   "ref": "61",
+   "texto": "Cada Miembro rendirá a la Organización un informe anual sobre las medidas tomadas y el adelanto logrado en mejorar la salud de su pueblo.",
+   "capitulo": "Informes presentados por los estados"
+  },
+  {
+   "numero": 62,
+   "ref": "62",
+   "texto": "Cada Miembro rendirá un informe anual sobre las medidas tomadas respecto a las recomendaciones que le haya hecho la Organización, y respecto a convenciones, acuerdos y reglamentos.",
+   "capitulo": "Informes presentados por los estados"
+  },
+  {
+   "numero": 63,
+   "ref": "63",
+   "texto": "Cada Miembro transmitirá sin demora a la Organización las leyes, los reglamentos, los informes y las estadísticas oficiales de importancia, pertinentes a la salubridad, que hayan sido publicados en el Estado.",
+   "capitulo": "Informes presentados por los estados"
+  },
+  {
+   "numero": 64,
+   "ref": "64",
+   "texto": "Cada Miembro transmitirá informes estadísticos y epidemiológicos en la forma que determine la Asamblea de la Salud.",
+   "capitulo": "Informes presentados por los estados"
+  },
+  {
+   "numero": 65,
+   "ref": "65",
+   "texto": "Cada Miembro transmitirá a petición del Consejo la información adicional que sea factible concerniente a la salubridad.",
+   "capitulo": "Informes presentados por los estados"
+  },
+  {
+   "numero": 66,
+   "ref": "66",
+   "texto": "La Organización gozará, en el territorio de cada Miembro, de la capacidad jurídica que sea necesaria para la realización de su finalidad y el ejercicio de sus funciones.",
+   "capitulo": "Capacidad jurídica, privilegios e inmunidades"
+  },
+  {
+   "numero": 67,
+   "ref": "67",
+   "texto": "a) La Organización gozará, en el territorio de cada Miembro, de los privilegios e inmunidades que sean necesarios para la realización de su finalidad y el ejercicio de sus funciones. b) Los representantes de los Miembros, las personas designadas para el Consejo y el personal técnico y administrativo de la Organización gozarán, asimismo, de los privilegios e inmunidades que sean necesarios para desempeñar con independencia sus funciones en relación con la Organización.",
+   "capitulo": "Capacidad jurídica, privilegios e inmunidades"
+  },
+  {
+   "numero": 68,
+   "ref": "68",
+   "texto": "La capacidad jurídica, los privilegios y las inmunidades se definirán en acuerdo aparte que preparará la Organización en consulta con el Secretario General de las Naciones Unidas y que se concertará entre los Miembros.",
+   "capitulo": "Capacidad jurídica, privilegios e inmunidades"
+  },
+  {
+   "numero": 69,
+   "ref": "69",
+   "texto": "La Organización será vinculada con las Naciones Unidas como uno de los organismos especializados a que se refiere el Artículo 57 de la Carta de las Naciones Unidas. El acuerdo o los acuerdos por medio de los cuales se establezca la vinculación de la Organización con las Naciones Unidas estarán sujetos al voto de aprobación de las dos terceras partes de la Asamblea de la Salud.",
+   "capitulo": "Relaciones con otras organizaciones"
+  },
+  {
+   "numero": 70,
+   "ref": "70",
+   "texto": "La Organización establecerá relaciones efectivas y cooperará estrechamente con otras organizaciones intergubernamentales cuando lo juzgue conveniente. Todo acuerdo formal que se concierte con tales organizaciones estará sujeto al voto de aprobación de las dos terceras partes de la Asamblea de la Salud.",
+   "capitulo": "Relaciones con otras organizaciones"
+  },
+  {
+   "numero": 71,
+   "ref": "71",
+   "texto": "La Organización puede, en asuntos de su competencia, hacer arreglos apropiados para consultar y cooperar con organizaciones internacionales no gubernamentales y, con el consentimiento del Estado interesado, con organizaciones nacionales, gubernamentales o no gubernamentales.",
+   "capitulo": "Relaciones con otras organizaciones"
+  },
+  {
+   "numero": 72,
+   "ref": "72",
+   "texto": "La Organización puede, sujeta al voto de aprobación de las dos terceras partes de la Asamblea de la Salud, adquirir de cualquiera otra organización internacional u organismo cuyos propósitos y actividades estén dentro del campo de competencia de la Organización las funciones, los recursos y las obligaciones que le puedan ser conferidos por acuerdos internacionales o por arreglos mutuamente aceptables concertados entre las autoridades competentes de las organizaciones respectivas.",
+   "capitulo": "Relaciones con otras organizaciones"
+  },
+  {
+   "numero": 73,
+   "ref": "73",
+   "texto": "Los textos de las reformas que se propongan para esta Constitución serán comunicados por el Director General a los Miembros por lo menos seis meses antes de su consideración por la Asamblea de la Salud. Las reformas entrarán en vigor para todos los Miembros cuando hayan sido adoptadas por el voto de aprobación de las dos terceras partes de la Asamblea de la Salud y aceptadas por las dos terceras partes de los Miembros de conformidad con sus respectivos procedimientos constitucionales.",
+   "capitulo": "Reformas"
+  },
+  {
+   "numero": 74,
+   "ref": "74",
+   "texto": "Los textos en chino, español, francés, inglés y ruso de esta Constitución serán considerados igualmente auténticos.",
+   "capitulo": "Interpretación"
+  },
+  {
+   "numero": 75,
+   "ref": "75",
+   "texto": "Toda divergencia o disputa respecto a la interpretación o aplicación de esta Constitución que no sea resuelta por negociaciones o por la Asamblea de la Salud será sometida a la Corte Internacional de Justicia, de conformidad con el Estatuto de la Corte, a menos que las partes interesadas acuerden otro medio de solucionarla.",
+   "capitulo": "Interpretación"
+  },
+  {
+   "numero": 76,
+   "ref": "76",
+   "texto": "Con la autorización de la Asamblea General de las Naciones Unidas o con la autorización otorgada de acuerdo con algún convenio entre la Organización y las Naciones Unidas, la Organización puede pedir a la Corte Internacional de Justicia su opinión consultiva sobre cualquier cuestión legal que surja dentro de la competencia de la Organización.",
+   "capitulo": "Interpretación"
+  },
+  {
+   "numero": 77,
+   "ref": "77",
+   "texto": "El Director General podrá comparecer ante la Corte en nombre y representación de la Organización en relación con todo procedimiento resultante de la solicitud de una opinión consultiva. El Director General hará los arreglos necesarios para presentar el caso a la Corte, incluyendo los arreglos para la argumentación de los diferentes puntos de vista sobre el caso.",
+   "capitulo": "Interpretación"
+  },
+  {
+   "numero": 78,
+   "ref": "78",
+   "texto": "Sujeta a las disposiciones del capítulo III, esta Constitución queda abierta para la firma o aceptación de todos los Estados.",
+   "capitulo": "Entrada en vigor"
+  },
+  {
+   "numero": 79,
+   "ref": "79",
+   "texto": "a) Los Estados pueden llegar a ser partes de esta Constitución mediante: i) la firma sin reservas en cuanto a su aprobación; ii) la firma sujeta a aprobación seguida por aceptación; o iii) la aceptación. b) La aceptación se efectuará mediante el depósito de un instrumento formal ante el Secretario General de las Naciones Unidas.",
+   "capitulo": "Entrada en vigor"
+  },
+  {
+   "numero": 80,
+   "ref": "80",
+   "texto": "Esta Constitución entrará en vigor cuando veintiséis Miembros de las Naciones Unidas hayan llegado a ser partes en ella de conformidad con las disposiciones del Artículo 79.",
+   "capitulo": "Entrada en vigor"
+  },
+  {
+   "numero": 81,
+   "ref": "81",
+   "texto": "De conformidad con el Artículo 102 de la Carta de las Naciones Unidas, el Secretario General de las Naciones Unidas registrará esta Constitución cuando haya sido firmada sin reservas respecto a su aprobación por un Estado o cuando se deposite el primer instrumento de aceptación.",
+   "capitulo": "Entrada en vigor"
+  },
+  {
+   "numero": 82,
+   "ref": "82",
+   "texto": "El Secretario General de las Naciones Unidas notificará a los Estados partes de esta Constitución la fecha en que entre en vigor y comunicará también la fecha en que otros Estados lleguen a ser partes de ella. EN FE DE LO CUAL, los infrascritos representantes debidamente autorizados para tal objeto, firman esta Constitución. Firmada en la ciudad de Nueva York, a los veintidós días del mes de julio de mil novecientos cuarenta y seis, en una sola copia en idiomas chino, español, francés, inglés y ruso, siendo cada texto igualmente auténtico. Los textos originales se depositarán en los archivos de las Naciones Unidas. El Secretario General de las Naciones Unidas enviará copias debidamente certificadas a cada uno de los Gobiernos representados en la Conferencia. ___________ DERECHOS Y OBLIGACIONES DE LOS MIEMBROS ASOCIADOS Y OTROS TERRITORIOS",
+   "capitulo": "Entrada en vigor"
   }
  ]
 }

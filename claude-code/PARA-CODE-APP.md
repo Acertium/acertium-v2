@@ -14,9 +14,9 @@
   bajo, escribes `RESULTADO_NNN.md` y añades línea a `EJECUCIONES.md`. Jonathan solo dispara.
 
 ## 1. Estado del cerebro (verificado por MCP el 19/08)
-- **3.025 conceptos · 2.939 preguntas servibles · 56 en cola de revisión (`pendiente_revision`) · 0 islas.**
+- **3.040 conceptos · 2.954 preguntas servibles · 56 en cola de revisión (`pendiente_revision`) · 0 islas.**
 - **Corpus BOE-600: 52/52 normas cargadas**, más 6 secciones que NO son del Código 600 (§54 a §59;
-  ver `datos/legal-es/boe-600-pn/corpus/README.md`). El directorio tiene 58 ficheros y 4.899 artículos.
+  ver `datos/legal-es/boe-600-pn/corpus/README.md`). El directorio tiene 58 ficheros y 4.980 artículos.
   Índice autogestionado en
   `datos/legal-es/boe-600-pn/00-indice.md` (la marca ✓ exige confirmación de la base desde el 16/08;
   auditar con `node adaptadores/legal-es/generador/reconciliar-indice.mjs`).
@@ -72,8 +72,27 @@
        156 bis/ter/quater/quinquies y 157-162 (lesiones al feto y manipulación genética).
      El tema se reetiquetó al enunciado oficial: antes decía solo «homicidio, aborto y lesiones».
      Fuera del tema a propósito: el **195** (omisión del deber de socorro), que es de otro título.
-   - **T24** — **PARCIALMENTE HECHO**: **30 conceptos** (19/08/2026). Queda un solo epígrafe sin
-     fuente, no tres.
+   - **T24** — **CERRADO**: **45 conceptos** (19/08/2026). Ya no queda ningún epígrafe sin fuente.
+     - `insst-t24-trabajo-y-salud.json` (15, **19/08/2026**) cierra los dos epígrafes doctrinales que
+       quedaban —*concepto general de trabajo* y *el trabajo y la salud*— y añade el bloque de
+       *daños a la salud*, que el temario pide y que la LPRL solo define en abstracto. Fuente: el
+       manual del **INSST** «Curso de capacitación para el desempeño de funciones de nivel básico»
+       (marzo 2019), `tipo_fuente: autoridad` → entra `verificado` y se sirve. Entra la
+       interrelación trabajo-salud, la triple dimensión de la salud, el alcance de las condiciones
+       de trabajo, el **accidente de trabajo** en su concepto legal y en el técnico-preventivo, los
+       **in itinere**, la regla de que la insolación y el rayo nunca son fuerza mayor extraña al
+       trabajo, la **enfermedad profesional** y su cuadro, la enfermedad relacionada con el trabajo,
+       las «otras patologías» (fatiga, estrés, insatisfacción) y los costes directos e indirectos.
+       **Esta familia NO tiene corpus** y es correcto: la regla de `corpus/README.md` reserva el
+       corpus a las normas, así que el texto literal viaja en el bloque `fuentes` del lote. En la
+       auditoría aparecerá como «no auditable», que es lo esperado, no un fallo.
+       - **Ojo con una trampa**: el manual cita la definición de salud de la OMS como «el estado de
+         bienestar físico, mental y social completo y no meramente la ausencia de daño o
+         enfermedad», que **no** es el texto auténtico del preámbulo. No se ha construido ninguna
+         pregunta sobre esa frase; la definición se pregunta en `OMS-001`, contra el auténtico.
+       - Lo que **no** se ha duplicado, a propósito: las definiciones de la LPRL que el manual
+         reproduce (ya son PRL-004, PRL-005, PRL-033 y PRL-008) y las cuatro disciplinas preventivas
+         (ya son PRLAGE-023, en el T25). Se enlazan por relación.
      - `oms-t24-concepto-salud.json` (12, **19/08/2026**) cierra el epígrafe **concepto de salud**,
        que este parte daba por bloqueado. Jonathan aportó el BOE núm. 116, de 15/05/1973, que publica
        la **Constitución de la OMS**: es §59 del corpus y familia `OMS`, con `tipo_fuente: oficial`
@@ -82,14 +101,16 @@
        de completo bienestar físico, mental y social y no solamente la ausencia de afecciones o
        enfermedades»—, la declaración inicial, la fórmula de aceptación y el artículo 1 (finalidad).
        Enganchado al T24 ya cargado por `OMS-001 → PRL-005`, `OMS-001 → PRL-001` y `OMS-002 → PRL-011`.
-       **Ojo al leer §59:** no es ingesta mecánica como el resto del corpus —el BOE de 1973 es
-       facsímil escaneado— sino transcripción cotejada contra la imagen a 300 ppp, y es parcial
-       (preámbulo y artículo 1). Conserva la errata del BOE («Organización *Mundical* de la Salud»
-       en el artículo 1), así que ninguna pregunta cita ese tramo.
-     - **Lo único que sigue sin fuente** son *concepto general de trabajo* y *el trabajo y la salud*,
-       que necesitan al INSST. El contenedor no tiene salida a insst.es (403): hay que aportar el PDF.
-     - Lo de abajo es el estado anterior (17/08), que sigue siendo válido salvo en lo que corrige
-       este bloque.
+       **§59 cambió de fuente el mismo día**, y conviene saberlo: se ingirió primero del facsímil del
+       BOE de 1973 —transcrito a mano contra la imagen, con la errata «Organización *Mundical* de la
+       Salud» incluida— y se sustituyó después por el **texto español auténtico que publica la OMS**
+       (*Documentos básicos*, 49.ª ed., 2020), porque el **artículo 74** de la propia Constitución
+       declara auténtico el texto español y el BOE solo era su republicación. Los dos textos difieren
+       en ortografía y comas («trasmisibles»/«transmisibles», «Organismo»/«organismo»…), nada
+       sustantivo, pero eso **rompe la literalidad**: las doce actividades ya cargadas se regeneraron
+       y se actualizaron en base. §59 pasó de 12 a **93 entradas** (preámbulo + artículos 1 a 82).
+     - Lo de abajo es el estado anterior (17/08), que sigue siendo válido salvo en lo que corrigen
+       este bloque y el del INSST.
      - `prl-t24-accion-preventiva.json` (11) cierra el epígrafe *principios generales de la actividad
        preventiva*: el art. 15 LPRL entero, con los nueve principios de la lista y los apartados 2 a
        5 (capacidades profesionales, acceso a zonas de riesgo grave y específico, previsión de
@@ -101,9 +122,10 @@
      - Las **cuatro disciplinas preventivas** (art. 8 c) RD 67/2010) **ya están cargadas**, pero en
        el **T25** (`PRLAGE-023`), que es donde el temario sitúa esa norma. No se duplican aquí: un
        concepto vive en un solo tema.
-     - ~~**Lo único que falta** son los tres epígrafes doctrinales~~ — corregido arriba: el de
-       *concepto de salud* quedó cerrado el 19/08 con la Constitución de la OMS. Siguen abiertos
-       *concepto general de trabajo* y *el trabajo y la salud*, que necesitan al INSST.
+     - ~~**Lo único que falta** son los tres epígrafes doctrinales~~ — **superado**: los tres se
+       cerraron el 19/08. *Concepto de salud* con la Constitución de la OMS; *concepto general de
+       trabajo* y *el trabajo y la salud*, con el manual del INSST. El T24 no tiene ya ningún
+       epígrafe sin fuente.
    - **T42** — **79 conceptos** (19/08/2026), tras `itc-t42-instrucciones-tecnicas.json` (21).
      Las **ITC 1 a 5** no estaban en el corpus porque no son artículos del RD 137/1993: se aprobaron
      por el artículo segundo del **RD 726/2020** y se publicaron como anexos suyos, donde el ingestor
