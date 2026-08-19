@@ -26,6 +26,28 @@
   + `verificar-fuente` (consenso); módulo de ortografía (dic RLA-ES + nspell, apagado por defecto);
   panel `/admin` (cookie `ADMIN_TOKEN`, fail-closed 404). ADMIN_TOKEN ya fijado en Vercel.
 
+## 1 bis. Cómo se mide lo que falta (19/08/2026)
+
+**La unidad de cobertura estaba mal elegida, y ese es el fallo de origen.** La primera
+pasada trabajó norma a norma y daba por hecho un ARTÍCULO cuando tenía una pregunta.
+Pero el tribunal no examina artículos, examina los EPÍGRAFES del temario. Medido: la
+densidad de conceptos apenas responde al contenido del artículo —1,21 conceptos en los
+de menos de 600 caracteres y solo 2,54 en los de más de 3.000, con el **49 % de estos
+últimos llevando UNA sola pregunta**—. De ahí la sensación de que «siempre falta algo»:
+no es que se amplíe sin criterio, es deuda de la primera pasada que aflora tema a tema.
+La deuda es finita y contable: unos **263 artículos** de más de 1.500 caracteres con una
+sola pregunta.
+
+**`docs/cobertura-epigrafes.md`** cuenta el banco contra el temario, no contra las normas.
+Se regenera con `node adaptadores/legal-es/generador/cobertura-epigrafes.mjs` (necesita
+`.env.local`). Estado al crearlo: **250 epígrafes, 61 sin cubrir, 20 de ellos en temas
+donde la medición es fiable**.
+
+Léelo con su advertencia puesta: el emparejamiento epígrafe↔concepto es una **heurística
+léxica** y se equivoca en los dos sentidos. Por eso cada tema lleva un **% de encaje** y
+los temas por debajo del 40 % salen marcados: ahí los ceros no significan nada. Un cero
+en un tema fiable sí es una pregunta que hacerse — no una condena.
+
 ## 2. Lo que falta — por prioridad
 1. **Generar los 4 temas que faltan (cero conceptos): 19, 20, 24, 45.** ⚠ VER §3 antes de intentarlo.
    - ~~**T19**~~ — **HECHO** (16/08/2026): 33 conceptos, arts. 550-570 CP, `lotes/cp-t19-orden-publico.json`.
