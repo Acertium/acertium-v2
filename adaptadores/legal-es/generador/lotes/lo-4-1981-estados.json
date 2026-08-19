@@ -4,7 +4,7 @@
     "norma": "Ley Orgánica 4/1981, de los estados de alarma, excepción y sitio",
     "referencia_boe": "BOE-A-1981-12774",
     "convocatoria": "policia-nacional-2026",
-    "tema": "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+    "tema": "Tema 2 — La Constitución Española (I): estructura y caracteres; los valores; los principios del régimen constitucional; los derechos y deberes fundamentales, sus garantías y su suspensión; el Defensor del Pueblo"
   },
   "fuentes": {
     "art. primero": "Uno. Procederá la declaración de los estados de alarma, excepción o sitio cuando circunstancias extraordinarias hiciesen imposible el mantenimiento de la normalidad mediante los poderes ordinarios de las Autoridades competentes. Dos. Las medidas a adoptar en los estados de alarma, excepción y sitio, así como la duración de los mismos, serán en cualquier caso las estrictamente indispensables para asegurar el restablecimiento de la normalidad. Su aplicación se realizará de forma proporcionada a las circunstancias. Tres. Finalizada la vigencia de los estados de alarma, excepción y sitio decaerán en su eficacia cuantas competencias en materia sancionadora y en orden a actuaciones preventivas correspondan a las Autoridades competentes, así como las concretas medidas adoptadas en base a éstas, salvo las que consistiesen en sanciones firmes. Cuatro. La declaración de los estados de alarma, excepción y sitio no interrumpe el normal funcionamiento de los poderes constitucionales del Estado.",
@@ -28,84 +28,719 @@
     "art. treinta y cinco": "En la declaración del estado de sitio el Congreso de los Diputados podrá determinar los delitos que durante su vigencia quedan sometidos a la Jurisdicción Militar."
   },
   "conceptos": [
-    { "id": "EAES-001", "articulo": "art. primero", "titulo": "Presupuesto habilitante común a los tres estados", "resumen": "Procede declarar los estados de alarma, excepción o sitio cuando circunstancias extraordinarias hacen imposible mantener la normalidad con los poderes ordinarios de las Autoridades.", "explicacion": "La ley regula tres estados de emergencia distintos, pero todos comparten un mismo punto de partida: solo caben cuando hay circunstancias extraordinarias que hacen imposible mantener la normalidad usando los poderes ordinarios. No son herramientas de uso corriente, sino un recurso excepcional. Este artículo abre el Capítulo primero, de disposiciones comunes a los tres estados." },
-    { "id": "EAES-002", "articulo": "art. primero", "titulo": "Principio de proporcionalidad: medidas estrictamente indispensables", "resumen": "Las medidas y su duración serán en cualquier caso las estrictamente indispensables para asegurar el restablecimiento de la normalidad, y se aplicarán de forma proporcionada.", "explicacion": "Aunque se declare uno de estos estados, el poder no es ilimitado. Tanto las medidas como su duración deben ser las estrictamente indispensables para volver a la normalidad, y aplicarse de forma proporcionada a las circunstancias. Es la traducción legal del principio de proporcionalidad: no se puede restringir más de lo necesario." },
-    { "id": "EAES-003", "articulo": "art. primero", "titulo": "No se interrumpe el funcionamiento de los poderes del Estado", "resumen": "La declaración de cualquiera de los tres estados no interrumpe el normal funcionamiento de los poderes constitucionales del Estado.", "explicacion": "Un dato clave: declarar la alarma, la excepción o el sitio no suspende el Parlamento ni los tribunales ni el resto de poderes del Estado. Siguen funcionando con normalidad. Esto es una garantía frente a un uso abusivo de estos estados: el control democrático no se apaga." },
-    { "id": "EAES-004", "articulo": "art. segundo", "titulo": "Publicación en el BOE y entrada en vigor", "resumen": "La declaración se publica de inmediato en el «Boletín Oficial del Estado» y entra en vigor desde el instante mismo de su publicación.", "explicacion": "La declaración debe publicarse de inmediato en el BOE y difundirse obligatoriamente por los medios de comunicación. Entra en vigor desde el instante mismo de su publicación en el BOE, sin esperar el plazo habitual de las leyes. También son de difusión obligatoria las disposiciones que dicte la Autoridad competente durante su vigencia." },
-    { "id": "EAES-005", "articulo": "art. tercero", "titulo": "Impugnación judicial y derecho a indemnización", "resumen": "Los actos adoptados durante estos estados son impugnables en vía jurisdiccional, y quien sufra daños por actos no imputables a él tiene derecho a ser indemnizado.", "explicacion": "Dos garantías para el ciudadano: primero, los actos y disposiciones de la Administración durante estos estados pueden recurrirse ante los tribunales (vía jurisdiccional); segundo, quien sufra daños o perjuicios por actos que no le sean imputables tiene derecho a ser indemnizado conforme a las leyes." },
-    { "id": "EAES-006", "articulo": "art. cuarto", "titulo": "Estado de alarma: lo declara el Gobierno (art. 116.2 CE)", "resumen": "El Gobierno, en uso de las facultades del artículo 116.2 de la Constitución, puede declarar el estado de alarma en todo o parte del territorio nacional.", "explicacion": "El estado de alarma es el más leve de los tres. Lo declara el Gobierno por sí mismo, amparado en el artículo ciento dieciséis, dos, de la Constitución, en todo o en parte del territorio nacional. Conviene fijar la correspondencia: alarma = 116.2 CE; excepción = 116.3 CE; sitio = 116.4 CE." },
-    { "id": "EAES-007", "articulo": "art. cuarto", "titulo": "Supuestos que habilitan el estado de alarma", "resumen": "Cabe la alarma ante catástrofes o calamidades, crisis sanitarias como epidemias, paralización de servicios públicos esenciales y desabastecimiento de productos de primera necesidad.", "explicacion": "El artículo cuarto enumera las alteraciones graves de la normalidad que permiten la alarma: catástrofes o calamidades (terremotos, inundaciones, incendios, accidentes de gran magnitud); crisis sanitarias como epidemias y contaminación grave; paralización de servicios públicos esenciales; y desabastecimiento de productos de primera necesidad. Son emergencias de protección civil o sanitarias, no alteraciones del orden público." },
-    { "id": "EAES-008", "articulo": "art. quinto", "titulo": "Solicitud del Presidente autonómico", "resumen": "Cuando los supuestos afecten solo a una Comunidad Autónoma, su Presidente puede solicitar del Gobierno la declaración del estado de alarma.", "explicacion": "Si la emergencia afecta únicamente al territorio de una Comunidad Autónoma, su Presidente puede pedir al Gobierno que declare la alarma. Ojo: solicita, no declara; la declaración sigue correspondiendo al Gobierno de la Nación." },
-    { "id": "EAES-009", "articulo": "art. sexto", "titulo": "Forma de la declaración: decreto del Consejo de Ministros", "resumen": "La declaración del estado de alarma se lleva a cabo mediante decreto acordado en Consejo de Ministros.", "explicacion": "El instrumento jurídico de la alarma es un decreto acordado en Consejo de Ministros. En ese decreto se fija el ámbito territorial, la duración y los efectos del estado de alarma." },
-    { "id": "EAES-010", "articulo": "art. sexto", "titulo": "Duración de 15 días y prórroga por el Congreso", "resumen": "El estado de alarma no puede exceder de quince días; solo se puede prorrogar con autorización expresa del Congreso de los Diputados.", "explicacion": "La alarma tiene un tope inicial de quince días. Para ir más allá hace falta autorización expresa del Congreso de los Diputados, que al prorrogarla puede fijar su alcance y condiciones. Es la primera intervención del Congreso: para declararla no hace falta, pero para prorrogarla sí." },
-    { "id": "EAES-011", "articulo": "art. séptimo", "titulo": "Autoridad competente en el estado de alarma", "resumen": "La Autoridad competente en la alarma es el Gobierno o, por delegación de éste, el Presidente de la Comunidad Autónoma cuando la declaración afecte solo a su territorio.", "explicacion": "Durante la alarma la Autoridad competente es el Gobierno. Puede delegar en el Presidente de la Comunidad Autónoma cuando la declaración afecte exclusivamente a todo o parte del territorio de esa Comunidad." },
-    { "id": "EAES-012", "articulo": "art. octavo", "titulo": "Deber de dar cuenta al Congreso", "resumen": "El Gobierno dará cuenta al Congreso de los Diputados de la declaración del estado de alarma y de los decretos que dicte durante su vigencia.", "explicacion": "Aunque el Gobierno declara la alarma sin autorización previa, no queda sin control: debe dar cuenta al Congreso de los Diputados de la declaración y de los decretos que dicte durante su vigencia, y suministrarle la información que le pida." },
-    { "id": "EAES-013", "articulo": "art. once", "titulo": "Medidas del estado de alarma", "resumen": "El decreto de alarma puede limitar la circulación de personas o vehículos, practicar requisas, intervenir industrias, y limitar o racionar servicios y consumos.", "explicacion": "El decreto de alarma puede acordar medidas como: limitar la circulación o permanencia de personas y vehículos; practicar requisas temporales e imponer prestaciones personales; intervenir y ocupar transitoriamente industrias o locales (salvo domicilios privados); y limitar o racionar servicios y consumos de primera necesidad. Son limitaciones de derechos, pero no una suspensión de derechos como en la excepción." },
-    { "id": "EAES-014", "articulo": "art. trece", "titulo": "Estado de excepción: autorización previa del Congreso (art. 116.3 CE)", "resumen": "Ante graves alteraciones del orden público, el Gobierno, conforme al artículo 116.3 CE, solicita del Congreso de los Diputados autorización para declarar el estado de excepción.", "explicacion": "La excepción responde a alteraciones graves del orden público que las potestades ordinarias no bastan para restablecer. La diferencia esencial con la alarma: aquí el Gobierno no declara por sí mismo, sino que primero solicita autorización al Congreso de los Diputados, conforme al artículo ciento dieciséis, tres, de la Constitución." },
-    { "id": "EAES-015", "articulo": "art. trece", "titulo": "Derechos que pueden suspenderse (art. 55.1 CE)", "resumen": "En la excepción, los derechos cuya suspensión se solicita no pueden ser otros que los enumerados en el apartado uno del artículo cincuenta y cinco de la Constitución.", "explicacion": "El estado de excepción sí permite suspender derechos, pero no cualesquiera: solo los enumerados en el artículo cincuenta y cinco, apartado uno, de la Constitución. La solicitud al Congreso debe mencionar expresamente qué derechos se quieren suspender y qué medidas se adoptarán sobre ellos." },
-    { "id": "EAES-016", "articulo": "art. trece", "titulo": "Duración del estado de excepción: 30 días", "resumen": "El estado de excepción no puede exceder de treinta días.", "explicacion": "La solicitud de autorización debe indicar el ámbito territorial y la duración del estado de excepción, que no podrá exceder de treinta días. Es el doble del tope inicial de la alarma (quince días)." },
-    { "id": "EAES-017", "articulo": "art. catorce", "titulo": "Declaración de la excepción tras la autorización", "resumen": "Obtenida la autorización, el Gobierno declara el estado de excepción acordando en Consejo de Ministros un decreto con el contenido autorizado por el Congreso.", "explicacion": "El Congreso autoriza; el Gobierno declara. Una vez conseguida la autorización, el Gobierno acuerda en Consejo de Ministros un decreto que debe ajustarse al contenido autorizado por el Congreso de los Diputados: no puede ir más allá de lo aprobado." },
-    { "id": "EAES-018", "articulo": "art. quince", "titulo": "Prórroga del estado de excepción: 30 días", "resumen": "Si persisten las circunstancias, el Gobierno puede solicitar del Congreso la prórroga de la excepción, que no puede exceder de treinta días.", "explicacion": "La excepción también puede prorrogarse: si persisten las circunstancias, el Gobierno solicita del Congreso la prórroga, que tampoco podrá exceder de treinta días. El Gobierno puede además poner fin anticipado a la excepción mediante decreto en Consejo de Ministros, dando cuenta al Congreso." },
-    { "id": "EAES-019", "articulo": "art. dieciséis", "titulo": "Detención gubernativa en la excepción", "resumen": "En la excepción la Autoridad gubernativa puede detener por hasta diez días a quien haya fundadas sospechas de que va a alterar el orden público, comunicándolo al juez en veinticuatro horas.", "explicacion": "El estado de excepción permite una detención gubernativa reforzada: cabe detener a una persona si existen fundadas sospechas de que va a provocar alteraciones del orden público. La detención no puede exceder de diez días y debe comunicarse al juez competente en el plazo de veinticuatro horas." },
-    { "id": "EAES-020", "articulo": "art. diecisiete", "titulo": "Registros domiciliarios (suspensión del art. 18.2 CE)", "resumen": "Cuando la autorización comprenda la suspensión del artículo 18.2 CE, la Autoridad gubernativa puede disponer inspecciones y registros domiciliarios.", "explicacion": "Si el Congreso autoriza suspender la inviolabilidad del domicilio (artículo dieciocho, dos, de la Constitución), la Autoridad gubernativa puede disponer inspecciones y registros domiciliarios para esclarecer hechos delictivos o mantener el orden público, con las formalidades que fija el artículo." },
-    { "id": "EAES-021", "articulo": "art. dieciocho", "titulo": "Intervención de comunicaciones (suspensión del art. 18.3 CE)", "resumen": "Cuando la autorización comprenda la suspensión del artículo 18.3 CE, la autoridad gubernativa puede intervenir toda clase de comunicaciones, incluidas las postales, telegráficas y telefónicas.", "explicacion": "Si el Congreso autoriza suspender el secreto de las comunicaciones (artículo dieciocho, tres, de la Constitución), la autoridad gubernativa puede intervenir toda clase de comunicaciones, incluidas las postales, telegráficas y telefónicas, comunicándolo de inmediato al Juez competente por escrito motivado." },
-    { "id": "EAES-022", "articulo": "art. veinte", "titulo": "Restricción de la circulación (suspensión del art. 19 CE)", "resumen": "Cuando la autorización comprenda la suspensión del artículo 19 CE, la autoridad gubernativa puede prohibir la circulación de personas y vehículos en las horas y lugares que determine.", "explicacion": "Si el Congreso autoriza suspender la libertad de circulación y residencia (artículo diecinueve de la Constitución), la autoridad gubernativa puede prohibir la circulación de personas y vehículos en horas y lugares determinados y exigir la acreditación de identidad, señalando el itinerario a seguir." },
-    { "id": "EAES-023", "articulo": "art. treinta y dos", "titulo": "Estado de sitio: propuesta del Gobierno al Congreso (art. 116.4 CE)", "resumen": "Ante una insurrección o acto de fuerza contra la soberanía, la integridad territorial o el orden constitucional, el Gobierno, conforme al artículo 116.4 CE, propone al Congreso la declaración del estado de sitio.", "explicacion": "El sitio es el estado más grave: se reserva para una insurrección o acto de fuerza contra la soberanía o independencia de España, su integridad territorial o el ordenamiento constitucional, que no pueda resolverse por otros medios. Aquí el Gobierno solo propone; es el Congreso de los Diputados quien declara, conforme al artículo ciento dieciséis, cuatro, de la Constitución." },
-    { "id": "EAES-024", "articulo": "art. treinta y dos", "titulo": "Suspensión de garantías del detenido en el sitio (art. 17.3 CE)", "resumen": "La declaración del estado de sitio puede autorizar, además de lo previsto para alarma y excepción, la suspensión temporal de las garantías jurídicas del detenido del artículo 17.3 CE.", "explicacion": "El sitio suma a las medidas de la alarma y la excepción una específica: la suspensión temporal de las garantías jurídicas del detenido reconocidas en el artículo diecisiete, tres, de la Constitución. Es el único de los tres estados que puede alcanzar esas garantías del detenido." },
-    { "id": "EAES-025", "articulo": "art. treinta y tres", "titulo": "El Gobierno designa la Autoridad militar", "resumen": "En el estado de sitio el Gobierno asume las facultades extraordinarias y designa la Autoridad militar que, bajo su dirección, ejecuta las medidas en el territorio afectado.", "explicacion": "Declarado el sitio, el Gobierno —que dirige la política militar y de defensa conforme al artículo noventa y siete de la Constitución— asume las facultades extraordinarias y designa una Autoridad militar. Esa Autoridad militar actúa bajo la dirección del Gobierno para ejecutar las medidas en el territorio del estado de sitio." },
-    { "id": "EAES-026", "articulo": "art. treinta y cinco", "titulo": "Delitos sometidos a la Jurisdicción Militar", "resumen": "En la declaración del estado de sitio el Congreso de los Diputados puede determinar los delitos que durante su vigencia quedan sometidos a la Jurisdicción Militar.", "explicacion": "Una potestad singular del sitio: en la propia declaración, el Congreso de los Diputados puede determinar qué delitos quedan sometidos a la Jurisdicción Militar mientras dure el estado de sitio." }
+    {
+      "id": "EAES-001",
+      "articulo": "art. primero",
+      "titulo": "Presupuesto habilitante común a los tres estados",
+      "resumen": "Procede declarar los estados de alarma, excepción o sitio cuando circunstancias extraordinarias hacen imposible mantener la normalidad con los poderes ordinarios de las Autoridades.",
+      "explicacion": "La ley regula tres estados de emergencia distintos, pero todos comparten un mismo punto de partida: solo caben cuando hay circunstancias extraordinarias que hacen imposible mantener la normalidad usando los poderes ordinarios. No son herramientas de uso corriente, sino un recurso excepcional. Este artículo abre el Capítulo primero, de disposiciones comunes a los tres estados."
+    },
+    {
+      "id": "EAES-002",
+      "articulo": "art. primero",
+      "titulo": "Principio de proporcionalidad: medidas estrictamente indispensables",
+      "resumen": "Las medidas y su duración serán en cualquier caso las estrictamente indispensables para asegurar el restablecimiento de la normalidad, y se aplicarán de forma proporcionada.",
+      "explicacion": "Aunque se declare uno de estos estados, el poder no es ilimitado. Tanto las medidas como su duración deben ser las estrictamente indispensables para volver a la normalidad, y aplicarse de forma proporcionada a las circunstancias. Es la traducción legal del principio de proporcionalidad: no se puede restringir más de lo necesario."
+    },
+    {
+      "id": "EAES-003",
+      "articulo": "art. primero",
+      "titulo": "No se interrumpe el funcionamiento de los poderes del Estado",
+      "resumen": "La declaración de cualquiera de los tres estados no interrumpe el normal funcionamiento de los poderes constitucionales del Estado.",
+      "explicacion": "Un dato clave: declarar la alarma, la excepción o el sitio no suspende el Parlamento ni los tribunales ni el resto de poderes del Estado. Siguen funcionando con normalidad. Esto es una garantía frente a un uso abusivo de estos estados: el control democrático no se apaga."
+    },
+    {
+      "id": "EAES-004",
+      "articulo": "art. segundo",
+      "titulo": "Publicación en el BOE y entrada en vigor",
+      "resumen": "La declaración se publica de inmediato en el «Boletín Oficial del Estado» y entra en vigor desde el instante mismo de su publicación.",
+      "explicacion": "La declaración debe publicarse de inmediato en el BOE y difundirse obligatoriamente por los medios de comunicación. Entra en vigor desde el instante mismo de su publicación en el BOE, sin esperar el plazo habitual de las leyes. También son de difusión obligatoria las disposiciones que dicte la Autoridad competente durante su vigencia."
+    },
+    {
+      "id": "EAES-005",
+      "articulo": "art. tercero",
+      "titulo": "Impugnación judicial y derecho a indemnización",
+      "resumen": "Los actos adoptados durante estos estados son impugnables en vía jurisdiccional, y quien sufra daños por actos no imputables a él tiene derecho a ser indemnizado.",
+      "explicacion": "Dos garantías para el ciudadano: primero, los actos y disposiciones de la Administración durante estos estados pueden recurrirse ante los tribunales (vía jurisdiccional); segundo, quien sufra daños o perjuicios por actos que no le sean imputables tiene derecho a ser indemnizado conforme a las leyes."
+    },
+    {
+      "id": "EAES-006",
+      "articulo": "art. cuarto",
+      "titulo": "Estado de alarma: lo declara el Gobierno (art. 116.2 CE)",
+      "resumen": "El Gobierno, en uso de las facultades del artículo 116.2 de la Constitución, puede declarar el estado de alarma en todo o parte del territorio nacional.",
+      "explicacion": "El estado de alarma es el más leve de los tres. Lo declara el Gobierno por sí mismo, amparado en el artículo ciento dieciséis, dos, de la Constitución, en todo o en parte del territorio nacional. Conviene fijar la correspondencia: alarma = 116.2 CE; excepción = 116.3 CE; sitio = 116.4 CE."
+    },
+    {
+      "id": "EAES-007",
+      "articulo": "art. cuarto",
+      "titulo": "Supuestos que habilitan el estado de alarma",
+      "resumen": "Cabe la alarma ante catástrofes o calamidades, crisis sanitarias como epidemias, paralización de servicios públicos esenciales y desabastecimiento de productos de primera necesidad.",
+      "explicacion": "El artículo cuarto enumera las alteraciones graves de la normalidad que permiten la alarma: catástrofes o calamidades (terremotos, inundaciones, incendios, accidentes de gran magnitud); crisis sanitarias como epidemias y contaminación grave; paralización de servicios públicos esenciales; y desabastecimiento de productos de primera necesidad. Son emergencias de protección civil o sanitarias, no alteraciones del orden público."
+    },
+    {
+      "id": "EAES-008",
+      "articulo": "art. quinto",
+      "titulo": "Solicitud del Presidente autonómico",
+      "resumen": "Cuando los supuestos afecten solo a una Comunidad Autónoma, su Presidente puede solicitar del Gobierno la declaración del estado de alarma.",
+      "explicacion": "Si la emergencia afecta únicamente al territorio de una Comunidad Autónoma, su Presidente puede pedir al Gobierno que declare la alarma. Ojo: solicita, no declara; la declaración sigue correspondiendo al Gobierno de la Nación."
+    },
+    {
+      "id": "EAES-009",
+      "articulo": "art. sexto",
+      "titulo": "Forma de la declaración: decreto del Consejo de Ministros",
+      "resumen": "La declaración del estado de alarma se lleva a cabo mediante decreto acordado en Consejo de Ministros.",
+      "explicacion": "El instrumento jurídico de la alarma es un decreto acordado en Consejo de Ministros. En ese decreto se fija el ámbito territorial, la duración y los efectos del estado de alarma."
+    },
+    {
+      "id": "EAES-010",
+      "articulo": "art. sexto",
+      "titulo": "Duración de 15 días y prórroga por el Congreso",
+      "resumen": "El estado de alarma no puede exceder de quince días; solo se puede prorrogar con autorización expresa del Congreso de los Diputados.",
+      "explicacion": "La alarma tiene un tope inicial de quince días. Para ir más allá hace falta autorización expresa del Congreso de los Diputados, que al prorrogarla puede fijar su alcance y condiciones. Es la primera intervención del Congreso: para declararla no hace falta, pero para prorrogarla sí."
+    },
+    {
+      "id": "EAES-011",
+      "articulo": "art. séptimo",
+      "titulo": "Autoridad competente en el estado de alarma",
+      "resumen": "La Autoridad competente en la alarma es el Gobierno o, por delegación de éste, el Presidente de la Comunidad Autónoma cuando la declaración afecte solo a su territorio.",
+      "explicacion": "Durante la alarma la Autoridad competente es el Gobierno. Puede delegar en el Presidente de la Comunidad Autónoma cuando la declaración afecte exclusivamente a todo o parte del territorio de esa Comunidad."
+    },
+    {
+      "id": "EAES-012",
+      "articulo": "art. octavo",
+      "titulo": "Deber de dar cuenta al Congreso",
+      "resumen": "El Gobierno dará cuenta al Congreso de los Diputados de la declaración del estado de alarma y de los decretos que dicte durante su vigencia.",
+      "explicacion": "Aunque el Gobierno declara la alarma sin autorización previa, no queda sin control: debe dar cuenta al Congreso de los Diputados de la declaración y de los decretos que dicte durante su vigencia, y suministrarle la información que le pida."
+    },
+    {
+      "id": "EAES-013",
+      "articulo": "art. once",
+      "titulo": "Medidas del estado de alarma",
+      "resumen": "El decreto de alarma puede limitar la circulación de personas o vehículos, practicar requisas, intervenir industrias, y limitar o racionar servicios y consumos.",
+      "explicacion": "El decreto de alarma puede acordar medidas como: limitar la circulación o permanencia de personas y vehículos; practicar requisas temporales e imponer prestaciones personales; intervenir y ocupar transitoriamente industrias o locales (salvo domicilios privados); y limitar o racionar servicios y consumos de primera necesidad. Son limitaciones de derechos, pero no una suspensión de derechos como en la excepción."
+    },
+    {
+      "id": "EAES-014",
+      "articulo": "art. trece",
+      "titulo": "Estado de excepción: autorización previa del Congreso (art. 116.3 CE)",
+      "resumen": "Ante graves alteraciones del orden público, el Gobierno, conforme al artículo 116.3 CE, solicita del Congreso de los Diputados autorización para declarar el estado de excepción.",
+      "explicacion": "La excepción responde a alteraciones graves del orden público que las potestades ordinarias no bastan para restablecer. La diferencia esencial con la alarma: aquí el Gobierno no declara por sí mismo, sino que primero solicita autorización al Congreso de los Diputados, conforme al artículo ciento dieciséis, tres, de la Constitución."
+    },
+    {
+      "id": "EAES-015",
+      "articulo": "art. trece",
+      "titulo": "Derechos que pueden suspenderse (art. 55.1 CE)",
+      "resumen": "En la excepción, los derechos cuya suspensión se solicita no pueden ser otros que los enumerados en el apartado uno del artículo cincuenta y cinco de la Constitución.",
+      "explicacion": "El estado de excepción sí permite suspender derechos, pero no cualesquiera: solo los enumerados en el artículo cincuenta y cinco, apartado uno, de la Constitución. La solicitud al Congreso debe mencionar expresamente qué derechos se quieren suspender y qué medidas se adoptarán sobre ellos."
+    },
+    {
+      "id": "EAES-016",
+      "articulo": "art. trece",
+      "titulo": "Duración del estado de excepción: 30 días",
+      "resumen": "El estado de excepción no puede exceder de treinta días.",
+      "explicacion": "La solicitud de autorización debe indicar el ámbito territorial y la duración del estado de excepción, que no podrá exceder de treinta días. Es el doble del tope inicial de la alarma (quince días)."
+    },
+    {
+      "id": "EAES-017",
+      "articulo": "art. catorce",
+      "titulo": "Declaración de la excepción tras la autorización",
+      "resumen": "Obtenida la autorización, el Gobierno declara el estado de excepción acordando en Consejo de Ministros un decreto con el contenido autorizado por el Congreso.",
+      "explicacion": "El Congreso autoriza; el Gobierno declara. Una vez conseguida la autorización, el Gobierno acuerda en Consejo de Ministros un decreto que debe ajustarse al contenido autorizado por el Congreso de los Diputados: no puede ir más allá de lo aprobado."
+    },
+    {
+      "id": "EAES-018",
+      "articulo": "art. quince",
+      "titulo": "Prórroga del estado de excepción: 30 días",
+      "resumen": "Si persisten las circunstancias, el Gobierno puede solicitar del Congreso la prórroga de la excepción, que no puede exceder de treinta días.",
+      "explicacion": "La excepción también puede prorrogarse: si persisten las circunstancias, el Gobierno solicita del Congreso la prórroga, que tampoco podrá exceder de treinta días. El Gobierno puede además poner fin anticipado a la excepción mediante decreto en Consejo de Ministros, dando cuenta al Congreso."
+    },
+    {
+      "id": "EAES-019",
+      "articulo": "art. dieciséis",
+      "titulo": "Detención gubernativa en la excepción",
+      "resumen": "En la excepción la Autoridad gubernativa puede detener por hasta diez días a quien haya fundadas sospechas de que va a alterar el orden público, comunicándolo al juez en veinticuatro horas.",
+      "explicacion": "El estado de excepción permite una detención gubernativa reforzada: cabe detener a una persona si existen fundadas sospechas de que va a provocar alteraciones del orden público. La detención no puede exceder de diez días y debe comunicarse al juez competente en el plazo de veinticuatro horas."
+    },
+    {
+      "id": "EAES-020",
+      "articulo": "art. diecisiete",
+      "titulo": "Registros domiciliarios (suspensión del art. 18.2 CE)",
+      "resumen": "Cuando la autorización comprenda la suspensión del artículo 18.2 CE, la Autoridad gubernativa puede disponer inspecciones y registros domiciliarios.",
+      "explicacion": "Si el Congreso autoriza suspender la inviolabilidad del domicilio (artículo dieciocho, dos, de la Constitución), la Autoridad gubernativa puede disponer inspecciones y registros domiciliarios para esclarecer hechos delictivos o mantener el orden público, con las formalidades que fija el artículo."
+    },
+    {
+      "id": "EAES-021",
+      "articulo": "art. dieciocho",
+      "titulo": "Intervención de comunicaciones (suspensión del art. 18.3 CE)",
+      "resumen": "Cuando la autorización comprenda la suspensión del artículo 18.3 CE, la autoridad gubernativa puede intervenir toda clase de comunicaciones, incluidas las postales, telegráficas y telefónicas.",
+      "explicacion": "Si el Congreso autoriza suspender el secreto de las comunicaciones (artículo dieciocho, tres, de la Constitución), la autoridad gubernativa puede intervenir toda clase de comunicaciones, incluidas las postales, telegráficas y telefónicas, comunicándolo de inmediato al Juez competente por escrito motivado."
+    },
+    {
+      "id": "EAES-022",
+      "articulo": "art. veinte",
+      "titulo": "Restricción de la circulación (suspensión del art. 19 CE)",
+      "resumen": "Cuando la autorización comprenda la suspensión del artículo 19 CE, la autoridad gubernativa puede prohibir la circulación de personas y vehículos en las horas y lugares que determine.",
+      "explicacion": "Si el Congreso autoriza suspender la libertad de circulación y residencia (artículo diecinueve de la Constitución), la autoridad gubernativa puede prohibir la circulación de personas y vehículos en horas y lugares determinados y exigir la acreditación de identidad, señalando el itinerario a seguir."
+    },
+    {
+      "id": "EAES-023",
+      "articulo": "art. treinta y dos",
+      "titulo": "Estado de sitio: propuesta del Gobierno al Congreso (art. 116.4 CE)",
+      "resumen": "Ante una insurrección o acto de fuerza contra la soberanía, la integridad territorial o el orden constitucional, el Gobierno, conforme al artículo 116.4 CE, propone al Congreso la declaración del estado de sitio.",
+      "explicacion": "El sitio es el estado más grave: se reserva para una insurrección o acto de fuerza contra la soberanía o independencia de España, su integridad territorial o el ordenamiento constitucional, que no pueda resolverse por otros medios. Aquí el Gobierno solo propone; es el Congreso de los Diputados quien declara, conforme al artículo ciento dieciséis, cuatro, de la Constitución."
+    },
+    {
+      "id": "EAES-024",
+      "articulo": "art. treinta y dos",
+      "titulo": "Suspensión de garantías del detenido en el sitio (art. 17.3 CE)",
+      "resumen": "La declaración del estado de sitio puede autorizar, además de lo previsto para alarma y excepción, la suspensión temporal de las garantías jurídicas del detenido del artículo 17.3 CE.",
+      "explicacion": "El sitio suma a las medidas de la alarma y la excepción una específica: la suspensión temporal de las garantías jurídicas del detenido reconocidas en el artículo diecisiete, tres, de la Constitución. Es el único de los tres estados que puede alcanzar esas garantías del detenido."
+    },
+    {
+      "id": "EAES-025",
+      "articulo": "art. treinta y tres",
+      "titulo": "El Gobierno designa la Autoridad militar",
+      "resumen": "En el estado de sitio el Gobierno asume las facultades extraordinarias y designa la Autoridad militar que, bajo su dirección, ejecuta las medidas en el territorio afectado.",
+      "explicacion": "Declarado el sitio, el Gobierno —que dirige la política militar y de defensa conforme al artículo noventa y siete de la Constitución— asume las facultades extraordinarias y designa una Autoridad militar. Esa Autoridad militar actúa bajo la dirección del Gobierno para ejecutar las medidas en el territorio del estado de sitio."
+    },
+    {
+      "id": "EAES-026",
+      "articulo": "art. treinta y cinco",
+      "titulo": "Delitos sometidos a la Jurisdicción Militar",
+      "resumen": "En la declaración del estado de sitio el Congreso de los Diputados puede determinar los delitos que durante su vigencia quedan sometidos a la Jurisdicción Militar.",
+      "explicacion": "Una potestad singular del sitio: en la propia declaración, el Congreso de los Diputados puede determinar qué delitos quedan sometidos a la Jurisdicción Militar mientras dure el estado de sitio."
+    }
   ],
   "actividades": [
-    { "concepto_id": "EAES-001", "articulo": "art. primero", "tipo": "test", "enunciado": "¿Cuándo procede la declaración de los estados de alarma, excepción o sitio?", "opciones": ["Cuando el Gobierno lo estime políticamente oportuno", "cuando circunstancias extraordinarias hiciesen imposible el mantenimiento de la normalidad mediante los poderes ordinarios de las Autoridades competentes", "Cuando lo solicite la mayoría de las Comunidades Autónomas", "En cualquier situación de desacuerdo entre los poderes del Estado"], "indice_correcto": 1, "cotejo": "Procederá la declaración de los estados de alarma, excepción o sitio cuando circunstancias extraordinarias hiciesen imposible el mantenimiento de la normalidad mediante los poderes ordinarios de las Autoridades competentes.", "justificacion": "Art. 1.1 LO 4/1981." },
-    { "concepto_id": "EAES-002", "articulo": "art. primero", "tipo": "test", "enunciado": "¿Cómo deben ser las medidas adoptadas en estos estados y su duración?", "opciones": ["Las que el Gobierno considere convenientes durante un año", "las estrictamente indispensables para asegurar el restablecimiento de la normalidad", "Las máximas que permita la Constitución", "Ilimitadas mientras dure la emergencia"], "indice_correcto": 1, "cotejo": "Las medidas a adoptar en los estados de alarma, excepción y sitio, así como la duración de los mismos, serán en cualquier caso las estrictamente indispensables para asegurar el restablecimiento de la normalidad.", "justificacion": "Art. 1.2 LO 4/1981." },
-    { "concepto_id": "EAES-003", "articulo": "art. primero", "tipo": "test", "enunciado": "¿Qué efecto tiene la declaración de estos estados sobre los poderes del Estado?", "opciones": ["Suspende el funcionamiento del Congreso", "Traslada todos los poderes al Gobierno", "no interrumpe el normal funcionamiento de los poderes constitucionales del Estado", "Disuelve las Cortes Generales"], "indice_correcto": 2, "cotejo": "La declaración de los estados de alarma, excepción y sitio no interrumpe el normal funcionamiento de los poderes constitucionales del Estado.", "justificacion": "Art. 1.4 LO 4/1981." },
-    { "concepto_id": "EAES-004", "articulo": "art. segundo", "tipo": "test", "enunciado": "¿Cuándo entra en vigor la declaración de estos estados?", "opciones": ["A los veinte días de su publicación", "desde el instante mismo de su publicación", "Cuando lo ratifique el Congreso", "Al día siguiente de su firma por el Rey"], "indice_correcto": 1, "cotejo": "entrará en vigor desde el instante mismo de su publicación en aquél", "justificacion": "Art. 2 LO 4/1981." },
-    { "concepto_id": "EAES-005", "articulo": "art. tercero", "tipo": "test", "enunciado": "¿Qué ocurre con los actos de la Administración adoptados durante estos estados?", "opciones": ["Son inatacables por decisión del Gobierno", "Solo pueden revisarse al finalizar el estado", "serán impugnables en vía jurisdiccional", "Quedan bajo control exclusivo del Congreso"], "indice_correcto": 2, "cotejo": "Los actos y disposiciones de la Administración Pública adoptados durante la vigencia de los estados de alarma, excepción y sitio serán impugnables en vía jurisdiccional de conformidad con lo dispuesto en las leyes.", "justificacion": "Art. 3.1 LO 4/1981." },
-    { "concepto_id": "EAES-006", "articulo": "art. cuarto", "tipo": "test", "enunciado": "¿En qué precepto constitucional se ampara el Gobierno para declarar el estado de alarma?", "opciones": ["el artículo ciento dieciséis, dos, de la Constitución", "El artículo ciento dieciséis, tres, de la Constitución", "El artículo ciento dieciséis, cuatro, de la Constitución", "El artículo cincuenta y cinco de la Constitución"], "indice_correcto": 0, "cotejo": "El Gobierno, en uso de las facultades que le otorga el artículo ciento dieciséis, dos, de la Constitución podrá declarar el estado de alarma", "justificacion": "Art. 4 LO 4/1981 (art. 116.2 CE)." },
-    { "concepto_id": "EAES-007", "articulo": "art. cuarto", "tipo": "test", "enunciado": "¿Cuál de estas situaciones es un supuesto del estado de alarma?", "opciones": ["Una insurrección contra la soberanía de España", "Crisis sanitarias, tales como epidemias y situaciones de contaminación graves", "Alteraciones graves del orden público", "Un acto de fuerza contra el ordenamiento constitucional"], "indice_correcto": 1, "cotejo": "b) Crisis sanitarias, tales como epidemias y situaciones de contaminación graves.", "justificacion": "Art. 4.b) LO 4/1981." },
-    { "concepto_id": "EAES-008", "articulo": "art. quinto", "tipo": "test", "enunciado": "Si los supuestos afectan solo a una Comunidad Autónoma, ¿qué puede hacer su Presidente?", "opciones": ["Declarar directamente el estado de alarma", "podrá solicitar del Gobierno la declaración de estado de alarma", "Prorrogar la alarma por quince días", "Suspender los derechos del artículo 55 de la Constitución"], "indice_correcto": 1, "cotejo": "el Presidente de la misma, podrá solicitar del Gobierno la declaración de estado de alarma", "justificacion": "Art. 5 LO 4/1981." },
-    { "concepto_id": "EAES-009", "articulo": "art. sexto", "tipo": "test", "enunciado": "¿Mediante qué instrumento se lleva a cabo la declaración del estado de alarma?", "opciones": ["Mediante ley orgánica del Congreso", "mediante decreto acordado en Consejo de Ministros", "Mediante orden del Ministro del Interior", "Mediante acuerdo del Consejo de Estado"], "indice_correcto": 1, "cotejo": "La declaración del estado de alarma se llevará a cabo mediante decreto acordado en Consejo de Ministros.", "justificacion": "Art. 6.1 LO 4/1981." },
-    { "concepto_id": "EAES-010", "articulo": "art. sexto", "tipo": "test", "enunciado": "¿Cuál es el plazo máximo del estado de alarma sin prórroga?", "opciones": ["treinta días", "quince días", "sesenta días", "diez días"], "indice_correcto": 1, "cotejo": "los efectos del estado de alarma, que no podrá exceder de quince días. Sólo se podrá prorrogar con autorización expresa del Congreso de los Diputados", "justificacion": "Art. 6.2 LO 4/1981." },
-    { "concepto_id": "EAES-011", "articulo": "art. séptimo", "tipo": "test", "enunciado": "¿Quién es la Autoridad competente a los efectos del estado de alarma?", "opciones": ["El Ministro del Interior en todo caso", "el Gobierno o, por delegación de éste, el Presidente de la Comunidad Autónoma", "El Congreso de los Diputados", "La Autoridad militar designada al efecto"], "indice_correcto": 1, "cotejo": "la Autoridad competente será el Gobierno o, por delegación de éste, el Presidente de la Comunidad Autónoma cuando la declaración afecte exclusivamente a todo o parte del territorio de una Comunidad", "justificacion": "Art. 7 LO 4/1981." },
-    { "concepto_id": "EAES-012", "articulo": "art. octavo", "tipo": "test", "enunciado": "Declarado el estado de alarma, ¿qué debe hacer el Gobierno respecto del Congreso?", "opciones": ["Solicitarle autorización previa", "dará cuenta al Congreso de los Diputados de la declaración del estado de alarma", "Disolverlo durante la vigencia del estado", "Trasladarle todas sus competencias"], "indice_correcto": 1, "cotejo": "El Gobierno dará cuenta al Congreso de los Diputados de la declaración del estado de alarma y le suministrará la información que le sea requerida.", "justificacion": "Art. 8.1 LO 4/1981." },
-    { "concepto_id": "EAES-013", "articulo": "art. once", "tipo": "test", "enunciado": "¿Cuál de estas medidas puede acordar el decreto de declaración del estado de alarma?", "opciones": ["Suspender el secreto de las comunicaciones", "Limitar la circulación o permanencia de personas o vehículos en horas y lugares determinados", "Detener a personas hasta diez días", "Someter delitos a la Jurisdicción Militar"], "indice_correcto": 1, "cotejo": "a) Limitar la circulación o permanencia de personas o vehículos en horas y lugares determinados, o condicionarlas al cumplimiento de ciertos requisitos.", "justificacion": "Art. 11.a) LO 4/1981." },
-    { "concepto_id": "EAES-014", "articulo": "art. trece", "tipo": "test", "enunciado": "Para declarar el estado de excepción, ¿qué debe hacer previamente el Gobierno?", "opciones": ["Declararlo por sí mismo mediante decreto en Consejo de Ministros", "solicitar del Congreso de los Diputados autorización para declarar el estado de excepción", "Proponerlo a la Autoridad militar", "Consultar al Tribunal Constitucional"], "indice_correcto": 1, "cotejo": "el Gobierno, de acuerdo con el apartado tres del artículo ciento dieciséis de la Constitución, podrá solicitar del Congreso de los Diputados autorización para declarar el estado de excepción", "justificacion": "Art. 13.1 LO 4/1981 (art. 116.3 CE)." },
-    { "concepto_id": "EAES-015", "articulo": "art. trece", "tipo": "test", "enunciado": "En el estado de excepción, ¿qué derechos pueden ser objeto de suspensión?", "opciones": ["Todos los derechos del Título I de la Constitución", "los enumerados en el apartado uno del artículo cincuenta y cinco de la Constitución", "Los que decida libremente la Autoridad gubernativa", "Ninguno; solo pueden limitarse"], "indice_correcto": 1, "cotejo": "los derechos cuya suspensión se solicita, que no podrán ser otros que los enumerados en el apartado uno del artículo cincuenta y cinco de la Constitución", "justificacion": "Art. 13.2.a) LO 4/1981 (art. 55.1 CE)." },
-    { "concepto_id": "EAES-016", "articulo": "art. trece", "tipo": "test", "enunciado": "¿Cuál es la duración máxima del estado de excepción?", "opciones": ["quince días", "treinta días", "sesenta días", "noventa días"], "indice_correcto": 1, "cotejo": "así como duración del mismo, que no podrá exceder de treinta días", "justificacion": "Art. 13.2.c) LO 4/1981." },
-    { "concepto_id": "EAES-017", "articulo": "art. catorce", "tipo": "test", "enunciado": "Obtenida la autorización del Congreso, ¿cómo declara el Gobierno el estado de excepción?", "opciones": ["Mediante ley aprobada por las Cortes", "acordando para ello en Consejo de Ministros un decreto con el contenido autorizado por el Congreso de los Diputados", "Mediante bando de la Autoridad militar", "Por resolución del Ministro del Interior"], "indice_correcto": 1, "cotejo": "procederá a declarar el estado de excepción, acordando para ello en Consejo de Ministros un decreto con el contenido autorizado por el Congreso de los Diputados", "justificacion": "Art. 14 LO 4/1981." },
-    { "concepto_id": "EAES-018", "articulo": "art. quince", "tipo": "test", "enunciado": "¿Qué plazo máximo tiene la prórroga del estado de excepción?", "opciones": ["quince días", "treinta días", "cuarenta y cinco días", "sesenta días"], "indice_correcto": 1, "cotejo": "el Gobierno podrá solicitar del Congreso de los Diputados la prórroga de aquél, que no podrá exceder de treinta días", "justificacion": "Art. 15.3 LO 4/1981." },
-    { "concepto_id": "EAES-019", "articulo": "art. dieciséis", "tipo": "test", "enunciado": "Durante el estado de excepción, ¿cuánto puede durar como máximo la detención gubernativa?", "opciones": ["diez días", "veinticuatro horas", "setenta y dos horas", "cinco días"], "indice_correcto": 0, "cotejo": "La detención no podrá exceder de diez días y los detenidos disfrutarán de los derechos que les reconoce el artículo diecisiete, tres, de la Constitución.", "justificacion": "Art. 16.1 LO 4/1981." },
-    { "concepto_id": "EAES-020", "articulo": "art. diecisiete", "tipo": "test", "enunciado": "Si la autorización del Congreso comprende la suspensión del artículo 18.2 de la Constitución, ¿qué puede disponer la Autoridad gubernativa?", "opciones": ["Intervenir las comunicaciones telefónicas", "inspecciones, registros domiciliarios", "Prohibir la circulación de vehículos", "Suspender publicaciones y emisiones"], "indice_correcto": 1, "cotejo": "la Autoridad gubernativa podrá disponer inspecciones, registros domiciliarios si lo considera necesario para el esclarecimiento de los hechos presuntamente delictivos o para el mantenimiento del orden público", "justificacion": "Art. 17.1 LO 4/1981 (art. 18.2 CE)." },
-    { "concepto_id": "EAES-021", "articulo": "art. dieciocho", "tipo": "test", "enunciado": "Si la autorización del Congreso comprende la suspensión del artículo 18.3 de la Constitución, ¿qué puede hacer la autoridad gubernativa?", "opciones": ["Practicar registros domiciliarios", "intervenir toda clase de comunicaciones, incluidas las postales, telegráficas y telefónicas", "Prohibir reuniones y manifestaciones", "Detener por hasta diez días"], "indice_correcto": 1, "cotejo": "la autoridad gubernativa podrá intervenir toda clase de comunicaciones, incluidas las postales, telegráficas y telefónicas", "justificacion": "Art. 18.1 LO 4/1981 (art. 18.3 CE)." },
-    { "concepto_id": "EAES-022", "articulo": "art. veinte", "tipo": "test", "enunciado": "Si la autorización del Congreso comprende la suspensión del artículo 19 de la Constitución, ¿qué puede hacer la autoridad gubernativa?", "opciones": ["Intervenir las comunicaciones postales", "prohibir la circulación de personas y vehículos en las horas y lugares que se determine", "Incautar armas y explosivos", "Cerrar salas de espectáculos"], "indice_correcto": 1, "cotejo": "la autoridad gubernativa podrá prohibir la circulación de personas y vehículos en las horas y lugares que se determine", "justificacion": "Art. 20.1 LO 4/1981 (art. 19 CE)." },
-    { "concepto_id": "EAES-023", "articulo": "art. treinta y dos", "tipo": "test", "enunciado": "En el estado de sitio, ¿qué papel corresponde al Gobierno frente al Congreso?", "opciones": ["Declararlo directamente por decreto", "proponer al Congreso de los Diputados la declaración de estado de sitio", "Solo dar cuenta a posteriori", "Delegar la declaración en la Autoridad militar"], "indice_correcto": 1, "cotejo": "el Gobierno, de conformidad con lo dispuesto en el apartado cuatro del artículo ciento dieciséis de la Constitución, podrá proponer al Congreso de los Diputados la declaración de estado de sitio", "justificacion": "Art. 32.1 LO 4/1981 (art. 116.4 CE)." },
-    { "concepto_id": "EAES-024", "articulo": "art. treinta y dos", "tipo": "test", "enunciado": "¿Qué medida específica puede autorizar la declaración del estado de sitio, además de lo previsto para alarma y excepción?", "opciones": ["El cierre de las Cortes Generales", "la suspensión temporal de las garantías jurídicas del detenido", "La disolución del Tribunal Constitucional", "La supresión del derecho a indemnización"], "indice_correcto": 1, "cotejo": "la suspensión temporal de las garantías jurídicas del detenido que se reconocen en el apartado tres del artículo diecisiete de la Constitución", "justificacion": "Art. 32.3 LO 4/1981 (art. 17.3 CE)." },
-    { "concepto_id": "EAES-025", "articulo": "art. treinta y tres", "tipo": "test", "enunciado": "En virtud de la declaración del estado de sitio, ¿a quién designa el Gobierno para ejecutar las medidas en el territorio afectado?", "opciones": ["Al Presidente de la Comunidad Autónoma", "la Autoridad militar", "Al Ministro de Defensa", "Al Congreso de los Diputados"], "indice_correcto": 1, "cotejo": "el Gobierno designará la Autoridad militar que, bajo su dirección, haya de ejecutar las medidas que procedan en el territorio a que el estado de sitio se refiera", "justificacion": "Art. 33.2 LO 4/1981." },
-    { "concepto_id": "EAES-026", "articulo": "art. treinta y cinco", "tipo": "test", "enunciado": "En la declaración del estado de sitio, ¿qué puede determinar el Congreso de los Diputados?", "opciones": ["La cuantía de las sanciones económicas", "los delitos que durante su vigencia quedan sometidos a la Jurisdicción Militar", "El cese de las Autoridades civiles", "La duración de la prórroga del estado de alarma"], "indice_correcto": 1, "cotejo": "el Congreso de los Diputados podrá determinar los delitos que durante su vigencia quedan sometidos a la Jurisdicción Militar", "justificacion": "Art. 35 LO 4/1981." }
+    {
+      "concepto_id": "EAES-001",
+      "articulo": "art. primero",
+      "tipo": "test",
+      "enunciado": "¿Cuándo procede la declaración de los estados de alarma, excepción o sitio?",
+      "opciones": [
+        "Cuando el Gobierno lo estime políticamente oportuno",
+        "cuando circunstancias extraordinarias hiciesen imposible el mantenimiento de la normalidad mediante los poderes ordinarios de las Autoridades competentes",
+        "Cuando lo solicite la mayoría de las Comunidades Autónomas",
+        "En cualquier situación de desacuerdo entre los poderes del Estado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Procederá la declaración de los estados de alarma, excepción o sitio cuando circunstancias extraordinarias hiciesen imposible el mantenimiento de la normalidad mediante los poderes ordinarios de las Autoridades competentes.",
+      "justificacion": "Art. 1.1 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-002",
+      "articulo": "art. primero",
+      "tipo": "test",
+      "enunciado": "¿Cómo deben ser las medidas adoptadas en estos estados y su duración?",
+      "opciones": [
+        "Las que el Gobierno considere convenientes durante un año",
+        "las estrictamente indispensables para asegurar el restablecimiento de la normalidad",
+        "Las máximas que permita la Constitución",
+        "Ilimitadas mientras dure la emergencia"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las medidas a adoptar en los estados de alarma, excepción y sitio, así como la duración de los mismos, serán en cualquier caso las estrictamente indispensables para asegurar el restablecimiento de la normalidad.",
+      "justificacion": "Art. 1.2 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-003",
+      "articulo": "art. primero",
+      "tipo": "test",
+      "enunciado": "¿Qué efecto tiene la declaración de estos estados sobre los poderes del Estado?",
+      "opciones": [
+        "Suspende el funcionamiento del Congreso",
+        "Traslada todos los poderes al Gobierno",
+        "no interrumpe el normal funcionamiento de los poderes constitucionales del Estado",
+        "Disuelve las Cortes Generales"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "La declaración de los estados de alarma, excepción y sitio no interrumpe el normal funcionamiento de los poderes constitucionales del Estado.",
+      "justificacion": "Art. 1.4 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-004",
+      "articulo": "art. segundo",
+      "tipo": "test",
+      "enunciado": "¿Cuándo entra en vigor la declaración de estos estados?",
+      "opciones": [
+        "A los veinte días de su publicación",
+        "desde el instante mismo de su publicación",
+        "Cuando lo ratifique el Congreso",
+        "Al día siguiente de su firma por el Rey"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "entrará en vigor desde el instante mismo de su publicación en aquél",
+      "justificacion": "Art. 2 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-005",
+      "articulo": "art. tercero",
+      "tipo": "test",
+      "enunciado": "¿Qué ocurre con los actos de la Administración adoptados durante estos estados?",
+      "opciones": [
+        "Son inatacables por decisión del Gobierno",
+        "Solo pueden revisarse al finalizar el estado",
+        "serán impugnables en vía jurisdiccional",
+        "Quedan bajo control exclusivo del Congreso"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Los actos y disposiciones de la Administración Pública adoptados durante la vigencia de los estados de alarma, excepción y sitio serán impugnables en vía jurisdiccional de conformidad con lo dispuesto en las leyes.",
+      "justificacion": "Art. 3.1 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-006",
+      "articulo": "art. cuarto",
+      "tipo": "test",
+      "enunciado": "¿En qué precepto constitucional se ampara el Gobierno para declarar el estado de alarma?",
+      "opciones": [
+        "el artículo ciento dieciséis, dos, de la Constitución",
+        "El artículo ciento dieciséis, tres, de la Constitución",
+        "El artículo ciento dieciséis, cuatro, de la Constitución",
+        "El artículo cincuenta y cinco de la Constitución"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Gobierno, en uso de las facultades que le otorga el artículo ciento dieciséis, dos, de la Constitución podrá declarar el estado de alarma",
+      "justificacion": "Art. 4 LO 4/1981 (art. 116.2 CE)."
+    },
+    {
+      "concepto_id": "EAES-007",
+      "articulo": "art. cuarto",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas situaciones es un supuesto del estado de alarma?",
+      "opciones": [
+        "Una insurrección contra la soberanía de España",
+        "Crisis sanitarias, tales como epidemias y situaciones de contaminación graves",
+        "Alteraciones graves del orden público",
+        "Un acto de fuerza contra el ordenamiento constitucional"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "b) Crisis sanitarias, tales como epidemias y situaciones de contaminación graves.",
+      "justificacion": "Art. 4.b) LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-008",
+      "articulo": "art. quinto",
+      "tipo": "test",
+      "enunciado": "Si los supuestos afectan solo a una Comunidad Autónoma, ¿qué puede hacer su Presidente?",
+      "opciones": [
+        "Declarar directamente el estado de alarma",
+        "podrá solicitar del Gobierno la declaración de estado de alarma",
+        "Prorrogar la alarma por quince días",
+        "Suspender los derechos del artículo 55 de la Constitución"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el Presidente de la misma, podrá solicitar del Gobierno la declaración de estado de alarma",
+      "justificacion": "Art. 5 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-009",
+      "articulo": "art. sexto",
+      "tipo": "test",
+      "enunciado": "¿Mediante qué instrumento se lleva a cabo la declaración del estado de alarma?",
+      "opciones": [
+        "Mediante ley orgánica del Congreso",
+        "mediante decreto acordado en Consejo de Ministros",
+        "Mediante orden del Ministro del Interior",
+        "Mediante acuerdo del Consejo de Estado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La declaración del estado de alarma se llevará a cabo mediante decreto acordado en Consejo de Ministros.",
+      "justificacion": "Art. 6.1 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-010",
+      "articulo": "art. sexto",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el plazo máximo del estado de alarma sin prórroga?",
+      "opciones": [
+        "treinta días",
+        "quince días",
+        "sesenta días",
+        "diez días"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "los efectos del estado de alarma, que no podrá exceder de quince días. Sólo se podrá prorrogar con autorización expresa del Congreso de los Diputados",
+      "justificacion": "Art. 6.2 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-011",
+      "articulo": "art. séptimo",
+      "tipo": "test",
+      "enunciado": "¿Quién es la Autoridad competente a los efectos del estado de alarma?",
+      "opciones": [
+        "El Ministro del Interior en todo caso",
+        "el Gobierno o, por delegación de éste, el Presidente de la Comunidad Autónoma",
+        "El Congreso de los Diputados",
+        "La Autoridad militar designada al efecto"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "la Autoridad competente será el Gobierno o, por delegación de éste, el Presidente de la Comunidad Autónoma cuando la declaración afecte exclusivamente a todo o parte del territorio de una Comunidad",
+      "justificacion": "Art. 7 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-012",
+      "articulo": "art. octavo",
+      "tipo": "test",
+      "enunciado": "Declarado el estado de alarma, ¿qué debe hacer el Gobierno respecto del Congreso?",
+      "opciones": [
+        "Solicitarle autorización previa",
+        "dará cuenta al Congreso de los Diputados de la declaración del estado de alarma",
+        "Disolverlo durante la vigencia del estado",
+        "Trasladarle todas sus competencias"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El Gobierno dará cuenta al Congreso de los Diputados de la declaración del estado de alarma y le suministrará la información que le sea requerida.",
+      "justificacion": "Art. 8.1 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-013",
+      "articulo": "art. once",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas medidas puede acordar el decreto de declaración del estado de alarma?",
+      "opciones": [
+        "Suspender el secreto de las comunicaciones",
+        "Limitar la circulación o permanencia de personas o vehículos en horas y lugares determinados",
+        "Detener a personas hasta diez días",
+        "Someter delitos a la Jurisdicción Militar"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "a) Limitar la circulación o permanencia de personas o vehículos en horas y lugares determinados, o condicionarlas al cumplimiento de ciertos requisitos.",
+      "justificacion": "Art. 11.a) LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-014",
+      "articulo": "art. trece",
+      "tipo": "test",
+      "enunciado": "Para declarar el estado de excepción, ¿qué debe hacer previamente el Gobierno?",
+      "opciones": [
+        "Declararlo por sí mismo mediante decreto en Consejo de Ministros",
+        "solicitar del Congreso de los Diputados autorización para declarar el estado de excepción",
+        "Proponerlo a la Autoridad militar",
+        "Consultar al Tribunal Constitucional"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el Gobierno, de acuerdo con el apartado tres del artículo ciento dieciséis de la Constitución, podrá solicitar del Congreso de los Diputados autorización para declarar el estado de excepción",
+      "justificacion": "Art. 13.1 LO 4/1981 (art. 116.3 CE)."
+    },
+    {
+      "concepto_id": "EAES-015",
+      "articulo": "art. trece",
+      "tipo": "test",
+      "enunciado": "En el estado de excepción, ¿qué derechos pueden ser objeto de suspensión?",
+      "opciones": [
+        "Todos los derechos del Título I de la Constitución",
+        "los enumerados en el apartado uno del artículo cincuenta y cinco de la Constitución",
+        "Los que decida libremente la Autoridad gubernativa",
+        "Ninguno; solo pueden limitarse"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "los derechos cuya suspensión se solicita, que no podrán ser otros que los enumerados en el apartado uno del artículo cincuenta y cinco de la Constitución",
+      "justificacion": "Art. 13.2.a) LO 4/1981 (art. 55.1 CE)."
+    },
+    {
+      "concepto_id": "EAES-016",
+      "articulo": "art. trece",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la duración máxima del estado de excepción?",
+      "opciones": [
+        "quince días",
+        "treinta días",
+        "sesenta días",
+        "noventa días"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "así como duración del mismo, que no podrá exceder de treinta días",
+      "justificacion": "Art. 13.2.c) LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-017",
+      "articulo": "art. catorce",
+      "tipo": "test",
+      "enunciado": "Obtenida la autorización del Congreso, ¿cómo declara el Gobierno el estado de excepción?",
+      "opciones": [
+        "Mediante ley aprobada por las Cortes",
+        "acordando para ello en Consejo de Ministros un decreto con el contenido autorizado por el Congreso de los Diputados",
+        "Mediante bando de la Autoridad militar",
+        "Por resolución del Ministro del Interior"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "procederá a declarar el estado de excepción, acordando para ello en Consejo de Ministros un decreto con el contenido autorizado por el Congreso de los Diputados",
+      "justificacion": "Art. 14 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-018",
+      "articulo": "art. quince",
+      "tipo": "test",
+      "enunciado": "¿Qué plazo máximo tiene la prórroga del estado de excepción?",
+      "opciones": [
+        "quince días",
+        "treinta días",
+        "cuarenta y cinco días",
+        "sesenta días"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el Gobierno podrá solicitar del Congreso de los Diputados la prórroga de aquél, que no podrá exceder de treinta días",
+      "justificacion": "Art. 15.3 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-019",
+      "articulo": "art. dieciséis",
+      "tipo": "test",
+      "enunciado": "Durante el estado de excepción, ¿cuánto puede durar como máximo la detención gubernativa?",
+      "opciones": [
+        "diez días",
+        "veinticuatro horas",
+        "setenta y dos horas",
+        "cinco días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La detención no podrá exceder de diez días y los detenidos disfrutarán de los derechos que les reconoce el artículo diecisiete, tres, de la Constitución.",
+      "justificacion": "Art. 16.1 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-020",
+      "articulo": "art. diecisiete",
+      "tipo": "test",
+      "enunciado": "Si la autorización del Congreso comprende la suspensión del artículo 18.2 de la Constitución, ¿qué puede disponer la Autoridad gubernativa?",
+      "opciones": [
+        "Intervenir las comunicaciones telefónicas",
+        "inspecciones, registros domiciliarios",
+        "Prohibir la circulación de vehículos",
+        "Suspender publicaciones y emisiones"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "la Autoridad gubernativa podrá disponer inspecciones, registros domiciliarios si lo considera necesario para el esclarecimiento de los hechos presuntamente delictivos o para el mantenimiento del orden público",
+      "justificacion": "Art. 17.1 LO 4/1981 (art. 18.2 CE)."
+    },
+    {
+      "concepto_id": "EAES-021",
+      "articulo": "art. dieciocho",
+      "tipo": "test",
+      "enunciado": "Si la autorización del Congreso comprende la suspensión del artículo 18.3 de la Constitución, ¿qué puede hacer la autoridad gubernativa?",
+      "opciones": [
+        "Practicar registros domiciliarios",
+        "intervenir toda clase de comunicaciones, incluidas las postales, telegráficas y telefónicas",
+        "Prohibir reuniones y manifestaciones",
+        "Detener por hasta diez días"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "la autoridad gubernativa podrá intervenir toda clase de comunicaciones, incluidas las postales, telegráficas y telefónicas",
+      "justificacion": "Art. 18.1 LO 4/1981 (art. 18.3 CE)."
+    },
+    {
+      "concepto_id": "EAES-022",
+      "articulo": "art. veinte",
+      "tipo": "test",
+      "enunciado": "Si la autorización del Congreso comprende la suspensión del artículo 19 de la Constitución, ¿qué puede hacer la autoridad gubernativa?",
+      "opciones": [
+        "Intervenir las comunicaciones postales",
+        "prohibir la circulación de personas y vehículos en las horas y lugares que se determine",
+        "Incautar armas y explosivos",
+        "Cerrar salas de espectáculos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "la autoridad gubernativa podrá prohibir la circulación de personas y vehículos en las horas y lugares que se determine",
+      "justificacion": "Art. 20.1 LO 4/1981 (art. 19 CE)."
+    },
+    {
+      "concepto_id": "EAES-023",
+      "articulo": "art. treinta y dos",
+      "tipo": "test",
+      "enunciado": "En el estado de sitio, ¿qué papel corresponde al Gobierno frente al Congreso?",
+      "opciones": [
+        "Declararlo directamente por decreto",
+        "proponer al Congreso de los Diputados la declaración de estado de sitio",
+        "Solo dar cuenta a posteriori",
+        "Delegar la declaración en la Autoridad militar"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el Gobierno, de conformidad con lo dispuesto en el apartado cuatro del artículo ciento dieciséis de la Constitución, podrá proponer al Congreso de los Diputados la declaración de estado de sitio",
+      "justificacion": "Art. 32.1 LO 4/1981 (art. 116.4 CE)."
+    },
+    {
+      "concepto_id": "EAES-024",
+      "articulo": "art. treinta y dos",
+      "tipo": "test",
+      "enunciado": "¿Qué medida específica puede autorizar la declaración del estado de sitio, además de lo previsto para alarma y excepción?",
+      "opciones": [
+        "El cierre de las Cortes Generales",
+        "la suspensión temporal de las garantías jurídicas del detenido",
+        "La disolución del Tribunal Constitucional",
+        "La supresión del derecho a indemnización"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "la suspensión temporal de las garantías jurídicas del detenido que se reconocen en el apartado tres del artículo diecisiete de la Constitución",
+      "justificacion": "Art. 32.3 LO 4/1981 (art. 17.3 CE)."
+    },
+    {
+      "concepto_id": "EAES-025",
+      "articulo": "art. treinta y tres",
+      "tipo": "test",
+      "enunciado": "En virtud de la declaración del estado de sitio, ¿a quién designa el Gobierno para ejecutar las medidas en el territorio afectado?",
+      "opciones": [
+        "Al Presidente de la Comunidad Autónoma",
+        "la Autoridad militar",
+        "Al Ministro de Defensa",
+        "Al Congreso de los Diputados"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el Gobierno designará la Autoridad militar que, bajo su dirección, haya de ejecutar las medidas que procedan en el territorio a que el estado de sitio se refiera",
+      "justificacion": "Art. 33.2 LO 4/1981."
+    },
+    {
+      "concepto_id": "EAES-026",
+      "articulo": "art. treinta y cinco",
+      "tipo": "test",
+      "enunciado": "En la declaración del estado de sitio, ¿qué puede determinar el Congreso de los Diputados?",
+      "opciones": [
+        "La cuantía de las sanciones económicas",
+        "los delitos que durante su vigencia quedan sometidos a la Jurisdicción Militar",
+        "El cese de las Autoridades civiles",
+        "La duración de la prórroga del estado de alarma"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el Congreso de los Diputados podrá determinar los delitos que durante su vigencia quedan sometidos a la Jurisdicción Militar",
+      "justificacion": "Art. 35 LO 4/1981."
+    }
   ],
   "relaciones": [
-    { "origen": "EAES-002", "destino": "EAES-001", "tipo": "desarrolla", "justificacion": "El principio de proporcionalidad (art. 1.2) concreta el presupuesto habilitante común (art. 1.1)." },
-    { "origen": "EAES-003", "destino": "EAES-001", "tipo": "desarrolla", "justificacion": "La garantía de continuidad de los poderes del Estado (art. 1.4) desarrolla el régimen común del art. 1." },
-    { "origen": "EAES-004", "destino": "EAES-001", "tipo": "desarrolla", "justificacion": "La publicación y entrada en vigor (art. 2) desarrolla el régimen común de la declaración." },
-    { "origen": "EAES-005", "destino": "EAES-001", "tipo": "desarrolla", "justificacion": "Las garantías de impugnación e indemnización (art. 3) desarrollan el régimen común de los tres estados." },
-    { "origen": "EAES-007", "destino": "EAES-006", "tipo": "desarrolla", "justificacion": "Los supuestos del art. 4 concretan cuándo el Gobierno puede declarar la alarma." },
-    { "origen": "EAES-008", "destino": "EAES-006", "tipo": "desarrolla", "justificacion": "La solicitud del Presidente autonómico (art. 5) desarrolla el régimen de declaración de la alarma." },
-    { "origen": "EAES-009", "destino": "EAES-006", "tipo": "desarrolla", "justificacion": "La forma de decreto (art. 6.1) concreta cómo se declara la alarma." },
-    { "origen": "EAES-010", "destino": "EAES-009", "tipo": "desarrolla", "justificacion": "El plazo de 15 días y la prórroga (art. 6.2) desarrollan el contenido del decreto de alarma." },
-    { "origen": "EAES-011", "destino": "EAES-006", "tipo": "desarrolla", "justificacion": "La Autoridad competente (art. 7) desarrolla el régimen del estado de alarma." },
-    { "origen": "EAES-012", "destino": "EAES-006", "tipo": "desarrolla", "justificacion": "El deber de dar cuenta al Congreso (art. 8) desarrolla el control de la alarma." },
-    { "origen": "EAES-013", "destino": "EAES-006", "tipo": "desarrolla", "justificacion": "Las medidas del art. 11 concretan los efectos del estado de alarma." },
-    { "origen": "EAES-015", "destino": "EAES-014", "tipo": "desarrolla", "justificacion": "Los derechos suspendibles (art. 13.2.a) concretan el contenido de la solicitud de excepción." },
-    { "origen": "EAES-016", "destino": "EAES-014", "tipo": "desarrolla", "justificacion": "La duración máxima (art. 13.2.c) desarrolla el régimen de la excepción." },
-    { "origen": "EAES-017", "destino": "EAES-014", "tipo": "desarrolla", "justificacion": "La declaración por decreto tras la autorización (art. 14) concreta el procedimiento de la excepción." },
-    { "origen": "EAES-018", "destino": "EAES-016", "tipo": "desarrolla", "justificacion": "La prórroga de 30 días (art. 15.3) desarrolla el régimen de duración de la excepción." },
-    { "origen": "EAES-019", "destino": "EAES-014", "tipo": "desarrolla", "justificacion": "La detención gubernativa (art. 16) es una de las medidas del estado de excepción." },
-    { "origen": "EAES-020", "destino": "EAES-015", "tipo": "desarrolla", "justificacion": "Los registros domiciliarios (art. 17) concretan la suspensión de derechos del art. 13.2.a." },
-    { "origen": "EAES-021", "destino": "EAES-015", "tipo": "desarrolla", "justificacion": "La intervención de comunicaciones (art. 18) concreta la suspensión de derechos de la excepción." },
-    { "origen": "EAES-022", "destino": "EAES-015", "tipo": "desarrolla", "justificacion": "La restricción de circulación (art. 20) concreta la suspensión de derechos de la excepción." },
-    { "origen": "EAES-023", "destino": "EAES-014", "tipo": "remite", "justificacion": "El estado de sitio (art. 32) se remite a lo previsto para el estado de excepción, al que añade medidas." },
-    { "origen": "EAES-024", "destino": "EAES-023", "tipo": "desarrolla", "justificacion": "La suspensión de las garantías del detenido (art. 32.3) concreta el contenido del estado de sitio." },
-    { "origen": "EAES-025", "destino": "EAES-023", "tipo": "desarrolla", "justificacion": "La designación de la Autoridad militar (art. 33) desarrolla los efectos del estado de sitio." },
-    { "origen": "EAES-026", "destino": "EAES-023", "tipo": "desarrolla", "justificacion": "La determinación de delitos a la Jurisdicción Militar (art. 35) desarrolla el régimen del estado de sitio." }
+    {
+      "origen": "EAES-002",
+      "destino": "EAES-001",
+      "tipo": "desarrolla",
+      "justificacion": "El principio de proporcionalidad (art. 1.2) concreta el presupuesto habilitante común (art. 1.1)."
+    },
+    {
+      "origen": "EAES-003",
+      "destino": "EAES-001",
+      "tipo": "desarrolla",
+      "justificacion": "La garantía de continuidad de los poderes del Estado (art. 1.4) desarrolla el régimen común del art. 1."
+    },
+    {
+      "origen": "EAES-004",
+      "destino": "EAES-001",
+      "tipo": "desarrolla",
+      "justificacion": "La publicación y entrada en vigor (art. 2) desarrolla el régimen común de la declaración."
+    },
+    {
+      "origen": "EAES-005",
+      "destino": "EAES-001",
+      "tipo": "desarrolla",
+      "justificacion": "Las garantías de impugnación e indemnización (art. 3) desarrollan el régimen común de los tres estados."
+    },
+    {
+      "origen": "EAES-007",
+      "destino": "EAES-006",
+      "tipo": "desarrolla",
+      "justificacion": "Los supuestos del art. 4 concretan cuándo el Gobierno puede declarar la alarma."
+    },
+    {
+      "origen": "EAES-008",
+      "destino": "EAES-006",
+      "tipo": "desarrolla",
+      "justificacion": "La solicitud del Presidente autonómico (art. 5) desarrolla el régimen de declaración de la alarma."
+    },
+    {
+      "origen": "EAES-009",
+      "destino": "EAES-006",
+      "tipo": "desarrolla",
+      "justificacion": "La forma de decreto (art. 6.1) concreta cómo se declara la alarma."
+    },
+    {
+      "origen": "EAES-010",
+      "destino": "EAES-009",
+      "tipo": "desarrolla",
+      "justificacion": "El plazo de 15 días y la prórroga (art. 6.2) desarrollan el contenido del decreto de alarma."
+    },
+    {
+      "origen": "EAES-011",
+      "destino": "EAES-006",
+      "tipo": "desarrolla",
+      "justificacion": "La Autoridad competente (art. 7) desarrolla el régimen del estado de alarma."
+    },
+    {
+      "origen": "EAES-012",
+      "destino": "EAES-006",
+      "tipo": "desarrolla",
+      "justificacion": "El deber de dar cuenta al Congreso (art. 8) desarrolla el control de la alarma."
+    },
+    {
+      "origen": "EAES-013",
+      "destino": "EAES-006",
+      "tipo": "desarrolla",
+      "justificacion": "Las medidas del art. 11 concretan los efectos del estado de alarma."
+    },
+    {
+      "origen": "EAES-015",
+      "destino": "EAES-014",
+      "tipo": "desarrolla",
+      "justificacion": "Los derechos suspendibles (art. 13.2.a) concretan el contenido de la solicitud de excepción."
+    },
+    {
+      "origen": "EAES-016",
+      "destino": "EAES-014",
+      "tipo": "desarrolla",
+      "justificacion": "La duración máxima (art. 13.2.c) desarrolla el régimen de la excepción."
+    },
+    {
+      "origen": "EAES-017",
+      "destino": "EAES-014",
+      "tipo": "desarrolla",
+      "justificacion": "La declaración por decreto tras la autorización (art. 14) concreta el procedimiento de la excepción."
+    },
+    {
+      "origen": "EAES-018",
+      "destino": "EAES-016",
+      "tipo": "desarrolla",
+      "justificacion": "La prórroga de 30 días (art. 15.3) desarrolla el régimen de duración de la excepción."
+    },
+    {
+      "origen": "EAES-019",
+      "destino": "EAES-014",
+      "tipo": "desarrolla",
+      "justificacion": "La detención gubernativa (art. 16) es una de las medidas del estado de excepción."
+    },
+    {
+      "origen": "EAES-020",
+      "destino": "EAES-015",
+      "tipo": "desarrolla",
+      "justificacion": "Los registros domiciliarios (art. 17) concretan la suspensión de derechos del art. 13.2.a."
+    },
+    {
+      "origen": "EAES-021",
+      "destino": "EAES-015",
+      "tipo": "desarrolla",
+      "justificacion": "La intervención de comunicaciones (art. 18) concreta la suspensión de derechos de la excepción."
+    },
+    {
+      "origen": "EAES-022",
+      "destino": "EAES-015",
+      "tipo": "desarrolla",
+      "justificacion": "La restricción de circulación (art. 20) concreta la suspensión de derechos de la excepción."
+    },
+    {
+      "origen": "EAES-023",
+      "destino": "EAES-014",
+      "tipo": "remite",
+      "justificacion": "El estado de sitio (art. 32) se remite a lo previsto para el estado de excepción, al que añade medidas."
+    },
+    {
+      "origen": "EAES-024",
+      "destino": "EAES-023",
+      "tipo": "desarrolla",
+      "justificacion": "La suspensión de las garantías del detenido (art. 32.3) concreta el contenido del estado de sitio."
+    },
+    {
+      "origen": "EAES-025",
+      "destino": "EAES-023",
+      "tipo": "desarrolla",
+      "justificacion": "La designación de la Autoridad militar (art. 33) desarrolla los efectos del estado de sitio."
+    },
+    {
+      "origen": "EAES-026",
+      "destino": "EAES-023",
+      "tipo": "desarrolla",
+      "justificacion": "La determinación de delitos a la Jurisdicción Militar (art. 35) desarrolla el régimen del estado de sitio."
+    }
   ]
 }

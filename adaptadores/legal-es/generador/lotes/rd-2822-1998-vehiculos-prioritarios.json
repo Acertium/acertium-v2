@@ -4,7 +4,7 @@
     "norma": "Real Decreto 2822/1998, por el que se aprueba el Reglamento General de Vehículos",
     "referencia_boe": "BOE-A-1999-1826",
     "convocatoria": "policia-nacional-2026",
-    "tema": "Tema 43 — El vehículo prioritario: definición y señales de emergencia; señales en los vehículos (Reglamento General de Vehículos)"
+    "tema": "Tema 43 — El vehículo prioritario: definición, facultades de sus conductores, comportamiento de los demás conductores, conducción en situación de emergencia y utilización de las señales de emergencia"
   },
   "fuentes": {
     "Condiciones técnicas de los vehículos": "5. Deben estar provistos de un mecanismo adecuado que permita al conductor mantener la dirección del vehículo y modificarla con facilidad, rapidez y seguridad. 6. Todo vehículo de motor, con excepción de las motocicletas, de los motocultores conducidos a pie y de los vehículos de tres ruedas simétricas con respecto al plano longitudinal medio del vehículo, deberá estar provisto de un dispositivo que, manejado desde el puesto de conducción y accionado por el motor, permita la marcha atrás del vehículo. 7. Todo vehículo de motor, excepto los motocultores conducidos a pie, estará provisto de un aparato productor de señales acústicas que emita un sonido continuo, uniforme y de suficiente intensidad. Sólo en los vehículos que tengan el carácter de prioritarios se instalarán aparatos emisores de señales acústicas especiales, siempre que estén debidamente autorizados por el órgano competente en materia de industria. 11. Todo vehículo de motor capaz de alcanzar en llano una velocidad superior a los 40 kilómetros por hora deberá estar provisto de un indicador de velocidad en kilómetros por hora. 13. Los automóviles deberán llevar instalados cinturones de seguridad u otros sistemas de retención homologados, si así lo dispone la reglamentación que se recoge en el anexo I, todo ello según su categoría y de acuerdo con lo dispuesto en la citada reglamentación. 15. Los automóviles, si así lo dispone la reglamentación que se recoge en el anexo I, deberán estar provistos de un dispositivo contra su utilización no autorizada que permita poner fuera de servicio o bloquear un órgano esencial del vehículo a partir del momento en que éste quede estacionado, debiendo cumplir las prescripciones establecidas en la reglamentación que se recoge en el anexo anteriormente indicado.",
@@ -17,200 +17,675 @@
     "Anexo XVIII · Contraseñas de vehículos del Estado": "ET, FN y EA: Para vehículos pertenecientes al Ministerio de Defensa, correspondientes, respectivamente al Ejército de Tierra, Armada y Ejército del Aire. PME: Para los del Parque Móvil del Estado. CNP: Para los de la Dirección General de la Policía y de la Guardia Civil, adscritos al ámbito del Cuerpo Nacional de Policía. PGC: Para los de la Dirección General de la Policía y de la Guardia Civil, adscritos al ámbito del Cuerpo de la Guardia Civil. FAE: Para los vehículos al servicio de los Cuarteles Generales Militares Internacionales de la OTAN matriculados en España."
   },
   "conceptos": [
-    { "id": "RGV-001", "articulo": "Condiciones técnicas de los vehículos", "titulo": "Dispositivo de marcha atrás y sus excepciones", "resumen": "Todo vehículo de motor debe llevar un dispositivo que permita la marcha atrás, salvo las motocicletas, los motocultores conducidos a pie y los vehículos de tres ruedas simétricas.", "explicacion": "La regla general es que cualquier vehículo de motor lleve un mecanismo, accionado desde el puesto de conducción, para poder ir marcha atrás. La norma exceptúa expresamente tres tipos: las motocicletas, los motocultores que se conducen a pie y los vehículos de tres ruedas simétricas respecto al plano longitudinal. En esos casos no se exige dicho dispositivo." },
-    { "id": "RGV-002", "articulo": "Condiciones técnicas de los vehículos", "titulo": "Aparato productor de señales acústicas (claxon)", "resumen": "Todo vehículo de motor, salvo los motocultores conducidos a pie, llevará un aparato productor de señales acústicas que emita un sonido continuo, uniforme y de suficiente intensidad.", "explicacion": "El claxon común obligatorio debe cumplir tres notas: sonido continuo (no a golpes), uniforme (siempre igual) y de suficiente intensidad (que se oiga). Es el aparato acústico normal que llevan todos los vehículos de motor, distinto de las señales acústicas especiales de los prioritarios." },
-    { "id": "RGV-003", "articulo": "Condiciones técnicas de los vehículos", "titulo": "Señales acústicas especiales: solo prioritarios y con autorización de industria", "resumen": "Los aparatos emisores de señales acústicas especiales solo se instalan en vehículos con carácter de prioritarios, y deben estar debidamente autorizados por el órgano competente en materia de industria.", "explicacion": "La sirena especial no la puede montar cualquiera: solo los vehículos que tienen carácter de prioritarios pueden llevar aparatos de señales acústicas especiales, y aun así necesitan autorización del órgano competente en materia de industria. Así se controla quién puede usar realmente ese sonido especial." },
-    { "id": "RGV-004", "articulo": "Condiciones técnicas de los vehículos", "titulo": "Indicador de velocidad obligatorio por encima de 40 km/h", "resumen": "Todo vehículo de motor capaz de alcanzar en llano una velocidad superior a los 40 kilómetros por hora debe llevar un indicador de velocidad en kilómetros por hora.", "explicacion": "El velocímetro es obligatorio para los vehículos que en llano pueden superar los 40 km/h. Los que no llegan a esa velocidad quedan fuera de la exigencia. El indicador debe marcar la velocidad en kilómetros por hora." },
-    { "id": "RGV-005", "articulo": "Condiciones técnicas de los vehículos", "titulo": "Dispositivo contra la utilización no autorizada", "resumen": "Los automóviles deben llevar, si así lo dispone el anexo I, un dispositivo contra su utilización no autorizada que ponga fuera de servicio o bloquee un órgano esencial del vehículo al quedar estacionado.", "explicacion": "Es el sistema antirrobo o antiuso: cuando el coche queda estacionado, un dispositivo debe poder inutilizar o bloquear un órgano esencial del vehículo para impedir que lo use quien no está autorizado. Su exigencia depende de lo que fije la reglamentación del anexo I." },
-    { "id": "RGV-006", "articulo": "Artículo 27. Matriculación única. Excepciones.", "titulo": "La matriculación ordinaria es única para cada vehículo", "resumen": "Como regla general, la matriculación ordinaria es única para cada vehículo.", "explicacion": "Cada vehículo tiene una sola matrícula ordinaria: es el principio de matrícula única. El propio artículo recoge después las excepciones tasadas en que puede concederse una nueva matrícula distinta." },
-    { "id": "RGV-007", "articulo": "Artículo 27. Matriculación única. Excepciones.", "titulo": "Vehículos del Estado: matrícula oficial", "resumen": "Los vehículos pertenecientes al Estado deberán tener una matrícula oficial, y podrán ser objeto además de matriculación ordinaria.", "explicacion": "Los vehículos del Estado llevan matrícula oficial de forma obligatoria. Además, esa matrícula oficial no impide que puedan someterse también a la matriculación ordinaria; ambas son compatibles." },
-    { "id": "RGV-008", "articulo": "Artículo 27. Matriculación única. Excepciones.", "titulo": "Policía de una Comunidad Autónoma: placas propias", "resumen": "Los vehículos adscritos al Cuerpo de Policía de una Comunidad Autónoma pueden usar, en su ámbito, placas de matrícula con contraseña y numeración propias, sin perjuicio de su matriculación ordinaria.", "explicacion": "Las policías autonómicas pueden circular por su comunidad con placas de contraseña y numeración propias. Esto no sustituye a la matrícula ordinaria en la Jefatura de Tráfico correspondiente, sino que se añade a ella." },
-    { "id": "RGV-009", "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.", "titulo": "Permiso de museos: plazo improrrogable de un año", "resumen": "Los permisos temporales para vehículos de museos y colecciones museográficas se conceden por el plazo improrrogable de un año, contado desde el día primero del mes siguiente al de su expedición.", "explicacion": "El permiso temporal de estos vehículos dura como máximo un año y no se puede prorrogar. El plazo empieza a contar desde el día primero del mes siguiente a la fecha en que se expidió el permiso." },
-    { "id": "RGV-010", "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.", "titulo": "Entrega de permisos y placas en cinco días", "resumen": "Al terminar la validez, los titulares deben entregar los permisos y las placas en una Jefatura de Tráfico dentro de los cinco días siguientes.", "explicacion": "Cuando caduca el permiso, el titular no puede quedarse con la documentación ni las placas: tiene cinco días desde que termina la validez para entregarlas en una Jefatura de Tráfico." },
-    { "id": "RGV-011", "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.", "titulo": "El permiso ampara circulación no simultánea", "resumen": "Cada permiso ampara la circulación no simultánea de vehículos, cualquiera que sea su marca y categoría.", "explicacion": "Un mismo permiso sirve para varios vehículos, pero no para moverlos a la vez: solo ampara la circulación no simultánea, con independencia de la marca o categoría de cada vehículo." },
-    { "id": "RGV-012", "articulo": "Clasificación por el servicio a que se destinan los vehículos", "titulo": "Servicio público (letra A) frente a servicio particular", "resumen": "En la clasificación por servicio, el 'servicio público' (letra A) es el del vehículo adscrito a una actividad para cuyo ejercicio su titular necesita autorización de la Administración.", "explicacion": "El código de servicio empieza por una letra: A es servicio público y B es servicio particular. Lo que define el servicio público es que la actividad a la que se dedica el vehículo requiere autorización de la Administración; el particular es una actividad privada del titular." },
-    { "id": "RGV-013", "articulo": "Clasificación por el servicio a que se destinan los vehículos", "titulo": "Código 13: vehículo de Policía", "resumen": "El vehículo con código de servicio 13 (Policía) es el destinado a los servicios de policía que se presten por las Fuerzas y Cuerpos de Seguridad.", "explicacion": "Dentro de la clasificación por servicio, el número 13 identifica al vehículo de policía: el que se destina a los servicios de policía prestados por las Fuerzas y Cuerpos de Seguridad. Es distinto del 14 (bomberos) o del 15 (protección civil y salvamento)." },
-    { "id": "RGV-014", "articulo": "Clasificación por el servicio a que se destinan los vehículos", "titulo": "Código 05: vehículo de auxilio en vías públicas", "resumen": "El vehículo de auxilio en vías públicas (código 05) se destina primordialmente al rescate y transporte de vehículos accidentados o averiados.", "explicacion": "El código 05 es la grúa de auxilio: su función primordial es rescatar y trasladar vehículos accidentados o averiados. No es la ambulancia (código 07), que traslada personas enfermas o accidentadas." },
-    { "id": "RGV-015", "articulo": "Anexo XI · V-1. Vehículo prioritario", "titulo": "Qué indica la señal V-1", "resumen": "La señal V-1 indica la prestación de un servicio de policía, extinción de incendios, protección civil y salvamento, o de asistencia sanitaria, en servicio urgente.", "explicacion": "La luz azul V-1 avisa de que el vehículo está prestando uno de estos servicios en situación urgente: policía, bomberos (extinción de incendios), protección civil y salvamento, o asistencia sanitaria. Puede usarse a la vez que el aparato emisor de señales acústicas especiales." },
-    { "id": "RGV-016", "articulo": "Anexo XI · V-1. Vehículo prioritario", "titulo": "La señal V-1 no requiere autorización administrativa", "resumen": "La utilización de la señal V-1 no requerirá autorización administrativa alguna, ya se instale como elemento supletorio o como elemento constructivo.", "explicacion": "A diferencia de los aparatos de señales acústicas especiales (que sí necesitan autorización de industria), la señal luminosa V-1 no exige ninguna autorización administrativa para su uso, tanto si viene de fábrica como si se añade después." },
-    { "id": "RGV-017", "articulo": "Anexo XI · V-1. Vehículo prioritario", "titulo": "Color y homologación de la señal V-1", "resumen": "La señal luminosa V-1 está constituida por un dispositivo luminoso, con una o varias luces, de color azul, homologadas conforme al Reglamento CEPE/ONU número 65.", "explicacion": "La luz del vehículo prioritario es de color azul y debe estar homologada conforme al Reglamento CEPE/ONU número 65. Puede tener una o varias luces dentro del mismo dispositivo." },
-    { "id": "RGV-018", "articulo": "Anexo XI · V-1. Vehículo prioritario", "titulo": "Visibilidad de la señal V-1: 50 metros", "resumen": "La señal luminosa V-1 no afectará a la visibilidad del conductor y deberá ser visible en todas las direcciones a una distancia mínima de 50 metros.", "explicacion": "La luz azul tiene que verse desde cualquier dirección, al menos a 50 metros de distancia, y a la vez no puede estorbar la visión del propio conductor. Así se garantiza que los demás la perciban con antelación." },
-    { "id": "RGV-019", "articulo": "Anexo XI · V-1. Vehículo prioritario", "titulo": "Sistema auxiliar de los vehículos de policía", "resumen": "Los vehículos de policía pueden usar, con carácter voluntario, un sistema auxiliar de dos fuentes luminosas (intermitentes o estroboscópicas) de color azul.", "explicacion": "Además de la V-1, los vehículos de policía tienen la opción voluntaria de instalar un sistema auxiliar con dos fuentes luminosas de color azul, intermitentes o estroboscópicas, situadas en el frontal a la altura de las luces de cruce." },
-    { "id": "RGV-020", "articulo": "Anexo XI · V-1. Vehículo prioritario", "titulo": "Prohibición de la V-1 en vehículos no prioritarios", "resumen": "Queda prohibido el montaje y la utilización de la señal V-1 en vehículos que no sean prioritarios, por no prestar los servicios del apartado 1.", "explicacion": "Ni montar ni usar la señal V-1 está permitido en un vehículo que no sea prioritario, precisamente porque no presta los servicios (policía, bomberos, protección civil, sanitario) que justifican la luz azul." },
-    { "id": "RGV-021", "articulo": "Anexo XI · V-3. Vehículo de policía", "titulo": "La señal V-3 señaliza servicio no urgente", "resumen": "La señal V-3 señaliza un vehículo de policía de esta clase en servicio no urgente.", "explicacion": "La V-3 es la rotulación e imagen corporativa del vehículo de policía cuando presta servicio NO urgente. Se distingue de la V-1, que es la luz azul del vehículo prioritario en servicio urgente." },
-    { "id": "RGV-022", "articulo": "Anexo XI · V-3. Vehículo de policía", "titulo": "Anchura de la línea de contorno de la V-3", "resumen": "La línea de contorno reflectante de la señal V-3 tiene una anchura mínima de 7 cm en vehículos con M.M.A. menor o igual a 3.500 kg y de 10 cm en los de M.M.A. mayor de 3.500 kg.", "explicacion": "La banda reflectante que rodea el vehículo de policía debe tener al menos 7 cm de ancho si la masa máxima autorizada (M.M.A.) no supera los 3.500 kg, y al menos 10 cm si la supera." },
-    { "id": "RGV-023", "articulo": "Anexo XVIII · Siglas de provincias", "titulo": "Siglas provinciales de las placas: Barcelona", "resumen": "En las contraseñas provinciales de las placas, a la provincia de Barcelona le correspondía la sigla B.", "explicacion": "El anexo XVIII recoge las siglas de provincia que figuraban en las placas antiguas. A Barcelona le corresponde la letra B, frente a otras cercanas como Badajoz (BA), Vizcaya (BI) o Burgos (BU)." },
-    { "id": "RGV-024", "articulo": "Anexo XVIII · Contraseñas de vehículos del Estado", "titulo": "Contraseña CNP de los vehículos del Estado", "resumen": "La contraseña CNP corresponde a los vehículos de la Dirección General de la Policía y de la Guardia Civil adscritos al ámbito del Cuerpo Nacional de Policía.", "explicacion": "En las placas de los vehículos del Estado, CNP identifica a los adscritos al ámbito del Cuerpo Nacional de Policía. Es distinta de PGC (ámbito de la Guardia Civil) o de las de Defensa (ET, FN, EA)." }
+    {
+      "id": "RGV-001",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "titulo": "Dispositivo de marcha atrás y sus excepciones",
+      "resumen": "Todo vehículo de motor debe llevar un dispositivo que permita la marcha atrás, salvo las motocicletas, los motocultores conducidos a pie y los vehículos de tres ruedas simétricas.",
+      "explicacion": "La regla general es que cualquier vehículo de motor lleve un mecanismo, accionado desde el puesto de conducción, para poder ir marcha atrás. La norma exceptúa expresamente tres tipos: las motocicletas, los motocultores que se conducen a pie y los vehículos de tres ruedas simétricas respecto al plano longitudinal. En esos casos no se exige dicho dispositivo."
+    },
+    {
+      "id": "RGV-002",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "titulo": "Aparato productor de señales acústicas (claxon)",
+      "resumen": "Todo vehículo de motor, salvo los motocultores conducidos a pie, llevará un aparato productor de señales acústicas que emita un sonido continuo, uniforme y de suficiente intensidad.",
+      "explicacion": "El claxon común obligatorio debe cumplir tres notas: sonido continuo (no a golpes), uniforme (siempre igual) y de suficiente intensidad (que se oiga). Es el aparato acústico normal que llevan todos los vehículos de motor, distinto de las señales acústicas especiales de los prioritarios."
+    },
+    {
+      "id": "RGV-003",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "titulo": "Señales acústicas especiales: solo prioritarios y con autorización de industria",
+      "resumen": "Los aparatos emisores de señales acústicas especiales solo se instalan en vehículos con carácter de prioritarios, y deben estar debidamente autorizados por el órgano competente en materia de industria.",
+      "explicacion": "La sirena especial no la puede montar cualquiera: solo los vehículos que tienen carácter de prioritarios pueden llevar aparatos de señales acústicas especiales, y aun así necesitan autorización del órgano competente en materia de industria. Así se controla quién puede usar realmente ese sonido especial."
+    },
+    {
+      "id": "RGV-004",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "titulo": "Indicador de velocidad obligatorio por encima de 40 km/h",
+      "resumen": "Todo vehículo de motor capaz de alcanzar en llano una velocidad superior a los 40 kilómetros por hora debe llevar un indicador de velocidad en kilómetros por hora.",
+      "explicacion": "El velocímetro es obligatorio para los vehículos que en llano pueden superar los 40 km/h. Los que no llegan a esa velocidad quedan fuera de la exigencia. El indicador debe marcar la velocidad en kilómetros por hora."
+    },
+    {
+      "id": "RGV-005",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "titulo": "Dispositivo contra la utilización no autorizada",
+      "resumen": "Los automóviles deben llevar, si así lo dispone el anexo I, un dispositivo contra su utilización no autorizada que ponga fuera de servicio o bloquee un órgano esencial del vehículo al quedar estacionado.",
+      "explicacion": "Es el sistema antirrobo o antiuso: cuando el coche queda estacionado, un dispositivo debe poder inutilizar o bloquear un órgano esencial del vehículo para impedir que lo use quien no está autorizado. Su exigencia depende de lo que fije la reglamentación del anexo I."
+    },
+    {
+      "id": "RGV-006",
+      "articulo": "Artículo 27. Matriculación única. Excepciones.",
+      "titulo": "La matriculación ordinaria es única para cada vehículo",
+      "resumen": "Como regla general, la matriculación ordinaria es única para cada vehículo.",
+      "explicacion": "Cada vehículo tiene una sola matrícula ordinaria: es el principio de matrícula única. El propio artículo recoge después las excepciones tasadas en que puede concederse una nueva matrícula distinta."
+    },
+    {
+      "id": "RGV-007",
+      "articulo": "Artículo 27. Matriculación única. Excepciones.",
+      "titulo": "Vehículos del Estado: matrícula oficial",
+      "resumen": "Los vehículos pertenecientes al Estado deberán tener una matrícula oficial, y podrán ser objeto además de matriculación ordinaria.",
+      "explicacion": "Los vehículos del Estado llevan matrícula oficial de forma obligatoria. Además, esa matrícula oficial no impide que puedan someterse también a la matriculación ordinaria; ambas son compatibles."
+    },
+    {
+      "id": "RGV-008",
+      "articulo": "Artículo 27. Matriculación única. Excepciones.",
+      "titulo": "Policía de una Comunidad Autónoma: placas propias",
+      "resumen": "Los vehículos adscritos al Cuerpo de Policía de una Comunidad Autónoma pueden usar, en su ámbito, placas de matrícula con contraseña y numeración propias, sin perjuicio de su matriculación ordinaria.",
+      "explicacion": "Las policías autonómicas pueden circular por su comunidad con placas de contraseña y numeración propias. Esto no sustituye a la matrícula ordinaria en la Jefatura de Tráfico correspondiente, sino que se añade a ella."
+    },
+    {
+      "id": "RGV-009",
+      "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.",
+      "titulo": "Permiso de museos: plazo improrrogable de un año",
+      "resumen": "Los permisos temporales para vehículos de museos y colecciones museográficas se conceden por el plazo improrrogable de un año, contado desde el día primero del mes siguiente al de su expedición.",
+      "explicacion": "El permiso temporal de estos vehículos dura como máximo un año y no se puede prorrogar. El plazo empieza a contar desde el día primero del mes siguiente a la fecha en que se expidió el permiso."
+    },
+    {
+      "id": "RGV-010",
+      "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.",
+      "titulo": "Entrega de permisos y placas en cinco días",
+      "resumen": "Al terminar la validez, los titulares deben entregar los permisos y las placas en una Jefatura de Tráfico dentro de los cinco días siguientes.",
+      "explicacion": "Cuando caduca el permiso, el titular no puede quedarse con la documentación ni las placas: tiene cinco días desde que termina la validez para entregarlas en una Jefatura de Tráfico."
+    },
+    {
+      "id": "RGV-011",
+      "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.",
+      "titulo": "El permiso ampara circulación no simultánea",
+      "resumen": "Cada permiso ampara la circulación no simultánea de vehículos, cualquiera que sea su marca y categoría.",
+      "explicacion": "Un mismo permiso sirve para varios vehículos, pero no para moverlos a la vez: solo ampara la circulación no simultánea, con independencia de la marca o categoría de cada vehículo."
+    },
+    {
+      "id": "RGV-012",
+      "articulo": "Clasificación por el servicio a que se destinan los vehículos",
+      "titulo": "Servicio público (letra A) frente a servicio particular",
+      "resumen": "En la clasificación por servicio, el 'servicio público' (letra A) es el del vehículo adscrito a una actividad para cuyo ejercicio su titular necesita autorización de la Administración.",
+      "explicacion": "El código de servicio empieza por una letra: A es servicio público y B es servicio particular. Lo que define el servicio público es que la actividad a la que se dedica el vehículo requiere autorización de la Administración; el particular es una actividad privada del titular."
+    },
+    {
+      "id": "RGV-013",
+      "articulo": "Clasificación por el servicio a que se destinan los vehículos",
+      "titulo": "Código 13: vehículo de Policía",
+      "resumen": "El vehículo con código de servicio 13 (Policía) es el destinado a los servicios de policía que se presten por las Fuerzas y Cuerpos de Seguridad.",
+      "explicacion": "Dentro de la clasificación por servicio, el número 13 identifica al vehículo de policía: el que se destina a los servicios de policía prestados por las Fuerzas y Cuerpos de Seguridad. Es distinto del 14 (bomberos) o del 15 (protección civil y salvamento)."
+    },
+    {
+      "id": "RGV-014",
+      "articulo": "Clasificación por el servicio a que se destinan los vehículos",
+      "titulo": "Código 05: vehículo de auxilio en vías públicas",
+      "resumen": "El vehículo de auxilio en vías públicas (código 05) se destina primordialmente al rescate y transporte de vehículos accidentados o averiados.",
+      "explicacion": "El código 05 es la grúa de auxilio: su función primordial es rescatar y trasladar vehículos accidentados o averiados. No es la ambulancia (código 07), que traslada personas enfermas o accidentadas."
+    },
+    {
+      "id": "RGV-015",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "titulo": "Qué indica la señal V-1",
+      "resumen": "La señal V-1 indica la prestación de un servicio de policía, extinción de incendios, protección civil y salvamento, o de asistencia sanitaria, en servicio urgente.",
+      "explicacion": "La luz azul V-1 avisa de que el vehículo está prestando uno de estos servicios en situación urgente: policía, bomberos (extinción de incendios), protección civil y salvamento, o asistencia sanitaria. Puede usarse a la vez que el aparato emisor de señales acústicas especiales."
+    },
+    {
+      "id": "RGV-016",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "titulo": "La señal V-1 no requiere autorización administrativa",
+      "resumen": "La utilización de la señal V-1 no requerirá autorización administrativa alguna, ya se instale como elemento supletorio o como elemento constructivo.",
+      "explicacion": "A diferencia de los aparatos de señales acústicas especiales (que sí necesitan autorización de industria), la señal luminosa V-1 no exige ninguna autorización administrativa para su uso, tanto si viene de fábrica como si se añade después."
+    },
+    {
+      "id": "RGV-017",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "titulo": "Color y homologación de la señal V-1",
+      "resumen": "La señal luminosa V-1 está constituida por un dispositivo luminoso, con una o varias luces, de color azul, homologadas conforme al Reglamento CEPE/ONU número 65.",
+      "explicacion": "La luz del vehículo prioritario es de color azul y debe estar homologada conforme al Reglamento CEPE/ONU número 65. Puede tener una o varias luces dentro del mismo dispositivo."
+    },
+    {
+      "id": "RGV-018",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "titulo": "Visibilidad de la señal V-1: 50 metros",
+      "resumen": "La señal luminosa V-1 no afectará a la visibilidad del conductor y deberá ser visible en todas las direcciones a una distancia mínima de 50 metros.",
+      "explicacion": "La luz azul tiene que verse desde cualquier dirección, al menos a 50 metros de distancia, y a la vez no puede estorbar la visión del propio conductor. Así se garantiza que los demás la perciban con antelación."
+    },
+    {
+      "id": "RGV-019",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "titulo": "Sistema auxiliar de los vehículos de policía",
+      "resumen": "Los vehículos de policía pueden usar, con carácter voluntario, un sistema auxiliar de dos fuentes luminosas (intermitentes o estroboscópicas) de color azul.",
+      "explicacion": "Además de la V-1, los vehículos de policía tienen la opción voluntaria de instalar un sistema auxiliar con dos fuentes luminosas de color azul, intermitentes o estroboscópicas, situadas en el frontal a la altura de las luces de cruce."
+    },
+    {
+      "id": "RGV-020",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "titulo": "Prohibición de la V-1 en vehículos no prioritarios",
+      "resumen": "Queda prohibido el montaje y la utilización de la señal V-1 en vehículos que no sean prioritarios, por no prestar los servicios del apartado 1.",
+      "explicacion": "Ni montar ni usar la señal V-1 está permitido en un vehículo que no sea prioritario, precisamente porque no presta los servicios (policía, bomberos, protección civil, sanitario) que justifican la luz azul."
+    },
+    {
+      "id": "RGV-021",
+      "articulo": "Anexo XI · V-3. Vehículo de policía",
+      "titulo": "La señal V-3 señaliza servicio no urgente",
+      "resumen": "La señal V-3 señaliza un vehículo de policía de esta clase en servicio no urgente.",
+      "explicacion": "La V-3 es la rotulación e imagen corporativa del vehículo de policía cuando presta servicio NO urgente. Se distingue de la V-1, que es la luz azul del vehículo prioritario en servicio urgente."
+    },
+    {
+      "id": "RGV-022",
+      "articulo": "Anexo XI · V-3. Vehículo de policía",
+      "titulo": "Anchura de la línea de contorno de la V-3",
+      "resumen": "La línea de contorno reflectante de la señal V-3 tiene una anchura mínima de 7 cm en vehículos con M.M.A. menor o igual a 3.500 kg y de 10 cm en los de M.M.A. mayor de 3.500 kg.",
+      "explicacion": "La banda reflectante que rodea el vehículo de policía debe tener al menos 7 cm de ancho si la masa máxima autorizada (M.M.A.) no supera los 3.500 kg, y al menos 10 cm si la supera."
+    },
+    {
+      "id": "RGV-023",
+      "articulo": "Anexo XVIII · Siglas de provincias",
+      "titulo": "Siglas provinciales de las placas: Barcelona",
+      "resumen": "En las contraseñas provinciales de las placas, a la provincia de Barcelona le correspondía la sigla B.",
+      "explicacion": "El anexo XVIII recoge las siglas de provincia que figuraban en las placas antiguas. A Barcelona le corresponde la letra B, frente a otras cercanas como Badajoz (BA), Vizcaya (BI) o Burgos (BU)."
+    },
+    {
+      "id": "RGV-024",
+      "articulo": "Anexo XVIII · Contraseñas de vehículos del Estado",
+      "titulo": "Contraseña CNP de los vehículos del Estado",
+      "resumen": "La contraseña CNP corresponde a los vehículos de la Dirección General de la Policía y de la Guardia Civil adscritos al ámbito del Cuerpo Nacional de Policía.",
+      "explicacion": "En las placas de los vehículos del Estado, CNP identifica a los adscritos al ámbito del Cuerpo Nacional de Policía. Es distinta de PGC (ámbito de la Guardia Civil) o de las de Defensa (ET, FN, EA)."
+    }
   ],
   "actividades": [
-    { "concepto_id": "RGV-001", "articulo": "Condiciones técnicas de los vehículos", "tipo": "test", "enunciado": "¿Qué vehículos quedan exceptuados de llevar el dispositivo que permite la marcha atrás?", "opciones": [
-      "las motocicletas, de los motocultores conducidos a pie y de los vehículos de tres ruedas simétricas",
-      "los ciclomotores, de los vehículos agrícolas especiales y de los remolques ligeros de dos ejes",
-      "las bicicletas de pedales, de los cuadriciclos ligeros y de los vehículos especiales de obras",
-      "los tractores agrícolas, de los vehículos históricos y de los turismos de menos de tres puertas"
-    ], "indice_correcto": 0, "cotejo": "Todo vehículo de motor, con excepción de las motocicletas, de los motocultores conducidos a pie y de los vehículos de tres ruedas simétricas con respecto al plano longitudinal medio del vehículo, deberá estar provisto de un dispositivo que, manejado desde el puesto de conducción y accionado por el motor, permita la marcha atrás del vehículo.", "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 6." },
-    { "concepto_id": "RGV-002", "articulo": "Condiciones técnicas de los vehículos", "tipo": "test", "enunciado": "El aparato productor de señales acústicas obligatorio en los vehículos de motor debe emitir:", "opciones": [
-      "un sonido continuo, uniforme y de suficiente intensidad",
-      "un sonido intermitente, modulado y de intensidad regulable",
-      "un sonido breve, agudo y proporcional a la velocidad del vehículo",
-      "un sonido grave, discontinuo y de suficiente alcance en ciudad"
-    ], "indice_correcto": 0, "cotejo": "estará provisto de un aparato productor de señales acústicas que emita un sonido continuo, uniforme y de suficiente intensidad.", "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 7." },
-    { "concepto_id": "RGV-003", "articulo": "Condiciones técnicas de los vehículos", "tipo": "test", "enunciado": "Los aparatos emisores de señales acústicas especiales, que solo se instalan en vehículos prioritarios, deben estar:", "opciones": [
-      "debidamente autorizados por el órgano competente en materia de industria",
-      "expresamente autorizados por la Jefatura Provincial de Tráfico competente",
-      "previamente homologados por el Ministerio del Interior y sus organismos",
-      "debidamente inscritos en el Registro de Vehículos de la Dirección General"
-    ], "indice_correcto": 0, "cotejo": "se instalarán aparatos emisores de señales acústicas especiales, siempre que estén debidamente autorizados por el órgano competente en materia de industria.", "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 7." },
-    { "concepto_id": "RGV-004", "articulo": "Condiciones técnicas de los vehículos", "tipo": "test", "enunciado": "El indicador de velocidad es obligatorio en los vehículos de motor capaces de alcanzar en llano:", "opciones": [
-      "una velocidad superior a los 40 kilómetros por hora",
-      "una velocidad superior a los 25 kilómetros por hora",
-      "una velocidad superior a los 45 kilómetros por hora",
-      "una velocidad superior a los 60 kilómetros por hora"
-    ], "indice_correcto": 0, "cotejo": "Todo vehículo de motor capaz de alcanzar en llano una velocidad superior a los 40 kilómetros por hora deberá estar provisto de un indicador de velocidad en kilómetros por hora.", "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 11." },
-    { "concepto_id": "RGV-005", "articulo": "Condiciones técnicas de los vehículos", "tipo": "test", "enunciado": "¿Qué debe permitir el dispositivo contra la utilización no autorizada de los automóviles?", "opciones": [
-      "poner fuera de servicio o bloquear un órgano esencial del vehículo a partir del momento en que éste quede estacionado",
-      "inmovilizar las ruedas motrices y cortar el suministro de combustible mientras el vehículo permanezca detenido en la vía",
-      "activar una alarma sonora y avisar por vía telemática a la Jefatura de Tráfico correspondiente al lugar del estacionamiento",
-      "bloquear la dirección y desconectar el sistema de arranque en cuanto el conductor abandone el puesto de conducción"
-    ], "indice_correcto": 0, "cotejo": "deberán estar provistos de un dispositivo contra su utilización no autorizada que permita poner fuera de servicio o bloquear un órgano esencial del vehículo a partir del momento en que éste quede estacionado", "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 15." },
-    { "concepto_id": "RGV-006", "articulo": "Artículo 27. Matriculación única. Excepciones.", "tipo": "test", "enunciado": "Con carácter general, según el Reglamento la matriculación ordinaria de los vehículos es:", "opciones": [
-      "única para cada vehículo",
-      "común a la flota del titular",
-      "renovable cada diez años",
-      "distinta según la provincia"
-    ], "indice_correcto": 0, "cotejo": "La matriculación ordinaria es única para cada vehículo.", "justificacion": "RGV, art. 27.1." },
-    { "concepto_id": "RGV-007", "articulo": "Artículo 27. Matriculación única. Excepciones.", "tipo": "test", "enunciado": "Respecto de los vehículos pertenecientes al Estado, el Reglamento dispone:", "opciones": [
-      "que deberán tener una matrícula oficial, podrán ser objeto además de matriculación ordinaria",
-      "que solo podrán llevar matrícula oficial, sin posibilidad alguna de matriculación ordinaria",
-      "que tendrán matrícula ordinaria, salvo los adscritos al Ministerio de Defensa que llevan oficial",
-      "que podrán elegir entre matrícula oficial o matrícula diplomática según el destino del vehículo"
-    ], "indice_correcto": 0, "cotejo": "Los vehículos pertenecientes al Estado, que deberán tener una matrícula oficial, podrán ser objeto además de matriculación ordinaria.", "justificacion": "RGV, art. 27.4." },
-    { "concepto_id": "RGV-008", "articulo": "Artículo 27. Matriculación única. Excepciones.", "tipo": "test", "enunciado": "Los vehículos adscritos al Cuerpo de Policía de una Comunidad Autónoma podrán utilizar, en su ámbito:", "opciones": [
-      "placas de matrícula con una contraseña y numeración propias",
-      "placas de matrícula oficial del Estado con numeración reservada",
-      "placas de matrícula diplomática con contraseña internacional propia",
-      "placas de matrícula ordinaria con las siglas de su provincia sede"
-    ], "indice_correcto": 0, "cotejo": "podrán utilizar, en el ámbito de la misma, placas de matrícula con una contraseña y numeración propias, sin perjuicio de su matriculación ordinaria en la Jefatura de Tráfico correspondiente.", "justificacion": "RGV, art. 27.5." },
-    { "concepto_id": "RGV-009", "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.", "tipo": "test", "enunciado": "Los permisos temporales para vehículos de museos y colecciones museográficas se conceden por el plazo improrrogable de:", "opciones": [
-      "un año",
-      "dos años",
-      "seis meses",
-      "tres años"
-    ], "indice_correcto": 0, "cotejo": "Estos permisos se concederán por el plazo improrrogable de un año, contado desde el día primero del mes siguiente a la fecha de su expedición", "justificacion": "RGV, art. 48 bis.2." },
-    { "concepto_id": "RGV-010", "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.", "tipo": "test", "enunciado": "¿En qué plazo deben entregarse en una Jefatura de Tráfico los permisos y placas una vez terminada su validez?", "opciones": [
-      "dentro de los cinco días siguientes",
-      "dentro de los quince días siguientes",
-      "dentro de los treinta días siguientes",
-      "dentro de los diez días siguientes"
-    ], "indice_correcto": 0, "cotejo": "están obligados a entregar los permisos y las placas correspondientes en una Jefatura de Tráfico, dentro de los cinco días siguientes contados a partir de la fecha en que haya terminado el plazo de validez.", "justificacion": "RGV, art. 48 bis.2." },
-    { "concepto_id": "RGV-011", "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.", "tipo": "test", "enunciado": "Cada permiso temporal de vehículos de museos ampara la circulación:", "opciones": [
-      "no simultánea de vehículos, cualquiera que sea su marca y categoría",
-      "simultánea de dos vehículos, siempre que sean de la misma categoría",
-      "no simultánea de vehículos, únicamente de la misma marca y modelo",
-      "simultánea de todos los vehículos inscritos en la colección museográfica"
-    ], "indice_correcto": 0, "cotejo": "Cada permiso, que ampara la circulación no simultánea de vehículos, cualquiera que sea su marca y categoría", "justificacion": "RGV, art. 48 bis.3." },
-    { "concepto_id": "RGV-012", "articulo": "Clasificación por el servicio a que se destinan los vehículos", "tipo": "test", "enunciado": "En la clasificación por servicio, ¿qué caracteriza al 'servicio público' (letra A)?", "opciones": [
-      "El vehículo se adscribe a una actividad para cuyo ejercicio su titular necesita de autorización de la Administración",
-      "El vehículo se adscribe a una actividad privada de su titular sin necesidad de autorización previa de ningún tipo",
-      "El vehículo se adscribe a una actividad de transporte de viajeros con conductor sujeta a licencia municipal",
-      "El vehículo se adscribe a una actividad de alquiler con o sin conductor mediante contraprestación económica"
-    ], "indice_correcto": 0, "cotejo": "A. Servicio público: El vehículo se adscribe a una actividad para cuyo ejercicio su titular necesita de autorización de la Administración.", "justificacion": "RGV, clasificación por servicio, letra A." },
-    { "concepto_id": "RGV-013", "articulo": "Clasificación por el servicio a que se destinan los vehículos", "tipo": "test", "enunciado": "En la clasificación por servicio, el vehículo con código 13 (Policía) es el:", "opciones": [
-      "vehículo destinado a los servicios de policía, que se presten por las Fuerzas y Cuerpos de Seguridad",
-      "vehículo destinado a los servicios de vigilancia privada prestados por empresas de seguridad autorizadas",
-      "vehículo destinado a los servicios de emergencia de protección civil y salvamento en catástrofes",
-      "vehículo destinado a los servicios de custodia y traslado de detenidos por orden de la autoridad judicial"
-    ], "indice_correcto": 0, "cotejo": "13. Policía: vehículo destinado a los servicios de policía, que se presten por las Fuerzas y Cuerpos de Seguridad.", "justificacion": "RGV, clasificación por servicio, código 13." },
-    { "concepto_id": "RGV-014", "articulo": "Clasificación por el servicio a que se destinan los vehículos", "tipo": "test", "enunciado": "El 'vehículo de auxilio en vías públicas' (código 05) se destina primordialmente:", "opciones": [
-      "al rescate y transporte de vehículos accidentados o averiados",
-      "al traslado de personas enfermas o accidentadas a un centro sanitario",
-      "a la conservación y el mantenimiento de la vía y su señalización fija",
-      "al transporte de mercancías peligrosas por carretera de forma no exclusiva"
-    ], "indice_correcto": 0, "cotejo": "05. Vehículo de auxilio en vías públicas: vehículo destinado primordialmente al rescate y transporte de vehículos accidentados o averiados.", "justificacion": "RGV, clasificación por servicio, código 05." },
-    { "concepto_id": "RGV-015", "articulo": "Anexo XI · V-1. Vehículo prioritario", "tipo": "test", "enunciado": "¿Qué indica la utilización de la señal V-1 en un vehículo?", "opciones": [
-      "la prestación de un servicio de policía, extinción de incendios, protección civil y salvamento, o de asistencia sanitaria, en servicio urgente",
-      "la prestación de un servicio de vigilancia, escolta, transporte de fondos o acompañamiento de autoridades por la vía pública",
-      "la prestación de un servicio de policía o de asistencia sanitaria, tanto en servicio urgente como en servicio ordinario programado",
-      "la prestación de cualquier servicio de emergencia por parte de empresas privadas que se hallen debidamente autorizadas para ello"
-    ], "indice_correcto": 0, "cotejo": "La utilización de la señal V-1 en un vehículo indica la prestación de un servicio de policía, extinción de incendios, protección civil y salvamento, o de asistencia sanitaria, en servicio urgente.", "justificacion": "RGV, anexo XI, señal V-1, apdo. 1." },
-    { "concepto_id": "RGV-016", "articulo": "Anexo XI · V-1. Vehículo prioritario", "tipo": "test", "enunciado": "En cuanto a su autorización, la utilización de la señal V-1:", "opciones": [
-      "no requerirá autorización administrativa alguna",
-      "requerirá autorización de la Jefatura de Tráfico",
-      "requerirá autorización del órgano de industria",
-      "requerirá comunicación previa a la Dirección General"
-    ], "indice_correcto": 0, "cotejo": "La utilización de la señal V-1 no requerirá autorización administrativa alguna, ya se encuentre instalado como elemento supletorio adicional o como elemento constructivo.", "justificacion": "RGV, anexo XI, señal V-1, apdo. 2." },
-    { "concepto_id": "RGV-017", "articulo": "Anexo XI · V-1. Vehículo prioritario", "tipo": "test", "enunciado": "La señal luminosa V-1 estará constituida por un dispositivo luminoso, con una o varias luces:", "opciones": [
-      "de color azul, homologadas conforme al Reglamento CEPE/ONU número 65",
-      "de color ámbar, homologadas conforme al Reglamento CEPE/ONU número 65",
-      "de color azul, homologadas conforme al Reglamento CEPE/ONU número 48",
-      "de color rojo, homologadas conforme al Reglamento CEPE/ONU número 10"
-    ], "indice_correcto": 0, "cotejo": "La señal luminosa de vehículo prioritario V-1 estará constituida por un dispositivo luminoso, con una o varias luces, de color azul, homologadas conforme al Reglamento CEPE/ONU número 65.", "justificacion": "RGV, anexo XI, señal V-1, apdo. 3." },
-    { "concepto_id": "RGV-018", "articulo": "Anexo XI · V-1. Vehículo prioritario", "tipo": "test", "enunciado": "La señal luminosa V-1 deberá ser visible en todas las direcciones a una distancia mínima de:", "opciones": [
-      "50 metros",
-      "100 metros",
-      "25 metros",
-      "150 metros"
-    ], "indice_correcto": 0, "cotejo": "deberá ser visible en todas las direcciones a una distancia mínima de 50 metros.", "justificacion": "RGV, anexo XI, señal V-1, apdo. 3." },
-    { "concepto_id": "RGV-019", "articulo": "Anexo XI · V-1. Vehículo prioritario", "tipo": "test", "enunciado": "¿Qué sistema auxiliar pueden utilizar, con carácter voluntario, los vehículos de policía?", "opciones": [
-      "un sistema auxiliar constituido por dos fuentes luminosas (intermitentes o estroboscópicas), de color azul",
-      "un sistema auxiliar constituido por dos fuentes luminosas (intermitentes o estroboscópicas), de color rojo",
-      "un sistema auxiliar constituido por cuatro fuentes luminosas giratorias y una señal acústica complementaria",
-      "un sistema auxiliar constituido por una barra luminosa continua de color azul instalada sobre el techo"
-    ], "indice_correcto": 0, "cotejo": "podrán utilizar con carácter voluntario un sistema auxiliar constituido por dos fuentes luminosas (intermitentes o estroboscópicas), de color azul.", "justificacion": "RGV, anexo XI, señal V-1, apdo. 4." },
-    { "concepto_id": "RGV-020", "articulo": "Anexo XI · V-1. Vehículo prioritario", "tipo": "test", "enunciado": "¿Qué establece el Reglamento sobre la señal V-1 en vehículos que no sean prioritarios?", "opciones": [
-      "Queda prohibido el montaje y la utilización de la señal V-1 en vehículos que no sean prioritarios",
-      "Se permite el montaje de la señal V-1, pero no su utilización, en los vehículos no prioritarios",
-      "Se autoriza la utilización de la señal V-1 en vehículos no prioritarios de empresas de seguridad",
-      "Queda permitido el montaje de la señal V-1 en vehículos no prioritarios con fines de exhibición"
-    ], "indice_correcto": 0, "cotejo": "Queda prohibido el montaje y la utilización de la señal V-1 en vehículos que no sean prioritarios, por no prestar los servicios que se indican en el apartado 1.", "justificacion": "RGV, anexo XI, señal V-1, apdo. 5." },
-    { "concepto_id": "RGV-021", "articulo": "Anexo XI · V-3. Vehículo de policía", "tipo": "test", "enunciado": "La señal V-3 (vehículo de policía) señaliza un vehículo de esta clase:", "opciones": [
-      "en servicio no urgente",
-      "en servicio urgente",
-      "en cualquier servicio",
-      "en servicio de escolta"
-    ], "indice_correcto": 0, "cotejo": "Señaliza un vehículo de esta clase en servicio no urgente.", "justificacion": "RGV, anexo XI, señal V-3, apdo. 1." },
-    { "concepto_id": "RGV-022", "articulo": "Anexo XI · V-3. Vehículo de policía", "tipo": "test", "enunciado": "La línea de contorno reflectante de la señal V-3 tendrá una anchura mínima, en vehículos con M.M.A. menor o igual a 3.500 kg, de:", "opciones": [
-      "7 cm",
-      "10 cm",
-      "5 cm",
-      "12 cm"
-    ], "indice_correcto": 0, "cotejo": "Vehículos con M.M.A. menor o igual a 3.500 kg: 7 cm. Vehículos con M.M.A. mayor de 3.500 kg: 10 cm.", "justificacion": "RGV, anexo XI, señal V-3, apdo. 3.a)." },
-    { "concepto_id": "RGV-023", "articulo": "Anexo XVIII · Siglas de provincias", "tipo": "test", "enunciado": "En las contraseñas provinciales de las placas, ¿qué sigla correspondía a la provincia de Barcelona?", "opciones": [
-      "B",
-      "BA",
-      "BI",
-      "BU"
-    ], "indice_correcto": 0, "cotejo": "Barcelona B.", "justificacion": "RGV, anexo XVIII, siglas de provincias." },
-    { "concepto_id": "RGV-024", "articulo": "Anexo XVIII · Contraseñas de vehículos del Estado", "tipo": "test", "enunciado": "¿A qué vehículos corresponde la contraseña CNP?", "opciones": [
-      "los de la Dirección General de la Policía y de la Guardia Civil, adscritos al ámbito del Cuerpo Nacional de Policía",
-      "los de la Dirección General de la Policía y de la Guardia Civil, adscritos al ámbito del Cuerpo de la Guardia Civil",
-      "los del Ministerio de Defensa, correspondientes al Ejército de Tierra, la Armada y el Ejército del Aire",
-      "los del Parque Móvil del Estado y los adscritos al servicio de los organismos de la Administración General"
-    ], "indice_correcto": 0, "cotejo": "CNP: Para los de la Dirección General de la Policía y de la Guardia Civil, adscritos al ámbito del Cuerpo Nacional de Policía.", "justificacion": "RGV, anexo XVIII, contraseñas de vehículos del Estado." }
+    {
+      "concepto_id": "RGV-001",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "tipo": "test",
+      "enunciado": "¿Qué vehículos quedan exceptuados de llevar el dispositivo que permite la marcha atrás?",
+      "opciones": [
+        "las motocicletas, de los motocultores conducidos a pie y de los vehículos de tres ruedas simétricas",
+        "los ciclomotores, de los vehículos agrícolas especiales y de los remolques ligeros de dos ejes",
+        "las bicicletas de pedales, de los cuadriciclos ligeros y de los vehículos especiales de obras",
+        "los tractores agrícolas, de los vehículos históricos y de los turismos de menos de tres puertas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Todo vehículo de motor, con excepción de las motocicletas, de los motocultores conducidos a pie y de los vehículos de tres ruedas simétricas con respecto al plano longitudinal medio del vehículo, deberá estar provisto de un dispositivo que, manejado desde el puesto de conducción y accionado por el motor, permita la marcha atrás del vehículo.",
+      "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 6."
+    },
+    {
+      "concepto_id": "RGV-002",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "tipo": "test",
+      "enunciado": "El aparato productor de señales acústicas obligatorio en los vehículos de motor debe emitir:",
+      "opciones": [
+        "un sonido continuo, uniforme y de suficiente intensidad",
+        "un sonido intermitente, modulado y de intensidad regulable",
+        "un sonido breve, agudo y proporcional a la velocidad del vehículo",
+        "un sonido grave, discontinuo y de suficiente alcance en ciudad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "estará provisto de un aparato productor de señales acústicas que emita un sonido continuo, uniforme y de suficiente intensidad.",
+      "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 7."
+    },
+    {
+      "concepto_id": "RGV-003",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "tipo": "test",
+      "enunciado": "Los aparatos emisores de señales acústicas especiales, que solo se instalan en vehículos prioritarios, deben estar:",
+      "opciones": [
+        "debidamente autorizados por el órgano competente en materia de industria",
+        "expresamente autorizados por la Jefatura Provincial de Tráfico competente",
+        "previamente homologados por el Ministerio del Interior y sus organismos",
+        "debidamente inscritos en el Registro de Vehículos de la Dirección General"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se instalarán aparatos emisores de señales acústicas especiales, siempre que estén debidamente autorizados por el órgano competente en materia de industria.",
+      "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 7."
+    },
+    {
+      "concepto_id": "RGV-004",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "tipo": "test",
+      "enunciado": "El indicador de velocidad es obligatorio en los vehículos de motor capaces de alcanzar en llano:",
+      "opciones": [
+        "una velocidad superior a los 40 kilómetros por hora",
+        "una velocidad superior a los 25 kilómetros por hora",
+        "una velocidad superior a los 45 kilómetros por hora",
+        "una velocidad superior a los 60 kilómetros por hora"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Todo vehículo de motor capaz de alcanzar en llano una velocidad superior a los 40 kilómetros por hora deberá estar provisto de un indicador de velocidad en kilómetros por hora.",
+      "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 11."
+    },
+    {
+      "concepto_id": "RGV-005",
+      "articulo": "Condiciones técnicas de los vehículos",
+      "tipo": "test",
+      "enunciado": "¿Qué debe permitir el dispositivo contra la utilización no autorizada de los automóviles?",
+      "opciones": [
+        "poner fuera de servicio o bloquear un órgano esencial del vehículo a partir del momento en que éste quede estacionado",
+        "inmovilizar las ruedas motrices y cortar el suministro de combustible mientras el vehículo permanezca detenido en la vía",
+        "activar una alarma sonora y avisar por vía telemática a la Jefatura de Tráfico correspondiente al lugar del estacionamiento",
+        "bloquear la dirección y desconectar el sistema de arranque en cuanto el conductor abandone el puesto de conducción"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberán estar provistos de un dispositivo contra su utilización no autorizada que permita poner fuera de servicio o bloquear un órgano esencial del vehículo a partir del momento en que éste quede estacionado",
+      "justificacion": "RGV, condiciones técnicas de los vehículos, apdo. 15."
+    },
+    {
+      "concepto_id": "RGV-006",
+      "articulo": "Artículo 27. Matriculación única. Excepciones.",
+      "tipo": "test",
+      "enunciado": "Con carácter general, según el Reglamento la matriculación ordinaria de los vehículos es:",
+      "opciones": [
+        "única para cada vehículo",
+        "común a la flota del titular",
+        "renovable cada diez años",
+        "distinta según la provincia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La matriculación ordinaria es única para cada vehículo.",
+      "justificacion": "RGV, art. 27.1."
+    },
+    {
+      "concepto_id": "RGV-007",
+      "articulo": "Artículo 27. Matriculación única. Excepciones.",
+      "tipo": "test",
+      "enunciado": "Respecto de los vehículos pertenecientes al Estado, el Reglamento dispone:",
+      "opciones": [
+        "que deberán tener una matrícula oficial, podrán ser objeto además de matriculación ordinaria",
+        "que solo podrán llevar matrícula oficial, sin posibilidad alguna de matriculación ordinaria",
+        "que tendrán matrícula ordinaria, salvo los adscritos al Ministerio de Defensa que llevan oficial",
+        "que podrán elegir entre matrícula oficial o matrícula diplomática según el destino del vehículo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los vehículos pertenecientes al Estado, que deberán tener una matrícula oficial, podrán ser objeto además de matriculación ordinaria.",
+      "justificacion": "RGV, art. 27.4."
+    },
+    {
+      "concepto_id": "RGV-008",
+      "articulo": "Artículo 27. Matriculación única. Excepciones.",
+      "tipo": "test",
+      "enunciado": "Los vehículos adscritos al Cuerpo de Policía de una Comunidad Autónoma podrán utilizar, en su ámbito:",
+      "opciones": [
+        "placas de matrícula con una contraseña y numeración propias",
+        "placas de matrícula oficial del Estado con numeración reservada",
+        "placas de matrícula diplomática con contraseña internacional propia",
+        "placas de matrícula ordinaria con las siglas de su provincia sede"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrán utilizar, en el ámbito de la misma, placas de matrícula con una contraseña y numeración propias, sin perjuicio de su matriculación ordinaria en la Jefatura de Tráfico correspondiente.",
+      "justificacion": "RGV, art. 27.5."
+    },
+    {
+      "concepto_id": "RGV-009",
+      "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.",
+      "tipo": "test",
+      "enunciado": "Los permisos temporales para vehículos de museos y colecciones museográficas se conceden por el plazo improrrogable de:",
+      "opciones": [
+        "un año",
+        "dos años",
+        "seis meses",
+        "tres años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Estos permisos se concederán por el plazo improrrogable de un año, contado desde el día primero del mes siguiente a la fecha de su expedición",
+      "justificacion": "RGV, art. 48 bis.2."
+    },
+    {
+      "concepto_id": "RGV-010",
+      "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo deben entregarse en una Jefatura de Tráfico los permisos y placas una vez terminada su validez?",
+      "opciones": [
+        "dentro de los cinco días siguientes",
+        "dentro de los quince días siguientes",
+        "dentro de los treinta días siguientes",
+        "dentro de los diez días siguientes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "están obligados a entregar los permisos y las placas correspondientes en una Jefatura de Tráfico, dentro de los cinco días siguientes contados a partir de la fecha en que haya terminado el plazo de validez.",
+      "justificacion": "RGV, art. 48 bis.2."
+    },
+    {
+      "concepto_id": "RGV-011",
+      "articulo": "Artículo 48 bis. Permisos temporales para vehículos de museos y de colecciones museográficas.",
+      "tipo": "test",
+      "enunciado": "Cada permiso temporal de vehículos de museos ampara la circulación:",
+      "opciones": [
+        "no simultánea de vehículos, cualquiera que sea su marca y categoría",
+        "simultánea de dos vehículos, siempre que sean de la misma categoría",
+        "no simultánea de vehículos, únicamente de la misma marca y modelo",
+        "simultánea de todos los vehículos inscritos en la colección museográfica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cada permiso, que ampara la circulación no simultánea de vehículos, cualquiera que sea su marca y categoría",
+      "justificacion": "RGV, art. 48 bis.3."
+    },
+    {
+      "concepto_id": "RGV-012",
+      "articulo": "Clasificación por el servicio a que se destinan los vehículos",
+      "tipo": "test",
+      "enunciado": "En la clasificación por servicio, ¿qué caracteriza al 'servicio público' (letra A)?",
+      "opciones": [
+        "El vehículo se adscribe a una actividad para cuyo ejercicio su titular necesita de autorización de la Administración",
+        "El vehículo se adscribe a una actividad privada de su titular sin necesidad de autorización previa de ningún tipo",
+        "El vehículo se adscribe a una actividad de transporte de viajeros con conductor sujeta a licencia municipal",
+        "El vehículo se adscribe a una actividad de alquiler con o sin conductor mediante contraprestación económica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "A. Servicio público: El vehículo se adscribe a una actividad para cuyo ejercicio su titular necesita de autorización de la Administración.",
+      "justificacion": "RGV, clasificación por servicio, letra A."
+    },
+    {
+      "concepto_id": "RGV-013",
+      "articulo": "Clasificación por el servicio a que se destinan los vehículos",
+      "tipo": "test",
+      "enunciado": "En la clasificación por servicio, el vehículo con código 13 (Policía) es el:",
+      "opciones": [
+        "vehículo destinado a los servicios de policía, que se presten por las Fuerzas y Cuerpos de Seguridad",
+        "vehículo destinado a los servicios de vigilancia privada prestados por empresas de seguridad autorizadas",
+        "vehículo destinado a los servicios de emergencia de protección civil y salvamento en catástrofes",
+        "vehículo destinado a los servicios de custodia y traslado de detenidos por orden de la autoridad judicial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "13. Policía: vehículo destinado a los servicios de policía, que se presten por las Fuerzas y Cuerpos de Seguridad.",
+      "justificacion": "RGV, clasificación por servicio, código 13."
+    },
+    {
+      "concepto_id": "RGV-014",
+      "articulo": "Clasificación por el servicio a que se destinan los vehículos",
+      "tipo": "test",
+      "enunciado": "El 'vehículo de auxilio en vías públicas' (código 05) se destina primordialmente:",
+      "opciones": [
+        "al rescate y transporte de vehículos accidentados o averiados",
+        "al traslado de personas enfermas o accidentadas a un centro sanitario",
+        "a la conservación y el mantenimiento de la vía y su señalización fija",
+        "al transporte de mercancías peligrosas por carretera de forma no exclusiva"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "05. Vehículo de auxilio en vías públicas: vehículo destinado primordialmente al rescate y transporte de vehículos accidentados o averiados.",
+      "justificacion": "RGV, clasificación por servicio, código 05."
+    },
+    {
+      "concepto_id": "RGV-015",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "tipo": "test",
+      "enunciado": "¿Qué indica la utilización de la señal V-1 en un vehículo?",
+      "opciones": [
+        "la prestación de un servicio de policía, extinción de incendios, protección civil y salvamento, o de asistencia sanitaria, en servicio urgente",
+        "la prestación de un servicio de vigilancia, escolta, transporte de fondos o acompañamiento de autoridades por la vía pública",
+        "la prestación de un servicio de policía o de asistencia sanitaria, tanto en servicio urgente como en servicio ordinario programado",
+        "la prestación de cualquier servicio de emergencia por parte de empresas privadas que se hallen debidamente autorizadas para ello"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La utilización de la señal V-1 en un vehículo indica la prestación de un servicio de policía, extinción de incendios, protección civil y salvamento, o de asistencia sanitaria, en servicio urgente.",
+      "justificacion": "RGV, anexo XI, señal V-1, apdo. 1."
+    },
+    {
+      "concepto_id": "RGV-016",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "tipo": "test",
+      "enunciado": "En cuanto a su autorización, la utilización de la señal V-1:",
+      "opciones": [
+        "no requerirá autorización administrativa alguna",
+        "requerirá autorización de la Jefatura de Tráfico",
+        "requerirá autorización del órgano de industria",
+        "requerirá comunicación previa a la Dirección General"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La utilización de la señal V-1 no requerirá autorización administrativa alguna, ya se encuentre instalado como elemento supletorio adicional o como elemento constructivo.",
+      "justificacion": "RGV, anexo XI, señal V-1, apdo. 2."
+    },
+    {
+      "concepto_id": "RGV-017",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "tipo": "test",
+      "enunciado": "La señal luminosa V-1 estará constituida por un dispositivo luminoso, con una o varias luces:",
+      "opciones": [
+        "de color azul, homologadas conforme al Reglamento CEPE/ONU número 65",
+        "de color ámbar, homologadas conforme al Reglamento CEPE/ONU número 65",
+        "de color azul, homologadas conforme al Reglamento CEPE/ONU número 48",
+        "de color rojo, homologadas conforme al Reglamento CEPE/ONU número 10"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La señal luminosa de vehículo prioritario V-1 estará constituida por un dispositivo luminoso, con una o varias luces, de color azul, homologadas conforme al Reglamento CEPE/ONU número 65.",
+      "justificacion": "RGV, anexo XI, señal V-1, apdo. 3."
+    },
+    {
+      "concepto_id": "RGV-018",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "tipo": "test",
+      "enunciado": "La señal luminosa V-1 deberá ser visible en todas las direcciones a una distancia mínima de:",
+      "opciones": [
+        "50 metros",
+        "100 metros",
+        "25 metros",
+        "150 metros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deberá ser visible en todas las direcciones a una distancia mínima de 50 metros.",
+      "justificacion": "RGV, anexo XI, señal V-1, apdo. 3."
+    },
+    {
+      "concepto_id": "RGV-019",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "tipo": "test",
+      "enunciado": "¿Qué sistema auxiliar pueden utilizar, con carácter voluntario, los vehículos de policía?",
+      "opciones": [
+        "un sistema auxiliar constituido por dos fuentes luminosas (intermitentes o estroboscópicas), de color azul",
+        "un sistema auxiliar constituido por dos fuentes luminosas (intermitentes o estroboscópicas), de color rojo",
+        "un sistema auxiliar constituido por cuatro fuentes luminosas giratorias y una señal acústica complementaria",
+        "un sistema auxiliar constituido por una barra luminosa continua de color azul instalada sobre el techo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "podrán utilizar con carácter voluntario un sistema auxiliar constituido por dos fuentes luminosas (intermitentes o estroboscópicas), de color azul.",
+      "justificacion": "RGV, anexo XI, señal V-1, apdo. 4."
+    },
+    {
+      "concepto_id": "RGV-020",
+      "articulo": "Anexo XI · V-1. Vehículo prioritario",
+      "tipo": "test",
+      "enunciado": "¿Qué establece el Reglamento sobre la señal V-1 en vehículos que no sean prioritarios?",
+      "opciones": [
+        "Queda prohibido el montaje y la utilización de la señal V-1 en vehículos que no sean prioritarios",
+        "Se permite el montaje de la señal V-1, pero no su utilización, en los vehículos no prioritarios",
+        "Se autoriza la utilización de la señal V-1 en vehículos no prioritarios de empresas de seguridad",
+        "Queda permitido el montaje de la señal V-1 en vehículos no prioritarios con fines de exhibición"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Queda prohibido el montaje y la utilización de la señal V-1 en vehículos que no sean prioritarios, por no prestar los servicios que se indican en el apartado 1.",
+      "justificacion": "RGV, anexo XI, señal V-1, apdo. 5."
+    },
+    {
+      "concepto_id": "RGV-021",
+      "articulo": "Anexo XI · V-3. Vehículo de policía",
+      "tipo": "test",
+      "enunciado": "La señal V-3 (vehículo de policía) señaliza un vehículo de esta clase:",
+      "opciones": [
+        "en servicio no urgente",
+        "en servicio urgente",
+        "en cualquier servicio",
+        "en servicio de escolta"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Señaliza un vehículo de esta clase en servicio no urgente.",
+      "justificacion": "RGV, anexo XI, señal V-3, apdo. 1."
+    },
+    {
+      "concepto_id": "RGV-022",
+      "articulo": "Anexo XI · V-3. Vehículo de policía",
+      "tipo": "test",
+      "enunciado": "La línea de contorno reflectante de la señal V-3 tendrá una anchura mínima, en vehículos con M.M.A. menor o igual a 3.500 kg, de:",
+      "opciones": [
+        "7 cm",
+        "10 cm",
+        "5 cm",
+        "12 cm"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Vehículos con M.M.A. menor o igual a 3.500 kg: 7 cm. Vehículos con M.M.A. mayor de 3.500 kg: 10 cm.",
+      "justificacion": "RGV, anexo XI, señal V-3, apdo. 3.a)."
+    },
+    {
+      "concepto_id": "RGV-023",
+      "articulo": "Anexo XVIII · Siglas de provincias",
+      "tipo": "test",
+      "enunciado": "En las contraseñas provinciales de las placas, ¿qué sigla correspondía a la provincia de Barcelona?",
+      "opciones": [
+        "B",
+        "BA",
+        "BI",
+        "BU"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Barcelona B.",
+      "justificacion": "RGV, anexo XVIII, siglas de provincias."
+    },
+    {
+      "concepto_id": "RGV-024",
+      "articulo": "Anexo XVIII · Contraseñas de vehículos del Estado",
+      "tipo": "test",
+      "enunciado": "¿A qué vehículos corresponde la contraseña CNP?",
+      "opciones": [
+        "los de la Dirección General de la Policía y de la Guardia Civil, adscritos al ámbito del Cuerpo Nacional de Policía",
+        "los de la Dirección General de la Policía y de la Guardia Civil, adscritos al ámbito del Cuerpo de la Guardia Civil",
+        "los del Ministerio de Defensa, correspondientes al Ejército de Tierra, la Armada y el Ejército del Aire",
+        "los del Parque Móvil del Estado y los adscritos al servicio de los organismos de la Administración General"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "CNP: Para los de la Dirección General de la Policía y de la Guardia Civil, adscritos al ámbito del Cuerpo Nacional de Policía.",
+      "justificacion": "RGV, anexo XVIII, contraseñas de vehículos del Estado."
+    }
   ],
   "relaciones": [
-    { "origen": "RGV-003", "destino": "RGV-002", "tipo": "desarrolla", "justificacion": "Las señales acústicas especiales de los prioritarios concretan y especializan el aparato acústico general exigido a todo vehículo de motor." },
-    { "origen": "RGV-005", "destino": "RGV-006", "tipo": "prerrequisito", "justificacion": "El vehículo debe reunir las condiciones técnicas del Reglamento (entre ellas el dispositivo antiuso) para poder ser matriculado." },
-    { "origen": "RGV-007", "destino": "RGV-006", "tipo": "limita", "justificacion": "La matrícula oficial de los vehículos del Estado es una modulación del principio de matriculación ordinaria única." },
-    { "origen": "RGV-008", "destino": "RGV-006", "tipo": "limita", "justificacion": "Las placas propias de la policía autonómica excepcionan, en su ámbito, la regla de matrícula única." },
-    { "origen": "RGV-010", "destino": "RGV-009", "tipo": "desarrolla", "justificacion": "La obligación de entregar permisos y placas concreta el régimen temporal del permiso de museos." },
-    { "origen": "RGV-011", "destino": "RGV-009", "tipo": "desarrolla", "justificacion": "La circulación no simultánea concreta el alcance del permiso temporal de museos." },
-    { "origen": "RGV-013", "destino": "RGV-012", "tipo": "desarrolla", "justificacion": "El código 13 (Policía) es una concreción de la clasificación de los vehículos por el servicio a que se destinan." },
-    { "origen": "RGV-014", "destino": "RGV-012", "tipo": "desarrolla", "justificacion": "El código 05 (auxilio en vías públicas) es una concreción de la clasificación por servicio." },
-    { "origen": "RGV-013", "destino": "RGV-015", "tipo": "prerrequisito", "justificacion": "El vehículo de policía (código 13) es de los que prestan los servicios que habilitan a portar la señal V-1." },
-    { "origen": "RGV-016", "destino": "RGV-015", "tipo": "desarrolla", "justificacion": "El régimen de autorización de la V-1 concreta las condiciones de uso de la señal del vehículo prioritario." },
-    { "origen": "RGV-017", "destino": "RGV-015", "tipo": "desarrolla", "justificacion": "El color y la homologación concretan las características físicas de la señal V-1." },
-    { "origen": "RGV-018", "destino": "RGV-017", "tipo": "desarrolla", "justificacion": "La visibilidad mínima a 50 metros detalla las exigencias de la señal luminosa V-1." },
-    { "origen": "RGV-019", "destino": "RGV-015", "tipo": "desarrolla", "justificacion": "El sistema auxiliar de los vehículos de policía complementa la señal V-1 del vehículo prioritario." },
-    { "origen": "RGV-020", "destino": "RGV-015", "tipo": "limita", "justificacion": "La prohibición de montar la V-1 en no prioritarios restringe el uso de la señal V-1." },
-    { "origen": "RGV-021", "destino": "RGV-015", "tipo": "limita", "justificacion": "La señal V-3 (servicio no urgente) delimita por contraste la señal V-1 del prioritario (servicio urgente)." },
-    { "origen": "RGV-022", "destino": "RGV-021", "tipo": "desarrolla", "justificacion": "Las anchuras de la línea de contorno concretan la señalización V-3 del vehículo de policía." },
-    { "origen": "RGV-023", "destino": "RGV-006", "tipo": "desarrolla", "justificacion": "Las siglas provinciales concretan el sistema de matriculación ordinaria." },
-    { "origen": "RGV-024", "destino": "RGV-007", "tipo": "desarrolla", "justificacion": "Las contraseñas del Estado (CNP, PGC, ET/FN/EA) concretan la matrícula oficial de los vehículos del Estado." },
-    { "origen": "RGV-003", "destino": "TRAF-008", "tipo": "prerrequisito", "justificacion": "El aparato emisor de señales acústicas especiales que el prioritario usa (art. 68.2 RGC, anexo XI) solo se instala en prioritarios y con autorización de industria." },
-    { "origen": "RGV-015", "destino": "TRAF-008", "tipo": "desarrolla", "justificacion": "La señal luminosa del anexo XI que exige el art. 68.2 RGC es, en su detalle, la señal V-1 del Reglamento General de Vehículos." },
-    { "origen": "RGV-001", "destino": "TRAF-006", "tipo": "prerrequisito", "justificacion": "La maniobra excepcional de marcha atrás del prioritario en autopista (art. 68.1 RGC) presupone el dispositivo de marcha atrás del vehículo." },
-    { "origen": "RGV-004", "destino": "TRAF-002", "tipo": "prerrequisito", "justificacion": "Que el prioritario pueda circular por encima de los límites de velocidad (art. 67.1 RGC) presupone que el vehículo disponga de indicador de velocidad." },
-    { "origen": "RGV-021", "destino": "TRAF-008", "tipo": "limita", "justificacion": "La señal V-3 corresponde al vehículo de policía en servicio no urgente, frente al régimen de prioritario en servicio urgente del art. 68.2 RGC." }
+    {
+      "origen": "RGV-003",
+      "destino": "RGV-002",
+      "tipo": "desarrolla",
+      "justificacion": "Las señales acústicas especiales de los prioritarios concretan y especializan el aparato acústico general exigido a todo vehículo de motor."
+    },
+    {
+      "origen": "RGV-005",
+      "destino": "RGV-006",
+      "tipo": "prerrequisito",
+      "justificacion": "El vehículo debe reunir las condiciones técnicas del Reglamento (entre ellas el dispositivo antiuso) para poder ser matriculado."
+    },
+    {
+      "origen": "RGV-007",
+      "destino": "RGV-006",
+      "tipo": "limita",
+      "justificacion": "La matrícula oficial de los vehículos del Estado es una modulación del principio de matriculación ordinaria única."
+    },
+    {
+      "origen": "RGV-008",
+      "destino": "RGV-006",
+      "tipo": "limita",
+      "justificacion": "Las placas propias de la policía autonómica excepcionan, en su ámbito, la regla de matrícula única."
+    },
+    {
+      "origen": "RGV-010",
+      "destino": "RGV-009",
+      "tipo": "desarrolla",
+      "justificacion": "La obligación de entregar permisos y placas concreta el régimen temporal del permiso de museos."
+    },
+    {
+      "origen": "RGV-011",
+      "destino": "RGV-009",
+      "tipo": "desarrolla",
+      "justificacion": "La circulación no simultánea concreta el alcance del permiso temporal de museos."
+    },
+    {
+      "origen": "RGV-013",
+      "destino": "RGV-012",
+      "tipo": "desarrolla",
+      "justificacion": "El código 13 (Policía) es una concreción de la clasificación de los vehículos por el servicio a que se destinan."
+    },
+    {
+      "origen": "RGV-014",
+      "destino": "RGV-012",
+      "tipo": "desarrolla",
+      "justificacion": "El código 05 (auxilio en vías públicas) es una concreción de la clasificación por servicio."
+    },
+    {
+      "origen": "RGV-013",
+      "destino": "RGV-015",
+      "tipo": "prerrequisito",
+      "justificacion": "El vehículo de policía (código 13) es de los que prestan los servicios que habilitan a portar la señal V-1."
+    },
+    {
+      "origen": "RGV-016",
+      "destino": "RGV-015",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen de autorización de la V-1 concreta las condiciones de uso de la señal del vehículo prioritario."
+    },
+    {
+      "origen": "RGV-017",
+      "destino": "RGV-015",
+      "tipo": "desarrolla",
+      "justificacion": "El color y la homologación concretan las características físicas de la señal V-1."
+    },
+    {
+      "origen": "RGV-018",
+      "destino": "RGV-017",
+      "tipo": "desarrolla",
+      "justificacion": "La visibilidad mínima a 50 metros detalla las exigencias de la señal luminosa V-1."
+    },
+    {
+      "origen": "RGV-019",
+      "destino": "RGV-015",
+      "tipo": "desarrolla",
+      "justificacion": "El sistema auxiliar de los vehículos de policía complementa la señal V-1 del vehículo prioritario."
+    },
+    {
+      "origen": "RGV-020",
+      "destino": "RGV-015",
+      "tipo": "limita",
+      "justificacion": "La prohibición de montar la V-1 en no prioritarios restringe el uso de la señal V-1."
+    },
+    {
+      "origen": "RGV-021",
+      "destino": "RGV-015",
+      "tipo": "limita",
+      "justificacion": "La señal V-3 (servicio no urgente) delimita por contraste la señal V-1 del prioritario (servicio urgente)."
+    },
+    {
+      "origen": "RGV-022",
+      "destino": "RGV-021",
+      "tipo": "desarrolla",
+      "justificacion": "Las anchuras de la línea de contorno concretan la señalización V-3 del vehículo de policía."
+    },
+    {
+      "origen": "RGV-023",
+      "destino": "RGV-006",
+      "tipo": "desarrolla",
+      "justificacion": "Las siglas provinciales concretan el sistema de matriculación ordinaria."
+    },
+    {
+      "origen": "RGV-024",
+      "destino": "RGV-007",
+      "tipo": "desarrolla",
+      "justificacion": "Las contraseñas del Estado (CNP, PGC, ET/FN/EA) concretan la matrícula oficial de los vehículos del Estado."
+    },
+    {
+      "origen": "RGV-003",
+      "destino": "TRAF-008",
+      "tipo": "prerrequisito",
+      "justificacion": "El aparato emisor de señales acústicas especiales que el prioritario usa (art. 68.2 RGC, anexo XI) solo se instala en prioritarios y con autorización de industria."
+    },
+    {
+      "origen": "RGV-015",
+      "destino": "TRAF-008",
+      "tipo": "desarrolla",
+      "justificacion": "La señal luminosa del anexo XI que exige el art. 68.2 RGC es, en su detalle, la señal V-1 del Reglamento General de Vehículos."
+    },
+    {
+      "origen": "RGV-001",
+      "destino": "TRAF-006",
+      "tipo": "prerrequisito",
+      "justificacion": "La maniobra excepcional de marcha atrás del prioritario en autopista (art. 68.1 RGC) presupone el dispositivo de marcha atrás del vehículo."
+    },
+    {
+      "origen": "RGV-004",
+      "destino": "TRAF-002",
+      "tipo": "prerrequisito",
+      "justificacion": "Que el prioritario pueda circular por encima de los límites de velocidad (art. 67.1 RGC) presupone que el vehículo disponga de indicador de velocidad."
+    },
+    {
+      "origen": "RGV-021",
+      "destino": "TRAF-008",
+      "tipo": "limita",
+      "justificacion": "La señal V-3 corresponde al vehículo de policía en servicio no urgente, frente al régimen de prioritario en servicio urgente del art. 68.2 RGC."
+    }
   ]
 }

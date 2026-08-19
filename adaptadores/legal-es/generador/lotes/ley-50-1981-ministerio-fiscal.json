@@ -4,7 +4,7 @@
     "norma": "Ley 50/1981, por la que se regula el Estatuto Orgánico del Ministerio Fiscal",
     "referencia_boe": "BOE-A-1982-837",
     "convocatoria": "policia-nacional-2026",
-    "tema": "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"
+    "tema": "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; los órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención y los derechos del detenido; el habeas corpus; el Ministerio Fiscal; la Policía Judicial"
   },
   "fuentes": {
     "art. 1": "El Ministerio Fiscal tiene por misión promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del interés público tutelado por la ley, de oficio o a petición de los interesados, así como velar por la independencia de los Tribunales, y procurar ante éstos la satisfacción del interés social.",
@@ -28,93 +28,793 @@
     "art. 25": "El Fiscal General del Estado podrá impartir a sus subordinados las órdenes e instrucciones convenientes al servicio y al ejercicio de las funciones, tanto de carácter general como referidas a asuntos específicos. Cuando dichas instrucciones se refieran a asuntos que afecten directamente a cualquier miembro del Gobierno, el Fiscal General deberá oír con carácter previo a la Junta de Fiscales de Sala. El Fiscal que reciba una orden o instrucción concerniente al servicio y al ejercicio de sus funciones, referida a asuntos específicos, deberá atenerse a las mismas en sus dictámenes pero podrá desenvolver libremente sus intervenciones orales en lo que crea conveniente al bien de la justicia."
   },
   "conceptos": [
-    { "id": "MF-001", "articulo": "art. 1", "titulo": "Misión del Ministerio Fiscal", "resumen": "El Ministerio Fiscal tiene por misión promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del interés público tutelado por la ley, y velar por la independencia de los Tribunales.", "explicacion": "El artículo 1 fija la razón de ser del Ministerio Fiscal. Actúa de oficio o a petición de los interesados y desarrolla el papel que la Constitución le atribuye en su artículo 124: defender la legalidad, los derechos de los ciudadanos y el interés público, además de velar por la independencia de los Tribunales y procurar ante ellos la satisfacción del interés social." },
-    { "id": "MF-002", "articulo": "art. 2", "titulo": "Naturaleza: órgano de relevancia constitucional integrado en el Poder Judicial", "resumen": "El Ministerio Fiscal es un órgano de relevancia constitucional con personalidad jurídica propia, integrado con autonomía funcional en el Poder Judicial, y ejerce su misión por medio de órganos propios.", "explicacion": "No es un poder del Estado, sino un órgano de relevancia constitucional. Tiene personalidad jurídica propia y se integra en el Poder Judicial, pero con autonomía funcional. Cumple su misión a través de sus propios órganos, que el Estatuto enumera en el artículo 12." },
-    { "id": "MF-003", "articulo": "art. 2", "titulo": "Principios de unidad de actuación y dependencia jerárquica", "resumen": "El Ministerio Fiscal ejerce su misión conforme a los principios de unidad de actuación y dependencia jerárquica.", "explicacion": "La unidad de actuación significa que el Ministerio Fiscal actúa como un cuerpo único con un solo criterio; la dependencia jerárquica, que sus miembros están subordinados a sus superiores y, en la cúspide, al Fiscal General del Estado. Estos dos principios son la primera pareja del artículo 2 y se completan con los de legalidad e imparcialidad." },
-    { "id": "MF-004", "articulo": "art. 2", "titulo": "Sujeción a legalidad e imparcialidad", "resumen": "El Ministerio Fiscal ejerce su misión con sujeción, en todo caso, a los principios de legalidad e imparcialidad.", "explicacion": "Junto a la unidad y la dependencia jerárquica (que ordenan cómo se organiza), la legalidad y la imparcialidad marcan cómo debe actuar: siempre con arreglo a la ley y sin tomar partido. Ambos principios se detallan por separado en los artículos 6 y 7 del Estatuto." },
-    { "id": "MF-005", "articulo": "art. 2", "titulo": "Denominación exclusiva", "resumen": "Corresponde al Ministerio Fiscal esta denominación con carácter exclusivo.", "explicacion": "El apartado Dos del artículo 2 reserva el nombre: solo esta institución puede llamarse Ministerio Fiscal. Es una garantía de identidad frente a otros órganos." },
-    { "id": "MF-006", "articulo": "art. 3", "titulo": "Funciones generales del Ministerio Fiscal", "resumen": "Corresponde al Ministerio Fiscal velar por que la función jurisdiccional se ejerza eficazmente conforme a las leyes y velar por el respeto de las instituciones constitucionales y de los derechos fundamentales y libertades públicas.", "explicacion": "El artículo 3 enumera las funciones que concretan la misión del artículo 1. Entre ellas, velar por la eficacia de la función jurisdiccional (apartado 1) y por el respeto de las instituciones constitucionales y de los derechos fundamentales (apartado 3). De aquí cuelgan funciones más específicas como el ejercicio de acciones o la intervención en el proceso penal." },
-    { "id": "MF-007", "articulo": "art. 3", "titulo": "Ejercitar las acciones penales y civiles", "resumen": "Corresponde al Ministerio Fiscal ejercitar las acciones penales y civiles dimanantes de delitos, u oponerse a las ejercitadas por otros, cuando proceda.", "explicacion": "Es una de las funciones más conocidas: el fiscal ejercita las acciones penales y civiles que nacen de los delitos, sin perjuicio de la competencia de la Fiscalía Europea para los delitos contra los intereses financieros de la Unión. También puede oponerse a las acciones ejercitadas por otros cuando proceda." },
-    { "id": "MF-008", "articulo": "art. 3", "titulo": "Intervenir en el proceso penal", "resumen": "El Ministerio Fiscal interviene en el proceso penal, instando de la autoridad judicial la adopción de las medidas cautelares que procedan y la práctica de las diligencias encaminadas al esclarecimiento de los hechos.", "explicacion": "En el proceso penal el fiscal no instruye con carácter general (salvo en el ámbito de la responsabilidad penal de los menores), sino que insta al juez la adopción de medidas cautelares y la práctica de diligencias, y puede ordenar a la Policía Judicial las diligencias que estime oportunas." },
-    { "id": "MF-009", "articulo": "art. 3", "titulo": "Protección procesal de víctimas, testigos y peritos", "resumen": "Corresponde al Ministerio Fiscal velar por la protección procesal de las víctimas y por la protección de testigos y peritos, promoviendo los mecanismos previstos para que reciban la ayuda y asistencia efectivas.", "explicacion": "El apartado 10 del artículo 3 sitúa al fiscal como garante de la protección de las víctimas y también de testigos y peritos. Debe promover los mecanismos legales para que reciban ayuda y asistencia efectivas, en conexión con el Estatuto de la víctima del delito." },
-    { "id": "MF-010", "articulo": "art. 3", "titulo": "Forma de intervención del fiscal en los procesos", "resumen": "La intervención del fiscal podrá producirse mediante escrito o comparecencia; en los procesos no penales, salvo excepción legal o cuando actúe como demandante, se producirá en último lugar.", "explicacion": "El fiscal puede intervenir por escrito o por comparecencia, e incluso a través de medios tecnológicos. Como regla, en los procesos que no son penales interviene en último lugar, salvo que la ley disponga otra cosa o actúe como demandante." },
-    { "id": "MF-011", "articulo": "art. 5", "titulo": "Recepción de denuncias y archivo", "resumen": "El Fiscal podrá recibir denuncias, enviándolas a la autoridad judicial o decretando su archivo cuando no encuentre fundamentos para ejercitar acción alguna, notificando en ese caso la decisión al denunciante.", "explicacion": "El fiscal es una vía para presentar denuncias. Si aprecia fundamento, las remite a la autoridad judicial; si no lo aprecia, puede decretar su archivo, pero debe notificar esa decisión al denunciante. Es una manifestación del principio de legalidad aplicado a la denuncia." },
-    { "id": "MF-012", "articulo": "art. 5", "titulo": "Diligencias de investigación y detención preventiva", "resumen": "El Fiscal puede practicar diligencias que no supongan medidas cautelares o limitativas de derechos, aunque podrá ordenar la detención preventiva; esas diligencias gozan de presunción de autenticidad y no pueden exceder de seis meses salvo prórroga del Fiscal General del Estado.", "explicacion": "En sus diligencias de investigación el fiscal no puede adoptar medidas cautelares ni limitativas de derechos, con una excepción expresa: puede ordenar la detención preventiva. Las diligencias tienen presunción de autenticidad y un plazo máximo de seis meses, prorrogable solo por decreto motivado del Fiscal General del Estado." },
-    { "id": "MF-013", "articulo": "art. 6", "titulo": "Principio de legalidad", "resumen": "Por el principio de legalidad el Ministerio Fiscal actuará con sujeción a la Constitución, a las leyes y demás normas que integran el ordenamiento jurídico vigente.", "explicacion": "El artículo 6 desarrolla el principio de legalidad ya anunciado en el artículo 2: el fiscal dictamina, informa y ejercita las acciones procedentes, u se opone a las indebidamente actuadas, siempre en la medida y forma que las leyes establecen. Si estima improcedente la actuación que se le confía, usa las facultades del artículo 27." },
-    { "id": "MF-014", "articulo": "art. 7", "titulo": "Principio de imparcialidad", "resumen": "Por el principio de imparcialidad el Ministerio Fiscal actuará con plena objetividad e independencia en defensa de los intereses que le estén encomendados.", "explicacion": "El artículo 7 desarrolla la imparcialidad anunciada en el artículo 2. Aunque el fiscal defiende intereses concretos, debe hacerlo con plena objetividad e independencia, sin tomar partido más allá de lo que exige la legalidad." },
-    { "id": "MF-015", "articulo": "art. 8", "titulo": "Relaciones con el Gobierno", "resumen": "El Gobierno podrá interesar del Fiscal General del Estado que promueva ante los Tribunales las actuaciones pertinentes en defensa del interés público; la comunicación se hará por conducto del Ministro de Justicia a través del Fiscal General del Estado.", "explicacion": "El Gobierno no da órdenes al fiscal: solo puede interesar del Fiscal General del Estado actuaciones en defensa del interés público. El canal ordinario de comunicación es el Ministro de Justicia a través del Fiscal General del Estado, aunque el Presidente del Gobierno puede dirigirse directamente cuando lo estime necesario." },
-    { "id": "MF-016", "articulo": "art. 9", "titulo": "Memoria anual del Fiscal General del Estado", "resumen": "El Fiscal General del Estado elevará al Gobierno una memoria anual sobre su actividad, la evolución de la criminalidad, la prevención del delito y las reformas convenientes para una mayor eficacia de la Justicia.", "explicacion": "Cada año el Fiscal General del Estado rinde cuentas mediante una memoria que eleva al Gobierno, de la que se remite copia a las Cortes Generales y al Consejo General del Poder Judicial. Es un instrumento clave de transparencia sobre la criminalidad y el funcionamiento de la Justicia." },
-    { "id": "MF-017", "articulo": "art. 10", "titulo": "Relaciones con las Cortes Generales", "resumen": "El Ministerio Fiscal colaborará con las Cortes Generales a requerimiento de éstas; las Cortes Generales se comunicarán con el Ministerio Fiscal a través de los Presidentes de las Cámaras.", "explicacion": "El fiscal colabora con las Cortes cuando estas lo requieren y no exista obstáculo legal, e incluso puede comparecer para informar. El cauce de comunicación de las Cortes con el Ministerio Fiscal son los Presidentes de las Cámaras." },
-    { "id": "MF-018", "articulo": "art. 11", "titulo": "Relaciones con las Comunidades Autónomas", "resumen": "Cuando los órganos de Gobierno de las Comunidades Autónomas interesen la actuación del Ministerio Fiscal se dirigirán al Fiscal Superior de la Comunidad Autónoma, que lo pondrá en conocimiento del Fiscal General del Estado.", "explicacion": "El canal autonómico es el Fiscal Superior de la Comunidad Autónoma, que traslada la solicitud al Fiscal General del Estado; este, oída la Junta de Fiscales de Sala, resuelve ajustándose en todo caso al principio de legalidad. El Ministerio de Justicia queda informado." },
-    { "id": "MF-019", "articulo": "art. 12", "titulo": "Órganos del Ministerio Fiscal", "resumen": "Son órganos del Ministerio Fiscal el Fiscal General del Estado, el Consejo Fiscal, la Junta de Fiscales de Sala, la Junta de Fiscales Superiores de las Comunidades Autónomas y las distintas Fiscalías, entre otros.", "explicacion": "El artículo 12 enumera la estructura orgánica: en la cúspide el Fiscal General del Estado, y junto a él órganos colegiados (Consejo Fiscal, Junta de Fiscales de Sala) y las Fiscalías (Tribunal Supremo, Tribunal Constitucional, Audiencia Nacional, Especiales, Comunidades Autónomas, Provinciales y de Área), además de la Unidad de Protección de Datos." },
-    { "id": "MF-020", "articulo": "art. 13", "titulo": "La Fiscalía General del Estado", "resumen": "El Fiscal General del Estado dirige la Fiscalía General del Estado, integrada por la Inspección Fiscal, la Secretaría Técnica, la Unidad de Apoyo y los Fiscales de Sala que se determinen en plantilla; le corresponde proponer al Gobierno los ascensos y nombramientos.", "explicacion": "La Fiscalía General del Estado es el aparato al servicio del Fiscal General. Además de dirigirla, este propone al Gobierno los ascensos y nombramientos para los distintos cargos, previo informe del Consejo Fiscal, con lo que canaliza la carrera fiscal." },
-    { "id": "MF-021", "articulo": "art. 14", "titulo": "Consejo Fiscal: composición", "resumen": "El Consejo Fiscal se constituye bajo la Presidencia de la persona titular de la Fiscalía General del Estado, con el Teniente Fiscal del Tribunal Supremo, el Fiscal Jefe Inspector y nueve Fiscales pertenecientes a cualquiera de las categorías.", "explicacion": "El Consejo Fiscal es el principal órgano colegiado de asesoramiento y gobierno interno. Lo preside el Fiscal General del Estado; son miembros natos el Teniente Fiscal del Tribunal Supremo y el Fiscal Jefe Inspector, y nueve vocales electos entre cualquier categoría por un periodo de cuatro años." },
-    { "id": "MF-022", "articulo": "art. 14", "titulo": "Consejo Fiscal: funciones", "resumen": "Corresponde al Consejo Fiscal elaborar los criterios generales para asegurar la unidad de actuación del Ministerio Fiscal, asesorar al Fiscal General del Estado, informar las propuestas de nombramiento y elaborar los informes para ascensos.", "explicacion": "El Consejo Fiscal asesora al Fiscal General y participa en la carrera fiscal: fija criterios de unidad de actuación, informa los nombramientos y elabora los informes de ascensos, además de resolver expedientes disciplinarios de su competencia. Concreta el órgano descrito en su composición." },
-    { "id": "MF-023", "articulo": "art. 15", "titulo": "Junta de Fiscales de Sala", "resumen": "La Junta de Fiscales de Sala se constituye bajo la presidencia del Fiscal General del Estado, con el Teniente Fiscal del Tribunal Supremo y los Fiscales de Sala, y asiste al Fiscal General del Estado en materia doctrinal y técnica.", "explicacion": "Es el órgano técnico-doctrinal. Actúa como secretario el Fiscal Jefe de la Secretaría Técnica. Ayuda a formar los criterios unitarios de interpretación y actuación legal, resuelve consultas y prepara memorias y circulares, reforzando la unidad de actuación." },
-    { "id": "MF-024", "articulo": "art. 16", "titulo": "Junta de Fiscales Superiores de las Comunidades Autónomas", "resumen": "La Junta de Fiscales Superiores de las Comunidades Autónomas, presidida por el Fiscal General del Estado, tiene por función asegurar la unidad y coordinación de la actuación y funcionamiento de las Fiscalías en todo el territorio del Estado.", "explicacion": "Este órgano reúne a los Fiscales Superiores de las Comunidades Autónomas junto al Teniente Fiscal del Tribunal Supremo y al Fiscal Jefe de la Secretaría Técnica. Su misión es coordinar territorialmente la actuación de las Fiscalías, sin perjuicio de las competencias del Consejo Fiscal." },
-    { "id": "MF-025", "articulo": "art. 17", "titulo": "Fiscalía del Tribunal Supremo y sustitución del Fiscal General", "resumen": "La Fiscalía del Tribunal Supremo actúa bajo la jefatura del Fiscal General del Estado; el Teniente Fiscal del Tribunal Supremo sustituirá al Fiscal General del Estado en caso de ausencia, imposibilidad o vacante.", "explicacion": "La Fiscalía del Tribunal Supremo está jefaturada por el propio Fiscal General del Estado. Su Teniente Fiscal cumple una función clave: sustituye al Fiscal General del Estado cuando este falta, no puede actuar o el cargo queda vacante, y dirige por delegación la actividad ordinaria de esa Fiscalía." },
-    { "id": "MF-026", "articulo": "art. 22", "titulo": "El Fiscal General del Estado: jefatura superior y representación", "resumen": "El Fiscal General del Estado ostenta la jefatura superior del Ministerio Fiscal y su representación en todo el territorio español, y le corresponde impartir las órdenes e instrucciones convenientes al servicio y al orden interno de la institución.", "explicacion": "El Ministerio Fiscal es único para todo el Estado y el Fiscal General del Estado está en su cúspide: ejerce la jefatura superior, lo representa en toda España y dirige e inspecciona la institución. Es la máxima expresión del principio de dependencia jerárquica." },
-    { "id": "MF-027", "articulo": "art. 23", "titulo": "Los fiscales son autoridad y la avocación", "resumen": "Los miembros del Ministerio Fiscal son autoridad a todos los efectos; el superior jerárquico inmediato puede, mediante resolución motivada, avocar para sí el asunto o designar a otro Fiscal para que lo despache.", "explicacion": "Cada fiscal tiene la condición de autoridad y actúa en representación de la institución. La avocación es una manifestación de la dependencia jerárquica: el superior puede, motivadamente, quedarse con el asunto o asignarlo a otro fiscal, comunicándolo al Consejo Fiscal, que puede opinar." },
-    { "id": "MF-028", "articulo": "art. 25", "titulo": "Órdenes e instrucciones del Fiscal General del Estado", "resumen": "El Fiscal General del Estado podrá impartir a sus subordinados las órdenes e instrucciones convenientes al servicio y al ejercicio de las funciones, tanto de carácter general como referidas a asuntos específicos.", "explicacion": "El Fiscal General puede dar instrucciones generales o para asuntos concretos. Si afectan directamente a un miembro del Gobierno, debe oír antes a la Junta de Fiscales de Sala. El fiscal que recibe una instrucción sobre un asunto específico debe atenerse a ella en sus dictámenes, pero conserva libertad en sus intervenciones orales." }
+    {
+      "id": "MF-001",
+      "articulo": "art. 1",
+      "titulo": "Misión del Ministerio Fiscal",
+      "resumen": "El Ministerio Fiscal tiene por misión promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del interés público tutelado por la ley, y velar por la independencia de los Tribunales.",
+      "explicacion": "El artículo 1 fija la razón de ser del Ministerio Fiscal. Actúa de oficio o a petición de los interesados y desarrolla el papel que la Constitución le atribuye en su artículo 124: defender la legalidad, los derechos de los ciudadanos y el interés público, además de velar por la independencia de los Tribunales y procurar ante ellos la satisfacción del interés social."
+    },
+    {
+      "id": "MF-002",
+      "articulo": "art. 2",
+      "titulo": "Naturaleza: órgano de relevancia constitucional integrado en el Poder Judicial",
+      "resumen": "El Ministerio Fiscal es un órgano de relevancia constitucional con personalidad jurídica propia, integrado con autonomía funcional en el Poder Judicial, y ejerce su misión por medio de órganos propios.",
+      "explicacion": "No es un poder del Estado, sino un órgano de relevancia constitucional. Tiene personalidad jurídica propia y se integra en el Poder Judicial, pero con autonomía funcional. Cumple su misión a través de sus propios órganos, que el Estatuto enumera en el artículo 12."
+    },
+    {
+      "id": "MF-003",
+      "articulo": "art. 2",
+      "titulo": "Principios de unidad de actuación y dependencia jerárquica",
+      "resumen": "El Ministerio Fiscal ejerce su misión conforme a los principios de unidad de actuación y dependencia jerárquica.",
+      "explicacion": "La unidad de actuación significa que el Ministerio Fiscal actúa como un cuerpo único con un solo criterio; la dependencia jerárquica, que sus miembros están subordinados a sus superiores y, en la cúspide, al Fiscal General del Estado. Estos dos principios son la primera pareja del artículo 2 y se completan con los de legalidad e imparcialidad."
+    },
+    {
+      "id": "MF-004",
+      "articulo": "art. 2",
+      "titulo": "Sujeción a legalidad e imparcialidad",
+      "resumen": "El Ministerio Fiscal ejerce su misión con sujeción, en todo caso, a los principios de legalidad e imparcialidad.",
+      "explicacion": "Junto a la unidad y la dependencia jerárquica (que ordenan cómo se organiza), la legalidad y la imparcialidad marcan cómo debe actuar: siempre con arreglo a la ley y sin tomar partido. Ambos principios se detallan por separado en los artículos 6 y 7 del Estatuto."
+    },
+    {
+      "id": "MF-005",
+      "articulo": "art. 2",
+      "titulo": "Denominación exclusiva",
+      "resumen": "Corresponde al Ministerio Fiscal esta denominación con carácter exclusivo.",
+      "explicacion": "El apartado Dos del artículo 2 reserva el nombre: solo esta institución puede llamarse Ministerio Fiscal. Es una garantía de identidad frente a otros órganos."
+    },
+    {
+      "id": "MF-006",
+      "articulo": "art. 3",
+      "titulo": "Funciones generales del Ministerio Fiscal",
+      "resumen": "Corresponde al Ministerio Fiscal velar por que la función jurisdiccional se ejerza eficazmente conforme a las leyes y velar por el respeto de las instituciones constitucionales y de los derechos fundamentales y libertades públicas.",
+      "explicacion": "El artículo 3 enumera las funciones que concretan la misión del artículo 1. Entre ellas, velar por la eficacia de la función jurisdiccional (apartado 1) y por el respeto de las instituciones constitucionales y de los derechos fundamentales (apartado 3). De aquí cuelgan funciones más específicas como el ejercicio de acciones o la intervención en el proceso penal."
+    },
+    {
+      "id": "MF-007",
+      "articulo": "art. 3",
+      "titulo": "Ejercitar las acciones penales y civiles",
+      "resumen": "Corresponde al Ministerio Fiscal ejercitar las acciones penales y civiles dimanantes de delitos, u oponerse a las ejercitadas por otros, cuando proceda.",
+      "explicacion": "Es una de las funciones más conocidas: el fiscal ejercita las acciones penales y civiles que nacen de los delitos, sin perjuicio de la competencia de la Fiscalía Europea para los delitos contra los intereses financieros de la Unión. También puede oponerse a las acciones ejercitadas por otros cuando proceda."
+    },
+    {
+      "id": "MF-008",
+      "articulo": "art. 3",
+      "titulo": "Intervenir en el proceso penal",
+      "resumen": "El Ministerio Fiscal interviene en el proceso penal, instando de la autoridad judicial la adopción de las medidas cautelares que procedan y la práctica de las diligencias encaminadas al esclarecimiento de los hechos.",
+      "explicacion": "En el proceso penal el fiscal no instruye con carácter general (salvo en el ámbito de la responsabilidad penal de los menores), sino que insta al juez la adopción de medidas cautelares y la práctica de diligencias, y puede ordenar a la Policía Judicial las diligencias que estime oportunas."
+    },
+    {
+      "id": "MF-009",
+      "articulo": "art. 3",
+      "titulo": "Protección procesal de víctimas, testigos y peritos",
+      "resumen": "Corresponde al Ministerio Fiscal velar por la protección procesal de las víctimas y por la protección de testigos y peritos, promoviendo los mecanismos previstos para que reciban la ayuda y asistencia efectivas.",
+      "explicacion": "El apartado 10 del artículo 3 sitúa al fiscal como garante de la protección de las víctimas y también de testigos y peritos. Debe promover los mecanismos legales para que reciban ayuda y asistencia efectivas, en conexión con el Estatuto de la víctima del delito."
+    },
+    {
+      "id": "MF-010",
+      "articulo": "art. 3",
+      "titulo": "Forma de intervención del fiscal en los procesos",
+      "resumen": "La intervención del fiscal podrá producirse mediante escrito o comparecencia; en los procesos no penales, salvo excepción legal o cuando actúe como demandante, se producirá en último lugar.",
+      "explicacion": "El fiscal puede intervenir por escrito o por comparecencia, e incluso a través de medios tecnológicos. Como regla, en los procesos que no son penales interviene en último lugar, salvo que la ley disponga otra cosa o actúe como demandante."
+    },
+    {
+      "id": "MF-011",
+      "articulo": "art. 5",
+      "titulo": "Recepción de denuncias y archivo",
+      "resumen": "El Fiscal podrá recibir denuncias, enviándolas a la autoridad judicial o decretando su archivo cuando no encuentre fundamentos para ejercitar acción alguna, notificando en ese caso la decisión al denunciante.",
+      "explicacion": "El fiscal es una vía para presentar denuncias. Si aprecia fundamento, las remite a la autoridad judicial; si no lo aprecia, puede decretar su archivo, pero debe notificar esa decisión al denunciante. Es una manifestación del principio de legalidad aplicado a la denuncia."
+    },
+    {
+      "id": "MF-012",
+      "articulo": "art. 5",
+      "titulo": "Diligencias de investigación y detención preventiva",
+      "resumen": "El Fiscal puede practicar diligencias que no supongan medidas cautelares o limitativas de derechos, aunque podrá ordenar la detención preventiva; esas diligencias gozan de presunción de autenticidad y no pueden exceder de seis meses salvo prórroga del Fiscal General del Estado.",
+      "explicacion": "En sus diligencias de investigación el fiscal no puede adoptar medidas cautelares ni limitativas de derechos, con una excepción expresa: puede ordenar la detención preventiva. Las diligencias tienen presunción de autenticidad y un plazo máximo de seis meses, prorrogable solo por decreto motivado del Fiscal General del Estado."
+    },
+    {
+      "id": "MF-013",
+      "articulo": "art. 6",
+      "titulo": "Principio de legalidad",
+      "resumen": "Por el principio de legalidad el Ministerio Fiscal actuará con sujeción a la Constitución, a las leyes y demás normas que integran el ordenamiento jurídico vigente.",
+      "explicacion": "El artículo 6 desarrolla el principio de legalidad ya anunciado en el artículo 2: el fiscal dictamina, informa y ejercita las acciones procedentes, u se opone a las indebidamente actuadas, siempre en la medida y forma que las leyes establecen. Si estima improcedente la actuación que se le confía, usa las facultades del artículo 27."
+    },
+    {
+      "id": "MF-014",
+      "articulo": "art. 7",
+      "titulo": "Principio de imparcialidad",
+      "resumen": "Por el principio de imparcialidad el Ministerio Fiscal actuará con plena objetividad e independencia en defensa de los intereses que le estén encomendados.",
+      "explicacion": "El artículo 7 desarrolla la imparcialidad anunciada en el artículo 2. Aunque el fiscal defiende intereses concretos, debe hacerlo con plena objetividad e independencia, sin tomar partido más allá de lo que exige la legalidad."
+    },
+    {
+      "id": "MF-015",
+      "articulo": "art. 8",
+      "titulo": "Relaciones con el Gobierno",
+      "resumen": "El Gobierno podrá interesar del Fiscal General del Estado que promueva ante los Tribunales las actuaciones pertinentes en defensa del interés público; la comunicación se hará por conducto del Ministro de Justicia a través del Fiscal General del Estado.",
+      "explicacion": "El Gobierno no da órdenes al fiscal: solo puede interesar del Fiscal General del Estado actuaciones en defensa del interés público. El canal ordinario de comunicación es el Ministro de Justicia a través del Fiscal General del Estado, aunque el Presidente del Gobierno puede dirigirse directamente cuando lo estime necesario."
+    },
+    {
+      "id": "MF-016",
+      "articulo": "art. 9",
+      "titulo": "Memoria anual del Fiscal General del Estado",
+      "resumen": "El Fiscal General del Estado elevará al Gobierno una memoria anual sobre su actividad, la evolución de la criminalidad, la prevención del delito y las reformas convenientes para una mayor eficacia de la Justicia.",
+      "explicacion": "Cada año el Fiscal General del Estado rinde cuentas mediante una memoria que eleva al Gobierno, de la que se remite copia a las Cortes Generales y al Consejo General del Poder Judicial. Es un instrumento clave de transparencia sobre la criminalidad y el funcionamiento de la Justicia."
+    },
+    {
+      "id": "MF-017",
+      "articulo": "art. 10",
+      "titulo": "Relaciones con las Cortes Generales",
+      "resumen": "El Ministerio Fiscal colaborará con las Cortes Generales a requerimiento de éstas; las Cortes Generales se comunicarán con el Ministerio Fiscal a través de los Presidentes de las Cámaras.",
+      "explicacion": "El fiscal colabora con las Cortes cuando estas lo requieren y no exista obstáculo legal, e incluso puede comparecer para informar. El cauce de comunicación de las Cortes con el Ministerio Fiscal son los Presidentes de las Cámaras."
+    },
+    {
+      "id": "MF-018",
+      "articulo": "art. 11",
+      "titulo": "Relaciones con las Comunidades Autónomas",
+      "resumen": "Cuando los órganos de Gobierno de las Comunidades Autónomas interesen la actuación del Ministerio Fiscal se dirigirán al Fiscal Superior de la Comunidad Autónoma, que lo pondrá en conocimiento del Fiscal General del Estado.",
+      "explicacion": "El canal autonómico es el Fiscal Superior de la Comunidad Autónoma, que traslada la solicitud al Fiscal General del Estado; este, oída la Junta de Fiscales de Sala, resuelve ajustándose en todo caso al principio de legalidad. El Ministerio de Justicia queda informado."
+    },
+    {
+      "id": "MF-019",
+      "articulo": "art. 12",
+      "titulo": "Órganos del Ministerio Fiscal",
+      "resumen": "Son órganos del Ministerio Fiscal el Fiscal General del Estado, el Consejo Fiscal, la Junta de Fiscales de Sala, la Junta de Fiscales Superiores de las Comunidades Autónomas y las distintas Fiscalías, entre otros.",
+      "explicacion": "El artículo 12 enumera la estructura orgánica: en la cúspide el Fiscal General del Estado, y junto a él órganos colegiados (Consejo Fiscal, Junta de Fiscales de Sala) y las Fiscalías (Tribunal Supremo, Tribunal Constitucional, Audiencia Nacional, Especiales, Comunidades Autónomas, Provinciales y de Área), además de la Unidad de Protección de Datos."
+    },
+    {
+      "id": "MF-020",
+      "articulo": "art. 13",
+      "titulo": "La Fiscalía General del Estado",
+      "resumen": "El Fiscal General del Estado dirige la Fiscalía General del Estado, integrada por la Inspección Fiscal, la Secretaría Técnica, la Unidad de Apoyo y los Fiscales de Sala que se determinen en plantilla; le corresponde proponer al Gobierno los ascensos y nombramientos.",
+      "explicacion": "La Fiscalía General del Estado es el aparato al servicio del Fiscal General. Además de dirigirla, este propone al Gobierno los ascensos y nombramientos para los distintos cargos, previo informe del Consejo Fiscal, con lo que canaliza la carrera fiscal."
+    },
+    {
+      "id": "MF-021",
+      "articulo": "art. 14",
+      "titulo": "Consejo Fiscal: composición",
+      "resumen": "El Consejo Fiscal se constituye bajo la Presidencia de la persona titular de la Fiscalía General del Estado, con el Teniente Fiscal del Tribunal Supremo, el Fiscal Jefe Inspector y nueve Fiscales pertenecientes a cualquiera de las categorías.",
+      "explicacion": "El Consejo Fiscal es el principal órgano colegiado de asesoramiento y gobierno interno. Lo preside el Fiscal General del Estado; son miembros natos el Teniente Fiscal del Tribunal Supremo y el Fiscal Jefe Inspector, y nueve vocales electos entre cualquier categoría por un periodo de cuatro años."
+    },
+    {
+      "id": "MF-022",
+      "articulo": "art. 14",
+      "titulo": "Consejo Fiscal: funciones",
+      "resumen": "Corresponde al Consejo Fiscal elaborar los criterios generales para asegurar la unidad de actuación del Ministerio Fiscal, asesorar al Fiscal General del Estado, informar las propuestas de nombramiento y elaborar los informes para ascensos.",
+      "explicacion": "El Consejo Fiscal asesora al Fiscal General y participa en la carrera fiscal: fija criterios de unidad de actuación, informa los nombramientos y elabora los informes de ascensos, además de resolver expedientes disciplinarios de su competencia. Concreta el órgano descrito en su composición."
+    },
+    {
+      "id": "MF-023",
+      "articulo": "art. 15",
+      "titulo": "Junta de Fiscales de Sala",
+      "resumen": "La Junta de Fiscales de Sala se constituye bajo la presidencia del Fiscal General del Estado, con el Teniente Fiscal del Tribunal Supremo y los Fiscales de Sala, y asiste al Fiscal General del Estado en materia doctrinal y técnica.",
+      "explicacion": "Es el órgano técnico-doctrinal. Actúa como secretario el Fiscal Jefe de la Secretaría Técnica. Ayuda a formar los criterios unitarios de interpretación y actuación legal, resuelve consultas y prepara memorias y circulares, reforzando la unidad de actuación."
+    },
+    {
+      "id": "MF-024",
+      "articulo": "art. 16",
+      "titulo": "Junta de Fiscales Superiores de las Comunidades Autónomas",
+      "resumen": "La Junta de Fiscales Superiores de las Comunidades Autónomas, presidida por el Fiscal General del Estado, tiene por función asegurar la unidad y coordinación de la actuación y funcionamiento de las Fiscalías en todo el territorio del Estado.",
+      "explicacion": "Este órgano reúne a los Fiscales Superiores de las Comunidades Autónomas junto al Teniente Fiscal del Tribunal Supremo y al Fiscal Jefe de la Secretaría Técnica. Su misión es coordinar territorialmente la actuación de las Fiscalías, sin perjuicio de las competencias del Consejo Fiscal."
+    },
+    {
+      "id": "MF-025",
+      "articulo": "art. 17",
+      "titulo": "Fiscalía del Tribunal Supremo y sustitución del Fiscal General",
+      "resumen": "La Fiscalía del Tribunal Supremo actúa bajo la jefatura del Fiscal General del Estado; el Teniente Fiscal del Tribunal Supremo sustituirá al Fiscal General del Estado en caso de ausencia, imposibilidad o vacante.",
+      "explicacion": "La Fiscalía del Tribunal Supremo está jefaturada por el propio Fiscal General del Estado. Su Teniente Fiscal cumple una función clave: sustituye al Fiscal General del Estado cuando este falta, no puede actuar o el cargo queda vacante, y dirige por delegación la actividad ordinaria de esa Fiscalía."
+    },
+    {
+      "id": "MF-026",
+      "articulo": "art. 22",
+      "titulo": "El Fiscal General del Estado: jefatura superior y representación",
+      "resumen": "El Fiscal General del Estado ostenta la jefatura superior del Ministerio Fiscal y su representación en todo el territorio español, y le corresponde impartir las órdenes e instrucciones convenientes al servicio y al orden interno de la institución.",
+      "explicacion": "El Ministerio Fiscal es único para todo el Estado y el Fiscal General del Estado está en su cúspide: ejerce la jefatura superior, lo representa en toda España y dirige e inspecciona la institución. Es la máxima expresión del principio de dependencia jerárquica."
+    },
+    {
+      "id": "MF-027",
+      "articulo": "art. 23",
+      "titulo": "Los fiscales son autoridad y la avocación",
+      "resumen": "Los miembros del Ministerio Fiscal son autoridad a todos los efectos; el superior jerárquico inmediato puede, mediante resolución motivada, avocar para sí el asunto o designar a otro Fiscal para que lo despache.",
+      "explicacion": "Cada fiscal tiene la condición de autoridad y actúa en representación de la institución. La avocación es una manifestación de la dependencia jerárquica: el superior puede, motivadamente, quedarse con el asunto o asignarlo a otro fiscal, comunicándolo al Consejo Fiscal, que puede opinar."
+    },
+    {
+      "id": "MF-028",
+      "articulo": "art. 25",
+      "titulo": "Órdenes e instrucciones del Fiscal General del Estado",
+      "resumen": "El Fiscal General del Estado podrá impartir a sus subordinados las órdenes e instrucciones convenientes al servicio y al ejercicio de las funciones, tanto de carácter general como referidas a asuntos específicos.",
+      "explicacion": "El Fiscal General puede dar instrucciones generales o para asuntos concretos. Si afectan directamente a un miembro del Gobierno, debe oír antes a la Junta de Fiscales de Sala. El fiscal que recibe una instrucción sobre un asunto específico debe atenerse a ella en sus dictámenes, pero conserva libertad en sus intervenciones orales."
+    }
   ],
   "actividades": [
-    { "concepto_id": "MF-001", "articulo": "art. 1", "tipo": "test", "enunciado": "¿Cuál es la misión del Ministerio Fiscal según el artículo 1 del Estatuto?", "opciones": ["Promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del interés público tutelado por la ley", "Juzgar y hacer ejecutar lo juzgado", "Dirigir la política criminal del Gobierno", "Elaborar las leyes penales"], "indice_correcto": 0, "cotejo": "El Ministerio Fiscal tiene por misión promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del interés público tutelado por la ley, de oficio o a petición de los interesados, así como velar por la independencia de los Tribunales, y procurar ante éstos la satisfacción del interés social.", "justificacion": "Art. 1 EOMF." },
-    { "concepto_id": "MF-002", "articulo": "art. 2", "tipo": "test", "enunciado": "¿Cómo se define al Ministerio Fiscal en el artículo 2?", "opciones": ["Un órgano de relevancia constitucional con personalidad jurídica propia, integrado con autonomía funcional en el Poder Judicial", "Un poder del Estado independiente del Poder Judicial", "Un órgano dependiente del Poder Ejecutivo", "Una sección de la Abogacía del Estado"], "indice_correcto": 0, "cotejo": "El Ministerio Fiscal es un órgano de relevancia constitucional con personalidad jurídica propia, integrado con autonomía funcional en el Poder Judicial, y ejerce su misión por medio de órganos propios, conforme a los principios de unidad de actuación y dependencia jerárquica y con sujeción, en todo caso, a los de legalidad e imparcialidad.", "justificacion": "Art. 2.Uno EOMF." },
-    { "concepto_id": "MF-003", "articulo": "art. 2", "tipo": "test", "enunciado": "¿Conforme a qué principios organizativos ejerce su misión el Ministerio Fiscal?", "opciones": ["Unidad de actuación y dependencia jerárquica", "Descentralización y autonomía de cada fiscal", "Colegialidad y voto mayoritario", "Independencia individual de cada fiscal"], "indice_correcto": 0, "cotejo": "ejerce su misión por medio de órganos propios, conforme a los principios de unidad de actuación y dependencia jerárquica y con sujeción, en todo caso, a los de legalidad e imparcialidad.", "justificacion": "Art. 2.Uno EOMF." },
-    { "concepto_id": "MF-004", "articulo": "art. 2", "tipo": "test", "enunciado": "Además de la unidad de actuación y la dependencia jerárquica, ¿a qué principios queda sujeto en todo caso el Ministerio Fiscal?", "opciones": ["A los de legalidad e imparcialidad", "A los de oportunidad y discrecionalidad", "A los de jerarquía y obediencia debida", "A los de publicidad y contradicción"], "indice_correcto": 0, "cotejo": "conforme a los principios de unidad de actuación y dependencia jerárquica y con sujeción, en todo caso, a los de legalidad e imparcialidad.", "justificacion": "Art. 2.Uno EOMF." },
-    { "concepto_id": "MF-005", "articulo": "art. 2", "tipo": "test", "enunciado": "Respecto de su denominación, el artículo 2 establece que corresponde al Ministerio Fiscal esta denominación:", "opciones": ["Con carácter exclusivo", "De forma compartida con la Abogacía del Estado", "Solo en el ámbito penal", "Con carácter provisional"], "indice_correcto": 0, "cotejo": "Corresponde al Ministerio Fiscal esta denominación con carácter exclusivo.", "justificacion": "Art. 2.Dos EOMF." },
-    { "concepto_id": "MF-006", "articulo": "art. 3", "tipo": "test", "enunciado": "Entre las funciones del artículo 3, ¿qué corresponde al Ministerio Fiscal en relación con los derechos fundamentales?", "opciones": ["Velar por el respeto de las instituciones constitucionales y de los derechos fundamentales y libertades públicas", "Suspender los derechos fundamentales en caso de urgencia", "Reformar el catálogo de derechos fundamentales", "Resolver los recursos de amparo"], "indice_correcto": 0, "cotejo": "Velar por el respeto de las instituciones constitucionales y de los derechos fundamentales y libertades públicas con cuantas actuaciones exija su defensa.", "justificacion": "Art. 3.3 EOMF." },
-    { "concepto_id": "MF-007", "articulo": "art. 3", "tipo": "test", "enunciado": "¿Qué acciones dimanantes de delitos corresponde ejercitar al Ministerio Fiscal?", "opciones": ["Las acciones penales y civiles dimanantes de delitos", "Únicamente las acciones penales", "Únicamente las acciones civiles", "Las acciones administrativas y laborales exclusivamente"], "indice_correcto": 0, "cotejo": "Ejercitar las acciones penales y civiles dimanantes de delitos, sin perjuicio de la competencia de la Fiscalía Europea para ejercer la acción penal y solicitar la apertura de juicio oral por los delitos contra los intereses financieros de la Unión que asuma de acuerdo con su normativa, u oponerse a las ejercitadas por otros, cuando proceda.", "justificacion": "Art. 3.4 EOMF." },
-    { "concepto_id": "MF-008", "articulo": "art. 3", "tipo": "test", "enunciado": "Al intervenir en el proceso penal, ¿qué insta el Ministerio Fiscal de la autoridad judicial?", "opciones": ["La adopción de las medidas cautelares que procedan y la práctica de las diligencias encaminadas al esclarecimiento de los hechos", "El dictado directo de la sentencia condenatoria", "La disolución del órgano judicial", "La suspensión del proceso sin motivación"], "indice_correcto": 0, "cotejo": "Intervenir en el proceso penal, instando de la autoridad judicial la adopción de las medidas cautelares que procedan y la práctica de las diligencias encaminadas al esclarecimiento de los hechos o instruyendo directamente el procedimiento en el ámbito de lo dispuesto en la Ley Orgánica reguladora de la Responsabilidad Penal de los Menores, pudiendo ordenar a la Policía Judicial aquellas diligencias que estime oportunas.", "justificacion": "Art. 3.5 EOMF." },
-    { "concepto_id": "MF-009", "articulo": "art. 3", "tipo": "test", "enunciado": "¿Qué función atribuye el artículo 3 al Ministerio Fiscal respecto de las víctimas?", "opciones": ["Velar por la protección procesal de las víctimas y por la protección de testigos y peritos", "Indemnizar directamente a las víctimas", "Sustituir a las víctimas en el ejercicio de todas sus acciones", "Excluir a las víctimas del proceso penal"], "indice_correcto": 0, "cotejo": "Velar por la protección procesal de las víctimas y por la protección de testigos y peritos, promoviendo los mecanismos previstos para que reciban la ayuda y asistencia efectivas.", "justificacion": "Art. 3.10 EOMF." },
-    { "concepto_id": "MF-010", "articulo": "art. 3", "tipo": "test", "enunciado": "Como regla general, en los procesos no penales (salvo excepción legal o que actúe como demandante), la intervención del fiscal:", "opciones": ["se producirá en último lugar", "se producirá en primer lugar", "no está permitida en ningún caso", "solo cabe tras la sentencia firme"], "indice_correcto": 0, "cotejo": "La intervención del fiscal en los procesos no penales, salvo que la ley disponga otra cosa o actúe como demandante, se producirá en último lugar.", "justificacion": "Art. 3 in fine EOMF." },
-    { "concepto_id": "MF-011", "articulo": "art. 5", "tipo": "test", "enunciado": "Cuando el Fiscal recibe una denuncia y no encuentra fundamentos para ejercitar acción alguna, según el artículo 5 puede:", "opciones": ["decretando su archivo, cuando no encuentre fundamentos para ejercitar acción alguna, notificando en este último caso la decisión al denunciante", "ordenar la prisión provisional del denunciante", "remitirla obligatoriamente a juicio oral", "destruir la denuncia sin más trámite"], "indice_correcto": 0, "cotejo": "El Fiscal podrá recibir denuncias, enviándolas a la autoridad judicial o decretando su archivo, cuando no encuentre fundamentos para ejercitar acción alguna, notificando en este último caso la decisión al denunciante.", "justificacion": "Art. 5.Uno EOMF." },
-    { "concepto_id": "MF-012", "articulo": "art. 5", "tipo": "test", "enunciado": "En sus diligencias de investigación, que no pueden suponer medidas cautelares o limitativas de derechos, ¿qué puede no obstante ordenar el Fiscal?", "opciones": ["La detención preventiva", "La prisión provisional", "El registro domiciliario sin autorización judicial", "La intervención de las comunicaciones"], "indice_correcto": 0, "cotejo": "las cuales no podrán suponer la adopción de medidas cautelares o limitativas de derechos. No obstante, podrá ordenar el Fiscal la detención preventiva.", "justificacion": "Art. 5.Dos EOMF." },
-    { "concepto_id": "MF-013", "articulo": "art. 6", "tipo": "test", "enunciado": "Por el principio de legalidad, ¿con sujeción a qué actúa el Ministerio Fiscal?", "opciones": ["A la Constitución, a las leyes y demás normas que integran el ordenamiento jurídico vigente", "A las instrucciones políticas del Gobierno", "A los criterios de oportunidad de cada fiscal", "A los acuerdos de los colegios de abogados"], "indice_correcto": 0, "cotejo": "Por el principio de legalidad el Ministerio Fiscal actuará con sujeción a la Constitución, a las leyes y demás normas que integran el ordenamiento jurídico vigente, dictaminando, informando y ejercitando, en su caso, las acciones procedentes u oponiéndose a las indebidamente actuadas en la medida y forma en que las leyes lo establezcan.", "justificacion": "Art. 6 EOMF." },
-    { "concepto_id": "MF-014", "articulo": "art. 7", "tipo": "test", "enunciado": "Por el principio de imparcialidad, ¿cómo actúa el Ministerio Fiscal?", "opciones": ["Con plena objetividad e independencia en defensa de los intereses que le estén encomendados", "Con sujeción a las órdenes del Gobierno", "Favoreciendo siempre a la acusación", "Según la conveniencia de cada caso"], "indice_correcto": 0, "cotejo": "Por el principio de imparcialidad el Ministerio Fiscal actuará con plena objetividad e independencia en defensa de los intereses que le estén encomendados.", "justificacion": "Art. 7 EOMF." },
-    { "concepto_id": "MF-015", "articulo": "art. 8", "tipo": "test", "enunciado": "Según el artículo 8, ¿cómo se hace la comunicación del Gobierno con el Ministerio Fiscal?", "opciones": ["Por conducto del Ministro de Justicia a través del Fiscal General del Estado", "Directamente por cualquier ministro a cualquier fiscal", "A través del Consejo General del Poder Judicial", "Mediante orden publicada en el BOE"], "indice_correcto": 0, "cotejo": "La comunicación del Gobierno con el Ministerio Fiscal se hará por conducto del Ministro de Justicia a través del Fiscal General del Estado.", "justificacion": "Art. 8.Dos EOMF." },
-    { "concepto_id": "MF-016", "articulo": "art. 9", "tipo": "test", "enunciado": "¿Qué debe elevar anualmente el Fiscal General del Estado al Gobierno?", "opciones": ["Una memoria anual sobre su actividad, la evolución de la criminalidad, la prevención del delito y las reformas convenientes", "Un presupuesto de gastos del Ministerio del Interior", "Un plan de estudios de la carrera fiscal", "Un informe sobre la actividad del Consejo de Ministros"], "indice_correcto": 0, "cotejo": "El Fiscal General del Estado elevará al Gobierno una memoria anual sobre su actividad, la evolución de la criminalidad, la prevención del delito y las reformas convenientes para una mayor eficacia de la Justicia.", "justificacion": "Art. 9.1 EOMF." },
-    { "concepto_id": "MF-017", "articulo": "art. 10", "tipo": "test", "enunciado": "¿A través de quién se comunican las Cortes Generales con el Ministerio Fiscal?", "opciones": ["A través de los Presidentes de las Cámaras", "A través del Ministro de Justicia", "A través del Fiscal General del Estado exclusivamente", "A través del Defensor del Pueblo"], "indice_correcto": 0, "cotejo": "Las Cortes Generales se comunicarán con el Ministerio Fiscal a través de los Presidentes de las Cámaras.", "justificacion": "Art. 10 EOMF." },
-    { "concepto_id": "MF-018", "articulo": "art. 11", "tipo": "test", "enunciado": "Cuando una Comunidad Autónoma interesa la actuación del Ministerio Fiscal, ¿a quién se dirige?", "opciones": ["Al Fiscal Superior de la Comunidad Autónoma, que lo pondrá en conocimiento del Fiscal General del Estado", "Directamente al Consejo Fiscal", "Al Presidente del Tribunal Superior de Justicia", "Al Ministro del Interior"], "indice_correcto": 0, "cotejo": "se dirigirán, poniéndolo en conocimiento del Ministerio de Justicia, al Fiscal Superior de la Comunidad Autónoma, que lo pondrá en conocimiento del Fiscal General del Estado, quien, oída la Junta de Fiscales de Sala, resolverá lo procedente, ajustándose en todo caso al principio de legalidad.", "justificacion": "Art. 11.Uno EOMF." },
-    { "concepto_id": "MF-019", "articulo": "art. 12", "tipo": "test", "enunciado": "¿Cuál de los siguientes es un órgano del Ministerio Fiscal según el artículo 12?", "opciones": ["El Consejo Fiscal", "El Consejo General del Poder Judicial", "El Tribunal Constitucional", "La Sala de Gobierno del Tribunal Supremo"], "indice_correcto": 0, "cotejo": "Son órganos del Ministerio Fiscal: a) El Fiscal General del Estado. b) El Consejo Fiscal. c) La Junta de Fiscales de Sala. d) La Junta de Fiscales Superiores de las Comunidades Autónomas.", "justificacion": "Art. 12 EOMF." },
-    { "concepto_id": "MF-020", "articulo": "art. 13", "tipo": "test", "enunciado": "La Fiscalía General del Estado que dirige el Fiscal General del Estado está integrada por:", "opciones": ["la Inspección Fiscal, la Secretaría Técnica, la Unidad de Apoyo, y por los Fiscales de Sala que se determinen en plantilla", "solo por el Consejo Fiscal", "las Fiscalías Provinciales", "la Junta de Fiscales Superiores de las Comunidades Autónomas"], "indice_correcto": 0, "cotejo": "El Fiscal General del Estado dirige la Fiscalía General del Estado, integrada por la Inspección Fiscal, la Secretaría Técnica, la Unidad de Apoyo, y por los Fiscales de Sala que se determinen en plantilla.", "justificacion": "Art. 13.Uno EOMF." },
-    { "concepto_id": "MF-021", "articulo": "art. 14", "tipo": "test", "enunciado": "Además de su presidente y de los miembros natos, ¿por cuántos Fiscales se constituye el Consejo Fiscal?", "opciones": ["Nueve Fiscales pertenecientes a cualquiera de las categorías", "Doce Fiscales de la categoría primera", "Cinco Fiscales de Sala", "Siete Fiscales Superiores"], "indice_correcto": 0, "cotejo": "El Consejo Fiscal se constituirá, bajo la Presidencia de la persona titular de la Fiscalía General del Estado, por el o la Teniente Fiscal del Tribunal Supremo, el Fiscal Jefe Inspector o la Fiscal Jefa Inspectora y nueve Fiscales pertenecientes a cualquiera de las categorías.", "justificacion": "Art. 14.Uno EOMF." },
-    { "concepto_id": "MF-022", "articulo": "art. 14", "tipo": "test", "enunciado": "¿Cuál de estas funciones corresponde al Consejo Fiscal?", "opciones": ["Elaborar los criterios generales en orden a asegurar la unidad de actuación del Ministerio Fiscal", "Nombrar directamente al Fiscal General del Estado", "Dictar las sentencias penales", "Aprobar los Presupuestos Generales del Estado"], "indice_correcto": 0, "cotejo": "Corresponde al Consejo Fiscal: a) Elaborar los criterios generales en orden a asegurar la unidad de actuación del Ministerio Fiscal, en lo referente a la estructuración y funcionamiento de sus órganos.", "justificacion": "Art. 14.Cuatro EOMF." },
-    { "concepto_id": "MF-023", "articulo": "art. 15", "tipo": "test", "enunciado": "¿En qué materia asiste la Junta de Fiscales de Sala al Fiscal General del Estado?", "opciones": ["En materia doctrinal y técnica, en orden a la formación de los criterios unitarios de interpretación y actuación legal", "En la gestión de los medios materiales de las Fiscalías", "En la resolución de expedientes disciplinarios", "En la designación de la Policía Judicial"], "indice_correcto": 0, "cotejo": "La Junta asiste al Fiscal General del Estado en materia doctrinal y técnica, en orden a la formación de los criterios unitarios de interpretación y actuación legal, la resolución de consultas, elaboración de las memorias y circulares.", "justificacion": "Art. 15 EOMF." },
-    { "concepto_id": "MF-024", "articulo": "art. 16", "tipo": "test", "enunciado": "¿Cuál es la función de la Junta de Fiscales Superiores de las Comunidades Autónomas?", "opciones": ["Asegurar la unidad y coordinación de la actuación y funcionamiento de las Fiscalías en todo el territorio del Estado", "Resolver los recursos de amparo", "Nombrar a los Fiscales Superiores", "Elaborar los Presupuestos de las Comunidades Autónomas"], "indice_correcto": 0, "cotejo": "Su función será asegurar la unidad y coordinación de la actuación y funcionamiento de las Fiscalías en todo el territorio del Estado, sin perjuicio de las competencias atribuidas al Consejo Fiscal por este Estatuto.", "justificacion": "Art. 16 EOMF." },
-    { "concepto_id": "MF-025", "articulo": "art. 17", "tipo": "test", "enunciado": "¿Quién sustituye al Fiscal General del Estado en caso de ausencia, imposibilidad o vacante?", "opciones": ["El Teniente Fiscal del Tribunal Supremo", "El Presidente del Consejo Fiscal", "El Fiscal Jefe Inspector", "El Ministro de Justicia"], "indice_correcto": 0, "cotejo": "El Teniente Fiscal del Tribunal Supremo desempeñará las siguientes funciones, sin perjuicio de las demás que le atribuya este Estatuto o el reglamento que lo desarrolle, o que pueda delegarle el Fiscal General del Estado: a) Sustituirá al Fiscal General del Estado en caso de ausencia, imposibilidad o vacante.", "justificacion": "Art. 17 EOMF." },
-    { "concepto_id": "MF-026", "articulo": "art. 22", "tipo": "test", "enunciado": "¿Qué ostenta el Fiscal General del Estado según el artículo 22?", "opciones": ["La jefatura superior del Ministerio Fiscal y su representación en todo el territorio español", "La presidencia del Tribunal Supremo", "La jefatura del Poder Judicial", "La dirección de la política criminal del Gobierno"], "indice_correcto": 0, "cotejo": "El Fiscal General del Estado ostenta la jefatura superior del Ministerio Fiscal y su representación en todo el territorio español. A él corresponde impartir las órdenes e instrucciones convenientes al servicio y al orden interno de la institución y, en general, la dirección e inspección del Ministerio Fiscal.", "justificacion": "Art. 22.Dos EOMF." },
-    { "concepto_id": "MF-027", "articulo": "art. 23", "tipo": "test", "enunciado": "¿Qué condición tienen los miembros del Ministerio Fiscal según el artículo 23?", "opciones": ["son autoridad a todos los efectos y actuarán siempre en representación de la Institución", "son funcionarios sin condición de autoridad", "actúan a título personal e independiente", "solo son autoridad en el proceso penal"], "indice_correcto": 0, "cotejo": "Los miembros del Ministerio Fiscal son autoridad a todos los efectos y actuarán siempre en representación de la Institución.", "justificacion": "Art. 23 EOMF." },
-    { "concepto_id": "MF-028", "articulo": "art. 25", "tipo": "test", "enunciado": "Si las instrucciones del Fiscal General del Estado afectan directamente a un miembro del Gobierno, ¿a quién debe oír previamente?", "opciones": ["A la Junta de Fiscales de Sala", "Al Consejo General del Poder Judicial", "Al Ministro de Justicia", "Al Congreso de los Diputados"], "indice_correcto": 0, "cotejo": "Cuando dichas instrucciones se refieran a asuntos que afecten directamente a cualquier miembro del Gobierno, el Fiscal General deberá oír con carácter previo a la Junta de Fiscales de Sala.", "justificacion": "Art. 25 EOMF." }
+    {
+      "concepto_id": "MF-001",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la misión del Ministerio Fiscal según el artículo 1 del Estatuto?",
+      "opciones": [
+        "Promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del interés público tutelado por la ley",
+        "Juzgar y hacer ejecutar lo juzgado",
+        "Dirigir la política criminal del Gobierno",
+        "Elaborar las leyes penales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Ministerio Fiscal tiene por misión promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del interés público tutelado por la ley, de oficio o a petición de los interesados, así como velar por la independencia de los Tribunales, y procurar ante éstos la satisfacción del interés social.",
+      "justificacion": "Art. 1 EOMF."
+    },
+    {
+      "concepto_id": "MF-002",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Cómo se define al Ministerio Fiscal en el artículo 2?",
+      "opciones": [
+        "Un órgano de relevancia constitucional con personalidad jurídica propia, integrado con autonomía funcional en el Poder Judicial",
+        "Un poder del Estado independiente del Poder Judicial",
+        "Un órgano dependiente del Poder Ejecutivo",
+        "Una sección de la Abogacía del Estado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Ministerio Fiscal es un órgano de relevancia constitucional con personalidad jurídica propia, integrado con autonomía funcional en el Poder Judicial, y ejerce su misión por medio de órganos propios, conforme a los principios de unidad de actuación y dependencia jerárquica y con sujeción, en todo caso, a los de legalidad e imparcialidad.",
+      "justificacion": "Art. 2.Uno EOMF."
+    },
+    {
+      "concepto_id": "MF-003",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Conforme a qué principios organizativos ejerce su misión el Ministerio Fiscal?",
+      "opciones": [
+        "Unidad de actuación y dependencia jerárquica",
+        "Descentralización y autonomía de cada fiscal",
+        "Colegialidad y voto mayoritario",
+        "Independencia individual de cada fiscal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "ejerce su misión por medio de órganos propios, conforme a los principios de unidad de actuación y dependencia jerárquica y con sujeción, en todo caso, a los de legalidad e imparcialidad.",
+      "justificacion": "Art. 2.Uno EOMF."
+    },
+    {
+      "concepto_id": "MF-004",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Además de la unidad de actuación y la dependencia jerárquica, ¿a qué principios queda sujeto en todo caso el Ministerio Fiscal?",
+      "opciones": [
+        "A los de legalidad e imparcialidad",
+        "A los de oportunidad y discrecionalidad",
+        "A los de jerarquía y obediencia debida",
+        "A los de publicidad y contradicción"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "conforme a los principios de unidad de actuación y dependencia jerárquica y con sujeción, en todo caso, a los de legalidad e imparcialidad.",
+      "justificacion": "Art. 2.Uno EOMF."
+    },
+    {
+      "concepto_id": "MF-005",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Respecto de su denominación, el artículo 2 establece que corresponde al Ministerio Fiscal esta denominación:",
+      "opciones": [
+        "Con carácter exclusivo",
+        "De forma compartida con la Abogacía del Estado",
+        "Solo en el ámbito penal",
+        "Con carácter provisional"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Corresponde al Ministerio Fiscal esta denominación con carácter exclusivo.",
+      "justificacion": "Art. 2.Dos EOMF."
+    },
+    {
+      "concepto_id": "MF-006",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Entre las funciones del artículo 3, ¿qué corresponde al Ministerio Fiscal en relación con los derechos fundamentales?",
+      "opciones": [
+        "Velar por el respeto de las instituciones constitucionales y de los derechos fundamentales y libertades públicas",
+        "Suspender los derechos fundamentales en caso de urgencia",
+        "Reformar el catálogo de derechos fundamentales",
+        "Resolver los recursos de amparo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Velar por el respeto de las instituciones constitucionales y de los derechos fundamentales y libertades públicas con cuantas actuaciones exija su defensa.",
+      "justificacion": "Art. 3.3 EOMF."
+    },
+    {
+      "concepto_id": "MF-007",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "¿Qué acciones dimanantes de delitos corresponde ejercitar al Ministerio Fiscal?",
+      "opciones": [
+        "Las acciones penales y civiles dimanantes de delitos",
+        "Únicamente las acciones penales",
+        "Únicamente las acciones civiles",
+        "Las acciones administrativas y laborales exclusivamente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Ejercitar las acciones penales y civiles dimanantes de delitos, sin perjuicio de la competencia de la Fiscalía Europea para ejercer la acción penal y solicitar la apertura de juicio oral por los delitos contra los intereses financieros de la Unión que asuma de acuerdo con su normativa, u oponerse a las ejercitadas por otros, cuando proceda.",
+      "justificacion": "Art. 3.4 EOMF."
+    },
+    {
+      "concepto_id": "MF-008",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Al intervenir en el proceso penal, ¿qué insta el Ministerio Fiscal de la autoridad judicial?",
+      "opciones": [
+        "La adopción de las medidas cautelares que procedan y la práctica de las diligencias encaminadas al esclarecimiento de los hechos",
+        "El dictado directo de la sentencia condenatoria",
+        "La disolución del órgano judicial",
+        "La suspensión del proceso sin motivación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Intervenir en el proceso penal, instando de la autoridad judicial la adopción de las medidas cautelares que procedan y la práctica de las diligencias encaminadas al esclarecimiento de los hechos o instruyendo directamente el procedimiento en el ámbito de lo dispuesto en la Ley Orgánica reguladora de la Responsabilidad Penal de los Menores, pudiendo ordenar a la Policía Judicial aquellas diligencias que estime oportunas.",
+      "justificacion": "Art. 3.5 EOMF."
+    },
+    {
+      "concepto_id": "MF-009",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "¿Qué función atribuye el artículo 3 al Ministerio Fiscal respecto de las víctimas?",
+      "opciones": [
+        "Velar por la protección procesal de las víctimas y por la protección de testigos y peritos",
+        "Indemnizar directamente a las víctimas",
+        "Sustituir a las víctimas en el ejercicio de todas sus acciones",
+        "Excluir a las víctimas del proceso penal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Velar por la protección procesal de las víctimas y por la protección de testigos y peritos, promoviendo los mecanismos previstos para que reciban la ayuda y asistencia efectivas.",
+      "justificacion": "Art. 3.10 EOMF."
+    },
+    {
+      "concepto_id": "MF-010",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Como regla general, en los procesos no penales (salvo excepción legal o que actúe como demandante), la intervención del fiscal:",
+      "opciones": [
+        "se producirá en último lugar",
+        "se producirá en primer lugar",
+        "no está permitida en ningún caso",
+        "solo cabe tras la sentencia firme"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La intervención del fiscal en los procesos no penales, salvo que la ley disponga otra cosa o actúe como demandante, se producirá en último lugar.",
+      "justificacion": "Art. 3 in fine EOMF."
+    },
+    {
+      "concepto_id": "MF-011",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "Cuando el Fiscal recibe una denuncia y no encuentra fundamentos para ejercitar acción alguna, según el artículo 5 puede:",
+      "opciones": [
+        "decretando su archivo, cuando no encuentre fundamentos para ejercitar acción alguna, notificando en este último caso la decisión al denunciante",
+        "ordenar la prisión provisional del denunciante",
+        "remitirla obligatoriamente a juicio oral",
+        "destruir la denuncia sin más trámite"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Fiscal podrá recibir denuncias, enviándolas a la autoridad judicial o decretando su archivo, cuando no encuentre fundamentos para ejercitar acción alguna, notificando en este último caso la decisión al denunciante.",
+      "justificacion": "Art. 5.Uno EOMF."
+    },
+    {
+      "concepto_id": "MF-012",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "En sus diligencias de investigación, que no pueden suponer medidas cautelares o limitativas de derechos, ¿qué puede no obstante ordenar el Fiscal?",
+      "opciones": [
+        "La detención preventiva",
+        "La prisión provisional",
+        "El registro domiciliario sin autorización judicial",
+        "La intervención de las comunicaciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "las cuales no podrán suponer la adopción de medidas cautelares o limitativas de derechos. No obstante, podrá ordenar el Fiscal la detención preventiva.",
+      "justificacion": "Art. 5.Dos EOMF."
+    },
+    {
+      "concepto_id": "MF-013",
+      "articulo": "art. 6",
+      "tipo": "test",
+      "enunciado": "Por el principio de legalidad, ¿con sujeción a qué actúa el Ministerio Fiscal?",
+      "opciones": [
+        "A la Constitución, a las leyes y demás normas que integran el ordenamiento jurídico vigente",
+        "A las instrucciones políticas del Gobierno",
+        "A los criterios de oportunidad de cada fiscal",
+        "A los acuerdos de los colegios de abogados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Por el principio de legalidad el Ministerio Fiscal actuará con sujeción a la Constitución, a las leyes y demás normas que integran el ordenamiento jurídico vigente, dictaminando, informando y ejercitando, en su caso, las acciones procedentes u oponiéndose a las indebidamente actuadas en la medida y forma en que las leyes lo establezcan.",
+      "justificacion": "Art. 6 EOMF."
+    },
+    {
+      "concepto_id": "MF-014",
+      "articulo": "art. 7",
+      "tipo": "test",
+      "enunciado": "Por el principio de imparcialidad, ¿cómo actúa el Ministerio Fiscal?",
+      "opciones": [
+        "Con plena objetividad e independencia en defensa de los intereses que le estén encomendados",
+        "Con sujeción a las órdenes del Gobierno",
+        "Favoreciendo siempre a la acusación",
+        "Según la conveniencia de cada caso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Por el principio de imparcialidad el Ministerio Fiscal actuará con plena objetividad e independencia en defensa de los intereses que le estén encomendados.",
+      "justificacion": "Art. 7 EOMF."
+    },
+    {
+      "concepto_id": "MF-015",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "Según el artículo 8, ¿cómo se hace la comunicación del Gobierno con el Ministerio Fiscal?",
+      "opciones": [
+        "Por conducto del Ministro de Justicia a través del Fiscal General del Estado",
+        "Directamente por cualquier ministro a cualquier fiscal",
+        "A través del Consejo General del Poder Judicial",
+        "Mediante orden publicada en el BOE"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La comunicación del Gobierno con el Ministerio Fiscal se hará por conducto del Ministro de Justicia a través del Fiscal General del Estado.",
+      "justificacion": "Art. 8.Dos EOMF."
+    },
+    {
+      "concepto_id": "MF-016",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "¿Qué debe elevar anualmente el Fiscal General del Estado al Gobierno?",
+      "opciones": [
+        "Una memoria anual sobre su actividad, la evolución de la criminalidad, la prevención del delito y las reformas convenientes",
+        "Un presupuesto de gastos del Ministerio del Interior",
+        "Un plan de estudios de la carrera fiscal",
+        "Un informe sobre la actividad del Consejo de Ministros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Fiscal General del Estado elevará al Gobierno una memoria anual sobre su actividad, la evolución de la criminalidad, la prevención del delito y las reformas convenientes para una mayor eficacia de la Justicia.",
+      "justificacion": "Art. 9.1 EOMF."
+    },
+    {
+      "concepto_id": "MF-017",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "¿A través de quién se comunican las Cortes Generales con el Ministerio Fiscal?",
+      "opciones": [
+        "A través de los Presidentes de las Cámaras",
+        "A través del Ministro de Justicia",
+        "A través del Fiscal General del Estado exclusivamente",
+        "A través del Defensor del Pueblo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las Cortes Generales se comunicarán con el Ministerio Fiscal a través de los Presidentes de las Cámaras.",
+      "justificacion": "Art. 10 EOMF."
+    },
+    {
+      "concepto_id": "MF-018",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "Cuando una Comunidad Autónoma interesa la actuación del Ministerio Fiscal, ¿a quién se dirige?",
+      "opciones": [
+        "Al Fiscal Superior de la Comunidad Autónoma, que lo pondrá en conocimiento del Fiscal General del Estado",
+        "Directamente al Consejo Fiscal",
+        "Al Presidente del Tribunal Superior de Justicia",
+        "Al Ministro del Interior"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se dirigirán, poniéndolo en conocimiento del Ministerio de Justicia, al Fiscal Superior de la Comunidad Autónoma, que lo pondrá en conocimiento del Fiscal General del Estado, quien, oída la Junta de Fiscales de Sala, resolverá lo procedente, ajustándose en todo caso al principio de legalidad.",
+      "justificacion": "Art. 11.Uno EOMF."
+    },
+    {
+      "concepto_id": "MF-019",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "¿Cuál de los siguientes es un órgano del Ministerio Fiscal según el artículo 12?",
+      "opciones": [
+        "El Consejo Fiscal",
+        "El Consejo General del Poder Judicial",
+        "El Tribunal Constitucional",
+        "La Sala de Gobierno del Tribunal Supremo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Son órganos del Ministerio Fiscal: a) El Fiscal General del Estado. b) El Consejo Fiscal. c) La Junta de Fiscales de Sala. d) La Junta de Fiscales Superiores de las Comunidades Autónomas.",
+      "justificacion": "Art. 12 EOMF."
+    },
+    {
+      "concepto_id": "MF-020",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "La Fiscalía General del Estado que dirige el Fiscal General del Estado está integrada por:",
+      "opciones": [
+        "la Inspección Fiscal, la Secretaría Técnica, la Unidad de Apoyo, y por los Fiscales de Sala que se determinen en plantilla",
+        "solo por el Consejo Fiscal",
+        "las Fiscalías Provinciales",
+        "la Junta de Fiscales Superiores de las Comunidades Autónomas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Fiscal General del Estado dirige la Fiscalía General del Estado, integrada por la Inspección Fiscal, la Secretaría Técnica, la Unidad de Apoyo, y por los Fiscales de Sala que se determinen en plantilla.",
+      "justificacion": "Art. 13.Uno EOMF."
+    },
+    {
+      "concepto_id": "MF-021",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Además de su presidente y de los miembros natos, ¿por cuántos Fiscales se constituye el Consejo Fiscal?",
+      "opciones": [
+        "Nueve Fiscales pertenecientes a cualquiera de las categorías",
+        "Doce Fiscales de la categoría primera",
+        "Cinco Fiscales de Sala",
+        "Siete Fiscales Superiores"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Consejo Fiscal se constituirá, bajo la Presidencia de la persona titular de la Fiscalía General del Estado, por el o la Teniente Fiscal del Tribunal Supremo, el Fiscal Jefe Inspector o la Fiscal Jefa Inspectora y nueve Fiscales pertenecientes a cualquiera de las categorías.",
+      "justificacion": "Art. 14.Uno EOMF."
+    },
+    {
+      "concepto_id": "MF-022",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "¿Cuál de estas funciones corresponde al Consejo Fiscal?",
+      "opciones": [
+        "Elaborar los criterios generales en orden a asegurar la unidad de actuación del Ministerio Fiscal",
+        "Nombrar directamente al Fiscal General del Estado",
+        "Dictar las sentencias penales",
+        "Aprobar los Presupuestos Generales del Estado"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Corresponde al Consejo Fiscal: a) Elaborar los criterios generales en orden a asegurar la unidad de actuación del Ministerio Fiscal, en lo referente a la estructuración y funcionamiento de sus órganos.",
+      "justificacion": "Art. 14.Cuatro EOMF."
+    },
+    {
+      "concepto_id": "MF-023",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "¿En qué materia asiste la Junta de Fiscales de Sala al Fiscal General del Estado?",
+      "opciones": [
+        "En materia doctrinal y técnica, en orden a la formación de los criterios unitarios de interpretación y actuación legal",
+        "En la gestión de los medios materiales de las Fiscalías",
+        "En la resolución de expedientes disciplinarios",
+        "En la designación de la Policía Judicial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La Junta asiste al Fiscal General del Estado en materia doctrinal y técnica, en orden a la formación de los criterios unitarios de interpretación y actuación legal, la resolución de consultas, elaboración de las memorias y circulares.",
+      "justificacion": "Art. 15 EOMF."
+    },
+    {
+      "concepto_id": "MF-024",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la función de la Junta de Fiscales Superiores de las Comunidades Autónomas?",
+      "opciones": [
+        "Asegurar la unidad y coordinación de la actuación y funcionamiento de las Fiscalías en todo el territorio del Estado",
+        "Resolver los recursos de amparo",
+        "Nombrar a los Fiscales Superiores",
+        "Elaborar los Presupuestos de las Comunidades Autónomas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Su función será asegurar la unidad y coordinación de la actuación y funcionamiento de las Fiscalías en todo el territorio del Estado, sin perjuicio de las competencias atribuidas al Consejo Fiscal por este Estatuto.",
+      "justificacion": "Art. 16 EOMF."
+    },
+    {
+      "concepto_id": "MF-025",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "¿Quién sustituye al Fiscal General del Estado en caso de ausencia, imposibilidad o vacante?",
+      "opciones": [
+        "El Teniente Fiscal del Tribunal Supremo",
+        "El Presidente del Consejo Fiscal",
+        "El Fiscal Jefe Inspector",
+        "El Ministro de Justicia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Teniente Fiscal del Tribunal Supremo desempeñará las siguientes funciones, sin perjuicio de las demás que le atribuya este Estatuto o el reglamento que lo desarrolle, o que pueda delegarle el Fiscal General del Estado: a) Sustituirá al Fiscal General del Estado en caso de ausencia, imposibilidad o vacante.",
+      "justificacion": "Art. 17 EOMF."
+    },
+    {
+      "concepto_id": "MF-026",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "¿Qué ostenta el Fiscal General del Estado según el artículo 22?",
+      "opciones": [
+        "La jefatura superior del Ministerio Fiscal y su representación en todo el territorio español",
+        "La presidencia del Tribunal Supremo",
+        "La jefatura del Poder Judicial",
+        "La dirección de la política criminal del Gobierno"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Fiscal General del Estado ostenta la jefatura superior del Ministerio Fiscal y su representación en todo el territorio español. A él corresponde impartir las órdenes e instrucciones convenientes al servicio y al orden interno de la institución y, en general, la dirección e inspección del Ministerio Fiscal.",
+      "justificacion": "Art. 22.Dos EOMF."
+    },
+    {
+      "concepto_id": "MF-027",
+      "articulo": "art. 23",
+      "tipo": "test",
+      "enunciado": "¿Qué condición tienen los miembros del Ministerio Fiscal según el artículo 23?",
+      "opciones": [
+        "son autoridad a todos los efectos y actuarán siempre en representación de la Institución",
+        "son funcionarios sin condición de autoridad",
+        "actúan a título personal e independiente",
+        "solo son autoridad en el proceso penal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los miembros del Ministerio Fiscal son autoridad a todos los efectos y actuarán siempre en representación de la Institución.",
+      "justificacion": "Art. 23 EOMF."
+    },
+    {
+      "concepto_id": "MF-028",
+      "articulo": "art. 25",
+      "tipo": "test",
+      "enunciado": "Si las instrucciones del Fiscal General del Estado afectan directamente a un miembro del Gobierno, ¿a quién debe oír previamente?",
+      "opciones": [
+        "A la Junta de Fiscales de Sala",
+        "Al Consejo General del Poder Judicial",
+        "Al Ministro de Justicia",
+        "Al Congreso de los Diputados"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cuando dichas instrucciones se refieran a asuntos que afecten directamente a cualquier miembro del Gobierno, el Fiscal General deberá oír con carácter previo a la Junta de Fiscales de Sala.",
+      "justificacion": "Art. 25 EOMF."
+    }
   ],
   "relaciones": [
-    { "origen": "MF-003", "destino": "MF-002", "tipo": "desarrolla", "justificacion": "Los principios de unidad y dependencia jerárquica concretan cómo el órgano de relevancia constitucional ejerce su misión (art. 2)." },
-    { "origen": "MF-004", "destino": "MF-002", "tipo": "desarrolla", "justificacion": "La sujeción a legalidad e imparcialidad concreta cómo actúa el órgano definido en el art. 2." },
-    { "origen": "MF-005", "destino": "MF-002", "tipo": "desarrolla", "justificacion": "La exclusividad de la denominación concreta la identidad del órgano del art. 2." },
-    { "origen": "MF-006", "destino": "MF-001", "tipo": "desarrolla", "justificacion": "Las funciones del art. 3 concretan la misión del art. 1." },
-    { "origen": "MF-007", "destino": "MF-006", "tipo": "desarrolla", "justificacion": "El ejercicio de acciones penales y civiles concreta las funciones generales del art. 3." },
-    { "origen": "MF-008", "destino": "MF-006", "tipo": "desarrolla", "justificacion": "La intervención en el proceso penal concreta las funciones del art. 3." },
-    { "origen": "MF-009", "destino": "MF-006", "tipo": "desarrolla", "justificacion": "La protección de víctimas, testigos y peritos concreta las funciones del art. 3." },
-    { "origen": "MF-010", "destino": "MF-006", "tipo": "desarrolla", "justificacion": "La forma de intervención (escrito o comparecencia) concreta el ejercicio de las funciones del art. 3." },
-    { "origen": "MF-011", "destino": "MF-008", "tipo": "desarrolla", "justificacion": "La recepción y archivo de denuncias concreta la intervención del fiscal en el ámbito penal." },
-    { "origen": "MF-012", "destino": "MF-011", "tipo": "desarrolla", "justificacion": "Las diligencias de investigación desarrollan la actuación del fiscal tras recibir la denuncia (art. 5)." },
-    { "origen": "MF-013", "destino": "MF-004", "tipo": "desarrolla", "justificacion": "El art. 6 desarrolla el principio de legalidad anunciado en el art. 2." },
-    { "origen": "MF-014", "destino": "MF-004", "tipo": "desarrolla", "justificacion": "El art. 7 desarrolla el principio de imparcialidad anunciado en el art. 2." },
-    { "origen": "MF-015", "destino": "MF-026", "tipo": "remite", "justificacion": "La comunicación del Gobierno con el fiscal se canaliza a través del Fiscal General del Estado (art. 8)." },
-    { "origen": "MF-016", "destino": "MF-015", "tipo": "desarrolla", "justificacion": "La memoria anual del FGE al Gobierno concreta las relaciones del Ministerio Fiscal con el Gobierno." },
-    { "origen": "MF-017", "destino": "MF-002", "tipo": "desarrolla", "justificacion": "Las relaciones con las Cortes concretan la posición del órgano de relevancia constitucional frente a los poderes públicos." },
-    { "origen": "MF-018", "destino": "MF-026", "tipo": "remite", "justificacion": "Las solicitudes de las CCAA se elevan, vía Fiscal Superior, al Fiscal General del Estado (art. 11)." },
-    { "origen": "MF-019", "destino": "MF-002", "tipo": "desarrolla", "justificacion": "El art. 12 enumera los órganos propios por los que el Ministerio Fiscal ejerce su misión (art. 2)." },
-    { "origen": "MF-020", "destino": "MF-019", "tipo": "desarrolla", "justificacion": "La Fiscalía General del Estado concreta el primero de los órganos del art. 12." },
-    { "origen": "MF-021", "destino": "MF-019", "tipo": "desarrolla", "justificacion": "El Consejo Fiscal es uno de los órganos enumerados en el art. 12." },
-    { "origen": "MF-022", "destino": "MF-021", "tipo": "desarrolla", "justificacion": "Las funciones del Consejo Fiscal concretan el órgano descrito en su composición." },
-    { "origen": "MF-023", "destino": "MF-019", "tipo": "desarrolla", "justificacion": "La Junta de Fiscales de Sala es uno de los órganos del art. 12." },
-    { "origen": "MF-024", "destino": "MF-019", "tipo": "desarrolla", "justificacion": "La Junta de Fiscales Superiores de las CCAA es uno de los órganos del art. 12." },
-    { "origen": "MF-025", "destino": "MF-019", "tipo": "desarrolla", "justificacion": "La Fiscalía del Tribunal Supremo es uno de los órganos del art. 12." },
-    { "origen": "MF-026", "destino": "MF-003", "tipo": "desarrolla", "justificacion": "La jefatura superior del Fiscal General del Estado es la cúspide del principio de dependencia jerárquica." },
-    { "origen": "MF-022", "destino": "MF-003", "tipo": "desarrolla", "justificacion": "El Consejo Fiscal elabora los criterios que aseguran la unidad de actuación del Ministerio Fiscal." },
-    { "origen": "MF-027", "destino": "MF-003", "tipo": "desarrolla", "justificacion": "La avocación por el superior jerárquico es manifestación de la dependencia jerárquica." },
-    { "origen": "MF-028", "destino": "MF-003", "tipo": "desarrolla", "justificacion": "Las órdenes e instrucciones del FGE son expresión de la dependencia jerárquica." },
-    { "origen": "MF-025", "destino": "MF-026", "tipo": "prerrequisito", "justificacion": "Para entender la sustitución del Fiscal General del Estado hay que conocer antes su jefatura superior." }
+    {
+      "origen": "MF-003",
+      "destino": "MF-002",
+      "tipo": "desarrolla",
+      "justificacion": "Los principios de unidad y dependencia jerárquica concretan cómo el órgano de relevancia constitucional ejerce su misión (art. 2)."
+    },
+    {
+      "origen": "MF-004",
+      "destino": "MF-002",
+      "tipo": "desarrolla",
+      "justificacion": "La sujeción a legalidad e imparcialidad concreta cómo actúa el órgano definido en el art. 2."
+    },
+    {
+      "origen": "MF-005",
+      "destino": "MF-002",
+      "tipo": "desarrolla",
+      "justificacion": "La exclusividad de la denominación concreta la identidad del órgano del art. 2."
+    },
+    {
+      "origen": "MF-006",
+      "destino": "MF-001",
+      "tipo": "desarrolla",
+      "justificacion": "Las funciones del art. 3 concretan la misión del art. 1."
+    },
+    {
+      "origen": "MF-007",
+      "destino": "MF-006",
+      "tipo": "desarrolla",
+      "justificacion": "El ejercicio de acciones penales y civiles concreta las funciones generales del art. 3."
+    },
+    {
+      "origen": "MF-008",
+      "destino": "MF-006",
+      "tipo": "desarrolla",
+      "justificacion": "La intervención en el proceso penal concreta las funciones del art. 3."
+    },
+    {
+      "origen": "MF-009",
+      "destino": "MF-006",
+      "tipo": "desarrolla",
+      "justificacion": "La protección de víctimas, testigos y peritos concreta las funciones del art. 3."
+    },
+    {
+      "origen": "MF-010",
+      "destino": "MF-006",
+      "tipo": "desarrolla",
+      "justificacion": "La forma de intervención (escrito o comparecencia) concreta el ejercicio de las funciones del art. 3."
+    },
+    {
+      "origen": "MF-011",
+      "destino": "MF-008",
+      "tipo": "desarrolla",
+      "justificacion": "La recepción y archivo de denuncias concreta la intervención del fiscal en el ámbito penal."
+    },
+    {
+      "origen": "MF-012",
+      "destino": "MF-011",
+      "tipo": "desarrolla",
+      "justificacion": "Las diligencias de investigación desarrollan la actuación del fiscal tras recibir la denuncia (art. 5)."
+    },
+    {
+      "origen": "MF-013",
+      "destino": "MF-004",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 6 desarrolla el principio de legalidad anunciado en el art. 2."
+    },
+    {
+      "origen": "MF-014",
+      "destino": "MF-004",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 7 desarrolla el principio de imparcialidad anunciado en el art. 2."
+    },
+    {
+      "origen": "MF-015",
+      "destino": "MF-026",
+      "tipo": "remite",
+      "justificacion": "La comunicación del Gobierno con el fiscal se canaliza a través del Fiscal General del Estado (art. 8)."
+    },
+    {
+      "origen": "MF-016",
+      "destino": "MF-015",
+      "tipo": "desarrolla",
+      "justificacion": "La memoria anual del FGE al Gobierno concreta las relaciones del Ministerio Fiscal con el Gobierno."
+    },
+    {
+      "origen": "MF-017",
+      "destino": "MF-002",
+      "tipo": "desarrolla",
+      "justificacion": "Las relaciones con las Cortes concretan la posición del órgano de relevancia constitucional frente a los poderes públicos."
+    },
+    {
+      "origen": "MF-018",
+      "destino": "MF-026",
+      "tipo": "remite",
+      "justificacion": "Las solicitudes de las CCAA se elevan, vía Fiscal Superior, al Fiscal General del Estado (art. 11)."
+    },
+    {
+      "origen": "MF-019",
+      "destino": "MF-002",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 12 enumera los órganos propios por los que el Ministerio Fiscal ejerce su misión (art. 2)."
+    },
+    {
+      "origen": "MF-020",
+      "destino": "MF-019",
+      "tipo": "desarrolla",
+      "justificacion": "La Fiscalía General del Estado concreta el primero de los órganos del art. 12."
+    },
+    {
+      "origen": "MF-021",
+      "destino": "MF-019",
+      "tipo": "desarrolla",
+      "justificacion": "El Consejo Fiscal es uno de los órganos enumerados en el art. 12."
+    },
+    {
+      "origen": "MF-022",
+      "destino": "MF-021",
+      "tipo": "desarrolla",
+      "justificacion": "Las funciones del Consejo Fiscal concretan el órgano descrito en su composición."
+    },
+    {
+      "origen": "MF-023",
+      "destino": "MF-019",
+      "tipo": "desarrolla",
+      "justificacion": "La Junta de Fiscales de Sala es uno de los órganos del art. 12."
+    },
+    {
+      "origen": "MF-024",
+      "destino": "MF-019",
+      "tipo": "desarrolla",
+      "justificacion": "La Junta de Fiscales Superiores de las CCAA es uno de los órganos del art. 12."
+    },
+    {
+      "origen": "MF-025",
+      "destino": "MF-019",
+      "tipo": "desarrolla",
+      "justificacion": "La Fiscalía del Tribunal Supremo es uno de los órganos del art. 12."
+    },
+    {
+      "origen": "MF-026",
+      "destino": "MF-003",
+      "tipo": "desarrolla",
+      "justificacion": "La jefatura superior del Fiscal General del Estado es la cúspide del principio de dependencia jerárquica."
+    },
+    {
+      "origen": "MF-022",
+      "destino": "MF-003",
+      "tipo": "desarrolla",
+      "justificacion": "El Consejo Fiscal elabora los criterios que aseguran la unidad de actuación del Ministerio Fiscal."
+    },
+    {
+      "origen": "MF-027",
+      "destino": "MF-003",
+      "tipo": "desarrolla",
+      "justificacion": "La avocación por el superior jerárquico es manifestación de la dependencia jerárquica."
+    },
+    {
+      "origen": "MF-028",
+      "destino": "MF-003",
+      "tipo": "desarrolla",
+      "justificacion": "Las órdenes e instrucciones del FGE son expresión de la dependencia jerárquica."
+    },
+    {
+      "origen": "MF-025",
+      "destino": "MF-026",
+      "tipo": "prerrequisito",
+      "justificacion": "Para entender la sustitución del Fiscal General del Estado hay que conocer antes su jefatura superior."
+    }
   ]
 }

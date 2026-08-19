@@ -4,7 +4,7 @@
     "norma": "Real Decreto 769/1987, de 19 de junio, sobre regulación de la Policía Judicial",
     "referencia_boe": "BOE-A-1987-14578",
     "convocatoria": "policia-nacional-2026",
-    "tema": "Tema 21 — Derecho Procesal Penal: órganos de la jurisdicción penal; la detención; el Ministerio Fiscal; la Policía Judicial"
+    "tema": "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; los órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención y los derechos del detenido; el habeas corpus; el Ministerio Fiscal; la Policía Judicial"
   },
   "fuentes": {
     "art. 1": "Las funciones generales de policía judicial corresponden a todos los miembros de las Fuerzas y Cuerpos de Seguridad cualquiera que sea su naturaleza y dependencia, en la medida en que deben prestar la colaboración requerida por la Autoridad Judicial o el Ministerio Fiscal en actuaciones encaminadas a la averiguación de delitos o descubrimiento y aseguramiento de delincuentes, con estricta sujeción al ámbito de sus respectivas competencias, y sin perjuicio de lo dispuesto en el artículo 283 de la Ley de Enjuiciamiento Criminal.",
@@ -54,146 +54,1291 @@
     "disposición final": "El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
   },
   "conceptos": [
-    { "id": "PJ-001", "articulo": "art. 1", "titulo": "Funciones generales de policía judicial", "resumen": "Las funciones generales de policía judicial corresponden a todos los miembros de las Fuerzas y Cuerpos de Seguridad, que deben prestar la colaboración requerida por la Autoridad Judicial o el Ministerio Fiscal.", "explicacion": "El artículo 1 distingue la policía judicial en sentido amplio: las funciones generales alcanzan a todos los miembros de las Fuerzas y Cuerpos de Seguridad, cualquiera que sea su naturaleza y dependencia, en la medida en que deben colaborar con la Autoridad Judicial o el Ministerio Fiscal en la averiguación de delitos y el aseguramiento de delincuentes." },
-    { "id": "PJ-002", "articulo": "art. 2", "titulo": "Formas de actuación en funciones de policía judicial", "resumen": "En sus funciones de policía judicial, los miembros de las FCS actúan a requerimiento de la Autoridad Judicial, del Ministerio Fiscal o de sus superiores policiales, o por propia iniciativa a través de estos últimos.", "explicacion": "El artículo 2 fija cómo se pone en marcha la actuación: puede ser a requerimiento de la Autoridad Judicial, del Ministerio Fiscal o de los superiores policiales, o por propia iniciativa, pero en este último caso siempre a través de los superiores policiales." },
-    { "id": "PJ-003", "articulo": "art. 3", "titulo": "Encomienda en defecto de Unidades de Policía Judicial", "resumen": "En defecto de Unidades de Policía Judicial, con carácter transitorio o en supuestos de urgencia, Jueces, Tribunales y Fiscal pueden encomendar a las FCS la práctica de concretas diligencias de investigación.", "explicacion": "El artículo 3 prevé una vía subsidiaria: cuando no hay Unidades de Policía Judicial disponibles, y solo con carácter transitorio o en casos de urgencia, los Jueces, Tribunales y el Ministerio Fiscal pueden encomendar diligencias concretas a cualquier miembro de las Fuerzas y Cuerpos de Seguridad." },
-    { "id": "PJ-004", "articulo": "art. 4", "titulo": "Primeras diligencias de prevención y aseguramiento", "resumen": "Todos los componentes de las FCS practican por propia iniciativa las primeras diligencias de prevención y aseguramiento y la ocupación y custodia de los objetos del delito en cuanto tengan noticia del hecho.", "explicacion": "El artículo 4 impone un deber de reacción inmediata: en cuanto tengan noticia del hecho presuntamente delictivo, todos los componentes de las Fuerzas y Cuerpos de Seguridad practican las primeras diligencias de prevención y aseguramiento y ocupan y custodian los objetos del delito, dando cuenta a la Autoridad Judicial o Fiscal." },
-    { "id": "PJ-005", "articulo": "art. 5", "titulo": "Cese del funcionario al hacerse cargo la Autoridad Judicial o el Fiscal", "resumen": "El funcionario que inició la investigación debe cesar en ella al comparecer para hacerse cargo la Autoridad Judicial o el Fiscal, a quienes entrega las diligencias, los efectos y las personas detenidas.", "explicacion": "El artículo 5 marca el momento en que termina la actuación policial autónoma: al comparecer la Autoridad Judicial o el Fiscal para hacerse cargo de la investigación, el funcionario cesa y les hace entrega de las diligencias practicadas, de los efectos intervenidos y de las personas cuya detención se hubiese acordado." },
-    { "id": "PJ-006", "articulo": "art. 6", "titulo": "Dependencia funcional directa de la Policía Judicial", "resumen": "La Policía Judicial desarrolla, bajo la dependencia funcional directa de los Jueces y Tribunales y del Ministerio Fiscal, funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente.", "explicacion": "El artículo 6 define la nota esencial de la Policía Judicial en sentido estricto: actúa bajo la dependencia funcional directa de los Jueces y Tribunales y del Ministerio Fiscal, cumpliendo las funciones de averiguación del delito y de descubrimiento y aseguramiento del delincuente." },
-    { "id": "PJ-007", "articulo": "art. 7", "titulo": "Policía Judicial en sentido estricto: las Unidades Orgánicas", "resumen": "Constituyen la Policía Judicial en sentido estricto las Unidades Orgánicas previstas en el artículo 30.1 de la LO de FCS, integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil.", "explicacion": "El artículo 7 identifica quién forma la Policía Judicial en sentido estricto: las Unidades Orgánicas del artículo 30.1 de la Ley Orgánica de Fuerzas y Cuerpos de Seguridad, integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil." },
-    { "id": "PJ-008", "articulo": "art. 8", "titulo": "Norma de actuación de las Unidades", "resumen": "Dichas Unidades actúan conforme a lo dispuesto en el artículo 5 de la Ley de Fuerzas y Cuerpos de Seguridad y con sujeción a los principios y normas del capítulo siguiente de este Real Decreto.", "explicacion": "El artículo 8 remite el modo de actuar de las Unidades a dos referencias: el artículo 5 de la Ley de Fuerzas y Cuerpos de Seguridad (principios básicos de actuación) y los principios y normas contenidos en el capítulo siguiente del propio Real Decreto." },
-    { "id": "PJ-009", "articulo": "art. 9", "titulo": "Estructura sobre base provincial", "resumen": "Las Unidades Orgánicas de la Policía Judicial se estructuran con arreglo a criterios de distribución territorial sobre una base provincial, pudiendo constituirse secciones donde el índice de criminalidad lo aconseje.", "explicacion": "El artículo 9 fija el criterio general de organización territorial: las Unidades Orgánicas se estructuran sobre una base provincial. Además, pueden crearse secciones en poblaciones cuyo índice de criminalidad lo aconseje." },
-    { "id": "PJ-010", "articulo": "art. 9", "titulo": "Unidades de ámbito superior al provincial", "resumen": "Pueden constituirse Unidades con ámbito de actuación que exceda el provincial por razones de especialización delictual o de técnicas de investigación.", "explicacion": "El artículo 9 admite una excepción a la base provincial: cuando lo justifican la especialización delictual o las técnicas de investigación, se pueden constituir Unidades cuyo ámbito de actuación exceda el de una provincia." },
-    { "id": "PJ-011", "articulo": "art. 10", "titulo": "Dependencia funcional del órgano que conoce del asunto", "resumen": "En la ejecución de sus cometidos, las Unidades y sus funcionarios dependen funcionalmente de los Jueces, Tribunales o miembros del Ministerio Fiscal que estén conociendo del asunto objeto de su investigación.", "explicacion": "El artículo 10 concreta la dependencia funcional: no es genérica, sino respecto del concreto Juez, Tribunal o Fiscal que esté conociendo del asunto objeto de la investigación, tanto en las funciones de averiguación del delito como en las previstas en la Ley Orgánica del Poder Judicial." },
-    { "id": "PJ-012", "articulo": "art. 11", "titulo": "Órdenes judiciales frente a instrucciones técnicas", "resumen": "El funcionario comisionado se atiene a las órdenes y directrices recibidas de la Autoridad Judicial o Fiscal, sin que las instrucciones técnicas de sus superiores policiales puedan contradecirlas.", "explicacion": "El artículo 11 resuelve el posible conflicto de mando: las instrucciones de carácter técnico de los superiores policiales inmediatos no pueden contradecir las órdenes y directrices recibidas de la Autoridad Judicial o Fiscal, que prevalecen." },
-    { "id": "PJ-013", "articulo": "art. 12", "titulo": "Deber de informar y rendir cuenta", "resumen": "Los funcionarios informan de la evolución de sus investigaciones y rinden cumplida cuenta del resultado final a la Autoridad Judicial o al Ministerio Fiscal que la hubiere ordenado.", "explicacion": "El artículo 12 establece un doble deber de comunicación: informar de la evolución de la investigación y rendir cumplida cuenta del resultado final, en los términos y forma dispuestos por la Autoridad Judicial o el Ministerio Fiscal que ordenó la actuación." },
-    { "id": "PJ-014", "articulo": "art. 13", "titulo": "Carácter de comisionados y auxilio", "resumen": "Al actuar por encargo y bajo la supervisión de Jueces, Tribunales o Fiscales, los funcionarios tienen el carácter de comisionados y pueden requerir el auxilio necesario de las autoridades y, en su caso, de los particulares.", "explicacion": "El artículo 13 reconoce a los funcionarios el carácter de comisionados del órgano judicial o fiscal cuando actúan por su encargo y supervisión. En tal concepto pueden requerir el auxilio necesario de las autoridades y, en su caso, de los particulares." },
-    { "id": "PJ-015", "articulo": "art. 14", "titulo": "Valor de las diligencias de la Policía Judicial", "resumen": "Las diligencias y actuaciones de las Unidades Orgánicas tienen el valor reconocido en las Leyes y gozan de la especial consideración derivada de su carácter de comisionados de Jueces, Tribunales y Fiscales.", "explicacion": "El artículo 14 asigna a las diligencias de las Unidades Orgánicas el valor que las Leyes les reconozcan, reforzado por la especial consideración que deriva de su adscripción y de su carácter de comisionados de Jueces, Tribunales y Fiscales." },
-    { "id": "PJ-016", "articulo": "art. 15", "titulo": "Deber de rigurosa reserva", "resumen": "Los funcionarios deben guardar rigurosa reserva sobre la evolución y el resultado de las investigaciones; su infracción se corrige disciplinariamente, sin perjuicio de otras responsabilidades.", "explicacion": "El artículo 15 impone un deber de rigurosa reserva sobre las investigaciones y las informaciones obtenidas. Su infracción se corrige disciplinariamente. La reserva no impide, salvo prohibición expresa del Juez o Fiscal, el intercambio interno de información dentro de la Unidad Orgánica." },
-    { "id": "PJ-017", "articulo": "art. 16", "titulo": "Inamovilidad del funcionario en la investigación", "resumen": "Los funcionarios no pueden ser removidos de la investigación encomendada hasta que finalice o termine la fase procesal que la originó, salvo decisión o autorización del Juez o Fiscal competente.", "explicacion": "El artículo 16 garantiza la continuidad de la investigación: el funcionario no puede ser apartado del caso hasta que este finalice o concluya la fase procesal que lo originó, salvo por decisión o con la autorización del Juez o Fiscal competente." },
-    { "id": "PJ-018", "articulo": "art. 17", "titulo": "Instar la potestad disciplinaria y las recompensas", "resumen": "El Juez o Tribunal del que dependan los funcionarios, o el Fiscal competente, pueden instar el ejercicio de la potestad disciplinaria respecto de aquéllos e igualmente instar la concesión de recompensas.", "explicacion": "El artículo 17 refuerza la dependencia funcional en el plano del régimen del funcionario: el órgano judicial o fiscal puede instar tanto el ejercicio de la potestad disciplinaria, cuando entienda que la conducta merece sanción, como la concesión de recompensas cuando existan méritos." },
-    { "id": "PJ-019", "articulo": "art. 18", "titulo": "Investigación criminal permanente y especial", "resumen": "A las Unidades Orgánicas corresponde la función de investigación criminal con carácter permanente y especial, con equipos de especialización delictual donde el nivel de delincuencia lo haga preciso.", "explicacion": "El artículo 18 caracteriza la función de las Unidades Orgánicas como investigación criminal permanente y especial. Para ello cuentan con los efectivos y medios necesarios y, donde el nivel de delincuencia lo requiera, con equipos de especialización delictual." },
-    { "id": "PJ-020", "articulo": "art. 19", "titulo": "Límite de funciones encargables a las Unidades", "resumen": "Los Jueces, Tribunales o Fiscales no pueden encargar a las Unidades otras funciones que las previstas en el artículo 445.1 de la LOPJ, salvo las excepcionales del artículo 33 de la LO de FCS.", "explicacion": "El artículo 19 acota lo que puede encargarse: solo las funciones del artículo 445.1 de la Ley Orgánica del Poder Judicial, sin perjuicio de las que excepcionalmente quepan según el artículo 33 de la Ley Orgánica de Fuerzas y Cuerpos de Seguridad, de las que se da cuenta a la Comisión Provincial de Coordinación." },
-    { "id": "PJ-021", "articulo": "art. 20", "titulo": "Actuación previa a la apertura judicial: dependencia del Fiscal", "resumen": "Cuando se realizan diligencias con carácter previo a la apertura de la actuación judicial, los funcionarios actúan bajo la dependencia del Ministerio Fiscal, que puede hacerse cargo de la dirección.", "explicacion": "El artículo 20 regula la fase anterior a la judicialización: si las diligencias se practican antes de abrirse la actuación judicial, la Policía Judicial actúa bajo la dependencia del Ministerio Fiscal, al que da cuenta y que puede asumir en cualquier momento la dirección de la investigación." },
-    { "id": "PJ-022", "articulo": "art. 21", "titulo": "Entendimiento directo con el Jefe de la Unidad", "resumen": "Iniciado el procedimiento penal, el Juez o Tribunal, y el Fiscal, se entienden directamente y sin instancias administrativas superiores con el Jefe de la Unidad correspondiente para encomendarle investigaciones.", "explicacion": "El artículo 21 establece un canal directo: una vez iniciado el procedimiento, el órgano judicial y el Fiscal se entienden directamente, sin acudir a instancias administrativas superiores, con el Jefe de la Unidad correspondiente, sea del Cuerpo Nacional de Policía o de la Guardia Civil." },
-    { "id": "PJ-023", "articulo": "art. 22", "titulo": "Encargo excepcional por conducto de altos cargos", "resumen": "Excepcionalmente, cuando se precisan medios especializados o la investigación se extiende a varias provincias, el encargo se cursa por conducto del Presidente del Tribunal Supremo o del Fiscal General del Estado, entre otros.", "explicacion": "El artículo 22 prevé un cauce reforzado para casos de especial trascendencia o de investigaciones supraprovinciales: el encargo debe cursarse por conducto del Presidente del Tribunal Supremo o del Fiscal General del Estado, del Presidente o Fiscal de la Audiencia Nacional o de los del Tribunal Superior de Justicia respectivo." },
-    { "id": "PJ-024", "articulo": "art. 23", "titulo": "Asignación de Unidades especialmente adscritas", "resumen": "El Ministerio del Interior, previo informe favorable del Consejo General del Poder Judicial o a su propuesta, puede asignar de forma permanente y estable Unidades especialmente adscritas a Juzgados y Tribunales.", "explicacion": "El artículo 23 crea la figura de las Unidades especialmente adscritas: las asigna el Ministerio del Interior, con carácter permanente y estable, previo informe favorable del Consejo General del Poder Judicial o a su propuesta, a los Juzgados y Tribunales que por su ritmo de actividad lo requieran, y también a las Fiscalías precisas." },
-    { "id": "PJ-025", "articulo": "art. 24", "titulo": "Las adscritas forman parte de la Unidad Orgánica provincial", "resumen": "Las Unidades adscritas forman parte integrante de la correspondiente Unidad Orgánica provincial, en cuya estructura se incardinan y de cuyos medios materiales y humanos se surten.", "explicacion": "El artículo 24 aclara la naturaleza de las adscritas: no son unidades independientes, sino parte integrante de la Unidad Orgánica provincial. La pertenencia puede dejarse sin efecto previo informe favorable, preceptivo y vinculante, de la Comisión Provincial de Coordinación." },
-    { "id": "PJ-026", "articulo": "art. 25", "titulo": "Sede de las Unidades adscritas", "resumen": "Las Unidades especialmente adscritas deben, en lo posible, tener su sede en las propias dependencias o edificios judiciales y Fiscalías, para lo que se habilitan los locales adecuados.", "explicacion": "El artículo 25 busca la proximidad física: las Unidades adscritas tendrán, en lo posible, su sede en las propias dependencias o edificios judiciales y Fiscalías, habilitándose los locales adecuados para ello." },
-    { "id": "PJ-027", "articulo": "art. 26", "titulo": "Asignación a los Decanatos y preferencia del Juzgado de Guardia", "resumen": "Las Unidades adscritas quedan asignadas a los respectivos Decanatos, pero atienden de modo preferente al Juzgado de Guardia y al Fiscal de Guardia.", "explicacion": "El artículo 26 organiza la dependencia de las adscritas: la coordinación general radica en los Decanatos, mientras que la dependencia funcional directa se establece respecto de cada órgano jurisdiccional y, muy especialmente, del Juzgado de Guardia y del Fiscal de Guardia, a los que atienden de modo preferente." },
-    { "id": "PJ-028", "articulo": "art. 27", "titulo": "Composición de las Unidades adscritas", "resumen": "Las Unidades especialmente adscritas se componen de funcionarios diplomados y especializados en Policía Judicial y de otros efectivos no especializados para funciones auxiliares y de apoyo.", "explicacion": "El artículo 27 describe una composición mixta: por un lado, funcionarios diplomados y especializados que han superado los cursos de selección del capítulo V; por otro, efectivos policiales no necesariamente especializados, destinados a funciones auxiliares y de apoyo." },
-    { "id": "PJ-029", "articulo": "art. 28", "titulo": "Cometidos de las Unidades adscritas", "resumen": "A las Unidades adscritas puede encomendárseles, entre otros cometidos de policía científica, inspecciones oculares, recogida de pruebas o la intervención técnica en el levantamiento de cadáveres.", "explicacion": "El artículo 28 enumera cometidos propios de una policía científica que pueden encomendarse a las Unidades adscritas en su asistencia directa al Juzgado y Fiscal de Guardia: inspecciones oculares, informes periciales provisionales urgentes, intervención técnica en levantamiento de cadáveres, recogida de pruebas o actuaciones de inmediata intervención, entre otros." },
-    { "id": "PJ-030", "articulo": "art. 29", "titulo": "Traslado a la Unidad Orgánica de las investigaciones extensas", "resumen": "Cuando se necesita una investigación más extensa o medios de los que la adscrita no dispone, se da traslado de las diligencias a la Unidad Orgánica.", "explicacion": "El artículo 29 articula la relación entre la Unidad adscrita y la Orgánica: si de las primeras actuaciones resulta la necesidad de una investigación más amplia o de medios de que la adscrita carece, se da traslado de las diligencias a la Unidad Orgánica, que recibe de la Autoridad Judicial las instrucciones precisas." },
-    { "id": "PJ-031", "articulo": "art. 30", "titulo": "El Jefe de la Unidad adscrita designa a los funcionarios", "resumen": "Corresponde al Jefe de la respectiva Unidad adscrita la determinación concreta de los funcionarios que asumirán cada cometido, dando cuenta a la Autoridad Judicial o Fiscal de la que emanó la orden.", "explicacion": "El artículo 30 atribuye al Jefe de la Unidad adscrita la designación concreta de los funcionarios para cada cometido, dando cuenta a la Autoridad Judicial o Fiscal que ordenó la actuación y manteniendo estrechas relaciones de coordinación con la Unidad Orgánica de la que forma parte." },
-    { "id": "PJ-032", "articulo": "art. 31", "titulo": "Creación de las Comisiones de Coordinación", "resumen": "Se crean las Comisiones Nacional y Provinciales de Coordinación de la Policía Judicial para armonizar y lograr la unidad de dirección en las fuerzas policiales adscritas a la investigación criminal.", "explicacion": "El artículo 31 crea dos niveles de coordinación de la Policía Judicial, el nacional y el provincial, con la finalidad de armonizar la actuación y lograr la unidad de dirección de las fuerzas policiales dedicadas a la investigación criminal." },
-    { "id": "PJ-033", "articulo": "art. 32", "titulo": "Presidencia de la Comisión Nacional", "resumen": "La Comisión Nacional de Coordinación la preside, cuando asiste personalmente, el Presidente del Tribunal Supremo y del Consejo General del Poder Judicial.", "explicacion": "El artículo 32 detalla la composición de la Comisión Nacional. La preside, cuando asiste personalmente, el Presidente del Tribunal Supremo y del Consejo General del Poder Judicial. La integran también, entre otros, el Ministro de Justicia, el Ministro del Interior, el Fiscal General del Estado y el Secretario de Estado para la Seguridad." },
-    { "id": "PJ-034", "articulo": "art. 33", "titulo": "Delegación del Presidente del Tribunal Supremo", "resumen": "El Presidente del Tribunal Supremo puede delegar su presencia en la Comisión Nacional en un Magistrado de la Sala Segunda de dicho Alto Tribunal.", "explicacion": "El artículo 33 regula las delegaciones de los miembros natos de la Comisión Nacional. La del Presidente del Tribunal Supremo puede recaer en un Magistrado de la Sala Segunda; la del Fiscal General del Estado, en un Fiscal de Sala del Tribunal Supremo." },
-    { "id": "PJ-035", "articulo": "art. 34", "titulo": "Presidencia de las Comisiones Provinciales", "resumen": "Las Comisiones Provinciales de Coordinación las preside el Presidente de la Audiencia Provincial y se integran, entre otros, por el Fiscal Jefe de la Audiencia y los Jefes de las Unidades Orgánicas.", "explicacion": "El artículo 34 fija la composición provincial. La preside el Presidente de la Audiencia Provincial, con el Fiscal Jefe de la Audiencia, el Magistrado Juez Decano, el Secretario Coordinador Provincial y los Jefes de la Unidad Orgánica de la Policía Judicial del Cuerpo Nacional de Policía y de la Guardia Civil." },
-    { "id": "PJ-036", "articulo": "art. 35", "titulo": "Incorporaciones y Comités técnicos", "resumen": "Eventualmente pueden incorporarse a las Comisiones otras Autoridades o funcionarios para materias concretas, y pueden constituirse Comités técnicos para el estudio de temas específicos.", "explicacion": "El artículo 35 dota de flexibilidad a las Comisiones: permite incorporar eventualmente a otras Autoridades o funcionarios para el tratamiento de materias concretas o tareas de auxilio técnico, y constituir Comités técnicos para el estudio de temas específicos." },
-    { "id": "PJ-037", "articulo": "art. 36", "titulo": "Atribuciones de la Comisión Nacional", "resumen": "Entre las atribuciones de la Comisión Nacional está efectuar estudios actualizados sobre la evolución de la delincuencia e informar los anteproyectos de disposiciones generales reguladoras de la Policía Judicial.", "explicacion": "El artículo 36 enumera las atribuciones de la Comisión Nacional: estudios permanentes sobre la delincuencia, informes y propuestas de planes generales, conocimiento previo de los nombramientos de altos responsables de las Unidades Orgánicas e informe de los anteproyectos de disposiciones generales reguladoras de la Policía Judicial." },
-    { "id": "PJ-038", "articulo": "art. 37", "titulo": "Competencias de las Comisiones Provinciales", "resumen": "Las Comisiones Provinciales informan con carácter preceptivo y vinculante las propuestas de remoción de funcionarios pertenecientes a las Unidades adscritas del artículo 24.", "explicacion": "El artículo 37 asigna a las Comisiones Provinciales, en su ámbito, competencias de informe. Destaca el informe preceptivo y vinculante de las propuestas de remoción de funcionarios de las Unidades adscritas, y el informe preceptivo de las peticiones de adscripción para investigaciones concretas." },
-    { "id": "PJ-039", "articulo": "art. 38", "titulo": "Periodicidad de las reuniones de las Comisiones", "resumen": "La Comisión Nacional celebra, al menos, una reunión trimestral, y las Comisiones Provinciales se reúnen con periodicidad mensual.", "explicacion": "El artículo 38 fija la cadencia de reuniones: trimestral, al menos, para la Comisión Nacional, y mensual para las Comisiones Provinciales, que convoca su Presidente. Su régimen jurídico es el de los órganos colegiados de la Ley de Procedimiento Administrativo." },
-    { "id": "PJ-040", "articulo": "art. 39", "titulo": "Formación especializada y diploma del Centro de Estudios Judiciales", "resumen": "La integración en las Unidades Orgánicas requiere previa formación especializada acreditada con título; para obtenerlo es requisito imprescindible poseer el diploma expedido por el Centro de Estudios Judiciales.", "explicacion": "El artículo 39 condiciona el acceso a las Unidades Orgánicas a una previa formación especializada, acreditada mediante título tras superar las pruebas correspondientes. Para obtener ese título es imprescindible poseer el diploma expedido por el Centro de Estudios Judiciales." },
-    { "id": "PJ-041", "articulo": "art. 40", "titulo": "La especialización se cursa en dos fases", "resumen": "La especialización se cursa en dos fases: la primera en los Centros de Formación y Perfeccionamiento de las FCS del Estado y la segunda en el Centro de Estudios Judiciales.", "explicacion": "El artículo 40 estructura la especialización en dos fases sucesivas: la primera se imparte en los Centros de Formación y Perfeccionamiento de las Fuerzas y Cuerpos de Seguridad del Estado y la segunda en el Centro de Estudios Judiciales, con docencia de la Judicatura, el Ministerio Fiscal y profesorado universitario." },
-    { "id": "PJ-042", "articulo": "art. 41", "titulo": "Intervención de los Centros de las FCS en la selección", "resumen": "Los Centros de Formación de las FCS del Estado intervienen en los procesos de selección a través de los cursos generales de acceso y de los cursos de especialización que se establezcan.", "explicacion": "El artículo 41 detalla la primera fase: los Centros de Formación y Perfeccionamiento de las Fuerzas y Cuerpos de Seguridad del Estado participan en la selección tanto mediante los cursos generales de acceso a los respectivos Cuerpos como con los cursos de especialización." },
-    { "id": "PJ-043", "articulo": "art. 44", "titulo": "Acceso a los cursos del Centro de Estudios Judiciales", "resumen": "Los funcionarios que hayan superado los cursos de especialización impartidos por los Centros de las FCS del Estado pueden acceder a los cursos específicos programados por el Centro de Estudios Judiciales.", "explicacion": "El artículo 44 encadena las dos fases: superados los cursos de especialización de los Centros de las Fuerzas y Cuerpos de Seguridad, los funcionarios pueden acceder a los cursos específicos del Centro de Estudios Judiciales, con distinción de dos niveles formativos." },
-    { "id": "PJ-044", "articulo": "art. 45", "titulo": "El diploma habilita para ocupar destinos", "resumen": "Superado el curso del Centro de Estudios Judiciales, se expide el diploma que habilita para obtener la titulación y ocupar destinos en Unidades Orgánicas de la Policía Judicial.", "explicacion": "El artículo 45 cierra el ciclo formativo: una vez superado el curso del Centro de Estudios Judiciales, se expide el diploma correspondiente, que habilita para obtener la titulación y ocupar destinos en las Unidades Orgánicas de la Policía Judicial." },
-    { "id": "PJ-045", "articulo": "disposición transitoria primera", "titulo": "Régimen transitorio de los funcionarios en funciones de policía judicial", "resumen": "Quienes a la entrada en vigor del Real Decreto desempeñaban funciones de policía judicial continúan desarrollándolas integrados en las Unidades Orgánicas hasta que los puestos se cubran con funcionarios especializados.", "explicacion": "La disposición transitoria primera asegura la continuidad del servicio: los miembros de las FCS del Estado que ya venían desempeñando funciones de policía judicial las siguen ejerciendo, integrados en las Unidades Orgánicas, hasta que dichos puestos se cubran con funcionarios especializados." },
-    { "id": "PJ-046", "articulo": "disposición final", "titulo": "Entrada en vigor del Real Decreto", "resumen": "El Real Decreto entra en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».", "explicacion": "La disposición final fija la entrada en vigor de la norma: el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin acogerse al plazo general de vacatio legis previsto con carácter supletorio." }
+    {
+      "id": "PJ-001",
+      "articulo": "art. 1",
+      "titulo": "Funciones generales de policía judicial",
+      "resumen": "Las funciones generales de policía judicial corresponden a todos los miembros de las Fuerzas y Cuerpos de Seguridad, que deben prestar la colaboración requerida por la Autoridad Judicial o el Ministerio Fiscal.",
+      "explicacion": "El artículo 1 distingue la policía judicial en sentido amplio: las funciones generales alcanzan a todos los miembros de las Fuerzas y Cuerpos de Seguridad, cualquiera que sea su naturaleza y dependencia, en la medida en que deben colaborar con la Autoridad Judicial o el Ministerio Fiscal en la averiguación de delitos y el aseguramiento de delincuentes."
+    },
+    {
+      "id": "PJ-002",
+      "articulo": "art. 2",
+      "titulo": "Formas de actuación en funciones de policía judicial",
+      "resumen": "En sus funciones de policía judicial, los miembros de las FCS actúan a requerimiento de la Autoridad Judicial, del Ministerio Fiscal o de sus superiores policiales, o por propia iniciativa a través de estos últimos.",
+      "explicacion": "El artículo 2 fija cómo se pone en marcha la actuación: puede ser a requerimiento de la Autoridad Judicial, del Ministerio Fiscal o de los superiores policiales, o por propia iniciativa, pero en este último caso siempre a través de los superiores policiales."
+    },
+    {
+      "id": "PJ-003",
+      "articulo": "art. 3",
+      "titulo": "Encomienda en defecto de Unidades de Policía Judicial",
+      "resumen": "En defecto de Unidades de Policía Judicial, con carácter transitorio o en supuestos de urgencia, Jueces, Tribunales y Fiscal pueden encomendar a las FCS la práctica de concretas diligencias de investigación.",
+      "explicacion": "El artículo 3 prevé una vía subsidiaria: cuando no hay Unidades de Policía Judicial disponibles, y solo con carácter transitorio o en casos de urgencia, los Jueces, Tribunales y el Ministerio Fiscal pueden encomendar diligencias concretas a cualquier miembro de las Fuerzas y Cuerpos de Seguridad."
+    },
+    {
+      "id": "PJ-004",
+      "articulo": "art. 4",
+      "titulo": "Primeras diligencias de prevención y aseguramiento",
+      "resumen": "Todos los componentes de las FCS practican por propia iniciativa las primeras diligencias de prevención y aseguramiento y la ocupación y custodia de los objetos del delito en cuanto tengan noticia del hecho.",
+      "explicacion": "El artículo 4 impone un deber de reacción inmediata: en cuanto tengan noticia del hecho presuntamente delictivo, todos los componentes de las Fuerzas y Cuerpos de Seguridad practican las primeras diligencias de prevención y aseguramiento y ocupan y custodian los objetos del delito, dando cuenta a la Autoridad Judicial o Fiscal."
+    },
+    {
+      "id": "PJ-005",
+      "articulo": "art. 5",
+      "titulo": "Cese del funcionario al hacerse cargo la Autoridad Judicial o el Fiscal",
+      "resumen": "El funcionario que inició la investigación debe cesar en ella al comparecer para hacerse cargo la Autoridad Judicial o el Fiscal, a quienes entrega las diligencias, los efectos y las personas detenidas.",
+      "explicacion": "El artículo 5 marca el momento en que termina la actuación policial autónoma: al comparecer la Autoridad Judicial o el Fiscal para hacerse cargo de la investigación, el funcionario cesa y les hace entrega de las diligencias practicadas, de los efectos intervenidos y de las personas cuya detención se hubiese acordado."
+    },
+    {
+      "id": "PJ-006",
+      "articulo": "art. 6",
+      "titulo": "Dependencia funcional directa de la Policía Judicial",
+      "resumen": "La Policía Judicial desarrolla, bajo la dependencia funcional directa de los Jueces y Tribunales y del Ministerio Fiscal, funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente.",
+      "explicacion": "El artículo 6 define la nota esencial de la Policía Judicial en sentido estricto: actúa bajo la dependencia funcional directa de los Jueces y Tribunales y del Ministerio Fiscal, cumpliendo las funciones de averiguación del delito y de descubrimiento y aseguramiento del delincuente."
+    },
+    {
+      "id": "PJ-007",
+      "articulo": "art. 7",
+      "titulo": "Policía Judicial en sentido estricto: las Unidades Orgánicas",
+      "resumen": "Constituyen la Policía Judicial en sentido estricto las Unidades Orgánicas previstas en el artículo 30.1 de la LO de FCS, integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil.",
+      "explicacion": "El artículo 7 identifica quién forma la Policía Judicial en sentido estricto: las Unidades Orgánicas del artículo 30.1 de la Ley Orgánica de Fuerzas y Cuerpos de Seguridad, integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil."
+    },
+    {
+      "id": "PJ-008",
+      "articulo": "art. 8",
+      "titulo": "Norma de actuación de las Unidades",
+      "resumen": "Dichas Unidades actúan conforme a lo dispuesto en el artículo 5 de la Ley de Fuerzas y Cuerpos de Seguridad y con sujeción a los principios y normas del capítulo siguiente de este Real Decreto.",
+      "explicacion": "El artículo 8 remite el modo de actuar de las Unidades a dos referencias: el artículo 5 de la Ley de Fuerzas y Cuerpos de Seguridad (principios básicos de actuación) y los principios y normas contenidos en el capítulo siguiente del propio Real Decreto."
+    },
+    {
+      "id": "PJ-009",
+      "articulo": "art. 9",
+      "titulo": "Estructura sobre base provincial",
+      "resumen": "Las Unidades Orgánicas de la Policía Judicial se estructuran con arreglo a criterios de distribución territorial sobre una base provincial, pudiendo constituirse secciones donde el índice de criminalidad lo aconseje.",
+      "explicacion": "El artículo 9 fija el criterio general de organización territorial: las Unidades Orgánicas se estructuran sobre una base provincial. Además, pueden crearse secciones en poblaciones cuyo índice de criminalidad lo aconseje."
+    },
+    {
+      "id": "PJ-010",
+      "articulo": "art. 9",
+      "titulo": "Unidades de ámbito superior al provincial",
+      "resumen": "Pueden constituirse Unidades con ámbito de actuación que exceda el provincial por razones de especialización delictual o de técnicas de investigación.",
+      "explicacion": "El artículo 9 admite una excepción a la base provincial: cuando lo justifican la especialización delictual o las técnicas de investigación, se pueden constituir Unidades cuyo ámbito de actuación exceda el de una provincia."
+    },
+    {
+      "id": "PJ-011",
+      "articulo": "art. 10",
+      "titulo": "Dependencia funcional del órgano que conoce del asunto",
+      "resumen": "En la ejecución de sus cometidos, las Unidades y sus funcionarios dependen funcionalmente de los Jueces, Tribunales o miembros del Ministerio Fiscal que estén conociendo del asunto objeto de su investigación.",
+      "explicacion": "El artículo 10 concreta la dependencia funcional: no es genérica, sino respecto del concreto Juez, Tribunal o Fiscal que esté conociendo del asunto objeto de la investigación, tanto en las funciones de averiguación del delito como en las previstas en la Ley Orgánica del Poder Judicial."
+    },
+    {
+      "id": "PJ-012",
+      "articulo": "art. 11",
+      "titulo": "Órdenes judiciales frente a instrucciones técnicas",
+      "resumen": "El funcionario comisionado se atiene a las órdenes y directrices recibidas de la Autoridad Judicial o Fiscal, sin que las instrucciones técnicas de sus superiores policiales puedan contradecirlas.",
+      "explicacion": "El artículo 11 resuelve el posible conflicto de mando: las instrucciones de carácter técnico de los superiores policiales inmediatos no pueden contradecir las órdenes y directrices recibidas de la Autoridad Judicial o Fiscal, que prevalecen."
+    },
+    {
+      "id": "PJ-013",
+      "articulo": "art. 12",
+      "titulo": "Deber de informar y rendir cuenta",
+      "resumen": "Los funcionarios informan de la evolución de sus investigaciones y rinden cumplida cuenta del resultado final a la Autoridad Judicial o al Ministerio Fiscal que la hubiere ordenado.",
+      "explicacion": "El artículo 12 establece un doble deber de comunicación: informar de la evolución de la investigación y rendir cumplida cuenta del resultado final, en los términos y forma dispuestos por la Autoridad Judicial o el Ministerio Fiscal que ordenó la actuación."
+    },
+    {
+      "id": "PJ-014",
+      "articulo": "art. 13",
+      "titulo": "Carácter de comisionados y auxilio",
+      "resumen": "Al actuar por encargo y bajo la supervisión de Jueces, Tribunales o Fiscales, los funcionarios tienen el carácter de comisionados y pueden requerir el auxilio necesario de las autoridades y, en su caso, de los particulares.",
+      "explicacion": "El artículo 13 reconoce a los funcionarios el carácter de comisionados del órgano judicial o fiscal cuando actúan por su encargo y supervisión. En tal concepto pueden requerir el auxilio necesario de las autoridades y, en su caso, de los particulares."
+    },
+    {
+      "id": "PJ-015",
+      "articulo": "art. 14",
+      "titulo": "Valor de las diligencias de la Policía Judicial",
+      "resumen": "Las diligencias y actuaciones de las Unidades Orgánicas tienen el valor reconocido en las Leyes y gozan de la especial consideración derivada de su carácter de comisionados de Jueces, Tribunales y Fiscales.",
+      "explicacion": "El artículo 14 asigna a las diligencias de las Unidades Orgánicas el valor que las Leyes les reconozcan, reforzado por la especial consideración que deriva de su adscripción y de su carácter de comisionados de Jueces, Tribunales y Fiscales."
+    },
+    {
+      "id": "PJ-016",
+      "articulo": "art. 15",
+      "titulo": "Deber de rigurosa reserva",
+      "resumen": "Los funcionarios deben guardar rigurosa reserva sobre la evolución y el resultado de las investigaciones; su infracción se corrige disciplinariamente, sin perjuicio de otras responsabilidades.",
+      "explicacion": "El artículo 15 impone un deber de rigurosa reserva sobre las investigaciones y las informaciones obtenidas. Su infracción se corrige disciplinariamente. La reserva no impide, salvo prohibición expresa del Juez o Fiscal, el intercambio interno de información dentro de la Unidad Orgánica."
+    },
+    {
+      "id": "PJ-017",
+      "articulo": "art. 16",
+      "titulo": "Inamovilidad del funcionario en la investigación",
+      "resumen": "Los funcionarios no pueden ser removidos de la investigación encomendada hasta que finalice o termine la fase procesal que la originó, salvo decisión o autorización del Juez o Fiscal competente.",
+      "explicacion": "El artículo 16 garantiza la continuidad de la investigación: el funcionario no puede ser apartado del caso hasta que este finalice o concluya la fase procesal que lo originó, salvo por decisión o con la autorización del Juez o Fiscal competente."
+    },
+    {
+      "id": "PJ-018",
+      "articulo": "art. 17",
+      "titulo": "Instar la potestad disciplinaria y las recompensas",
+      "resumen": "El Juez o Tribunal del que dependan los funcionarios, o el Fiscal competente, pueden instar el ejercicio de la potestad disciplinaria respecto de aquéllos e igualmente instar la concesión de recompensas.",
+      "explicacion": "El artículo 17 refuerza la dependencia funcional en el plano del régimen del funcionario: el órgano judicial o fiscal puede instar tanto el ejercicio de la potestad disciplinaria, cuando entienda que la conducta merece sanción, como la concesión de recompensas cuando existan méritos."
+    },
+    {
+      "id": "PJ-019",
+      "articulo": "art. 18",
+      "titulo": "Investigación criminal permanente y especial",
+      "resumen": "A las Unidades Orgánicas corresponde la función de investigación criminal con carácter permanente y especial, con equipos de especialización delictual donde el nivel de delincuencia lo haga preciso.",
+      "explicacion": "El artículo 18 caracteriza la función de las Unidades Orgánicas como investigación criminal permanente y especial. Para ello cuentan con los efectivos y medios necesarios y, donde el nivel de delincuencia lo requiera, con equipos de especialización delictual."
+    },
+    {
+      "id": "PJ-020",
+      "articulo": "art. 19",
+      "titulo": "Límite de funciones encargables a las Unidades",
+      "resumen": "Los Jueces, Tribunales o Fiscales no pueden encargar a las Unidades otras funciones que las previstas en el artículo 445.1 de la LOPJ, salvo las excepcionales del artículo 33 de la LO de FCS.",
+      "explicacion": "El artículo 19 acota lo que puede encargarse: solo las funciones del artículo 445.1 de la Ley Orgánica del Poder Judicial, sin perjuicio de las que excepcionalmente quepan según el artículo 33 de la Ley Orgánica de Fuerzas y Cuerpos de Seguridad, de las que se da cuenta a la Comisión Provincial de Coordinación."
+    },
+    {
+      "id": "PJ-021",
+      "articulo": "art. 20",
+      "titulo": "Actuación previa a la apertura judicial: dependencia del Fiscal",
+      "resumen": "Cuando se realizan diligencias con carácter previo a la apertura de la actuación judicial, los funcionarios actúan bajo la dependencia del Ministerio Fiscal, que puede hacerse cargo de la dirección.",
+      "explicacion": "El artículo 20 regula la fase anterior a la judicialización: si las diligencias se practican antes de abrirse la actuación judicial, la Policía Judicial actúa bajo la dependencia del Ministerio Fiscal, al que da cuenta y que puede asumir en cualquier momento la dirección de la investigación."
+    },
+    {
+      "id": "PJ-022",
+      "articulo": "art. 21",
+      "titulo": "Entendimiento directo con el Jefe de la Unidad",
+      "resumen": "Iniciado el procedimiento penal, el Juez o Tribunal, y el Fiscal, se entienden directamente y sin instancias administrativas superiores con el Jefe de la Unidad correspondiente para encomendarle investigaciones.",
+      "explicacion": "El artículo 21 establece un canal directo: una vez iniciado el procedimiento, el órgano judicial y el Fiscal se entienden directamente, sin acudir a instancias administrativas superiores, con el Jefe de la Unidad correspondiente, sea del Cuerpo Nacional de Policía o de la Guardia Civil."
+    },
+    {
+      "id": "PJ-023",
+      "articulo": "art. 22",
+      "titulo": "Encargo excepcional por conducto de altos cargos",
+      "resumen": "Excepcionalmente, cuando se precisan medios especializados o la investigación se extiende a varias provincias, el encargo se cursa por conducto del Presidente del Tribunal Supremo o del Fiscal General del Estado, entre otros.",
+      "explicacion": "El artículo 22 prevé un cauce reforzado para casos de especial trascendencia o de investigaciones supraprovinciales: el encargo debe cursarse por conducto del Presidente del Tribunal Supremo o del Fiscal General del Estado, del Presidente o Fiscal de la Audiencia Nacional o de los del Tribunal Superior de Justicia respectivo."
+    },
+    {
+      "id": "PJ-024",
+      "articulo": "art. 23",
+      "titulo": "Asignación de Unidades especialmente adscritas",
+      "resumen": "El Ministerio del Interior, previo informe favorable del Consejo General del Poder Judicial o a su propuesta, puede asignar de forma permanente y estable Unidades especialmente adscritas a Juzgados y Tribunales.",
+      "explicacion": "El artículo 23 crea la figura de las Unidades especialmente adscritas: las asigna el Ministerio del Interior, con carácter permanente y estable, previo informe favorable del Consejo General del Poder Judicial o a su propuesta, a los Juzgados y Tribunales que por su ritmo de actividad lo requieran, y también a las Fiscalías precisas."
+    },
+    {
+      "id": "PJ-025",
+      "articulo": "art. 24",
+      "titulo": "Las adscritas forman parte de la Unidad Orgánica provincial",
+      "resumen": "Las Unidades adscritas forman parte integrante de la correspondiente Unidad Orgánica provincial, en cuya estructura se incardinan y de cuyos medios materiales y humanos se surten.",
+      "explicacion": "El artículo 24 aclara la naturaleza de las adscritas: no son unidades independientes, sino parte integrante de la Unidad Orgánica provincial. La pertenencia puede dejarse sin efecto previo informe favorable, preceptivo y vinculante, de la Comisión Provincial de Coordinación."
+    },
+    {
+      "id": "PJ-026",
+      "articulo": "art. 25",
+      "titulo": "Sede de las Unidades adscritas",
+      "resumen": "Las Unidades especialmente adscritas deben, en lo posible, tener su sede en las propias dependencias o edificios judiciales y Fiscalías, para lo que se habilitan los locales adecuados.",
+      "explicacion": "El artículo 25 busca la proximidad física: las Unidades adscritas tendrán, en lo posible, su sede en las propias dependencias o edificios judiciales y Fiscalías, habilitándose los locales adecuados para ello."
+    },
+    {
+      "id": "PJ-027",
+      "articulo": "art. 26",
+      "titulo": "Asignación a los Decanatos y preferencia del Juzgado de Guardia",
+      "resumen": "Las Unidades adscritas quedan asignadas a los respectivos Decanatos, pero atienden de modo preferente al Juzgado de Guardia y al Fiscal de Guardia.",
+      "explicacion": "El artículo 26 organiza la dependencia de las adscritas: la coordinación general radica en los Decanatos, mientras que la dependencia funcional directa se establece respecto de cada órgano jurisdiccional y, muy especialmente, del Juzgado de Guardia y del Fiscal de Guardia, a los que atienden de modo preferente."
+    },
+    {
+      "id": "PJ-028",
+      "articulo": "art. 27",
+      "titulo": "Composición de las Unidades adscritas",
+      "resumen": "Las Unidades especialmente adscritas se componen de funcionarios diplomados y especializados en Policía Judicial y de otros efectivos no especializados para funciones auxiliares y de apoyo.",
+      "explicacion": "El artículo 27 describe una composición mixta: por un lado, funcionarios diplomados y especializados que han superado los cursos de selección del capítulo V; por otro, efectivos policiales no necesariamente especializados, destinados a funciones auxiliares y de apoyo."
+    },
+    {
+      "id": "PJ-029",
+      "articulo": "art. 28",
+      "titulo": "Cometidos de las Unidades adscritas",
+      "resumen": "A las Unidades adscritas puede encomendárseles, entre otros cometidos de policía científica, inspecciones oculares, recogida de pruebas o la intervención técnica en el levantamiento de cadáveres.",
+      "explicacion": "El artículo 28 enumera cometidos propios de una policía científica que pueden encomendarse a las Unidades adscritas en su asistencia directa al Juzgado y Fiscal de Guardia: inspecciones oculares, informes periciales provisionales urgentes, intervención técnica en levantamiento de cadáveres, recogida de pruebas o actuaciones de inmediata intervención, entre otros."
+    },
+    {
+      "id": "PJ-030",
+      "articulo": "art. 29",
+      "titulo": "Traslado a la Unidad Orgánica de las investigaciones extensas",
+      "resumen": "Cuando se necesita una investigación más extensa o medios de los que la adscrita no dispone, se da traslado de las diligencias a la Unidad Orgánica.",
+      "explicacion": "El artículo 29 articula la relación entre la Unidad adscrita y la Orgánica: si de las primeras actuaciones resulta la necesidad de una investigación más amplia o de medios de que la adscrita carece, se da traslado de las diligencias a la Unidad Orgánica, que recibe de la Autoridad Judicial las instrucciones precisas."
+    },
+    {
+      "id": "PJ-031",
+      "articulo": "art. 30",
+      "titulo": "El Jefe de la Unidad adscrita designa a los funcionarios",
+      "resumen": "Corresponde al Jefe de la respectiva Unidad adscrita la determinación concreta de los funcionarios que asumirán cada cometido, dando cuenta a la Autoridad Judicial o Fiscal de la que emanó la orden.",
+      "explicacion": "El artículo 30 atribuye al Jefe de la Unidad adscrita la designación concreta de los funcionarios para cada cometido, dando cuenta a la Autoridad Judicial o Fiscal que ordenó la actuación y manteniendo estrechas relaciones de coordinación con la Unidad Orgánica de la que forma parte."
+    },
+    {
+      "id": "PJ-032",
+      "articulo": "art. 31",
+      "titulo": "Creación de las Comisiones de Coordinación",
+      "resumen": "Se crean las Comisiones Nacional y Provinciales de Coordinación de la Policía Judicial para armonizar y lograr la unidad de dirección en las fuerzas policiales adscritas a la investigación criminal.",
+      "explicacion": "El artículo 31 crea dos niveles de coordinación de la Policía Judicial, el nacional y el provincial, con la finalidad de armonizar la actuación y lograr la unidad de dirección de las fuerzas policiales dedicadas a la investigación criminal."
+    },
+    {
+      "id": "PJ-033",
+      "articulo": "art. 32",
+      "titulo": "Presidencia de la Comisión Nacional",
+      "resumen": "La Comisión Nacional de Coordinación la preside, cuando asiste personalmente, el Presidente del Tribunal Supremo y del Consejo General del Poder Judicial.",
+      "explicacion": "El artículo 32 detalla la composición de la Comisión Nacional. La preside, cuando asiste personalmente, el Presidente del Tribunal Supremo y del Consejo General del Poder Judicial. La integran también, entre otros, el Ministro de Justicia, el Ministro del Interior, el Fiscal General del Estado y el Secretario de Estado para la Seguridad."
+    },
+    {
+      "id": "PJ-034",
+      "articulo": "art. 33",
+      "titulo": "Delegación del Presidente del Tribunal Supremo",
+      "resumen": "El Presidente del Tribunal Supremo puede delegar su presencia en la Comisión Nacional en un Magistrado de la Sala Segunda de dicho Alto Tribunal.",
+      "explicacion": "El artículo 33 regula las delegaciones de los miembros natos de la Comisión Nacional. La del Presidente del Tribunal Supremo puede recaer en un Magistrado de la Sala Segunda; la del Fiscal General del Estado, en un Fiscal de Sala del Tribunal Supremo."
+    },
+    {
+      "id": "PJ-035",
+      "articulo": "art. 34",
+      "titulo": "Presidencia de las Comisiones Provinciales",
+      "resumen": "Las Comisiones Provinciales de Coordinación las preside el Presidente de la Audiencia Provincial y se integran, entre otros, por el Fiscal Jefe de la Audiencia y los Jefes de las Unidades Orgánicas.",
+      "explicacion": "El artículo 34 fija la composición provincial. La preside el Presidente de la Audiencia Provincial, con el Fiscal Jefe de la Audiencia, el Magistrado Juez Decano, el Secretario Coordinador Provincial y los Jefes de la Unidad Orgánica de la Policía Judicial del Cuerpo Nacional de Policía y de la Guardia Civil."
+    },
+    {
+      "id": "PJ-036",
+      "articulo": "art. 35",
+      "titulo": "Incorporaciones y Comités técnicos",
+      "resumen": "Eventualmente pueden incorporarse a las Comisiones otras Autoridades o funcionarios para materias concretas, y pueden constituirse Comités técnicos para el estudio de temas específicos.",
+      "explicacion": "El artículo 35 dota de flexibilidad a las Comisiones: permite incorporar eventualmente a otras Autoridades o funcionarios para el tratamiento de materias concretas o tareas de auxilio técnico, y constituir Comités técnicos para el estudio de temas específicos."
+    },
+    {
+      "id": "PJ-037",
+      "articulo": "art. 36",
+      "titulo": "Atribuciones de la Comisión Nacional",
+      "resumen": "Entre las atribuciones de la Comisión Nacional está efectuar estudios actualizados sobre la evolución de la delincuencia e informar los anteproyectos de disposiciones generales reguladoras de la Policía Judicial.",
+      "explicacion": "El artículo 36 enumera las atribuciones de la Comisión Nacional: estudios permanentes sobre la delincuencia, informes y propuestas de planes generales, conocimiento previo de los nombramientos de altos responsables de las Unidades Orgánicas e informe de los anteproyectos de disposiciones generales reguladoras de la Policía Judicial."
+    },
+    {
+      "id": "PJ-038",
+      "articulo": "art. 37",
+      "titulo": "Competencias de las Comisiones Provinciales",
+      "resumen": "Las Comisiones Provinciales informan con carácter preceptivo y vinculante las propuestas de remoción de funcionarios pertenecientes a las Unidades adscritas del artículo 24.",
+      "explicacion": "El artículo 37 asigna a las Comisiones Provinciales, en su ámbito, competencias de informe. Destaca el informe preceptivo y vinculante de las propuestas de remoción de funcionarios de las Unidades adscritas, y el informe preceptivo de las peticiones de adscripción para investigaciones concretas."
+    },
+    {
+      "id": "PJ-039",
+      "articulo": "art. 38",
+      "titulo": "Periodicidad de las reuniones de las Comisiones",
+      "resumen": "La Comisión Nacional celebra, al menos, una reunión trimestral, y las Comisiones Provinciales se reúnen con periodicidad mensual.",
+      "explicacion": "El artículo 38 fija la cadencia de reuniones: trimestral, al menos, para la Comisión Nacional, y mensual para las Comisiones Provinciales, que convoca su Presidente. Su régimen jurídico es el de los órganos colegiados de la Ley de Procedimiento Administrativo."
+    },
+    {
+      "id": "PJ-040",
+      "articulo": "art. 39",
+      "titulo": "Formación especializada y diploma del Centro de Estudios Judiciales",
+      "resumen": "La integración en las Unidades Orgánicas requiere previa formación especializada acreditada con título; para obtenerlo es requisito imprescindible poseer el diploma expedido por el Centro de Estudios Judiciales.",
+      "explicacion": "El artículo 39 condiciona el acceso a las Unidades Orgánicas a una previa formación especializada, acreditada mediante título tras superar las pruebas correspondientes. Para obtener ese título es imprescindible poseer el diploma expedido por el Centro de Estudios Judiciales."
+    },
+    {
+      "id": "PJ-041",
+      "articulo": "art. 40",
+      "titulo": "La especialización se cursa en dos fases",
+      "resumen": "La especialización se cursa en dos fases: la primera en los Centros de Formación y Perfeccionamiento de las FCS del Estado y la segunda en el Centro de Estudios Judiciales.",
+      "explicacion": "El artículo 40 estructura la especialización en dos fases sucesivas: la primera se imparte en los Centros de Formación y Perfeccionamiento de las Fuerzas y Cuerpos de Seguridad del Estado y la segunda en el Centro de Estudios Judiciales, con docencia de la Judicatura, el Ministerio Fiscal y profesorado universitario."
+    },
+    {
+      "id": "PJ-042",
+      "articulo": "art. 41",
+      "titulo": "Intervención de los Centros de las FCS en la selección",
+      "resumen": "Los Centros de Formación de las FCS del Estado intervienen en los procesos de selección a través de los cursos generales de acceso y de los cursos de especialización que se establezcan.",
+      "explicacion": "El artículo 41 detalla la primera fase: los Centros de Formación y Perfeccionamiento de las Fuerzas y Cuerpos de Seguridad del Estado participan en la selección tanto mediante los cursos generales de acceso a los respectivos Cuerpos como con los cursos de especialización."
+    },
+    {
+      "id": "PJ-043",
+      "articulo": "art. 44",
+      "titulo": "Acceso a los cursos del Centro de Estudios Judiciales",
+      "resumen": "Los funcionarios que hayan superado los cursos de especialización impartidos por los Centros de las FCS del Estado pueden acceder a los cursos específicos programados por el Centro de Estudios Judiciales.",
+      "explicacion": "El artículo 44 encadena las dos fases: superados los cursos de especialización de los Centros de las Fuerzas y Cuerpos de Seguridad, los funcionarios pueden acceder a los cursos específicos del Centro de Estudios Judiciales, con distinción de dos niveles formativos."
+    },
+    {
+      "id": "PJ-044",
+      "articulo": "art. 45",
+      "titulo": "El diploma habilita para ocupar destinos",
+      "resumen": "Superado el curso del Centro de Estudios Judiciales, se expide el diploma que habilita para obtener la titulación y ocupar destinos en Unidades Orgánicas de la Policía Judicial.",
+      "explicacion": "El artículo 45 cierra el ciclo formativo: una vez superado el curso del Centro de Estudios Judiciales, se expide el diploma correspondiente, que habilita para obtener la titulación y ocupar destinos en las Unidades Orgánicas de la Policía Judicial."
+    },
+    {
+      "id": "PJ-045",
+      "articulo": "disposición transitoria primera",
+      "titulo": "Régimen transitorio de los funcionarios en funciones de policía judicial",
+      "resumen": "Quienes a la entrada en vigor del Real Decreto desempeñaban funciones de policía judicial continúan desarrollándolas integrados en las Unidades Orgánicas hasta que los puestos se cubran con funcionarios especializados.",
+      "explicacion": "La disposición transitoria primera asegura la continuidad del servicio: los miembros de las FCS del Estado que ya venían desempeñando funciones de policía judicial las siguen ejerciendo, integrados en las Unidades Orgánicas, hasta que dichos puestos se cubran con funcionarios especializados."
+    },
+    {
+      "id": "PJ-046",
+      "articulo": "disposición final",
+      "titulo": "Entrada en vigor del Real Decreto",
+      "resumen": "El Real Decreto entra en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».",
+      "explicacion": "La disposición final fija la entrada en vigor de la norma: el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin acogerse al plazo general de vacatio legis previsto con carácter supletorio."
+    }
   ],
   "actividades": [
-    { "concepto_id": "PJ-001", "articulo": "art. 1", "tipo": "test", "enunciado": "Según el artículo 1, ¿a quién corresponden las funciones generales de policía judicial?", "opciones": ["a todos los miembros de las Fuerzas y Cuerpos de Seguridad", "solo a las Unidades Orgánicas de Policía Judicial en sentido estricto", "únicamente a los funcionarios integrados en las Unidades especialmente adscritas", "exclusivamente al Cuerpo Nacional de Policía y a la Guardia Civil"], "indice_correcto": 0, "cotejo": "Las funciones generales de policía judicial corresponden a todos los miembros de las Fuerzas y Cuerpos de Seguridad cualquiera que sea su naturaleza y dependencia", "justificacion": "Art. 1 RD 769/1987." },
-    { "concepto_id": "PJ-002", "articulo": "art. 2", "tipo": "test", "enunciado": "Según el artículo 2, cuando actúan por propia iniciativa en funciones de policía judicial, los miembros de las FCS lo hacen:", "opciones": ["por requerimiento directo del Delegado del Gobierno en la provincia", "por propia iniciativa a través de estos últimos", "previa autorización expresa del Director General de la Policía", "dando cuenta inmediata a la Comisión Provincial de Coordinación"], "indice_correcto": 1, "cotejo": "o de sus superiores policiales o por propia iniciativa a través de estos últimos, en los términos previstos en los artículos siguientes", "justificacion": "Art. 2 RD 769/1987; 'estos últimos' son los superiores policiales." },
-    { "concepto_id": "PJ-003", "articulo": "art. 3", "tipo": "test", "enunciado": "El artículo 3 permite a Jueces, Tribunales y Fiscal encomendar diligencias a las FCS, en defecto de Unidades de Policía Judicial:", "opciones": ["de forma permanente y con plena autonomía funcional respecto del juez", "con carácter transitorio o en supuestos de urgencia", "siempre que medie autorización previa del Ministerio del Interior", "en cualquier procedimiento, sin restricción temporal ni material alguna"], "indice_correcto": 1, "cotejo": "podrán, en defecto de Unidades de Policía Judicial, con carácter transitorio o en supuestos de urgencia", "justificacion": "Art. 3 RD 769/1987." },
-    { "concepto_id": "PJ-004", "articulo": "art. 4", "tipo": "test", "enunciado": "¿Qué deben practicar por propia iniciativa los componentes de las FCS en cuanto tienen noticia de un hecho presuntamente delictivo (art. 4)?", "opciones": ["la instrucción completa del atestado y su calificación jurídica provisional", "las primeras diligencias de prevención y aseguramiento", "el interrogatorio del detenido con asistencia obligatoria de letrado", "la apertura formal del procedimiento judicial que corresponda"], "indice_correcto": 1, "cotejo": "practicarán por su propia iniciativa y según sus respectivas atribuciones, las primeras diligencias de prevención y aseguramiento", "justificacion": "Art. 4 RD 769/1987." },
-    { "concepto_id": "PJ-005", "articulo": "art. 5", "tipo": "test", "enunciado": "Según el artículo 5, ¿cuándo cesa en la investigación el funcionario que la había iniciado?", "opciones": ["cuando su superior policial inmediato ordene expresamente su relevo del servicio", "al comparecer para hacerse cargo de ella la Autoridad Judicial o el Fiscal", "una vez transcurridas las primeras setenta y dos horas desde su inicio", "al concluir la fase de instrucción del procedimiento penal correspondiente"], "indice_correcto": 1, "cotejo": "habrá de cesar en la misma al comparecer para hacerse cargo de ella la Autoridad Judicial o el Fiscal encargado de las actuaciones", "justificacion": "Art. 5 RD 769/1987." },
-    { "concepto_id": "PJ-006", "articulo": "art. 6", "tipo": "test", "enunciado": "Según el artículo 6, la Policía Judicial desarrolla sus funciones bajo la dependencia funcional directa de:", "opciones": ["el Ministro del Interior y el Director General de la Policía Nacional", "los Jueces y Tribunales y del Ministerio Fiscal", "el Delegado del Gobierno en la respectiva comunidad autónoma", "la Comisión Nacional de Coordinación de la Policía Judicial"], "indice_correcto": 1, "cotejo": "desarrollará, bajo la dependencia funcional directa de los Jueces y Tribunales y del Ministerio Fiscal, funciones de averiguación del delito", "justificacion": "Art. 6 RD 769/1987." },
-    { "concepto_id": "PJ-007", "articulo": "art. 7", "tipo": "test", "enunciado": "¿Por quiénes están integradas las Unidades Orgánicas que constituyen la Policía Judicial en sentido estricto (art. 7)?", "opciones": ["cualquier miembro de las Fuerzas y Cuerpos de Seguridad en servicio activo", "miembros del Cuerpo Nacional de Policía y de la Guardia Civil", "los funcionarios diplomados por el Centro de Estudios Judiciales", "las policías locales que ejerzan funciones de investigación criminal"], "indice_correcto": 1, "cotejo": "integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil", "justificacion": "Art. 7 RD 769/1987." },
-    { "concepto_id": "PJ-008", "articulo": "art. 8", "tipo": "test", "enunciado": "Conforme al artículo 8, las Unidades actúan conforme a lo dispuesto en:", "opciones": ["el artículo 126 de la Constitución Española y sus normas de desarrollo", "el artículo 5.º de la Ley de Fuerzas y Cuerpos de Seguridad", "el artículo 283 de la Ley de Enjuiciamiento Criminal vigente", "el Reglamento de régimen interior del Centro de Estudios Judiciales"], "indice_correcto": 1, "cotejo": "actuarán conforme a lo dispuesto en el artículo 5.º de la Ley de Fuerzas y Cuerpos de Seguridad", "justificacion": "Art. 8 RD 769/1987." },
-    { "concepto_id": "PJ-009", "articulo": "art. 9", "tipo": "test", "enunciado": "¿Sobre qué base territorial se estructuran las Unidades Orgánicas de la Policía Judicial (art. 9)?", "opciones": ["sobre una base autonómica coordinada por cada comunidad", "sobre una base provincial", "sobre una base de partido judicial dentro de cada provincia", "sobre una base estatal plenamente centralizada"], "indice_correcto": 1, "cotejo": "se estructurarán con arreglo a criterios de distribución territorial sobre una base provincial", "justificacion": "Art. 9 RD 769/1987." },
-    { "concepto_id": "PJ-010", "articulo": "art. 9", "tipo": "test", "enunciado": "Según el artículo 9, ¿por qué razones pueden constituirse Unidades con ámbito que exceda el provincial?", "opciones": ["por razones de economía presupuestaria y de reducción de plantillas", "por razones de especialización delictual o de técnicas de investigación", "por decisión discrecional y no motivada del Ministerio del Interior", "por acuerdo unánime de las comunidades autónomas territorialmente afectadas"], "indice_correcto": 1, "cotejo": "se constituirán Unidades con ámbito de actuación que exceda el provincial, por razones de especialización delictual o de técnicas de investigación", "justificacion": "Art. 9 RD 769/1987." },
-    { "concepto_id": "PJ-011", "articulo": "art. 10", "tipo": "test", "enunciado": "En la ejecución de sus cometidos, las Unidades y sus funcionarios dependen funcionalmente (art. 10):", "opciones": ["del superior jerárquico policial de mayor rango dentro de su respectiva Unidad", "de los Jueces, Tribunales o miembros del Ministerio Fiscal", "del Presidente de la Comisión Provincial de Coordinación de la Policía Judicial", "del Magistrado Juez Decano de los Juzgados de la capital de la provincia"], "indice_correcto": 1, "cotejo": "dependen funcionalmente de los Jueces, Tribunales o miembros del Ministerio Fiscal que estén conociendo del asunto objeto de su investigación", "justificacion": "Art. 10 RD 769/1987." },
-    { "concepto_id": "PJ-012", "articulo": "art. 11", "tipo": "test", "enunciado": "En el desarrollo de la investigación, ¿a qué se atiene el funcionario comisionado según el artículo 11?", "opciones": ["a las instrucciones técnicas de sus superiores policiales inmediatos", "a las órdenes y directrices que hubieren recibido", "a las directrices generales del Ministerio del Interior en la materia", "a los protocolos internos de actuación aprobados por su Jefe de Unidad"], "indice_correcto": 1, "cotejo": "se atendrán en el desarrollo de ésta a las órdenes y directrices que hubieren recibido, sin que las instrucciones de carácter técnico", "justificacion": "Art. 11 RD 769/1987; las órdenes judiciales o fiscales prevalecen." },
-    { "concepto_id": "PJ-013", "articulo": "art. 12", "tipo": "test", "enunciado": "Los funcionarios rinden cumplida cuenta del resultado final de su actuación (art. 12):", "opciones": ["a la Comisión Nacional de Coordinación de la Policía Judicial competente", "a la Autoridad Judicial o del Ministerio Fiscal que la hubiere ordenado", "al Director General de la Policía o al de la Guardia Civil, según el caso", "al Presidente de la Audiencia Provincial del territorio correspondiente"], "indice_correcto": 1, "cotejo": "rendirán cumplida cuenta del resultado final de su actuación a la Autoridad Judicial o del Ministerio Fiscal que la hubiere ordenado", "justificacion": "Art. 12 RD 769/1987." },
-    { "concepto_id": "PJ-014", "articulo": "art. 13", "tipo": "test", "enunciado": "Cuando actúan como comisionados, ¿qué pueden requerir los funcionarios según el artículo 13?", "opciones": ["la colaboración obligatoria de todas las administraciones públicas territoriales", "el auxilio necesario de las autoridades y, en su caso, de los particulares", "la entrega inmediata de cualquier documento a los medios de comunicación", "la práctica de detenciones sin necesidad de autorización judicial previa"], "indice_correcto": 1, "cotejo": "podrán requerir el auxilio necesario de las autoridades y, en su caso, de los particulares", "justificacion": "Art. 13 RD 769/1987." },
-    { "concepto_id": "PJ-015", "articulo": "art. 14", "tipo": "test", "enunciado": "Según el artículo 14, las diligencias y actuaciones de las Unidades Orgánicas de la Policía Judicial tendrán:", "opciones": ["el valor de simple denuncia sin eficacia probatoria alguna", "el valor reconocido en las Leyes", "el valor de prueba plena e irrefutable ante los tribunales", "un valor meramente orientativo para el instructor del caso"], "indice_correcto": 1, "cotejo": "tendrán el valor reconocido en las Leyes y gozarán de la especial consideración derivada de la adscripción", "justificacion": "Art. 14 RD 769/1987." },
-    { "concepto_id": "PJ-016", "articulo": "art. 15", "tipo": "test", "enunciado": "¿Qué deber impone el artículo 15 a los funcionarios de las Unidades Orgánicas sobre las investigaciones encomendadas?", "opciones": ["comunicar sus avances a los medios de información debidamente acreditados", "guardar rigurosa reserva", "remitir copia íntegra a la Comisión Nacional de Coordinación de la Policía Judicial", "informar semanalmente al Director General de la Policía Nacional"], "indice_correcto": 1, "cotejo": "deberán guardar rigurosa reserva sobre la evolución y resultado de las concretas investigaciones que les hubieren sido encomendadas", "justificacion": "Art. 15 RD 769/1987." },
-    { "concepto_id": "PJ-017", "articulo": "art. 16", "tipo": "test", "enunciado": "Según el artículo 16, ¿hasta cuándo no pueden ser removidos de la investigación los funcionarios encargados de ella?", "opciones": ["hasta que su superior policial inmediato decida asignarles otro destino", "hasta que finalice la misma o la fase procesal que la originó", "hasta que transcurran seis meses desde el comienzo de la investigación", "hasta que lo acuerde la Comisión Provincial de Coordinación competente"], "indice_correcto": 1, "cotejo": "no podrán ser removidos o apartados de la investigación concreta que se les hubiere encomendado, hasta que finalice la misma o la fase procesal que la originó", "justificacion": "Art. 16 RD 769/1987." },
-    { "concepto_id": "PJ-018", "articulo": "art. 17", "tipo": "test", "enunciado": "Conforme al artículo 17, el Juez o Tribunal del que dependan los funcionarios, o el Fiscal competente, pueden instar:", "opciones": ["la separación definitiva del servicio del funcionario responsable", "el ejercicio de la potestad disciplinaria respecto de aquéllos", "el traslado forzoso del funcionario a una Unidad de otra provincia", "la incoación directa de un procedimiento penal ante el juez competente"], "indice_correcto": 1, "cotejo": "podrán instar el ejercicio de la potestad disciplinaria respecto de aquéllos cuando fundadamente entiendan que su conducta ha sido merecedora de sanción", "justificacion": "Art. 17 RD 769/1987." },
-    { "concepto_id": "PJ-019", "articulo": "art. 18", "tipo": "test", "enunciado": "¿Con qué carácter corresponde a las Unidades Orgánicas la función de investigación criminal (art. 18)?", "opciones": ["con carácter ocasional, subsidiario y limitado en el tiempo", "con carácter permanente y especial", "con carácter provisional y revisable cada año natural", "con carácter exclusivamente preventivo y no investigador"], "indice_correcto": 1, "cotejo": "corresponderá la función de investigación criminal con carácter permanente y especial", "justificacion": "Art. 18 RD 769/1987." },
-    { "concepto_id": "PJ-020", "articulo": "art. 19", "tipo": "test", "enunciado": "Los Jueces, Tribunales o Fiscales solo pueden encargar a las Unidades de la Policía Judicial (art. 19):", "opciones": ["cualquier función de investigación que estimen útil para el procedimiento", "las previstas en el artículo 445.1 de la Ley Orgánica del Poder Judicial", "las funciones previstas en la Ley de Enjuiciamiento Criminal sin excepción", "las tareas de vigilancia y seguridad ciudadana propias de su Cuerpo de origen"], "indice_correcto": 1, "cotejo": "no podrán encargar a las Unidades de la Policía Judicial otras funciones que las previstas en el artículo 445.1 de la Ley Orgánica del Poder Judicial", "justificacion": "Art. 19 RD 769/1987." },
-    { "concepto_id": "PJ-021", "articulo": "art. 20", "tipo": "test", "enunciado": "Cuando las diligencias se practican con carácter previo a la apertura de la actuación judicial, los funcionarios actúan (art. 20):", "opciones": ["bajo la dependencia del Juez de Instrucción que esté de guardia", "bajo la dependencia del Ministerio Fiscal", "bajo la dependencia directa de su Jefe de Unidad Orgánica provincial", "bajo la dependencia del Presidente de la Audiencia Provincial"], "indice_correcto": 1, "cotejo": "pero con carácter previo a la apertura de la correspondiente actuación judicial, actuarán bajo la dependencia del Ministerio Fiscal", "justificacion": "Art. 20 RD 769/1987." },
-    { "concepto_id": "PJ-022", "articulo": "art. 21", "tipo": "test", "enunciado": "Iniciado el procedimiento penal, el Juez o Tribunal y el Fiscal se entienden directamente, sin instancias administrativas superiores (art. 21):", "opciones": ["con el Director General de la Policía o de la Guardia Civil, según proceda", "con el Jefe de la Unidad correspondiente", "con el Delegado del Gobierno de la provincia donde se investiga", "con la Comisión Nacional de Coordinación de la Policía Judicial"], "indice_correcto": 1, "cotejo": "se entenderán directamente, y sin necesidad de acudir a instancias administrativas superiores, con el Jefe de la Unidad correspondiente, sea del Cuerpo Nacional de Policía o de la Guardia Civil", "justificacion": "Art. 21 RD 769/1987." },
-    { "concepto_id": "PJ-023", "articulo": "art. 22", "tipo": "test", "enunciado": "En los encargos excepcionales del artículo 22, ¿por conducto de quién habrá de cursarse el encargo?", "opciones": ["del Ministro del Interior o del Secretario de Estado de Seguridad", "del Presidente del Tribunal Supremo o del Fiscal General del Estado", "del Director del Centro de Estudios Judiciales y del Consejo General", "del Presidente de la Audiencia Provincial y del Fiscal Jefe respectivo"], "indice_correcto": 1, "cotejo": "el encargo habrá de cursarse por conducto del Presidente del Tribunal Supremo o del Fiscal General del Estado, del Presidente o Fiscal de la Audiencia Nacional", "justificacion": "Art. 22 RD 769/1987." },
-    { "concepto_id": "PJ-024", "articulo": "art. 23", "tipo": "test", "enunciado": "El Ministerio del Interior puede asignar Unidades especialmente adscritas a Juzgados y Tribunales (art. 23):", "opciones": ["previa autorización expresa del Fiscal General del Estado en cada caso", "previo informe favorable del Consejo General del Poder Judicial", "con el informe vinculante de la Comisión Nacional de Coordinación", "a propuesta del Presidente de la Audiencia Provincial correspondiente"], "indice_correcto": 1, "cotejo": "El Ministerio del Interior, previo informe favorable del Consejo General del Poder Judicial o a su propuesta, podrá asignar con carácter permanente y estable", "justificacion": "Art. 23 RD 769/1987." },
-    { "concepto_id": "PJ-025", "articulo": "art. 24", "tipo": "test", "enunciado": "Según el artículo 24, las Unidades adscritas de la Policía Judicial:", "opciones": ["constituirán unidades autónomas independientes de la estructura provincial", "formarán parte integrante de la correspondiente Unidad Orgánica provincial", "dependerán directamente de la Comisión Nacional de Coordinación estatal", "se integrarán en la plantilla del órgano judicial al que prestan servicio"], "indice_correcto": 1, "cotejo": "Las Unidades adscritas de la Policía Judicial formarán parte integrante de la correspondiente Unidad Orgánica provincial en cuya estructura se incardinarán", "justificacion": "Art. 24 RD 769/1987." },
-    { "concepto_id": "PJ-026", "articulo": "art. 25", "tipo": "test", "enunciado": "¿Dónde tendrán su sede, en lo posible, las Unidades especialmente adscritas (art. 25)?", "opciones": ["en las comisarías o acuartelamientos de su Cuerpo de procedencia", "en las propias dependencias o edificios judiciales y Fiscalías", "en la sede de la Comisión Provincial de Coordinación de la Policía Judicial", "en los locales de la Delegación del Gobierno de la provincia"], "indice_correcto": 1, "cotejo": "deberán, en lo posible, tener su sede en las propias dependencias o edificios judiciales y Fiscalías", "justificacion": "Art. 25 RD 769/1987." },
-    { "concepto_id": "PJ-027", "articulo": "art. 26", "tipo": "test", "enunciado": "Según el artículo 26, las Unidades adscritas quedan asignadas a los Decanatos pero atienden de modo preferente al:", "opciones": ["Presidente de la Sala de lo Penal del Tribunal Superior de Justicia", "Juzgado de Guardia y Fiscal de Guardia", "Pleno jurisdiccional de la Audiencia Provincial competente", "Ministerio Fiscal ante el Tribunal Supremo del Estado"], "indice_correcto": 1, "cotejo": "muy especialmente, respecto del Juzgado de Guardia y Fiscal de Guardia, a los que atenderán de modo preferente", "justificacion": "Art. 26 RD 769/1987." },
-    { "concepto_id": "PJ-028", "articulo": "art. 27", "tipo": "test", "enunciado": "Además de funcionarios diplomados y especializados, las Unidades adscritas incluyen otros efectivos policiales (art. 27):", "opciones": ["para la dirección técnica de todas las investigaciones criminales", "para funciones auxiliares y de apoyo", "para sustituir al personal diplomado en sus cometidos especializados", "para el ejercicio de funciones jurisdiccionales delegadas por el juez"], "indice_correcto": 1, "cotejo": "no necesariamente dotados de aquella formación especializada, para funciones auxiliares y de apoyo", "justificacion": "Art. 27 RD 769/1987." },
-    { "concepto_id": "PJ-029", "articulo": "art. 28", "tipo": "test", "enunciado": "¿Cuál de los siguientes es un cometido que puede encomendarse a las Unidades especialmente adscritas (art. 28)?", "opciones": ["la calificación jurídica definitiva de los hechos presuntamente delictivos", "Intervención técnica en levantamiento de cadáveres", "la adopción de las medidas cautelares personales sobre el investigado", "la resolución de los recursos interpuestos contra las diligencias practicadas"], "indice_correcto": 1, "cotejo": "d) Intervención técnica en levantamiento de cadáveres.", "justificacion": "Art. 28.d) RD 769/1987." },
-    { "concepto_id": "PJ-030", "articulo": "art. 29", "tipo": "test", "enunciado": "Cuando se necesita una investigación más extensa o medios de los que la adscrita no dispone, ¿qué prevé el artículo 29?", "opciones": ["que se archive provisionalmente la investigación por falta de medios", "Se dará traslado de las diligencias a la Unidad Orgánica", "que se solicite el auxilio de las policías locales del municipio afectado", "que el Fiscal asuma personalmente la práctica de todas las diligencias"], "indice_correcto": 1, "cotejo": "se dará traslado de las diligencias a la Unidad Orgánica, que recibirá de la Autoridad Judicial las instrucciones y orientaciones precisas", "justificacion": "Art. 29 RD 769/1987." },
-    { "concepto_id": "PJ-031", "articulo": "art. 30", "tipo": "test", "enunciado": "Según el artículo 30, ¿a quién corresponde determinar los funcionarios que asumirán cada cometido en la Unidad adscrita?", "opciones": ["a la Autoridad Judicial o Fiscal de la que emanó la orden concreta", "al Jefe de la respectiva Unidad adscrita", "al Presidente de la Comisión Provincial de Coordinación competente", "al Director General de la Policía o al de la Guardia Civil, según el Cuerpo"], "indice_correcto": 1, "cotejo": "Corresponde al Jefe de la respectiva Unidad adscrita la determinación concreta de los funcionarios que habrán de asumir", "justificacion": "Art. 30 RD 769/1987." },
-    { "concepto_id": "PJ-032", "articulo": "art. 31", "tipo": "test", "enunciado": "¿Con qué finalidad se crean las Comisiones Nacional y Provinciales de Coordinación (art. 31)?", "opciones": ["resolver los conflictos de competencia entre los órganos judiciales penales", "armonizar y lograr la unidad de dirección", "instruir los expedientes disciplinarios de los miembros de la Policía Judicial", "seleccionar y formar a los aspirantes a las Unidades Orgánicas provinciales"], "indice_correcto": 1, "cotejo": "con el fin de armonizar y lograr la unidad de dirección en las fuerzas policiales adscritas a la investigación criminal", "justificacion": "Art. 31 RD 769/1987." },
-    { "concepto_id": "PJ-033", "articulo": "art. 32", "tipo": "test", "enunciado": "¿Quién preside la Comisión Nacional de Coordinación de la Policía Judicial cuando asiste personalmente (art. 32)?", "opciones": ["El Ministro de Justicia, asistido por el Subsecretario del propio departamento ministerial", "El Presidente del Tribunal Supremo y del Consejo General del Poder Judicial", "El Fiscal General del Estado o el Fiscal de Sala en quien delegue", "El Secretario de Estado para la Seguridad del Ministerio del Interior"], "indice_correcto": 1, "cotejo": "a) El Presidente del Tribunal Supremo y del Consejo General del Poder Judicial, que la presidirá cuando asista personalmente.", "justificacion": "Art. 32.a) RD 769/1987." },
-    { "concepto_id": "PJ-034", "articulo": "art. 33", "tipo": "test", "enunciado": "¿En quién puede delegar el Presidente del Tribunal Supremo su presencia en la Comisión Nacional (art. 33)?", "opciones": ["en el Presidente de la Sala de lo Penal de la Audiencia Nacional competente", "en un Magistrado de la Sala Segunda de dicho Alto Tribunal", "en un Fiscal de Sala del Tribunal Supremo designado al efecto", "en el Director general de relaciones con la Administración de Justicia"], "indice_correcto": 1, "cotejo": "El Presidente del Tribunal Supremo podrá delegar en un Magistrado de la Sala Segunda de dicho Alto Tribunal", "justificacion": "Art. 33 RD 769/1987." },
-    { "concepto_id": "PJ-035", "articulo": "art. 34", "tipo": "test", "enunciado": "¿Quién preside las Comisiones Provinciales de Coordinación de la Policía Judicial (art. 34)?", "opciones": ["El Fiscal Jefe de la Audiencia Provincial del territorio", "El Presidente de la Audiencia Provincial", "El Magistrado Juez Decano de los Juzgados de la capital de la provincia", "El Jefe de la Unidad Orgánica del Cuerpo Nacional de Policía"], "indice_correcto": 1, "cotejo": "a) El Presidente de la Audiencia Provincial, que la presidirá.", "justificacion": "Art. 34.a) RD 769/1987." },
-    { "concepto_id": "PJ-036", "articulo": "art. 35", "tipo": "test", "enunciado": "Según el artículo 35, además de incorporar eventualmente a otras Autoridades o funcionarios, las Comisiones podrán constituir:", "opciones": ["Juntas de gobierno con potestad disciplinaria sobre los funcionarios", "Comités técnicos para el estudio de temas específicos", "Secciones territoriales de ámbito comarcal o de distrito judicial", "Tribunales calificadores de las pruebas de acceso a las Unidades"], "indice_correcto": 1, "cotejo": "Igualmente, podrán constituirse Comités técnicos para el estudio de temas específicos.", "justificacion": "Art. 35 RD 769/1987." },
-    { "concepto_id": "PJ-037", "articulo": "art. 36", "tipo": "test", "enunciado": "¿Cuál de las siguientes es una atribución de la Comisión Nacional (art. 36)?", "opciones": ["Nombrar directamente a los Jefes de las Unidades Orgánicas provinciales", "Informar los anteproyectos de disposiciones generales", "Imponer sanciones disciplinarias a los funcionarios de la Policía Judicial", "Resolver los recursos interpuestos contra las diligencias policiales"], "indice_correcto": 1, "cotejo": "i) Informar los anteproyectos de disposiciones generales reguladoras de la Policía Judicial.", "justificacion": "Art. 36.i) RD 769/1987." },
-    { "concepto_id": "PJ-038", "articulo": "art. 37", "tipo": "test", "enunciado": "¿Con qué carácter informan las Comisiones Provinciales las propuestas de remoción de funcionarios de las Unidades adscritas (art. 37)?", "opciones": ["con carácter meramente consultivo y en ningún caso vinculante", "con carácter preceptivo y vinculante", "con carácter potestativo, solo a petición del Decano competente", "con carácter reservado y sin traslado al órgano decisor"], "indice_correcto": 1, "cotejo": "Informar con carácter preceptivo y vinculante las propuestas de remoción de funcionarios pertenecientes a las Unidades adscritas", "justificacion": "Art. 37.c) RD 769/1987." },
-    { "concepto_id": "PJ-039", "articulo": "art. 38", "tipo": "test", "enunciado": "Según el artículo 38, ¿con qué periodicidad se reúne, al menos, la Comisión Nacional?", "opciones": ["una reunión de periodicidad mensual ordinaria", "una reunión trimestral", "una reunión con carácter semestral", "una reunión anual de carácter ordinario"], "indice_correcto": 1, "cotejo": "La Comisión Nacional celebrará, al menos, una reunión trimestral.", "justificacion": "Art. 38 RD 769/1987." },
-    { "concepto_id": "PJ-040", "articulo": "art. 39", "tipo": "test", "enunciado": "Según el artículo 39, ¿qué es requisito imprescindible para obtener el título de la formación especializada?", "opciones": ["cinco años de servicio efectivo en funciones de investigación criminal", "el diploma expedido por el Centro de Estudios Judiciales", "una titulación universitaria en Derecho, Criminología o similar", "haber superado un curso específico en la Escuela de la Guardia Civil"], "indice_correcto": 1, "cotejo": "será requisito imprescindible estar en posesión del diploma expedido por el Centro de Estudios Judiciales", "justificacion": "Art. 39 RD 769/1987." },
-    { "concepto_id": "PJ-041", "articulo": "art. 40", "tipo": "test", "enunciado": "Según el artículo 40, ¿dónde tiene lugar la primera fase de la especialización?", "opciones": ["en el Centro de Estudios Judiciales dependiente del Consejo General", "en los Centros de Formación y Perfeccionamiento", "en las universidades públicas que tengan convenio suscrito", "en la Escuela Nacional de Policía de Ávila exclusivamente"], "indice_correcto": 1, "cotejo": "la primera tendrá lugar en los Centros de Formación y Perfeccionamiento de las Fuerzas y Cuerpos de Seguridad del Estado", "justificacion": "Art. 40 RD 769/1987." },
-    { "concepto_id": "PJ-042", "articulo": "art. 41", "tipo": "test", "enunciado": "¿A través de qué intervienen en la selección los Centros de Formación de las FCS del Estado (art. 41)?", "opciones": ["de un examen único de acceso directo a la especialidad de Policía Judicial", "de los cursos generales de acceso a los respectivos Cuerpos", "de una entrevista personal ante la Comisión Nacional de Coordinación", "de las pruebas de aptitud física de ingreso en el respectivo Cuerpo"], "indice_correcto": 1, "cotejo": "a través de los cursos generales de acceso a los respectivos Cuerpos y de los cursos de especialización que se establezcan al efecto", "justificacion": "Art. 41 RD 769/1987." },
-    { "concepto_id": "PJ-043", "articulo": "art. 44", "tipo": "test", "enunciado": "Según el artículo 44, ¿quiénes pueden acceder a los cursos específicos del Centro de Estudios Judiciales?", "opciones": ["cualquier funcionario con más de diez años de servicio en las FCS del Estado", "los funcionarios que hayan superado los cursos de especialización", "solo los miembros de la Escala Ejecutiva del Cuerpo Nacional de Policía", "los aspirantes que aún no hayan ingresado en las FCS del Estado"], "indice_correcto": 1, "cotejo": "Los funcionarios que hayan superado los cursos de especialización en Policía Judicial impartidos por los Centros de Formación", "justificacion": "Art. 44 RD 769/1987." },
-    { "concepto_id": "PJ-044", "articulo": "art. 45", "tipo": "test", "enunciado": "Una vez superado el curso del Centro de Estudios Judiciales, ¿para qué habilita el diploma que se expide (art. 45)?", "opciones": ["para el ascenso automático a la categoría inmediatamente superior", "para obtener la correspondiente titulación y ocupar destinos", "para ejercer como perito judicial adscrito a los tribunales penales", "para presidir las Comisiones Provinciales de Coordinación de la Policía"], "indice_correcto": 1, "cotejo": "se expedirá el correspondiente diploma, que habilitará para obtener la correspondiente titulación y ocupar destinos en Unidades Orgánicas de la Policía Judicial", "justificacion": "Art. 45 RD 769/1987." },
-    { "concepto_id": "PJ-045", "articulo": "disposición transitoria primera", "tipo": "test", "enunciado": "Según la disposición transitoria primera, quienes ya desempeñaban funciones de policía judicial a la entrada en vigor del Real Decreto continuaron desarrollándolas:", "opciones": ["hasta obtener de inmediato el diploma del Centro de Estudios Judiciales", "integrados en las correspondientes Unidades Orgánicas", "con carácter definitivo y sin necesidad de formación especializada alguna", "previa incorporación forzosa a las Comisiones de Coordinación creadas"], "indice_correcto": 1, "cotejo": "continuarán desarrollándolas integrados en las correspondientes Unidades Orgánicas, hasta tanto se cubran dichos puestos con funcionarios especializados", "justificacion": "Disposición transitoria primera RD 769/1987." },
-    { "concepto_id": "PJ-046", "articulo": "disposición final", "tipo": "test", "enunciado": "Según la disposición final, ¿cuándo entró en vigor el Real Decreto 769/1987?", "opciones": ["a los veinte días naturales de su publicación en el Boletín Oficial del Estado", "el día siguiente al de su publicación en el «Boletín Oficial del Estado»", "el primer día del mes siguiente al de su publicación oficial completa", "en la fecha de su aprobación por el Consejo de Ministros reunido al efecto"], "indice_correcto": 1, "cotejo": "El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».", "justificacion": "Disposición final RD 769/1987." }
+    {
+      "concepto_id": "PJ-001",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "Según el artículo 1, ¿a quién corresponden las funciones generales de policía judicial?",
+      "opciones": [
+        "a todos los miembros de las Fuerzas y Cuerpos de Seguridad",
+        "solo a las Unidades Orgánicas de Policía Judicial en sentido estricto",
+        "únicamente a los funcionarios integrados en las Unidades especialmente adscritas",
+        "exclusivamente al Cuerpo Nacional de Policía y a la Guardia Civil"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las funciones generales de policía judicial corresponden a todos los miembros de las Fuerzas y Cuerpos de Seguridad cualquiera que sea su naturaleza y dependencia",
+      "justificacion": "Art. 1 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-002",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2, cuando actúan por propia iniciativa en funciones de policía judicial, los miembros de las FCS lo hacen:",
+      "opciones": [
+        "por requerimiento directo del Delegado del Gobierno en la provincia",
+        "por propia iniciativa a través de estos últimos",
+        "previa autorización expresa del Director General de la Policía",
+        "dando cuenta inmediata a la Comisión Provincial de Coordinación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "o de sus superiores policiales o por propia iniciativa a través de estos últimos, en los términos previstos en los artículos siguientes",
+      "justificacion": "Art. 2 RD 769/1987; 'estos últimos' son los superiores policiales."
+    },
+    {
+      "concepto_id": "PJ-003",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "El artículo 3 permite a Jueces, Tribunales y Fiscal encomendar diligencias a las FCS, en defecto de Unidades de Policía Judicial:",
+      "opciones": [
+        "de forma permanente y con plena autonomía funcional respecto del juez",
+        "con carácter transitorio o en supuestos de urgencia",
+        "siempre que medie autorización previa del Ministerio del Interior",
+        "en cualquier procedimiento, sin restricción temporal ni material alguna"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "podrán, en defecto de Unidades de Policía Judicial, con carácter transitorio o en supuestos de urgencia",
+      "justificacion": "Art. 3 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-004",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "¿Qué deben practicar por propia iniciativa los componentes de las FCS en cuanto tienen noticia de un hecho presuntamente delictivo (art. 4)?",
+      "opciones": [
+        "la instrucción completa del atestado y su calificación jurídica provisional",
+        "las primeras diligencias de prevención y aseguramiento",
+        "el interrogatorio del detenido con asistencia obligatoria de letrado",
+        "la apertura formal del procedimiento judicial que corresponda"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "practicarán por su propia iniciativa y según sus respectivas atribuciones, las primeras diligencias de prevención y aseguramiento",
+      "justificacion": "Art. 4 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-005",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "Según el artículo 5, ¿cuándo cesa en la investigación el funcionario que la había iniciado?",
+      "opciones": [
+        "cuando su superior policial inmediato ordene expresamente su relevo del servicio",
+        "al comparecer para hacerse cargo de ella la Autoridad Judicial o el Fiscal",
+        "una vez transcurridas las primeras setenta y dos horas desde su inicio",
+        "al concluir la fase de instrucción del procedimiento penal correspondiente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "habrá de cesar en la misma al comparecer para hacerse cargo de ella la Autoridad Judicial o el Fiscal encargado de las actuaciones",
+      "justificacion": "Art. 5 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-006",
+      "articulo": "art. 6",
+      "tipo": "test",
+      "enunciado": "Según el artículo 6, la Policía Judicial desarrolla sus funciones bajo la dependencia funcional directa de:",
+      "opciones": [
+        "el Ministro del Interior y el Director General de la Policía Nacional",
+        "los Jueces y Tribunales y del Ministerio Fiscal",
+        "el Delegado del Gobierno en la respectiva comunidad autónoma",
+        "la Comisión Nacional de Coordinación de la Policía Judicial"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "desarrollará, bajo la dependencia funcional directa de los Jueces y Tribunales y del Ministerio Fiscal, funciones de averiguación del delito",
+      "justificacion": "Art. 6 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-007",
+      "articulo": "art. 7",
+      "tipo": "test",
+      "enunciado": "¿Por quiénes están integradas las Unidades Orgánicas que constituyen la Policía Judicial en sentido estricto (art. 7)?",
+      "opciones": [
+        "cualquier miembro de las Fuerzas y Cuerpos de Seguridad en servicio activo",
+        "miembros del Cuerpo Nacional de Policía y de la Guardia Civil",
+        "los funcionarios diplomados por el Centro de Estudios Judiciales",
+        "las policías locales que ejerzan funciones de investigación criminal"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil",
+      "justificacion": "Art. 7 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-008",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 8, las Unidades actúan conforme a lo dispuesto en:",
+      "opciones": [
+        "el artículo 126 de la Constitución Española y sus normas de desarrollo",
+        "el artículo 5.º de la Ley de Fuerzas y Cuerpos de Seguridad",
+        "el artículo 283 de la Ley de Enjuiciamiento Criminal vigente",
+        "el Reglamento de régimen interior del Centro de Estudios Judiciales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "actuarán conforme a lo dispuesto en el artículo 5.º de la Ley de Fuerzas y Cuerpos de Seguridad",
+      "justificacion": "Art. 8 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-009",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "¿Sobre qué base territorial se estructuran las Unidades Orgánicas de la Policía Judicial (art. 9)?",
+      "opciones": [
+        "sobre una base autonómica coordinada por cada comunidad",
+        "sobre una base provincial",
+        "sobre una base de partido judicial dentro de cada provincia",
+        "sobre una base estatal plenamente centralizada"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "se estructurarán con arreglo a criterios de distribución territorial sobre una base provincial",
+      "justificacion": "Art. 9 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-010",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "Según el artículo 9, ¿por qué razones pueden constituirse Unidades con ámbito que exceda el provincial?",
+      "opciones": [
+        "por razones de economía presupuestaria y de reducción de plantillas",
+        "por razones de especialización delictual o de técnicas de investigación",
+        "por decisión discrecional y no motivada del Ministerio del Interior",
+        "por acuerdo unánime de las comunidades autónomas territorialmente afectadas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "se constituirán Unidades con ámbito de actuación que exceda el provincial, por razones de especialización delictual o de técnicas de investigación",
+      "justificacion": "Art. 9 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-011",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "En la ejecución de sus cometidos, las Unidades y sus funcionarios dependen funcionalmente (art. 10):",
+      "opciones": [
+        "del superior jerárquico policial de mayor rango dentro de su respectiva Unidad",
+        "de los Jueces, Tribunales o miembros del Ministerio Fiscal",
+        "del Presidente de la Comisión Provincial de Coordinación de la Policía Judicial",
+        "del Magistrado Juez Decano de los Juzgados de la capital de la provincia"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "dependen funcionalmente de los Jueces, Tribunales o miembros del Ministerio Fiscal que estén conociendo del asunto objeto de su investigación",
+      "justificacion": "Art. 10 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-012",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "En el desarrollo de la investigación, ¿a qué se atiene el funcionario comisionado según el artículo 11?",
+      "opciones": [
+        "a las instrucciones técnicas de sus superiores policiales inmediatos",
+        "a las órdenes y directrices que hubieren recibido",
+        "a las directrices generales del Ministerio del Interior en la materia",
+        "a los protocolos internos de actuación aprobados por su Jefe de Unidad"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "se atendrán en el desarrollo de ésta a las órdenes y directrices que hubieren recibido, sin que las instrucciones de carácter técnico",
+      "justificacion": "Art. 11 RD 769/1987; las órdenes judiciales o fiscales prevalecen."
+    },
+    {
+      "concepto_id": "PJ-013",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "Los funcionarios rinden cumplida cuenta del resultado final de su actuación (art. 12):",
+      "opciones": [
+        "a la Comisión Nacional de Coordinación de la Policía Judicial competente",
+        "a la Autoridad Judicial o del Ministerio Fiscal que la hubiere ordenado",
+        "al Director General de la Policía o al de la Guardia Civil, según el caso",
+        "al Presidente de la Audiencia Provincial del territorio correspondiente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "rendirán cumplida cuenta del resultado final de su actuación a la Autoridad Judicial o del Ministerio Fiscal que la hubiere ordenado",
+      "justificacion": "Art. 12 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-014",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "Cuando actúan como comisionados, ¿qué pueden requerir los funcionarios según el artículo 13?",
+      "opciones": [
+        "la colaboración obligatoria de todas las administraciones públicas territoriales",
+        "el auxilio necesario de las autoridades y, en su caso, de los particulares",
+        "la entrega inmediata de cualquier documento a los medios de comunicación",
+        "la práctica de detenciones sin necesidad de autorización judicial previa"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "podrán requerir el auxilio necesario de las autoridades y, en su caso, de los particulares",
+      "justificacion": "Art. 13 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-015",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el artículo 14, las diligencias y actuaciones de las Unidades Orgánicas de la Policía Judicial tendrán:",
+      "opciones": [
+        "el valor de simple denuncia sin eficacia probatoria alguna",
+        "el valor reconocido en las Leyes",
+        "el valor de prueba plena e irrefutable ante los tribunales",
+        "un valor meramente orientativo para el instructor del caso"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "tendrán el valor reconocido en las Leyes y gozarán de la especial consideración derivada de la adscripción",
+      "justificacion": "Art. 14 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-016",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "¿Qué deber impone el artículo 15 a los funcionarios de las Unidades Orgánicas sobre las investigaciones encomendadas?",
+      "opciones": [
+        "comunicar sus avances a los medios de información debidamente acreditados",
+        "guardar rigurosa reserva",
+        "remitir copia íntegra a la Comisión Nacional de Coordinación de la Policía Judicial",
+        "informar semanalmente al Director General de la Policía Nacional"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "deberán guardar rigurosa reserva sobre la evolución y resultado de las concretas investigaciones que les hubieren sido encomendadas",
+      "justificacion": "Art. 15 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-017",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "Según el artículo 16, ¿hasta cuándo no pueden ser removidos de la investigación los funcionarios encargados de ella?",
+      "opciones": [
+        "hasta que su superior policial inmediato decida asignarles otro destino",
+        "hasta que finalice la misma o la fase procesal que la originó",
+        "hasta que transcurran seis meses desde el comienzo de la investigación",
+        "hasta que lo acuerde la Comisión Provincial de Coordinación competente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "no podrán ser removidos o apartados de la investigación concreta que se les hubiere encomendado, hasta que finalice la misma o la fase procesal que la originó",
+      "justificacion": "Art. 16 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-018",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 17, el Juez o Tribunal del que dependan los funcionarios, o el Fiscal competente, pueden instar:",
+      "opciones": [
+        "la separación definitiva del servicio del funcionario responsable",
+        "el ejercicio de la potestad disciplinaria respecto de aquéllos",
+        "el traslado forzoso del funcionario a una Unidad de otra provincia",
+        "la incoación directa de un procedimiento penal ante el juez competente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "podrán instar el ejercicio de la potestad disciplinaria respecto de aquéllos cuando fundadamente entiendan que su conducta ha sido merecedora de sanción",
+      "justificacion": "Art. 17 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-019",
+      "articulo": "art. 18",
+      "tipo": "test",
+      "enunciado": "¿Con qué carácter corresponde a las Unidades Orgánicas la función de investigación criminal (art. 18)?",
+      "opciones": [
+        "con carácter ocasional, subsidiario y limitado en el tiempo",
+        "con carácter permanente y especial",
+        "con carácter provisional y revisable cada año natural",
+        "con carácter exclusivamente preventivo y no investigador"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "corresponderá la función de investigación criminal con carácter permanente y especial",
+      "justificacion": "Art. 18 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-020",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "Los Jueces, Tribunales o Fiscales solo pueden encargar a las Unidades de la Policía Judicial (art. 19):",
+      "opciones": [
+        "cualquier función de investigación que estimen útil para el procedimiento",
+        "las previstas en el artículo 445.1 de la Ley Orgánica del Poder Judicial",
+        "las funciones previstas en la Ley de Enjuiciamiento Criminal sin excepción",
+        "las tareas de vigilancia y seguridad ciudadana propias de su Cuerpo de origen"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "no podrán encargar a las Unidades de la Policía Judicial otras funciones que las previstas en el artículo 445.1 de la Ley Orgánica del Poder Judicial",
+      "justificacion": "Art. 19 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-021",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Cuando las diligencias se practican con carácter previo a la apertura de la actuación judicial, los funcionarios actúan (art. 20):",
+      "opciones": [
+        "bajo la dependencia del Juez de Instrucción que esté de guardia",
+        "bajo la dependencia del Ministerio Fiscal",
+        "bajo la dependencia directa de su Jefe de Unidad Orgánica provincial",
+        "bajo la dependencia del Presidente de la Audiencia Provincial"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "pero con carácter previo a la apertura de la correspondiente actuación judicial, actuarán bajo la dependencia del Ministerio Fiscal",
+      "justificacion": "Art. 20 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-022",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Iniciado el procedimiento penal, el Juez o Tribunal y el Fiscal se entienden directamente, sin instancias administrativas superiores (art. 21):",
+      "opciones": [
+        "con el Director General de la Policía o de la Guardia Civil, según proceda",
+        "con el Jefe de la Unidad correspondiente",
+        "con el Delegado del Gobierno de la provincia donde se investiga",
+        "con la Comisión Nacional de Coordinación de la Policía Judicial"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "se entenderán directamente, y sin necesidad de acudir a instancias administrativas superiores, con el Jefe de la Unidad correspondiente, sea del Cuerpo Nacional de Policía o de la Guardia Civil",
+      "justificacion": "Art. 21 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-023",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "En los encargos excepcionales del artículo 22, ¿por conducto de quién habrá de cursarse el encargo?",
+      "opciones": [
+        "del Ministro del Interior o del Secretario de Estado de Seguridad",
+        "del Presidente del Tribunal Supremo o del Fiscal General del Estado",
+        "del Director del Centro de Estudios Judiciales y del Consejo General",
+        "del Presidente de la Audiencia Provincial y del Fiscal Jefe respectivo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el encargo habrá de cursarse por conducto del Presidente del Tribunal Supremo o del Fiscal General del Estado, del Presidente o Fiscal de la Audiencia Nacional",
+      "justificacion": "Art. 22 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-024",
+      "articulo": "art. 23",
+      "tipo": "test",
+      "enunciado": "El Ministerio del Interior puede asignar Unidades especialmente adscritas a Juzgados y Tribunales (art. 23):",
+      "opciones": [
+        "previa autorización expresa del Fiscal General del Estado en cada caso",
+        "previo informe favorable del Consejo General del Poder Judicial",
+        "con el informe vinculante de la Comisión Nacional de Coordinación",
+        "a propuesta del Presidente de la Audiencia Provincial correspondiente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El Ministerio del Interior, previo informe favorable del Consejo General del Poder Judicial o a su propuesta, podrá asignar con carácter permanente y estable",
+      "justificacion": "Art. 23 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-025",
+      "articulo": "art. 24",
+      "tipo": "test",
+      "enunciado": "Según el artículo 24, las Unidades adscritas de la Policía Judicial:",
+      "opciones": [
+        "constituirán unidades autónomas independientes de la estructura provincial",
+        "formarán parte integrante de la correspondiente Unidad Orgánica provincial",
+        "dependerán directamente de la Comisión Nacional de Coordinación estatal",
+        "se integrarán en la plantilla del órgano judicial al que prestan servicio"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las Unidades adscritas de la Policía Judicial formarán parte integrante de la correspondiente Unidad Orgánica provincial en cuya estructura se incardinarán",
+      "justificacion": "Art. 24 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-026",
+      "articulo": "art. 25",
+      "tipo": "test",
+      "enunciado": "¿Dónde tendrán su sede, en lo posible, las Unidades especialmente adscritas (art. 25)?",
+      "opciones": [
+        "en las comisarías o acuartelamientos de su Cuerpo de procedencia",
+        "en las propias dependencias o edificios judiciales y Fiscalías",
+        "en la sede de la Comisión Provincial de Coordinación de la Policía Judicial",
+        "en los locales de la Delegación del Gobierno de la provincia"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "deberán, en lo posible, tener su sede en las propias dependencias o edificios judiciales y Fiscalías",
+      "justificacion": "Art. 25 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-027",
+      "articulo": "art. 26",
+      "tipo": "test",
+      "enunciado": "Según el artículo 26, las Unidades adscritas quedan asignadas a los Decanatos pero atienden de modo preferente al:",
+      "opciones": [
+        "Presidente de la Sala de lo Penal del Tribunal Superior de Justicia",
+        "Juzgado de Guardia y Fiscal de Guardia",
+        "Pleno jurisdiccional de la Audiencia Provincial competente",
+        "Ministerio Fiscal ante el Tribunal Supremo del Estado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "muy especialmente, respecto del Juzgado de Guardia y Fiscal de Guardia, a los que atenderán de modo preferente",
+      "justificacion": "Art. 26 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-028",
+      "articulo": "art. 27",
+      "tipo": "test",
+      "enunciado": "Además de funcionarios diplomados y especializados, las Unidades adscritas incluyen otros efectivos policiales (art. 27):",
+      "opciones": [
+        "para la dirección técnica de todas las investigaciones criminales",
+        "para funciones auxiliares y de apoyo",
+        "para sustituir al personal diplomado en sus cometidos especializados",
+        "para el ejercicio de funciones jurisdiccionales delegadas por el juez"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "no necesariamente dotados de aquella formación especializada, para funciones auxiliares y de apoyo",
+      "justificacion": "Art. 27 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-029",
+      "articulo": "art. 28",
+      "tipo": "test",
+      "enunciado": "¿Cuál de los siguientes es un cometido que puede encomendarse a las Unidades especialmente adscritas (art. 28)?",
+      "opciones": [
+        "la calificación jurídica definitiva de los hechos presuntamente delictivos",
+        "Intervención técnica en levantamiento de cadáveres",
+        "la adopción de las medidas cautelares personales sobre el investigado",
+        "la resolución de los recursos interpuestos contra las diligencias practicadas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "d) Intervención técnica en levantamiento de cadáveres.",
+      "justificacion": "Art. 28.d) RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-030",
+      "articulo": "art. 29",
+      "tipo": "test",
+      "enunciado": "Cuando se necesita una investigación más extensa o medios de los que la adscrita no dispone, ¿qué prevé el artículo 29?",
+      "opciones": [
+        "que se archive provisionalmente la investigación por falta de medios",
+        "Se dará traslado de las diligencias a la Unidad Orgánica",
+        "que se solicite el auxilio de las policías locales del municipio afectado",
+        "que el Fiscal asuma personalmente la práctica de todas las diligencias"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "se dará traslado de las diligencias a la Unidad Orgánica, que recibirá de la Autoridad Judicial las instrucciones y orientaciones precisas",
+      "justificacion": "Art. 29 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-031",
+      "articulo": "art. 30",
+      "tipo": "test",
+      "enunciado": "Según el artículo 30, ¿a quién corresponde determinar los funcionarios que asumirán cada cometido en la Unidad adscrita?",
+      "opciones": [
+        "a la Autoridad Judicial o Fiscal de la que emanó la orden concreta",
+        "al Jefe de la respectiva Unidad adscrita",
+        "al Presidente de la Comisión Provincial de Coordinación competente",
+        "al Director General de la Policía o al de la Guardia Civil, según el Cuerpo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Corresponde al Jefe de la respectiva Unidad adscrita la determinación concreta de los funcionarios que habrán de asumir",
+      "justificacion": "Art. 30 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-032",
+      "articulo": "art. 31",
+      "tipo": "test",
+      "enunciado": "¿Con qué finalidad se crean las Comisiones Nacional y Provinciales de Coordinación (art. 31)?",
+      "opciones": [
+        "resolver los conflictos de competencia entre los órganos judiciales penales",
+        "armonizar y lograr la unidad de dirección",
+        "instruir los expedientes disciplinarios de los miembros de la Policía Judicial",
+        "seleccionar y formar a los aspirantes a las Unidades Orgánicas provinciales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "con el fin de armonizar y lograr la unidad de dirección en las fuerzas policiales adscritas a la investigación criminal",
+      "justificacion": "Art. 31 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-033",
+      "articulo": "art. 32",
+      "tipo": "test",
+      "enunciado": "¿Quién preside la Comisión Nacional de Coordinación de la Policía Judicial cuando asiste personalmente (art. 32)?",
+      "opciones": [
+        "El Ministro de Justicia, asistido por el Subsecretario del propio departamento ministerial",
+        "El Presidente del Tribunal Supremo y del Consejo General del Poder Judicial",
+        "El Fiscal General del Estado o el Fiscal de Sala en quien delegue",
+        "El Secretario de Estado para la Seguridad del Ministerio del Interior"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "a) El Presidente del Tribunal Supremo y del Consejo General del Poder Judicial, que la presidirá cuando asista personalmente.",
+      "justificacion": "Art. 32.a) RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-034",
+      "articulo": "art. 33",
+      "tipo": "test",
+      "enunciado": "¿En quién puede delegar el Presidente del Tribunal Supremo su presencia en la Comisión Nacional (art. 33)?",
+      "opciones": [
+        "en el Presidente de la Sala de lo Penal de la Audiencia Nacional competente",
+        "en un Magistrado de la Sala Segunda de dicho Alto Tribunal",
+        "en un Fiscal de Sala del Tribunal Supremo designado al efecto",
+        "en el Director general de relaciones con la Administración de Justicia"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El Presidente del Tribunal Supremo podrá delegar en un Magistrado de la Sala Segunda de dicho Alto Tribunal",
+      "justificacion": "Art. 33 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-035",
+      "articulo": "art. 34",
+      "tipo": "test",
+      "enunciado": "¿Quién preside las Comisiones Provinciales de Coordinación de la Policía Judicial (art. 34)?",
+      "opciones": [
+        "El Fiscal Jefe de la Audiencia Provincial del territorio",
+        "El Presidente de la Audiencia Provincial",
+        "El Magistrado Juez Decano de los Juzgados de la capital de la provincia",
+        "El Jefe de la Unidad Orgánica del Cuerpo Nacional de Policía"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "a) El Presidente de la Audiencia Provincial, que la presidirá.",
+      "justificacion": "Art. 34.a) RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-036",
+      "articulo": "art. 35",
+      "tipo": "test",
+      "enunciado": "Según el artículo 35, además de incorporar eventualmente a otras Autoridades o funcionarios, las Comisiones podrán constituir:",
+      "opciones": [
+        "Juntas de gobierno con potestad disciplinaria sobre los funcionarios",
+        "Comités técnicos para el estudio de temas específicos",
+        "Secciones territoriales de ámbito comarcal o de distrito judicial",
+        "Tribunales calificadores de las pruebas de acceso a las Unidades"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Igualmente, podrán constituirse Comités técnicos para el estudio de temas específicos.",
+      "justificacion": "Art. 35 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-037",
+      "articulo": "art. 36",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes es una atribución de la Comisión Nacional (art. 36)?",
+      "opciones": [
+        "Nombrar directamente a los Jefes de las Unidades Orgánicas provinciales",
+        "Informar los anteproyectos de disposiciones generales",
+        "Imponer sanciones disciplinarias a los funcionarios de la Policía Judicial",
+        "Resolver los recursos interpuestos contra las diligencias policiales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "i) Informar los anteproyectos de disposiciones generales reguladoras de la Policía Judicial.",
+      "justificacion": "Art. 36.i) RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-038",
+      "articulo": "art. 37",
+      "tipo": "test",
+      "enunciado": "¿Con qué carácter informan las Comisiones Provinciales las propuestas de remoción de funcionarios de las Unidades adscritas (art. 37)?",
+      "opciones": [
+        "con carácter meramente consultivo y en ningún caso vinculante",
+        "con carácter preceptivo y vinculante",
+        "con carácter potestativo, solo a petición del Decano competente",
+        "con carácter reservado y sin traslado al órgano decisor"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Informar con carácter preceptivo y vinculante las propuestas de remoción de funcionarios pertenecientes a las Unidades adscritas",
+      "justificacion": "Art. 37.c) RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-039",
+      "articulo": "art. 38",
+      "tipo": "test",
+      "enunciado": "Según el artículo 38, ¿con qué periodicidad se reúne, al menos, la Comisión Nacional?",
+      "opciones": [
+        "una reunión de periodicidad mensual ordinaria",
+        "una reunión trimestral",
+        "una reunión con carácter semestral",
+        "una reunión anual de carácter ordinario"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La Comisión Nacional celebrará, al menos, una reunión trimestral.",
+      "justificacion": "Art. 38 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-040",
+      "articulo": "art. 39",
+      "tipo": "test",
+      "enunciado": "Según el artículo 39, ¿qué es requisito imprescindible para obtener el título de la formación especializada?",
+      "opciones": [
+        "cinco años de servicio efectivo en funciones de investigación criminal",
+        "el diploma expedido por el Centro de Estudios Judiciales",
+        "una titulación universitaria en Derecho, Criminología o similar",
+        "haber superado un curso específico en la Escuela de la Guardia Civil"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "será requisito imprescindible estar en posesión del diploma expedido por el Centro de Estudios Judiciales",
+      "justificacion": "Art. 39 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-041",
+      "articulo": "art. 40",
+      "tipo": "test",
+      "enunciado": "Según el artículo 40, ¿dónde tiene lugar la primera fase de la especialización?",
+      "opciones": [
+        "en el Centro de Estudios Judiciales dependiente del Consejo General",
+        "en los Centros de Formación y Perfeccionamiento",
+        "en las universidades públicas que tengan convenio suscrito",
+        "en la Escuela Nacional de Policía de Ávila exclusivamente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "la primera tendrá lugar en los Centros de Formación y Perfeccionamiento de las Fuerzas y Cuerpos de Seguridad del Estado",
+      "justificacion": "Art. 40 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-042",
+      "articulo": "art. 41",
+      "tipo": "test",
+      "enunciado": "¿A través de qué intervienen en la selección los Centros de Formación de las FCS del Estado (art. 41)?",
+      "opciones": [
+        "de un examen único de acceso directo a la especialidad de Policía Judicial",
+        "de los cursos generales de acceso a los respectivos Cuerpos",
+        "de una entrevista personal ante la Comisión Nacional de Coordinación",
+        "de las pruebas de aptitud física de ingreso en el respectivo Cuerpo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "a través de los cursos generales de acceso a los respectivos Cuerpos y de los cursos de especialización que se establezcan al efecto",
+      "justificacion": "Art. 41 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-043",
+      "articulo": "art. 44",
+      "tipo": "test",
+      "enunciado": "Según el artículo 44, ¿quiénes pueden acceder a los cursos específicos del Centro de Estudios Judiciales?",
+      "opciones": [
+        "cualquier funcionario con más de diez años de servicio en las FCS del Estado",
+        "los funcionarios que hayan superado los cursos de especialización",
+        "solo los miembros de la Escala Ejecutiva del Cuerpo Nacional de Policía",
+        "los aspirantes que aún no hayan ingresado en las FCS del Estado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los funcionarios que hayan superado los cursos de especialización en Policía Judicial impartidos por los Centros de Formación",
+      "justificacion": "Art. 44 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-044",
+      "articulo": "art. 45",
+      "tipo": "test",
+      "enunciado": "Una vez superado el curso del Centro de Estudios Judiciales, ¿para qué habilita el diploma que se expide (art. 45)?",
+      "opciones": [
+        "para el ascenso automático a la categoría inmediatamente superior",
+        "para obtener la correspondiente titulación y ocupar destinos",
+        "para ejercer como perito judicial adscrito a los tribunales penales",
+        "para presidir las Comisiones Provinciales de Coordinación de la Policía"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "se expedirá el correspondiente diploma, que habilitará para obtener la correspondiente titulación y ocupar destinos en Unidades Orgánicas de la Policía Judicial",
+      "justificacion": "Art. 45 RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-045",
+      "articulo": "disposición transitoria primera",
+      "tipo": "test",
+      "enunciado": "Según la disposición transitoria primera, quienes ya desempeñaban funciones de policía judicial a la entrada en vigor del Real Decreto continuaron desarrollándolas:",
+      "opciones": [
+        "hasta obtener de inmediato el diploma del Centro de Estudios Judiciales",
+        "integrados en las correspondientes Unidades Orgánicas",
+        "con carácter definitivo y sin necesidad de formación especializada alguna",
+        "previa incorporación forzosa a las Comisiones de Coordinación creadas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "continuarán desarrollándolas integrados en las correspondientes Unidades Orgánicas, hasta tanto se cubran dichos puestos con funcionarios especializados",
+      "justificacion": "Disposición transitoria primera RD 769/1987."
+    },
+    {
+      "concepto_id": "PJ-046",
+      "articulo": "disposición final",
+      "tipo": "test",
+      "enunciado": "Según la disposición final, ¿cuándo entró en vigor el Real Decreto 769/1987?",
+      "opciones": [
+        "a los veinte días naturales de su publicación en el Boletín Oficial del Estado",
+        "el día siguiente al de su publicación en el «Boletín Oficial del Estado»",
+        "el primer día del mes siguiente al de su publicación oficial completa",
+        "en la fecha de su aprobación por el Consejo de Ministros reunido al efecto"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».",
+      "justificacion": "Disposición final RD 769/1987."
+    }
   ],
   "relaciones": [
-    { "origen": "PJ-006", "destino": "PJ-001", "tipo": "limita", "justificacion": "La Policía Judicial en sentido estricto (art. 6), bajo dependencia funcional directa, restringe el concepto amplio de funciones generales del art. 1." },
-    { "origen": "PJ-002", "destino": "PJ-001", "tipo": "desarrolla", "justificacion": "Las formas de actuación (art. 2) desarrollan las funciones generales del art. 1." },
-    { "origen": "PJ-003", "destino": "PJ-002", "tipo": "desarrolla", "justificacion": "La encomienda en defecto de Unidades (art. 3) concreta el requerimiento judicial o fiscal del art. 2." },
-    { "origen": "PJ-004", "destino": "PJ-001", "tipo": "desarrolla", "justificacion": "Las primeras diligencias (art. 4) concretan las funciones generales de colaboración del art. 1." },
-    { "origen": "PJ-005", "destino": "PJ-004", "tipo": "limita", "justificacion": "El cese al comparecer la Autoridad Judicial o el Fiscal (art. 5) pone límite temporal a las primeras diligencias del art. 4." },
-    { "origen": "PJ-007", "destino": "PJ-006", "tipo": "desarrolla", "justificacion": "Las Unidades Orgánicas (art. 7) concretan quién forma la Policía Judicial en sentido estricto del art. 6." },
-    { "origen": "PJ-008", "destino": "PJ-007", "tipo": "desarrolla", "justificacion": "La norma de actuación (art. 8) desarrolla el régimen de las Unidades Orgánicas del art. 7." },
-    { "origen": "PJ-009", "destino": "PJ-007", "tipo": "desarrolla", "justificacion": "La estructura sobre base provincial (art. 9) organiza territorialmente las Unidades Orgánicas del art. 7." },
-    { "origen": "PJ-010", "destino": "PJ-009", "tipo": "limita", "justificacion": "Las Unidades de ámbito supraprovincial (art. 9) exceptúan la regla general de base provincial." },
-    { "origen": "PJ-011", "destino": "PJ-006", "tipo": "desarrolla", "justificacion": "La dependencia del órgano que conoce del asunto (art. 10) concreta la dependencia funcional directa del art. 6." },
-    { "origen": "PJ-012", "destino": "PJ-011", "tipo": "limita", "justificacion": "La prevalencia de las órdenes judiciales sobre las instrucciones técnicas (art. 11) refuerza y acota la dependencia funcional del art. 10." },
-    { "origen": "PJ-013", "destino": "PJ-011", "tipo": "desarrolla", "justificacion": "El deber de informar y rendir cuenta (art. 12) desarrolla la dependencia funcional del art. 10." },
-    { "origen": "PJ-014", "destino": "PJ-011", "tipo": "desarrolla", "justificacion": "El carácter de comisionados (art. 13) deriva de la dependencia funcional del órgano que conoce del asunto." },
-    { "origen": "PJ-015", "destino": "PJ-014", "tipo": "desarrolla", "justificacion": "El valor de las diligencias (art. 14) se apoya en el carácter de comisionados del art. 13." },
-    { "origen": "PJ-016", "destino": "PJ-011", "tipo": "desarrolla", "justificacion": "El deber de rigurosa reserva (art. 15) es una obligación derivada de la dependencia funcional." },
-    { "origen": "PJ-017", "destino": "PJ-011", "tipo": "limita", "justificacion": "La inamovilidad del funcionario en la investigación (art. 16) limita la potestad de removerlo salvo autorización judicial o fiscal." },
-    { "origen": "PJ-018", "destino": "PJ-011", "tipo": "desarrolla", "justificacion": "Instar la disciplina y las recompensas (art. 17) proyecta la dependencia funcional sobre el régimen del funcionario." },
-    { "origen": "PJ-019", "destino": "PJ-007", "tipo": "desarrolla", "justificacion": "La investigación permanente y especial (art. 18) caracteriza la función de las Unidades Orgánicas del art. 7." },
-    { "origen": "PJ-020", "destino": "PJ-019", "tipo": "limita", "justificacion": "El límite de funciones encargables (art. 19) acota la función de investigación de las Unidades." },
-    { "origen": "PJ-021", "destino": "PJ-006", "tipo": "limita", "justificacion": "La dependencia del Fiscal antes de la apertura judicial (art. 20) especifica la dependencia funcional según la fase." },
-    { "origen": "PJ-022", "destino": "PJ-021", "tipo": "desarrolla", "justificacion": "El entendimiento directo con el Jefe de la Unidad (art. 21) desarrolla la relación tras iniciarse el procedimiento respecto de la fase previa del art. 20." },
-    { "origen": "PJ-023", "destino": "PJ-022", "tipo": "limita", "justificacion": "El cauce excepcional del art. 22 exceptúa el entendimiento directo ordinario del art. 21." },
-    { "origen": "PJ-024", "destino": "PJ-007", "tipo": "desarrolla", "justificacion": "Las Unidades especialmente adscritas (art. 23) son una modalidad organizativa dentro de la Policía Judicial en sentido estricto." },
-    { "origen": "PJ-025", "destino": "PJ-024", "tipo": "desarrolla", "justificacion": "La integración en la Unidad Orgánica provincial (art. 24) concreta la naturaleza de las adscritas del art. 23." },
-    { "origen": "PJ-026", "destino": "PJ-024", "tipo": "desarrolla", "justificacion": "La sede en dependencias judiciales (art. 25) desarrolla el régimen de las Unidades adscritas." },
-    { "origen": "PJ-027", "destino": "PJ-024", "tipo": "desarrolla", "justificacion": "La asignación a Decanatos y la preferencia del Juzgado de Guardia (art. 26) desarrollan la dependencia de las adscritas." },
-    { "origen": "PJ-028", "destino": "PJ-024", "tipo": "desarrolla", "justificacion": "La composición mixta (art. 27) desarrolla la estructura de las Unidades adscritas." },
-    { "origen": "PJ-029", "destino": "PJ-028", "tipo": "desarrolla", "justificacion": "Los cometidos de policía científica (art. 28) concretan lo que hacen las Unidades adscritas del art. 27." },
-    { "origen": "PJ-030", "destino": "PJ-029", "tipo": "limita", "justificacion": "El traslado a la Unidad Orgánica (art. 29) limita el ámbito de los cometidos de la adscrita cuando se precisa mayor investigación." },
-    { "origen": "PJ-031", "destino": "PJ-024", "tipo": "desarrolla", "justificacion": "La designación de funcionarios por el Jefe de la adscrita (art. 30) desarrolla el funcionamiento interno de las Unidades adscritas." },
-    { "origen": "PJ-033", "destino": "PJ-032", "tipo": "desarrolla", "justificacion": "La composición y presidencia de la Comisión Nacional (art. 32) desarrolla la creación de las Comisiones del art. 31." },
-    { "origen": "PJ-034", "destino": "PJ-033", "tipo": "desarrolla", "justificacion": "Las delegaciones (art. 33) desarrollan la composición de la Comisión Nacional del art. 32." },
-    { "origen": "PJ-035", "destino": "PJ-032", "tipo": "desarrolla", "justificacion": "La composición de las Comisiones Provinciales (art. 34) desarrolla la creación de las Comisiones del art. 31." },
-    { "origen": "PJ-036", "destino": "PJ-032", "tipo": "desarrolla", "justificacion": "Las incorporaciones y Comités técnicos (art. 35) desarrollan el funcionamiento de las Comisiones." },
-    { "origen": "PJ-037", "destino": "PJ-033", "tipo": "desarrolla", "justificacion": "Las atribuciones (art. 36) concretan las funciones de la Comisión Nacional." },
-    { "origen": "PJ-038", "destino": "PJ-035", "tipo": "desarrolla", "justificacion": "Las competencias (art. 37) concretan las funciones de las Comisiones Provinciales." },
-    { "origen": "PJ-038", "destino": "PJ-025", "tipo": "remite", "justificacion": "El informe vinculante de remoción (art. 37) se remite a las Unidades adscritas del art. 24." },
-    { "origen": "PJ-039", "destino": "PJ-032", "tipo": "desarrolla", "justificacion": "La periodicidad de las reuniones (art. 38) desarrolla el régimen de funcionamiento de las Comisiones." },
-    { "origen": "PJ-040", "destino": "PJ-007", "tipo": "prerrequisito", "justificacion": "La formación especializada y el diploma (art. 39) son prerrequisito para integrarse en las Unidades Orgánicas del art. 7." },
-    { "origen": "PJ-041", "destino": "PJ-040", "tipo": "desarrolla", "justificacion": "Las dos fases de la especialización (art. 40) desarrollan la formación exigida por el art. 39." },
-    { "origen": "PJ-042", "destino": "PJ-041", "tipo": "desarrolla", "justificacion": "La intervención de los Centros de las FCS (art. 41) concreta la primera fase del art. 40." },
-    { "origen": "PJ-043", "destino": "PJ-041", "tipo": "desarrolla", "justificacion": "El acceso a los cursos del Centro de Estudios Judiciales (art. 44) concreta la segunda fase del art. 40." },
-    { "origen": "PJ-044", "destino": "PJ-040", "tipo": "desarrolla", "justificacion": "El diploma que habilita para destinos (art. 45) culmina la formación especializada del art. 39." },
-    { "origen": "PJ-045", "destino": "PJ-040", "tipo": "limita", "justificacion": "El régimen transitorio (DT primera) exceptúa temporalmente la exigencia de especialización del art. 39." },
-    { "origen": "PJ-046", "destino": "PJ-032", "tipo": "desarrolla", "justificacion": "La entrada en vigor (disposición final) determina la vigencia de toda la regulación, incluidas las Comisiones creadas en el art. 31." }
+    {
+      "origen": "PJ-006",
+      "destino": "PJ-001",
+      "tipo": "limita",
+      "justificacion": "La Policía Judicial en sentido estricto (art. 6), bajo dependencia funcional directa, restringe el concepto amplio de funciones generales del art. 1."
+    },
+    {
+      "origen": "PJ-002",
+      "destino": "PJ-001",
+      "tipo": "desarrolla",
+      "justificacion": "Las formas de actuación (art. 2) desarrollan las funciones generales del art. 1."
+    },
+    {
+      "origen": "PJ-003",
+      "destino": "PJ-002",
+      "tipo": "desarrolla",
+      "justificacion": "La encomienda en defecto de Unidades (art. 3) concreta el requerimiento judicial o fiscal del art. 2."
+    },
+    {
+      "origen": "PJ-004",
+      "destino": "PJ-001",
+      "tipo": "desarrolla",
+      "justificacion": "Las primeras diligencias (art. 4) concretan las funciones generales de colaboración del art. 1."
+    },
+    {
+      "origen": "PJ-005",
+      "destino": "PJ-004",
+      "tipo": "limita",
+      "justificacion": "El cese al comparecer la Autoridad Judicial o el Fiscal (art. 5) pone límite temporal a las primeras diligencias del art. 4."
+    },
+    {
+      "origen": "PJ-007",
+      "destino": "PJ-006",
+      "tipo": "desarrolla",
+      "justificacion": "Las Unidades Orgánicas (art. 7) concretan quién forma la Policía Judicial en sentido estricto del art. 6."
+    },
+    {
+      "origen": "PJ-008",
+      "destino": "PJ-007",
+      "tipo": "desarrolla",
+      "justificacion": "La norma de actuación (art. 8) desarrolla el régimen de las Unidades Orgánicas del art. 7."
+    },
+    {
+      "origen": "PJ-009",
+      "destino": "PJ-007",
+      "tipo": "desarrolla",
+      "justificacion": "La estructura sobre base provincial (art. 9) organiza territorialmente las Unidades Orgánicas del art. 7."
+    },
+    {
+      "origen": "PJ-010",
+      "destino": "PJ-009",
+      "tipo": "limita",
+      "justificacion": "Las Unidades de ámbito supraprovincial (art. 9) exceptúan la regla general de base provincial."
+    },
+    {
+      "origen": "PJ-011",
+      "destino": "PJ-006",
+      "tipo": "desarrolla",
+      "justificacion": "La dependencia del órgano que conoce del asunto (art. 10) concreta la dependencia funcional directa del art. 6."
+    },
+    {
+      "origen": "PJ-012",
+      "destino": "PJ-011",
+      "tipo": "limita",
+      "justificacion": "La prevalencia de las órdenes judiciales sobre las instrucciones técnicas (art. 11) refuerza y acota la dependencia funcional del art. 10."
+    },
+    {
+      "origen": "PJ-013",
+      "destino": "PJ-011",
+      "tipo": "desarrolla",
+      "justificacion": "El deber de informar y rendir cuenta (art. 12) desarrolla la dependencia funcional del art. 10."
+    },
+    {
+      "origen": "PJ-014",
+      "destino": "PJ-011",
+      "tipo": "desarrolla",
+      "justificacion": "El carácter de comisionados (art. 13) deriva de la dependencia funcional del órgano que conoce del asunto."
+    },
+    {
+      "origen": "PJ-015",
+      "destino": "PJ-014",
+      "tipo": "desarrolla",
+      "justificacion": "El valor de las diligencias (art. 14) se apoya en el carácter de comisionados del art. 13."
+    },
+    {
+      "origen": "PJ-016",
+      "destino": "PJ-011",
+      "tipo": "desarrolla",
+      "justificacion": "El deber de rigurosa reserva (art. 15) es una obligación derivada de la dependencia funcional."
+    },
+    {
+      "origen": "PJ-017",
+      "destino": "PJ-011",
+      "tipo": "limita",
+      "justificacion": "La inamovilidad del funcionario en la investigación (art. 16) limita la potestad de removerlo salvo autorización judicial o fiscal."
+    },
+    {
+      "origen": "PJ-018",
+      "destino": "PJ-011",
+      "tipo": "desarrolla",
+      "justificacion": "Instar la disciplina y las recompensas (art. 17) proyecta la dependencia funcional sobre el régimen del funcionario."
+    },
+    {
+      "origen": "PJ-019",
+      "destino": "PJ-007",
+      "tipo": "desarrolla",
+      "justificacion": "La investigación permanente y especial (art. 18) caracteriza la función de las Unidades Orgánicas del art. 7."
+    },
+    {
+      "origen": "PJ-020",
+      "destino": "PJ-019",
+      "tipo": "limita",
+      "justificacion": "El límite de funciones encargables (art. 19) acota la función de investigación de las Unidades."
+    },
+    {
+      "origen": "PJ-021",
+      "destino": "PJ-006",
+      "tipo": "limita",
+      "justificacion": "La dependencia del Fiscal antes de la apertura judicial (art. 20) especifica la dependencia funcional según la fase."
+    },
+    {
+      "origen": "PJ-022",
+      "destino": "PJ-021",
+      "tipo": "desarrolla",
+      "justificacion": "El entendimiento directo con el Jefe de la Unidad (art. 21) desarrolla la relación tras iniciarse el procedimiento respecto de la fase previa del art. 20."
+    },
+    {
+      "origen": "PJ-023",
+      "destino": "PJ-022",
+      "tipo": "limita",
+      "justificacion": "El cauce excepcional del art. 22 exceptúa el entendimiento directo ordinario del art. 21."
+    },
+    {
+      "origen": "PJ-024",
+      "destino": "PJ-007",
+      "tipo": "desarrolla",
+      "justificacion": "Las Unidades especialmente adscritas (art. 23) son una modalidad organizativa dentro de la Policía Judicial en sentido estricto."
+    },
+    {
+      "origen": "PJ-025",
+      "destino": "PJ-024",
+      "tipo": "desarrolla",
+      "justificacion": "La integración en la Unidad Orgánica provincial (art. 24) concreta la naturaleza de las adscritas del art. 23."
+    },
+    {
+      "origen": "PJ-026",
+      "destino": "PJ-024",
+      "tipo": "desarrolla",
+      "justificacion": "La sede en dependencias judiciales (art. 25) desarrolla el régimen de las Unidades adscritas."
+    },
+    {
+      "origen": "PJ-027",
+      "destino": "PJ-024",
+      "tipo": "desarrolla",
+      "justificacion": "La asignación a Decanatos y la preferencia del Juzgado de Guardia (art. 26) desarrollan la dependencia de las adscritas."
+    },
+    {
+      "origen": "PJ-028",
+      "destino": "PJ-024",
+      "tipo": "desarrolla",
+      "justificacion": "La composición mixta (art. 27) desarrolla la estructura de las Unidades adscritas."
+    },
+    {
+      "origen": "PJ-029",
+      "destino": "PJ-028",
+      "tipo": "desarrolla",
+      "justificacion": "Los cometidos de policía científica (art. 28) concretan lo que hacen las Unidades adscritas del art. 27."
+    },
+    {
+      "origen": "PJ-030",
+      "destino": "PJ-029",
+      "tipo": "limita",
+      "justificacion": "El traslado a la Unidad Orgánica (art. 29) limita el ámbito de los cometidos de la adscrita cuando se precisa mayor investigación."
+    },
+    {
+      "origen": "PJ-031",
+      "destino": "PJ-024",
+      "tipo": "desarrolla",
+      "justificacion": "La designación de funcionarios por el Jefe de la adscrita (art. 30) desarrolla el funcionamiento interno de las Unidades adscritas."
+    },
+    {
+      "origen": "PJ-033",
+      "destino": "PJ-032",
+      "tipo": "desarrolla",
+      "justificacion": "La composición y presidencia de la Comisión Nacional (art. 32) desarrolla la creación de las Comisiones del art. 31."
+    },
+    {
+      "origen": "PJ-034",
+      "destino": "PJ-033",
+      "tipo": "desarrolla",
+      "justificacion": "Las delegaciones (art. 33) desarrollan la composición de la Comisión Nacional del art. 32."
+    },
+    {
+      "origen": "PJ-035",
+      "destino": "PJ-032",
+      "tipo": "desarrolla",
+      "justificacion": "La composición de las Comisiones Provinciales (art. 34) desarrolla la creación de las Comisiones del art. 31."
+    },
+    {
+      "origen": "PJ-036",
+      "destino": "PJ-032",
+      "tipo": "desarrolla",
+      "justificacion": "Las incorporaciones y Comités técnicos (art. 35) desarrollan el funcionamiento de las Comisiones."
+    },
+    {
+      "origen": "PJ-037",
+      "destino": "PJ-033",
+      "tipo": "desarrolla",
+      "justificacion": "Las atribuciones (art. 36) concretan las funciones de la Comisión Nacional."
+    },
+    {
+      "origen": "PJ-038",
+      "destino": "PJ-035",
+      "tipo": "desarrolla",
+      "justificacion": "Las competencias (art. 37) concretan las funciones de las Comisiones Provinciales."
+    },
+    {
+      "origen": "PJ-038",
+      "destino": "PJ-025",
+      "tipo": "remite",
+      "justificacion": "El informe vinculante de remoción (art. 37) se remite a las Unidades adscritas del art. 24."
+    },
+    {
+      "origen": "PJ-039",
+      "destino": "PJ-032",
+      "tipo": "desarrolla",
+      "justificacion": "La periodicidad de las reuniones (art. 38) desarrolla el régimen de funcionamiento de las Comisiones."
+    },
+    {
+      "origen": "PJ-040",
+      "destino": "PJ-007",
+      "tipo": "prerrequisito",
+      "justificacion": "La formación especializada y el diploma (art. 39) son prerrequisito para integrarse en las Unidades Orgánicas del art. 7."
+    },
+    {
+      "origen": "PJ-041",
+      "destino": "PJ-040",
+      "tipo": "desarrolla",
+      "justificacion": "Las dos fases de la especialización (art. 40) desarrollan la formación exigida por el art. 39."
+    },
+    {
+      "origen": "PJ-042",
+      "destino": "PJ-041",
+      "tipo": "desarrolla",
+      "justificacion": "La intervención de los Centros de las FCS (art. 41) concreta la primera fase del art. 40."
+    },
+    {
+      "origen": "PJ-043",
+      "destino": "PJ-041",
+      "tipo": "desarrolla",
+      "justificacion": "El acceso a los cursos del Centro de Estudios Judiciales (art. 44) concreta la segunda fase del art. 40."
+    },
+    {
+      "origen": "PJ-044",
+      "destino": "PJ-040",
+      "tipo": "desarrolla",
+      "justificacion": "El diploma que habilita para destinos (art. 45) culmina la formación especializada del art. 39."
+    },
+    {
+      "origen": "PJ-045",
+      "destino": "PJ-040",
+      "tipo": "limita",
+      "justificacion": "El régimen transitorio (DT primera) exceptúa temporalmente la exigencia de especialización del art. 39."
+    },
+    {
+      "origen": "PJ-046",
+      "destino": "PJ-032",
+      "tipo": "desarrolla",
+      "justificacion": "La entrada en vigor (disposición final) determina la vigencia de toda la regulación, incluidas las Comisiones creadas en el art. 31."
+    }
   ]
 }

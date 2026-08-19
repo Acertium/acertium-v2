@@ -5,19 +5,26 @@
     "materia": "constitucion-espanola",
     "norma": "Constitución Española",
     "referencia_boe": "BOE-A-1978-31229",
-    "temas": null
+    "temas": [
+      "Tema 2 — La Constitución Española (I): estructura y caracteres; los valores; los principios del régimen constitucional; los derechos y deberes fundamentales, sus garantías y su suspensión; el Defensor del Pueblo",
+      "Tema 3 — La Constitución Española (II): la Corona; las Cortes Generales; el Gobierno y la Administración; las relaciones entre el Gobierno y las Cortes Generales; el Poder Judicial; la organización territorial del Estado; el Tribunal Constitucional; la reforma constitucional"
+    ]
   },
   "FCS": {
     "materia": "lo-2-1986-fcse",
     "norma": "Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad",
     "referencia_boe": "BOE-A-1986-6859",
-    "temas": null
+    "temas": [
+      "Tema 9 — La Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad: disposiciones generales, principios básicos de actuación y disposiciones estatutarias comunes; los derechos de representación colectiva y el Consejo de Policía; la Policía Judicial, las policías autonómicas y las locales"
+    ]
   },
   "SC": {
     "materia": "lo-4-2015-seguridad-ciudadana",
     "norma": "Ley Orgánica 4/2015, de protección de la seguridad ciudadana",
     "referencia_boe": "BOE-A-2015-3442",
-    "temas": null
+    "temas": [
+      "Tema 14 — La Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana"
+    ]
   },
   "CP": {
     "materia": "lo-10-1995-codigo-penal",
@@ -62,7 +69,7 @@
     "referencia_boe": "BOE-A-2000-544",
     "temas": [
       "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
-      "Tema 11 — De las infracciones en materia de extranjería y su régimen sancionador"
+      "Tema 11 — De las infracciones en materia de extranjería y su régimen sancionador: tipos de infracciones, sanciones, prescripción y efectos de la expulsión, la devolución y la denegación de entrada"
     ]
   },
   "LOPD": {
@@ -168,7 +175,7 @@
     "norma": "Ley Orgánica 6/1985, del Poder Judicial",
     "referencia_boe": "BOE-A-1985-12666",
     "temas": [
-      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; los órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención y los derechos del detenido; el habeas corpus; el Ministerio Fiscal; la Policía Judicial"
     ]
   },
   "LEC": {
@@ -176,7 +183,7 @@
     "norma": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal",
     "referencia_boe": "BOE-A-1882-6036",
     "temas": [
-      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención",
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; los órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención y los derechos del detenido; el habeas corpus; el Ministerio Fiscal; la Policía Judicial",
       "Tema 20 — Delitos informáticos; especial consideración al derecho a la intimidad; la prueba digital en el proceso penal"
     ]
   },
@@ -185,7 +192,7 @@
     "norma": "Ley 50/1981, por la que se regula el Estatuto Orgánico del Ministerio Fiscal",
     "referencia_boe": "BOE-A-1982-837",
     "temas": [
-      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; los órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención y los derechos del detenido; el habeas corpus; el Ministerio Fiscal; la Policía Judicial"
     ]
   },
   "HC": {
@@ -193,7 +200,7 @@
     "norma": "Ley Orgánica 6/1984, reguladora del procedimiento de Habeas Corpus",
     "referencia_boe": "BOE-A-1984-11620",
     "temas": [
-      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; los órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención y los derechos del detenido; el habeas corpus; el Ministerio Fiscal; la Policía Judicial"
     ]
   },
   "TC": {
@@ -201,7 +208,7 @@
     "norma": "Ley Orgánica 2/1979, del Tribunal Constitucional",
     "referencia_boe": "BOE-A-1979-23709",
     "temas": [
-      "Tema 3 — La Constitución Española (II): Corona, Cortes Generales, Gobierno, Poder Judicial, organización territorial, Tribunal Constitucional y reforma constitucional"
+      "Tema 3 — La Constitución Española (II): la Corona; las Cortes Generales; el Gobierno y la Administración; las relaciones entre el Gobierno y las Cortes Generales; el Poder Judicial; la organización territorial del Estado; el Tribunal Constitucional; la reforma constitucional"
     ]
   },
   "DP": {
@@ -209,7 +216,7 @@
     "norma": "Ley Orgánica 3/1981, del Defensor del Pueblo",
     "referencia_boe": "BOE-A-1981-10325",
     "temas": [
-      "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+      "Tema 2 — La Constitución Española (I): estructura y caracteres; los valores; los principios del régimen constitucional; los derechos y deberes fundamentales, sus garantías y su suspensión; el Defensor del Pueblo"
     ]
   },
   "CC": {
@@ -225,7 +232,7 @@
     "norma": "Ley Orgánica 4/1981, de los estados de alarma, excepción y sitio",
     "referencia_boe": "BOE-A-1981-12774",
     "temas": [
-      "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+      "Tema 2 — La Constitución Española (I): estructura y caracteres; los valores; los principios del régimen constitucional; los derechos y deberes fundamentales, sus garantías y su suspensión; el Defensor del Pueblo"
     ]
   },
   "LOPD7": {
@@ -257,7 +264,7 @@
     "norma": "Real Decreto 1428/2003, por el que se aprueba el Reglamento General de Circulación",
     "referencia_boe": "BOE-A-2003-23514",
     "temas": [
-      "Tema 43 — El vehículo prioritario: definición, facultades de los conductores de vehículos prioritarios; señales; el Reglamento General de Circulación"
+      "Tema 43 — El vehículo prioritario: definición, facultades de sus conductores, comportamiento de los demás conductores, conducción en situación de emergencia y utilización de las señales de emergencia"
     ]
   },
   "DGP": {
@@ -337,7 +344,7 @@
     "norma": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo",
     "referencia_boe": "BOE-A-1983-10613",
     "temas": [
-      "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+      "Tema 2 — La Constitución Española (I): estructura y caracteres; los valores; los principios del régimen constitucional; los derechos y deberes fundamentales, sus garantías y su suspensión; el Defensor del Pueblo"
     ]
   },
   "FE": {
@@ -369,7 +376,7 @@
     "norma": "Real Decreto 555/2011, de 20 de abril, por el que se establece el régimen electoral del Consejo de Policía",
     "referencia_boe": "BOE-A-2011-7173",
     "temas": [
-      "Tema 9 — La Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad: los derechos de representación colectiva; el Consejo de Policía"
+      "Tema 9 — La Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad: disposiciones generales, principios básicos de actuación y disposiciones estatutarias comunes; los derechos de representación colectiva y el Consejo de Policía; la Policía Judicial, las policías autonómicas y las locales"
     ]
   },
   "PJ": {
@@ -377,14 +384,17 @@
     "norma": "Real Decreto 769/1987, de 19 de junio, sobre regulación de la Policía Judicial",
     "referencia_boe": "BOE-A-1987-14578",
     "temas": [
-      "Tema 21 — Derecho Procesal Penal: órganos de la jurisdicción penal; la detención; el Ministerio Fiscal; la Policía Judicial"
+      "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; los órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención y los derechos del detenido; el habeas corpus; el Ministerio Fiscal; la Policía Judicial"
     ]
   },
   "EXTR": {
     "materia": "rd-1155-2024-reglamento-extranjeria",
     "norma": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
     "referencia_boe": "BOE-A-2024-24099",
-    "temas": null
+    "temas": [
+      "Tema 10 — Entrada, libre circulación y residencia de ciudadanos UE/EEE; derechos y libertades de los extranjeros en España y su integración social; entrada y salida; autorización de estancia y residencia",
+      "Tema 11 — De las infracciones en materia de extranjería y su régimen sancionador: tipos de infracciones, sanciones, prescripción y efectos de la expulsión, la devolución y la denegación de entrada"
+    ]
   },
   "ENC": {
     "materia": "orden-pci-487-2019-estrategia-nacional-ciberseguridad",
@@ -399,7 +409,7 @@
     "norma": "Real Decreto 2822/1998, por el que se aprueba el Reglamento General de Vehículos",
     "referencia_boe": "BOE-A-1999-1826",
     "temas": [
-      "Tema 43 — El vehículo prioritario: definición y señales de emergencia; señales en los vehículos (Reglamento General de Vehículos)"
+      "Tema 43 — El vehículo prioritario: definición, facultades de sus conductores, comportamiento de los demás conductores, conducción en situación de emergencia y utilización de las señales de emergencia"
     ]
   },
   "VCD": {

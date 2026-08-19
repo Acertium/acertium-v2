@@ -4,7 +4,7 @@
     "norma": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo",
     "referencia_boe": "BOE-A-1983-10613",
     "convocatoria": "policia-nacional-2026",
-    "tema": "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+    "tema": "Tema 2 — La Constitución Española (I): estructura y caracteres; los valores; los principios del régimen constitucional; los derechos y deberes fundamentales, sus garantías y su suspensión; el Defensor del Pueblo"
   },
   "fuentes": {
     "art. 19": "El Consejo Asesor es un órgano de cooperación técnica y jurídica del Mecanismo Nacional de Prevención. El Consejo Asesor estará integrado por los Adjuntos del Defensor del Pueblo, como miembros natos, además de por un máximo de 10 Vocales. El Adjunto en el que el Defensor del Pueblo delegue las funciones del Mecanismo Nacional de Prevención de la Tortura asumirá la Presidencia del Consejo y será sustituido por el otro Adjunto en caso de ausencia o vacante. Los Vocales serán designados entre personas mayores de edad, que se encuentren en el pleno disfrute de sus derechos civiles y políticos, con reconocida trayectoria en la defensa de los Derechos Humanos o en los ámbitos relacionados con el tratamiento a personas privadas de libertad por cualquier causa. La designación de Vocales se efectuará conforme a la siguiente distribución: a) Un Vocal designado a propuesta del Consejo General de la Abogacía de España. b) Un Vocal designado a propuesta de la Organización Médica Colegial. c) Un Vocal designado a propuesta del Consejo General de Colegios Oficiales de Psicólogos de España. d) Hasta dos Vocales designados a propuesta conjunta de los organismos e instituciones con las que el Defensor del Pueblo tenga suscritos convenios de colaboración para el desarrollo de las funciones propias del Mecanismo Nacional de Prevención, si así está previsto en dichos convenios. Las propuestas que se formulen no podrán incluir más que un representante por entidad. e) Cinco Vocales elegidos de entre las candidaturas que, a título personal o en representación de organizaciones o asociaciones representativas de la sociedad civil, se presenten al Defensor del Pueblo en el marco del procedimiento de designación establecido en el presente Reglamento. Actuará como secretario el Secretario General de la Institución.",
@@ -347,23 +347,113 @@
     }
   ],
   "relaciones": [
-    { "origen": "RDP-002", "destino": "RDP-001", "tipo": "desarrolla", "justificacion": "La composición concreta qué órgano es el Consejo Asesor definido en el art. 19.1." },
-    { "origen": "RDP-003", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "La Presidencia recae en un Adjunto, que integra el Consejo como miembro nato." },
-    { "origen": "RDP-004", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "Los requisitos concretan quiénes pueden ser los Vocales que componen el Consejo." },
-    { "origen": "RDP-005", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "El Vocal a propuesta de la Abogacía concreta la distribución del máximo de 10 Vocales." },
-    { "origen": "RDP-006", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "Los cinco Vocales de la sociedad civil concretan parte del cupo de Vocales." },
-    { "origen": "RDP-007", "destino": "RDP-001", "tipo": "desarrolla", "justificacion": "La secretaría es una pieza organizativa del propio Consejo Asesor." },
-    { "origen": "RDP-008", "destino": "RDP-002", "tipo": "desarrolla", "justificacion": "El mandato de cuatro años concreta la condición de los Vocales del Consejo." },
-    { "origen": "RDP-009", "destino": "RDP-006", "tipo": "prerrequisito", "justificacion": "El plazo de candidaturas precede a la elección de los cinco Vocales de la sociedad civil." },
-    { "origen": "RDP-010", "destino": "RDP-006", "tipo": "desarrolla", "justificacion": "La designación por el Defensor del Pueblo cierra el procedimiento de selección de Vocales." },
-    { "origen": "RDP-011", "destino": "RDP-008", "tipo": "desarrolla", "justificacion": "La continuidad de los cesantes concreta qué ocurre al expirar el período de cuatro años." },
-    { "origen": "RDP-012", "destino": "RDP-002", "tipo": "limita", "justificacion": "El carácter no retribuido restringe el estatuto económico de los Vocales." },
-    { "origen": "RDP-013", "destino": "RDP-001", "tipo": "desarrolla", "justificacion": "La periodicidad de reuniones concreta el funcionamiento del Consejo Asesor." },
-    { "origen": "RDP-014", "destino": "RDP-013", "tipo": "desarrolla", "justificacion": "Los asistentes a las sesiones concretan el régimen de reuniones del Consejo." },
-    { "origen": "RDP-015", "destino": "RDP-001", "tipo": "desarrolla", "justificacion": "Las funciones concretan la labor de cooperación técnica y jurídica del Consejo." },
-    { "origen": "RDP-001", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "El Reglamento (art. 19) desarrolla la institución del Defensor del Pueblo del art. 1 de la LO 3/1981." },
-    { "origen": "RDP-002", "destino": "DP-013", "tipo": "desarrolla", "justificacion": "La composición incorpora como miembros natos a los Adjuntos regulados en el art. 8 de la LO 3/1981 (DP-013)." },
-    { "origen": "RDP-003", "destino": "DP-013", "tipo": "desarrolla", "justificacion": "La Presidencia recae en un Adjunto del Defensor del Pueblo, figura del art. 8 de la LO 3/1981 (DP-013)." },
-    { "origen": "RDP-004", "destino": "DP-005", "tipo": "remite", "justificacion": "Los requisitos de los Vocales (mayoría de edad y pleno disfrute de derechos civiles y políticos) reproducen los del art. 3 de la LO 3/1981 (DP-005)." }
+    {
+      "origen": "RDP-002",
+      "destino": "RDP-001",
+      "tipo": "desarrolla",
+      "justificacion": "La composición concreta qué órgano es el Consejo Asesor definido en el art. 19.1."
+    },
+    {
+      "origen": "RDP-003",
+      "destino": "RDP-002",
+      "tipo": "desarrolla",
+      "justificacion": "La Presidencia recae en un Adjunto, que integra el Consejo como miembro nato."
+    },
+    {
+      "origen": "RDP-004",
+      "destino": "RDP-002",
+      "tipo": "desarrolla",
+      "justificacion": "Los requisitos concretan quiénes pueden ser los Vocales que componen el Consejo."
+    },
+    {
+      "origen": "RDP-005",
+      "destino": "RDP-002",
+      "tipo": "desarrolla",
+      "justificacion": "El Vocal a propuesta de la Abogacía concreta la distribución del máximo de 10 Vocales."
+    },
+    {
+      "origen": "RDP-006",
+      "destino": "RDP-002",
+      "tipo": "desarrolla",
+      "justificacion": "Los cinco Vocales de la sociedad civil concretan parte del cupo de Vocales."
+    },
+    {
+      "origen": "RDP-007",
+      "destino": "RDP-001",
+      "tipo": "desarrolla",
+      "justificacion": "La secretaría es una pieza organizativa del propio Consejo Asesor."
+    },
+    {
+      "origen": "RDP-008",
+      "destino": "RDP-002",
+      "tipo": "desarrolla",
+      "justificacion": "El mandato de cuatro años concreta la condición de los Vocales del Consejo."
+    },
+    {
+      "origen": "RDP-009",
+      "destino": "RDP-006",
+      "tipo": "prerrequisito",
+      "justificacion": "El plazo de candidaturas precede a la elección de los cinco Vocales de la sociedad civil."
+    },
+    {
+      "origen": "RDP-010",
+      "destino": "RDP-006",
+      "tipo": "desarrolla",
+      "justificacion": "La designación por el Defensor del Pueblo cierra el procedimiento de selección de Vocales."
+    },
+    {
+      "origen": "RDP-011",
+      "destino": "RDP-008",
+      "tipo": "desarrolla",
+      "justificacion": "La continuidad de los cesantes concreta qué ocurre al expirar el período de cuatro años."
+    },
+    {
+      "origen": "RDP-012",
+      "destino": "RDP-002",
+      "tipo": "limita",
+      "justificacion": "El carácter no retribuido restringe el estatuto económico de los Vocales."
+    },
+    {
+      "origen": "RDP-013",
+      "destino": "RDP-001",
+      "tipo": "desarrolla",
+      "justificacion": "La periodicidad de reuniones concreta el funcionamiento del Consejo Asesor."
+    },
+    {
+      "origen": "RDP-014",
+      "destino": "RDP-013",
+      "tipo": "desarrolla",
+      "justificacion": "Los asistentes a las sesiones concretan el régimen de reuniones del Consejo."
+    },
+    {
+      "origen": "RDP-015",
+      "destino": "RDP-001",
+      "tipo": "desarrolla",
+      "justificacion": "Las funciones concretan la labor de cooperación técnica y jurídica del Consejo."
+    },
+    {
+      "origen": "RDP-001",
+      "destino": "DP-001",
+      "tipo": "desarrolla",
+      "justificacion": "El Reglamento (art. 19) desarrolla la institución del Defensor del Pueblo del art. 1 de la LO 3/1981."
+    },
+    {
+      "origen": "RDP-002",
+      "destino": "DP-013",
+      "tipo": "desarrolla",
+      "justificacion": "La composición incorpora como miembros natos a los Adjuntos regulados en el art. 8 de la LO 3/1981 (DP-013)."
+    },
+    {
+      "origen": "RDP-003",
+      "destino": "DP-013",
+      "tipo": "desarrolla",
+      "justificacion": "La Presidencia recae en un Adjunto del Defensor del Pueblo, figura del art. 8 de la LO 3/1981 (DP-013)."
+    },
+    {
+      "origen": "RDP-004",
+      "destino": "DP-005",
+      "tipo": "remite",
+      "justificacion": "Los requisitos de los Vocales (mayoría de edad y pleno disfrute de derechos civiles y políticos) reproducen los del art. 3 de la LO 3/1981 (DP-005)."
+    }
   ]
 }

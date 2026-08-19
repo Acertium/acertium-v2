@@ -4,7 +4,7 @@
     "norma": "Real Decreto 1428/2003, por el que se aprueba el Reglamento General de Circulación",
     "referencia_boe": "BOE-A-2003-23514",
     "convocatoria": "policia-nacional-2026",
-    "tema": "Tema 43 — El vehículo prioritario: definición, facultades de los conductores de vehículos prioritarios; señales; el Reglamento General de Circulación"
+    "tema": "Tema 43 — El vehículo prioritario: definición, facultades de sus conductores, comportamiento de los demás conductores, conducción en situación de emergencia y utilización de las señales de emergencia"
   },
   "fuentes": {
     "art. 67": "1. Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter. Podrán circular por encima de los límites de velocidad y estarán exentos de cumplir otras normas o señales en los casos y con las condiciones que se determinan en esta sección (artículo 25 del texto articulado). 2. Los conductores de los vehículos destinados a los referidos servicios harán uso ponderado de su régimen especial únicamente cuando circulen en prestación de un servicio urgente y cuidarán de no vulnerar la prioridad de paso en las intersecciones de vías o las señales de los semáforos, sin antes adoptar extremadas precauciones, hasta cerciorarse de que no existe riesgo de atropello a peatones y de que los conductores de otros vehículos han detenido su marcha o se disponen a facilitar la suya. 3. La instalación de aparatos emisores de luces y señales acústicas especiales en vehículos prioritarios requerirá autorización de la Jefatura Provincial de Tráfico correspondiente, de conformidad con lo dispuesto en las normas reguladoras de los vehículos.",
@@ -325,19 +325,89 @@
     }
   ],
   "relaciones": [
-    { "origen": "TRAF-002", "destino": "TRAF-001", "tipo": "desarrolla", "justificacion": "La exención de velocidad y normas concreta en qué consiste la prioridad de paso del art. 67.1." },
-    { "origen": "TRAF-003", "destino": "TRAF-002", "tipo": "limita", "justificacion": "El uso ponderado y las precauciones restringen el ejercicio del régimen especial." },
-    { "origen": "TRAF-005", "destino": "TRAF-002", "tipo": "desarrolla", "justificacion": "El art. 68.1 detalla qué normas puede dejar de cumplir el prioritario." },
-    { "origen": "TRAF-006", "destino": "TRAF-005", "tipo": "desarrolla", "justificacion": "Las maniobras excepcionales en autopista concretan la facultad de incumplir normas." },
-    { "origen": "TRAF-007", "destino": "TRAF-001", "tipo": "desarrolla", "justificacion": "Las facultades de los agentes de tráfico se enmarcan en el régimen de los vehículos en servicio de urgencia." },
-    { "origen": "TRAF-008", "destino": "TRAF-001", "tipo": "desarrolla", "justificacion": "El art. 68.2 concreta qué vehículos tienen carácter de prioritarios y cómo se señalizan." },
-    { "origen": "TRAF-004", "destino": "TRAF-008", "tipo": "prerrequisito", "justificacion": "Para usar las señales luminosas y acústicas de prioritario primero hay que instalarlas con autorización." },
-    { "origen": "TRAF-009", "destino": "TRAF-008", "tipo": "limita", "justificacion": "La señal luminosa aislada es una excepción a la regla de señalización simultánea." },
-    { "origen": "TRAF-010", "destino": "TRAF-005", "tipo": "desarrolla", "justificacion": "Tipifica como graves las infracciones a las normas sobre facultades del prioritario." },
-    { "origen": "TRAF-001", "destino": "TRAF-011", "tipo": "prerrequisito", "justificacion": "Para entender la obligación de los demás conductores hay que conocer antes la prioridad del vehículo prioritario." },
-    { "origen": "TRAF-012", "destino": "TRAF-011", "tipo": "desarrolla", "justificacion": "La parada ante el vehículo policial concreta el comportamiento de los demás conductores." },
-    { "origen": "TRAF-001", "destino": "TRAF-013", "tipo": "prerrequisito", "justificacion": "El vehículo no prioritario en urgencia se define por contraste con el prioritario." },
-    { "origen": "TRAF-013", "destino": "TRAF-014", "tipo": "prerrequisito", "justificacion": "Las obligaciones del no prioritario presuponen la situación descrita en el art. 70.1." },
-    { "origen": "TRAF-014", "destino": "TRAF-011", "tipo": "remite", "justificacion": "El art. 70.2 remite al art. 69 para el comportamiento de los demás usuarios." }
+    {
+      "origen": "TRAF-002",
+      "destino": "TRAF-001",
+      "tipo": "desarrolla",
+      "justificacion": "La exención de velocidad y normas concreta en qué consiste la prioridad de paso del art. 67.1."
+    },
+    {
+      "origen": "TRAF-003",
+      "destino": "TRAF-002",
+      "tipo": "limita",
+      "justificacion": "El uso ponderado y las precauciones restringen el ejercicio del régimen especial."
+    },
+    {
+      "origen": "TRAF-005",
+      "destino": "TRAF-002",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 68.1 detalla qué normas puede dejar de cumplir el prioritario."
+    },
+    {
+      "origen": "TRAF-006",
+      "destino": "TRAF-005",
+      "tipo": "desarrolla",
+      "justificacion": "Las maniobras excepcionales en autopista concretan la facultad de incumplir normas."
+    },
+    {
+      "origen": "TRAF-007",
+      "destino": "TRAF-001",
+      "tipo": "desarrolla",
+      "justificacion": "Las facultades de los agentes de tráfico se enmarcan en el régimen de los vehículos en servicio de urgencia."
+    },
+    {
+      "origen": "TRAF-008",
+      "destino": "TRAF-001",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 68.2 concreta qué vehículos tienen carácter de prioritarios y cómo se señalizan."
+    },
+    {
+      "origen": "TRAF-004",
+      "destino": "TRAF-008",
+      "tipo": "prerrequisito",
+      "justificacion": "Para usar las señales luminosas y acústicas de prioritario primero hay que instalarlas con autorización."
+    },
+    {
+      "origen": "TRAF-009",
+      "destino": "TRAF-008",
+      "tipo": "limita",
+      "justificacion": "La señal luminosa aislada es una excepción a la regla de señalización simultánea."
+    },
+    {
+      "origen": "TRAF-010",
+      "destino": "TRAF-005",
+      "tipo": "desarrolla",
+      "justificacion": "Tipifica como graves las infracciones a las normas sobre facultades del prioritario."
+    },
+    {
+      "origen": "TRAF-001",
+      "destino": "TRAF-011",
+      "tipo": "prerrequisito",
+      "justificacion": "Para entender la obligación de los demás conductores hay que conocer antes la prioridad del vehículo prioritario."
+    },
+    {
+      "origen": "TRAF-012",
+      "destino": "TRAF-011",
+      "tipo": "desarrolla",
+      "justificacion": "La parada ante el vehículo policial concreta el comportamiento de los demás conductores."
+    },
+    {
+      "origen": "TRAF-001",
+      "destino": "TRAF-013",
+      "tipo": "prerrequisito",
+      "justificacion": "El vehículo no prioritario en urgencia se define por contraste con el prioritario."
+    },
+    {
+      "origen": "TRAF-013",
+      "destino": "TRAF-014",
+      "tipo": "prerrequisito",
+      "justificacion": "Las obligaciones del no prioritario presuponen la situación descrita en el art. 70.1."
+    },
+    {
+      "origen": "TRAF-014",
+      "destino": "TRAF-011",
+      "tipo": "remite",
+      "justificacion": "El art. 70.2 remite al art. 69 para el comportamiento de los demás usuarios."
+    }
   ]
 }

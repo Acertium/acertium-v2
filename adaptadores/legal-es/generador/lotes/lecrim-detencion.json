@@ -4,7 +4,7 @@
     "norma": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal",
     "referencia_boe": "BOE-A-1882-6036",
     "convocatoria": "policia-nacional-2026",
-    "tema": "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención"
+    "tema": "Tema 21 — Derecho Procesal Penal: jurisdicción y competencia; los órganos de la jurisdicción penal; la denuncia y la obligación de denunciar; la detención y los derechos del detenido; el habeas corpus; el Ministerio Fiscal; la Policía Judicial"
   },
   "fuentes": {
     "art. 259": "El que presenciare la perpetración de cualquier delito público está obligado a ponerlo inmediatamente en conocimiento del Juez de instrucción, de paz, comarcal o municipal o funcionario fiscal más próximo al sitio en que se hallare, bajo la multa de 25 a 250 pesetas.",
@@ -28,255 +28,685 @@
     "art. 297": "Los atestados que redactaren y las manifestaciones que hicieren los funcionarios de Policía judicial, a consecuencia de las averiguaciones que hubiesen practicado, se considerarán denuncias para los efectos legales. Las demás declaraciones que prestaren deberán ser firmadas, y tendrán el valor de declaraciones testificales en cuanto se refieran a hechos de conocimiento propio."
   },
   "conceptos": [
-    { "id": "LEC-001", "articulo": "art. 259", "titulo": "Obligación de denunciar del que presencia un delito público",
+    {
+      "id": "LEC-001",
+      "articulo": "art. 259",
+      "titulo": "Obligación de denunciar del que presencia un delito público",
       "resumen": "Quien presencia la perpetración de un delito público está obligado a ponerlo inmediatamente en conocimiento del Juez o del funcionario fiscal más próximo.",
-      "explicacion": "El art. 259 abre la regulación de la denuncia con la obligación general de denunciar: el que presenciare la perpetración de cualquier delito público está obligado a ponerlo inmediatamente en conocimiento del Juez de instrucción, de paz, comarcal o municipal o del funcionario fiscal más próximo al sitio en que se hallare. La obligación se refuerza con una multa (de 25 a 250 pesetas, cifra hoy simbólica). Idea clave: presenciar un delito público genera deber de denunciar, y ante la autoridad más próxima." },
-    { "id": "LEC-002", "articulo": "art. 260", "titulo": "Exención de denunciar: impúberes y quienes no gozan del pleno uso de razón",
+      "explicacion": "El art. 259 abre la regulación de la denuncia con la obligación general de denunciar: el que presenciare la perpetración de cualquier delito público está obligado a ponerlo inmediatamente en conocimiento del Juez de instrucción, de paz, comarcal o municipal o del funcionario fiscal más próximo al sitio en que se hallare. La obligación se refuerza con una multa (de 25 a 250 pesetas, cifra hoy simbólica). Idea clave: presenciar un delito público genera deber de denunciar, y ante la autoridad más próxima."
+    },
+    {
+      "id": "LEC-002",
+      "articulo": "art. 260",
+      "titulo": "Exención de denunciar: impúberes y quienes no gozan del pleno uso de razón",
       "resumen": "La obligación de denunciar del art. 259 no comprende a los impúberes ni a quienes no gozaren del pleno uso de su razón.",
-      "explicacion": "El art. 260 excluye de la obligación general de denunciar del artículo anterior a los impúberes y a quienes no gozaren del pleno uso de su razón. Se trata de una exención por falta de madurez o capacidad para comprender el deber, no de una dispensa por relación con el delincuente (esa es la del art. 261). Trampa típica: confundir esta exención por capacidad con la dispensa por parentesco." },
-    { "id": "LEC-003", "articulo": "art. 261", "titulo": "Dispensa de denunciar por parentesco (cónyuge, ascendientes, descendientes y colaterales)",
+      "explicacion": "El art. 260 excluye de la obligación general de denunciar del artículo anterior a los impúberes y a quienes no gozaren del pleno uso de su razón. Se trata de una exención por falta de madurez o capacidad para comprender el deber, no de una dispensa por relación con el delincuente (esa es la del art. 261). Trampa típica: confundir esta exención por capacidad con la dispensa por parentesco."
+    },
+    {
+      "id": "LEC-003",
+      "articulo": "art. 261",
+      "titulo": "Dispensa de denunciar por parentesco (cónyuge, ascendientes, descendientes y colaterales)",
       "resumen": "No están obligados a denunciar el cónyuge o pareja de hecho del delincuente, sus ascendientes y descendientes y sus parientes colaterales hasta el segundo grado.",
-      "explicacion": "El art. 261 dispensa del deber de denunciar por vínculo familiar: quien sea cónyuge del delincuente no separado legalmente o de hecho, o la persona que conviva con él en análoga relación de afectividad; y los ascendientes y descendientes del delincuente y sus parientes colaterales hasta el segundo grado inclusive. Es una dispensa para proteger las relaciones familiares. Fija bien el límite: colaterales hasta el segundo grado." },
-    { "id": "LEC-004", "articulo": "art. 261", "titulo": "Límite a la dispensa por parentesco: delitos graves con víctima menor o con discapacidad",
+      "explicacion": "El art. 261 dispensa del deber de denunciar por vínculo familiar: quien sea cónyuge del delincuente no separado legalmente o de hecho, o la persona que conviva con él en análoga relación de afectividad; y los ascendientes y descendientes del delincuente y sus parientes colaterales hasta el segundo grado inclusive. Es una dispensa para proteger las relaciones familiares. Fija bien el límite: colaterales hasta el segundo grado."
+    },
+    {
+      "id": "LEC-004",
+      "articulo": "art. 261",
+      "titulo": "Límite a la dispensa por parentesco: delitos graves con víctima menor o con discapacidad",
       "resumen": "La dispensa por parentesco no se aplica en ciertos delitos graves (contra la vida, homicidio, lesiones, maltrato habitual, contra la libertad sexual, trata) cuando la víctima sea menor o persona con discapacidad necesitada de especial protección.",
-      "explicacion": "El propio art. 261 pone un límite a la dispensa familiar: no será aplicable cuando se trate de un delito contra la vida, de un delito de homicidio, de lesiones de los arts. 149 y 150 del Código Penal, de maltrato habitual del art. 173.2, contra la libertad o contra la libertad e indemnidad sexual, o de trata de seres humanos, y la víctima sea una persona menor de edad o una persona con discapacidad necesitada de especial protección. Idea clave: ante estos delitos graves con víctima especialmente vulnerable, el parentesco ya no exime de denunciar." },
-    { "id": "LEC-005", "articulo": "art. 262", "titulo": "Obligación reforzada de denunciar por razón de cargo, profesión u oficio",
+      "explicacion": "El propio art. 261 pone un límite a la dispensa familiar: no será aplicable cuando se trate de un delito contra la vida, de un delito de homicidio, de lesiones de los arts. 149 y 150 del Código Penal, de maltrato habitual del art. 173.2, contra la libertad o contra la libertad e indemnidad sexual, o de trata de seres humanos, y la víctima sea una persona menor de edad o una persona con discapacidad necesitada de especial protección. Idea clave: ante estos delitos graves con víctima especialmente vulnerable, el parentesco ya no exime de denunciar."
+    },
+    {
+      "id": "LEC-005",
+      "articulo": "art. 262",
+      "titulo": "Obligación reforzada de denunciar por razón de cargo, profesión u oficio",
       "resumen": "Quienes por razón de sus cargos, profesiones u oficios tengan noticia de un delito público están obligados a denunciarlo inmediatamente al Ministerio fiscal, al Tribunal competente o al Juez de instrucción.",
-      "explicacion": "El art. 262 impone un deber reforzado a quienes, por razón de sus cargos, profesiones u oficios, tuvieren noticia de algún delito público: deben denunciarlo inmediatamente al Ministerio fiscal, al Tribunal competente, al Juez de instrucción y, en su defecto, al municipal o al funcionario de policía más próximo si se tratare de delito flagrante. El incumplimiento acarrea la multa del art. 259, con una cuantía agravada si el omitente es Profesor en Medicina, Cirugía o Farmacia. Es la obligación cualificada frente a la genérica del art. 259." },
-    { "id": "LEC-006", "articulo": "art. 263", "titulo": "Excepción al deber de denunciar: abogados, procuradores y eclesiásticos (secreto)",
+      "explicacion": "El art. 262 impone un deber reforzado a quienes, por razón de sus cargos, profesiones u oficios, tuvieren noticia de algún delito público: deben denunciarlo inmediatamente al Ministerio fiscal, al Tribunal competente, al Juez de instrucción y, en su defecto, al municipal o al funcionario de policía más próximo si se tratare de delito flagrante. El incumplimiento acarrea la multa del art. 259, con una cuantía agravada si el omitente es Profesor en Medicina, Cirugía o Farmacia. Es la obligación cualificada frente a la genérica del art. 259."
+    },
+    {
+      "id": "LEC-006",
+      "articulo": "art. 263",
+      "titulo": "Excepción al deber de denunciar: abogados, procuradores y eclesiásticos (secreto)",
       "resumen": "La obligación del art. 262 no alcanza a abogados y procuradores respecto de lo que reciben de sus clientes, ni a eclesiásticos y ministros de culto respecto de lo revelado en su ministerio.",
-      "explicacion": "El art. 263 exceptúa del deber reforzado de denunciar a los Abogados y Procuradores respecto de las instrucciones o explicaciones que recibieren de sus clientes, y a los eclesiásticos y ministros de cultos disidentes respecto de las noticias que se les hubieren revelado en el ejercicio de las funciones de su ministerio. Protege el secreto profesional del abogado y el secreto de confesión/ministerio religioso. No exime a médicos ni a otros profesionales, que sí quedan sujetos al art. 262." },
-    { "id": "LEC-007", "articulo": "art. 263 bis", "titulo": "Quién puede autorizar la circulación o entrega vigilada",
+      "explicacion": "El art. 263 exceptúa del deber reforzado de denunciar a los Abogados y Procuradores respecto de las instrucciones o explicaciones que recibieren de sus clientes, y a los eclesiásticos y ministros de cultos disidentes respecto de las noticias que se les hubieren revelado en el ejercicio de las funciones de su ministerio. Protege el secreto profesional del abogado y el secreto de confesión/ministerio religioso. No exime a médicos ni a otros profesionales, que sí quedan sujetos al art. 262."
+    },
+    {
+      "id": "LEC-007",
+      "articulo": "art. 263 bis",
+      "titulo": "Quién puede autorizar la circulación o entrega vigilada",
       "resumen": "Pueden autorizar la circulación o entrega vigilada de drogas el Juez de Instrucción competente, el Ministerio Fiscal y los Jefes de las Unidades Orgánicas de Policía Judicial y sus mandos superiores.",
-      "explicacion": "El art. 263 bis regula la técnica de investigación de la circulación o entrega vigilada. La autorización corresponde al Juez de Instrucción competente y al Ministerio Fiscal, así como a los Jefes de las Unidades Orgánicas de Policía Judicial, centrales o de ámbito provincial, y a sus mandos superiores. La medida debe acordarse por resolución fundada que determine, en cuanto sea posible, el objeto y el tipo y cantidad de sustancia. No basta la iniciativa de un agente cualquiera." },
-    { "id": "LEC-008", "articulo": "art. 263 bis", "titulo": "Concepto de circulación o entrega vigilada",
+      "explicacion": "El art. 263 bis regula la técnica de investigación de la circulación o entrega vigilada. La autorización corresponde al Juez de Instrucción competente y al Ministerio Fiscal, así como a los Jefes de las Unidades Orgánicas de Policía Judicial, centrales o de ámbito provincial, y a sus mandos superiores. La medida debe acordarse por resolución fundada que determine, en cuanto sea posible, el objeto y el tipo y cantidad de sustancia. No basta la iniciativa de un agente cualquiera."
+    },
+    {
+      "id": "LEC-008",
+      "articulo": "art. 263 bis",
+      "titulo": "Concepto de circulación o entrega vigilada",
       "resumen": "Es la técnica de permitir que remesas ilícitas o sospechosas de droga circulen bajo vigilancia policial, sin interferencia, para identificar a las personas implicadas en el delito.",
-      "explicacion": "El art. 263 bis define la circulación o entrega vigilada como la técnica consistente en permitir que remesas ilícitas o sospechosas de drogas u otras sustancias prohibidas (y determinados bienes y ganancias) circulen por territorio español o salgan o entren en él sin interferencia obstativa de la autoridad o sus agentes y bajo su vigilancia, con el fin de descubrir o identificar a las personas involucradas en la comisión del delito. La clave es que se deja circular la remesa vigilándola, para llegar a los responsables, en lugar de incautarla de inmediato." },
-    { "id": "LEC-009", "articulo": "art. 264", "titulo": "Denuncia por conocimiento del delito por otro medio: sin obligación de probar ni de querella",
+      "explicacion": "El art. 263 bis define la circulación o entrega vigilada como la técnica consistente en permitir que remesas ilícitas o sospechosas de drogas u otras sustancias prohibidas (y determinados bienes y ganancias) circulen por territorio español o salgan o entren en él sin interferencia obstativa de la autoridad o sus agentes y bajo su vigilancia, con el fin de descubrir o identificar a las personas involucradas en la comisión del delito. La clave es que se deja circular la remesa vigilándola, para llegar a los responsables, en lugar de incautarla de inmediato."
+    },
+    {
+      "id": "LEC-009",
+      "articulo": "art. 264",
+      "titulo": "Denuncia por conocimiento del delito por otro medio: sin obligación de probar ni de querella",
       "resumen": "Quien conoce por cualquier otro medio un delito perseguible de oficio debe denunciarlo, pero no queda obligado a probar los hechos ni a formalizar querella.",
-      "explicacion": "El art. 264 completa el deber de denunciar: el que por cualquier medio distinto tuviere conocimiento de la perpetración de un delito de los que deben perseguirse de oficio debe denunciarlo al Ministerio Fiscal, al Tribunal competente, al Juez de instrucción o municipal, o al funcionario de policía. Importante: no se entiende obligado por ello a probar los hechos denunciados ni a formalizar querella, y solo responderá de los delitos que él mismo cometiere con la denuncia o con su ocasión. Distingue así denuncia (mera puesta en conocimiento) de querella." },
-    { "id": "LEC-010", "articulo": "art. 265", "titulo": "Forma de la denuncia: por escrito o de palabra, personalmente o por mandatario",
+      "explicacion": "El art. 264 completa el deber de denunciar: el que por cualquier medio distinto tuviere conocimiento de la perpetración de un delito de los que deben perseguirse de oficio debe denunciarlo al Ministerio Fiscal, al Tribunal competente, al Juez de instrucción o municipal, o al funcionario de policía. Importante: no se entiende obligado por ello a probar los hechos denunciados ni a formalizar querella, y solo responderá de los delitos que él mismo cometiere con la denuncia o con su ocasión. Distingue así denuncia (mera puesta en conocimiento) de querella."
+    },
+    {
+      "id": "LEC-010",
+      "articulo": "art. 265",
+      "titulo": "Forma de la denuncia: por escrito o de palabra, personalmente o por mandatario",
       "resumen": "Las denuncias pueden hacerse por escrito o de palabra, personalmente o por medio de mandatario con poder especial.",
-      "explicacion": "El art. 265.1 fija la forma de la denuncia: puede hacerse por escrito o de palabra, y personalmente o por medio de mandatario con poder especial. Es un régimen flexible que no exige forma solemne ni intervención de notario. Retén los dos ejes: escrito/oral y personal/por mandatario con poder especial." },
-    { "id": "LEC-011", "articulo": "art. 265", "titulo": "Contenido de la denuncia: identificación del denunciante y narración del hecho",
+      "explicacion": "El art. 265.1 fija la forma de la denuncia: puede hacerse por escrito o de palabra, y personalmente o por medio de mandatario con poder especial. Es un régimen flexible que no exige forma solemne ni intervención de notario. Retén los dos ejes: escrito/oral y personal/por mandatario con poder especial."
+    },
+    {
+      "id": "LEC-011",
+      "articulo": "art. 265",
+      "titulo": "Contenido de la denuncia: identificación del denunciante y narración del hecho",
       "resumen": "La denuncia debe contener la identificación de la persona denunciante y la narración circunstanciada del hecho.",
-      "explicacion": "El art. 265.2 fija el contenido mínimo: la identificación de la persona denunciante y la narración circunstanciada del hecho. Si el denunciante es persona jurídica o ente sin personalidad, debe identificarse también la persona física que denuncia en su nombre. Además, si son conocidas, se identificará a los autores y a quienes presenciaron el hecho o tengan información. La denuncia narra hechos, no los califica jurídicamente." },
-    { "id": "LEC-012", "articulo": "art. 266", "titulo": "Hechos que no pueden denunciarse por vía telemática",
+      "explicacion": "El art. 265.2 fija el contenido mínimo: la identificación de la persona denunciante y la narración circunstanciada del hecho. Si el denunciante es persona jurídica o ente sin personalidad, debe identificarse también la persona física que denuncia en su nombre. Además, si son conocidas, se identificará a los autores y a quienes presenciaron el hecho o tengan información. La denuncia narra hechos, no los califica jurídicamente."
+    },
+    {
+      "id": "LEC-012",
+      "articulo": "art. 266",
+      "titulo": "Hechos que no pueden denunciarse por vía telemática",
       "resumen": "No se pueden denunciar por vía telemática los hechos con violencia o intimidación, con autor conocido, con testigos, si el denunciante es menor, si hubo delito flagrante, ni los hechos de naturaleza violenta o sexual.",
-      "explicacion": "El art. 266 permite la denuncia telemática con firma electrónica, pero excluye expresamente de esa vía determinados hechos: los producidos con violencia o intimidación, los que tengan autor conocido, aquellos en que existan testigos, cuando el denunciante sea menor de edad, cuando se haya cometido delito flagrante, y los hechos de naturaleza violenta o sexual. En esos casos la denuncia debe hacerse de forma presencial. Es una lista de exclusiones muy preguntable." },
-    { "id": "LEC-013", "articulo": "art. 267", "titulo": "Denuncia verbal: se extiende acta firmada",
+      "explicacion": "El art. 266 permite la denuncia telemática con firma electrónica, pero excluye expresamente de esa vía determinados hechos: los producidos con violencia o intimidación, los que tengan autor conocido, aquellos en que existan testigos, cuando el denunciante sea menor de edad, cuando se haya cometido delito flagrante, y los hechos de naturaleza violenta o sexual. En esos casos la denuncia debe hacerse de forma presencial. Es una lista de exclusiones muy preguntable."
+    },
+    {
+      "id": "LEC-013",
+      "articulo": "art. 267",
+      "titulo": "Denuncia verbal: se extiende acta firmada",
       "resumen": "Cuando la denuncia es verbal, la autoridad o funcionario que la recibe extiende un acta, en forma de declaración, firmada por ambos.",
-      "explicacion": "El art. 267 regula la denuncia verbal: se extenderá un acta por la autoridad o funcionario que la recibiere, en la que, en forma de declaración, se expresarán cuantas noticias tenga el denunciante sobre el hecho y sus circunstancias, firmándola ambos a continuación. Si el denunciante no pudiere firmar, lo hará otra persona a su ruego. La denuncia oral no se rechaza: se documenta en acta." },
-    { "id": "LEC-014", "articulo": "art. 268", "titulo": "Identidad del denunciador y resguardo de la denuncia",
+      "explicacion": "El art. 267 regula la denuncia verbal: se extenderá un acta por la autoridad o funcionario que la recibiere, en la que, en forma de declaración, se expresarán cuantas noticias tenga el denunciante sobre el hecho y sus circunstancias, firmándola ambos a continuación. Si el denunciante no pudiere firmar, lo hará otra persona a su ruego. La denuncia oral no se rechaza: se documenta en acta."
+    },
+    {
+      "id": "LEC-014",
+      "articulo": "art. 268",
+      "titulo": "Identidad del denunciador y resguardo de la denuncia",
       "resumen": "Quien recibe la denuncia hará constar la identidad del denunciador y, si este lo exige, le dará un resguardo de haber formalizado la denuncia.",
-      "explicacion": "El art. 268 obliga al Juez, Tribunal, autoridad o funcionario que reciban una denuncia verbal o escrita a hacer constar la identidad del denunciador, por la cédula personal u otros medios suficientes. Y añade una garantía para el ciudadano: si el denunciador lo exigiere, le darán un resguardo de haber formalizado la denuncia. Ese resguardo acredita que se presentó." },
-    { "id": "LEC-015", "articulo": "art. 269", "titulo": "Comprobación tras la denuncia y supuestos de abstención",
+      "explicacion": "El art. 268 obliga al Juez, Tribunal, autoridad o funcionario que reciban una denuncia verbal o escrita a hacer constar la identidad del denunciador, por la cédula personal u otros medios suficientes. Y añade una garantía para el ciudadano: si el denunciador lo exigiere, le darán un resguardo de haber formalizado la denuncia. Ese resguardo acredita que se presentó."
+    },
+    {
+      "id": "LEC-015",
+      "articulo": "art. 269",
+      "titulo": "Comprobación tras la denuncia y supuestos de abstención",
       "resumen": "Formalizada la denuncia se comprueba el hecho inmediatamente, salvo que no revista carácter de delito o que la denuncia sea manifiestamente falsa.",
-      "explicacion": "El art. 269 cierra el título: formalizada la denuncia, el Juez o funcionario procederá inmediatamente a comprobar el hecho denunciado, salvo dos excepciones en que se abstendrá de todo procedimiento: que el hecho no revistiere carácter de delito, o que la denuncia fuere manifiestamente falsa. Si se desestima indebidamente, hay responsabilidad. Regla: comprobación inmediata como norma; abstención solo en esos dos casos tasados." },
-    { "id": "LEC-016", "articulo": "art. 118", "titulo": "Derecho de defensa desde la detención o la imputación",
+      "explicacion": "El art. 269 cierra el título: formalizada la denuncia, el Juez o funcionario procederá inmediatamente a comprobar el hecho denunciado, salvo dos excepciones en que se abstendrá de todo procedimiento: que el hecho no revistiere carácter de delito, o que la denuncia fuere manifiestamente falsa. Si se desestima indebidamente, hay responsabilidad. Regla: comprobación inmediata como norma; abstención solo en esos dos casos tasados."
+    },
+    {
+      "id": "LEC-016",
+      "articulo": "art. 118",
+      "titulo": "Derecho de defensa desde la detención o la imputación",
       "resumen": "Toda persona a quien se atribuya un hecho punible puede ejercer el derecho de defensa desde que se le comunica, es detenida, se acuerda una medida cautelar o su procesamiento.",
-      "explicacion": "El art. 118 fija el momento en que nace el derecho de defensa del investigado o detenido: desde que se le comunique la existencia del hecho punible, haya sido objeto de detención o de cualquier otra medida cautelar, o se haya acordado su procesamiento. A tal efecto se le instruirá sin demora injustificada de sus derechos. Es la base de las garantías del detenido: la defensa no espera al juicio, se activa ya con la detención." },
-    { "id": "LEC-017", "articulo": "art. 118", "titulo": "Derecho a guardar silencio y a no declarar contra sí mismo",
+      "explicacion": "El art. 118 fija el momento en que nace el derecho de defensa del investigado o detenido: desde que se le comunique la existencia del hecho punible, haya sido objeto de detención o de cualquier otra medida cautelar, o se haya acordado su procesamiento. A tal efecto se le instruirá sin demora injustificada de sus derechos. Es la base de las garantías del detenido: la defensa no espera al juicio, se activa ya con la detención."
+    },
+    {
+      "id": "LEC-017",
+      "articulo": "art. 118",
+      "titulo": "Derecho a guardar silencio y a no declarar contra sí mismo",
       "resumen": "El detenido o investigado tiene derecho a guardar silencio, a no declarar si no lo desea, a no declarar contra sí mismo y a no confesarse culpable.",
-      "explicacion": "Entre los derechos del art. 118 que se instruyen a la persona destacan el derecho a guardar silencio y a no prestar declaración si no desea hacerlo, y a no contestar a alguna o algunas de las preguntas; y el derecho a no declarar contra sí mismo y a no confesarse culpable. Son garantías clásicas del detenido derivadas del derecho de defensa y de la presunción de inocencia. Idea clave: nadie está obligado a autoincriminarse." },
-    { "id": "LEC-018", "articulo": "art. 118", "titulo": "Asistencia letrada y entrevista reservada con el abogado",
+      "explicacion": "Entre los derechos del art. 118 que se instruyen a la persona destacan el derecho a guardar silencio y a no prestar declaración si no desea hacerlo, y a no contestar a alguna o algunas de las preguntas; y el derecho a no declarar contra sí mismo y a no confesarse culpable. Son garantías clásicas del detenido derivadas del derecho de defensa y de la presunción de inocencia. Idea clave: nadie está obligado a autoincriminarse."
+    },
+    {
+      "id": "LEC-018",
+      "articulo": "art. 118",
+      "titulo": "Asistencia letrada y entrevista reservada con el abogado",
       "resumen": "El derecho de defensa comprende la asistencia de abogado, de libre designación o de oficio, con entrevista reservada incluso antes de declarar y presencia en las declaraciones.",
-      "explicacion": "El art. 118.2 concreta la asistencia letrada: el investigado tiene derecho a un abogado de libre designación o, en su defecto, de oficio, con el que podrá comunicarse y entrevistarse reservadamente, incluso antes de que se le reciba declaración por la policía, el fiscal o la autoridad judicial, y que estará presente en todas sus declaraciones y en las diligencias de reconocimiento, careos y reconstrucción de hechos. La entrevista reservada previa a la declaración es una garantía nuclear del detenido." },
-    { "id": "LEC-019", "articulo": "art. 118", "titulo": "Confidencialidad de las comunicaciones con el abogado",
+      "explicacion": "El art. 118.2 concreta la asistencia letrada: el investigado tiene derecho a un abogado de libre designación o, en su defecto, de oficio, con el que podrá comunicarse y entrevistarse reservadamente, incluso antes de que se le reciba declaración por la policía, el fiscal o la autoridad judicial, y que estará presente en todas sus declaraciones y en las diligencias de reconocimiento, careos y reconstrucción de hechos. La entrevista reservada previa a la declaración es una garantía nuclear del detenido."
+    },
+    {
+      "id": "LEC-019",
+      "articulo": "art. 118",
+      "titulo": "Confidencialidad de las comunicaciones con el abogado",
       "resumen": "Todas las comunicaciones entre el investigado o encausado y su abogado tienen carácter confidencial.",
-      "explicacion": "El art. 118.4 garantiza que todas las comunicaciones entre el investigado o encausado y su abogado tendrán carácter confidencial. Esta confidencialidad protege la relación de defensa: lo hablado con el letrado no puede usarse en su contra, salvo los supuestos excepcionales de participación del propio abogado en el delito que la ley prevé. Es complemento de la asistencia letrada del art. 118.2." },
-    { "id": "LEC-020", "articulo": "art. 283", "titulo": "La Policía judicial como auxiliar de jueces, tribunales y Ministerio fiscal",
+      "explicacion": "El art. 118.4 garantiza que todas las comunicaciones entre el investigado o encausado y su abogado tendrán carácter confidencial. Esta confidencialidad protege la relación de defensa: lo hablado con el letrado no puede usarse en su contra, salvo los supuestos excepcionales de participación del propio abogado en el delito que la ley prevé. Es complemento de la asistencia letrada del art. 118.2."
+    },
+    {
+      "id": "LEC-020",
+      "articulo": "art. 283",
+      "titulo": "La Policía judicial como auxiliar de jueces, tribunales y Ministerio fiscal",
       "resumen": "La Policía judicial es auxiliar de los jueces y tribunales penales y del Ministerio fiscal, y queda obligada a seguir sus instrucciones para investigar delitos.",
-      "explicacion": "El art. 283 define la posición de la Policía judicial: constituye y es auxiliar de los Jueces y Tribunales competentes en materia penal y del Ministerio fiscal, quedando obligada a seguir las instrucciones que reciba de esas autoridades para la investigación de los delitos y la persecución de los delincuentes. El artículo enumera después quiénes la integran (autoridades de seguridad pública, empleados de la policía de seguridad, Guardia Civil, etc.). Idea clave: función auxiliar y subordinada a la autoridad judicial y fiscal." },
-    { "id": "LEC-021", "articulo": "art. 284", "titulo": "Atestado sin autor conocido: conservación y plazo de 72 horas",
+      "explicacion": "El art. 283 define la posición de la Policía judicial: constituye y es auxiliar de los Jueces y Tribunales competentes en materia penal y del Ministerio fiscal, quedando obligada a seguir las instrucciones que reciba de esas autoridades para la investigación de los delitos y la persecución de los delincuentes. El artículo enumera después quiénes la integran (autoridades de seguridad pública, empleados de la policía de seguridad, Guardia Civil, etc.). Idea clave: función auxiliar y subordinada a la autoridad judicial y fiscal."
+    },
+    {
+      "id": "LEC-021",
+      "articulo": "art. 284",
+      "titulo": "Atestado sin autor conocido: conservación y plazo de 72 horas",
       "resumen": "Si no hay autor conocido, la Policía Judicial conserva el atestado a disposición del fiscal y del juez sin enviárselo, salvo en los casos tasados (delitos graves, diligencia con resultado tras 72 horas, o petición de remisión).",
-      "explicacion": "El art. 284 obliga a participar el conocimiento del delito a la autoridad judicial o al Ministerio Fiscal. Pero, cuando no exista autor conocido, la Policía Judicial conservará el atestado a su disposición sin enviárselo, salvo que concurra alguna circunstancia tasada: que se trate de delitos graves (contra la vida, integridad física, libertad e indemnidad sexuales o corrupción); que se practique cualquier diligencia con resultado después de transcurridas setenta y dos horas desde la apertura del atestado; o que el fiscal o el juez pidan la remisión. Retén el plazo de 72 horas ligado a los atestados sin autor conocido." },
-    { "id": "LEC-022", "articulo": "art. 286", "titulo": "Puesta de los detenidos a disposición del Juez y cese de la prevención",
+      "explicacion": "El art. 284 obliga a participar el conocimiento del delito a la autoridad judicial o al Ministerio Fiscal. Pero, cuando no exista autor conocido, la Policía Judicial conservará el atestado a su disposición sin enviárselo, salvo que concurra alguna circunstancia tasada: que se trate de delitos graves (contra la vida, integridad física, libertad e indemnidad sexuales o corrupción); que se practique cualquier diligencia con resultado después de transcurridas setenta y dos horas desde la apertura del atestado; o que el fiscal o el juez pidan la remisión. Retén el plazo de 72 horas ligado a los atestados sin autor conocido."
+    },
+    {
+      "id": "LEC-022",
+      "articulo": "art. 286",
+      "titulo": "Puesta de los detenidos a disposición del Juez y cese de la prevención",
       "resumen": "Cuando el Juez de instrucción se presenta a formar el sumario, cesan las diligencias de prevención y los agentes deben entregarle lo actuado y poner a su disposición a los detenidos.",
-      "explicacion": "El art. 286 marca el relevo del juez sobre la policía: cuando el Juez de instrucción o el municipal se presenten a formar el sumario, cesan las diligencias de prevención que estuviera practicando cualquier autoridad o agente de policía; estos deben entregarle en el acto lo actuado y los efectos del delito recogidos, y poner a su disposición a los detenidos, si los hubiese. Es la traducción operativa de que el detenido queda bajo control judicial." },
-    { "id": "LEC-023", "articulo": "art. 292", "titulo": "El atestado policial: contenido e informe de detenciones anteriores",
+      "explicacion": "El art. 286 marca el relevo del juez sobre la policía: cuando el Juez de instrucción o el municipal se presenten a formar el sumario, cesan las diligencias de prevención que estuviera practicando cualquier autoridad o agente de policía; estos deben entregarle en el acto lo actuado y los efectos del delito recogidos, y poner a su disposición a los detenidos, si los hubiese. Es la traducción operativa de que el detenido queda bajo control judicial."
+    },
+    {
+      "id": "LEC-023",
+      "articulo": "art. 292",
+      "titulo": "El atestado policial: contenido e informe de detenciones anteriores",
       "resumen": "La Policía judicial documenta sus diligencias en un atestado que refleja con exactitud los hechos averiguados, y remite con él un informe sobre detenciones anteriores y requisitorias.",
-      "explicacion": "El art. 292 regula el atestado: los funcionarios de Policía judicial extenderán un atestado de las diligencias que practiquen, especificando con la mayor exactitud los hechos averiguados, insertando las declaraciones e informes recibidos y anotando las circunstancias que puedan ser prueba o indicio del delito. Además, la Policía Judicial remitirá con el atestado un informe dando cuenta de las detenciones anteriores y de la existencia de requisitorias, cuando conste en sus bases de datos. El atestado es el documento básico de la investigación policial." },
-    { "id": "LEC-024", "articulo": "art. 295", "titulo": "Plazo máximo de 24 horas para dar conocimiento a la autoridad judicial o al fiscal",
+      "explicacion": "El art. 292 regula el atestado: los funcionarios de Policía judicial extenderán un atestado de las diligencias que practiquen, especificando con la mayor exactitud los hechos averiguados, insertando las declaraciones e informes recibidos y anotando las circunstancias que puedan ser prueba o indicio del delito. Además, la Policía Judicial remitirá con el atestado un informe dando cuenta de las detenciones anteriores y de la existencia de requisitorias, cuando conste en sus bases de datos. El atestado es el documento básico de la investigación policial."
+    },
+    {
+      "id": "LEC-024",
+      "articulo": "art. 295",
+      "titulo": "Plazo máximo de 24 horas para dar conocimiento a la autoridad judicial o al fiscal",
       "resumen": "La Policía Judicial no puede dejar transcurrir más de veinticuatro horas sin dar conocimiento de las diligencias practicadas a la autoridad judicial o al Ministerio Fiscal, salvo fuerza mayor.",
-      "explicacion": "El art. 295 fija un plazo estricto: en ningún caso los funcionarios de Policía Judicial podrán dejar transcurrir más de veinticuatro horas sin dar conocimiento a la autoridad judicial o al Ministerio Fiscal de las diligencias practicadas, salvo supuestos de fuerza mayor y el caso del atestado sin autor conocido del art. 284.2. No confundir este plazo de 24 horas para comunicar diligencias con las 72 horas del atestado sin autor conocido ni con el plazo de la detención." },
-    { "id": "LEC-025", "articulo": "art. 297", "titulo": "Valor del atestado: se considera denuncia a efectos legales",
+      "explicacion": "El art. 295 fija un plazo estricto: en ningún caso los funcionarios de Policía Judicial podrán dejar transcurrir más de veinticuatro horas sin dar conocimiento a la autoridad judicial o al Ministerio Fiscal de las diligencias practicadas, salvo supuestos de fuerza mayor y el caso del atestado sin autor conocido del art. 284.2. No confundir este plazo de 24 horas para comunicar diligencias con las 72 horas del atestado sin autor conocido ni con el plazo de la detención."
+    },
+    {
+      "id": "LEC-025",
+      "articulo": "art. 297",
+      "titulo": "Valor del atestado: se considera denuncia a efectos legales",
       "resumen": "Los atestados de la Policía judicial se consideran denuncias a los efectos legales; las demás declaraciones firmadas tienen valor de declaración testifical sobre hechos de conocimiento propio.",
-      "explicacion": "El art. 297 fija el valor procesal del atestado: los atestados que redacten y las manifestaciones que hagan los funcionarios de Policía judicial se considerarán denuncias para los efectos legales. Las demás declaraciones que presten, si están firmadas, tendrán el valor de declaraciones testificales en cuanto se refieran a hechos de conocimiento propio. Por eso el atestado, salvo lo comprobado en juicio, tiene por regla el valor de denuncia y no el de prueba plena." }
+      "explicacion": "El art. 297 fija el valor procesal del atestado: los atestados que redacten y las manifestaciones que hagan los funcionarios de Policía judicial se considerarán denuncias para los efectos legales. Las demás declaraciones que presten, si están firmadas, tendrán el valor de declaraciones testificales en cuanto se refieran a hechos de conocimiento propio. Por eso el atestado, salvo lo comprobado en juicio, tiene por regla el valor de denuncia y no el de prueba plena."
+    }
   ],
   "actividades": [
-    { "concepto_id": "LEC-001", "articulo": "art. 259", "tipo": "test",
+    {
+      "concepto_id": "LEC-001",
+      "articulo": "art. 259",
+      "tipo": "test",
       "enunciado": "Según el art. 259 LECrim, quien presencia la perpetración de un delito público está obligado a ponerlo inmediatamente en conocimiento de:",
-      "opciones": ["la Junta de Seguridad de su comunidad autónoma", "Juez de instrucción, de paz, comarcal o municipal o funcionario fiscal más próximo", "el Colegio de Abogados más próximo al lugar", "cualquier medio de comunicación"],
+      "opciones": [
+        "la Junta de Seguridad de su comunidad autónoma",
+        "Juez de instrucción, de paz, comarcal o municipal o funcionario fiscal más próximo",
+        "el Colegio de Abogados más próximo al lugar",
+        "cualquier medio de comunicación"
+      ],
       "indice_correcto": 1,
       "cotejo": "El que presenciare la perpetración de cualquier delito público está obligado a ponerlo inmediatamente en conocimiento del Juez de instrucción, de paz, comarcal o municipal o funcionario fiscal más próximo al sitio en que se hallare, bajo la multa de 25 a 250 pesetas.",
-      "justificacion": "Art. 259 LECrim." },
-    { "concepto_id": "LEC-002", "articulo": "art. 260", "tipo": "test",
+      "justificacion": "Art. 259 LECrim."
+    },
+    {
+      "concepto_id": "LEC-002",
+      "articulo": "art. 260",
+      "tipo": "test",
       "enunciado": "La obligación de denunciar del art. 259 no comprende, conforme al art. 260 LECrim, a:",
-      "opciones": ["los mayores de sesenta y cinco años", "los extranjeros sin residencia legal", "los impúberes ni a los que no gozaren del pleno uso de su razón", "los funcionarios en situación de excedencia"],
+      "opciones": [
+        "los mayores de sesenta y cinco años",
+        "los extranjeros sin residencia legal",
+        "los impúberes ni a los que no gozaren del pleno uso de su razón",
+        "los funcionarios en situación de excedencia"
+      ],
       "indice_correcto": 2,
       "cotejo": "La obligación establecida en el artículo anterior no comprende a los impúberes ni a los que no gozaren del pleno uso de su razón.",
-      "justificacion": "Art. 260 LECrim." },
-    { "concepto_id": "LEC-003", "articulo": "art. 261", "tipo": "test",
+      "justificacion": "Art. 260 LECrim."
+    },
+    {
+      "concepto_id": "LEC-003",
+      "articulo": "art. 261",
+      "tipo": "test",
       "enunciado": "¿Quién NO está obligado a denunciar según el art. 261 LECrim?",
-      "opciones": ["Quien sea cónyuge del delincuente no separado legalmente o de hecho o la persona que conviva con él en análoga relación de afectividad", "El cónyuge separado legalmente del delincuente", "Cualquier amigo íntimo del delincuente", "Los vecinos del domicilio del delincuente"],
+      "opciones": [
+        "Quien sea cónyuge del delincuente no separado legalmente o de hecho o la persona que conviva con él en análoga relación de afectividad",
+        "El cónyuge separado legalmente del delincuente",
+        "Cualquier amigo íntimo del delincuente",
+        "Los vecinos del domicilio del delincuente"
+      ],
       "indice_correcto": 0,
       "cotejo": "Tampoco estarán obligados a denunciar: 1.º Quien sea cónyuge del delincuente no separado legalmente o de hecho o la persona que conviva con él en análoga relación de afectividad. 2.º Quienes sean ascendientes y descendientes del delincuente y sus parientes colaterales hasta el segundo grado inclusive.",
-      "justificacion": "Art. 261 LECrim." },
-    { "concepto_id": "LEC-004", "articulo": "art. 261", "tipo": "test",
+      "justificacion": "Art. 261 LECrim."
+    },
+    {
+      "concepto_id": "LEC-004",
+      "articulo": "art. 261",
+      "tipo": "test",
       "enunciado": "La dispensa de denunciar por parentesco del art. 261 NO se aplica, cuando la víctima sea menor o persona con discapacidad necesitada de especial protección, si se trata entre otros de:",
-      "opciones": ["cualquier delito leve contra el patrimonio", "un delito de hurto de escasa cuantía", "una simple infracción administrativa", "un delito contra la vida, de un delito de homicidio"],
+      "opciones": [
+        "cualquier delito leve contra el patrimonio",
+        "un delito de hurto de escasa cuantía",
+        "una simple infracción administrativa",
+        "un delito contra la vida, de un delito de homicidio"
+      ],
       "indice_correcto": 3,
       "cotejo": "Esta disposición no será aplicable cuando se trate de un delito contra la vida, de un delito de homicidio, de un delito de lesiones de los artículos 149 y 150 del Código Penal, de un delito de maltrato habitual previsto en el artículo 173.2 del Código Penal, de un delito contra la libertad o contra la libertad e indemnidad sexual o de un delito de trata de seres humanos y la víctima del delito sea una persona menor de edad o una persona con discapacidad necesitada de especial protección.",
-      "justificacion": "Art. 261, párrafo final, LECrim." },
-    { "concepto_id": "LEC-005", "articulo": "art. 262", "tipo": "test",
+      "justificacion": "Art. 261, párrafo final, LECrim."
+    },
+    {
+      "concepto_id": "LEC-005",
+      "articulo": "art. 262",
+      "tipo": "test",
       "enunciado": "Quienes por razón de sus cargos, profesiones u oficios tuvieren noticia de un delito público, según el art. 262 LECrim, están obligados a:",
-      "opciones": ["guardar reserva profesional en todo caso", "esperar a ser requeridos por el juez", "denunciarlo inmediatamente al Ministerio fiscal, al Tribunal competente, al Juez de instrucción", "denunciarlo solo si son empleados públicos"],
+      "opciones": [
+        "guardar reserva profesional en todo caso",
+        "esperar a ser requeridos por el juez",
+        "denunciarlo inmediatamente al Ministerio fiscal, al Tribunal competente, al Juez de instrucción",
+        "denunciarlo solo si son empleados públicos"
+      ],
       "indice_correcto": 2,
       "cotejo": "Los que por razón de sus cargos, profesiones u oficios tuvieren noticia de algún delito público, estarán obligados a denunciarlo inmediatamente al Ministerio fiscal, al Tribunal competente, al Juez de instrucción y, en su defecto, al municipal o al funcionario de policía más próximo al sitio si se tratare de un delito flagrante.",
-      "justificacion": "Art. 262 LECrim." },
-    { "concepto_id": "LEC-006", "articulo": "art. 263", "tipo": "test",
+      "justificacion": "Art. 262 LECrim."
+    },
+    {
+      "concepto_id": "LEC-006",
+      "articulo": "art. 263",
+      "tipo": "test",
       "enunciado": "La obligación de denunciar del art. 262 no comprende, conforme al art. 263 LECrim, a:",
-      "opciones": ["los Abogados ni a los Procuradores respecto de las instrucciones o explicaciones que recibieren de sus clientes", "los médicos forenses respecto de sus informes", "los peritos judiciales respecto de sus dictámenes", "los agentes de la autoridad respecto de sus actuaciones"],
+      "opciones": [
+        "los Abogados ni a los Procuradores respecto de las instrucciones o explicaciones que recibieren de sus clientes",
+        "los médicos forenses respecto de sus informes",
+        "los peritos judiciales respecto de sus dictámenes",
+        "los agentes de la autoridad respecto de sus actuaciones"
+      ],
       "indice_correcto": 0,
       "cotejo": "La obligación impuesta en el párrafo primero del art. anterior no comprenderá a los Abogados ni a los Procuradores respecto de las instrucciones o explicaciones que recibieren de sus clientes. Tampoco comprenderá a los eclesiásticos y ministros de cultos disidentes respecto de las noticias que se les hubieren revelado en el ejercicio de las funciones de su ministerio.",
-      "justificacion": "Art. 263 LECrim." },
-    { "concepto_id": "LEC-007", "articulo": "art. 263 bis", "tipo": "test",
+      "justificacion": "Art. 263 LECrim."
+    },
+    {
+      "concepto_id": "LEC-007",
+      "articulo": "art. 263 bis",
+      "tipo": "test",
       "enunciado": "¿Quién puede autorizar la circulación o entrega vigilada de drogas tóxicas según el art. 263 bis LECrim?",
-      "opciones": ["únicamente el Delegado del Gobierno", "El Juez de Instrucción competente y el Ministerio Fiscal, así como los Jefes de las Unidades Orgánicas de Policía Judicial", "cualquier agente de policía por iniciativa propia", "el Alcalde del municipio donde se practique"],
+      "opciones": [
+        "únicamente el Delegado del Gobierno",
+        "El Juez de Instrucción competente y el Ministerio Fiscal, así como los Jefes de las Unidades Orgánicas de Policía Judicial",
+        "cualquier agente de policía por iniciativa propia",
+        "el Alcalde del municipio donde se practique"
+      ],
       "indice_correcto": 1,
       "cotejo": "El Juez de Instrucción competente y el Ministerio Fiscal, así como los Jefes de las Unidades Orgánicas de Policía Judicial, centrales o de ámbito provincial, y sus mandos superiores podrán autorizar la circulación o entrega vigilada de drogas tóxicas, estupefacientes o sustancias psicotrópicas, así como de otras sustancias prohibidas.",
-      "justificacion": "Art. 263 bis.1 LECrim." },
-    { "concepto_id": "LEC-008", "articulo": "art. 263 bis", "tipo": "test",
+      "justificacion": "Art. 263 bis.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-008",
+      "articulo": "art. 263 bis",
+      "tipo": "test",
       "enunciado": "Según el art. 263 bis, la técnica que permite que remesas ilícitas o sospechosas de droga circulen bajo vigilancia para identificar a los implicados se denomina:",
-      "opciones": ["agente encubierto", "circulación o entrega vigilada", "intervención de las comunicaciones", "registro domiciliario"],
+      "opciones": [
+        "agente encubierto",
+        "circulación o entrega vigilada",
+        "intervención de las comunicaciones",
+        "registro domiciliario"
+      ],
       "indice_correcto": 1,
       "cotejo": "Se entenderá por circulación o entrega vigilada la técnica consistente en permitir que remesas ilícitas o sospechosas de drogas tóxicas, sustancias psicotrópicas u otras sustancias prohibidas, los equipos, materiales y sustancias a que se refiere el apartado anterior, las sustancias por las que se haya sustituido las anteriormente mencionadas, así como los bienes y ganancias procedentes de las actividades delictivas tipificadas en los artículos 301 a 304 y 368 a 373 del Código Penal, circulen por territorio español o salgan o entren en él sin interferencia obstativa de la autoridad o sus agentes y bajo su vigilancia, con el fin de descubrir o identificar a las personas involucradas en la comisión de algún delito relativo a dichas drogas, sustancias, equipos, materiales, bienes y ganancias, así como también prestar auxilio a autoridades extranjeras en esos mismos fines.",
-      "justificacion": "Art. 263 bis.2 LECrim." },
-    { "concepto_id": "LEC-009", "articulo": "art. 264", "tipo": "test",
+      "justificacion": "Art. 263 bis.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-009",
+      "articulo": "art. 264",
+      "tipo": "test",
       "enunciado": "Quien conoce por otro medio un delito perseguible de oficio debe denunciarlo, pero según el art. 264 LECrim no queda obligado a:",
-      "opciones": ["probar los hechos denunciados ni a formalizar querella", "identificar al presunto autor", "acudir personalmente al juzgado", "declarar como testigo en el juicio"],
+      "opciones": [
+        "probar los hechos denunciados ni a formalizar querella",
+        "identificar al presunto autor",
+        "acudir personalmente al juzgado",
+        "declarar como testigo en el juicio"
+      ],
       "indice_correcto": 0,
       "cotejo": "El que por cualquier medio diferente de los mencionados tuviere conocimiento de la perpetración de algún delito de los que deben perseguirse de oficio, deberá denunciarlo al Ministerio Fiscal, al Tribunal competente o al Juez de instrucción o municipal, o funcionario de policía, sin que se entienda obligado por esto a probar los hechos denunciados ni a formalizar querella.",
-      "justificacion": "Art. 264 LECrim." },
-    { "concepto_id": "LEC-010", "articulo": "art. 265", "tipo": "test",
+      "justificacion": "Art. 264 LECrim."
+    },
+    {
+      "concepto_id": "LEC-010",
+      "articulo": "art. 265",
+      "tipo": "test",
       "enunciado": "Según el art. 265 LECrim, las denuncias podrán hacerse:",
-      "opciones": ["solo por escrito y ante notario", "exclusivamente de forma presencial en dependencias policiales", "por escrito o de palabra, personalmente o por medio de mandatario con poder especial", "únicamente por vía telemática con certificado"],
+      "opciones": [
+        "solo por escrito y ante notario",
+        "exclusivamente de forma presencial en dependencias policiales",
+        "por escrito o de palabra, personalmente o por medio de mandatario con poder especial",
+        "únicamente por vía telemática con certificado"
+      ],
       "indice_correcto": 2,
       "cotejo": "Las denuncias podrán hacerse por escrito o de palabra, personalmente o por medio de mandatario con poder especial.",
-      "justificacion": "Art. 265.1 LECrim." },
-    { "concepto_id": "LEC-011", "articulo": "art. 265", "tipo": "test",
+      "justificacion": "Art. 265.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-011",
+      "articulo": "art. 265",
+      "tipo": "test",
       "enunciado": "El contenido de la denuncia, conforme al art. 265 LECrim, comprende necesariamente:",
-      "opciones": ["la valoración jurídica del delito cometido", "la proposición de la pena que corresponde", "la identificación de la persona denunciante y la narración circunstanciada del hecho", "la lista de pruebas periciales a practicar"],
+      "opciones": [
+        "la valoración jurídica del delito cometido",
+        "la proposición de la pena que corresponde",
+        "la identificación de la persona denunciante y la narración circunstanciada del hecho",
+        "la lista de pruebas periciales a practicar"
+      ],
       "indice_correcto": 2,
       "cotejo": "La denuncia contendrá la identificación de la persona denunciante y la narración circunstanciada del hecho.",
-      "justificacion": "Art. 265.2 LECrim." },
-    { "concepto_id": "LEC-012", "articulo": "art. 266", "tipo": "test",
+      "justificacion": "Art. 265.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-012",
+      "articulo": "art. 266",
+      "tipo": "test",
       "enunciado": "¿Cuál de los siguientes hechos NO puede denunciarse por vía telemática según el art. 266 LECrim?",
-      "opciones": ["aquellos hechos que se hayan producido con violencia o intimidación", "los delitos leves contra el patrimonio sin autor conocido", "las infracciones de tráfico", "cualquier hecho del que no existan testigos"],
+      "opciones": [
+        "aquellos hechos que se hayan producido con violencia o intimidación",
+        "los delitos leves contra el patrimonio sin autor conocido",
+        "las infracciones de tráfico",
+        "cualquier hecho del que no existan testigos"
+      ],
       "indice_correcto": 0,
       "cotejo": "No se podrán denunciar por vía telemática aquellos hechos que se hayan producido con violencia o intimidación, ni si tienen autor conocido, ni si existen testigos, ni si el denunciante es menor de edad, ni si se ha cometido delito flagrante, ni aquellos hechos de naturaleza violenta o sexual.",
-      "justificacion": "Art. 266 LECrim." },
-    { "concepto_id": "LEC-013", "articulo": "art. 267", "tipo": "test",
+      "justificacion": "Art. 266 LECrim."
+    },
+    {
+      "concepto_id": "LEC-013",
+      "articulo": "art. 267",
+      "tipo": "test",
       "enunciado": "Cuando la denuncia sea verbal, según el art. 267 LECrim, la autoridad o funcionario que la recibe:",
-      "opciones": ["la rechazará por falta de forma escrita", "extenderá un acta por la autoridad o funcionario que la recibiere", "la remitirá al fiscal sin documentarla", "la grabará únicamente en soporte de vídeo"],
+      "opciones": [
+        "la rechazará por falta de forma escrita",
+        "extenderá un acta por la autoridad o funcionario que la recibiere",
+        "la remitirá al fiscal sin documentarla",
+        "la grabará únicamente en soporte de vídeo"
+      ],
       "indice_correcto": 1,
       "cotejo": "Cuando la denuncia sea verbal, se extenderá un acta por la autoridad o funcionario que la recibiere, en la que, en forma de declaración, se expresarán cuantas noticias tenga el denunciante relativas al hecho denunciado y a sus circunstancias, firmándola ambos a continuación.",
-      "justificacion": "Art. 267 LECrim." },
-    { "concepto_id": "LEC-014", "articulo": "art. 268", "tipo": "test",
+      "justificacion": "Art. 267 LECrim."
+    },
+    {
+      "concepto_id": "LEC-014",
+      "articulo": "art. 268",
+      "tipo": "test",
       "enunciado": "Según el art. 268 LECrim, si el denunciador lo exigiere, la autoridad o funcionario que recibe la denuncia:",
-      "opciones": ["le exigirán el pago de una tasa", "le tomarán declaración jurada ante notario", "le darán un resguardo de haber formalizado la denuncia", "no está prevista ninguna constancia de la presentación"],
+      "opciones": [
+        "le exigirán el pago de una tasa",
+        "le tomarán declaración jurada ante notario",
+        "le darán un resguardo de haber formalizado la denuncia",
+        "no está prevista ninguna constancia de la presentación"
+      ],
       "indice_correcto": 2,
       "cotejo": "El Juez, Tribunal, autoridad o funcionario que recibieren una denuncia verbal o escrita harán constar por la cédula personal o por otros medios que reputen suficientes, la identidad de la persona del denunciador. Si éste lo exigiere, le darán un resguardo de haber formalizado la denuncia.",
-      "justificacion": "Art. 268 LECrim." },
-    { "concepto_id": "LEC-015", "articulo": "art. 269", "tipo": "test",
+      "justificacion": "Art. 268 LECrim."
+    },
+    {
+      "concepto_id": "LEC-015",
+      "articulo": "art. 269",
+      "tipo": "test",
       "enunciado": "Formalizada la denuncia, según el art. 269 LECrim se comprobará el hecho inmediatamente, salvo:",
-      "opciones": ["que el denunciante no abone la tasa correspondiente", "que hayan transcurrido más de veinticuatro horas", "que éste no revistiere carácter de delito, o que la denuncia fuere manifiestamente falsa", "que el denunciado sea persona aforada"],
+      "opciones": [
+        "que el denunciante no abone la tasa correspondiente",
+        "que hayan transcurrido más de veinticuatro horas",
+        "que éste no revistiere carácter de delito, o que la denuncia fuere manifiestamente falsa",
+        "que el denunciado sea persona aforada"
+      ],
       "indice_correcto": 2,
       "cotejo": "Formalizada que sea la denuncia, se procederá o mandará proceder inmediatamente por el Juez o funcionario a quien se hiciese a la comprobación del hecho denunciado, salvo que éste no revistiere carácter de delito, o que la denuncia fuere manifiestamente falsa.",
-      "justificacion": "Art. 269 LECrim." },
-    { "concepto_id": "LEC-016", "articulo": "art. 118", "tipo": "test",
+      "justificacion": "Art. 269 LECrim."
+    },
+    {
+      "concepto_id": "LEC-016",
+      "articulo": "art. 118",
+      "tipo": "test",
       "enunciado": "Según el art. 118 LECrim, la persona a quien se atribuye un hecho punible puede ejercer el derecho de defensa:",
-      "opciones": ["solo tras la apertura del juicio oral", "desde que se le comunique su existencia, haya sido objeto de detención o de cualquier otra medida cautelar o se haya acordado su procesamiento", "únicamente cuando el juez dicte sentencia", "solo si resulta condenada en primera instancia"],
+      "opciones": [
+        "solo tras la apertura del juicio oral",
+        "desde que se le comunique su existencia, haya sido objeto de detención o de cualquier otra medida cautelar o se haya acordado su procesamiento",
+        "únicamente cuando el juez dicte sentencia",
+        "solo si resulta condenada en primera instancia"
+      ],
       "indice_correcto": 1,
       "cotejo": "Toda persona a quien se atribuya un hecho punible podrá ejercitar el derecho de defensa, interviniendo en las actuaciones, desde que se le comunique su existencia, haya sido objeto de detención o de cualquier otra medida cautelar o se haya acordado su procesamiento, a cuyo efecto se le instruirá, sin demora injustificada, de los siguientes derechos:",
-      "justificacion": "Art. 118.1 LECrim." },
-    { "concepto_id": "LEC-017", "articulo": "art. 118", "tipo": "test",
+      "justificacion": "Art. 118.1 LECrim."
+    },
+    {
+      "concepto_id": "LEC-017",
+      "articulo": "art. 118",
+      "tipo": "test",
       "enunciado": "Entre los derechos que el art. 118 LECrim reconoce al detenido o investigado figura el derecho a:",
-      "opciones": ["declarar obligatoriamente ante la policía", "confesar para obtener una reducción de la pena", "guardar silencio y a no prestar declaración si no desea hacerlo", "renunciar en todo caso a la asistencia letrada"],
+      "opciones": [
+        "declarar obligatoriamente ante la policía",
+        "confesar para obtener una reducción de la pena",
+        "guardar silencio y a no prestar declaración si no desea hacerlo",
+        "renunciar en todo caso a la asistencia letrada"
+      ],
       "indice_correcto": 2,
       "cotejo": "g) Derecho a guardar silencio y a no prestar declaración si no desea hacerlo, y a no contestar a alguna o algunas de las preguntas que se le formulen. h) Derecho a no declarar contra sí mismo y a no confesarse culpable.",
-      "justificacion": "Art. 118.1 g) y h) LECrim." },
-    { "concepto_id": "LEC-018", "articulo": "art. 118", "tipo": "test",
+      "justificacion": "Art. 118.1 g) y h) LECrim."
+    },
+    {
+      "concepto_id": "LEC-018",
+      "articulo": "art. 118",
+      "tipo": "test",
       "enunciado": "El derecho de defensa del art. 118.2 LECrim comprende la asistencia letrada de un abogado con el que el investigado podrá comunicarse y entrevistarse:",
-      "opciones": ["solo después de su primera declaración policial", "reservadamente, incluso antes de que se le reciba declaración por la policía, el fiscal o la autoridad judicial", "únicamente por escrito y a través del juzgado", "sin posibilidad de designar abogado de oficio"],
+      "opciones": [
+        "solo después de su primera declaración policial",
+        "reservadamente, incluso antes de que se le reciba declaración por la policía, el fiscal o la autoridad judicial",
+        "únicamente por escrito y a través del juzgado",
+        "sin posibilidad de designar abogado de oficio"
+      ],
       "indice_correcto": 1,
       "cotejo": "El derecho de defensa comprende la asistencia letrada de un abogado de libre designación o, en su defecto, de un abogado de oficio, con el que podrá comunicarse y entrevistarse reservadamente, incluso antes de que se le reciba declaración por la policía, el fiscal o la autoridad judicial, sin perjuicio de lo dispuesto en el artículo 527 y que estará presente en todas sus declaraciones así como en las diligencias de reconocimiento, careos y reconstrucción de hechos.",
-      "justificacion": "Art. 118.2 LECrim." },
-    { "concepto_id": "LEC-019", "articulo": "art. 118", "tipo": "test",
+      "justificacion": "Art. 118.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-019",
+      "articulo": "art. 118",
+      "tipo": "test",
       "enunciado": "Según el art. 118.4 LECrim, las comunicaciones entre el investigado o encausado y su abogado:",
-      "opciones": ["podrán grabarse libremente por la policía", "deberán documentarse íntegramente en el atestado", "tendrán carácter confidencial", "carecen de protección legal alguna"],
+      "opciones": [
+        "podrán grabarse libremente por la policía",
+        "deberán documentarse íntegramente en el atestado",
+        "tendrán carácter confidencial",
+        "carecen de protección legal alguna"
+      ],
       "indice_correcto": 2,
       "cotejo": "Todas las comunicaciones entre el investigado o encausado y su abogado tendrán carácter confidencial.",
-      "justificacion": "Art. 118.4 LECrim." },
-    { "concepto_id": "LEC-020", "articulo": "art. 283", "tipo": "test",
+      "justificacion": "Art. 118.4 LECrim."
+    },
+    {
+      "concepto_id": "LEC-020",
+      "articulo": "art. 283",
+      "tipo": "test",
       "enunciado": "Según el art. 283 LECrim, la Policía judicial es:",
-      "opciones": ["un cuerpo independiente que no sigue instrucciones de nadie", "auxiliares de los Jueces y Tribunales competentes en materia penal y del Ministerio fiscal", "un órgano con potestad para juzgar delitos", "auxiliar únicamente del Gobierno de la Nación"],
+      "opciones": [
+        "un cuerpo independiente que no sigue instrucciones de nadie",
+        "auxiliares de los Jueces y Tribunales competentes en materia penal y del Ministerio fiscal",
+        "un órgano con potestad para juzgar delitos",
+        "auxiliar únicamente del Gobierno de la Nación"
+      ],
       "indice_correcto": 1,
       "cotejo": "Constituirán la Policía judicial y serán auxiliares de los Jueces y Tribunales competentes en materia penal y del Ministerio fiscal, quedando obligados a seguir las instrucciones que de aquellas autoridades reciban a efectos de la investigación de los delitos y persecución de los delincuentes:",
-      "justificacion": "Art. 283 LECrim." },
-    { "concepto_id": "LEC-021", "articulo": "art. 284", "tipo": "test",
+      "justificacion": "Art. 283 LECrim."
+    },
+    {
+      "concepto_id": "LEC-021",
+      "articulo": "art. 284",
+      "tipo": "test",
       "enunciado": "Cuando no exista autor conocido del delito, según el art. 284.2 LECrim la Policía Judicial, por regla general:",
-      "opciones": ["archivará definitivamente el atestado", "conservará el atestado a disposición del Ministerio Fiscal y de la autoridad judicial, sin enviárselo", "remitirá siempre el atestado en un plazo de veinticuatro horas", "destruirá el atestado transcurridas setenta y dos horas"],
+      "opciones": [
+        "archivará definitivamente el atestado",
+        "conservará el atestado a disposición del Ministerio Fiscal y de la autoridad judicial, sin enviárselo",
+        "remitirá siempre el atestado en un plazo de veinticuatro horas",
+        "destruirá el atestado transcurridas setenta y dos horas"
+      ],
       "indice_correcto": 1,
       "cotejo": "No obstante, cuando no exista autor conocido del delito la Policía Judicial conservará el atestado a disposición del Ministerio Fiscal y de la autoridad judicial, sin enviárselo, salvo que concurra alguna de las siguientes circunstancias:",
-      "justificacion": "Art. 284.2 LECrim." },
-    { "concepto_id": "LEC-022", "articulo": "art. 286", "tipo": "test",
+      "justificacion": "Art. 284.2 LECrim."
+    },
+    {
+      "concepto_id": "LEC-022",
+      "articulo": "art. 286",
+      "tipo": "test",
       "enunciado": "Según el art. 286 LECrim, cuando el Juez de instrucción se presenta a formar el sumario, los agentes que practicaban diligencias de prevención deben, entre otras cosas:",
-      "opciones": ["mantener a los detenidos bajo su custodia de forma indefinida", "continuar las diligencias de prevención en paralelo", "poniendo a su disposición a los detenidos, si los hubiese", "liberar de inmediato a todos los detenidos"],
+      "opciones": [
+        "mantener a los detenidos bajo su custodia de forma indefinida",
+        "continuar las diligencias de prevención en paralelo",
+        "poniendo a su disposición a los detenidos, si los hubiese",
+        "liberar de inmediato a todos los detenidos"
+      ],
       "indice_correcto": 2,
       "cotejo": "Cuando el Juez de instrucción o el municipal se presentaren a formar el sumario, cesarán las diligencias de prevención que estuviere practicando cualquier Autoridad o agente de policía; debiendo éstos entregarlas en el acto a dicho Juez, así como los efectos relativos al delito que se hubiesen recogido, y poniendo a su disposición a los detenidos, si los hubiese.",
-      "justificacion": "Art. 286 LECrim." },
-    { "concepto_id": "LEC-023", "articulo": "art. 292", "tipo": "test",
+      "justificacion": "Art. 286 LECrim."
+    },
+    {
+      "concepto_id": "LEC-023",
+      "articulo": "art. 292",
+      "tipo": "test",
       "enunciado": "Según el art. 292 LECrim, los funcionarios de Policía judicial documentan las diligencias que practiquen mediante:",
-      "opciones": ["una sentencia", "un auto de procesamiento", "un atestado de las diligencias que practiquen", "una querella"],
+      "opciones": [
+        "una sentencia",
+        "un auto de procesamiento",
+        "un atestado de las diligencias que practiquen",
+        "una querella"
+      ],
       "indice_correcto": 2,
       "cotejo": "Los funcionarios de Policía judicial extenderán, bien en papel sellado, bien en papel común, un atestado de las diligencias que practiquen, en el cual especificarán con la mayor exactitud los hechos por ellos averiguados, insertando las declaraciones e informes recibidos y anotando todas las circunstancias que hubiesen observado y pudiesen ser prueba o indicio del delito.",
-      "justificacion": "Art. 292 LECrim." },
-    { "concepto_id": "LEC-024", "articulo": "art. 295", "tipo": "test",
+      "justificacion": "Art. 292 LECrim."
+    },
+    {
+      "concepto_id": "LEC-024",
+      "articulo": "art. 295",
+      "tipo": "test",
       "enunciado": "¿Cuál es el plazo máximo que, según el art. 295 LECrim, puede dejar transcurrir la Policía Judicial sin dar conocimiento de las diligencias a la autoridad judicial o al Ministerio Fiscal?",
-      "opciones": ["setenta y dos horas", "veinticuatro horas", "doce horas", "cuarenta y ocho horas"],
+      "opciones": [
+        "setenta y dos horas",
+        "veinticuatro horas",
+        "doce horas",
+        "cuarenta y ocho horas"
+      ],
       "indice_correcto": 1,
       "cotejo": "En ningún caso los funcionarios de Policía Judicial podrán dejar transcurrir más de veinticuatro horas sin dar conocimiento a la autoridad judicial o al Ministerio Fiscal de las diligencias que hubieran practicado, salvo en los supuestos de fuerza mayor y en el previsto en el apartado 2 del artículo 284.",
-      "justificacion": "Art. 295 LECrim." },
-    { "concepto_id": "LEC-025", "articulo": "art. 297", "tipo": "test",
+      "justificacion": "Art. 295 LECrim."
+    },
+    {
+      "concepto_id": "LEC-025",
+      "articulo": "art. 297",
+      "tipo": "test",
       "enunciado": "Según el art. 297 LECrim, los atestados que redactan los funcionarios de Policía judicial:",
-      "opciones": ["tienen valor de sentencia firme", "se considerarán denuncias para los efectos legales", "no producen efecto procesal alguno", "equivalen a una prueba pericial irrefutable"],
+      "opciones": [
+        "tienen valor de sentencia firme",
+        "se considerarán denuncias para los efectos legales",
+        "no producen efecto procesal alguno",
+        "equivalen a una prueba pericial irrefutable"
+      ],
       "indice_correcto": 1,
       "cotejo": "Los atestados que redactaren y las manifestaciones que hicieren los funcionarios de Policía judicial, a consecuencia de las averiguaciones que hubiesen practicado, se considerarán denuncias para los efectos legales.",
-      "justificacion": "Art. 297 LECrim." }
+      "justificacion": "Art. 297 LECrim."
+    }
   ],
   "relaciones": [
-    { "origen": "LEC-002", "destino": "LEC-001", "tipo": "limita", "justificacion": "La exención de impúberes y quienes no gozan de razón limita la obligación general de denunciar del art. 259." },
-    { "origen": "LEC-003", "destino": "LEC-001", "tipo": "limita", "justificacion": "La dispensa por parentesco excepciona la obligación general de denunciar." },
-    { "origen": "LEC-004", "destino": "LEC-003", "tipo": "limita", "justificacion": "El párrafo final del art. 261 restringe la propia dispensa por parentesco en delitos graves con víctima vulnerable." },
-    { "origen": "LEC-005", "destino": "LEC-001", "tipo": "desarrolla", "justificacion": "La obligación reforzada por cargo/profesión concreta y agrava la obligación genérica de denunciar." },
-    { "origen": "LEC-006", "destino": "LEC-005", "tipo": "limita", "justificacion": "El secreto profesional de abogados/procuradores y eclesiásticos excepciona el deber reforzado del art. 262." },
-    { "origen": "LEC-008", "destino": "LEC-007", "tipo": "desarrolla", "justificacion": "La definición de entrega vigilada desarrolla el régimen de autorización del art. 263 bis." },
-    { "origen": "LEC-007", "destino": "LEC-020", "tipo": "desarrolla", "justificacion": "La autorización de la entrega vigilada por jefes de policía judicial se apoya en la función auxiliar de la Policía judicial." },
-    { "origen": "LEC-009", "destino": "LEC-001", "tipo": "desarrolla", "justificacion": "El art. 264 amplía la obligación de denunciar a quien conoce el delito por otro medio." },
-    { "origen": "LEC-011", "destino": "LEC-010", "tipo": "desarrolla", "justificacion": "El contenido de la denuncia concreta la regulación de su forma." },
-    { "origen": "LEC-012", "destino": "LEC-010", "tipo": "limita", "justificacion": "La exclusión de la vía telemática restringe la forma de presentar denuncia en ciertos hechos." },
-    { "origen": "LEC-013", "destino": "LEC-010", "tipo": "desarrolla", "justificacion": "La denuncia verbal desarrolla la modalidad oral prevista en la forma de la denuncia." },
-    { "origen": "LEC-014", "destino": "LEC-010", "tipo": "desarrolla", "justificacion": "La constancia de identidad y el resguardo desarrollan las garantías de la presentación de la denuncia." },
-    { "origen": "LEC-015", "destino": "LEC-014", "tipo": "desarrolla", "justificacion": "La comprobación del hecho es el paso posterior a la formalización de la denuncia." },
-    { "origen": "LEC-017", "destino": "LEC-016", "tipo": "desarrolla", "justificacion": "El derecho al silencio concreta el derecho de defensa del detenido/investigado." },
-    { "origen": "LEC-018", "destino": "LEC-016", "tipo": "desarrolla", "justificacion": "La asistencia letrada concreta el derecho de defensa." },
-    { "origen": "LEC-019", "destino": "LEC-018", "tipo": "desarrolla", "justificacion": "La confidencialidad de las comunicaciones desarrolla la asistencia letrada." },
-    { "origen": "LEC-021", "destino": "LEC-023", "tipo": "desarrolla", "justificacion": "El régimen del atestado sin autor conocido desarrolla la figura del atestado policial." },
-    { "origen": "LEC-023", "destino": "LEC-020", "tipo": "desarrolla", "justificacion": "El atestado es el instrumento documental de la Policía judicial." },
-    { "origen": "LEC-022", "destino": "LEC-020", "tipo": "desarrolla", "justificacion": "La puesta de detenidos a disposición judicial concreta la subordinación de la Policía judicial al juez." },
-    { "origen": "LEC-024", "destino": "LEC-023", "tipo": "desarrolla", "justificacion": "El plazo de 24 horas para comunicar diligencias desarrolla el régimen del atestado." },
-    { "origen": "LEC-025", "destino": "LEC-001", "tipo": "remite", "justificacion": "El atestado se considera denuncia a efectos legales, remitiendo al régimen de la denuncia." }
+    {
+      "origen": "LEC-002",
+      "destino": "LEC-001",
+      "tipo": "limita",
+      "justificacion": "La exención de impúberes y quienes no gozan de razón limita la obligación general de denunciar del art. 259."
+    },
+    {
+      "origen": "LEC-003",
+      "destino": "LEC-001",
+      "tipo": "limita",
+      "justificacion": "La dispensa por parentesco excepciona la obligación general de denunciar."
+    },
+    {
+      "origen": "LEC-004",
+      "destino": "LEC-003",
+      "tipo": "limita",
+      "justificacion": "El párrafo final del art. 261 restringe la propia dispensa por parentesco en delitos graves con víctima vulnerable."
+    },
+    {
+      "origen": "LEC-005",
+      "destino": "LEC-001",
+      "tipo": "desarrolla",
+      "justificacion": "La obligación reforzada por cargo/profesión concreta y agrava la obligación genérica de denunciar."
+    },
+    {
+      "origen": "LEC-006",
+      "destino": "LEC-005",
+      "tipo": "limita",
+      "justificacion": "El secreto profesional de abogados/procuradores y eclesiásticos excepciona el deber reforzado del art. 262."
+    },
+    {
+      "origen": "LEC-008",
+      "destino": "LEC-007",
+      "tipo": "desarrolla",
+      "justificacion": "La definición de entrega vigilada desarrolla el régimen de autorización del art. 263 bis."
+    },
+    {
+      "origen": "LEC-007",
+      "destino": "LEC-020",
+      "tipo": "desarrolla",
+      "justificacion": "La autorización de la entrega vigilada por jefes de policía judicial se apoya en la función auxiliar de la Policía judicial."
+    },
+    {
+      "origen": "LEC-009",
+      "destino": "LEC-001",
+      "tipo": "desarrolla",
+      "justificacion": "El art. 264 amplía la obligación de denunciar a quien conoce el delito por otro medio."
+    },
+    {
+      "origen": "LEC-011",
+      "destino": "LEC-010",
+      "tipo": "desarrolla",
+      "justificacion": "El contenido de la denuncia concreta la regulación de su forma."
+    },
+    {
+      "origen": "LEC-012",
+      "destino": "LEC-010",
+      "tipo": "limita",
+      "justificacion": "La exclusión de la vía telemática restringe la forma de presentar denuncia en ciertos hechos."
+    },
+    {
+      "origen": "LEC-013",
+      "destino": "LEC-010",
+      "tipo": "desarrolla",
+      "justificacion": "La denuncia verbal desarrolla la modalidad oral prevista en la forma de la denuncia."
+    },
+    {
+      "origen": "LEC-014",
+      "destino": "LEC-010",
+      "tipo": "desarrolla",
+      "justificacion": "La constancia de identidad y el resguardo desarrollan las garantías de la presentación de la denuncia."
+    },
+    {
+      "origen": "LEC-015",
+      "destino": "LEC-014",
+      "tipo": "desarrolla",
+      "justificacion": "La comprobación del hecho es el paso posterior a la formalización de la denuncia."
+    },
+    {
+      "origen": "LEC-017",
+      "destino": "LEC-016",
+      "tipo": "desarrolla",
+      "justificacion": "El derecho al silencio concreta el derecho de defensa del detenido/investigado."
+    },
+    {
+      "origen": "LEC-018",
+      "destino": "LEC-016",
+      "tipo": "desarrolla",
+      "justificacion": "La asistencia letrada concreta el derecho de defensa."
+    },
+    {
+      "origen": "LEC-019",
+      "destino": "LEC-018",
+      "tipo": "desarrolla",
+      "justificacion": "La confidencialidad de las comunicaciones desarrolla la asistencia letrada."
+    },
+    {
+      "origen": "LEC-021",
+      "destino": "LEC-023",
+      "tipo": "desarrolla",
+      "justificacion": "El régimen del atestado sin autor conocido desarrolla la figura del atestado policial."
+    },
+    {
+      "origen": "LEC-023",
+      "destino": "LEC-020",
+      "tipo": "desarrolla",
+      "justificacion": "El atestado es el instrumento documental de la Policía judicial."
+    },
+    {
+      "origen": "LEC-022",
+      "destino": "LEC-020",
+      "tipo": "desarrolla",
+      "justificacion": "La puesta de detenidos a disposición judicial concreta la subordinación de la Policía judicial al juez."
+    },
+    {
+      "origen": "LEC-024",
+      "destino": "LEC-023",
+      "tipo": "desarrolla",
+      "justificacion": "El plazo de 24 horas para comunicar diligencias desarrolla el régimen del atestado."
+    },
+    {
+      "origen": "LEC-025",
+      "destino": "LEC-001",
+      "tipo": "remite",
+      "justificacion": "El atestado se considera denuncia a efectos legales, remitiendo al régimen de la denuncia."
+    }
   ]
 }

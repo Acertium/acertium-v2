@@ -4,7 +4,7 @@
     "norma": "Ley Orgánica 3/1981, del Defensor del Pueblo",
     "referencia_boe": "BOE-A-1981-10325",
     "convocatoria": "policia-nacional-2026",
-    "tema": "Tema 2 — La Constitución Española (I): estructura, caracteres, valores y principios; derechos y deberes; el Defensor del Pueblo"
+    "tema": "Tema 2 — La Constitución Española (I): estructura y caracteres; los valores; los principios del régimen constitucional; los derechos y deberes fundamentales, sus garantías y su suspensión; el Defensor del Pueblo"
   },
   "fuentes": {
     "art. primero": "El Defensor del Pueblo es el alto comisionado de las Cortes Generales designado por éstas para la defensa de los derechos comprendidos en el Título I de la Constitución, a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales. Ejercerá las funciones que le encomienda la Constitución y la presente Ley.",
@@ -582,29 +582,149 @@
     }
   ],
   "relaciones": [
-    { "origen": "DP-002", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "El mandato de cinco años concreta la figura del alto comisionado del art. 1." },
-    { "origen": "DP-003", "destino": "DP-004", "tipo": "prerrequisito", "justificacion": "La Comisión Mixta propone al candidato antes de la elección." },
-    { "origen": "DP-005", "destino": "DP-004", "tipo": "prerrequisito", "justificacion": "Cumplir los requisitos del art. 3 es condición previa para ser elegido." },
-    { "origen": "DP-004", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "La elección por 3/5 concreta la designación por las Cortes del art. 1." },
-    { "origen": "DP-006", "destino": "DP-004", "tipo": "desarrolla", "justificacion": "La toma de posesión completa el proceso iniciado con la elección." },
-    { "origen": "DP-007", "destino": "DP-002", "tipo": "limita", "justificacion": "Las causas de cese pueden interrumpir el mandato de cinco años." },
-    { "origen": "DP-008", "destino": "DP-007", "tipo": "desarrolla", "justificacion": "La declaración de vacante y la interinidad concretan los efectos del cese." },
-    { "origen": "DP-009", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "La autonomía es rasgo funcional del alto comisionado del art. 1." },
-    { "origen": "DP-010", "destino": "DP-009", "tipo": "desarrolla", "justificacion": "La inviolabilidad protege la independencia y autonomía del cargo." },
-    { "origen": "DP-011", "destino": "DP-010", "tipo": "desarrolla", "justificacion": "La inmunidad completa el régimen de protección del titular junto a la inviolabilidad." },
-    { "origen": "DP-012", "destino": "DP-009", "tipo": "limita", "justificacion": "Las incompatibilidades restringen la actividad personal del titular." },
-    { "origen": "DP-013", "destino": "DP-005", "tipo": "remite", "justificacion": "A los Adjuntos se les aplica el art. 3 sobre requisitos." },
-    { "origen": "DP-013", "destino": "DP-010", "tipo": "remite", "justificacion": "A los Adjuntos se les aplica el art. 6 sobre prerrogativas." },
-    { "origen": "DP-013", "destino": "DP-012", "tipo": "remite", "justificacion": "A los Adjuntos se les aplica el art. 7 sobre incompatibilidades." },
-    { "origen": "DP-015", "destino": "DP-014", "tipo": "desarrolla", "justificacion": "Quién puede presentar queja concreta el inicio a petición de parte." },
-    { "origen": "DP-017", "destino": "DP-014", "tipo": "desarrolla", "justificacion": "La supervisión de las CCAA amplía el ámbito de investigación." },
-    { "origen": "DP-016", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "La continuidad de la actividad garantiza la función institucional." },
-    { "origen": "DP-018", "destino": "DP-014", "tipo": "limita", "justificacion": "Las quejas sobre Justicia se derivan y no las investiga directamente." },
-    { "origen": "DP-019", "destino": "DP-021", "tipo": "prerrequisito", "justificacion": "La presentación de la queja precede a su registro o rechazo." },
-    { "origen": "DP-020", "destino": "DP-019", "tipo": "desarrolla", "justificacion": "La gratuidad concreta el régimen de presentación de la queja." },
-    { "origen": "DP-022", "destino": "DP-021", "tipo": "desarrolla", "justificacion": "Admitida la queja tras su tramitación, se abre la investigación." },
-    { "origen": "DP-023", "destino": "DP-022", "tipo": "prerrequisito", "justificacion": "El deber de colaboración hace posible la investigación." },
-    { "origen": "DP-024", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "La legitimación para los recursos concreta la defensa de los derechos del Título I." },
-    { "origen": "DP-025", "destino": "DP-001", "tipo": "desarrolla", "justificacion": "El informe anual concreta el deber de dar cuenta a las Cortes Generales." }
+    {
+      "origen": "DP-002",
+      "destino": "DP-001",
+      "tipo": "desarrolla",
+      "justificacion": "El mandato de cinco años concreta la figura del alto comisionado del art. 1."
+    },
+    {
+      "origen": "DP-003",
+      "destino": "DP-004",
+      "tipo": "prerrequisito",
+      "justificacion": "La Comisión Mixta propone al candidato antes de la elección."
+    },
+    {
+      "origen": "DP-005",
+      "destino": "DP-004",
+      "tipo": "prerrequisito",
+      "justificacion": "Cumplir los requisitos del art. 3 es condición previa para ser elegido."
+    },
+    {
+      "origen": "DP-004",
+      "destino": "DP-001",
+      "tipo": "desarrolla",
+      "justificacion": "La elección por 3/5 concreta la designación por las Cortes del art. 1."
+    },
+    {
+      "origen": "DP-006",
+      "destino": "DP-004",
+      "tipo": "desarrolla",
+      "justificacion": "La toma de posesión completa el proceso iniciado con la elección."
+    },
+    {
+      "origen": "DP-007",
+      "destino": "DP-002",
+      "tipo": "limita",
+      "justificacion": "Las causas de cese pueden interrumpir el mandato de cinco años."
+    },
+    {
+      "origen": "DP-008",
+      "destino": "DP-007",
+      "tipo": "desarrolla",
+      "justificacion": "La declaración de vacante y la interinidad concretan los efectos del cese."
+    },
+    {
+      "origen": "DP-009",
+      "destino": "DP-001",
+      "tipo": "desarrolla",
+      "justificacion": "La autonomía es rasgo funcional del alto comisionado del art. 1."
+    },
+    {
+      "origen": "DP-010",
+      "destino": "DP-009",
+      "tipo": "desarrolla",
+      "justificacion": "La inviolabilidad protege la independencia y autonomía del cargo."
+    },
+    {
+      "origen": "DP-011",
+      "destino": "DP-010",
+      "tipo": "desarrolla",
+      "justificacion": "La inmunidad completa el régimen de protección del titular junto a la inviolabilidad."
+    },
+    {
+      "origen": "DP-012",
+      "destino": "DP-009",
+      "tipo": "limita",
+      "justificacion": "Las incompatibilidades restringen la actividad personal del titular."
+    },
+    {
+      "origen": "DP-013",
+      "destino": "DP-005",
+      "tipo": "remite",
+      "justificacion": "A los Adjuntos se les aplica el art. 3 sobre requisitos."
+    },
+    {
+      "origen": "DP-013",
+      "destino": "DP-010",
+      "tipo": "remite",
+      "justificacion": "A los Adjuntos se les aplica el art. 6 sobre prerrogativas."
+    },
+    {
+      "origen": "DP-013",
+      "destino": "DP-012",
+      "tipo": "remite",
+      "justificacion": "A los Adjuntos se les aplica el art. 7 sobre incompatibilidades."
+    },
+    {
+      "origen": "DP-015",
+      "destino": "DP-014",
+      "tipo": "desarrolla",
+      "justificacion": "Quién puede presentar queja concreta el inicio a petición de parte."
+    },
+    {
+      "origen": "DP-017",
+      "destino": "DP-014",
+      "tipo": "desarrolla",
+      "justificacion": "La supervisión de las CCAA amplía el ámbito de investigación."
+    },
+    {
+      "origen": "DP-016",
+      "destino": "DP-001",
+      "tipo": "desarrolla",
+      "justificacion": "La continuidad de la actividad garantiza la función institucional."
+    },
+    {
+      "origen": "DP-018",
+      "destino": "DP-014",
+      "tipo": "limita",
+      "justificacion": "Las quejas sobre Justicia se derivan y no las investiga directamente."
+    },
+    {
+      "origen": "DP-019",
+      "destino": "DP-021",
+      "tipo": "prerrequisito",
+      "justificacion": "La presentación de la queja precede a su registro o rechazo."
+    },
+    {
+      "origen": "DP-020",
+      "destino": "DP-019",
+      "tipo": "desarrolla",
+      "justificacion": "La gratuidad concreta el régimen de presentación de la queja."
+    },
+    {
+      "origen": "DP-022",
+      "destino": "DP-021",
+      "tipo": "desarrolla",
+      "justificacion": "Admitida la queja tras su tramitación, se abre la investigación."
+    },
+    {
+      "origen": "DP-023",
+      "destino": "DP-022",
+      "tipo": "prerrequisito",
+      "justificacion": "El deber de colaboración hace posible la investigación."
+    },
+    {
+      "origen": "DP-024",
+      "destino": "DP-001",
+      "tipo": "desarrolla",
+      "justificacion": "La legitimación para los recursos concreta la defensa de los derechos del Título I."
+    },
+    {
+      "origen": "DP-025",
+      "destino": "DP-001",
+      "tipo": "desarrolla",
+      "justificacion": "El informe anual concreta el deber de dar cuenta a las Cortes Generales."
+    }
   ]
 }

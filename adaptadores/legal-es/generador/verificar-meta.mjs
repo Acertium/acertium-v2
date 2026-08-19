@@ -185,7 +185,21 @@ export function verificarMeta(conceptos, meta, registro) {
           );
       }
     }
-    if (Array.isArray(esperado.temas) && meta.tema && !esperado.temas.includes(meta.tema))
+    // EL TEMA, FAIL-CLOSED (19/08/2026). `progresoTemas()` en lib/cerebro.ts agrupa
+    // por la cadena EXACTA del tema, así que dos redacciones del mismo tema lo
+    // parten en dos filas en la pantalla de temas y reparten su progreso entre
+    // ellas. Esto era un check CONDICIONAL que se saltaba entero cuando la familia
+    // no declaraba `temas`, y por ese agujero se colaron las redacciones libres de
+    // CE, FCS, SC y EXTR: seis temas partidos y 51 filas para 45 temas. Que una
+    // familia no declare sus temas no puede ser un pase: es justo el caso en que
+    // nadie está comprobando nada.
+    if (!Array.isArray(esperado.temas) || esperado.temas.length === 0)
+      errores.push(
+        `familia ${familia} sin \`temas\` en el registro: decláralos antes de cargar ` +
+          "(sin eso cada lote inventa su redacción y parte el tema en la pantalla de temas)",
+      );
+    else if (!meta.tema) errores.push("meta.tema vacío: el lote debe decir a qué tema entra");
+    else if (!esperado.temas.includes(meta.tema))
       errores.push(`meta.tema="${meta.tema}" no está entre los temas registrados de ${familia}`);
   }
 
@@ -213,9 +227,12 @@ if (esEjecucionDirecta(import.meta.url)) {
       norma: "Ortografía de la lengua española (RAE-ASALE)",
       referencia_boe: "",
       referencia_fuente: "https://www.rae.es (Ortografía / OLE 2010)",
-      temas: null,
+      temas: ["Tema 37 — Ortografía"],
     },
   };
+  // Misma familia pero SIN declarar temas: es el agujero que se cerró el
+  // 19/08/2026 y que tiene su propio caso más abajo.
+  const regSinTemas = { ...regNB, ORTO: { ...regNB.ORTO, temas: null } };
   const orto = (extra) => [
     [{ id: "ORTO-001" }],
     {
@@ -239,6 +256,42 @@ if (esEjecucionDirecta(import.meta.url)) {
     ["no-BOE citando otra fuente (incibe.es) → RECHAZA", orto({ referencia_fuente: "https://www.incibe.es/glosario" }), false],
     ["familia CON BOE registrado y meta sin BOE → RECHAZA", [[{ id: "SP-001" }], { ...bien, referencia_boe: "", referencia_fuente: "https://ejemplo.org" }, regNB], false],
     ["lote BOE normal sigue exigiendo su BOE exacto → PASA", [[{ id: "SP-001" }], bien, regNB], true],
+    // El agujero del 19/08/2026: cuando la familia no declaraba `temas`, el check
+    // del tema no se saltaba "por defecto permisivo", se saltaba ENTERO, y cada
+    // lote escribía la redacción que quisiera. Seis temas acabaron partidos en dos
+    // en la pantalla de temas. Ahora no declararlos es un error por sí solo.
+    [
+      "familia SIN temas declarados → RECHAZA (aunque el resto del meta esté bien)",
+      [
+        [{ id: "ORTO-001" }],
+        {
+          materia: "ortografia-rae",
+          norma: "Ortografía de la lengua española (RAE-ASALE)",
+          convocatoria: CONVOCATORIA,
+          tema: "Tema 37 — Ortografía",
+          referencia_boe: "",
+          referencia_fuente: "RAE-ASALE — https://www.rae.es [2026-08-19]",
+        },
+        regSinTemas,
+      ],
+      false,
+    ],
+    [
+      "familia con temas pero lote sin tema → RECHAZA",
+      [
+        [{ id: "ORTO-001" }],
+        {
+          materia: "ortografia-rae",
+          norma: "Ortografía de la lengua española (RAE-ASALE)",
+          convocatoria: CONVOCATORIA,
+          tema: "",
+          referencia_boe: "",
+          referencia_fuente: "RAE-ASALE — https://www.rae.es [2026-08-19]",
+        },
+        regNB,
+      ],
+      false,
+    ],
   ];
   let ok = 0;
   for (const [nombre, args, esperado] of casos) {
