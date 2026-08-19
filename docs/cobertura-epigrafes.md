@@ -22,8 +22,8 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 ## Resumen
 
 - **250 epígrafes** en 45 temas.
-- **59** sin ningún concepto que los cubra.
-- De esos, **20** están en temas con encaje fiable: esa es la lista corta.
+- **55** sin ningún concepto que los cubra.
+- De esos, **16** están en temas con encaje fiable: esa es la lista corta.
 
 ### Los epígrafes vacíos en temas fiables
 
@@ -45,10 +45,6 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 40 | Tipologías de Inteligencia. | 100 % |
 | 40 | Surface Web. | 100 % |
 | 42 | Balística forense. | 52 % |
-| 45 | Factores del Tráfico y su influencia en la siniestralidad vial. | 44 % |
-| 45 | Factor Humano, Factor Ambiental y Factor Vehículo. | 44 % |
-| 45 | Riesgos Laborales en la conducción de vehículos prioritarios. | 44 % |
-| 45 | Estrategias y mantenimiento preventivo del vehículo prioritario. | 44 % |
 
 ## Detalle por tema
 
@@ -516,13 +512,13 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 4 | Influencia de los Sistemas de Seguridad en los accidentes de tráfico. | 4 |
 | 5 | Repercusión de los Sistemas de Seguridad en la conducción policial y traslado de detenidos. | 5 |
 
-### Tema 45 — 27 conceptos · 44 % de encaje
+### Tema 45 — 53 conceptos · 42 % de encaje
 
 | # | Epígrafe | Conceptos |
 |---|---|---|
-| 1 | Prevención de Riesgos Laborales en Seguridad Vial. | 4 |
-| 2 | Factores del Tráfico y su influencia en la siniestralidad vial. | **0** |
-| 3 | Factor Humano, Factor Ambiental y Factor Vehículo. | **0** |
-| 4 | Riesgos Laborales en la conducción de vehículos prioritarios. | **0** |
-| 5 | Equipos de Protección Individual del conductor y pasajeros de vehículos policiales. | 10 |
-| 6 | Estrategias y mantenimiento preventivo del vehículo prioritario. | **0** |
+| 1 | Prevención de Riesgos Laborales en Seguridad Vial. | 7 |
+| 2 | Factores del Tráfico y su influencia en la siniestralidad vial. | 3 |
+| 3 | Factor Humano, Factor Ambiental y Factor Vehículo. | 4 |
+| 4 | Riesgos Laborales en la conducción de vehículos prioritarios. | 4 |
+| 5 | Equipos de Protección Individual del conductor y pasajeros de vehículos policiales. | 12 |
+| 6 | Estrategias y mantenimiento preventivo del vehículo prioritario. | 1 |

@@ -1,0 +1,783 @@
+{
+  "meta": {
+    "materia": "dgt-cuestiones-seguridad-vial",
+    "norma": "Cuestiones de Seguridad Vial — Manual II de la formación del Profesor de Formación Vial (DGT)",
+    "referencia_boe": "",
+    "referencia_fuente": "Dirección General de Tráfico, Ministerio del Interior, «Cuestiones de Seguridad Vial», Manual II de la formación a distancia del Profesor de Formación Vial, edición 2023, NIPO 128-23-010-3, tema 1 «Los accidentes de tráfico» (págs. 9 a 28) — www.dgt.es [2026-08-19]",
+    "tipo_fuente": "autoridad",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 45 — Prevención de riesgos laborales en seguridad vial: factores del tráfico, riesgos laborales en la conducción de vehículos prioritarios y equipos de protección individual"
+  },
+  "fuentes": {
+    "Manual II, tema 1, apartado 2 — Accidentes e incidentes": "2 ACCIDENTES E INCIDENTES Los accidentes de tráfico son un fenómeno comúnmente atribuido al azar. Según esta concepción social, los siniestros serían sucesos fortuitos, incontrolables, fruto del destino o de la casualidad y, en consecuencia, inevitables. Sin embargo, un estudio del fenómeno de la accidentalidad demuestra la falsedad de estas creencias tan extendidas entre la población conductora. Detrás de cada accidente puntual se encuentran factores que correlacionan con el suceso, destacando los que tienen que ver con las circunstancias del conductor: velocidad, consumo de alcohol, fatiga, somnolencia, enfermedades y un largo etcétera que aparecen como variables de alta correlación con la posibilidad de tener un accidente de tráfico. Numerosos estudios demuestran cómo el modelo de azar anteriormente comentado, no asimila todos los datos de accidentalidad en el tráfico; y lejos de ser sucesos impredecibles e inevitables, nos permiten un conocimiento exhaustivo y preciso de cuándo, cómo, dónde y por qué ocurren estos accidentes, así como información para evitarlos y minimizar sus consecuencias. FALSAS CREENCIAS Y CONCEPCIÓN ACTUAL DEL ACCIDENTE. Pero en el tráfico no sólo son importantes los accidentes, también hay que hablar de los denominados incidentes, como la antesala de los siniestros. También conocidos como conflictos o cuasi-accidentes, se Incidentes producen durante la conducción, como consecuencia de una actuación o circunstancia insegura y que no acaba produciendo ningún tipo de daño o lesión, pero que podría haber derivado en un accidente. Estos incidentes implican un elevado margen de riesgo durante el transcurso de la tarea de conducción y suelen ser la antesala del siniestro. Existe una relación directa entre incidentes y accidentes, de tal forma que cuando ocurre el primero, existe la probabilidad de que se produzcan accidentes en las mismas circunstancias. Podría decirse que existe un continuo en la gravedad de los acontecimientos que se producen en la conducción, tal como nos indica la llamada Pirámide de Hyden, cuya filosofía es que existe una sucesión de eventos que discurre desde ciertos sucesos muy habituales y poco graves hasta los accidentes propiamente dichos que revisten la máxima gravedad PIRÁMIDE DE HYDEN. I N C I D E N T E S Como se puede observar, en la base de la pirámide se encuentran los acontecimientos que ponen en riesgo la seguridad de los vehículos implicados, pero que no llegan a interrumpir su marcha. A partir de ahí se suceden una serie de fenómenos (conflictos potenciales, leves y graves) cada vez de mayor gravedad, aunque cada vez menos frecuentes, en cuya cúspide encontramos finalmente los accidentes. El conocimiento de estos sucesos tiene una importancia vital para prevenir la accidentalidad, por lo que debemos estar atentos a los incidentes que experimentemos con mayor frecuencia para prever accidentes potenciales. Sin embargo, el conductor no suele considerar que estos incidentes supongan un verdadero riesgo para la seguridad en la conducción, por lo que acaban por considerarse normales. Podríamos decir, que las conductas imprudentes que no llegan a desembocar en un accidente se integran, instalan y mantienen, hasta que con el tiempo sucede el siniestro. Dicho de otra manera, ignorar los semáforos, ir a velocidades inadecuadas o conducir bebido, son conductas relacionadas frecuentemente con incidentes, lo que las convierte en predictores del accidente. Por tanto, resulta vital que el conductor sea consciente de los procesos que subyacen y anteceden a los incidentes para explicar lo que sucede en los accidentes, ya que al hacer explícitos los parámetros de conducta implicados en estos procesos, el conductor eleva su percepción del riesgo aproximándose al riesgo real y, por tanto, adopta conductas más seguras. Existe una relación directa entre los incidentes y los accidentes, de tal forma que la ocurrencia de los primeros nos indica la probabilidad de que se den verdaderos accidentes en las mismas circunstancias.",
+    "Manual II, tema 1, apartado 3 — Las causas de los accidentes": "3 LAS CAUSAS DE LOS ACCIDENTES Iniciemos este apartado con el siguiente concepto: Factor de riesgo Elemento, fenómeno, condición, circunstancia o acción humana que incremente la probabilidad de que ocurra un accidente. Estos factores se agrupan en los elementos generales implicados en cualquier situación de tráfico: el vehículo, la vía y su entorno, y el propio conductor. El resultado de un accidente determinado puede ser percibido por el conductor como azaroso o impredecible debido a su complejidad, pero estudios sistemáticos del proceso, permiten identificar los factores que están en la base de los accidentes, comprenderlos, predecirlos y, en consecuencia, prevenirlos. En este mismo sentido, Voltaire afirmaba: “No existe ninguna cosa tal como accidente. Lo que nosotros denominamos con este nombre es el efecto de alguna causa que no vemos. Si pudiésemos determinar la causa de un accidente, tendríamos mayores Los distintos factores implicados en la accidentalidad tienen un peso diferencial en función de las condiciones concretas ante las que nos encontremos; así, para un determinado accidente habrá algunos factores más importantes que otros. Por ejemplo: ante un reventón en un momento crítico en la conducción, podríamos afirmar que ha sido el factor vehículo el que ha fallado en última instancia; por el contrario, bajo condiciones de niebla muy espesa o asfalto deslizante, es probable que se produzcan accidentes, atribuibles al factor vía y entorno; finalmente, si lo que ha sucedido es que el conductor se ha dormido al volante, no cabe duda de que el factor que más peso ha tenido ha sido el factor humano. En estos casos, los factores causales a los que hemos aludido podrían considerarse puntualmente más importantes, pero nunca podríamos decir que han sido los únicos implicados: si el conductor hubiera revisado los neumáticos antes del viaje, tal vez habría descubierto que se encontraban en mal estado; en el segundo caso, si el conductor hubiera adaptado su velocidad a las condiciones de escasa visibilidad o al mal estado de la vía, tal vez no se habría producido el accidente; pero además, el tercer conductor, ¿sabía que hay determinadas vías y condiciones ambientales que favorecen la aparición de la somnolencia? Es por ello que, independientemente de la que se considere como causa última de un determinado accidente, en la mayoría de las ocasiones el conductor podría haber actuado de manera que el siniestro se evitara o minimizara; y es en este factor en el que debemos centrar la atención, ya que la flexibilidad y la capacidad de adaptación del ser humano es mayor que la de los demás factores, y permite afrontar muchas situaciones de forma adecuada y segura. En otros países, cuando se produce un accidente en condiciones de niebla espesa, si el conductor no ha adaptado la velocidad a las condiciones atmosféricas, la causa del accidente suele atribuirse al conductor. En cambio, en España, ante la misma situación se tiende a culpar a las condiciones atmosféricas, en este caso la niebla. ¿Puede la niebla causar directamente un accidente o es el conductor el que no adapta su conducción a la escasa visibilidad? En esta línea, diferentes estudios intentan averiguar qué factor (vía, vehículo o conductor) tiene más importancia para explicar la accidentalidad, coincidiendo que el factor humano explica un mayor porcentaje de accidentes (entre el 70 y el 90%), seguido del factor vía (estado de la carretera, entre el 10 y el 35%) y finalmente el vehículo (entre el 4 y el 13%). Como vemos, el factor humano es el que ocasiona un mayor número de accidentes. En definitiva, a pesar de la importancia de los fallos técnicos del vehículo (frenos, neumáticos, suspensión, dirección, etc.), de los derivados de los factores atmosféricos (oscuridad, niebla, lluvia, granizo, nieve, hielo, etc.) y del diseño o conservación de las vías públicas (conservación general, trazado, peralte, anchura, etc.), el factor humano explica la mayor parte de la accidentalidad. Estos datos coinciden con las atribuciones de los conductores, que según las encuestas, consideran las conductas de los usuarios de las vías como la mayor fuente potencial de peligro y, en mucho menor grado, las condiciones de la vía y el ambiente o las características técnicas y mecánicas del vehículo.",
+    "Manual II, tema 1, apartado 4 — El vehículo como causa de accidente": "4 EL VEHÍCULO COMO CAUSA DE ACCIDENTE Los fabricantes de vehículos están obligados, por normativa, a diseñar y producir vehículos con unas condiciones mínimas de seguridad. En este sentido, el desarrollo y la investigación que se viene efectuando en el sector de fabricación de automóviles, consigue vehículos cada vez más sofisticados, fáciles y seguros de conducir. Pese a las mejoras en su seguridad, las estadísticas otorgan a los fallos del vehículo un porcentaje medio como causa principal de accidente (entre el 4 y el 13% de los siniestros). No debemos olvidar que el factor vehículo se halla en constante interacción con el factor humano, por lo que cualquier medida que se tome sobre el vehículo deberá ser evaluada en función de la relación con el conductor. En este contexto es necesario tener en cuenta, en primer lugar, que en la mayoría de los accidentes por fallo en el vehículo, la causa es atribuible al mal mantenimiento de la máquina por parte de los conductores. Detrás de un suceso supuestamente casual e impredecible, como podría ser un reventón o un fallo en el sistema de frenos, se puede esconder un descuido sistemático por parte del conductor a la hora de controlar que su vehículo se encuentra en perfectas condiciones para circular. Por otro lado, cuando se desarrollan sistemas de seguridad realmente eficaces en los vehículos, es necesario considerar otros factores que son en definitiva responsabilidad directa del conductor y que muestran el peso del factor humano en la prevención de la accidentalidad. Nos referimos al conocimiento del funcionamiento de la máquina y de sus sistemas de seguridad por parte del usuario. La potenciación de todos los mecanismos de seguridad en los vehículos es sin duda de una extraordinaria utilidad. Sin embargo, es necesario conocer en profundidad el impacto que estas nuevas tecnologías tienen en el comportamiento del conductor, ya que algunos estudios realizados ponen de manifiesto la necesidad de información adecuada, o de lo contrario, las mejoras tecnológicas en los coches pueden conseguir que algunos conductores sean más proclives a los accidentes: al tener una mayor sensación de seguridad, se compensan las ventajas del sistema con una tendencia a circular de una manera más arriesgada (por ejemplo, “como mi coche tiene ABS y ESP puedo circular a 180 km/h sin peligro”). Este hecho se puso de manifiesto hace muchos años, cuando se realizaron los primeros estudios de conductores que tenían vehículos dotados con airbag. Posteriormente, este hecho se ratificó desde otra perspectiva, en una investigación realizada en Munich con un amplio colectivo de taxistas, descubriendo que en los coches dotados con ABS algunos conductores contrarrestaban las ventajas del mecanismo adoptando menores medidas de seguridad y asumiendo, por tanto, un mayor nivel de riesgo, lo que les hacía más proclives al accidente. En definitiva, debemos tener muy presente la interacción de los vehículos con todo el sistema. Los nuevos desarrollos tecnológicos deberán prever el impacto en el entorno social, además del impacto directo sobre el conductor o el peatón. Por ejemplo, la masiva extensión de vehículos eléctricos en un corto periodo de tiempo podría llegar a significar un grave problema para la seguridad si no se actúa sobre la población, ya que una de las claves que tiene el peatón para descubrir la presencia de un coche es el sonido, que en este caso queda sensiblemente disminuido.",
+    "Manual II, tema 1, apartado 4.1 — Accidentalidad en función del tipo de vehículo": "4.1 ACCIDENTALIDAD EN FUNCIÓN DEL TIPO DE VEHÍCULO En valores absolutos, en España los turismos son, con diferencia, los vehículos que más accidentes y víctimas producen, seguidos de las motocicletas, furgonetas, camiones y autobuses. Así pues, los conductores de turismos deben ser un objetivo prioritario en las políticas de seguridad vial, aunque ello no implica que los turismos sean los vehículos con mayor riesgo de sufrir un accidente. Dado que buena parte del parque automovilístico está constituido por este tipo de vehículos, es lógico que tengan mayor probabilidad de sufrir accidentes. Es importante destacar que, en términos relativos, las motocicletas tienen una probabilidad mucho mayor de sufrir un accidente que los turismos y una vez que este se ha producido, una alta probabilidad de que haya lesiones graves e incluso fallecimiento. Finalmente es necesario incidir en que pese a la espectacularidad de los siniestros con vehículos de transporte colectivo (autobuses) y el impacto social que generan, el número de este tipo de accidentes es realmente bajo, teniendo en cuenta los millones de pasajeros que transportan y el número de kilómetros que realizan anualmente.",
+    "Manual II, tema 1, apartado 4.2 — Accidentalidad en función de la antigüedad del vehículo": "4.2 ACCIDENTALIDAD EN FUNCIÓN DE LA ANTIGÜEDAD DEL VEHÍCULO El parque automovilístico español tiene más de 10 años. Después de contabilizar los movimientos de vehículos registrados por la DGT, cerca del 64% de los vehículos que circulan por España tienen más de 10 años, frente a un 36% de menos de 10 años. El estudio ha tenido en cuenta las matriculaciones, las bajas y la regulación de las transferencias de propiedad de vehículos hasta el 31 de diciembre del 2020. Por varias razones, la antigüedad del parque de vehículos resulta trascendente. • En primer lugar, a medida que se incrementa la edad de un vehículo, y especialmente a partir de los 8-10 años, crece la probabilidad de que se produzca un accidente por fallo mecánico. • En segundo lugar, dada la evolución constante de los sistemas de seguridad, se puede afirmar que un vehículo con más de diez años no tiene la misma capacidad de respuesta que un vehículo nuevo a la hora de evitar un accidente. • Igualmente, un vehículo más nuevo dispone de mecanismos de seguridad más sofisticados para amortiguar las consecuencias de los accidentes (por ejemplo, los diferentes tipos de airbag), sin olvidar cuestiones tan importantes como el consumo energético y la contaminación, o el menor coste económico que implican los vehículos de fabricación reciente. • En este contexto es muy importante concienciar a los usuarios de que la antigüedad del vehículo precisa realizar un mejor mantenimiento.",
+    "Manual II, tema 1, apartado 4.3 — Accidentalidad en función del estado del vehículo": "4.3 ACCIDENTALIDAD EN FUNCIÓN DEL ESTADO DEL VEHÍCULO En España las revisiones técnicas y preventivas han mostrado la existencia de anomalías graves y frecuentes en algunos de los sistemas mecánicos directamente relacionados con la seguridad vial: las ruedas, los frenos, la dirección, la suspensión y el alumbrado. Los datos de los últimos años apuntan a que las deficiencias técnicas con mayor implicación en los accidentes por fallo mecánico son: • Mal estado de los neumáticos (destaca sobre las demás). • Problemas en los frenos. • Fallos de iluminación. • Defectos en la dirección del vehículo. • Problemas de sobrecarga o mala distribución. Muchos de estos problemas podrían solucionarse si los conductores revisaran regularmente el estado de los principales elementos de seguridad, empezando por algo tan importante como los neumáticos. Según diversas encuestas, el mantenimiento de los vehículos que realizan los conductores españoles está muy por debajo de la media europea. El tema es preocupante al menos desde dos perspectivas. En primer lugar, por la incidencia en los accidentes por fallo mecánico; y en segundo lugar, porque algunas investigaciones demuestran que, en un porcentaje significativo de los casos, el no preocuparse por el cuidado del vehículo desde sus elementos de seguridad correlaciona con la adopción de conductas de riesgo por parte del conductor.",
+    "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente": "5.1 ACCIDENTALIDAD EN FUNCIÓN DE LA LOCALIZACIÓN DEL ACCIDENTE Existe una cierta relación de la accidentalidad con la categoría y las características de las vías. Si tomamos, de manera orientativa, datos estadísticos promedio de los últimos años, aproximadamente el 44% de las víctimas de accidentes de tráfico (muertos y heridos) se han producido en la carretera, mientras que el 56% ha sido en zona urbana. Sin embargo, si tomamos como referencia las víctimas mortales, el 75% se produjeron en las carreteras y el 25% en las zonas urbanas. Es decir, se producen 3 veces más muertos en carretera que en ciudad. La explicación de este fenómeno la encontramos en la mayor velocidad con la que se circula por las zonas interurbanas. La Dirección General de Tráfico da a conocer cada año el Anuario Estadístico General y el Anuario Estadístico de Accidentes. En ellos se presentan las cifras de accidentes y víctimas a 30 días del año anterior. Mientras se confecciona el anuario, las cifras de mortalidad que se van presentando son de los muertos a 24 horas tras el accidente. Como veremos posteriormente, la velocidad incrementa no sólo la probabilidad de tener un accidente, sino que, una vez que este se ha producido, las lesiones son de mayor gravedad y con cierta frecuencia desencadenan en muerte. Por otra parte, en las vías interurbanas la mayor parte de los accidentes se producen por salida de la vía (lo que los americanos llaman el accidente solitario), aunque las consecuencias más graves las sufren los accidentados con colisiones frontales. Contrariamente a lo que piensan algunos conductores, la mayor parte de accidentes se producen en las rectas y no en las curvas. En las ciudades, por su parte, son mucho más frecuentes los atropellos y las colisiones laterales. En relación con el tipo de vía, los datos de los últimos años permiten apreciar que: • Las carreteras convencionales resultan más peligrosas, tanto por el número de muertos como por el número de accidentes con víctimas. • Frente a éstas, las autovías y autopistas son las que parecen presentar menor riesgo objetivo. • La reducción de víctimas mortales en las autopistas ha sido de casi un 60% y de un 40% en autovías y el resto de vías. • Se puede apreciar, por tanto, que las estadísticas muestran una evolución positiva, ya que en todos los tipos de vía la reducción de la siniestralidad ha sido importante. ACCIDENTES CON VÍCTIMAS. En relación con lo descrito anteriormente, es preciso hacer dos importantes matizaciones: • En primer lugar, llama la atención la alta siniestralidad de las carreteras convencionales, en las que paradójicamente el nivel de tráfico no suele ser excesivamente alto. La explicación a este fenómeno la encontramos, entre otros, en el exceso de confianza que los conductores muestran en este tipo de vías, bajando en muchas ocasiones su nivel de alerta e incrementando su tolerancia al riesgo. • En segundo lugar, y en relación con las autovías y autopistas, es evidente que, según todos los indicadores de riesgo, estas vías resultan las más seguras que existen para circular. España con 29 fallecidos por millón de habitantes es el cuarto país de la Unión Europea con menor tasa de mortalidad por accidente de tráfico, solo por detrás de Suecia (18), Malta (21) y Dinamarca (27) y por delante, por primera vez en la historia, de países de referencia en seguridad vial como Holanda (31), Alemania (33) y Francia (39). Estas son las cifras provisionales de víctimas mortales en carretera en 2020 que publicó la Comisión Europea y que estiman que en toda la Unión Europea fallecieron 18.000 personas por siniestros viales, lo que supone un descenso del 17% (-4.000 fallecidos) en comparación con 2019. Sin embargo, en el caso de la zona urbana, la reducción no ha sido tan alta como en la carretera, por lo que la movilidad urbana se convierte en el reto futuro de la seguridad vial.",
+    "Manual II, tema 1, apartado 5.2 — Distribución temporal de los accidentes": "5.2 DISTRIBUCIÓN TEMPORAL DELOS ACCIDENTES Durante el año, es en los meses de verano cuando se produce un mayor número de accidentes, siendo además los siniestros de mayor gravedad. Abril y noviembre destacan por ser los meses con menos mortalidad y accidentes mortales. El resto de meses muestran unas cifras muy similares, no existiendo una tendencia destacable. Sin embargo, si separamos las cifras en función del tipo de vehículo que tiene el accidente, los turismos presentan tres picos destacados en los meses de marzo, agosto y diciembre. Este último, muestra cada año cifras elevadas debido a que confluyen una gran cantidad de desplazamientos por carretera y condiciones climatológicas adversas, además del incremento del consumo de alcohol durante las fiestas navideñas. Por días de la semana, el número de víctimas mortales alcanza su mínimo los martes y el máximo los domingos, debido fundamentalmente a la ocurrencia de los accidentes durante la vuelta del fin de semana y los que suceden en la madrugada relacionados con actividades de ocio en las noches de los sábados. Es indiscutible el protagonismo de los fines de semana: viernes, sábado y domingo son los días más peligrosos, junto con los festivos y especialmente las vísperas de festivo, tanto en la carretera como en la ciudad. Finalmente, en lo que se refiere a la distribución por hora del accidente, se observan tres picos de relevancia. El primero, entre las 8 y las 10 de la mañana; el segundo, entre las 13 y las 15 horas, y el tercero (y mayor que los demás) entre las 17 y las 20 horas, coincidiendo con los horarios habituales de entrada y salida del trabajo. En términos relativos, los datos indican que las altas horas de la madrugada de los días festivos suelen ser las más peligrosas, entre otras causas por la combinación alcohol-velocidad-visibilidad. Asimismo, en las vías públicas, tanto urbanas como interurbanas, si bien durante el día ocurren más accidentes, las consecuencias más graves se producen durante la noche, cuando el riesgo de accidente, de lesiones graves o de muerte casi se duplica.",
+    "Manual II, tema 1, apartado 5.3 — Accidentalidad en función del tipo de implicado": "5.3 ACCIDENTALIDAD EN FUNCIÓN DEL TIPO DE IMPLICADO En zonas urbanas, las colisiones entre dos o más vehículos en marcha son los accidentes que más víctimas producen, seguidos por los atropellos a peatones y las salidas de la calzada. En carretera, cerca de la mitad de las muertes se producen por salidas de la vía. Las colisiones frontales se sitúan como la segunda causa de muerte, seguidas por las frontolaterales.",
+    "Manual II, tema 1, apartado 6 — Conducción profesional y accidentalidad laboral-vial": "6 CONDUCCIÓN LABORAL-VIAL PROFESIONAL Y ACCIDENTALIDAD En el entorno laboral, al margen de la conducción profesional, un gran número de trabajadores acuden a su puesto de trabajo con sus vehículos particulares. Asimismo, muchos de ellos, sin ser conductores profesionales, necesitan moverse con vehículos durante su jornada de trabajo. Si en ambos casos el trabajador sufre un siniestro, éste se considerará accidente laboral-vial y no un accidente de tráfico ajeno al entorno del trabajo. En este contexto es importante destacar que más de un tercio del total de las víctimas mortales que se producen en el entorno laboral son por tráfico, ya sea en el camino de ida o vuelta del trabajo (los llamados accidentes in itinere) o cumpliendo con alguna de las tareas del propio trabajo que impliquen la conducción de un vehículo (los llamados accidentes en misión). Los accidentes in itinere representan un mayor porcentaje del número total de siniestros de tráfico en el ámbito laboral (hasta un 70%), mientras que el 30% restante son accidentes en misión. Pero para que el accidente in itinere sea considerado como tal, no es suficiente que el siniestro ocurra al ir o volver del trabajo, sino que ha de cumplir los siguientes cuatro requisitos: • Teleológico: el desplazamiento debe realizarse para ir del domicilio al trabajo o viceversa, pero no se considerará accidente in itinere si se realiza una gestión privada en el recorrido. • Mecánico (de idoneidad de medios): el medio de transporte debe ser el adecuado para realizar el desplazamiento y se exige que vehículo y trabajador se encuentren en perfecto estado para llevarlo a cabo. • Topográfico (geográfico): la ruta escogida para realizar el desplazamiento deberá ser la más corta y segura, así como la que se utilice normalmente. Cualquier variación, como volver al domicilio por una ruta alternativa, puede hacer que no se considere accidente de trabajo. • Cronológico: a pesar de que no hay un tiempo preestablecido para considerar el accidente como laboral, el siniestro debe ocurrir en un tiempo razonable a partir de los horarios de entrada y salida del trabajo. Los accidentes laborales-viales pueden ser de dos tipos: Accidente “in itinere”: siniestro que tiene lugar al ir o al volver del lugar del trabajo. Se considera accidente in itinere tanto si se circula con un vehículo, como si se va caminando a trabajar. Accidente “en misión”: siniestro que tiene lugar durante la jornada de trabajo, bien a causa de un desplazamiento por motivos laborales (cumpliendo una misión), o bien como desempeño del propio trabajo en la jornada laboral. Puesto que los accidentes in itinere son más numerosos, si hubiera que describir el perfil del accidente laboral-vial sería el siguiente: PERFIL DEL ACCIDENTE LABORAL-VIAL. La accidentalidad asociada a los transportes profesionales (camiones, furgonetas y autobuses, principalmente) es un tema de especial relevancia, ya que pone en relación directa dos problemáticas de gran repercusión social y económica: la seguridad vial y la seguridad en el trabajo. Sin embargo, hay que destacar que pese a que los datos absolutos son muy llamativos, en términos relativos la siniestralidad de los vehículos a partir de 3.500 kg es menor, puesto que las distancias que recorren son mucho mayores que el resto de vehículos (aproximadamente siete veces más kilómetros). Respecto al transporte de mercancías, las características de los vehículos y de su carga suponen, para el propio conductor y para los otros vehículos, que las secuelas sean mucho más graves que en otros casos, implicando con mayor frecuencia el fallecimiento de las víctimas; sin olvidar las cuantiosas pérdidas económicas derivadas de estos siniestros. Por lo que se refiere al transporte de personas, no cabe duda de lo dramático de estos accidentes, dado el elevado número de heridos y muertos que se pueden derivar de tales siniestros por la alta ocupación de estos vehículos. A pesar de la baja accidentalidad que presenta este tipo de transportes, es necesaria una mayor atención a las dimensiones preventivas para conseguir reducir estos siniestros. De aquí se deriva la especial responsabilidad que tienen los conductores profesionales en el campo de la seguridad vial. En cuanto a la localización espacial, los vehículos pesados sufren en mayor medida accidentes en vías convencionales y en menor proporción en autovía, mientras que los autobuses los padecen con mayor frecuencia en las zonas urbanas. No obstante, las vías con una mayor accidentalidad no se corresponden con las de mayor mortalidad. Los accidentes que ocurren en zona urbana no suelen ser de gran gravedad, siendo los siniestros con peores consecuencias para los autobuses los que se producen en autopista (afortunadamente poco frecuentes). En vías convencionales, son los vehículos pesados los que acumulan mayor porcentaje de fallecidos. En la distribución temporal de este tipo de accidentes cabe destacar que frente a la mayor accidentalidad para los turismos en el mes de agosto, los transportistas profesionales ven sensiblemente reducida esta cifra durante el mismo mes. Respecto al tipo de accidente, aunque el vuelco es el accidente percibido como el más característico de los vehículos pesados, no es el que se registra con mayor frecuencia. Según las estadísticas oficiales son las colisiones frontales y laterales, junto con los alcances, los que representan un mayor porcentaje en la accidentalidad. Finalmente, y respecto a la posible causa del accidente, las investigaciones demuestran que la mayoría de los conductores no estaban realizando ninguna maniobra considerada peligrosa cuando ocurrió el accidente. Pese a algunas creencias, los siniestros relacionados con factores tales como cambios de vía, incorporaciones, atravesar intersecciones, etc., representan un porcentaje mucho menor que aquellas situaciones en las que el conductor simplemente seguía su ruta. Por otro lado, uno de cada diez conductores circulaba por carretera a una velocidad inadecuada (inferior o superior a la permitida) cuando tuvo lugar el accidente y, si excluimos la velocidad, cerca del 50% de los conductores profesionales infringía alguna otra norma de conducción cuando se produjo el accidente, entre las que destacan principalmente las distracciones."
+  },
+  "conceptos": [
+    {
+      "id": "DGT-018",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "titulo": "Factor de riesgo",
+      "resumen": "Elemento, fenómeno, condición, circunstancia o acción humana que incremente la probabilidad de que ocurra un accidente.",
+      "explicacion": "Ojo al verbo: «incremente la probabilidad». No se exige que cause el accidente, basta con que lo haga más probable.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-019",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "titulo": "Los tres elementos en que se agrupan los factores de riesgo",
+      "resumen": "Estos factores se agrupan en los elementos generales implicados en cualquier situación de tráfico: el vehículo, la vía y su entorno, y el propio conductor.",
+      "explicacion": "Los tres factores del tráfico. En la terminología del temario: factor vehículo, factor ambiental (vía y entorno) y factor humano.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-020",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "titulo": "Peso del factor humano en la accidentalidad",
+      "resumen": "El factor humano explica un mayor porcentaje de accidentes: entre el 70 y el 90%.",
+      "explicacion": "Es la cifra que más se pregunta. Memoriza el trío completo: humano 70-90 %, vía 10-35 %, vehículo 4-13 %.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-021",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "titulo": "El factor vía, segundo en peso",
+      "resumen": "Tras el factor humano viene el factor vía (estado de la carretera, entre el 10 y el 35%) y finalmente el vehículo.",
+      "explicacion": "El orden es humano › vía › vehículo. El vehículo va el último, aunque sea el factor en el que más piensa la gente.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-022",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "titulo": "Ningún factor actúa solo",
+      "resumen": "Los factores causales podrían considerarse puntualmente más importantes, pero nunca podríamos decir que han sido los únicos implicados.",
+      "explicacion": "Multicausalidad: en un accidente concreto un factor pesa más, pero jamás es el único. Es lo contrario de «la culpa fue de la niebla».",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-023",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "titulo": "Por qué la atención se centra en el factor humano",
+      "resumen": "Porque la flexibilidad y la capacidad de adaptación del ser humano es mayor que la de los demás factores.",
+      "explicacion": "No es solo que cause más accidentes: es que es el factor sobre el que se puede actuar. De ahí que la prevención se dirija al conductor.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-024",
+      "articulo": "Manual II, tema 1, apartado 2 — Accidentes e incidentes",
+      "titulo": "El incidente o cuasi-accidente",
+      "resumen": "También conocido como conflicto o cuasi-accidente: se produce durante la conducción como consecuencia de una actuación o circunstancia insegura y no acaba produciendo ningún tipo de daño o lesión, pero podría haber derivado en un accidente.",
+      "explicacion": "La diferencia con el accidente es una sola: el incidente NO produce daño ni lesión. Todo lo demás coincide.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-025",
+      "articulo": "Manual II, tema 1, apartado 2 — Accidentes e incidentes",
+      "titulo": "Relación directa entre incidentes y accidentes",
+      "resumen": "Existe una relación directa entre incidentes y accidentes: cuando ocurre el primero, existe la probabilidad de que se produzcan accidentes en las mismas circunstancias.",
+      "explicacion": "Por eso el incidente es «la antesala del siniestro»: sirve de predictor y permite prevenir.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-026",
+      "articulo": "Manual II, tema 1, apartado 2 — Accidentes e incidentes",
+      "titulo": "La pirámide de Hyden",
+      "resumen": "Refleja que existe un continuo en la gravedad de los acontecimientos de la conducción: una sucesión de eventos que discurre desde ciertos sucesos muy habituales y poco graves hasta los accidentes propiamente dichos.",
+      "explicacion": "En la base, lo frecuente y leve; en la cúspide, el accidente. A más gravedad, menos frecuencia.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-027",
+      "articulo": "Manual II, tema 1, apartado 4 — El vehículo como causa de accidente",
+      "titulo": "El vehículo como causa principal de accidente",
+      "resumen": "Las estadísticas otorgan a los fallos del vehículo un porcentaje medio como causa principal de accidente de entre el 4 y el 13% de los siniestros.",
+      "explicacion": "Es el factor que menos accidentes explica. Y aun así el manual insiste: el factor vehículo se halla en constante interacción con el factor humano.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-028",
+      "articulo": "Manual II, tema 1, apartado 4 — El vehículo como causa de accidente",
+      "titulo": "El fallo del vehículo casi siempre es mantenimiento",
+      "resumen": "En la mayoría de los accidentes por fallo en el vehículo, la causa es atribuible al mal mantenimiento de la máquina por parte de los conductores.",
+      "explicacion": "El reventón «impredecible» suele esconder un descuido sistemático. Por eso el factor vehículo acaba siendo también factor humano.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-029",
+      "articulo": "Manual II, tema 1, apartado 4 — El vehículo como causa de accidente",
+      "titulo": "La compensación del riesgo",
+      "resumen": "Al tener una mayor sensación de seguridad, se compensan las ventajas del sistema con una tendencia a circular de una manera más arriesgada.",
+      "explicacion": "Es el efecto perverso de ABS, ESP o airbag mal entendidos. Documentado con los taxistas de Múnich: con ABS, menos medidas de seguridad.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-030",
+      "articulo": "Manual II, tema 1, apartado 4.1 — Accidentalidad en función del tipo de vehículo",
+      "titulo": "Turismos en valores absolutos, motocicletas en términos relativos",
+      "resumen": "En valores absolutos los turismos son los vehículos que más accidentes y víctimas producen; en términos relativos, las motocicletas tienen una probabilidad mucho mayor de sufrir un accidente que los turismos.",
+      "explicacion": "Distingue absoluto de relativo: hay más accidentes de turismos porque hay muchísimos turismos, no porque sean más peligrosos.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-031",
+      "articulo": "Manual II, tema 1, apartado 4.2 — Accidentalidad en función de la antigüedad del vehículo",
+      "titulo": "La edad del vehículo y el fallo mecánico",
+      "resumen": "A medida que se incrementa la edad de un vehículo, y especialmente a partir de los 8-10 años, crece la probabilidad de que se produzca un accidente por fallo mecánico.",
+      "explicacion": "La cifra que se pregunta es 8-10 años. Y el corolario: cuanto más viejo el vehículo, mejor mantenimiento necesita.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-032",
+      "articulo": "Manual II, tema 1, apartado 4.3 — Accidentalidad en función del estado del vehículo",
+      "titulo": "La deficiencia técnica que más destaca",
+      "resumen": "De las deficiencias técnicas con mayor implicación en los accidentes por fallo mecánico, el mal estado de los neumáticos destaca sobre las demás.",
+      "explicacion": "El orden del manual: neumáticos (destaca), frenos, iluminación, dirección y sobrecarga o mala distribución.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-033",
+      "articulo": "Manual II, tema 1, apartado 4.3 — Accidentalidad en función del estado del vehículo",
+      "titulo": "Los sistemas mecánicos con anomalías graves y frecuentes",
+      "resumen": "Las revisiones técnicas y preventivas han mostrado anomalías graves y frecuentes en los sistemas mecánicos directamente relacionados con la seguridad vial: las ruedas, los frenos, la dirección, la suspensión y el alumbrado.",
+      "explicacion": "No confundas esta lista con la de deficiencias implicadas en accidentes por fallo mecánico: aquí entra la suspensión y no entra la sobrecarga.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-034",
+      "articulo": "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente",
+      "titulo": "Dónde se producen las víctimas mortales",
+      "resumen": "Tomando como referencia las víctimas mortales, el 75% se produjeron en las carreteras y el 25% en las zonas urbanas: se producen 3 veces más muertos en carretera que en ciudad.",
+      "explicacion": "No lo confundas con el total de víctimas (muertos y heridos), donde el reparto se invierte: 44% carretera y 56% zona urbana.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-035",
+      "articulo": "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente",
+      "titulo": "Los accidentes se producen en las rectas",
+      "resumen": "Contrariamente a lo que piensan algunos conductores, la mayor parte de accidentes se producen en las rectas y no en las curvas.",
+      "explicacion": "Pregunta clásica de trampa. La curva asusta y por eso se conduce con más cuidado; la recta relaja.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-036",
+      "articulo": "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente",
+      "titulo": "Qué vías resultan más peligrosas",
+      "resumen": "Las carreteras convencionales resultan más peligrosas, tanto por el número de muertos como por el número de accidentes con víctimas; las autovías y autopistas son las que parecen presentar menor riesgo objetivo.",
+      "explicacion": "Convencional = la más peligrosa. Autopista y autovía = las más seguras. Pese a que en la autopista se circula más rápido.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-037",
+      "articulo": "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente",
+      "titulo": "Por qué las convencionales son tan siniestras",
+      "resumen": "La explicación se encuentra, entre otros, en el exceso de confianza que los conductores muestran en este tipo de vías, bajando su nivel de alerta e incrementando su tolerancia al riesgo.",
+      "explicacion": "Paradoja: menos tráfico, más siniestros. La causa no es la vía, es lo que la vía provoca en el conductor.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-038",
+      "articulo": "Manual II, tema 1, apartado 5.2 — Distribución temporal de los accidentes",
+      "titulo": "La franja horaria de mayor accidentalidad",
+      "resumen": "De los tres picos horarios, el mayor de todos se sitúa entre las 17 y las 20 horas, coincidiendo con los horarios habituales de entrada y salida del trabajo.",
+      "explicacion": "Tres picos: 8-10 h, 13-15 h y 17-20 h. El tercero es el mayor. Son las horas del desplazamiento laboral.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-039",
+      "articulo": "Manual II, tema 1, apartado 5.2 — Distribución temporal de los accidentes",
+      "titulo": "De día más accidentes, de noche más graves",
+      "resumen": "Si bien durante el día ocurren más accidentes, las consecuencias más graves se producen durante la noche, cuando el riesgo de accidente, de lesiones graves o de muerte casi se duplica.",
+      "explicacion": "Dos afirmaciones que parecen contradecirse y no lo hacen: más accidentes de día, más gravedad de noche.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-040",
+      "articulo": "Manual II, tema 1, apartado 5.3 — Accidentalidad en función del tipo de implicado",
+      "titulo": "El tipo de accidente que más muertes causa en carretera",
+      "resumen": "En carretera, cerca de la mitad de las muertes se producen por salidas de la vía; las colisiones frontales se sitúan como la segunda causa de muerte, seguidas por las frontolaterales.",
+      "explicacion": "En carretera manda la salida de vía; en zona urbana, la colisión entre vehículos en marcha y el atropello.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-041",
+      "articulo": "Manual II, tema 1, apartado 6 — Conducción profesional y accidentalidad laboral-vial",
+      "titulo": "El accidente laboral-vial",
+      "resumen": "Si el trabajador sufre un siniestro yendo al trabajo con su vehículo particular o moviéndose con vehículos durante su jornada, éste se considerará accidente laboral-vial y no un accidente de tráfico ajeno al entorno del trabajo.",
+      "explicacion": "No hace falta ser conductor profesional. Basta con que el desplazamiento tenga causa laboral.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-042",
+      "articulo": "Manual II, tema 1, apartado 6 — Conducción profesional y accidentalidad laboral-vial",
+      "titulo": "In itinere y en misión: el reparto",
+      "resumen": "Los accidentes in itinere representan un mayor porcentaje del número total de siniestros de tráfico en el ámbito laboral (hasta un 70%), mientras que el 30% restante son accidentes en misión.",
+      "explicacion": "70 % in itinere (ir y volver del trabajo) frente a 30 % en misión (durante la jornada). Y más de un tercio de las muertes laborales son de tráfico.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "DGT-043",
+      "articulo": "Manual II, tema 1, apartado 6 — Conducción profesional y accidentalidad laboral-vial",
+      "titulo": "Los cuatro requisitos del accidente in itinere",
+      "resumen": "No basta con que el siniestro ocurra al ir o volver del trabajo: ha de cumplir cuatro requisitos, teleológico, mecánico (de idoneidad de medios), topográfico (geográfico) y cronológico.",
+      "explicacion": "Cuatro nombres que hay que saberse de memoria. El topográfico es el de la ruta más corta y segura; el cronológico, el del tiempo razonable.",
+      "tipo_fuente": "autoridad"
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "DGT-018",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, un factor de riesgo es…",
+      "opciones": [
+        "Elemento, fenómeno, condición, circunstancia o acción humana que incremente la probabilidad de que ocurra un accidente",
+        "Elemento, fenómeno, condición o circunstancia que agrava las lesiones de las víctimas una vez que el accidente ya se ha producido",
+        "Conducta del conductor que la normativa de tráfico tipifica expresamente como infracción grave o muy grave por su peligrosidad",
+        "Suceso ocurrido durante la conducción que no llega a producir daño ni lesión alguna pero que podría haber derivado en accidente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Elemento, fenómeno, condición, circunstancia o acción humana que incremente la probabilidad de que ocurra un accidente.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-019",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, los factores de riesgo se agrupan en los elementos generales implicados en cualquier situación de tráfico, que son…",
+      "opciones": [
+        "el conductor, los demás usuarios de la vía y las condiciones generales de tráfico del momento",
+        "el vehículo, la vía y su entorno, y el propio conductor",
+        "el vehículo, la señalización de la vía, la meteorología reinante y la formación previa del conductor",
+        "el vehículo, la organización preventiva de la empresa y la vigilancia de la salud del trabajador"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Estos factores se agrupan en los elementos generales implicados en cualquier situación de tráfico: el vehículo, la vía y su entorno, y el propio conductor.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-020",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, el factor humano explica un porcentaje de accidentes de…",
+      "opciones": [
+        "entre el 10 y el 35%",
+        "entre el 4 y el 13%",
+        "entre el 70 y el 90%",
+        "entre el 40 y el 60%"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "el factor humano explica un mayor porcentaje de accidentes (entre el 70 y el 90%), seguido del factor vía (estado de la carretera, entre el 10 y el 35%) y finalmente el vehículo (entre el 4 y el 13%)",
+      "justificacion": "DGT, Manual II, tema 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-021",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, tras el factor humano, el segundo factor que más accidentes explica es…",
+      "opciones": [
+        "el factor meteorológico, que agrupa la oscuridad, la niebla, la lluvia, el granizo, la nieve y el hielo",
+        "el factor vía (estado de la carretera, entre el 10 y el 35%)",
+        "el vehículo, cuyos fallos técnicos de frenos, neumáticos, suspensión y dirección explican hasta un 35% de los siniestros",
+        "el factor organizativo de la empresa, cuando el desplazamiento se realiza dentro de la jornada laboral"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "el factor humano explica un mayor porcentaje de accidentes (entre el 70 y el 90%), seguido del factor vía (estado de la carretera, entre el 10 y el 35%) y finalmente el vehículo (entre el 4 y el 13%)",
+      "justificacion": "DGT, Manual II, tema 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-022",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, respecto de los factores causales de un accidente concreto puede decirse que…",
+      "opciones": [
+        "solo uno de los tres factores puede considerarse causa del accidente, y es el que la investigación identifica como causa última",
+        "podrían considerarse puntualmente más importantes, pero nunca podríamos decir que han sido los únicos implicados",
+        "todos los factores pesan siempre por igual, con independencia de las circunstancias concretas en las que se produjo el siniestro",
+        "el peso de cada factor se fija de antemano por estadística y no varía según las condiciones de cada accidente concreto"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "los factores causales a los que hemos aludido podrían considerarse puntualmente más importantes, pero nunca podríamos decir que han sido los únicos implicados",
+      "justificacion": "DGT, Manual II, tema 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-023",
+      "articulo": "Manual II, tema 1, apartado 3 — Las causas de los accidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, la atención debe centrarse en el factor humano porque…",
+      "opciones": [
+        "es el único factor sobre el que la Administración tiene competencia sancionadora directa en materia de tráfico",
+        "los fallos técnicos del vehículo y el mal estado de la vía han dejado de tener incidencia en la accidentalidad actual",
+        "la flexibilidad y la capacidad de adaptación del ser humano es mayor que la de los demás factores",
+        "resulta más barato formar a los conductores que mejorar el trazado y la conservación de las vías públicas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "es en este factor en el que debemos centrar la atención, ya que la flexibilidad y la capacidad de adaptación del ser humano es mayor que la de los demás factores",
+      "justificacion": "DGT, Manual II, tema 1, apartado 3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-024",
+      "articulo": "Manual II, tema 1, apartado 2 — Accidentes e incidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, el incidente o cuasi-accidente se caracteriza porque…",
+      "opciones": [
+        "produce daños materiales de escasa cuantía pero nunca lesiones a las personas implicadas en él",
+        "no acaba produciendo ningún tipo de daño o lesión, pero que podría haber derivado en un accidente",
+        "obliga a interrumpir la marcha del vehículo aunque no llegue a producirse contacto entre los implicados",
+        "solo se registra cuando el conductor infringe además alguna norma de circulación tipificada como grave"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "como consecuencia de una actuación o circunstancia insegura y que no acaba produciendo ningún tipo de daño o lesión, pero que podría haber derivado en un accidente",
+      "justificacion": "DGT, Manual II, tema 1, apartado 2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-025",
+      "articulo": "Manual II, tema 1, apartado 2 — Accidentes e incidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, la relación entre incidentes y accidentes consiste en que, cuando ocurre un incidente…",
+      "opciones": [
+        "queda descartado que se produzca un accidente en ese mismo trayecto durante la jornada",
+        "existe la probabilidad de que se produzcan accidentes en las mismas circunstancias",
+        "el conductor eleva automáticamente su percepción del riesgo hasta igualarla con el riesgo real existente",
+        "debe comunicarse al Registro Nacional de Víctimas de Accidentes de Tráfico dentro de las veinticuatro horas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Existe una relación directa entre incidentes y accidentes, de tal forma que cuando ocurre el primero, existe la probabilidad de que se produzcan accidentes en las mismas circunstancias.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-026",
+      "articulo": "Manual II, tema 1, apartado 2 — Accidentes e incidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, la llamada Pirámide de Hyden refleja…",
+      "opciones": [
+        "el reparto porcentual del factor humano, del factor vía y del factor vehículo en la accidentalidad",
+        "una sucesión de eventos que discurre desde ciertos sucesos muy habituales y poco graves hasta los accidentes propiamente dichos",
+        "la evolución del número de víctimas mortales en España desde la entrada en vigor del Permiso por Puntos",
+        "la distribución de los accidentes por tipo de vía, situando en la cúspide las carreteras convencionales"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "existe un continuo en la gravedad de los acontecimientos que se producen en la conducción, tal como nos indica la llamada Pirámide de Hyden, cuya filosofía es que existe una sucesión de eventos que discurre desde ciertos sucesos muy habituales y poco graves hasta los accidentes propiamente dichos que revisten la máxima gravedad",
+      "justificacion": "DGT, Manual II, tema 1, apartado 2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-027",
+      "articulo": "Manual II, tema 1, apartado 4 — El vehículo como causa de accidente",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, los fallos del vehículo son causa principal de accidente en…",
+      "opciones": [
+        "entre el 20 y el 30% de los siniestros",
+        "entre el 4 y el 13% de los siniestros",
+        "entre el 10 y el 35% de los siniestros",
+        "entre el 40 y el 55% de los siniestros"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "las estadísticas otorgan a los fallos del vehículo un porcentaje medio como causa principal de accidente (entre el 4 y el 13% de los siniestros)",
+      "justificacion": "DGT, Manual II, tema 1, apartado 4.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-028",
+      "articulo": "Manual II, tema 1, apartado 4 — El vehículo como causa de accidente",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, en la mayoría de los accidentes por fallo en el vehículo la causa es…",
+      "opciones": [
+        "un defecto de fabricación no detectado en los controles de calidad del fabricante del vehículo",
+        "una deficiencia no advertida en la última inspección técnica periódica pasada por el vehículo",
+        "atribuible al mal mantenimiento de la máquina por parte de los conductores",
+        "la antigüedad del parque automovilístico, con independencia del cuidado que reciba el vehículo"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "en la mayoría de los accidentes por fallo en el vehículo, la causa es atribuible al mal mantenimiento de la máquina por parte de los conductores",
+      "justificacion": "DGT, Manual II, tema 1, apartado 4.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-029",
+      "articulo": "Manual II, tema 1, apartado 4 — El vehículo como causa de accidente",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, el efecto que las mejoras tecnológicas del vehículo pueden tener sobre el conductor mal informado es que…",
+      "opciones": [
+        "se compensan las ventajas del sistema con una tendencia a circular de una manera más arriesgada",
+        "el conductor deja de utilizar los sistemas de seguridad por desconocer cómo se activan durante la marcha",
+        "la sensación de seguridad reduce la velocidad de circulación por debajo de la que sería adecuada a la vía",
+        "el conductor traslada al fabricante toda la responsabilidad del accidente que llegue a producirse"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "al tener una mayor sensación de seguridad, se compensan las ventajas del sistema con una tendencia a circular de una manera más arriesgada",
+      "justificacion": "DGT, Manual II, tema 1, apartado 4.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-030",
+      "articulo": "Manual II, tema 1, apartado 4.1 — Accidentalidad en función del tipo de vehículo",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, en términos relativos…",
+      "opciones": [
+        "los autobuses son los vehículos con mayor riesgo de accidente por el número de pasajeros que transportan",
+        "las motocicletas tienen una probabilidad mucho mayor de sufrir un accidente que los turismos",
+        "los turismos son los vehículos con mayor riesgo de accidente, por ser los que más siniestros acumulan",
+        "las furgonetas y los camiones presentan un riesgo de accidente superior al de cualquier otro vehículo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Es importante destacar que, en términos relativos, las motocicletas tienen una probabilidad mucho mayor de sufrir un accidente que los turismos",
+      "justificacion": "DGT, Manual II, tema 1, apartado 4.1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-031",
+      "articulo": "Manual II, tema 1, apartado 4.2 — Accidentalidad en función de la antigüedad del vehículo",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, la probabilidad de accidente por fallo mecánico crece especialmente a partir de que el vehículo alcanza…",
+      "opciones": [
+        "los 4-6 años",
+        "los 8-10 años",
+        "los 12-15 años",
+        "los 15-20 años"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "a medida que se incrementa la edad de un vehículo, y especialmente a partir de los 8-10 años, crece la probabilidad de que se produzca un accidente por fallo mecánico",
+      "justificacion": "DGT, Manual II, tema 1, apartado 4.2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-032",
+      "articulo": "Manual II, tema 1, apartado 4.3 — Accidentalidad en función del estado del vehículo",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, entre las deficiencias técnicas con mayor implicación en los accidentes por fallo mecánico, la que destaca sobre las demás es…",
+      "opciones": [
+        "Problemas en los frenos, que son la deficiencia técnica más frecuente en los accidentes por fallo mecánico",
+        "Fallos de iluminación, especialmente relevantes por su incidencia en los accidentes de conducción nocturna",
+        "Mal estado de los neumáticos (destaca sobre las demás)",
+        "Defectos en la dirección del vehículo, sobre todo en los vehículos con más de diez años de antigüedad"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Los datos de los últimos años apuntan a que las deficiencias técnicas con mayor implicación en los accidentes por fallo mecánico son: • Mal estado de los neumáticos (destaca sobre las demás). • Problemas en los frenos. • Fallos de iluminación. • Defectos en la dirección del vehículo. • Problemas de sobrecarga o mala distribución.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 4.3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-033",
+      "articulo": "Manual II, tema 1, apartado 4.3 — Accidentalidad en función del estado del vehículo",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, las revisiones técnicas y preventivas han mostrado anomalías graves y frecuentes en…",
+      "opciones": [
+        "las ruedas, los frenos, la dirección, la suspensión y el alumbrado",
+        "los frenos, la dirección, la suspensión, el alumbrado y los sistemas de retención de los ocupantes",
+        "las ruedas, los frenos, el chasis, la carrocería y los dispositivos de señalización óptica del vehículo",
+        "las ruedas, la dirección, la suspensión, la transmisión y los elementos de mando del puesto de conducción"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "anomalías graves y frecuentes en algunos de los sistemas mecánicos directamente relacionados con la seguridad vial: las ruedas, los frenos, la dirección, la suspensión y el alumbrado",
+      "justificacion": "DGT, Manual II, tema 1, apartado 4.3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-034",
+      "articulo": "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, de las víctimas mortales de accidentes de tráfico…",
+      "opciones": [
+        "el 44% se produjeron en las carreteras y el 56% en las zonas urbanas",
+        "el 75% se produjeron en las carreteras y el 25% en las zonas urbanas",
+        "el 56% se produjeron en las carreteras y el 44% en las zonas urbanas",
+        "el 25% se produjeron en las carreteras y el 75% en las zonas urbanas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "si tomamos como referencia las víctimas mortales, el 75% se produjeron en las carreteras y el 25% en las zonas urbanas. Es decir, se producen 3 veces más muertos en carretera que en ciudad.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 5.1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-035",
+      "articulo": "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, y en contra de lo que piensan algunos conductores…",
+      "opciones": [
+        "la mayor parte de accidentes se producen en las rectas y no en las curvas",
+        "la mayor parte de accidentes se producen en las curvas, donde el vehículo pierde adherencia con más facilidad",
+        "la mayor parte de accidentes se producen en las intersecciones y en los cambios de sentido de la marcha",
+        "la mayor parte de accidentes se producen en los tramos de incorporación a autopistas y autovías"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Contrariamente a lo que piensan algunos conductores, la mayor parte de accidentes se producen en las rectas y no en las curvas.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 5.1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-036",
+      "articulo": "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, el tipo de vía que presenta menor riesgo objetivo es…",
+      "opciones": [
+        "la carretera convencional, porque su nivel de tráfico no suele ser excesivamente alto",
+        "la travesía urbana, por la menor velocidad a la que se circula por ella",
+        "las autovías y autopistas son las que parecen presentar menor riesgo objetivo",
+        "la vía urbana, donde se concentra la mayor parte de las víctimas mortales del año"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Las carreteras convencionales resultan más peligrosas, tanto por el número de muertos como por el número de accidentes con víctimas. • Frente a éstas, las autovías y autopistas son las que parecen presentar menor riesgo objetivo.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 5.1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-037",
+      "articulo": "Manual II, tema 1, apartado 5.1 — Accidentalidad en función de la localización del accidente",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, la alta siniestralidad de las carreteras convencionales se explica, entre otros motivos, por…",
+      "opciones": [
+        "la elevada densidad de tráfico que soportan estas vías durante todo el año",
+        "el exceso de confianza que los conductores muestran en este tipo de vías",
+        "el peor estado de conservación del firme respecto de las autovías y autopistas de la red principal",
+        "la mayor proporción de vehículos pesados que circulan por ellas frente a los que usan la autovía"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La explicación a este fenómeno la encontramos, entre otros, en el exceso de confianza que los conductores muestran en este tipo de vías, bajando en muchas ocasiones su nivel de alerta e incrementando su tolerancia al riesgo.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 5.1.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-038",
+      "articulo": "Manual II, tema 1, apartado 5.2 — Distribución temporal de los accidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, el mayor de los tres picos de accidentalidad por hora del día se sitúa…",
+      "opciones": [
+        "entre las 8 y las 10 de la mañana",
+        "entre las 13 y las 15 horas",
+        "entre las 17 y las 20 horas",
+        "entre las 22 y las 24 horas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "se observan tres picos de relevancia. El primero, entre las 8 y las 10 de la mañana; el segundo, entre las 13 y las 15 horas, y el tercero (y mayor que los demás) entre las 17 y las 20 horas, coincidiendo con los horarios habituales de entrada y salida del trabajo.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 5.2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-039",
+      "articulo": "Manual II, tema 1, apartado 5.2 — Distribución temporal de los accidentes",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, en las vías públicas, tanto urbanas como interurbanas…",
+      "opciones": [
+        "durante la noche ocurren más accidentes, aunque las consecuencias más graves se producen durante el día",
+        "durante el día ocurren más accidentes, las consecuencias más graves se producen durante la noche",
+        "el número de accidentes y su gravedad se reparten por igual entre las horas diurnas y las nocturnas",
+        "durante el día ocurren más accidentes y son también los que producen las consecuencias más graves"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "si bien durante el día ocurren más accidentes, las consecuencias más graves se producen durante la noche, cuando el riesgo de accidente, de lesiones graves o de muerte casi se duplica",
+      "justificacion": "DGT, Manual II, tema 1, apartado 5.2.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-040",
+      "articulo": "Manual II, tema 1, apartado 5.3 — Accidentalidad en función del tipo de implicado",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, en carretera cerca de la mitad de las muertes se producen por…",
+      "opciones": [
+        "colisiones frontales entre vehículos que circulan en sentidos opuestos de la marcha",
+        "atropellos a peatones que cruzan la calzada fuera de los pasos habilitados al efecto",
+        "salidas de la vía",
+        "vuelcos de vehículos pesados que transportan mercancías o cargas mal distribuidas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "En carretera, cerca de la mitad de las muertes se producen por salidas de la vía. Las colisiones frontales se sitúan como la segunda causa de muerte, seguidas por las frontolaterales.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 5.3.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-041",
+      "articulo": "Manual II, tema 1, apartado 6 — Conducción profesional y accidentalidad laboral-vial",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, cuando un trabajador que no es conductor profesional sufre un siniestro yendo a su puesto de trabajo con su vehículo particular…",
+      "opciones": [
+        "éste se considerará accidente laboral-vial y no un accidente de tráfico ajeno al entorno del trabajo",
+        "el siniestro solo será laboral si el vehículo había sido puesto a su disposición por la propia empresa",
+        "el siniestro se considera accidente de tráfico común, salvo que el trabajador fuese conductor profesional",
+        "el siniestro se considera laboral únicamente cuando se produce dentro del horario efectivo de trabajo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Si en ambos casos el trabajador sufre un siniestro, éste se considerará accidente laboral-vial y no un accidente de tráfico ajeno al entorno del trabajo.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 6.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-042",
+      "articulo": "Manual II, tema 1, apartado 6 — Conducción profesional y accidentalidad laboral-vial",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, del total de siniestros de tráfico en el ámbito laboral, los accidentes in itinere representan…",
+      "opciones": [
+        "hasta un 30%, siendo el 70% restante accidentes ocurridos en misión durante la jornada de trabajo",
+        "hasta un 50%, repartiéndose la otra mitad entre los accidentes en misión y los de conductores profesionales",
+        "hasta un 70%",
+        "hasta un 90%, siendo residual el número de accidentes que se producen en misión dentro de la jornada"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Los accidentes in itinere representan un mayor porcentaje del número total de siniestros de tráfico en el ámbito laboral (hasta un 70%), mientras que el 30% restante son accidentes en misión.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 6.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "DGT-043",
+      "articulo": "Manual II, tema 1, apartado 6 — Conducción profesional y accidentalidad laboral-vial",
+      "tipo": "test",
+      "enunciado": "Según el Manual II de la DGT, el requisito del accidente in itinere que exige que la ruta escogida sea la más corta y segura, así como la que se utilice normalmente, es el requisito…",
+      "opciones": [
+        "Teleológico: el desplazamiento debe realizarse para ir del domicilio al trabajo o viceversa",
+        "Mecánico (de idoneidad de medios): el medio de transporte debe ser el adecuado para realizar el desplazamiento",
+        "Topográfico (geográfico)",
+        "Cronológico: el siniestro debe ocurrir en un tiempo razonable a partir de los horarios de entrada y salida del trabajo"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "• Teleológico: el desplazamiento debe realizarse para ir del domicilio al trabajo o viceversa, pero no se considerará accidente in itinere si se realiza una gestión privada en el recorrido. • Mecánico (de idoneidad de medios): el medio de transporte debe ser el adecuado para realizar el desplazamiento y se exige que vehículo y trabajador se encuentren en perfecto estado para llevarlo a cabo. • Topográfico (geográfico): la ruta escogida para realizar el desplazamiento deberá ser la más corta y segura, así como la que se utilice normalmente.",
+      "justificacion": "DGT, Manual II, tema 1, apartado 6.",
+      "tipo_fuente": "autoridad"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "DGT-019",
+      "destino": "DGT-018",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-020",
+      "destino": "DGT-019",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-021",
+      "destino": "DGT-019",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-022",
+      "destino": "DGT-020",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DGT-023",
+      "destino": "DGT-022",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-024",
+      "destino": "DGT-018",
+      "tipo": "remite"
+    },
+    {
+      "origen": "DGT-025",
+      "destino": "DGT-024",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-026",
+      "destino": "DGT-025",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-027",
+      "destino": "DGT-019",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-028",
+      "destino": "DGT-027",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-029",
+      "destino": "DGT-027",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DGT-030",
+      "destino": "DGT-027",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-031",
+      "destino": "DGT-027",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-033",
+      "destino": "DGT-027",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-032",
+      "destino": "DGT-033",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-034",
+      "destino": "DGT-019",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-035",
+      "destino": "DGT-034",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-036",
+      "destino": "DGT-034",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-037",
+      "destino": "DGT-036",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-038",
+      "destino": "DGT-034",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-039",
+      "destino": "DGT-038",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-040",
+      "destino": "DGT-034",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-041",
+      "destino": "DGT-018",
+      "tipo": "remite"
+    },
+    {
+      "origen": "DGT-042",
+      "destino": "DGT-041",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-043",
+      "destino": "DGT-042",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DGT-027",
+      "destino": "DGT-001",
+      "tipo": "remite"
+    }
+  ]
+}

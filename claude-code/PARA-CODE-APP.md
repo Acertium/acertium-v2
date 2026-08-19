@@ -14,7 +14,7 @@
   bajo, escribes `RESULTADO_NNN.md` y añades línea a `EJECUCIONES.md`. Jonathan solo dispara.
 
 ## 1. Estado del cerebro (verificado por MCP el 19/08)
-- **3.056 conceptos · 2.970 preguntas servibles · 56 en cola de revisión (`pendiente_revision`) · 0 islas.**
+- **3.082 conceptos · 2.996 preguntas servibles · 56 en cola de revisión (`pendiente_revision`) · 0 islas.**
 - **Corpus BOE-600: 52/52 normas cargadas**, más 6 secciones que NO son del Código 600 (§54 a §59;
   ver `datos/legal-es/boe-600-pn/corpus/README.md`). El directorio tiene 58 ficheros y 4.980 artículos.
   Índice autogestionado en
@@ -40,7 +40,7 @@ sola pregunta.
 
 **`docs/cobertura-epigrafes.md`** cuenta el banco contra el temario, no contra las normas.
 Se regenera con `node adaptadores/legal-es/generador/cobertura-epigrafes.mjs` (necesita
-`.env.local`). Estado tras cargar el T44: **250 epígrafes, 59 sin cubrir, 20 de ellos en temas
+`.env.local`). Estado tras cargar el T45: **250 epígrafes, 55 sin cubrir, 16 de ellos en temas
 donde la medición es fiable**.
 
 Léelo con su advertencia puesta: el emparejamiento epígrafe↔concepto es una **heurística
@@ -179,8 +179,31 @@ en un tema fiable sí es una pregunta que hacerse — no una condena.
      silenciadores, municiones dum-dum, imitaciones y navajas de más de 11 cm).
      **Lo que sigue sin fuente en el T42** es solo lo técnico-doctrinal: *origen de las armas de
      fuego*, *funcionamiento* y *balística forense*. Eso sí es no-BOE.
-   - **T45** — **ARRANCADO** (17/08/2026): 27 conceptos, cuando estaba **entero a cero**. Jonathan
-     aportó los dos RD que le faltaban y son su primera fuente BOE (§56 y §57 del corpus).
+   - **T45** — **53 conceptos** (19/08/2026), tras `dgt-t45-factores-del-trafico.json` (26). Cierra
+     los cuatro epígrafes que el informe daba vacíos, con el **tema 1 «Los accidentes de tráfico»
+     del Manual II de la DGT** (misma familia `DGT`, `tipo_fuente: autoridad` → se sirve):
+     - **Los factores del tráfico** (epígrafes 45.2 y 45.3): la definición de **factor de riesgo**
+       («elemento, fenómeno, condición, circunstancia o acción humana que incremente la probabilidad
+       de que ocurra un accidente»), los tres elementos en que se agrupan —vehículo, vía y su
+       entorno, y conductor— y su peso: **humano 70-90 %, vía 10-35 %, vehículo 4-13 %**. Con la
+       cautela que el propio manual pone: ningún factor es nunca el único implicado.
+     - **Factor vehículo**: el fallo es casi siempre mantenimiento, la compensación del riesgo
+       (ABS/airbag mal entendidos), los 8-10 años de antigüedad, los neumáticos como deficiencia que
+       destaca, y los cinco sistemas con anomalías graves y frecuentes.
+     - **Factor ambiental**: 75/25 de víctimas mortales carretera/ciudad, los accidentes en rectas y
+       no en curvas, convencionales frente a autovías, el exceso de confianza, el pico de 17 a 20 h
+       y la noche como franja más grave aunque no la más frecuente.
+     - **Accidentalidad laboral-vial** (refuerza el 45.1): accidente laboral-vial, **in itinere 70 %
+       / en misión 30 %** y los cuatro requisitos del in itinere (teleológico, mecánico, topográfico
+       y cronológico).
+     - Cuidado al leer el informe aquí: **45.4** («riesgos laborales en la conducción de vehículos
+       prioritarios») y **45.6** («estrategias y mantenimiento preventivo del vehículo prioritario»)
+       ya no salen a cero, pero eso es **falso positivo** de la heurística léxica —casan por
+       *riesgo*, *laboral*, *vehículo*, *mantenimiento*—. Lo específico de **vehículo prioritario**
+       sigue sin fuente propia: el Manual II no lo trata y el Manual III de la DGT (que sí regula
+       los prioritarios) no está ingerido.
+   - **T45 (estado anterior)** — **ARRANCADO** (17/08/2026): 27 conceptos, cuando estaba **entero a
+     cero**. Jonathan aportó los dos RD que le faltaban y son su primera fuente BOE (§56 y §57 del corpus).
      - `epi-t45-proteccion-individual.json` (14, RD 773/1997): definición de EPI, criterio de último
        recurso frente a la protección colectiva, condiciones que deben reunir, elección y su
        revisión, utilización conforme al fabricante, carácter personal del uso, información previa
@@ -205,8 +228,8 @@ en un tema fiable sí es una pregunta que hacerse — no una condena.
      **remite** a `PRLP-014` y a `PRL-003`, que es para lo que está el grafo.
      Lo único que no existe como norma publicada es la **dotación concreta** (qué EPI lleva de hecho
      un conductor policial): eso es una instrucción interna de la DGP, no citable literalmente.
-     Siguen sin fuente los factores del tráfico (humano, ambiental y vehículo) y la siniestralidad
-     vial: son **no-BOE**, y la vía es un manual de la DGT.
+     ~~Siguen sin fuente los factores del tráfico (humano, ambiental y vehículo) y la siniestralidad
+     vial~~ **RESUELTO el 19/08/2026** con el tema 1 del Manual II de la DGT (arriba).
    - **T44** — **57 conceptos** (19/08/2026), tras `dgt-t44-seguridad-activa-pasiva.json` (16).
      Cierra los tres epígrafes que el informe de cobertura daba vacíos: *definición de seguridad
      activa y pasiva*, *sistemas en turismo y motocicleta* e *influencia de los sistemas de
