@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "materia": "inteligencia-osint-fuentes-abiertas",
+    "norma": "Doctrina de inteligencia del CNI (ciclo de Inteligencia y disciplinas de obtención) y glosario de ciberseguridad de INCIBE (OSINT, deep web y dark web)",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "CNI — La Inteligencia (ciclo de Inteligencia: dirección, obtención, elaboración y difusión; disciplinas HUMINT/OSINT/SIGINT/GEOINT) — https://www.cni.es/la-inteligencia (consultado 04/08/2026)",
+      "CNI — Preguntas frecuentes (qué es un Servicio de Inteligencia; obtención de fuentes humanas, técnicas, geográficas y abiertas) — https://www.cni.es/trabaja-con-nosotros/preguntas-frecuentes (consultado 04/08/2026)",
+      "INCIBE-CERT — «OSINT - La información es poder» (definición de OSINT, ejemplos de fuentes abiertas y fases del proceso OSINT) — https://www.incibe.es/incibe-cert/blog/osint-la-informacion-es-poder (consultado 04/08/2026)",
+      "INCIBE (OSI) — «Navegadores y Deep Web. Profundicemos en el tema» (deep web, dark web y acceso mediante TOR) — https://www.incibe.es/ciudadania/blog/navegadores-y-deep-web-profundicemos-en-el-tema (consultado 04/08/2026)"
+    ],
+    "tipo_fuente": "autoridad",
+    "estado_verificacion": "verificado",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 40 — Inteligencia: dato, información e inteligencia; tipologías de inteligencia; ciclo de inteligencia; OSINT (fuentes abiertas); surface web, deep web, dark web, dark net"
+  },
+  "fuentes": {
+    "CNI — Dirección": "El ciclo de Inteligencia se inicia con la aprobación anual de la Directiva de Inteligencia por parte de la Comisión Delegada del Gobierno para Asuntos de Inteligencia y del presidente del Gobierno. La directiva es un documento con carácter secreto que recoge los objetivos o necesidades de Inteligencia del Gobierno. Una vez aprobada la Directiva de Inteligencia, el CNI realiza un proceso de planificación y organización de los recursos disponibles para obtener la información necesaria y elaborar la Inteligencia que satisfaga esas necesidades planteadas por el Gobierno.",
+    "CNI — Obtención (disciplinas)": "El CNI obtiene información de fuentes humanas (HUMINT), fuentes técnicas (SIGINT), imágenes e información geográfica (GEOINT) y fuentes abiertas (OSINT). HUMINT: Información procedente de fuentes humanas. OSINT: Información procedente de fuentes abiertas. SIGINT: Información procedente de fuentes técnicas. GEOINT: Información procedente de la explotación y análisis de imágenes e información geográfica.",
+    "CNI — Elaboración": "Valoración: Se analiza la calidad y origen de la información. Examen: Se estudia toda la información disponible. Integración: Se integra toda la información procedente de distintas fuentes. Interpretación: Se interpreta la información según distintos contextos. Redacción: Se redacta el producto final: la Inteligencia.",
+    "INCIBE — Fases del proceso OSINT": "El proceso OSINT consta de las siguientes fases: Requisitos: es la fase en la que se establecen todos los requerimientos que se deben cumplir, es decir, aquellas condiciones que deben satisfacerse para conseguir el objetivo o resolver el problema que ha originado el desarrollo del sistema OSINT. Identificar fuentes de información relevante: consiste en especificar, a partir de los requisitos establecidos, las fuentes de interés que serán recopiladas. Adquisición: etapa en la que se obtiene la información a partir de los orígenes indicados. Procesamiento: consiste en dar formato a toda la información recopilada de manera que posteriormente pueda ser analizada. Análisis: es la fase en la que se genera inteligencia a partir de los datos recopilados y procesados. Presentación de inteligencia: consiste en presentar la información obtenida de una manera eficaz, potencialmente útil y comprensible, de manera que pueda ser correctamente explotada.",
+    "INCIBE — Deep web": "La Deep web hace referencia a todo el contenido de Internet que no está indexado por los buscadores tradicionales y que, por tanto, está oculto. Muchos contenidos no están indexados en buscadores convencionales, como Bing o Google, porque es necesario identificarse de alguna forma para acceder a ellos o porque se necesiten programas o protocolos de comunicación adecuados para visualizar las webs. Búsquedas en la Deep web arrojarán resultados que incluyan publicaciones científicas, documentos gubernamentales, foros privados y otras de bases de datos privadas.",
+    "INCIBE — Dark web": "Existe una parte más «oscura» dentro de la propia Deep web, conocida como Dark web, donde muchos de los contenidos están relacionados con acciones ilícitas. La Dark web hace referencia a una parte específica de la Deep web, en la que su contenido sí puede considerarse peligroso y difícil de acceder. Ambos términos son diferentes y en ningún caso deberían utilizarse como sinónimos.",
+    "INCIBE — Fuentes abiertas (ejemplos)": "Existen multitud de fuentes abiertas a partir de las cuales se puede obtener información relevante, entre las que destacan: Medios de comunicación: revistas, periódicos, radio, etc. Información pública de fuentes gubernamentales. Foros, redes sociales, blogs, wikis, etc. Conferencias, simposios, «papers», bibliotecas online, etc."
+  },
+  "conceptos": [
+    {
+      "id": "INTEL-003",
+      "articulo": "CNI — Dirección",
+      "titulo": "Fase de dirección: la Directiva de Inteligencia",
+      "resumen": "El ciclo se inicia con la aprobación anual de la Directiva de Inteligencia por la Comisión Delegada del Gobierno para Asuntos de Inteligencia y el presidente del Gobierno; después el CNI planifica y organiza los recursos.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INTEL-004",
+      "articulo": "CNI — Obtención (disciplinas)",
+      "titulo": "Fase de obtención: HUMINT, SIGINT, GEOINT y OSINT",
+      "resumen": "En la obtención, el CNI reúne información de fuentes humanas (HUMINT), fuentes técnicas (SIGINT), imágenes e información geográfica (GEOINT) y fuentes abiertas (OSINT).",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INTEL-005",
+      "articulo": "CNI — Elaboración",
+      "titulo": "Fase de elaboración: de la información a la Inteligencia",
+      "resumen": "En la elaboración se valora, examina, integra e interpreta la información y se redacta el producto final: la Inteligencia.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INTEL-009",
+      "articulo": "INCIBE — Fases del proceso OSINT",
+      "titulo": "Fases del proceso OSINT",
+      "resumen": "El proceso OSINT consta de fases: requisitos, identificar fuentes de información relevante, adquisición, procesamiento, análisis (donde se genera inteligencia) y presentación de inteligencia.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INTEL-010",
+      "articulo": "INCIBE — Deep web",
+      "titulo": "Deep web: el contenido no indexado",
+      "resumen": "La Deep web hace referencia a todo el contenido de Internet que no está indexado por los buscadores tradicionales y que, por tanto, está oculto.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INTEL-011",
+      "articulo": "INCIBE — Dark web",
+      "titulo": "Dark web: una parte específica de la Deep web",
+      "resumen": "La Dark web es una parte específica de la Deep web, en la que su contenido sí puede considerarse peligroso y difícil de acceder; no es sinónimo de Deep web.",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "id": "INTEL-008",
+      "articulo": "INCIBE — Fuentes abiertas (ejemplos)",
+      "titulo": "Qué son las fuentes abiertas",
+      "resumen": "Entre las fuentes abiertas destacan los medios de comunicación, la información pública de fuentes gubernamentales, los foros, redes sociales, blogs y wikis, y las conferencias, simposios y bibliotecas online.",
+      "tipo_fuente": "autoridad"
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "INTEL-003",
+      "articulo": "CNI — Dirección",
+      "tipo": "test",
+      "enunciado": "Según el CNI, la Directiva de Inteligencia es un documento…",
+      "opciones": [
+        "con carácter secreto que recoge los objetivos o necesidades de Inteligencia del Gobierno",
+        "de carácter reservado que fija los medios materiales y humanos asignados al Centro cada año",
+        "público que recoge las prioridades de seguridad nacional aprobadas por las Cortes Generales",
+        "clasificado que enumera las amenazas detectadas durante el ejercicio anterior y su evolución"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La directiva es un documento con carácter secreto que recoge los objetivos o necesidades de Inteligencia del Gobierno.",
+      "justificacion": "CNI — Dirección",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-004",
+      "articulo": "CNI — Obtención (disciplinas)",
+      "tipo": "test",
+      "enunciado": "En las disciplinas de obtención del CNI, ¿a qué corresponde GEOINT?",
+      "opciones": [
+        "Información procedente de la explotación y análisis de imágenes e información geográfica",
+        "Información obtenida mediante satélites y sistemas de posicionamiento global",
+        "Información procedente del análisis cartográfico del terreno y de sus accidentes naturales",
+        "Información geográfica obtenida a partir de fuentes abiertas y de acceso público"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "GEOINT: Información procedente de la explotación y análisis de imágenes e información geográfica.",
+      "justificacion": "CNI — Obtención (disciplinas)",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-005",
+      "articulo": "CNI — Elaboración",
+      "tipo": "test",
+      "enunciado": "Dentro de la fase de elaboración del ciclo de Inteligencia, ¿en qué consiste el examen?",
+      "opciones": [
+        "Se estudia toda la información disponible",
+        "Se comprueba la veracidad de la información contrastándola con otras fuentes",
+        "Se descarta la información que no supera los criterios de calidad establecidos",
+        "Se somete la información al criterio de un segundo analista independiente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Examen: Se estudia toda la información disponible.",
+      "justificacion": "CNI — Elaboración",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-005",
+      "articulo": "CNI — Elaboración",
+      "tipo": "test",
+      "enunciado": "Dentro de la fase de elaboración, ¿en qué consiste la integración?",
+      "opciones": [
+        "Se incorpora la información nueva a los archivos históricos del Centro",
+        "Se integra toda la información procedente de distintas fuentes",
+        "Se combinan los productos de Inteligencia elaborados por servicios aliados",
+        "Se unifican los criterios de valoración aplicados por los distintos analistas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Integración: Se integra toda la información procedente de distintas fuentes.",
+      "justificacion": "CNI — Elaboración",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-005",
+      "articulo": "CNI — Elaboración",
+      "tipo": "test",
+      "enunciado": "Dentro de la fase de elaboración, ¿en qué consiste la interpretación?",
+      "opciones": [
+        "Se traduce la información obtenida en lenguas extranjeras al castellano",
+        "Se explica el significado de la información a los destinatarios de la Inteligencia",
+        "Se interpreta la información según distintos contextos",
+        "Se valora el grado de fiabilidad que merece cada una de las fuentes empleadas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Interpretación: Se interpreta la información según distintos contextos.",
+      "justificacion": "CNI — Elaboración",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-009",
+      "articulo": "INCIBE — Fases del proceso OSINT",
+      "tipo": "test",
+      "enunciado": "En el proceso OSINT, ¿en qué consiste la fase de requisitos?",
+      "opciones": [
+        "en enumerar los medios técnicos y humanos necesarios para poner en marcha el sistema",
+        "es la fase en la que se establecen todos los requerimientos que se deben cumplir",
+        "en comprobar que la obtención de información se ajusta a la legalidad vigente",
+        "en fijar los plazos y el presupuesto con que contará el equipo de analistas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Requisitos: es la fase en la que se establecen todos los requerimientos que se deben cumplir, es decir, aquellas condiciones que deben satisfacerse para conseguir el objetivo o resolver el problema que ha originado el desarrollo del sistema OSINT.",
+      "justificacion": "INCIBE — Fases del proceso OSINT",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-009",
+      "articulo": "INCIBE — Fases del proceso OSINT",
+      "tipo": "test",
+      "enunciado": "En el proceso OSINT, la fase de identificar fuentes de información relevante consiste en…",
+      "opciones": [
+        "recopilar de forma automatizada todas las fuentes públicas disponibles en la red",
+        "verificar la fiabilidad y la autoría de cada una de las fuentes localizadas",
+        "especificar, a partir de los requisitos establecidos, las fuentes de interés que serán recopiladas",
+        "clasificar las fuentes según su naturaleza gubernamental, periodística o académica"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Identificar fuentes de información relevante: consiste en especificar, a partir de los requisitos establecidos, las fuentes de interés que serán recopiladas.",
+      "justificacion": "INCIBE — Fases del proceso OSINT",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-009",
+      "articulo": "INCIBE — Fases del proceso OSINT",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la última fase del proceso OSINT y en qué consiste?",
+      "opciones": [
+        "El análisis: generar inteligencia a partir de los datos recopilados y procesados",
+        "El procesamiento: dar formato a toda la información recopilada para poder analizarla",
+        "La adquisición: obtener la información a partir de los orígenes previamente indicados",
+        "Presentación de inteligencia: consiste en presentar la información obtenida de una manera eficaz, potencialmente útil y comprensible"
+      ],
+      "indice_correcto": 3,
+      "cotejo": "Presentación de inteligencia: consiste en presentar la información obtenida de una manera eficaz, potencialmente útil y comprensible, de manera que pueda ser correctamente explotada.",
+      "justificacion": "INCIBE — Fases del proceso OSINT",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-010",
+      "articulo": "INCIBE — Deep web",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, además de la necesidad de identificarse, ¿por qué otro motivo muchos contenidos de la Deep web no están indexados?",
+      "opciones": [
+        "porque se necesiten programas o protocolos de comunicación adecuados para visualizar las webs",
+        "porque sus responsables han solicitado expresamente su exclusión de los buscadores",
+        "porque los buscadores tradicionales excluyen de oficio los contenidos de carácter ilícito",
+        "porque se alojan en servidores situados fuera del alcance de los buscadores convencionales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Muchos contenidos no están indexados en buscadores convencionales, como Bing o Google, porque es necesario identificarse de alguna forma para acceder a ellos o porque se necesiten programas o protocolos de comunicación adecuados para visualizar las webs.",
+      "justificacion": "INCIBE — Deep web",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-010",
+      "articulo": "INCIBE — Deep web",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, ¿qué tipo de resultados arrojan las búsquedas en la Deep web?",
+      "opciones": [
+        "exclusivamente contenidos relacionados con actividades ilícitas y mercados clandestinos",
+        "resultados que incluyan publicaciones científicas, documentos gubernamentales, foros privados y otras de bases de datos privadas",
+        "páginas web abandonadas que los buscadores han retirado de sus índices con el tiempo",
+        "versiones antiguas de sitios web conservadas en repositorios y archivos históricos de Internet"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Búsquedas en la Deep web arrojarán resultados que incluyan publicaciones científicas, documentos gubernamentales, foros privados y otras de bases de datos privadas.",
+      "justificacion": "INCIBE — Deep web",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-011",
+      "articulo": "INCIBE — Dark web",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, la Dark web es una parte más «oscura» dentro de la propia Deep web…",
+      "opciones": [
+        "cuyos contenidos se hallan cifrados de extremo a extremo y no pueden ser rastreados",
+        "donde muchos de los contenidos están relacionados con acciones ilícitas",
+        "a la que solo acceden quienes disponen de una invitación previa de otro usuario",
+        "cuyos contenidos desaparecen automáticamente pasado un breve plazo desde su publicación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Existe una parte más «oscura» dentro de la propia Deep web, conocida como Dark web, donde muchos de los contenidos están relacionados con acciones ilícitas.",
+      "justificacion": "INCIBE — Dark web",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-008",
+      "articulo": "INCIBE — Fuentes abiertas (ejemplos)",
+      "tipo": "test",
+      "enunciado": "Entre las fuentes abiertas que destaca INCIBE figuran los medios de comunicación, esto es…",
+      "opciones": [
+        "revistas, periódicos, radio, etc.",
+        "prensa escrita y digital, agencias de noticias y televisiones públicas",
+        "periódicos, emisoras de radio, cadenas de televisión y portales informativos",
+        "medios impresos y audiovisuales de titularidad tanto pública como privada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Medios de comunicación: revistas, periódicos, radio, etc.",
+      "justificacion": "INCIBE — Fuentes abiertas (ejemplos)",
+      "tipo_fuente": "autoridad"
+    },
+    {
+      "concepto_id": "INTEL-008",
+      "articulo": "INCIBE — Fuentes abiertas (ejemplos)",
+      "tipo": "test",
+      "enunciado": "Según INCIBE, ¿cuál de las siguientes es también una fuente abierta?",
+      "opciones": [
+        "Bases de datos policiales de acceso restringido a los cuerpos autorizados",
+        "Registros administrativos sujetos a autorización previa para su consulta",
+        "Conferencias, simposios, «papers», bibliotecas online, etc.",
+        "Archivos clasificados desclasificados por el transcurso del plazo legal"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Conferencias, simposios, «papers», bibliotecas online, etc.",
+      "justificacion": "INCIBE — Fuentes abiertas (ejemplos)",
+      "tipo_fuente": "autoridad"
+    }
+  ],
+  "relaciones": []
+}

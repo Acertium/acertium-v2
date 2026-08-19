@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "materia": "constitucion-espanola",
+    "norma": "Constitución Española",
+    "referencia_boe": "BOE-A-1978-31229",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 2 — La Constitución Española (I): estructura y caracteres; los valores; los principios del régimen constitucional; los derechos y deberes fundamentales, sus garantías y su suspensión; el Defensor del Pueblo"
+  },
+  "fuentes": {
+    "art. 1": "1. España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político. 2. La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado. 3. La forma política del Estado español es la Monarquía parlamentaria.",
+    "art. 5": "La capital del Estado es la villa de Madrid.",
+    "art. 8": "1. Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire, tienen como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional. 2. Una ley orgánica regulará las bases de la organización militar conforme a los principios de la presente Constitución.",
+    "art. 14": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+    "art. 15": "Todos tienen derecho a la vida y a la integridad física y moral, sin que, en ningún caso, puedan ser sometidos a tortura ni a penas o tratos inhumanos o degradantes. Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra.",
+    "art. 16": "1. Se garantiza la libertad ideológica, religiosa y de culto de los individuos y las comunidades sin más limitación, en sus manifestaciones, que la necesaria para el mantenimiento del orden público protegido por la ley. 2. Nadie podrá ser obligado a declarar sobre su ideología, religión o creencias. 3. Ninguna confesión tendrá carácter estatal. Los poderes públicos tendrán en cuenta las creencias religiosas de la sociedad española y mantendrán las consiguientes relaciones de cooperación con la Iglesia Católica y las demás confesiones."
+  },
+  "conceptos": [
+    {
+      "id": "CE-TP-001",
+      "articulo": "art. 1",
+      "titulo": "Estado social y democrático de Derecho + valores superiores",
+      "resumen": "España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores la libertad, la justicia, la igualdad y el pluralismo político."
+    },
+    {
+      "id": "CE-TP-007",
+      "articulo": "art. 5",
+      "titulo": "Capital del Estado",
+      "resumen": "La capital del Estado es la villa de Madrid."
+    },
+    {
+      "id": "CE-TP-010",
+      "articulo": "art. 8",
+      "titulo": "Fuerzas Armadas",
+      "resumen": "Constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire; garantizan la soberanía e independencia de España, defienden su integridad territorial y el ordenamiento constitucional."
+    },
+    {
+      "id": "CE-T1-011",
+      "articulo": "art. 14",
+      "titulo": "Igualdad ante la ley y no discriminación",
+      "resumen": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social."
+    },
+    {
+      "id": "CE-T1-013",
+      "articulo": "art. 15",
+      "titulo": "Abolición de la pena de muerte",
+      "resumen": "Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra."
+    },
+    {
+      "id": "CE-T1-016",
+      "articulo": "art. 16",
+      "titulo": "Aconfesionalidad del Estado y cooperación con las confesiones",
+      "resumen": "Ninguna confesión tendrá carácter estatal; los poderes públicos tendrán en cuenta las creencias religiosas de la sociedad española y mantendrán las consiguientes relaciones de cooperación."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CE-TP-001",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "Según el art. 1.1 de la Constitución, los valores superiores del ordenamiento jurídico son…",
+      "opciones": [
+        "la libertad, la justicia, la igualdad y el pluralismo político",
+        "la libertad, la igualdad, la solidaridad y la dignidad de la persona",
+        "la justicia, la igualdad, la seguridad jurídica y el pluralismo político",
+        "la libertad, la justicia, la igualdad y la soberanía nacional"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.",
+      "justificacion": "Art. 1 de la Constitución Española."
+    },
+    {
+      "concepto_id": "CE-TP-007",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "Según el art. 5 de la Constitución, la capital del Estado es…",
+      "opciones": [
+        "la villa de Madrid",
+        "la ciudad de Madrid",
+        "el municipio de Madrid",
+        "Madrid, sede de las Cortes Generales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La capital del Estado es la villa de Madrid.",
+      "justificacion": "Art. 5 de la Constitución Española."
+    },
+    {
+      "concepto_id": "CE-TP-010",
+      "articulo": "art. 8",
+      "tipo": "test",
+      "enunciado": "Según el art. 8.1 de la Constitución, las Fuerzas Armadas están constituidas por…",
+      "opciones": [
+        "el Ejército de Tierra, la Armada, el Ejército del Aire y la Guardia Civil",
+        "el Ejército de Tierra, la Armada y el Ejército del Aire",
+        "los Ejércitos de Tierra y del Aire, la Armada y los cuerpos comunes militares",
+        "el Ejército de Tierra, la Armada, el Ejército del Aire y del Espacio y la Unidad Militar de Emergencias"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire, tienen como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional.",
+      "justificacion": "Art. 8 de la Constitución Española."
+    },
+    {
+      "concepto_id": "CE-T1-011",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el art. 14 de la Constitución, no puede prevalecer discriminación alguna por razón de…",
+      "opciones": [
+        "nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social",
+        "nacimiento, raza, sexo, religión, ideología, orientación sexual o discapacidad",
+        "raza, sexo, religión, opinión, lengua o lugar de residencia dentro del territorio nacional",
+        "nacimiento, origen nacional, raza, sexo, religión, opinión política o posición económica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+      "justificacion": "Art. 14 de la Constitución Española."
+    },
+    {
+      "concepto_id": "CE-T1-013",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "Según el art. 15 de la Constitución, todos tienen derecho a la vida y a la integridad física y moral, sin que, en ningún caso, puedan ser sometidos a…",
+      "opciones": [
+        "tratos degradantes ni a penas que impidan su reinserción social",
+        "tortura ni a penas o tratos inhumanos o degradantes",
+        "tortura, penas corporales ni a trabajos forzados de ningún tipo",
+        "tratos inhumanos, salvo lo previsto en la legislación penal militar de guerra"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Todos tienen derecho a la vida y a la integridad física y moral, sin que, en ningún caso, puedan ser sometidos a tortura ni a penas o tratos inhumanos o degradantes.",
+      "justificacion": "Art. 15 de la Constitución Española."
+    },
+    {
+      "concepto_id": "CE-T1-016",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "Según el art. 16.3 de la Constitución, respecto de las confesiones religiosas…",
+      "opciones": [
+        "El Estado se declara laico y ajeno a toda creencia religiosa",
+        "Ninguna confesión tendrá carácter estatal",
+        "La Iglesia Católica tendrá la consideración de confesión de notorio arraigo",
+        "Ninguna confesión tendrá carácter estatal ni podrá recibir financiación pública"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Ninguna confesión tendrá carácter estatal. Los poderes públicos tendrán en cuenta las creencias religiosas de la sociedad española y mantendrán las consiguientes relaciones de cooperación con la Iglesia Católica y las demás confesiones.",
+      "justificacion": "Art. 16 de la Constitución Española."
+    }
+  ],
+  "relaciones": []
+}

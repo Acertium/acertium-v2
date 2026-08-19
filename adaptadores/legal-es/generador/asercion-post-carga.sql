@@ -73,6 +73,18 @@ having count(distinct cf.norma) > 1;
 --     decir: la decisión del BKT se descarta en silencio y el opositor recibe una
 --     pregunta de cualquier otro tema. Cuantos más conceptos mudos, más se degrada el
 --     planificador hasta ser indistinguible del azar.
+--     OJO al filtro, que es exactamente el de `actividad_de_concepto`: tipo = 'test'
+--     Y estado 'verificado'. El MVP es SOLO tipo test, porque ese es el formato del
+--     examen oficial; el runtime no sirve ningún otro tipo y no debe hacerlo.
+--     Al escribir esta aserción la comprobé con una consulta más laxa ("¿tiene
+--     alguna actividad?") y di por bueno un 0 que era falso: quedaban SEIS conceptos
+--     del Tema 2 con actividades verificadas de tipo `huecos`, `vf` y `corta` pero
+--     ninguna `test` —entre ellos el art. 14, igualdad ante la ley—. Son el residuo
+--     de una prueba de formatos que hizo otro agente, no contenido del MVP, y para
+--     el runtime dejaban esos conceptos tan mudos como los que no tenían nada.
+--
+--     Los conceptos cuya única actividad está en `pendiente_revision` NO salen aquí:
+--     van en la (f), porque no son un fallo sino una cola de trabajo de Jonathan.
 select
   c.id,
   c.materia,
@@ -83,7 +95,33 @@ where not exists (
   where a.concepto_id = c.id
     and a.tipo = 'test'
     and a.estado_verificacion = 'verificado'
+)
+and not exists (
+  select 1 from acertium_v2.actividad a
+  where a.concepto_id = c.id
+    and a.estado_verificacion = 'pendiente_revision'
 );
+
+-- (f) INFORMATIVA, no bloquea: conceptos que hoy el runtime NO puede preguntar
+--     porque todo su contenido está en revisión (`consenso` del contrato de fuentes
+--     no-BOE). No es un defecto —el contrato manda que no se sirvan hasta que
+--     Jonathan los apruebe en /admin—, pero mientras estén así degradan el
+--     planificador igual que un concepto mudo, así que conviene tenerlos a la vista
+--     y no dejar que la cola crezca sin control.
+select
+  split_part(c.id, '-', 1) as familia,
+  count(*) as conceptos_en_espera
+from acertium_v2.concepto c
+where not exists (
+  select 1 from acertium_v2.actividad a
+  where a.concepto_id = c.id and a.tipo = 'test' and a.estado_verificacion = 'verificado'
+)
+and exists (
+  select 1 from acertium_v2.actividad a
+  where a.concepto_id = c.id and a.estado_verificacion = 'pendiente_revision'
+)
+group by 1
+order by 2 desc;
 
 -- (d) INFORMATIVA, no es una aserción: qué instrumentos tiene de verdad cada
 --     familia declarada multi-instrumento. Sirve para revisar de un vistazo que
