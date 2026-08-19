@@ -15,7 +15,7 @@
     "estado_verificacion": "pendiente_revision",
     "convocatoria": "policia-nacional-2026",
     "tema": "Tema 30 — Principios éticos de la sociedad actual; transmisión de valores; libertad, igualdad, tolerancia; contravalores; delitos de odio",
-    "_nota_grouping": "GRUPO C (mixto). Este lote es una sola familia (ETICA) pero mezcla dos tipos de fuente por concepto: 5 conceptos OFICIAL = cita literal del Código Penal (ETICA-011..015, delitos de odio; estado real 'verificado') y 10 conceptos CONSENSO = paráfrasis fiel con referencia concreta (ETICA-001..010; estado 'pendiente_revision'). Como el cargador estampa UN solo estado por lote a partir de meta.tipo_fuente, el meta se fija en 'consenso'/'pendiente_revision' (opción segura: nada se sirve sin revisión humana). El revisor debe promover a 'verificado' los conceptos OFICIAL (ETICA-011..015), o cargarlos en un lote CP aparte. El tipo por concepto va en cada concepto y actividad (campo tipo_fuente)."
+    "_nota_grouping": "GRUPO C (mixto). Este lote es una sola familia (ETICA) pero mezcla dos tipos de fuente por concepto: 5 conceptos OFICIAL = cita literal del Código Penal (ETICA-011..015, delitos de odio; estado real 'verificado') y 10 conceptos CONSENSO = paráfrasis fiel con referencia concreta (ETICA-001..010; estado 'pendiente_revision'). Como el cargador estampa UN solo estado por lote a partir de meta.tipo_fuente, el meta se fija en 'consenso'/'pendiente_revision' (opción segura: nada se sirve sin revisión humana). El revisor debe promover a 'verificado' los conceptos OFICIAL (ETICA-011..015), o cargarlos en un lote CP aparte. El tipo por concepto va en cada concepto y actividad (campo tipo_fuente). · ACTUALIZADO 19/08/2026: ETICA-001, 002 y 003 pasan a 'oficial'/'verificado'. Son cita LITERAL de la Constitución (arts. 1.1, 10.1 y 14; comprobado contra el corpus §3: el cotejo es subcadena literal del artículo y la opción correcta va dentro del cotejo), así que nunca fueron 'consenso' por su contenido, sino porque el cargador estampa UN solo tipo_fuente por lote y este mezcla fuentes. Promovidos en la base con el visto bueno de Jonathan, igual que en su día ETICA-011..015. Siguen en 'consenso' los que sí lo son: ETICA-004..010 (UNESCO, RAE, Berger y Luckmann, Ley 19/2007)."
   },
   "fuentes": {
     "CE art. 1.1 — valores superiores": "España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.",
@@ -42,8 +42,8 @@
       "titulo": "Los valores superiores del ordenamiento",
       "resumen": "La Constitución propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político (art. 1.1 CE).",
       "explicacion": "El punto de partida ético de la sociedad española está en el artículo 1.1 de la Constitución, que eleva cuatro valores a la categoría de «superiores»: libertad, justicia, igualdad y pluralismo político. No son simples ideales: orientan la interpretación de todo el ordenamiento.",
-      "tipo_fuente": "consenso",
-      "estado_verificacion": "pendiente_revision",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
       "revision_humana": "pendiente",
       "referencia_fuente": "Constitución Española, art. 1.1 — BOE-A-1978-31229"
     },
@@ -53,8 +53,8 @@
       "titulo": "La dignidad de la persona como fundamento",
       "resumen": "La dignidad de la persona, sus derechos inviolables, el libre desarrollo de la personalidad y el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social (art. 10.1 CE).",
       "explicacion": "El artículo 10.1 sitúa la dignidad de la persona en la base del sistema. De ella derivan los derechos inviolables y el libre desarrollo de la personalidad; su respeto es la condición de la paz social. Es la raíz ética que después protegen los delitos de odio.",
-      "tipo_fuente": "consenso",
-      "estado_verificacion": "pendiente_revision",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
       "revision_humana": "pendiente",
       "referencia_fuente": "Constitución Española, art. 10.1 — BOE-A-1978-31229"
     },
@@ -64,8 +64,8 @@
       "titulo": "La igualdad ante la ley y la no discriminación",
       "resumen": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social (art. 14 CE).",
       "explicacion": "El artículo 14 traduce el valor «igualdad» en un derecho concreto: la igualdad ante la ley y la prohibición de discriminación. La lista (nacimiento, raza, sexo, religión, opinión…) no es cerrada: termina con «cualquier otra condición o circunstancia personal o social».",
-      "tipo_fuente": "consenso",
-      "estado_verificacion": "pendiente_revision",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
       "revision_humana": "pendiente",
       "referencia_fuente": "Constitución Española, art. 14 — BOE-A-1978-31229"
     },
@@ -217,7 +217,7 @@
       "indice_correcto": 0,
       "cotejo": "propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.",
       "justificacion": "CE, art. 1.1 (valores superiores del ordenamiento).",
-      "tipo_fuente": "consenso",
+      "tipo_fuente": "oficial",
       "referencia_fuente": "Constitución Española, art. 1.1 — BOE-A-1978-31229"
     },
     {
@@ -234,7 +234,7 @@
       "indice_correcto": 0,
       "cotejo": "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social.",
       "justificacion": "CE, art. 10.1 (dignidad y libre desarrollo de la personalidad).",
-      "tipo_fuente": "consenso",
+      "tipo_fuente": "oficial",
       "referencia_fuente": "Constitución Española, art. 10.1 — BOE-A-1978-31229"
     },
     {
@@ -251,7 +251,7 @@
       "indice_correcto": 0,
       "cotejo": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
       "justificacion": "CE, art. 14 (igualdad ante la ley y no discriminación).",
-      "tipo_fuente": "consenso",
+      "tipo_fuente": "oficial",
       "referencia_fuente": "Constitución Española, art. 14 — BOE-A-1978-31229"
     },
     {
@@ -511,27 +511,137 @@
     }
   ],
   "relaciones": [
-    { "origen": "ETICA-002", "destino": "ETICA-001", "tipo": "desarrolla", "justificacion": "La dignidad de la persona (art. 10.1) concreta y sostiene los valores superiores del art. 1.1." },
-    { "origen": "ETICA-003", "destino": "ETICA-001", "tipo": "desarrolla", "justificacion": "La igualdad ante la ley (art. 14) desarrolla el valor superior de la igualdad del art. 1.1." },
-    { "origen": "ETICA-004", "destino": "ETICA-001", "tipo": "desarrolla", "justificacion": "La tolerancia desarrolla el valor del pluralismo político y el respeto a la diversidad." },
-    { "origen": "ETICA-005", "destino": "ETICA-001", "tipo": "desarrolla", "justificacion": "La socialización es el mecanismo por el que se transmiten los valores superiores." },
-    { "origen": "ETICA-006", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El racismo es un contravalor que niega y limita la tolerancia." },
-    { "origen": "ETICA-007", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El fanatismo es un contravalor opuesto a la tolerancia." },
-    { "origen": "ETICA-008", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El fundamentalismo, exigencia intransigente, se opone a la tolerancia." },
-    { "origen": "ETICA-009", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El sectarismo es un contravalor opuesto a la tolerancia." },
-    { "origen": "ETICA-010", "destino": "ETICA-004", "tipo": "limita", "justificacion": "El hooliganismo (violencia e intolerancia en el deporte) se opone a la tolerancia." },
-    { "origen": "ETICA-009", "destino": "ETICA-007", "tipo": "desarrolla", "justificacion": "El DLE define el sectarismo como fanatismo e intransigencia: lo desarrolla." },
-    { "origen": "ETICA-008", "destino": "ETICA-007", "tipo": "remite", "justificacion": "El fundamentalismo es afín al fanatismo (sinónimos: integrismo, fanatismo)." },
-    { "origen": "ETICA-006", "destino": "ETICA-003", "tipo": "limita", "justificacion": "El racismo vulnera la igualdad ante la ley y la no discriminación del art. 14 CE." },
-    { "origen": "ETICA-011", "destino": "ETICA-003", "tipo": "desarrolla", "justificacion": "La agravante por discriminación (art. 22.4ª CP) protege penalmente la igualdad del art. 14 CE." },
-    { "origen": "ETICA-011", "destino": "ETICA-006", "tipo": "remite", "justificacion": "La agravante del art. 22.4ª se aplica, entre otros, a los delitos cometidos por motivos racistas." },
-    { "origen": "ETICA-012", "destino": "ETICA-002", "tipo": "limita", "justificacion": "La incitación al odio (art. 510.1.a) atenta contra la dignidad de la persona (art. 10.1 CE)." },
-    { "origen": "ETICA-013", "destino": "ETICA-012", "tipo": "desarrolla", "justificacion": "La pena del art. 510.1 concreta la consecuencia jurídica de la incitación al odio." },
-    { "origen": "ETICA-014", "destino": "ETICA-012", "tipo": "desarrolla", "justificacion": "La negación/enaltecimiento del art. 510.1.c) es otra modalidad del apartado 1 del art. 510." },
-    { "origen": "ETICA-015", "destino": "ETICA-013", "tipo": "limita", "justificacion": "El apartado 2 del art. 510 fija una pena inferior a la del apartado 1 para conductas menos graves." },
-    { "origen": "ETICA-015", "destino": "ETICA-002", "tipo": "limita", "justificacion": "La lesión de la dignidad por humillación (art. 510.2.a) atenta contra la dignidad del art. 10.1 CE." },
-    { "origen": "ETICA-011", "destino": "IG-005", "tipo": "remite", "justificacion": "PROPUESTA (externa): la agravante por discriminación se relaciona con el principio de igualdad de trato de la LO 3/2007 (IG-005)." },
-    { "origen": "ETICA-006", "destino": "IG-007", "tipo": "remite", "justificacion": "PROPUESTA (externa): el racismo conecta con la discriminación directa definida en la LO 3/2007 (IG-007)." },
-    { "origen": "ETICA-011", "destino": "VG-001", "tipo": "remite", "justificacion": "PROPUESTA (externa): la agravante del art. 22.4ª incluye las razones de género, ligadas al objeto de la LO 1/2004 de violencia de género (VG-001)." }
+    {
+      "origen": "ETICA-002",
+      "destino": "ETICA-001",
+      "tipo": "desarrolla",
+      "justificacion": "La dignidad de la persona (art. 10.1) concreta y sostiene los valores superiores del art. 1.1."
+    },
+    {
+      "origen": "ETICA-003",
+      "destino": "ETICA-001",
+      "tipo": "desarrolla",
+      "justificacion": "La igualdad ante la ley (art. 14) desarrolla el valor superior de la igualdad del art. 1.1."
+    },
+    {
+      "origen": "ETICA-004",
+      "destino": "ETICA-001",
+      "tipo": "desarrolla",
+      "justificacion": "La tolerancia desarrolla el valor del pluralismo político y el respeto a la diversidad."
+    },
+    {
+      "origen": "ETICA-005",
+      "destino": "ETICA-001",
+      "tipo": "desarrolla",
+      "justificacion": "La socialización es el mecanismo por el que se transmiten los valores superiores."
+    },
+    {
+      "origen": "ETICA-006",
+      "destino": "ETICA-004",
+      "tipo": "limita",
+      "justificacion": "El racismo es un contravalor que niega y limita la tolerancia."
+    },
+    {
+      "origen": "ETICA-007",
+      "destino": "ETICA-004",
+      "tipo": "limita",
+      "justificacion": "El fanatismo es un contravalor opuesto a la tolerancia."
+    },
+    {
+      "origen": "ETICA-008",
+      "destino": "ETICA-004",
+      "tipo": "limita",
+      "justificacion": "El fundamentalismo, exigencia intransigente, se opone a la tolerancia."
+    },
+    {
+      "origen": "ETICA-009",
+      "destino": "ETICA-004",
+      "tipo": "limita",
+      "justificacion": "El sectarismo es un contravalor opuesto a la tolerancia."
+    },
+    {
+      "origen": "ETICA-010",
+      "destino": "ETICA-004",
+      "tipo": "limita",
+      "justificacion": "El hooliganismo (violencia e intolerancia en el deporte) se opone a la tolerancia."
+    },
+    {
+      "origen": "ETICA-009",
+      "destino": "ETICA-007",
+      "tipo": "desarrolla",
+      "justificacion": "El DLE define el sectarismo como fanatismo e intransigencia: lo desarrolla."
+    },
+    {
+      "origen": "ETICA-008",
+      "destino": "ETICA-007",
+      "tipo": "remite",
+      "justificacion": "El fundamentalismo es afín al fanatismo (sinónimos: integrismo, fanatismo)."
+    },
+    {
+      "origen": "ETICA-006",
+      "destino": "ETICA-003",
+      "tipo": "limita",
+      "justificacion": "El racismo vulnera la igualdad ante la ley y la no discriminación del art. 14 CE."
+    },
+    {
+      "origen": "ETICA-011",
+      "destino": "ETICA-003",
+      "tipo": "desarrolla",
+      "justificacion": "La agravante por discriminación (art. 22.4ª CP) protege penalmente la igualdad del art. 14 CE."
+    },
+    {
+      "origen": "ETICA-011",
+      "destino": "ETICA-006",
+      "tipo": "remite",
+      "justificacion": "La agravante del art. 22.4ª se aplica, entre otros, a los delitos cometidos por motivos racistas."
+    },
+    {
+      "origen": "ETICA-012",
+      "destino": "ETICA-002",
+      "tipo": "limita",
+      "justificacion": "La incitación al odio (art. 510.1.a) atenta contra la dignidad de la persona (art. 10.1 CE)."
+    },
+    {
+      "origen": "ETICA-013",
+      "destino": "ETICA-012",
+      "tipo": "desarrolla",
+      "justificacion": "La pena del art. 510.1 concreta la consecuencia jurídica de la incitación al odio."
+    },
+    {
+      "origen": "ETICA-014",
+      "destino": "ETICA-012",
+      "tipo": "desarrolla",
+      "justificacion": "La negación/enaltecimiento del art. 510.1.c) es otra modalidad del apartado 1 del art. 510."
+    },
+    {
+      "origen": "ETICA-015",
+      "destino": "ETICA-013",
+      "tipo": "limita",
+      "justificacion": "El apartado 2 del art. 510 fija una pena inferior a la del apartado 1 para conductas menos graves."
+    },
+    {
+      "origen": "ETICA-015",
+      "destino": "ETICA-002",
+      "tipo": "limita",
+      "justificacion": "La lesión de la dignidad por humillación (art. 510.2.a) atenta contra la dignidad del art. 10.1 CE."
+    },
+    {
+      "origen": "ETICA-011",
+      "destino": "IG-005",
+      "tipo": "remite",
+      "justificacion": "PROPUESTA (externa): la agravante por discriminación se relaciona con el principio de igualdad de trato de la LO 3/2007 (IG-005)."
+    },
+    {
+      "origen": "ETICA-006",
+      "destino": "IG-007",
+      "tipo": "remite",
+      "justificacion": "PROPUESTA (externa): el racismo conecta con la discriminación directa definida en la LO 3/2007 (IG-007)."
+    },
+    {
+      "origen": "ETICA-011",
+      "destino": "VG-001",
+      "tipo": "remite",
+      "justificacion": "PROPUESTA (externa): la agravante del art. 22.4ª incluye las razones de género, ligadas al objeto de la LO 1/2004 de violencia de género (VG-001)."
+    }
   ]
 }
