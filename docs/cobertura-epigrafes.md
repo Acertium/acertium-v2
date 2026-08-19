@@ -22,8 +22,8 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 ## Resumen
 
 - **250 epígrafes** en 45 temas.
-- **49** sin ningún concepto que los cubra.
-- De esos, **16** están en temas con encaje fiable: esa es la lista corta.
+- **48** sin ningún concepto que los cubra.
+- De esos, **15** están en temas con encaje fiable: esa es la lista corta.
 
 ### Los epígrafes vacíos en temas fiables
 
@@ -34,10 +34,9 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 21 | La obligación de detener. | 56 % |
 | 24 | Consecuencia de los riesgos. | 69 % |
 | 28 | Reacciones a la globalización. | 48 % |
-| 30 | Principios éticos de la sociedad actual. | 53 % |
-| 30 | Libertad responsabilidad. | 53 % |
-| 30 | Igualdad - solidaridad. | 53 % |
-| 30 | Especial consideración de los delitos de odio. | 53 % |
+| 30 | Principios éticos de la sociedad actual. | 44 % |
+| 30 | Libertad responsabilidad. | 44 % |
+| 30 | Igualdad - solidaridad. | 44 % |
 | 31 | Tipos y efectos. | 48 % |
 | 31 | Las migraciones en la actualidad. | 48 % |
 | 34 | Drogodependencias. | 48 % |
@@ -348,7 +347,7 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 4 | Actitudes de la personalidad autoritaria: xenofobia y dogmatismo. | 2 |
 | 5 | Los grupos sociales. | **0** |
 
-### Tema 30 — 15 conceptos · 53 % de encaje
+### Tema 30 — 25 conceptos · 44 % de encaje
 
 | # | Epígrafe | Conceptos |
 |---|---|---|
@@ -358,7 +357,7 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 4 | Igualdad - solidaridad. | **0** |
 | 5 | Tolerancia. | 2 |
 | 6 | Contravalores, reacciones sociales a los valores mayoritarios: Racismo, fanatismo, fundamentalismo, sectarismo, hooliganismo. | 6 |
-| 7 | Especial consideración de los delitos de odio. | **0** |
+| 7 | Especial consideración de los delitos de odio. | 3 |
 
 ### Tema 31 — 21 conceptos · 48 % de encaje
 

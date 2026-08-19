@@ -69,6 +69,11 @@ const SECCION = {
   // §34 (familia ENC) NO entra: publica la Estrategia Nacional de
   // Ciberseguridad como ANEXO con capítulos, sin un solo artículo que ingerir.
   CP: 35, LOPJ: 36, LEC: 37, HC: 38, MF: 39, VIC: 40, VG: 41, IG: 42,
+  // CPODIO comparte sección con CP: es el bloque de delitos de odio (arts. 510,
+  // 510 bis, 511 y 512) que el tema 30 necesita citado como Código Penal. Vive en
+  // familia aparte de ETICA porque ETICA mezcla CE, UNESCO, RAE y Ley 19/2007 y
+  // no puede apuntar a una sola sección; separarlo es lo que permite auditarlo.
+  CPODIO: 35,
   LGTBI: 43, PRL: 44, PRLP: 45, PRLAGE: 46, LOPD: 47, LOPD7: 48, RDP: 49,
   ARM: 50, RGV: 51, TRAF: 52, VCD: 53,
   // §54 a §59 NO son secciones del Código 600: son normas que el temario necesita y

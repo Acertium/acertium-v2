@@ -52,6 +52,7 @@ Ver `claude-code/README.md`. Cowork deja cada encargo como `PROMPT_NNN.md`; Code
 
 ## Notas operativas
 
+- **Los encargos para otros agentes se le pasan a Jonathan PEGADOS EN EL CHAT**, dentro de un bloque de código, no solo como fichero del repo: desde la app no puede seleccionar texto dentro de un documento. Escríbelos autónomos (el otro agente no tiene el repo: las reglas van explicadas dentro, no referenciadas). Guardarlos además en `claude-code/` está bien como registro, pero el bloque en el chat es lo que le sirve.
 - El índice `00-indice.md` se automantiene: `marcarCobertura()` en `cargar.mjs` marca ✓ cada norma por su `referencia_boe` al cargar su lote.
 - Tras cargar, correr `asercion-post-carga.sql` (debe dar 0 filas).
 - Windows: pueden aparecer avisos LF→CRLF (`core.autocrlf`); el contenido se versiona con LF, no afecta.

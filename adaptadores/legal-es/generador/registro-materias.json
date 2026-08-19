@@ -530,6 +530,17 @@
     ]
   },
   "_doc_grupo_c": "Grupo C (temas 28-33): lotes MIXTOS. Cada concepto lleva su propio tipo_fuente; los oficial/autoridad entran verificado y los consenso, pendiente_revision (ver cargar.mjs y nucleo/verificar-fuente.mjs). En referencia_fuente solo se ponen con URL los dominios que el lote DEBE citar; las normas del BOE van por su id BOE-A-… sin URL, porque la puerta exige los dominios y el BOE no siempre se cita con enlace.",
+  "CPODIO": {
+    "materia": "delitos-odio-codigo-penal",
+    "norma": "Código Penal (LO 10/1995, de 23 de noviembre), arts. 510, 510 bis, 511 y 512 — delitos cometidos con ocasión del ejercicio de los derechos fundamentales y de las libertades públicas",
+    "referencia_boe": "BOE-A-1995-25444",
+    "referencia_fuente": "Código Penal BOE-A-1995-25444, arts. 510, 510 bis, 511 y 512, redacción vigente — corpus §35",
+    "temas": [
+      "Tema 30 — Principios éticos de la sociedad actual; transmisión de valores; libertad, igualdad, tolerancia; contravalores; delitos de odio"
+    ],
+    "_nota": "Familia HERMANA de ETICA, no un duplicado. ETICA es multi-fuente (CE, UNESCO, RAE, Berger y Luckmann, Ley 19/2007, CP) y por eso NO está en el mapa familia→sección de auditar-corpus.mjs: no hay una sección del Código 600 contra la que auditarla entera. Consecuencia: sus cotejos del Código Penal viajaban como «no auditables». CPODIO aísla el bloque que SÍ es íntegramente Código Penal, de modo que el mapa lo apunta a §35 y la auditoría de corpus lo comprueba en cada pasada. Mismo tema 30, distinta materia.",
+    "_hermana": "ETICA"
+  },
   "ETICA": {
     "materia": "etica-valores-contravalores-delitos-odio",
     "norma": "Principios éticos, valores y contravalores (Constitución Española arts. 1, 10 y 14; Declaración de Principios sobre la Tolerancia de la UNESCO, 1995; Diccionario de la lengua española RAE-ASALE; Berger y Luckmann; Ley 19/2007 contra la violencia en el deporte) y delitos de odio del Código Penal (arts. 22.4ª y 510)",
