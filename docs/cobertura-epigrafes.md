@@ -22,7 +22,7 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 ## Resumen
 
 - **250 epígrafes** en 45 temas.
-- **55** sin ningún concepto que los cubra.
+- **49** sin ningún concepto que los cubra.
 - De esos, **16** están en temas con encaje fiable: esa es la lista corta.
 
 ### Los epígrafes vacíos en temas fiables
@@ -36,7 +36,7 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 28 | Reacciones a la globalización. | 48 % |
 | 30 | Principios éticos de la sociedad actual. | 53 % |
 | 30 | Libertad responsabilidad. | 53 % |
-| 30 | Igualdad- solidaridad. | 53 % |
+| 30 | Igualdad - solidaridad. | 53 % |
 | 30 | Especial consideración de los delitos de odio. | 53 % |
 | 31 | Tipos y efectos. | 48 % |
 | 31 | Las migraciones en la actualidad. | 48 % |
@@ -189,20 +189,20 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 3 | El Sistema de Protección de Infraestructuras Críticas. | 28 |
 | 4 | Ciberseguridad. | 9 |
 
-### Tema 16 — 16 conceptos · 13 % de encaje ⚠ **encaje bajo: los ceros de este tema no son concluyentes**
+### Tema 16 — 108 conceptos · 34 % de encaje ⚠ **encaje bajo: los ceros de este tema no son concluyentes**
 
 | # | Epígrafe | Conceptos |
 |---|---|---|
-| 1 | Derecho Penal Parte General: concepto. | **0** |
-| 2 | Principios informadores del Derecho Penal. | **0** |
-| 3 | La infracción penal. | **0** |
+| 1 | Derecho Penal Parte General: concepto. | 5 |
+| 2 | Principios informadores del Derecho Penal. | 4 |
+| 3 | La infracción penal. | 2 |
 | 4 | Concepto material de delito. | **0** |
-| 5 | Grados de ejecución del delito. | 1 |
-| 6 | Personas físicas y jurídicas criminalmente responsables. | 1 |
-| 7 | Las consecuencias jurídicas de la infracción penal. | **0** |
-| 8 | Vigencia temporal y espacial de la Ley Penal. | **0** |
-| 9 | La edad penal y sus efectos. | **0** |
-| 10 | Circunstancias modificativas de la responsabilidad criminal. | 1 |
+| 5 | Grados de ejecución del delito. | 5 |
+| 6 | Personas físicas y jurídicas criminalmente responsables. | 20 |
+| 7 | Las consecuencias jurídicas de la infracción penal. | 6 |
+| 8 | Vigencia temporal y espacial de la Ley Penal. | 1 |
+| 9 | La edad penal y sus efectos. | 8 |
+| 10 | Circunstancias modificativas de la responsabilidad criminal. | 11 |
 
 ### Tema 17 — 151 conceptos · 25 % de encaje ⚠ **encaje bajo: los ceros de este tema no son concluyentes**
 
@@ -355,7 +355,7 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 1 | Principios éticos de la sociedad actual. | **0** |
 | 2 | Transmisión de valores en la sociedad actual: proceso de socialización. | 1 |
 | 3 | Libertad responsabilidad. | **0** |
-| 4 | Igualdad- solidaridad. | **0** |
+| 4 | Igualdad - solidaridad. | **0** |
 | 5 | Tolerancia. | 2 |
 | 6 | Contravalores, reacciones sociales a los valores mayoritarios: Racismo, fanatismo, fundamentalismo, sectarismo, hooliganismo. | 6 |
 | 7 | Especial consideración de los delitos de odio. | **0** |

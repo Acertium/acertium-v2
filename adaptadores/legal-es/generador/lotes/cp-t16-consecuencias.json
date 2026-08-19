@@ -1,0 +1,842 @@
+{
+  "meta": {
+    "materia": "lo-10-1995-codigo-penal",
+    "norma": "Ley Orgánica 10/1995, del Código Penal",
+    "referencia_boe": "BOE-A-1995-25444",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 16 — Derecho Penal. Parte General"
+  },
+  "fuentes": {
+    "art. 32": "Las penas que pueden imponerse con arreglo a este Código, bien con carácter principal bien como accesorias, son privativas de libertad, privativas de otros derechos y multa.",
+    "art. 33": "1. En función de su naturaleza y duración, las penas se clasifican en graves, menos graves y leves. 2. Son penas graves: a) La prisión permanente revisable. b) La prisión superior a cinco años. c) La inhabilitación absoluta. d) Las inhabilitaciones especiales por tiempo superior a cinco años. e) La suspensión de empleo o cargo público por tiempo superior a cinco años. f) La privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a ocho años. g) La privación del derecho a la tenencia y porte de armas por tiempo superior a ocho años. h) La privación del derecho a residir en determinados lugares o acudir a ellos, por tiempo superior a cinco años. i) La prohibición de aproximarse a la víctima o a aquellos de sus familiares u otras personas que determine el juez o tribunal, por tiempo superior a cinco años. j) La prohibición de comunicarse con la víctima o con aquellos de sus familiares u otras personas que determine el juez o tribunal, por tiempo superior a cinco años. k) La privación de la patria potestad. 3. Son penas menos graves: a) La prisión de tres meses hasta cinco años. b) Las inhabilitaciones especiales hasta cinco años. c) La suspensión de empleo o cargo público hasta cinco años. d) La privación del derecho a conducir vehículos a motor y ciclomotores de un año y un día a ocho años. e) La privación del derecho a la tenencia y porte de armas de un año y un día a ocho años. f) Inhabilitación especial para el ejercicio de profesión, oficio o comercio que tenga relación con los animales y para la tenencia de animales de un año y un día a cinco años. g) La privación del derecho a residir en determinados lugares o acudir a ellos, por tiempo de seis meses a cinco años. h) La prohibición de aproximarse a la víctima o a aquellos de sus familiares u otras personas que determine el juez o tribunal, por tiempo de seis meses a cinco años. i) La prohibición de comunicarse con la víctima o con aquellos de sus familiares u otras personas que determine el juez o tribunal, por tiempo de seis meses a cinco años. j) La multa de más de tres meses. k) La multa proporcional, cualquiera que fuese su cuantía, salvo lo dispuesto en el apartado 7 de este artículo. l) Los trabajos en beneficio de la comunidad de treinta y un días a un año. 4. Son penas leves: a) La privación del derecho a conducir vehículos a motor y ciclomotores de tres meses a un año. b) La privación del derecho a la tenencia y porte de armas de tres meses a un año. c) Inhabilitación especial para el ejercicio de profesión, oficio o comercio que tenga relación con los animales y para la tenencia de animales de tres meses a un año. d) La privación del derecho a residir en determinados lugares o acudir a ellos, por tiempo inferior a seis meses. e) La prohibición de aproximarse a la víctima o a aquellos de sus familiares u otras personas que determine el juez o tribunal, por tiempo de un mes a menos de seis meses. f) La prohibición de comunicarse con la víctima o con aquellos de sus familiares u otras personas que determine el juez o tribunal, por tiempo de un mes a menos de seis meses. g) La multa de hasta tres meses. h) La localización permanente de un día a tres meses. i) Los trabajos en beneficio de la comunidad de uno a treinta días. 5. La responsabilidad personal subsidiaria por impago de multa tendrá naturaleza menos grave o leve, según la que corresponda a la pena que sustituya. 6. Las penas accesorias tendrán la duración que respectivamente tenga la pena principal, excepto lo que dispongan expresamente otros preceptos de este Código. 7. Las penas aplicables a las personas jurídicas, que tienen todas la consideración de graves, son las siguientes: a) Multa por cuotas o proporcional. b) Disolución de la persona jurídica. La disolución producirá la pérdida definitiva de su personalidad jurídica, así como la de su capacidad de actuar de cualquier modo en el tráfico jurídico, o llevar a cabo cualquier clase de actividad, aunque sea lícita. c) Suspensión de sus actividades por un plazo que no podrá exceder de cinco años. d) Clausura de sus locales y establecimientos por un plazo que no podrá exceder de cinco años. e) Prohibición de realizar en el futuro las actividades en cuyo ejercicio se haya cometido, favorecido o encubierto el delito. Esta prohibición podrá ser temporal o definitiva. Si fuere temporal, el plazo no podrá exceder de quince años. f) Inhabilitación para obtener subvenciones y ayudas públicas, para contratar con el sector público y para gozar de beneficios e incentivos fiscales o de la Seguridad Social, por un plazo que no podrá exceder de quince años. g) Intervención judicial para salvaguardar los derechos de los trabajadores o de los acreedores por el tiempo que se estime necesario, que no podrá exceder de cinco años. La intervención podrá afectar a la totalidad de la organización o limitarse a alguna de sus instalaciones, secciones o unidades de negocio. El Juez o Tribunal, en la sentencia o, posteriormente, mediante auto, determinará exactamente el contenido de la intervención y determinará quién se hará cargo de la intervención y en qué plazos deberá realizar informes de seguimiento para el órgano judicial. La intervención se podrá modificar o suspender en todo momento previo informe del interventor y del Ministerio Fiscal. El interventor tendrá derecho a acceder a todas las instalaciones y locales de la empresa o persona jurídica y a recibir cuanta información estime necesaria para el ejercicio de sus funciones. Reglamentariamente se determinarán los aspectos relacionados con el ejercicio de la función de interventor, como la retribución o la cualificación necesaria. La clausura temporal de los locales o establecimientos, la suspensión de las actividades sociales y la intervención judicial podrán ser acordadas también por el Juez Instructor como medida cautelar durante la instrucción de la causa.",
+    "art. 34": "No se reputarán penas: 1. La detención y prisión preventiva y las demás medidas cautelares de naturaleza penal. 2. Las multas y demás correcciones que, en uso de atribuciones gubernativas o disciplinarias, se impongan a los subordinados o administrados. 3. Las privaciones de derechos y las sanciones reparadoras que establezcan las leyes civiles o administrativas.",
+    "art. 35": "Son penas privativas de libertad la prisión permanente revisable, la prisión, la localización permanente y la responsabilidad personal subsidiaria por impago de multa. Su cumplimiento, así como los beneficios penitenciarios que supongan acortamiento de la condena, se ajustarán a lo dispuesto en las leyes y en este Código.",
+    "art. 36": "1. La pena de prisión permanente será revisada de conformidad con lo dispuesto en el artículo 92. La clasificación del condenado en el tercer grado deberá ser autorizada por el tribunal previo pronóstico individualizado y favorable de reinserción social, oídos el Ministerio Fiscal e Instituciones Penitenciarias, y no podrá efectuarse: a) Hasta el cumplimiento de veinte años de prisión efectiva, en el caso de que el penado lo hubiera sido por un delito del Capítulo VII del Título XXII del Libro II de este Código. b) Hasta el cumplimiento de quince años de prisión efectiva, en el resto de los casos. En estos supuestos, el penado no podrá disfrutar de permisos de salida hasta que haya cumplido un mínimo de doce años de prisión, en el caso previsto en la letra a), y ocho años de prisión, en el previsto en la letra b). 2. La pena de prisión tendrá una duración mínima de tres meses y máxima de veinte años, salvo lo que excepcionalmente dispongan otros preceptos del presente Código. Cuando la duración de la pena de prisión impuesta sea superior a cinco años, el juez o tribunal podrá ordenar que la clasificación del condenado en el tercer grado de tratamiento penitenciario no se efectúe hasta el cumplimiento de la mitad de la pena impuesta. En cualquier caso, cuando la duración de la pena de prisión impuesta sea superior a cinco años y se trate de los delitos enumerados a continuación, la clasificación del condenado en el tercer grado de tratamiento penitenciario no podrá efectuarse hasta el cumplimiento de la mitad de la misma: a) Delitos referentes a organizaciones y grupos terroristas y delitos de terrorismo del Capítulo VII del Título XXII del Libro II de este Código. b) Delitos cometidos en el seno de una organización o grupo criminal. c) Delitos del Título VII bis del Libro II de este Código, cuando la víctima sea una persona menor de edad o persona con discapacidad necesitada de especial protección. d) Delitos del artículo 181. e) Delitos del Capítulo V del Título VIII del Libro II de este Código, cuando la víctima sea menor de dieciséis años. En los supuestos de las letras c), d) y e), si la condena fuera superior a cinco años de prisión la clasificación del condenado en el tercer grado de tratamiento penitenciario no podrá efectuarse sin valoración e informe específico acerca del aprovechamiento por el reo del programa de tratamiento para condenados por agresión sexual. 3. La autoridad judicial de vigilancia penitenciaria, previo pronóstico individualizado y favorable de reinserción social y valorando, en su caso, las circunstancias personales de la persona condenada y la evolución del tratamiento reeducador, podrá acordar razonadamente, oídos el Ministerio Fiscal, Instituciones Penitenciarias y las demás partes, la aplicación del régimen general de cumplimiento, salvo en los supuestos contenidos en el apartado anterior. 4. En todo caso, la autoridad judicial de vigilancia penitenciaria, según corresponda, podrá acordar, previo informe del Ministerio Fiscal, Instituciones Penitenciarias y las demás partes, la progresión a tercer grado por motivos humanitarios y de dignidad personal de las personas condenadas enfermas muy graves con padecimientos incurables y de las personas septuagenarias, valorando, especialmente, su escasa peligrosidad.",
+    "art. 37": "1. La localización permanente tendrá una duración de hasta seis meses. Su cumplimiento obliga al penado a permanecer en su domicilio o en lugar determinado fijado por el Juez en sentencia o posteriormente en auto motivado. No obstante, en los casos en los que la localización permanente esté prevista como pena principal, atendiendo a la reiteración en la comisión de la infracción y siempre que así lo disponga expresamente el concreto precepto aplicable, el Juez podrá acordar en sentencia que la pena de localización permanente se cumpla los sábados, domingos y días festivos en el centro penitenciario más próximo al domicilio del penado 2. Si el reo lo solicitare y las circunstancias lo aconsejaren, oído el ministerio fiscal, el juez o tribunal sentenciador podrá acordar que la condena se cumpla durante los sábados y domingos o de forma no continuada. 3. Si el condenado incumpliera la pena, el juez o tribunal sentenciador deducirá testimonio para proceder de conformidad con lo que dispone el artículo 468. 4. Para garantizar el cumplimiento efectivo, el Juez o Tribunal podrá acordar la utilización de medios mecánicos o electrónicos que permitan la localización del reo.",
+    "art. 39": "Son penas privativas de derechos: a) La inhabilitación absoluta. b) Las de inhabilitación especial para empleo o cargo público, profesión, oficio, industria o comercio, u otras actividades, sean o no retribuidas, o de los derechos de patria potestad, tutela, guarda o curatela, tenencia de animales, derecho de sufragio pasivo o de cualquier otro derecho. c) La suspensión de empleo o cargo público. d) La privación del derecho a conducir vehículos a motor y ciclomotores. e) La privación del derecho a la tenencia y porte de armas. f) La privación del derecho a residir en determinados lugares o acudir a ellos. g) La prohibición de aproximarse a la víctima o a aquellos de sus familiares u otras personas que determine el juez o el tribunal. h) La prohibición de comunicarse con la víctima o con aquellos de sus familiares u otras personas que determine el juez o tribunal. i) Los trabajos en beneficio de la comunidad. j) La privación de la patria potestad.",
+    "art. 40": "1. La pena de inhabilitación absoluta tendrá una duración de seis a 20 años; las de inhabilitación especial, de tres meses a 20 años, y la de suspensión de empleo o cargo público, de tres meses a seis años. 2. La pena de privación del derecho a conducir vehículos a motor y ciclomotores, y la de privación del derecho a la tenencia y porte de armas, tendrán una duración de tres meses a 10 años. 3. La pena de privación del derecho a residir en determinados lugares o acudir a ellos tendrá una duración de hasta 10 años. La prohibición de aproximarse a la víctima o a aquellos de sus familiares u otras personas, o de comunicarse con ellas, tendrá una duración de un mes a 10 años. 4. La pena de trabajos en beneficio de la comunidad tendrá una duración de un día a un año. 5. La duración de cada una de estas penas será la prevista en los apartados anteriores, salvo lo que excepcionalmente dispongan otros preceptos de este Código.",
+    "art. 50": "1. La pena de multa consistirá en la imposición al condenado de una sanción pecuniaria. 2. La pena de multa se impondrá, salvo que la Ley disponga otra cosa, por el sistema de días-multa. 3. Su extensión mínima será de diez días y la máxima de dos años. Las penas de multa imponibles a personas jurídicas tendrán una extensión máxima de cinco años. 4. La cuota diaria tendrá un mínimo de dos y un máximo de 400 euros, excepto en el caso de las multas imponibles a las personas jurídicas, en las que la cuota diaria tendrá un mínimo de 30 y un máximo de 5.000 euros. A efectos de cómputo, cuando se fije la duración por meses o por años, se entenderá que los meses son de treinta días y los años de trescientos sesenta. 5. Los Jueces o Tribunales determinarán motivadamente la extensión de la pena dentro de los límites establecidos para cada delito y según las reglas del capítulo II de este Título. Igualmente, fijarán en la sentencia, el importe de estas cuotas, teniendo en cuenta para ello exclusivamente la situación económica del reo, deducida de su patrimonio, ingresos, obligaciones y cargas familiares y demás circunstancias personales del mismo. 6. El tribunal, por causa justificada, podrá autorizar el pago de la multa dentro de un plazo que no exceda de dos años desde la firmeza de la sentencia, bien de una vez o en los plazos que se determinen. En este caso, el impago de dos de ellos determinará el vencimiento de los restantes.",
+    "art. 53": "1. Si el condenado no satisficiere, voluntariamente o por vía de apremio, la multa impuesta, quedará sujeto a una responsabilidad personal subsidiaria de un día de privación de libertad por cada dos cuotas diarias no satisfechas, que, tratándose de delitos leves, podrá cumplirse mediante localización permanente. En este caso, no regirá la limitación que en su duración establece el apartado 1 del artículo 37. También podrá el juez o tribunal, previa conformidad del penado, acordar que la responsabilidad subsidiaria se cumpla mediante trabajos en beneficio de la comunidad. En este caso, cada día de privación de libertad equivaldrá a una jornada de trabajo. 2. En los supuestos de multa proporcional los Jueces y Tribunales establecerán, según su prudente arbitrio, la responsabilidad personal subsidiaria que proceda, que no podrá exceder, en ningún caso, de un año de duración. También podrá el Juez o Tribunal acordar, previa conformidad del penado, que se cumpla mediante trabajos en beneficio de la comunidad. 3. Esta responsabilidad subsidiaria no se impondrá a los condenados a pena privativa de libertad superior a cinco años. 4. El cumplimiento de la responsabilidad subsidiaria extingue la obligación de pago de la multa, aunque mejore la situación económica del penado. 5. Podrá ser fraccionado el pago de la multa impuesta a una persona jurídica, durante un período de hasta cinco años, cuando su cuantía ponga probadamente en peligro la supervivencia de aquélla o el mantenimiento de los puestos de trabajo existentes en la misma, o cuando lo aconseje el interés general. Si la persona jurídica condenada no satisficiere, voluntariamente o por vía de apremio, la multa impuesta en el plazo que se hubiere señalado, el Tribunal podrá acordar su intervención hasta el pago total de la misma.",
+    "art. 95": "1. Las medidas de seguridad se aplicarán por el Juez o Tribunal, previos los informes que estime convenientes, a las personas que se encuentren en los supuestos previstos en el capítulo siguiente de este Código, siempre que concurran estas circunstancias: 1.ª Que el sujeto haya cometido un hecho previsto como delito. 2.ª Que del hecho y de las circunstancias personales del sujeto pueda deducirse un pronóstico de comportamiento futuro que revele la probabilidad de comisión de nuevos delitos. 2. Cuando la pena que hubiere podido imponerse por el delito cometido no fuere privativa de libertad, el juez o tribunal sentenciador sólo podrá acordar alguna o algunas de las medidas previstas en el artículo 96.3.",
+    "art. 96": "1. Las medidas de seguridad que se pueden imponer con arreglo a este Código son privativas y no privativas de libertad. 2. Son medidas privativas de libertad: 1.ª El internamiento en centro psiquiátrico. 2.ª El internamiento en centro de deshabituación. 3.ª El internamiento en centro educativo especial. 3. Son medidas no privativas de libertad: 1.ª) La inhabilitación profesional. 2.ª) La expulsión del territorio nacional de extranjeros no residentes legalmente en España. 3.ª) La libertad vigilada 4.ª) La custodia familiar. El sometido a esta medida quedará sujeto al cuidado y vigilancia del familiar que se designe y que acepte la custodia, quien la ejercerá en relación con el Juez de Vigilancia Penitenciaria y sin menoscabo de las actividades escolares o laborales del custodiado. 5.ª) La privación del derecho a conducir vehículos a motor y ciclomotores. 6.ª) La privación del derecho a la tenencia y porte de armas.",
+    "art. 109": "1. La ejecución de un hecho descrito por la ley como delito obliga a reparar, en los términos previstos en las leyes, los daños y perjuicios por él causados. 2. El perjudicado podrá optar, en todo caso, por exigir la responsabilidad civil ante la Jurisdicción Civil.",
+    "art. 110": "La responsabilidad establecida en el artículo anterior comprende: 1.º La restitución. 2.º La reparación del daño. 3.º La indemnización de perjuicios materiales y morales.",
+    "art. 116": "1. Toda persona criminalmente responsable de un delito lo es también civilmente si del hecho se derivaren daños o perjuicios. Si son dos o más los responsables de un delito los jueces o tribunales señalarán la cuota de que deba responder cada uno. 2. Los autores y los cómplices, cada uno dentro de su respectiva clase, serán responsables solidariamente entre sí por sus cuotas, y subsidiariamente por las correspondientes a los demás responsables. La responsabilidad subsidiaria se hará efectiva: primero, en los bienes de los autores, y después, en los de los cómplices. Tanto en los casos en que se haga efectiva la responsabilidad solidaria como la subsidiaria, quedará a salvo la repetición del que hubiere pagado contra los demás por las cuotas correspondientes a cada uno. 3. La responsabilidad penal de una persona jurídica llevará consigo su responsabilidad civil en los términos establecidos en el artículo 110 de este Código de forma solidaria con las personas físicas que fueren condenadas por los mismos hechos.",
+    "art. 127": "1. Toda pena que se imponga por un delito doloso llevará consigo la pérdida de los efectos que de él provengan y de los bienes, medios o instrumentos con que se haya preparado o ejecutado, así como de las ganancias provenientes del delito, cualesquiera que sean las transformaciones que hubieren podido experimentar. 2. En los casos en que la ley prevea la imposición de una pena privativa de libertad superior a un año por la comisión de un delito imprudente, el juez o tribunal podrá acordar la pérdida de los efectos que provengan del mismo y de los bienes, medios o instrumentos con que se haya preparado o ejecutado, así como de las ganancias provenientes del delito, cualesquiera que sean las transformaciones que hubieran podido experimentar. 3. Si por cualquier circunstancia no fuera posible el decomiso de los bienes señalados en los apartados anteriores de este artículo, se acordará el decomiso de otros bienes por una cantidad que corresponda al valor económico de los mismos, y al de las ganancias que se hubieran obtenido de ellos. De igual modo se procederá cuando se acuerde el decomiso de bienes, efectos o ganancias determinados, pero su valor sea inferior al que tenían en el momento de su adquisición.",
+    "art. 130": "1. La responsabilidad criminal se extingue: 1.º Por la muerte del reo. 2.º Por el cumplimiento de la condena. 3.º Por la remisión definitiva de la pena, conforme a lo dispuesto en los apartados 1 y 2 del artículo 87. 4.º Por la amnistía o el indulto. 5.º Por el perdón de la persona ofendida, cuando se trate de delitos leves perseguibles a instancias de la persona agraviada o la ley así lo prevea. El perdón habrá de ser otorgado de forma expresa antes de que se haya dictado sentencia, a cuyo efecto la autoridad judicial sentenciadora deberá oír a la persona ofendida por el delito antes de dictarla. En los delitos cometidos contra personas menores de edad o personas con discapacidad necesitadas de especial protección que afecten a bienes jurídicos eminentemente personales, el perdón de la persona ofendida no extingue la responsabilidad criminal. 6.º Por la prescripción del delito. 7.º Por la prescripción de la pena o de la medida de seguridad. 2. La transformación, fusión, absorción o escisión de una persona jurídica no extingue su responsabilidad penal, que se trasladará a la entidad o entidades en que se transforme, quede fusionada o absorbida y se extenderá a la entidad o entidades que resulten de la escisión. El Juez o Tribunal podrá moderar el traslado de la pena a la persona jurídica en función de la proporción que la persona jurídica originariamente responsable del delito guarde con ella. No extingue la responsabilidad penal la disolución encubierta o meramente aparente de la persona jurídica. Se considerará en todo caso que existe disolución encubierta o meramente aparente de la persona jurídica cuando se continúe su actividad económica y se mantenga la identidad sustancial de clientes, proveedores y empleados, o de la parte más relevante de todos ellos.",
+    "art. 131": "1. Los delitos prescriben: A los veinte años, cuando la pena máxima señalada al delito sea prisión de quince o más años. A los quince, cuando la pena máxima señalada por la ley sea inhabilitación por más de diez años, o prisión por más de diez y menos de quince años. A los diez, cuando la pena máxima señalada por la ley sea prisión o inhabilitación por más de cinco años y que no exceda de diez. A los cinco, los demás delitos, excepto los delitos leves y los delitos de injurias y calumnias, que prescriben al año. 2. Cuando la pena señalada por la ley fuere compuesta, se estará, para la aplicación de las reglas comprendidas en este artículo, a la que exija mayor tiempo para la prescripción. 3. Los delitos de lesa humanidad y de genocidio y los delitos contra las personas y bienes protegidos en caso de conflicto armado, salvo los castigados en el artículo 614, no prescribirán en ningún caso. Tampoco prescribirán los delitos de terrorismo, si hubieren causado la muerte de una persona. 4. En los supuestos de concurso de infracciones o de infracciones conexas, el plazo de prescripción será el que corresponda al delito más grave.",
+    "art. 133": "1. Las penas impuestas por sentencia firme prescriben: A los 30 años, las de prisión por más de 20 años. A los 25 años, las de prisión de 15 o más años sin que excedan de 20. A los 20, las de inhabilitación por más de 10 años y las de prisión por más de 10 y menos de 15. A los 15, las de inhabilitación por más de seis años y que no excedan de 10, y las de prisión por más de cinco años y que no excedan de 10. A los 10, las restantes penas graves. A los cinco, las penas menos graves. Al año, las penas leves. 2. Las penas impuestas por los delitos de lesa humanidad y de genocidio y por los delitos contra las personas y bienes protegidos en caso de conflicto armado, salvo los castigados en el artículo 614, no prescribirán en ningún caso. Tampoco prescribirán las penas impuestas por delitos de terrorismo, si estos hubieren causado la muerte de una persona.",
+    "art. 136": "1. Los condenados que hayan extinguido su responsabilidad penal tienen derecho a obtener del Ministerio de Justicia, de oficio o a instancia de parte, la cancelación de sus antecedentes penales, cuando hayan transcurrido sin haber vuelto a delinquir los siguientes plazos: a) Seis meses para las penas leves. b) Dos años para las penas que no excedan de doce meses y las impuestas por delitos imprudentes. c) Tres años para las restantes penas menos graves inferiores a tres años. d) Cinco años para las restantes penas menos graves iguales o superiores a tres años. e) Diez años para las penas graves. 2. Los plazos a que se refiere el apartado anterior se contarán desde el día siguiente a aquel en que quedara extinguida la pena, pero si ello ocurriese mediante la remisión condicional, el plazo, una vez obtenida la remisión definitiva, se computará retrotrayéndolo al día siguiente a aquel en que hubiere quedado cumplida la pena si no se hubiere disfrutado de este beneficio. En este caso, se tomará como fecha inicial para el cómputo de la duración de la pena el día siguiente al del otorgamiento de la suspensión. 3. Las penas impuestas a las personas jurídicas y las consecuencias accesorias del artículo 129 se cancelarán en el plazo que corresponda, de acuerdo con la regla prevista en el apartado 1 de este artículo, salvo que se hubiese acordado la disolución o la prohibición definitiva de actividades. En estos casos, se cancelarán las anotaciones transcurridos cincuenta años computados desde el día siguiente a la firmeza de la sentencia. 4. Las inscripciones de antecedentes penales en las distintas secciones del Registro Central de Penados y Rebeldes no serán públicas. Durante su vigencia solo se emitirán certificaciones con las limitaciones y garantías previstas en sus normas específicas y en los casos establecidos por la ley. En todo caso, se librarán las que soliciten los jueces o tribunales, se refieran o no a inscripciones canceladas, haciendo constar expresamente esta última circunstancia. 5. En los casos en que, a pesar de cumplirse los requisitos establecidos en este artículo para la cancelación, ésta no se haya producido, el juez o tribunal, acreditadas tales circunstancias, no tendrá en cuenta dichos antecedentes."
+  },
+  "conceptos": [
+    {
+      "id": "CP-032",
+      "articulo": "art. 32",
+      "titulo": "Las tres clases de penas",
+      "resumen": "Las penas que pueden imponerse, con carácter principal o accesorio, son privativas de libertad, privativas de otros derechos y multa.",
+      "explicacion": "Divide y vencerás: solo hay tres cajones. Todo lo demás son subdivisiones dentro de ellos."
+    },
+    {
+      "id": "CP-033-clas",
+      "articulo": "art. 33",
+      "titulo": "Clasificación de las penas por su gravedad",
+      "resumen": "En función de su naturaleza y duración, las penas se clasifican en graves, menos graves y leves.",
+      "explicacion": "Ojo a no confundir esta clasificación (art. 33) con la del art. 32. Aquella va por naturaleza; esta, por gravedad."
+    },
+    {
+      "id": "CP-033-grave",
+      "articulo": "art. 33",
+      "titulo": "La prisión como pena grave o menos grave",
+      "resumen": "Es pena grave la prisión superior a cinco años; es menos grave la prisión de tres meses hasta cinco años.",
+      "explicacion": "La frontera está en los CINCO años. Por encima, grave; de tres meses a cinco, menos grave."
+    },
+    {
+      "id": "CP-033-multa",
+      "articulo": "art. 33",
+      "titulo": "La multa como pena menos grave o leve",
+      "resumen": "Es pena menos grave la multa de más de tres meses, y la multa proporcional cualquiera que fuese su cuantía.",
+      "explicacion": "La multa nunca es pena grave. Fíjate: la proporcional es siempre menos grave, «cualquiera que fuese su cuantía»."
+    },
+    {
+      "id": "CP-034",
+      "articulo": "art. 34",
+      "titulo": "Lo que no se reputa pena",
+      "resumen": "No se reputan penas la detención y prisión preventiva y demás medidas cautelares penales, las multas y correcciones gubernativas o disciplinarias, ni las privaciones de derechos y sanciones reparadoras civiles o administrativas.",
+      "explicacion": "Tres cosas que parecen pena y no lo son. La primera es la que importa a un policía: la detención preventiva NO es una pena."
+    },
+    {
+      "id": "CP-035",
+      "articulo": "art. 35",
+      "titulo": "Las penas privativas de libertad",
+      "resumen": "Son la prisión permanente revisable, la prisión, la localización permanente y la responsabilidad personal subsidiaria por impago de multa.",
+      "explicacion": "Son cuatro, y la cuarta sorprende: la responsabilidad personal subsidiaria por impago de multa también priva de libertad."
+    },
+    {
+      "id": "CP-036-duracion",
+      "articulo": "art. 36",
+      "titulo": "Duración de la pena de prisión",
+      "resumen": "La pena de prisión tendrá una duración mínima de tres meses y máxima de veinte años, salvo lo que excepcionalmente dispongan otros preceptos del Código.",
+      "explicacion": "Tres meses a veinte años. Las dos cifras caen mucho, y siempre con la coletilla de la excepción."
+    },
+    {
+      "id": "CP-037",
+      "articulo": "art. 37",
+      "titulo": "La localización permanente",
+      "resumen": "Tendrá una duración de hasta seis meses y obliga al penado a permanecer en su domicilio o en lugar determinado fijado por el Juez.",
+      "explicacion": "Hasta seis meses. Y para asegurar el cumplimiento el juez puede acordar medios mecánicos o electrónicos de localización."
+    },
+    {
+      "id": "CP-039",
+      "articulo": "art. 39",
+      "titulo": "Las penas privativas de derechos",
+      "resumen": "Comprenden la inhabilitación absoluta, las inhabilitaciones especiales, la suspensión de empleo o cargo público, la privación del derecho a conducir, la privación del derecho a la tenencia y porte de armas, la privación del derecho a residir en determinados lugares y las prohibiciones de aproximarse o comunicarse con la víctima.",
+      "explicacion": "Aquí viven las penas que más ve un policía: privación del permiso de conducir, del derecho a las armas y las órdenes de alejamiento."
+    },
+    {
+      "id": "CP-040",
+      "articulo": "art. 40",
+      "titulo": "Duración de las penas de inhabilitación",
+      "resumen": "La inhabilitación absoluta dura de seis a 20 años; las especiales, de tres meses a 20 años; la suspensión de empleo o cargo público, de tres meses a seis años.",
+      "explicacion": "Tres cifras distintas y muy preguntables. La absoluta empieza en SEIS años, no en tres meses."
+    },
+    {
+      "id": "CP-040-conducir",
+      "articulo": "art. 40",
+      "titulo": "Duración de la privación del derecho a conducir y a las armas",
+      "resumen": "La privación del derecho a conducir vehículos a motor y ciclomotores y la de la tenencia y porte de armas tendrán una duración de tres meses a 10 años.",
+      "explicacion": "Las dos van juntas y con el mismo arco: tres meses a diez años."
+    },
+    {
+      "id": "CP-050-sistema",
+      "articulo": "art. 50",
+      "titulo": "La pena de multa y el sistema de días-multa",
+      "resumen": "La multa consiste en una sanción pecuniaria y se impone, salvo que la ley disponga otra cosa, por el sistema de días-multa.",
+      "explicacion": "El sistema de días-multa es la regla; la multa proporcional, la excepción."
+    },
+    {
+      "id": "CP-050-extension",
+      "articulo": "art. 50",
+      "titulo": "Extensión y cuota diaria de la multa",
+      "resumen": "Su extensión mínima es de diez días y la máxima de dos años; la cuota diaria tiene un mínimo de dos y un máximo de 400 euros.",
+      "explicacion": "Cuatro cifras: 10 días / 2 años de extensión, y 2 / 400 euros de cuota. Para personas jurídicas, 5 años y 30 / 5.000 euros."
+    },
+    {
+      "id": "CP-053-rps",
+      "articulo": "art. 53",
+      "titulo": "La responsabilidad personal subsidiaria por impago de multa",
+      "resumen": "Si el condenado no satisface la multa, queda sujeto a una responsabilidad personal subsidiaria de un día de privación de libertad por cada dos cuotas diarias no satisfechas.",
+      "explicacion": "La regla de conversión es lo que se pregunta: UN día de privación de libertad por cada DOS cuotas impagadas."
+    },
+    {
+      "id": "CP-053-limite",
+      "articulo": "art. 53",
+      "titulo": "Cuándo no se impone la responsabilidad personal subsidiaria",
+      "resumen": "Esta responsabilidad subsidiaria no se impondrá a los condenados a pena privativa de libertad superior a cinco años.",
+      "explicacion": "Límite claro: por encima de cinco años de prisión, no hay responsabilidad personal subsidiaria por la multa."
+    },
+    {
+      "id": "CP-095",
+      "articulo": "art. 95",
+      "titulo": "Presupuestos de las medidas de seguridad",
+      "resumen": "Se aplican por el Juez o Tribunal cuando el sujeto haya cometido un hecho previsto como delito y del hecho y de sus circunstancias personales pueda deducirse un pronóstico de comportamiento futuro que revele la probabilidad de comisión de nuevos delitos.",
+      "explicacion": "Dos requisitos acumulativos: hecho previsto como delito Y pronóstico de peligrosidad futura."
+    },
+    {
+      "id": "CP-096-clases",
+      "articulo": "art. 96",
+      "titulo": "Clases de medidas de seguridad",
+      "resumen": "Las medidas de seguridad son privativas y no privativas de libertad.",
+      "explicacion": "Son privativas los tres internamientos: psiquiátrico, deshabituación y centro educativo especial."
+    },
+    {
+      "id": "CP-096-nopriv",
+      "articulo": "art. 96",
+      "titulo": "Medidas de seguridad no privativas de libertad",
+      "resumen": "Son no privativas de libertad la inhabilitación profesional, la expulsión del territorio nacional de extranjeros no residentes legalmente, la libertad vigilada y la custodia familiar, entre otras.",
+      "explicacion": "La libertad vigilada y la expulsión son las que más se preguntan de esta lista."
+    },
+    {
+      "id": "CP-109",
+      "articulo": "art. 109",
+      "titulo": "La responsabilidad civil derivada del delito",
+      "resumen": "La ejecución de un hecho descrito por la ley como delito obliga a reparar, en los términos previstos en las leyes, los daños y perjuicios por él causados.",
+      "explicacion": "Y el perjudicado puede optar, en todo caso, por exigirla ante la Jurisdicción Civil."
+    },
+    {
+      "id": "CP-110",
+      "articulo": "art. 110",
+      "titulo": "Contenido de la responsabilidad civil",
+      "resumen": "Comprende la restitución, la reparación del daño y la indemnización de perjuicios materiales y morales.",
+      "explicacion": "Tres partidas y en ese orden. Cae tal cual."
+    },
+    {
+      "id": "CP-116",
+      "articulo": "art. 116",
+      "titulo": "Responsabilidad civil de autores y cómplices",
+      "resumen": "Los autores y los cómplices, cada uno dentro de su respectiva clase, serán responsables solidariamente entre sí por sus cuotas, y subsidiariamente por las correspondientes a los demás responsables.",
+      "explicacion": "Solidaria dentro de la misma clase, subsidiaria respecto de la otra. Y la subsidiaria se hace efectiva primero en los bienes de los autores."
+    },
+    {
+      "id": "CP-127",
+      "articulo": "art. 127",
+      "titulo": "El decomiso en el delito doloso",
+      "resumen": "Toda pena que se imponga por un delito doloso llevará consigo la pérdida de los efectos que de él provengan y de los bienes, medios o instrumentos con que se haya preparado o ejecutado, así como de las ganancias provenientes del delito.",
+      "explicacion": "En el delito doloso es automático («llevará consigo»); en el imprudente es potestativo y solo si la pena puede superar el año."
+    },
+    {
+      "id": "CP-130-causas",
+      "articulo": "art. 130",
+      "titulo": "Causas de extinción de la responsabilidad criminal",
+      "resumen": "La responsabilidad criminal se extingue por la muerte del reo, el cumplimiento de la condena, la remisión definitiva de la pena, la amnistía o el indulto, el perdón del ofendido, la prescripción del delito y la prescripción de la pena o de la medida de seguridad.",
+      "explicacion": "Siete causas. Fíjate en que el perdón del ofendido solo vale en delitos leves perseguibles a instancia de parte, y ha de ser expreso y ANTES de la sentencia."
+    },
+    {
+      "id": "CP-130-perdon",
+      "articulo": "art. 130",
+      "titulo": "El perdón de la persona ofendida",
+      "resumen": "Extingue la responsabilidad criminal en delitos leves perseguibles a instancia de la persona agraviada o cuando la ley lo prevea; ha de otorgarse de forma expresa antes de que se haya dictado sentencia.",
+      "explicacion": "Dos condiciones que caen juntas: EXPRESO y ANTES de la sentencia. Y no vale contra menores o personas con discapacidad necesitada de especial protección."
+    },
+    {
+      "id": "CP-131-plazos",
+      "articulo": "art. 131",
+      "titulo": "Plazos de prescripción de los delitos",
+      "resumen": "Los delitos prescriben a los veinte años cuando la pena máxima señalada sea prisión de quince o más años; a los cinco, los demás delitos, salvo los delitos leves y los de injurias y calumnias, que prescriben al año.",
+      "explicacion": "El suelo y el techo son lo que se pregunta: 20 años arriba, 5 años de regla general, y 1 año para leves, injurias y calumnias."
+    },
+    {
+      "id": "CP-131-imprescr",
+      "articulo": "art. 131",
+      "titulo": "Delitos que no prescriben nunca",
+      "resumen": "No prescriben los delitos de lesa humanidad y de genocidio, ni los delitos contra las personas y bienes protegidos en caso de conflicto armado (salvo los del art. 614), ni los de terrorismo si hubieran causado la muerte de una persona.",
+      "explicacion": "Ojo al matiz del terrorismo: solo es imprescriptible si ha causado la muerte de una persona."
+    },
+    {
+      "id": "CP-131-concurso",
+      "articulo": "art. 131",
+      "titulo": "Prescripción en el concurso de infracciones",
+      "resumen": "En los supuestos de concurso de infracciones o de infracciones conexas, el plazo de prescripción será el que corresponda al delito más grave.",
+      "explicacion": "Manda siempre el delito más grave. Regla corta y muy preguntable."
+    },
+    {
+      "id": "CP-133",
+      "articulo": "art. 133",
+      "titulo": "Prescripción de las penas impuestas por sentencia firme",
+      "resumen": "Las penas prescriben a los 30 años las de prisión por más de 20 años; a los 10 las restantes penas graves; a los cinco las penas menos graves; y al año las penas leves.",
+      "explicacion": "No confundas la prescripción del DELITO (art. 131) con la de la PENA (art. 133). Aquí el tope es 30 años, no 20."
+    },
+    {
+      "id": "CP-136",
+      "articulo": "art. 136",
+      "titulo": "Cancelación de antecedentes penales",
+      "resumen": "Los condenados que hayan extinguido su responsabilidad penal tienen derecho a obtener la cancelación de sus antecedentes penales transcurridos, sin volver a delinquir, seis meses para las penas leves, dos años para las que no excedan de doce meses y las impuestas por delitos imprudentes, tres y cinco años para las menos graves, y diez años para las penas graves.",
+      "explicacion": "Cinco plazos. Los extremos son los que caen: seis meses las leves, diez años las graves."
+    },
+    {
+      "id": "CP-136-leves",
+      "articulo": "art. 136",
+      "titulo": "Plazo de cancelación de las penas leves",
+      "resumen": "Seis meses para las penas leves, contados desde el día siguiente a aquel en que quedara extinguida la pena.",
+      "explicacion": "El plazo se cuenta desde que la pena queda EXTINGUIDA, no desde la sentencia."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "CP-032",
+      "articulo": "art. 32",
+      "tipo": "test",
+      "enunciado": "Según el art. 32 del Código Penal, las penas que pueden imponerse, bien con carácter principal bien como accesorias, son…",
+      "opciones": [
+        "privativas de libertad, privativas de otros derechos y multa",
+        "privativas de libertad, pecuniarias y accesorias de inhabilitación",
+        "graves, menos graves y leves, según su naturaleza y duración",
+        "privativas de libertad, restrictivas de derechos, multa y trabajos en beneficio de la comunidad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las penas que pueden imponerse con arreglo a este Código, bien con carácter principal bien como accesorias, son privativas de libertad, privativas de otros derechos y multa.",
+      "justificacion": "Art. 32 CP."
+    },
+    {
+      "concepto_id": "CP-033-clas",
+      "articulo": "art. 33",
+      "tipo": "test",
+      "enunciado": "Según el art. 33.1 del Código Penal, las penas se clasifican en graves, menos graves y leves en función de…",
+      "opciones": [
+        "su naturaleza y duración",
+        "la gravedad del delito al que van asociadas",
+        "el bien jurídico que resulta afectado por su imposición",
+        "su naturaleza, su duración y el órgano competente para imponerlas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En función de su naturaleza y duración, las penas se clasifican en graves, menos graves y leves.",
+      "justificacion": "Art. 33 CP."
+    },
+    {
+      "concepto_id": "CP-033-grave",
+      "articulo": "art. 33",
+      "tipo": "test",
+      "enunciado": "Según el art. 33 del Código Penal, es pena grave…",
+      "opciones": [
+        "La prisión de tres meses hasta cinco años",
+        "La prisión superior a cinco años",
+        "La prisión superior a tres años",
+        "La prisión superior a diez años"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "2. Son penas graves: a) La prisión permanente revisable. b) La prisión superior a cinco años.",
+      "justificacion": "Art. 33 CP."
+    },
+    {
+      "concepto_id": "CP-033-multa",
+      "articulo": "art. 33",
+      "tipo": "test",
+      "enunciado": "Según el art. 33.3 del Código Penal, la multa proporcional es pena menos grave…",
+      "opciones": [
+        "cuando exceda de tres meses de duración",
+        "cuando su cuantía supere los diez mil euros",
+        "cualquiera que fuese su cuantía",
+        "solo si se impone junto a una pena privativa de libertad"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "k) La multa proporcional, cualquiera que fuese su cuantía, salvo lo dispuesto en el apartado 7 de este artículo.",
+      "justificacion": "Art. 33 CP."
+    },
+    {
+      "concepto_id": "CP-034",
+      "articulo": "art. 34",
+      "tipo": "test",
+      "enunciado": "Según el art. 34 del Código Penal, NO se reputan penas…",
+      "opciones": [
+        "las medidas de seguridad privativas de libertad impuestas a inimputables",
+        "las penas accesorias que acompañan a la pena principal",
+        "La detención y prisión preventiva y las demás medidas cautelares de naturaleza penal",
+        "los trabajos en beneficio de la comunidad impuestos con el consentimiento del penado"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "No se reputarán penas: 1. La detención y prisión preventiva y las demás medidas cautelares de naturaleza penal.",
+      "justificacion": "Art. 34 CP."
+    },
+    {
+      "concepto_id": "CP-035",
+      "articulo": "art. 35",
+      "tipo": "test",
+      "enunciado": "Según el art. 35 del Código Penal, son penas privativas de libertad…",
+      "opciones": [
+        "la prisión permanente revisable, la prisión y la localización permanente",
+        "la prisión permanente revisable, la prisión, la localización permanente y la responsabilidad personal subsidiaria por impago de multa",
+        "la prisión, el arresto de fin de semana y la localización permanente",
+        "la prisión permanente revisable, la prisión, el internamiento en centro psiquiátrico y la localización permanente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Son penas privativas de libertad la prisión permanente revisable, la prisión, la localización permanente y la responsabilidad personal subsidiaria por impago de multa.",
+      "justificacion": "Art. 35 CP."
+    },
+    {
+      "concepto_id": "CP-036-duracion",
+      "articulo": "art. 36",
+      "tipo": "test",
+      "enunciado": "Según el art. 36.2 del Código Penal, la pena de prisión tendrá una duración…",
+      "opciones": [
+        "mínima de tres meses y máxima de veinte años",
+        "mínima de seis meses y máxima de veinte años",
+        "mínima de tres meses y máxima de veinticinco años",
+        "mínima de un año y máxima de veinte años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La pena de prisión tendrá una duración mínima de tres meses y máxima de veinte años, salvo lo que excepcionalmente dispongan otros preceptos del presente Código.",
+      "justificacion": "Art. 36 CP."
+    },
+    {
+      "concepto_id": "CP-037",
+      "articulo": "art. 37",
+      "tipo": "test",
+      "enunciado": "Según el art. 37.1 del Código Penal, la localización permanente tendrá una duración de…",
+      "opciones": [
+        "hasta tres meses",
+        "hasta seis meses",
+        "hasta un año",
+        "de tres meses a dos años"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La localización permanente tendrá una duración de hasta seis meses.",
+      "justificacion": "Art. 37 CP."
+    },
+    {
+      "concepto_id": "CP-039",
+      "articulo": "art. 39",
+      "tipo": "test",
+      "enunciado": "Según el art. 39 del Código Penal, ¿cuál de las siguientes es una pena privativa de derechos?",
+      "opciones": [
+        "La multa por el sistema de días-multa",
+        "La localización permanente cumplida en el domicilio",
+        "La privación del derecho a la tenencia y porte de armas",
+        "La responsabilidad personal subsidiaria por impago de multa"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "e) La privación del derecho a la tenencia y porte de armas.",
+      "justificacion": "Art. 39 CP."
+    },
+    {
+      "concepto_id": "CP-040",
+      "articulo": "art. 40",
+      "tipo": "test",
+      "enunciado": "Según el art. 40.1 del Código Penal, la pena de inhabilitación absoluta tendrá una duración de…",
+      "opciones": [
+        "tres meses a 20 años",
+        "seis a 20 años",
+        "tres meses a seis años",
+        "uno a 20 años"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La pena de inhabilitación absoluta tendrá una duración de seis a 20 años; las de inhabilitación especial, de tres meses a 20 años, y la de suspensión de empleo o cargo público, de tres meses a seis años.",
+      "justificacion": "Art. 40 CP."
+    },
+    {
+      "concepto_id": "CP-040-conducir",
+      "articulo": "art. 40",
+      "tipo": "test",
+      "enunciado": "Según el art. 40.2 del Código Penal, la privación del derecho a conducir vehículos a motor y ciclomotores y la de la tenencia y porte de armas tendrán una duración de…",
+      "opciones": [
+        "tres meses a 10 años",
+        "un año y un día a ocho años",
+        "tres meses a ocho años",
+        "seis meses a 10 años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La pena de privación del derecho a conducir vehículos a motor y ciclomotores, y la de privación del derecho a la tenencia y porte de armas, tendrán una duración de tres meses a 10 años.",
+      "justificacion": "Art. 40 CP."
+    },
+    {
+      "concepto_id": "CP-050-sistema",
+      "articulo": "art. 50",
+      "tipo": "test",
+      "enunciado": "Según el art. 50.2 del Código Penal, la pena de multa se impondrá, salvo que la ley disponga otra cosa, por el sistema de…",
+      "opciones": [
+        "cuantía fija determinada en la sentencia",
+        "días-multa",
+        "multa proporcional al beneficio obtenido",
+        "cuotas mensuales adaptadas a la renta del penado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La pena de multa se impondrá, salvo que la Ley disponga otra cosa, por el sistema de días-multa.",
+      "justificacion": "Art. 50 CP."
+    },
+    {
+      "concepto_id": "CP-050-extension",
+      "articulo": "art. 50",
+      "tipo": "test",
+      "enunciado": "Según el art. 50.4 del Código Penal, la cuota diaria de la multa tendrá, salvo para las personas jurídicas…",
+      "opciones": [
+        "un mínimo de dos y un máximo de 400 euros",
+        "un mínimo de cinco y un máximo de 400 euros",
+        "un mínimo de dos y un máximo de 300 euros",
+        "un mínimo de 30 y un máximo de 5.000 euros"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La cuota diaria tendrá un mínimo de dos y un máximo de 400 euros, excepto en el caso de las multas imponibles a las personas jurídicas, en las que la cuota diaria tendrá un mínimo de 30 y un máximo de 5.000 euros.",
+      "justificacion": "Art. 50 CP."
+    },
+    {
+      "concepto_id": "CP-053-rps",
+      "articulo": "art. 53",
+      "tipo": "test",
+      "enunciado": "Según el art. 53.1 del Código Penal, la responsabilidad personal subsidiaria por impago de multa es de…",
+      "opciones": [
+        "un día de privación de libertad por cada cuota diaria no satisfecha",
+        "un día de privación de libertad por cada dos cuotas diarias no satisfechas",
+        "dos días de privación de libertad por cada cuota diaria no satisfecha",
+        "un día de privación de libertad por cada tres cuotas diarias no satisfechas"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "quedará sujeto a una responsabilidad personal subsidiaria de un día de privación de libertad por cada dos cuotas diarias no satisfechas",
+      "justificacion": "Art. 53 CP."
+    },
+    {
+      "concepto_id": "CP-053-limite",
+      "articulo": "art. 53",
+      "tipo": "test",
+      "enunciado": "Según el art. 53.3 del Código Penal, la responsabilidad personal subsidiaria no se impondrá a los condenados a pena privativa de libertad…",
+      "opciones": [
+        "superior a tres años",
+        "superior a cinco años",
+        "superior a diez años",
+        "de cualquier duración, si es de cumplimiento efectivo"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Esta responsabilidad subsidiaria no se impondrá a los condenados a pena privativa de libertad superior a cinco años.",
+      "justificacion": "Art. 53 CP."
+    },
+    {
+      "concepto_id": "CP-095",
+      "articulo": "art. 95",
+      "tipo": "test",
+      "enunciado": "Según el art. 95.1 del Código Penal, el segundo de los requisitos para aplicar una medida de seguridad es…",
+      "opciones": [
+        "Que el sujeto haya cometido un hecho previsto como delito",
+        "Que el sujeto haya sido declarado exento de responsabilidad criminal",
+        "Que del hecho y de las circunstancias personales del sujeto pueda deducirse un pronóstico de comportamiento futuro que revele la probabilidad de comisión de nuevos delitos",
+        "Que el sujeto padezca una anomalía o alteración psíquica acreditada pericialmente"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "1.ª Que el sujeto haya cometido un hecho previsto como delito. 2.ª Que del hecho y de las circunstancias personales del sujeto pueda deducirse un pronóstico de comportamiento futuro que revele la probabilidad de comisión de nuevos delitos.",
+      "justificacion": "Art. 95 CP."
+    },
+    {
+      "concepto_id": "CP-096-clases",
+      "articulo": "art. 96",
+      "tipo": "test",
+      "enunciado": "Según el art. 96.2 del Código Penal, ¿cuál de las siguientes es una medida de seguridad PRIVATIVA de libertad?",
+      "opciones": [
+        "La libertad vigilada",
+        "La custodia familiar",
+        "El internamiento en centro de deshabituación",
+        "La inhabilitación profesional"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "2. Son medidas privativas de libertad: 1.ª El internamiento en centro psiquiátrico. 2.ª El internamiento en centro de deshabituación. 3.ª El internamiento en centro educativo especial.",
+      "justificacion": "Art. 96 CP."
+    },
+    {
+      "concepto_id": "CP-096-nopriv",
+      "articulo": "art. 96",
+      "tipo": "test",
+      "enunciado": "Según el art. 96.3 del Código Penal, ¿cuál de las siguientes es una medida de seguridad NO privativa de libertad?",
+      "opciones": [
+        "El internamiento en centro psiquiátrico",
+        "La expulsión del territorio nacional de extranjeros no residentes legalmente en España",
+        "El internamiento en centro educativo especial",
+        "El internamiento en centro de deshabituación"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "3. Son medidas no privativas de libertad: 1.ª) La inhabilitación profesional. 2.ª) La expulsión del territorio nacional de extranjeros no residentes legalmente en España. 3.ª) La libertad vigilada 4.ª) La custodia familiar.",
+      "justificacion": "Art. 96 CP."
+    },
+    {
+      "concepto_id": "CP-109",
+      "articulo": "art. 109",
+      "tipo": "test",
+      "enunciado": "Según el art. 109.2 del Código Penal, el perjudicado por el delito…",
+      "opciones": [
+        "deberá esperar a que la sentencia penal sea firme para reclamar los daños",
+        "podrá optar, en todo caso, por exigir la responsabilidad civil ante la Jurisdicción Civil",
+        "solo podrá reclamar la responsabilidad civil dentro del propio proceso penal",
+        "podrá acudir a la vía civil únicamente si el proceso penal termina sin condena"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El perjudicado podrá optar, en todo caso, por exigir la responsabilidad civil ante la Jurisdicción Civil.",
+      "justificacion": "Art. 109 CP."
+    },
+    {
+      "concepto_id": "CP-110",
+      "articulo": "art. 110",
+      "tipo": "test",
+      "enunciado": "Según el art. 110 del Código Penal, el tercero de los conceptos que comprende la responsabilidad civil es…",
+      "opciones": [
+        "El pago de las costas procesales causadas en el procedimiento penal",
+        "La indemnización de perjuicios materiales y morales",
+        "El decomiso de las ganancias obtenidas con la comisión del delito",
+        "La satisfacción del daño moral causado a los familiares de la víctima"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La responsabilidad establecida en el artículo anterior comprende: 1.º La restitución. 2.º La reparación del daño. 3.º La indemnización de perjuicios materiales y morales.",
+      "justificacion": "Art. 110 CP."
+    },
+    {
+      "concepto_id": "CP-116",
+      "articulo": "art. 116",
+      "tipo": "test",
+      "enunciado": "Según el art. 116.2 del Código Penal, los autores y los cómplices, cada uno dentro de su respectiva clase, serán responsables…",
+      "opciones": [
+        "mancomunadamente entre sí y de forma proporcional a su participación",
+        "solidariamente entre sí por sus cuotas, y subsidiariamente por las correspondientes a los demás responsables",
+        "solidariamente por la totalidad de la responsabilidad civil, sin distinción de clases",
+        "subsidiariamente entre sí, quedando los autores obligados en primer lugar"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los autores y los cómplices, cada uno dentro de su respectiva clase, serán responsables solidariamente entre sí por sus cuotas, y subsidiariamente por las correspondientes a los demás responsables.",
+      "justificacion": "Art. 116 CP."
+    },
+    {
+      "concepto_id": "CP-127",
+      "articulo": "art. 127",
+      "tipo": "test",
+      "enunciado": "Según el art. 127.1 del Código Penal, toda pena que se imponga por un delito doloso llevará consigo…",
+      "opciones": [
+        "una multa proporcional al valor de los efectos y ganancias obtenidos con el delito",
+        "la pérdida de los efectos que de él provengan y de los bienes, medios o instrumentos con que se haya preparado o ejecutado",
+        "la obligación de reparar el daño causado con cargo a los bienes decomisados al penado",
+        "la pérdida de los bienes del penado hasta cubrir el importe de la responsabilidad civil"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Toda pena que se imponga por un delito doloso llevará consigo la pérdida de los efectos que de él provengan y de los bienes, medios o instrumentos con que se haya preparado o ejecutado, así como de las ganancias provenientes del delito, cualesquiera que sean las transformaciones que hubieren podido experimentar.",
+      "justificacion": "Art. 127 CP."
+    },
+    {
+      "concepto_id": "CP-130-causas",
+      "articulo": "art. 130",
+      "tipo": "test",
+      "enunciado": "Según el art. 130.1 del Código Penal, ¿cuál de las siguientes extingue la responsabilidad criminal?",
+      "opciones": [
+        "La conformidad del acusado con la pena solicitada por el Ministerio Fiscal",
+        "La reparación íntegra del daño causado a la víctima antes del juicio oral",
+        "Por la prescripción del delito",
+        "La declaración de rebeldía del reo transcurridos diez años desde su fuga"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "6.º Por la prescripción del delito.",
+      "justificacion": "Art. 130 CP."
+    },
+    {
+      "concepto_id": "CP-130-perdon",
+      "articulo": "art. 130",
+      "tipo": "test",
+      "enunciado": "Según el art. 130.1.5.º del Código Penal, el perdón de la persona ofendida habrá de ser otorgado…",
+      "opciones": [
+        "de forma expresa antes de que se haya dictado sentencia",
+        "de forma expresa o tácita en cualquier momento del procedimiento",
+        "de forma expresa antes de la apertura del juicio oral",
+        "por escrito y ratificado ante el juez antes de que la sentencia sea firme"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El perdón habrá de ser otorgado de forma expresa antes de que se haya dictado sentencia, a cuyo efecto la autoridad judicial sentenciadora deberá oír a la persona ofendida por el delito antes de dictarla.",
+      "justificacion": "Art. 130 CP."
+    },
+    {
+      "concepto_id": "CP-131-plazos",
+      "articulo": "art. 131",
+      "tipo": "test",
+      "enunciado": "Según el art. 131.1 del Código Penal, los delitos leves y los delitos de injurias y calumnias prescriben…",
+      "opciones": [
+        "a los cinco años",
+        "a los tres años",
+        "al año",
+        "a los seis meses"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "A los cinco, los demás delitos, excepto los delitos leves y los delitos de injurias y calumnias, que prescriben al año.",
+      "justificacion": "Art. 131 CP."
+    },
+    {
+      "concepto_id": "CP-131-imprescr",
+      "articulo": "art. 131",
+      "tipo": "test",
+      "enunciado": "Según el art. 131.3 del Código Penal, los delitos de terrorismo no prescribirán…",
+      "opciones": [
+        "en ningún caso, cualquiera que sea su resultado",
+        "si hubieren causado la muerte de una persona",
+        "cuando hubieran sido cometidos por organización o grupo terrorista",
+        "si la pena señalada al delito fuera de prisión permanente revisable"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Tampoco prescribirán los delitos de terrorismo, si hubieren causado la muerte de una persona.",
+      "justificacion": "Art. 131 CP."
+    },
+    {
+      "concepto_id": "CP-131-concurso",
+      "articulo": "art. 131",
+      "tipo": "test",
+      "enunciado": "Según el art. 131.4 del Código Penal, en los supuestos de concurso de infracciones o de infracciones conexas, el plazo de prescripción será…",
+      "opciones": [
+        "el que corresponda al delito más grave",
+        "el que corresponda al delito que se hubiera cometido en primer lugar",
+        "la suma de los plazos correspondientes a cada una de las infracciones",
+        "el que corresponda al delito por el que finalmente se dicte condena"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "En los supuestos de concurso de infracciones o de infracciones conexas, el plazo de prescripción será el que corresponda al delito más grave.",
+      "justificacion": "Art. 131 CP."
+    },
+    {
+      "concepto_id": "CP-133",
+      "articulo": "art. 133",
+      "tipo": "test",
+      "enunciado": "Según el art. 133.1 del Código Penal, ¿cuál de estas correspondencias es correcta?",
+      "opciones": [
+        "A los 10, las penas menos graves",
+        "A los cinco, las penas menos graves",
+        "Al año, las penas menos graves",
+        "A los tres, las penas menos graves"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "A los 10, las restantes penas graves. A los cinco, las penas menos graves. Al año, las penas leves.",
+      "justificacion": "Art. 133 CP."
+    },
+    {
+      "concepto_id": "CP-136",
+      "articulo": "art. 136",
+      "tipo": "test",
+      "enunciado": "Según el art. 136.1 del Código Penal, el plazo de cancelación de antecedentes correspondientes a penas graves es de…",
+      "opciones": [
+        "Cinco años para las penas graves",
+        "Diez años para las penas graves",
+        "Quince años para las penas graves",
+        "Veinte años para las penas graves"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "e) Diez años para las penas graves.",
+      "justificacion": "Art. 136 CP."
+    },
+    {
+      "concepto_id": "CP-136-leves",
+      "articulo": "art. 136",
+      "tipo": "test",
+      "enunciado": "Según el art. 136.1 del Código Penal, el plazo de cancelación de antecedentes correspondientes a penas leves es de…",
+      "opciones": [
+        "Seis meses para las penas leves",
+        "Un año para las penas leves",
+        "Tres meses para las penas leves",
+        "Dos años para las penas leves"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Seis meses para las penas leves.",
+      "justificacion": "Art. 136 CP."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CP-033-clas",
+      "destino": "CP-032",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-033-grave",
+      "destino": "CP-033-clas",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-033-multa",
+      "destino": "CP-033-clas",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-034",
+      "destino": "CP-032",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-035",
+      "destino": "CP-032",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-036-duracion",
+      "destino": "CP-035",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-037",
+      "destino": "CP-035",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-039",
+      "destino": "CP-032",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-040",
+      "destino": "CP-039",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-040-conducir",
+      "destino": "CP-039",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-050-sistema",
+      "destino": "CP-032",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-050-extension",
+      "destino": "CP-050-sistema",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-053-rps",
+      "destino": "CP-050-sistema",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-053-limite",
+      "destino": "CP-053-rps",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-095",
+      "destino": "CP-006-fundamento",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-096-clases",
+      "destino": "CP-095",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-096-nopriv",
+      "destino": "CP-096-clases",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-110",
+      "destino": "CP-109",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-116",
+      "destino": "CP-109",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-127",
+      "destino": "CP-032",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-130-causas",
+      "destino": "CP-001",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-130-perdon",
+      "destino": "CP-130-causas",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-131-plazos",
+      "destino": "CP-130-causas",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-131-imprescr",
+      "destino": "CP-131-plazos",
+      "tipo": "limita"
+    },
+    {
+      "origen": "CP-131-concurso",
+      "destino": "CP-131-plazos",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-133",
+      "destino": "CP-130-causas",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-136",
+      "destino": "CP-133",
+      "tipo": "remite"
+    },
+    {
+      "origen": "CP-136-leves",
+      "destino": "CP-136",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "CP-109",
+      "destino": "CP-130-causas",
+      "tipo": "remite"
+    }
+  ]
+}
