@@ -24,7 +24,7 @@ export default async function HoyPage() {
     );
   const titular =
     hoyTotal === 0
-      ? "Hoy no te toca nada: vuelve mañana"
+      ? "Hoy no te toca nada: puedes descansar o hacer un simulacro"
       : `Hoy te tocan ${partes.join(" y ")}`;
 
   return (
@@ -39,16 +39,13 @@ export default async function HoyPage() {
         </h1>
       </header>
 
-      {/* Tarjeta "Hoy toca…" con datos reales */}
+      {/* Plan del día: sale del planificador, no de un cálculo de esta pantalla. */}
       <section
         className="rounded-2xl border p-5"
         style={{ background: "var(--color-surface)", borderColor: borde }}
       >
-        <p className="text-xs font-medium uppercase tracking-wide text-muted">
-          Hoy toca…
-        </p>
         <h2
-          className="mt-1 text-lg font-semibold"
+          className="text-lg font-semibold"
           style={{ fontFamily: "var(--font-display)" }}
         >
           {titular}
@@ -57,8 +54,11 @@ export default async function HoyPage() {
           {r.aciertoPct !== null
             ? `Tu acierto hasta ahora es del ${r.aciertoPct}%. Te quedan ${r.pendientes.toLocaleString("es-ES")} conceptos por tocar de aquí al examen.`
             : "Empieza cuando quieras: tu profesor ajusta la tanda a tu absorción real."}
+          {/* El backlog NO es culpa del opositor: son repasos vencidos que no
+              caben en el presupuesto de hoy (PRESUPUESTO_DIARIO). Llamarlos
+              "atrasados" además de sonar a reproche era inexacto. */}
           {r.backlog > 0
-            ? ` Llevas ${r.backlog.toLocaleString("es-ES")} repasos atrasados.`
+            ? ` Hay ${r.backlog.toLocaleString("es-ES")} repasos más esperando; te los iré repartiendo estos días.`
             : ""}
         </p>
 
