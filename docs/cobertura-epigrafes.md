@@ -37,24 +37,45 @@ Inteligencia» tiene 7 rozadores y aun así el epígrafe está realmente vacío,
 esos conceptos son el ciclo y las disciplinas, no la clasificación
 táctica/operacional/estratégica. Hay que mirarlos, no contarlos.
 
-| Tema | Epígrafe | % encaje | Rozan | Estado |
+| Tema | Epígrafe | % encaje | Rozan | Estado (triaje verificado 20/08/2026) |
 |---|---|---|---|---|
-| 24 | Consecuencia de los riesgos. | 69 % | 13 | ✅ **CUBIERTO** — falso negativo verificado 20/08/2026 |
-| 28 | Reacciones a la globalización. | 48 % | 10 | ⚠ probable falso negativo (GLOB-001…006) |
-| 30 | Principios éticos de la sociedad actual. | 44 % | 1 | hueco (consenso) |
-| 30 | Libertad responsabilidad. | 44 % | 3 | hueco parcial: libertad sí, responsabilidad no |
-| 30 | Igualdad - solidaridad. | 44 % | 2 | hueco parcial: igualdad sí, solidaridad no |
-| 31 | Tipos y efectos. | 48 % | — | sin comprobar |
-| 31 | Las migraciones en la actualidad. | 48 % | 11 | ⚠ probable falso negativo (INMIG-001…006) |
-| 34 | Drogodependencias. | 48 % | **0** | hueco real |
+| 24 | Consecuencia de los riesgos. | 69 % | 13 | ✅ **CUBIERTO** — INSST-006…015 son exactamente eso |
+| 28 | Reacciones a la globalización. | 48 % | 10 | ✅ **CUBIERTO** — GLOB-011…023: antiglobalización, altermundismo, Seattle, ATTAC, Foro Social Mundial |
+| 30 | Principios éticos de la sociedad actual. | 44 % | 1 | ❌ hueco (consenso) |
+| 30 | Libertad responsabilidad. | 44 % | 3 | ⚠ parcial: libertad sí (ETICA-001), responsabilidad no |
+| 30 | Igualdad - solidaridad. | 44 % | 2 | ⚠ parcial: igualdad sí (ETICA-003), solidaridad no |
+| 31 | Tipos y efectos. | 48 % | — | ⚠ parcial: los TIPOS están por nombre (migración laboral, inmigración, emigración); los EFECTOS no |
+| 31 | Las migraciones en la actualidad. | 48 % | 11 | ✅ **CUBIERTO** — INMIG-019…021, datos de 2024 |
+| 34 | Drogodependencias. | 48 % | **0** | ✅ epígrafe-TÍTULO del tema; el contenido está en los epígrafes 2-4. Pero ver abajo |
 | 39 | Redes informáticas: Modelo OSI. | 41 % | 9 | ✅ **CUBIERTO** — existe «Modelo OSI: siete capas» |
-| 40 | Tipologías de Inteligencia. | 100 % | 7 | hueco real, sin fuente (ver `claude-code/ENCARGO-T40-FUENTES.md`) |
-| 40 | Surface Web. | 100 % | **0** | hueco real, sin fuente |
-| 42 | Balística forense. | 52 % | **0** | hueco real, sin norma que lo defina |
+| 40 | Tipologías de Inteligencia. | 100 % | 7 | ❌ hueco real, sin fuente citable |
+| 40 | Surface Web. | 100 % | **0** | ❌ hueco real, sin fuente citable |
+| 42 | Balística forense. | 52 % | **0** | ❌ hueco real, ninguna norma lo define |
 
-**Lectura corta:** de los doce, dos están verificados como cubiertos y dos más lo
-parecen. Los huecos con cero rozadores son tres: Drogodependencias, Surface Web y
-Balística forense.
+**Lectura corta:** de los doce, **cuatro estaban cubiertos** y el informe no podía verlo.
+Huecos reales: los tres del T40/T42 sin fuente, los parciales del T30 y del T31, y el
+del T34 que se explica justo debajo.
+
+### El falso positivo del Tema 34, que es el error contrario
+
+El epígrafe 2 del T34 —«Conceptos de droga, consumidor, métodos de administración,
+adicción, dependencia, tolerancia, politoxicomanías»— **cuenta 13 conceptos y parece
+cubierto**. No lo está: de los siete que el temario nombra, **faltan tres**.
+
+| Concepto que pide el temario | Estado |
+|---|---|
+| droga, adicción, dependencia, tolerancia | ✅ cubiertos |
+| **consumidor** | ❌ falta |
+| **métodos de administración** | ❌ falta (las dos apariciones de «administración» son incidentales, dentro de las definiciones de *Tolerancia* e *Intoxicación*) |
+| **politoxicomanías** / policonsumo | ❌ falta |
+
+Es el fallo simétrico del que documenta la cabecera: un recuento agregado alto tapa
+huecos concretos dentro del epígrafe. **Cuando un epígrafe enumera conceptos con
+nombre y apellido, hay que comprobarlos uno a uno, no fiarse del número.**
+
+La fuente para cerrarlo es el *Glosario de términos de alcohol y drogas* de la OMS en
+edición del Ministerio de Sanidad/PNSD, que ya sostiene el resto del tema, pero
+`pnsd.sanidad.gob.es` está bloqueado desde el contenedor. Encargo pendiente.
 
 ## Detalle por tema
 
