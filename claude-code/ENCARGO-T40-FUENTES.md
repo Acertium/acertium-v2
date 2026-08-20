@@ -191,3 +191,52 @@ entorno bloquea `boe.es`, `cni.es`, `ccn-cert.cni.es`, `incibe.es`, `osi.es`,
 un buscador son **paráfrasis suyas**: no sirven como cotejo, porque el cotejo tiene
 que ser subcadena literal comprobada contra la fuente. Por eso estos encargos van
 a un agente con red abierta.
+
+---
+
+## 5. INCIBE/OSI, «Navegadores y Deep Web. Profundicemos en el tema» — CERRADO en negativo (20/08/2026)
+
+Era la pista viva para **Surface Web**: la fuente que el banco YA acepta para Deep
+web y Dark web (`INTEL-010`, `011` y `012`, servidos y verificados), y que nadie
+había revisado buscando la capa visible. Publicado el **27/11/2019**, sin fecha de
+actualización visible.
+
+**Resultado: no sirve.** El artículo no contiene «web superficial», «surface web»,
+«clear web» ni ninguna formulación equivalente. Describe la capa visible de forma
+perifrástica —«un navegador convencional»— sin darle nombre técnico propio.
+Tampoco usa «darknet» ni «dark net»: emplea «Dark web» de forma consistente en
+todo el texto.
+
+Con esto, **Surface Web y Dark Net quedan cerrados por esta vía**. No se buscan
+sustitutos.
+
+### Un negativo no necesita cita literal
+
+El agente que lo revisó tiene un límite duro de citación y no podía transcribir el
+artículo. No hizo falta: la literalidad sólo es necesaria para **escribir** una
+pregunta, no para concluir que un término **no aparece**. Y un negativo sin
+verificar es seguro aceptarlo, porque falla hacia el lado bueno —como mucho se
+pierde una oportunidad, nunca se publica algo falso—. Un positivo sin verificar no
+se aceptaría igual.
+
+### Efecto colateral valioso: primera verificación independiente de INTEL-010..012
+
+La familia `INTEL` **no está en el mapa familia→sección de `auditar-corpus.mjs`**
+(sus fuentes son CNI e INCIBE, no el Código 600), así que sus cotejos viajan como
+«no auditables»: la puerta fuerte nunca los ha mirado desde que se cargaron.
+
+Al describir el artículo, el agente ancló fragmentos que **corroboran tres de los
+cuatro cotejos servidos**, palabra por palabra:
+
+| Cotejo servido | Corroborado |
+|---|---|
+| `INTEL-010` — «…todo el contenido de Internet que no está indexado por los buscadores tradicionales y que, por tanto, está oculto» | sí, literal |
+| `INTEL-011` — «Existe una parte más «oscura» dentro de la propia Deep web…» | sí, literal |
+| `INTEL-011` — «Ambos términos son diferentes y en ningún caso deberían utilizarse como sinónimos» | sí, en contenido («aclara que Deep web y Dark web no son sinónimos») |
+| `INTEL-012` — TOR, «The Onion Router», Freenet e I2P | sí, literal |
+
+Es la primera comprobación externa que reciben esas preguntas. Salen limpias.
+Queda anotado que **el agujero estructural sigue ahí**: todo lo que no cuelga del
+Código 600 se sirve sin auditoría de corpus. Es el mismo problema que se resolvió
+para el Código Penal del tema 30 creando la familia `CPODIO`; aquí no tiene arreglo
+equivalente, porque no hay corpus local de las páginas del CNI y de INCIBE.
