@@ -1,0 +1,632 @@
+{
+  "meta": {
+    "materia": "ley-5-2014-seguridad-privada",
+    "norma": "Ley 5/2014, de Seguridad Privada",
+    "referencia_boe": "BOE-A-2014-3649",
+    "referencia_fuente": "Ley 5/2014, de 4 de abril, de Seguridad Privada, arts. 9 a 16, redacción vigente — BOE-A-2014-3649, texto del corpus §30 [2026-08-20]",
+    "tipo_fuente": "oficial",
+    "estado_verificacion": "verificado",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 13 — Disposiciones generales en materia de seguridad privada en España"
+  },
+  "fuentes": {
+    "art. 9": "Contratación y comunicación de servicios. 1. No podrá prestarse ningún tipo de servicio de seguridad privada que no haya sido previamente contratado y, en su caso, autorizado. 2. De acuerdo con lo que reglamentariamente se determine, los contratos de prestación de los distintos servicios de seguridad privada deberán, en todo caso, formalizarse por escrito y comunicarse su celebración al Ministerio del Interior o, en su caso, al órgano autonómico competente con antelación a la iniciación de los mismos. 3. La comunicación de contratos de servicios de investigación privada contendrá exclusivamente los datos necesarios para identificar a las partes contratantes, excluidos los de carácter personal.",
+    "art. 10": "Prohibiciones. 1. Con carácter general y además de otras prohibiciones contenidas en esta ley, se establecen las siguientes: a) La prestación o publicidad de servicios de seguridad privada por parte de personas, físicas o jurídicas, carentes de la correspondiente autorización o sin haber presentado declaración responsable. b) El ejercicio de funciones de seguridad privada por parte de personas físicas carentes de la correspondiente habilitación o acreditación profesional. c) La prestación de servicios de seguridad privada incumpliendo los requisitos o condiciones legales de prestación de los mismos. d) El empleo o utilización, en servicios de seguridad privada, de medios o medidas de seguridad no homologadas cuando sea preceptivo, o de medidas o medios personales, materiales o técnicos de forma tal que atenten contra el derecho al honor, a la intimidad personal o familiar o a la propia imagen o al secreto de las comunicaciones, o cuando incumplan las condiciones o requisitos establecidos en esta ley y en su normativa de desarrollo. 2. Los despachos de detectives y los detectives privados no podrán celebrar contratos que tengan por objeto la investigación de delitos perseguibles de oficio ni, en general, investigar delitos de esta naturaleza, debiendo denunciar inmediatamente ante la autoridad competente cualquier hecho de esta naturaleza que llegara a su conocimiento, y poniendo a su disposición toda la información y los instrumentos que pudieran haber obtenido hasta ese momento, relacionado con dichos delitos. 3. Las empresas de seguridad no podrán realizar los servicios de investigación privada propios de los despachos de detectives privados, y éstos no podrán prestar servicios propios de las empresas de seguridad privada.",
+    "art. 11": "Registro Nacional de Seguridad Privada y registros autonómicos. 1. Serán objeto de inscripción de oficio en el Registro Nacional de Seguridad Privada del Ministerio del Interior, una vez concedidas las pertinentes autorizaciones o, en su caso, presentadas las declaraciones responsables, u obtenidas las preceptivas habilitaciones o acreditaciones, el personal de seguridad privada, las empresas de seguridad privada y los despachos de detectives privados, así como delegaciones y sucursales, los centros de formación del personal de seguridad privada y las centrales receptoras de alarma de uso propio, cuando no sean objeto de inscripción en los registros de las comunidades autónomas. Igualmente, se inscribirán en el Registro Nacional de Seguridad Privada las sanciones impuestas en materia de seguridad privada, las comunicaciones de los contratos y sus modificaciones y cuantos datos sean necesarios para las actuaciones de control y gestión de la seguridad privada, cuando tales sanciones, comunicaciones y datos se refieran a servicios de seguridad privada que se presten en un ámbito territorial distinto al de una comunidad autónoma con competencia en materia de seguridad privada. 2. En los registros de las comunidades autónomas, una vez concedidas las pertinentes autorizaciones o, en su caso, presentadas las declaraciones responsables, u obtenidas las preceptivas habilitaciones, se inscribirán de oficio las empresas de seguridad privada y los despachos de detectives privados, así como delegaciones y sucursales, los centros de formación del personal de seguridad privada y las centrales receptoras de alarma de uso propio, que tengan su domicilio en la comunidad autónoma y cuyo ámbito de actuación esté limitado a su territorio. Igualmente, se inscribirán en dichos registros las sanciones impuestas en materia de seguridad privada, las comunicaciones de los contratos y sus modificaciones y cuantos datos sean necesarios para las actuaciones de control y gestión de la seguridad privada, cuando tales sanciones, comunicaciones y datos se refieran a servicios de seguridad privada que se presten en el ámbito territorial propio de una comunidad autónoma con competencia en materia de seguridad privada. 3. En el referido Registro Nacional, además de la información correspondiente a las empresas de seguridad privada que en el mismo se inscriban, se incorporará la relativa a las empresas de seguridad privada inscritas en los registros de las comunidades autónomas con competencia en la materia. A tales efectos, los órganos competentes de las mencionadas comunidades autónomas deberán comunicar al Registro Nacional de Seguridad Privada los datos de las inscripciones y anotaciones que efectúen sobre las empresas de seguridad privada que inscriban, así como sus modificaciones y cancelaciones. 4. En los mencionados registros, nacional y autonómicos, se anotarán también los datos de las empresas que realicen actividades de seguridad informática, de acuerdo con lo que reglamentariamente se determine. 5. Las autoridades responsables del Registro Nacional y de los registros autonómicos establecerán los mecanismos de colaboración y reciprocidad necesarios para permitir su interconexión e interoperabilidad, la determinación coordinada de los sistemas de numeración de las empresas de seguridad privada y el acceso a la información registral contenida en los mismos, para el ejercicio de sus respectivas competencias. 6. Dichos registros serán públicos exclusivamente en cuanto a los asientos referentes a la denominación o razón social, domicilio, número de identificación fiscal y actividades en relación con las cuales estén autorizadas o hayan presentado la declaración responsable las empresas de seguridad privada, despachos de detectives, centros de formación del personal de seguridad privada y centrales de alarmas de uso propio. 7. Reglamentariamente se regulará la organización y funcionamiento del Registro Nacional de Seguridad Privada.",
+    "art. 12": "Competencias de la Administración General del Estado. 1. Corresponde a la Administración General del Estado, a través del Ministerio del Interior y, en su caso, de las Delegaciones y Subdelegaciones del Gobierno, el ejercicio de las siguientes facultades: a) La autorización o recepción de la declaración responsable, inspección y sanción de las empresas de seguridad privada y de sus delegaciones cuya competencia no haya sido asumida por las comunidades autónomas. b) La recepción de la declaración responsable para la apertura de los despachos de detectives privados y de sus sucursales, así como su inspección y sanción, cuando el ejercicio de estas facultades no sea competencia de las comunidades autónomas. c) La habilitación e inhabilitación del personal de seguridad privada, y la determinación del armamento, documentación, uniformidad, distintivos y medios de defensa de dicho personal, así como la acreditación, en todo caso, de los ingenieros y técnicos de las empresas de seguridad y de los operadores de seguridad. d) La aprobación, modificación y cancelación de los programas y cursos específicos de formación del personal de seguridad privada que no sean de la competencia de los Ministerios de Educación, Cultura y Deporte o de Empleo y Seguridad Social. e) La recepción de la declaración responsable, inspección y sanción de los centros de formación del personal de seguridad privada cuya competencia no haya sido asumida por las comunidades autónomas, así como la acreditación, en todo caso, de su profesorado. f) La autorización, inspección y sanción de los servicios de protección personal, cuando no sea competencia de las comunidades autónomas, y de aquellas actividades y servicios transfronterizos de seguridad que puedan prestarse por las empresas y el personal de seguridad privada. g) La autorización de los servicios de seguridad privada y de centrales de alarma de uso propio que se presten en un ámbito territorial superior al de una comunidad autónoma con competencia en materia de seguridad privada, así como la inspección y sanción de estos servicios en aquella parte de los mismos que se realice fuera del territorio de dichas comunidades autónomas. h) La determinación reglamentaria de las características técnicas y de homologación que resulten exigibles a los productos, sistemas, dispositivos, equipos, medidas y servicios de seguridad privada. i) La determinación reglamentaria de los establecimientos obligados a disponer de medidas de seguridad privada, así como la fijación del tipo y alcance de las medidas obligatorias que ha de cumplir cada tipo de establecimiento. j) La autorización, inspección y sanción de los establecimientos e instalaciones industriales, comerciales y de servicios que estén obligados a adoptar medidas de seguridad, cuando el ejercicio de esas facultades no sea competencia de las comunidades autónomas. k) La coordinación de los servicios de seguridad e investigación privadas con los de las Fuerzas y Cuerpos de Seguridad del Estado. 2. En el ámbito de las competencias de la Administración General del Estado y de conformidad con lo dispuesto en la legislación de Fuerzas y Cuerpos de Seguridad: a) Corresponde a la Dirección General de la Policía el control de las empresas, entidades y servicios privados de seguridad, vigilancia e investigación, de su personal, medios y actuaciones. b) Corresponde a la Dirección General de la Guardia Civil el ejercicio de sus competencias en materia de armas sobre las empresas y el personal de seguridad privada, así como el control de los guardas rurales y sus especialidades. Sin afectar a las competencias que corresponden a la Dirección General de la Policía podrá participar en el control de las actuaciones operativas del personal de seguridad privada, que preste servicios en su ámbito de competencias.",
+    "art. 13": "Competencias de las comunidades autónomas. 1. Las comunidades autónomas que, con arreglo a sus estatutos de autonomía, tengan competencia para la protección de personas y bienes y para el mantenimiento del orden público, ejecutarán la legislación del Estado sobre las siguientes materias: a) La autorización de las empresas de seguridad privada y de sus delegaciones, así como la recepción de la declaración responsable para la apertura de los despachos de detectives privados y de sus sucursales, cuando, en ambos casos, tengan su domicilio en la comunidad autónoma y su ámbito de actuación esté limitado a su territorio. b) La autorización de las actividades y servicios de seguridad privada que se realicen en la comunidad autónoma cuando requieran de la misma o de control previo. c) La inspección y sanción de las actividades y servicios de seguridad privada que se realicen en la comunidad autónoma, así como de quienes los presten o utilicen y la inspección y sanción de los despachos de detectives privados y de sus sucursales que realicen su actividad en la comunidad autónoma. d) La recepción de la declaración responsable, inspección y sanción de los centros de formación del personal de seguridad privada que tengan su sede en la comunidad autónoma. e) La coordinación de los servicios de seguridad e investigación privadas prestados en la comunidad autónoma con los de la policía autonómica y las policías locales. f) La autorización, inspección y sanción de los establecimientos e instalaciones industriales, comerciales y de servicios sitos en la comunidad autónoma que estén obligados a adoptar medidas de seguridad. 2. Las comunidades autónomas que, en virtud de sus estatutos de autonomía, hayan asumido competencia ejecutiva en materia de seguridad privada cuando así lo establezca la legislación del Estado, la ejercerán si disponen de cuerpo de policía propia o establecen fórmulas de colaboración con el Cuerpo Nacional de Policía previstas en la legislación de fuerzas y cuerpos de seguridad, sobre las siguientes materias: a) La autorización, inspección y sanción de las empresas de seguridad privada que tengan su domicilio en la comunidad autónoma y cuyo ámbito de actuación esté limitado a su territorio. b) La denuncia, y puesta en conocimiento de las autoridades competentes, de las infracciones cometidas por las empresas de seguridad que no se encuentren incluidas en el párrafo anterior.",
+    "art. 14": "Colaboración profesional. 1. La especial obligación de colaboración de las empresas de seguridad, los despachos de detectives y el personal de seguridad privada con las Fuerzas y Cuerpos de Seguridad se desarrollará con sujeción al principio de legalidad y se basará exclusivamente en la necesidad de asegurar el buen fin de las actuaciones tendentes a preservar la seguridad pública, garantizándose la debida reserva y confidencialidad cuando sea necesario. 2. Las empresas de seguridad, los despachos de detectives y el personal de seguridad privada deberán comunicar a las Fuerzas y Cuerpos de Seguridad competentes, tan pronto como sea posible, cualesquiera circunstancias o informaciones relevantes para la prevención, el mantenimiento o restablecimiento de la seguridad ciudadana, así como todo hecho delictivo del que tuviesen conocimiento en el ejercicio de su actividad o funciones, poniendo a su disposición a los presuntos delincuentes, así como los instrumentos, efectos y pruebas relacionadas con los mismos. 3. Las Fuerzas y Cuerpos de Seguridad podrán facilitar al personal de seguridad privada, en el ejercicio de sus funciones, informaciones que faciliten su evaluación de riesgos y consiguiente implementación de medidas de protección. Si estas informaciones contuvieran datos de carácter personal sólo podrán facilitarse en caso de peligro real para la seguridad pública o para evitar la comisión de infracciones penales.",
+    "art. 15": "Acceso a la información por las Fuerzas y Cuerpos de Seguridad. 1. Se autorizan las cesiones de datos que se consideren necesarias para contribuir a la salvaguarda de la seguridad ciudadana, así como el acceso por parte de las Fuerzas y Cuerpos de Seguridad a los sistemas instalados por las empresas de seguridad privada que permitan la comprobación de las informaciones en tiempo real cuando ello sea necesario para la prevención de un peligro real para la seguridad pública o para la represión de infracciones penales. 2. El tratamiento de datos de carácter personal, así como los ficheros, automatizados o no, creados para el cumplimiento de esta ley se someterán a lo dispuesto en la normativa de protección de datos de carácter personal. 3. La comunicación de buena fe de información a las Fuerzas y Cuerpos de Seguridad por las entidades y el personal de seguridad privada no constituirá vulneración de las restricciones sobre divulgación de información impuestas por vía contractual o por cualquier disposición legal, reglamentaria o administrativa, cuando ello sea necesario para la prevención de un peligro real para la seguridad pública o para la represión de infracciones penales.",
+    "art. 16": "Coordinación y participación. 1. El Ministerio del Interior o, en su caso, el órgano autonómico competente adoptará las medidas organizativas que resulten adecuadas para asegurar la coordinación de los servicios de seguridad privada con los de las Fuerzas y Cuerpos de Seguridad. 2. En el ámbito de las competencias de la Administración General del Estado se constituirán comisiones mixtas de seguridad privada, nacionales, autonómicas o provinciales, con el carácter de órganos consultivos y de colaboración entre las administraciones públicas y los representantes del sector. Su composición y funciones se determinarán reglamentariamente. 3. En las comunidades autónomas que tengan asumidas las competencias en materia de seguridad privada de conformidad con lo establecido en el artículo 13, también podrán existir órganos consultivos en materia de seguridad privada, con la composición y funcionamiento que en cada caso se determine."
+  },
+  "conceptos": [
+    {
+      "id": "SP-027",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Ningún servicio sin contrato previo",
+      "resumen": "No podrá prestarse ningún tipo de servicio de seguridad privada que no haya sido previamente contratado y, en su caso, autorizado.",
+      "explicacion": "Regla de entrada de todo el capítulo: primero el contrato, después el servicio. El «y, en su caso, autorizado» añade un segundo requisito para los servicios que lo necesitan.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 9"
+    },
+    {
+      "id": "SP-028",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Forma y comunicación de los contratos",
+      "resumen": "Los contratos de prestación de los distintos servicios de seguridad privada deberán, en todo caso, formalizarse por escrito y comunicarse su celebración al Ministerio del Interior o, en su caso, al órgano autonómico competente con antelación a la iniciación de los mismos.",
+      "explicacion": "Dos exigencias juntas: por escrito Y comunicados ANTES de empezar. La comunicación va al Interior o al órgano autonómico, según quién tenga la competencia.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 9"
+    },
+    {
+      "id": "SP-029",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Qué se comunica de los contratos de investigación privada",
+      "resumen": "La comunicación de contratos de servicios de investigación privada contendrá exclusivamente los datos necesarios para identificar a las partes contratantes, excluidos los de carácter personal.",
+      "explicacion": "Excepción pensada para proteger al cliente del detective: se comunica quién contrata con quién, y nada más.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 9"
+    },
+    {
+      "id": "SP-030",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Prohibición de prestar o publicitar sin autorización",
+      "resumen": "Se prohíbe la prestación o publicidad de servicios de seguridad privada por parte de personas, físicas o jurídicas, carentes de la correspondiente autorización o sin haber presentado declaración responsable.",
+      "explicacion": "Fíjate en que la prohibición alcanza también a la PUBLICIDAD, no sólo a prestar el servicio. Anunciarse ya es infracción.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 10"
+    },
+    {
+      "id": "SP-031",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Los detectives y los delitos perseguibles de oficio",
+      "resumen": "Los despachos de detectives y los detectives privados no podrán celebrar contratos que tengan por objeto la investigación de delitos perseguibles de oficio ni, en general, investigar delitos de esta naturaleza, debiendo denunciar inmediatamente ante la autoridad competente cualquier hecho de esta naturaleza que llegara a su conocimiento.",
+      "explicacion": "Es la frontera entre investigación privada y persecución pública. Y no basta con abstenerse: hay obligación de DENUNCIAR y de poner a disposición lo obtenido.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 10"
+    },
+    {
+      "id": "SP-032",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Separación entre empresas de seguridad y despachos de detectives",
+      "resumen": "Las empresas de seguridad no podrán realizar los servicios de investigación privada propios de los despachos de detectives privados, y éstos no podrán prestar servicios propios de las empresas de seguridad privada.",
+      "explicacion": "Incompatibilidad recíproca y absoluta: cada uno en lo suyo, en los dos sentidos.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 10"
+    },
+    {
+      "id": "SP-033",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Inscripción de oficio en el Registro Nacional",
+      "resumen": "Serán objeto de inscripción de oficio en el Registro Nacional de Seguridad Privada del Ministerio del Interior el personal de seguridad privada, las empresas de seguridad privada y los despachos de detectives privados, así como delegaciones y sucursales, los centros de formación y las centrales receptoras de alarma de uso propio, cuando no sean objeto de inscripción en los registros de las comunidades autónomas.",
+      "explicacion": "«De oficio»: no hay que pedirla. Y ojo al reparto — si la CCAA tiene competencia y el ámbito es su territorio, la inscripción va a su registro, no al nacional.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 11"
+    },
+    {
+      "id": "SP-034",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Interconexión de los registros nacional y autonómicos",
+      "resumen": "Las autoridades responsables del Registro Nacional y de los registros autonómicos establecerán los mecanismos de colaboración y reciprocidad necesarios para permitir su interconexión e interoperabilidad, la determinación coordinada de los sistemas de numeración de las empresas y el acceso a la información registral.",
+      "explicacion": "Aquí está la coordinación en su forma más concreta: dos registros que tienen que hablarse entre sí para que cada administración ejerza sus competencias.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 11"
+    },
+    {
+      "id": "SP-035",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Hasta dónde son públicos los registros",
+      "resumen": "Los registros serán públicos exclusivamente en cuanto a los asientos referentes a la denominación o razón social, domicilio, número de identificación fiscal y actividades en relación con las cuales estén autorizadas o hayan presentado la declaración responsable las empresas de seguridad privada, despachos de detectives, centros de formación y centrales de alarmas de uso propio.",
+      "explicacion": "Publicidad limitada y tasada: cuatro datos y nada más. Lo demás del registro no es público.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 11"
+    },
+    {
+      "id": "SP-036",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "La habilitación del personal corresponde al Estado",
+      "resumen": "Corresponde a la Administración General del Estado la habilitación e inhabilitación del personal de seguridad privada, y la determinación del armamento, documentación, uniformidad, distintivos y medios de defensa de dicho personal.",
+      "explicacion": "Competencia estatal que NO se transfiere: aunque la comunidad autónoma autorice a la empresa, habilitar al personal es siempre del Estado.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 12"
+    },
+    {
+      "id": "SP-037",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "La coordinación que corresponde a las comunidades autónomas",
+      "resumen": "A las comunidades autónomas con competencia les corresponde la coordinación de los servicios de seguridad e investigación privadas prestados en la comunidad autónoma con los de la policía autonómica y las policías locales.",
+      "explicacion": "Este es el epígrafe «Coordinación» en su versión autonómica: coordinar la seguridad privada con la policía autonómica Y con las locales.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 13"
+    },
+    {
+      "id": "SP-038",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Cuándo autoriza la comunidad autónoma a una empresa",
+      "resumen": "Las comunidades autónomas con competencia autorizan a las empresas de seguridad privada y sus delegaciones, y reciben la declaración responsable de los despachos de detectives y sus sucursales, cuando tengan su domicilio en la comunidad autónoma y su ámbito de actuación esté limitado a su territorio.",
+      "explicacion": "Dos condiciones acumulativas: domicilio EN la comunidad Y ámbito de actuación limitado a su territorio. Si falta una, la competencia vuelve al Estado.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 13"
+    },
+    {
+      "id": "SP-039",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Sobre qué se basa la colaboración profesional",
+      "resumen": "La especial obligación de colaboración con las Fuerzas y Cuerpos de Seguridad se desarrollará con sujeción al principio de legalidad y se basará exclusivamente en la necesidad de asegurar el buen fin de las actuaciones tendentes a preservar la seguridad pública.",
+      "explicacion": "Dos límites en una frase: principio de legalidad, y una finalidad única y exclusiva. No es colaboración a discreción.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 14"
+    },
+    {
+      "id": "SP-040",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "La información que las FCS pueden facilitar al personal de seguridad privada",
+      "resumen": "Las Fuerzas y Cuerpos de Seguridad podrán facilitar al personal de seguridad privada, en el ejercicio de sus funciones, informaciones que faciliten su evaluación de riesgos y consiguiente implementación de medidas de protección.",
+      "explicacion": "La colaboración va en los dos sentidos. Pero si esa información contiene datos personales, sólo cabe en caso de peligro real para la seguridad pública o para evitar delitos.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 14"
+    },
+    {
+      "id": "SP-041",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Acceso de las FCS a los sistemas en tiempo real",
+      "resumen": "Se autoriza el acceso por parte de las Fuerzas y Cuerpos de Seguridad a los sistemas instalados por las empresas de seguridad privada que permitan la comprobación de las informaciones en tiempo real cuando ello sea necesario para la prevención de un peligro real para la seguridad pública o para la represión de infracciones penales.",
+      "explicacion": "El acceso en tiempo real no es libre: exige peligro REAL para la seguridad pública o represión de infracciones penales.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 15"
+    },
+    {
+      "id": "SP-042",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "La comunicación de buena fe no vulnera restricciones",
+      "resumen": "La comunicación de buena fe de información a las Fuerzas y Cuerpos de Seguridad por las entidades y el personal de seguridad privada no constituirá vulneración de las restricciones sobre divulgación de información impuestas por vía contractual o por cualquier disposición legal, reglamentaria o administrativa.",
+      "explicacion": "Es la protección del que colabora: si comunica de buena fe y por esa finalidad, no incumple ni su contrato ni ninguna norma de confidencialidad.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 15"
+    },
+    {
+      "id": "SP-043",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Quién asegura la coordinación",
+      "resumen": "El Ministerio del Interior o, en su caso, el órgano autonómico competente adoptará las medidas organizativas que resulten adecuadas para asegurar la coordinación de los servicios de seguridad privada con los de las Fuerzas y Cuerpos de Seguridad.",
+      "explicacion": "Este es el artículo que da nombre al epígrafe. La coordinación no la hace la empresa: la asegura la Administración con medidas organizativas.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 16"
+    },
+    {
+      "id": "SP-044",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Las comisiones mixtas de seguridad privada",
+      "resumen": "En el ámbito de las competencias de la Administración General del Estado se constituirán comisiones mixtas de seguridad privada, nacionales, autonómicas o provinciales, con el carácter de órganos consultivos y de colaboración entre las administraciones públicas y los representantes del sector.",
+      "explicacion": "Tres ámbitos —nacional, autonómico y provincial— y un doble carácter: consultivo y de colaboración. Su composición y funciones van por reglamento.",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 16"
+    },
+    {
+      "id": "SP-045",
+      "materia": "ley-5-2014-seguridad-privada",
+      "titulo": "Órganos consultivos autonómicos",
+      "resumen": "En las comunidades autónomas que tengan asumidas las competencias en materia de seguridad privada también podrán existir órganos consultivos en materia de seguridad privada, con la composición y funcionamiento que en cada caso se determine.",
+      "explicacion": "«Podrán»: es potestativo, a diferencia de las comisiones mixtas estatales, que «se constituirán».",
+      "tipo_fuente": "oficial",
+      "estado_verificacion": "verificado",
+      "articulo": "art. 16"
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "SP-027",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "Según el art. 9.1 de la Ley 5/2014, no podrá prestarse ningún tipo de servicio de seguridad privada…",
+      "opciones": [
+        "que no haya sido previamente contratado y, en su caso, autorizado",
+        "que no cuente con la autorización expresa del Ministerio del Interior",
+        "sin que el personal asignado disponga de la tarjeta de identidad profesional en vigor",
+        "que no figure inscrito previamente en el Registro Nacional de Seguridad Privada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "No podrá prestarse ningún tipo de servicio de seguridad privada que no haya sido previamente contratado y, en su caso, autorizado.",
+      "justificacion": "Art. 9 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-028",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "Según el art. 9.2 de la Ley 5/2014, los contratos de prestación de servicios de seguridad privada deberán…",
+      "opciones": [
+        "comunicarse al Ministerio del Interior o al órgano autonómico competente dentro de las setenta y dos horas siguientes a su firma, sin necesidad de forma escrita",
+        "formalizarse por escrito y comunicarse su celebración al Ministerio del Interior o, en su caso, al órgano autonómico competente con antelación a la iniciación de los mismos",
+        "inscribirse en el Registro Nacional de Seguridad Privada antes de iniciar la prestación del servicio contratado",
+        "someterse a la aprobación previa de la comisión mixta de seguridad privada que corresponda por razón del territorio"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "los contratos de prestación de los distintos servicios de seguridad privada deberán, en todo caso, formalizarse por escrito y comunicarse su celebración al Ministerio del Interior o, en su caso, al órgano autonómico competente con antelación a la iniciación de los mismos.",
+      "justificacion": "Art. 9 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-029",
+      "articulo": "art. 9",
+      "tipo": "test",
+      "enunciado": "Según el art. 9.3 de la Ley 5/2014, la comunicación de contratos de servicios de investigación privada contendrá…",
+      "opciones": [
+        "el objeto de la investigación encomendada y su duración prevista",
+        "exclusivamente los datos necesarios para identificar a las partes contratantes",
+        "la identidad del investigado y los motivos que justifican el encargo profesional",
+        "los mismos datos exigidos con carácter general para el resto de los servicios de seguridad"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La comunicación de contratos de servicios de investigación privada contendrá exclusivamente los datos necesarios para identificar a las partes contratantes, excluidos los de carácter personal.",
+      "justificacion": "Art. 9 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-030",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "Según el art. 10.1 de la Ley 5/2014, está prohibida…",
+      "opciones": [
+        "la contratación de servicios de seguridad privada por parte de las administraciones públicas cuando existan medios propios suficientes para atender la necesidad",
+        "la prestación de servicios de seguridad privada fuera del ámbito territorial autorizado",
+        "La prestación o publicidad de servicios de seguridad privada por parte de personas, físicas o jurídicas, carentes de la correspondiente autorización",
+        "la subcontratación de servicios de seguridad privada entre empresas debidamente autorizadas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "a) La prestación o publicidad de servicios de seguridad privada por parte de personas, físicas o jurídicas, carentes de la correspondiente autorización o sin haber presentado declaración responsable.",
+      "justificacion": "Art. 10 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-031",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "Según el art. 10.2 de la Ley 5/2014, los despachos de detectives y los detectives privados…",
+      "opciones": [
+        "podrán investigar delitos perseguibles de oficio siempre que lo comuniquen previamente a la autoridad",
+        "no podrán celebrar contratos que tengan por objeto la investigación de delitos perseguibles de oficio",
+        "deberán solicitar autorización judicial para investigar hechos que pudieran ser constitutivos de delito",
+        "podrán continuar la investigación hasta reunir indicios bastantes y presentarlos después ante el juzgado"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Los despachos de detectives y los detectives privados no podrán celebrar contratos que tengan por objeto la investigación de delitos perseguibles de oficio ni, en general, investigar delitos de esta naturaleza, debiendo denunciar inmediatamente ante la autoridad competente cualquier hecho de esta naturaleza que llegara a su conocimiento",
+      "justificacion": "Art. 10 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-032",
+      "articulo": "art. 10",
+      "tipo": "test",
+      "enunciado": "Según el art. 10.3 de la Ley 5/2014, en cuanto a empresas de seguridad y despachos de detectives…",
+      "opciones": [
+        "ambos podrán prestar indistintamente cualquiera de los servicios previstos en la ley siempre que cuenten con la autorización administrativa correspondiente a cada actividad",
+        "las empresas de seguridad podrán asumir servicios de investigación cuando cuenten con detective habilitado",
+        "Las empresas de seguridad no podrán realizar los servicios de investigación privada propios de los despachos de detectives privados",
+        "los despachos de detectives podrán prestar servicios de vigilancia siempre que sean accesorios a la investigación"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Las empresas de seguridad no podrán realizar los servicios de investigación privada propios de los despachos de detectives privados, y éstos no podrán prestar servicios propios de las empresas de seguridad privada.",
+      "justificacion": "Art. 10 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-033",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "Según el art. 11.1 de la Ley 5/2014, la inscripción en el Registro Nacional de Seguridad Privada se practica…",
+      "opciones": [
+        "a instancia del interesado dentro del mes siguiente a la obtención de la autorización",
+        "previa solicitud acompañada de la documentación acreditativa del cumplimiento de los requisitos",
+        "de oficio",
+        "por acuerdo de la comisión mixta de seguridad privada competente por razón del territorio"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "Serán objeto de inscripción de oficio en el Registro Nacional de Seguridad Privada del Ministerio del Interior",
+      "justificacion": "Art. 11 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-034",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "Según el art. 11.5 de la Ley 5/2014, las autoridades responsables del Registro Nacional y de los registros autonómicos establecerán…",
+      "opciones": [
+        "un registro único de ámbito estatal gestionado por el Ministerio del Interior en el que se integrarán de oficio los asientos practicados por las comunidades autónomas",
+        "los mecanismos de colaboración y reciprocidad necesarios para permitir su interconexión e interoperabilidad",
+        "convenios bilaterales que determinen qué inscripciones corresponden a cada administración",
+        "una plataforma común de acceso público a la totalidad de los datos registrales inscritos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las autoridades responsables del Registro Nacional y de los registros autonómicos establecerán los mecanismos de colaboración y reciprocidad necesarios para permitir su interconexión e interoperabilidad, la determinación coordinada de los sistemas de numeración de las empresas de seguridad privada y el acceso a la información registral contenida en los mismos, para el ejercicio de sus respectivas competencias.",
+      "justificacion": "Art. 11 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-035",
+      "articulo": "art. 11",
+      "tipo": "test",
+      "enunciado": "Según el art. 11.6 de la Ley 5/2014, los registros de seguridad privada serán públicos…",
+      "opciones": [
+        "en su integridad, por tratarse de registros administrativos de carácter general",
+        "exclusivamente en cuanto a los asientos referentes a la denominación o razón social, domicilio, número de identificación fiscal y actividades",
+        "sólo para las Fuerzas y Cuerpos de Seguridad y para los órganos judiciales que lo requieran en el ejercicio de sus funciones de investigación y enjuiciamiento",
+        "para quienes acrediten un interés legítimo en la consulta de los datos inscritos"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Dichos registros serán públicos exclusivamente en cuanto a los asientos referentes a la denominación o razón social, domicilio, número de identificación fiscal y actividades en relación con las cuales estén autorizadas o hayan presentado la declaración responsable las empresas de seguridad privada, despachos de detectives, centros de formación del personal de seguridad privada y centrales de alarmas de uso propio.",
+      "justificacion": "Art. 11 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-036",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "Según el art. 12 de la Ley 5/2014, corresponde a la Administración General del Estado…",
+      "opciones": [
+        "la coordinación de los servicios de seguridad privada con las policías locales del municipio",
+        "la autorización de todas las empresas de seguridad privada que operen en territorio español",
+        "La habilitación e inhabilitación del personal de seguridad privada",
+        "la inspección de los centros de formación cuya competencia haya sido asumida por las comunidades autónomas"
+      ],
+      "indice_correcto": 2,
+      "cotejo": "c) La habilitación e inhabilitación del personal de seguridad privada, y la determinación del armamento, documentación, uniformidad, distintivos y medios de defensa de dicho personal",
+      "justificacion": "Art. 12 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-037",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "Según el art. 13 de la Ley 5/2014, corresponde a las comunidades autónomas con competencia…",
+      "opciones": [
+        "la habilitación e inhabilitación del personal de seguridad privada que tenga su residencia habitual en el territorio de la comunidad autónoma",
+        "La coordinación de los servicios de seguridad e investigación privadas prestados en la comunidad autónoma con los de la policía autonómica y las policías locales",
+        "la determinación del armamento y la uniformidad del personal de seguridad que opere en su territorio",
+        "la autorización de los servicios transfronterizos que presten las empresas domiciliadas en la comunidad"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "e) La coordinación de los servicios de seguridad e investigación privadas prestados en la comunidad autónoma con los de la policía autonómica y las policías locales.",
+      "justificacion": "Art. 13 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-038",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "Según el art. 13 de la Ley 5/2014, la comunidad autónoma autoriza a las empresas de seguridad privada y recibe la declaración responsable de los despachos de detectives cuando, en ambos casos…",
+      "opciones": [
+        "tengan su domicilio en la comunidad autónoma, con independencia de cuál sea su ámbito de actuación efectivo",
+        "tengan su domicilio en la comunidad autónoma y su ámbito de actuación esté limitado a su territorio",
+        "presten efectivamente servicios en la comunidad autónoma, cualquiera que sea el domicilio social de la entidad",
+        "hayan sido previamente inscritos de oficio en el registro autonómico de seguridad privada correspondiente"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "a) La autorización de las empresas de seguridad privada y de sus delegaciones, así como la recepción de la declaración responsable para la apertura de los despachos de detectives privados y de sus sucursales, cuando, en ambos casos, tengan su domicilio en la comunidad autónoma y su ámbito de actuación esté limitado a su territorio.",
+      "justificacion": "Art. 13 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-039",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el art. 14.1 de la Ley 5/2014, la especial obligación de colaboración con las Fuerzas y Cuerpos de Seguridad…",
+      "opciones": [
+        "se extenderá a cuanta información obre en poder de la empresa o del personal de seguridad",
+        "se desarrollará con sujeción al principio de legalidad",
+        "quedará condicionada a la existencia de un requerimiento judicial previo y motivado",
+        "podrá exigirse en cualquier momento por el mando policial que dirija la actuación de que se trate"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La especial obligación de colaboración de las empresas de seguridad, los despachos de detectives y el personal de seguridad privada con las Fuerzas y Cuerpos de Seguridad se desarrollará con sujeción al principio de legalidad",
+      "justificacion": "Art. 14 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-040",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el art. 14.3 de la Ley 5/2014, las Fuerzas y Cuerpos de Seguridad podrán facilitar al personal de seguridad privada…",
+      "opciones": [
+        "cualquier dato obrante en sus bases policiales que resulte de utilidad para la prestación del servicio contratado, incluidos los de carácter personal",
+        "informaciones que faciliten su evaluación de riesgos y consiguiente implementación de medidas de protección",
+        "los antecedentes penales de las personas que accedan a las instalaciones protegidas",
+        "informes periódicos sobre la situación delincuencial del término municipal donde presten servicio"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "Las Fuerzas y Cuerpos de Seguridad podrán facilitar al personal de seguridad privada, en el ejercicio de sus funciones, informaciones que faciliten su evaluación de riesgos y consiguiente implementación de medidas de protección.",
+      "justificacion": "Art. 14 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-041",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "Según el art. 15.1 de la Ley 5/2014, el acceso de las Fuerzas y Cuerpos de Seguridad a los sistemas instalados por las empresas de seguridad privada procede…",
+      "opciones": [
+        "siempre que lo solicite el mando policial responsable del dispositivo de seguridad, sin necesidad de justificar la concurrencia de un peligro concreto",
+        "cuando ello sea necesario para la prevención de un peligro real para la seguridad pública o para la represión de infracciones penales",
+        "previa autorización judicial motivada en la que se concrete el alcance temporal del acceso",
+        "cuando exista un convenio de colaboración suscrito con la empresa de seguridad titular del sistema"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "así como el acceso por parte de las Fuerzas y Cuerpos de Seguridad a los sistemas instalados por las empresas de seguridad privada que permitan la comprobación de las informaciones en tiempo real cuando ello sea necesario para la prevención de un peligro real para la seguridad pública o para la represión de infracciones penales.",
+      "justificacion": "Art. 15 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-042",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "Según el art. 15.3 de la Ley 5/2014, la comunicación de buena fe de información a las Fuerzas y Cuerpos de Seguridad…",
+      "opciones": [
+        "requerirá el consentimiento previo del titular de los datos comunicados",
+        "no constituirá vulneración de las restricciones sobre divulgación de información",
+        "deberá documentarse por escrito y remitirse copia al Registro Nacional de Seguridad Privada",
+        "eximirá de responsabilidad únicamente cuando la información resulte finalmente veraz"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "La comunicación de buena fe de información a las Fuerzas y Cuerpos de Seguridad por las entidades y el personal de seguridad privada no constituirá vulneración de las restricciones sobre divulgación de información impuestas por vía contractual o por cualquier disposición legal, reglamentaria o administrativa",
+      "justificacion": "Art. 15 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-043",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "Según el art. 16.1 de la Ley 5/2014, ¿quién adopta las medidas organizativas para asegurar la coordinación de los servicios de seguridad privada con los de las Fuerzas y Cuerpos de Seguridad?",
+      "opciones": [
+        "Las comisiones mixtas de seguridad privada de ámbito provincial",
+        "El Ministerio del Interior o, en su caso, el órgano autonómico competente",
+        "El Registro Nacional de Seguridad Privada, a través de sus mecanismos de interconexión",
+        "El jefe de seguridad de cada empresa, en coordinación con el mando policial del territorio"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "El Ministerio del Interior o, en su caso, el órgano autonómico competente adoptará las medidas organizativas que resulten adecuadas para asegurar la coordinación de los servicios de seguridad privada con los de las Fuerzas y Cuerpos de Seguridad.",
+      "justificacion": "Art. 16 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-044",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "Según el art. 16.2 de la Ley 5/2014, las comisiones mixtas de seguridad privada tienen el carácter de…",
+      "opciones": [
+        "órganos de inspección y sanción de las empresas del sector y del personal de seguridad privada que preste servicios en su ámbito territorial",
+        "órganos consultivos y de colaboración entre las administraciones públicas y los representantes del sector",
+        "órganos de resolución de los recursos interpuestos en materia de seguridad privada",
+        "órganos de dirección de los servicios de seguridad privada en su ámbito territorial"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "se constituirán comisiones mixtas de seguridad privada, nacionales, autonómicas o provinciales, con el carácter de órganos consultivos y de colaboración entre las administraciones públicas y los representantes del sector.",
+      "justificacion": "Art. 16 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    },
+    {
+      "concepto_id": "SP-045",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "Según el art. 16.3 de la Ley 5/2014, en las comunidades autónomas con competencias asumidas en la materia…",
+      "opciones": [
+        "se constituirán obligatoriamente comisiones mixtas de ámbito autonómico y provincial",
+        "también podrán existir órganos consultivos en materia de seguridad privada",
+        "las funciones consultivas serán ejercidas por la comisión mixta nacional en todo caso",
+        "corresponderá al Ministerio del Interior determinar su composición y funcionamiento"
+      ],
+      "indice_correcto": 1,
+      "cotejo": "también podrán existir órganos consultivos en materia de seguridad privada, con la composición y funcionamiento que en cada caso se determine.",
+      "justificacion": "Art. 16 Ley 5/2014.",
+      "tipo_fuente": "oficial"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "SP-028",
+      "destino": "SP-027",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-029",
+      "destino": "SP-028",
+      "tipo": "limita"
+    },
+    {
+      "origen": "SP-030",
+      "destino": "SP-027",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-031",
+      "destino": "SP-030",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-032",
+      "destino": "SP-031",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-033",
+      "destino": "SP-028",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-034",
+      "destino": "SP-033",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-035",
+      "destino": "SP-033",
+      "tipo": "limita"
+    },
+    {
+      "origen": "SP-036",
+      "destino": "SP-033",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-037",
+      "destino": "SP-036",
+      "tipo": "limita"
+    },
+    {
+      "origen": "SP-038",
+      "destino": "SP-037",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-039",
+      "destino": "SP-037",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-040",
+      "destino": "SP-039",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-041",
+      "destino": "SP-040",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-042",
+      "destino": "SP-041",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-043",
+      "destino": "SP-037",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-044",
+      "destino": "SP-043",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "SP-045",
+      "destino": "SP-044",
+      "tipo": "limita"
+    },
+    {
+      "origen": "SP-027",
+      "destino": "SP-014",
+      "tipo": "remite"
+    },
+    {
+      "origen": "SP-039",
+      "destino": "SP-013",
+      "tipo": "remite"
+    },
+    {
+      "origen": "SP-036",
+      "destino": "SP-015",
+      "tipo": "remite"
+    },
+    {
+      "origen": "SP-031",
+      "destino": "SP-010",
+      "tipo": "limita"
+    }
+  ]
+}

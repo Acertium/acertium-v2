@@ -22,14 +22,13 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 ## Resumen
 
 - **250 epígrafes** en 45 temas.
-- **46** sin ningún concepto que los cubra.
-- De esos, **13** están en temas con encaje fiable: esa es la lista corta.
+- **45** sin ningún concepto que los cubra.
+- De esos, **12** están en temas con encaje fiable: esa es la lista corta.
 
 ### Los epígrafes vacíos en temas fiables
 
 | Tema | Epígrafe | % encaje del tema |
 |---|---|---|
-| 13 | Coordinación. | 69 % |
 | 24 | Consecuencia de los riesgos. | 69 % |
 | 28 | Reacciones a la globalización. | 48 % |
 | 30 | Principios éticos de la sociedad actual. | 44 % |
@@ -156,15 +155,15 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 4 | Centros de acogida a refugiados. | 2 |
 | 5 | Apátridas y desplazados. | 1 |
 
-### Tema 13 — 26 conceptos · 69 % de encaje
+### Tema 13 — 45 conceptos · 80 % de encaje
 
 | # | Epígrafe | Conceptos |
 |---|---|---|
-| 1 | Disposiciones generales en materia de seguridad privada en España. | 11 |
-| 2 | Coordinación. | **0** |
-| 3 | Empresas de seguridad privada y despachos de detectives privados. | 13 |
-| 4 | Personal de seguridad privada. | 13 |
-| 5 | Servicios y medidas de seguridad. | 3 |
+| 1 | Disposiciones generales en materia de seguridad privada en España. | 26 |
+| 2 | Coordinación. | 3 |
+| 3 | Empresas de seguridad privada y despachos de detectives privados. | 29 |
+| 4 | Personal de seguridad privada. | 29 |
+| 5 | Servicios y medidas de seguridad. | 10 |
 
 ### Tema 14 — 32 conceptos · 25 % de encaje ⚠ **encaje bajo: los ceros de este tema no son concluyentes**
 
