@@ -1,4 +1,4 @@
-# Convocatoria BOE-A-2025-16610 — lo que fija sobre el examen
+# Convocatoria BOE-A-2025-16610 — ANTERIOR (referencia para diffs)
 
 > Resolución de 31 de julio de 2025, de la Dirección General de la Policía, por la que se
 > convoca oposición libre para cubrir plazas de alumnos/as de la Escuela Nacional de
@@ -16,19 +16,16 @@ prueba— y hasta hoy ninguna estaba versionada: `temario-oficial.md` citaba un 
 y `lib/simulacro-formato.ts` traía las constantes sin fuente comprobable. Este fichero deja
 el texto **citable, greppable y diffable** entre convocatorias sin abrir el PDF.
 
-## ⚠ Discrepancia de referencia sin resolver
+## Convocatoria ANTERIOR — resuelto el 20/08/2026
 
-El repo cita en dos sitios la convocatoria **BOE-A-2026-15055**
-(`temario-oficial.md` y `lib/simulacro-formato.ts:8`). El PDF aportado es
-**BOE-A-2025-16610**. Sus 45 temas coinciden con los de `temario-oficial.md`, y su base
-6.1.1 coincide con las constantes del simulacro, así que **una de dos**:
+Este documento **no es el vigente**. Es la convocatoria de 2025; la que rige hoy es
+**BOE-A-2026-15055** (07/07/2026), cuyo PDF y extracto están al lado. El aviso de
+discrepancia que estuvo puesto unas horas —el repo citaba 2026-15055 y solo teníamos este
+PDF— **queda cerrado: el repo tenía razón, solo faltaba el documento.**
 
-- hay una convocatoria posterior (2026-15055) con el mismo temario y formato, y esto es la
-  anterior; o
-- las citas del repo apuntan a una referencia equivocada.
-
-**No se puede decidir sin ver el otro documento y no se ha decidido.** Las referencias del
-repo se han dejado como estaban, con el aviso puesto al lado.
+Se conserva porque permite lo que ninguna otra fuente permite: **diffear dos convocatorias**.
+De ahí sale la comprobación de que el temario no cambió ni una coma entre una y otra. La
+comparación está en `BOE-A-2026-15055-bases-examen.md`.
 
 ## Base 6.1.1 — Primera prueba (de conocimientos)
 

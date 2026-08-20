@@ -19,6 +19,7 @@ manda las reglas, pero no dice dónde está el diseño.
 | Dónde va una pieza nueva | `docs/006-vision-de-plataforma.md` | El test núcleo/adaptador |
 | Generar un lote | `contrato-generacion.md` + `contrato-calidad-preguntas.md` + `generador/README.md` | Las reglas 0 a 0-quater y la Capa 2 |
 | Contenido no-BOE (T27-41) | `docs/contrato-fuentes-no-boe.md` | `tipo_fuente` y el workflow `pendiente_revision` |
+| Formato del examen o el temario | **`datos/legal-es/convocatoria/BOE-A-2026-15055-bases-examen.md`** | La convocatoria vigente, con su PDF al lado y el diff contra la anterior |
 | El corpus, ingerir o sustituir una norma | **`datos/legal-es/boe-600-pn/corpus/README.md`** | Qué NO trae el corpus y el protocolo de sustitución |
 | Estado real del proyecto | **`claude-code/PARA-CODE-APP.md`** | El parte de traspaso. **Es el documento más desactualizable y el más útil** |
 | Historia de una decisión | `claude-code/RESULTADO_NNN.md` · `EJECUCIONES.md` | Por qué se hizo algo así |
@@ -117,7 +118,6 @@ Recogida de todos los documentos, en un solo sitio:
 | Módulo de ortografía: falta el lote ORTO de grafía/acentuación | `docs/modulo-ortografia.md §Pendiente` |
 | Vigilante de frescura y tabla `norma` (G7): diseñado, no construido | `docs/005 §9` |
 | `.git/index.lock` huérfano con dos agentes a la vez | `PARA-CODE-APP.md §2.5` |
-| Referencia de convocatoria sin resolver (2026-15055 vs 2025-16610) | `datos/legal-es/convocatoria/BOE-A-2025-16610-bases-examen.md` |
 
 ## Regla que propongo para no repetirlo
 

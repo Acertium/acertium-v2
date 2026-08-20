@@ -1,17 +1,15 @@
 # Temario oficial — Policía Nacional Escala Básica (convocatoria BOE-A-2026-15055)
 
-Fuente: `datos/legal-es/_fuentes-brutas/BOE-A-2026-15055.pdf` (temario oficial). Verificado 02/08/2026. Úsalo para asignar el `tema` del overlay de cada norma; NO inventar números.
+Fuente: `datos/legal-es/convocatoria/BOE-A-2026-15055.pdf`, Anexo I (versionado en el repo desde el 20/08/2026). Verificado 02/08/2026 y recontrastado contra el PDF el 20/08/2026. Úsalo para asignar el `tema` del overlay de cada norma; NO inventar números.
 
 ## Contrastado el 20/08/2026 contra el BOE
 
 Los 45 temas de abajo se han comparado, uno a uno, con el **Anexo I de la convocatoria
-BOE-A-2025-16610** (Resolución de 31/07/2025, BOE núm. 192 de 11/08/2025), cuyo PDF sí está
+BOE-A-2026-15055** (Resolución de 07/07/2026, BOE núm. 167 de 10/07/2026), cuyo PDF está
 versionado en `datos/legal-es/convocatoria/`. **El texto coincide.**
 
-**⚠ Ojo con la referencia.** Este fichero cita `BOE-A-2026-15055` y el PDF disponible es
-`BOE-A-2025-16610`. O hay una convocatoria posterior con idéntico temario, o la cita es
-errónea. **Sin resolver**: el PDF de 2026-15055 no está en el repo y no se ha podido abrir.
-Ver `datos/legal-es/convocatoria/BOE-A-2025-16610-bases-examen.md`.
+Y también con el Anexo I de la convocatoria **anterior** (BOE-A-2025-16610): **los 45 temas
+son idénticos entre las dos.** El temario no cambió al cambiar de convocatoria.
 
 ## Los tres bloques del Anexo I
 
