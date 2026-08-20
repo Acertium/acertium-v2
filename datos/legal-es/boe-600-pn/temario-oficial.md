@@ -2,6 +2,30 @@
 
 Fuente: `datos/legal-es/_fuentes-brutas/BOE-A-2026-15055.pdf` (temario oficial). Verificado 02/08/2026. Úsalo para asignar el `tema` del overlay de cada norma; NO inventar números.
 
+## Contrastado el 20/08/2026 contra el BOE
+
+Los 45 temas de abajo se han comparado, uno a uno, con el **Anexo I de la convocatoria
+BOE-A-2025-16610** (Resolución de 31/07/2025, BOE núm. 192 de 11/08/2025), cuyo PDF sí está
+versionado en `datos/legal-es/convocatoria/`. **El texto coincide.**
+
+**⚠ Ojo con la referencia.** Este fichero cita `BOE-A-2026-15055` y el PDF disponible es
+`BOE-A-2025-16610`. O hay una convocatoria posterior con idéntico temario, o la cita es
+errónea. **Sin resolver**: el PDF de 2026-15055 no está en el repo y no se ha podido abrir.
+Ver `datos/legal-es/convocatoria/BOE-A-2025-16610-bases-examen.md`.
+
+## Los tres bloques del Anexo I
+
+El temario no es una lista plana: el BOE lo divide en tres bloques.
+
+| Bloque | Temas | Nº |
+|---|---|---|
+| **A) Ciencias Jurídicas** | 1-26 | 26 |
+| **B) Ciencias Sociales** | 27-37 | 11 |
+| **C) Materias Técnico-Científicas** | 38-45 | 8 |
+
+El bloque A es el que sale de normas BOE (es el corpus `boe-600-pn`). Los bloques B y C
+son, casi enteros, las fuentes no-BOE del `docs/contrato-fuentes-no-boe.md`.
+
 
 **Tema 1.** El Derecho: concepto y acepciones. Las normas jurídicas positivas: concepto, estructura, clases y caracteres. El principio de jerarquía normativa. La persona en sentido jurídico: concepto y clases; su nacimiento y extinción; capacidad jurídica y capacidad de obrar. Adquisición, conservación y pérdida de la nacionalidad española. El domicilio. La vecindad civil.
 

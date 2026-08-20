@@ -189,10 +189,27 @@ Dos avisos sobre esta tabla:
   dos tercios no salen de normas o no se pudieron localizar; si la concentración fuera
   distinta ahí, no lo veríamos.
 - **Chao2 es un modelo con supuestos**, no una medición. El dato duro es 145/164.
-- **No he leído la convocatoria BOE-A-2026-15055.** El PDF no está versionado en el repo.
-  Si fijara pesos por bloque, el peso vendría por escrito y no habría que inferirlo de
-  seis exámenes pasados. **Conviene meter ese PDF en el repo y comprobarlo antes de
-  adoptar la tabla de pesos.**
+
+## Comprobado contra la convocatoria (20/08/2026)
+
+Quedaba pendiente verificar si el BOE fija pesos por tema, en cuyo caso la tabla de arriba
+sobraría. **Leída la convocatoria BOE-A-2025-16610** (ya versionada en
+`datos/legal-es/convocatoria/`, extracto en `BOE-A-2025-16610-bases-examen.md`):
+
+- **La base 6.1.1 no reparte preguntas por tema ni por bloque.** Dice solo que las cien
+  preguntas están «relacionadas con el temario que figura como anexo I». Leídas las bases
+  6.1 a 6.15 completas, no hay ponderación en ninguna. **Inferir el peso de los exámenes
+  pasados no es un atajo: es la única vía que existe.** La tabla se sostiene.
+- **Confirma el formato**: 100 preguntas, 3 alternativas, 50 minutos, corrección
+  `[A−E/(n−1)]×10/P` y mínimo de 3 puntos — exactamente lo que ya implementa
+  `lib/simulacro-formato.ts`. Ese fichero estaba bien.
+- **Aporta una estructura que no teníamos**: el Anexo I va en tres bloques —A) Ciencias
+  Jurídicas (temas 1-26), B) Ciencias Sociales (27-37), C) Técnico-Científicas (38-45)—.
+  El bloque A es justo el que sale de normas BOE, que es por lo que los temas sin artículo
+  caían todos juntos en las mediciones.
+- **Sigue sin resolverse la referencia.** El repo cita BOE-A-2026-15055 en dos sitios y el
+  PDF disponible es BOE-A-2025-16610, con el mismo temario y el mismo formato. No se ha
+  cambiado ninguna cita: hace falta ver el otro documento.
 
 ## Qué habría que cambiar para adoptarlo
 

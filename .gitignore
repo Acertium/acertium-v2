@@ -13,6 +13,10 @@ next-env.d.ts
 # corpus pesado: fuente local; el runtime lee el cerebro desde Supabase.
 # (los .md de índice y los .json de trabajo SÍ se versionan)
 datos/**/*.pdf
+# EXCEPCIÓN: la convocatoria no es corpus, es la norma que gobierna el proyecto
+# (temario, formato del examen, corrección). Pesa poco y todo depende de ella,
+# así que se versiona para poder citarla y detectar cambios entre convocatorias.
+!datos/legal-es/convocatoria/*.pdf
 prototipos/*.html
 prototipos/_descartes/
 

@@ -5,7 +5,10 @@
 // service-role del cerebro al bundle del navegador.
 //
 // Réplica de la prueba oficial de conocimientos de la Policía Nacional
-// (base 6.1.1, BOE-A-2026-15055):
+// (base 6.1.1, BOE-A-2026-15055). Las cuatro constantes de abajo se verificaron
+// el 20/08/2026 contra el PDF de la base 6.1.1 de BOE-A-2025-16610 y coinciden;
+// queda por aclarar cuál de las dos referencias es la vigente, ver
+// datos/legal-es/convocatoria/BOE-A-2025-16610-bases-examen.md:
 //   · 100 preguntas · 3 alternativas por pregunta (solo una correcta)
 //   · 50 minutos de tiempo total
 //   · corrección oficial: nota = [A − E/(n−1)] × 10 / P, con n = 3 → cada 2
