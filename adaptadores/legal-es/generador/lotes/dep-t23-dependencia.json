@@ -1,0 +1,1071 @@
+{
+  "meta": {
+    "materia": "ley-39-2006-dependencia",
+    "norma": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia",
+    "referencia_boe": "BOE-A-2006-21990",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"
+  },
+  "fuentes": {
+    "art. 1": "Objeto de la Ley. 1. La presente Ley tiene por objeto regular las condiciones básicas que garanticen la igualdad en el ejercicio del derecho subjetivo de ciudadanía a la promoción de la autonomía personal y atención a las personas en situación de dependencia, en los términos establecidos en las leyes, mediante la creación de un Sistema para la Autonomía y Atención a la Dependencia, con la colaboración y participación de todas las Administraciones Públicas y la garantía por la Administración General del Estado de un contenido mínimo común de derechos para todos los ciudadanos en cualquier parte del territorio del Estado español. 2. El Sistema para la Autonomía y Atención a la Dependencia responderá a una acción coordinada y cooperativa de la Administración General del Estado y las Comunidades Autónomas, que contemplará medidas en todas las áreas que afectan a las personas en situación de dependencia, con la participación, en su caso, de las Entidades Locales.",
+    "art. 2": "Definiciones. A efectos de la presente Ley, se entiende por: 1. Autonomía: la capacidad de controlar, afrontar y tomar, por propia iniciativa, decisiones personales acerca de cómo vivir de acuerdo con las normas y preferencias propias así como de desarrollar las actividades básicas de la vida diaria. 2. Dependencia: el estado de carácter permanente en que se encuentran las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad, y ligadas a la falta o a la pérdida de autonomía física, mental, intelectual o sensorial, precisan de la atención de otra u otras personas o ayudas importantes para realizar actividades básicas de la vida diaria o, en el caso de las personas con discapacidad intelectual o enfermedad mental, de otros apoyos para su autonomía personal. 3. Actividades Básicas de la Vida Diaria (ABVD): las tareas más elementales de la persona, que le permiten desenvolverse con un mínimo de autonomía e independencia, tales como: el cuidado personal, las actividades domésticas básicas, la movilidad esencial, reconocer personas y objetos, orientarse, entender y ejecutar órdenes o tareas sencillas. 4. Necesidades de apoyo para la autonomía personal: las que requieren las personas que tienen discapacidad intelectual o mental para hacer efectivo un grado satisfactorio de autonomía personal en el seno de la comunidad. 5. Cuidados no profesionales: la atención prestada a personas en situación de dependencia en su domicilio, por personas de la familia o de su entorno, no vinculadas a un servicio de atención profesionalizada. 6. Cuidados profesionales: los prestados por una institución pública o entidad, con y sin ánimo de lucro, o profesional autónomo entre cuyas finalidades se encuentre la prestación de servicios a personas en situación de dependencia, ya sean en su hogar o en un centro. 7. Asistencia personal: servicio prestado por un asistente personal que realiza o colabora en tareas de la vida cotidiana de una persona en situación de dependencia, de cara a fomentar su vida independiente, promoviendo y potenciando su autonomía personal. 8. Tercer sector: organizaciones de carácter privado surgidas de la iniciativa ciudadana o social, bajo diferentes modalidades que responden a criterios de solidaridad, con fines de interés general y ausencia de ánimo de lucro, que impulsan el reconocimiento y el ejercicio de los derechos sociales.",
+    "art. 3": "Principios de la Ley. Esta Ley se inspira en los siguientes principios: a) El carácter público de las prestaciones del Sistema para la Autonomía y Atención a la Dependencia. b) La universalidad en el acceso de todas las personas en situación de dependencia, en condiciones de igualdad efectiva y no discriminación, en los términos establecidos en esta Ley. c) La atención a las personas en situación de dependencia de forma integral e integrada. d) La transversalidad de las políticas de atención a las personas en situación de dependencia. e) La valoración de las necesidades de las personas, atendiendo a criterios de equidad para garantizar la igualdad real. f) La personalización de la atención, teniendo en cuenta de manera especial la situación de quienes requieren de mayor acción positiva como consecuencia de tener mayor grado de discriminación o menor igualdad de oportunidades. g) El establecimiento de las medidas adecuadas de prevención, rehabilitación, estímulo social y mental. h) La promoción de las condiciones precisas para que las personas en situación de dependencia puedan llevar una vida con el mayor grado de autonomía posible. i) La permanencia de las personas en situación de dependencia, siempre que sea posible, en el entorno en el que desarrollan su vida. j) La calidad, sostenibilidad y accesibilidad de los servicios de atención a las personas en situación de dependencia. k) La participación de las personas en situación de dependencia y, en su caso, de sus familias y entidades que les representen en los términos previstos en esta Ley. l) La colaboración de los servicios sociales y sanitarios en la prestación de los servicios a los usuarios del Sistema para la Autonomía y Atención a la Dependencia que se establecen en la presente Ley y en las correspondientes normas de las Comunidades Autónomas y las aplicables a las Entidades Locales. m) La participación de la iniciativa privada en los servicios y prestaciones de promoción de la autonomía personal y atención a la situación de dependencia. n) La participación del tercer sector en los servicios y prestaciones de promoción de la autonomía personal y atención a la situación de dependencia. ñ) La cooperación interadministrativa. o) La integración de las prestaciones establecidas en esta Ley en las redes de servicios sociales de las Comunidades Autónomas, en el ámbito de las competencias que tienen asumidas, y el reconocimiento y garantía de su oferta mediante centros y servicios públicos o privados concertados. p) La inclusión de la perspectiva de género, teniendo en cuenta las distintas necesidades de mujeres y hombres. q) Las personas en situación de gran dependencia serán atendidas de manera preferente.",
+    "art. 5": "Titulares de derechos. 1. Son titulares de los derechos establecidos en la presente Ley los españoles que cumplan los siguientes requisitos: a) Encontrarse en situación de dependencia en alguno de los grados establecidos. b) Para los menores de 3 años se estará a lo dispuesto en la disposición adicional decimotercera. c) Residir en territorio español y haberlo hecho durante cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud. Para los menores de cinco años el periodo de residencia se exigirá a quien ejerza su guarda y custodia. 2. Las personas que, reuniendo los requisitos anteriores, carezcan de la nacionalidad española se regirán por lo establecido en la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, en los tratados internacionales y en los convenios que se establezcan con el país de origen. Para los menores que carezcan de la nacionalidad española se estará a lo dispuesto en las Leyes del Menor vigentes, tanto en el ámbito estatal como en el autonómico, así como en los tratados internacionales. 3. El Gobierno podrá establecer medidas de protección a favor de los españoles no residentes en España. 4. El Gobierno establecerá, previo acuerdo del Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia, las condiciones de acceso al Sistema de Atención a la Dependencia de los emigrantes españoles retornados.",
+    "art. 6": "Finalidad del Sistema. 1. El Sistema para la Autonomía y Atención a la Dependencia garantiza las condiciones básicas y el contenido común a que se refiere la presente Ley; sirve de cauce para la colaboración y participación de las Administraciones Públicas, en el ejercicio de sus respectivas competencias, en materia de promoción de la autonomía personal y la atención y protección a las personas en situación de dependencia; optimiza los recursos públicos y privados disponibles, y contribuye a la mejora de las condiciones de vida de los ciudadanos. 2. El Sistema se configura como una red de utilización pública que integra, de forma coordinada, centros y servicios, públicos y privados. 3. La integración en el Sistema para la Autonomía y Atención a la Dependencia de los centros y servicios a que se refiere este artículo no supondrá alteración alguna en el régimen jurídico de su titularidad, administración, gestión y dependencia orgánica.",
+    "art. 7": "Niveles de protección del Sistema. La protección de la situación de dependencia por parte del Sistema se prestará en los términos establecidos en esta Ley y de acuerdo con los siguientes niveles: 1.º El nivel de protección mínimo establecido por la Administración General del Estado en aplicación del artículo 9. 2.º El nivel de protección que se acuerde entre la Administración General del Estado y la Administración de cada una de las Comunidades Autónomas a través de los Convenios previstos en el artículo 10. 3.º El nivel adicional de protección que pueda establecer cada Comunidad Autónoma.",
+    "art. 14": "Prestaciones de atención a la dependencia. 1. Las prestaciones de atención a la dependencia podrán tener la naturaleza de servicios y de prestaciones económicas e irán destinadas, por una parte, a la promoción de la autonomía personal y, por otra, a atender las necesidades de las personas con dificultades para la realización de las actividades básicas de la vida diaria. 2. Los servicios del Catálogo del artículo 15 tendrán carácter prioritario y se prestarán a través de la oferta pública de la Red de Servicios Sociales por las respectivas Comunidades Autónomas mediante centros y servicios públicos o privados concertados debidamente acreditados. 3. De no ser posible la atención mediante alguno de estos servicios, en los Convenios a que se refiere el artículo 10 se incorporará la prestación económica vinculada establecida en el artículo 17. Esta prestación irá destinada a la cobertura de los gastos del servicio previsto en el Programa Individual de Atención al que se refiere el artículo 29, debiendo ser prestado por una entidad o centro acreditado para la atención a la dependencia. 4. El beneficiario podrá, excepcionalmente, recibir una prestación económica para ser atendido por cuidadores no profesionales, siempre que se den condiciones adecuadas de convivencia y de habitabilidad de la vivienda y así lo establezca su Programa Individual de Atención. 5. Las personas en situación de dependencia podrán recibir una prestación económica de asistencia personal en los términos del artículo 19. 6. La prioridad en el acceso a los servicios vendrá determinada por el grado de dependencia y, a igual grado, por la capacidad económica del solicitante. Hasta que la red de servicios esté totalmente implantada, las personas en situación de dependencia que no puedan acceder a los servicios por aplicación del régimen de prioridad señalado, tendrán derecho a la prestación económica vinculada al servicio prevista en el artículo 17 de esta ley. 7. A los efectos de esta Ley, la capacidad económica se determinará, en la forma que reglamentariamente se establezca, a propuesta del Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia, en atención a la renta y el patrimonio del solicitante. En la consideración del patrimonio se tendrán en cuenta la edad del beneficiario y el tipo de servicio que se presta. 8. Las prestaciones económicas establecidas en virtud de esta Ley son inembargables, salvo para el supuesto previsto en el artículo 608 de la Ley de Enjuiciamiento Civil.",
+    "art. 15": "Catálogo de servicios. 1. El Catálogo de servicios comprende los servicios sociales de promoción de la autonomía personal y de atención a la dependencia, en los términos que se especifican en este capítulo: a) Los servicios de prevención de las situaciones de dependencia y los de promoción de la autonomía personal. b) Servicio de Teleasistencia. c) Servicio de Ayuda a domicilio: (i) Atención de las necesidades del hogar. (ii) Cuidados personales. d) Servicio de Centro de Día y de Noche: (i) Centro de Día para mayores. (ii) Centro de Día para menores de 65 años. (iii) Centro de Día de atención especializada. (iv) Centro de Noche. e) Servicio de Atención Residencial: (i) Residencia de personas mayores en situación de dependencia. (ii) Centro de atención a personas en situación de dependencia, en razón de los distintos tipos de discapacidad. 2. Los servicios establecidos en el apartado 1 se regulan sin perjuicio de lo previsto en el artículo 14 de la Ley 16/2003, de 28 de mayo, de Cohesión y Calidad del Sistema Nacional de Salud.",
+    "art. 17": "Prestación económica vinculada al servicio. 1. La prestación económica, que tendrá carácter periódico, se reconocerá, en los términos que se establezca, únicamente cuando no sea posible el acceso a un servicio público o concertado de atención y cuidado, en función del grado de dependencia y de la capacidad económica del beneficiario, de acuerdo con lo previsto en el convenio celebrado entre la Administración General del Estado y la correspondiente comunidad autónoma. 2. Esta prestación económica de carácter personal estará, en todo caso, vinculada a la adquisición de un servicio. 3. Las Administraciones Públicas competentes supervisarán, en todo caso, el destino y utilización de estas prestaciones al cumplimiento de la finalidad para la que fueron concedidas.",
+    "art. 18": "Prestación económica para cuidados en el entorno familiar y apoyo a cuidadores no profesionales. 1. Excepcionalmente, cuando el beneficiario esté siendo atendido por su entorno familiar, y se reúnan las condiciones establecidas en el artículo 14.4, se reconocerá una prestación económica para cuidados familiares. 2. Previo acuerdo del Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia se establecerán las condiciones de acceso a esta prestación, en función del grado reconocido a la persona en situación de dependencia y de su capacidad económica. 3. El cuidador deberá ajustarse a las normas sobre afiliación, alta y cotización a la Seguridad Social que se determinen reglamentariamente. 4. El Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia promoverá acciones de apoyo a los cuidadores no profesionales que incorporarán programas de formación, información y medidas para atender los periodos de descanso.",
+    "art. 19": "Prestación económica de asistencia personal. La prestación económica de asistencia personal tiene como finalidad la promoción de la autonomía de las personas en situación de dependencia, en cualquiera de sus grados. Su objetivo es contribuir a la contratación de una asistencia personal, durante un número de horas, que facilite al beneficiario el acceso a la educación y al trabajo, así como una vida más autónoma en el ejercicio de las actividades básicas de la vida diaria. Previo acuerdo del Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia se establecerán las condiciones específicas de acceso a esta prestación.",
+    "art. 22": "Servicio de Teleasistencia. 1. El servicio de Teleasistencia facilita asistencia a los beneficiarios mediante el uso de tecnologías de la comunicación y de la información, con apoyo de los medios personales necesarios, en respuesta inmediata ante situaciones de emergencia, o de inseguridad, soledad y aislamiento. Puede ser un servicio independiente o complementario al de ayuda a domicilio. 2. Este servicio se prestará a las personas que no reciban servicios de atención residencial y así lo establezca su Programa Individual de Atención.",
+    "art. 23": "Servicio de Ayuda a Domicilio. El servicio de ayuda a domicilio lo constituye el conjunto de actuaciones llevadas a cabo en el domicilio de las personas en situación de dependencia con el fin de atender sus necesidades de la vida diaria, prestadas por entidades o empresas, acreditadas para esta función, y podrán ser los siguientes: a) Servicios relacionados con la atención personal en la realización de las actividades de la vida diaria. b) Servicios relacionados con la atención de las necesidades domésticas o del hogar: limpieza, lavado, cocina u otros. Estos servicios sólo podrán prestarse conjuntamente con los señalados en el apartado anterior. Excepcionalmente y de forma justificada, los servicios señalados en los apartados anteriores, podrán prestarse separadamente, cuando así se disponga en el Programa Individual de Atención. La Administración competente deberá motivar esta excepción en la resolución de concesión de la prestación.",
+    "art. 25": "Servicio de Atención residencial. 1. El servicio de atención residencial ofrece, desde un enfoque biopsicosocial, servicios continuados de carácter personal y sanitario. 2. Este servicio se prestará en los centros residenciales habilitados al efecto según el tipo de dependencia, grado de la misma e intensidad de cuidados que precise la persona. 3. La prestación de este servicio puede tener carácter permanente, cuando el centro residencial se convierta en la residencia habitual de la persona, o temporal, cuando se atiendan estancias temporales de convalecencia o durante vacaciones, fines de semana y enfermedades o periodos de descanso de los cuidadores no profesionales. 4. El servicio de atención residencial será prestado por las Administraciones Públicas en centros propios y concertados.",
+    "art. 26": "Grados de dependencia. 1. La situación de dependencia se clasificará en los siguientes grados: a) Grado I. Dependencia moderada: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria, al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal. b) Grado II. Dependencia severa: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria dos o tres veces al día, pero no quiere el apoyo permanente de un cuidador o tiene necesidades de apoyo extenso para su autonomía personal. c) Grado III. Gran dependencia: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria varias veces al día y, por su pérdida total de autonomía física, mental, intelectual o sensorial, necesita el apoyo indispensable y continuo de otra persona o tiene necesidades de apoyo generalizado para su autonomía personal. 2. Los intervalos para la determinación de los grados se establecerán en el baremo al que se refiere el artículo siguiente.",
+    "art. 27": "Valoración de la situación de dependencia. 1. Las comunidades autónomas determinarán los órganos de valoración de la situación de dependencia, que emitirán un dictamen sobre el grado de dependencia con especificación de los cuidados que la persona pueda requerir. El Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia deberá acordar unos criterios comunes de composición y actuación de los órganos de valoración de las comunidades autónomas que, en todo caso, tendrán carácter público. 2. Los grados de dependencia, a efectos de su valoración, se determinarán mediante la aplicación del baremo que se acuerde en el Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia para su posterior aprobación por el Gobierno mediante real decreto. Dicho baremo tendrá entre sus referentes la Clasificación Internacional del Funcionamiento, la Discapacidad y la Salud (CIF) adoptada por la Organización Mundial de la Salud. No será posible determinar el grado de dependencia mediante otros procedimientos distintos a los establecidos por este baremo. 3. El baremo establecerá los criterios objetivos de valoración del grado de autonomía de la persona, de su capacidad para realizar las distintas actividades de la vida diaria, los intervalos de puntuación para cada uno de los grados de dependencia y el protocolo con los procedimientos y técnicas a seguir para la valoración de las aptitudes observadas, en su caso. 4. El baremo valorará la capacidad de la persona para llevar a cabo por sí misma las actividades básicas de la vida diaria, así como la necesidad de apoyo y supervisión para su realización por personas con discapacidad intelectual o con enfermedad mental. 5. La valoración se realizará teniendo en cuenta los correspondientes informes sobre la salud de la persona y sobre el entorno en el que viva, y considerando, en su caso, las ayudas técnicas, órtesis y prótesis que le hayan sido prescritas.",
+    "art. 28": "Procedimiento para el reconocimiento de la situación de dependencia y del derecho a las prestaciones del Sistema. 1. El procedimiento se iniciará a instancia de la persona que pueda estar afectada por algún grado de dependencia o de quien ostente su representación, y su tramitación se ajustará a las previsiones establecidas en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, con las especificidades que resulten de la presente Ley. 2. El reconocimiento de la situación de dependencia se efectuará mediante resolución expedida por la Administración Autonómica correspondiente a la residencia del solicitante y tendrá validez en todo el territorio del Estado. 3. La resolución a la que se refiere el apartado anterior determinará los servicios o prestaciones que corresponden al solicitante según el grado de dependencia. 4. En el supuesto de cambio de residencia, la Comunidad Autónoma de destino determinará, en función de su red de servicios y prestaciones, los que correspondan a la persona en situación de dependencia. 5. Los criterios básicos de procedimiento para el reconocimiento de la situación de dependencia y las características comunes del órgano y profesionales que procedan al reconocimiento serán acordados por el Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia. 6. Los servicios de valoración de la situación de dependencia, la prescripción de servicios y prestaciones y la gestión de las prestaciones económicas previstas en la presente Ley, se efectuarán directamente por las Administraciones Públicas no pudiendo ser objeto de delegación, contratación o concierto con entidades privadas.",
+    "art. 29": "Programa Individual de Atención. 1. En el marco del procedimiento de reconocimiento de la situación de dependencia y las prestaciones correspondientes, los servicios sociales correspondientes del sistema público establecerán un programa individual de atención en el que se determinarán las modalidades de intervención más adecuadas a sus necesidades de entre los servicios y prestaciones económicas previstos en la resolución para su grado, con la participación, previa consulta y, en su caso, elección entre las alternativas propuestas por parte del beneficiario y, en su caso, de su familia o entidades tutelares que le representen. No obstante lo establecido en el párrafo anterior, la determinación de la prestación económica por cuidados en el entorno familiar corresponderá a la Administración competente, a propuesta de los servicios sociales 2. El programa individual de atención será revisado: a) A instancia del interesado y de sus representantes legales. b) De oficio, en la forma que determine y con la periodicidad que prevea la normativa de las Comunidades Autónomas. c) Con motivo del cambio de residencia a otra Comunidad Autónoma."
+  },
+  "conceptos": [
+    {
+      "id": "DEP-001",
+      "articulo": "art. 1",
+      "titulo": "Objeto de la Ley de Dependencia",
+      "resumen": "La Ley regula las condiciones básicas que garantizan la igualdad en el ejercicio del derecho subjetivo de ciudadanía a la promoción de la autonomía personal y atención a las personas en situación de dependencia, creando el Sistema para la Autonomía y Atención a la Dependencia.",
+      "explicacion": "La clave es «derecho subjetivo de ciudadanía»: no es una ayuda graciable, es un derecho exigible."
+    },
+    {
+      "id": "DEP-002",
+      "articulo": "art. 1",
+      "titulo": "Creación del Sistema para la Autonomía y Atención a la Dependencia",
+      "resumen": "La Ley crea el Sistema para la Autonomía y Atención a la Dependencia, con la colaboración de todas las Administraciones Públicas y la garantía estatal de un contenido mínimo común de derechos en todo el territorio.",
+      "explicacion": "El Estado garantiza un mínimo común; las Comunidades Autónomas pueden ir por encima."
+    },
+    {
+      "id": "DEP-003",
+      "articulo": "art. 2",
+      "titulo": "Definición de autonomía",
+      "resumen": "Autonomía es la capacidad de controlar, afrontar y tomar por propia iniciativa decisiones personales sobre cómo vivir de acuerdo con las normas y preferencias propias, y de desarrollar las actividades básicas de la vida diaria.",
+      "explicacion": "Autonomía es capacidad de decidir; dependencia es necesitar a otro. No los confundas."
+    },
+    {
+      "id": "DEP-004",
+      "articulo": "art. 2",
+      "titulo": "Definición de dependencia",
+      "resumen": "Dependencia es el estado de carácter permanente en que se encuentran las personas que, por la edad, la enfermedad o la discapacidad, y ligadas a la falta o pérdida de autonomía, precisan la atención de otras personas o ayudas importantes para las actividades básicas de la vida diaria.",
+      "explicacion": "«De carácter permanente»: una situación transitoria no es dependencia a efectos de esta Ley."
+    },
+    {
+      "id": "DEP-005",
+      "articulo": "art. 2",
+      "titulo": "Actividades básicas de la vida diaria (ABVD)",
+      "resumen": "Las ABVD son las tareas más elementales de la persona, que le permiten desenvolverse con un mínimo de autonomía e independencia: cuidado personal, actividades domésticas básicas, movilidad esencial, reconocer personas y objetos, orientarse y entender y ejecutar órdenes o tareas sencillas.",
+      "explicacion": "Es la definición que sostiene todo el baremo: sin ABVD no hay grado de dependencia."
+    },
+    {
+      "id": "DEP-006",
+      "articulo": "art. 2",
+      "titulo": "Cuidados no profesionales",
+      "resumen": "Los cuidados no profesionales son la atención prestada a personas en situación de dependencia en su domicilio, por personas de la familia o de su entorno, no vinculadas a un servicio de atención profesionalizada.",
+      "explicacion": "El rasgo que los define no es quién los presta, sino que no estén vinculados a un servicio profesionalizado."
+    },
+    {
+      "id": "DEP-007",
+      "articulo": "art. 2",
+      "titulo": "Asistencia personal",
+      "resumen": "La asistencia personal es el servicio prestado por un asistente personal que realiza o colabora en tareas de la vida cotidiana de una persona en situación de dependencia, para fomentar su vida independiente y potenciar su autonomía personal.",
+      "explicacion": "Su finalidad es la vida independiente, no solo el cuidado."
+    },
+    {
+      "id": "DEP-008",
+      "articulo": "art. 2",
+      "titulo": "El tercer sector",
+      "resumen": "El tercer sector son las organizaciones de carácter privado surgidas de la iniciativa ciudadana o social, con criterios de solidaridad, fines de interés general y ausencia de ánimo de lucro, que impulsan el reconocimiento y ejercicio de los derechos sociales.",
+      "explicacion": "Tres rasgos: iniciativa ciudadana, interés general y sin ánimo de lucro."
+    },
+    {
+      "id": "DEP-009",
+      "articulo": "art. 3",
+      "titulo": "Atención integral e integrada como principio",
+      "resumen": "Entre los principios de la Ley está la atención a las personas en situación de dependencia de forma integral e integrada.",
+      "explicacion": "Integral quiere decir todas sus necesidades; integrada, coordinada entre servicios. No son sinónimos."
+    },
+    {
+      "id": "DEP-010",
+      "articulo": "art. 3",
+      "titulo": "Permanencia en el entorno y atención preferente a la gran dependencia",
+      "resumen": "La Ley se inspira, entre otros principios, en la permanencia de las personas en situación de dependencia, siempre que sea posible, en el entorno en el que desarrollan su vida.",
+      "explicacion": "Es el principio que explica por qué los servicios domiciliarios van antes que la residencia."
+    },
+    {
+      "id": "DEP-011",
+      "articulo": "art. 3",
+      "titulo": "Atención preferente a la gran dependencia",
+      "resumen": "Es principio de la Ley que las personas en situación de gran dependencia sean atendidas de manera preferente.",
+      "explicacion": "Cierra la lista de principios y es el que ordena las prioridades del Sistema."
+    },
+    {
+      "id": "DEP-012",
+      "articulo": "art. 5",
+      "titulo": "Titulares del derecho: requisito de residencia",
+      "resumen": "Son titulares de los derechos de la Ley los españoles que se encuentren en situación de dependencia en alguno de los grados y residan en territorio español, habiéndolo hecho durante cinco años, dos de ellos inmediatamente anteriores a la solicitud.",
+      "explicacion": "Cinco años en total y dos justo antes de solicitar. Es el dato que decide la pregunta."
+    },
+    {
+      "id": "DEP-013",
+      "articulo": "art. 5",
+      "titulo": "Personas sin nacionalidad española",
+      "resumen": "Quienes reúnan los requisitos pero carezcan de nacionalidad española se rigen por la LO 4/2000 sobre derechos y libertades de los extranjeros en España, los tratados internacionales y los convenios con el país de origen.",
+      "explicacion": "Es el puente entre este tema y el bloque de extranjería."
+    },
+    {
+      "id": "DEP-014",
+      "articulo": "art. 6",
+      "titulo": "El Sistema como red de utilización pública",
+      "resumen": "El Sistema para la Autonomía y Atención a la Dependencia se configura como una red de utilización pública que integra, de forma coordinada, centros y servicios públicos y privados.",
+      "explicacion": "Que un centro entre en el Sistema no cambia de quién es: lo dice el propio artículo."
+    },
+    {
+      "id": "DEP-015",
+      "articulo": "art. 7",
+      "titulo": "Los tres niveles de protección del Sistema",
+      "resumen": "La protección se presta en tres niveles: el mínimo establecido por la Administración General del Estado, el acordado entre el Estado y cada Comunidad Autónoma mediante convenio, y el adicional que pueda establecer cada Comunidad Autónoma.",
+      "explicacion": "Mínimo estatal, convenido y adicional autonómico. Van de menos a más."
+    },
+    {
+      "id": "DEP-016",
+      "articulo": "art. 14",
+      "titulo": "Naturaleza de las prestaciones de atención a la dependencia",
+      "resumen": "Las prestaciones de atención a la dependencia pueden tener la naturaleza de servicios y de prestaciones económicas, destinadas a la promoción de la autonomía personal y a atender las necesidades de quienes tienen dificultades para las actividades básicas de la vida diaria.",
+      "explicacion": "Dos naturalezas: servicios y prestaciones económicas. Los servicios van primero."
+    },
+    {
+      "id": "DEP-017",
+      "articulo": "art. 14",
+      "titulo": "Carácter prioritario de los servicios del catálogo",
+      "resumen": "Los servicios del Catálogo del artículo 15 tienen carácter prioritario y se prestan a través de la oferta pública de la Red de Servicios Sociales de las Comunidades Autónomas, mediante centros y servicios públicos o privados concertados debidamente acreditados.",
+      "explicacion": "El servicio siempre va antes que el dinero: la prestación económica es subsidiaria."
+    },
+    {
+      "id": "DEP-018",
+      "articulo": "art. 14",
+      "titulo": "Prioridad en el acceso a los servicios",
+      "resumen": "La prioridad en el acceso a los servicios viene determinada por el grado de dependencia y, a igual grado, por la capacidad económica del solicitante.",
+      "explicacion": "Primero el grado; el dinero solo desempata."
+    },
+    {
+      "id": "DEP-019",
+      "articulo": "art. 14",
+      "titulo": "Inembargabilidad de las prestaciones económicas",
+      "resumen": "Las prestaciones económicas establecidas en virtud de esta Ley son inembargables, salvo el supuesto previsto en el artículo 608 de la Ley de Enjuiciamiento Civil.",
+      "explicacion": "La excepción del art. 608 LEC es la pensión de alimentos."
+    },
+    {
+      "id": "DEP-020",
+      "articulo": "art. 15",
+      "titulo": "Los servicios del Catálogo",
+      "resumen": "El Catálogo comprende los servicios de prevención y promoción de la autonomía personal, teleasistencia, ayuda a domicilio, centro de día y de noche, y atención residencial.",
+      "explicacion": "La prevención abre el catálogo y la atención residencial lo cierra. Ese orden se pregunta."
+    },
+    {
+      "id": "DEP-021",
+      "articulo": "art. 17",
+      "titulo": "Cuándo se reconoce la prestación económica vinculada al servicio",
+      "resumen": "La prestación económica vinculada al servicio tiene carácter periódico y se reconoce únicamente cuando no sea posible el acceso a un servicio público o concertado de atención y cuidado.",
+      "explicacion": "«Únicamente cuando no sea posible»: confirma que el servicio va primero."
+    },
+    {
+      "id": "DEP-022",
+      "articulo": "art. 17",
+      "titulo": "La prestación vinculada está atada a comprar un servicio",
+      "resumen": "Esta prestación económica de carácter personal está, en todo caso, vinculada a la adquisición de un servicio.",
+      "explicacion": "No es dinero libre: la Administración supervisa que se gaste en el servicio."
+    },
+    {
+      "id": "DEP-023",
+      "articulo": "art. 18",
+      "titulo": "La prestación por cuidados en el entorno familiar es excepcional",
+      "resumen": "Excepcionalmente, cuando el beneficiario esté siendo atendido por su entorno familiar y se reúnan las condiciones establecidas, se reconocerá una prestación económica para cuidados familiares.",
+      "explicacion": "La palabra «excepcionalmente» abre el artículo y es lo que se pregunta."
+    },
+    {
+      "id": "DEP-024",
+      "articulo": "art. 18",
+      "titulo": "Obligaciones del cuidador no profesional",
+      "resumen": "El cuidador debe ajustarse a las normas sobre afiliación, alta y cotización a la Seguridad Social que se determinen reglamentariamente.",
+      "explicacion": "El cuidador familiar tiene encuadramiento en Seguridad Social: no es trabajo informal."
+    },
+    {
+      "id": "DEP-025",
+      "articulo": "art. 19",
+      "titulo": "Finalidad de la prestación de asistencia personal",
+      "resumen": "La prestación económica de asistencia personal tiene como finalidad la promoción de la autonomía de las personas en situación de dependencia, en cualquiera de sus grados.",
+      "explicacion": "Ojo: «en cualquiera de sus grados», no solo en la gran dependencia."
+    },
+    {
+      "id": "DEP-026",
+      "articulo": "art. 22",
+      "titulo": "El servicio de Teleasistencia",
+      "resumen": "La Teleasistencia facilita asistencia mediante el uso de tecnologías de la comunicación y de la información, con apoyo de los medios personales necesarios, en respuesta inmediata ante situaciones de emergencia, inseguridad, soledad y aislamiento.",
+      "explicacion": "Puede ser servicio independiente o complementario del de ayuda a domicilio."
+    },
+    {
+      "id": "DEP-027",
+      "articulo": "art. 22",
+      "titulo": "A quién se presta la Teleasistencia",
+      "resumen": "El servicio de Teleasistencia se presta a las personas que no reciban servicios de atención residencial y así lo establezca su Programa Individual de Atención.",
+      "explicacion": "Incompatible con la atención residencial, por razones obvias."
+    },
+    {
+      "id": "DEP-028",
+      "articulo": "art. 23",
+      "titulo": "El servicio de Ayuda a Domicilio",
+      "resumen": "La ayuda a domicilio es el conjunto de actuaciones llevadas a cabo en el domicilio de las personas en situación de dependencia para atender sus necesidades de la vida diaria, prestadas por entidades o empresas acreditadas para esta función.",
+      "explicacion": "Las tareas domésticas solo pueden prestarse junto con la atención personal, salvo excepción motivada."
+    },
+    {
+      "id": "DEP-029",
+      "articulo": "art. 25",
+      "titulo": "El servicio de Atención Residencial",
+      "resumen": "El servicio de atención residencial ofrece, desde un enfoque biopsicosocial, servicios continuados de carácter personal y sanitario, y puede tener carácter permanente o temporal.",
+      "explicacion": "El carácter temporal cubre convalecencias, vacaciones y descanso del cuidador."
+    },
+    {
+      "id": "DEP-030",
+      "articulo": "art. 26",
+      "titulo": "Grado I: dependencia moderada",
+      "resumen": "El Grado I, dependencia moderada, se da cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria, al menos una vez al día, o tiene necesidades de apoyo intermitente o limitado para su autonomía personal.",
+      "explicacion": "La frecuencia es la clave: una vez al día en el Grado I."
+    },
+    {
+      "id": "DEP-031",
+      "articulo": "art. 26",
+      "titulo": "Grado II: dependencia severa",
+      "resumen": "El Grado II, dependencia severa, se da cuando la persona necesita ayuda para varias actividades básicas de la vida diaria dos o tres veces al día, pero no quiere el apoyo permanente de un cuidador, o tiene necesidades de apoyo extenso.",
+      "explicacion": "Dos o tres veces al día, y sin apoyo permanente. Es el grado intermedio."
+    },
+    {
+      "id": "DEP-032",
+      "articulo": "art. 26",
+      "titulo": "Grado III: gran dependencia",
+      "resumen": "El Grado III, gran dependencia, se da cuando la persona necesita ayuda para varias actividades básicas de la vida diaria varias veces al día y, por su pérdida total de autonomía, necesita el apoyo indispensable y continuo de otra persona, o tiene necesidades de apoyo generalizado.",
+      "explicacion": "Es el grado que la Ley manda atender de manera preferente."
+    },
+    {
+      "id": "DEP-033",
+      "articulo": "art. 27",
+      "titulo": "El baremo y la referencia de la OMS",
+      "resumen": "Los grados de dependencia se determinan mediante el baremo acordado en el Consejo Territorial y aprobado por el Gobierno por real decreto, que tiene entre sus referentes la Clasificación Internacional del Funcionamiento, la Discapacidad y la Salud (CIF) de la OMS.",
+      "explicacion": "Y la Ley cierra la puerta: no cabe determinar el grado por otro procedimiento."
+    },
+    {
+      "id": "DEP-034",
+      "articulo": "art. 27",
+      "titulo": "No cabe otro procedimiento para determinar el grado",
+      "resumen": "No es posible determinar el grado de dependencia mediante otros procedimientos distintos a los establecidos por el baremo.",
+      "explicacion": "Es una prohibición expresa, y por eso se pregunta."
+    },
+    {
+      "id": "DEP-035",
+      "articulo": "art. 28",
+      "titulo": "Inicio del procedimiento y validez de la resolución",
+      "resumen": "El procedimiento se inicia a instancia de la persona que pueda estar afectada por algún grado de dependencia o de quien ostente su representación; el reconocimiento se hace por resolución de la Administración Autonómica de su residencia y tiene validez en todo el territorio del Estado.",
+      "explicacion": "Nunca de oficio. Y la resolución vale en toda España, aunque la dicte una Comunidad."
+    },
+    {
+      "id": "DEP-036",
+      "articulo": "art. 28",
+      "titulo": "Validez territorial de la resolución",
+      "resumen": "El reconocimiento de la situación de dependencia se efectúa mediante resolución expedida por la Administración Autonómica correspondiente a la residencia del solicitante y tiene validez en todo el territorio del Estado.",
+      "explicacion": "La dicta una Comunidad pero vale en toda España; el cambio de residencia solo cambia qué servicios te tocan."
+    },
+    {
+      "id": "DEP-037",
+      "articulo": "art. 29",
+      "titulo": "El Programa Individual de Atención",
+      "resumen": "Los servicios sociales del sistema público establecen un programa individual de atención en el que se determinan las modalidades de intervención más adecuadas a las necesidades de la persona, con su participación y, en su caso, la de su familia.",
+      "explicacion": "El PIA es lo que traduce el grado reconocido en servicios concretos."
+    },
+    {
+      "id": "DEP-038",
+      "articulo": "art. 29",
+      "titulo": "Cuándo se revisa el Programa Individual de Atención",
+      "resumen": "El programa individual de atención se revisa a instancia del interesado y de sus representantes legales, de oficio en la forma y periodicidad que prevea la normativa autonómica, y con motivo del cambio de residencia a otra Comunidad Autónoma.",
+      "explicacion": "Se revisa a instancia del interesado, de oficio, y al mudarse de Comunidad Autónoma."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "DEP-001",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "¿Cuál es el objeto de la Ley 39/2006, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia?",
+      "opciones": [
+        "regular las condiciones básicas que garanticen la igualdad en el ejercicio del derecho subjetivo de ciudadanía a la promoción de la autonomía personal y atención a las personas en situación de dependencia",
+        "regular las prestaciones asistenciales de carácter graciable que las Administraciones Públicas pueden conceder a las personas mayores y con discapacidad que carezcan de recursos económicos suficientes",
+        "establecer el régimen de reconocimiento del grado de discapacidad y las medidas de acción positiva a favor de las personas con movilidad reducida en el acceso al empleo y a los servicios públicos",
+        "coordinar la asistencia sanitaria y los servicios sociales prestados por las Comunidades Autónomas a las personas en situación de exclusión social o riesgo de padecerla, en condiciones de igualdad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La presente Ley tiene por objeto regular las condiciones básicas que garanticen la igualdad en el ejercicio del derecho subjetivo de ciudadanía a la promoción de la autonomía personal y atención a las personas en situación de dependencia",
+      "justificacion": "Ley 39/2006, art. 1."
+    },
+    {
+      "concepto_id": "DEP-002",
+      "articulo": "art. 1",
+      "tipo": "test",
+      "enunciado": "La Ley 39/2006 alcanza su objeto mediante la creación de:",
+      "opciones": [
+        "un Sistema para la Autonomía y Atención a la Dependencia",
+        "un Consejo Nacional de la Discapacidad y la Autonomía Personal",
+        "un Fondo Estatal de Atención a las Personas Mayores Dependientes",
+        "una Red Pública Estatal de Centros Residenciales y de Día"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "mediante la creación de un Sistema para la Autonomía y Atención a la Dependencia, con la colaboración y participación de todas las Administraciones Públicas y la garantía por la Administración General del Estado de un contenido mínimo común de derechos para todos los ciudadanos",
+      "justificacion": "Ley 39/2006, art. 1."
+    },
+    {
+      "concepto_id": "DEP-003",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2 de la Ley 39/2006, se entiende por autonomía:",
+      "opciones": [
+        "la capacidad de controlar, afrontar y tomar, por propia iniciativa, decisiones personales acerca de cómo vivir de acuerdo con las normas y preferencias propias",
+        "la aptitud física y mental que permite a una persona vivir en su domicilio habitual sin ayuda de terceras personas ni apoyos técnicos de ninguna clase",
+        "el derecho de toda persona a elegir libremente el centro o el servicio en el que desea ser atendida por la Administración competente en cada caso",
+        "la situación en que se encuentra quien conserva íntegramente la capacidad de obrar plena conforme a la legislación civil vigente en cada territorio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Autonomía: la capacidad de controlar, afrontar y tomar, por propia iniciativa, decisiones personales acerca de cómo vivir de acuerdo con las normas y preferencias propias así como de desarrollar las actividades básicas de la vida diaria.",
+      "justificacion": "Ley 39/2006, art. 2."
+    },
+    {
+      "concepto_id": "DEP-004",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2 de la Ley 39/2006, la dependencia es:",
+      "opciones": [
+        "el estado de carácter permanente en que se encuentran las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad",
+        "el estado de carácter transitorio o permanente que impide a una persona incorporarse al mercado de trabajo en condiciones de igualdad efectiva",
+        "la situación sobrevenida a consecuencia de un accidente o enfermedad que reduce en más de un tercio la capacidad laboral",
+        "el estado de necesidad económica sobrevenida que determina el acceso a las prestaciones no contributivas de la Seguridad Social"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Dependencia: el estado de carácter permanente en que se encuentran las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad, y ligadas a la falta o a la pérdida de autonomía física, mental, intelectual o sensorial, precisan de la atención de otra u otras personas o ayudas importantes para realizar actividades básicas de la vida diaria",
+      "justificacion": "Ley 39/2006, art. 2."
+    },
+    {
+      "concepto_id": "DEP-005",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Qué son las Actividades Básicas de la Vida Diaria (ABVD) según la Ley 39/2006?",
+      "opciones": [
+        "las tareas más elementales de la persona, que le permiten desenvolverse con un mínimo de autonomía e independencia",
+        "las tareas instrumentales que permiten a la persona participar en la vida social, laboral y comunitaria de su entorno",
+        "las actividades de ocio, cultura y relación que las Administraciones deben garantizar a las personas mayores",
+        "las tareas de apoyo que prestan los cuidadores no profesionales en el domicilio de la persona dependiente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Actividades Básicas de la Vida Diaria (ABVD): las tareas más elementales de la persona, que le permiten desenvolverse con un mínimo de autonomía e independencia",
+      "justificacion": "Ley 39/2006, art. 2."
+    },
+    {
+      "concepto_id": "DEP-006",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según la Ley 39/2006, los cuidados no profesionales son:",
+      "opciones": [
+        "la atención prestada a personas en situación de dependencia en su domicilio, por personas de la familia o de su entorno, no vinculadas a un servicio de atención profesionalizada",
+        "la atención prestada a personas en situación de dependencia por voluntarios de entidades del tercer sector debidamente inscritas en el registro correspondiente",
+        "la atención prestada a personas en situación de dependencia en su domicilio por empleados de hogar contratados directamente por la familia del beneficiario",
+        "la atención prestada a personas en situación de dependencia por profesionales autónomos que no hayan sido acreditados por la Administración competente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Cuidados no profesionales: la atención prestada a personas en situación de dependencia en su domicilio, por personas de la familia o de su entorno, no vinculadas a un servicio de atención profesionalizada.",
+      "justificacion": "Ley 39/2006, art. 2."
+    },
+    {
+      "concepto_id": "DEP-007",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "Según el artículo 2 de la Ley 39/2006, la asistencia personal es el servicio prestado por un asistente personal que:",
+      "opciones": [
+        "realiza o colabora en tareas de la vida cotidiana de una persona en situación de dependencia, de cara a fomentar su vida independiente",
+        "sustituye al cuidador familiar durante los periodos de descanso y las vacaciones previstos en el Programa Individual de Atención",
+        "supervisa el cumplimiento del Programa Individual de Atención en el domicilio de la persona beneficiaria y en el centro de día",
+        "presta atención sanitaria continuada en el domicilio de la persona bajo la dirección de los servicios de salud competentes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Asistencia personal: servicio prestado por un asistente personal que realiza o colabora en tareas de la vida cotidiana de una persona en situación de dependencia, de cara a fomentar su vida independiente, promoviendo y potenciando su autonomía personal.",
+      "justificacion": "Ley 39/2006, art. 2."
+    },
+    {
+      "concepto_id": "DEP-008",
+      "articulo": "art. 2",
+      "tipo": "test",
+      "enunciado": "¿Cómo define la Ley 39/2006 el tercer sector?",
+      "opciones": [
+        "organizaciones de carácter privado surgidas de la iniciativa ciudadana o social",
+        "entidades públicas de carácter instrumental creadas por las Comunidades Autónomas para gestionar servicios sociales",
+        "empresas privadas acreditadas para prestar servicios de atención a la dependencia mediante concierto",
+        "corporaciones de derecho público que agrupan a los profesionales de los servicios sociales y sanitarios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Tercer sector: organizaciones de carácter privado surgidas de la iniciativa ciudadana o social, bajo diferentes modalidades que responden a criterios de solidaridad, con fines de interés general y ausencia de ánimo de lucro",
+      "justificacion": "Ley 39/2006, art. 2."
+    },
+    {
+      "concepto_id": "DEP-009",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "¿Cuál de los siguientes es un principio en que se inspira la Ley 39/2006?",
+      "opciones": [
+        "La atención a las personas en situación de dependencia de forma integral e integrada",
+        "La atención a las personas en situación de dependencia de forma preferentemente residencial",
+        "La atención a las personas en situación de dependencia con cargo exclusivo a los presupuestos autonómicos",
+        "La atención a las personas en situación de dependencia mediante prestaciones económicas prioritarias"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La atención a las personas en situación de dependencia de forma integral e integrada.",
+      "justificacion": "Ley 39/2006, art. 3."
+    },
+    {
+      "concepto_id": "DEP-010",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Según los principios del artículo 3 de la Ley 39/2006, las personas en situación de dependencia deben permanecer:",
+      "opciones": [
+        "siempre que sea posible, en el entorno en el que desarrollan su vida",
+        "preferentemente en centros residenciales acreditados por la Comunidad Autónoma de su residencia",
+        "en el municipio en el que estuvieran empadronadas en la fecha de presentación de la solicitud",
+        "en el centro de día más próximo a su domicilio que disponga de plaza concertada disponible"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La permanencia de las personas en situación de dependencia, siempre que sea posible, en el entorno en el que desarrollan su vida.",
+      "justificacion": "Ley 39/2006, art. 3."
+    },
+    {
+      "concepto_id": "DEP-011",
+      "articulo": "art. 3",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 3 de la Ley 39/2006, las personas en situación de gran dependencia:",
+      "opciones": [
+        "serán atendidas de manera preferente",
+        "serán atendidas exclusivamente mediante el servicio de atención residencial",
+        "serán atendidas con cargo al nivel adicional de protección de cada Comunidad Autónoma",
+        "serán atendidas por orden riguroso de presentación de la solicitud"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las personas en situación de gran dependencia serán atendidas de manera preferente.",
+      "justificacion": "Ley 39/2006, art. 3."
+    },
+    {
+      "concepto_id": "DEP-012",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "¿Qué requisito de residencia exige el artículo 5 de la Ley 39/2006 para ser titular de sus derechos?",
+      "opciones": [
+        "haberlo hecho durante cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud",
+        "haberlo hecho durante tres años, de los cuales uno deberá ser inmediatamente anterior a la fecha de presentación de la solicitud",
+        "haberlo hecho durante diez años, de los cuales cinco deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud",
+        "haberlo hecho durante dos años, de los cuales uno deberá ser inmediatamente anterior a la fecha de presentación de la solicitud"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Residir en territorio español y haberlo hecho durante cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud.",
+      "justificacion": "Ley 39/2006, art. 5."
+    },
+    {
+      "concepto_id": "DEP-013",
+      "articulo": "art. 5",
+      "tipo": "test",
+      "enunciado": "Las personas que, reuniendo los requisitos del artículo 5, carezcan de la nacionalidad española se regirán por:",
+      "opciones": [
+        "la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+        "la Ley Orgánica 2/2009, de reforma del régimen sancionador en materia de extranjería y su normativa de desarrollo",
+        "el Real Decreto 1155/2024, por el que se aprueba el Reglamento de la Ley Orgánica sobre derechos y libertades de los extranjeros",
+        "la Ley 12/2009, reguladora del derecho de asilo y de la protección subsidiaria, y sus convenios de aplicación"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se regirán por lo establecido en la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, en los tratados internacionales y en los convenios que se establezcan con el país de origen",
+      "justificacion": "Ley 39/2006, art. 5."
+    },
+    {
+      "concepto_id": "DEP-014",
+      "articulo": "art. 6",
+      "tipo": "test",
+      "enunciado": "Según el artículo 6.2 de la Ley 39/2006, el Sistema para la Autonomía y Atención a la Dependencia se configura como:",
+      "opciones": [
+        "una red de utilización pública que integra, de forma coordinada, centros y servicios, públicos y privados",
+        "una red exclusivamente pública que integra centros y servicios de titularidad estatal, autonómica y local",
+        "un organismo autónomo dependiente del Ministerio competente en materia de servicios sociales y dependencia",
+        "un fondo de compensación interterritorial destinado a financiar los servicios sociales de las Comunidades Autónomas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Sistema se configura como una red de utilización pública que integra, de forma coordinada, centros y servicios, públicos y privados.",
+      "justificacion": "Ley 39/2006, art. 6."
+    },
+    {
+      "concepto_id": "DEP-015",
+      "articulo": "art. 7",
+      "tipo": "test",
+      "enunciado": "¿Cuáles son los niveles de protección del Sistema para la Autonomía y Atención a la Dependencia?",
+      "opciones": [
+        "El nivel de protección mínimo establecido por la Administración General del Estado",
+        "El nivel de protección básico establecido por cada Comunidad Autónoma en su ámbito territorial",
+        "El nivel de protección universal establecido por el Consejo Territorial mediante acuerdo",
+        "El nivel de protección obligatorio establecido por las Entidades Locales en su municipio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "1.º El nivel de protección mínimo establecido por la Administración General del Estado en aplicación del artículo 9. 2.º El nivel de protección que se acuerde entre la Administración General del Estado y la Administración de cada una de las Comunidades Autónomas a través de los Convenios previstos en el artículo 10. 3.º El nivel adicional de protección que pueda establecer cada Comunidad Autónoma.",
+      "justificacion": "Ley 39/2006, art. 7."
+    },
+    {
+      "concepto_id": "DEP-016",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el artículo 14.1 de la Ley 39/2006, las prestaciones de atención a la dependencia podrán tener la naturaleza de:",
+      "opciones": [
+        "servicios y de prestaciones económicas",
+        "servicios y de ayudas técnicas de apoyo a la autonomía personal",
+        "prestaciones económicas y de beneficios fiscales para la unidad familiar",
+        "servicios sanitarios y de prestaciones farmacéuticas complementarias"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las prestaciones de atención a la dependencia podrán tener la naturaleza de servicios y de prestaciones económicas",
+      "justificacion": "Ley 39/2006, art. 14."
+    },
+    {
+      "concepto_id": "DEP-017",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 14.2 de la Ley 39/2006, los servicios del Catálogo del artículo 15:",
+      "opciones": [
+        "tendrán carácter prioritario y se prestarán a través de la oferta pública de la Red de Servicios Sociales",
+        "tendrán carácter subsidiario respecto de las prestaciones económicas reconocidas en el Programa Individual de Atención",
+        "tendrán carácter voluntario para las Comunidades Autónomas en función de su disponibilidad presupuestaria",
+        "tendrán carácter complementario de los servicios prestados por las Entidades Locales y el tercer sector"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los servicios del Catálogo del artículo 15 tendrán carácter prioritario y se prestarán a través de la oferta pública de la Red de Servicios Sociales por las respectivas Comunidades Autónomas",
+      "justificacion": "Ley 39/2006, art. 14."
+    },
+    {
+      "concepto_id": "DEP-018",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el artículo 14.6 de la Ley 39/2006, la prioridad en el acceso a los servicios vendrá determinada por:",
+      "opciones": [
+        "el grado de dependencia y, a igual grado, por la capacidad económica del solicitante",
+        "la capacidad económica del solicitante y, a igual capacidad, por su grado de dependencia",
+        "la fecha de presentación de la solicitud y, en caso de empate, por la edad del solicitante",
+        "el orden que establezca el Programa Individual de Atención elaborado por los servicios sociales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La prioridad en el acceso a los servicios vendrá determinada por el grado de dependencia y, a igual grado, por la capacidad económica del solicitante.",
+      "justificacion": "Ley 39/2006, art. 14."
+    },
+    {
+      "concepto_id": "DEP-019",
+      "articulo": "art. 14",
+      "tipo": "test",
+      "enunciado": "Según el artículo 14.8 de la Ley 39/2006, las prestaciones económicas establecidas en virtud de esta Ley son:",
+      "opciones": [
+        "inembargables, salvo para el supuesto previsto en el artículo 608 de la Ley de Enjuiciamiento Civil",
+        "embargables únicamente en la parte que exceda del salario mínimo interprofesional vigente en cada momento",
+        "inembargables en todo caso, sin excepción alguna de las previstas en la legislación procesal civil vigente",
+        "embargables únicamente para el pago de las deudas contraídas con la Administración Pública competente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las prestaciones económicas establecidas en virtud de esta Ley son inembargables, salvo para el supuesto previsto en el artículo 608 de la Ley de Enjuiciamiento Civil.",
+      "justificacion": "Ley 39/2006, art. 14."
+    },
+    {
+      "concepto_id": "DEP-020",
+      "articulo": "art. 15",
+      "tipo": "test",
+      "enunciado": "¿Qué servicio abre el Catálogo de servicios del artículo 15 de la Ley 39/2006?",
+      "opciones": [
+        "Los servicios de prevención de las situaciones de dependencia y los de promoción de la autonomía personal",
+        "Los servicios de atención residencial de carácter permanente y temporal en centros debidamente acreditados",
+        "Los servicios de valoración del grado de dependencia y los de elaboración del programa individual de atención",
+        "Los servicios de información, orientación y asesoramiento a las familias y a los cuidadores no profesionales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los servicios de prevención de las situaciones de dependencia y los de promoción de la autonomía personal.",
+      "justificacion": "Ley 39/2006, art. 15."
+    },
+    {
+      "concepto_id": "DEP-021",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "La prestación económica vinculada al servicio del artículo 17 de la Ley 39/2006 se reconocerá:",
+      "opciones": [
+        "únicamente cuando no sea posible el acceso a un servicio público o concertado de atención y cuidado",
+        "siempre que el beneficiario opte expresamente por ella en su Programa Individual de Atención",
+        "cuando el beneficiario resida en un municipio de menos de veinte mil habitantes de derecho",
+        "cuando así lo acuerde el órgano de valoración de la Comunidad Autónoma competente en cada caso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se reconocerá, en los términos que se establezca, únicamente cuando no sea posible el acceso a un servicio público o concertado de atención y cuidado",
+      "justificacion": "Ley 39/2006, art. 17."
+    },
+    {
+      "concepto_id": "DEP-022",
+      "articulo": "art. 17",
+      "tipo": "test",
+      "enunciado": "La prestación económica del artículo 17 de la Ley 39/2006 está, en todo caso:",
+      "opciones": [
+        "vinculada a la adquisición de un servicio",
+        "vinculada al mantenimiento del beneficiario en su entorno familiar habitual",
+        "vinculada a la contratación de un asistente personal debidamente acreditado",
+        "vinculada al pago de la aportación del beneficiario al coste del servicio público"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Esta prestación económica de carácter personal estará, en todo caso, vinculada a la adquisición de un servicio.",
+      "justificacion": "Ley 39/2006, art. 17."
+    },
+    {
+      "concepto_id": "DEP-023",
+      "articulo": "art. 18",
+      "tipo": "test",
+      "enunciado": "Según el artículo 18.1 de la Ley 39/2006, la prestación económica para cuidados en el entorno familiar se reconocerá:",
+      "opciones": [
+        "Excepcionalmente, cuando el beneficiario esté siendo atendido por su entorno familiar",
+        "Preferentemente, cuando el beneficiario manifieste su voluntad de permanecer en el domicilio",
+        "Automáticamente, cuando el beneficiario tenga reconocido el grado de gran dependencia",
+        "Subsidiariamente, cuando el beneficiario haya renunciado al servicio de ayuda a domicilio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Excepcionalmente, cuando el beneficiario esté siendo atendido por su entorno familiar, y se reúnan las condiciones establecidas en el artículo 14.4, se reconocerá una prestación económica para cuidados familiares.",
+      "justificacion": "Ley 39/2006, art. 18."
+    },
+    {
+      "concepto_id": "DEP-024",
+      "articulo": "art. 18",
+      "tipo": "test",
+      "enunciado": "Conforme al artículo 18.3 de la Ley 39/2006, el cuidador no profesional deberá ajustarse a las normas sobre:",
+      "opciones": [
+        "afiliación, alta y cotización a la Seguridad Social",
+        "formación continua y habilitación profesional en materia de atención sociosanitaria",
+        "acreditación y registro como entidad prestadora de servicios de atención a la dependencia",
+        "inscripción en el registro autonómico de cuidadores y evaluación periódica de su desempeño"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El cuidador deberá ajustarse a las normas sobre afiliación, alta y cotización a la Seguridad Social que se determinen reglamentariamente.",
+      "justificacion": "Ley 39/2006, art. 18."
+    },
+    {
+      "concepto_id": "DEP-025",
+      "articulo": "art. 19",
+      "tipo": "test",
+      "enunciado": "La prestación económica de asistencia personal del artículo 19 de la Ley 39/2006 tiene como finalidad la promoción de la autonomía de las personas en situación de dependencia:",
+      "opciones": [
+        "en cualquiera de sus grados",
+        "únicamente en el grado III de gran dependencia",
+        "en los grados II y III, cuando así lo prevea el Programa Individual de Atención",
+        "en el grado que determine el órgano de valoración de la Comunidad Autónoma"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La prestación económica de asistencia personal tiene como finalidad la promoción de la autonomía de las personas en situación de dependencia, en cualquiera de sus grados.",
+      "justificacion": "Ley 39/2006, art. 19."
+    },
+    {
+      "concepto_id": "DEP-026",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "¿En qué consiste el servicio de Teleasistencia del artículo 22 de la Ley 39/2006?",
+      "opciones": [
+        "facilita asistencia a los beneficiarios mediante el uso de tecnologías de la comunicación y de la información",
+        "facilita atención sanitaria a domicilio mediante la coordinación permanente de los servicios de salud y sociales",
+        "facilita el traslado del beneficiario al centro de día o de noche mediante medios de transporte adaptados",
+        "facilita el seguimiento del Programa Individual de Atención mediante visitas periódicas al domicilio del beneficiario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El servicio de Teleasistencia facilita asistencia a los beneficiarios mediante el uso de tecnologías de la comunicación y de la información, con apoyo de los medios personales necesarios, en respuesta inmediata ante situaciones de emergencia, o de inseguridad, soledad y aislamiento.",
+      "justificacion": "Ley 39/2006, art. 22."
+    },
+    {
+      "concepto_id": "DEP-027",
+      "articulo": "art. 22",
+      "tipo": "test",
+      "enunciado": "Según el artículo 22.2 de la Ley 39/2006, el servicio de Teleasistencia se prestará a las personas que:",
+      "opciones": [
+        "no reciban servicios de atención residencial y así lo establezca su Programa Individual de Atención",
+        "residan solas en su domicilio habitual y tengan reconocido al menos el grado II de dependencia severa",
+        "hayan cumplido sesenta y cinco años de edad y carezcan de apoyo familiar alguno en su entorno próximo",
+        "reciban el servicio de ayuda a domicilio y así lo soliciten expresamente ante la Administración competente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Este servicio se prestará a las personas que no reciban servicios de atención residencial y así lo establezca su Programa Individual de Atención.",
+      "justificacion": "Ley 39/2006, art. 22."
+    },
+    {
+      "concepto_id": "DEP-028",
+      "articulo": "art. 23",
+      "tipo": "test",
+      "enunciado": "El servicio de ayuda a domicilio del artículo 23 de la Ley 39/2006 lo constituye:",
+      "opciones": [
+        "el conjunto de actuaciones llevadas a cabo en el domicilio de las personas en situación de dependencia",
+        "el conjunto de prestaciones económicas destinadas a sufragar los gastos del hogar de la persona beneficiaria",
+        "el conjunto de adaptaciones y de ayudas técnicas instaladas en la vivienda habitual del beneficiario",
+        "el conjunto de actuaciones de apoyo prestadas por los cuidadores no profesionales del entorno familiar"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El servicio de ayuda a domicilio lo constituye el conjunto de actuaciones llevadas a cabo en el domicilio de las personas en situación de dependencia con el fin de atender sus necesidades de la vida diaria, prestadas por entidades o empresas, acreditadas para esta función",
+      "justificacion": "Ley 39/2006, art. 23."
+    },
+    {
+      "concepto_id": "DEP-029",
+      "articulo": "art. 25",
+      "tipo": "test",
+      "enunciado": "Según el artículo 25.1 de la Ley 39/2006, el servicio de atención residencial ofrece:",
+      "opciones": [
+        "servicios continuados de carácter personal y sanitario",
+        "servicios puntuales de carácter asistencial y de acompañamiento",
+        "servicios continuados de carácter exclusivamente sanitario y rehabilitador",
+        "servicios de alojamiento y manutención sin prestación sanitaria asociada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El servicio de atención residencial ofrece, desde un enfoque biopsicosocial, servicios continuados de carácter personal y sanitario.",
+      "justificacion": "Ley 39/2006, art. 25."
+    },
+    {
+      "concepto_id": "DEP-030",
+      "articulo": "art. 26",
+      "tipo": "test",
+      "enunciado": "Según el artículo 26 de la Ley 39/2006, ¿cuándo se está en Grado I de dependencia moderada?",
+      "opciones": [
+        "cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria, al menos una vez al día",
+        "cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria dos o tres veces a lo largo del día",
+        "cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria varias veces a lo largo del día",
+        "cuando la persona necesita ayuda para realizar alguna actividad básica de la vida diaria de forma ocasional o esporádica"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Grado I. Dependencia moderada: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria, al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal.",
+      "justificacion": "Ley 39/2006, art. 26."
+    },
+    {
+      "concepto_id": "DEP-031",
+      "articulo": "art. 26",
+      "tipo": "test",
+      "enunciado": "El Grado II de dependencia severa concurre cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria:",
+      "opciones": [
+        "dos o tres veces al día, pero no quiere el apoyo permanente de un cuidador",
+        "al menos una vez al día, con necesidades de apoyo intermitente o limitado",
+        "varias veces al día, con necesidad del apoyo indispensable y continuo de otra persona",
+        "de forma continuada, con necesidades de apoyo generalizado para su autonomía personal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Grado II. Dependencia severa: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria dos o tres veces al día, pero no quiere el apoyo permanente de un cuidador o tiene necesidades de apoyo extenso para su autonomía personal.",
+      "justificacion": "Ley 39/2006, art. 26."
+    },
+    {
+      "concepto_id": "DEP-032",
+      "articulo": "art. 26",
+      "tipo": "test",
+      "enunciado": "¿Cómo define el artículo 26 de la Ley 39/2006 el Grado III de gran dependencia?",
+      "opciones": [
+        "necesita el apoyo indispensable y continuo de otra persona",
+        "necesita el apoyo intermitente o limitado de otra persona para su autonomía personal",
+        "necesita el apoyo extenso de un cuidador durante el periodo diurno o nocturno",
+        "necesita el apoyo puntual de otra persona en situaciones de emergencia o inseguridad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Grado III. Gran dependencia: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria varias veces al día y, por su pérdida total de autonomía física, mental, intelectual o sensorial, necesita el apoyo indispensable y continuo de otra persona",
+      "justificacion": "Ley 39/2006, art. 26."
+    },
+    {
+      "concepto_id": "DEP-033",
+      "articulo": "art. 27",
+      "tipo": "test",
+      "enunciado": "El baremo con el que se determinan los grados de dependencia tendrá entre sus referentes:",
+      "opciones": [
+        "la Clasificación Internacional del Funcionamiento, la Discapacidad y la Salud (CIF) adoptada por la Organización Mundial de la Salud",
+        "la Clasificación Internacional de Enfermedades (CIE) adoptada por la Organización Mundial de la Salud en su última revisión",
+        "el Baremo de Valoración de la Discapacidad aprobado por el Real Decreto 888/2022, de 18 de octubre, y sus anexos",
+        "la Clasificación Internacional de Deficiencias, Discapacidades y Minusvalías adoptada por las Naciones Unidas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Dicho baremo tendrá entre sus referentes la Clasificación Internacional del Funcionamiento, la Discapacidad y la Salud (CIF) adoptada por la Organización Mundial de la Salud.",
+      "justificacion": "Ley 39/2006, art. 27."
+    },
+    {
+      "concepto_id": "DEP-034",
+      "articulo": "art. 27",
+      "tipo": "test",
+      "enunciado": "Según el artículo 27.2 de la Ley 39/2006, respecto de la determinación del grado de dependencia:",
+      "opciones": [
+        "No será posible determinar el grado de dependencia mediante otros procedimientos distintos a los establecidos por este baremo",
+        "Será posible determinar el grado de dependencia mediante informe médico del servicio público de salud competente",
+        "Será posible determinar el grado de dependencia mediante los baremos propios que apruebe cada Comunidad Autónoma",
+        "Será posible determinar el grado de dependencia mediante dictamen del órgano de valoración sin aplicar el baremo"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "No será posible determinar el grado de dependencia mediante otros procedimientos distintos a los establecidos por este baremo.",
+      "justificacion": "Ley 39/2006, art. 27."
+    },
+    {
+      "concepto_id": "DEP-035",
+      "articulo": "art. 28",
+      "tipo": "test",
+      "enunciado": "El procedimiento para el reconocimiento de la situación de dependencia se iniciará:",
+      "opciones": [
+        "a instancia de la persona que pueda estar afectada por algún grado de dependencia o de quien ostente su representación",
+        "de oficio por los servicios sociales del municipio en que resida la persona que pueda estar afectada",
+        "a instancia del médico de atención primaria que venga atendiendo a la persona que pueda estar afectada",
+        "de oficio por el órgano de valoración de la Comunidad Autónoma correspondiente a su residencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El procedimiento se iniciará a instancia de la persona que pueda estar afectada por algún grado de dependencia o de quien ostente su representación",
+      "justificacion": "Ley 39/2006, art. 28."
+    },
+    {
+      "concepto_id": "DEP-036",
+      "articulo": "art. 28",
+      "tipo": "test",
+      "enunciado": "La resolución de reconocimiento de la situación de dependencia:",
+      "opciones": [
+        "tendrá validez en todo el territorio del Estado",
+        "tendrá validez únicamente en el territorio de la Comunidad Autónoma que la dicte",
+        "tendrá validez durante dos años, transcurridos los cuales deberá renovarse de oficio",
+        "tendrá validez en todo el territorio del Estado previa homologación por el Consejo Territorial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El reconocimiento de la situación de dependencia se efectuará mediante resolución expedida por la Administración Autonómica correspondiente a la residencia del solicitante y tendrá validez en todo el territorio del Estado.",
+      "justificacion": "Ley 39/2006, art. 28."
+    },
+    {
+      "concepto_id": "DEP-037",
+      "articulo": "art. 29",
+      "tipo": "test",
+      "enunciado": "En el Programa Individual de Atención del artículo 29 de la Ley 39/2006 se determinarán:",
+      "opciones": [
+        "las modalidades de intervención más adecuadas a sus necesidades",
+        "la cuantía exacta de las prestaciones económicas que corresponden al beneficiario",
+        "el grado de dependencia y los intervalos de puntuación obtenidos en el baremo",
+        "el centro residencial concreto en el que será atendido el beneficiario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "los servicios sociales correspondientes del sistema público establecerán un programa individual de atención en el que se determinarán las modalidades de intervención más adecuadas a sus necesidades",
+      "justificacion": "Ley 39/2006, art. 29."
+    },
+    {
+      "concepto_id": "DEP-038",
+      "articulo": "art. 29",
+      "tipo": "test",
+      "enunciado": "¿En cuál de los siguientes casos se revisa el Programa Individual de Atención?",
+      "opciones": [
+        "Con motivo del cambio de residencia a otra Comunidad Autónoma",
+        "Con motivo del cambio de domicilio dentro del mismo término municipal",
+        "Con motivo del cumplimiento de sesenta y cinco años por el beneficiario",
+        "Con motivo de la revisión anual obligatoria del grado de dependencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Con motivo del cambio de residencia a otra Comunidad Autónoma.",
+      "justificacion": "Ley 39/2006, art. 29."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "DEP-001",
+      "destino": "IG-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-002",
+      "destino": "DEP-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-003",
+      "destino": "DEP-001",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "DEP-004",
+      "destino": "DEP-003",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-005",
+      "destino": "DEP-004",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "DEP-006",
+      "destino": "DEP-004",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-007",
+      "destino": "DEP-003",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-008",
+      "destino": "DEP-002",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-009",
+      "destino": "DEP-001",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-010",
+      "destino": "DEP-009",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-011",
+      "destino": "DEP-009",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-012",
+      "destino": "DEP-001",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-013",
+      "destino": "DEP-012",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-014",
+      "destino": "DEP-002",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-015",
+      "destino": "DEP-014",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-016",
+      "destino": "DEP-002",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-017",
+      "destino": "DEP-016",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-018",
+      "destino": "DEP-017",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-019",
+      "destino": "DEP-016",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-020",
+      "destino": "DEP-017",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-021",
+      "destino": "DEP-017",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-022",
+      "destino": "DEP-021",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-023",
+      "destino": "DEP-016",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-024",
+      "destino": "DEP-023",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-025",
+      "destino": "DEP-007",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-026",
+      "destino": "DEP-020",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-027",
+      "destino": "DEP-026",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-028",
+      "destino": "DEP-020",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-029",
+      "destino": "DEP-020",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-030",
+      "destino": "DEP-004",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-031",
+      "destino": "DEP-030",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-032",
+      "destino": "DEP-031",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-011",
+      "destino": "DEP-032",
+      "tipo": "remite"
+    },
+    {
+      "origen": "DEP-033",
+      "destino": "DEP-030",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "DEP-034",
+      "destino": "DEP-033",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-035",
+      "destino": "DEP-033",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-036",
+      "destino": "DEP-035",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-037",
+      "destino": "DEP-036",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-038",
+      "destino": "DEP-037",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-018",
+      "destino": "DEP-030",
+      "tipo": "remite"
+    }
+  ]
+}

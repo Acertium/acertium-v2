@@ -659,5 +659,23 @@
       "Tema 44 — La Seguridad en la Conducción de Vehículos Prioritarios: seguridad activa y pasiva; repercusión de los sistemas de seguridad en la conducción policial y traslado de detenidos",
       "Tema 45 — Prevención de riesgos laborales en seguridad vial: factores del tráfico, riesgos laborales en la conducción de vehículos prioritarios y equipos de protección individual"
     ]
+  },
+  "RSP": {
+    "materia": "rd-39-1997-reglamento-servicios-prevencion",
+    "norma": "Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención",
+    "referencia_boe": "BOE-A-1997-1853",
+    "temas": [
+      "Tema 25 — Marco normativo básico de prevención de riesgos laborales: la Ley 31/1995 de Prevención de Riesgos Laborales"
+    ],
+    "_nota": "El temario cita esta norma por su nombre en el Tema 25. NO viene en el Código 600: se ingirió aparte como §54 del corpus (ver corpus/README.md). Familia hermana de PRL, PRLP y PRLAGE, que son las otras tres normas del mismo epígrafe."
+  },
+  "DEP": {
+    "materia": "ley-39-2006-dependencia",
+    "norma": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia",
+    "referencia_boe": "BOE-A-2006-21990",
+    "temas": [
+      "Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"
+    ],
+    "_nota": "El temario cita esta norma por su nombre en el Tema 23 (políticas de integración de las personas con discapacidad). NO viene en el Código 600: se ingirió aparte como §55 del corpus. El rótulo del tema es el mismo que usan IG, VG y LGTBI para que el T23 tenga una sola etiqueta en overlay_entrada."
   }
 }
