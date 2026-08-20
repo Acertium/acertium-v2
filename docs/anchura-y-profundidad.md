@@ -113,10 +113,24 @@ De ahí el criterio en dos ejes:
 
 Nunca hay un hueco, y el tiempo de estudio se gasta donde se juega la nota.
 
-## Un hallazgo que abarata la mitad del trabajo
+## El mecanismo de ponderación ya existe — y estaba planificado
 
-**El mecanismo de ponderación ya existe y está construido de punta a punta. Nadie lo ha
-encendido.**
+**Esto no es un hallazgo: estaba escrito desde el 01/08/2026 y yo no lo había leído.** El Doc 003
+lo dice en tres sitios distintos:
+
+> §B.1 — «Del sistema: el **peso de cada concepto/tema en el examen** (dato del overlay de
+> convocatoria; **afinable analizando exámenes pasados**).»
+>
+> §D, tabla de evolución — «Peso de temas · MVP: *estimado / manual* → Futuro con datos:
+> **analizado de exámenes oficiales pasados**.»
+>
+> §E, límites del MVP — «El peso de cada tema en el examen **empieza estimado, no analizado**.»
+
+Es decir: **la tabla de pesos de este documento no propone nada nuevo, ejecuta el paso que el
+diseño del motor dejó pendiente para cuando hubiera datos.** Los datos son las 600 preguntas
+oficiales. Lo único que aporto es el análisis que el Doc 003 dejó anotado como futuro.
+
+Lo que sí conviene tener delante: **está construido de punta a punta y nadie lo ha encendido.**
 
 `overlay_entrada` tiene una columna `peso`, y el planificador la usa de verdad:
 
