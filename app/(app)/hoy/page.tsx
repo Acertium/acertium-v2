@@ -9,13 +9,28 @@ export const dynamic = "force-dynamic";
 
 export default async function HoyPage() {
   const r = await resumenHoy();
-  // "Por repasar": conceptos ya practicados que aún no están dominados.
-  const porRepasar = Math.max(0, r.practicados - r.dominados);
+
+  // El titular es el PLAN DE HOY que ha calculado el coach, no el backlog
+  // entero. Decir "tienes 3.290 conceptos por empezar" es cierto y no sirve de
+  // nada: no es lo que toca hoy. Lo que toca hoy es lo que el planificador ha
+  // repartido entre repasar y avanzar.
+  const hoyTotal = r.hoyRepasar + r.hoyNuevos;
+  const partes: string[] = [];
+  if (r.hoyRepasar > 0)
+    partes.push(`${r.hoyRepasar} ${r.hoyRepasar === 1 ? "repaso" : "repasos"}`);
+  if (r.hoyNuevos > 0)
+    partes.push(
+      `${r.hoyNuevos} ${r.hoyNuevos === 1 ? "concepto nuevo" : "conceptos nuevos"}`,
+    );
+  const titular =
+    hoyTotal === 0
+      ? "Hoy no te toca nada: vuelve mañana"
+      : `Hoy te tocan ${partes.join(" y ")}`;
 
   return (
     <main className="mx-auto max-w-xl px-5 py-8">
       <header className="mb-6">
-        <p className="text-sm text-muted">Constitución · Policía Nacional</p>
+        <p className="text-sm text-muted">Policía Nacional · Escala Básica</p>
         <h1
           className="mt-1 text-2xl font-bold"
           style={{ fontFamily: "var(--font-display)" }}
@@ -36,14 +51,15 @@ export default async function HoyPage() {
           className="mt-1 text-lg font-semibold"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Tienes {r.pendientes}{" "}
-          {r.pendientes === 1 ? "concepto" : "conceptos"} por empezar
-          {porRepasar > 0 ? ` y ${porRepasar} por repasar` : ""}
+          {titular}
         </h2>
         <p className="mt-1 text-[15px] leading-relaxed text-muted">
           {r.aciertoPct !== null
-            ? `Tu acierto hasta ahora es del ${r.aciertoPct}%. Sigue sumando repasos para afianzar lo que ya tocaste.`
+            ? `Tu acierto hasta ahora es del ${r.aciertoPct}%. Te quedan ${r.pendientes.toLocaleString("es-ES")} conceptos por tocar de aquí al examen.`
             : "Empieza cuando quieras: tu profesor ajusta la tanda a tu absorción real."}
+          {r.backlog > 0
+            ? ` Llevas ${r.backlog.toLocaleString("es-ES")} repasos atrasados.`
+            : ""}
         </p>
 
         {/* Mini-resumen */}
@@ -56,7 +72,7 @@ export default async function HoyPage() {
               className="text-lg font-bold leading-none"
               style={{ color: "var(--color-primary-dark)" }}
             >
-              {r.dominados}
+              {r.dominados.toLocaleString("es-ES")}
             </p>
             <p className="mt-1 text-xs text-muted">dominados</p>
           </div>
@@ -68,7 +84,7 @@ export default async function HoyPage() {
               className="text-lg font-bold leading-none"
               style={{ color: "var(--color-primary-dark)" }}
             >
-              {r.practicados}
+              {r.practicados.toLocaleString("es-ES")}
             </p>
             <p className="mt-1 text-xs text-muted">practicados</p>
           </div>
@@ -80,9 +96,9 @@ export default async function HoyPage() {
               className="text-lg font-bold leading-none"
               style={{ color: "var(--color-primary-dark)" }}
             >
-              {r.totalConceptos}
+              {r.totalConceptos.toLocaleString("es-ES")}
             </p>
-            <p className="mt-1 text-xs text-muted">en total</p>
+            <p className="mt-1 text-xs text-muted">del temario</p>
           </div>
         </div>
 

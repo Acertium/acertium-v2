@@ -13,7 +13,7 @@ export default async function PracticarPage() {
         <h1 className="text-xl font-semibold" style={{ fontFamily: "var(--font-display)" }}>
           Practicar
         </h1>
-        <span className="text-sm text-muted">Constitución · Policía Nacional</span>
+        <span className="text-sm text-muted">Policía Nacional · Escala Básica</span>
       </header>
 
       {inicial ? (

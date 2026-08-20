@@ -28,6 +28,46 @@ function barajar<T>(arr: T[]): T[] {
   return a;
 }
 
+// ---------------------------------------------------------------------------
+// EL TOPE DE 1.000 FILAS (bug encontrado el 20/08/2026)
+//
+// PostgREST corta toda respuesta en `db-max-rows` (1.000 en Supabase por
+// defecto) y NO avisa: devuelve 1.000 filas y `error: null`. Con 3.312
+// conceptos en el cerebro, cuatro consultas de este fichero venían recibiendo
+// un tercio de la realidad sin que nada fallara:
+//
+//   · `practicar_estado`  → el PLANIFICADOR solo veía 1.000 conceptos, así que
+//     2.312 no podían salir a practicar NUNCA. Este era el grave: no es que se
+//     contase mal, es que dos tercios del temario eran invisibles para el coach.
+//   · `overlay_entrada` en `resumenHoy` → el «1.000 en total» de la pantalla.
+//   · `overlay_entrada` en `progresoTemas` → temas enteros con 0 conceptos.
+//   · `evento` → el % de acierto se habría congelado al llegar a 1.000 respuestas.
+//
+// Se arregla en el CÓDIGO y no subiendo `db-max-rows` en el proyecto, por dos
+// razones: el tope volvería a aparecer al crecer el cerebro, y subirlo afecta a
+// todos los endpoints. `traerTodo` pagina con `.range()` hasta que una página
+// vuelve incompleta. Donde solo hace falta un número, mejor `contar()`: una
+// consulta HEAD que no trae ni una fila.
+// ---------------------------------------------------------------------------
+const PAGINA = 1000;
+
+type ConsultaPaginable<T> = {
+  range: (desde: number, hasta: number) => PromiseLike<{ data: T[] | null; error: unknown }>;
+};
+
+async function traerTodo<T>(hacerConsulta: () => ConsultaPaginable<T>): Promise<T[]> {
+  const filas: T[] = [];
+  for (let desde = 0; ; desde += PAGINA) {
+    const { data, error } = await hacerConsulta().range(desde, desde + PAGINA - 1);
+    if (error || !data) break;
+    filas.push(...data);
+    // Página incompleta = última página. Es la única señal fiable: PostgREST no
+    // distingue "he cortado" de "no hay más".
+    if (data.length < PAGINA) break;
+  }
+  return filas;
+}
+
 // Formato EXAMEN OFICIAL PN: 3 alternativas. Reduce las 4 opciones guardadas a
 // la correcta + 2 distractores al azar y las baraja. La respuesta correcta NO se
 // marca ni se envía: la corrección se hace en el servidor por texto (responder()).
@@ -105,15 +145,29 @@ function deLaCabeza(ids: string[], n = 5): string | null {
   return ids[Math.floor(Math.random() * k)];
 }
 
-async function elegirConcepto(
+type Universo = {
+  conceptos: { id: string; peso: number }[];
+  estados: Record<string, { e: unknown; seen: boolean }>;
+  prereq: Record<string, string[]>;
+  hoy: number;
+};
+
+// Trae de la base el universo practicable con el que razona el planificador.
+// Lo comparten `/practicar` (para elegir la siguiente pregunta) y `/hoy` (para
+// contar el plan del día): así las dos pantallas dicen lo mismo, porque
+// preguntan a lo mismo.
+async function cargarUniverso(
   db: ReturnType<typeof createCerebroClient>,
-): Promise<string | null> {
-  const { data, error } = await db.rpc("practicar_estado", {
-    conv: CONVOCATORIA_PN,
-    usuario: DEMO_USUARIO_ID,
-  });
-  const filas = (data ?? []) as FilaEstado[];
-  if (error || filas.length === 0) return null;
+): Promise<Universo | null> {
+  // Paginado: el planificador necesita el universo ENTERO para repartir entre
+  // consolidar y ampliar. Con el tope de 1.000 veía menos de un tercio.
+  const filas = await traerTodo<FilaEstado>(() =>
+    db.rpc("practicar_estado", {
+      conv: CONVOCATORIA_PN,
+      usuario: DEMO_USUARIO_ID,
+    }) as unknown as ConsultaPaginable<FilaEstado>,
+  );
+  if (filas.length === 0) return null;
 
   const hoy = Date.now() / DIA_MS;
   const conceptos: { id: string; peso: number }[] = [];
@@ -145,16 +199,36 @@ async function elegirConcepto(
     prereq[id] = ps.filter((p) => estados[p] !== undefined);
   }
 
-  const plan = planDia({
-    conceptos,
-    estados,
-    prereq,
-    examDay: hoy + HORIZONTE_DIAS,
-    hoy,
-    inicio: hoy,
-    B: PRESUPUESTO_DIARIO,
-  }) as { consolidar: string[]; ampliar: string[] };
+  return { conceptos, estados, prereq, hoy };
+}
 
+type PlanDia = {
+  modo: string;
+  consolidar: string[];
+  ampliar: string[];
+  backlog: number;
+};
+
+function planDelDia(u: Universo): PlanDia {
+  return planDia({
+    conceptos: u.conceptos,
+    estados: u.estados,
+    prereq: u.prereq,
+    examDay: u.hoy + HORIZONTE_DIAS,
+    hoy: u.hoy,
+    inicio: u.hoy,
+    B: PRESUPUESTO_DIARIO,
+  }) as PlanDia;
+}
+
+async function elegirConcepto(
+  db: ReturnType<typeof createCerebroClient>,
+): Promise<string | null> {
+  const u = await cargarUniverso(db);
+  if (!u) return null;
+  const { conceptos, estados } = u;
+
+  const plan = planDelDia(u);
   const consolidar = plan.consolidar ?? [];
   const ampliar = plan.ampliar ?? [];
 
@@ -364,23 +438,34 @@ export type ProgresoTema = {
 // Por cada `tema` de la convocatoria PN: cuántos conceptos tiene, cuántos ha
 // practicado el usuario (tiene fila en estado_dominio) y cuántos domina
 // (l >= 0.9). PostgREST no agrupa sin RPC/vista, así que traemos solo las dos
-// columnas mínimas (overlay ~352 filas, estado ~decenas) y agregamos en memoria.
+// columnas mínimas y agregamos en memoria — paginando, porque el overlay pasa
+// de largo el tope de 1.000 (3.312 filas a 20/08/2026).
 export async function progresoTemas(): Promise<ProgresoTema[]> {
   const db = createCerebroClient();
 
-  const { data: overlay, error } = await db
-    .from("overlay_entrada")
-    .select("concepto_id, tema")
-    .eq("convocatoria_id", CONVOCATORIA_PN);
-  if (error || !overlay) return [];
+  const overlay = await traerTodo<{ concepto_id: string; tema: string }>(() =>
+    db
+      .from("overlay_entrada")
+      .select("concepto_id, tema")
+      .eq("convocatoria_id", CONVOCATORIA_PN) as unknown as ConsultaPaginable<{
+      concepto_id: string;
+      tema: string;
+    }>,
+  );
+  if (overlay.length === 0) return [];
 
-  const { data: estados } = await db
-    .from("estado_dominio")
-    .select("concepto_id, l")
-    .eq("usuario_id", DEMO_USUARIO_ID);
+  const estados = await traerTodo<{ concepto_id: string; l: number | null }>(() =>
+    db
+      .from("estado_dominio")
+      .select("concepto_id, l")
+      .eq("usuario_id", DEMO_USUARIO_ID) as unknown as ConsultaPaginable<{
+      concepto_id: string;
+      l: number | null;
+    }>,
+  );
 
   const dominioDe = new Map<string, number>(
-    (estados ?? []).map((s) => [s.concepto_id as string, (s.l ?? 0) as number]),
+    estados.map((s) => [s.concepto_id, s.l ?? 0]),
   );
 
   const porTema = new Map<
@@ -417,6 +502,11 @@ export type ResumenHoy = {
   dominados: number;
   pendientes: number;
   aciertoPct: number | null;
+  // Lo que el COACH dice que toca hoy, no un cálculo aparte de la pantalla.
+  hoyRepasar: number; // vencidos que entran en la sesión de hoy
+  hoyNuevos: number; // conceptos nuevos que toca introducir hoy
+  backlog: number; // vencidos que no caben hoy
+  modo: string; // normal | consolidacion | triaje
 };
 
 // Cifras globales del usuario sobre la convocatoria PN para la pantalla /hoy.
@@ -425,35 +515,60 @@ export type ResumenHoy = {
 export async function resumenHoy(): Promise<ResumenHoy> {
   const db = createCerebroClient();
 
-  const { data: overlay } = await db
-    .from("overlay_entrada")
-    .select("concepto_id")
-    .eq("convocatoria_id", CONVOCATORIA_PN);
-  const conceptos = new Set(
-    (overlay ?? []).map((o) => o.concepto_id as string),
+  const overlay = await traerTodo<{ concepto_id: string }>(() =>
+    db
+      .from("overlay_entrada")
+      .select("concepto_id")
+      .eq("convocatoria_id", CONVOCATORIA_PN) as unknown as ConsultaPaginable<{
+      concepto_id: string;
+    }>,
   );
+  const conceptos = new Set(overlay.map((o) => o.concepto_id));
   const totalConceptos = conceptos.size;
 
-  const { data: estados } = await db
-    .from("estado_dominio")
-    .select("concepto_id, l")
-    .eq("usuario_id", DEMO_USUARIO_ID);
+  const estados = await traerTodo<{ concepto_id: string; l: number | null }>(() =>
+    db
+      .from("estado_dominio")
+      .select("concepto_id, l")
+      .eq("usuario_id", DEMO_USUARIO_ID) as unknown as ConsultaPaginable<{
+      concepto_id: string;
+      l: number | null;
+    }>,
+  );
   let practicados = 0;
   let dominados = 0;
-  for (const s of estados ?? []) {
-    if (!conceptos.has(s.concepto_id as string)) continue;
+  for (const s of estados) {
+    if (!conceptos.has(s.concepto_id)) continue;
     practicados += 1;
-    if (((s.l ?? 0) as number) >= 0.9) dominados += 1;
+    if ((s.l ?? 0) >= 0.9) dominados += 1;
   }
 
-  const { data: eventos } = await db
+  // El acierto se cuenta con dos consultas HEAD (`count: exact`): devuelven el
+  // número sin traer ni una fila, así que no dependen del tope de páginas por
+  // muchas respuestas que acumule el usuario.
+  const { count: totalEventos } = await db
     .from("evento")
-    .select("acierto")
+    .select("*", { count: "exact", head: true })
     .eq("usuario_id", DEMO_USUARIO_ID);
-  const totalEventos = eventos?.length ?? 0;
-  const aciertos = (eventos ?? []).filter((e) => e.acierto).length;
+  const { count: aciertos } = await db
+    .from("evento")
+    .select("*", { count: "exact", head: true })
+    .eq("usuario_id", DEMO_USUARIO_ID)
+    .eq("acierto", true);
   const aciertoPct =
-    totalEventos > 0 ? Math.round((aciertos / totalEventos) * 100) : null;
+    totalEventos && totalEventos > 0
+      ? Math.round(((aciertos ?? 0) / totalEventos) * 100)
+      : null;
+
+  // El plan de hoy sale del planificador, el mismo que sirve las preguntas en
+  // /practicar. Antes esta pantalla calculaba "por repasar" como
+  // practicados − dominados, que NO es lo mismo: un concepto practicado y no
+  // dominado solo vence cuando su retención cae por debajo del objetivo. Con la
+  // cuenta vieja la pantalla anunciaba repasos que el coach no iba a servir.
+  const u = await cargarUniverso(db);
+  const plan = u
+    ? planDelDia(u)
+    : { modo: "normal", consolidar: [], ampliar: [], backlog: 0 };
 
   return {
     totalConceptos,
@@ -461,6 +576,10 @@ export async function resumenHoy(): Promise<ResumenHoy> {
     dominados,
     pendientes: totalConceptos - practicados,
     aciertoPct,
+    hoyRepasar: plan.consolidar.length,
+    hoyNuevos: plan.ampliar.length,
+    backlog: plan.backlog,
+    modo: plan.modo,
   };
 }
 
