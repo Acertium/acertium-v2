@@ -107,15 +107,33 @@ export function cruzar(epigrafes, conceptos) {
   const encajaAlguno = new Set();
   const filas = epigrafes.map((e) => {
     const cs = porTema.get(e.tema) ?? [];
+    // ROZAN (añadido 20/08/2026). Un cero de este informe puede significar dos cosas
+    // muy distintas: que no hay nada, o que lo hay con otro vocabulario. Distinguirlas
+    // costaba una investigación manual cada vez, y esa investigación se repetía porque
+    // su resultado no quedaba escrito en ninguna parte.
+    //
+    // El caso que lo motivó: el epígrafe «Consecuencia de los riesgos» del Tema 24
+    // salía en CERO teniendo ocho conceptos que son exactamente eso —accidente de
+    // trabajo, enfermedad profesional, fatiga, estrés, costes de los daños—. Sus
+    // claves son "consec" y "riesgo" con umbral 2; cuatro de los ocho dicen
+    // «consecuencia» y NINGUNO dice «riesgo», así que ninguno llegaba al umbral.
+    // Se estuvo a punto de escribir un lote entero para un epígrafe ya cubierto.
+    //
+    // La regla de conteo NO se toca: sigue siendo la misma y sigue equivocándose por
+    // defecto a propósito. Lo que se añade es la EVIDENCIA: qué conceptos rozaron el
+    // umbral sin alcanzarlo. Un cero con rozadores es «mira esto antes de escribir
+    // nada»; un cero sin rozadores es un hueco de verdad.
+    const rozan = [];
     const cubren = cs.filter((c) => {
       const hits = e.claves.filter((k) => c.txt.includes(k)).length;
       if (hits >= umbral(e.claves)) {
         encajaAlguno.add(c.id);
         return true;
       }
+      if (hits >= 1) rozan.push(c.id);
       return false;
     });
-    return { ...e, cubren: cubren.length };
+    return { ...e, cubren: cubren.length, rozan };
   });
   // FIABILIDAD. Si en un tema casi ningún concepto encaja con NINGÚN epígrafe, no
   // es que el tema esté vacío: es que su vocabulario no es el del temario (pasa en
@@ -166,10 +184,18 @@ export function informeMarkdown({ filas, fiabilidad }, fecha) {
   L.push("");
   L.push("### Los epígrafes vacíos en temas fiables");
   L.push("");
-  L.push("| Tema | Epígrafe | % encaje del tema |");
-  L.push("|---|---|---|");
+  L.push("La columna **Rozan** cuenta los conceptos del tema que casaron con ALGUNA clave del");
+  L.push("epígrafe sin llegar al umbral. Un cero con rozadores casi siempre está cubierto con");
+  L.push("otro vocabulario: **míralos antes de escribir nada**. Un cero sin rozadores sí es un");
+  L.push("hueco de verdad.");
+  L.push("");
+  L.push("| Tema | Epígrafe | % encaje del tema | Rozan |");
+  L.push("|---|---|---|---|");
   for (const f of fiables)
-    L.push(`| ${f.tema} | ${f.epigrafe.replace(/\|/g, "\\|")} | ${fiabilidad.get(f.tema).pct} % |`);
+    L.push(
+      `| ${f.tema} | ${f.epigrafe.replace(/\|/g, "\\|")} | ${fiabilidad.get(f.tema).pct} % | ` +
+        `${f.rozan?.length ? `${f.rozan.length} — ${f.rozan.slice(0, 5).join(", ")}` : "—"} |`,
+    );
   L.push("");
   L.push("## Detalle por tema");
   for (const t of temas) {

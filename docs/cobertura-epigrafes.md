@@ -27,20 +27,34 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 
 ### Los epígrafes vacíos en temas fiables
 
-| Tema | Epígrafe | % encaje del tema |
-|---|---|---|
-| 24 | Consecuencia de los riesgos. | 69 % |
-| 28 | Reacciones a la globalización. | 48 % |
-| 30 | Principios éticos de la sociedad actual. | 44 % |
-| 30 | Libertad responsabilidad. | 44 % |
-| 30 | Igualdad - solidaridad. | 44 % |
-| 31 | Tipos y efectos. | 48 % |
-| 31 | Las migraciones en la actualidad. | 48 % |
-| 34 | Drogodependencias. | 48 % |
-| 39 | Redes informáticas: Modelo OSI. | 41 % |
-| 40 | Tipologías de Inteligencia. | 100 % |
-| 40 | Surface Web. | 100 % |
-| 42 | Balística forense. | 52 % |
+La columna **Rozan** cuenta los conceptos del tema que casaron con ALGUNA clave del
+epígrafe sin llegar al umbral. Un cero con rozadores suele estar cubierto con otro
+vocabulario: **míralos antes de escribir nada**. Un cero sin rozadores sí apunta a un
+hueco de verdad.
+
+Los rozadores son EVIDENCIA, no veredicto. El Tema 40 lo demuestra: «Tipologías de
+Inteligencia» tiene 7 rozadores y aun así el epígrafe está realmente vacío, porque
+esos conceptos son el ciclo y las disciplinas, no la clasificación
+táctica/operacional/estratégica. Hay que mirarlos, no contarlos.
+
+| Tema | Epígrafe | % encaje | Rozan | Estado |
+|---|---|---|---|---|
+| 24 | Consecuencia de los riesgos. | 69 % | 13 | ✅ **CUBIERTO** — falso negativo verificado 20/08/2026 |
+| 28 | Reacciones a la globalización. | 48 % | 10 | ⚠ probable falso negativo (GLOB-001…006) |
+| 30 | Principios éticos de la sociedad actual. | 44 % | 1 | hueco (consenso) |
+| 30 | Libertad responsabilidad. | 44 % | 3 | hueco parcial: libertad sí, responsabilidad no |
+| 30 | Igualdad - solidaridad. | 44 % | 2 | hueco parcial: igualdad sí, solidaridad no |
+| 31 | Tipos y efectos. | 48 % | — | sin comprobar |
+| 31 | Las migraciones en la actualidad. | 48 % | 11 | ⚠ probable falso negativo (INMIG-001…006) |
+| 34 | Drogodependencias. | 48 % | **0** | hueco real |
+| 39 | Redes informáticas: Modelo OSI. | 41 % | 9 | ✅ **CUBIERTO** — existe «Modelo OSI: siete capas» |
+| 40 | Tipologías de Inteligencia. | 100 % | 7 | hueco real, sin fuente (ver `claude-code/ENCARGO-T40-FUENTES.md`) |
+| 40 | Surface Web. | 100 % | **0** | hueco real, sin fuente |
+| 42 | Balística forense. | 52 % | **0** | hueco real, sin norma que lo defina |
+
+**Lectura corta:** de los doce, dos están verificados como cubiertos y dos más lo
+parecen. Los huecos con cero rozadores son tres: Drogodependencias, Surface Web y
+Balística forense.
 
 ## Detalle por tema
 
