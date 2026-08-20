@@ -22,16 +22,14 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 ## Resumen
 
 - **250 epígrafes** en 45 temas.
-- **48** sin ningún concepto que los cubra.
-- De esos, **15** están en temas con encaje fiable: esa es la lista corta.
+- **46** sin ningún concepto que los cubra.
+- De esos, **13** están en temas con encaje fiable: esa es la lista corta.
 
 ### Los epígrafes vacíos en temas fiables
 
 | Tema | Epígrafe | % encaje del tema |
 |---|---|---|
 | 13 | Coordinación. | 69 % |
-| 21 | La detención: concepto y duración. | 56 % |
-| 21 | La obligación de detener. | 56 % |
 | 24 | Consecuencia de los riesgos. | 69 % |
 | 28 | Reacciones a la globalización. | 48 % |
 | 30 | Principios éticos de la sociedad actual. | 44 % |
@@ -243,21 +241,21 @@ no significan nada**. Un cero en un tema fiable sí es una pregunta que hacerse.
 | 2 | Especial consideración al derecho a la intimidad. | **0** |
 | 3 | La prueba digital en el proceso penal. | **0** |
 
-### Tema 21 — 144 conceptos · 56 % de encaje
+### Tema 21 — 179 conceptos · 55 % de encaje
 
 | # | Epígrafe | Conceptos |
 |---|---|---|
-| 1 | Noción de Derecho Procesal Penal. | 4 |
+| 1 | Noción de Derecho Procesal Penal. | 5 |
 | 2 | Concepto de jurisdicción y de competencia. | 4 |
 | 3 | Los órganos de la jurisdicción penal. | 12 |
 | 4 | Concepto de denuncia y la obligación de denunciar. | 6 |
-| 5 | La detención: concepto y duración. | **0** |
-| 6 | La obligación de detener. | **0** |
-| 7 | Los derechos del detenido. | 3 |
+| 5 | La detención: concepto y duración. | 1 |
+| 6 | La obligación de detener. | 3 |
+| 7 | Los derechos del detenido. | 15 |
 | 8 | El procedimiento de habeas corpus. | 3 |
 | 9 | Procedimiento integral de la detención policial. | 4 |
-| 10 | El Ministerio Fiscal: funciones. | 43 |
-| 11 | La Policía Judicial. | 19 |
+| 10 | El Ministerio Fiscal: funciones. | 46 |
+| 11 | La Policía Judicial. | 23 |
 
 ### Tema 22 — 23 conceptos · 61 % de encaje
 
