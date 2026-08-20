@@ -507,6 +507,9 @@ export type ResumenHoy = {
   hoyNuevos: number; // conceptos nuevos que toca introducir hoy
   backlog: number; // vencidos que no caben hoy
   modo: string; // normal | consolidacion | triaje
+  // Días desde la última respuesta (null si nunca ha practicado). Lo usa el
+  // saludo de /hoy para no tratar igual al que viene a diario y al que vuelve.
+  diasSinVenir: number | null;
 };
 
 // Cifras globales del usuario sobre la convocatoria PN para la pantalla /hoy.
@@ -555,6 +558,20 @@ export async function resumenHoy(): Promise<ResumenHoy> {
     .select("*", { count: "exact", head: true })
     .eq("usuario_id", DEMO_USUARIO_ID)
     .eq("acierto", true);
+
+  // Última respuesta: una sola fila, la más reciente.
+  const { data: ultimo } = await db
+    .from("evento")
+    .select("fecha")
+    .eq("usuario_id", DEMO_USUARIO_ID)
+    .order("fecha", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+  const diasSinVenir = ultimo?.fecha
+    ? Math.floor(
+        (Date.now() - new Date(ultimo.fecha as string).getTime()) / DIA_MS,
+      )
+    : null;
   const aciertoPct =
     totalEventos && totalEventos > 0
       ? Math.round(((aciertos ?? 0) / totalEventos) * 100)
@@ -580,6 +597,7 @@ export async function resumenHoy(): Promise<ResumenHoy> {
     hoyNuevos: plan.ampliar.length,
     backlog: plan.backlog,
     modo: plan.modo,
+    diasSinVenir,
   };
 }
 

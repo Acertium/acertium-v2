@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ProfesorFab from "./profesor-fab";
 import { resumenHoy } from "@/lib/cerebro";
+import { saludo, animo } from "@/lib/saludo";
 
 const borde = "color-mix(in srgb, var(--color-fg) 12%, transparent)";
 
@@ -27,6 +28,10 @@ export default async function HoyPage() {
       ? "Hoy no te toca nada: puedes descansar o hacer un simulacro"
       : `Hoy te tocan ${partes.join(" y ")}`;
 
+  // El saludo lo elige `lib/saludo.ts` a partir del estado real del opositor
+  // (cuánto hace que no viene, si es su primera vez, cuánto domina ya).
+  const hola = saludo({ diasSinVenir: r.diasSinVenir, dominados: r.dominados });
+
   return (
     <main className="mx-auto max-w-xl px-5 py-8">
       <header className="mb-6">
@@ -35,7 +40,7 @@ export default async function HoyPage() {
           className="mt-1 text-2xl font-bold"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Hola de nuevo
+          {hola}
         </h1>
       </header>
 
@@ -109,6 +114,10 @@ export default async function HoyPage() {
         >
           Empezar
         </Link>
+
+        <p className="mt-3 text-center text-[13px] leading-snug text-muted">
+          {animo()}
+        </p>
       </section>
 
       {/* Acceso a simulacro */}

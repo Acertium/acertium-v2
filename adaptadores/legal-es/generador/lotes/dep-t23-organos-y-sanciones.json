@@ -1,0 +1,874 @@
+{
+  "meta": {
+    "materia": "ley-39-2006-dependencia",
+    "norma": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia",
+    "referencia_boe": "BOE-A-2006-21990",
+    "convocatoria": "policia-nacional-2026",
+    "tema": "Tema 23 — Políticas de igualdad, protección y no discriminación: la LO 3/2007 de igualdad efectiva y la LO 1/2004 de violencia de género"
+  },
+  "fuentes": {
+    "art. 4": "Derechos y obligaciones de las personas en situación de dependencia. 1. Las personas en situación de dependencia tendrán derecho, con independencia del lugar del territorio del Estado español donde residan, a acceder, en condiciones de igualdad, a las prestaciones y servicios previstos en esta Ley, en los términos establecidos en la misma. 2. Asimismo, las personas en situación de dependencia disfrutarán de todos los derechos establecidos en la legislación vigente, y con carácter especial de los siguientes: a) A disfrutar de los derechos humanos y libertades fundamentales, con pleno respeto de su dignidad e intimidad. b) A recibir, en términos comprensibles y accesibles, información completa y continuada relacionada con su situación de dependencia. c) A ser advertido de si los procedimientos que se le apliquen pueden ser utilizados en función de un proyecto docente o de investigación, siendo necesaria la previa autorización, expresa y por escrito, de la persona en situación de dependencia o quien la represente. d) A que sea respetada la confidencialidad en la recogida y el tratamiento de sus datos, de acuerdo con la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal. e) A participar en la formulación y aplicación de las políticas que afecten a su bienestar, ya sea a título individual o mediante asociación. f) A decidir, cuando tenga capacidad de obrar suficiente, sobre la tutela de su persona y bienes, para el caso de pérdida de su capacidad de autogobierno. g) A decidir libremente sobre el ingreso en centro residencial. h) Al ejercicio pleno de sus derechos jurisdiccionales en el caso de internamientos involuntarios, garantizándose un proceso contradictorio. i) Al ejercicio pleno de sus derechos patrimoniales. j) A iniciar las acciones administrativas y jurisdiccionales en defensa del derecho que reconoce la presente Ley en el apartado 1 de este artículo. En el caso de los menores o personas incapacitadas judicialmente, estarán legitimadas para actuar en su nombre quienes ejerzan la patria potestad o quienes ostenten la representación legal. k) A la igualdad de oportunidades, no discriminación y accesibilidad universal, en cualquiera de los ámbitos de desarrollo y aplicación de esta Ley. l) A no sufrir discriminación por razón de orientación o identidad sexual. 3. Los poderes públicos adoptarán las medidas necesarias para promover y garantizar el respeto de los derechos enumerados en el párrafo anterior, sin más limitaciones en su ejercicio que las directamente derivadas de la falta de capacidad de obrar que determina su situación de dependencia. 4. Las personas en situación de dependencia y, en su caso, sus familiares o quienes les representen, así como los centros de asistencia, estarán obligados a suministrar toda la información y datos que les sean requeridos por las administraciones competentes para la valoración de su grado de dependencia, a comunicar todo tipo de ayudas personalizadas que reciban, a aplicar las prestaciones económicas a las finalidades para las que fueron otorgadas y a cualquier otra obligación prevista en la legislación vigente",
+    "art. 12": "Participación de las Entidades Locales. 1. Las Entidades Locales participarán en la gestión de los servicios de atención a las personas en situación de dependencia, de acuerdo con la normativa de sus respectivas Comunidades Autónomas y dentro de las competencias que la legislación vigente les atribuye. 2. Las Entidades Locales podrán participar en el Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia en la forma y condiciones que el propio Consejo disponga.",
+    "art. 13": "Objetivos de las prestaciones de dependencia. La atención a las personas en situación de dependencia y la promoción de su autonomía personal deberán orientarse a la consecución de una mejor calidad de vida y autonomía personal, en un marco de efectiva igualdad de oportunidades, de acuerdo con los siguientes objetivos: a) Facilitar una existencia autónoma en su medio habitual, todo el tiempo que desee y sea posible. b) Proporcionar un trato digno en todos los ámbitos de su vida personal, familiar y social, facilitando su incorporación activa en la vida de la comunidad.",
+    "art. 16": "Red de servicios del Sistema para la Autonomía y Atención a la Dependencia. 1. Las prestaciones y servicios establecidos en esta Ley se integran en la Red de Servicios Sociales de las respectivas Comunidades Autónomas en el ámbito de las competencias que las mismas tienen asumidas. La red de centros estará formada por los centros públicos de las Comunidades Autónomas, de las Entidades Locales, los centros de referencia estatal para la promoción de la autonomía personal y para la atención y cuidado de situaciones de dependencia, así como los privados concertados debidamente acreditados. 2. Las Comunidades Autónomas establecerán el régimen jurídico y las condiciones de actuación de los centros privados concertados. En su incorporación a la red se tendrá en cuenta de manera especial los correspondientes al tercer sector. 3. Los centros y servicios privados no concertados que presten servicios para personas en situación de dependencia deberán contar con la debida acreditación de la Comunidad Autónoma correspondiente. 4. Los poderes públicos promoverán la colaboración solidaria de los ciudadanos con las personas en situación de dependencia, a través de la participación de las organizaciones de voluntarios y de las entidades del tercer sector.",
+    "art. 20": "Cuantía de las prestaciones económicas. La cuantía de las prestaciones económicas reguladas en los artículos de esta Sección se acordará por el Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia, para su aprobación posterior por el Gobierno mediante Real Decreto.",
+    "art. 21": "Prevención de las situaciones de dependencia. Tiene por finalidad prevenir la aparición o el agravamiento de enfermedades o discapacidades y de sus secuelas, mediante el desarrollo coordinado, entre los servicios sociales y de salud, de actuaciones de promoción de condiciones de vida saludables, programas específicos de carácter preventivo y de rehabilitación dirigidos a las personas mayores y personas con discapacidad y a quienes se ven afectados por procesos de hospitalización complejos. Con este fin, el Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia acordará criterios, recomendaciones y condiciones mínimas que deberían cumplir los Planes de Prevención de las Situaciones de Dependencia que elaboren las Comunidades Autónomas, con especial consideración de los riesgos y actuaciones para las personas mayores.",
+    "art. 24": "Servicio de Centro de Día y de Noche. 1. El servicio de Centro de Día o de Noche ofrece una atención integral durante el periodo diurno o nocturno a las personas en situación de dependencia, con el objetivo de mejorar o mantener el mejor nivel posible de autonomía personal y apoyar a las familias o cuidadores. En particular, cubre, desde un enfoque biopsicosocial, las necesidades de asesoramiento, prevención, rehabilitación, orientación para la promoción de la autonomía, habilitación o atención asistencial y personal. 2. La tipología de centros incluirá Centros de Día para menores de 65 años, Centros de Día para mayores, Centros de Día de atención especializada por la especificidad de los cuidados que ofrecen y Centros de Noche, que se adecuarán a las peculiaridades y edades de las personas en situación de dependencia.",
+    "art. 25 bis": "Régimen de incompatibilidad de las prestaciones. 1. Las prestaciones económicas serán incompatibles entre sí y con los servicios del catálogo establecidos en el artículo 15, salvo con los servicios de prevención de las situaciones de dependencia, de promoción de la autonomía personal y de teleasistencia. 2. Los servicios serán incompatibles entre sí, a excepción del servicio de teleasistencia que será compatible con el servicio de prevención de las situaciones de dependencia, de promoción de la autonomía personal, de ayuda a domicilio y de centro de día y de noche. 3. No obstante lo anterior, las administraciones públicas competentes podrán establecer la compatibilidad entre prestaciones para apoyo, cuidados y atención que faciliten la permanencia en el domicilio a la persona en situación de dependencia, de tal forma que la suma de estas prestaciones no sea superior, en su conjunto, a las intensidades máximas reconocidas a su grado de dependencia. A los efectos de la asignación del nivel mínimo establecido en el artículo 9, estas prestaciones tendrán la consideración de una única prestación.",
+    "art. 30": "Revisión del grado de dependencia y de la prestación reconocida. 1. El grado de dependencia será revisable, a instancia del interesado, de sus representantes o de oficio por las Administraciones públicas competentes, por alguna de las siguientes causas: a) Mejoría o empeoramiento de la situación de dependencia. b) Error de diagnóstico o en la aplicación del correspondiente baremo.. 2. Las prestaciones podrán ser modificadas o extinguidas en función de la situación personal del beneficiario, cuando se produzca una variación de cualquiera de los requisitos establecidos para su reconocimiento, o por incumplimiento de las obligaciones reguladas en la presente Ley.",
+    "art. 31": "Prestaciones de análoga naturaleza y finalidad. La percepción de una de las prestaciones económicas previstas en esta Ley deducirá de su cuantía cualquier otra prestación de análoga naturaleza y finalidad establecida en los regímenes públicos de protección social. En particular, se deducirán el complemento de gran invalidez regulado en el artículo 139.4 de la Ley General de la Seguridad Social, Texto Refundido aprobado por Real Decreto legislativo 1/1994, de 20 de junio, el complemento de la asignación económica por hijo a cargo mayor de 18 años con un grado de minusvalía igual o superior al 75%, el de necesidad de otra persona de la pensión de invalidez no contributiva, y el subsidio de ayuda a tercera persona de la Ley 13/1982, de 7 de abril, de Integración Social de los Minusválidos (LISMI).",
+    "art. 33": "La participación de los beneficiarios en el coste de las prestaciones. 1. Los beneficiarios de las prestaciones de dependencia participarán en la financiación de las mismas, según el tipo y coste del servicio y su capacidad económica personal. 2. La capacidad económica del beneficiario se tendrá también en cuenta para la determinación de la cuantía de las prestaciones económicas. 3. El Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia fijará los criterios para la aplicación de lo previsto en este artículo, que serán desarrollados en los Convenios a que se refiere el artículo 10. Para fijar la participación del beneficiario, se tendrá en cuenta la distinción entre servicios asistenciales y de manutención y hoteleros. 4. Ningún ciudadano quedará fuera de la cobertura del Sistema por no disponer de recursos económicos.",
+    "art. 39": "Acción administrativa contra el fraude. Las Administraciones Públicas velarán por la correcta aplicación de los fondos públicos destinados al Sistema para la Autonomía y Atención a la Dependencia, evitando la obtención o disfrute fraudulento de sus prestaciones y de otros beneficios o ayudas económicas que puedan recibir los sujetos que participen en el Sistema o sean beneficiarios del mismo. Igualmente establecerán medidas de control destinadas a detectar y perseguir tales situaciones. A tales efectos, las Administraciones Públicas desarrollarán actuaciones de vigilancia del cumplimiento de esta Ley y ejercerán las potestades sancionadoras conforme a lo previsto en el Título III de la misma, haciendo uso, en su caso, de las fórmulas de cooperación interadministrativa contenidas en esta Ley.",
+    "art. 40": "Comité Consultivo. 1. Se crea el Comité Consultivo del Sistema para la Autonomía y Atención a la Dependencia como órgano asesor, adscrito al Ministerio de Trabajo y Asuntos Sociales, mediante el cual se hace efectiva, de manera permanente, la participación social en el Sistema y se ejerce la participación institucional de las organizaciones sindicales y empresariales en el mismo. 2. Sus funciones serán las de informar, asesorar y formular propuestas sobre materias que resulten de especial interés para el funcionamiento de dicho Sistema. 3. La composición del Comité tendrá carácter tripartito, en tanto que integrado por las Administraciones públicas, las organizaciones empresariales y las organizaciones sindicales, y paritario entre Administraciones Públicas por una parte y organizaciones sindicales y empresariales por otra, en los términos establecidos en el siguiente apartado. Los acuerdos del Comité se adoptarán por mayoría de los votos emitidos en cada una de las partes, requiriendo así la mayoría de los votos de las Administraciones Públicas y la mayoría de los votos de las organizaciones sindicales y empresariales. 4. El Comité Consultivo estará presidido por el representante de la Administración General del Estado que designe el titular del Ministerio de Trabajo y Asuntos Sociales. Su funcionamiento se regulará por su reglamento interno. Estará integrado por los siguientes miembros, nombrados en los términos que se establezcan reglamentariamente: a) Seis representantes de la Administración General del Estado. b) Seis representantes de las administraciones de las Comunidades Autónomas. c) Seis representantes de las Entidades locales. d) Nueve representantes de las organizaciones empresariales más representativas. e) Nueve representantes de las organizaciones sindicales más representativas.",
+    "art. 41": "Órganos consultivos. 1. Serán órganos consultivos de participación institucional del Sistema para la Autonomía y Atención a la Dependencia los siguientes: El Comité Consultivo del Sistema para la Autonomía y Atención a la Dependencia. El Consejo Estatal de Personas Mayores. El Consejo Nacional de la Discapacidad. El Consejo Estatal de Organizaciones no Gubernamentales de Acción Social. 2. Las funciones de dichos órganos serán las de informar, asesorar y formular propuestas sobre materias que resulten de especial interés para el funcionamiento del Sistema.",
+    "art. 42": "Responsables. 1. Sólo podrán ser sancionadas por hechos constitutivos de infracción administrativa las personas físicas o jurídicas que resulten responsables de los mismos. 2. Se consideran autores de las infracciones tipificadas por esta Ley quienes realicen los hechos por sí mismos, conjuntamente o a través de persona interpuesta. 3. Tendrán también la consideración de autores quienes cooperen en su ejecución mediante una acción u omisión sin la cual la infracción no hubiese podido llevarse a cabo.",
+    "art. 43": "Infracciones. Constituirá infracción: a) Dificultar o impedir el ejercicio de cualesquiera de los derechos reconocidos en esta Ley. b) Obstruir la acción de los servicios de inspección. c) Negar el suministro de información o proporcionar datos falsos. d) Aplicar las prestaciones económicas a finalidades distintas a aquellas para las que se otorgan, y recibir ayudas, en especie o económicas, incompatibles con las prestaciones establecidas en la presente Ley. e) Incumplir las normas relativas a la autorización de apertura y funcionamiento y de acreditación de centros de servicios de atención a personas en situación de dependencia. f) Tratar discriminatoriamente a las personas en situación de dependencia. g) Conculcar la dignidad de las personas en situación de dependencia. h) Generar daños o situaciones de riesgo para la integridad física o psíquica. i) Incumplir los requerimientos específicos que formulen las Administraciones Públicas competentes.",
+    "art. 44": "Clasificación de las infracciones. 1. Las infracciones se clasificarán en leves, graves y muy graves, de acuerdo con criterios de riesgo para la salud, gravedad de la alteración social producida por los hechos, cuantía del beneficio obtenido, intencionalidad, número de afectados y reincidencia. 2. Se calificarán como leves las infracciones tipificadas de acuerdo con el artículo 43 cuando se hayan cometido por imprudencia o simple negligencia, y no comporten un perjuicio directo para las personas en situación de dependencia. 3. Se calificarán como infracciones graves las tipificadas de acuerdo con el artículo 43 cuando comporten un perjuicio para las personas, o se hayan cometido con dolo o negligencia grave. También tendrán la consideración de graves, aquellas que comporten cualesquiera de las siguientes circunstancias: a) Reincidencia de falta leve. b) Negativa absoluta a facilitar información o a prestar colaboración a los servicios de inspección, así como el falseamiento de la información proporcionada a la Administración. c) Coacciones, amenazas, represalias o cualquier otra forma de presión ejercitada sobre las personas en situación de dependencia o sus familias. 4. Se calificarán como infracciones muy graves todas las definidas como graves siempre que concurran alguna de las siguientes circunstancias: a) Que atenten gravemente contra los derechos fundamentales de la persona. b) Que se genere un grave perjuicio para las personas en situación de dependencia o para la Administración. c) Que supongan reincidencia de falta grave. 5. Se produce reincidencia cuando, al cometer la infracción, el sujeto hubiera sido ya sancionado por esa misma falta, o por otra de gravedad igual o mayor o por dos o más infracciones de gravedad inferior, durante los dos últimos años.",
+    "art. 45": "Sanciones. 1. Las infracciones a la presente Ley serán sancionadas por las administraciones competentes con pérdida de las prestaciones y subvenciones para las personas beneficiarias; con multa para los cuidadores no profesionales; y con multa y, en su caso, pérdida de subvenciones, cese temporal de la actividad o cierre del establecimiento, local o empresa para las empresas proveedoras de servicios. En todo caso, la sanción implicará el reintegro de las cantidades indebidamente percibidas. 2. La graduación de las sanciones será proporcional a la infracción cometida y se establecerá ponderándose según los siguientes criterios: a) Gravedad de la infracción. b) Gravedad de la alteración social y perjuicios causados. c) Riesgo para la salud. d) Número de afectados. e) Beneficio obtenido. f) Grado de intencionalidad y reiteración. 3. La graduación de las multas se ajustará a lo siguiente: a) Por infracción leve, multa de hasta 300 euros a los cuidadores y hasta treinta mil euros a los proveedores de servicios. b) Por infracción grave, multa de trescientos a tres mil euros a los cuidadores; y de treinta mil uno a noventa mil euros a los proveedores de servicios. c) Por infracción muy grave, multa de tres mil uno a seis mil euros a los cuidadores; y de noventa mil uno hasta un máximo de un millón euros a los proveedores de servicios. 4. En los supuestos en los que se acuerde la suspensión de prestaciones o subvenciones, ésta se graduará entre uno y seis meses según la gravedad de la infracción. 5. Además, en los casos de especial gravedad, reincidencia de la infracción o trascendencia notoria y grave, las infracciones muy graves se sancionarán con la suspensión temporal de la actividad por un máximo de cinco años o, en su caso, con el cierre de la empresa o la clausura del servicio o establecimiento. 6. Durante la sustanciación del procedimiento sancionador, la Administración competente podrá acordar, como medida cautelar, la suspensión de cualquier tipo de ayudas o subvención de carácter financiero que el particular o la entidad infractora haya obtenido o solicitado de dicha Administración Pública. 7. Durante la sustanciación del procedimiento por infracciones graves o muy graves, y ante la posibilidad de causar perjuicios de difícil o imposible reparación, la Administración competente podrá acordar, como medida cautelar, el cierre del centro o la suspensión de la actividad.",
+    "art. 46": "Prescripción. 1. Las infracciones a que se refiere la presente Ley prescribirán: a) Al año, las leves. b) A los tres años, las graves. c) A los cuatro años, las muy graves. 2. El plazo de prescripción comenzará a contarse a partir del día que se haya cometido la infracción y se interrumpirá por la iniciación, con conocimiento del interesado, del procedimiento sancionador. 3. Las sanciones impuestas por faltas muy graves prescribirán a los cinco años, por faltas graves a los cuatro años y por faltas leves al año.",
+    "art. 47": "Competencias. 1. Las Comunidades Autónomas desarrollarán el cuadro de infracciones y sanciones previstas en la presente Ley. 2. La incoación e instrucción de los expedientes sancionadores, así como la imposición de las correspondientes sanciones, corresponderá a cada Administración Pública en el ámbito de sus respectivas competencias. 3. En el ámbito de la Administración General del Estado será órgano competente para imponer las sanciones por conductas previstas como infracciones en el artículo 43: a) El titular de la Dirección General del Instituto de Mayores y Servicios Sociales, cuando se trate de sanciones por la comisión de infracciones leves. b) El titular de la Secretaría de Estado de Servicios Sociales, Familias y Discapacidad, cuando se trate de sanciones por la comisión de infracciones graves. c) El titular del Ministerio de Trabajo y Asuntos Sociales, cuando se trate de sanciones por la comisión de infracciones muy graves, si bien se requerirá el acuerdo previo del Consejo de Ministros cuando las sanciones sean de cuantía superior a 300.000 euros o en los supuestos de cierre de la empresa o clausura del servicio o establecimiento."
+  },
+  "conceptos": [
+    {
+      "id": "DEP-039",
+      "articulo": "art. 4",
+      "titulo": "Acceso en condiciones de igualdad viva donde viva",
+      "resumen": "Las personas en situación de dependencia tienen derecho a acceder a las prestaciones y servicios de la Ley en condiciones de igualdad, con independencia del lugar del territorio español donde residan.",
+      "explicacion": "El derecho no depende de la comunidad autónoma en la que vivas."
+    },
+    {
+      "id": "DEP-040",
+      "articulo": "art. 4",
+      "titulo": "Decidir libremente sobre el ingreso en centro residencial",
+      "resumen": "Entre los derechos especiales de las personas en situación de dependencia está el de decidir libremente sobre el ingreso en centro residencial.",
+      "explicacion": "Es un derecho propio: nadie decide el ingreso por ellas mientras tengan capacidad."
+    },
+    {
+      "id": "DEP-041",
+      "articulo": "art. 4",
+      "titulo": "Aviso previo si el procedimiento es docente o de investigación",
+      "resumen": "La persona en situación de dependencia tiene derecho a ser advertida de si los procedimientos que se le apliquen pueden usarse en un proyecto docente o de investigación, y hace falta su autorización previa, expresa y por escrito.",
+      "explicacion": "Tres requisitos de la autorización: previa, expresa y por escrito."
+    },
+    {
+      "id": "DEP-042",
+      "articulo": "art. 12",
+      "titulo": "Participación de las Entidades Locales",
+      "resumen": "Las Entidades Locales participan en la gestión de los servicios de atención a las personas en situación de dependencia de acuerdo con la normativa de sus comunidades autónomas y dentro de sus competencias.",
+      "explicacion": "Participan en la gestión; en el Consejo Territorial, solo si este lo dispone."
+    },
+    {
+      "id": "DEP-043",
+      "articulo": "art. 13",
+      "titulo": "Los dos objetivos de las prestaciones de dependencia",
+      "resumen": "Las prestaciones se orientan a facilitar una existencia autónoma en el medio habitual todo el tiempo que se desee y sea posible, y a proporcionar un trato digno en todos los ámbitos de la vida.",
+      "explicacion": "Los objetivos van juntos: autonomía en el medio habitual y trato digno."
+    },
+    {
+      "id": "DEP-044",
+      "articulo": "art. 16",
+      "titulo": "Qué centros forman la red del Sistema",
+      "resumen": "La red de centros la forman los centros públicos de las comunidades autónomas y de las entidades locales, los centros de referencia estatal y los privados concertados debidamente acreditados.",
+      "explicacion": "Los privados entran, pero solo concertados y acreditados."
+    },
+    {
+      "id": "DEP-045",
+      "articulo": "art. 16",
+      "titulo": "Centros privados no concertados: acreditación autonómica",
+      "resumen": "Los centros y servicios privados no concertados que presten servicios a personas en situación de dependencia deben contar con la acreditación de la comunidad autónoma correspondiente.",
+      "explicacion": "No concertado no significa libre: sigue haciendo falta acreditación."
+    },
+    {
+      "id": "DEP-046",
+      "articulo": "art. 20",
+      "titulo": "Quién acuerda la cuantía de las prestaciones económicas",
+      "resumen": "La cuantía de las prestaciones económicas la acuerda el Consejo Territorial del Sistema y la aprueba después el Gobierno mediante Real Decreto.",
+      "explicacion": "Primero acuerda el Consejo Territorial; después aprueba el Gobierno por Real Decreto."
+    },
+    {
+      "id": "DEP-047",
+      "articulo": "art. 21",
+      "titulo": "Finalidad de la prevención de las situaciones de dependencia",
+      "resumen": "La prevención tiene por finalidad prevenir la aparición o el agravamiento de enfermedades o discapacidades y de sus secuelas, con actuaciones coordinadas entre servicios sociales y de salud.",
+      "explicacion": "No es solo evitar que aparezca: también evitar que empeore."
+    },
+    {
+      "id": "DEP-048",
+      "articulo": "art. 24",
+      "titulo": "Tipología de los Centros de Día y de Noche",
+      "resumen": "La tipología incluye Centros de Día para menores de 65 años, para mayores, de atención especializada y Centros de Noche.",
+      "explicacion": "El umbral de edad que distingue los dos primeros tipos es 65 años."
+    },
+    {
+      "id": "DEP-049",
+      "articulo": "art. 25 bis",
+      "titulo": "Incompatibilidad de las prestaciones económicas",
+      "resumen": "Las prestaciones económicas son incompatibles entre sí y con los servicios del catálogo, salvo con los de prevención de la dependencia, promoción de la autonomía personal y teleasistencia.",
+      "explicacion": "Las tres excepciones hay que sabérselas: prevención, promoción de la autonomía y teleasistencia."
+    },
+    {
+      "id": "DEP-050",
+      "articulo": "art. 30",
+      "titulo": "Causas de revisión del grado de dependencia",
+      "resumen": "El grado de dependencia es revisable por mejoría o empeoramiento de la situación, o por error de diagnóstico o en la aplicación del baremo.",
+      "explicacion": "Son dos causas, y la segunda incluye el error en el baremo, no solo en el diagnóstico."
+    },
+    {
+      "id": "DEP-051",
+      "articulo": "art. 31",
+      "titulo": "Prestaciones de análoga naturaleza y finalidad",
+      "resumen": "Percibir una prestación económica de esta Ley obliga a deducir de su cuantía cualquier otra prestación de análoga naturaleza y finalidad de los regímenes públicos de protección social.",
+      "explicacion": "No se acumulan: se deducen. El caso típico es el complemento de gran invalidez."
+    },
+    {
+      "id": "DEP-052",
+      "articulo": "art. 33",
+      "titulo": "Participación del beneficiario en el coste (copago)",
+      "resumen": "Los beneficiarios participan en la financiación de las prestaciones según el tipo y coste del servicio y su capacidad económica personal.",
+      "explicacion": "Dos criterios: tipo y coste del servicio, y capacidad económica de la persona."
+    },
+    {
+      "id": "DEP-053",
+      "articulo": "art. 33",
+      "titulo": "Nadie queda fuera por falta de recursos",
+      "resumen": "Ningún ciudadano queda fuera de la cobertura del Sistema por no disponer de recursos económicos.",
+      "explicacion": "Es la cláusula de cierre del copago, y una de las frases más citadas de la Ley."
+    },
+    {
+      "id": "DEP-054",
+      "articulo": "art. 39",
+      "titulo": "Acción administrativa contra el fraude",
+      "resumen": "Las Administraciones Públicas velan por la correcta aplicación de los fondos del Sistema, evitando la obtención o disfrute fraudulento de las prestaciones y estableciendo medidas de control.",
+      "explicacion": "No solo evitar: también detectar y perseguir."
+    },
+    {
+      "id": "DEP-055",
+      "articulo": "art. 40",
+      "titulo": "Qué es el Comité Consultivo",
+      "resumen": "El Comité Consultivo del Sistema es un órgano asesor mediante el cual se hace efectiva de manera permanente la participación social y la participación institucional de sindicatos y organizaciones empresariales.",
+      "explicacion": "Es asesor, no decisorio: el que decide es el Consejo Territorial."
+    },
+    {
+      "id": "DEP-056",
+      "articulo": "art. 40",
+      "titulo": "Composición tripartita y paritaria del Comité Consultivo",
+      "resumen": "La composición del Comité Consultivo es tripartita —Administraciones públicas, organizaciones empresariales y sindicales— y paritaria entre las Administraciones por un lado y sindicatos y empresarios por otro.",
+      "explicacion": "Tripartita por quién lo integra; paritaria por cómo se equilibra el voto."
+    },
+    {
+      "id": "DEP-057",
+      "articulo": "art. 40",
+      "titulo": "Reparto de puestos en el Comité Consultivo",
+      "resumen": "El Comité Consultivo lo integran seis representantes de la Administración General del Estado, seis de las comunidades autónomas, seis de las entidades locales, nueve de las organizaciones empresariales y nueve de las sindicales.",
+      "explicacion": "La parte pública reparte por igual entre Estado, autonomías y locales; la social suma más."
+    },
+    {
+      "id": "DEP-058",
+      "articulo": "art. 41",
+      "titulo": "Los órganos consultivos del Sistema",
+      "resumen": "Son órganos consultivos de participación institucional el Comité Consultivo, el Consejo Estatal de Personas Mayores, el Consejo Nacional de la Discapacidad y el Consejo Estatal de ONG de Acción Social.",
+      "explicacion": "El Comité Consultivo es uno de ellos, no el único."
+    },
+    {
+      "id": "DEP-059",
+      "articulo": "art. 42",
+      "titulo": "Quién puede ser sancionado y quién es autor",
+      "resumen": "Solo pueden ser sancionadas las personas físicas o jurídicas responsables de los hechos; son autores quienes los realizan por sí mismos, conjuntamente o a través de persona interpuesta.",
+      "explicacion": "También es autor quien coopera con una acción u omisión sin la cual la infracción no habría podido cometerse."
+    },
+    {
+      "id": "DEP-060",
+      "articulo": "art. 43",
+      "titulo": "Conductas que constituyen infracción",
+      "resumen": "Constituye infracción, entre otras conductas, aplicar las prestaciones económicas a finalidades distintas de aquellas para las que se otorgan.",
+      "explicacion": "El listado va desde obstruir la inspección hasta conculcar la dignidad."
+    },
+    {
+      "id": "DEP-061",
+      "articulo": "art. 44",
+      "titulo": "Clasificación de las infracciones y sus criterios",
+      "resumen": "Las infracciones se clasifican en leves, graves y muy graves según criterios de riesgo para la salud, gravedad de la alteración social, cuantía del beneficio obtenido, intencionalidad, número de afectados y reincidencia.",
+      "explicacion": "La clasificación no es arbitraria: la Ley enumera los criterios uno a uno."
+    },
+    {
+      "id": "DEP-062",
+      "articulo": "art. 44",
+      "titulo": "Cuándo una infracción es leve",
+      "resumen": "Se califican como leves las infracciones cometidas por imprudencia o simple negligencia que no comporten un perjuicio directo para las personas en situación de dependencia.",
+      "explicacion": "Los dos requisitos van juntos: imprudencia Y sin perjuicio directo."
+    },
+    {
+      "id": "DEP-063",
+      "articulo": "art. 44",
+      "titulo": "Cuándo hay reincidencia",
+      "resumen": "Hay reincidencia cuando, al cometer la infracción, el sujeto ya había sido sancionado por esa misma falta, por otra de gravedad igual o mayor, o por dos o más de gravedad inferior, durante los dos últimos años.",
+      "explicacion": "La ventana es de dos años, y admite tres supuestos distintos."
+    },
+    {
+      "id": "DEP-064",
+      "articulo": "art. 45",
+      "titulo": "Multas por infracción leve",
+      "resumen": "Por infracción leve la multa es de hasta 300 euros a los cuidadores y hasta treinta mil euros a los proveedores de servicios.",
+      "explicacion": "Dos escalas distintas: cuidadores y proveedores de servicios."
+    },
+    {
+      "id": "DEP-065",
+      "articulo": "art. 45",
+      "titulo": "Multas por infracción muy grave",
+      "resumen": "Por infracción muy grave la multa es de tres mil uno a seis mil euros a los cuidadores, y de noventa mil uno hasta un máximo de un millón de euros a los proveedores de servicios.",
+      "explicacion": "El techo del millón de euros es solo para proveedores de servicios."
+    },
+    {
+      "id": "DEP-066",
+      "articulo": "art. 45",
+      "titulo": "Suspensión temporal de la actividad en los casos más graves",
+      "resumen": "En casos de especial gravedad, reincidencia o trascendencia notoria y grave, las infracciones muy graves se sancionan con la suspensión temporal de la actividad por un máximo de cinco años o con el cierre de la empresa.",
+      "explicacion": "El máximo de la suspensión temporal es de cinco años."
+    },
+    {
+      "id": "DEP-067",
+      "articulo": "art. 46",
+      "titulo": "Plazos de prescripción de las infracciones",
+      "resumen": "Las infracciones prescriben al año las leves, a los tres años las graves y a los cuatro años las muy graves.",
+      "explicacion": "Ojo: no es la misma escala que la de las sanciones."
+    },
+    {
+      "id": "DEP-068",
+      "articulo": "art. 46",
+      "titulo": "Plazos de prescripción de las sanciones",
+      "resumen": "Las sanciones por faltas muy graves prescriben a los cinco años, por faltas graves a los cuatro años y por faltas leves al año.",
+      "explicacion": "La escala de las SANCIONES no coincide con la de las infracciones; compáralas."
+    },
+    {
+      "id": "DEP-069",
+      "articulo": "art. 47",
+      "titulo": "Competencia sancionadora de las Comunidades Autónomas",
+      "resumen": "Las comunidades autónomas desarrollan el cuadro de infracciones y sanciones previstas en la Ley.",
+      "explicacion": "El Estado fija el marco; la comunidad autónoma lo desarrolla."
+    }
+  ],
+  "actividades": [
+    {
+      "concepto_id": "DEP-039",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "Según el artículo 4.1 de la Ley 39/2006, las personas en situación de dependencia tendrán derecho a acceder a las prestaciones y servicios previstos en la Ley:",
+      "opciones": [
+        "con independencia del lugar del territorio del Estado español donde residan, a acceder, en condiciones de igualdad",
+        "siempre que acrediten un mínimo de dos años de residencia en la comunidad autónoma que reconozca la prestación",
+        "en función de la disponibilidad presupuestaria de la comunidad autónoma en la que tengan su residencia habitual",
+        "con preferencia de quienes residan en municipios de menos de cinco mil habitantes o en zonas rurales despobladas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "tendrán derecho, con independencia del lugar del territorio del Estado español donde residan, a acceder, en condiciones de igualdad, a las prestaciones y servicios previstos en esta Ley",
+      "justificacion": "Ley 39/2006, art. 4."
+    },
+    {
+      "concepto_id": "DEP-040",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "¿Cuál de los siguientes es un derecho que el artículo 4.2 de la Ley 39/2006 reconoce con carácter especial a las personas en situación de dependencia?",
+      "opciones": [
+        "A decidir libremente sobre el ingreso en centro residencial",
+        "A elegir al profesional que le preste el servicio de ayuda a domicilio entre los acreditados",
+        "A recibir la prestación económica sin necesidad de acreditar su capacidad económica personal",
+        "A que el ingreso en centro residencial sea acordado por sus familiares más próximos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "g) A decidir libremente sobre el ingreso en centro residencial.",
+      "justificacion": "Ley 39/2006, art. 4."
+    },
+    {
+      "concepto_id": "DEP-041",
+      "articulo": "art. 4",
+      "tipo": "test",
+      "enunciado": "Cuando los procedimientos aplicados a una persona en situación de dependencia puedan usarse en un proyecto docente o de investigación, la autorización de la persona o de quien la represente debe ser:",
+      "opciones": [
+        "previa autorización, expresa y por escrito",
+        "autorización verbal ante dos testigos",
+        "autorización tácita transcurridos quince días",
+        "autorización posterior, expresa y por escrito"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "siendo necesaria la previa autorización, expresa y por escrito, de la persona en situación de dependencia o quien la represente",
+      "justificacion": "Ley 39/2006, art. 4."
+    },
+    {
+      "concepto_id": "DEP-042",
+      "articulo": "art. 12",
+      "tipo": "test",
+      "enunciado": "Según el artículo 12 de la Ley 39/2006, las Entidades Locales participarán en la gestión de los servicios de atención a las personas en situación de dependencia:",
+      "opciones": [
+        "de acuerdo con la normativa de sus respectivas Comunidades Autónomas y dentro de las competencias que la legislación vigente les atribuye",
+        "de acuerdo con los convenios de colaboración que suscriban directamente con la Administración General del Estado y con las Entidades Locales",
+        "de acuerdo con las instrucciones del Consejo Territorial del Sistema y dentro de las competencias que la legislación autonómica les atribuye",
+        "de acuerdo con la normativa estatal de carácter básico y con independencia de las competencias que la legislación vigente les atribuye"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "de acuerdo con la normativa de sus respectivas Comunidades Autónomas y dentro de las competencias que la legislación vigente les atribuye",
+      "justificacion": "Ley 39/2006, art. 12."
+    },
+    {
+      "concepto_id": "DEP-043",
+      "articulo": "art. 13",
+      "tipo": "test",
+      "enunciado": "¿Cuál es uno de los objetivos a los que deben orientarse las prestaciones de dependencia según el artículo 13 de la Ley 39/2006?",
+      "opciones": [
+        "Facilitar una existencia autónoma en su medio habitual, todo el tiempo que desee y sea posible",
+        "Garantizar el ingreso en un centro residencial público en el plazo máximo de seis meses",
+        "Sustituir la atención prestada por la familia por la de cuidadores profesionales acreditados",
+        "Asegurar una renta mínima de inserción a todas las personas en situación de dependencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Facilitar una existencia autónoma en su medio habitual, todo el tiempo que desee y sea posible.",
+      "justificacion": "Ley 39/2006, art. 13."
+    },
+    {
+      "concepto_id": "DEP-044",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "Según el artículo 16.1 de la Ley 39/2006, la red de centros del Sistema estará formada por:",
+      "opciones": [
+        "los centros públicos de las Comunidades Autónomas, de las Entidades Locales, los centros de referencia estatal",
+        "exclusivamente los centros públicos de las Comunidades Autónomas, de las Entidades Locales y del Estado",
+        "los centros públicos estatales, los de las Entidades Locales y cualquier centro privado inscrito",
+        "los centros de referencia estatal, los de las Entidades Locales y los centros privados, concertados o no"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La red de centros estará formada por los centros públicos de las Comunidades Autónomas, de las Entidades Locales, los centros de referencia estatal para la promoción de la autonomía personal y para la atención y cuidado de situaciones de dependencia, así como los privados concertados debidamente acreditados.",
+      "justificacion": "Ley 39/2006, art. 16."
+    },
+    {
+      "concepto_id": "DEP-045",
+      "articulo": "art. 16",
+      "tipo": "test",
+      "enunciado": "Los centros y servicios privados NO concertados que presten servicios para personas en situación de dependencia:",
+      "opciones": [
+        "deberán contar con la debida acreditación de la Comunidad Autónoma correspondiente",
+        "quedan fuera del ámbito de aplicación de la Ley y no precisan autorización alguna",
+        "deberán contar con la autorización previa del Consejo Territorial del Sistema",
+        "deberán inscribirse en el registro estatal de centros y servicios de atención a la dependencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los centros y servicios privados no concertados que presten servicios para personas en situación de dependencia deberán contar con la debida acreditación de la Comunidad Autónoma correspondiente.",
+      "justificacion": "Ley 39/2006, art. 16."
+    },
+    {
+      "concepto_id": "DEP-046",
+      "articulo": "art. 20",
+      "tipo": "test",
+      "enunciado": "Según el artículo 20 de la Ley 39/2006, la cuantía de las prestaciones económicas se acordará por:",
+      "opciones": [
+        "el Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia, para su aprobación posterior por el Gobierno mediante Real Decreto",
+        "el Ministerio competente en materia de servicios sociales, previo informe del Consejo Territorial y de las Comunidades Autónomas afectadas",
+        "cada Comunidad Autónoma, dentro de los límites que fije anualmente la Ley de Presupuestos Generales del Estado para el Sistema",
+        "el Comité Consultivo del Sistema para la Autonomía y Atención a la Dependencia, para su aprobación posterior por el Consejo Territorial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se acordará por el Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia, para su aprobación posterior por el Gobierno mediante Real Decreto",
+      "justificacion": "Ley 39/2006, art. 20."
+    },
+    {
+      "concepto_id": "DEP-047",
+      "articulo": "art. 21",
+      "tipo": "test",
+      "enunciado": "Según el artículo 21 de la Ley 39/2006, la prevención de las situaciones de dependencia tiene por finalidad:",
+      "opciones": [
+        "prevenir la aparición o el agravamiento de enfermedades o discapacidades y de sus secuelas",
+        "reducir el gasto público destinado a la atención residencial de las personas mayores",
+        "sustituir la atención sanitaria especializada por programas de rehabilitación domiciliaria",
+        "detectar precozmente el fraude en el reconocimiento del grado de dependencia"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Tiene por finalidad prevenir la aparición o el agravamiento de enfermedades o discapacidades y de sus secuelas, mediante el desarrollo coordinado, entre los servicios sociales y de salud",
+      "justificacion": "Ley 39/2006, art. 21."
+    },
+    {
+      "concepto_id": "DEP-048",
+      "articulo": "art. 24",
+      "tipo": "test",
+      "enunciado": "¿Qué tipología de centros contempla el artículo 24.2 de la Ley 39/2006 para el servicio de Centro de Día y de Noche?",
+      "opciones": [
+        "Centros de Día para menores de 65 años, Centros de Día para mayores, Centros de Día de atención especializada",
+        "Centros de Día para menores de 55 años, Centros de Día para mayores y Centros de Noche de atención especializada",
+        "Centros de Día generales, Centros de Día de alta dependencia y Centros de Noche de estancia temporal",
+        "Centros de Día para menores de 65 años, Centros de Noche para mayores y Centros de atención especializada"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La tipología de centros incluirá Centros de Día para menores de 65 años, Centros de Día para mayores, Centros de Día de atención especializada por la especificidad de los cuidados que ofrecen y Centros de Noche",
+      "justificacion": "Ley 39/2006, art. 24."
+    },
+    {
+      "concepto_id": "DEP-049",
+      "articulo": "art. 25 bis",
+      "tipo": "test",
+      "enunciado": "Según el artículo 25 bis de la Ley 39/2006, las prestaciones económicas son incompatibles entre sí y con los servicios del catálogo, salvo con:",
+      "opciones": [
+        "los servicios de prevención de las situaciones de dependencia, de promoción de la autonomía personal y de teleasistencia",
+        "los servicios de ayuda a domicilio, de centro de día y de noche y de atención residencial de carácter permanente",
+        "los servicios de teleasistencia, de ayuda a domicilio y de atención residencial de carácter temporal o de respiro",
+        "los servicios de promoción de la autonomía personal, de ayuda a domicilio y de centro de día y de noche"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "salvo con los servicios de prevención de las situaciones de dependencia, de promoción de la autonomía personal y de teleasistencia",
+      "justificacion": "Ley 39/2006, art. 25 bis."
+    },
+    {
+      "concepto_id": "DEP-050",
+      "articulo": "art. 30",
+      "tipo": "test",
+      "enunciado": "¿Por cuáles de las siguientes causas es revisable el grado de dependencia según el artículo 30.1 de la Ley 39/2006?",
+      "opciones": [
+        "Mejoría o empeoramiento de la situación de dependencia. b) Error de diagnóstico o en la aplicación del correspondiente baremo",
+        "Cambio de residencia a otra Comunidad Autónoma. b) Variación de la capacidad económica personal del beneficiario o de su unidad familiar.",
+        "Transcurso de tres años desde el reconocimiento inicial. b) Solicitud motivada de la Administración pública competente en la materia.",
+        "Fallecimiento del cuidador no profesional del beneficiario. b) Modificación del catálogo de servicios y prestaciones del Sistema."
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Mejoría o empeoramiento de la situación de dependencia. b) Error de diagnóstico o en la aplicación del correspondiente baremo.",
+      "justificacion": "Ley 39/2006, art. 30."
+    },
+    {
+      "concepto_id": "DEP-051",
+      "articulo": "art. 31",
+      "tipo": "test",
+      "enunciado": "Según el artículo 31 de la Ley 39/2006, la percepción de una prestación económica de la Ley respecto de otra de análoga naturaleza y finalidad de los regímenes públicos de protección social:",
+      "opciones": [
+        "deducirá de su cuantía cualquier otra prestación de análoga naturaleza y finalidad",
+        "será plenamente compatible con ella siempre que no supere el doble del salario mínimo interprofesional",
+        "impedirá el reconocimiento de la prestación de dependencia mientras se perciba la otra",
+        "obligará a optar entre una y otra en el plazo de treinta días desde la resolución"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "deducirá de su cuantía cualquier otra prestación de análoga naturaleza y finalidad establecida en los regímenes públicos de protección social",
+      "justificacion": "Ley 39/2006, art. 31."
+    },
+    {
+      "concepto_id": "DEP-052",
+      "articulo": "art. 33",
+      "tipo": "test",
+      "enunciado": "¿Con arreglo a qué criterios participan los beneficiarios en la financiación de las prestaciones de dependencia?",
+      "opciones": [
+        "según el tipo y coste del servicio y su capacidad económica personal",
+        "según el grado de dependencia reconocido y el número de miembros de su unidad familiar",
+        "según la renta media de la Comunidad Autónoma en la que residan y el coste del servicio",
+        "según su capacidad económica personal y la disponibilidad presupuestaria del ejercicio"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los beneficiarios de las prestaciones de dependencia participarán en la financiación de las mismas, según el tipo y coste del servicio y su capacidad económica personal.",
+      "justificacion": "Ley 39/2006, art. 33."
+    },
+    {
+      "concepto_id": "DEP-053",
+      "articulo": "art. 33",
+      "tipo": "test",
+      "enunciado": "Respecto de la participación en el coste de las prestaciones, el artículo 33.4 de la Ley 39/2006 establece que:",
+      "opciones": [
+        "Ningún ciudadano quedará fuera de la cobertura del Sistema por no disponer de recursos económicos",
+        "Los ciudadanos sin recursos económicos accederán únicamente a los servicios de teleasistencia y prevención",
+        "Los ciudadanos sin recursos económicos deberán acreditar su situación cada seis meses ante los servicios sociales",
+        "Los ciudadanos sin recursos económicos quedarán exentos del copago durante un máximo de dos años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Ningún ciudadano quedará fuera de la cobertura del Sistema por no disponer de recursos económicos.",
+      "justificacion": "Ley 39/2006, art. 33."
+    },
+    {
+      "concepto_id": "DEP-054",
+      "articulo": "art. 39",
+      "tipo": "test",
+      "enunciado": "Según el artículo 39 de la Ley 39/2006, las Administraciones Públicas velarán por la correcta aplicación de los fondos públicos destinados al Sistema:",
+      "opciones": [
+        "evitando la obtención o disfrute fraudulento de sus prestaciones",
+        "encomendando la inspección a la Intervención General de la Administración del Estado",
+        "publicando anualmente la relación de beneficiarios y las cuantías percibidas por cada uno",
+        "exigiendo aval bancario a los proveedores de servicios acreditados por las Comunidades Autónomas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "evitando la obtención o disfrute fraudulento de sus prestaciones y de otros beneficios o ayudas económicas que puedan recibir los sujetos que participen en el Sistema o sean beneficiarios del mismo",
+      "justificacion": "Ley 39/2006, art. 39."
+    },
+    {
+      "concepto_id": "DEP-055",
+      "articulo": "art. 40",
+      "tipo": "test",
+      "enunciado": "El Comité Consultivo del Sistema para la Autonomía y Atención a la Dependencia se crea como:",
+      "opciones": [
+        "órgano asesor",
+        "órgano de dirección",
+        "órgano de inspección",
+        "órgano de resolución de recursos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se crea el Comité Consultivo del Sistema para la Autonomía y Atención a la Dependencia como órgano asesor",
+      "justificacion": "Ley 39/2006, art. 40."
+    },
+    {
+      "concepto_id": "DEP-056",
+      "articulo": "art. 40",
+      "tipo": "test",
+      "enunciado": "¿Qué carácter tiene la composición del Comité Consultivo del Sistema según el artículo 40.3 de la Ley 39/2006?",
+      "opciones": [
+        "carácter tripartito, en tanto que integrado por las Administraciones públicas, las organizaciones empresariales y las organizaciones sindicales, y paritario",
+        "carácter bipartito, en tanto que integrado por las Administraciones públicas y las organizaciones sindicales, y proporcional al número de afiliados",
+        "carácter tripartito, en tanto que integrado por el Estado, las Comunidades Autónomas y las Entidades Locales, y paritario entre las tres partes",
+        "carácter mixto, en tanto que integrado por las Administraciones públicas y las entidades del tercer sector, y proporcional a su implantación territorial"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La composición del Comité tendrá carácter tripartito, en tanto que integrado por las Administraciones públicas, las organizaciones empresariales y las organizaciones sindicales, y paritario entre Administraciones Públicas por una parte y organizaciones sindicales y empresariales por otra",
+      "justificacion": "Ley 39/2006, art. 40."
+    },
+    {
+      "concepto_id": "DEP-057",
+      "articulo": "art. 40",
+      "tipo": "test",
+      "enunciado": "¿Cuántos representantes de las organizaciones sindicales más representativas integran el Comité Consultivo del Sistema?",
+      "opciones": [
+        "Nueve representantes de las organizaciones sindicales más representativas",
+        "Seis representantes de las organizaciones sindicales más representativas",
+        "Doce representantes de las organizaciones sindicales más representativas",
+        "Tres representantes de las organizaciones sindicales más representativas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "d) Nueve representantes de las organizaciones empresariales más representativas. e) Nueve representantes de las organizaciones sindicales más representativas.",
+      "justificacion": "Ley 39/2006, art. 40."
+    },
+    {
+      "concepto_id": "DEP-058",
+      "articulo": "art. 41",
+      "tipo": "test",
+      "enunciado": "¿Cuál de los siguientes es un órgano consultivo de participación institucional del Sistema según el artículo 41 de la Ley 39/2006?",
+      "opciones": [
+        "El Consejo Estatal de Organizaciones no Gubernamentales de Acción Social",
+        "El Consejo Estatal de Coordinación Interterritorial de Servicios Sociales",
+        "El Consejo General de Colegios Oficiales de Diplomados en Trabajo Social",
+        "El Consejo Estatal de Responsabilidad Social de las Empresas Públicas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El Consejo Estatal de Organizaciones no Gubernamentales de Acción Social.",
+      "justificacion": "Ley 39/2006, art. 41."
+    },
+    {
+      "concepto_id": "DEP-059",
+      "articulo": "art. 42",
+      "tipo": "test",
+      "enunciado": "Según el artículo 42 de la Ley 39/2006, ¿quiénes tienen la consideración de autores de las infracciones?",
+      "opciones": [
+        "quienes realicen los hechos por sí mismos, conjuntamente o a través de persona interpuesta",
+        "únicamente quienes realicen los hechos por sí mismos y de forma directa",
+        "quienes realicen los hechos por sí mismos, salvo que actúen a través de persona interpuesta",
+        "quienes realicen los hechos y los titulares de los centros donde se cometan, en todo caso"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se consideran autores de las infracciones tipificadas por esta Ley quienes realicen los hechos por sí mismos, conjuntamente o a través de persona interpuesta.",
+      "justificacion": "Ley 39/2006, art. 42."
+    },
+    {
+      "concepto_id": "DEP-060",
+      "articulo": "art. 43",
+      "tipo": "test",
+      "enunciado": "¿Cuál de las siguientes conductas constituye infracción conforme al artículo 43 de la Ley 39/2006?",
+      "opciones": [
+        "Aplicar las prestaciones económicas a finalidades distintas a aquellas para las que se otorgan",
+        "Rechazar el servicio asignado en el programa individual de atención por motivos personales",
+        "Solicitar la revisión del grado de dependencia antes de que transcurra un año desde su reconocimiento",
+        "Trasladar la residencia a otra Comunidad Autónoma sin comunicarlo en el plazo de un mes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "d) Aplicar las prestaciones económicas a finalidades distintas a aquellas para las que se otorgan",
+      "justificacion": "Ley 39/2006, art. 43."
+    },
+    {
+      "concepto_id": "DEP-061",
+      "articulo": "art. 44",
+      "tipo": "test",
+      "enunciado": "Según el artículo 44.1 de la Ley 39/2006, las infracciones se clasificarán en:",
+      "opciones": [
+        "leves, graves y muy graves",
+        "leves y graves, únicamente",
+        "leves, graves, muy graves y de especial gravedad",
+        "menos graves, graves y muy graves"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las infracciones se clasificarán en leves, graves y muy graves, de acuerdo con criterios de riesgo para la salud, gravedad de la alteración social producida por los hechos, cuantía del beneficio obtenido, intencionalidad, número de afectados y reincidencia.",
+      "justificacion": "Ley 39/2006, art. 44."
+    },
+    {
+      "concepto_id": "DEP-062",
+      "articulo": "art. 44",
+      "tipo": "test",
+      "enunciado": "¿Cuándo se califica como leve una infracción tipificada en el artículo 43 de la Ley 39/2006?",
+      "opciones": [
+        "cuando se hayan cometido por imprudencia o simple negligencia, y no comporten un perjuicio directo para las personas en situación de dependencia",
+        "cuando se hayan cometido por primera vez y el beneficio obtenido no supere los trescientos euros, cualquiera que sea el perjuicio causado",
+        "cuando se hayan cometido con dolo o negligencia grave, y no comporten un perjuicio directo para las personas en situación de dependencia",
+        "cuando se hayan cometido por imprudencia o simple negligencia, y el infractor repare el perjuicio causado en el plazo de un mes"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se calificarán como leves las infracciones tipificadas de acuerdo con el artículo 43 cuando se hayan cometido por imprudencia o simple negligencia, y no comporten un perjuicio directo para las personas en situación de dependencia.",
+      "justificacion": "Ley 39/2006, art. 44."
+    },
+    {
+      "concepto_id": "DEP-063",
+      "articulo": "art. 44",
+      "tipo": "test",
+      "enunciado": "Según el artículo 44.5 de la Ley 39/2006, se produce reincidencia cuando el sujeto ya hubiera sido sancionado por esa misma falta o por otra de gravedad igual o mayor durante:",
+      "opciones": [
+        "los dos últimos años",
+        "el último año",
+        "los tres últimos años",
+        "los cinco últimos años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "o por dos o más infracciones de gravedad inferior, durante los dos últimos años",
+      "justificacion": "Ley 39/2006, art. 44."
+    },
+    {
+      "concepto_id": "DEP-064",
+      "articulo": "art. 45",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la multa prevista por infracción leve en el artículo 45.3 de la Ley 39/2006?",
+      "opciones": [
+        "multa de hasta 300 euros a los cuidadores y hasta treinta mil euros a los proveedores de servicios",
+        "multa de hasta 600 euros a los cuidadores y hasta sesenta mil euros a los proveedores de servicios",
+        "multa de hasta 300 euros a los cuidadores y hasta noventa mil euros a los proveedores de servicios",
+        "multa de hasta 150 euros a los cuidadores y hasta quince mil euros a los proveedores de servicios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Por infracción leve, multa de hasta 300 euros a los cuidadores y hasta treinta mil euros a los proveedores de servicios.",
+      "justificacion": "Ley 39/2006, art. 45."
+    },
+    {
+      "concepto_id": "DEP-065",
+      "articulo": "art. 45",
+      "tipo": "test",
+      "enunciado": "¿Cuál es la multa prevista por infracción muy grave en el artículo 45.3 de la Ley 39/2006?",
+      "opciones": [
+        "multa de tres mil uno a seis mil euros a los cuidadores; y de noventa mil uno hasta un máximo de un millón euros a los proveedores de servicios",
+        "multa de tres mil uno a seis mil euros a los cuidadores; y de noventa mil uno hasta un máximo de quinientos mil euros a los proveedores de servicios",
+        "multa de seis mil uno a doce mil euros a los cuidadores; y de noventa mil uno hasta un máximo de un millón euros a los proveedores de servicios",
+        "multa de tres mil uno a seis mil euros a los cuidadores; y de treinta mil uno a noventa mil euros a los proveedores de servicios"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "c) Por infracción muy grave, multa de tres mil uno a seis mil euros a los cuidadores; y de noventa mil uno hasta un máximo de un millón euros a los proveedores de servicios.",
+      "justificacion": "Ley 39/2006, art. 45."
+    },
+    {
+      "concepto_id": "DEP-066",
+      "articulo": "art. 45",
+      "tipo": "test",
+      "enunciado": "En los casos de especial gravedad, reincidencia o trascendencia notoria y grave, ¿con qué se sancionan las infracciones muy graves?",
+      "opciones": [
+        "la suspensión temporal de la actividad por un máximo de cinco años",
+        "la suspensión temporal de la actividad por un máximo de dos años",
+        "la suspensión definitiva de la actividad, sin posibilidad de reapertura",
+        "la suspensión temporal de la actividad por un máximo de diez años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "las infracciones muy graves se sancionarán con la suspensión temporal de la actividad por un máximo de cinco años o, en su caso, con el cierre de la empresa o la clausura del servicio o establecimiento",
+      "justificacion": "Ley 39/2006, art. 45."
+    },
+    {
+      "concepto_id": "DEP-067",
+      "articulo": "art. 46",
+      "tipo": "test",
+      "enunciado": "¿En qué plazos prescriben las infracciones de la Ley 39/2006?",
+      "opciones": [
+        "Al año, las leves. b) A los tres años, las graves. c) A los cuatro años, las muy graves",
+        "Al año, las leves. b) A los dos años, las graves. c) A los tres años, las muy graves",
+        "A los dos años, las leves. b) A los cuatro años, las graves. c) A los cinco años, las muy graves",
+        "Al año, las leves. b) A los tres años, las graves. c) A los cinco años, las muy graves"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) Al año, las leves. b) A los tres años, las graves. c) A los cuatro años, las muy graves.",
+      "justificacion": "Ley 39/2006, art. 46."
+    },
+    {
+      "concepto_id": "DEP-068",
+      "articulo": "art. 46",
+      "tipo": "test",
+      "enunciado": "¿En qué plazo prescriben las sanciones impuestas por faltas muy graves conforme al artículo 46.3 de la Ley 39/2006?",
+      "opciones": [
+        "a los cinco años",
+        "a los cuatro años",
+        "a los tres años",
+        "a los diez años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las sanciones impuestas por faltas muy graves prescribirán a los cinco años, por faltas graves a los cuatro años y por faltas leves al año.",
+      "justificacion": "Ley 39/2006, art. 46."
+    },
+    {
+      "concepto_id": "DEP-069",
+      "articulo": "art. 47",
+      "tipo": "test",
+      "enunciado": "Según el artículo 47.1 de la Ley 39/2006, ¿quién desarrollará el cuadro de infracciones y sanciones previstas en la Ley?",
+      "opciones": [
+        "Las Comunidades Autónomas",
+        "Las Entidades Locales",
+        "El Consejo Territorial del Sistema",
+        "El Ministerio competente en materia de servicios sociales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las Comunidades Autónomas desarrollarán el cuadro de infracciones y sanciones previstas en la presente Ley",
+      "justificacion": "Ley 39/2006, art. 47."
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "DEP-039",
+      "destino": "DEP-004",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-040",
+      "destino": "DEP-039",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-041",
+      "destino": "DEP-039",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-042",
+      "destino": "DEP-039",
+      "tipo": "remite"
+    },
+    {
+      "origen": "DEP-043",
+      "destino": "DEP-039",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-044",
+      "destino": "DEP-043",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-045",
+      "destino": "DEP-044",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-046",
+      "destino": "DEP-043",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-047",
+      "destino": "DEP-043",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-048",
+      "destino": "DEP-044",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-049",
+      "destino": "DEP-046",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-050",
+      "destino": "DEP-039",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-051",
+      "destino": "DEP-046",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-052",
+      "destino": "DEP-046",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-053",
+      "destino": "DEP-052",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-054",
+      "destino": "DEP-060",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "DEP-055",
+      "destino": "DEP-058",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-056",
+      "destino": "DEP-055",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-057",
+      "destino": "DEP-056",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-058",
+      "destino": "DEP-042",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-059",
+      "destino": "DEP-060",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "DEP-060",
+      "destino": "DEP-061",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "DEP-061",
+      "destino": "DEP-062",
+      "tipo": "prerrequisito"
+    },
+    {
+      "origen": "DEP-062",
+      "destino": "DEP-061",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-063",
+      "destino": "DEP-061",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-064",
+      "destino": "DEP-062",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-065",
+      "destino": "DEP-061",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-066",
+      "destino": "DEP-065",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-067",
+      "destino": "DEP-061",
+      "tipo": "desarrolla"
+    },
+    {
+      "origen": "DEP-068",
+      "destino": "DEP-067",
+      "tipo": "limita"
+    },
+    {
+      "origen": "DEP-069",
+      "destino": "DEP-061",
+      "tipo": "desarrolla"
+    }
+  ]
+}
