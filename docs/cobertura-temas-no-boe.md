@@ -3,6 +3,29 @@
 Análogo al `datos/legal-es/boe-600-pn/00-indice.md` del corpus BOE. Estado al **2026-08-04**.
 Leyenda: ✅ generado y en cola de carga · 🟡 generado, falta 2ª pasada (huecos) · ⛔ bloqueado (necesita módulo) · ⏳ pendiente de generar.
 
+> ## ⚠ DOCUMENTO HISTÓRICO — no lo uses como estado (nota del 20/08/2026)
+>
+> Esta tabla es del **04/08/2026** y describe una foto que ya no existe. En concreto, marca
+> los temas **28-33 como ⛔ bloqueados** y están **todos cargados** desde entonces:
+>
+> | Tema | Conceptos | Preguntas servibles | En cola `pendiente_revision` |
+> |---|---|---|---|
+> | 28 | 23 | 18 | 7 |
+> | 29 | 14 | 9 | **17** |
+> | 30 | 25 | 20 | 8 |
+> | 31 | 21 | 20 | 6 |
+> | 32 | 23 | 22 | 3 |
+> | 33 | 21 | 11 | **12** |
+>
+> Lo que sí sigue vivo es **otra cosa**: los conceptos `consenso` se cargaron como
+> `pendiente_revision` y **el runtime no los sirve** hasta que un humano los apruebe en
+> `/admin` (`docs/contrato-fuentes-no-boe.md` §2). Son **53 actividades sobre 40 conceptos**,
+> y las 53 están en estos seis temas. No es un bloqueo del pipeline: es la revisión humana
+> que el contrato exige, esperando a Jonathan.
+>
+> Se conserva por lo que explica —el mapa de fuentes por tema y las segundas pasadas
+> anotadas—, no por lo que dice del estado. **Para el estado: consulta la base.**
+
 | Tema | Materia | Familia(s) | tipo_fuente | Lote(s) | En PROMPT | Estado |
 |------|---------|-----------|-------------|---------|-----------|--------|
 | 27 | Derechos Humanos | DUDH, TORT, CEDH | oficial | ddhh-declaracion-universal, ddhh-tortura, ddhh-cedh | 007, 008 | 🟡 (falta Protocolo 15/14 del CEDH) |

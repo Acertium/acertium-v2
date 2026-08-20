@@ -60,6 +60,13 @@ Auditoría permanente del banco: `auditoria-calidad.sql` mide estos sesgos (posi
 2. **La opción correcta debe aparecer literal en el `cotejo`** (admite número↔letra: "72"="setenta y dos"). → por eso las opciones correctas se redactan con las palabras del artículo.
 3. **Nada fuera del texto.** Ni cifras, ni fechas, ni nombres que no estén en la fuente. (La `explicacion` puede añadir contexto pedagógico, pero si mete una cifra ajena, la puerta la marca con un aviso para revisión.)
 4. **4 opciones, exactamente una correcta**, todas plausibles y no vacías.
+   **Son 4 a propósito, aunque el examen oficial tenga 3.** Nació como error —el examen
+   siempre fue de tres alternativas— y se decidió mantenerlo (Jonathan, 20/08/2026) porque
+   el runtime sirve *la correcta + 2 distractores elegidos al azar de los 3*: cada pregunta
+   se presenta con **3 juegos de distractores distintos**, así que el opositor no se aprende
+   la forma de la pregunta. Guardar 4 y servir 3 es la regla; no la "arregles" en ninguna
+   de las dos puntas. Quien sirve: `lib/cerebro.ts:31-43` (practicar) y
+   `lib/simulacro-data.ts:65` (simulacro). El motor ya usa `p_G = 1/3` en consecuencia.
 5. **Granularidad**: una idea = un concepto (Doc 005 §3). Partir artículos con ideas testables distintas.
 6. **IDs**: `{NORMA}-{SECCIÓN}-{NNN}` (Doc 005 §6). Constitución: `CE-TP`, `CE-T1`…`CE-T10`, `CE-DA/DT/DD/DF`.
 

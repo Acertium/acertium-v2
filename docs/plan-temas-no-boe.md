@@ -56,5 +56,9 @@ Temas: **28** globalización/antiglobalización · **29** actitudes y valores (e
 2. Después T35, T34, T38/T39.
 3. Al final el **Grupo C (28-33)**, ya con la política de verificación y (idealmente) un revisor definidos.
 
-## 6. Decisión pendiente de Jonathan
+## 6. ~~Decisión pendiente de Jonathan~~ — TOMADA el 03/08/2026
+
+> **Resuelta:** se aceptó el modelo «fuente reconocida + revisión humana reforzada». Está
+> escrito en `docs/contrato-fuentes-no-boe.md`, que es el contrato vigente. El Grupo C se
+> generó y cargó con ese modelo. Lo de abajo es la pregunta original, ya contestada.
 Para el Grupo C: ¿aceptamos el modelo "fuente reconocida + revisión humana reforzada" (sin cita normativa literal), o nos ceñimos primero a lo citable (A/B) y dejamos C para cuando haya revisor? De esto depende cómo se diseña el contrato del adaptador `ciencias-sociales-es`.

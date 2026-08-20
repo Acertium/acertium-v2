@@ -55,17 +55,35 @@ Verificadas contra el código y contra la base el 20/08/2026, no de memoria.
 hace lo propio en el simulacro—, así que acertar al azar es 1/3 y el motor ya lo refleja.
 
 Cuidado al leer los contratos de generación: cuando dicen «las 4 opciones» hablan del **banco**, que
-guarda 4. El usuario siempre ve 3. Las dos cosas son correctas y conviene no «arreglar» ninguna.
+guarda 4. El usuario siempre ve 3.
+
+**Las 4 son deliberadas** (decisión de Jonathan, 20/08/2026). Nacieron como error —el examen siempre
+tuvo tres alternativas— y se mantienen porque el runtime sirve *la correcta + 2 de los 3 distractores*,
+elegidos al azar: cada pregunta tiene **3 juegos de distractores** y el opositor no se aprende su forma.
+Es la única mitigación que hay hoy contra la memoria de ítem. **No lo "arregles" en ninguna de las dos
+puntas**; queda anotado en `contrato-generacion.md`, regla 4.
 
 ## 2. Trackers no-BOE caducados
 
-- **`docs/cobertura-temas-no-boe.md`** (04/08) marca los temas **28-33 como ⛔ bloqueados**. Están
-  cargados: T28=23 · T29=14 · T30=25 · T31=21 · T32=23 · T33=21 conceptos. Lo confirma
-  `PARA-CODE-APP.md §1` («el Grupo C cargado con estado por concepto»).
-- **`docs/plan-temas-no-boe.md` §6** deja una «decisión pendiente de Jonathan» sobre el Grupo C que
-  **ya se tomó** el 03/08: es `docs/contrato-fuentes-no-boe.md`.
+- **`docs/cobertura-temas-no-boe.md`** (04/08) marcaba los temas **28-33 como ⛔ bloqueados**; están
+  cargados desde entonces. **Corregido el 20/08** con un aviso de documento histórico y la tabla real.
+- **`docs/plan-temas-no-boe.md` §6** dejaba una «decisión pendiente de Jonathan» sobre el Grupo C que
+  se tomó el 03/08 (`docs/contrato-fuentes-no-boe.md`). **Corregido el 20/08.**
 
-Los dos son útiles como historia, pero **no se pueden usar como estado**.
+Al comprobarlo apareció lo que de verdad estaba pasando en esos seis temas, que no es un bloqueo del
+pipeline: **53 actividades sobre 40 conceptos están en `pendiente_revision` y el runtime no las sirve.**
+Es la revisión humana que exige el contrato de fuentes no-BOE para el `tipo_fuente: consenso`, esperando
+a Jonathan en `/admin`. Las 53 están en T28-T33, y muy concentradas:
+
+| Tema | Conceptos | Servibles | En cola | Preguntas oficiales del tema |
+|---|---|---|---|---|
+| **29** Actitudes y valores | 14 | **9** | **17** | 11 |
+| **33** La seguridad · delincuencia | 21 | **11** | **12** | 5 |
+| 30 · 28 · 31 · 32 | 92 | 80 | 24 | 27 |
+
+**El T29 es el caso serio:** 11 preguntas oficiales en seis exámenes y solo 9 actividades que el
+opositor pueda ver, con 17 esperando aprobación. No es deuda de contenido — está escrito. Es una
+firma.
 
 ## 3. Dos normas ingeridas y nunca explotadas — con su causa mecánica
 
