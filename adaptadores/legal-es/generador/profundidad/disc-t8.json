@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "familia": "DISC",
+    "tema": 8,
+    "peso": 4,
+    "norma": "Ley Orgánica 4/2010, de 20 de mayo, del Régimen disciplinario del Cuerpo Nacional de Policía",
+    "referencia_boe": "BOE-A-2010-8115",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-014.json",
+    "fecha": "2026-08-21",
+    "motivo": "PROFUNDIDAD. El cerebro tenía 1,02 preguntas por concepto: casi todos con UNA sola. El motor BKT supone p_G = 1/3 (aciertas por azar 1 de cada 3 al elegir entre tres alternativas), y eso solo es cierto si el repaso no te devuelve el mismo ítem. Con una sola pregunta, cada repaso era el mismo item y la absorción salía inflada. Además el peso 4 de T8 no tenía dónde aplicarse: mismo número de preguntas que un tema de peso 1.",
+    "regla": "Cada segunda pregunta ataca un APARTADO DISTINTO del mismo artículo que la primera. No se reformula la misma idea con otras palabras: eso no da profundidad, da ruido."
+  },
+  "actividades": [
+    {
+      "concepto_id": "DISC-001",
+      "articulo": "art. 1",
+      "enunciado": "¿Con arreglo a qué principios regula el régimen disciplinario la Ley Orgánica 4/2010?",
+      "opciones": [
+        "de acuerdo con los principios recogidos en la Constitución, en la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, y en el resto del ordenamiento jurídico",
+        "de acuerdo con los principios recogidos en la Constitución, en la Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional, y en el resto del ordenamiento",
+        "de acuerdo con los principios recogidos en la Constitución, en el Estatuto Básico del Empleado Público y en la normativa reguladora del procedimiento administrativo común",
+        "de acuerdo con los principios recogidos en la Constitución, en la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, y en los tratados internacionales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "de acuerdo con los principios recogidos en la Constitución, en la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, y en el resto del ordenamiento jurídico",
+      "justificacion": "El art. 1 nombra tres anclajes: la Constitución, la LO 2/1986 de FCSE y el resto del ordenamiento. La LO 9/2015 regula el personal, no el régimen disciplinario."
+    },
+    {
+      "concepto_id": "DISC-002",
+      "articulo": "art. 2",
+      "enunciado": "¿A qué régimen quedan sometidos los funcionarios en situación de segunda actividad SIN ocupar destino?",
+      "opciones": [
+        "al régimen general disciplinario de la función pública",
+        "al régimen disciplinario específico previsto en esta Ley Orgánica",
+        "al régimen disciplinario del reglamento del centro docente policial",
+        "al régimen general disciplinario de las Fuerzas Armadas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Los funcionarios del Cuerpo Nacional de Policía en situación de segunda actividad sin ocupar destino estarán sometidos al régimen general disciplinario de la función pública.",
+      "justificacion": "Ocupar destino o no es lo que decide qué régimen se aplica: con destino, esta Ley Orgánica; sin destino, el general de la función pública."
+    },
+    {
+      "concepto_id": "DISC-003",
+      "articulo": "art. 4",
+      "enunciado": "¿A quién se comunica cuando el superior jerárquico es el presunto infractor?",
+      "opciones": [
+        "la comunicación se efectuará al superior inmediato de este último",
+        "la comunicación se efectuará directamente al Director General de la Policía",
+        "la comunicación se efectuará al instructor del expediente disciplinario",
+        "la comunicación se efectuará al Ministerio Fiscal por conducto reglamentario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "salvo cuando dicho superior sea el presunto infractor; en tal caso, la comunicación se efectuará al superior inmediato de este último",
+      "justificacion": "El deber no desaparece cuando el implicado es el superior: se sube un escalón en la cadena, al superior inmediato de aquel."
+    },
+    {
+      "concepto_id": "DISC-004",
+      "articulo": "art. 5",
+      "enunciado": "¿Qué se entiende por encubrimiento a efectos de esta Ley Orgánica?",
+      "opciones": [
+        "no dar cuenta al superior jerárquico competente, de forma inmediata, de los hechos constitutivos de falta muy grave o grave de los que se tenga conocimiento",
+        "ocultar o destruir las pruebas de los hechos constitutivos de falta muy grave o grave de los que se tenga conocimiento, aun sin haber participado en ellos",
+        "no dar cuenta al superior jerárquico competente, en el plazo de veinticuatro horas, de los hechos constitutivos de cualquier falta de la que se tenga conocimiento",
+        "auxiliar al autor de una falta muy grave o grave para que eluda la acción disciplinaria, siempre que se actúe con pleno conocimiento de los hechos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se entenderá por encubrimiento no dar cuenta al superior jerárquico competente, de forma inmediata, de los hechos constitutivos de falta muy grave o grave de los que se tenga conocimiento.",
+      "justificacion": "El encubrimiento aquí es por OMISIÓN: basta con callar. No hace falta ocultar pruebas ni ayudar al autor."
+    },
+    {
+      "concepto_id": "DISC-006",
+      "articulo": "art. 7",
+      "enunciado": "¿Qué incumplimiento relacionado con la Constitución tipifica el artículo 7 como falta muy grave?",
+      "opciones": [
+        "El incumplimiento del deber de fidelidad a la Constitución en el ejercicio de las funciones",
+        "El incumplimiento del deber de fidelidad a la Constitución, dentro y fuera del ejercicio de las funciones",
+        "El incumplimiento del deber de neutralidad política en el ejercicio de las funciones policiales",
+        "El incumplimiento del deber de respeto a los derechos fundamentales en el ejercicio de las funciones"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "a) El incumplimiento del deber de fidelidad a la Constitución en el ejercicio de las funciones.",
+      "justificacion": "Abre el catálogo de faltas muy graves, y va acotado al ejercicio de las funciones: no alcanza a la vida privada."
+    },
+    {
+      "concepto_id": "DISC-007",
+      "articulo": "art. 7",
+      "enunciado": "¿Qué conducta relacionada con la huelga tipifica el artículo 7 como falta muy grave?",
+      "opciones": [
+        "La participación en huelgas, en acciones sustitutivas de estas o en actuaciones concertadas con el fin de alterar el normal funcionamiento de los servicios",
+        "La participación en huelgas o en acciones sustitutivas de estas, siempre que se altere gravemente la seguridad ciudadana o el orden público",
+        "La convocatoria de huelgas, de acciones sustitutivas de estas o de actuaciones concertadas dirigidas a alterar el normal funcionamiento de los servicios",
+        "La participación en concentraciones no autorizadas que tengan por objeto alterar el normal funcionamiento de los servicios policiales"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "j) La participación en huelgas, en acciones sustitutivas de estas o en actuaciones concertadas con el fin de alterar el normal funcionamiento de los servicios.",
+      "justificacion": "Se castiga PARTICIPAR, no solo convocar, y basta el fin de alterar el normal funcionamiento: no se exige que llegue a alterarse la seguridad ciudadana."
+    },
+    {
+      "concepto_id": "DISC-008",
+      "articulo": "art. 7",
+      "enunciado": "¿En qué consiste el acoso laboral que el artículo 7 tipifica como falta muy grave?",
+      "opciones": [
+        "la realización reiterada, en el marco de una relación de servicio, de actos de acoso psicológico u hostilidad",
+        "la realización, aun aislada, en el marco de una relación de servicio, de actos de acoso psicológico u hostilidad",
+        "la realización reiterada, dentro o fuera del servicio, de actos de humillación, menosprecio o discriminación",
+        "la realización reiterada, en el marco de una relación jerárquica, de actos de abuso de autoridad u hostigamiento"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "ñ) El acoso sexual y el acoso laboral, consistente este último en la realización reiterada, en el marco de una relación de servicio, de actos de acoso psicológico u hostilidad.",
+      "justificacion": "Dos requisitos que hay que retener: reiteración y relación de servicio. Un acto aislado no encaja, y no exige relación jerárquica."
+    },
+    {
+      "concepto_id": "DISC-009",
+      "articulo": "art. 7",
+      "enunciado": "¿Qué conducta relativa al alcohol y las drogas tipifica el artículo 7 como falta muy grave?",
+      "opciones": [
+        "Embriagarse o consumir drogas tóxicas, estupefacientes o sustancias psicotrópicas durante el servicio o realizarlo en estado de embriaguez",
+        "Embriagarse o consumir drogas tóxicas, estupefacientes o sustancias psicotrópicas fuera del servicio, cuando tenga carácter habitual",
+        "La tenencia de drogas tóxicas, estupefacientes o sustancias psicotrópicas, salvo que se derive de actuaciones propias del servicio",
+        "Consumir bebidas alcohólicas durante el servicio o presentarse a este bajo los efectos manifiestos del alcohol o de las drogas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "l) Embriagarse o consumir drogas tóxicas, estupefacientes o sustancias psicotrópicas durante el servicio o realizarlo en estado de embriaguez o bajo los efectos manifiestos de los productos citados.",
+      "justificacion": "DURANTE el servicio es muy grave. Fuera del servicio solo es grave, y con el requisito añadido de habitualidad (art. 8.p)."
+    },
+    {
+      "concepto_id": "DISC-010",
+      "articulo": "art. 8",
+      "enunciado": "¿Cuándo la falta de asistencia al servicio constituye falta grave según el artículo 8?",
+      "opciones": [
+        "La tercera falta injustificada de asistencia al servicio en un período de tres meses cuando las dos anteriores hubieran sido objeto de sanción firme por falta leve",
+        "La segunda falta injustificada de asistencia al servicio en un período de tres meses cuando la anterior hubiera sido objeto de sanción firme por falta leve",
+        "La tercera falta injustificada de asistencia al servicio en un período de seis meses cuando las dos anteriores hubieran sido objeto de sanción firme por falta leve",
+        "La tercera falta injustificada de asistencia al servicio en un período de tres meses, con independencia de que las anteriores hubieran sido sancionadas"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "e) La tercera falta injustificada de asistencia al servicio en un período de tres meses cuando las dos anteriores hubieran sido objeto de sanción firme por falta leve.",
+      "justificacion": "Tres cifras que van juntas: la TERCERA falta, en TRES meses, y con las dos anteriores ya sancionadas en firme. Falla una y no es grave."
+    },
+    {
+      "concepto_id": "DISC-011",
+      "articulo": "art. 8",
+      "enunciado": "¿Cuándo se entiende que hay habitualidad en el consumo de alcohol o drogas fuera del servicio?",
+      "opciones": [
+        "cuando estuvieren acreditados tres o más episodios de embriaguez o consumo de las sustancias referidas en un periodo de un año",
+        "cuando estuvieren acreditados dos o más episodios de embriaguez o consumo de las sustancias referidas en un periodo de un año",
+        "cuando estuvieren acreditados tres o más episodios de embriaguez o consumo de las sustancias referidas en un periodo de seis meses",
+        "cuando estuvieren acreditados cinco o más episodios de embriaguez o consumo de las sustancias referidas en un periodo de dos años"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Se entenderá que existe habitualidad cuando estuvieren acreditados tres o más episodios de embriaguez o consumo de las sustancias referidas en un periodo de un año.",
+      "justificacion": "La ley define la habitualidad con número y plazo: tres episodios en un año. No lo deja al criterio del instructor."
+    },
+    {
+      "concepto_id": "DISC-012",
+      "articulo": "art. 8",
+      "enunciado": "¿En qué casos NO es falta grave asistir de uniforme a una manifestación o reunión pública?",
+      "opciones": [
+        "salvo que se trate de actos de servicio, o actos oficiales en los que la asistencia de uniforme esté indicada o haya sido autorizada",
+        "salvo que se trate de actos de servicio, o actos sindicales en los que la asistencia de uniforme haya sido expresamente autorizada",
+        "salvo que se trate de actos de servicio, o actos oficiales convocados por autoridades del Ministerio del Interior o de la Dirección General",
+        "salvo que se trate de actos de servicio, o actos a los que se asista fuera de la jornada laboral y sin portar el arma reglamentaria"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "n) Asistir de uniforme a cualquier manifestación o reunión pública, salvo que se trate de actos de servicio, o actos oficiales en los que la asistencia de uniforme esté indicada o haya sido autorizada.",
+      "justificacion": "La excepción son los actos de servicio y los oficiales con uniforme indicado o autorizado. Los actos sindicales no están entre ellos."
+    },
+    {
+      "concepto_id": "DISC-013",
+      "articulo": "art. 9",
+      "enunciado": "¿Qué conducta relativa a los distintivos de identificación tipifica el artículo 9 como falta leve?",
+      "opciones": [
+        "La exhibición de los distintivos de identificación sin causa justificada",
+        "La exhibición de los distintivos de identificación fuera de los actos de servicio",
+        "El uso de los distintivos de identificación de una categoría superior a la propia",
+        "La negativa a exhibir los distintivos de identificación cuando sean requeridos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "f) La exhibición de los distintivos de identificación sin causa justificada.",
+      "justificacion": "Lo leve es EXHIBIRLOS sin causa. Perderlos por negligencia también es leve (letra e); perderlos por negligencia inexcusable ya es grave (art. 8.m)."
+    },
+    {
+      "concepto_id": "DISC-014",
+      "articulo": "art. 9",
+      "enunciado": "¿Quiénes quedan exceptuados del conducto reglamentario para formular solicitudes, reclamaciones o quejas?",
+      "opciones": [
+        "los representantes de las organizaciones sindicales en el ejercicio de la actividad sindical",
+        "los representantes de las organizaciones sindicales, cualquiera que sea el asunto de que se trate",
+        "los funcionarios en prácticas y los que se hallen en situación de segunda actividad con destino",
+        "los delegados de prevención cuando actúen en materia de riesgos laborales del personal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Quedan exceptuadas del conducto reglamentario aquellas que se formulen por los representantes de las organizaciones sindicales en el ejercicio de la actividad sindical.",
+      "justificacion": "La excepción no es por ser representante sindical sin más: tiene que estar ejerciendo la actividad sindical."
+    },
+    {
+      "concepto_id": "DISC-016",
+      "articulo": "art. 11",
+      "enunciado": "¿Desde cuándo se computan los plazos del traslado forzoso?",
+      "opciones": [
+        "desde el momento en que se efectúe el traslado",
+        "desde el día siguiente a la notificación de la resolución sancionadora",
+        "desde la fecha en que la resolución sancionadora adquiera firmeza",
+        "desde el momento en que se acuerde la incoación del expediente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "2. Los mencionados plazos se computarán desde el momento en que se efectúe el traslado.",
+      "justificacion": "El reloj arranca con el traslado efectivo, no con la resolución ni con su firmeza. Se puede sancionar mucho antes de que el traslado se materialice."
+    },
+    {
+      "concepto_id": "DISC-017",
+      "articulo": "art. 12",
+      "enunciado": "¿Cómo puede valorarse el historial profesional al graduar la sanción?",
+      "opciones": [
+        "sólo podrá valorarse como circunstancia atenuante",
+        "podrá valorarse como circunstancia atenuante o agravante",
+        "sólo podrá valorarse como circunstancia agravante",
+        "no podrá valorarse en ningún caso a estos efectos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "c) El historial profesional, que, a estos efectos, sólo podrá valorarse como circunstancia atenuante.",
+      "justificacion": "Es el único criterio del artículo 12 que solo juega a favor: un mal historial no puede usarse para agravar. Para eso está la reincidencia."
+    },
+    {
+      "concepto_id": "DISC-019",
+      "articulo": "art. 14",
+      "enunciado": "Si el expedientado pierde la condición de funcionario durante el procedimiento, ¿en qué casos continúa este pese a todo?",
+      "opciones": [
+        "salvo que por parte interesada se inste la continuación del expediente o se instruya por falta muy grave",
+        "salvo que por parte interesada se inste la continuación del expediente o se instruya por falta grave o muy grave",
+        "salvo que el Ministerio Fiscal inste la continuación del expediente o se haya dictado ya propuesta de resolución",
+        "salvo que por parte interesada se inste la continuación del expediente dentro de los diez días siguientes al cese"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se declarará extinguido el procedimiento sancionador, sin perjuicio de la responsabilidad civil o penal que le pueda ser exigida, y se ordenará el archivo de las actuaciones, salvo que por parte interesada se inste la continuación del expediente o se instruya por falta muy grave",
+      "justificacion": "Dos salvedades y solo dos: que el interesado pida seguir, o que se instruya por falta MUY grave. La falta grave no basta."
+    },
+    {
+      "concepto_id": "DISC-020",
+      "articulo": "art. 15",
+      "enunciado": "Una vez interrumpida por la iniciación del procedimiento, ¿cuándo se reanuda la prescripción de la falta?",
+      "opciones": [
+        "si el procedimiento permaneciese paralizado durante más de seis meses por causa no imputable al funcionario sometido a expediente",
+        "si el procedimiento permaneciese paralizado durante más de tres meses por causa no imputable al funcionario sometido a expediente",
+        "si el procedimiento permaneciese paralizado durante más de seis meses por cualquier causa, incluida la imputable al expedientado",
+        "si el procedimiento permaneciese paralizado durante más de un año por causa no imputable al funcionario sometido a expediente"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El plazo de prescripción se reanudará si el procedimiento permaneciese paralizado durante más de seis meses por causa no imputable al funcionario sometido a expediente.",
+      "justificacion": "Seis meses de parálisis, y solo si la culpa no es del expedientado: quien retrasa su propio expediente no gana prescripción con ello."
+    },
+    {
+      "concepto_id": "DISC-021",
+      "articulo": "art. 16",
+      "enunciado": "¿En qué plazos prescriben las SANCIONES disciplinarias?",
+      "opciones": [
+        "Las sanciones muy graves prescribirán a los tres años; las graves a los dos años, y las leves al mes",
+        "Las sanciones muy graves prescribirán a los seis años; las graves a los tres años, y las leves a los seis meses",
+        "Las sanciones muy graves prescribirán a los cinco años; las graves a los dos años, y las leves a los tres meses",
+        "Las sanciones muy graves prescribirán a los tres años; las graves al año, y las leves a los quince días"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Las sanciones muy graves prescribirán a los tres años; las graves a los dos años, y las leves al mes.",
+      "justificacion": "Los plazos de las sanciones coinciden con los de las faltas (art. 15). Lo que cambia es el arranque: aquí, desde que la sanción es firme."
+    },
+    {
+      "concepto_id": "DISC-022",
+      "articulo": "art. 17",
+      "enunciado": "¿A qué principios se ajusta el procedimiento sancionador según el artículo 17?",
+      "opciones": [
+        "legalidad, impulso de oficio, imparcialidad, agilidad, eficacia, publicidad, contradicción, irretroactividad, tipicidad, responsabilidad, proporcionalidad y concurrencia de sanciones",
+        "legalidad, impulso de oficio, imparcialidad, celeridad, eficacia, transparencia, contradicción, retroactividad favorable, tipicidad, culpabilidad, proporcionalidad y non bis in idem",
+        "legalidad, impulso de parte, imparcialidad, agilidad, eficacia, publicidad, contradicción, irretroactividad, tipicidad, responsabilidad, proporcionalidad y concurrencia de sanciones",
+        "legalidad, impulso de oficio, imparcialidad, agilidad, eficiencia, secreto de las actuaciones, contradicción, irretroactividad, tipicidad, responsabilidad, proporcionalidad y oportunidad"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se ajustará a los principios de legalidad, impulso de oficio, imparcialidad, agilidad, eficacia, publicidad, contradicción, irretroactividad, tipicidad, responsabilidad, proporcionalidad y concurrencia de sanciones",
+      "justificacion": "Ojo a dos que se cambian con facilidad: impulso DE OFICIO (no de parte) y PUBLICIDAD (no secreto de las actuaciones)."
+    },
+    {
+      "concepto_id": "DISC-023",
+      "articulo": "art. 19",
+      "enunciado": "¿Por quién puede ser asistido el funcionario sometido a expediente disciplinario?",
+      "opciones": [
+        "por un abogado o por un funcionario del Cuerpo Nacional de Policía licenciado en Derecho",
+        "por un abogado o por un representante de las organizaciones sindicales con presencia en el Consejo de Policía",
+        "por un abogado del turno de oficio designado por el Colegio de Abogados que corresponda",
+        "por un abogado o por cualquier funcionario del Cuerpo Nacional de Policía de categoría superior"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "se informará al funcionario sometido a expediente de su derecho a ser asistido, cuando lo considere conveniente para la defensa de sus intereses, por un abogado o por un funcionario del Cuerpo Nacional de Policía licenciado en Derecho",
+      "justificacion": "El compañero que asiste tiene que ser licenciado en Derecho: no vale cualquiera, ni basta con ser de categoría superior."
+    },
+    {
+      "concepto_id": "DISC-024",
+      "articulo": "art. 33",
+      "enunciado": "¿Qué efecto produce sobre el funcionario la suspensión provisional de funciones?",
+      "opciones": [
+        "quedará privado temporalmente del ejercicio de sus funciones y de los derechos inherentes a su condición de funcionario",
+        "quedará privado definitivamente del ejercicio de sus funciones y de los derechos inherentes a su condición de funcionario",
+        "quedará privado temporalmente del ejercicio de sus funciones, conservando íntegros los derechos inherentes a su condición",
+        "quedará privado temporalmente del ejercicio de sus funciones y de los derechos económicos que tuviera reconocidos"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "El funcionario en la situación de suspensión provisional quedará privado temporalmente del ejercicio de sus funciones y de los derechos inherentes a su condición de funcionario, sin perjuicio de lo dispuesto en los apartados siguientes, y se procederá a recogerle los distintivos del cargo y el arma o las armas, en su caso.",
+      "justificacion": "Es una medida cautelar, así que la privación es TEMPORAL. Y alcanza a los derechos inherentes a la condición, no solo a los económicos."
+    },
+    {
+      "concepto_id": "DISC-025",
+      "articulo": "art. 46",
+      "enunciado": "¿Qué ocurre si transcurre el plazo sin que recaiga resolución en el expediente?",
+      "opciones": [
+        "se procederá al archivo de las actuaciones",
+        "se entenderá desestimada la propuesta de sanción por silencio",
+        "se reanudará el cómputo del plazo de prescripción de la falta",
+        "se procederá a incoar un nuevo expediente disciplinario"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "Transcurridos los plazos previstos en los apartados anteriores sin que hubiese recaído resolución en el expediente se procederá al archivo de las actuaciones.",
+      "justificacion": "El expediente caduca y se archiva. Y el interesado puede pedir certificación de que ha caducado, que es lo que lo hace oponible."
+    },
+    {
+      "concepto_id": "DISC-026",
+      "articulo": "art. 50",
+      "enunciado": "¿Qué efecto produce la cancelación de la anotación de una sanción?",
+      "opciones": [
+        "anular la anotación sin que pueda certificarse sobre ella, salvo cuando lo soliciten las autoridades competentes para ello",
+        "anular la anotación sin que pueda certificarse sobre ella en ningún caso ni ante ninguna autoridad, sea cual sea el motivo",
+        "suspender los efectos de la anotación durante el plazo que reste hasta su prescripción definitiva conforme al artículo 16",
+        "anular la anotación y todos los antecedentes disciplinarios previos del funcionario que consten en el registro de personal"
+      ],
+      "indice_correcto": 0,
+      "cotejo": "La cancelación producirá el efecto de anular la anotación sin que pueda certificarse sobre ella, salvo cuando lo soliciten las autoridades competentes para ello",
+      "justificacion": "La cancelación no borra del todo: queda la salvedad de las autoridades competentes, y ahí se hace constar expresamente que está cancelada."
+    }
+  ]
+}
