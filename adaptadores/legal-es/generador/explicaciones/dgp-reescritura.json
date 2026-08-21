@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "familia": "DGP", "referencia_boe": "BOE-A-2023-17072",
+    "norma": "Orden por la que se desarrolla la estructura orgánica y funcional de la Dirección General de la Policía",
+    "fecha": "2026-08-22",
+    "motivo": "Séptima familia de la reescritura (peso 4, solo 4 pendientes). Cierra el peso 4.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-012.json"
+  },
+  "explicaciones": [
+{"id":"DGP-001","articulo":"art. 1","explicacion":"Toda la orden se lee sobre esta división: central frente a territorial. Si una pregunta menciona un órgano y hay que ubicarlo, lo primero es decidir de qué lado cae — y los capítulos van en ese orden."},
+{"id":"DGP-003","articulo":"art. 1","explicacion":"La organización territorial no son solo Jefaturas y Comisarías: incluye piezas que se olvidan al recitar —Comisarías Conjuntas, Centros de Cooperación Policial y Aduanera, Puestos Fronterizos, Unidades de Extranjería y de Documentación—. Ahí es donde se falla."},
+{"id":"DGP-006","articulo":"art. 4","explicacion":"El orden de suplencia importa y es el del propio artículo: Recursos Humanos y Formación primero, después Logística e Innovación, y el Gabinete Técnico en último lugar. No es alfabético ni por antigüedad."},
+{"id":"DGP-009","articulo":"art. 4","explicacion":"Todas las Comisarías Generales cuelgan de la Dirección Adjunta Operativa y todas tienen nivel de subdirección general — ninguna está por encima de otra. Son el núcleo operativo especializado."}
+  ]
+}

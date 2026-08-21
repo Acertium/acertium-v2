@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "familia": "UNI",
+    "referencia_boe": "BOE-A-2014-2997",
+    "norma": "Orden por la que se regula la uniformidad del Cuerpo Nacional de Policía",
+    "fecha": "2026-08-22",
+    "motivo": "Quinta familia de la reescritura (peso 4, 32 de 50 pendientes). En uniformidad casi todo lo que se pregunta es UBICACIÓN y EXCLUSIVIDAD: hombreras frente a bocamanga, bolsillo izquierdo frente a derecho, qué distintivo es incompatible con cuál. Las explicaciones enfrentan cada par en vez de repetir dónde va uno solo. Hechos ya verificados contra el artículo.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-017.json"
+  },
+  "explicaciones": [
+    {
+      "id": "UNI-001",
+      "articulo": "art. 1",
+      "explicacion": "Cuerpo uniformado no significa siempre de uniforme: lo que decide es el destino que se ocupa y el servicio que se desempeña. Por eso la orden dedica después tantos artículos a las excepciones."
+    },
+    {
+      "id": "UNI-002",
+      "articulo": "art. 1",
+      "explicacion": "Mirar hacia otro lado cuesta lo mismo que la infracción: quien tolera o no corrige incurre en la MISMA responsabilidad que el autor. No es un deber de buenas formas, es responsabilidad propia."
+    },
+    {
+      "id": "UNI-003",
+      "articulo": "art. 2",
+      "explicacion": "El uniforme acredita la condición de agente de la autoridad, pero no sustituye al carné: si el ciudadano lo pide en una actuación, hay que exhibirlo igual. Una cosa acredita, la otra identifica."
+    },
+    {
+      "id": "UNI-005",
+      "articulo": "art. 2",
+      "explicacion": "La prohibición no se limita al uniforme exacto: alcanza a cualquier otro que por sus características pueda inducir a error o confusión. Basta el parecido que confunda."
+    },
+    {
+      "id": "UNI-006",
+      "articulo": "art. 3",
+      "explicacion": "Cuatro tipos en el anexo I —trabajo, representación, gala y gran gala— más los de unidades especiales, que van por su propia normativa. Y hay una prohibición que se olvida: no se pueden combinar prendas por libre.",
+      "cifras": {
+        "4": "recuento: los cuatro tipos de uniforme que relaciona el anexo I y enumera el artículo"
+      }
+    },
+    {
+      "id": "UNI-008",
+      "articulo": "art. 4",
+      "explicacion": "El cambio invierno/verano lo autorizan los jefes superiores, salvo en dos sitios donde sube al Director Adjunto Operativo: servicios centrales y Jefatura Superior de Madrid. Esa excepción doble es lo que se pregunta."
+    },
+    {
+      "id": "UNI-009",
+      "articulo": "art. 5",
+      "explicacion": "La lista es cerrada y solo vale «a los efectos de esta orden»: GEO, GOES, TEDAX-NRBQ, UIP, Caballería, Guías Caninos, Subsuelo y Protección Ambiental, UPR y Medios Aéreos. Su uniformidad no está aquí, sino en normativa propia."
+    },
+    {
+      "id": "UNI-010",
+      "articulo": "art. 6",
+      "explicacion": "Gala y gran gala no son de uso libre: van para actos oficiales y públicos que lo exijan, y para actividades de marcada significación que decida la Dirección General. No los elige quien los viste."
+    },
+    {
+      "id": "UNI-011",
+      "articulo": "art. 7",
+      "explicacion": "El alumnado va de uniforme de trabajo con carácter general, en los tres centros. La regla tiene excepciones tasadas, así que la respuesta no es «siempre».",
+      "cifras": {
+        "3": "recuento: los tres centros docentes que nombra el artículo (Escuela Nacional, Altos Estudios y Actualización y Especialización)"
+      }
+    },
+    {
+      "id": "UNI-014",
+      "articulo": "art. 9",
+      "explicacion": "Talleres y mecánicos no van de uniforme sino de mono de trabajo — pero las divisas de su categoría se llevan igual, sobre el mono. La exención es de prenda, no de identificación."
+    },
+    {
+      "id": "UNI-015",
+      "articulo": "art. 9",
+      "explicacion": "La Banda Sinfónica sube de categoría de uniforme en sus actuaciones públicas: gala en vez del que le tocaría por su servicio. Es la única unidad con esa regla propia en este artículo."
+    },
+    {
+      "id": "UNI-017",
+      "articulo": "art. 10",
+      "explicacion": "El equipamiento complementario NO es uniformidad reglamentaria, aunque lo autorice el Director General. Y el camino tiene dos pasos: criterio de la Comisión Técnica de Uniformidad e informe previo de la de Seguridad y Salud Laboral.",
+      "cifras": {
+        "2": "recuento retórico: los «dos pasos» del procedimiento que describe el artículo, criterio de una comisión e informe previo de la otra"
+      }
+    },
+    {
+      "id": "UNI-018",
+      "articulo": "art. 11",
+      "explicacion": "Cambian las categorías, pero hay un elemento que está en todas: la Corona Real de España forrada de gules, como elemento principal del soporte. Lo demás varía; eso no."
+    },
+    {
+      "id": "UNI-019",
+      "articulo": "art. 12",
+      "explicacion": "Hombreras como regla, bocamanga en el uniforme de GRAN GALA. Es la excepción de ubicación que más se pregunta, así que conviene fijar el par y no la regla sola."
+    },
+    {
+      "id": "UNI-020",
+      "articulo": "art. 13",
+      "explicacion": "El carné es el documento identificador, frente a la placa-emblema y el distintivo, que son piezas de la uniformidad. Documento y distintivo no son lo mismo aunque los dos identifiquen.",
+      "cifras": {
+        "2": "recuento retórico: la contraposición entre documento identificador y distintivos de uniformidad; no es una cifra de la norma"
+      }
+    },
+    {
+      "id": "UNI-021",
+      "articulo": "art. 14",
+      "explicacion": "La placa-emblema lleva el número de identificación personal troquelado en la base. Ese detalle es la razón de que sea incompatible con el distintivo de identificación personal: los dos llevarían el mismo dato."
+    },
+    {
+      "id": "UNI-022",
+      "articulo": "art. 15",
+      "explicacion": "El distintivo de brazo es uniformidad reglamentaria y, por tanto, de uso OBLIGATORIO — no potestativo como las condecoraciones. Ahí está la diferencia de régimen."
+    },
+    {
+      "id": "UNI-023",
+      "articulo": "art. 16",
+      "explicacion": "No se llevan los dos a la vez: el distintivo de identificación personal y la placa-emblema son incompatibles, porque ambos graban el mismo número del carné. Exhibirlos juntos duplicaría el dato.",
+      "cifras": {
+        "2": "recuento retórico: «los dos», referido a la placa-emblema y al distintivo de identificación personal que el artículo declara incompatibles"
+      }
+    },
+    {
+      "id": "UNI-024",
+      "articulo": "art. 16",
+      "explicacion": "Va centrado e inmediatamente DEBAJO del emblema del Cuerpo, y su exhibición es obligatoria tanto de uniforme como de mono de trabajo. La obligación no depende de la prenda."
+    },
+    {
+      "id": "UNI-025",
+      "articulo": "art. 17",
+      "explicacion": "En estos puestos las divisas del cargo SUSTITUYEN a las de escala y categoría, no se añaden. Mientras se ocupa el cargo, la escala deja de verse."
+    },
+    {
+      "id": "UNI-027",
+      "articulo": "art. 18",
+      "explicacion": "El bastón va en el brazo IZQUIERDO, con la mano sin cerrar el puño y dejando ver el extremo ornamentado. Los detalles del porte son justo lo que se pregunta, no para qué sirve."
+    },
+    {
+      "id": "UNI-028",
+      "articulo": "art. 19",
+      "explicacion": "Los distintivos específicos dicen dos cosas distintas: que se está en una unidad, o que se estuvo. Esa doble lectura es la que separa después el distintivo de función del de permanencia.",
+      "cifras": {
+        "2": "recuento retórico: las «dos cosas» que acredita el distintivo específico, estar y haber estado, que es la doble función que define el artículo",
+        "1": "«una unidad»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "UNI-029",
+      "articulo": "art. 20",
+      "explicacion": "Los crea una resolución del Director General de la Policía, que además fija diseño, autorización y normas de uso. No los establece la propia unidad."
+    },
+    {
+      "id": "UNI-030",
+      "articulo": "art. 22",
+      "explicacion": "El de función se tiene MIENTRAS dura el destino y no necesita autorización; el de permanencia se gana por haber estado y sí se reconoce por expediente. Es el par que se cruza."
+    },
+    {
+      "id": "UNI-032",
+      "articulo": "art. 22",
+      "explicacion": "Hay una ventana anual y es la que se pregunta: los expedientes del distintivo de permanencia y de las barras se formalizan en enero, y por lo devengado el año anterior."
+    },
+    {
+      "id": "UNI-033",
+      "articulo": "art. 24",
+      "explicacion": "Bolsillo superior IZQUIERDO para los específicos, y con tope: no más de tres. Enfréntalo al bolsillo derecho, que es donde van cursos, titulaciones y méritos."
+    },
+    {
+      "id": "UNI-034",
+      "articulo": "art. 25",
+      "explicacion": "Las barras no son una por año: se gana una azur fileteada de oro cada dos años en el destino. Contar de uno en uno es el error habitual."
+    },
+    {
+      "id": "UNI-036",
+      "articulo": "art. 28",
+      "explicacion": "Bolsillo DERECHO para cursos, titulaciones, méritos y eventos, frente al izquierdo de los específicos. Y nunca en la guerrera de gran gala — ahí no van."
+    },
+    {
+      "id": "UNI-037",
+      "articulo": "art. 30",
+      "explicacion": "Cada distinción tiene su norma propia: la Orden al Mérito Policial va por la Ley 5/1964 y la Dedicación al Servicio Policial por la Orden INT/1409/2011. Las otorgadas a título individual necesitan constar en el expediente."
+    },
+    {
+      "id": "UNI-038",
+      "articulo": "art. 31",
+      "explicacion": "Exhibir condecoraciones es POTESTATIVO —a diferencia del distintivo de brazo, que es obligatorio— y solo cabe en representación, gala y gran gala. En el uniforme de trabajo, nunca."
+    },
+    {
+      "id": "UNI-039",
+      "articulo": "art. 33",
+      "explicacion": "Hay un tope para las que cuelgan en cinta a tamaño normal. Quien tiene más no las lleva todas: elige, y la elección no es libre — manda el orden de precedencia."
+    },
+    {
+      "id": "UNI-040",
+      "articulo": "art. 34",
+      "explicacion": "El orden de precedencia no lo encabeza una distinción policial sino la más alta del Estado, y la segunda tampoco. Las policiales vienen después, y por ahí se falla."
+    }
+  ]
+}

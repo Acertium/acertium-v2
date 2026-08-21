@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "familia": "PPN",
+    "referencia_boe": "BOE-A-2015-8468",
+    "norma": "Ley Orgánica 9/2015, de Régimen de Personal de la Policía Nacional",
+    "fecha": "2026-08-22",
+    "motivo": "Sexta familia de la reescritura (peso 4). Las explicaciones enfrentan lo que la ley ordena por escalas —funciones y edades de segunda actividad, que van en escalera— y los requisitos que distinguen unas excedencias de otras. Hechos ya verificados contra el artículo.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-013.json"
+  },
+  "explicaciones": [
+    {
+      "id": "PPN-001",
+      "articulo": "art. 4",
+      "explicacion": "No basta con aprobar: hacen falta cuatro pasos EN ORDEN —proceso selectivo, nombramiento, acatamiento de la Constitución y toma de posesión en plazo—. Saltarse el último deja fuera igual que suspender.",
+      "cifras": {
+        "4": "recuento: los cuatro pasos que encadena el artículo — proceso selectivo, nombramiento, acatamiento y toma de posesión"
+      }
+    },
+    {
+      "id": "PPN-002",
+      "articulo": "art. 5",
+      "explicacion": "La lista es cerrada, y conviene fijarse en que dos causas son sancionadoras (separación del servicio e inhabilitación, ambas firmes) y otras dos no lo son en absoluto (jubilación y renuncia). Y hay una que sorprende: perder la nacionalidad española."
+    },
+    {
+      "id": "PPN-004",
+      "articulo": "art. 6",
+      "explicacion": "Volver es fácil o casi imposible según por qué se salió: si fue por nacionalidad o incapacidad, basta con que desaparezca la causa; si fue por inhabilitación, la rehabilitación es excepcional y la concede el Consejo de Ministros. No es el mismo trámite."
+    },
+    {
+      "id": "PPN-005",
+      "articulo": "art. 2",
+      "explicacion": "Ojo a los dos tipos de mando, que se confunden: el SUPERIOR es del Ministro del Interior y lo ejerce a través del Secretario de Estado; el DIRECTO es del Director General. Y todos los funcionarios de carrera se llaman genéricamente Policías Nacionales."
+    },
+    {
+      "id": "PPN-006",
+      "articulo": "art. 16",
+      "explicacion": "Relación estatutaria y de derecho administrativo, no contrato laboral: por eso las condiciones las fija la ley y no se negocian. Y el carácter permanente es lo que separa al de carrera del funcionario en prácticas."
+    },
+    {
+      "id": "PPN-007",
+      "articulo": "art. 17",
+      "explicacion": "Cuatro escalas y siete categorías, y la de Subinspección es la única con una sola. Aprenderlas por parejas ayuda: Comisario Principal y Comisario arriba; Oficial de Policía y Policía abajo.",
+      "cifras": {
+        "4": "recuento: las cuatro escalas que enumera el artículo",
+        "7": "recuento: las siete categorías que enumera el artículo",
+        "1": "«una sola», referido a que Subinspección tiene una única categoría, que es lo que el propio artículo enumera"
+      }
+    },
+    {
+      "id": "PPN-009",
+      "articulo": "art. 18",
+      "explicacion": "Cuatro verbos en escalera, uno por escala: dirección, mando, supervisión y ejecución. Es la pregunta más repetida del artículo, y lo que se confunde es mando (Ejecutiva) con dirección (Superior).",
+      "cifras": {
+        "4": "recuento: los cuatro verbos que reparte el artículo, uno por escala"
+      }
+    },
+    {
+      "id": "PPN-010",
+      "articulo": "art. 20",
+      "explicacion": "La especialidad no se adquiere por destino ni por experiencia: exige haber superado el curso de especialización correspondiente. Y en su caso, además, titulaciones o conocimientos concretos."
+    },
+    {
+      "id": "PPN-011",
+      "articulo": "art. 21",
+      "explicacion": "El escalafón ordena por categoría y, dentro de ella, por antigüedad entendida como servicio EFECTIVO prestado — no como tiempo transcurrido desde el ingreso. Los de segunda actividad no desaparecen: van en anexo."
+    },
+    {
+      "id": "PPN-012",
+      "articulo": "art. 22",
+      "explicacion": "No es un archivo interno de la Policía: se coordina con el Registro Central de Personal de la Administración General del Estado. Lo que se anota no es solo la identidad, es la vida profesional entera."
+    },
+    {
+      "id": "PPN-013",
+      "articulo": "art. 25",
+      "explicacion": "Las fases se superan de forma SUCESIVA: no se compensan entre sí, caer en una cierra el proceso. Y solo dos categorías tienen oposición libre, Inspector y Policía; a las demás se llega desde dentro.",
+      "cifras": {
+        "2": "recuento: las categorías con oposición libre que nombra la ley, Inspector y Policía"
+      }
+    },
+    {
+      "id": "PPN-014",
+      "articulo": "art. 26",
+      "explicacion": "El tope por arriba no es una edad fija sino la de jubilación, así que se mueve con la normativa. Y hay un requisito que no es una condición sino una declaración de voluntad: el compromiso de portar armas y, en su caso, usarlas."
+    },
+    {
+      "id": "PPN-015",
+      "articulo": "art. 26",
+      "explicacion": "La titulación va pegada al subgrupo de clasificación: grado universitario para Inspector, que es A1, y bachiller o equivalente para Policía, que es C1. No es el mismo requisito rebajado, son dos niveles distintos."
+    },
+    {
+      "id": "PPN-016",
+      "articulo": "art. 28",
+      "explicacion": "Tres reglas de composición que se preguntan juntas: número impar de miembros, presidencia de categoría igual o superior a la que se aspira y en servicio activo, y exclusión del personal político, interino y eventual.",
+      "cifras": {
+        "3": "recuento retórico: las tres reglas de composición que fija el artículo"
+      }
+    },
+    {
+      "id": "PPN-017",
+      "articulo": "art. 52",
+      "explicacion": "Seis situaciones, y la que se olvida al recitarlas es la segunda actividad, que es propia de la Policía y no existe en la función pública general. Del resto cuelga todo el título.",
+      "cifras": {
+        "6": "recuento: las seis situaciones administrativas que enumera el artículo"
+      }
+    },
+    {
+      "id": "PPN-018",
+      "articulo": "art. 53",
+      "explicacion": "Es la situación por defecto: se está en servicio activo cuando no procede ninguna otra. De ahí que los artículos siguientes definan las excepciones y no esta."
+    },
+    {
+      "id": "PPN-019",
+      "articulo": "art. 54",
+      "explicacion": "Volver no es automático cuando no había reserva de puesto: o se concursa, o se obtiene adscripción provisional condicionada a las necesidades del servicio. Y hay que seguir reuniendo las condiciones psicofísicas."
+    },
+    {
+      "id": "PPN-020",
+      "articulo": "art. 55",
+      "explicacion": "Se cobra del cargo que se ocupa, no de la Policía — pero los trienios se siguen devengando. Esa combinación es lo que se pregunta: no cobrar como policía no significa dejar de acumular antigüedad."
+    },
+    {
+      "id": "PPN-021",
+      "articulo": "art. 56",
+      "explicacion": "Es la situación de quien va a otra administración sin romper el vínculo. Y se mantiene incluso si la administración de acogida lo integra como personal propio, siempre que sea por disposición legal."
+    },
+    {
+      "id": "PPN-022",
+      "articulo": "art. 57",
+      "explicacion": "Cinco modalidades, y no se rigen igual: cada una tiene sus propios requisitos de tiempo previo, permanencia y reserva de puesto. Aprender «excedencia» como una sola cosa es el error.",
+      "cifras": {
+        "5": "recuento: las cinco modalidades de excedencia que enumera el artículo",
+        "1": "«una sola cosa»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "PPN-023",
+      "articulo": "art. 58",
+      "explicacion": "Es la única excedencia que exige tiempo de servicio PREVIO y permanencia mínima, y además queda a expensas de las necesidades del servicio. Y no se concede a quien esté sometido a expediente disciplinario."
+    },
+    {
+      "id": "PPN-024",
+      "articulo": "art. 60",
+      "explicacion": "Ojo a los dos plazos, que no coinciden: el derecho a la excedencia dura más que la reserva del puesto. Y el tiempo sí computa a efectos de trienios y antigüedad, a diferencia de la suspensión firme.",
+      "cifras": {
+        "2": "recuento retórico: los «dos plazos» que el artículo distingue, duración de la excedencia y reserva del puesto"
+      }
+    },
+    {
+      "id": "PPN-025",
+      "articulo": "art. 61",
+      "explicacion": "Es la excedencia con más protección y por eso la que rompe todas las reglas: sin tiempo previo de servicios, sin permanencia mínima, con reserva de puesto y con retribuciones íntegras durante los primeros meses."
+    },
+    {
+      "id": "PPN-026",
+      "articulo": "art. 63",
+      "explicacion": "Dos formas muy distintas bajo el mismo nombre: la firme, que es sanción o consecuencia de sentencia, y la provisional, que es cautelar. Confundirlas cambia por completo los efectos.",
+      "cifras": {
+        "2": "recuento: las dos formas de suspensión que distingue el artículo, firme y provisional"
+      }
+    },
+    {
+      "id": "PPN-027",
+      "articulo": "art. 64",
+      "explicacion": "Pasado cierto tiempo la suspensión firme deja de ser solo suspensión: se pierde el puesto de trabajo. Y el tiempo no cuenta para nada — ni trienios, ni antigüedad, ni Seguridad Social."
+    },
+    {
+      "id": "PPN-028",
+      "articulo": "art. 66",
+      "explicacion": "No es un premio ni un castigo: existe para garantizar la aptitud psicofísica en el puesto. Se conserva la categoría pero NO se ocupa destino, y hay quien no puede pasar a ella: los facultativos y técnicos."
+    },
+    {
+      "id": "PPN-029",
+      "articulo": "art. 67",
+      "explicacion": "Tres puertas, y solo la primera es involuntaria: la insuficiencia psicofísica. Las otras dos son a petición propia y se distinguen por lo que exigen — o la edad, o los años cumplidos. Ojo al «efectivos»: cuentan servicio activo, servicios especiales y excedencia forzosa, no cualquier situación.",
+      "cifras": {
+        "3": "recuento: las tres causas de pase a segunda actividad que enumera el artículo",
+        "2": "recuento retórico: «las otras dos», las que van a petición propia"
+      }
+    },
+    {
+      "id": "PPN-030",
+      "articulo": "art. 69",
+      "explicacion": "Las edades bajan en escalera conforme baja la escala, y de dos en dos años. Tiene lógica: cuanto más operativa es la escala, más pronto se admite el pase. Memorizar el sentido evita tener que memorizar las cuatro cifras sueltas.",
+      "cifras": {
+        "4": "recuento: las cuatro escalas con edad propia que fija el artículo",
+        "2": "«de dos en dos años»: diferencia entre las edades que el propio artículo fija"
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "familia": "CDPN",
+    "referencia_boe": "BOE-A-2024-814",
+    "norma": "Reglamento de los centros docentes de la Policía Nacional",
+    "fecha": "2026-08-22",
+    "motivo": "Cuarta familia de la reescritura (peso 4, 40 de 44 pendientes). Se atacan los pares que la norma distingue y el examen cruza: órganos obligatorios frente a potestativos, la cadena de suplencias (quién suple a quién), internado en la Escuela Nacional frente a externado en el resto, y las dos formas de designar delegado según la duración del curso. Hechos ya verificados contra el artículo.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-018.json"
+  },
+  "explicaciones": [
+    {
+      "id": "CDPN-001",
+      "articulo": "art. 1",
+      "explicacion": "El reglamento cubre tres cosas a la vez y conviene no separarlas: cómo se organizan los centros, quién enseña en ellos y qué régimen tiene el alumnado. Todos cuelgan de la División de Formación y Perfeccionamiento.",
+      "cifras": {
+        "3": "recuento retórico: las «tres cosas» que cubre el reglamento —organización, personal docente y alumnado—, que es como las enumera el propio artículo"
+      }
+    },
+    {
+      "id": "CDPN-002",
+      "articulo": "art. 1",
+      "explicacion": "Cuando el reglamento calla se acude a dos normativas, no a una: la de procesos selectivos y formación y la de provisión de puestos de trabajo. Cuál de las dos depende de si la laguna es de alumnado o de personal."
+    },
+    {
+      "id": "CDPN-003",
+      "articulo": "art. 2",
+      "explicacion": "Estos dos órganos están siempre, tenga el centro el tamaño que tenga. Es el par que hay que distinguir de los del apartado siguiente, que solo aparecen si la complejidad del centro lo pide."
+    },
+    {
+      "id": "CDPN-004",
+      "articulo": "art. 2",
+      "explicacion": "Estos NO son obligatorios: se añaden según complejidad y necesidades. Es la trampa clásica del artículo — se pregunta cuál falta en un centro pequeño, y la respuesta nunca es la Dirección ni la Jefatura de Régimen Docente."
+    },
+    {
+      "id": "CDPN-005",
+      "articulo": "art. 2",
+      "explicacion": "Dos exigencias que van juntas: nombramiento por la Dirección General de la Policía y titulación universitaria de acceso al subgrupo A1. No basta con la categoría policial — hace falta el título."
+    },
+    {
+      "id": "CDPN-006",
+      "articulo": "art. 3",
+      "explicacion": "Máxima autoridad ACADÉMICA, que no es lo mismo que máxima autoridad a secas: la seguridad y las instalaciones caen del lado del Régimen Interior. La Dirección representa y dirige el centro."
+    },
+    {
+      "id": "CDPN-008",
+      "articulo": "art. 4",
+      "explicacion": "Primer eslabón de la cadena de suplencias: quien sustituye a la Dirección es la Jefatura de Régimen Docente. Conviene aprenderlo junto con el siguiente, porque el examen los cruza."
+    },
+    {
+      "id": "CDPN-009",
+      "articulo": "art. 4",
+      "explicacion": "Solo el Departamento de Psicopedagogía depende SIEMPRE de la Jefatura de Régimen Docente. Los Coordinadores y los Departamentos Docentes cuelgan de ella únicamente cuando la complejidad del centro lo requiera."
+    },
+    {
+      "id": "CDPN-010",
+      "articulo": "art. 5",
+      "explicacion": "Seguridad e instalaciones son de Régimen INTERIOR, no de Régimen Docente. Los dos nombres se parecen y es justo donde se falla: uno lleva lo académico, el otro el edificio."
+    },
+    {
+      "id": "CDPN-011",
+      "articulo": "art. 5",
+      "explicacion": "Si el centro no tiene ese puesto, las funciones no desaparecen: suben a la Secretaría General de la División de Formación y Perfeccionamiento. Es un órgano de fuera del centro, no otro del propio centro."
+    },
+    {
+      "id": "CDPN-012",
+      "articulo": "art. 5",
+      "explicacion": "De Régimen Interior cuelga lo que sostiene la vida del centro: Oficina del alumnado, personal sanitario, de seguridad y de servicios. Y la lista queda abierta a lo que decida la Dirección."
+    },
+    {
+      "id": "CDPN-013",
+      "articulo": "art. 6",
+      "explicacion": "Segundo eslabón de la cadena: los Coordinadores Docentes suplen a la Jefatura de Régimen Docente, que a su vez suple a la Dirección. Así que en un centro completo la sustitución baja dos escalones, no uno.",
+      "cifras": {
+        "2": "recuento retórico: «dos escalones» de la cadena de suplencias, que se explica cruzando este artículo con el 4.1.a)"
+      }
+    },
+    {
+      "id": "CDPN-014",
+      "articulo": "art. 7",
+      "explicacion": "Nadie manda sobre alguien de categoría superior: quien dirige el Departamento Docente tiene que estar a la misma altura o por encima de su profesorado. La misma regla reaparece con el instructor."
+    },
+    {
+      "id": "CDPN-015",
+      "articulo": "art. 8",
+      "explicacion": "El Departamento de Psicopedagogía mira en dos direcciones: asesora al profesorado y orienta al alumnado. No es solo un servicio para el alumno.",
+      "cifras": {
+        "2": "recuento retórico: las «dos direcciones» en que mira el Departamento, profesorado y alumnado",
+        "1": "«un servicio»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "CDPN-016",
+      "articulo": "art. 9",
+      "explicacion": "Calidad depende DIRECTAMENTE de la Dirección, sin pasar por Régimen Docente ni Interior. Se entiende: quien inspecciona no puede colgar de lo inspeccionado."
+    },
+    {
+      "id": "CDPN-017",
+      "articulo": "art. 10",
+      "explicacion": "Asesor y consultivo: el Claustro no decide, informa. Conviene distinguirlo de la Junta de evaluación, que sí resuelve — sobre el rendimiento académico."
+    },
+    {
+      "id": "CDPN-018",
+      "articulo": "art. 10",
+      "explicacion": "Las ordinarias son solo dos y están fijadas por el calendario: al empezar y al terminar el curso. Las extraordinarias las pide la presidencia o una mayoría cualificada de los integrantes, no una simple."
+    },
+    {
+      "id": "CDPN-019",
+      "articulo": "art. 11",
+      "explicacion": "La Junta de evaluación es la que decide sobre el rendimiento académico, frente al Claustro, que solo asesora. Dos órganos colegiados con peso muy distinto."
+    },
+    {
+      "id": "CDPN-020",
+      "articulo": "art. 12",
+      "explicacion": "El profesorado son Policías Nacionales, y la condición de profesor titular no se otorga: deriva de ocupar el puesto. Es decir, va con el destino, no con la persona."
+    },
+    {
+      "id": "CDPN-021",
+      "articulo": "art. 13",
+      "explicacion": "Entre las funciones del profesorado titular hay una que sorprende en un centro policial: dirigir trabajos fin de Grado y fin de Máster. Los centros docentes imparten titulación universitaria."
+    },
+    {
+      "id": "CDPN-022",
+      "articulo": "art. 14",
+      "explicacion": "El instructor apoya y trabaja BAJO la dirección del profesorado titular, y este ha de tener categoría igual o superior. Misma regla jerárquica que en los Departamentos Docentes."
+    },
+    {
+      "id": "CDPN-023",
+      "articulo": "art. 16",
+      "explicacion": "El colaborador puede venir de fuera del Cuerpo, pero no entra directo al aula: la División de Formación y Perfeccionamiento lo valida antes. La validación es previa, no posterior."
+    },
+    {
+      "id": "CDPN-024",
+      "articulo": "art. 18",
+      "explicacion": "Aquí evalúa el alumnado al docente, no al revés, y forma parte de la gestión de calidad del centro. Se hace al terminar cada curso o periodo lectivo."
+    },
+    {
+      "id": "CDPN-025",
+      "articulo": "art. 20",
+      "explicacion": "Alumnado no es solo quien opositó a policía: incluye también a quienes acceden a plazas de personal facultativo y técnico. Los dos entran como funcionarios en prácticas."
+    },
+    {
+      "id": "CDPN-026",
+      "articulo": "art. 20",
+      "explicacion": "La condición de alumnado alcanza a gente de fuera de la Policía Nacional — otras administraciones, sector público institucional e incluso instituciones extranjeras. No hay que ser policía para ser alumno de estos centros."
+    },
+    {
+      "id": "CDPN-027",
+      "articulo": "art. 22",
+      "explicacion": "Durante la formación práctica la residencia oficial se ata al municipio donde se presta servicio, no al del centro docente. Conviene cruzarlo con el externado, que sí ata al municipio del centro."
+    },
+    {
+      "id": "CDPN-028",
+      "articulo": "art. 25",
+      "explicacion": "Las reglas están invertidas según el centro, y es la pregunta típica: en la Escuela Nacional de Policía la norma es el internado; en los demás centros, el externado. Cada una admite su excepción."
+    },
+    {
+      "id": "CDPN-029",
+      "articulo": "art. 25",
+      "explicacion": "En externado el domicilio se fija en el municipio del CENTRO, mientras que en la formación práctica se fija en el del puesto de trabajo. Es el par que se cruza."
+    },
+    {
+      "id": "CDPN-030",
+      "articulo": "art. 26",
+      "explicacion": "El descanso nocturno no es una concesión del centro: figura como derecho académico del alumnado, con un mínimo que solo cede como excepción."
+    },
+    {
+      "id": "CDPN-031",
+      "articulo": "art. 29",
+      "explicacion": "Dos niveles de recompensa: la felicitación académica de la Dirección, que se anota en el expediente docente, y con méritos suficientes la propuesta de ingreso en la Orden al Mérito Policial. La segunda no la concede el centro."
+    },
+    {
+      "id": "CDPN-032",
+      "articulo": "art. 31",
+      "explicacion": "El porcentaje de inasistencia que causa baja no está en el reglamento: lo fija cada convocatoria. Y solo se aplica a cursos y actividades formativas, no al alumnado de los procesos de ingreso."
+    },
+    {
+      "id": "CDPN-033",
+      "articulo": "art. 32",
+      "explicacion": "El delegado representa a su clase o sección ante la Dirección del centro, no ante el profesorado ni ante la Jefatura de Régimen Docente."
+    },
+    {
+      "id": "CDPN-034",
+      "articulo": "art. 32",
+      "explicacion": "En cursos cortos no hay elección: sale por orden alfabético del primer apellido. Es la mitad de una regla — la otra mitad, para cursos largos, es la votación."
+    },
+    {
+      "id": "CDPN-035",
+      "articulo": "art. 32",
+      "explicacion": "En los cursos largos sí hay votación, y con todas las garantías: igual, libre, directa y secreta, dentro de un plazo contado desde el inicio del curso. Frente al orden alfabético de los cursos cortos."
+    },
+    {
+      "id": "CDPN-036",
+      "articulo": "art. 33",
+      "explicacion": "La Junta de alumnos no está en todos los cursos: solo en los de ingreso, acceso y promoción que pasen de cierta duración presencial. Y se forma con los delegados ya elegidos, no se vota aparte."
+    },
+    {
+      "id": "CDPN-037",
+      "articulo": "art. 33",
+      "explicacion": "Dos umbrales distintos en la misma regla, y se confunden: para reunirse válidamente hace falta una mayoría cualificada, pero para acordar basta la mayoría simple. Cuesta más juntarse que decidir."
+    },
+    {
+      "id": "CDPN-038",
+      "articulo": "art. 35",
+      "explicacion": "Lo que se evalúa no son notas sino valores profesionales: responsabilidad y liderazgo, competencia, integridad y disciplina, dedicación y compromiso, corrección e imagen, flexibilidad y creatividad, y trabajo en equipo."
+    },
+    {
+      "id": "CDPN-039",
+      "articulo": "art. 35",
+      "explicacion": "El mínimo se exige en CADA valor, no de media, y quien evalúa es el tutor, no la Junta. Y es mensual: no se decide al final del curso."
+    },
+    {
+      "id": "CDPN-040",
+      "articulo": "art. 36",
+      "explicacion": "Al alumnado aspirante se le aplica el régimen disciplinario policial, pero solo en lo compatible con su condición de alumno. No es una remisión en bloque."
+    },
+    {
+      "id": "CDPN-041",
+      "articulo": "art. 36",
+      "explicacion": "La consecuencia va más allá de la sanción: una falta grave o muy grave saca del proceso selectivo, no solo del centro. La leve no tiene ese efecto."
+    }
+  ]
+}
