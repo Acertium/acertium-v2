@@ -1,0 +1,530 @@
+{
+  "meta": {
+    "familia": "CE",
+    "referencia_boe": "BOE-A-1978-31229",
+    "norma": "Constitución Española",
+    "fecha": "2026-08-21",
+    "motivo": "CE fue la primera familia cargada, antes de que `explicacion` entrara en el contrato de generación. Estos 91 conceptos servían al opositor un «Correcto./Incorrecto.» seco. Cada texto se escribe a partir del artículo tal y como está en el corpus (seccion-003.json), sin cifras ni normas ajenas a él.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-003.json"
+  },
+  "explicaciones": [
+    {
+      "id": "CE-TP-001",
+      "articulo": "art. 1.1",
+      "explicacion": "Los valores superiores son cuatro y solo cuatro: libertad, justicia, igualdad y pluralismo político. La dignidad de la persona no está aquí: aparece en el art. 10.1 como fundamento del orden político.",
+      "cifras": {
+        "4": "recuento: los valores superiores del art. 1.1 son cuatro (libertad, justicia, igualdad, pluralismo politico)",
+        "10": "referencia cruzada al art. 10.1 CE, que existe en el corpus"
+      }
+    },
+    {
+      "id": "CE-TP-002",
+      "articulo": "art. 1.2",
+      "explicacion": "La soberanía reside en el pueblo español, no en la Nación ni en las Cortes. De él emanan los poderes del Estado: todo poder público es poder prestado."
+    },
+    {
+      "id": "CE-TP-004",
+      "articulo": "art. 2",
+      "explicacion": "Tres piezas en un solo artículo y siempre en el mismo orden: unidad indisoluble de la Nación española, derecho a la autonomía de nacionalidades y regiones, y solidaridad entre todas ellas.",
+      "cifras": {
+        "3": "recuento: unidad, autonomia y solidaridad, las tres del art. 2",
+        "1": "'un solo articulo', no es un dato normativo"
+      }
+    },
+    {
+      "id": "CE-TP-005",
+      "articulo": "art. 3",
+      "explicacion": "La asimetría es lo que se pregunta: del castellano hay deber de conocerlo y derecho a usarlo; de las demás lenguas españolas, cooficialidad en sus Comunidades según sus Estatutos, sin ese deber."
+    },
+    {
+      "id": "CE-TP-006",
+      "articulo": "art. 4",
+      "explicacion": "La franja amarilla es de doble anchura que cada una de las rojas, no que las dos juntas. Y las banderas propias de las Comunidades las reconocen los Estatutos, no la Constitución."
+    },
+    {
+      "id": "CE-TP-007",
+      "articulo": "art. 5",
+      "explicacion": "La Constitución dice «la villa de Madrid», no «la ciudad de Madrid». Es de los pocos datos que el texto da cerrado y se pregunta tal cual."
+    },
+    {
+      "id": "CE-TP-008",
+      "articulo": "art. 6",
+      "explicacion": "Partidos (art. 6) y sindicatos (art. 7) comparten la misma fórmula: creación y actividad libres dentro de la Constitución y la ley, y estructura interna y funcionamiento democráticos.",
+      "cifras": {
+        "6": "referencia al propio art. 6 CE",
+        "7": "referencia cruzada al art. 7 CE"
+      }
+    },
+    {
+      "id": "CE-TP-009",
+      "articulo": "art. 7",
+      "explicacion": "Sindicatos de trabajadores y asociaciones empresariales van juntos en el mismo artículo, defendiendo intereses económicos y sociales propios y con la misma exigencia de democracia interna que los partidos."
+    },
+    {
+      "id": "CE-TP-010",
+      "articulo": "art. 8",
+      "explicacion": "Las Fuerzas Armadas son exactamente tres: Ejército de Tierra, Armada y Ejército del Aire. Su misión abarca garantizar la soberanía e independencia y defender la integridad territorial y el ordenamiento constitucional.",
+      "cifras": {
+        "3": "recuento: Ejercito de Tierra, Armada y Ejercito del Aire, los tres del art. 8.1"
+      }
+    },
+    {
+      "id": "CE-TP-011",
+      "articulo": "art. 9",
+      "explicacion": "El 9.3 enumera siete garantías. La trampa habitual es la irretroactividad: no alcanza a toda norma, solo a las disposiciones sancionadoras no favorables o restrictivas de derechos individuales.",
+      "cifras": {
+        "9": "referencia al propio art. 9.3 CE",
+        "7": "recuento: las garantias del 9.3 son siete (legalidad, jerarquia normativa, publicidad, irretroactividad, seguridad juridica, responsabilidad, interdiccion de la arbitrariedad)"
+      }
+    },
+    {
+      "id": "CE-T1-001",
+      "articulo": "art. 10.1",
+      "explicacion": "Son cinco los fundamentos del orden político y de la paz social: dignidad, derechos inviolables inherentes, libre desarrollo de la personalidad, respeto a la ley y respeto a los derechos de los demás.",
+      "cifras": {
+        "5": "recuento: los fundamentos del art. 10.1 son cinco (dignidad, derechos inviolables, libre desarrollo, respeto a la ley, respeto a los derechos de los demas)"
+      }
+    },
+    {
+      "id": "CE-T1-002",
+      "articulo": "art. 10.2",
+      "explicacion": "El mandato es de interpretación, no de derogación: los derechos se leen conforme a la Declaración Universal y a los tratados sobre las mismas materias ratificados por España."
+    },
+    {
+      "id": "CE-T1-003",
+      "articulo": "art. 11.1",
+      "explicacion": "La Constitución no regula la nacionalidad: remite a la ley las tres cosas a la vez —adquirirla, conservarla y perderla—."
+    },
+    {
+      "id": "CE-T1-004",
+      "articulo": "art. 11.2",
+      "explicacion": "La garantía se limita al español de origen. La Constitución no la extiende a quien adquirió la nacionalidad por otra vía, y ahí está la diferencia que se pregunta."
+    },
+    {
+      "id": "CE-T1-005",
+      "articulo": "art. 11.3",
+      "explicacion": "Doble nacionalidad solo con países iberoamericanos o con particular vinculación con España. Y en ellos los españoles pueden naturalizarse sin perder su nacionalidad de origen aunque no haya derecho recíproco."
+    },
+    {
+      "id": "CE-T1-007",
+      "articulo": "art. 13.1",
+      "explicacion": "Los extranjeros no gozan de las libertades públicas «en los mismos términos» que los españoles, sino en los términos que establezcan los tratados y la ley. Ese matiz es todo el apartado."
+    },
+    {
+      "id": "CE-T1-008",
+      "articulo": "art. 13.2",
+      "explicacion": "El sufragio municipal es la única excepción a que los derechos del art. 23 sean solo de los españoles, exige criterios de reciprocidad y tratado o ley, y alcanza al sufragio activo y al pasivo."
+    },
+    {
+      "id": "CE-T1-009",
+      "articulo": "art. 13.3",
+      "explicacion": "Los delitos políticos quedan excluidos de la extradición, pero la propia Constitución cierra la puerta al abuso: los actos de terrorismo no se consideran delitos políticos."
+    },
+    {
+      "id": "CE-T1-010",
+      "articulo": "art. 13.4",
+      "explicacion": "El asilo lo configura la ley, no la Constitución. Y sus posibles beneficiarios son dos grupos: ciudadanos de otros países y apátridas."
+    },
+    {
+      "id": "CE-T1-011",
+      "articulo": "art. 14",
+      "explicacion": "La lista de causas no es cerrada: termina en «cualquier otra condición o circunstancia personal o social». Fíjate además en el sujeto: habla de «los españoles»."
+    },
+    {
+      "id": "CE-T1-012",
+      "articulo": "art. 15",
+      "explicacion": "La integridad protegida es física y moral, y la prohibición de tortura y de penas o tratos inhumanos o degradantes no admite excepción alguna: «en ningún caso»."
+    },
+    {
+      "id": "CE-T1-013",
+      "articulo": "art. 15",
+      "explicacion": "La abolición no es absoluta en el texto constitucional: queda la salvedad de lo que dispongan las leyes penales militares para tiempos de guerra. Esa excepción es justo lo que se pregunta."
+    },
+    {
+      "id": "CE-T1-014",
+      "articulo": "art. 16.1",
+      "explicacion": "La libertad es de los individuos y también de las comunidades, y su único límite es el orden público protegido por la ley —y solo en sus manifestaciones, no en las creencias—."
+    },
+    {
+      "id": "CE-T1-015",
+      "articulo": "art. 16.2",
+      "explicacion": "Es la cara procesal del apartado anterior: sin el derecho a no declarar sobre ideología, religión o creencias, la libertad de creer sería vigilable."
+    },
+    {
+      "id": "CE-T1-016",
+      "articulo": "art. 16.3",
+      "explicacion": "Ni Estado confesional ni laicismo a secas: ninguna confesión tiene carácter estatal, pero los poderes públicos tienen en cuenta las creencias y cooperan con la Iglesia Católica y las demás confesiones."
+    },
+    {
+      "id": "CE-T1-017",
+      "articulo": "art. 17.1",
+      "explicacion": "El artículo empareja libertad y seguridad en un mismo derecho, y para privar de libertad exige dos cosas a la vez: lo previsto en este artículo y lo previsto en la ley."
+    },
+    {
+      "id": "CE-T1-019",
+      "articulo": "art. 17.3",
+      "explicacion": "Tres garantías del detenido: información inmediata y comprensible de sus derechos y de las razones, no estar obligado a declarar, y asistencia de abogado en diligencias policiales y judiciales."
+    },
+    {
+      "id": "CE-T1-020",
+      "articulo": "art. 17.4",
+      "explicacion": "Un mismo apartado guarda dos cosas distintas: el «habeas corpus», para quien está detenido ilegalmente, y la remisión a la ley del plazo máximo de prisión provisional, que la Constitución no fija."
+    },
+    {
+      "id": "CE-T1-021",
+      "articulo": "art. 18.1",
+      "explicacion": "Son tres derechos separados, no uno: honor, intimidad y propia imagen. La intimidad es la única que el texto extiende expresamente al ámbito familiar."
+    },
+    {
+      "id": "CE-T1-023",
+      "articulo": "art. 18.3",
+      "explicacion": "El secreto de las comunicaciones solo cede por resolución judicial. Aquí no hay excepción de flagrante delito, a diferencia de lo que ocurre con el domicilio en el 18.2.",
+      "cifras": {
+        "18": "referencia al propio art. 18.2 CE"
+      }
+    },
+    {
+      "id": "CE-T1-024",
+      "articulo": "art. 18.4",
+      "explicacion": "La Constitución ya previó el dato personal: manda a la ley limitar el uso de la informática para garantizar el honor, la intimidad personal y familiar y el pleno ejercicio de los derechos."
+    },
+    {
+      "id": "CE-T1-025",
+      "articulo": "art. 19",
+      "explicacion": "Elegir residencia y circular por el territorio son derechos de los españoles; entrar y salir, en los términos que fije la ley. Lo que nunca puede limitarse es por motivos políticos o ideológicos."
+    },
+    {
+      "id": "CE-T1-026",
+      "articulo": "art. 20.1",
+      "explicacion": "El apartado tiene cuatro letras: expresión, producción y creación, cátedra e información. La información arrastra un requisito propio que las otras no llevan: ha de ser veraz."
+    },
+    {
+      "id": "CE-T1-027",
+      "articulo": "art. 20.2",
+      "explicacion": "Ningún tipo de censura previa. Lo que sí cabe es el secuestro, pero solo por resolución judicial (20.5): la diferencia está en si hay juez y en si actúa antes o después de difundirse.",
+      "cifras": {
+        "20": "referencia al propio art. 20.5 CE"
+      }
+    },
+    {
+      "id": "CE-T1-028",
+      "articulo": "art. 20.4",
+      "explicacion": "El límite no es genérico: son los derechos del Título y, nombrados expresamente, honor, intimidad, propia imagen y protección de la juventud y de la infancia."
+    },
+    {
+      "id": "CE-T1-029",
+      "articulo": "art. 20.5",
+      "explicacion": "Solo por resolución judicial, y para publicaciones, grabaciones y otros medios de información. Ninguna autoridad administrativa puede acordar el secuestro."
+    },
+    {
+      "id": "CE-T1-030",
+      "articulo": "art. 21",
+      "explicacion": "Reunión pacífica y sin armas, sin autorización previa. En tránsito público y manifestaciones hay comunicación previa —no permiso—, y solo se prohíbe por razones fundadas de alteración del orden público con peligro para personas o bienes."
+    },
+    {
+      "id": "CE-T1-031",
+      "articulo": "art. 22.1",
+      "explicacion": "Un enunciado de cinco palabras que abre un artículo entero: los cuatro apartados siguientes son sus límites. Reconocer el derecho y acotarlo van en el mismo artículo."
+    },
+    {
+      "id": "CE-T1-032",
+      "articulo": "art. 23",
+      "explicacion": "Dos derechos en un artículo: participar en los asuntos públicos (23.1), directamente o por representantes elegidos en elecciones periódicas por sufragio universal, y acceder en igualdad a funciones y cargos públicos (23.2).",
+      "cifras": {
+        "23": "referencia al propio art. 23, apartados 1 y 2"
+      }
+    },
+    {
+      "id": "CE-T1-033",
+      "articulo": "art. 24.1",
+      "explicacion": "Los titulares son «todas las personas», no solo los españoles. Y el resultado prohibido se nombra expresamente: que en ningún caso se produzca indefensión."
+    },
+    {
+      "id": "CE-T1-034",
+      "articulo": "art. 24.2",
+      "explicacion": "Una enumeración larga que conviene repasar entera. Ojo al juez: es el «ordinario predeterminado por la ley». Y la presunción de inocencia es la que cierra la lista."
+    },
+    {
+      "id": "CE-T1-035",
+      "articulo": "art. 25.1",
+      "explicacion": "La legalidad cubre lo penal y lo administrativo: delito, falta o infracción administrativa. Y el momento que cuenta es aquel en que se produce la acción u omisión, no el del juicio."
+    },
+    {
+      "id": "CE-T1-036",
+      "articulo": "art. 25.2",
+      "explicacion": "Es una orientación, no una finalidad única, y no puede consistir en trabajos forzados. El condenado conserva los derechos del Capítulo salvo los limitados por el fallo, el sentido de la pena y la ley penitenciaria."
+    },
+    {
+      "id": "CE-T1-037",
+      "articulo": "art. 25.3",
+      "explicacion": "La palabra clave es «civil»: la prohibición se dirige a la Administración civil, y cubre tanto la privación de libertad directa como la subsidiaria."
+    },
+    {
+      "id": "CE-T1-038",
+      "articulo": "art. 26",
+      "explicacion": "Un artículo de una sola línea con dos ámbitos que hay que recordar juntos: la Administración civil y las organizaciones profesionales.",
+      "cifras": {
+        "1": "'una sola linea', descripcion del articulo, no un dato",
+        "2": "recuento: los ambitos del art. 26 son dos (Administracion civil y organizaciones profesionales)"
+      }
+    },
+    {
+      "id": "CE-T1-039",
+      "articulo": "art. 27.1",
+      "explicacion": "Dos cosas distintas en una frase: el derecho a la educación, que es de todos, y la libertad de enseñanza. Es solo la apertura de un artículo con diez apartados."
+    },
+    {
+      "id": "CE-T1-040",
+      "articulo": "art. 27.3",
+      "explicacion": "Lo que se garantiza es el derecho de los padres, y el criterio son sus propias convicciones. Abarca la formación religiosa y también la moral."
+    },
+    {
+      "id": "CE-T1-041",
+      "articulo": "art. 27.4",
+      "explicacion": "Obligatoria y gratuita, y solo la enseñanza básica: la Constitución no extiende ninguna de las dos notas a los demás niveles educativos."
+    },
+    {
+      "id": "CE-T1-042",
+      "articulo": "art. 27.6",
+      "explicacion": "Pueden crear centros docentes las personas físicas y también las jurídicas, con un único límite expreso: el respeto a los principios constitucionales."
+    },
+    {
+      "id": "CE-T1-043",
+      "articulo": "art. 27.10",
+      "explicacion": "La autonomía universitaria cierra el artículo y se reconoce «en los términos que la ley establezca»: es una autonomía configurada por ley, no ilimitada."
+    },
+    {
+      "id": "CE-T1-044",
+      "articulo": "art. 28.1",
+      "explicacion": "Dos caras del mismo derecho: se puede fundar sindicatos y afiliarse al de su elección, y nadie puede ser obligado a afiliarse. La ley puede limitarlo o exceptuarlo a Fuerzas o Institutos armados y cuerpos con disciplina militar."
+    },
+    {
+      "id": "CE-T1-045",
+      "articulo": "art. 28.2",
+      "explicacion": "La huelga es de los trabajadores y para la defensa de sus intereses. Su ley reguladora debe asegurar el mantenimiento de los servicios esenciales de la comunidad."
+    },
+    {
+      "id": "CE-T1-046",
+      "articulo": "art. 29",
+      "explicacion": "Individual y colectiva, y siempre por escrito. Para Fuerzas o Institutos armados y cuerpos con disciplina militar, solo individualmente y con arreglo a su legislación específica."
+    },
+    {
+      "id": "CE-T1-047",
+      "articulo": "art. 30",
+      "explicacion": "Defender a España es derecho y deber a la vez. La objeción de conciencia no la regula la Constitución: la remite a la ley, que puede imponer una prestación social sustitutoria."
+    },
+    {
+      "id": "CE-T1-048",
+      "articulo": "art. 30.4",
+      "explicacion": "Estos deberes ante grave riesgo, catástrofe o calamidad pública se regulan «mediante ley»: sin ley de por medio no hay deber exigible."
+    },
+    {
+      "id": "CE-T1-049",
+      "articulo": "art. 31.1",
+      "explicacion": "Contribuyen «todos», no solo los españoles. Dos principios inspiradores —igualdad y progresividad— y un límite absoluto: en ningún caso alcance confiscatorio."
+    },
+    {
+      "id": "CE-T1-050",
+      "articulo": "art. 32",
+      "explicacion": "La igualdad que proclama el apartado 1 es jurídica. El apartado 2 deja a la ley las formas, la edad y capacidad, los derechos y deberes de los cónyuges y las causas de separación y disolución."
+    },
+    {
+      "id": "CE-T1-051",
+      "articulo": "art. 33.1",
+      "explicacion": "Propiedad y herencia se reconocen juntas en el mismo apartado, y el artículo no las deja ahí: los apartados 2 y 3 traen la función social y las garantías de la expropiación."
+    },
+    {
+      "id": "CE-T1-052",
+      "articulo": "art. 34",
+      "explicacion": "El fin ha de ser de interés general. Y el apartado 2 remite a los apartados 2 y 4 del art. 22: la fundación con fines o medios delictivos es ilegal y solo un juez puede disolverla."
+    },
+    {
+      "id": "CE-T1-053",
+      "articulo": "art. 35",
+      "explicacion": "Trabajar es deber y derecho a la vez. La remuneración suficiente lo es para sus necesidades y las de su familia, y la única discriminación que el apartado nombra es la de sexo."
+    },
+    {
+      "id": "CE-T1-054",
+      "articulo": "art. 36",
+      "explicacion": "Dos mandatos: la ley regula el régimen jurídico de los Colegios y el ejercicio de las profesiones tituladas, y su estructura y funcionamiento internos han de ser democráticos, como en partidos y sindicatos.",
+      "cifras": {
+        "2": "recuento: los mandatos del art. 36 son dos (regulacion por ley y democracia interna)"
+      }
+    },
+    {
+      "id": "CE-T1-055",
+      "articulo": "art. 37",
+      "explicacion": "Negociación colectiva y fuerza vinculante de los convenios en el 37.1; medidas de conflicto colectivo, de trabajadores y también de empresarios, en el 37.2. Los servicios esenciales reaparecen aquí, como en la huelga.",
+      "cifras": {
+        "37": "referencia al propio art. 37, apartados 1 y 2"
+      }
+    },
+    {
+      "id": "CE-T1-056",
+      "articulo": "art. 38",
+      "explicacion": "No es una libertad sin marco: se reconoce «en el marco de la economía de mercado», y los poderes públicos garantizan su ejercicio y la defensa de la productividad.",
+      "cifras": {
+        "1": "'una libertad sin marco', giro del lenguaje, no un dato"
+      }
+    },
+    {
+      "id": "CE-T1-058",
+      "articulo": "art. 39",
+      "explicacion": "La protección de la familia es social, económica y jurídica. Y la de los hijos es integral: iguales ante la ley con independencia de su filiación, y las madres cualquiera que sea su estado civil."
+    },
+    {
+      "id": "CE-T1-059",
+      "articulo": "art. 40",
+      "explicacion": "La distribución más equitativa de la renta es regional y personal. Y hay un objetivo destacado sobre los demás: «de manera especial», una política orientada al pleno empleo."
+    },
+    {
+      "id": "CE-T1-060",
+      "articulo": "art. 41",
+      "explicacion": "Régimen público y para todos los ciudadanos, con el desempleo citado expresamente. Lo que va por encima —la asistencia y prestaciones complementarias— es libre."
+    },
+    {
+      "id": "CE-T1-061",
+      "articulo": "art. 42",
+      "explicacion": "Dos obligaciones del Estado con los trabajadores españoles en el extranjero: salvaguardar sus derechos económicos y sociales, y orientar la política hacia su retorno.",
+      "cifras": {
+        "2": "recuento: las obligaciones del art. 42 son dos (salvaguardar derechos y orientar al retorno)"
+      }
+    },
+    {
+      "id": "CE-T1-062",
+      "articulo": "art. 43",
+      "explicacion": "El derecho se reconoce en el apartado 1; lo que compete a los poderes públicos es organizar y tutelar la salud pública, con medidas preventivas y con las prestaciones y servicios necesarios."
+    },
+    {
+      "id": "CE-T1-063",
+      "articulo": "art. 44",
+      "explicacion": "Son dos apartados distintos: el acceso a la cultura, a la que todos tienen derecho, y la promoción de la ciencia y la investigación en beneficio del interés general."
+    },
+    {
+      "id": "CE-T1-064",
+      "articulo": "art. 45",
+      "explicacion": "Derecho y deber en la misma frase: disfrutar de un medio ambiente adecuado y conservarlo. Quien lo viole puede afrontar sanciones penales o administrativas y la obligación de reparar el daño causado."
+    },
+    {
+      "id": "CE-T1-065",
+      "articulo": "art. 46",
+      "explicacion": "Alcanza a los bienes «cualquiera que sea su régimen jurídico y su titularidad»: también a los privados. Y el artículo remite a la ley penal para sancionar los atentados contra ese patrimonio."
+    },
+    {
+      "id": "CE-T1-066",
+      "articulo": "art. 47",
+      "explicacion": "El derecho es de «todos los españoles» y a una vivienda digna y adecuada. El artículo añade un mandato menos recordado: la comunidad participa en las plusvalías de la acción urbanística."
+    },
+    {
+      "id": "CE-T1-067",
+      "articulo": "art. 48",
+      "explicacion": "Un artículo de una sola línea. La participación que se promueve es «libre y eficaz», y en cuatro planos: político, social, económico y cultural.",
+      "cifras": {
+        "1": "'una sola linea', descripcion del articulo, no un dato",
+        "4": "recuento: los planos del art. 48 son cuatro (politico, social, economico, cultural)"
+      }
+    },
+    {
+      "id": "CE-T1-068",
+      "articulo": "art. 49",
+      "explicacion": "Lo que se garantiza es ejercer los derechos del Título en condiciones de libertad e igualdad reales y efectivas, más autonomía personal e inclusión social en entornos universalmente accesibles."
+    },
+    {
+      "id": "CE-T1-069",
+      "articulo": "art. 50",
+      "explicacion": "Dos vías distintas: pensiones adecuadas y periódicamente actualizadas, y —con independencia de las obligaciones familiares— un sistema de servicios sociales para salud, vivienda, cultura y ocio.",
+      "cifras": {
+        "2": "recuento: las vias del art. 50 son dos (pensiones y sistema de servicios sociales)"
+      }
+    },
+    {
+      "id": "CE-T1-070",
+      "articulo": "art. 51",
+      "explicacion": "Tres objetos protegidos: seguridad, salud e intereses económicos legítimos. Y con una exigencia de medios que suele caer: mediante procedimientos eficaces."
+    },
+    {
+      "id": "CE-T1-071",
+      "articulo": "art. 52",
+      "explicacion": "No confundir con los Colegios Profesionales del art. 36: aquí son organizaciones que defienden intereses económicos propios. Comparten la exigencia de estructura y funcionamiento democráticos.",
+      "cifras": {
+        "36": "referencia cruzada al art. 36 CE, que existe en el corpus"
+      }
+    },
+    {
+      "id": "CE-T1-072",
+      "articulo": "art. 53.1",
+      "explicacion": "Vinculan a todos los poderes públicos, y su ejercicio solo se regula por ley que respete el contenido esencial. Ese doble candado —reserva de ley y contenido esencial— es lo que se pregunta."
+    },
+    {
+      "id": "CE-T1-074",
+      "articulo": "art. 53.3",
+      "explicacion": "Los principios rectores no se invocan sin más: informan la legislación, la práctica judicial y la actuación de los poderes públicos, y solo pueden alegarse ante la jurisdicción ordinaria según las leyes que los desarrollen."
+    },
+    {
+      "id": "CE-T1-075",
+      "articulo": "art. 54",
+      "explicacion": "Ley orgánica, alto comisionado de las Cortes Generales y designado por ellas. Supervisa la actividad de la Administración y da cuenta a las Cortes Generales."
+    },
+    {
+      "id": "CE-T1-076",
+      "articulo": "art. 55.1",
+      "explicacion": "La lista de suspendibles es cerrada y hay que sabérsela: 17; 18.2 y 18.3; 19; 20.1 a) y d) y 20.5; 21; 28.2 y 37.2. En el estado de excepción se salva el 17.3."
+    },
+    {
+      "id": "CE-T1-077",
+      "articulo": "art. 55.2",
+      "explicacion": "Solo por ley orgánica, con intervención judicial y control parlamentario, y limitada a los arts. 17.2 y 18.2 y 3. El uso injustificado o abusivo produce responsabilidad penal."
+    },
+    {
+      "id": "CE-T1-078",
+      "articulo": "art. 22.2",
+      "explicacion": "Ilegal por el fin o por el medio: basta con que uno de los dos esté tipificado como delito para que la asociación lo sea."
+    },
+    {
+      "id": "CE-T1-079",
+      "articulo": "art. 22.3",
+      "explicacion": "La inscripción es obligatoria, pero «a los solos efectos de publicidad»: no es una autorización ni condiciona la existencia de la asociación."
+    },
+    {
+      "id": "CE-T1-080",
+      "articulo": "art. 22.4",
+      "explicacion": "Ni disolver ni suspender sin juez, y con resolución motivada. Ninguna autoridad gubernativa puede hacerlo por sí misma."
+    },
+    {
+      "id": "CE-T1-081",
+      "articulo": "art. 22.5",
+      "explicacion": "Dos prohibiciones distintas: las secretas y las de carácter paramilitar. Aquí no lo son por su fin, como en el 22.2, sino por su forma.",
+      "cifras": {
+        "22": "referencia al propio art. 22.2 CE"
+      }
+    },
+    {
+      "id": "CE-T1-082",
+      "articulo": "art. 33.2",
+      "explicacion": "La función social no limita la propiedad desde fuera: delimita su contenido, y lo hace de acuerdo con las leyes."
+    },
+    {
+      "id": "CE-T1-083",
+      "articulo": "art. 33.3",
+      "explicacion": "Tres requisitos que van siempre juntos: causa justificada de utilidad pública o interés social, la correspondiente indemnización y conformidad con lo dispuesto por las leyes."
+    },
+    {
+      "id": "CE-T1-084",
+      "articulo": "art. 30.3",
+      "explicacion": "«Podrá establecerse»: es una posibilidad, no un mandato. Y su finalidad son fines de interés general, sin quedar atado al servicio militar."
+    },
+    {
+      "id": "CE-T1-085",
+      "articulo": "art. 31.2",
+      "explicacion": "El 31.1 mira a quién paga; el 31.2, a cómo se gasta: asignación equitativa de los recursos, y programación y ejecución con criterios de eficiencia y economía.",
+      "cifras": {
+        "31": "referencia al propio art. 31, apartados 1 y 2"
+      }
+    },
+    {
+      "id": "CE-T1-086",
+      "articulo": "art. 31.3",
+      "explicacion": "Reserva de ley para prestaciones personales y también patrimoniales. Es más ancho que los tributos: cubre toda prestación de carácter público."
+    }
+  ]
+}
