@@ -2,20 +2,33 @@
 // EL SALUDO DE LA PANTALLA HOY
 //
 // "Hola de nuevo" era correcto y no decía nada. Lo que hace que un Duolingo
-// enganche no es la frase graciosa suelta: es que la frase SABE algo de ti. Por
-// eso aquí no hay un bombo de frases al azar — el saludo se elige por el estado
-// real del opositor (cuánto hace que no viene, si viene por primera vez, si ya
-// ha estudiado hoy) y solo DENTRO de ese estado se rota.
+// enganche no es la frase graciosa suelta: es que la frase SABE algo de ti. Aquí
+// lo que sabe es, sobre todo, QUÉ HORA ES —"¿un café y unos tests?" a las siete
+// de la mañana, "últimos tests y a descansar" a las once de la noche—, y en dos
+// momentos concretos, cuánto hace que no vienes.
 //
-// Dos decisiones de diseño que conviene no deshacer:
+// Cuatro decisiones de diseño que conviene no deshacer:
 //
-// 1. LA ROTACIÓN VA POR DÍA, NO POR VISITA. Si cambiara en cada refresco daría
-//    sensación de ruleta y restaría credibilidad a lo que dice. Cambiando una
-//    vez al día, el saludo parece que te acompaña.
-// 2. NUNCA SE RIÑE AL QUE VUELVE. Una ausencia larga es justo el momento en que
+// 1. LA HORA MANDA EN EL CASO NORMAL. Es lo que cambia varias veces al día y lo
+//    que hace que la app parezca acompañarte en tu jornada, no en tu expediente.
+// 2. DOS ESTADOS LE GANAN A LA HORA: la primera visita y la vuelta tras una
+//    ausencia larga. A quien vuelve después de tres semanas, un "¿sobremesa
+//    productiva?" le suena a que nadie se ha enterado de nada.
+// 3. NUNCA SE RIÑE AL QUE VUELVE. Una ausencia larga es justo el momento en que
 //    el opositor está más cerca de abandonar; el que vuelve tras dos semanas se
 //    encuentra una puerta abierta, no una factura. Es la misma razón por la que
 //    el backlog dejó de llamarse "repasos atrasados".
+// 4. DENTRO DE UNA MISMA FRANJA, LA ROTACIÓN VA POR DÍA, NO POR VISITA. La
+//    frase debe cambiar al pasar de la mañana a la tarde —para eso está—, pero
+//    no en cada refresco dentro de la misma franja: eso daría sensación de
+//    ruleta y restaría credibilidad a lo que dice.
+//
+// LA HORA ES LA DE MADRID, NO LA DEL SERVIDOR. Esta pantalla se renderiza en el
+// servidor (`force-dynamic`), y en Vercel el reloj del servidor va en UTC: sin
+// esto, un "buenos días" de las 08:00 se calcularía como las 06:00 y en verano
+// saldría la frase de madrugada. Se fija `Europe/Madrid` porque el piloto es una
+// oposición española. Queda una desviación conocida de una hora en Canarias; se
+// asume a cambio de no partir la pantalla en cliente ni pedir la ubicación.
 //
 // Sin datos personales: solo se usa cuántos días hace del último evento, que ya
 // está en el log. No hay nombre, ni racha guardada, ni nada que persistir.
@@ -24,38 +37,92 @@
 export type EstadoSaludo = {
   /** Días desde la última respuesta. null si nunca ha practicado. */
   diasSinVenir: number | null;
-  /** Conceptos con absorción ≥ 0,9. */
-  dominados: number;
 };
 
-// Cada bloque rota por día del año. Frases cortas, en voz de profesor cercano:
-// ni animadoras vacías ("¡TÚ PUEDES!") ni frías. Se permite media sonrisa.
+const ZONA = "Europe/Madrid";
+
+/**
+ * Hora (0-23) y un índice de día correlativo, ambos leídos en el huso de
+ * Madrid. El índice de día tiene que salir de la fecha de ALLÍ y no de la del
+ * servidor: entre medianoche y las dos de la madrugada en España, en UTC
+ * todavía es el día anterior, y la frase "del día" cambiaría a destiempo.
+ */
+function enMadrid(ahora: Date): { hora: number; dia: number } {
+  const partes = new Intl.DateTimeFormat("en-GB", {
+    timeZone: ZONA,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    hour12: false,
+  }).formatToParts(ahora);
+  const v = (tipo: string) =>
+    Number(partes.find((p) => p.type === tipo)?.value ?? 0);
+  return {
+    // Algunas versiones de ICU devuelven "24" para la medianoche con hour12:false.
+    hora: v("hour") % 24,
+    dia: Math.floor(Date.UTC(v("year"), v("month") - 1, v("day")) / 86400000),
+  };
+}
+
+// --- Franjas del día --------------------------------------------------------
+// Frases cortas, en voz de profesor cercano: ni animadoras vacías ("¡TÚ
+// PUEDES!") ni frías. Se permite media sonrisa. Ninguna promete resultados ni
+// menciona fechas del proceso selectivo: la convocatoria no fija fecha de examen
+// y no vamos a inventarla en un saludo.
+
+const MADRUGADA = [
+  "¿A estas horas? Va, unas pocas y a la cama",
+  "Modo búho activado",
+  "El temario no duerme, pero tú deberías",
+  "Silencio absoluto: se rinde de maravilla",
+];
+
+const TEMPRANO = [
+  "¿Un café y unos tests?",
+  "Buenos días. Empezar pronto es media batalla",
+  "Antes de que el mundo se ponga en marcha",
+  "Café en mano, arrancamos",
+  "A esta hora no compites con nadie",
+];
+
+const MANANA = [
+  "A media mañana se rinde bien",
+  "Buen momento: la cabeza aún está fresca",
+  "Un rato ahora y el día ya está salvado",
+  "Vamos con lo de hoy",
+  "Media mañana, media hora",
+];
+
+const MEDIODIA = [
+  "Después de comer, poquito y bueno",
+  "Sobremesa productiva",
+  "Justo lo que cabe antes del café",
+  "Media horita y sigues con tu día",
+];
+
+const TARDE = [
+  "La tarde es buena para repasar",
+  "Un rato ahora y luego lo tuyo",
+  "Tarde de temario",
+  "Antes de que se te eche la noche",
+  "Lo hacemos ahora y ya está hecho",
+];
+
+const NOCHE = [
+  "Últimos tests y a descansar",
+  "Cierra el día con unos pocos",
+  "Un último empujón y a la cama",
+  "Se acaba el día: lo justo y a dormir",
+];
+
+// --- Estados que le ganan a la hora ----------------------------------------
+
 const PRIMERA_VEZ = [
   "Empezamos",
   "Bienvenido a bordo",
   "Vamos allá",
   "Aquí empieza lo tuyo",
-];
-
-const HOY_YA_ESTUVO = [
-  "Otra vuelta, entonces",
-  "Ya te echaba de menos",
-  "Repetir es de listos",
-  "Segunda ronda",
-];
-
-const AYER = [
-  "Dos días seguidos",
-  "Aquí sigues",
-  "Puntual",
-  "Vas cogiendo el ritmo",
-];
-
-const POCOS_DIAS = [
-  "Cuánto bueno",
-  "Ya estás aquí",
-  "Retomamos",
-  "Justo a tiempo",
 ];
 
 const MUCHOS_DIAS = [
@@ -65,50 +132,43 @@ const MUCHOS_DIAS = [
   "Te esperaba tu temario",
 ];
 
-// Si ya domina bastante, se le reconoce. Sustituye al saludo por tiempo cuando
-// hay algo de verdad que celebrar: es la única frase que presume, y presume de
-// algo medido, no de la nada.
-const CON_OFICIO = [
-  "El de siempre",
-  "Ya sabes de qué va esto",
-  "A lo tuyo",
-  "Como cada día",
-];
+/** Franjas en horas de Madrid. Los cortes van donde cambia lo que apetece oír. */
+function franja(hora: number): string[] {
+  if (hora < 6) return MADRUGADA;
+  if (hora < 9) return TEMPRANO;
+  if (hora < 13) return MANANA;
+  if (hora < 16) return MEDIODIA;
+  if (hora < 21) return TARDE;
+  return NOCHE;
+}
 
-function delDia(frases: string[], hoy: Date): string {
-  // Día del año: la frase cambia a medianoche y se mantiene toda la jornada.
-  const inicio = Date.UTC(hoy.getUTCFullYear(), 0, 0);
-  const dia = Math.floor((hoy.getTime() - inicio) / 86400000);
+function delDia(frases: string[], dia: number): string {
   return frases[dia % frases.length];
 }
 
-// Umbral de "veterano": con 50 conceptos dominados ya no es alguien que está
-// probando la app, y tratarlo como recién llegado suena a que no le conocemos.
-const VETERANO = 50;
+/** Se considera ausencia larga a partir de una semana sin aparecer. */
+const AUSENCIA_LARGA = 7;
 
 export function saludo(e: EstadoSaludo, ahora: Date = new Date()): string {
-  const d = e.diasSinVenir;
-  if (d === null) return delDia(PRIMERA_VEZ, ahora);
-  // La ausencia manda sobre todo lo demás: es cuando el saludo más importa.
-  if (d >= 7) return delDia(MUCHOS_DIAS, ahora);
-  if (d >= 2) return delDia(POCOS_DIAS, ahora);
-  // Viene hoy o ayer. Si además lleva rodaje, se le habla de tú a tú.
-  if (e.dominados >= VETERANO) return delDia(CON_OFICIO, ahora);
-  return delDia(d === 0 ? HOY_YA_ESTUVO : AYER, ahora);
+  const { hora, dia } = enMadrid(ahora);
+  if (e.diasSinVenir === null) return delDia(PRIMERA_VEZ, dia);
+  if (e.diasSinVenir >= AUSENCIA_LARGA) return delDia(MUCHOS_DIAS, dia);
+  return delDia(franja(hora), dia);
 }
 
 // Frase de apoyo bajo el plan del día. Habla del ESFUERZO, no del resultado:
 // felicitar por un acierto invita a evitar lo difícil, y aquí lo difícil es
-// justo lo que hay que practicar.
+// justo lo que hay que practicar. Esta sí rota solo por día: es el poso del día,
+// no un comentario sobre la hora.
 const ANIMOS = [
   "Poco y a menudo gana a mucho de golpe.",
   "El truco no es estudiar más horas, es no dejar de venir.",
-  "Cada repaso que haces hoy te ahorra media hora en junio.",
+  "Cada repaso de hoy es media hora que no tendrás que echar luego.",
   "Nadie se sabe el temario entero. Se sabe el de hoy.",
   "Lo que hoy cuesta, en dos semanas sale solo.",
   "No hace falta que sea perfecto. Hace falta que sea seguido.",
 ];
 
 export function animo(ahora: Date = new Date()): string {
-  return delDia(ANIMOS, ahora);
+  return delDia(ANIMOS, enMadrid(ahora).dia);
 }

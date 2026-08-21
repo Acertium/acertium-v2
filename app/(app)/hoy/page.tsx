@@ -28,9 +28,9 @@ export default async function HoyPage() {
       ? "Hoy no te toca nada: puedes descansar o hacer un simulacro"
       : `Hoy te tocan ${partes.join(" y ")}`;
 
-  // El saludo lo elige `lib/saludo.ts` a partir del estado real del opositor
-  // (cuánto hace que no viene, si es su primera vez, cuánto domina ya).
-  const hola = saludo({ diasSinVenir: r.diasSinVenir, dominados: r.dominados });
+  // El saludo lo elige `lib/saludo.ts`: manda la hora del día (en Madrid), y
+  // solo la primera visita y una ausencia larga le ganan a la hora.
+  const hola = saludo({ diasSinVenir: r.diasSinVenir });
 
   return (
     <main className="mx-auto max-w-xl px-5 py-8">
