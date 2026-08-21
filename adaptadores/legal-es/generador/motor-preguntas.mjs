@@ -116,8 +116,8 @@ REGLAS DE ANCLAJE (una sola violación invalida la pregunta):
 REGLAS DE CALIDAD:
 4. Exactamente 4 opciones, distintas entre sí, una sola correcta.
 5. Los 3 distractores deben tener LONGITUD Y NIVEL DE DETALLE PARECIDOS a la correcta. Si la correcta es la única larga y detallada, la pregunta se caza sin saber la materia. Son "near-miss": plausibles, del mismo registro, y falsos por un detalle concreto (un plazo cambiado, un sujeto cambiado, una excepción que no existe).
-6. NINGÚN distractor puede ser texto literal del mismo cotejo. Si el artículo enumera varios elementos y usas unos como distractores de otro, las cuatro opciones son verdad y la pregunta no se puede acertar sabiendo la norma. Un distractor se PARECE a la fuente; no ES la fuente.
-7. El enunciado debe identificar de qué habla sin ambigüedad. Si dice "el real decreto" o "el plazo" sin más, y esa expresión encaja con varios artículos, la pregunta tiene varias respuestas verdaderas. Ancla el enunciado con el sujeto o la materia.
+6. Las OTRAS reglas del mismo artículo son buenos distractores —a menudo los mejores, porque son las distinciones que pregunta el tribunal—, PERO solo si el enunciado selecciona una sola de ellas sin lugar a duda. Lo hace un ordinal ("el TERCERO de los requisitos"), un superlativo ("el MAYOR de los tres picos"), una exclusión ("salvo para las personas jurídicas"), una condición ("si se causan con arma de fuego") o el verbo ("¿quién RESUELVE?", frente a quien tramita o propone). Sin ese selector, si el artículo enumera cinco órganos y preguntas "¿qué órgano depende de X?", las cinco son verdad y la pregunta no se puede acertar sabiendo la norma.
+7. El enunciado debe identificar de qué habla sin ambigüedad. Si dice "el real decreto" o "el plazo" sin más, y esa expresión encaja con varios artículos, la pregunta tiene varias respuestas verdaderas. Ancla el enunciado con el sujeto o la materia. Esta regla y la 6 son la misma idea: el enunciado tiene que dejar UNA sola respuesta en pie.
 
 QUÉ PREGUNTAR:
 8. Te doy las preguntas que YA existen para este artículo. Las nuevas deben atacar APARTADOS O ASPECTOS DISTINTOS. No reformules la misma idea con otras palabras: eso no da profundidad, da ruido.
@@ -215,7 +215,7 @@ Objetivo: que los tres distractores tengan longitud y nivel de detalle parecidos
 
 CÓMO SE MIDE ESTO, porque "parecidos" no basta: se cuenta en qué porcentaje de las preguntas la correcta es la opción MÁS LARGA, y empatar cuenta como ser la más larga. Si dejas los tres distractores un poco más cortos que la correcta —que es lo que sale solo al pedir "longitud parecida"— habrás cumplido la letra y el número no se habrá movido. En la mayoría de las preguntas, al menos UN distractor tiene que ser claramente MÁS LARGO que la correcta. El banco actual está en el 23 %; ese es el listón.
 
-NINGÚN distractor puede ser texto literal del cotejo: si lo es, también es verdad y la pregunta deja de tener una sola respuesta buena.
+Los distractores PUEDEN salir de otras reglas del mismo artículo, y suelen ser los mejores. Lo que no puede pasar es que el enunciado deje en pie más de una: si lo hace, no lo arregles tocando los distractores —el enunciado no es tuyo—, deja la pregunta como está.
 
 Devuelve las mismas preguntas, en el mismo orden, con el mismo enunciado, el mismo cotejo, la misma correcta y el mismo indice_correcto. Solo cambian los distractores.`;
 

@@ -50,10 +50,14 @@ Las reglas van **explícitas dentro del prompt**, no referenciadas: el modelo no
 tiene el repo delante. Son las mismas de `contrato-generacion.md`, incluidas las
 dos que salieron de hallazgos recientes:
 
-- **Ningún distractor puede ser texto literal del cotejo** (las 23 preguntas
-  imposibles de acertar que encontró la puerta de unicidad).
-- **El enunciado tiene que anclar de qué habla** — riesgo propio de la inversa,
-  que funciona quitando el sujeto.
+- **El enunciado tiene que dejar UNA sola respuesta en pie** — riesgo propio de la
+  inversa, que funciona quitando el sujeto del enunciado.
+
+Aquí había una segunda regla, «ningún distractor puede ser texto literal del
+cotejo», que **se ha quitado**: al medirla sobre el banco dio 16 marcadas y 16
+falsos positivos. Prohibía justo las mejores preguntas —las que enfrentan dos
+reglas del mismo artículo y las separan con un ordinal, un superlativo o una
+exclusión—. Ver `docs/puerta-de-unicidad.md`.
 
 Y una que importa para no inflar el banco con ruido: **si el artículo no da para
 otro ángulo honesto, devuelve menos preguntas**. Es correcto y esperado.

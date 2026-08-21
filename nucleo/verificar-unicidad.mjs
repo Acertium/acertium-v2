@@ -24,42 +24,42 @@
 // decreto»— vive en el adaptador, no aquí.
 
 import { esEjecucionDirecta } from "./ejecucion-directa.mjs";
-import { normalizarNumeros } from "./verificador-cotejo.mjs";
 
-// Longitud mínima para considerar que un distractor «sale» del cotejo. Por
-// debajo, coincidir es casualidad del idioma: «la ley», «el Estado», «tres años»
-// aparecen en cualquier párrafo sin que eso los haga verdaderos.
-const MIN_DISTRACTOR = 25;
-
-/**
- * UNICIDAD DENTRO DE UNA PREGUNTA.
- *
- * La puerta de contenido exige que la correcta sea cita literal del cotejo. No
- * dice nada de los distractores, y ahí se cuela un test que no se puede acertar:
- * si el cotejo enumera —«de la que dependen los siguientes órganos directivos:
- * la Secretaría General Técnica, la Dirección General de Política Interior,
- * …»— y los distractores son los OTROS elementos de esa misma lista, las cuatro
- * opciones son verdad y el opositor solo puede adivinar.
- *
- * Encontrado en producción: 23 preguntas, 8 de ellas con dos o más distractores
- * literales. La más clara, dos conceptos distintos preguntando «¿qué órgano
- * directivo depende de la Subsecretaría del Interior?» y eligiendo cada uno un
- * elemento distinto de la misma enumeración.
- *
- * Un distractor puede parecerse mucho a la fuente —de eso vive un buen near-miss—
- * pero no puede SER la fuente.
- */
-function distractoresQueTambienSonVerdad(a) {
-  const cotejo = normalizarNumeros(String(a.cotejo ?? a.cotejo_fuente ?? ""));
-  if (!cotejo) return [];
-  const correcta = (a.opciones ?? [])[a.indice_correcto];
-  return (a.opciones ?? []).filter(
-    (o) =>
-      o !== correcta &&
-      String(o).length >= MIN_DISTRACTOR &&
-      cotejo.includes(normalizarNumeros(String(o))),
-  );
-}
+// UNA COMPROBACIÓN QUE ESTUVO AQUÍ Y SE CAYÓ AL MEDIRLA
+// -----------------------------------------------------------------------------
+// Había aquí una segunda regla: «ningún distractor puede ser cita literal del
+// mismo cotejo, porque entonces también es verdad y la pregunta no tiene una
+// sola respuesta buena». Sonaba bien. Al pasarla sobre las 3.434 del banco dio
+// **16 marcadas, y las 16 eran falsos positivos**. Ninguna verdadera.
+//
+// El razonamiento estaba mal de raíz: «el distractor es literal del cotejo» NO
+// implica «el distractor también es verdad». El cotejo es un ARTÍCULO, y un
+// artículo casi siempre contiene varias reglas; el enunciado elige una con un
+// ordinal, un superlativo, un condicional o un verbo, y entonces las otras
+// reglas del mismo artículo son los MEJORES distractores que existen, porque son
+// las distinciones que pregunta el tribunal de verdad:
+//
+//   · «el TERCERO de los requisitos del estado de necesidad» (CP-020-5) — los
+//     otros dos requisitos son literales y son falsos como tercero.
+//   · «la cuota diaria de la multa, SALVO para personas jurídicas» (CP-050) — la
+//     cuota de las personas jurídicas es literal y está excluida por el enunciado.
+//   · «el plazo tras el Protocolo n.º 15» (CEDH-035) — «seis meses» es literal
+//     porque el cotejo es el texto que lo DEROGA. Es un near-miss excelente.
+//   · «¿quién incurre en la MISMA responsabilidad?» (DISC-004) — «los superiores
+//     que la toleren» es literal, y el mismo cotejo dice que esos incurren en
+//     falta de inferior grado.
+//
+// Y el caso que supuestamente la motivaba —MININT-007 vs MININT-023, los dos
+// preguntando «¿qué órgano directivo depende de la Subsecretaría del Interior?»—
+// resultó que esta regla NO lo detectaba: sus distractores no salen de su propio
+// cotejo. Lo detecta la comprobación de abajo, la de enunciados contradictorios.
+// Cero verdaderos positivos, dieciséis falsos, y el ejemplo que la justificaba
+// era de la otra regla.
+//
+// El riesgo real existe, pero no es «el distractor es literal»: es «el enunciado
+// no selecciona UNA sola regla del artículo». Eso es la comprobación de
+// enunciado, no una de distractores. Se quita en vez de dejarla avisando: una
+// puerta que se aprende a ignorar es peor que no tenerla.
 
 // Normalización deliberadamente CONSERVADORA.
 //
@@ -100,24 +100,8 @@ export function verificarUnicidad(lote, banco = []) {
   };
 
   for (const b of banco) anota(b.enunciado, b.correcta, `banco:${b.id}`);
-  for (const a of lote.actividades ?? []) {
-    const correcta = (a.opciones ?? [])[a.indice_correcto];
-    anota(a.enunciado, correcta, `lote:${a.concepto_id}`);
-
-    // Unicidad DENTRO de la pregunta: ningún distractor puede ser cita literal
-    // del mismo cotejo que sostiene la correcta.
-    const falsosDistractores = distractoresQueTambienSonVerdad(a);
-    if (falsosDistractores.length)
-      rechazos.push({
-        tipo: "unicidad-interna",
-        concepto: a.concepto_id,
-        enunciado: String(a.enunciado ?? "").slice(0, 60),
-        motivo:
-          `${falsosDistractores.length} distractor(es) son texto literal del mismo cotejo, ` +
-          `así que también son verdad y la pregunta no tiene una sola respuesta buena: ` +
-          falsosDistractores.map((o) => `«${String(o).slice(0, 50)}…»`).join(", "),
-      });
-  }
+  for (const a of lote.actividades ?? [])
+    anota(a.enunciado, (a.opciones ?? [])[a.indice_correcto], `lote:${a.concepto_id}`);
 
   // Solo interesan los enunciados que aparecen en el LOTE: el banco se compara
   // consigo mismo en la auditoría, no en cada carga.
@@ -198,34 +182,42 @@ if (esEjecucionDirecta(import.meta.url)) {
     { concepto_id: "Z", enunciado: "¿Cuántas franjas tiene la bandera?", opciones: ["tres franjas horizontales"], indice_correcto: 0 },
   ]);
 
-  // El caso real que destapó esta comprobación: los distractores son los otros
-  // elementos de la misma enumeración, así que las cuatro opciones son verdad.
-  caso("distractores sacados de la misma lista", [
+  // EL CASO QUE MOTIVÓ TODO ESTO, y que demuestra qué comprobación lo caza.
+  // Dos conceptos preguntando exactamente lo mismo y respondiendo cada uno un
+  // elemento distinto de la misma enumeración: los dos son verdad, así que el
+  // opositor no puede acertar sabiendo la norma. Lo detecta la comprobación de
+  // ENUNCIADO —no una de distractores: fíjate en que los distractores de cada
+  // uno (Policía, Guardia Civil…) ni siquiera salen de su cotejo.
+  caso("dos conceptos, mismo enunciado, elementos distintos de la misma lista", [
     {
       concepto_id: "MININT-007",
       enunciado: "¿Qué órgano directivo depende de la Subsecretaría del Interior?",
-      opciones: [
-        "La Dirección General de Política Interior",
-        "La Secretaría General Técnica del Ministerio",
-        "La Dirección General de Tráfico",
-        "La Dirección General de Apoyo a Víctimas del Terrorismo",
-      ],
+      opciones: ["La Dirección General de Política Interior", "La Dirección General de la Policía"],
       indice_correcto: 0,
-      cotejo: "de la que dependen los siguientes órganos directivos: 1.º La Secretaría General Técnica. 2.º La Dirección General de Política Interior. 3.º La Dirección General de Tráfico. 4.º La Dirección General de Apoyo a Víctimas del Terrorismo.",
+    },
+    {
+      concepto_id: "MININT-023",
+      enunciado: "¿Qué órgano directivo depende de la Subsecretaría del Interior?",
+      opciones: ["La Secretaría General Técnica", "La Dirección General de la Guardia Civil"],
+      indice_correcto: 0,
     },
   ], []);
 
-  caso("near-miss legítimo: se parece pero NO es la fuente", [
+  // Los distractores SÍ pueden salir del mismo artículo, y de hecho son los
+  // mejores que hay, siempre que el enunciado elija una sola regla. Aquí la
+  // elige un ordinal. Medido sobre el banco: la regla contraria daba 16 falsos
+  // positivos y ningún acierto. Ver la cabecera.
+  caso("distractores del mismo artículo, enunciado que selecciona uno: VÁLIDO", [
     {
-      concepto_id: "OK",
-      enunciado: "¿Qué gravedad tiene el abandono de servicio?",
+      concepto_id: "CP-020-5",
+      enunciado: "¿Cuál es el TERCERO de los requisitos del estado de necesidad?",
       opciones: [
-        "El abandono de servicio, salvo causa de fuerza mayor",
-        "El abandono de servicio, salvo autorización del jefe de turno",
-        "El abandono de servicio, salvo aviso en veinticuatro horas",
+        "Que el necesitado no tenga, por su oficio o cargo, obligación de sacrificarse",
+        "Que el mal causado no sea mayor que el que se trate de evitar",
+        "Que la situación de necesidad no haya sido provocada intencionadamente por el sujeto",
       ],
       indice_correcto: 0,
-      cotejo: "f) El abandono de servicio, salvo causa de fuerza mayor que impida comunicar a un superior dicho abandono.",
+      cotejo: "Primero. Que el mal causado no sea mayor que el que se trate de evitar. Segundo. Que la situación de necesidad no haya sido provocada intencionadamente por el sujeto. Tercero. Que el necesitado no tenga, por su oficio o cargo, obligación de sacrificarse.",
     },
   ], []);
 }

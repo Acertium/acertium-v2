@@ -32,50 +32,77 @@ entero (`banco_enunciados()`, una fila con un jsonb: el tope de PostgREST cuenta
 filas). Misma pregunta y misma respuesta en dos sitios → aviso, no rechazo: no
 engaña a nadie, pero sobra una.
 
-**2. Unicidad dentro de una pregunta.** Ningún distractor puede ser cita literal
-del mismo cotejo que sostiene la correcta.
+## La comprobación que se cayó al medirla
 
-Esta segunda apareció investigando las colisiones y es el hallazgo gordo. Dos
-conceptos preguntaban «¿qué órgano directivo depende de la Subsecretaría del
-Interior?» y cada uno elegía un elemento distinto de **la misma enumeración**:
+Aquí hubo una segunda regla: **«ningún distractor puede ser cita literal del
+mismo cotejo»**. La escribí convencido de que era el hallazgo gordo, y la
+documenté con una cifra —«23 preguntas afectadas»— que **no significaba lo que yo
+decía que significaba**.
 
-```
-cotejo: «…de la que dependen los siguientes órganos directivos:
-         1.º La Secretaría General Técnica.
-         2.º La Dirección General de Política Interior.
-         3.º La Dirección General de Tráfico. …»
+Al pasarla sobre las 3.434 del banco y **leer una por una** las que marcaba: **16
+marcadas, 16 falsos positivos, ningún acierto.**
 
-opciones: las cuatro salen de esa lista → las cuatro son verdad
-```
+El razonamiento estaba mal de raíz. *«El distractor es literal del cotejo»* no
+implica *«el distractor también es verdad»*. El cotejo es un **artículo**, y un
+artículo casi siempre contiene varias reglas. El enunciado elige una, y entonces
+las demás reglas del mismo artículo son los **mejores distractores que existen**,
+porque son justo las distinciones que pregunta el tribunal:
 
-**Es una pregunta que no se puede acertar sabiendo la norma.** Y ninguna puerta
-lo veía, porque tanto la correcta como los distractores son texto literal. Medido
-en el banco: **23 preguntas afectadas (0,7 %), 8 de ellas con dos o más**.
+| Pregunta | Distractor literal | Por qué es falso |
+|---|---|---|
+| «el **tercero** de los requisitos del estado de necesidad» (CP-020-5) | el primero y el segundo | no son el tercero |
+| «la cuota diaria de la multa, **salvo** personas jurídicas» (CP-050) | la cuota de las personas jurídicas | el enunciado la excluye |
+| «el plazo **tras el Protocolo n.º 15**» (CEDH-035) | «en el plazo de seis meses» | el cotejo es el texto que lo deroga |
+| «¿quién **resuelve**?» (PTEMP-016) | la Oficina de Asilo, la Comisión | esas tramitan y proponen |
+| «¿quién incurre en la **misma** responsabilidad?» (DISC-004) | «los superiores que la toleren» | el cotejo dice que esos incurren en falta de inferior grado |
 
-Un buen distractor puede parecerse mucho a la fuente —de eso vive un near-miss—
-pero no puede **ser** la fuente. El self-test cubre las dos caras: rechaza el caso
-de la enumeración y acepta el near-miss legítimo.
+Y el remate: **el caso que yo citaba como ejemplo motivador —MININT-007 vs
+MININT-023— esta regla no lo detectaba.** Sus distractores no salen de su propio
+cotejo. Lo detecta la comprobación 1, la de enunciados.
 
-## Una decisión: la heurística que NO entró
+Cero verdaderos positivos, dieciséis falsos, y el ejemplo que la justificaba era
+de la otra regla. **Se ha quitado**, no degradado a aviso: ya escribí en este
+mismo documento que una puerta que todo el mundo aprende a ignorar es peor que no
+tenerla, y esta habría empezado ignorada.
+
+El riesgo sí existe, pero no es «el distractor es literal»: es **«el enunciado no
+selecciona una sola regla del artículo»**, que es la comprobación 1. En el prompt
+del motor las reglas 6 y 7 se han fundido en esa idea, con los selectores que
+sirven: un ordinal, un superlativo, una exclusión, una condición, el verbo.
+
+## Una decisión anterior, del mismo tipo
 
 Se probó detectar el sujeto genérico por patrón («el real decreto» sin número).
 Marcaba **146 preguntas (4,3 %)**, y al revisar la muestra la mayoría eran sanas:
-«el Reglamento de Armas» o «el reglamento del sistema de acogida de protección
-internacional» sí identifican de qué hablan.
+«el Reglamento de Armas» sí identifica de qué habla. Se descartó por eso.
 
-Con esa precisión sería una puerta que todo el mundo aprende a ignorar, que es
-peor que no tenerla. **La colisión es mejor señal: no sospecha ambigüedad, la
-demuestra.** Y para un generador en lote basta, porque es él quien produce las dos
-preguntas que chocan, así que la contradicción aparece dentro del mismo lote.
+Son el mismo error dos veces: una regla plausible, medida por cuántas cosas
+marca en vez de por cuántas acierta. La diferencia es que la primera la descarté
+antes de montarla y esta la monté, la documenté y la vendí como hallazgo. **La
+cifra que hay que mirar no es cuántas marca: es cuántas de las que marca son de
+verdad.**
+
+## Lo que se arregló en el banco
+
+Los **4 enunciados contradictorios** ya están corregidos (0 restantes). Se tocó
+**solo el enunciado**; la opción correcta y el cotejo son cita literal y no se
+rozaron:
+
+- **ACOG-056 / CPOL-062** — «¿cuándo entra en vigor el real decreto?» × 2, con
+  respuestas opuestas. Cada uno lleva ahora su RD (220/2022 y 555/2011).
+- **PRL-028 / PRLP-030** y **PRL-031 / PRLAGE-015** — ley general frente a norma
+  policial y frente a la de la AGE. Cada uno cita su norma.
+- **MININT-007 / MININT-023** — el único que **no** se arreglaba citando la
+  norma: son del mismo RD 207/2024 y los dos artículos enumeran los mismos cinco
+  órganos, así que el opositor seguiría sin poder elegir. Citar el artículo
+  habría contentado a la puerta dejando la pregunta igual de imposible. Lleva
+  ahora un selector real, sacado del orden que está literal en cada cotejo:
+  «¿cuál figura inmediatamente después de la Secretaría General Técnica?» y
+  «¿qué órgano encabeza la relación?».
 
 ## Lo que queda abierto
 
-- **Las 23 preguntas con distractores verdaderos siguen en el banco.** La puerta
-  impide que entren más; arreglar las que hay es trabajo de contenido aparte.
-- **Los 4 enunciados contradictorios siguen ahí** por la misma razón. Los pares
-  son ACOG-056/CPOL-062 (dos reales decretos distintos), MININT-007/MININT-023
-  (la enumeración de arriba), PRL-028/PRLP-030 y PRL-031/PRLAGE-015 (ley general
-  frente a norma policial).
 - **No se puede correr desde el contenedor remoto**: sin `.env.local` no hay
   acceso a la base, y entonces la puerta compara el lote solo consigo mismo. Lo
-  dice en voz alta en vez de fingir que comprobó.
+  dice en voz alta, y desde ahora **se niega a aplicar** sin banco: una puerta que
+  se desactiva sola cuando falla la red no es una puerta.
