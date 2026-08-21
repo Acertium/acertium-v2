@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "familia": "DPSF",
+    "referencia_boe": "BOE-A-2024-12811",
+    "norma": "Orden INT/632/2024, de 20 de junio, por la que se establecen normas para la aplicación y desarrollo del Reglamento de procesos selectivos y formación de la Policía Nacional",
+    "fecha": "2026-08-22",
+    "motivo": "Tercera familia de la reescritura. DPSF es la de más volumen pendiente (47 de 50) y es peso 4. Material muy numérico —duraciones, notas de corte, niveles de idioma—, así que las explicaciones van a por lo que las cifras solas no dicen: qué se confunde con qué. Sobre todo tres pares: la nota final de Policía (conocimientos + física) frente a la de Inspector (solo conocimientos); las duraciones de módulo de Policía (9-12) frente a Inspector (4-6); y las tres denominaciones del alumnado, que la norma distingue y el tribunal cruza (alumno / en prácticas / adjunto). Hechos ya verificados contra el artículo; cambia qué se enseña con ellos.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-016.json"
+  },
+  "explicaciones": [
+    {
+      "id": "DPSF-001",
+      "articulo": "art. 1",
+      "explicacion": "Esta orden no crea reglas nuevas: baja al detalle del Real Decreto 853/2022. Cuando una pregunta pide una cifra concreta —duración de un curso, nota de corte, nivel de idioma— la respuesta suele estar aquí, no en el reglamento.",
+      "cifras": {
+        "1": "recuento retórico: «una cifra concreta»; no es un dato de la norma"
+      }
+    },
+    {
+      "id": "DPSF-002",
+      "articulo": "art. 3",
+      "explicacion": "El sitio de publicación depende de hacia dónde mira el proceso: al «Boletín Oficial del Estado» cuando se convoca a gente de fuera, y a la Orden General de la Dirección General de la Policía cuando es promoción interna, que es asunto de casa."
+    },
+    {
+      "id": "DPSF-003",
+      "articulo": "art. 4",
+      "explicacion": "Es una horquilla, no un plazo fijo, y solo se amplía por fuerza mayor justificada. Y cuenta hasta la PRIMERA prueba, no hasta el final del proceso."
+    },
+    {
+      "id": "DPSF-004",
+      "articulo": "art. 4",
+      "explicacion": "La antelación mínima se cuenta por cada prueba o ejercicio, no una sola vez al publicar la convocatoria. Es lo que permite organizarse entre pruebas."
+    },
+    {
+      "id": "DPSF-005",
+      "articulo": "art. 4",
+      "explicacion": "El techo es de la FASE de oposición, no del proceso entero: los cursos y el módulo de prácticas van aparte y suman por encima de esos meses."
+    },
+    {
+      "id": "DPSF-006",
+      "articulo": "art. 6",
+      "explicacion": "Llamamiento único: no presentarse excluye, y da igual la causa que se alegue. Solo salvan las excepciones tasadas del artículo 35 del Reglamento — fuera de esas, no hay motivo que valga."
+    },
+    {
+      "id": "DPSF-007",
+      "articulo": "art. 8",
+      "explicacion": "El plazo cuenta desde la celebración de la prueba, no desde que se notifica el acta. Y el escrito va al Tribunal calificador o a la Dirección del centro docente, según dónde ocurriera."
+    },
+    {
+      "id": "DPSF-008",
+      "articulo": "art. 9",
+      "explicacion": "No se puede aprobar de más: el número de aptos no puede superar al de plazas convocadas. Por eso una nota alta no garantiza nada si hay gente por delante. La única excepción es el personal facultativo y técnico."
+    },
+    {
+      "id": "DPSF-009",
+      "articulo": "art. 14",
+      "explicacion": "Lo que se mide son capacidades básicas —fuerza, agilidad, flexibilidad, velocidad y resistencia—, y los ejercicios concretos los fija la convocatoria. Por eso se preguntan las capacidades, no las pruebas."
+    },
+    {
+      "id": "DPSF-010",
+      "articulo": "art. 14",
+      "explicacion": "El certificado médico no es papeleo: no presentarlo excluye del proceso, igual que suspender. Y va ANTES de la prueba física, no después."
+    },
+    {
+      "id": "DPSF-011",
+      "articulo": "art. 14",
+      "explicacion": "Dos condiciones a la vez, y la primera elimina sola: un cero en cualquier ejercicio deja fuera aunque la media diera. Y la media tiene que alcanzar el mínimo — no basta con aprobar la mayoría."
+    },
+    {
+      "id": "DPSF-012",
+      "articulo": "art. 14",
+      "explicacion": "La exención de la física es solo para el acceso a Inspector y solo estando en servicio activo. Quien entra a Policía la hace siempre."
+    },
+    {
+      "id": "DPSF-013",
+      "articulo": "art. 15",
+      "explicacion": "Dos cosas distintas en el mismo reconocimiento: encajar en el cuadro médico de exclusiones del Real Decreto 326/2021 y no dar positivo en drogas. Lo segundo no es una prueba aparte."
+    },
+    {
+      "id": "DPSF-014",
+      "articulo": "art. 16",
+      "explicacion": "Miden aptitud intelectual —inteligencia general y específica—, no personalidad ni actitud. Eso corresponde a la entrevista, que va aparte y con otro criterio."
+    },
+    {
+      "id": "DPSF-015",
+      "articulo": "art. 17",
+      "explicacion": "Un «no apto» en la entrevista excluye del proceso, y por eso el artículo exige motivarlo: no vale la impresión del tribunal sin razonar."
+    },
+    {
+      "id": "DPSF-016",
+      "articulo": "art. 18",
+      "explicacion": "A2 es requisito de ingreso a Policía, no un mérito: sin acreditarlo se queda fuera. Y sube a B1 para el ingreso a Inspector — el nivel acompaña a la escala.",
+      "cifras": {
+        "1": "referencia cruzada al art. 26.1: el nivel B1 exigido para Inspector, que es con lo que se contrasta"
+      }
+    },
+    {
+      "id": "DPSF-017",
+      "articulo": "art. 18",
+      "explicacion": "El tope no sube por acumular idiomas: se valora el nivel alcanzado, no cuántas lenguas se acrediten. Y solo puntúa lo que pase del mínimo exigido — el nivel que da acceso no suma."
+    },
+    {
+      "id": "DPSF-018",
+      "articulo": "art. 19",
+      "explicacion": "Tres fases y sucesivas: oposición, curso de formación y módulo práctico. Aprobar la oposición es el principio del proceso, no el final.",
+      "cifras": {
+        "3": "recuento: las tres fases que enumera el artículo, oposición, curso y módulo práctico"
+      }
+    },
+    {
+      "id": "DPSF-019",
+      "articulo": "art. 20",
+      "explicacion": "Todas son eliminatorias, así que caer en cualquiera cierra el proceso. Y el orden lo decide la convocatoria: no viene fijado aquí."
+    },
+    {
+      "id": "DPSF-020",
+      "articulo": "art. 22",
+      "explicacion": "La nota no basta por sí sola: continúa un rango de aspirantes por plaza que fija la convocatoria. Se compite contra los demás, no contra un aprobado."
+    },
+    {
+      "id": "DPSF-021",
+      "articulo": "art. 23",
+      "explicacion": "En Policía la nota final SUMA conocimientos y aptitud física — la física no es solo apto o no apto, puntúa. Cuidado al cruzarlo con Inspector, donde solo cuenta conocimientos."
+    },
+    {
+      "id": "DPSF-022",
+      "articulo": "art. 24",
+      "explicacion": "Selectivo e irrepetible: el curso no se repite. Y la horquilla la concreta el plan de estudios, no la convocatoria."
+    },
+    {
+      "id": "DPSF-023",
+      "articulo": "art. 24",
+      "explicacion": "El mínimo se exige en CADA asignatura, no de media. Una sola por debajo tumba el curso entero."
+    },
+    {
+      "id": "DPSF-024",
+      "articulo": "art. 25",
+      "explicacion": "El módulo de Policía va de nueve a doce meses, el más largo del reglamento. Conviene fijarlo enfrente del de Inspector, que va de cuatro a seis: es justo el par que se cruza.",
+      "cifras": {
+        "4": "referencia cruzada al art. 35.2, la duración del módulo de Inspector, que es con lo que se contrasta",
+        "6": "la otra mitad de esa misma horquilla del art. 35.2"
+      }
+    },
+    {
+      "id": "DPSF-025",
+      "articulo": "art. 25",
+      "explicacion": "Ojo a las denominaciones, que la norma distingue y el examen cruza: alumno durante el curso, Policía en prácticas durante el módulo, e Inspector adjunto en la promoción interna a Inspector."
+    },
+    {
+      "id": "DPSF-026",
+      "articulo": "art. 26",
+      "explicacion": "B1 para Inspector frente al A2 que basta para Policía: el requisito sube con la escala. Y en los dos casos es requisito de acceso, no mérito.",
+      "cifras": {
+        "2": "referencia cruzada al art. 18.1: el nivel A2 exigido para Policía, que es con lo que se contrasta"
+      }
+    },
+    {
+      "id": "DPSF-027",
+      "articulo": "art. 30",
+      "explicacion": "No es un examen con dos partes: son dos ejercicios que promedian, cuestionario y supuestos prácticos. La nota final es la media aritmética de ambos."
+    },
+    {
+      "id": "DPSF-028",
+      "articulo": "art. 32",
+      "explicacion": "Los supuestos prácticos se puntúan igual que el cuestionario, y con el mismo mínimo para superarlos: no es un ejercicio de menor exigencia por ser práctico."
+    },
+    {
+      "id": "DPSF-029",
+      "articulo": "art. 33",
+      "explicacion": "En Inspector la nota final es SOLO la de conocimientos. Ahí está la diferencia con el ingreso a Policía, que además suma la aptitud física."
+    },
+    {
+      "id": "DPSF-030",
+      "articulo": "art. 34",
+      "explicacion": "Son dos cursos, no uno, y cada uno selectivo e irrepetible por separado. La duración de cada uno la fija el plan de estudios."
+    },
+    {
+      "id": "DPSF-031",
+      "articulo": "art. 34",
+      "explicacion": "El orden es obligatorio: sin superar el primer curso no se accede al segundo. Y en cada uno hay que alcanzar el mínimo en todas las asignaturas, no de media."
+    },
+    {
+      "id": "DPSF-032",
+      "articulo": "art. 35",
+      "explicacion": "El módulo de Inspector va de cuatro a seis meses, menos de la mitad que el de Policía, que llega a doce. Es la comparación que se pregunta, así que conviene aprenderlos juntos.",
+      "cifras": {
+        "12": "referencia cruzada al art. 25.2, el tope del módulo de Policía, que es con lo que se contrasta",
+        "2": "«menos de la mitad»: comparación entre las dos horquillas, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "DPSF-033",
+      "articulo": "art. 35",
+      "explicacion": "Inspectores en prácticas es la denominación del INGRESO. En la promoción interna a esa misma categoría el nombre cambia: misma categoría, distinta puerta, distinta denominación."
+    },
+    {
+      "id": "DPSF-034",
+      "articulo": "art. 36",
+      "explicacion": "El idioma también se gradúa por categoría en la antigüedad selectiva: el nivel más bajo para subir a Oficial de Policía y el siguiente para todas las demás. Coincide con la escala del ingreso."
+    },
+    {
+      "id": "DPSF-035",
+      "articulo": "art. 37",
+      "explicacion": "La primera fase no es una prueba, es la calificación previa. Después vienen pruebas de aptitud, entrevista, curso de formación específica y —solo cuando proceda— el módulo práctico.",
+      "cifras": {
+        "1": "recuento retórico: «la primera fase», referido al orden de las que enumera el artículo"
+      }
+    },
+    {
+      "id": "DPSF-036",
+      "articulo": "art. 41",
+      "explicacion": "Selectivo e irrepetible, igual que los cursos de ingreso, y con la duración fijada por el plan de estudios. Que sea de capacitación no lo hace un trámite."
+    },
+    {
+      "id": "DPSF-037",
+      "articulo": "art. 42",
+      "explicacion": "Hay una regla general y una excepción, y la excepción es la que se pregunta: el ascenso a Inspector tiene un módulo más largo que el resto de categorías."
+    },
+    {
+      "id": "DPSF-038",
+      "articulo": "art. 42",
+      "explicacion": "Aquí la denominación no es «en prácticas»: esa corresponde al ingreso. El nombre distinto marca que se ha llegado por promoción interna."
+    },
+    {
+      "id": "DPSF-039",
+      "articulo": "art. 44",
+      "explicacion": "El concurso va PRIMERO, antes que la oposición. Conviene fijarlo enfrente del acceso del personal facultativo y técnico, donde el orden se invierte."
+    },
+    {
+      "id": "DPSF-040",
+      "articulo": "art. 46",
+      "explicacion": "La entrevista no está siempre: solo entra en los ascensos a Comisario y Comisario Principal. En las demás categorías la oposición son psicotécnicos y conocimientos."
+    },
+    {
+      "id": "DPSF-041",
+      "articulo": "art. 56",
+      "explicacion": "Aquí la oposición va ANTES que el concurso, al revés que en la promoción interna. Esa inversión es justo lo que se pregunta cuando se comparan las dos vías."
+    },
+    {
+      "id": "DPSF-042",
+      "articulo": "art. 57",
+      "explicacion": "La oposición no cierra el número final: se puede seleccionar por encima de las plazas convocadas, por especialidad. Quien decide después es el concurso."
+    },
+    {
+      "id": "DPSF-043",
+      "articulo": "art. 60",
+      "explicacion": "Hay una exención importante: el funcionario de carrera de la Policía Nacional no hace este curso, porque va precisamente de la estructura, las funciones y el régimen estatutario del cuerpo, que ya conoce."
+    },
+    {
+      "id": "DPSF-044",
+      "articulo": "art. 61",
+      "explicacion": "El módulo es selectivo: no es un trámite que siga automáticamente al curso de especialización, se puede no superar."
+    },
+    {
+      "id": "DPSF-045",
+      "articulo": "art. 64",
+      "explicacion": "Prioritarios son solo el francés y el inglés, y basta con cualquiera de ellos a elección del aspirante. No hay que acreditar los dos."
+    },
+    {
+      "id": "DPSF-046",
+      "articulo": "art. 64",
+      "explicacion": "Los idiomas de interés son VOLUNTARIOS: suman, no se exigen. No confundirlos con los prioritarios, que sí son requisito de acceso."
+    },
+    {
+      "id": "DPSF-047",
+      "articulo": "art. 65",
+      "explicacion": "Lo que se pregunta son las etiquetas del Marco Común Europeo, no los niveles: principiante, elemental, intermedio, intermedio alto, dominio operativo eficaz y maestría."
+    }
+  ]
+}

@@ -35,25 +35,66 @@ function esNumeroPalabra(t) {
 
 // Convierte las palabras-número de un texto a dígitos, dejando el resto igual.
 // "en el plazo máximo de setenta y dos horas" -> "en el plazo maximo de 72 horas"
+//
+// CUIDADO CON LA «Y», que aquí hubo un fallo de verdad. La versión anterior
+// sumaba CUALQUIER racha de palabras-número unidas por «y», y en la ley la «y»
+// casi nunca es una suma: es el conector de un RANGO.
+//
+//   "entre nueve y doce meses"   →  "entre 21 meses"     ✗ (art. 25 Orden INT/632/2024)
+//   "entre cuatro y seis meses"  →  "entre 10 meses"     ✗ (art. 35 de la misma)
+//   "de uno a tres años"         →  bien, porque usa «a» y no «y»
+//
+// El falso positivo se ve —una cifra que nadie escribió aparece de la nada— y
+// eso fue lo que lo destapó: la puerta reclamaba un «9» que sí estaba en el
+// artículo. Lo peligroso es el caso contrario, que no se ve: dos rangos
+// distintos que sumen lo mismo cotejaban como iguales. "entre cuatro y seis" y
+// "entre uno y nueve" son los dos 10, así que una explicación con el rango
+// equivocado habría pasado la puerta de grounding sin que saltara nada.
+//
+// La regla real del español es estrecha y solo tiene dos formas aditivas:
+//   · CENTENA seguida del resto, sin «y»:  "ciento veinte", "doscientos cincuenta y dos"
+//   · DECENA + «y» + UNIDAD:               "setenta y dos", "noventa y nueve"
+// Fuera de ahí, dos números seguidos son dos números, no su suma.
+const esDecena = (t) => Object.prototype.hasOwnProperty.call(DECENAS, t);
+const esCentena = (t) => Object.prototype.hasOwnProperty.call(CENTENAS, t);
+const esUnidad = (t) => esNumeroPalabra(t) && VALOR[t] >= 1 && VALOR[t] <= 9;
+
 export function normalizarNumeros(texto) {
   const tokens = sinAcentos(String(texto).toLowerCase()).match(/\d+|[a-zñ]+/g) || [];
   const out = [];
   let i = 0;
   while (i < tokens.length) {
-    if (esNumeroPalabra(tokens[i])) {
-      let suma = 0, j = i;
-      while (j < tokens.length) {
-        if (esNumeroPalabra(tokens[j])) { suma += VALOR[tokens[j]]; j++; continue; }
-        // "y" solo conecta si va seguida de otra palabra-número (setenta y dos)
-        if (tokens[j] === 'y' && j + 1 < tokens.length && esNumeroPalabra(tokens[j + 1])) { j++; continue; }
-        break;
-      }
-      out.push(String(suma));
-      i = j;
-    } else {
+    if (!esNumeroPalabra(tokens[i])) {
       out.push(tokens[i]);
       i++;
+      continue;
     }
+
+    let suma = VALOR[tokens[i]];
+    let j = i + 1;
+
+    // "ciento veinte", "doscientos cincuenta y dos": la centena arrastra lo que
+    // venga detrás si es menor, y sin «y» de por medio.
+    if (esCentena(tokens[i]) && j < tokens.length && esNumeroPalabra(tokens[j]) && VALOR[tokens[j]] < 100) {
+      suma += VALOR[tokens[j]];
+      j++;
+    }
+
+    // "setenta y dos": solo si lo acumulado acaba en decena y lo que sigue a la
+    // «y» es una unidad. Un rango —"nueve y doce"— no cumple ninguna de las dos.
+    const ultima = tokens[j - 1];
+    if (
+      esDecena(ultima) &&
+      tokens[j] === 'y' &&
+      j + 1 < tokens.length &&
+      esUnidad(tokens[j + 1])
+    ) {
+      suma += VALOR[tokens[j + 1]];
+      j += 2;
+    }
+
+    out.push(String(suma));
+    i = j;
   }
   return out.join(' ');
 }
@@ -160,6 +201,19 @@ if (esEjecucionDirecta(import.meta.url)) {
   comprobar('«setenta y dos» → 72', normalizarNumeros('setenta y dos horas'), '72 horas');
   comprobar('«veinticuatro» → 24', normalizarNumeros('veinticuatro horas'), '24 horas');
   comprobar('la «y» suelta no se come', normalizarNumeros('policía y guardia'), 'policia y guardia');
+
+  // La «y» de un RANGO no es una suma. Cicatriz del 22/08/2026: la versión
+  // anterior sumaba cualquier racha unida por «y», así que "entre nueve y doce
+  // meses" (art. 25 Orden INT/632/2024) salía como "entre 21 meses". El falso
+  // positivo se veía; el peligroso era el mudo: "entre cuatro y seis" y "entre
+  // uno y nueve" valían los dos 10 y cotejaban como iguales.
+  comprobar('rango: «nueve y doce» NO son 21', normalizarNumeros('entre nueve y doce meses'), 'entre 9 y 12 meses');
+  comprobar('rango: «cuatro y seis» NO son 10', normalizarNumeros('entre cuatro y seis meses'), 'entre 4 y 6 meses');
+  comprobar('rango con «a» (nunca falló)', normalizarNumeros('de uno a tres años'), 'de 1 a 3 anos');
+  comprobar('compuesto real: decena + y + unidad', normalizarNumeros('noventa y nueve'), '99');
+  comprobar('centena arrastra: «ciento veinte»', normalizarNumeros('ciento veinte'), '120');
+  comprobar('centena + decena + y + unidad', normalizarNumeros('doscientos cincuenta y dos'), '252');
+  comprobar('dos números sueltos siguen sueltos', normalizarNumeros('dos y tres'), '2 y 3');
 
   console.log('== modo normal (por defecto): tildes y caja se ignoran ==');
   const ley = { tipo: 'test', concepto_id: 'CE-001', cotejo: 'en el plazo máximo de setenta y dos horas' };
