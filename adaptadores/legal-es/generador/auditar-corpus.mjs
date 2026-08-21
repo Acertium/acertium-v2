@@ -59,28 +59,38 @@ import { esEjecucionDirecta } from "../../../nucleo/ejecucion-directa.mjs";
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), "../../..");
 const LOTES = join(RAIZ, "adaptadores/legal-es/generador/lotes");
 
-// familia → sección del Código 600. Esa carpeta es la copia del Código que
-// consulta cualquier agente sin abrir un PDF (ver ingestor.py --codigo).
-const SECCION = {
-  CC: 2, CE: 3, TC: 4, DP: 5, EAES: 6, FE: 7, AGE: 8, GOB: 9, EBEP: 10,
-  MININT: 11, DGP: 12, PPN: 13, DISC: 14, SEL: 15, DPSF: 16, UNI: 17, CDPN: 18,
-  FCS: 19, CPOL: 20, PJ: 21, EXT: 22, EXTR: 23, UE: 24, ASI: 25, ASIR: 26,
-  APAT: 27, PTEMP: 28, ACOG: 29, SP: 30, SC: 31, IC: 32, ICR: 33,
-  // §34 (familia ENC) NO entra: publica la Estrategia Nacional de
-  // Ciberseguridad como ANEXO con capítulos, sin un solo artículo que ingerir.
-  CP: 35, LOPJ: 36, LEC: 37, HC: 38, MF: 39, VIC: 40, VG: 41, IG: 42,
-  // CPODIO comparte sección con CP: es el bloque de delitos de odio (arts. 510,
-  // 510 bis, 511 y 512) que el tema 30 necesita citado como Código Penal. Vive en
-  // familia aparte de ETICA porque ETICA mezcla CE, UNESCO, RAE y Ley 19/2007 y
-  // no puede apuntar a una sola sección; separarlo es lo que permite auditarlo.
-  CPODIO: 35,
-  LGTBI: 43, PRL: 44, PRLP: 45, PRLAGE: 46, LOPD: 47, LOPD7: 48, RDP: 49,
-  ARM: 50, RGV: 51, TRAF: 52, VCD: 53,
-  // §54 a §59 NO son secciones del Código 600: son normas que el temario necesita y
-  // que la recopilación no incluye, ingeridas aparte desde su texto consolidado.
-  // Ver "Secciones que no vienen del Código 600" en corpus/README.md.
-  RSP: 54, DEP: 55, EPI: 56, EQT: 57, ITC: 58, OMS: 59,
-};
+// FAMILIA → SECCIÓN, resuelto contra el registro y el índice del corpus.
+//
+// Aquí había un mapa escrito a mano —`{CC: 2, CE: 3, TC: 4, …}`, 54 familias—
+// que duplicaba lo que `registro-materias.json` ya declara. Duplicar un dato es
+// firmar que se van a desincronizar, y se desincronizaron: el mapa se quedó en
+// 54 de 78 familias y el auditor dejaba 756 cotejos «no auditables» sin que la
+// cifra alarmara a nadie, porque salía en el informe como una categoría más.
+//
+// El registro dice, por familia, su materia y su referencia BOE. El índice del
+// corpus dice, por sección, lo mismo. Con eso se enlaza sin escribir números:
+// las 78 familias resuelven. Añadir una norma nueva ya no pide tocar esto.
+//
+// Casos que antes necesitaban comentario y ahora salen solos:
+//   · CPODIO comparte sección con CP (delitos de odio citados como Código Penal):
+//     misma referencia BOE en el registro, misma sección.
+//   · ENC (§34) estaba excluida a mano por no tener artículos. Sí los tiene
+//     —capítulos—, desde que se rellenó la sección, que estaba vacía.
+const registro = JSON.parse(
+  readFileSync(join(RAIZ, "adaptadores/legal-es/generador/registro-materias.json"), "utf8"),
+);
+const indice = JSON.parse(
+  readFileSync(join(RAIZ, "datos/legal-es/boe-600-pn/corpus/indice.json"), "utf8"),
+).normas.filter((n) => n.articulos > 0);
+
+const SECCION = {};
+for (const [fam, e] of Object.entries(registro)) {
+  if (fam.startsWith("_")) continue;
+  const s =
+    (e.materia && indice.find((n) => n.materia === e.materia)) ||
+    (e.referencia_boe && indice.find((n) => n.referencia_boe === e.referencia_boe));
+  if (s) SECCION[fam] = s.seccion;
+}
 
 // Normalización CONSERVADORA: unifica comillas/guiones tipográficos y espacios.
 // No toca acentos, mayúsculas NI puntuación: el cotejo ha de ser literal.
@@ -107,6 +117,23 @@ const ORDINAL = {
 // de compararlas contra un artículo que no les toca: "D.A. 1ª" NO es el art. 1.
 // Se abrevian de muchas formas: "D.A. 1ª", "DA 7ª", "D.F.", "disp. final 3ª".
 const RE_NO_ARTICULO = /^\s*(d\.?\s?[atdf]\.?(\s|\d|$)|disp\.|disposici[oó]n|pre[aá]mbulo|anexo)/i;
+
+// Busca el epígrafe en la sección. EXACTO PRIMERO, y esto no es un detalle:
+// las secciones que no se dividen en artículos tienen `ref` textual —"Cap. 2 —
+// Ciberamenazas", "OB 2.4.1 — palabras agudas", "Manual II, tema 8, apartado 1",
+// "P15 art. 4"—, y `refDe()` les sacaría el primer número que encuentre ("2",
+// "4") y buscaría un artículo que no existe. En esas secciones el `articulo` que
+// cita la actividad ES la clave del corpus, literalmente, así que probar el
+// acceso directo antes de interpretar nada resuelve el caso entero.
+//
+// Para las secciones articuladas no cambia nada: "art. 7" nunca es igual a la
+// clave "7", así que el acceso directo falla y se sigue como siempre.
+function buscar(mapa, articulo) {
+  const directo = mapa.get(String(articulo ?? "").trim());
+  if (directo != null) return { ref: String(articulo).trim(), texto: directo };
+  const ref = refDe(articulo);
+  return ref ? { ref, texto: mapa.get(ref) } : null;
+}
 
 function refDe(articulo) {
   const s = String(articulo ?? "");
@@ -164,9 +191,9 @@ export function auditarLote(lote, nombre = "(lote)") {
       r.familiasSinCorpus.add(fam);
       continue;
     }
-    const ref = refDe(act.articulo);
-    if (!ref) { r.noAuditable++; continue; }
-    const texto = corpus[fam].get(ref);
+    const hit = buscar(corpus[fam], act.articulo);
+    if (!hit) { r.noAuditable++; continue; }
+    const { ref, texto } = hit;
     const cotejo = norm(act.cotejo);
     if (texto && norm(texto).includes(cotejo)) { r.ok++; continue; }
 
@@ -194,10 +221,9 @@ export function auditarLote(lote, nombre = "(lote)") {
   for (const [art, txt] of Object.entries(lote.fuentes || {})) {
     const fam = ((lote.conceptos || [])[0] || {}).id?.split("-")[0];
     if (!corpus[fam]) continue;
-    const ref = refDe(art);
-    if (!ref) continue;
-    const texto = corpus[fam].get(ref);
-    if (!texto) continue;
+    const hit = buscar(corpus[fam], art);
+    if (!hit?.texto) continue;
+    const texto = hit.texto;
     const T = normalizarNumeros(texto);
     if (T.includes(normalizarNumeros(txt))) continue;
     const trozos = String(txt).split(/(?<=[.;:])\s+/).filter((s) => s.split(/\s+/).length >= 8);
