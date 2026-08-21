@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "familia": "MF",
+    "referencia_boe": "BOE-A-1982-837",
+    "norma": "Ley 50/1981, de 30 de diciembre, por la que se regula el Estatuto Orgánico del Ministerio Fiscal",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 5 explicaciones de MF abrían con «El artículo N fija/enumera/desarrolla…». Lo que se pregunta de esta ley es la posición institucional del fiscal: que defiende la legalidad SIN formar parte del Poder Judicial, y que su imparcialidad no es neutralidad — defiende intereses concretos, pero con objetividad. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-039.json"
+  },
+  "explicaciones": [
+    {
+      "id": "MF-001",
+      "articulo": "art. 1",
+      "explicacion": "Fíjate en la paradoja que encierra la misión: el fiscal vela por la INDEPENDENCIA de los Tribunales sin ser parte de ellos. Y actúa tanto de oficio como a petición de los interesados, así que no depende de que alguien se lo pida."
+    },
+    {
+      "id": "MF-006",
+      "articulo": "art. 3",
+      "explicacion": "De la lista, las que se olvidan son las que no son estrictamente penales: velar por el respeto de las INSTITUCIONES CONSTITUCIONALES y de los derechos fundamentales, y actuar en defensa de la independencia de jueces y tribunales. Y en lo penal ejercita acciones penales Y civiles dimanantes del delito."
+    },
+    {
+      "id": "MF-013",
+      "articulo": "art. 6",
+      "explicacion": "La legalidad no obliga a ejercitar lo que se le mande: si el fiscal estima improcedente la acción, la ley le da salida formal —las facultades del artículo 27— en lugar de dejarle solo obedecer o desobedecer. Ahí está la diferencia con la simple jerarquía."
+    },
+    {
+      "id": "MF-014",
+      "articulo": "art. 7",
+      "explicacion": "Imparcialidad aquí no significa neutralidad: el fiscal DEFIENDE intereses que le están encomendados, y aun así ha de hacerlo con plena objetividad e independencia. Confundirla con no tomar partido es el error de concepto."
+    },
+    {
+      "id": "MF-019",
+      "articulo": "art. 12",
+      "explicacion": "Ojo a las piezas que sorprenden en la lista: la Fiscalía Jurídico Militar, la del Tribunal de Cuentas —que se rige por la Ley Orgánica de ese Tribunal— y la Unidad de Protección de Datos. Y el Consejo Fiscal y la Junta de Fiscales de Sala son órganos colegiados, no fiscalías."
+    }
+  ]
+}

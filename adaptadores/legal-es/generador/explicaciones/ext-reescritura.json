@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "familia": "EXT",
+    "referencia_boe": "BOE-A-2000-544",
+    "norma": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). La explicación pendiente de EXT era de las más pobres del banco: dos frases que repetían la cifra del enunciado. Se reescribe marcando dónde están los saltos de la escala y la excepción del transportista, que es lo que el tribunal usa. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-022.json"
+  },
+  "explicaciones": [
+    {
+      "id": "EXT-016",
+      "articulo": "art. 55",
+      "explicacion": "Los tramos encajan sin hueco y por ahí se pregunta: hasta quinientos euros las leves, de quinientos uno a diez mil las graves, y desde diez mil uno las muy graves. Y hay muy graves que se salen de la escala — las del transportista se calculan POR CADA VIAJERO o por viaje realizado."
+    }
+  ]
+}

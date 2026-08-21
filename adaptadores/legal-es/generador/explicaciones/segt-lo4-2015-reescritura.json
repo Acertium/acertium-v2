@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "familia": "SEGT",
+    "referencia_boe": "BOE-A-2015-3442",
+    "norma": "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las explicaciones de SEGT abrían con «El artículo N fija/concreta/enumera…». Lo que se pregunta de estos preceptos no es la lista sino la CALIFICACIÓN: que la seguridad ciudadana se define como bien jurídico de carácter colectivo y como requisito del ejercicio de los demás derechos, y que en el artículo 4 conviven principios de actuación con una regla de interpretación pro derechos fundamentales. No se añade ningún dato.",
+    "nota_articulo": "NOTA sobre el campo `articulo` de este fichero: las familias SEGT y ETICA son TRANSVERSALES — sus conceptos cuelgan de normas distintas, y en `concepto_fuente` el artículo se guarda con la norma delante («LO 4/2015 — art. 1.1»). Como la puerta busca el texto en UNA sección de corpus, aquí el fichero se parte por norma y el campo `articulo` lleva solo el número, que es lo que el resolutor necesita. Es una clave de búsqueda para la puerta: NO se toca `concepto_fuente`, que sigue guardando la referencia completa.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-031.json"
+  },
+  "explicaciones": [
+    {
+      "id": "SEGT-003",
+      "articulo": "art. 1",
+      "explicacion": "La calificación es lo que se pregunta: bien jurídico de carácter COLECTIVO, y requisito indispensable para el pleno ejercicio de los derechos fundamentales — no un derecho más que compita con ellos. Y su salvaguarda es función del Estado, con sujeción a la Constitución y a las leyes."
+    },
+    {
+      "id": "SEGT-005",
+      "articulo": "art. 1",
+      "explicacion": "El objeto material tiene dos mitades y el enunciado suele dar solo la primera: proteger personas y bienes Y mantener la tranquilidad de los ciudadanos. Y lo que la ley regula no es un poder único sino un conjunto plural y diversificado de actuaciones de distinta naturaleza.",
+      "cifras": {
+        "2": "recuento: las dos mitades del objeto material que enuncia el apartado, protección de personas y bienes y mantenimiento de la tranquilidad"
+      }
+    },
+    {
+      "id": "SEGT-006",
+      "articulo": "art. 4",
+      "explicacion": "En este apartado no solo hay principios: hay además una regla de interpretación que se olvida y que juega a favor del ciudadano — los capítulos III y V se aplican del modo MÁS FAVORABLE a los derechos de reunión y manifestación, a las libertades de expresión e información, a la libertad sindical y al derecho de huelga."
+    }
+  ]
+}

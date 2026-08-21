@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "familia": "SEGT",
+    "referencia_boe": "BOE-A-2014-3649",
+    "norma": "Ley 5/2014, de 4 de abril, de Seguridad Privada",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). La explicación pendiente de SEGT sobre los fines de la seguridad privada abría con «El artículo 4 enumera los fines». Lo que se enseña ahora es la posición subordinada que la ley le asigna: complementa el MONOPOLIO estatal de la seguridad y actúa como recurso externo de la seguridad pública, no como alternativa. No se añade ningún dato.",
+    "nota_articulo": "NOTA sobre el campo `articulo` de este fichero: las familias SEGT y ETICA son TRANSVERSALES — sus conceptos cuelgan de normas distintas, y en `concepto_fuente` el artículo se guarda con la norma delante («LO 4/2015 — art. 1.1»). Como la puerta busca el texto en UNA sección de corpus, aquí el fichero se parte por norma y el campo `articulo` lleva solo el número, que es lo que el resolutor necesita. Es una clave de búsqueda para la puerta: NO se toca `concepto_fuente`, que sigue guardando la referencia completa.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-030.json"
+  },
+  "explicaciones": [
+    {
+      "id": "SEGT-010",
+      "articulo": "art. 4",
+      "explicacion": "La letra que ordena todo el artículo es la última: la seguridad privada COMPLEMENTA el monopolio de la seguridad que corresponde al Estado, integrándose como recurso externo de la seguridad pública. Por eso puede contribuir a garantizarla y aportar información, pero nunca sustituirla."
+    }
+  ]
+}

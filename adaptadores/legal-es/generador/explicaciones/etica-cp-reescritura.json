@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "familia": "ETICA",
+    "referencia_boe": "BOE-A-1995-25444",
+    "norma": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). La explicación pendiente de ETICA sobre la agravante de discriminación abría citando el artículo. Lo que se enseña ahora es el inciso final, que es exactamente lo que decide la pregunta: la agravante se aplica aunque la condición no concurra realmente en la víctima. No se añade ningún dato.",
+    "nota_articulo": "NOTA sobre el campo `articulo` de este fichero: las familias SEGT y ETICA son TRANSVERSALES — sus conceptos cuelgan de normas distintas, y en `concepto_fuente` el artículo se guarda con la norma delante («LO 4/2015 — art. 1.1»). Como la puerta busca el texto en UNA sección de corpus, aquí el fichero se parte por norma y el campo `articulo` lleva solo el número, que es lo que el resolutor necesita. Es una clave de búsqueda para la puerta: NO se toca `concepto_fuente`, que sigue guardando la referencia completa.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-035.json"
+  },
+  "explicaciones": [
+    {
+      "id": "ETICA-011",
+      "articulo": "art. 22",
+      "explicacion": "El inciso final es lo que se pregunta: la agravante se aplica CON INDEPENDENCIA de que la condición concurra efectivamente en la persona atacada. Lo que se castiga es el móvil del autor, no un rasgo real de la víctima — agredir a quien se cree de otra etnia agrava igual aunque no lo sea."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "familia": "VCD",
+    "referencia_boe": "BOE-A-2015-13138",
+    "norma": "Orden INT/2573/2015, de 30 de noviembre, por la que se determinan las especificaciones técnicas de los vehículos para el traslado de detenidos, presos y penados",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). La explicación pendiente de VCD parafraseaba el artículo. Se reescribe marcando el punto que decide la pregunta: dónde está exactamente la frontera de las nueve plazas y qué se cuenta dentro de ellas. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-053.json"
+  },
+  "explicaciones": [
+    {
+      "id": "VCD-005",
+      "articulo": "art. 2",
+      "explicacion": "La frontera está en nueve plazas, y lo que se pregunta es qué entra en el recuento: el CONDUCTOR Y LA ESCOLTA cuentan, no solo los trasladados. Hasta nueve rige el anexo I; de más de nueve, el anexo II."
+    }
+  ]
+}

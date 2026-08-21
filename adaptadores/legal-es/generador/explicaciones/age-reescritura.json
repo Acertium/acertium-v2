@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "familia": "AGE",
+    "referencia_boe": "BOE-A-2015-10566",
+    "norma": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 3 explicaciones de AGE abrían con «El artículo N fija/define/dibuja…». Lo que se pregunta aquí es la frontera entre categorías que suenan igual: principios del apartado 1 frente a principios del apartado 2 en el artículo 3, y sobre todo órgano SUPERIOR frente a órgano DIRECTIVO en el artículo 55. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-008.json"
+  },
+  "explicaciones": [
+    {
+      "id": "AGE-001",
+      "articulo": "art. 3",
+      "explicacion": "Cuidado con mezclar las dos listas del apartado: los principios CONSTITUCIONALES de organización van primero —eficacia, jerarquía, descentralización, desconcentración y coordinación— y solo después viene el catálogo de principios de actuación, más largo, que empieza en el servicio efectivo a los ciudadanos."
+    },
+    {
+      "id": "AGE-014",
+      "articulo": "art. 20",
+      "explicacion": "No basta con reunirse: para ser órgano colegiado hace falta creación FORMAL, tres o más personas y funciones administrativas atribuidas. Y su norma de creación debe fijar de antemano fines, dependencia jerárquica, composición, funciones y, en su caso, los créditos — sin eso no puede constituirse."
+    },
+    {
+      "id": "AGE-019",
+      "articulo": "art. 55",
+      "explicacion": "La línea que se pregunta es la que separa SUPERIORES de DIRECTIVOS: superiores solo son Ministros y Secretarios de Estado; a partir de Subsecretarios y Secretarios generales, todo es directivo. Y en el territorio, el Delegado del Gobierno tiene RANGO de Subsecretario y el Subdelegado NIVEL de Subdirector general."
+    }
+  ]
+}

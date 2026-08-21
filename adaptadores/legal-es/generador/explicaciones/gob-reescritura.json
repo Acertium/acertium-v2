@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "familia": "GOB",
+    "referencia_boe": "BOE-A-1997-25336",
+    "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 5 explicaciones de GOB abrían con «El artículo N define/enumera/permite…». Lo que decide la pregunta aquí es QUIÉN hace qué y con qué trámite previo: casi todas las atribuciones del Presidente llevan una deliberación o autorización enganchada, y el artículo 20 se pregunta siempre por su lista de indelegables. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-009.json"
+  },
+  "explicaciones": [
+    {
+      "id": "GOB-001",
+      "articulo": "art. 1",
+      "explicacion": "Tres apartados y tres cosas distintas que el enunciado mezcla: qué hace el Gobierno (dirige y ejerce función ejecutiva y potestad reglamentaria), de quién SE COMPONE (Presidente, Vicepresidentes en su caso, y Ministros) y CÓMO se reúne (Consejo de Ministros y Comisiones Delegadas). Los Secretarios de Estado no componen el Gobierno.",
+      "cifras": {
+        "3": "recuento: los tres apartados del artículo, y las tres cuestiones distintas que regulan"
+      }
+    },
+    {
+      "id": "GOB-004",
+      "articulo": "art. 2",
+      "explicacion": "Casi ninguna de estas atribuciones es libre: disolver las Cámaras y plantear la cuestión de confianza exigen DELIBERACIÓN PREVIA del Consejo de Ministros, y el referéndum consultivo, AUTORIZACIÓN del Congreso. Quitar ese trámite es lo que hace falsa la opción."
+    },
+    {
+      "id": "GOB-018",
+      "articulo": "art. 12",
+      "explicacion": "La presencia equilibrada no se mide puesto a puesto sino EN SU CONJUNTO, y el suelo es el cuarenta por ciento para cada sexo. Y ojo al alcance — cubre Vicepresidencias y Ministerios, no todo el personal del Gobierno."
+    },
+    {
+      "id": "GOB-025",
+      "articulo": "art. 20",
+      "explicacion": "Cada quien delega hacia abajo y en destinatarios tasados: el Presidente solo en Vicepresidentes y Ministros; los Ministros en Secretarios de Estado y Subsecretarios DEPENDIENTES DE ELLOS, en los Delegados del Gobierno y en los demás órganos directivos del Ministerio."
+    },
+    {
+      "id": "GOB-026",
+      "articulo": "art. 20",
+      "explicacion": "Cuatro cosas nunca se delegan, y la que más cae es la primera: lo atribuido DIRECTAMENTE POR LA CONSTITUCIÓN. Con ella van el nombramiento y separación de altos cargos, lo de los órganos colegiados del Gobierno y lo que una ley prohíba delegar expresamente.",
+      "cifras": {
+        "4": "recuento: los cuatro supuestos de las letras a) a d) del apartado 3"
+      }
+    }
+  ]
+}

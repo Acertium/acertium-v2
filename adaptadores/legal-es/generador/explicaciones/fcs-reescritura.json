@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "familia": "FCS",
+    "referencia_boe": "BOE-A-1986-6859",
+    "norma": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 2 explicaciones pendientes de FCS abrían con «El art. N clasifica/agrupa…» y eran de las más cortas del banco: enunciaban la lista y nada más. Se reescriben marcando lo que el enunciado manipula — que la clasificación va por DEPENDENCIA, y que el límite de la obediencia debida está escrito dentro del propio principio de jerarquía. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-019.json"
+  },
+  "explicaciones": [
+    {
+      "id": "FCS-002",
+      "articulo": "art. 2",
+      "explicacion": "El criterio de la clasificación es DE QUIÉN DEPENDEN, no qué hacen ni dónde actúan: Gobierno de la Nación, Comunidades Autónomas y Corporaciones Locales. Fíjate en que solo los del Estado se llaman «Fuerzas y Cuerpos de Seguridad»; los otros son «Cuerpos de Policía»."
+    },
+    {
+      "id": "FCS-005-1",
+      "articulo": "art. 5",
+      "explicacion": "Dentro de este primer bloque está el límite que más se pregunta y que no parece pertenecer aquí: la obediencia debida NUNCA ampara órdenes que manifiestamente constituyan delito o sean contrarias a la Constitución o a las leyes. Va dentro del principio de jerarquía y subordinación, no aparte."
+    }
+  ]
+}

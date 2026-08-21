@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "familia": "PRLP",
+    "referencia_boe": "BOE-A-2006-624",
+    "norma": "Real Decreto 2/2006, de 16 de enero, por el que se establecen normas sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 2 explicaciones de PRLP abrían con «El artículo N reconoce/ordena…» y repetían casi literalmente las de la familia PRL. El valor de esta norma está justo en lo que la SEPARA de la ley general, y es donde el enunciado juega: el policía conserva el derecho a la protección eficaz pero asume riesgos específicos en situaciones de riesgo grave, catástrofe y emergencia social, y su artículo 4 retoca la jerarquía preventiva. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-045.json"
+  },
+  "explicaciones": [
+    {
+      "id": "PRLP-004",
+      "articulo": "art. 3",
+      "explicacion": "El derecho es el mismo de la ley general pero con una salvedad que solo aparece aquí: sin perjuicio de los riesgos específicos que el policía DEBE ASUMIR en situaciones de riesgo grave, catástrofe y emergencia social. Y la vigilancia periódica de la salud se declara inherente a la actividad, no opcional."
+    },
+    {
+      "id": "PRLP-006",
+      "articulo": "art. 4",
+      "explicacion": "La jerarquía es la de siempre con retoque revelador: aquí no se evalúan «los riesgos que no se puedan evitar» sino los de IMPOSIBLE O MUY DIFÍCIL EVITACIÓN. Y la protección colectiva se prioriza sobre la individual igual que en el régimen general."
+    }
+  ]
+}

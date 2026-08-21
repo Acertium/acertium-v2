@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "familia": "ASI",
+    "referencia_boe": "BOE-A-2009-17242",
+    "norma": "Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). La explicación pendiente de ASI abría con «El artículo N abre el título…». Se reescribe marcando que la lista de vulnerabilidad no es cerrada («tales como») y que el efecto jurídico no es conceder protección sino dar TRATAMIENTO DIFERENCIADO a la solicitud. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-025.json"
+  },
+  "explicaciones": [
+    {
+      "id": "ASI-028",
+      "articulo": "art. 46",
+      "explicacion": "La enumeración va precedida de «tales como», así que NO es cerrada: caben otras situaciones de vulnerabilidad no listadas. Y lo que produce no es la concesión de protección sino el tratamiento diferenciado de la solicitud — más la permanencia por razones humanitarias distintas de la protección subsidiaria."
+    }
+  ]
+}
