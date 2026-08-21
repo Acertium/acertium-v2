@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "familia": "SEL",
+    "referencia_boe": "BOE-A-2022-16582",
+    "norma": "Real Decreto 853/2022, por el que se regulan los procesos selectivos y la formación en las Escalas Básica y Ejecutiva de la Policía Nacional",
+    "fecha": "2026-08-22",
+    "motivo": "Segunda familia de la reescritura (regla de Jonathan: «que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). SEL era la peor medida del banco: 27 de 27 abrían con «El artículo N fija/enuncia/establece…», es decir el 100 %. Y es tema de peso 4. Se reescriben siguiendo docs/contrato-explicaciones.md. Los hechos son los mismos que ya estaban verificados contra el artículo; cambia qué se enseña con ellos — sobre todo los pares que el tribunal cruza: los porcentajes del art. 14.2 frente a los del 14.3, y el órgano que nombra en ingreso frente al que asciende en promoción interna.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-015.json"
+  },
+  "explicaciones": [
+    {
+      "id": "SEL-001",
+      "articulo": "art. 1",
+      "explicacion": "Un solo reglamento cubre dos cosas que suelen estudiarse por separado: cómo se entra y cómo se forma uno una vez dentro. Por eso aquí conviven la oposición libre, la promoción interna y los cursos del centro docente.",
+      "cifras": {
+        "1": "recuento retórico: «un solo reglamento», referido a que esta norma cubre selección y formación a la vez",
+        "2": "recuento retórico: las «dos cosas» que cubre, entrar y formarse; no es una cifra de la norma"
+      }
+    },
+    {
+      "id": "SEL-002",
+      "articulo": "art. 2",
+      "explicacion": "El ámbito va más allá de la oposición de acceso: cubre también los ascensos por promoción interna y la entrada del personal facultativo y técnico de apoyo, que no es policía y aun así se rige por este reglamento."
+    },
+    {
+      "id": "SEL-003",
+      "articulo": "art. 2",
+      "explicacion": "Cuando el reglamento calla no se improvisa: se acude a la legislación de los funcionarios civiles de la Administración General del Estado. Es derecho supletorio, no alternativo — solo entra donde hay laguna."
+    },
+    {
+      "id": "SEL-004",
+      "articulo": "art. 3",
+      "explicacion": "Igualdad, mérito y capacidad son los principios constitucionales; la antigüedad es el añadido propio de la carrera policial, y solo «cuando proceda». Y que las fases se superen de forma sucesiva quiere decir que no se compensan entre sí: caer en una cierra el proceso."
+    },
+    {
+      "id": "SEL-005",
+      "articulo": "art. 3",
+      "explicacion": "Estos son garantías de procedimiento, no criterios de mérito: publicidad, transparencia, imparcialidad, independencia técnica. Y uno que se olvida y se pregunta — la adecuación entre las pruebas y las funciones que se van a desempeñar."
+    },
+    {
+      "id": "SEL-006",
+      "articulo": "art. 4",
+      "explicacion": "La misma autoridad convoca el proceso y designa a quienes lo van a calificar: la Dirección General de la Policía. No se reparte entre órganos distintos, que es lo que suele suponerse."
+    },
+    {
+      "id": "SEL-007",
+      "articulo": "art. 4",
+      "explicacion": "Tres cifras que van juntas y por eso se mezclan: siete miembros, quórum de cinco para actuar válidamente y un mínimo de cuatro en activo de la Policía Nacional. Ojo, el quórum es cinco — no «la mitad más uno»."
+    },
+    {
+      "id": "SEL-008",
+      "articulo": "art. 4",
+      "explicacion": "La exclusión no va solo por el vínculo con la Administración: alcanza a quien haya preparado aspirantes a pruebas selectivas en los cinco años anteriores. Es la incompatibilidad que más se olvida y la que de verdad protege la imparcialidad del tribunal."
+    },
+    {
+      "id": "SEL-009",
+      "articulo": "art. 5",
+      "explicacion": "Solo dos categorías tienen puerta de entrada desde fuera: Inspector y Policía. A todas las demás se llega desde dentro, por promoción interna.",
+      "cifras": {
+        "2": "recuento: las categorías con ingreso desde fuera que nombra el artículo, Inspector y Policía"
+      }
+    },
+    {
+      "id": "SEL-010",
+      "articulo": "art. 6",
+      "explicacion": "El límite por arriba no es una edad concreta sino la de jubilación, así que se mueve con la normativa que la fije. Y hay un requisito que no es una condición sino una declaración de voluntad: el compromiso de portar armas."
+    },
+    {
+      "id": "SEL-011",
+      "articulo": "art. 6",
+      "explicacion": "La titulación separa las dos escalas: grado universitario para Inspector, bachiller o equivalente para Policía. No es el mismo requisito rebajado — son dos niveles académicos distintos para dos escalas distintas."
+    },
+    {
+      "id": "SEL-012",
+      "articulo": "art. 7",
+      "explicacion": "La exención no alcanza a todas las pruebas: quien ya está en servicio activo se libra de la médica y la física, pero no de las de conocimientos ni de las psicométricas. Conocer el oficio no acredita saberse el temario."
+    },
+    {
+      "id": "SEL-013",
+      "articulo": "art. 8",
+      "explicacion": "Es un máximo, no una cuota garantizada: hasta el veinte por ciento de las plazas de la Escala Básica. Y no basta con ser militar profesional — hacen falta cinco años de servicios como tropa o marinería."
+    },
+    {
+      "id": "SEL-014",
+      "articulo": "art. 9",
+      "explicacion": "No basta con cumplir los requisitos el día de la solicitud: hay que mantenerlos hasta el final, cursos y módulo de prácticas incluidos. Y perderlos no excluye de forma automática — antes hay audiencia."
+    },
+    {
+      "id": "SEL-015",
+      "articulo": "art. 10",
+      "explicacion": "Aprobar la oposición no da todavía la condición de funcionario en prácticas: primero se nombra alumno, y la condición llega al incorporarse al centro docente. Son dos momentos distintos, y el examen los separa.",
+      "cifras": {
+        "2": "recuento retórico: los «dos momentos» que distingue el artículo, nombramiento como alumno e incorporación al centro docente"
+      }
+    },
+    {
+      "id": "SEL-016",
+      "articulo": "art. 11",
+      "explicacion": "La exigencia es acumulativa: hay que superar los cursos académicos Y el módulo de formación práctica. Fallar cualquiera de los dos causa baja, y la baja no aplaza nada — se pierde toda expectativa de ingreso.",
+      "cifras": {
+        "2": "recuento retórico: los dos requisitos que el artículo exige acumulativamente, cursos académicos y módulo de prácticas"
+      }
+    },
+    {
+      "id": "SEL-017",
+      "articulo": "art. 13",
+      "explicacion": "Ojo al órgano, porque cambia justo al final: quien nombra funcionario de carrera es la Secretaría de Estado de Seguridad, no la Dirección General de la Policía, que es la que ha llevado todo lo anterior."
+    },
+    {
+      "id": "SEL-018",
+      "articulo": "art. 14",
+      "explicacion": "Dos vías y solo dos para subir de categoría: antigüedad selectiva y concurso-oposición. Y cubren desde Oficial de Policía hasta Comisario Principal, es decir toda la carrera por encima de la categoría de entrada."
+    },
+    {
+      "id": "SEL-019",
+      "articulo": "art. 14",
+      "explicacion": "Sesenta por ciento por antigüedad selectiva y cuarenta por concurso-oposición, con una excepción que es justo la que se pregunta: en el ascenso a Oficial de Policía la proporción se invierte."
+    },
+    {
+      "id": "SEL-020",
+      "articulo": "art. 14",
+      "explicacion": "Aquí los porcentajes reparten entre fuera y dentro, no entre modalidades de promoción: cuarenta por ciento por oposición libre y sesenta por promoción interna. Se confunde con el reparto del apartado anterior, que va de otra cosa."
+    },
+    {
+      "id": "SEL-021",
+      "articulo": "art. 16",
+      "explicacion": "El filtro no es la antigüedad en abstracto: hay que estar en el primer tercio del escalafón de la categoría inmediatamente inferior. Y dentro de ese tercio no hay prueba que valga — se admite por riguroso orden escalafonal."
+    },
+    {
+      "id": "SEL-022",
+      "articulo": "art. 18",
+      "explicacion": "El tiempo exigido sube con la categoría a la que se aspira: dos años para Oficial de Policía, tres para Subinspector e Inspector, más en las superiores. Y son servicios efectivos en la categoría inmediata inferior, no antigüedad total en el Cuerpo."
+    },
+    {
+      "id": "SEL-023",
+      "articulo": "art. 19",
+      "explicacion": "El concurso va primero y es selectivo por sí mismo: ahí el tribunal fija quién reúne los requisitos y con qué puntuación de baremo. No es un trámite previo a la oposición, es una fase que se puede no pasar."
+    },
+    {
+      "id": "SEL-024",
+      "articulo": "art. 20",
+      "explicacion": "La asimetría es el dato: por antigüedad selectiva solo caben tres convocatorias, mientras que por concurso-oposición no hay límite. Quien agota las tres no queda fuera de la promoción, queda fuera de esa vía."
+    },
+    {
+      "id": "SEL-025",
+      "articulo": "art. 23",
+      "explicacion": "Quien declara apto y asciende en promoción interna es la Dirección General de la Policía. Conviene cruzarlo con el ingreso, donde el nombramiento de funcionario de carrera sube hasta la Secretaría de Estado."
+    },
+    {
+      "id": "SEL-026",
+      "articulo": "art. 27",
+      "explicacion": "Para el personal facultativo y técnico la única vía es el concurso-oposición: ni oposición libre ni antigüedad selectiva. Y su convocatoria se publica en el Boletín Oficial del Estado, igual que las de ingreso."
+    },
+    {
+      "id": "SEL-027",
+      "articulo": "art. 33",
+      "explicacion": "El compromiso ata en dos sentidos: cinco años sin poder volver al cuerpo de origen, y si se rompe hay que devolver el coste del proceso selectivo. No es una cláusula simbólica.",
+      "cifras": {
+        "2": "recuento retórico: los «dos sentidos» del compromiso, permanencia y reintegro del coste; ambos están en el artículo"
+      }
+    }
+  ]
+}
