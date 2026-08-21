@@ -197,17 +197,28 @@ hoy (`daysLeft = 1`, temario entero volcado en una sesión). Dos piezas:
 
 1. **Salvaguarda.** Una fecha que ya pasó no cuenta como fecha: se planifica en
    modo maratón hasta que el opositor cierre el ciclo.
-2. **La ventana.** En `/hoy`, arriba del plan: 👍 / 👎 y un «prefiero no decirlo».
-   Cualquiera de los tres guarda el desenlace en `examen_rendido` y **borra la
-   fecha**.
+2. **La ventana.** En `/hoy`, arriba del plan: **«👍 Fue bien»** y **«Prefiero no
+   decirlo»**, los dos del mismo tamaño. Cualquiera de los dos guarda el
+   desenlace en `examen_rendido` y **borra la fecha**.
 
 Lo que esa ventana **no** toca: `evento`, `estado_dominio`, el perfil y el
 cerebro se quedan igual. Presentarse a un examen no borra lo aprendido, y quien no
 aprueba sigue desde donde lo dejó, no desde cero.
 
-Se puede cerrar sin contarlo a propósito. Obligar a declarar un mal resultado el
-mismo día sería cruel, y si el opositor cerrase la app sin responder, la fecha
+**No hay pulgar hacia abajo, y es deliberado.** Pedirle a alguien que acaba de
+suspender que lo declare pulsando un pulgar abajo es pedirle que se señale, y
+este es justo el momento en que más gente abandona. Quien quiera contarlo tiene
+un botón; quien no, tiene otro igual de grande y sin connotación. Y hace falta
+que existan los dos: si el opositor cerrase la app sin responder, la fecha
 vencida se quedaría sin limpiar.
+
+**Al leer esta tabla, cuidado.** `sin_decir` ya no significa solo «no quiero
+contarlo»: absorbe también a quien le fue mal. De `examen_rendido` **no se puede
+deducir un porcentaje de aprobados**, y nadie debería intentarlo. Es el precio
+elegido a cambio de no hurgar en la herida, y está anotado como comentario en la
+propia tabla para que quien la consulte dentro de un año se entere sin preguntar.
+El valor `'mal'` sigue admitido por el CHECK por si algún día vuelve, pero hoy
+ningún camino de la app lo escribe.
 
 ## Lo que sigue abierto
 

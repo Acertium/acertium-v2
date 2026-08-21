@@ -6,10 +6,7 @@ import { saludo, animo } from "@/lib/saludo";
 
 // Guarda el desenlace del examen y borra la fecha vencida. Vive en el servidor
 // para que el cliente no toque nunca la clave de servicio.
-async function registrar(
-  fecha: string,
-  resultado: "bien" | "mal" | "sin_decir",
-) {
+async function registrar(fecha: string, resultado: "bien" | "sin_decir") {
   "use server";
   return registrarExamen(fecha, resultado);
 }

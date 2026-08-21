@@ -650,10 +650,16 @@ export async function resumenHoy(): Promise<ResumenHoy> {
  * presentarse a un examen no borra lo aprendido, y quien no aprueba sigue su
  * preparación desde donde la dejó, no desde cero. Es también lo que devuelve al
  * coach al modo maratón hasta que el opositor se fije la siguiente fecha.
+ *
+ * Solo hay dos respuestas posibles: «fue bien» o «prefiero no decirlo». No hay
+ * pulgar hacia abajo a propósito —pedirle a quien acaba de suspender que se
+ * señale sobraba—, así que `sin_decir` absorbe también a quien le fue mal y de
+ * esta tabla NO se puede sacar un porcentaje de aprobados. La columna admite
+ * 'mal' en la base por si algún día vuelve, pero hoy nada lo escribe.
  */
 export async function registrarExamen(
   fecha: string,
-  resultado: "bien" | "mal" | "sin_decir",
+  resultado: "bien" | "sin_decir",
 ): Promise<{ ok: boolean }> {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha)) return { ok: false };
   const db = createCerebroClient();

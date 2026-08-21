@@ -12,16 +12,24 @@
 // que un opositor está más cerca de abandonar, así que la pantalla no le pide
 // nada más que un gesto.
 //
-// Tres decisiones de tono:
+// NO HAY PULGAR ABAJO, Y ES DELIBERADO. Solo «fue bien» y «prefiero no
+// decirlo». Pedirle a alguien que acaba de suspender que lo declare pulsando un
+// pulgar hacia abajo es pedirle que se señale, y este es justo el momento en que
+// más gente abandona. Quien quiera contarlo tiene un botón; quien no, tiene otro
+// igual de grande y sin connotación.
+//
+// LA CONSECUENCIA, QUE HAY QUE TENER PRESENTE AL LEER LOS DATOS: `sin_decir` ya
+// no significa solo «no quiero contarlo» — absorbe también a quien le fue mal.
+// De `examen_rendido` NO se puede deducir un porcentaje de aprobados, y nadie
+// debería intentarlo. Es el precio elegido a cambio de no hurgar en la herida.
+//
+// Otras dos decisiones de tono:
 //
 // 1. SE PUEDE CERRAR SIN CONTARLO. «Prefiero no decirlo» guarda `sin_decir` y
-//    limpia la fecha igual. Obligar a declarar un mal resultado el mismo día
-//    sería cruel, y si el opositor cerrase la app sin responder, la fecha
-//    vencida se quedaría ahí.
-// 2. NINGUNA RESPUESTA CAMBIA EL PLAN. Ni el pulgar arriba ni el abajo alteran
-//    lo que toca estudiar: el motor ya sabe lo que sabes, por tus respuestas.
-// 3. NO SE FELICITA NI SE CONSUELA DE MÁS. Un «¡enhorabuena!» a quien marcó el
-//    pulgar abajo por error, o un discurso a quien suspendió, sobran.
+//    limpia la fecha igual. Si el opositor cerrase la app sin responder, la
+//    fecha vencida se quedaría ahí y el coach seguiría descolocado.
+// 2. NINGUNA RESPUESTA CAMBIA EL PLAN. Lo que toca estudiar sale del motor, que
+//    ya sabe lo que sabes por tus respuestas, no por lo que declares aquí.
 // ---------------------------------------------------------------------------
 
 import { useState, useTransition } from "react";
@@ -29,7 +37,7 @@ import { useRouter } from "next/navigation";
 
 const borde = "color-mix(in srgb, var(--color-fg) 12%, transparent)";
 
-type Resultado = "bien" | "mal" | "sin_decir";
+type Resultado = "bien" | "sin_decir";
 
 export default function QueTalElExamen({
   fecha,
@@ -85,45 +93,41 @@ export default function QueTalElExamen({
         tu progreso se queda donde está, pase lo que pase.
       </p>
 
+      {/* Las dos opciones, del mismo tamaño y con el mismo peso visual: callarse
+          no es la salida de emergencia, es una respuesta como la otra. */}
       <div className="mt-4 flex gap-2">
         <button
           type="button"
           disabled={pendiente}
           onClick={() => responder("bien")}
-          aria-label="Fue bien"
-          className="min-h-12 flex-1 rounded-xl border text-xl disabled:opacity-50"
+          className="flex min-h-12 flex-1 items-center justify-center gap-2 rounded-xl border px-3 text-[15px] font-medium disabled:opacity-50"
           style={{
             borderColor: borde,
             background:
               elegido === "bien" ? "var(--color-primary-soft)" : "transparent",
           }}
         >
-          👍
+          <span aria-hidden="true" className="text-xl">
+            👍
+          </span>
+          Fue bien
         </button>
         <button
           type="button"
           disabled={pendiente}
-          onClick={() => responder("mal")}
-          aria-label="Fue mal"
-          className="min-h-12 flex-1 rounded-xl border text-xl disabled:opacity-50"
+          onClick={() => responder("sin_decir")}
+          className="min-h-12 flex-1 rounded-xl border px-3 text-[15px] font-medium disabled:opacity-50"
           style={{
             borderColor: borde,
             background:
-              elegido === "mal" ? "var(--color-primary-soft)" : "transparent",
+              elegido === "sin_decir"
+                ? "var(--color-primary-soft)"
+                : "transparent",
           }}
         >
-          👎
+          Prefiero no decirlo
         </button>
       </div>
-
-      <button
-        type="button"
-        disabled={pendiente}
-        onClick={() => responder("sin_decir")}
-        className="mt-3 w-full text-center text-[13px] text-muted underline disabled:opacity-50"
-      >
-        Prefiero no decirlo
-      </button>
 
       {error && (
         <p className="mt-2 text-center text-[13px]" style={{ color: "var(--color-error, #b00)" }}>
