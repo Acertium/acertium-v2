@@ -685,6 +685,75 @@ export async function registrarExamen(
 }
 
 // ---------------------------------------------------------------------------
+// EL SEGUIMIENTO DE LOS 30 DÍAS
+//
+// La ventana del día siguiente pregunta si la formación le sirvió, y no puede
+// preguntar más: el resultado no existe todavía. Al mes sí, así que hay un
+// segundo momento con una pregunta distinta.
+//
+// LO QUE SE PREGUNTA ES EL EJERCICIO DE CONOCIMIENTOS, no el proceso entero: a
+// los 30 días quedan por delante físicas, reconocimiento y entrevista. Por eso
+// «aún no lo sé» es una respuesta de primera clase y no un descarte — y cuando
+// la elige, se le vuelve a preguntar un mes después en vez de darlo por cerrado.
+// ---------------------------------------------------------------------------
+
+export type Seguimiento = {
+  /** Fecha del examen al que se refiere ("2027-05-14"). */
+  fechaExamen: string;
+  /** Qué contestó el día siguiente, para no repetirle la misma pregunta. */
+  aprovechamiento: Aprovechamiento | null;
+  diasDesdeExamen: number;
+};
+
+export type Aprobo = "si" | "no" | "aun_no_lo_se" | "sin_decir";
+
+/** A quién le toca el seguimiento hoy. null si a nadie. */
+export async function seguimientoPendiente(): Promise<Seguimiento | null> {
+  const db = createCerebroClient();
+  // Se lee de la VISTA, no de una consulta propia: es la misma fuente que usaría
+  // un envío por correo, y dos criterios distintos harían que a alguien le
+  // llegara dos veces o ninguna.
+  const { data, error } = await db
+    .from("seguimiento_pendiente")
+    .select("fecha_examen, aprovechamiento, dias_desde_examen")
+    .eq("usuario_id", DEMO_USUARIO_ID)
+    .order("fecha_examen", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+  if (error || !data) return null;
+  return {
+    fechaExamen: data.fecha_examen as string,
+    aprovechamiento: (data.aprovechamiento ?? null) as Aprovechamiento | null,
+    diasDesdeExamen: Number(data.dias_desde_examen ?? 0),
+  };
+}
+
+/**
+ * Guarda la respuesta del seguimiento. El comentario es opcional y es lo único
+ * de esta tabla que puede llevar texto que él escriba, así que se recorta y se
+ * guarda como null si viene vacío.
+ */
+export async function registrarSeguimiento(
+  fechaExamen: string,
+  aprobo: Aprobo,
+  comentario?: string,
+): Promise<{ ok: boolean }> {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(fechaExamen)) return { ok: false };
+  const texto = (comentario ?? "").trim().slice(0, 2000);
+  const db = createCerebroClient();
+  const { error } = await db
+    .from("examen_rendido")
+    .update({
+      aprobo,
+      comentario: texto || null,
+      seguimiento_en: new Date().toISOString(),
+    })
+    .eq("usuario_id", DEMO_USUARIO_ID)
+    .eq("fecha_examen", fechaExamen);
+  return { ok: !error };
+}
+
+// ---------------------------------------------------------------------------
 // LA FECHA OBJETIVO, DESDE /perfil
 // ---------------------------------------------------------------------------
 

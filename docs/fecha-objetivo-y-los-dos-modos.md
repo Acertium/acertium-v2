@@ -338,3 +338,64 @@ dato y un 77 % prior. Es un peso razonable, no un hecho medido.
 `estabilidad-pesos.py` compara `pesos-temas.json` contra la tabla encogida y
 avisa si divergen, así que el día que aparezca una séptima promoción basta con
 añadirla al CSV y correrlo.
+
+---
+
+# Cuarta vuelta (21/08/2026): el seguimiento de los 30 días
+
+La ventana del día siguiente no puede preguntar por el resultado, porque el
+resultado no existe todavía. Al mes sí, así que hay un **segundo y último
+momento**, con una pregunta distinta.
+
+| | Cuándo | Qué pregunta | Por qué entonces |
+|---|---|---|---|
+| Ventana 1 | Al volver, con la fecha ya pasada | ¿Te sirvió lo que estudiaste aquí? | Si las preguntas le sonaban lo sabe **al salir del aula** |
+| Ventana 2 | A los 30 días | ¿Pasaste el ejercicio de conocimientos? | La nota ya suele estar publicada |
+
+Nunca se muestran las dos a la vez: la primera solo aparece con una fecha vencida
+sin cerrar, y la segunda solo con una fila ya cerrada.
+
+## Se pregunta por el ejercicio, no por la oposición
+
+A los 30 días lo que suele conocerse es el resultado del **ejercicio de
+conocimientos**. El proceso entero tiene por delante físicas, reconocimiento
+médico y entrevista, y puede tardar meses. Preguntar «¿aprobaste?» a secas
+recogería respuestas que no significan lo mismo y las mezclaríamos en la misma
+columna, que es la forma más silenciosa de arruinar un dato.
+
+## «Aún no lo sé» es una respuesta, no un descarte
+
+Para mucha gente es la verdad ese día, y forzarla a inventarse un sí o un no
+ensuciaría el único dato duro que vamos a tener. Cuando la elige, **se le vuelve
+a preguntar un mes después** en vez de darlo por cerrado.
+
+Probado con cuatro casos contra la base real:
+
+```
+ 5 días, sin contestar          → no aparece  (aún no es el mes)
+31 días, sin contestar          → aparece
+90 días, dijo «aún no lo sé»
+        hace 31 días            → vuelve a aparecer
+200 días, ya contestó «sí»      → no aparece  (cerrado)
+```
+
+## Una vista, no dos consultas
+
+`acertium_v2.seguimiento_pendiente` decide a quién le toca. Existe como **vista** y
+no como consulta suelta para que la app y un futuro envío por correo usen
+exactamente el mismo criterio: dos criterios distintos harían que a alguien le
+llegara el aviso dos veces, o ninguna. La vista ya expone el `email` del usuario
+precisamente para que un envío pueda apoyarse en ella sin reimplementar nada.
+
+## Sobre el correo
+
+Está preparado el dato, no el envío. Mandar correo a opositores reales no es
+añadir una llamada: hace falta dominio verificado con SPF/DKIM, una base legal
+para el contacto y su registro, baja en un clic en cada envío, y decidir qué pasa
+con quien no confirma su dirección. Nada de eso es difícil, pero es una decisión
+de producto y de RGPD, no un detalle de implementación — y hasta que se tome, la
+ventana en la app cubre a quien vuelve.
+
+**Lo que la app no alcanza, y conviene tener presente:** quien aprobó y dejó de
+entrar no verá nunca esta ventana. Es justo la población de la que más
+interesaría saber, y es el argumento real a favor del correo.

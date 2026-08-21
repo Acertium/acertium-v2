@@ -1,7 +1,13 @@
 import Link from "next/link";
 import ProfesorFab from "./profesor-fab";
 import QueTalElExamen from "./que-tal-el-examen";
-import { resumenHoy, registrarExamen } from "@/lib/cerebro";
+import SeguimientoExamen from "./seguimiento-examen";
+import {
+  resumenHoy,
+  registrarExamen,
+  seguimientoPendiente,
+  registrarSeguimiento,
+} from "@/lib/cerebro";
 import { saludo, animo } from "@/lib/saludo";
 
 // Guarda la apreciación del opositor sobre si la formación le rentó, y borra la
@@ -15,13 +21,28 @@ async function registrar(
   return registrarExamen(fecha, aprovechamiento);
 }
 
+// Respuesta al seguimiento de los 30 días: resultado del ejercicio de
+// conocimientos y, si quiere, un comentario.
+async function registrarSeg(
+  fechaExamen: string,
+  aprobo: "si" | "no" | "aun_no_lo_se" | "sin_decir",
+  comentario?: string,
+) {
+  "use server";
+  return registrarSeguimiento(fechaExamen, aprobo, comentario);
+}
+
 const borde = "color-mix(in srgb, var(--color-fg) 12%, transparent)";
 
 // Lee el resumen del cerebro en cada request.
 export const dynamic = "force-dynamic";
 
 export default async function HoyPage() {
-  const r = await resumenHoy();
+  // En paralelo: el seguimiento no depende del resumen del día.
+  const [r, seguimiento] = await Promise.all([
+    resumenHoy(),
+    seguimientoPendiente(),
+  ]);
 
   // El titular es el PLAN DE HOY que ha calculado el coach, no el backlog
   // entero. Decir "tienes 3.290 conceptos por empezar" es cierto y no sirve de
@@ -65,6 +86,17 @@ export default async function HoyPage() {
           sería ignorar que se acaba de examinar. */}
       {r.examenPendienteDe && (
         <QueTalElExamen fecha={r.examenPendienteDe} registrar={registrar} />
+      )}
+
+      {/* Y si ya pasó un mes de aquel examen, la segunda —y última— pregunta:
+          el resultado, que el día siguiente todavía no existía. Nunca se
+          muestran las dos a la vez: la de arriba solo aparece con una fecha
+          vencida sin cerrar, y esta solo con una fila ya cerrada. */}
+      {!r.examenPendienteDe && seguimiento && (
+        <SeguimientoExamen
+          fechaExamen={seguimiento.fechaExamen}
+          registrar={registrarSeg}
+        />
       )}
 
       {/* Plan del día: sale del planificador, no de un cálculo de esta pantalla. */}
