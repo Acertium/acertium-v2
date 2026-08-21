@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "familia": "PRLAGE",
+    "referencia_boe": "BOE-A-2010-2161",
+    "norma": "Real Decreto 67/2010, de adaptación de la legislación de Prevención de Riesgos Laborales a la Administración General del Estado",
+    "fecha": "2026-08-22",
+    "motivo": "Decimotercera tanda (peso 2). Toda la norma es una ADAPTACIÓN de la Ley 31/1995, así que las explicaciones señalan qué cambia respecto al régimen general —que es lo único que puede preguntarse aquí y no allí— y los umbrales que activan cada obligación.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-046.json"
+  },
+  "explicaciones": [
+    {
+      "id": "PRLAGE-001",
+      "articulo": "art. 1",
+      "explicacion": "No hay una prevención distinta para la Administración: se ADAPTA la Ley 31/1995 a sus peculiaridades. Todo lo que este real decreto no cambie sigue rigiéndose por la ley general.",
+      "cifras": {
+        "1": "«una prevención distinta»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "PRLAGE-002",
+      "articulo": "art. 2",
+      "explicacion": "Alcanza al personal funcionario y estatutario. Donde conviven funcionarios y laborales conviene fijarse en qué régimen se aplica a cada uno: no es automáticamente el mismo."
+    },
+    {
+      "id": "PRLAGE-003",
+      "articulo": "art. 2",
+      "explicacion": "Las exclusiones no son propias: son las mismas de la Ley 31/1995. Y no excluyen actividades enteras, sino aquellas cuyas particularidades impiden aplicar la norma."
+    },
+    {
+      "id": "PRLAGE-004",
+      "articulo": "art. 2",
+      "explicacion": "Para el opositor policía este es el matiz decisivo: solo quedan fuera las funciones con características EXCLUSIVAS de policía o seguridad. El resto del trabajo policial sí está cubierto por la prevención."
+    },
+    {
+      "id": "PRLAGE-005",
+      "articulo": "art. 3",
+      "explicacion": "El Plan de Prevención no es un documento más: es lo que INTEGRA la prevención en la gestión general del Departamento. Sin él, la prevención queda como actividad paralela."
+    },
+    {
+      "id": "PRLAGE-006",
+      "articulo": "art. 3",
+      "explicacion": "El Plan tiene tres destinatarios ante los que debe estar disponible: autoridad laboral, autoridades sanitarias y representantes del personal. No basta con tenerlo archivado."
+    },
+    {
+      "id": "PRLAGE-007",
+      "articulo": "art. 4",
+      "explicacion": "La Comisión Técnica de Prevención es el órgano de participación sindical PROPIO de la Administración: no existe en el régimen general. Es de las cosas que solo pueden preguntarse desde este real decreto."
+    },
+    {
+      "id": "PRLAGE-008",
+      "articulo": "art. 5",
+      "explicacion": "Los Delegados de Prevención no los elige la plantilla: los eligen los REPRESENTANTES del personal, y de entre ellos. Es elección de segundo grado."
+    },
+    {
+      "id": "PRLAGE-009",
+      "articulo": "art. 5",
+      "explicacion": "El número sale de la escala de la Ley 31/1995 aplicada al total del centro, y después se reparte proporcionalmente. Dos operaciones, no una."
+    },
+    {
+      "id": "PRLAGE-010",
+      "articulo": "art. 5",
+      "explicacion": "Competencias y garantías del Delegado se toman tal cual de la Ley 31/1995: protección frente a represalias, crédito horario y sigilo. Este real decreto regula quién lo elige, no qué puede hacer."
+    },
+    {
+      "id": "PRLAGE-011",
+      "articulo": "art. 6",
+      "explicacion": "El Comité es PARITARIO y COLEGIADO, y su función es la consulta REGULAR y PERIÓDICA. No es un órgano de urgencia ni de decisión: es de consulta continuada."
+    },
+    {
+      "id": "PRLAGE-012",
+      "articulo": "art. 6",
+      "explicacion": "Paritario significa que los representantes de la Administración no pueden superar en número a los Delegados de Prevención. La Administración no puede tener mayoría en el órgano que la controla."
+    },
+    {
+      "id": "PRLAGE-013",
+      "articulo": "art. 6",
+      "explicacion": "Hacen falta DOS condiciones para constituir Comité: que sea centro del Anexo I y que alcance el umbral de plantilla. Cumplir solo una no basta."
+    },
+    {
+      "id": "PRLAGE-014",
+      "articulo": "art. 6",
+      "explicacion": "Delegados sindicales, asesores y técnicos pueden asistir, pero con VOZ y sin VOTO: no son miembros. Confundir asistencia con pertenencia es el error del artículo."
+    },
+    {
+      "id": "PRLAGE-015",
+      "articulo": "art. 6",
+      "explicacion": "La periodicidad es un MÍNIMO, no un tope: además, cualquiera de las dos representaciones puede pedir reunión. Y el Comité fija sus propias normas de funcionamiento."
+    },
+    {
+      "id": "PRLAGE-016",
+      "articulo": "art. 6",
+      "explicacion": "El Comité Intercentros es potestativo y sus funciones las fija el propio acuerdo de creación — no vienen dadas por la norma. Se crea para coordinar, no para sustituir a los de cada centro."
+    },
+    {
+      "id": "PRLAGE-017",
+      "articulo": "art. 7",
+      "explicacion": "Tres modalidades, y se pueden COMBINAR: servicio propio, empleados designados o servicio ajeno. No hay que elegir solo una."
+    },
+    {
+      "id": "PRLAGE-018",
+      "articulo": "art. 7",
+      "explicacion": "Hay preferencia declarada por el servicio PROPIO, y lo ajeno queda para actividades técnicamente complejas y de forma temporal. La externalización es excepción, no alternativa equivalente."
+    },
+    {
+      "id": "PRLAGE-019",
+      "articulo": "art. 7",
+      "explicacion": "El servicio propio necesita un mínimo de especialidades preventivas cubiertas por expertos capacitados. Guárdalo enfrente del mancomunado, que exige más."
+    },
+    {
+      "id": "PRLAGE-020",
+      "articulo": "art. 7",
+      "explicacion": "El umbral de plantilla obliga por sí solo a partir de cierto tamaño; en la franja intermedia solo obliga si además se desarrollan actividades del Anexo I. Tamaño y actividad se combinan."
+    },
+    {
+      "id": "PRLAGE-021",
+      "articulo": "art. 7",
+      "explicacion": "El mancomunado exige MÁS especialidades que el propio. Tiene sentido: da servicio a varias organizaciones, así que su capacidad técnica debe ser mayor."
+    },
+    {
+      "id": "PRLAGE-022",
+      "articulo": "art. 8",
+      "explicacion": "Tres niveles de cualificación —básico, intermedio y superior— tomados del Reglamento de los Servicios de Prevención. La escala no la inventa este real decreto."
+    },
+    {
+      "id": "PRLAGE-023",
+      "articulo": "art. 8",
+      "explicacion": "El nivel superior se despliega en cuatro disciplinas: medicina del trabajo, seguridad, higiene industrial, y ergonomía y psicosociología aplicada. Las dos últimas van juntas como una sola disciplina."
+    },
+    {
+      "id": "PRLAGE-024",
+      "articulo": "art. 9",
+      "explicacion": "Cuándo son obligatorios los recursos preventivos lo decide la normativa general, y da igual la modalidad organizativa elegida. La obligación no depende de cómo se haya organizado la prevención."
+    },
+    {
+      "id": "PRLAGE-025",
+      "articulo": "art. 9",
+      "explicacion": "Cuando en un centro coinciden trabajadores de varias organizaciones se aplican las reglas de coordinación de actividades empresariales. La Administración no está exenta de coordinarse."
+    },
+    {
+      "id": "PRLAGE-026",
+      "articulo": "art. 10",
+      "explicacion": "Aquí está el cambio grande respecto al sector privado: no hay auditoría, hay CONTROL PERIÓDICO EXTERNO a cargo del Instituto Nacional de Seguridad e Higiene en el Trabajo. Distinto nombre y distinto órgano."
+    },
+    {
+      "id": "PRLAGE-027",
+      "articulo": "art. 10",
+      "explicacion": "El control externo termina en informe que señala deficiencias y propone mejoras, y ese informe se remite al Departamento. No sanciona: diagnostica."
+    },
+    {
+      "id": "PRLAGE-028",
+      "articulo": "art. 11",
+      "explicacion": "La Dirección General de la Función Pública es el eje de toda la prevención en la Administración: coordina, hace seguimiento e impulsa. Conviene no confundirla con el Instituto, que controla."
+    },
+    {
+      "id": "PRLAGE-034",
+      "articulo": "art. 2",
+      "explicacion": "Los establecimientos penitenciarios NO quedan excluidos: sus actividades especiales se adaptan. Excluir y adaptar son cosas distintas, y aquí se adapta."
+    }
+  ]
+}

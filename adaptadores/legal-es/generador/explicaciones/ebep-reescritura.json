@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "familia": "EBEP",
+    "referencia_boe": "BOE-A-2015-11719",
+    "norma": "Texto Refundido del Estatuto Básico del Empleado Público",
+    "fecha": "2026-08-22",
+    "motivo": "Decimotercera tanda (peso 2). Ejes: las cuatro clases de empleado público y qué distingue a cada una, y el par adquirir/perder la condición de funcionario, que se pregunta enfrentado.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-010.json"
+  },
+  "explicaciones": [
+    {
+      "id": "EBEP-001",
+      "articulo": "art. 8",
+      "explicacion": "Dos notas definen al empleado público y las dos hacen falta: funciones RETRIBUIDAS y al servicio de los intereses generales. Trabajar gratis para la Administración no da esa condición."
+    },
+    {
+      "id": "EBEP-002",
+      "articulo": "art. 8",
+      "explicacion": "Cuatro clases, y la frontera que se pregunta es la del eventual: no accede por mérito y capacidad sino por confianza. Las otras tres sí pasan por proceso selectivo.",
+      "cifras": {
+        "4": "recuento: las cuatro clases de empleado público que enumera el apartado",
+        "3": "recuento retórico: «las otras tres», las que sí acceden por proceso selectivo"
+      }
+    },
+    {
+      "id": "EBEP-003",
+      "articulo": "art. 9",
+      "explicacion": "Lo que define al de carrera es el tipo de vínculo: relación ESTATUTARIA de Derecho Administrativo, no contrato. Por eso sus condiciones las fija la ley y no se negocian individualmente."
+    },
+    {
+      "id": "EBEP-004",
+      "articulo": "art. 9",
+      "explicacion": "Hay funciones reservadas EN EXCLUSIVA a funcionarios: las que implican ejercicio de potestades públicas o salvaguarda de intereses generales. El personal laboral no puede asumirlas, por mucha antigüedad que tenga."
+    },
+    {
+      "id": "EBEP-005",
+      "articulo": "art. 10",
+      "explicacion": "El interino ocupa plaza de funcionario, pero su nombramiento exige razones EXPRESAMENTE JUSTIFICADAS de necesidad y urgencia. No basta con que haya trabajo pendiente."
+    },
+    {
+      "id": "EBEP-006",
+      "articulo": "art. 10",
+      "explicacion": "Las circunstancias están TASADAS y cada una tiene su propio límite temporal. La de vacante no cubierta es la que más se pregunta, precisamente por llevar plazo máximo."
+    },
+    {
+      "id": "EBEP-007",
+      "articulo": "art. 10",
+      "explicacion": "Aunque la selección del interino sea pública y reglada, EN NINGÚN CASO da la condición de funcionario de carrera. Llevar años de interino no consolida nada."
+    },
+    {
+      "id": "EBEP-008",
+      "articulo": "art. 10",
+      "explicacion": "La interinidad termina DE OFICIO, sin necesidad de que nadie lo pida: cobertura reglada de la plaza, supresión del puesto o desaparición de la causa. No hace falta despido ni expediente."
+    },
+    {
+      "id": "EBEP-009",
+      "articulo": "art. 10",
+      "explicacion": "Al interino se le aplica el régimen del de carrera, pero solo «en cuanto sea adecuado a la naturaleza temporal» de su condición. Esa cláusula es la que recorta derechos ligados a la permanencia."
+    },
+    {
+      "id": "EBEP-010",
+      "articulo": "art. 11",
+      "explicacion": "Lo que define al laboral es el CONTRATO, y además formalizado por escrito. Es la diferencia estructural con el funcionario, cuyo vínculo nace de un nombramiento."
+    },
+    {
+      "id": "EBEP-011",
+      "articulo": "art. 11",
+      "explicacion": "Fijo, por tiempo indefinido y temporal no son sinónimos: son tres situaciones distintas según la duración del contrato. Y su selección se rige por los mismos principios que la de funcionarios."
+    },
+    {
+      "id": "EBEP-012",
+      "articulo": "art. 12",
+      "explicacion": "El eventual SOLO puede hacer funciones expresamente calificadas de confianza o asesoramiento especial. Si acaba haciendo trabajo ordinario, se está desnaturalizando la figura."
+    },
+    {
+      "id": "EBEP-013",
+      "articulo": "art. 12",
+      "explicacion": "Nombramiento y cese son LIBRES, y el cese se produce automáticamente cuando cesa la autoridad a la que asesora. Su permanencia va atada a otra persona, no a su desempeño."
+    },
+    {
+      "id": "EBEP-014",
+      "articulo": "art. 12",
+      "explicacion": "Haber sido eventual NO es mérito para acceder ni para promocionar. Cierra la puerta a que el cargo de confianza se convierta en atajo hacia la carrera funcionarial."
+    },
+    {
+      "id": "EBEP-015",
+      "articulo": "art. 13",
+      "explicacion": "El directivo profesional se define por la FUNCIÓN, no por el nivel: desarrolla funciones directivas y su designación atiende a mérito, capacidad e idoneidad. No es un cargo político."
+    },
+    {
+      "id": "EBEP-016",
+      "articulo": "art. 13",
+      "explicacion": "Dos consecuencias que van juntas: se le evalúa por eficacia y eficiencia, y sus condiciones de empleo NO son materia de negociación colectiva. Responsabilidad mayor, negociación menor."
+    },
+    {
+      "id": "EBEP-017",
+      "articulo": "art. 62",
+      "explicacion": "Cuatro requisitos SUCESIVOS: superar el proceso, nombramiento, acatamiento de la Constitución y toma de posesión. Faltando el último no hay funcionario, por mucho que se haya aprobado.",
+      "cifras": {
+        "4": "recuento: los cuatro requisitos sucesivos que enumera el artículo"
+      }
+    },
+    {
+      "id": "EBEP-018",
+      "articulo": "art. 63",
+      "explicacion": "La lista es cerrada, y mezcla causas voluntarias (renuncia), objetivas (jubilación, pérdida de nacionalidad) y sancionadoras (separación del servicio, pena de inhabilitación). Conviene agruparlas así para no olvidar ninguna."
+    },
+    {
+      "id": "EBEP-019",
+      "articulo": "art. 64",
+      "explicacion": "La renuncia no basta con manifestarla: debe ser POR ESCRITO y aceptada expresamente por la Administración. Hasta que se acepta, sigue siendo funcionario."
+    },
+    {
+      "id": "EBEP-020",
+      "articulo": "art. 64",
+      "explicacion": "No se puede renunciar para escapar de la responsabilidad: si hay expediente disciplinario o auto de procesamiento o apertura de juicio oral, la Administración no acepta la renuncia."
+    },
+    {
+      "id": "EBEP-021",
+      "articulo": "art. 64",
+      "explicacion": "Renunciar no inhabilita: se puede volver a ingresar por el procedimiento ordinario de selección. Es la diferencia con la separación del servicio, que sí cierra la puerta."
+    },
+    {
+      "id": "EBEP-022",
+      "articulo": "art. 65",
+      "explicacion": "Lo que hace perder la condición es dejar de tener la nacionalidad que se tuvo en cuenta para el nombramiento — no cualquier cambio de nacionalidad. El vínculo es con el requisito de acceso."
+    },
+    {
+      "id": "EBEP-023",
+      "articulo": "art. 66",
+      "explicacion": "La inhabilitación ABSOLUTA firme hace perder la condición respecto de todos los empleos o cargos. Guárdalo enfrente de la especial, que solo alcanza a los afectados por la sentencia."
+    },
+    {
+      "id": "EBEP-024",
+      "articulo": "art. 66",
+      "explicacion": "La inhabilitación ESPECIAL solo produce la pérdida respecto de los empleos o cargos especificados en la sentencia. Es la mitad del par que se cruza con la absoluta."
+    },
+    {
+      "id": "EBEP-025",
+      "articulo": "art. 67",
+      "explicacion": "Tres clases de jubilación y solo la forzosa se declara de oficio: la voluntaria se solicita y la de incapacidad requiere declaración previa. Cada una tiene su desencadenante."
+    },
+    {
+      "id": "EBEP-026",
+      "articulo": "art. 67",
+      "explicacion": "La forzosa se declara DE OFICIO al cumplir la edad legal, pero cabe solicitar prolongación de la permanencia. Que sea forzosa no significa que sea inevitable."
+    },
+    {
+      "id": "EBEP-027",
+      "articulo": "art. 68",
+      "explicacion": "La rehabilitación es un DERECHO cuando se perdió la condición por nacionalidad o jubilación por incapacidad: desaparecida la causa objetiva, se recupera. Compárese con el apartado siguiente."
+    },
+    {
+      "id": "EBEP-028",
+      "articulo": "art. 68",
+      "explicacion": "Cuando la pérdida vino de pena principal o accesoria, la rehabilitación ya no es derecho sino GRACIA: excepcional, a petición del interesado y discrecional. Ahí está la diferencia."
+    }
+  ]
+}
