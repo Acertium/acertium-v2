@@ -4,11 +4,12 @@ import QueTalElExamen from "./que-tal-el-examen";
 import { resumenHoy, registrarExamen } from "@/lib/cerebro";
 import { saludo, animo } from "@/lib/saludo";
 
-// Guarda el desenlace del examen y borra la fecha vencida. Vive en el servidor
-// para que el cliente no toque nunca la clave de servicio.
-async function registrar(fecha: string, resultado: "bien" | "sin_decir") {
+// Guarda la apreciación del opositor sobre si la formación le rentó, y borra la
+// fecha vencida. Vive en el servidor para que el cliente no toque nunca la clave
+// de servicio.
+async function registrar(fecha: string, aprovechamiento: "sirvio" | "sin_decir") {
   "use server";
-  return registrarExamen(fecha, resultado);
+  return registrarExamen(fecha, aprovechamiento);
 }
 
 const borde = "color-mix(in srgb, var(--color-fg) 12%, transparent)";
@@ -55,9 +56,10 @@ export default async function HoyPage() {
         </h1>
       </header>
 
-      {/* Si su fecha ya pasó, primero cerramos ese ciclo. Va ARRIBA del plan
-          porque mientras no responda, el plan se calcula sin fecha y decirle
-          "hoy te tocan 21 nuevos" sin más sería ignorar lo que le ha pasado. */}
+      {/* Si su fecha ya pasó, primero cerramos ese ciclo preguntándole si la
+          formación le rentó. Va ARRIBA del plan porque mientras no responda, el
+          plan se calcula sin fecha, y decirle "hoy te tocan 21 nuevos" sin más
+          sería ignorar que se acaba de examinar. */}
       {r.examenPendienteDe && (
         <QueTalElExamen fecha={r.examenPendienteDe} registrar={registrar} />
       )}

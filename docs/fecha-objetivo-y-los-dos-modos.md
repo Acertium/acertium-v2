@@ -197,28 +197,34 @@ hoy (`daysLeft = 1`, temario entero volcado en una sesión). Dos piezas:
 
 1. **Salvaguarda.** Una fecha que ya pasó no cuenta como fecha: se planifica en
    modo maratón hasta que el opositor cierre el ciclo.
-2. **La ventana.** En `/hoy`, arriba del plan: **«👍 Fue bien»** y **«Prefiero no
-   decirlo»**, los dos del mismo tamaño. Cualquiera de los dos guarda el
-   desenlace en `examen_rendido` y **borra la fecha**.
+2. **La ventana.** En `/hoy`, arriba del plan. Guarda la respuesta en
+   `examen_rendido` y **borra la fecha**.
 
-Lo que esa ventana **no** toca: `evento`, `estado_dominio`, el perfil y el
-cerebro se quedan igual. Presentarse a un examen no borra lo aprendido, y quien no
-aprueba sigue desde donde lo dejó, no desde cero.
+### Qué mide la ventana (corregido)
 
-**No hay pulgar hacia abajo, y es deliberado.** Pedirle a alguien que acaba de
-suspender que lo declare pulsando un pulgar abajo es pedirle que se señale, y
-este es justo el momento en que más gente abandona. Quien quiera contarlo tiene
-un botón; quien no, tiene otro igual de grande y sin connotación. Y hace falta
-que existan los dos: si el opositor cerrase la app sin responder, la fecha
-vencida se quedaría sin limpiar.
+Nació preguntando «¿qué tal el examen?», que es preguntar por el **resultado del
+opositor**. No es eso. Lo que interesa es **su apreciación de si la formación le
+ha rentado**, y son dos cosas distintas:
 
-**Al leer esta tabla, cuidado.** `sin_decir` ya no significa solo «no quiero
-contarlo»: absorbe también a quien le fue mal. De `examen_rendido` **no se puede
-deducir un porcentaje de aprobados**, y nadie debería intentarlo. Es el precio
-elegido a cambio de no hurgar en la herida, y está anotado como comentario en la
-propia tabla para que quien la consulte dentro de un año se entere sin preguntar.
-El valor `'mal'` sigue admitido por el CHECK por si algún día vuelve, pero hoy
-ningún camino de la app lo escribe.
+- **El resultado de una oposición tarda semanas en publicarse.** Preguntarlo el
+  día del examen es pedirle que adivine, y guardaríamos una corazonada creyendo
+  guardar un hecho.
+- **Si las preguntas le sonaban, en cambio, lo sabe al salir del aula.** Esa es
+  la señal que dice si el cerebro apunta donde apunta el tribunal — que es la
+  promesa entera del proyecto — y es lo único que la ventana intenta medir.
+
+Por eso la columna dejó de llamarse `resultado` y pasó a `aprovechamiento`. No es
+cosmética: con el nombre viejo, quien consultara la tabla dentro de un año leería
+aprobados donde no los hay. El texto lo dice de frente: «No te pregunto la nota
+—eso tarda en salir—, sino si las preguntas te sonaban».
+
+Lo que la ventana **no** toca: `evento`, `estado_dominio`, el perfil y el cerebro
+se quedan igual. Presentarse a un examen no borra lo aprendido, y quien no aprueba
+sigue desde donde lo dejó, no desde cero.
+
+Se puede cerrar sin contestar, a propósito: si el opositor cerrase la app sin
+responder, la fecha vencida se quedaría sin limpiar y el coach seguiría
+descolocado.
 
 ## Lo que sigue abierto
 

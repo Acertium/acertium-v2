@@ -643,33 +643,36 @@ export async function resumenHoy(): Promise<ResumenHoy> {
   };
 }
 
+/** Juicio del opositor sobre la FORMACIÓN, no sobre su nota. */
+export type Aprovechamiento = "sirvio" | "no_sirvio" | "sin_decir";
+
 /**
- * Cierra el ciclo de un examen ya pasado: guarda cómo le fue y BORRA la fecha.
+ * Cierra el ciclo de un examen ya pasado: guarda si el opositor cree que la
+ * preparación le ha rentado, y BORRA la fecha.
+ *
+ * LO QUE SE PREGUNTA ES SI ACERTIUM LE SIRVIÓ, no si aprobó. Son dos cosas
+ * distintas, y la segunda ni siquiera se sabe ese día: el resultado oficial de
+ * una oposición tarda semanas. Lo que sí sabe al salir del aula es si las
+ * preguntas le sonaban, y eso es justo lo que interesa medir.
  *
  * Y solo eso. No toca `evento`, ni `estado_dominio`, ni el perfil, ni el cerebro:
  * presentarse a un examen no borra lo aprendido, y quien no aprueba sigue su
  * preparación desde donde la dejó, no desde cero. Es también lo que devuelve al
  * coach al modo maratón hasta que el opositor se fije la siguiente fecha.
- *
- * Solo hay dos respuestas posibles: «fue bien» o «prefiero no decirlo». No hay
- * pulgar hacia abajo a propósito —pedirle a quien acaba de suspender que se
- * señale sobraba—, así que `sin_decir` absorbe también a quien le fue mal y de
- * esta tabla NO se puede sacar un porcentaje de aprobados. La columna admite
- * 'mal' en la base por si algún día vuelve, pero hoy nada lo escribe.
  */
 export async function registrarExamen(
   fecha: string,
-  resultado: "bien" | "sin_decir",
+  aprovechamiento: Aprovechamiento,
 ): Promise<{ ok: boolean }> {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha)) return { ok: false };
   const db = createCerebroClient();
 
-  // El desenlace primero: si fallara, la fecha sigue ahí y se le vuelve a
+  // La apreciación primero: si fallara, la fecha sigue ahí y se le vuelve a
   // preguntar. Al revés se perdería el dato sin que nadie se enterase.
   const { error: eIns } = await db
     .from("examen_rendido")
     .upsert(
-      { usuario_id: DEMO_USUARIO_ID, fecha_examen: fecha, resultado },
+      { usuario_id: DEMO_USUARIO_ID, fecha_examen: fecha, aprovechamiento },
       { onConflict: "usuario_id,fecha_examen" },
     );
   if (eIns) return { ok: false };
