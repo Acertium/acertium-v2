@@ -11,10 +11,7 @@
     {
       "id": "GOB-001",
       "articulo": "art. 1",
-      "explicacion": "Tres apartados y tres cosas distintas que el enunciado mezcla: qué hace el Gobierno (dirige y ejerce función ejecutiva y potestad reglamentaria), de quién SE COMPONE (Presidente, Vicepresidentes en su caso, y Ministros) y CÓMO se reúne (Consejo de Ministros y Comisiones Delegadas). Los Secretarios de Estado no componen el Gobierno.",
-      "cifras": {
-        "3": "recuento: los tres apartados del artículo, y las tres cuestiones distintas que regulan"
-      }
+      "explicacion": "Tres apartados y tres cosas distintas que el enunciado mezcla: qué hace el Gobierno (dirige y ejerce función ejecutiva y potestad reglamentaria), de quién SE COMPONE (Presidente, Vicepresidentes en su caso, y Ministros) y CÓMO se reúne (Consejo de Ministros y Comisiones Delegadas). Los Secretarios de Estado no componen el Gobierno."
     },
     {
       "id": "GOB-004",
@@ -34,10 +31,7 @@
     {
       "id": "GOB-026",
       "articulo": "art. 20",
-      "explicacion": "Cuatro cosas nunca se delegan, y la que más cae es la primera: lo atribuido DIRECTAMENTE POR LA CONSTITUCIÓN. Con ella van el nombramiento y separación de altos cargos, lo de los órganos colegiados del Gobierno y lo que una ley prohíba delegar expresamente.",
-      "cifras": {
-        "4": "recuento: los cuatro supuestos de las letras a) a d) del apartado 3"
-      }
+      "explicacion": "Cuatro cosas nunca se delegan, y la que más cae es la primera: lo atribuido DIRECTAMENTE POR LA CONSTITUCIÓN. Con ella van el nombramiento y separación de altos cargos, lo de los órganos colegiados del Gobierno y lo que una ley prohíba delegar expresamente."
     }
   ]
 }

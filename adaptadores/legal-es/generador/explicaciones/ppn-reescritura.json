@@ -39,12 +39,7 @@
     {
       "id": "PPN-007",
       "articulo": "art. 17",
-      "explicacion": "Cuatro escalas y siete categorías, y la de Subinspección es la única con una sola. Aprenderlas por parejas ayuda: Comisario Principal y Comisario arriba; Oficial de Policía y Policía abajo.",
-      "cifras": {
-        "4": "recuento: las cuatro escalas que enumera el artículo",
-        "7": "recuento: las siete categorías que enumera el artículo",
-        "1": "«una sola», referido a que Subinspección tiene una única categoría, que es lo que el propio artículo enumera"
-      }
+      "explicacion": "Cuatro escalas y siete categorías, y la de Subinspección es la única con una sola. Aprenderlas por parejas ayuda: Comisario Principal y Comisario arriba; Oficial de Policía y Policía abajo."
     },
     {
       "id": "PPN-009",
@@ -72,10 +67,7 @@
     {
       "id": "PPN-013",
       "articulo": "art. 25",
-      "explicacion": "Las fases se superan de forma SUCESIVA: no se compensan entre sí, caer en una cierra el proceso. Y solo dos categorías tienen oposición libre, Inspector y Policía; a las demás se llega desde dentro.",
-      "cifras": {
-        "2": "recuento: las categorías con oposición libre que nombra la ley, Inspector y Policía"
-      }
+      "explicacion": "Las fases se superan de forma SUCESIVA: no se compensan entre sí, caer en una cierra el proceso. Y solo dos categorías tienen oposición libre, Inspector y Policía; a las demás se llega desde dentro."
     },
     {
       "id": "PPN-014",
@@ -90,10 +82,7 @@
     {
       "id": "PPN-016",
       "articulo": "art. 28",
-      "explicacion": "Tres reglas de composición que se preguntan juntas: número impar de miembros, presidencia de categoría igual o superior a la que se aspira y en servicio activo, y exclusión del personal político, interino y eventual.",
-      "cifras": {
-        "3": "recuento retórico: las tres reglas de composición que fija el artículo"
-      }
+      "explicacion": "Tres reglas de composición que se preguntan juntas: número impar de miembros, presidencia de categoría igual o superior a la que se aspira y en servicio activo, y exclusión del personal político, interino y eventual."
     },
     {
       "id": "PPN-017",
@@ -128,8 +117,7 @@
       "articulo": "art. 57",
       "explicacion": "Cinco modalidades, y no se rigen igual: cada una tiene sus propios requisitos de tiempo previo, permanencia y reserva de puesto. Aprender «excedencia» como una sola cosa es el error.",
       "cifras": {
-        "5": "recuento: las cinco modalidades de excedencia que enumera el artículo",
-        "1": "«una sola cosa»: giro de la frase, no una cifra de la norma"
+        "5": "recuento: las cinco modalidades de excedencia que enumera el artículo"
       }
     },
     {
@@ -140,10 +128,7 @@
     {
       "id": "PPN-024",
       "articulo": "art. 60",
-      "explicacion": "Ojo a los dos plazos, que no coinciden: el derecho a la excedencia dura más que la reserva del puesto. Y el tiempo sí computa a efectos de trienios y antigüedad, a diferencia de la suspensión firme.",
-      "cifras": {
-        "2": "recuento retórico: los «dos plazos» que el artículo distingue, duración de la excedencia y reserva del puesto"
-      }
+      "explicacion": "Ojo a los dos plazos, que no coinciden: el derecho a la excedencia dura más que la reserva del puesto. Y el tiempo sí computa a efectos de trienios y antigüedad, a diferencia de la suspensión firme."
     },
     {
       "id": "PPN-025",
@@ -173,8 +158,8 @@
       "articulo": "art. 67",
       "explicacion": "Tres puertas, y solo la primera es involuntaria: la insuficiencia psicofísica. Las otras dos son a petición propia y se distinguen por lo que exigen — o la edad, o los años cumplidos. Ojo al «efectivos»: cuentan servicio activo, servicios especiales y excedencia forzosa, no cualquier situación.",
       "cifras": {
-        "3": "recuento: las tres causas de pase a segunda actividad que enumera el artículo",
-        "2": "recuento retórico: «las otras dos», las que van a petición propia"
+        "2": "recuento retórico: «las otras dos», las que van a petición propia",
+        "3": "recuento: las tres causas de pase a segunda actividad que enumera el artículo"
       }
     },
     {
@@ -182,8 +167,7 @@
       "articulo": "art. 69",
       "explicacion": "Las edades bajan en escalera conforme baja la escala, y de dos en dos años. Tiene lógica: cuanto más operativa es la escala, más pronto se admite el pase. Memorizar el sentido evita tener que memorizar las cuatro cifras sueltas.",
       "cifras": {
-        "4": "recuento: las cuatro escalas con edad propia que fija el artículo",
-        "2": "«de dos en dos años»: diferencia entre las edades que el propio artículo fija"
+        "4": "recuento: las cuatro escalas con edad propia que fija el artículo"
       }
     }
   ]

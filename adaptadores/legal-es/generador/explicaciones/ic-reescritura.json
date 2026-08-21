@@ -61,10 +61,7 @@
     {
       "id": "IC-012",
       "articulo": "art. 2",
-      "explicacion": "El Nivel de Seguridad lo activa el MINISTERIO DEL INTERIOR, no el operador ni el CNPIC, y su previsión está en el Plan Nacional. Se gradúa con dos evaluaciones a la vez: la general de la amenaza y la específica de cada infraestructura.",
-      "cifras": {
-        "2": "recuento: las dos evaluaciones que el propio artículo exige combinar, la general de la amenaza y la específica de cada infraestructura"
-      }
+      "explicacion": "El Nivel de Seguridad lo activa el MINISTERIO DEL INTERIOR, no el operador ni el CNPIC, y su previsión está en el Plan Nacional. Se gradúa con dos evaluaciones a la vez: la general de la amenaza y la específica de cada infraestructura."
     },
     {
       "id": "IC-013",
@@ -79,10 +76,7 @@
     {
       "id": "IC-015",
       "articulo": "art. 4",
-      "explicacion": "Aquí conviven dos competencias que el enunciado separa mal: responsable del Catálogo y competente para CLASIFICAR es el Ministerio del Interior por la Secretaría de Estado de Seguridad. Las altas, bajas y modificaciones concretas, en cambio, corresponden al CNPIC.",
-      "cifras": {
-        "2": "recuento: las dos competencias que el artículo reúne en el Ministerio del Interior, la responsabilidad del Catálogo y la de clasificar e incluir"
-      }
+      "explicacion": "Aquí conviven dos competencias que el enunciado separa mal: responsable del Catálogo y competente para CLASIFICAR es el Ministerio del Interior por la Secretaría de Estado de Seguridad. Las altas, bajas y modificaciones concretas, en cambio, corresponden al CNPIC."
     },
     {
       "id": "IC-016",
@@ -92,10 +86,7 @@
     {
       "id": "IC-017",
       "articulo": "art. 5",
-      "explicacion": "De la lista de agentes hay dos que sorprenden y por eso se preguntan: las Corporaciones Locales entran a través de la asociación de Entidades Locales de mayor implantación nacional, y los propios operadores críticos son agentes del Sistema, no simples sujetos obligados.",
-      "cifras": {
-        "2": "recuento: los dos agentes de la lista que más se sustituyen en el enunciado, las Corporaciones Locales y los operadores críticos"
-      }
+      "explicacion": "De la lista de agentes hay dos que sorprenden y por eso se preguntan: las Corporaciones Locales entran a través de la asociación de Entidades Locales de mayor implantación nacional, y los propios operadores críticos son agentes del Sistema, no simples sujetos obligados."
     },
     {
       "id": "IC-018",
@@ -105,10 +96,7 @@
     {
       "id": "IC-019",
       "articulo": "art. 7",
-      "explicacion": "El CNPIC impulsa, coordina y supervisa; depende ORGÁNICAMENTE de la Secretaría de Estado de Seguridad. Y tiene dos competencias propias que no son reglamentarias sino de la propia ley: mover altas, bajas y modificaciones en el Catálogo, y determinar la criticidad.",
-      "cifras": {
-        "2": "recuento: las dos competencias que el apartado 3 atribuye directamente al CNPIC, altas/bajas/modificaciones y determinación de la criticidad"
-      }
+      "explicacion": "El CNPIC impulsa, coordina y supervisa; depende ORGÁNICAMENTE de la Secretaría de Estado de Seguridad. Y tiene dos competencias propias que no son reglamentarias sino de la propia ley: mover altas, bajas y modificaciones en el Catálogo, y determinar la criticidad."
     },
     {
       "id": "IC-020",
@@ -138,10 +126,7 @@
     {
       "id": "IC-025",
       "articulo": "art. 14",
-      "explicacion": "Los planes van de lo general a lo concreto —Nacional, Estratégicos Sectoriales, del Operador, de Protección Específicos y de Apoyo Operativo— y quien los hace cambia en cada escalón: Interior el Nacional, el Grupo de Trabajo los sectoriales, los operadores los dos suyos.",
-      "cifras": {
-        "2": "recuento: los dos planes que corresponden al operador crítico, el de Seguridad del Operador y el de Protección Específico"
-      }
+      "explicacion": "Los planes van de lo general a lo concreto —Nacional, Estratégicos Sectoriales, del Operador, de Protección Específicos y de Apoyo Operativo— y quien los hace cambia en cada escalón: Interior el Nacional, el Grupo de Trabajo los sectoriales, los operadores los dos suyos."
     },
     {
       "id": "IC-026",

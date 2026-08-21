@@ -11,10 +11,7 @@
     {
       "id": "DPSF-001",
       "articulo": "art. 1",
-      "explicacion": "Esta orden no crea reglas nuevas: baja al detalle del Real Decreto 853/2022. Cuando una pregunta pide una cifra concreta —duración de un curso, nota de corte, nivel de idioma— la respuesta suele estar aquí, no en el reglamento.",
-      "cifras": {
-        "1": "recuento retórico: «una cifra concreta»; no es un dato de la norma"
-      }
+      "explicacion": "Esta orden no crea reglas nuevas: baja al detalle del Real Decreto 853/2022. Cuando una pregunta pide una cifra concreta —duración de un curso, nota de corte, nivel de idioma— la respuesta suele estar aquí, no en el reglamento."
     },
     {
       "id": "DPSF-002",
@@ -89,10 +86,7 @@
     {
       "id": "DPSF-016",
       "articulo": "art. 18",
-      "explicacion": "A2 es requisito de ingreso a Policía, no un mérito: sin acreditarlo se queda fuera. Y sube a B1 para el ingreso a Inspector — el nivel acompaña a la escala.",
-      "cifras": {
-        "1": "referencia cruzada al art. 26.1: el nivel B1 exigido para Inspector, que es con lo que se contrasta"
-      }
+      "explicacion": "A2 es requisito de ingreso a Policía, no un mérito: sin acreditarlo se queda fuera. Y sube a B1 para el ingreso a Inspector — el nivel acompaña a la escala."
     },
     {
       "id": "DPSF-017",
@@ -135,11 +129,7 @@
     {
       "id": "DPSF-024",
       "articulo": "art. 25",
-      "explicacion": "El módulo de Policía va de nueve a doce meses, el más largo del reglamento. Conviene fijarlo enfrente del de Inspector, que va de cuatro a seis: es justo el par que se cruza.",
-      "cifras": {
-        "4": "referencia cruzada al art. 35.2, la duración del módulo de Inspector, que es con lo que se contrasta",
-        "6": "la otra mitad de esa misma horquilla del art. 35.2"
-      }
+      "explicacion": "El módulo de Policía va de nueve a doce meses, el más largo del reglamento. Conviene fijarlo enfrente del de Inspector, que va de cuatro a seis: es justo el par que se cruza."
     },
     {
       "id": "DPSF-025",
@@ -149,10 +139,7 @@
     {
       "id": "DPSF-026",
       "articulo": "art. 26",
-      "explicacion": "B1 para Inspector frente al A2 que basta para Policía: el requisito sube con la escala. Y en los dos casos es requisito de acceso, no mérito.",
-      "cifras": {
-        "2": "referencia cruzada al art. 18.1: el nivel A2 exigido para Policía, que es con lo que se contrasta"
-      }
+      "explicacion": "B1 para Inspector frente al A2 que basta para Policía: el requisito sube con la escala. Y en los dos casos es requisito de acceso, no mérito."
     },
     {
       "id": "DPSF-027",
@@ -182,11 +169,7 @@
     {
       "id": "DPSF-032",
       "articulo": "art. 35",
-      "explicacion": "El módulo de Inspector va de cuatro a seis meses, menos de la mitad que el de Policía, que llega a doce. Es la comparación que se pregunta, así que conviene aprenderlos juntos.",
-      "cifras": {
-        "12": "referencia cruzada al art. 25.2, el tope del módulo de Policía, que es con lo que se contrasta",
-        "2": "«menos de la mitad»: comparación entre las dos horquillas, no una cifra de la norma"
-      }
+      "explicacion": "El módulo de Inspector va de cuatro a seis meses, menos de la mitad que el de Policía, que llega a doce. Es la comparación que se pregunta, así que conviene aprenderlos juntos."
     },
     {
       "id": "DPSF-033",
@@ -201,10 +184,7 @@
     {
       "id": "DPSF-035",
       "articulo": "art. 37",
-      "explicacion": "La primera fase no es una prueba, es la calificación previa. Después vienen pruebas de aptitud, entrevista, curso de formación específica y —solo cuando proceda— el módulo práctico.",
-      "cifras": {
-        "1": "recuento retórico: «la primera fase», referido al orden de las que enumera el artículo"
-      }
+      "explicacion": "La primera fase no es una prueba, es la calificación previa. Después vienen pruebas de aptitud, entrevista, curso de formación específica y —solo cuando proceda— el módulo práctico."
     },
     {
       "id": "DPSF-036",

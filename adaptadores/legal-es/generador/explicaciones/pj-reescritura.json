@@ -11,58 +11,37 @@
     {
       "id": "PJ-001",
       "articulo": "art. 1",
-      "explicacion": "Este es el sentido AMPLIO: las funciones generales de policía judicial alcanzan a todos los miembros de las Fuerzas y Cuerpos de Seguridad, sean del Estado, autonómicos o locales. El sentido estricto —las Unidades Orgánicas— viene después y es mucho más reducido.",
-      "cifras": {
-        "1": "«el sentido amplio»: referencia a la distinción que hace el propio artículo"
-      }
+      "explicacion": "Este es el sentido AMPLIO: las funciones generales de policía judicial alcanzan a todos los miembros de las Fuerzas y Cuerpos de Seguridad, sean del Estado, autonómicos o locales. El sentido estricto —las Unidades Orgánicas— viene después y es mucho más reducido."
     },
     {
       "id": "PJ-002",
       "articulo": "art. 2",
-      "explicacion": "Se puede actuar por requerimiento o por PROPIA INICIATIVA. Esa segunda vía es la que se olvida: no hace falta esperar orden para practicar las primeras diligencias.",
-      "cifras": {
-        "2": "recuento retórico: «esa segunda vía», la actuación por propia iniciativa"
-      }
+      "explicacion": "Se puede actuar por requerimiento o por PROPIA INICIATIVA. Esa segunda vía es la que se olvida: no hace falta esperar orden para practicar las primeras diligencias."
     },
     {
       "id": "PJ-003",
       "articulo": "art. 3",
-      "explicacion": "Es una vía subsidiaria y doblemente acotada: solo si no hay Unidades disponibles, y solo con carácter transitorio o por urgencia. No es una alternativa que el juez pueda elegir libremente.",
-      "cifras": {
-        "1": "«una alternativa»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Es una vía subsidiaria y doblemente acotada: solo si no hay Unidades disponibles, y solo con carácter transitorio o por urgencia. No es una alternativa que el juez pueda elegir libremente."
     },
     {
       "id": "PJ-004",
       "articulo": "art. 4",
-      "explicacion": "El deber nace con la NOTICIA del hecho, no con la orden: en cuanto se conoce, hay que practicar las primeras diligencias. Y alcanza a todos los componentes de las Fuerzas y Cuerpos de Seguridad, no solo a los especializados.",
-      "cifras": {
-        "1": "«la noticia del hecho»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "El deber nace con la NOTICIA del hecho, no con la orden: en cuanto se conoce, hay que practicar las primeras diligencias. Y alcanza a todos los componentes de las Fuerzas y Cuerpos de Seguridad, no solo a los especializados."
     },
     {
       "id": "PJ-005",
       "articulo": "art. 5",
-      "explicacion": "La actuación policial autónoma termina en un momento preciso: cuando comparece la Autoridad Judicial o el Fiscal. A partir de ahí no se cesa del todo — se pasa a actuar bajo su dirección.",
-      "cifras": {
-        "1": "«un momento preciso»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La actuación policial autónoma termina en un momento preciso: cuando comparece la Autoridad Judicial o el Fiscal. A partir de ahí no se cesa del todo — se pasa a actuar bajo su dirección."
     },
     {
       "id": "PJ-006",
       "articulo": "art. 6",
-      "explicacion": "Aquí está la nota que define el sentido ESTRICTO: dependencia funcional DIRECTA de Jueces, Tribunales y Ministerio Fiscal. Es lo que separa a estas Unidades del resto de policías, que también hacen funciones de policía judicial.",
-      "cifras": {
-        "1": "«la nota que define»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Aquí está la nota que define el sentido ESTRICTO: dependencia funcional DIRECTA de Jueces, Tribunales y Ministerio Fiscal. Es lo que separa a estas Unidades del resto de policías, que también hacen funciones de policía judicial."
     },
     {
       "id": "PJ-007",
       "articulo": "art. 7",
-      "explicacion": "La Policía Judicial en sentido estricto no es cualquiera: son las Unidades Orgánicas que prevé la Ley Orgánica de Fuerzas y Cuerpos de Seguridad, integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil. Ni policías autonómicas ni locales.",
-      "cifras": {
-        "1": "«no es cualquiera»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La Policía Judicial en sentido estricto no es cualquiera: son las Unidades Orgánicas que prevé la Ley Orgánica de Fuerzas y Cuerpos de Seguridad, integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil. Ni policías autonómicas ni locales."
     },
     {
       "id": "PJ-008",
@@ -75,34 +54,22 @@
     {
       "id": "PJ-009",
       "articulo": "art. 9",
-      "explicacion": "La regla general es la base PROVINCIAL, con secciones donde el índice delictual lo pida. Guárdalo enfrente de la excepción del mismo artículo, que permite ámbitos distintos.",
-      "cifras": {
-        "1": "«la regla general»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La regla general es la base PROVINCIAL, con secciones donde el índice delictual lo pida. Guárdalo enfrente de la excepción del mismo artículo, que permite ámbitos distintos."
     },
     {
       "id": "PJ-010",
       "articulo": "art. 9",
-      "explicacion": "La excepción a la base provincial la justifica la materia, no el volumen: especialización delictual o técnicas de investigación. Por eso hay unidades cuyo ámbito no coincide con una provincia.",
-      "cifras": {
-        "1": "«la excepción»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La excepción a la base provincial la justifica la materia, no el volumen: especialización delictual o técnicas de investigación. Por eso hay unidades cuyo ámbito no coincide con una provincia."
     },
     {
       "id": "PJ-011",
       "articulo": "art. 10",
-      "explicacion": "La dependencia funcional no es hacia «los jueces» en abstracto: es del CONCRETO juez, tribunal o fiscal que conoce del asunto. Cambia el asunto, cambia el superior funcional.",
-      "cifras": {
-        "1": "«el concreto juez»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La dependencia funcional no es hacia «los jueces» en abstracto: es del CONCRETO juez, tribunal o fiscal que conoce del asunto. Cambia el asunto, cambia el superior funcional."
     },
     {
       "id": "PJ-012",
       "articulo": "art. 11",
-      "explicacion": "Aquí se resuelve el choque de mandos: las instrucciones técnicas del superior policial NO pueden contradecir lo ordenado por el juez o el fiscal. En caso de conflicto, manda lo judicial.",
-      "cifras": {
-        "1": "«el choque de mandos»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Aquí se resuelve el choque de mandos: las instrucciones técnicas del superior policial NO pueden contradecir lo ordenado por el juez o el fiscal. En caso de conflicto, manda lo judicial."
     },
     {
       "id": "PJ-013",
@@ -115,106 +82,67 @@
     {
       "id": "PJ-014",
       "articulo": "art. 13",
-      "explicacion": "Actuar como comisionado del órgano judicial no es una etiqueta: habilita para requerir el auxilio necesario de otras autoridades. Se actúa con autoridad prestada, no solo policial.",
-      "cifras": {
-        "1": "«una etiqueta»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Actuar como comisionado del órgano judicial no es una etiqueta: habilita para requerir el auxilio necesario de otras autoridades. Se actúa con autoridad prestada, no solo policial."
     },
     {
       "id": "PJ-015",
       "articulo": "art. 14",
-      "explicacion": "Las diligencias tienen el valor que las leyes les den, pero con un plus de consideración por venir de una unidad adscrita y especializada. No convierte el atestado en prueba: refuerza su peso.",
-      "cifras": {
-        "1": "«un plus de consideración»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Las diligencias tienen el valor que las leyes les den, pero con un plus de consideración por venir de una unidad adscrita y especializada. No convierte el atestado en prueba: refuerza su peso."
     },
     {
       "id": "PJ-016",
       "articulo": "art. 15",
-      "explicacion": "La reserva es RIGUROSA y su infracción se corrige por vía disciplinaria. Pero no es secreto absoluto: salvo prohibición expresa, cabe informar de lo que proceda.",
-      "cifras": {
-        "1": "«no es secreto absoluto»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La reserva es RIGUROSA y su infracción se corrige por vía disciplinaria. Pero no es secreto absoluto: salvo prohibición expresa, cabe informar de lo que proceda."
     },
     {
       "id": "PJ-017",
       "articulo": "art. 16",
-      "explicacion": "El funcionario no puede ser apartado del caso mientras dure — ni por su propio mando policial. Solo por decisión de la autoridad judicial o fiscal. Es la garantía de que la investigación no se corta desde dentro.",
-      "cifras": {
-        "1": "«la garantía»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "El funcionario no puede ser apartado del caso mientras dure — ni por su propio mando policial. Solo por decisión de la autoridad judicial o fiscal. Es la garantía de que la investigación no se corta desde dentro."
     },
     {
       "id": "PJ-018",
       "articulo": "art. 17",
-      "explicacion": "La dependencia funcional llega hasta el régimen del funcionario: el juez o el fiscal pueden instar tanto la sanción como el reconocimiento de méritos. Puede pedir el premio y el castigo, no solo el castigo.",
-      "cifras": {
-        "1": "«el premio y el castigo»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La dependencia funcional llega hasta el régimen del funcionario: el juez o el fiscal pueden instar tanto la sanción como el reconocimiento de méritos. Puede pedir el premio y el castigo, no solo el castigo."
     },
     {
       "id": "PJ-019",
       "articulo": "art. 18",
-      "explicacion": "Investigación criminal PERMANENTE y ESPECIAL: no se activa caso a caso. Y donde el nivel delictual lo justifica se dotan medios propios, incluida capacidad técnica.",
-      "cifras": {
-        "1": "«caso a caso»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Investigación criminal PERMANENTE y ESPECIAL: no se activa caso a caso. Y donde el nivel delictual lo justifica se dotan medios propios, incluida capacidad técnica."
     },
     {
       "id": "PJ-020",
       "articulo": "art. 19",
-      "explicacion": "El encargo a las Unidades tiene tope: solo las funciones del art. 445.1 de la LOPJ. No se les puede encomendar cualquier cosa por el hecho de estar adscritas.",
-      "cifras": {
-        "1": "«un tope»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "El encargo a las Unidades tiene tope: solo las funciones del art. 445.1 de la LOPJ. No se les puede encomendar cualquier cosa por el hecho de estar adscritas."
     },
     {
       "id": "PJ-021",
       "articulo": "art. 20",
-      "explicacion": "Antes de que se judicialice el asunto, quien dirige es el MINISTERIO FISCAL. La dependencia del juez llega cuando se abre la actuación judicial, no antes.",
-      "cifras": {
-        "1": "«quien dirige»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Antes de que se judicialice el asunto, quien dirige es el MINISTERIO FISCAL. La dependencia del juez llega cuando se abre la actuación judicial, no antes."
     },
     {
       "id": "PJ-022",
       "articulo": "art. 21",
-      "explicacion": "Iniciado el procedimiento, juez y fiscal se entienden DIRECTAMENTE con la unidad, sin pasar por instancias administrativas superiores. Es lo que hace operativa la dependencia funcional.",
-      "cifras": {
-        "1": "«lo que hace operativa»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Iniciado el procedimiento, juez y fiscal se entienden DIRECTAMENTE con la unidad, sin pasar por instancias administrativas superiores. Es lo que hace operativa la dependencia funcional."
     },
     {
       "id": "PJ-023",
       "articulo": "art. 22",
-      "explicacion": "Para asuntos de especial trascendencia o supraprovinciales hay un cauce reforzado que sube al Presidente del Tribunal Supremo o al Fiscal General. No es el canal ordinario del artículo anterior.",
-      "cifras": {
-        "1": "«el canal ordinario»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Para asuntos de especial trascendencia o supraprovinciales hay un cauce reforzado que sube al Presidente del Tribunal Supremo o al Fiscal General. No es el canal ordinario del artículo anterior."
     },
     {
       "id": "PJ-024",
       "articulo": "art. 23",
-      "explicacion": "Las adscritas las asigna el Ministerio del Interior, pero no unilateralmente: hace falta informe favorable del Consejo General del Poder Judicial. Y son permanentes y estables, no para un caso.",
-      "cifras": {
-        "1": "«para un caso»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Las adscritas las asigna el Ministerio del Interior, pero no unilateralmente: hace falta informe favorable del Consejo General del Poder Judicial. Y son permanentes y estables, no para un caso."
     },
     {
       "id": "PJ-025",
       "articulo": "art. 24",
-      "explicacion": "Las adscritas NO son unidades independientes: forman parte de la Unidad Orgánica provincial. Confundirlas con una estructura paralela es el error del capítulo.",
-      "cifras": {
-        "1": "«una estructura paralela»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Las adscritas NO son unidades independientes: forman parte de la Unidad Orgánica provincial. Confundirlas con una estructura paralela es el error del capítulo."
     },
     {
       "id": "PJ-026",
       "articulo": "art. 25",
-      "explicacion": "Se busca proximidad física: sede en las propias dependencias judiciales y Fiscalías siempre que se pueda. La cercanía es parte del diseño, no una casualidad.",
-      "cifras": {
-        "1": "«una casualidad»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Se busca proximidad física: sede en las propias dependencias judiciales y Fiscalías siempre que se pueda. La cercanía es parte del diseño, no una casualidad."
     },
     {
       "id": "PJ-027",
@@ -227,34 +155,22 @@
     {
       "id": "PJ-028",
       "articulo": "art. 27",
-      "explicacion": "La composición es MIXTA: diplomados que superaron los cursos de selección, y efectivos no especializados. No todo el que está en una adscrita tiene el diploma.",
-      "cifras": {
-        "1": "«no todo el que está»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La composición es MIXTA: diplomados que superaron los cursos de selección, y efectivos no especializados. No todo el que está en una adscrita tiene el diploma."
     },
     {
       "id": "PJ-029",
       "articulo": "art. 28",
-      "explicacion": "Los cometidos son de policía científica —inspecciones oculares y similares— y se prestan en asistencia directa al Juzgado y Fiscal de GUARDIA. Es trabajo de primera hora, no de investigación larga.",
-      "cifras": {
-        "1": "«primera hora»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Los cometidos son de policía científica —inspecciones oculares y similares— y se prestan en asistencia directa al Juzgado y Fiscal de GUARDIA. Es trabajo de primera hora, no de investigación larga."
     },
     {
       "id": "PJ-030",
       "articulo": "art. 29",
-      "explicacion": "Cuando la adscrita se queda corta, el asunto pasa a la Unidad Orgánica. Es la válvula que evita que una investigación grande muera en una unidad pequeña.",
-      "cifras": {
-        "1": "«una unidad pequeña»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Cuando la adscrita se queda corta, el asunto pasa a la Unidad Orgánica. Es la válvula que evita que una investigación grande muera en una unidad pequeña."
     },
     {
       "id": "PJ-031",
       "articulo": "art. 30",
-      "explicacion": "Quién va a cada cometido lo decide el Jefe de la Unidad adscrita, no el juez. Pero tiene que dar cuenta de la designación: la autoridad judicial sabe a quién le ha tocado.",
-      "cifras": {
-        "1": "«a quién le ha tocado»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Quién va a cada cometido lo decide el Jefe de la Unidad adscrita, no el juez. Pero tiene que dar cuenta de la designación: la autoridad judicial sabe a quién le ha tocado."
     },
     {
       "id": "PJ-032",
@@ -268,74 +184,47 @@
     {
       "id": "PJ-033",
       "articulo": "art. 32",
-      "explicacion": "La Comisión Nacional la preside el Presidente del Tribunal Supremo y del CGPJ cuando asiste personalmente — no siempre lo hace, de ahí el régimen de delegaciones del artículo siguiente.",
-      "cifras": {
-        "1": "«no siempre lo hace»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La Comisión Nacional la preside el Presidente del Tribunal Supremo y del CGPJ cuando asiste personalmente — no siempre lo hace, de ahí el régimen de delegaciones del artículo siguiente."
     },
     {
       "id": "PJ-034",
       "articulo": "art. 33",
-      "explicacion": "Las delegaciones están tasadas y cada una tiene su destinatario: la del Presidente del Supremo, en un Magistrado de la Sala Segunda. No delega en cualquiera.",
-      "cifras": {
-        "1": "«cada una»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Las delegaciones están tasadas y cada una tiene su destinatario: la del Presidente del Supremo, en un Magistrado de la Sala Segunda. No delega en cualquiera."
     },
     {
       "id": "PJ-035",
       "articulo": "art. 34",
-      "explicacion": "La provincial reproduce el esquema nacional a su escala: preside el Presidente de la Audiencia Provincial, con el Fiscal Jefe y el Decano. Aprenderla junto a la nacional evita mezclar cargos.",
-      "cifras": {
-        "1": "«a su escala»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La provincial reproduce el esquema nacional a su escala: preside el Presidente de la Audiencia Provincial, con el Fiscal Jefe y el Decano. Aprenderla junto a la nacional evita mezclar cargos."
     },
     {
       "id": "PJ-036",
       "articulo": "art. 35",
-      "explicacion": "Las Comisiones pueden ampliarse con otras autoridades o funcionarios, pero solo EVENTUALMENTE y para materias concretas o auxilio técnico. No cambia la composición estable.",
-      "cifras": {
-        "1": "«la composición estable»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Las Comisiones pueden ampliarse con otras autoridades o funcionarios, pero solo EVENTUALMENTE y para materias concretas o auxilio técnico. No cambia la composición estable."
     },
     {
       "id": "PJ-037",
       "articulo": "art. 36",
-      "explicacion": "La Comisión Nacional no manda sobre las unidades: estudia, informa, propone planes y conoce previamente de los nombramientos. Su fuerza es de informe, no de dirección.",
-      "cifras": {
-        "1": "«su fuerza es de informe»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "La Comisión Nacional no manda sobre las unidades: estudia, informa, propone planes y conoce previamente de los nombramientos. Su fuerza es de informe, no de dirección."
     },
     {
       "id": "PJ-038",
       "articulo": "art. 37",
-      "explicacion": "Hay un informe que sí ata: el de las propuestas de REMOCIÓN de funcionarios de las Unidades adscritas es preceptivo y VINCULANTE. Es la excepción a que las Comisiones solo informen.",
-      "cifras": {
-        "1": "«un informe que sí ata»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Hay un informe que sí ata: el de las propuestas de REMOCIÓN de funcionarios de las Unidades adscritas es preceptivo y VINCULANTE. Es la excepción a que las Comisiones solo informen."
     },
     {
       "id": "PJ-039",
       "articulo": "art. 38",
-      "explicacion": "Las cadencias no coinciden: la Nacional se reúne con menos frecuencia que las Provinciales, que trabajan sobre el día a día. Convoca siempre el Presidente.",
-      "cifras": {
-        "1": "«el día a día»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "Las cadencias no coinciden: la Nacional se reúne con menos frecuencia que las Provinciales, que trabajan sobre el día a día. Convoca siempre el Presidente."
     },
     {
       "id": "PJ-040",
       "articulo": "art. 39",
-      "explicacion": "A las Unidades Orgánicas no se llega por destino: hace falta un TÍTULO obtenido superando pruebas. La especialización se acredita, no se presume.",
-      "cifras": {
-        "1": "«un título»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "A las Unidades Orgánicas no se llega por destino: hace falta un TÍTULO obtenido superando pruebas. La especialización se acredita, no se presume."
     },
     {
       "id": "PJ-041",
       "articulo": "art. 40",
-      "explicacion": "La formación va en dos fases sucesivas y con dos casas distintas: primero los Centros de las Fuerzas y Cuerpos de Seguridad, después el Centro de Estudios Judiciales. Saber cuál va primero es lo que se pregunta.",
-      "cifras": {
-        "2": "recuento: las dos fases sucesivas de formación que establece el artículo"
-      }
+      "explicacion": "La formación va en dos fases sucesivas y con dos casas distintas: primero los Centros de las Fuerzas y Cuerpos de Seguridad, después el Centro de Estudios Judiciales. Saber cuál va primero es lo que se pregunta."
     },
     {
       "id": "PJ-042",
@@ -348,18 +237,12 @@
     {
       "id": "PJ-043",
       "articulo": "art. 44",
-      "explicacion": "El orden es obligatorio: sin superar los cursos de los Centros policiales no se accede a los del Centro de Estudios Judiciales. No se puede saltar la primera fase.",
-      "cifras": {
-        "1": "«la primera fase»: referencia al orden que el artículo impone"
-      }
+      "explicacion": "El orden es obligatorio: sin superar los cursos de los Centros policiales no se accede a los del Centro de Estudios Judiciales. No se puede saltar la primera fase."
     },
     {
       "id": "PJ-044",
       "articulo": "art. 45",
-      "explicacion": "El diploma del Centro de Estudios Judiciales cierra el ciclo: es lo que habilita para la titulación y para ocupar plaza en las Unidades. Antes de él no hay especialización acreditada.",
-      "cifras": {
-        "1": "«el ciclo»: giro de la frase, no una cifra de la norma"
-      }
+      "explicacion": "El diploma del Centro de Estudios Judiciales cierra el ciclo: es lo que habilita para la titulación y para ocupar plaza en las Unidades. Antes de él no hay especialización acreditada."
     }
   ]
 }

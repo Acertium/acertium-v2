@@ -21,18 +21,14 @@
     {
       "id": "DISC-003",
       "articulo": "art. 4",
-      "explicacion": "El deber no se suspende cuando el implicado es el jefe: se sube un escalón y se comunica al superior inmediato de aquel. Y no es un deber decorativo — callar es exactamente lo que el artículo siguiente define como encubrimiento.",
-      "cifras": {
-        "1": "recuento retórico: «se sube un escalón» en la cadena de mando; no es una cifra de la norma"
-      }
+      "explicacion": "El deber no se suspende cuando el implicado es el jefe: se sube un escalón y se comunica al superior inmediato de aquel. Y no es un deber decorativo — callar es exactamente lo que el artículo siguiente define como encubrimiento."
     },
     {
       "id": "DISC-004",
       "articulo": "art. 5",
       "explicacion": "Dos grados que se confunden con facilidad: quien induce responde igual que el autor; quien encubre, o el superior que tolera, un grado por debajo. Y el encubrimiento aquí es por omisión pura — basta con no dar cuenta de forma inmediata al superior competente.",
       "cifras": {
-        "2": "recuento: los dos grados de responsabilidad que distingue el artículo, inductor y encubridor",
-        "1": "«un grado por debajo», que es como el artículo describe la responsabilidad del encubridor y del superior que tolera: falta de grado inferior"
+        "2": "recuento: los dos grados de responsabilidad que distingue el artículo, inductor y encubridor"
       }
     },
     {
@@ -80,7 +76,6 @@
       "articulo": "art. 9",
       "explicacion": "La inasistencia empieza siendo leve y solo sube a grave cuando se acumula: hace falta la tercera falta injustificada con las dos anteriores ya sancionadas en firme. Sin esas dos sanciones previas, por muchas ausencias que haya, sigue siendo leve.",
       "cifras": {
-        "3": "la TERCERA falta injustificada, requisito de la falta grave del art. 8.e con la que se contrasta esta leve",
         "2": "las DOS sanciones firmes previas que exige ese mismo art. 8.e"
       }
     },
@@ -97,10 +92,7 @@
     {
       "id": "DISC-017",
       "articulo": "art. 12",
-      "explicacion": "De todos los criterios hay uno que juega en una sola dirección: el historial profesional únicamente puede atenuar, nunca agravar. Para agravar está la reincidencia, que además no cuenta antecedentes ya cancelados.",
-      "cifras": {
-        "1": "recuento retórico: «una sola dirección», referido a que el historial profesional solo puede atenuar"
-      }
+      "explicacion": "De todos los criterios hay uno que juega en una sola dirección: el historial profesional únicamente puede atenuar, nunca agravar. Para agravar está la reincidencia, que además no cuenta antecedentes ya cancelados."
     },
     {
       "id": "DISC-018",

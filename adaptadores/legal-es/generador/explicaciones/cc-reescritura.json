@@ -41,10 +41,7 @@
     {
       "id": "CC-007",
       "articulo": "art. 1",
-      "explicacion": "«Complementará» no es sinónimo de «será fuente»: la jurisprudencia se queda fuera del apartado primero a propósito. Y para que exista hacen falta dos condiciones que el enunciado suele romper: doctrina del Tribunal Supremo, y establecida de modo reiterado.",
-      "cifras": {
-        "2": "recuento: las dos condiciones que el propio artículo exige, órgano (Tribunal Supremo) y reiteración"
-      }
+      "explicacion": "«Complementará» no es sinónimo de «será fuente»: la jurisprudencia se queda fuera del apartado primero a propósito. Y para que exista hacen falta dos condiciones que el enunciado suele romper: doctrina del Tribunal Supremo, y establecida de modo reiterado."
     },
     {
       "id": "CC-008",
@@ -96,7 +93,6 @@
       "articulo": "art. 5",
       "explicacion": "Dos reglas distintas según la unidad: por días se excluye el día inicial y se empieza a contar al siguiente; por meses o años se computa de fecha a fecha, sin excluir nada. Y para el 31 que no existe en el mes de vencimiento, el plazo expira el último día del mes.",
       "cifras": {
-        "2": "recuento: las dos reglas de cómputo que distingue el artículo, por días y por meses o años",
         "31": "ejemplo del día inexistente que motiva la regla del artículo («cuando en el mes del vencimiento no hubiera día equivalente al inicial»); no es cifra de la norma"
       }
     },

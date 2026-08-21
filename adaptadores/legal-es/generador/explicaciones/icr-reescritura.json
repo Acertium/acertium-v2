@@ -61,10 +61,7 @@
     {
       "id": "ICR-013",
       "articulo": "art. 11",
-      "explicacion": "La Comisión hace tres cosas a propuesta del Grupo de Trabajo —aprobar los Planes Estratégicos Sectoriales, designar operadores críticos y crear o suprimir grupos de trabajo—, más una función que sí es suya de origen: preservar y promover la cultura de seguridad.",
-      "cifras": {
-        "3": "recuento: las tres actuaciones que la letra c) del artículo reúne bajo «a propuesta del Grupo de Trabajo»"
-      }
+      "explicacion": "La Comisión hace tres cosas a propuesta del Grupo de Trabajo —aprobar los Planes Estratégicos Sectoriales, designar operadores críticos y crear o suprimir grupos de trabajo—, más una función que sí es suya de origen: preservar y promover la cultura de seguridad."
     },
     {
       "id": "ICR-014",
@@ -74,18 +71,12 @@
     {
       "id": "ICR-015",
       "articulo": "art. 13",
-      "explicacion": "Los dos planes del operador no están al mismo nivel: el de Seguridad del Operador es uno solo y define su política general; el de Protección Específico va uno POR CADA infraestructura crítica. Y la actualización de datos del Catálogo es anual.",
-      "cifras": {
-        "2": "recuento: los dos planes que el artículo impone al operador crítico, el de Seguridad del Operador y el de Protección Específico"
-      }
+      "explicacion": "Los dos planes del operador no están al mismo nivel: el de Seguridad del Operador es uno solo y define su política general; el de Protección Específico va uno POR CADA infraestructura crítica. Y la actualización de datos del Catálogo es anual."
     },
     {
       "id": "ICR-016",
       "articulo": "art. 14",
-      "explicacion": "El procedimiento reparte tres papeles distintos: el CNPIC propone y notifica, el interesado alega en quince días, y la Comisión —a propuesta del Grupo de Trabajo— resuelve. Y contra esa resolución cabe alzada ante el Secretario de Estado de Seguridad.",
-      "cifras": {
-        "3": "recuento: los tres papeles que el artículo distingue en la designación, propuesta del CNPIC, alegaciones del interesado y resolución de la Comisión"
-      }
+      "explicacion": "El procedimiento reparte tres papeles distintos: el CNPIC propone y notifica, el interesado alega en quince días, y la Comisión —a propuesta del Grupo de Trabajo— resuelve. Y contra esa resolución cabe alzada ante el Secretario de Estado de Seguridad."
     },
     {
       "id": "ICR-017",
@@ -100,10 +91,7 @@
     {
       "id": "ICR-019",
       "articulo": "art. 18",
-      "explicacion": "Ojo, son dos cosas distintas: la revisión ordinaria toca cada cinco años y la hace la Secretaría de Estado; la actualización es AUTOMÁTICA en cuanto cambie un dato o instrucción, la ejecuta el CNPIC y necesita aprobación expresa del Secretario de Estado.",
-      "cifras": {
-        "2": "recuento: los dos supuestos que el artículo separa, la revisión quinquenal y la actualización automática"
-      }
+      "explicacion": "Ojo, son dos cosas distintas: la revisión ordinaria toca cada cinco años y la hace la Secretaría de Estado; la actualización es AUTOMÁTICA en cuanto cambie un dato o instrucción, la ejecuta el CNPIC y necesita aprobación expresa del Secretario de Estado."
     },
     {
       "id": "ICR-020",

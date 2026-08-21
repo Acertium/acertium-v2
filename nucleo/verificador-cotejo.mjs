@@ -59,12 +59,128 @@ const esDecena = (t) => Object.prototype.hasOwnProperty.call(DECENAS, t);
 const esCentena = (t) => Object.prototype.hasOwnProperty.call(CENTENAS, t);
 const esUnidad = (t) => esNumeroPalabra(t) && VALOR[t] >= 1 && VALOR[t] <= 9;
 
+// «UN» Y «UNA» SON CASI SIEMPRE ARTÍCULOS, NO EL NÚMERO 1 (22/08/2026)
+//
+// Segunda cicatriz de esta función. Traducir «un»/«una» a 1 sin mirar el
+// contexto convertía "una autorización" en "1 autorizacion" y "un delito" en
+// "1 delito". Para el cotejo eso es inocuo —los dos lados se deforman igual—,
+// pero `verificar-lote` saca las cifras de la explicación con esta misma
+// función, así que cada artículo indeterminado se contaba como una cifra que
+// había que declarar y justificar. Escribir esquivando los indefinidos no es
+// solución — es doblegar la prosa para contentar a la puerta.
+//
+// TAMAÑO REAL DEL PROBLEMA, medido y no estimado (y más pequeño de lo que se
+// dijo en su día): de las 182 declaraciones de `cifras` de los ficheros de
+// reescritura, 24 desaparecen por este arreglo. Otras 80 ya sobraban antes —
+// se habían declarado a ojo, sin comprobar si la puerta las pedía— y 78 siguen
+// vivas. Conviene dejarlo escrito porque la primera versión de esta nota
+// atribuía las 104 al defecto: lo medido son 24.
+//
+// La lista de abajo NO está intuida, está MEDIDA sobre el corpus completo
+// (79 secciones) más los 110 lotes: se contaron los 4.672 «un» y los 3.922
+// «una» por la palabra que les sigue. Manda el dato, y corrigió a la intuición
+// en dos casos que parecían unidades y no lo son en este corpus:
+//
+//   · «un segundo»  → 11 apariciones, TODAS ordinales: "un segundo puesto de
+//                     trabajo", "un segundo empleador". Ni una de tiempo.
+//   · «un medio»    → 27 apariciones, TODAS artículo: "un medio ambiente
+//                     adecuado", "un medio de comunicación".
+//   · «un grado»    → 102, mezcladas: "la pena inferior en un grado" (cantidad)
+//                     junto a "adquirirán un grado personal" (artículo).
+//   · «un cuarto»   → 0 apariciones. Fuera: ni se gana nada ni se arriesga el
+//                     "cuarto" de habitación.
+//
+// Los tres se quedan FUERA. La dirección del error importa: dejar fuera una
+// unidad real solo hace que un cotejo válido no case —falla a la vista y
+// fail-closed—, mientras que meter un artículo dentro inventa una cifra en
+// silencio, que es el fallo que se está arreglando.
+//
+// Esto NO toca los compuestos: "treinta y un días" sigue siendo 31 y
+// "ciento un" sigue siendo 101, porque ahí «un» es la cola de un número y se
+// consume por la rama de suma, que no pasa por aquí. Y «uno» queda intacto: en
+// español no existe como artículo ("de uno a tres años" es un rango real).
+const UNIDADES_CUANTIFICABLES = new Set([
+  // tiempo — atestiguadas con «un/una» en el corpus: ano (573), mes (360), dia (65), hora (8)
+  'ano', 'mes', 'dia', 'hora', 'minuto', 'semana',
+  'trimestre', 'semestre', 'bienio', 'trienio', 'quinquenio', 'decenio', 'siglo',
+  // fracciones — atestiguadas: tercio (12), quinto (2), sexto (1), septimo (1)
+  'tercio', 'quinto', 'sexto', 'septimo', 'octavo', 'noveno', 'decimo',
+  // medida y moneda — no atestiguadas tras «un/una» en este corpus, pero no
+  // admiten lectura de artículo + sustantivo: "una multa de un euro" es 1 euro.
+  'milimetro', 'centimetro', 'metro', 'kilometro',
+  'gramo', 'kilogramo', 'litro', 'tonelada',
+  'euro', 'peseta', 'centimo',
+]);
+
+const esIndefinido = (t) => t === 'un' || t === 'una';
+
+// ¿el «un»/«una» que abre un número es cantidad o artículo? Solo es cantidad si
+// lo que viene detrás es una unidad de las medidas arriba.
+function indefinidoEsCantidad(tokens, i) {
+  return UNIDADES_CUANTIFICABLES.has(tokens[i + 1] ?? '');
+}
+
+// «UNO» TIENE EL MISMO PROBLEMA, POR OTRA VÍA
+//
+// «uno» no es artículo en español, así que al arreglar «un»/«una» parecía que
+// podía quedarse como estaba. La medición dijo que no: al dejar de inventar
+// cifras en la FUENTE, afloraron 9 conceptos marcados por un «uno» PRONOMINAL
+// ("es uno de los ataques", "cada uno con una forma"). Mismo defecto, otra
+// palabra.
+//
+// Otra vez manda el dato — 632 «uno» en el corpus y los lotes, por el conector
+// que les sigue:
+//   · "uno a tres/cuatro/cinco…"     434, todas rango       → CANTIDAD
+//   · "uno o varios / o dos / o más" 205 de 208             → CANTIDAD
+//   · "uno de los / de ellos / …"    296, todas pronombre   → pronombre
+//   · "cada uno …"                   175, todas pronombre   → pronombre
+//   · "uno u otro", "uno y otro"      15, correlativo       → pronombre
+//   · "uno y cuatro / y tres / …"     21, enumeración       → CANTIDAD
+//
+// De ahí la regla: «uno» es cantidad solo si le sigue un conector (a, o, u, y)
+// Y detrás de ese conector viene un número o un cuantificador. En cualquier
+// otro sitio es pronombre y se queda como palabra.
+//
+// LO QUE ESTO CUESTA, dicho sin adornos: para el chequeo de cifras el falso
+// negativo es la dirección MUDA (una cifra sin respaldo que no se marca), y
+// aquí se aceptan algunos. Medido: REDES-028 dice "8 bytes para la red y solo
+// uno para el host", donde ese «uno» sí es una cantidad y deja de contarse. Se
+// asume porque una lista de declaraciones llena de ruido es una lista que el
+// revisor deja de leer, y porque el número afectado es siempre el 1, que es el
+// que menos engaña a un opositor. No es gratis: queda anotado para que quien
+// lea esto sepa qué se cambió por qué.
+const CONECTORES_DE_CANTIDAD = new Set(['a', 'o', 'u', 'y']);
+const CUANTIFICADORES = new Set(['varios', 'varias', 'mas']);
+
+function unoEsCantidad(tokens, i) {
+  if (!CONECTORES_DE_CANTIDAD.has(tokens[i + 1] ?? '')) return false;
+  const detras = tokens[i + 2] ?? '';
+  return esNumeroPalabra(detras) || CUANTIFICADORES.has(detras);
+}
+
 export function normalizarNumeros(texto) {
   const tokens = sinAcentos(String(texto).toLowerCase()).match(/\d+|[a-zñ]+/g) || [];
   const out = [];
   let i = 0;
   while (i < tokens.length) {
     if (!esNumeroPalabra(tokens[i])) {
+      out.push(tokens[i]);
+      i++;
+      continue;
+    }
+
+    // Artículo indeterminado en cabeza de número: se deja como palabra. Solo se
+    // pregunta aquí, en la cabeza; como cola de compuesto («treinta y un») no
+    // llega a este punto.
+    if (esIndefinido(tokens[i]) && !indefinidoEsCantidad(tokens, i)) {
+      out.push(tokens[i]);
+      i++;
+      continue;
+    }
+
+    // «uno» pronominal: "uno de los", "cada uno". Igual que arriba, solo en
+    // cabeza — como cola de compuesto («treinta y uno») no llega aquí.
+    if (tokens[i] === 'uno' && !unoEsCantidad(tokens, i)) {
       out.push(tokens[i]);
       i++;
       continue;
@@ -214,6 +330,41 @@ if (esEjecucionDirecta(import.meta.url)) {
   comprobar('centena arrastra: «ciento veinte»', normalizarNumeros('ciento veinte'), '120');
   comprobar('centena + decena + y + unidad', normalizarNumeros('doscientos cincuenta y dos'), '252');
   comprobar('dos números sueltos siguen sueltos', normalizarNumeros('dos y tres'), '2 y 3');
+
+  // «un»/«una»: artículo o cantidad. Las cadenas de abajo salen del corpus, no
+  // están inventadas — las de artículo son las que llenaban de declaraciones de
+  // `cifras` la reescritura de explicaciones.
+  console.log('== «un»/«una»: artículo indeterminado vs. cantidad ==');
+  comprobar('artículo: «una autorización»', normalizarNumeros('se necesita una autorización'), 'se necesita una autorizacion');
+  comprobar('artículo: «un delito»', normalizarNumeros('cometer un delito'), 'cometer un delito');
+  comprobar('artículo: «una vez transcurrido»', normalizarNumeros('una vez transcurrido el plazo'), 'una vez transcurrido el plazo');
+  comprobar('artículo: «un plazo» (plazo NO es unidad)', normalizarNumeros('en un plazo de tres meses'), 'en un plazo de 3 meses');
+  comprobar('cantidad: «un año»', normalizarNumeros('en el plazo de un año'), 'en el plazo de 1 ano');
+  comprobar('cantidad: «un mes»', normalizarNumeros('el plazo máximo de un mes'), 'el plazo maximo de 1 mes');
+  comprobar('cantidad: «una hora»', normalizarNumeros('una hora'), '1 hora');
+  comprobar('cantidad: «un tercio» (fracción)', normalizarNumeros('reducida en un tercio'), 'reducida en 1 tercio');
+  // Corregidas por el dato, no por la intuición: en este corpus son ordinal y
+  // artículo, nunca unidad.
+  comprobar('medido: «un segundo puesto» es ordinal', normalizarNumeros('desempeñar un segundo puesto'), 'desempenar un segundo puesto');
+  comprobar('medido: «un medio de comunicación» es artículo', normalizarNumeros('a través de un medio de comunicación'), 'a traves de un medio de comunicacion');
+  // Los compuestos no se tocan: ahí «un» es cola de número, no cabeza.
+  comprobar('compuesto: «treinta y un días» sigue 31', normalizarNumeros('treinta y un días'), '31 dias');
+  comprobar('compuesto: «ciento un» sigue 101', normalizarNumeros('ciento un días'), '101 dias');
+  comprobar('«veintiún» no se ve afectado', normalizarNumeros('veintiún cartuchos'), '21 cartuchos');
+
+  // «uno»: pronombre vs. cantidad. Los pronombres son los que afloraron al
+  // dejar de inventar cifras en la fuente.
+  comprobar('cantidad: «uno o varios»', normalizarNumeros('uno o varios'), '1 o varios');
+  comprobar('cantidad: «uno o más»', normalizarNumeros('uno o más puestos'), '1 o mas puestos');
+  comprobar('cantidad: «uno y cuatro» (enumeración)', normalizarNumeros('apartados uno y cuatro'), 'apartados 1 y 4');
+  comprobar('pronombre: «uno de los»', normalizarNumeros('es uno de los ataques'), 'es uno de los ataques');
+  comprobar('pronombre: «cada uno»', normalizarNumeros('cada uno con su forma'), 'cada uno con su forma');
+  comprobar('pronombre: «uno u otro» (correlativo)', normalizarNumeros('uno u otro'), 'uno u otro');
+  comprobar('pronombre: «uno y otro» (correlativo)', normalizarNumeros('uno y otro'), 'uno y otro');
+  comprobar('compuesto: «treinta y uno» sigue 31', normalizarNumeros('treinta y uno'), '31');
+  // Y lo que motivó todo: la cifra deja de aparecer donde nadie la escribió.
+  comprobar('cifras: el artículo ya no inventa un 1',
+    (normalizarNumeros('Es una excepción de alcance corto').match(/\d+/g) || []).length, 0);
 
   console.log('== modo normal (por defecto): tildes y caja se ignoran ==');
   const ley = { tipo: 'test', concepto_id: 'CE-001', cotejo: 'en el plazo máximo de setenta y dos horas' };

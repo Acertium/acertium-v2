@@ -16,10 +16,7 @@
     {
       "id": "PRL-004",
       "articulo": "art. 4",
-      "explicacion": "Riesgo laboral es POSIBILIDAD, no daño consumado — el daño ya tiene su propia definición aparte. Y la gravedad se valora conjuntamente con dos factores, probabilidad Y severidad: uno alto y otro bajo no dan riesgo grave.",
-      "cifras": {
-        "2": "recuento: los dos factores que el apartado manda valorar conjuntamente, probabilidad y severidad"
-      }
+      "explicacion": "Riesgo laboral es POSIBILIDAD, no daño consumado — el daño ya tiene su propia definición aparte. Y la gravedad se valora conjuntamente con dos factores, probabilidad Y severidad: uno alto y otro bajo no dan riesgo grave."
     },
     {
       "id": "PRL-010",
@@ -34,10 +31,7 @@
     {
       "id": "PRL-013",
       "articulo": "art. 15",
-      "explicacion": "Los tres primeros principios van en orden y no se pueden saltar: EVITAR el riesgo; solo si no se puede, EVALUARLO; y combatirlo EN SU ORIGEN. Evaluar antes que intentar evitar es el error que el enunciado propone. Y más abajo está la otra jerarquía: protección colectiva antes que individual.",
-      "cifras": {
-        "3": "recuento: los tres primeros principios de las letras a), b) y c) del apartado 1"
-      }
+      "explicacion": "Los tres primeros principios van en orden y no se pueden saltar: EVITAR el riesgo; solo si no se puede, EVALUARLO; y combatirlo EN SU ORIGEN. Evaluar antes que intentar evitar es el error que el enunciado propone. Y más abajo está la otra jerarquía: protección colectiva antes que individual."
     },
     {
       "id": "PRL-017",
@@ -60,10 +54,7 @@
     {
       "id": "PRL-025",
       "articulo": "art. 30",
-      "explicacion": "Tres modalidades a elección del empresario —designar trabajadores, servicio de prevención propio, o concertarlo con entidad ajena— y todas con exigencias: los designados deben tener capacidad, tiempo, medios y ser suficientes en número. Elegir la vía no exime de dotarla.",
-      "cifras": {
-        "3": "recuento: las tres modalidades de organización que ofrece el apartado 1"
-      }
+      "explicacion": "Tres modalidades a elección del empresario —designar trabajadores, servicio de prevención propio, o concertarlo con entidad ajena— y todas con exigencias: los designados deben tener capacidad, tiempo, medios y ser suficientes en número. Elegir la vía no exime de dotarla."
     }
   ]
 }
