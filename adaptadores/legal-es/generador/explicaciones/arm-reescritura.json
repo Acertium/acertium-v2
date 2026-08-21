@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "familia": "ARM",
+    "referencia_boe": "BOE-A-1993-6202",
+    "norma": "Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 7 explicaciones de ARM abrían con «El artículo N fija/prohíbe/declara…» y repetían el catálogo. Aquí lo que se pregunta es la ESCALA de prohibición: el artículo 4 prohíbe a todos, el 5 prohíbe salvo a funcionarios especialmente habilitados, y el 6 declara arma de guerra y la veda solo a particulares. Confundir esos tres grados es el error caro. Y en las licencias, el par que se cruza es la A frente a la C. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-050.json"
+  },
+  "explicaciones": [
+    {
+      "id": "ARM-007",
+      "articulo": "art. 3",
+      "explicacion": "Reglamentada no significa permitida: significa que PUEDE autorizarse. Y los criterios de clasificación son tres —características, grado de peligrosidad y destino o utilización—, no el calibre a secas.",
+      "cifras": {
+        "3": "recuento: los tres criterios que el artículo dice tener en cuenta para clasificar"
+      }
+    },
+    {
+      "id": "ARM-016",
+      "articulo": "art. 4",
+      "explicacion": "Prohibición del grado más alto: alcanza a todos y también a las IMITACIONES. Lo que más cae es la definición de puñal — hoja menor de once centímetros, de dos filos y puntiaguda: hacen falta los tres rasgos. Y museos y coleccionistas del artículo 107 son la única salida.",
+      "cifras": {
+        "3": "recuento: los tres rasgos que el artículo exige para considerar puñal un arma blanca"
+      }
+    },
+    {
+      "id": "ARM-017",
+      "articulo": "art. 5",
+      "explicacion": "Este grado no es prohibición absoluta: se levanta para FUNCIONARIOS ESPECIALMENTE HABILITADOS. Y los topes de carga son distintos según el arma, que es donde se falla: más de veintiún cartuchos en las cortas, más de once en las largas, recámara incluida."
+    },
+    {
+      "id": "ARM-018",
+      "articulo": "art. 6",
+      "explicacion": "«Arma de guerra» prohíbe a los PARTICULARES, no a todo el mundo: el propio artículo prevé que el Gobierno determine cuáles pueden ser dotación de las Fuerzas y Cuerpos de Seguridad. Y el umbral de calibre es igual o superior a veinte milímetros — por debajo solo si Defensa las considera de guerra."
+    },
+    {
+      "id": "ARM-020",
+      "articulo": "art. 96",
+      "explicacion": "El par que se cruza es A frente a C: la licencia A es para armas de PROPIEDAD PRIVADA de militares, policías y Vigilancia Aduanera; la C es para armas de DOTACIÓN del personal de vigilancia y seguridad. Y la categoría 4.ª no lleva licencia sino tarjeta de armas."
+    },
+    {
+      "id": "ARM-028",
+      "articulo": "art. 97",
+      "explicacion": "Se presenta en la Intervención de Armas de la GUARDIA CIVIL del domicilio, con antecedentes penales en vigor, documento de identidad y aptitudes psicofísicas. Y en las licencias sucesivas hay que llevar las armas ya documentadas a REVISTA, en persona o por tercero autorizado con licencia."
+    },
+    {
+      "id": "ARM-029",
+      "articulo": "art. 98",
+      "explicacion": "La condena por delito doloso violento no excluye de forma automática: el artículo la califica como INDICATIVA de riesgo, que es cosa distinta. Y hay exención de acreditar aptitudes psicofísicas para el personal en activo de las Fuerzas Armadas y de las Fuerzas y Cuerpos de Seguridad."
+    }
+  ]
+}

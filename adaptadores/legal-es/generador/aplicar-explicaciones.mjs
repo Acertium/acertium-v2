@@ -26,15 +26,42 @@ import { createCerebroClient } from "./cliente-cerebro.mjs";
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), "../../..");
 
-// El corpus guarda cada artículo por su `ref` ("10", "17"), mientras que las
-// explicaciones citan el apartado ("art. 10.1"). La fuente de un apartado es el
-// artículo entero: es donde está su texto.
+// El corpus NO guarda las `ref` de forma homogénea, y eso rompió esta búsqueda
+// una vez. La mayoría de secciones usan el número pelado ("10", "263 bis"), pero
+// otras arrastran el prefijo y un sufijo entre paréntesis: la del Convenio
+// Europeo guarda "art. 2" y "art. 33 (Protocolo nº 11)". Con la versión antigua
+// —quitar "art. " al artículo pedido y cortar por el primer punto— esas
+// secciones daban CERO coincidencias, y el fichero entero salía como «sin fuente
+// en el corpus». Así que se normalizan LOS DOS LADOS en vez de suponer un
+// formato.
+//
+// Las explicaciones, además, citan el apartado ("art. 10.1"): la fuente de un
+// apartado es el artículo entero, que es donde está su texto. Por eso, si la
+// clave completa no aparece, se reintenta con lo que hay antes del primer punto.
+function claveDeArticulo(valor) {
+  return String(valor ?? "")
+    .toLowerCase()
+    .replace(/^\s*(art\.|artículo|articulo)\s*/, "")
+    .replace(/\s*\([^)]*\)\s*$/, "")
+    .trim();
+}
+
 function fuentesDelCorpus(rutaCorpus) {
   const { articulos } = JSON.parse(readFileSync(rutaCorpus, "utf8"));
-  const porRef = new Map(articulos.map((a) => [String(a.ref), a.texto]));
+  // Primero gana: si dos `ref` colapsan en la misma clave al quitarles el
+  // paréntesis, se queda la que aparece antes en el corpus en vez de pisarse en
+  // silencio.
+  const porRef = new Map();
+  const anotar = (clave, texto) => {
+    if (clave && !porRef.has(clave)) porRef.set(clave, texto);
+  };
+  for (const a of articulos) {
+    anotar(String(a.ref), a.texto);
+    anotar(claveDeArticulo(a.ref), a.texto);
+  }
   return (articulo) => {
-    const base = String(articulo).replace(/^art\.\s*/, "").split(".")[0];
-    return porRef.get(base) ?? null;
+    const clave = claveDeArticulo(articulo);
+    return porRef.get(clave) ?? porRef.get(clave.split(".")[0]) ?? null;
   };
 }
 

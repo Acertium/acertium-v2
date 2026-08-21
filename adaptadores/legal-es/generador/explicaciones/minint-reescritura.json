@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "familia": "MININT",
+    "referencia_boe": "BOE-A-2024-3793",
+    "norma": "Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 9 explicaciones de MININT abrían con «El artículo N enumera/lista/precisa…» y eso, en un organigrama, es repetir la lista sin decir cómo se sostiene. Lo que se pregunta es SIEMPRE el nivel: quién cuelga de quién, qué tiene rango de subsecretario y qué nivel de subdirección general, y qué órgano está ADSCRITO en vez de dependiente. Eso es lo que se enseña ahora. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-011.json"
+  },
+  "explicaciones": [
+    {
+      "id": "MININT-001",
+      "articulo": "art. 1.1",
+      "explicacion": "La lista sorprende por lo que no parece policial y sin embargo es de Interior: instituciones penitenciarias, los procesos electorales, protección civil, tráfico y movilidad sostenible, protección internacional y apatridia. Reducir el Ministerio a seguridad ciudadana es el error de bulto."
+    },
+    {
+      "id": "MININT-005",
+      "articulo": "art. 1.5",
+      "explicacion": "La asimetría es lo que se pregunta: solo la Secretaría de Estado de Seguridad es ÓRGANO SUPERIOR; las otras tres patas son dos Secretarías Generales y la Subsecretaría. Y de la de Seguridad cuelgan cuatro direcciones generales — Policía, Guardia Civil, Relaciones Internacionales y Extranjería, y Coordinación y Estudios.",
+      "cifras": {
+        "3": "recuento: las tres restantes patas del organigrama del apartado, letras b), c) y d)"
+      }
+    },
+    {
+      "id": "MININT-008",
+      "articulo": "art. 2.1",
+      "explicacion": "Fíjate en la fórmula: dirige, coordina y supervisa BAJO LA INMEDIATA AUTORIDAD del titular del Ministerio — no manda por sí sola. Y entre sus funciones está la que enlaza con otro tema entero: la dirección del Sistema Nacional de Protección de Infraestructuras Críticas."
+    },
+    {
+      "id": "MININT-014",
+      "articulo": "art. 2.5",
+      "explicacion": "El dato que se pregunta es el NIVEL, no el nombre: estos órganos son de subdirección general, un escalón por debajo de las direcciones generales del apartado anterior. Y la de Infraestructuras actúa sin perjuicio de las competencias del organismo autónomo Gerencia."
+    },
+    {
+      "id": "MININT-015",
+      "articulo": "art. 2.6",
+      "explicacion": "ADSCRITO no es lo mismo que dependiente, y ahí está la trampa: la Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado es organismo autónomo con Estatuto propio, no una unidad más del organigrama."
+    },
+    {
+      "id": "MININT-017",
+      "articulo": "art. 3.2",
+      "explicacion": "Dos niveles distintos en la misma lista: la Dirección Adjunta Operativa, las dos Subdirecciones Generales y el Gabinete Técnico tienen nivel de subdirección general; la División de Cooperación Internacional lo tiene «el que se determine en la relación de puestos de trabajo». Y es esa División la que lleva INTERPOL, EUROPOL y SIRENE.",
+      "cifras": {
+        "2": "recuento: los dos niveles orgánicos que conviven en la lista del apartado"
+      }
+    },
+    {
+      "id": "MININT-020",
+      "articulo": "art. 4.3",
+      "explicacion": "Aquí el organigrama es más corto que el de la Policía y es justo lo que se cruza: Dirección Adjunta Operativa, Mando de Personal y Mando de Apoyo. El Gabinete Técnico existe, pero va en el apartado siguiente y a cargo de Oficial General."
+    },
+    {
+      "id": "MININT-023",
+      "articulo": "art. 9.5",
+      "explicacion": "Estas cinco direcciones generales son las que NO son de seguridad, y por eso cuelgan de la Subsecretaría y no de la Secretaría de Estado: Secretaría General Técnica, Política Interior, Tráfico, Apoyo a Víctimas del Terrorismo y Protección Internacional."
+    },
+    {
+      "id": "MININT-024",
+      "articulo": "art. 9.7",
+      "explicacion": "La Oficina Presupuestaria depende DIRECTAMENTE del titular de la Subsecretaría, con nivel de subdirección general. No hay que confundirla con la Abogacía del Estado o la Intervención Delegada, que están ADSCRITAS y dependen además de otros ministerios."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "familia": "CEDH",
+    "referencia_boe": "BOE-A-2021-7554",
+    "norma": "Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales (Roma, 4-11-1950), texto consolidado con sus Protocolos",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 15 explicaciones de CEDH abrían con «El artículo N protege/garantiza/permite…». En un catálogo de derechos parafrasear no enseña nada: lo que decide la pregunta es la ESTRUCTURA que se repite en casi todos —derecho en el apartado 1, límites tasados en el 2, con la fórmula «previstas por la ley» y «necesarias en una sociedad democrática»— y el núcleo inderogable del artículo 15. Eso es lo que se enseña ahora. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-060.json"
+  },
+  "explicaciones": [
+    {
+      "id": "CEDH-002",
+      "articulo": "art. 2",
+      "explicacion": "El listón de las excepciones no es «necesario» sino ABSOLUTAMENTE necesario, y son solo tres: defensa frente a agresión ilegítima, detención o impedir la evasión, y reprimir revuelta o insurrección. Es el artículo que mide el uso policial de la fuerza letal.",
+      "cifras": {
+        "3": "recuento: los tres supuestos de las letras a), b) y c) del apartado 2"
+      }
+    },
+    {
+      "id": "CEDH-006",
+      "articulo": "art. 5",
+      "explicacion": "La lista de privaciones de libertad es CERRADA: lo que no encaje en ella es detención arbitraria, por muy razonable que parezca. Y el derecho a ser informado de los motivos lleva dos condiciones — en el más breve plazo y EN UNA LENGUA QUE COMPRENDA.",
+      "cifras": {
+        "2": "recuento: las dos condiciones del apartado 2 sobre la información al detenido, plazo y lengua comprensible"
+      }
+    },
+    {
+      "id": "CEDH-008",
+      "articulo": "art. 6",
+      "explicacion": "Cubre lo penal Y lo civil, y ahí se cae: no es un artículo solo de acusados. Los derechos mínimos del apartado 3 son los que rodean a la defensa —información detallada, tiempo y facilidades, defensor de su elección, interrogar testigos, intérprete gratuito— y el intérprete es gratuito siempre, no según ingresos."
+    },
+    {
+      "id": "CEDH-011",
+      "articulo": "art. 8",
+      "explicacion": "Aquí aparece por primera vez la estructura que se repite en los artículos siguientes: derecho en el apartado 1, injerencia admisible en el 2 con TRES condiciones acumulativas — prevista por la ley, necesaria en una sociedad democrática, y para uno de los fines tasados. Falla una y la injerencia es ilícita.",
+      "cifras": {
+        "3": "recuento: las tres condiciones acumulativas que el apartado 2 impone a la injerencia"
+      }
+    },
+    {
+      "id": "CEDH-012",
+      "articulo": "art. 9",
+      "explicacion": "El artículo parte en dos el derecho y solo limita la mitad: la libertad interior de pensamiento, conciencia y religión no admite restricción; lo que puede restringirse es MANIFESTARLA. Distinguir fuero interno y manifestación externa es exactamente lo que se pregunta."
+    },
+    {
+      "id": "CEDH-013",
+      "articulo": "art. 10",
+      "explicacion": "Es el único derecho que el propio Convenio describe como portador de «deberes y responsabilidades», y por eso su lista de restricciones es la más larga. Y trae una salvedad que sorprende: los Estados pueden someter radio, cine y televisión a autorización previa."
+    },
+    {
+      "id": "CEDH-014",
+      "articulo": "art. 11",
+      "explicacion": "Ojo al último inciso, que es el que toca al oficio: caben restricciones legítimas para los miembros de las fuerzas armadas, de la POLICÍA y de la Administración del Estado. Y la libertad sindical no es un artículo aparte — va dentro de la de asociación."
+    },
+    {
+      "id": "CEDH-015",
+      "articulo": "art. 12",
+      "explicacion": "Artículo corto y con remisión: reconoce el derecho a partir de la edad núbil, pero SEGÚN LAS LEYES NACIONALES que rijan su ejercicio. El Convenio no fija edad; la fija cada Estado, y eso es lo que se pregunta."
+    },
+    {
+      "id": "CEDH-016",
+      "articulo": "art. 13",
+      "explicacion": "El recurso ha de ser efectivo y ante instancia NACIONAL — no es la vía a Estrasburgo, es lo que hay que agotar antes. Y funciona incluso cuando la violación viene de quien actúa en el ejercicio de funciones oficiales."
+    },
+    {
+      "id": "CEDH-017",
+      "articulo": "art. 14",
+      "explicacion": "No prohíbe discriminar en general: prohíbe hacerlo EN EL GOCE DE LOS DERECHOS DEL CONVENIO, así que necesita engancharse a otro artículo. Lo que sí es abierto es el catálogo de motivos, que termina en «cualquier otra situación»."
+    },
+    {
+      "id": "CEDH-018",
+      "articulo": "art. 15",
+      "explicacion": "La derogación en emergencia tiene tope: nunca alcanza a la vida (salvo muertes por actos lícitos de guerra), a la prohibición de tortura, a la de esclavitud ni a la irretroactividad penal. Y no basta con decretarla — hay que informar al Secretario general del Consejo de Europa."
+    },
+    {
+      "id": "CEDH-019",
+      "articulo": "art. 16",
+      "explicacion": "La excepción no es general: solo afecta a tres artículos concretos —expresión, reunión y asociación, y no discriminación— y solo respecto de la ACTIVIDAD POLÍTICA de los extranjeros. Fuera de ese triple marco no autoriza nada.",
+      "cifras": {
+        "3": "recuento: los tres artículos que el precepto menciona, 10, 11 y 14"
+      }
+    },
+    {
+      "id": "CEDH-020",
+      "articulo": "art. 17",
+      "explicacion": "Es la cláusula antiabuso, y apunta en ambas direcciones: nadie puede invocar el Convenio para destruir los derechos ajenos, ni para imponerles límites MÁS AMPLIOS que los que el propio Convenio prevé. Y obliga por igual a Estados, grupos e individuos."
+    },
+    {
+      "id": "CEDH-021",
+      "articulo": "art. 18",
+      "explicacion": "Prohíbe la desviación de poder: la restricción legítima usada para fin distinto del previsto se vuelve ilícita aunque su forma sea impecable. Lo que se examina aquí no es la medida sino la FINALIDAD con la que se aplica."
+    },
+    {
+      "id": "CEDH-029",
+      "articulo": "art. 33 (Protocolo nº 11)",
+      "explicacion": "No hay que confundirla con la demanda individual: aquí quien demanda no es la víctima sino otro Estado parte, que no necesita acreditar interés propio. Basta con que, a su juicio, el incumplimiento sea imputable a la otra Alta Parte Contratante."
+    }
+  ]
+}

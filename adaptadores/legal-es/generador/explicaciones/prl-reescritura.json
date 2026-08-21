@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "familia": "PRL",
+    "referencia_boe": "BOE-A-1995-24292",
+    "norma": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 9 explicaciones de PRL abrían con «El artículo N define/fija/obliga…». Lo que aquí decide la pregunta no es la definición sino el ORDEN: la jerarquía del artículo 15 (evitar antes que evaluar, colectiva antes que individual) y su consecuencia en el artículo 17, que coloca el equipo de protección individual en último lugar. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-044.json"
+  },
+  "explicaciones": [
+    {
+      "id": "PRL-001",
+      "articulo": "art. 2",
+      "explicacion": "El apartado que se pregunta es el segundo: lo que la ley fija es DERECHO NECESARIO MÍNIMO INDISPONIBLE. Se puede mejorar por convenio colectivo, nunca rebajar. Por debajo del suelo legal no hay pacto válido."
+    },
+    {
+      "id": "PRL-004",
+      "articulo": "art. 4",
+      "explicacion": "Riesgo laboral es POSIBILIDAD, no daño consumado — el daño ya tiene su propia definición aparte. Y la gravedad se valora conjuntamente con dos factores, probabilidad Y severidad: uno alto y otro bajo no dan riesgo grave.",
+      "cifras": {
+        "2": "recuento: los dos factores que el apartado manda valorar conjuntamente, probabilidad y severidad"
+      }
+    },
+    {
+      "id": "PRL-010",
+      "articulo": "art. 5",
+      "explicacion": "La política preventiva no la escribe la Administración a solas: se elabora CON LA PARTICIPACIÓN de empresarios y trabajadores a través de sus organizaciones. Y su objetivo declarado es elevar el nivel de protección, no limitarse a mantenerlo."
+    },
+    {
+      "id": "PRL-011",
+      "articulo": "art. 14",
+      "explicacion": "El derecho del trabajador y el deber del empresario son la misma cosa vista por sus dos caras, y ese deber alcanza también a las Administraciones respecto de su personal. Fíjate en qué integra el derecho: información, consulta y participación, formación, PARALIZACIÓN de la actividad ante riesgo grave e inminente, y vigilancia de la salud."
+    },
+    {
+      "id": "PRL-013",
+      "articulo": "art. 15",
+      "explicacion": "Los tres primeros principios van en orden y no se pueden saltar: EVITAR el riesgo; solo si no se puede, EVALUARLO; y combatirlo EN SU ORIGEN. Evaluar antes que intentar evitar es el error que el enunciado propone. Y más abajo está la otra jerarquía: protección colectiva antes que individual.",
+      "cifras": {
+        "3": "recuento: los tres primeros principios de las letras a), b) y c) del apartado 1"
+      }
+    },
+    {
+      "id": "PRL-017",
+      "articulo": "art. 17",
+      "explicacion": "El equipo de protección individual es el ÚLTIMO recurso, no el primero: entra cuando los riesgos no se pueden evitar por otros medios. Y el empresario no solo lo proporciona — tiene además que velar por su uso efectivo."
+    },
+    {
+      "id": "PRL-019",
+      "articulo": "art. 20",
+      "explicacion": "Tres materias y ningún margen para elegir: primeros auxilios, lucha contra incendios y evacuación. Y designar personal no basta — ha de tener formación, ser suficiente en número y disponer del material adecuado, con comprobación periódica de que aquello funciona.",
+      "cifras": {
+        "3": "recuento: las tres materias de emergencia que enumera el artículo"
+      }
+    },
+    {
+      "id": "PRL-023",
+      "articulo": "art. 23",
+      "explicacion": "La documentación no se guarda para el archivo: se conserva A DISPOSICIÓN DE LA AUTORIDAD LABORAL. Y ojo a la última letra, que es la que se olvida — la relación de accidentes de trabajo y enfermedades profesionales también forma parte de ese expediente obligatorio."
+    },
+    {
+      "id": "PRL-025",
+      "articulo": "art. 30",
+      "explicacion": "Tres modalidades a elección del empresario —designar trabajadores, servicio de prevención propio, o concertarlo con entidad ajena— y todas con exigencias: los designados deben tener capacidad, tiempo, medios y ser suficientes en número. Elegir la vía no exime de dotarla.",
+      "cifras": {
+        "3": "recuento: las tres modalidades de organización que ofrece el apartado 1"
+      }
+    }
+  ]
+}
