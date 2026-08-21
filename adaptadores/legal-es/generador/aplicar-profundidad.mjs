@@ -89,9 +89,17 @@ async function main() {
 
   const { doc, actividades, sinFuente, contenido, calidad, unicidad } =
     verificarFichero(ruta, banco);
+  // `tema` y `peso` son informativos y no siempre vienen: los lotes escritos a
+  // mano los llevan, los que produce `motor-preguntas.mjs` no. Se omiten en vez
+  // de imprimir "undefined", que en un log acaba leyéndose como un dato.
+  const contexto = [
+    doc.meta.tema != null ? `tema ${doc.meta.tema}` : null,
+    doc.meta.peso != null ? `peso ${doc.meta.peso}` : null,
+    doc.meta.generado_por ? `generado por ${doc.meta.generado_por}` : null,
+  ].filter(Boolean);
   console.log(
-    `familia ${doc.meta.familia} (tema ${doc.meta.tema}, peso ${doc.meta.peso}) · ` +
-      `${actividades.length} segundas preguntas`,
+    `familia ${doc.meta.familia}${contexto.length ? ` (${contexto.join(", ")})` : ""} · ` +
+      `${actividades.length} preguntas propuestas`,
   );
 
   const duros = [

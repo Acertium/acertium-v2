@@ -9,7 +9,7 @@
     "lint": "eslint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test:motor": "node nucleo/motor-bkt.mjs && node nucleo/planificador.mjs && node nucleo/verificador-cotejo.mjs && node nucleo/verificar-lote.mjs && node nucleo/verificar-ortografia.mjs && node nucleo/verificar-fuente.mjs && node adaptadores/legal-es/generador/verificar-meta.mjs"
+    "test:motor": "node nucleo/motor-bkt.mjs && node nucleo/planificador.mjs && node nucleo/verificador-cotejo.mjs && node nucleo/verificar-lote.mjs && node nucleo/verificar-ortografia.mjs && node nucleo/verificar-fuente.mjs && node adaptadores/legal-es/generador/verificar-meta.mjs && node nucleo/verificar-unicidad.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",
@@ -21,6 +21,7 @@
     "react-markdown": "^10.1.0"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.120.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
