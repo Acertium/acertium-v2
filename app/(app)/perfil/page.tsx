@@ -1,4 +1,5 @@
-import { resumenHoy } from "@/lib/cerebro";
+import { resumenHoy, fechaObjetivo, guardarFechaObjetivo } from "@/lib/cerebro";
+import FechaExamen from "./fecha-examen";
 
 export const dynamic = "force-dynamic";
 
@@ -21,10 +22,18 @@ function Dato({ valor, etiqueta }: { valor: string; etiqueta: string }) {
   );
 }
 
+// Guarda o borra la fecha objetivo del opositor. Vive aquí, en el servidor, para
+// que el cliente no toque nunca la clave de servicio.
+async function guardar(fecha: string | null) {
+  "use server";
+  return guardarFechaObjetivo(fecha);
+}
+
 export default async function PerfilPage() {
   let resumen: Awaited<ReturnType<typeof resumenHoy>> | null = null;
+  let fecha: string | null = null;
   try {
-    resumen = await resumenHoy();
+    [resumen, fecha] = await Promise.all([resumenHoy(), fechaObjetivo()]);
   } catch {
     resumen = null;
   }
@@ -89,18 +98,22 @@ export default async function PerfilPage() {
 
       {/* Ajustes */}
       <ul className="mt-5 space-y-3">
-        {["Mi oposición", "Fecha de examen", "Notificaciones", "Ayuda"].map(
-          (item) => (
-            <li
-              key={item}
-              className="flex min-h-12 items-center justify-between rounded-2xl border px-5 py-3"
-              style={{ background: "var(--color-surface)", borderColor: borde }}
-            >
-              <span className="text-[15px] font-medium">{item}</span>
-              <span className="text-muted">›</span>
-            </li>
-          ),
-        )}
+        <FechaExamen
+          inicial={fecha}
+          diasRestantes={resumen?.diasHastaExamen ?? null}
+          guardar={guardar}
+        />
+        {/* Pendientes de implementar: se dejan como estaban, sin acción. */}
+        {["Mi oposición", "Notificaciones", "Ayuda"].map((item) => (
+          <li
+            key={item}
+            className="flex min-h-12 items-center justify-between rounded-2xl border px-5 py-3"
+            style={{ background: "var(--color-surface)", borderColor: borde }}
+          >
+            <span className="text-[15px] font-medium">{item}</span>
+            <span className="text-muted">›</span>
+          </li>
+        ))}
       </ul>
     </main>
   );

@@ -37,6 +37,16 @@
 export type EstadoSaludo = {
   /** Días desde la última respuesta. null si nunca ha practicado. */
   diasSinVenir: number | null;
+  /**
+   * Días hasta la fecha que SE HA FIJADO EL OPOSITOR en su perfil. null si
+   * estudia sin fecha, que es lo normal al principio y un estado legítimo.
+   *
+   * NUNCA sale de la convocatoria. Que el BOE publique una fecha no significa
+   * que este opositor se presente a ESA: lo habitual es tardar varias, y hay
+   * quien empieza pensando en dentro de un par de años. Contarle los días para
+   * un examen al que no va no es motivador, es falso.
+   */
+  diasHastaExamen?: number | null;
 };
 
 const ZONA = "Europe/Madrid";
@@ -132,6 +142,22 @@ const MUCHOS_DIAS = [
   "Te esperaba tu temario",
 ];
 
+// --- La recta final, solo si él puso la fecha ------------------------------
+// Estas frases dicen un número, así que solo aparecen cuando ese número es suyo.
+// Y solo cerca: a ciento veinte días, "quedan 120" no dice nada y a algunos les
+// pesa. Se activa en la última quincena, que es cuando la cuenta atrás ayuda a
+// decidir qué hacer hoy en vez de solo dar ansiedad.
+const VISPERA = 15;
+
+function rectaFinal(dias: number): string | null {
+  if (dias < 0) return null;
+  if (dias === 0) return "Hoy es el día. Un repaso suave y a por ello";
+  if (dias === 1) return "Mañana. Hoy toca repasar, no aprender nada nuevo";
+  if (dias <= 3) return `Quedan ${dias} días: a afianzar lo que ya sabes`;
+  if (dias <= VISPERA) return `Quedan ${dias} días. Vamos con lo de hoy`;
+  return null;
+}
+
 /** Franjas en horas de Madrid. Los cortes van donde cambia lo que apetece oír. */
 function franja(hora: number): string[] {
   if (hora < 6) return MADRUGADA;
@@ -152,6 +178,16 @@ const AUSENCIA_LARGA = 7;
 export function saludo(e: EstadoSaludo, ahora: Date = new Date()): string {
   const { hora, dia } = enMadrid(ahora);
   if (e.diasSinVenir === null) return delDia(PRIMERA_VEZ, dia);
+
+  // La recta final gana a todo lo demás, incluida la ausencia larga: a tres días
+  // del examen, lo que más ayuda es saber en qué punto está y qué toca hoy, y
+  // "quedan 3 días: a afianzar lo que ya sabes" tampoco riñe a nadie. Eso sí,
+  // solo si la fecha la puso él y solo en la última quincena.
+  if (e.diasHastaExamen != null) {
+    const f = rectaFinal(e.diasHastaExamen);
+    if (f) return f;
+  }
+
   if (e.diasSinVenir >= AUSENCIA_LARGA) return delDia(MUCHOS_DIAS, dia);
   return delDia(franja(hora), dia);
 }

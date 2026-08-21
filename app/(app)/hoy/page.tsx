@@ -30,7 +30,10 @@ export default async function HoyPage() {
 
   // El saludo lo elige `lib/saludo.ts`: manda la hora del día (en Madrid), y
   // solo la primera visita y una ausencia larga le ganan a la hora.
-  const hola = saludo({ diasSinVenir: r.diasSinVenir });
+  const hola = saludo({
+    diasSinVenir: r.diasSinVenir,
+    diasHastaExamen: r.diasHastaExamen,
+  });
 
   return (
     <main className="mx-auto max-w-xl px-5 py-8">

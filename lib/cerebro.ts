@@ -111,9 +111,37 @@ function aPublica(a: FilaActividad): ActividadPublica {
 //   · Si algo falla, se cae al azar puro. Nunca se queda sin pregunta.
 // ---------------------------------------------------------------------------
 
-// El planificador razona con un horizonte hasta el examen. La convocatoria aún
-// no guarda fecha de examen en la base, así que usamos un horizonte fijo. En
-// cuanto `convocatoria` tenga fecha, este valor sale de ahí.
+// ---------------------------------------------------------------------------
+// LOS DOS MODOS DEL COACH: CON FECHA Y SIN FECHA
+//
+// El planificador razona con un horizonte hasta el examen, y ese horizonte NO
+// sale de la convocatoria. Que el BOE publique una fecha no significa que este
+// opositor se presente a ESA: lo normal es tardar varias convocatorias, y hay
+// quien empieza con calma pensando en dentro de un par de años. Suponerle una
+// fecha que no ha elegido hace dos daños — el coach le corta la materia nueva 19
+// días antes de un examen al que no va, y la app le habla de una cuenta atrás
+// ajena. Así que la fecha la pone el opositor en su perfil, o no la pone.
+//
+//   · MODO MARATÓN (`usuario.fecha_objetivo` a NULL). Horizonte rodante: el
+//     examen está siempre a 180 días vista, así que se aleja un día por cada día
+//     que pasa. Consecuencia querida: nunca llega el corte, nunca se deja de
+//     introducir materia nueva, y el reparto diario es estable. Consecuencia que
+//     conviene saber: `triaje` y `consolidacion` son inalcanzables en este modo
+//     —matemáticamente, no por casualidad—, porque ambos comparan `hoy` con un
+//     `cutoff` que huye a la misma velocidad.
+//   · MODO FECHA (hay `fecha_objetivo`). Horizonte real y decreciente: el
+//     `cutoff` se acerca, la cuota diaria de conceptos nuevos sube para que quepa
+//     todo el temario antes de él, y al pasarlo el coach entra en
+//     `consolidacion` (cero nuevos, solo repaso). Si el margen desde el primer
+//     día ya era menor que la ventana de estabilización, arranca en `triaje`.
+//
+// OJO A LO QUE **NO** DEPENDE DE ESTO: el espaciado de cada repaso. El intervalo
+// τ de `motor-bkt.mjs` sale solo de cómo respondes y de cuándo — no mira el
+// calendario. La repetición espaciada funciona igual de bien sin fecha; lo que
+// la fecha cambia es la MEZCLA entre avanzar temario y consolidar lo visto.
+// ---------------------------------------------------------------------------
+
+/** Horizonte del modo maratón: el examen siempre a esta distancia. */
 const HORIZONTE_DIAS = 180;
 // Presupuesto de ítems/día con el que se reparte consolidar vs ampliar. No
 // limita cuánto practica el usuario: solo fija la PROPORCIÓN de cada tipo.
@@ -142,7 +170,38 @@ type Universo = {
   estados: Record<string, { e: unknown; seen: boolean }>;
   prereq: Record<string, string[]>;
   hoy: number;
+  /** Día (índice) del examen que se ha fijado el opositor. null = sin fecha. */
+  examenDia: number | null;
+  /** Día (índice) en que fijó esa fecha. Es el `inicio` del planificador. */
+  fijadaDia: number | null;
 };
+
+/**
+ * Fecha objetivo del opositor y cuándo la fijó, en días desde época. Se lee de
+ * `usuario`, NUNCA de `convocatoria`.
+ *
+ * Las fechas se convierten con `Date.UTC` y no con `new Date(cadena)`: `hoy` se
+ * cuenta como `Date.now() / DIA_MS`, que es una escala UTC, y todas tienen que
+ * ir en la misma o la resta saldría desplazada según el huso del servidor. Se
+ * hace explícito en vez de confiar en cómo parsea cada motor una fecha suelta.
+ */
+async function fechaObjetivoDias(
+  db: ReturnType<typeof createCerebroClient>,
+): Promise<{ examenDia: number | null; fijadaDia: number | null }> {
+  const { data, error } = await db
+    .from("usuario")
+    .select("fecha_objetivo, fecha_objetivo_fijada")
+    .eq("id", DEMO_USUARIO_ID)
+    .maybeSingle();
+  const f = error ? null : ((data?.fecha_objetivo ?? null) as string | null);
+  if (!f) return { examenDia: null, fijadaDia: null };
+  const [a, m, d] = f.split("-").map(Number);
+  const puesta = (data?.fecha_objetivo_fijada ?? null) as string | null;
+  return {
+    examenDia: Date.UTC(a, m - 1, d) / DIA_MS,
+    fijadaDia: puesta ? new Date(puesta).getTime() / DIA_MS : null,
+  };
+}
 
 // Trae de la base el universo practicable con el que razona el planificador.
 // Lo comparten `/practicar` (para elegir la siguiente pregunta) y `/hoy` (para
@@ -154,10 +213,14 @@ async function cargarUniverso(
   // UNA sola vuelta: `practicar_estado_json` devuelve el universo entero dentro
   // de un jsonb. El tope de PostgREST cuenta FILAS, así que una fila con 3.343
   // objetos dentro no lo toca; antes eran 4 peticiones paginadas seguidas.
-  const { data, error } = await db.rpc("practicar_estado_json", {
-    conv: CONVOCATORIA_PN,
-    usuario: DEMO_USUARIO_ID,
-  });
+  // La fecha objetivo va EN PARALELO: es una fila diminuta y no depende de esto.
+  const [{ data, error }, { examenDia, fijadaDia }] = await Promise.all([
+    db.rpc("practicar_estado_json", {
+      conv: CONVOCATORIA_PN,
+      usuario: DEMO_USUARIO_ID,
+    }),
+    fechaObjetivoDias(db),
+  ]);
   const filas = (error ? [] : ((data ?? []) as FilaEstado[]));
   if (filas.length === 0) return null;
 
@@ -191,7 +254,7 @@ async function cargarUniverso(
     prereq[id] = ps.filter((p) => estados[p] !== undefined);
   }
 
-  return { conceptos, estados, prereq, hoy };
+  return { conceptos, estados, prereq, hoy, examenDia, fijadaDia };
 }
 
 type PlanDia = {
@@ -202,15 +265,38 @@ type PlanDia = {
 };
 
 function planDelDia(u: Universo): PlanDia {
+  // Con fecha, el horizonte es real y se acorta solo. Sin fecha, rueda con el
+  // día (ver el bloque de los dos modos, arriba).
+  const conFecha = u.examenDia !== null;
+  const examDay = conFecha ? (u.examenDia as number) : u.hoy + HORIZONTE_DIAS;
+
+  // `inicio` le dice al planificador si ALGUNA VEZ hubo margen sano, y de eso
+  // depende que los últimos 19 días sean `consolidacion` (repasar y nada más) o
+  // `triaje` (volcar lo que quede). Tiene que ser el día en que el opositor se
+  // comprometió con la fecha, NO hoy: con `inicio = hoy`, quien lleva medio año
+  // preparándose entraría en triaje en la última semana y le llovería temario
+  // nuevo justo cuando toca afianzar. Quien fija un examen a diez días vista sí
+  // arranca en triaje, y es lo honesto: no tiene el margen y no vamos a fingirlo.
+  const inicio = conFecha ? (u.fijadaDia ?? u.hoy) : u.hoy;
+
   return planDia({
     conceptos: u.conceptos,
     estados: u.estados,
     prereq: u.prereq,
-    examDay: u.hoy + HORIZONTE_DIAS,
+    examDay,
     hoy: u.hoy,
-    inicio: u.hoy,
+    inicio,
     B: PRESUPUESTO_DIARIO,
   }) as PlanDia;
+}
+
+/** Días naturales que faltan para el examen fijado. null si no hay fecha. */
+export function diasHastaExamen(u: {
+  hoy: number;
+  examenDia: number | null;
+}): number | null {
+  if (u.examenDia === null) return null;
+  return Math.ceil(u.examenDia - u.hoy);
 }
 
 async function elegirConcepto(
@@ -467,6 +553,9 @@ export type ResumenHoy = {
   // Días desde la última respuesta (null si nunca ha practicado). Lo usa el
   // saludo de /hoy para no tratar igual al que viene a diario y al que vuelve.
   diasSinVenir: number | null;
+  // Días que faltan para la fecha que SE HA FIJADO EL OPOSITOR. null = estudia
+  // sin fecha, que es un estado legítimo y no un dato pendiente de rellenar.
+  diasHastaExamen: number | null;
 };
 
 // Cifras globales del usuario sobre la convocatoria PN para la pantalla /hoy.
@@ -521,7 +610,60 @@ export async function resumenHoy(): Promise<ResumenHoy> {
     backlog: plan.backlog,
     modo: plan.modo,
     diasSinVenir,
+    diasHastaExamen: universo ? diasHastaExamen(universo) : null,
   };
+}
+
+// ---------------------------------------------------------------------------
+// LA FECHA OBJETIVO, DESDE /perfil
+// ---------------------------------------------------------------------------
+
+/** La fecha tal cual está guardada ("2027-05-14"), o null. Para el formulario. */
+export async function fechaObjetivo(): Promise<string | null> {
+  const db = createCerebroClient();
+  const { data, error } = await db
+    .from("usuario")
+    .select("fecha_objetivo")
+    .eq("id", DEMO_USUARIO_ID)
+    .maybeSingle();
+  if (error) return null;
+  return (data?.fecha_objetivo ?? null) as string | null;
+}
+
+/**
+ * Guarda o borra la fecha objetivo. `null` la borra y devuelve al opositor al
+ * modo maratón: quitarla tiene que ser tan fácil como ponerla, porque los planes
+ * cambian y una fecha vieja miente más que la falta de fecha.
+ *
+ * Se rechaza una fecha pasada. No es una validación de formulario cualquiera: si
+ * entrara, `examDay < hoy` haría `daysLeft = 1` y el coach volcaría el temario
+ * entero en la sesión de hoy.
+ */
+export async function guardarFechaObjetivo(
+  fecha: string | null,
+): Promise<{ ok: true } | { ok: false; error: string }> {
+  if (fecha !== null) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha))
+      return { ok: false, error: "La fecha no tiene un formato válido." };
+    const [a, m, d] = fecha.split("-").map(Number);
+    const dia = Date.UTC(a, m - 1, d) / DIA_MS;
+    if (!Number.isFinite(dia))
+      return { ok: false, error: "La fecha no tiene un formato válido." };
+    if (dia <= Date.now() / DIA_MS)
+      return { ok: false, error: "La fecha del examen tiene que ser futura." };
+  }
+  const db = createCerebroClient();
+  // `fecha_objetivo_fijada` se sella AQUÍ y se borra con la fecha: es el margen
+  // que tenía cuando se comprometió, y lo usa el planificador como `inicio`.
+  const { error } = await db
+    .from("usuario")
+    .update({
+      fecha_objetivo: fecha,
+      fecha_objetivo_fijada: fecha === null ? null : new Date().toISOString(),
+    })
+    .eq("id", DEMO_USUARIO_ID);
+  if (error) return { ok: false, error: "No se ha podido guardar." };
+  return { ok: true };
 }
 
 export type MotivoReporte =
