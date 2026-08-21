@@ -222,11 +222,95 @@ ningún camino de la app lo escribe.
 
 ## Lo que sigue abierto
 
-- **El peso es una foto de 600 preguntas.** T24 pesa 1 con UNA sola pregunta en
-  esa muestra: con esa n podría ser un 3 en otra. Re-medir cuando haya más
-  exámenes trazados.
+- **El peso es una foto de 600 preguntas, y no habrá más.** Ver la tercera vuelta,
+  abajo: se midió cuánta confianza merece cada uno y se corrigieron tres.
 - **La profundidad todavía no sigue al peso.** Los conceptos de T8 pesan 4 pero
   tienen tantas preguntas como los de T24. Es el punto 1 del orden de trabajo de
   `anchura-y-profundidad.md` y sigue pendiente.
 - **`actividad_de_concepto` no evita repetir pregunta.** Hoy da igual porque casi
   no hay entre qué elegir; en cuanto haya profundidad, hará falta.
+
+
+---
+
+# Tercera vuelta (21/08/2026): cuánto se sostiene cada peso
+
+No hay más exámenes. Seis promociones (37-42), 100 preguntas cada una, es toda la
+evidencia que se ha podido conseguir. Eso convierte la nota «re-medir cuando haya
+más datos» en un deseo, no en un plan, y obliga a hacer la otra pregunta: **con
+seis, ¿cuánto se sostiene cada peso?**
+
+Se mide con `adaptadores/legal-es/estabilidad-pesos.py`, y siempre sobre la
+**promoción**, nunca sobre la pregunta: las 100 preguntas de un examen no son
+observaciones independientes, las escribió el mismo tribunal el mismo día.
+
+## Prueba 1 — quitar una promoción
+
+Se recalcula la tabla seis veces, quitando cada vez un examen. **Solo 29 de 45
+temas mantienen su peso** haciendo eso. Los otros 16 cambian según cuál quites.
+
+## Prueba 2 — bootstrap sobre promociones
+
+Remuestreando las seis 5.000 veces, la probabilidad de que el tramo asignado sea
+el que sale:
+
+| Tema | Peso | Confianza |
+|---|---|---|
+| T8 | 4 | **99 %** |
+| T14 | 3 | 77 % |
+| T3 | 3 | 76 % |
+| T21 | 3 | **62 %** |
+| T10 | 3 | **54 %** |
+| T17 | 3 | **54 %** |
+
+**Solo 21 de 45 pesos llegan al 80 %.** Los tres marcados son monedas al aire
+entre 3 y 2.
+
+## Prueba 3 — encogimiento, y un error propio por el camino
+
+La corrección estándar cuando la muestra es corta es encoger cada estimación
+hacia la media según su ruido. **El primer intento estaba mal especificado**: con
+un modelo normal de varianza común, T8 salía como el tema MENOS fiable (B = 0,48)
+justo cuando el bootstrap le daba un 99 %. Esa contradicción era el aviso — en
+conteos el ruido crece con el tamaño, y penalizar la varianza bruta castiga a los
+temas grandes por ser grandes.
+
+Rehecho con Gamma-Poisson, que es el modelo que corresponde a conteos, las dos
+vías coinciden:
+
+| Tema | Bruto | Encogido | Se cree al dato | Peso |
+|---|---|---|---|---|
+| T8 | 54 | 45,8 | 94 % | 4 |
+| T3 | 23 | 21,0 | 87 % | 3 |
+| T14 | 22 | 20,2 | 87 % | 3 |
+| T10, T17, T21 | 20 | 18,6 | 86 % | **3 → 2** |
+| T24 | 1 | 3,4 | **23 %** | 1 |
+
+## Lo que se cambió
+
+**T10, T17 y T21 bajan de 3 a 2.** Son exactamente los tres que el bootstrap daba
+por monedas al aire, y los mismos que el encogimiento empuja por debajo del corte.
+Dos métodos independientes de acuerdo: eso es lo que da confianza al cambio.
+
+| Peso | Temas | Conceptos | Antes |
+|---|---|---|---|
+| 4 | T8 | 257 | 257 |
+| 3 | T3, T14 | 219 | 865 |
+| 2 | 28 temas | 2.377 | 1.731 |
+| 1 | 14 temas | 490 | 490 |
+
+## Lo que se asume, dicho en voz alta
+
+Los tramos siguen siendo **más finos de lo que la muestra sostiene**: 24 de 45
+temas quedan por debajo del 80 % de confianza. No se aplana la tabla del todo por
+una razón concreta: **el peso solo cambia el ORDEN de presentación, nunca la
+cobertura**, así que equivocarse en un tramo cuesta poco —el concepto llega antes
+o después, pero llega—. Sería muy distinto si el peso decidiera qué se estudia.
+
+Lo único que hay que evitar es tratar esta tabla como si midiera la verdad. **T24
+pesa 1 con UNA sola pregunta en 600**: tras encoger, su estimación es un 23 %
+dato y un 77 % prior. Es un peso razonable, no un hecho medido.
+
+`estabilidad-pesos.py` compara `pesos-temas.json` contra la tabla encogida y
+avisa si divergen, así que el día que aparezca una séptima promoción basta con
+añadirla al CSV y correrlo.

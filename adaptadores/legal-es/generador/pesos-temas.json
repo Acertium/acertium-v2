@@ -2,14 +2,15 @@
   "meta": {
     "convocatoria": "policia-nacional-2026",
     "fecha": "2026-08-21",
-    "origen": "docs/anchura-y-profundidad.md — tramos respecto a la media de 13,2 preguntas por tema en las 600 preguntas oficiales trazadas (adaptadores/legal-es/trazar-examenes.py).",
+    "origen": "docs/anchura-y-profundidad.md — tramos respecto a la media de 13,2 preguntas por tema en las 600 preguntas oficiales trazadas (adaptadores/legal-es/trazar-examenes.py), CORREGIDOS por encogimiento Gamma-Poisson (adaptadores/legal-es/estabilidad-pesos.py).",
     "que_significa": "El peso ORDENA, no filtra. `planificador.mjs` lo usa para decidir qué se presenta antes y qué repaso se atiende primero; ningún concepto se descarta por pesar poco. Regla 6 de CLAUDE.md (cobertura total del temario) sigue intacta.",
-    "aviso": "T24 pesa 1 con UNA sola pregunta en 600: con esa n el dato es casi ruido y podría ser un 3 en otra muestra. Peso 1 significa «no priorizar», nunca «no cubrir». Re-medir cuando haya más exámenes trazados.",
+    "muestra": "6 promociones (37-42), 100 preguntas cada una. NO hay más exámenes disponibles: esto no es una muestra provisional a la espera de crecer, es toda la evidencia que hay.",
+    "aviso": "Los tramos son más gruesos de lo que la muestra sostiene. Solo T8 está firme (99 % en bootstrap sobre promociones, 94 % de credibilidad tras encoger). T3 y T14 aguantan a duras penas (76-77 %). El resto del reparto 2/1 se mueve entre el 53 % y el 99 %: 24 de 45 temas quedan por debajo del 80 %. Se asume porque el peso solo cambia el ORDEN de presentación, nunca la cobertura, y equivocarse ahí cuesta poco. T24 pesa 1 con UNA sola pregunta en 600, así que su peso es casi todo prior, no dato. Correr `estabilidad-pesos.py` para verlo.",
     "por_defecto": 2
   },
   "tramos": [
     { "peso": 4, "criterio": ">= 2,5x la media", "temas": [8] },
-    { "peso": 3, "criterio": "1,5x - 2,5x la media", "temas": [3, 10, 14, 17, 21] },
+    { "peso": 3, "criterio": "1,5x - 2,5x la media, y que aguante el encogimiento", "temas": [3, 14] },
     {
       "peso": 1,
       "criterio": "< 0,75x la media",
