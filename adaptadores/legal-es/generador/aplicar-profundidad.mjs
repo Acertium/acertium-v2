@@ -29,6 +29,7 @@ import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { verificarLote } from "../../../nucleo/verificar-lote.mjs";
 import { verificarCalidad } from "./verificar-calidad.mjs";
+import { verificarUnicidad } from "../../../nucleo/verificar-unicidad.mjs";
 import { createCerebroClient } from "./cliente-cerebro.mjs";
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), "../../..");
@@ -42,7 +43,7 @@ function fuentesDelCorpus(rutaCorpus) {
     porRef.get(String(articulo).replace(/^art\.\s*/, "").split(".")[0]) ?? null;
 }
 
-export function verificarFichero(ruta) {
+export function verificarFichero(ruta, banco = []) {
   const doc = JSON.parse(readFileSync(ruta, "utf8"));
   const fuenteDe = fuentesDelCorpus(join(RAIZ, doc.meta.fuente));
 
@@ -62,7 +63,10 @@ export function verificarFichero(ruta) {
   const lote = { fuentes, conceptos: [], actividades };
   const contenido = verificarLote(lote);
   const calidad = verificarCalidad(lote);
-  return { doc, actividades, sinFuente, contenido, calidad };
+  // `banco` opcional: sin él, unicidad solo compara el lote consigo mismo. Con
+  // él, además contra las 3.411 que ya están cargadas.
+  const unicidad = verificarUnicidad(lote, banco);
+  return { doc, actividades, sinFuente, contenido, calidad, unicidad };
 }
 
 async function main() {
@@ -73,7 +77,18 @@ async function main() {
     process.exit(2);
   }
 
-  const { doc, actividades, sinFuente, contenido, calidad } = verificarFichero(ruta);
+  // El banco se trae ANTES de verificar: la puerta de unicidad no puede
+  // detectar una contradicción contra lo que ya está cargado si no lo ve.
+  let banco = [];
+  try {
+    const { data } = await createCerebroClient().rpc("banco_enunciados");
+    banco = data ?? [];
+  } catch {
+    console.error("  ⚠ sin acceso a la base: unicidad solo compara el lote consigo mismo");
+  }
+
+  const { doc, actividades, sinFuente, contenido, calidad, unicidad } =
+    verificarFichero(ruta, banco);
   console.log(
     `familia ${doc.meta.familia} (tema ${doc.meta.tema}, peso ${doc.meta.peso}) · ` +
       `${actividades.length} segundas preguntas`,
@@ -90,6 +105,9 @@ async function main() {
     ...(calidad.rechazos ?? []).map(
       (r) => `${r.concepto ?? "lote"}: ${r.motivo ?? (r.motivos ?? []).join("; ")}`,
     ),
+    ...(unicidad.rechazos ?? []).map(
+      (r) => `${r.concepto ?? r.enunciado ?? "lote"}: ${r.motivo}`,
+    ),
   ];
   if (duros.length) {
     console.error(`\n✗ las puertas rechazan ${duros.length}:`);
@@ -98,7 +116,10 @@ async function main() {
   }
   console.log("✓ contenido: la correcta es texto literal del artículo en todas");
   console.log("✓ calidad: sin sesgo de longitud, duplicados ni meta-opciones");
-  for (const a of [...(contenido.avisos ?? []), ...(calidad.avisos ?? [])])
+  console.log(
+    `✓ ${unicidad.resumen}${banco.length ? ` (contra ${banco.length} del banco)` : " (SIN banco)"}`,
+  );
+  for (const a of [...(contenido.avisos ?? []), ...(calidad.avisos ?? []), ...(unicidad.avisos ?? [])])
     console.log(`  aviso · ${a.concepto ?? a.id ?? "lote"}: ${a.aviso}`);
 
   if (!aplicar) {

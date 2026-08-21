@@ -1,7 +1,8 @@
 // Acertium — adaptador legal-es / generador / orquestador
 // Pipeline: lote generado (JSON) → verificar-lote (puerta de contenido) →
-//           verificar-calidad → verificar-meta → auditar-corpus (fidelidad a la
-//           norma) → CARGA en la base → manifiesto.
+//           verificar-calidad → verificar-unicidad (contra el banco entero) →
+//           verificar-meta → auditar-corpus (fidelidad a la norma) → CARGA en la
+//           base → manifiesto.
 //
 //   node generar.mjs <lote.json>          carga de verdad (inserta y confirma)
 //   node generar.mjs <lote.json> --sql    NO toca la base: emite el SQL por stdout
@@ -25,6 +26,7 @@ import { verificarLote } from "../../../nucleo/verificar-lote.mjs";
 import { loteASql, cargarLote, marcarCobertura } from "./cargar.mjs";
 import { verificarMeta, cargarRegistro, textoDeFuente } from "./verificar-meta.mjs";
 import { verificarCalidad } from "./verificar-calidad.mjs";
+import { verificarUnicidad } from "../../../nucleo/verificar-unicidad.mjs";
 import { verificarFuente } from "../../../nucleo/verificar-fuente.mjs";
 import { auditarLote, informe } from "./auditar-corpus.mjs";
 import { createCerebroClient } from "./cliente-cerebro.mjs";
@@ -52,6 +54,31 @@ console.error("  " + vc.resumen);
 if (!vc.ok) {
   for (const r of vc.rechazos) console.error(`  ✗ CALIDAD [${r.concepto}] ${r.motivo}`);
   console.error("  → calidad insuficiente: NO se carga. Corrige los distractores/enunciados.");
+  process.exit(1);
+}
+
+// Puerta de UNICIDAD — FAIL-CLOSED. Las tres anteriores miran cada pregunta
+// contra su fuente; esta la mira contra el resto del banco, que es el único
+// sitio donde vive este fallo: dos preguntas con el mismo enunciado y distinta
+// respuesta correcta, o una pregunta cuyos distractores salen del mismo cotejo
+// que la correcta y por tanto también son verdad.
+const bancoU = await (async () => {
+  try {
+    const { data } = await createCerebroClient().rpc("banco_enunciados");
+    return data ?? [];
+  } catch {
+    console.error("  ⚠ sin acceso a la base: unicidad solo compara el lote consigo mismo");
+    return [];
+  }
+})();
+const vu = verificarUnicidad(lote, bancoU);
+console.error("== verificación de unicidad ==");
+console.error(`  ${vu.resumen}${bancoU.length ? ` (contra ${bancoU.length} del banco)` : " (SIN banco)"}`);
+for (const a of vu.avisos) console.error(`  · aviso [${a.enunciado}] ${a.aviso}`);
+if (!vu.ok) {
+  for (const r of vu.rechazos)
+    console.error(`  ✗ UNICIDAD [${r.concepto ?? r.enunciado}] ${r.motivo}`);
+  console.error("  → hay preguntas que se contradicen o que no tienen una sola respuesta buena: NO se carga.");
   process.exit(1);
 }
 
