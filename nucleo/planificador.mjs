@@ -9,7 +9,8 @@
 //   conceptos: [{ id, peso }],                 // universo de la convocatoria (overlay)
 //   estados:   { [id]: { e: <estadoBKT>, seen } },
 //   prereq:    { [id]: [idsPrereq] },          // aristas 'prerrequisito' del grafo
-//   examDay, hoy, inicio, B                     // días (índices) y presupuesto (ítems/día)
+//   examDay, hoy, inicio, B,                    // días (índices) y presupuesto (ítems/día)
+//   ritmoMinimoNuevos                           // suelo de conceptos nuevos/día (opcional)
 // }
 
 import { absorcion, PARAMS } from './motor-bkt.mjs';
@@ -25,7 +26,8 @@ export const PLAN = {
 
 // Plan de la sesión de hoy: qué repasar y qué introducir.
 export function planDia(ctx, P = PLAN) {
-  const { conceptos, estados, prereq = {}, examDay, hoy, inicio = 0, B } = ctx;
+  const { conceptos, estados, prereq = {}, examDay, hoy, inicio = 0, B,
+          ritmoMinimoNuevos = 0 } = ctx;
   const A = id => absorcion(estados[id].e, hoy);
 
   // Triaje = nunca hubo margen sano (horizonte total ≤ ventana). Si SÍ lo hubo,
@@ -50,6 +52,20 @@ export function planDia(ctx, P = PLAN) {
   if (triage) quota = Math.ceil(restN / daysLeft);                       // reparte lo que quede, sin rendirse
   else if (hoy <= cutoff) quota = Math.ceil(restN / Math.max(1, cutoff - hoy + 1)); // ritmo uniforme hasta el corte
   else quota = 0;                                                        // pasado el corte: solo consolidar
+
+  // SUELO DE RITMO — la paradoja de Zeno del horizonte rodante.
+  // `quota` es proporcional a lo que queda; si además el horizonte se aleja un
+  // día por cada día que pasa (el caso de quien estudia SIN fecha), el ritmo
+  // decae geométricamente y el temario no se termina nunca: medido, 21 nuevos
+  // el primer día, 8 el 160 y 2 el 400, con 211 conceptos aún sin tocar.
+  // Con un suelo, el ritmo se mantiene y la cobertura se cierra de verdad.
+  //
+  // Importa especialmente desde que el peso ordena: sin suelo, la cola que no
+  // llega nunca son SIEMPRE los mismos conceptos —los de menor peso—, y eso
+  // convertiría «no priorizar» en «no cubrir», que es justo lo que la regla de
+  // cobertura total prohíbe. Solo aplica cuando quedan nuevos por introducir.
+  if (quota > 0 || (ritmoMinimoNuevos > 0 && restN > 0 && hoy <= cutoff))
+    quota = Math.max(quota, Math.min(ritmoMinimoNuevos, restN));
 
   const capNew = Math.floor(B * (triage ? P.capNewTriaje : P.capNewNormal));
   const reserveNew = Math.min(quota, nuevos.length, capNew);            // hueco garantizado para nuevos

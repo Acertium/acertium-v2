@@ -21,6 +21,38 @@ import { dirname, join } from "path";
 import { verificarMeta, cargarRegistro } from "./verificar-meta.mjs";
 import { estadoSegunTipoFuente } from "../../../nucleo/verificar-fuente.mjs";
 
+// ---------------------------------------------------------------------------
+// EL PESO DEL TEMA
+//
+// `overlay_entrada.peso` lo usa el planificador para ORDENAR: qué concepto nuevo
+// se presenta antes (`planificador.mjs:44`) y qué repaso vencido se atiende
+// primero cuando no caben todos (`:38`). Durante meses este cargador escribió
+// `peso: 1` para todo, así que el coach ordenaba con todos los pesos iguales: el
+// mecanismo estaba construido y nadie lo había encendido.
+//
+// Los tramos salen de las 600 preguntas oficiales trazadas (ver
+// `pesos-temas.json` y `docs/anchura-y-profundidad.md`).
+//
+// ORDENA, NO FILTRA: ningún concepto se descarta por pesar poco. La regla 6 de
+// CLAUDE.md —cobertura total del temario, sin saltar conceptos por frecuencia de
+// examen— sigue intacta, y el peso 1 significa «no priorizar», nunca «no cubrir».
+// ---------------------------------------------------------------------------
+const PESOS = JSON.parse(
+  readFileSync(
+    join(dirname(fileURLToPath(import.meta.url)), "pesos-temas.json"),
+    "utf8",
+  ),
+);
+
+/** Peso del tema a partir de su rótulo ("Tema 8 — ..."). */
+export function pesoDelTema(tema) {
+  const m = /^Tema\s+(\d+)/.exec(String(tema ?? "").trim());
+  if (!m) return PESOS.meta.por_defecto;
+  const n = Number(m[1]);
+  const tramo = PESOS.tramos.find((t) => t.temas.includes(n));
+  return tramo ? tramo.peso : PESOS.meta.por_defecto;
+}
+
 function q(s) {
   return "'" + String(s ?? "").replace(/'/g, "''") + "'";
 }
@@ -275,7 +307,12 @@ export async function cargarLote(db, v, meta, registro) {
 
   const filasOverlay = ids
     .filter((id) => idsEnBase.has(id))
-    .map((id) => ({ convocatoria_id: convocatoria, concepto_id: id, tema, peso: 1 }));
+    .map((id) => ({
+      convocatoria_id: convocatoria,
+      concepto_id: id,
+      tema,
+      peso: pesoDelTema(tema),
+    }));
   try {
     insertado.overlay_entrada = await enTandas(filasOverlay, async (trozo) => {
       const { data, error } = await db
@@ -435,7 +472,7 @@ export function loteASql(v, meta, registro) {
     );
 
     out.push(
-      `\ninsert into acertium_v2.overlay_entrada (convocatoria_id, concepto_id, tema, peso)\nselect ${q(convocatoria)}, id, ${q(tema)}, 1 from acertium_v2.concepto where id in (${v.conceptosOK
+      `\ninsert into acertium_v2.overlay_entrada (convocatoria_id, concepto_id, tema, peso)\nselect ${q(convocatoria)}, id, ${q(tema)}, ${pesoDelTema(tema)} from acertium_v2.concepto where id in (${v.conceptosOK
         .map((c) => q(c.id))
         .join(", ")})\non conflict do nothing;`,
     );

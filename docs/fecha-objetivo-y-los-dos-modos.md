@@ -119,3 +119,103 @@ sabrá mejor que la app cómo le fue.
 - **`convocatoria` sigue sin fecha, y así se queda.** Si algún día se guarda, es
   para informar («la convocatoria de este año examina el X»), nunca para
   alimentar el planificador.
+
+---
+
+# Segunda vuelta (21/08/2026): el peso, y el cierre del ciclo
+
+## El peso ordena — y por fin está encendido
+
+`overlay_entrada.peso` lo usa el planificador desde siempre para ordenar
+(`planificador.mjs:38` y `:44`), pero `cargar.mjs` lo clavaba a 1: el mecanismo
+estaba construido de punta a punta y nadie lo había encendido. Ahora los tramos
+salen de las 600 preguntas oficiales trazadas, y `cargar.mjs` los deriva del tema
+(`pesos-temas.json`) para que los lotes nuevos nazcan con el suyo.
+
+| Peso | Temas | Conceptos | En base |
+|---|---|---|---|
+| 4 | T8 | 8 % | 257 |
+| 3 | T3, T10, T14, T17, T21 | 26 % | 865 |
+| 2 | los otros 25 | 52 % | 1.731 |
+| 1 | 14 temas | 15 % | 490 |
+
+Los tramos 4, 3 y 1 coinciden exactamente con `anchura-y-profundidad.md`; el 2
+creció en 105 conceptos porque ahí cayeron los lotes cargados después (RSP en T25,
+DEP en T23).
+
+**El peso ORDENA, NO FILTRA.** Medido en modo fecha con horizonte suficiente, la
+cobertura sigue siendo del 100 % en los cuatro tramos: lo que cambia es el orden
+de llegada, no quién llega.
+
+```
+FECHA a 180 días:  peso4 100 % · peso3 100 % · peso2 100 % · peso1 100 %
+```
+
+Con un plazo que no da (120 días), el orden hace lo que se le pide: salva lo que
+más pesa y sacrifica la cola.
+
+```
+FECHA a 120 días:  peso4 100 % · peso3 100 % · peso2 77 % · peso1 0 %
+```
+
+Eso es deliberado, pero conviene decirlo en voz alta: **con plazo corto, «para el
+final» acaba significando «no le da tiempo».** Es mejor que repartir uniformemente
+y no dominar nada, y es exactamente lo que el 80/20 pide.
+
+## El defecto que destapó el peso: la paradoja de Zeno del maratón
+
+Al medir la cobertura por tramos apareció que en **modo maratón** el peso 1 se
+quedaba al **0 % incluso tras 200 días**. La causa no era el peso:
+
+```
+quota = ceil(restantes / 162)     ← proporcional a lo que queda
+día   0: quota 21, restan 3.343
+día 160: quota  8, restan 1.192
+día 400: quota  2, restan   211
+```
+
+Con el horizonte rodante, el ritmo decae geométricamente y **el temario no se
+termina nunca**. El defecto era anterior al peso —con todos los pesos a 1 la cola
+tampoco se cubría—, pero el peso lo volvió sistemático: la cola que no llega
+pasaban a ser siempre los mismos 490 conceptos. Eso convertía «no priorizar» en
+«no cubrir», que es justo lo que prohíbe la regla 6 de `CLAUDE.md`.
+
+Arreglo: `ritmoMinimoNuevos` en `planDia`, un suelo de introducción que solo se
+aplica sin fecha, calculado sobre el universo entero (no sobre lo que resta) para
+que sea constante: `ceil(3.343 / 161) = 21` conceptos nuevos al día.
+
+```
+MARATÓN, 200 días:  100 % en los cuatro tramos → temario completo el día 159
+```
+
+El self-test de `planificador.mjs` sigue dando lo mismo.
+
+## El cierre del ciclo: «¿qué tal el examen?»
+
+Quedaba abierto que una fecha vencida dejaba al coach creyendo que el examen era
+hoy (`daysLeft = 1`, temario entero volcado en una sesión). Dos piezas:
+
+1. **Salvaguarda.** Una fecha que ya pasó no cuenta como fecha: se planifica en
+   modo maratón hasta que el opositor cierre el ciclo.
+2. **La ventana.** En `/hoy`, arriba del plan: 👍 / 👎 y un «prefiero no decirlo».
+   Cualquiera de los tres guarda el desenlace en `examen_rendido` y **borra la
+   fecha**.
+
+Lo que esa ventana **no** toca: `evento`, `estado_dominio`, el perfil y el
+cerebro se quedan igual. Presentarse a un examen no borra lo aprendido, y quien no
+aprueba sigue desde donde lo dejó, no desde cero.
+
+Se puede cerrar sin contarlo a propósito. Obligar a declarar un mal resultado el
+mismo día sería cruel, y si el opositor cerrase la app sin responder, la fecha
+vencida se quedaría sin limpiar.
+
+## Lo que sigue abierto
+
+- **El peso es una foto de 600 preguntas.** T24 pesa 1 con UNA sola pregunta en
+  esa muestra: con esa n podría ser un 3 en otra. Re-medir cuando haya más
+  exámenes trazados.
+- **La profundidad todavía no sigue al peso.** Los conceptos de T8 pesan 4 pero
+  tienen tantas preguntas como los de T24. Es el punto 1 del orden de trabajo de
+  `anchura-y-profundidad.md` y sigue pendiente.
+- **`actividad_de_concepto` no evita repetir pregunta.** Hoy da igual porque casi
+  no hay entre qué elegir; en cuanto haya profundidad, hará falta.

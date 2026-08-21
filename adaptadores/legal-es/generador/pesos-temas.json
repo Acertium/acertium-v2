@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "convocatoria": "policia-nacional-2026",
+    "fecha": "2026-08-21",
+    "origen": "docs/anchura-y-profundidad.md — tramos respecto a la media de 13,2 preguntas por tema en las 600 preguntas oficiales trazadas (adaptadores/legal-es/trazar-examenes.py).",
+    "que_significa": "El peso ORDENA, no filtra. `planificador.mjs` lo usa para decidir qué se presenta antes y qué repaso se atiende primero; ningún concepto se descarta por pesar poco. Regla 6 de CLAUDE.md (cobertura total del temario) sigue intacta.",
+    "aviso": "T24 pesa 1 con UNA sola pregunta en 600: con esa n el dato es casi ruido y podría ser un 3 en otra muestra. Peso 1 significa «no priorizar», nunca «no cubrir». Re-medir cuando haya más exámenes trazados.",
+    "por_defecto": 2
+  },
+  "tramos": [
+    { "peso": 4, "criterio": ">= 2,5x la media", "temas": [8] },
+    { "peso": 3, "criterio": "1,5x - 2,5x la media", "temas": [3, 10, 14, 17, 21] },
+    {
+      "peso": 1,
+      "criterio": "< 0,75x la media",
+      "temas": [15, 19, 24, 28, 30, 31, 32, 33, 35, 36, 39, 40, 44, 45]
+    }
+  ]
+}

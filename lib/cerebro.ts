@@ -143,6 +143,8 @@ function aPublica(a: FilaActividad): ActividadPublica {
 
 /** Horizonte del modo maratón: el examen siempre a esta distancia. */
 const HORIZONTE_DIAS = 180;
+/** `PLAN.ventana` del planificador: los días finales en que ya no entra materia. */
+const VENTANA_ESTABILIZACION = 19;
 // Presupuesto de ítems/día con el que se reparte consolidar vs ampliar. No
 // limita cuánto practica el usuario: solo fija la PROPORCIÓN de cada tipo.
 const PRESUPUESTO_DIARIO = 40;
@@ -267,7 +269,13 @@ type PlanDia = {
 function planDelDia(u: Universo): PlanDia {
   // Con fecha, el horizonte es real y se acorta solo. Sin fecha, rueda con el
   // día (ver el bloque de los dos modos, arriba).
-  const conFecha = u.examenDia !== null;
+  //
+  // UNA FECHA VENCIDA NO ES UNA FECHA. Si ya pasó y el opositor todavía no ha
+  // cerrado el ciclo en /hoy, se planifica como si no la hubiera: con
+  // `examDay < hoy`, `daysLeft` se queda en 1 y el coach le volcaría el temario
+  // entero en la sesión de hoy. Mientras tanto la pantalla le pregunta qué tal
+  // le fue, y al contestar la fecha se borra.
+  const conFecha = u.examenDia !== null && u.examenDia >= u.hoy;
   const examDay = conFecha ? (u.examenDia as number) : u.hoy + HORIZONTE_DIAS;
 
   // `inicio` le dice al planificador si ALGUNA VEZ hubo margen sano, y de eso
@@ -279,6 +287,15 @@ function planDelDia(u: Universo): PlanDia {
   // arranca en triaje, y es lo honesto: no tiene el margen y no vamos a fingirlo.
   const inicio = conFecha ? (u.fijadaDia ?? u.hoy) : u.hoy;
 
+  // Sin fecha hace falta un suelo de ritmo, o el temario no se acaba nunca: la
+  // cuota es proporcional a lo que queda y el horizonte se aleja un día por cada
+  // día que pasa, así que decae geométricamente (21 nuevos el primer día, 8 el
+  // 160, 2 el 400). Con suelo, la cobertura se cierra en un horizonte. Se calcula
+  // sobre el universo ENTERO, no sobre lo que resta, para que sea constante.
+  const ritmoMinimoNuevos = conFecha
+    ? 0
+    : Math.ceil(u.conceptos.length / (HORIZONTE_DIAS - VENTANA_ESTABILIZACION));
+
   return planDia({
     conceptos: u.conceptos,
     estados: u.estados,
@@ -287,6 +304,7 @@ function planDelDia(u: Universo): PlanDia {
     hoy: u.hoy,
     inicio,
     B: PRESUPUESTO_DIARIO,
+    ritmoMinimoNuevos,
   }) as PlanDia;
 }
 
@@ -297,6 +315,12 @@ export function diasHastaExamen(u: {
 }): number | null {
   if (u.examenDia === null) return null;
   return Math.ceil(u.examenDia - u.hoy);
+}
+
+/** La fecha, en ISO, si ya pasó y sigue sin cerrarse. null en cualquier otro caso. */
+function examenVencido(u: Universo): string | null {
+  if (u.examenDia === null || u.examenDia >= u.hoy) return null;
+  return new Date(u.examenDia * DIA_MS).toISOString().slice(0, 10);
 }
 
 async function elegirConcepto(
@@ -556,6 +580,10 @@ export type ResumenHoy = {
   // Días que faltan para la fecha que SE HA FIJADO EL OPOSITOR. null = estudia
   // sin fecha, que es un estado legítimo y no un dato pendiente de rellenar.
   diasHastaExamen: number | null;
+  // Fecha ("2027-05-14") de un examen que YA PASÓ y sobre el que aún no ha dicho
+  // qué tal le fue. Mientras no lo cierre, /hoy se lo pregunta y el coach
+  // planifica como si no hubiera fecha.
+  examenPendienteDe: string | null;
 };
 
 // Cifras globales del usuario sobre la convocatoria PN para la pantalla /hoy.
@@ -611,7 +639,40 @@ export async function resumenHoy(): Promise<ResumenHoy> {
     modo: plan.modo,
     diasSinVenir,
     diasHastaExamen: universo ? diasHastaExamen(universo) : null,
+    examenPendienteDe: universo ? examenVencido(universo) : null,
   };
+}
+
+/**
+ * Cierra el ciclo de un examen ya pasado: guarda cómo le fue y BORRA la fecha.
+ *
+ * Y solo eso. No toca `evento`, ni `estado_dominio`, ni el perfil, ni el cerebro:
+ * presentarse a un examen no borra lo aprendido, y quien no aprueba sigue su
+ * preparación desde donde la dejó, no desde cero. Es también lo que devuelve al
+ * coach al modo maratón hasta que el opositor se fije la siguiente fecha.
+ */
+export async function registrarExamen(
+  fecha: string,
+  resultado: "bien" | "mal" | "sin_decir",
+): Promise<{ ok: boolean }> {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha)) return { ok: false };
+  const db = createCerebroClient();
+
+  // El desenlace primero: si fallara, la fecha sigue ahí y se le vuelve a
+  // preguntar. Al revés se perdería el dato sin que nadie se enterase.
+  const { error: eIns } = await db
+    .from("examen_rendido")
+    .upsert(
+      { usuario_id: DEMO_USUARIO_ID, fecha_examen: fecha, resultado },
+      { onConflict: "usuario_id,fecha_examen" },
+    );
+  if (eIns) return { ok: false };
+
+  const { error } = await db
+    .from("usuario")
+    .update({ fecha_objetivo: null, fecha_objetivo_fijada: null })
+    .eq("id", DEMO_USUARIO_ID);
+  return { ok: !error };
 }
 
 // ---------------------------------------------------------------------------
