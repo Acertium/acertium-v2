@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "seccion": 72,
+    "titulo": "Concepto de seguridad y teorías explicativas de la delincuencia (GRUPO C, mixto): anclajes citables en la LO 4/2015 de protección de la seguridad ciudadana (BOE-A-2015-3442), la Ley 5/2014 de Seguridad Privada (BOE-A-2014-3649), la Declaración Universal de Derechos Humanos (art. 3) y el Diccionario de la lengua española (RAE-ASALE); teorías de la delincuencia como consenso académico (Beccaria, Lombroso, Merton, subcultura, etiquetado, asociación diferencial, aprendizaje social de Akers, control) referidas a la Encyclopaedia Britannica y a las obras primarias",
+    "materia": "seguridad-y-teorias-de-la-delincuencia",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana, arts. 1, 3 y 4 y preámbulo — BOE-A-2015-3442 (consultado 2026-08-16)",
+      "Ley 5/2014, de 4 de abril, de Seguridad Privada, arts. 1 y 4 — BOE-A-2014-3649 (consultado 2026-08-16)",
+      "Declaración Universal de Derechos Humanos (1948), art. 3 — https://www.un.org/es/about-us/universal-declaration-of-human-rights (consultado 2026-08-16)",
+      "RAE-ASALE, Diccionario de la lengua española (DLE), s.v. «seguridad» y «delincuencia» — https://dle.rae.es/seguridad · https://dle.rae.es/delincuencia (consultado 2026-08-16)",
+      "Encyclopaedia Britannica, «criminology: Major concepts and theories» y «Sociological theories» — https://www.britannica.com/science/criminology/Major-concepts-and-theories · https://www.britannica.com/science/criminology/Sociological-theories (consultado 2026-08-16)",
+      "Encyclopaedia Britannica, «Cesare Beccaria», «Cesare Lombroso», «anomie» y «strain theory» — https://www.britannica.com/biography/Cesare-Beccaria · https://www.britannica.com/biography/Cesare-Lombroso (consultado 2026-08-16)"
+    ],
+    "tipo_fuente": "consenso",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "seguridad-delincuencia.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "RAE (DLE) — «seguridad»",
+      "texto": "seguridad. Del lat. securĭtas, -ātis. 1. f. Cualidad de seguro. seguridad ciudadana: Situación de tranquilidad pública y de libre ejercicio de los derechos individuales, cuya protección efectiva se encomienda a las fuerzas de orden público. seguridad jurídica: Cualidad del ordenamiento jurídico que implica la certeza de sus normas y, consiguientemente, la previsibilidad de su aplicación. seguridad social: Sistema público de prestaciones de carácter económico o asistencial, que atiende necesidades determinadas de la población, como las derivadas de la enfermedad, el desempleo, la ancianidad, etc. seguridad pasiva: seguridad que proporciona un conjunto de mecanismos, características y prestaciones de un vehículo cuya función es proteger a los ocupantes en caso de accidente."
+    },
+    {
+      "ref": "RAE (DLE) — «delincuencia»",
+      "texto": "delincuencia. Del lat. delinquentia. 1. f. Cualidad de delincuente. 2. f. Acción de delinquir. 3. f. Conjunto de delitos, ya en general o ya referidos a un país, época o especialidad en ellos. 4. f. Colectividad de delincuentes."
+    },
+    {
+      "ref": "RAE (DLE) — «seguridad»: antónimo inseguridad",
+      "texto": "En el Diccionario de la lengua española, la voz «inseguridad» figura como antónimo de «seguridad», asociada a la presencia de peligro y a la presencia de duda. En ese sentido, la inseguridad es la falta o ausencia de seguridad."
+    },
+    {
+      "ref": "LO 4/2015 — art. 1.1 (objeto)",
+      "texto": "La seguridad ciudadana es un requisito indispensable para el pleno ejercicio de los derechos fundamentales y las libertades públicas, y su salvaguarda, como bien jurídico de carácter colectivo, es función del Estado, con sujeción a la Constitución y a las Leyes."
+    },
+    {
+      "ref": "LO 4/2015 — art. 1.2 (objeto)",
+      "texto": "Esta Ley tiene por objeto la regulación de un conjunto plural y diversificado de actuaciones de distinta naturaleza orientadas a la tutela de la seguridad ciudadana, mediante la protección de personas y bienes y el mantenimiento de la tranquilidad de los ciudadanos."
+    },
+    {
+      "ref": "LO 4/2015 — preámbulo (seguridad ciudadana y seguridad pública)",
+      "texto": "La Constitución Española de 1978 asumió el concepto de seguridad ciudadana (artículo 104.1), así como el de seguridad pública (artículo 149.1.29.ª). Posteriormente, la doctrina y la jurisprudencia han venido interpretando, con matices, estos dos conceptos como sinónimos, entendiendo por tales la actividad dirigida a la protección de personas y bienes y al mantenimiento de la tranquilidad ciudadana."
+    },
+    {
+      "ref": "LO 4/2015 — art. 4.1 (principios rectores)",
+      "texto": "El ejercicio de las potestades y facultades reconocidas por esta Ley a las administraciones públicas y, específicamente, a las autoridades y demás órganos competentes en materia de seguridad ciudadana y a los miembros de las Fuerzas y Cuerpos de Seguridad se regirá por los principios de legalidad, igualdad de trato y no discriminación, oportunidad, proporcionalidad, eficacia, eficiencia y responsabilidad, y se someterá al control administrativo y jurisdiccional."
+    },
+    {
+      "ref": "Ley 5/2014 — art. 1 (objeto)",
+      "texto": "Esta ley tiene por objeto regular la realización y la prestación por personas privadas, físicas o jurídicas, de actividades y servicios de seguridad privada que, desarrollados por éstos, son contratados, voluntaria u obligatoriamente, por personas físicas o jurídicas, públicas o privadas, para la protección de personas y bienes. Igualmente regula las investigaciones privadas que se efectúen sobre aquéllas o éstos. Todas estas actividades tienen la consideración de complementarias y subordinadas respecto de la seguridad pública."
+    },
+    {
+      "ref": "Ley 5/2014 — art. 4 (fines)",
+      "texto": "La seguridad privada tiene como fines: a) Satisfacer las necesidades legítimas de seguridad o de información de los usuarios de seguridad privada, velando por la indemnidad o privacidad de las personas o bienes cuya seguridad o investigación se le encomiende frente a posibles vulneraciones de derechos, amenazas deliberadas y riesgos accidentales o derivados de la naturaleza. b) Contribuir a garantizar la seguridad pública, a prevenir infracciones y a aportar información a los procedimientos relacionados con sus actuaciones e investigaciones."
+    },
+    {
+      "ref": "DUDH — art. 3 (seguridad de la persona)",
+      "texto": "Todo individuo tiene derecho a la vida, a la libertad y a la seguridad de su persona."
+    },
+    {
+      "ref": "Doctrina — seguridad colectiva",
+      "texto": "Frente a la seguridad individual, que mira al derecho de cada persona, la seguridad colectiva contempla la seguridad como un bien que pertenece al conjunto de la sociedad. En esa línea, la Ley Orgánica 4/2015 califica la salvaguarda de la seguridad ciudadana como un bien jurídico de carácter colectivo cuya garantía es función del Estado."
+    },
+    {
+      "ref": "Criminología — escuela clásica (Beccaria)",
+      "texto": "La escuela clásica de criminología, cuyo principal exponente es Cesare Beccaria en su obra De los delitos y de las penas (1764), parte del libre albedrío: considera todo acto delictivo como una elección deliberada fruto del cálculo racional entre el placer que se espera del delito y el dolor de la pena. De ahí deduce que, para prevenir el delito, la certeza de la pena es más eficaz que su severidad."
+    },
+    {
+      "ref": "Criminología — escuela positivista (Lombroso)",
+      "texto": "La escuela positivista, fundada por el italiano Cesare Lombroso, aplicó los métodos de la ciencia al estudio del delincuente. A partir del examen de cráneos y rasgos faciales, Lombroso formuló la hipótesis del delincuente nato: la criminalidad grave o persistente se asociaría al atavismo, es decir, a una reversión a un estadio primitivo del desarrollo humano."
+    },
+    {
+      "ref": "Criminología — teoría de la anomia (Merton)",
+      "texto": "La teoría de la anomia, propuesta por el sociólogo estadounidense Robert K. Merton, sostiene que la criminalidad resulta de la incapacidad del individuo para alcanzar sus metas por medios socialmente aceptables; ante esa imposibilidad, el individuo tiende a perseguir esos objetivos por medios no aceptables o a fijarse otros objetivos distintos."
+    },
+    {
+      "ref": "Criminología — modos de adaptación de Merton",
+      "texto": "Merton describió cinco modos de adaptación ante la tensión entre las metas culturales y los medios legítimos para alcanzarlas: la conformidad, la innovación, el ritualismo, el retraimiento y la rebelión. Solo la conformidad acepta a la vez las metas que valora la sociedad y los medios legítimos para lograrlas."
+    },
+    {
+      "ref": "Criminología — subcultura criminal",
+      "texto": "El concepto de subcultura criminal designa un conjunto alternativo de valores morales y expectativas al que las personas pueden acogerse cuando no encuentran vías aceptables hacia los objetivos que les propone la sociedad. Integra las teorías de la asociación diferencial y de la anomia, y se desarrolló a partir del estudio de bandas de delincuentes en las ciudades."
+    },
+    {
+      "ref": "Criminología — teoría del etiquetado",
+      "texto": "La teoría del etiquetado presenta la criminalidad como un producto de la reacción de la sociedad frente al individuo: una vez condenado, este queda etiquetado como delincuente y adquiere una identidad criminal; rechazado por quienes cumplen la ley y aceptado por otros delincuentes, con el tiempo se socializa cada vez más en la conducta delictiva."
+    },
+    {
+      "ref": "Criminología — asociación diferencial",
+      "texto": "La teoría de la asociación diferencial afirma que toda conducta criminal se aprende, y que ese aprendizaje depende de la intensidad del contacto del individuo con personas que cometen delitos: cuanto más se relaciona con ellas, más probable es que aprenda y adopte valores y conductas delictivas."
+    },
+    {
+      "ref": "Criminología — aprendizaje social (Akers)",
+      "texto": "La teoría del aprendizaje social de Ronald Akers amplió la teoría del comportamiento y explica que la conducta se aprende a partir de los contactos dentro de la familia y otros grupos íntimos, de los contactos sociales fuera de la familia, en especial los grupos de iguales, y de la exposición a modelos de conducta en los medios de comunicación."
+    },
+    {
+      "ref": "Criminología — teoría del control",
+      "texto": "La teoría del control subraya el vínculo del individuo con su grupo social: la capacidad de resistir la inclinación a delinquir depende de la fuerza de su apego a los padres, de su implicación en actividades convencionales y de su compromiso con los valores morales ortodoxos que prohíben esa conducta."
+    }
+  ]
+}

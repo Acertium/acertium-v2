@@ -1,10 +1,110 @@
 {
   "meta": {
     "seccion": 34,
-    "titulo": "Orden PCI/487/2019, de 26 de abril, por la que se publica la Estrategia Nacional de Ciberseguridad 2019, aprobada por el Consejo de Seguridad Nacional",
+    "titulo": "Orden PCI/487/2019, por la que se publica la Estrategia Nacional de Ciberseguridad 2019",
+    "materia": "orden-pci-487-2019-estrategia-nacional-ciberseguridad",
     "referencia_boe": "BOE-A-2019-6347",
-    "publicacion": "«BOE» núm. 103, de 30 de abril de 2019",
-    "ultima_modificacion": "sin modificaciones"
+    "referencia_fuente": null,
+    "tipo_fuente": null,
+    "procedencia": "lote",
+    "lotes_origen": [
+      "orden-pci-487-2019-estrategia-nacional-ciberseguridad.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`.",
+    "sustituye": "sección 34 estaba vacía (0 artículos)"
   },
-  "articulos": []
+  "articulos": [
+    {
+      "ref": "Resumen ejecutivo — estructura",
+      "texto": "El documento se estructura en cinco capítulos. El primero, titulado «El ciberespacio, más allá de un espacio común global», proporciona una visión de conjunto del ámbito de la ciberseguridad. El tercer capítulo, titulado «Propósito, principios y objetivos para la ciberseguridad» aplica los principios rectores de la Estrategia de Seguridad Nacional 2017 (Unidad de acción, Anticipación, Eficiencia y Resiliencia) a cinco objetivos específicos. Su desarrollo, se plasma en el cuarto capítulo titulado «Líneas de acción y medidas», donde se establecen siete líneas de acción y se identifican las medidas para el desarrollo de cada una de ellas."
+    },
+    {
+      "ref": "Introducción",
+      "texto": "En 2013 se aprobó la primera Estrategia Nacional de Ciberseguridad en España. El documento fijaba las directrices y líneas generales de actuación para hacer frente al desafío que supone, para el país, la vulnerabilidad del ciberespacio. Uno de sus pilares, creado en el año 2014, es el Consejo Nacional de Ciberseguridad, órgano de apoyo del Consejo de Seguridad Nacional. Por otro lado, la entrada en vigor del Real Decreto-ley 12/2018, de 7 de septiembre, de seguridad de las redes y sistemas de información, que transpone al ordenamiento jurídico español la Directiva (UE) 2016/1148 (conocida como Directiva NIS), ha supuesto un importante hito en la mejora de la ciberseguridad en nuestro país. La Ley 36/2015, de 28 de septiembre, de Seguridad Nacional se promulgó con vocación de dar impulso a uno de los proyectos de mayor responsabilidad para un gobierno, la Seguridad Nacional."
+    },
+    {
+      "ref": "Cap. 1 — El ciberespacio: oportunidades y desafíos",
+      "texto": "El ciberespacio es un espacio común global caracterizado por su apertura funcional y su dinamismo. La ausencia de soberanía, su débil jurisdicción, la facilidad de acceso y la dificultad de atribución de las acciones que en él se desarrollan definen un escenario que ofrece innumerables oportunidades de futuro, aunque también presenta serios desafíos a la seguridad."
+    },
+    {
+      "ref": "Cap. 1 — Una nueva concepción del ciberespacio",
+      "texto": "El buen entendimiento de este planteamiento, exige trabajar con un enfoque multidisciplinar que abarque aspectos más allá de los puramente técnicos, bajo el principio de dirección centralizada y ejecución coordinada, con la afectación de la ciberseguridad a la Seguridad Nacional como competencia del Estado."
+    },
+    {
+      "ref": "Cap. 2 — Ciberamenazas",
+      "texto": "Las ciberamenazas son todas aquellas disrupciones o manipulaciones maliciosas que afectan a elementos tecnológicos. Abarcan un amplio abanico de acciones. Las ciberamenazas se caracterizan por su diversidad tanto en lo que concierne a capacidades como a motivaciones. Afectan a la práctica totalidad de los ámbitos de la Seguridad Nacional, como la Defensa Nacional, la seguridad económica o la protección de las infraestructuras críticas, entre otros, y no distinguen fronteras."
+    },
+    {
+      "ref": "Cap. 2 — Acciones que usan el ciberespacio para fines maliciosos",
+      "texto": "Las acciones que usan el ciberespacio como medio para realizar actividades maliciosas o ilícitas incluyen las relacionadas con el ciberespionaje y la cibercriminalidad. El ciberespionaje es un método relativamente económico, rápido y con menos riesgos que el espionaje tradicional, dada la dificultad de atribución de la autoría. Las mayores capacidades corresponden principalmente a actores estatales (organismos de inteligencia o militares), que fundamentalmente operan a través de las denominadas Amenazas Persistentes Avanzadas (APT). Un tipo de amenaza en la que el adversario posee sofisticados niveles de conocimiento y de recursos e infraestructuras para, mediante múltiples tipos de ataques, interactuar sobre sus objetivos por un extenso periodo de tiempo, adaptarse a los esfuerzos del defensor para resistir, así como mantener el nivel de interacción para ejecutar sus objetivos. Asimismo, se constata una tendencia creciente de las denominadas amenazas híbridas, acciones coordinadas y sincronizadas dirigidas a atacar de manera deliberada las vulnerabilidades sistémicas de los estados democráticos y las instituciones, a través de una amplia gama de medios, tales como acciones militares tradicionales, ciberataques, operaciones de manipulación de la información, o elementos de presión económica. El término Cibercriminalidad, hace referencia al conjunto de actividades ilícitas cometidas en el ciberespacio que tienen por objeto los elementos, sistemas informáticos o cualesquiera otros bienes jurídicos, siempre que en su planificación, desarrollo y ejecución resulte determinante la utilización de herramientas tecnológicas; en función de la naturaleza del hecho punible en sí, de la autoría, de su motivación, o de los daños infligidos, se podrá hablar así de ciberterrorismo, de ciberdelito, o en su caso, de hacktivismo. Los grupos hacktivistas realizan ciberataques por razones ideológicas y, aprovechándose en ocasiones de productos, servicios y herramientas disponibles en el ciberespacio, buscan desarrollar ataques con un gran impacto mediático o social."
+    },
+    {
+      "ref": "Cap. 3 — Propósito",
+      "texto": "Por tanto, el propósito de la Estrategia Nacional de Ciberseguridad 2019, es fijar las directrices generales del ámbito de la ciberseguridad de manera que se alcancen los objetivos previstos en la Estrategia de Seguridad Nacional de 2017."
+    },
+    {
+      "ref": "Cap. 3 — Principios rectores",
+      "texto": "La Estrategia Nacional de Ciberseguridad, se sustenta y se inspira en los principios rectores de la Seguridad Nacional: unidad de acción, anticipación, eficiencia y resiliencia. Unidad de Acción: Toda respuesta ante un incidente en el ámbito de la ciberseguridad que pueda implicar a distintos agentes del Estado se verá reforzada si es coherente, coordinada y se resuelve de manera rápida y eficaz, cualidades alcanzables a través de la adecuada preparación y articulación de la unidad de acción del Estado. Anticipación: La especificidad del ciberespacio y de los actores implicados demanda que existan mecanismos de anticipación en organismos especializados que orienten la Acción del Estado en situaciones de crisis. La anticipación prima las actuaciones preventivas sobre las reactivas. Eficiencia: La ciberseguridad precisa del empleo de sistemas multipropósito de gran valor y elevado nivel tecnológico, que llevan asociadas unas necesidades muy exigentes y un alto coste. Resiliencia: La resiliencia es una característica fundamental que deben poseer los sistemas e infraestructuras críticas. El Estado está obligado a asegurar la disponibilidad de los elementos que se consideren esenciales para la nación, mejorando su protección contra las ciberamenazas."
+    },
+    {
+      "ref": "Cap. 3 — Objetivo general",
+      "texto": "En línea con la Estrategia de Seguridad Nacional de 2017 y ampliando el objetivo para la ciberseguridad previsto en la misma, España garantizará el uso seguro y fiable del ciberespacio, protegiendo los derechos y las libertades de los ciudadanos y promoviendo el progreso socio económico."
+    },
+    {
+      "ref": "Cap. 3 — Objetivo I",
+      "texto": "Objetivo I. Seguridad y resiliencia de las redes y los sistemas de información y comunicaciones del sector público y de los servicios esenciales. Es necesario consolidar un marco nacional coherente e integrado que ayude a garantizar la protección de la información manejada por el sector público y por los servicios esenciales, sus sistemas y servicios, así como de las redes que los soportan."
+    },
+    {
+      "ref": "Cap. 3 — Objetivo II",
+      "texto": "Objetivo II. Uso seguro y fiable del ciberespacio frente a su uso ilícito o malicioso. Son tres los ámbitos en los que se desenvuelve la lucha contra la cibercriminalidad: (i) el ciberespacio como objetivo directo de los hechos delictivos, o de la amenaza; (ii) el ciberespacio como medio clave para su comisión; y (iii) el ciberespacio como medio u objeto directo de investigación de cualquier tipo de hecho ilícito."
+    },
+    {
+      "ref": "Cap. 3 — Objetivo III",
+      "texto": "Objetivo III. Protección del ecosistema empresarial y social y de los ciudadanos. Todas las personas y organizaciones tienen derecho a hacer un uso seguro del ciberespacio. Es por ello responsabilidad del Estado promover e impulsar las medidas para alcanzar y mantener un nivel suficiente de ciberseguridad, que proteja especialmente a los más vulnerables y que permita el adecuado desarrollo socioeconómico de España."
+    },
+    {
+      "ref": "Cap. 3 — Objetivo IV",
+      "texto": "Objetivo IV. Cultura y compromiso con la ciberseguridad y potenciación de las capacidades humanas y tecnológicas. Para afrontar los desafíos que plantea la ciberseguridad, España debe contar con recursos técnicos y humanos que le proporcionen la autonomía tecnológica necesaria y la capacitación adecuada para el uso seguro del ciberespacio, situando a la ciberseguridad como habilitador clave para una nación emprendedora."
+    },
+    {
+      "ref": "Cap. 3 — Objetivo V",
+      "texto": "Objetivo V. Seguridad del ciberespacio en el ámbito internacional. España promoverá un ciberespacio abierto, plural, seguro y confiable tanto en sus relaciones bilaterales como en las organizaciones multilaterales, regionales e internacionales, y en los foros y conferencias, donde la ciberseguridad ocupa un lugar destacado."
+    },
+    {
+      "ref": "Cap. 4 — Líneas de acción 1 y 2",
+      "texto": "En este capítulo se establecen las líneas de acción dirigidas a la consecución de los objetivos establecidos. Línea de Acción 1. Reforzar las capacidades ante las amenazas provenientes del ciberespacio: Esta línea de acción responde al Objetivo I de la Estrategia. Línea de Acción 2. Garantizar la seguridad y resiliencia de los activos estratégicos para España: Esta línea de acción responde al Objetivo I de la Estrategia."
+    },
+    {
+      "ref": "Cap. 4 — Líneas de acción 3 y 4",
+      "texto": "Línea de Acción 3. Reforzar las capacidades de investigación y persecución de la cibercriminalidad, para garantizar la seguridad ciudadana y la protección de los derechos y libertades en el ciberespacio: Esta línea de acción responde al Objetivo II de la Estrategia. Línea de Acción 4. Impulsar la ciberseguridad de ciudadanos y empresas: Esta línea de acción responde al Objetivo III de la Estrategia."
+    },
+    {
+      "ref": "Cap. 4 — Líneas de acción 5, 6 y 7",
+      "texto": "Línea de Acción 5. Potenciar la industria española de ciberseguridad, y la generación y retención de talento, para el fortalecimiento de la autonomía digital: Esta línea de acción responde al Objetivo IV de la Estrategia. Línea de Acción 6. Contribuir a la seguridad del ciberespacio en el ámbito internacional, promoviendo un ciberespacio abierto, plural, seguro y confiable, en apoyo de los intereses nacionales: Esta línea de acción responde al Objetivo V de la Estrategia. Línea de Acción 7. Desarrollar una cultura de ciberseguridad: Las medidas incluidas en esta Línea de Acción contribuirán al Plan de Cultura de Seguridad Nacional y responde al objetivo IV de la Estrategia."
+    },
+    {
+      "ref": "Cap. 5 — Componentes de la estructura",
+      "texto": "La estructura de la ciberseguridad en el marco del Sistema de Seguridad Nacional está constituida por los siguientes componentes: 1. El Consejo de Seguridad Nacional. 2. El Comité de Situación, único para el conjunto del Sistema de Seguridad Nacional ante situaciones de crisis. 3. El Consejo Nacional de Ciberseguridad. 4. La Comisión Permanente de Ciberseguridad. 5. El Foro Nacional de Ciberseguridad. 6. Las Autoridades públicas competentes y los CSIRT de referencia nacionales."
+    },
+    {
+      "ref": "Cap. 5 — El Consejo de Seguridad Nacional",
+      "texto": "El Consejo de Seguridad Nacional, en su condición de Comisión Delegada del Gobierno para la Seguridad Nacional, es el órgano al que corresponde asistir al Presidente del Gobierno en la dirección de la Política de Seguridad Nacional. El Consejo de Seguridad Nacional actúa, a través del Departamento de Seguridad Nacional como punto de contacto único para ejercer una función de enlace y garantizar la cooperación transfronteriza con otros países de la Unión Europea."
+    },
+    {
+      "ref": "Cap. 5 — El Comité de Situación",
+      "texto": "El Comité de Situación tiene carácter único para el conjunto del Sistema de Seguridad Nacional y actuará, apoyado por el Departamento de Seguridad Nacional, de acuerdo con las directrices político-estratégicas dictadas por el Consejo de Seguridad Nacional en materia de gestión de crisis."
+    },
+    {
+      "ref": "Cap. 5 — El Consejo Nacional de Ciberseguridad",
+      "texto": "El Consejo Nacional de Ciberseguridad da apoyo al Consejo de Seguridad Nacional para el cumplimiento de sus funciones y, en particular, en la asistencia al Presidente del Gobierno en la dirección y coordinación de la Política de Seguridad Nacional en el ámbito de la ciberseguridad. Entre sus funciones se encuentran reforzar las relaciones de coordinación, colaboración y cooperación entre las distintas Administraciones Públicas con competencias en materia de ciberseguridad, así como entre los sectores público y privado."
+    },
+    {
+      "ref": "Cap. 5 — La Comisión Permanente de Ciberseguridad",
+      "texto": "La Comisión Permanente de Ciberseguridad se establece con objeto de facilitar la coordinación interministerial a nivel operacional en el ámbito de la ciberseguridad. Presidida por el Departamento de Seguridad Nacional, se compone de aquellos órganos y organismos representados en el Consejo Nacional de Ciberseguridad con responsabilidades operativas. Es el órgano al que corresponde asistir al Consejo Nacional de Ciberseguridad sobre aspectos relativos a la valoración técnica y operativa de los riesgos y amenazas a la ciberseguridad."
+    },
+    {
+      "ref": "Cap. 5 — Foro Nacional de Ciberseguridad",
+      "texto": "Foro Nacional de Ciberseguridad: Actuará en la potenciación y creación de sinergias público privadas, particularmente en la generación de conocimiento sobre las oportunidades y los desafíos y amenazas a la seguridad en el ciberespacio. La puesta en marcha del foro Nacional de Ciberseguridad, y la armonización de su funcionamiento con los órganos existentes, se realizará mediante la aprobación de las disposiciones normativas necesarias."
+    }
+  ]
 }

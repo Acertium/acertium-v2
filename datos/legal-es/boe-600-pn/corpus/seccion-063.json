@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "seccion": 63,
+    "titulo": "Ortografía de la lengua española (RAE-ASALE)",
+    "materia": "ortografia-rae",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "RAE-ASALE, Ortografía básica de la lengua española (en línea): 2.4.1 reglas generales — https://www.rae.es/ortografía-básica/uso-de-la-tilde/las-reglas-de-acentuación-gráfica/reglas-generales [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía básica: 2.4.2 secuencias vocálicas (diptongos, triptongos, hiatos) — https://www.rae.es/ortografía-básica/uso-de-la-tilde/las-reglas-de-acentuación-gráfica/la-acentuación-gráfica-de-las-palabras-con-secuencias-vocálicas [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía de la lengua española: 3.4.3 La tilde diacrítica — https://www.rae.es/ortografía/la-tilde-diacrítica [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía: 3.4.3.1 Tilde diacrítica en palabras monosílabas — https://www.rae.es/ortografía/tilde-diacrítica-en-palabras-monosílabas [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía: 6.2.2.2 Representación gráfica del fonema /g/ — https://www.rae.es/ortografía/representación-gráfica-del-fonema-g [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía: 6.2.2.3 Representación gráfica del fonema /j/ — https://www.rae.es/ortografía/representación-gráfica-del-fonema-j [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía básica: 3.2.2 la coma — https://www.rae.es/ortografía-básica/uso-de-los-signos-ortográficos/signos-de-puntuación/la-coma [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía básica: 3.2.3 el punto y coma — https://www.rae.es/ortografía-básica/uso-de-los-signos-ortográficos/signos-de-puntuación/el-punto-y-coma [Consulta: 2026-08-04]",
+      "RAE-ASALE, Ortografía básica: 4.6.1 casos en que debe utilizarse la mayúscula inicial — https://www.rae.es/ortografía-básica/uso-de-las-mayúsculas/la-mayúscula-en-los-nombres-propios-y-las-expresiones-denominativas/casos-en-que-debe-utilizarse-la-mayúscula-inicial [Consulta: 2026-08-04]"
+    ],
+    "tipo_fuente": "autoridad",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "ortografia-rae.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "OB 2.4.1 — palabras agudas",
+      "texto": "Las palabras agudas llevan tilde cuando terminan en n o en s (no precedidas de otra consonante), o en las vocales a, e, i, o, u: razón, compás, acá, comité, magrebí, revisó, iglú. Las palabras agudas no llevan tilde cuando terminan en consonante distinta de n o s: actriz, amistad, escribir, relax, reloj, trigal."
+    },
+    {
+      "ref": "OB 2.4.1 — palabras llanas",
+      "texto": "Las palabras llanas se escriben con tilde cuando terminan en consonante distinta de n o s: dólar, lápiz, referéndum, Tíbet, tórax, túnel. Las palabras llanas no llevan tilde cuando terminan en n o s (no precedidas de otra consonante), o en las vocales a, e, i, o, u: margen, crisis, lata, parque, bici, libro, tribu."
+    },
+    {
+      "ref": "OB 2.4.1 — esdrújulas y sobresdrújulas",
+      "texto": "Las palabras esdrújulas y sobresdrújulas se escriben siempre con tilde: análisis, cóselo, hábitat, rápido, recítenoslo, llévesemelas."
+    },
+    {
+      "ref": "OB 2.4.1 — clasificación por sílaba tónica",
+      "texto": "Según el lugar que ocupa en ellas la sílaba tónica, las palabras de más de una sílaba pueden ser en español agudas, llanas (o graves), esdrújulas o sobresdrújulas. En las agudas, la sílaba tónica es la última (colibrí, mirar, talón); en las llanas o graves, la sílaba tónica es la penúltima (ángel, celeste, martes); en las esdrújulas, la sílaba tónica es la antepenúltima (página, típico, único); en las sobresdrújulas, la sílaba tónica es anterior a la antepenúltima sílaba (cómaselo, dígannoslo, imagínesemelas)."
+    },
+    {
+      "ref": "OB 2.4.1 — monosílabos",
+      "texto": "Las palabras de una sola sílaba se escriben sin tilde: fe, ve, ya, mes, sol, bien, dio, fue, vio, guion. Son excepción a esta regla las palabras monosílabas que se escriben con tilde diacrítica."
+    },
+    {
+      "ref": "OB 2.4.2 — diptongo",
+      "texto": "Los diptongos son secuencias de dos vocales que forman parte de una misma sílaba. Se consideran siempre diptongos a efectos ortográficos las combinaciones de una vocal abierta seguida o precedida de una vocal cerrada átona, y las de dos vocales cerradas distintas: aula, estoy, deuda, viernes, ciudad, diurno, viuda, cuidar, ruido."
+    },
+    {
+      "ref": "OB 2.4.2 — hiato",
+      "texto": "Cuando dos vocales seguidas dentro de una palabra pertenecen a sílabas distintas, constituyen un hiato. Las palabras que contienen un hiato formado por una vocal cerrada tónica seguida o precedida de una vocal abierta llevan siempre tilde en la vocal cerrada, con independencia de las reglas generales de acentuación: María, desvíe, crío, púa, caída, reído, oído, baúl, raíz."
+    },
+    {
+      "ref": "OB 2.4.2 — colocación de la tilde en los diptongos",
+      "texto": "En los diptongos formados por una vocal abierta seguida o precedida de una vocal cerrada, la tilde se escribe sobre la vocal abierta: mediático, diéresis, acción, acuático, después, camináis. En los diptongos formados por dos vocales cerradas distintas, la tilde se coloca sobre la segunda vocal: acuífero, cuídate, veintiún."
+    },
+    {
+      "ref": "OLE 3.4.3 — tilde diacrítica (definición)",
+      "texto": "Al margen del uso de la tilde con función prosódica, este signo también se ha utilizado tradicionalmente en español con función diacrítica, a fin de diferenciar en la escritura ciertas palabras de igual forma, pero distinto significado, que se oponen entre sí por ser una de ellas tónica y la otra átona. Esta tilde recibe el nombre de tilde diacrítica."
+    },
+    {
+      "ref": "OLE 3.4.3.1 — tilde diacrítica en monosílabos",
+      "texto": "La regla de acentuación gráfica de las palabras monosílabas prescribe que estas se escriban sin tilde. Constituyen una excepción a esta regla general un grupo de palabras monosílabas tónicas de uso frecuente: los pronombres personales tú, él, mí, sí, las formas verbales dé y sé, el sustantivo té y la palabra más."
+    },
+    {
+      "ref": "OLE 3.4.3.1 — el pronombre ti",
+      "texto": "Es incorrecto escribir el pronombre personal ti con tilde por analogía con los pronombres mí y sí. Aunque se trata de un monosílabo tónico, no existe ningún monosílabo átono de igual forma del que deba distinguirse, por lo que no tiene sentido en su caso el empleo de la tilde diacrítica."
+    },
+    {
+      "ref": "OLE 3.4.3 — interrogativos y exclamativos",
+      "texto": "Las palabras que configuran la nómina de las que llevan tilde diacrítica en español son únicamente los monosílabos tónicos y las palabras qué, cuál/es, quién/es, cómo, cuán, cuánto/a/os/as, cuándo, dónde y adónde."
+    },
+    {
+      "ref": "OLE 6.2.2.2 — letra g para el fonema /g/",
+      "texto": "Se emplea la letra g ante las vocales /a/, /o/, /u/: gallo, colgar, gobierno, epílogo, gustoso, tugurio; ante consonante: amígdala, dogma, benigno, regla, grande; y a final de palabra, lo que solo ocurre en voces tomadas de otras lenguas: gag, gong, tuareg, zigzag, cíborg."
+    },
+    {
+      "ref": "OLE 6.2.2.2 — dígrafo gu",
+      "texto": "Se emplea el dígrafo gu ante las vocales /e/, /i/: burgués, guerra, alguien, guisar. La u del dígrafo es un mero signo gráfico, sin valor fónico independiente."
+    },
+    {
+      "ref": "OLE 6.2.2.2 — la diéresis",
+      "texto": "Si la secuencia fónica /gu/ va seguida de /e/ o /i/, la letra u que representa el fonema /u/ debe escribirse con diéresis: pedigüeño, pingüino, desagüe, agüita."
+    },
+    {
+      "ref": "OLE 6.2.2.3 — letra j para el fonema /j/",
+      "texto": "La letra j puede representar el fonema /j/ en cualquier posición (inicial, medial o final) y ante cualquiera de las vocales: jabalí, jeta, jirafa, jocoso, júbilo, trabajar, objeto, tejido, dijo, perjuicio, boj, carcaj, reloj."
+    },
+    {
+      "ref": "OLE 6.2.2.3 — letra g para el fonema /j/",
+      "texto": "La letra g puede representar el fonema /j/ únicamente delante de las vocales /e/, /i/: gente, esfinge, girar, alergia."
+    },
+    {
+      "ref": "OLE 6.2.2.3 — palabras terminadas en -aje y -eje",
+      "texto": "El fonema /j/ ante e, i se representa con la letra j en las palabras que terminan en -aje y -eje: abordaje, brebaje, coraje, dopaje, encaje, follaje, garaje, hospedaje, lenguaje, mensaje, paisaje, salvaje, deje, despeje, esqueje, hereje. Excepciones: enálage, hipálage y el plural ambages."
+    },
+    {
+      "ref": "OLE 6.2.2.3 — verbos terminados en -ger, -gir",
+      "texto": "El fonema /j/ ante e, i se representa con la letra g en los verbos terminados en -ger, -gir: coger, emerger, proteger, afligir, corregir, dirigir, fingir, regir, surgir. Excepciones: tejer (y sus derivados) y crujir."
+    },
+    {
+      "ref": "OLE 6.2.2.3 — la sílaba gen",
+      "texto": "El fonema /j/ ante e, i se representa con la letra g en las palabras que contienen la sílaba gen en cualquier posición, incluidas todas las que terminan en -gencia o -gente: aborigen, agencia, argentino, contingente, diligencia, gente, gentil, imagen, sargento, urgencia, virgen, vigente. Excepciones: ajenjo, jengibre y ojén."
+    },
+    {
+      "ref": "OLE 6.2.2.3 — verbos terminados en -jear",
+      "texto": "El fonema /j/ ante e, i se representa con la letra j en los verbos terminados en -jear, incluidas todas sus formas: burbujear, callejear, canjear, chantajear, cojear, flojear, gorjear, ojear, pintarrajear."
+    },
+    {
+      "ref": "OB 3.2.2 — la coma (definición)",
+      "texto": "La coma (,) delimita unidades discursivas inferiores al enunciado, como algunos tipos de oraciones y grupos sintácticos. Fuera del ámbito de la puntuación, se emplea como separador decimal en los números escritos con cifras."
+    },
+    {
+      "ref": "OB 3.2.2.7 — coma entre sujeto y verbo",
+      "texto": "Las secuencias de la oración que desempeñan las funciones de sujeto, atributo, complemento directo, complemento indirecto, complemento predicativo, complemento de régimen y complemento agente no pueden separarse con coma del verbo, al que están fuertemente ligadas, sea cual sea su longitud, su posición en el enunciado o su naturaleza."
+    },
+    {
+      "ref": "OB 3.2.2.4 — coma y vocativos",
+      "texto": "Se separan con coma del resto del enunciado los vocativos, esto es, los sustantivos, grupos nominales o pronombres que se emplean para llamar o dirigirse al interlocutor de forma explícita: Javier, no me gusta que salgas tan tarde."
+    },
+    {
+      "ref": "OB 3.2.2.6 — coma y estructuras coordinadas",
+      "texto": "Cuando el último elemento de una coordinación va introducido por una conjunción copulativa o disyuntiva (y / e, ni, o / u), no se escribe coma delante de ella: Es un chico muy reservado, estudioso y de buena familia."
+    },
+    {
+      "ref": "OB 3.2.2.6 — coma ante coordinadas adversativas",
+      "texto": "Se escribe coma ante las oraciones coordinadas adversativas, es decir, las introducidas por pero, mas, sino (que) y aunque: Hazlo si quieres, pero luego no digas que no te lo advertí."
+    },
+    {
+      "ref": "OB 3.2.3 — el punto y coma",
+      "texto": "El punto y coma (;) delimita unidades discursivas inferiores al enunciado, ya sean grupos sintácticos u oraciones. Este signo establece mayor disociación entre las unidades lingüísticas que la coma y menor que la indicada por el punto. Detrás del signo de punto y coma se escribe siempre minúscula."
+    },
+    {
+      "ref": "OB 4.6.1 — nombres propios de persona",
+      "texto": "Se escriben con mayúscula inicial los nombres propios de persona, tanto nombres de pila como apellidos: Ana de la Torre, María del Pilar Ruiz, Aureliano Buendía. También los hipocorísticos: Tina, Lucho, Pili, Luismi."
+    },
+    {
+      "ref": "OB 4.6.1 — apellidos con conjunción y preposición",
+      "texto": "En los apellidos unidos por la conjunción y, esta se escribe siempre con minúscula: Ortega y Gasset, Ramón y Cajal. Si un apellido comienza por preposición, o por preposición y artículo, estos se escriben con minúscula cuando acompañan al nombre de pila: Luis de Torres, Juana de la Rosa."
+    },
+    {
+      "ref": "OB 4.6.1 — accidentes geográficos",
+      "texto": "Se escriben con mayúscula inicial los nombres propios de los accidentes geográficos, pero no los nombres comunes genéricos que los acompañan: el océano Pacífico, el mar Rojo, el lago Titicaca, el río Amazonas, la cordillera de los Andes."
+    },
+    {
+      "ref": "OB 4.6.1 — títulos de obras de creación",
+      "texto": "Se escribe con mayúscula la primera palabra del título de cualquier obra de creación (libros, películas, cuadros, esculturas, piezas musicales): Libro de buen amor, Cien años de soledad, Las señoritas de Avignon."
+    },
+    {
+      "ref": "OB 4.6.1 — denominación de entidades e instituciones",
+      "texto": "Se escriben con mayúscula todas las palabras significativas que componen la denominación completa de entidades, instituciones, organismos, departamentos, partidos políticos, equipos deportivos u organizaciones: Ministerio de Asuntos Exteriores, Biblioteca Nacional, Universidad Central de Venezuela."
+    }
+  ]
+}

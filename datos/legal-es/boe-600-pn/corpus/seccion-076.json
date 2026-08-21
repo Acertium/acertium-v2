@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "seccion": 76,
+    "titulo": "Doctrina de inteligencia del CNI (ciclo de Inteligencia y disciplinas de obtención) y glosario de ciberseguridad de INCIBE (OSINT, deep web y dark web)",
+    "materia": "inteligencia-osint-fuentes-abiertas",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "CNI — La Inteligencia (ciclo de Inteligencia: dirección, obtención, elaboración y difusión; disciplinas HUMINT/OSINT/SIGINT/GEOINT) — https://www.cni.es/la-inteligencia (consultado 04/08/2026)",
+      "CNI — Preguntas frecuentes (qué es un Servicio de Inteligencia; obtención de fuentes humanas, técnicas, geográficas y abiertas) — https://www.cni.es/trabaja-con-nosotros/preguntas-frecuentes (consultado 04/08/2026)",
+      "INCIBE-CERT — «OSINT - La información es poder» (definición de OSINT, ejemplos de fuentes abiertas y fases del proceso OSINT) — https://www.incibe.es/incibe-cert/blog/osint-la-informacion-es-poder (consultado 04/08/2026)",
+      "INCIBE (OSI) — «Navegadores y Deep Web. Profundicemos en el tema» (deep web, dark web y acceso mediante TOR) — https://www.incibe.es/ciudadania/blog/navegadores-y-deep-web-profundicemos-en-el-tema (consultado 04/08/2026)"
+    ],
+    "tipo_fuente": "autoridad",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "inteligencia-osint-2.json",
+      "inteligencia-osint.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "CNI — Dirección",
+      "texto": "El ciclo de Inteligencia se inicia con la aprobación anual de la Directiva de Inteligencia por parte de la Comisión Delegada del Gobierno para Asuntos de Inteligencia y del presidente del Gobierno. La directiva es un documento con carácter secreto que recoge los objetivos o necesidades de Inteligencia del Gobierno. Una vez aprobada la Directiva de Inteligencia, el CNI realiza un proceso de planificación y organización de los recursos disponibles para obtener la información necesaria y elaborar la Inteligencia que satisfaga esas necesidades planteadas por el Gobierno."
+    },
+    {
+      "ref": "CNI — Obtención (disciplinas)",
+      "texto": "El CNI obtiene información de fuentes humanas (HUMINT), fuentes técnicas (SIGINT), imágenes e información geográfica (GEOINT) y fuentes abiertas (OSINT). HUMINT: Información procedente de fuentes humanas. OSINT: Información procedente de fuentes abiertas. SIGINT: Información procedente de fuentes técnicas. GEOINT: Información procedente de la explotación y análisis de imágenes e información geográfica."
+    },
+    {
+      "ref": "CNI — Elaboración",
+      "texto": "Valoración: Se analiza la calidad y origen de la información. Examen: Se estudia toda la información disponible. Integración: Se integra toda la información procedente de distintas fuentes. Interpretación: Se interpreta la información según distintos contextos. Redacción: Se redacta el producto final: la Inteligencia."
+    },
+    {
+      "ref": "INCIBE — Fases del proceso OSINT",
+      "texto": "El proceso OSINT consta de las siguientes fases: Requisitos: es la fase en la que se establecen todos los requerimientos que se deben cumplir, es decir, aquellas condiciones que deben satisfacerse para conseguir el objetivo o resolver el problema que ha originado el desarrollo del sistema OSINT. Identificar fuentes de información relevante: consiste en especificar, a partir de los requisitos establecidos, las fuentes de interés que serán recopiladas. Adquisición: etapa en la que se obtiene la información a partir de los orígenes indicados. Procesamiento: consiste en dar formato a toda la información recopilada de manera que posteriormente pueda ser analizada. Análisis: es la fase en la que se genera inteligencia a partir de los datos recopilados y procesados. Presentación de inteligencia: consiste en presentar la información obtenida de una manera eficaz, potencialmente útil y comprensible, de manera que pueda ser correctamente explotada."
+    },
+    {
+      "ref": "INCIBE — Deep web",
+      "texto": "La Deep web hace referencia a todo el contenido de Internet que no está indexado por los buscadores tradicionales y que, por tanto, está oculto. Muchos contenidos no están indexados en buscadores convencionales, como Bing o Google, porque es necesario identificarse de alguna forma para acceder a ellos o porque se necesiten programas o protocolos de comunicación adecuados para visualizar las webs. Búsquedas en la Deep web arrojarán resultados que incluyan publicaciones científicas, documentos gubernamentales, foros privados y otras de bases de datos privadas."
+    },
+    {
+      "ref": "INCIBE — Dark web",
+      "texto": "Existe una parte más «oscura» dentro de la propia Deep web, conocida como Dark web, donde muchos de los contenidos están relacionados con acciones ilícitas. La Dark web hace referencia a una parte específica de la Deep web, en la que su contenido sí puede considerarse peligroso y difícil de acceder. Ambos términos son diferentes y en ningún caso deberían utilizarse como sinónimos."
+    },
+    {
+      "ref": "INCIBE — Fuentes abiertas (ejemplos)",
+      "texto": "Existen multitud de fuentes abiertas a partir de las cuales se puede obtener información relevante, entre las que destacan: Medios de comunicación: revistas, periódicos, radio, etc. Información pública de fuentes gubernamentales. Foros, redes sociales, blogs, wikis, etc. Conferencias, simposios, «papers», bibliotecas online, etc."
+    },
+    {
+      "ref": "CNI FAQ — Servicio de Inteligencia",
+      "texto": "Un Servicio de Inteligencia es un organismo del Estado que obtiene información por medios y procedimientos propios con el fin de elaborar Inteligencia para facilitar a las autoridades el proceso de toma de decisiones."
+    },
+    {
+      "ref": "CNI — Ciclo de Inteligencia",
+      "texto": "El resultado final del trabajo del CNI es la Inteligencia que entrega a las autoridades para facilitar la toma de decisiones y que se elabora siguiendo un proceso con fases bien definidas, denominado ciclo de Inteligencia."
+    },
+    {
+      "ref": "CNI — Difusión",
+      "texto": "Es el final del ciclo, resultado de todo el proceso. En esta fase, la Inteligencia se distribuye a sus destinatarios: las autoridades responsables de adoptar decisiones."
+    },
+    {
+      "ref": "INCIBE — OSINT (definición)",
+      "texto": "Inteligencia de fuentes abiertas u «Open Source Intelligence» (OSINT) hace referencia al conocimiento recopilado a partir de fuentes de acceso público. El proceso incluye la búsqueda, selección y adquisición de la información, así como un posterior procesado y análisis de la misma con el fin de obtener conocimiento útil y aplicable en distintos ámbitos."
+    },
+    {
+      "ref": "INCIBE — Acceso a la Dark web (TOR)",
+      "texto": "Para acceder son necesarios recursos especiales, como por ejemplo TOR, cuyas siglas significan «The Onion Router» y que dispone de un navegador específico para acceder a dicha red. TOR es sólo un ejemplo pero se puede acceder a la Deep web de otras muchas formas: Freenet, I2P, etc."
+    }
+  ]
+}

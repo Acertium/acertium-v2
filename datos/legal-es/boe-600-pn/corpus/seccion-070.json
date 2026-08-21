@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "seccion": 70,
+    "titulo": "Concepto y características de la globalización (Diccionario de la lengua española RAE-ASALE, 23.ª ed.; FMI, «La globalización: ¿amenaza u oportunidad?», 2000), sus consecuencias y reacciones; Movimiento Antiglobalización / altermundismo (fuente de consenso: Wikipedia en español) y Foro Social Mundial (Carta de Principios del FSM, 2001)",
+    "materia": "globalizacion-antiglobalizacion-foro-social-mundial",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "RAE-ASALE — Diccionario de la lengua española (23.ª ed.), voz «globalización» (acepciones 2, 3 y 4 Econ.) — https://dle.rae.es/globalización — consultado 16/08/2026",
+      "RAE-ASALE — Diccionario de la lengua española (23.ª ed.), voz «mundialización» — https://dle.rae.es/mundialización — consultado 16/08/2026",
+      "FMI (Fondo Monetario Internacional) — «La globalización: ¿Amenaza u oportunidad?» (personal técnico del FMI, abril de 2000), secciones II, III y IV — https://www.imf.org/external/np/exr/ib/2000/esl/041200s.htm — consultado 16/08/2026",
+      "Wikipedia en español — «Movimiento antiglobalización» (definición, controversia del término, batalla de Seattle de 1999, objetivos, ATTAC e Ignacio Ramonet) [fuente de CONSENSO, pendiente de revisión humana] — https://es.wikipedia.org/wiki/Movimiento_antiglobalización — consultado 16/08/2026",
+      "Foro Social Mundial — Carta de Principios del FSM (aprobada en São Paulo el 9 de abril de 2001), preámbulo y puntos 1, 2, 4, 6, 8 y 9 — https://wsf2021.net/fsm2021/340-2/ (traducción oficial en openfsm.net) — consultado 16/08/2026"
+    ],
+    "tipo_fuente": "consenso",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "globalizacion.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "RAE-DLE — globalización (acep. 4, Econ.)",
+      "texto": "4. Econ. Proceso por el que las economías y mercados, con el desarrollo de las tecnologías de la comunicación, adquieren una dimensión mundial, de modo que dependen cada vez más de los mercados externos y menos de la acción reguladora de los Gobiernos."
+    },
+    {
+      "ref": "RAE-DLE — globalización (acep. 3)",
+      "texto": "3. f. Difusión mundial de modos, valores o tendencias que fomenta la uniformidad de gustos y costumbres."
+    },
+    {
+      "ref": "RAE-DLE — globalización (acep. 2)",
+      "texto": "2. f. Extensión del ámbito propio de instituciones sociales, políticas y jurídicas a un plano internacional."
+    },
+    {
+      "ref": "RAE-DLE — mundialización",
+      "texto": "1. f. Acción y efecto de mundializar o mundializarse."
+    },
+    {
+      "ref": "FMI — ¿Qué es la globalización?",
+      "texto": "La «globalización» económica es un proceso histórico, el resultado de la innovación humana y el progreso tecnológico. Se refiere a la creciente integración de las economías de todo el mundo, especialmente a través del comercio y los flujos financieros. En algunos casos este término hace alusión al desplazamiento de personas (mano de obra) y la transferencia de conocimientos (tecnología) a través de las fronteras internacionales. La globalización abarca además aspectos culturales, políticos y ambientales más amplios que no se analizan en esta nota."
+    },
+    {
+      "ref": "FMI — La globalización desde los años ochenta",
+      "texto": "El uso de este término se utiliza comúnmente desde los años ochenta, es decir, desde que los adelantos tecnológicos han facilitado y acelerado las transacciones internacionales comerciales y financieras."
+    },
+    {
+      "ref": "FMI — Integración a la economía mundial y pobreza",
+      "texto": "Algunos países se están integrando a la economía mundial con mayor rapidez que otros. En los países que han logrado integrarse, el crecimiento económico es más rápido y la pobreza disminuye."
+    },
+    {
+      "ref": "FMI — Crecimiento del ingreso y desigualdad",
+      "texto": "El siglo XX estuvo marcado por un notable crecimiento del nivel medio de ingresos, pero los datos muestran a las claras que este crecimiento no estuvo repartido de manera igualitaria. La brecha entre los países ricos y los países pobres, y entre los sectores ricos y pobres dentro de cada país, se amplió."
+    },
+    {
+      "ref": "FMI — Cuatro aspectos de la globalización",
+      "texto": "Considérense cuatro aspectos de la globalización: Comercio exterior. Movimientos de capital. Migraciones. Difusión de los conocimientos (y la tecnología)."
+    },
+    {
+      "ref": "Wikipedia (es) — Movimiento antiglobalización: definición",
+      "texto": "El movimiento altersistema, y en ocasiones llamado como altermundismo o movimiento antiglobalización, es un amplio conjunto de movimientos sociales formado por activistas provenientes de distintas corrientes políticas, que a finales del siglo XX convergieron en la crítica social al proceso de globalización."
+    },
+    {
+      "ref": "Wikipedia (es) — Origen del nombre «altermundismo»",
+      "texto": "El nombre altermundismo proviene precisamente del lema Otro mundo es posible."
+    },
+    {
+      "ref": "Wikipedia (es) — Controversia sobre el término",
+      "texto": "Muchos de sus partidarios prefieren el término «altermundismo» o «alterglobalización», para evitar definirse por oposición, y porque el término «antiglobalización» daría una imagen imprecisa y negativa."
+    },
+    {
+      "ref": "Wikipedia (es) — La «batalla de Seattle» (1999)",
+      "texto": "Este movimiento de movimientos, de carácter internacional, tuvo su «bautismo de fuego» en la llamada batalla de Seattle (1999), y su espacio privilegiado de encuentro más amplio en la experiencia del Foro Social Mundial."
+    },
+    {
+      "ref": "Wikipedia (es) — Objetivos: instituciones financieras internacionales",
+      "texto": "Reforma o supresión de las instituciones financieras internacionales (Fondo Monetario Internacional, Organización Mundial del Comercio, Banco Mundial)."
+    },
+    {
+      "ref": "Wikipedia (es) — ATTAC e Ignacio Ramonet",
+      "texto": "Ignacio Ramonet, director de Le Monde Diplomatique, fundador de ATTAC (Asociación por una Tasa a las Transacciones Financieras Especulativas para Ayuda a los Ciudadanos) y promotor del Foro Social Mundial."
+    },
+    {
+      "ref": "FSM — Carta de Principios (preámbulo)",
+      "texto": "El Comité de entidades brasileñas que organizó el primer Foro Social Mundial, realizado en Porto Alegre del 25 al 30 de Enero de 2001, considera necesario y legítimo, después de analizar los resultados de dicho Foro y las expectativas por él creadas, establecer una Carta de Principios que oriente la continuidad de esa iniciativa. Aprobada y adoptada en São Paulo, el 9 de abril de 2001, por las entidades que constituyen el Comité de Organización del Foro Social Mundial."
+    },
+    {
+      "ref": "FSM — Carta de Principios, punto 1",
+      "texto": "El Foro Social Mundial es un espacio abierto de encuentro para: intensificar la reflexión, realizar un debate democrático de ideas, elaborar propuestas, establecer un libre intercambio de experiencias y articular acciones eficaces por parte de las entidades y los movimientos de la sociedad civil que se opongan al neoliberalismo y al dominio del mundo por el capital o por cualquier forma de imperialismo."
+    },
+    {
+      "ref": "FSM — Carta de Principios, punto 2",
+      "texto": "Basándose en la proclamación que surgió en Porto Alegre que «otro mundo es posible», el Foro se convierte en un proceso permanente de búsqueda y construcción de alternativas, no limitándose exclusivamente a los eventos que le den apoyo."
+    },
+    {
+      "ref": "FSM — Carta de Principios, punto 6",
+      "texto": "Las reuniones del Foro Social Mundial no tienen un carácter deliberativo. O sea, nadie estará autorizado a manifestar, en nombre del Foro y en cualquiera de sus encuentros, posiciones que fueran atribuidas a todos sus participantes."
+    },
+    {
+      "ref": "FSM — Carta de Principios, punto 8",
+      "texto": "El Foro Social Mundial es un espacio plural y diversificado, no confesional, no gubernamental y no partidario, que articula de manera descentralizada y en red a entidades y movimientos que estén involucrados en acciones concretas por la construcción de un mundo diferente, local o internacional."
+    },
+    {
+      "ref": "FSM — Carta de Principios, punto 4",
+      "texto": "Las alternativas propuestas en el Foro Social Mundial se contraponen a un proceso de globalización, comandado por las grandes corporaciones multinacionales y por los gobiernos e instituciones que sirven a sus intereses, con la complicidad de los gobiernos nacionales. Estas alternativas surgidas en el seno del Foro tienen como meta consolidar una globalización solidaria."
+    },
+    {
+      "ref": "FSM — Carta de Principios, punto 9",
+      "texto": "No deben participar del Foro representaciones partidarias ni organizaciones militares. Podrán ser invitados a participar, en carácter personal, gobernantes y parlamentares que asuman los compromisos de esta Carta."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "seccion": 60,
+    "titulo": "Protocolos n.º 14 (Estrasburgo, 13-5-2004) y n.º 15 (Estrasburgo, 24-6-2013) de enmienda al Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales (Roma, 4-11-1950)",
+    "materia": "convenio-europeo-derechos-humanos",
+    "referencia_boe": "BOE-A-2021-7554",
+    "referencia_fuente": [
+      "Instrumento de ratificación del Protocolo n.º 15 de enmienda al Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales (Estrasburgo, 24-6-2013); firma de España 24-6-2013, ratificación depositada 20-9-2018, entrada en vigor con carácter general y para España el 1-8-2021 — BOE-A-2021-7554 — https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-7554",
+      "Instrumento de Ratificación del Protocolo número 14 al Convenio para la protección de los Derechos Humanos y de las Libertades Fundamentales, por el que se modifica el mecanismo de control del Convenio (Estrasburgo, 13-5-2004); ratificación por España 15-3-2006, entrada en vigor con carácter general y para España el 1-6-2010 — BOE-A-2010-8504 — https://www.boe.es/buscar/doc.php?id=BOE-A-2010-8504",
+      "Instrumento de Ratificación del Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales (Roma, 4-11-1950), enmendado por los Protocolos nº 3 y 5 — BOE-A-1979-24010 — https://www.boe.es/buscar/act.php?id=BOE-A-1979-24010",
+      "Instrumento de ratificación del Protocolo nº 11 al Convenio, relativo a la reestructuración del mecanismo de control (Estrasburgo, 11-5-1994; en vigor para España 1-11-1998); sustituye los antiguos Títulos II-IV por el nuevo Título II, artículos 19 a 51 — BOE-A-1998-15127 — https://www.boe.es/buscar/doc.php?id=BOE-A-1998-15127"
+    ],
+    "tipo_fuente": "oficial",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "ddhh-cedh-2.json",
+      "ddhh-cedh.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "P15 art. 4",
+      "texto": "En el párrafo 1 del artículo 35 del Convenio, donde dice: «en el plazo de seis meses», deberá decir: «en el plazo de cuatro meses»."
+    },
+    {
+      "ref": "P15 art. 1",
+      "texto": "Al final del Preámbulo del Convenio, se añade el nuevo considerando siguiente: «Afirmando que incumbe en primer lugar a las Altas Partes Contratantes, con arreglo al principio de subsidiariedad, garantizar el respeto de los derechos y libertades definidos en el presente Convenio y sus protocolos, y que, al hacerlo, gozan de un margen de apreciación, bajo el control del Tribunal Europeo de Derechos Humanos que instituye el presente Convenio,»"
+    },
+    {
+      "ref": "P15 art. 2",
+      "texto": "En el artículo 21 del Convenio, se añade el nuevo párrafo 2 siguiente: «Los candidatos deberán ser menores de 65 años en la fecha en que la Asamblea Parlamentaria reciba la lista de tres candidatos, en virtud del artículo 22.»"
+    },
+    {
+      "ref": "P15 art. 3",
+      "texto": "En el artículo 30 del Convenio, se suprimen las palabras «salvo que una de las partes se oponga a ello»."
+    },
+    {
+      "ref": "P15 art. 5",
+      "texto": "En la letra b del párrafo 3 del artículo 35 del Convenio, se suprime la frase «y con la condición de que no podrá rechazarse por este motivo ningún asunto que no haya sido debidamente examinado por un tribunal nacional»."
+    },
+    {
+      "ref": "P15 art. 7",
+      "texto": "El presente Protocolo entrará en vigor el primer día del mes siguiente a la expiración de un periodo de tres meses siguientes a la fecha en que todas las Altas Partes Contratantes en el Convenio hayan expresado su consentimiento a quedar vinculadas por el Protocolo, de conformidad con lo dispuesto en el artículo 6."
+    },
+    {
+      "ref": "P14 art. 2 (art. 23)",
+      "texto": "Artículo 23. Duración del mandato y revocación. 1. Los jueces serán elegidos por un periodo de nueve años. No serán reelegibles. 2. El mandato de los jueces finalizará cuando alcancen la edad de 70 años. 3. Los jueces permanecerán en sus funciones hasta su sustitución. No obstante, continuarán conociendo de los asuntos que tengan ya asignados. 4. Un juez sólo podrá ser relevado de sus funciones si los demás jueces deciden, por mayoría de dos tercios, que dicho juez ha dejado de reunir las condiciones requeridas para serlo."
+    },
+    {
+      "ref": "P14 art. 6 (art. 26)",
+      "texto": "Artículo 26. Formación de juez único, Comités, Salas y Gran Sala. 1. Para el examen de los asuntos que se le sometan, el Tribunal actuará en formación de juez único, en Comités compuestos por tres jueces, en Salas de siete jueces y en una Gran Sala de diecisiete jueces. Las Salas del Tribunal constituirán los Comités por un periodo determinado. 3. Cuando actúe en formación de juez único, ningún juez podrá examinar una solicitud contra la Alta Parte Contratante en cuya representación fue elegido dicho juez."
+    },
+    {
+      "ref": "P14 art. 7 (art. 27)",
+      "texto": "Artículo 27. Competencias de los jueces únicos. 1. El juez único podrá declarar inadmisible o eliminar del registro de asuntos del Tribunal una demanda presentada en virtud del artículo 34, cuando pueda adoptarse tal resolución sin tener que proceder a un examen complementario. 2. La resolución será definitiva. 3. Si el juez único no declara inadmisible una demanda ni la elimina del registro de asuntos, dicho juez remitirá la misma a un Comité o a una Sala para su examen complementario."
+    },
+    {
+      "ref": "P14 art. 8 (art. 28)",
+      "texto": "Artículo 28. Competencia de los Comités. 1. Respecto de una demanda presentada en virtud del artículo 34, un Comité podrá, por unanimidad: a) declarar la misma inadmisible o eliminarla del registro de asuntos, cuando pueda adoptarse tal resolución sin tener que proceder a un examen complementario; o b) declararla admisible y dictar al mismo tiempo sentencia sobre el fondo, si la cuestión subyacente al caso, relativa a la interpretación o la aplicación del Convenio o de sus Protocolos, ya ha dado lugar a jurisprudencia bien establecida del Tribunal."
+    },
+    {
+      "ref": "P14 art. 12 (art. 35.3)",
+      "texto": "3. El Tribunal declarará inadmisible cualquier demanda individual presentada en virtud del artículo 34 si considera que: a) la demanda es incompatible con las disposiciones del Convenio o de sus Protocolos, manifiestamente mal fundada o abusiva; o b) el demandante no ha sufrido un perjuicio importante, a menos que el respeto de los derechos humanos garantizados por el Convenio y por sus Protocolos exija un examen del fondo de la demanda, y con la condición de que no podrá rechazarse por este motivo ningún asunto que no haya sido debidamente examinado por un tribunal nacional."
+    },
+    {
+      "ref": "P14 art. 13 (art. 36.3)",
+      "texto": "3. En cualquier asunto que se suscite ante una Sala o ante la Gran Sala, el Comisario de Derechos Humanos del Consejo de Europa podrá presentar observaciones por escrito y participar en la vista."
+    },
+    {
+      "ref": "P14 art. 16 (art. 46)",
+      "texto": "Artículo 46. Fuerza obligatoria y ejecución de las sentencias. 1. Las Altas Partes Contratantes se comprometen a acatar las sentencias definitivas del Tribunal en los litigios en que sean partes. 2. La sentencia definitiva del Tribunal será transmitida al Comité de Ministros, que velará por su ejecución. 4. Si el Comité considera que una Alta Parte Contratante se niega a acatar una sentencia definitiva sobre un asunto en que es parte, podrá, tras notificarlo formalmente a esa Parte y por decisión adoptada por mayoría de dos tercios de los votos de los representantes que tengan derecho a formar parte del Comité, remitir al Tribunal la cuestión de si esa Parte ha incumplido su obligación en virtud del párrafo 1."
+    },
+    {
+      "ref": "P14 art. 17 (art. 59.2)",
+      "texto": "La Unión Europea podrá adherirse al presente Convenio."
+    },
+    {
+      "ref": "art. 1",
+      "texto": "Las Altas Partes Contratantes reconocen a toda persona dependiente de su jurisdicción los derechos y libertades definidos en el título I del presente Convenio."
+    },
+    {
+      "ref": "art. 2",
+      "texto": "1. El derecho de toda persona a la vida está protegido por la ley. Nadie podrá ser privado de su vida intencionadamente, salvo en ejecución de una condena que imponga pena capital dictada por un tribunal al reo de un delito para el que la ley establece esa pena. 2. La muerte no se considerará infligida con infracción del presente artículo cuando se produzca como consecuencia de un recurso a la fuerza que sea absolutamente necesario: a) En defensa de una persona contra una agresión ilegítima. b) Para detener a una persona conforme a derecho o para impedir la evasión de un preso o detenido legalmente. c) Para reprimir, de acuerdo con la ley, una revuelta o insurrección."
+    },
+    {
+      "ref": "art. 3",
+      "texto": "Nadie podrá ser sometido a tortura ni a penas o tratos inhumanos o degradantes."
+    },
+    {
+      "ref": "art. 4",
+      "texto": "1. Nadie podrá ser sometido a esclavitud o servidumbre. 2. Nadie podrá ser constreñido a realizar un trabajo forzado u obligatorio. 3. No se considera como «trabajo forzado u obligatorio» en el sentido del presente artículo: a) Todo trabajo exigido normalmente a una persona privada de libertad en las condiciones previstas por el artículo 5 del presente Convenio, o durante su libertad condicional. b) Todo servicio de carácter militar o, en el caso de objetores de conciencia en los países en que la objeción de conciencia sea reconocida como legítima, cualquier otro servicio sustitutivo del servicio militar obligatorio. c) Todo servicio exigido cuando alguna emergencia o calamidad amenacen la vida o el bienestar de la comunidad. d) Todo trabajo o servicio que forme parte de las obligaciones cívicas normales."
+    },
+    {
+      "ref": "art. 5",
+      "texto": "1. Toda persona tiene derecho a la libertad y a la seguridad. Nadie puede ser privado de su libertad, salvo en los casos siguientes y con arreglo al procedimiento establecido por la ley: a) Si ha sido penado legalmente en virtud de una sentencia dictada por un tribunal competente. b) Si ha sido detenido preventivamente o internado, conforme a derecho, por desobediencia a una orden judicial o para asegurar el cumplimiento de una obligación establecida por la ley. c) Si ha sido detenido preventivamente o internado, conforme a derecho, para hacerle comparecer ante la autoridad judicial competente, cuando existan indicios racionales de que ha cometido una infracción o cuando se estime necesario para impedirle que cometa una infracción o que huya después de haberla cometido. 2. Toda persona detenida preventivamente debe ser informada, en el más breve plazo y en una lengua que comprenda, de los motivos de su detención y de cualquier acusación formulada contra ella. 3. Toda persona detenida preventivamente o internada en las condiciones previstas en el párrafo 1, c), del presente artículo deberá ser conducida sin dilación a presencia de un juez o de otra autoridad habilitada por la ley para ejercer poderes judiciales, y tendrá derecho a ser juzgada en un plazo razonable o a ser puesta en libertad durante el procedimiento. La puesta en libertad puede ser condicionada a una garantía que asegure la comparecencia del interesado en juicio. 4. Toda persona privada de su libertad mediante detención preventiva o internamiento tendrá derecho a presentar un recurso ante un órgano judicial, a fin de que se pronuncie en breve plazo sobre la legalidad de su privación de libertad y ordene su puesta en libertad si fuera ilegal. 5. Toda persona víctima de una detención preventiva o de un internamiento en condiciones contrarias a las disposiciones de este artículo tendrá derecho a una reparación."
+    },
+    {
+      "ref": "art. 6",
+      "texto": "1. Toda persona tiene derecho a que su causa sea oída equitativa, públicamente y dentro de un plazo razonable, por un Tribunal independiente e imparcial, establecido por la Ley, que decidirá los litigios sobre sus derechos y obligaciones de carácter civil o sobre el fundamento de cualquier acusación en materia penal dirigida contra ella. 2. Toda persona acusada de una infracción se presume inocente hasta que su culpabilidad haya sido legalmente declarada. 3. Todo acusado tiene, como mínimo, los siguientes derechos: a) a ser informado, en el más breve plazo, en una lengua que comprenda y detalladamente, de la naturaleza y de la causa de la acusación formulada contra él; b) a disponer del tiempo y de las facilidades necesarias para la preparación de su defensa; c) a defenderse por sí mismo o a ser asistido por un defensor de su elección; d) a interrogar o hacer interrogar a los testigos que declaren contra él; e) a ser asistido gratuitamente de un intérprete, si no comprende o no habla la lengua empleada en la Audiencia."
+    },
+    {
+      "ref": "art. 7",
+      "texto": "1. Nadie podrá ser condenado por una acción o una omisión que, en el momento en que haya sido cometida, no constituya una infracción según el Derecho nacional o internacional. Igualmente no podrá ser impuesta una pena más grave que la aplicable en el momento en que la infracción haya sido cometida. 2. El presente artículo no impedirá el juicio y el castigo de una persona culpable de una acción o de una omisión que, en el momento de su comisión, constituía delito según los principios generales del derecho reconocidos por las naciones civilizadas."
+    },
+    {
+      "ref": "art. 8",
+      "texto": "1. Toda persona tiene derecho al respeto de su vida privada y familiar, de su domicilio y de su correspondencia. 2. No podrá haber injerencia de la autoridad pública en el ejercicio de este derecho, sino en tanto en cuanto esta injerencia esté prevista por la ley y constituya una medida que, en una sociedad democrática, sea necesaria para la seguridad nacional, la seguridad pública, el bienestar económico del país, la defensa del orden y la prevención del delito, la protección de la salud o de la moral, o la protección de los derechos y las libertades de los demás."
+    },
+    {
+      "ref": "art. 9",
+      "texto": "1. Toda persona tiene derecho a la libertad de pensamiento, de conciencia y de religión; este derecho implica la libertad de cambiar de religión o de convicciones, así como la libertad de manifestar su religión o sus convicciones individual o colectivamente, en público o en privado, por medio del culto, la enseñanza, las prácticas y la observancia de los ritos. 2. La libertad de manifestar su religión o sus convicciones no puede ser objeto de más restricciones que las que, previstas por la ley, constituyen medidas necesarias, en una sociedad democrática, para la seguridad pública, la protección del orden, de la salud o de la moral públicas, o la protección de los derechos o las libertades de los demás."
+    },
+    {
+      "ref": "art. 10",
+      "texto": "1. Toda persona tiene derecho a la libertad de expresión. Este derecho comprende la libertad de opinión y la libertad de recibir o de comunicar informaciones o ideas sin que pueda haber injerencia de autoridades públicas y sin consideración de fronteras. El presente artículo no impide que los Estados sometan las empresas de radiodifusión, de cinematografía o de televisión a un régimen de autorización previa. 2. El ejercicio de estas libertades, que entrañan deberes y responsabilidades, podrá ser sometido a ciertas formalidades, condiciones, restricciones o sanciones previstas por la ley, que constituyan medidas necesarias, en una sociedad democrática, para la seguridad nacional, la integridad territorial o la seguridad pública, la defensa del orden y la prevención del delito, la protección de la salud o de la moral, la protección de la reputación o de los derechos ajenos, para impedir la divulgación de informaciones confidenciales o para garantizar la autoridad y la imparcialidad del poder judicial."
+    },
+    {
+      "ref": "art. 11",
+      "texto": "1. Toda persona tiene derecho a la libertad de reunión pacífica y a la libertad de asociación, incluido el derecho de fundar, con otras, sindicatos y de afiliarse a los mismos para la defensa de sus intereses. 2. El ejercicio de estos derechos no podrá ser objeto de otras restricciones que aquellas que, previstas por la ley, constituyan medidas necesarias, en una sociedad democrática, para la seguridad nacional, la seguridad pública, la defensa del orden y la prevención del delito, la protección de la salud o de la moral, o la protección de los derechos y libertades ajenos. El presente artículo no prohíbe que se impongan restricciones legítimas al ejercicio de estos derechos para los miembros de las fuerzas armadas, de la policía o de la Administración del Estado."
+    },
+    {
+      "ref": "art. 12",
+      "texto": "A partir de la edad núbil, el hombre y la mujer tienen derecho a casarse y a fundar una familia según las leyes nacionales que rijan el ejercicio de este derecho."
+    },
+    {
+      "ref": "art. 13",
+      "texto": "Toda persona cuyos derechos y libertades reconocidos en el presente Convenio hayan sido violados tiene derecho a la concesión de un recurso efectivo ante una instancia nacional, incluso cuando la violación haya sido cometida por personas que actúen en el ejercicio de sus funciones oficiales."
+    },
+    {
+      "ref": "art. 14",
+      "texto": "El goce de los derechos y libertades reconocidos en el presente Convenio ha de ser asegurado sin distinción alguna, especialmente por razones de sexo, raza, color, lengua, religión, opiniones políticas u otras, origen nacional o social, pertenencia a una minoría nacional, fortuna, nacimiento o cualquier otra situación."
+    },
+    {
+      "ref": "art. 15",
+      "texto": "1. En caso de guerra o de otro peligro público que amenace la vida de la nación, cualquier Alta Parte Contratante podrá tomar medidas que deroguen las obligaciones previstas en el presente Convenio en la medida estricta en que lo exija la situación, y supuesto que tales medidas no estén en contradicción con las otras obligaciones que dimanan del Derecho internacional. 2. La disposición precedente no autoriza ninguna derogación al artículo 2, salvo para el caso de muertes resultantes de actos lícitos de guerra, y a los artículos 3, 4 (párrafo 1) y 7. 3. Toda Alta Parte Contratante que ejerza este derecho de derogación tendrá plenamente informado al Secretario general del Consejo de Europa de las medidas tomadas y de los motivos que las han inspirado."
+    },
+    {
+      "ref": "art. 16",
+      "texto": "Ninguna de las disposiciones de los artículos 10, 11 y 14 podrá ser interpretada en el sentido de que prohíbe a las Altas Partes Contratantes imponer restricciones a la actividad política de los extranjeros."
+    },
+    {
+      "ref": "art. 17",
+      "texto": "Ninguna de las disposiciones del presente Convenio podrá ser interpretada en el sentido de que implique para un Estado, grupo o individuo, un derecho cualquiera a dedicarse a una actividad o a realizar un acto tendente a la destrucción de los derechos o libertades reconocidos en el presente Convenio o a limitaciones más amplias de estos derechos o libertades que las previstas en el mismo."
+    },
+    {
+      "ref": "art. 18",
+      "texto": "Las restricciones que, en los términos del presente Convenio, se impongan a los citados derechos y libertades no podrán ser aplicadas más que con la finalidad para la cual han sido previstas."
+    },
+    {
+      "ref": "art. 19 (Protocolo nº 11)",
+      "texto": "Con el fin de asegurar el respeto de los compromisos que resultan para las Altas Partes Contratantes del presente Convenio y sus Protocolos, se instituye un Tribunal Europeo de Derechos Humanos, en lo sucesivo denominado «el Tribunal». Funcionará de manera permanente."
+    },
+    {
+      "ref": "art. 20 (Protocolo nº 11)",
+      "texto": "El Tribunal se compondrá de un número de Jueces igual al de las Altas Partes Contratantes."
+    },
+    {
+      "ref": "art. 21 (Protocolo nº 11)",
+      "texto": "1. Los Jueces deberán gozar de la más alta consideración moral y reunir las condiciones requeridas para el ejercicio de altas funciones judiciales o ser jurisconsultos de reconocida competencia. 2. Los Jueces formarán parte del Tribunal a título individual. 3. Durante su mandato, los Jueces no podrán ejercer ninguna actividad que sea incompatible con las exigencias de independencia, imparcialidad o disponibilidad necesaria para una actividad ejercida a tiempo completo."
+    },
+    {
+      "ref": "art. 22 (Protocolo nº 11)",
+      "texto": "1. Los Jueces serán elegidos por la Asamblea Parlamentaria en razón de cada Alta Parte Contratante, por mayoría absoluta de votos, de una lista de tres candidatos presentada por esa Alta Parte Contratante. 2. Se seguirá el mismo procedimiento para completar el Tribunal en el caso de adhesión de nuevas Altas Partes Contratantes y para proveer los puestos que queden vacantes."
+    },
+    {
+      "ref": "art. 23 (Protocolo nº 11)",
+      "texto": "1. Los Jueces son elegidos por un período de seis años. Son reelegibles. No obstante, en lo que se refiere a los Jueces designados en la primera elección, las funciones de la mitad de ellos terminarán al cabo de tres años. 6. El mandato de los Jueces finalizará cuando alcancen la edad de setenta años. 7. Los Jueces permanecerán en sus funciones hasta su sustitución. No obstante, continuarán conociendo de los asuntos que tengan ya asignados."
+    },
+    {
+      "ref": "art. 27 (Protocolo nº 11)",
+      "texto": "1. Para el examen de los asuntos que se le sometan, el Tribunal actuará en Comités formados por tres Jueces o en Salas de siete Jueces o en una Gran Sala de diecisiete Jueces. Las Salas del Tribunal constituirán los Comités por un período determinado. 2. El Juez elegido en representación de un Estado parte en el litigio será miembro de pleno derecho de la respectiva Sala y de la Gran Sala."
+    },
+    {
+      "ref": "art. 32 (Protocolo nº 11)",
+      "texto": "1. La competencia del Tribunal se extiende a todos los asuntos relativos a la interpretación y la aplicación del Convenio y de sus Protocolos que le sean sometidas en las condiciones previstas por los artículos 33, 34 y 47. 2. En caso de impugnación de la competencia del Tribunal, éste decidirá sobre la misma."
+    },
+    {
+      "ref": "art. 33 (Protocolo nº 11)",
+      "texto": "Toda Alta Parte Contratante podrá someter al Tribunal cualquier incumplimiento de lo dispuesto en el Convenio y sus Protocolos que, a su juicio, pueda ser imputado a otra Alta Parte Contratante."
+    },
+    {
+      "ref": "art. 34 (Protocolo nº 11)",
+      "texto": "El Tribunal podrá conocer de una demanda presentada por cualquier persona física, organización no gubernamental o grupo de particulares que se considere víctima de una violación, por una de las Altas Partes Contratantes, de los derechos reconocidos en el Convenio o sus Protocolos. Las Altas Partes Contratantes se comprometen a no poner traba alguna al ejercicio eficaz de este derecho."
+    },
+    {
+      "ref": "art. 35 (Protocolo nº 11)",
+      "texto": "1. Al Tribunal no podrá recurrirse sino después de agotar las vías de recursos internas, tal como se entiende según los principios de derecho internacional generalmente reconocidos y en el plazo de seis meses a partir de la fecha de la resolución interna definitiva. 2. El Tribunal no admitirá ninguna demanda individual entablada en aplicación del artículo 34, cuando: a) Sea anónima, o b) sea esencialmente la misma que una demanda examinada anteriormente por el Tribunal o ya sometida a otra instancia internacional de investigación o de arreglo, y no contenga hechos nuevos."
+    },
+    {
+      "ref": "art. 43 (Protocolo nº 11)",
+      "texto": "1. En el plazo de tres meses a partir de la fecha de la sentencia de una Sala, cualquier parte en el asunto podrá solicitar, en casos excepcionales, la remisión del asunto ante la Gran Sala. 2. Un colegio de cinco Jueces de la Gran Sala aceptará la demanda si el asunto plantea una cuestión grave relativa a la interpretación o a la aplicación del Convenio o de sus Protocolos o una cuestión grave de carácter general."
+    },
+    {
+      "ref": "art. 46 (Protocolo nº 11)",
+      "texto": "1. Las Altas Partes Contratantes se comprometen a acatar las sentencias definitivas del Tribunal en los litigios en que sean partes. 2. La sentencia definitiva del Tribunal será transmitida al Comité de Ministros, que velará por su ejecución."
+    }
+  ]
+}

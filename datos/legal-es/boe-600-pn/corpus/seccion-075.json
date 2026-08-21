@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "seccion": 75,
+    "titulo": "Actitudes y valores sociales (psicología social): concepto de actitud (Allport, 1935; DLE RAE-ASALE), componentes de la actitud (Rosenberg y Hovland, 1960), funciones de las actitudes (Katz, 1960), estereotipo/prejuicio/discriminación/xenofobia/dogmatismo (DLE RAE-ASALE; Allport, 1954), personalidad autoritaria (Adorno y cols., 1950), dogmatismo (Rokeach, 1960) y grupos sociales (Cooley, 1909; Sumner, 1906)",
+    "materia": "actitudes-valores-sociales-psicologia-social",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "RAE-ASALE — Diccionario de la lengua española (DLE), s.v. «actitud», «estereotipo», «prejuicio», «discriminación», «xenofobia», «dogmatismo» — https://dle.rae.es (consultado 2026-08-16)",
+      "Allport, G. W. (1935), «Attitudes», en C. Murchison (ed.), Handbook of Social Psychology, Clark University Press, pág. 810 (definición clásica de actitud)",
+      "Rosenberg, M. J. y Hovland, C. I. (1960), «Cognitive, Affective and Behavioral Components of Attitudes», en Attitude Organization and Change, Yale University Press, pág. 1-14 (modelo tricomponencial)",
+      "Katz, D. (1960), «The Functional Approach to the Study of Attitudes», Public Opinion Quarterly, vol. 24, pág. 163-204 (cuatro funciones de las actitudes)",
+      "Adorno, T. W., Frenkel-Brunswik, E., Levinson, D. J. y Sanford, R. N. (1950), The Authoritarian Personality, Harper & Row (Studies in Prejudice, III); apartado «escala F» (personalidad autoritaria, etnocentrismo)",
+      "Rokeach, M. (1960), The Open and Closed Mind: Investigations into the Nature of Belief Systems and Personality Systems, Basic Books — https://archive.org/details/openclosedmindin0000roke (dogmatismo)",
+      "Allport, G. W. (1954), The Nature of Prejudice, Addison-Wesley, pág. 9 (definición de prejuicio)",
+      "Cooley, C. H. (1909), Social Organization: A Study of the Larger Mind, Charles Scribner's Sons, capítulo III «Primary Groups» (grupos primarios y secundarios)",
+      "Sumner, W. G. (1906), Folkways, Ginn & Co. — https://www.gutenberg.org/files/24253/24253-h/24253-h.htm (endogrupo, exogrupo y etnocentrismo)"
+    ],
+    "tipo_fuente": "consenso",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "actitudes-valores.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "DLE — actitud",
+      "texto": "Del lat. actitūdo. 1. f. Postura del cuerpo, especialmente cuando expresa un estado de ánimo. Las actitudes de un orador. La actitud agresiva del perro. 2. f. Disposición de ánimo manifestada de algún modo. Actitud benévola, pacífica, amenazadora, de una persona, de un partido, de un Gobierno."
+    },
+    {
+      "ref": "DLE — estereotipo",
+      "texto": "Del gr. στερεός stereós 'sólido' y τύπος týpos 'molde'. 1. m. Imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable. 2. m. Impr. Plancha utilizada en estereotipia."
+    },
+    {
+      "ref": "DLE — prejuicio",
+      "texto": "Del lat. praeiudicium 'juicio previo', 'decisión prematura'. 1. m. Acción y efecto de prejuzgar. 2. m. Opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal."
+    },
+    {
+      "ref": "DLE — discriminación",
+      "texto": "Del lat. discriminatio, -ōnis. 1. f. Acción y efecto de discriminar. discriminación positiva 1. f. Protección de carácter extraordinario que se da a un grupo social históricamente discriminado."
+    },
+    {
+      "ref": "DLE — xenofobia",
+      "texto": "De xeno- y -fobia. 1. f. Fobia a lo extranjero o a los extranjeros."
+    },
+    {
+      "ref": "DLE — dogmatismo",
+      "texto": "Del lat. tardío dogmatismus 'enseñanza de la fe cristiana', y este del gr. δογματισμός dogmatismós 'principio doctrinal'. 1. m. Presunción de quienes quieren que su doctrina o sus aseveraciones sean tenidas por verdades inconcusas. 2. m. Conjunto de las proposiciones que se tienen por principios innegables en una ciencia. 3. m. Conjunto de todo lo que es dogmático en religión. 4. m. Fil. Concepción filosófica opuesta al escepticismo, la cual considera la razón humana capaz del conocimiento de verdades absolutas."
+    },
+    {
+      "ref": "Allport 1935 — definición de actitud",
+      "texto": "Según Gordon Allport (1935), la actitud es un estado de disposición mental y neurológica, organizado a través de la experiencia, que ejerce una influencia directriz o dinámica sobre la respuesta del individuo ante todos los objetos y situaciones con los que se relaciona."
+    },
+    {
+      "ref": "Rosenberg y Hovland 1960 — componentes de la actitud",
+      "texto": "Según el modelo tricomponencial de Rosenberg y Hovland (1960), la actitud se compone de tres elementos —cognitivo, afectivo y conductual o comportamental—: un componente cognitivo, que reúne las creencias e ideas sobre el objeto de la actitud; un componente afectivo, que son los sentimientos y emociones que ese objeto suscita; y un componente conductual o comportamental, que es la predisposición a actuar de un determinado modo hacia el objeto."
+    },
+    {
+      "ref": "Katz 1960 — funciones de las actitudes",
+      "texto": "Daniel Katz (1960) distinguió cuatro funciones de las actitudes —de conocimiento, utilitaria o instrumental, expresiva de valores y de defensa del yo—: la función de conocimiento, que organiza y da sentido a la información sobre el mundo; la función utilitaria o instrumental, que ayuda a obtener recompensas y evitar castigos; la función expresiva de valores, que permite expresar los valores centrales del propio yo; y la función de defensa del yo, que protege a la persona de conflictos internos y de amenazas a su autoestima."
+    },
+    {
+      "ref": "Adorno 1950 — personalidad autoritaria",
+      "texto": "En La personalidad autoritaria (1950), Theodor W. Adorno y sus colaboradores describieron un tipo de personalidad caracterizado por el sometimiento rígido a la autoridad del propio grupo, la hostilidad hacia los grupos ajenos, el convencionalismo y la intolerancia a la ambigüedad; para medir esta predisposición elaboraron la escala F o escala de fascismo. El prejuicio y el etnocentrismo se entienden así como expresión de esa estructura de personalidad."
+    },
+    {
+      "ref": "Rokeach 1960 — dogmatismo",
+      "texto": "Milton Rokeach (1960), en La mente abierta y cerrada, definió el dogmatismo como un sistema cerrado de creencias y descreencias organizado en torno a un conjunto central de creencias sobre la autoridad, concebida como absoluta. La mente cerrada se distingue por su estructura, no por el contenido de las ideas, de modo que una persona puede sostener cualquier ideología de forma dogmática."
+    },
+    {
+      "ref": "Allport 1954 — prejuicio",
+      "texto": "Gordon Allport (1954), en La naturaleza del prejuicio, definió el prejuicio como una antipatía basada en una generalización defectuosa e inflexible, que puede sentirse o expresarse y puede dirigirse contra un grupo en su conjunto o contra un individuo por pertenecer a ese grupo."
+    },
+    {
+      "ref": "Cooley 1909 — grupos primarios y secundarios",
+      "texto": "El sociólogo Charles H. Cooley (1909) llamó grupos primarios a los caracterizados por una asociación y cooperación íntimas y cara a cara, que son fundamentales en la formación de la naturaleza social y los ideales del individuo, como la familia. Frente a ellos, los grupos secundarios son más amplios, impersonales y orientados a una finalidad o tarea."
+    },
+    {
+      "ref": "Sumner 1906 — endogrupo, exogrupo y etnocentrismo",
+      "texto": "William G. Sumner (1906), en Folkways, introdujo la distinción entre el endogrupo o in-group, aquel al que la persona pertenece, y el exogrupo u out-group, aquel al que no pertenece, y acuñó el término etnocentrismo para designar la visión de las cosas según la cual el propio grupo es el centro de todo y los demás se valoran y ordenan con referencia a él."
+    }
+  ]
+}

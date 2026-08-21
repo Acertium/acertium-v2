@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "seccion": 78,
+    "titulo": "Agenda 2030 para el Desarrollo Sostenible (Resolución A/RES/70/1 de la Asamblea General de las Naciones Unidas)",
+    "materia": "agenda-2030-desarrollo-sostenible",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "Naciones Unidas, Asamblea General — Resolución A/RES/70/1, «Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible», aprobada el 25 de septiembre de 2015. Texto oficial en español: https://unctad.org/system/files/official-document/ares70d1_es.pdf (documento simbólico A/RES/70/1, undocs.org/es/A/RES/70/1). Consultado y verificado el 04/08/2026.",
+      "Lista oficial de los 17 Objetivos de Desarrollo Sostenible: Naciones Unidas — https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/ (consultado 04/08/2026)."
+    ],
+    "tipo_fuente": "oficial",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "sostenible-agenda2030.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "A/RES/70/1 preámbulo",
+      "texto": "prometemos que nadie se quedará atrás. Los 17 Objetivos de Desarrollo Sostenible y las 169 metas que anunciamos hoy demuestran la magnitud de esta ambiciosa nueva Agenda universal. Con ellos se pretende retomar los Objetivos de Desarrollo del Milenio y conseguir lo que estos no lograron. También se pretende hacer realidad los derechos humanos de todas las personas y alcanzar la igualdad entre los géneros y el empoderamiento de todas las mujeres y niñas. Los Objetivos y las metas son de carácter integrado e indivisible y conjugan las tres dimensiones del desarrollo sostenible: económica, social y ambiental."
+    },
+    {
+      "ref": "A/RES/70/1 esferas",
+      "texto": "Las personas. Estamos decididos a poner fin a la pobreza y el hambre en todas sus formas y dimensiones, y a velar por que todos los seres humanos puedan realizar su potencial con dignidad e igualdad y en un medio ambiente saludable. El planeta. Estamos decididos a proteger el planeta contra la degradación, incluso mediante el consumo y la producción sostenibles, la gestión sostenible de sus recursos naturales y medidas urgentes para hacer frente al cambio climático, de manera que pueda satisfacer las necesidades de las generaciones presentes y futuras. La prosperidad. Estamos decididos a velar por que todos los seres humanos puedan disfrutar de una vida próspera y plena, y por que el progreso económico, social y tecnológico se produzca en armonía con la naturaleza. La paz. Estamos decididos a propiciar sociedades pacíficas, justas e inclusivas que estén libres del temor y la violencia. No puede haber desarrollo sostenible sin paz, ni paz sin desarrollo sostenible. Las alianzas. Estamos decididos a movilizar los medios necesarios para implementar esta Agenda mediante una Alianza Mundial para el Desarrollo Sostenible revitalizada, que se base en un espíritu de mayor solidaridad mundial y se centre particularmente en las necesidades de los más pobres y vulnerables, con la colaboración de todos los países, todas las partes interesadas y todas las personas."
+    },
+    {
+      "ref": "A/RES/70/1 párrs. 1-2",
+      "texto": "1. Los Jefes de Estado y de Gobierno y Altos Representantes, reunidos en la Sede de las Naciones Unidas en Nueva York del 25 al 27 de septiembre de 2015, coincidiendo con el septuagésimo aniversario de la Organización, hemos acordado en el día de hoy los nuevos Objetivos de Desarrollo Sostenible de alcance mundial. 2. En nombre de los pueblos a los que servimos, hemos adoptado una decisión histórica sobre un amplio conjunto de Objetivos y metas universales y transformativos, de gran alcance y centrados en las personas. Nos comprometemos a trabajar sin descanso a fin de conseguir la plena implementación de la presente Agenda de aquí a 2030. Reconocemos que la erradicación de la pobreza en todas sus formas y dimensiones, incluida la pobreza extrema, es el mayor desafío a que se enfrenta el mundo y constituye un requisito indispensable para el desarrollo sostenible. Nos comprometemos a lograr el desarrollo sostenible en sus tres dimensiones económica, social y ambiental de forma equilibrada e integrada."
+    },
+    {
+      "ref": "A/RES/70/1 Objetivos de Desarrollo Sostenible",
+      "texto": "Objetivo 1. Poner fin a la pobreza en todas sus formas y en todo el mundo. Objetivo 2. Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible. Objetivo 3. Garantizar una vida sana y promover el bienestar de todos a todas las edades. Objetivo 4. Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos. Objetivo 5. Lograr la igualdad de género y empoderar a todas las mujeres y las niñas. Objetivo 6. Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos. Objetivo 7. Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos. Objetivo 8. Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos. Objetivo 9. Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación. Objetivo 10. Reducir la desigualdad en los países y entre ellos. Objetivo 11. Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles. Objetivo 12. Garantizar modalidades de consumo y producción sostenibles. Objetivo 13. Adoptar medidas urgentes para combatir el cambio climático y sus efectos. Objetivo 14. Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible. Objetivo 15. Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad. Objetivo 16. Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas. Objetivo 17. Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible."
+    }
+  ]
+}

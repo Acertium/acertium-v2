@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "seccion": 68,
+    "titulo": "Definiciones demográficas del INE (Indicadores Demográficos Básicos e Indicadores Urbanos/DEGURBA) y del Diccionario de la lengua española (RAE-ASALE, 23.ª ed.); conceptos de geografía humana, la ciudad y la sociedad de masas de fuentes académicas de consenso (Wikipedia en español; Ortega y Gasset, La rebelión de las masas, 1929)",
+    "materia": "geografia-humana-demografia-ine-rae",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "INE — Indicadores Demográficos Básicos. Metodología (noviembre 2024): tasa bruta de natalidad (4.1.1.1), tasa global de fecundidad (4.1.2.1), indicador coyuntural de fecundidad (4.1.2.4), tasa bruta de mortalidad (4.2.1.1) y esperanza de vida al nacimiento (4.2.1.4) — https://www.ine.es/metodologia/t20/metodologia_idb.pdf — consultado 16/08/2026",
+      "INE — Glosario de conceptos (DEFIne): «Tasa (bruta) de natalidad» https://www.ine.es/DEFIne/concepto.htm?c=5059 ; «Saldo vegetativo» https://www.ine.es/DEFIne/concepto.htm?c=5092 ; «Saldo migratorio» https://www.ine.es/DEFIne/concepto.htm?c=5093 ; «Crecimiento de la población» https://www.ine.es/DEFIne/concepto.htm?c=5094 — consultado 16/08/2026",
+      "INE — Indicadores Urbanos. Metodología (octubre 2025): grado de urbanización (DEGURBA) y umbrales de densidad de población — https://www.ine.es/metodologia/iu/metodologia_IU.pdf — consultado 16/08/2026",
+      "RAE-ASALE — Diccionario de la lengua española (23.ª ed.): demografía https://dle.rae.es/demografía ; geografía https://dle.rae.es/geografía ; ciudad https://dle.rae.es/ciudad ; población https://dle.rae.es/población ; densidad (densidad de población) https://dle.rae.es/densidad ; pirámide (pirámide de población) https://dle.rae.es/pirámide ; medio (medio ambiente) https://dle.rae.es/medio ; contaminación https://dle.rae.es/contaminación ; masa https://dle.rae.es/masa — consultado 16/08/2026",
+      "Wikipedia en español — «Geografía humana» https://es.wikipedia.org/wiki/Geografía_humana (CONSENSO: paráfrasis fiel, pendiente de revisión humana) — consultado 16/08/2026",
+      "Wikipedia en español — «Sociedad de masas» https://es.wikipedia.org/wiki/Sociedad_de_masas (CONSENSO: recoge a José Ortega y Gasset, La rebelión de las masas, 1929; pendiente de revisión humana) — consultado 16/08/2026"
+    ],
+    "tipo_fuente": "consenso",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "geografia-demografia.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "RAE · demografía",
+      "texto": "Estudio estadístico de una colectividad humana, referido a un determinado momento o a su evolución."
+    },
+    {
+      "ref": "RAE · geografía",
+      "texto": "Ciencia que trata de la descripción de la Tierra."
+    },
+    {
+      "ref": "RAE · geografía política",
+      "texto": "Parte de la geografía que trata de la distribución y organización de los Estados y comunidades humanas en la Tierra."
+    },
+    {
+      "ref": "Wikipedia · geografía humana",
+      "texto": "Como disciplina se encarga de estudiar las sociedades desde una perspectiva espacial, la relación entre estas sociedades y el medio físico en el que habitan, así como los paisajes culturales y las regiones humanas que éstas construyen. Analiza la desigual distribución de la población sobre la superficie terrestre, las causas de dicha distribución y sus consecuencias políticas, sociales, económicas, demográficas y culturales."
+    },
+    {
+      "ref": "Wikipedia · geografía urbana",
+      "texto": "Geografía urbana, ciencia que estudia las aglomeraciones humanas representadas por las ciudades, su población, características, evolución histórica, funciones e importancia relativa."
+    },
+    {
+      "ref": "RAE · ciudad",
+      "texto": "Conjunto de edificios y calles, regidos por un ayuntamiento, cuya población densa y numerosa se dedica por lo común a actividades no agrícolas."
+    },
+    {
+      "ref": "RAE · ciudad dormitorio",
+      "texto": "Conjunto suburbano de una gran ciudad, cuya población laboral se desplaza a diario hasta esta para acudir a su lugar de trabajo."
+    },
+    {
+      "ref": "RAE · ciudad satélite",
+      "texto": "Núcleo urbano dotado de cierta autonomía funcional, pero dependiente de otro mayor y más completo, del cual se halla en relativa cercanía."
+    },
+    {
+      "ref": "RAE · densidad de población",
+      "texto": "Número de individuos de la misma especie que viven por unidad de superficie."
+    },
+    {
+      "ref": "INE · grado de urbanización (DEGURBA)",
+      "texto": "El grado de urbanización (DEGURBA, del inglés Degree of urbanisation) es un concepto utilizado para clasificar las áreas geográficas según su densidad de población y el entorno en el que viven las personas. La metodología DEGURBA clasifica el grado de urbanización en tres niveles: Zonas densamente pobladas (ciudades): Áreas con una alta concentración de población y un entorno urbano muy desarrollado. Tienen una densidad de población superior a 1.500 habitantes por kilómetro cuadrado y un total de al menos 50.000 habitantes. Zonas de densidad intermedia (suburbios o pueblos): Estas áreas incluyen suburbios o pueblos donde la densidad de población es moderada. Generalmente tienen entre 300 y 1.500 habitantes por kilómetro cuadrado, con una población mínima de 5.000 habitantes. Zonas escasamente pobladas (rurales): Áreas con una baja densidad de población, típicamente inferior a 300 habitantes por kilómetro cuadrado."
+    },
+    {
+      "ref": "INE · tasa bruta de natalidad",
+      "texto": "Total de nacimientos de madre perteneciente a un determinado ámbito en un año concreto por cada 1.000 habitantes."
+    },
+    {
+      "ref": "INE · tasa bruta de mortalidad",
+      "texto": "Se define como el total de defunciones a lo largo del año t de personas pertenecientes a un determinado ámbito por cada 1.000 habitantes de ese ámbito."
+    },
+    {
+      "ref": "INE · saldo vegetativo",
+      "texto": "Diferencia entre nacimientos y defunciones."
+    },
+    {
+      "ref": "INE · saldo migratorio",
+      "texto": "Diferencia entre inmigraciones y emigraciones."
+    },
+    {
+      "ref": "INE · crecimiento de la población",
+      "texto": "Incremento en el número de individuos pertenecientes a un determinado ámbito en un año concreto por cada 1.000 habitantes. Se puede calcular como la suma del saldo vegetativo y el saldo migratorio."
+    },
+    {
+      "ref": "INE · tasa global de fecundidad",
+      "texto": "Se define como el total de nacimientos, de madre de un determinado ámbito ocurridos en un año t, por cada 1.000 mujeres en edad fértil (de 15 a 49 años de edad) de dicho ámbito."
+    },
+    {
+      "ref": "INE · indicador coyuntural de fecundidad",
+      "texto": "Se define como el número medio de hijos que tendría una mujer perteneciente a un determinado ámbito a lo largo de su vida fértil en caso de mantener la misma intensidad fecunda por edad que la observada en el año t, en ese ámbito."
+    },
+    {
+      "ref": "INE · esperanza de vida al nacimiento",
+      "texto": "Se define como el número medio de años que vivirían los componentes de una generación de individuos sometidos en cada edad al patrón de mortalidad observada sobre las personas de un determinado ámbito a lo largo del año t."
+    },
+    {
+      "ref": "RAE · pirámide de población",
+      "texto": "Representación gráfica de la distribución proporcional de los grupos de edades de una población."
+    },
+    {
+      "ref": "RAE · masa",
+      "texto": "Gran conjunto de gente que por su número puede influir en la marcha de los acontecimientos."
+    },
+    {
+      "ref": "Wikipedia · sociedad de masas",
+      "texto": "Existen otras teorías de la sociedad de masas, como por ejemplo la expresada por el filósofo español José Ortega y Gasset en su libro La rebelión de las masas (1929). Ortega y Gasset definía el hombre-masa, un individuo sin tradiciones, valores ni individualidad o autonomía."
+    },
+    {
+      "ref": "RAE · medio ambiente",
+      "texto": "Conjunto de circunstancias o condiciones exteriores a un ser vivo que influyen en su desarrollo y en sus actividades."
+    },
+    {
+      "ref": "RAE · contaminación",
+      "texto": "Acción y efecto de contaminar."
+    }
+  ]
+}

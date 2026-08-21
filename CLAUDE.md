@@ -13,6 +13,15 @@ Aplican las 7 reglas globales de Jonathan (montadas en el `~/.claude/CLAUDE.md` 
 - **Distingue lo verificado de lo que no.** Marca explícitamente lo que no pudiste confirmar.
 - **Doble/triple verificación** de cualquier cifra o afirmación antes de darla por buena.
 
+## Documentación que pasa Jonathan — se copia SIEMPRE al repo
+
+Regla de Jonathan (22/08/2026): **todo documento que te pase —PDF, manual, texto de una norma, captura, enlace— se guarda en el repo en la misma sesión, antes de usarlo.** No se trabaja desde el fichero temporal y se tira: la sesión es efímera, el repo no. Si no se guarda, dentro de un mes hay que volver a buscarlo y puede que ya no esté igual (una web se reedita, un PDF cambia de edición) — y entonces el dato deja de ser re-verificable, que es lo que sostiene todo lo demás.
+
+- **Dónde**: `datos/fuentes/<materia>/`. Ver `datos/fuentes/README.md`.
+- **Con qué**: junto al documento, un `PROCEDENCIA.md` con de dónde salió, edición/versión, fecha de consulta y URL. Un PDF sin esa ficha no es una fuente citable.
+- **Excepción**: nada de secretos (ver arriba), y nada con copyright que no podamos versionar — en ese caso se guarda la ficha `PROCEDENCIA.md` con la referencia exacta, aunque no quepa el documento.
+- **Por qué importa aquí más que en otros repos**: el corpus es lo que las puertas usan para comprobar que una respuesta es literal. Una fuente que no está en el repo es una fuente contra la que ya no se puede re-verificar. El 22/08/2026 el 18 % del banco estaba en esa situación.
+
 ## Qué es AcertiumV2
 
 App **móvil-first** de estudio para oposiciones (piloto: **Policía Nacional, Escala Básica**, convocatoria **BOE-A-2026-15055**). El núcleo es un **"cerebro"** = grafo de conocimiento verificado (conceptos + relaciones tipadas) sobre el que corren un **motor de absorción (BKT con olvido)** y un **planificador/coach**. Next.js en Vercel + Supabase (schema `acertium_v2`). V2 sustituirá a V1 (schema `public` de la misma instancia); **no tocar `public`**.

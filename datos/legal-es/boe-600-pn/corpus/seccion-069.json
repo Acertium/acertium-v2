@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "seccion": 69,
+    "titulo": "Convención contra la Tortura (1984), Protocolo facultativo (2002) y MNP del Defensor del Pueblo",
+    "materia": "convencion-contra-la-tortura",
+    "referencia_boe": "BOE-A-1987-25053",
+    "referencia_fuente": [
+      "Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes (Nueva York, 10-12-1984) — BOE-A-1987-25053",
+      "Protocolo facultativo a la Convención contra la tortura (Nueva York, 18-12-2002) — BOE-A-2006-11128",
+      "Ley Orgánica 3/1981, del Defensor del Pueblo, disposición final única (MNP; añadida por LO 1/2009) — BOE-A-1981-10325"
+    ],
+    "tipo_fuente": "oficial",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "ddhh-tortura.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "Convención art. 1",
+      "texto": "A los efectos de la presente Convención, se entenderá por el término «tortura» todo acto por el cual se inflija intencionadamente a una persona dolores o sufrimientos graves, ya sean físicos o mentales, con el fin de obtener de ella o de un tercero información o una confesión, de castigarla por un acto que haya cometido, o se sospeche que ha cometido, o de intimidar o coaccionar a esa persona o a otras, o por cualquier razón basada en cualquier tipo de discriminación, cuando dichos dolores o sufrimientos sean infligidos por un funcionario público u otra persona en el ejercicio de funciones públicas, a instigación suya, o con su consentimiento o aquiescencia. No se considerarán torturas los dolores o sufrimientos que sean consecuencia únicamente de sanciones legítimas, o que sean inherentes o incidentales a éstas."
+    },
+    {
+      "ref": "Convención art. 2",
+      "texto": "1. Todo Estado Parte tomará medidas legislativas, administrativas, judiciales o de otra índole eficaces para impedir los actos de tortura en todo territorio que esté bajo su jurisdicción. 2. En ningún caso podrán invocarse circunstancias excepcionales tales como estado de guerra o amenaza de guerra, inestabilidad política interna o cualquier otra emergencia pública como justificación de la tortura. 3. No podrá invocarse una orden de un funcionario superior o de una autoridad pública como justificación de la tortura."
+    },
+    {
+      "ref": "Convención art. 3",
+      "texto": "1. Ningún Estado Parte procederá a la expulsión, devolución o extradición de una persona a otro Estado cuando haya razones fundadas para creer que estaría en peligro de ser sometida a tortura. 2. A los efectos de determinar si existen esas razones, las autoridades competentes tendrán en cuenta todas las consideraciones pertinentes, inclusive, cuando proceda, la existencia en el Estado de que se trate de un cuadro persistente de violaciones manifiestas, patentes o masivas de los derechos humanos."
+    },
+    {
+      "ref": "Convención art. 4",
+      "texto": "1. Todo Estado Parte velará por que todos los actos de tortura constituyan delitos conforme a su legislación penal. Lo mismo se aplicará a toda tentativa de cometer tortura y a todo acto de cualquier persona que constituya complicidad o participación en la tortura. 2. Todo Estado Parte castigará esos delitos con penas adecuadas en las que se tenga en cuenta su gravedad."
+    },
+    {
+      "ref": "Convención art. 10",
+      "texto": "1. Todo Estado Parte velará por que se incluyan una educación y una información completas sobre la prohibición de la tortura en la formación profesional del personal encargado de la aplicación de la ley, sea éste civil o militar, del personal médico, de los funcionarios públicos y otras personas que puedan participar en la custodia, el interrogatorio o el tratamiento de cualquier persona sometida a cualquier forma de arresto, detención o prisión."
+    },
+    {
+      "ref": "Convención art. 12",
+      "texto": "Todo Estado Parte velará por que, siempre que haya motivos razonables para creer que dentro de su jurisdicción se ha cometido un acto de tortura, las autoridades competentes procedan a una investigación pronta e imparcial."
+    },
+    {
+      "ref": "Convención art. 13",
+      "texto": "Todo Estado Parte velará por que toda persona que alegue haber sido sometida a tortura en cualquier territorio bajo su jurisdicción tenga derecho a presentar una queja y a que su caso sea pronta e imparcialmente examinado por sus autoridades competentes."
+    },
+    {
+      "ref": "Convención art. 14",
+      "texto": "1. Todo Estado Parte velará por que su legislación garantice a la víctima de un acto de tortura la reparación y el derecho a una indemnización justa y adecuada, incluidos los medios para su rehabilitación lo más completa posible. En caso de muerte de la víctima como resultado de un acto de tortura, las personas a su cargo tendrán derecho a indemnización."
+    },
+    {
+      "ref": "Convención art. 15",
+      "texto": "Todo Estado Parte se asegurará de que ninguna declaración que se demuestre que ha sido hecha como resultado de tortura pueda ser invocada como prueba en ningún procedimiento, salvo en contra de una persona acusada de tortura como prueba de que se ha formulado la declaración."
+    },
+    {
+      "ref": "Convención art. 16",
+      "texto": "1. Todo Estado Parte se comprometerá a prohibir en cualquier territorio bajo su jurisdicción otros actos que constituyan tratos o penas crueles, inhumanos o degradantes y que no lleguen a ser tortura tal como se define en el artículo 1, cuando esos actos sean cometidos por un funcionario público u otra persona que actúe en el ejercicio de funciones oficiales, o por instigación o con el consentimiento o la aquiescencia de tal funcionario o persona."
+    },
+    {
+      "ref": "Convención art. 17",
+      "texto": "1. Se constituirá un Comité contra la Tortura (denominado en adelante el Comité), el cual desempeñará las funciones que se señalan más adelante. El Comité estará compuesto de diez expertos de gran integridad moral y reconocida competencia en materia de derechos humanos, que ejercerán sus funciones a título personal. 5. Los miembros del Comité serán elegidos por cuatro años. Podrán ser reelegidos si se presenta de nuevo su candidatura."
+    },
+    {
+      "ref": "Convención art. 19",
+      "texto": "1. Los Estados Partes presentarán al Comité, por conducto del Secretario General de las Naciones Unidas, los informes relativos a las medidas que hayan adoptado para dar efectividad a los compromisos que han contraído en virtud de la presente Convención, dentro del plazo del año siguiente a la entrada en vigor de la Convención en lo que respecta al Estado Parte interesado. A partir de entonces, los Estados Partes presentarán informes suplementarios cada cuatro años sobre cualquier nueva disposición que se haya adoptado, así como los demás informes que solicite el Comité."
+    },
+    {
+      "ref": "Protocolo art. 1",
+      "texto": "El objetivo del presente Protocolo es establecer un sistema de visitas periódicas a cargo de órganos internacionales y nacionales independientes a los lugares en que se encuentren personas privadas de su libertad, con el fin de prevenir la tortura y otros tratos o penas crueles, inhumanos o degradantes."
+    },
+    {
+      "ref": "Protocolo art. 2",
+      "texto": "1. Se establecerá un Subcomité para la Prevención de la Tortura y Otros Tratos o Penas Crueles, Inhumanos, o Degradantes del Comité contra la Tortura (en adelante denominado el Subcomité para la Prevención) que desempeñará las funciones previstas en el presente Protocolo."
+    },
+    {
+      "ref": "Protocolo art. 3",
+      "texto": "Cada Estado Parte establecerá, designará o mantendrá, a nivel nacional, uno o varios órganos de visitas para la prevención de la tortura y otros tratos o penas crueles, inhumanos o degradantes (en adelante denominado el mecanismo nacional de prevención)."
+    },
+    {
+      "ref": "Protocolo art. 4",
+      "texto": "2. A los efectos del presente Protocolo, por privación de libertad se entiende cualquier forma de detención o encarcelamiento o de custodia de una persona, por orden de una autoridad judicial o administrativa o de otra autoridad pública, en una institución pública o privada de la cual no pueda salir libremente."
+    },
+    {
+      "ref": "Protocolo art. 5",
+      "texto": "1. El Subcomité para la Prevención estará compuesto de diez miembros. Una vez que se haya registrado la quincuagésima ratificación del presente Protocolo o adhesión a él, el número de miembros del Subcomité para la Prevención aumentará a veinticinco."
+    },
+    {
+      "ref": "Protocolo art. 17",
+      "texto": "Cada Estado Parte mantendrá, designará o creará, a más tardar un año después de la entrada en vigor del presente Protocolo o de su ratificación o adhesión, uno o varios mecanismos nacionales independientes para la prevención de la tortura a nivel nacional."
+    },
+    {
+      "ref": "Protocolo art. 18",
+      "texto": "1. Los Estados Partes garantizarán la independencia funcional de los mecanismos nacionales de prevención, así como la independencia de su personal. 3. Los Estados Partes se comprometen a proporcionar los recursos necesarios para el funcionamiento de los mecanismos nacionales de prevención."
+    },
+    {
+      "ref": "Protocolo art. 19",
+      "texto": "Los mecanismos nacionales de prevención tendrán como mínimo las siguientes facultades: a) Examinar periódicamente el trato de las personas privadas de su libertad en lugares de detención, según la definición del artículo 4, con miras a fortalecer, si fuera necesario, su protección contra la tortura y otros tratos o penas crueles, inhumanos o degradantes; b) Hacer recomendaciones a las autoridades competentes con objeto de mejorar el trato y las condiciones de las personas privadas de su libertad y de prevenir la tortura; c) Hacer propuestas y observaciones acerca de la legislación vigente o de los proyectos de ley en la materia."
+    },
+    {
+      "ref": "Protocolo art. 21",
+      "texto": "1. Ninguna autoridad o funcionario ordenará, aplicará, permitirá o tolerará sanción alguna contra una persona u organización por haber comunicado al mecanismo nacional de prevención cualquier información, ya sea verdadera o falsa, y ninguna de estas personas u organizaciones sufrirá perjuicios de ningún tipo por este motivo."
+    },
+    {
+      "ref": "LO 3/1981 disposición final única",
+      "texto": "Primero. El Defensor del Pueblo ejercerá las funciones del Mecanismo Nacional de Prevención de la Tortura de conformidad con la Constitución, la presente Ley y el Protocolo facultativo de la Convención contra la tortura u otros tratos o penas crueles, inhumanos o degradantes. Segundo. Se crea un Consejo Asesor como órgano de cooperación técnica y jurídica en el ejercicio de las funciones propias del Mecanismo Nacional de Prevención, que será presidido por el Adjunto en el que el Defensor del Pueblo delegue las funciones previstas en esta disposición. El Reglamento determinará su estructura, composición y funcionamiento."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "seccion": 66,
+    "titulo": "Fuentes técnicas de referencia sobre redes informáticas: modelo OSI y modelo TCP/IP (Check Point, IBM), dispositivos de red (glosario INCIBE, Microsoft, VAS Experts, Universidad de Huelva) y direccionamiento IP (Oracle)",
+    "materia": "redes-informaticas-osi-tcpip",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "INCIBE — Glosario de términos de ciberseguridad: una guía de aproximación para el empresario: https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_metad.pdf (consultado 04/08/2026) — Cortafuegos, Router, DNS, Proxy, Dirección MAC, Dirección IP",
+      "Check Point Software — ¿Qué es el modelo OSI? Comprender las 7 capas: https://www.checkpoint.com/es/cyber-hub/network-security/what-is-the-osi-model-understanding-the-7-layers/ (consultado 04/08/2026) — las 7 capas del modelo OSI y equivalencia OSI/TCP-IP",
+      "IBM Documentation (AIX 7.1) — Protocolos TCP/IP: https://www.ibm.com/docs/es/aix/7.1.0?topic=protocol-tcpip-protocols (consultado 04/08/2026) — capas del modelo TCP/IP y funciones de transporte, red e interfaz de red",
+      "Microsoft Learn — ¿Qué es el servidor DHCP en Windows Server?: https://learn.microsoft.com/es-es/windows-server/networking/technologies/dhcp/dhcp-top (consultado 04/08/2026) — DHCP",
+      "VAS Experts — Switch (Conmutador): https://vasexperts.com/es/resources/glossary/switch/ (consultado 04/08/2026) — switch / conmutador de red",
+      "Universidad de Huelva (A. J. Barragán) — Hub: https://uhu.es/antonio.barragan/content/hub (consultado 04/08/2026) — hub / concentrador",
+      "Oracle — Guía de administración del sistema: servicios IP, «Cómo diseñar un esquema de direcciones IPv4»: https://docs.oracle.com/cd/E19957-01/820-2981/ipplan-5/index.html (consultado 04/08/2026) — IPv4 de 32 bits y clases A/B/C",
+      "Oracle — Guía de administración del sistema: servicios IP, «Descripción general de las direcciones IPv6»: https://docs.oracle.com/cd/E19957-01/820-2981/ipv6-overview-10/index.html (consultado 04/08/2026) — IPv6 de 128 bits"
+    ],
+    "tipo_fuente": "autoridad",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "redes-osi-tcpip.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "Check Point — Modelo OSI (introducción)",
+      "texto": "El modelo OSI se divide en siete capas. Cada capa cumple un papel importante dentro de la pila de redes y se comunica con otras capas mediante el intercambio de unidades de datos de protocolo (PDU)."
+    },
+    {
+      "ref": "Check Point — OSI capa física (capa 1)",
+      "texto": "La capa física es donde el flujo de bits sin procesar se transmite físicamente a través de un medio físico. La PDU de Capa 1 es el símbolo. Esto incluye traducir bits a señales de electricidad, luz o radio y controlar las tarifas a las que se envían a través del medio elegido."
+    },
+    {
+      "ref": "Check Point — OSI capa de enlace de datos (capa 2)",
+      "texto": "La capa de enlace de datos rompe los datos que se van a transmitir en tramas para su transmisión en la capa física. También administra conexiones entre dos nodos diferentes, incluida la configuración de la conexión, la identificación y corrección de cualquier error de bit que ocurra en la capa física y la terminación de la conexión una vez que se complete la sesión."
+    },
+    {
+      "ref": "Check Point — OSI capa de red (capa 3)",
+      "texto": "En la capa de red, el enfoque se expande desde un enlace punto a punto para incluir muchos nodos interconectados dentro de una red. Los dispositivos de capa de red operan con paquetes y son responsables de enrutar el tráfico a su destino en función de las direcciones IP."
+    },
+    {
+      "ref": "Check Point — OSI capa de transporte (capa 4)",
+      "texto": "La capa de transporte es la primera de cuatro capas host y el resto se conoce como capas multimedia. La PDU de la capa de transporte es el segmento o datagrama. Esta capa administra la transmisión de datos entre nodos, lo que incluye garantizar que los datos lleguen en la secuencia correcta y que se corrijan los errores. El Protocolo de Control de Transmisión (TCP) opera en la Capa 4."
+    },
+    {
+      "ref": "Check Point — OSI capa de sesión (capa 5)",
+      "texto": "La capa de sesión administra sesiones entre nodos y actúa sobre la PDU de datos. La administración de sesiones incluye configuración, autenticación, terminación y reconexiones."
+    },
+    {
+      "ref": "Check Point — OSI capa de presentación (capa 6)",
+      "texto": "La capa de presentación es la principal responsable de traducir datos de la red a los formatos esperados por una aplicación. Por ejemplo, la codificación y el cifrado de datos se gestionan en la Capa 6."
+    },
+    {
+      "ref": "Check Point — OSI capa de aplicación (capa 7)",
+      "texto": "La capa de aplicación incluye protocolos diseñados para usuarios finales. Por ejemplo, HTTP es un protocolo de capa 7 diseñado para transmitir datos entre un servidor web y un cliente."
+    },
+    {
+      "ref": "IBM — Modelo TCP/IP: las capas",
+      "texto": "Esta figura muestra las capas del protocolo TCP/IP. Empezando por la parte superior son: capa de aplicación, capa de transporte, capa de red, capa de interfaz de red y hardware."
+    },
+    {
+      "ref": "IBM — TCP/IP capa de transporte",
+      "texto": "En primer lugar, los programas de aplicación envían mensajes o corrientes de datos a uno de los protocolos de la capa de transporte de Internet, UDP (User Datagram Protocol) o TCP (Transmission Control Protocolo). Estos protocolos reciben los datos de la aplicación, los dividen en partes más pequeñas llamadas paquetes, añaden una dirección de destino y, a continuación, pasan los paquetes a la siguiente capa de protocolo, la capa de red de Internet."
+    },
+    {
+      "ref": "IBM — TCP/IP capa de red de Internet",
+      "texto": "La capa de red de Internet pone el paquete en un datagrama de IP (Internet Protocol), pone la cabecera y la cola de datagrama, decide dónde enviar el datagrama (directamente a un destino o a una pasarela) y pasa el datagrama a la capa de interfaz de red."
+    },
+    {
+      "ref": "IBM — TCP/IP capa de interfaz de red",
+      "texto": "La capa de interfaz de red acepta los datagramas IP y los transmite como tramas a través de un hardware de red específico, por ejemplo redes Ethernet o de Red en anillo."
+    },
+    {
+      "ref": "Check Point — TCP/IP capa de acceso a la red",
+      "texto": "Capa de acceso a la red: Esta capa combina las capas Físicas y de Enlace de Datos del modelo OSI. Ethernet, Token Ring, ATM y Frame Relay son ejemplos del conjunto de protocolos TCP/IP que operan en esta capa."
+    },
+    {
+      "ref": "Check Point — TCP/IP capa de Internet",
+      "texto": "Capa de Internet: La capa de Internet es equivalente a la capa de red en el modelo OSI. Esta capa está cubierta principalmente por el Protocolo de Internet (IP), pero ARP, IGMP e ICMP también operan en esta capa."
+    },
+    {
+      "ref": "INCIBE — Cortafuegos (firewall)",
+      "texto": "Sistema de seguridad compuesto o bien de programas (software) o de dispositivos hardware situados en los puntos limítrofes de una red que tienen el objetivo de permitir y limitar, el flujo de tráfico entre los diferentes ámbitos que protege sobre la base de un conjunto de normas y otros criterios. La funcionalidad básica de un cortafuego es asegurar que todas las comunicaciones entre la red e Internet se realicen conforme a las políticas de seguridad de la organización o corporación."
+    },
+    {
+      "ref": "INCIBE — Router (encaminador)",
+      "texto": "Es un dispositivo que distribuye tráfico de red entre dos o más diferentes redes. Un router está conectado al menos a dos redes, generalmente LAN o WAN y el tráfico que recibe procedente de una red lo redirige hacia la(s) otra(s) red(es). El router comprueba las direcciones de destino de los paquetes de información y decide por qué ruta serán enviados, para determinar el mejor camino emplean cabeceras y tablas de comparación."
+    },
+    {
+      "ref": "INCIBE — DNS",
+      "texto": "El término DNS, del inglés Domain Name Service, se refiere tanto al servicio de Nombres de Dominio, como al servidor que ofrece dicho servicio. El servicio DNS asocia un nombre de dominio con información variada relacionada con ese dominio. Su función más importante es traducir nombres inteligibles para las personas en direcciones IP asociados con los sistemas conectados a la red con el propósito de poder localizar y direccionar estos sistemas de una forma mucho más simple."
+    },
+    {
+      "ref": "INCIBE — Proxy",
+      "texto": "El proxy es tanto el equipo, como el software encargado de dar el servicio, que hacen de intermediario en las peticiones de los equipos de la redes LAN hacia Internet. Su cometido es de centralizar el tráfico entre Internet y una red privada, de forma que se evita que cada una de las máquinas de la red privada tenga que disponer necesariamente de una conexión directa a Internet y una dirección IP pública. A mismo tiempo un proxy puede proporcionar algunos mecanismos de seguridad (firewall o cortafuegos) que impiden accesos no autorizados desde el exterior hacia la red privada."
+    },
+    {
+      "ref": "INCIBE — Dirección MAC",
+      "texto": "Una dirección MAC, también conocida como dirección física, es un valor de 48 bits único e irrepetible que identifica todo dispositivo conectado a una red. Cada dispositivo tiene su propia dirección MAC determinada que es única a nivel mundial ya que es escrita directamente, en forma binaria, en el hardware del interfaz de red en el momento de su fabricación."
+    },
+    {
+      "ref": "INCIBE — Dirección IP",
+      "texto": "Las direcciones IP (del acrónimo inglés IP para Internet Protocol) son un número único e irrepetible con el cual se identifica a todo sistema conectado a una red. Las direcciones IP pueden ser públicas, si son accesibles directamente desde cualquier sistema conectado a Internet o privadas, si son internas a una red LAN y solo accesibles desde los equipos conectados a esa red privada."
+    },
+    {
+      "ref": "Microsoft — DHCP",
+      "texto": "El Protocolo de configuración dinámica de host (DHCP) es un protocolo cliente-servidor que proporciona automáticamente un host de protocolo de Internet (IP) con su dirección IP y otra información de configuración relacionada, como la máscara de subred y la puerta de enlace de predeterminada. DHCP permite a los hosts obtener la información de configuración de TCP/IP necesaria de un servidor DHCP."
+    },
+    {
+      "ref": "VAS Experts — Switch (conmutador de red)",
+      "texto": "Un switch, o conmutador de red, es un dispositivo que transfiere datos entre dispositivos dentro de una red de área local (LAN). El conmutador analiza las direcciones MAC y envía el tráfico únicamente al puerto requerido, en lugar de enviarlo a todos los dispositivos a la vez."
+    },
+    {
+      "ref": "Universidad de Huelva — Hub (concentrador)",
+      "texto": "Son los más básicos bloques de construcción para la conexión de ordenadores, servidores, y dispositivos periféricos en una red. Se utilizan como repetidores o concentradores. Toma cualquier señal entrante y la repite a todos los restantes puertos de salida. Los concentradores no logran dirigir el tráfico que llega a través de ellos, y cualquier paquete de entrada es transmitido a otro puerto (que no sea el puerto de entrada)."
+    },
+    {
+      "ref": "Oracle — Dirección IPv4 (32 bits)",
+      "texto": "La dirección IPv4 es un número de 32 bits que identifica de forma exclusiva una interfaz de red en un sistema. Una dirección IPv4 se escribe en dígitos decimales, y se divide en cuatro campos de 8 bits separados por puntos. Cada campo de 8 bits representa un byte de la dirección IPv4."
+    },
+    {
+      "ref": "Oracle — Dirección IPv6 (128 bits)",
+      "texto": "Una dirección IPv6 tiene un tamaño de 128 bits y se compone de ocho campos de 16 bits, cada uno de ellos unido por dos puntos. Cada campo debe contener un número hexadecimal, a diferencia de la notación decimal con puntos de las direcciones IPv4."
+    },
+    {
+      "ref": "Oracle — Clases de red IPv4",
+      "texto": "Los números del primer byte de la dirección IPv4 definen si la red es de clase A, B o C. Según la división de las clases IPv4, el intervalo de valores decimales del primer byte del número de red es: clase A 0–127, clase B 128–191, clase C 192–223. Por ejemplo, en una dirección de red de clase A, el primer byte está dedicado a la red y los tres últimos bytes al host. Para las redes de clase C se aplica la designación opuesta."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "seccion": 65,
+    "titulo": "Fuentes técnicas de referencia sobre sistemas operativos: definición y funciones y Linux (Red Hat), sistemas de archivos de Windows FAT/FAT32/NTFS/exFAT (Microsoft Learn), sistema de archivos APFS y formatos MS-DOS (FAT)/ExFAT (Apple) y almacenamiento de datos (Red Hat)",
+    "materia": "sistemas-operativos-fundamentos",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "IBM — ¿Qué es un sistema operativo? (sistemas operativos populares: Microsoft Windows, macOS, iOS y Android; y precedentes del Unix de tiempo compartido): https://www.ibm.com/es-es/think/topics/operating-systems (consultado 04/08/2026) — iOS, Android, Windows, macOS, Unix",
+      "Red Hat — 1.4. El sistema de archivos ext4 (Gestión de sistemas de archivos, RHEL 8): https://docs.redhat.com/es/documentation/red_hat_enterprise_linux/8/html/managing_file_systems/the-ext4-file-system_overview-of-available-file-systems (consultado 04/08/2026) — ext4",
+      "Apple — Formatos del sistema de archivos disponibles en Utilidad de Discos en el Mac (versión macOS Monterey 12, que incluye Mac OS Plus / HFS Plus): https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/21.0/mac/12.0 (consultado 04/08/2026) — Mac OS Plus (HFS+)",
+      "Red Hat — Linux: qué es, sus elementos y cómo funciona (incluye «Definición de sistema operativo» e «Interfaz gráfica de usuario (GUI) y línea de comandos (CLI)»): https://www.redhat.com/es/topics/linux/what-is-linux (consultado 04/08/2026)",
+      "Red Hat — ¿Qué es el kernel Linux? y ¿Cuáles son sus funciones? (introducción al kernel y sus cuatro tareas: memoria, procesos, controladores de dispositivos, seguridad y llamadas al sistema): https://www.redhat.com/es/topics/linux/what-is-the-linux-kernel (consultado 04/08/2026)",
+      "Red Hat — Almacenamiento de datos: qué es y qué tipos hay (definición, historia HDD/SSD y almacenamiento en archivos, bloques y objetos): https://www.redhat.com/es/topics/data-storage (consultado 04/08/2026)",
+      "Microsoft Learn — Información general sobre los sistemas de archivos FAT, HPFS y NTFS (FAT, nomenclatura 8.3, límites, FAT32, NTFS recuperable, nombres de 255 caracteres): https://learn.microsoft.com/es-es/troubleshoot/windows-client/backup-and-storage/fat-hpfs-and-ntfs-file-systems (consultado 04/08/2026)",
+      "Microsoft Learn — Introducción a NTFS (sistema de archivos predeterminado de Windows moderno): https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview (consultado 04/08/2026)",
+      "Microsoft Learn — Especificación del sistema de archivos exFAT (sucesor de FAT32; 64 bits; clústeres de hasta 32 MB): https://learn.microsoft.com/es-es/windows/win32/fileio/exfat-specification (consultado 04/08/2026)",
+      "Apple — Formatos del sistema de archivos disponibles en Utilidad de Discos en el Mac (APFS por omisión de macOS 10.13 o posterior; MS-DOS (FAT) hasta 32 GB; ExFAT para más de 32 GB): https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac (consultado 04/08/2026)"
+    ],
+    "tipo_fuente": "autoridad",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "sistemas-operativos-2.json",
+      "sistemas-operativos.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "IBM — iOS",
+      "texto": "Apple iOS es un sistema operativo móvil propietario que se ejecuta en dispositivos móviles de Apple, como iPhones y iPads."
+    },
+    {
+      "ref": "IBM — Android",
+      "texto": "Desarrollado por Google, Android es un sistema operativo móvil de código abierto ampliamente utilizado en dispositivos de teléfonos inteligentes personales y empresariales."
+    },
+    {
+      "ref": "IBM — Microsoft Windows",
+      "texto": "Microsoft Windows es uno de los sistemas operativos más utilizados a nivel mundial para uso personal y empresarial. Reconocido por su interfaz fácil de usar y versatilidad, es compatible con varias aplicaciones de software, desde herramientas de productividad como Microsoft Office hasta programas especializados para juegos, ingeniería y diseño."
+    },
+    {
+      "ref": "IBM — macOS",
+      "texto": "MacOS (anteriormente llamado OS X) es un sistema operativo propietario similar a Unix diseñado para ejecutarse en ordenadores de sobremesa, ordenadores portátiles y estaciones de trabajo de Apple (por ejemplo, iMac, MacBook, MacBook Pro)."
+    },
+    {
+      "ref": "IBM — Unix (precedentes)",
+      "texto": "El desarrollo del sistema operativo Unix de tiempo compartido en los años 60 y 70 sentó importantes precedentes para los sistemas operativos modernos al introducir conceptos como la multitarea, la portabilidad y un sistema de archivos jerárquico, que son fundamentales para los sistemas actuales."
+    },
+    {
+      "ref": "Red Hat — Sistema de archivos ext4 (definición)",
+      "texto": "El sistema de archivos ext4 es la cuarta generación de la familia de sistemas de archivos ext. Fue el sistema de archivos por defecto en Red Hat Enterprise Linux 6."
+    },
+    {
+      "ref": "Red Hat — ext4 compatibilidad con ext2 y ext3",
+      "texto": "El controlador ext4 puede leer y escribir en los sistemas de archivos ext2 y ext3, pero el formato del sistema de archivos ext4 no es compatible con los controladores ext2 y ext3."
+    },
+    {
+      "ref": "Red Hat — ext4 características",
+      "texto": "ext4 añade varias características nuevas y mejoradas, como: Tamaño del sistema de archivos soportado hasta 50 TiB, Metadatos basados en el alcance, Asignación retardada, Suma de comprobación del diario, Gran soporte de almacenamiento."
+    },
+    {
+      "ref": "Red Hat — ext4 asignación retardada",
+      "texto": "La asignación retardada permite que el sistema de archivos posponga la selección de la ubicación permanente para los datos de usuario recién escritos hasta que los datos se descarguen en el disco."
+    },
+    {
+      "ref": "Red Hat — ext4 reparación fsck",
+      "texto": "El tiempo de reparación del sistema de archivos mediante la utilidad fsck en ext4 es mucho más rápido que en ext2 y ext3. Algunas reparaciones de sistemas de archivos han demostrado un aumento del rendimiento de hasta seis veces."
+    },
+    {
+      "ref": "Apple — Mac OS Plus (versiones)",
+      "texto": "Mac OS Plus: Sistema de archivos usado por macOS 10.12 y versiones anteriores."
+    },
+    {
+      "ref": "Apple — Mac OS Plus (con registro) HFS Plus",
+      "texto": "Mac OS Plus (con registro): Utiliza el formato Mac (HFS Plus con registro) para proteger la integridad del sistema de archivos jerárquico. Elige esta opción si no necesitas que el formato esté encriptado ni que distinga entre mayúsculas y minúsculas."
+    },
+    {
+      "ref": "Apple — Mac OS Plus (mayús./minús.)",
+      "texto": "Mac OS Plus (mayús./minús., con registro): Utiliza el formato Mac y distingue las mayúsculas y minúsculas de los nombres de las carpetas. Por ejemplo, las carpetas “Tareas” y “TAREAS” son diferentes."
+    },
+    {
+      "ref": "Red Hat — Definición de sistema operativo",
+      "texto": "Un SO es un software que gestiona directamente el hardware y los recursos de un sistema, como la CPU, la memoria y el almacenamiento. Se ubica entre las aplicaciones y el hardware y conecta todo el software con los recursos físicos que llevan a cabo el trabajo."
+    },
+    {
+      "ref": "Red Hat — Interfaz de usuario: GUI y CLI",
+      "texto": "Generalmente, cuando utilizas un SO, le proporcionas los comandos a la computadora en una de estas dos maneras: con una interfaz gráfica de usuario (GUI) o con la línea de comandos (CLI). Una GUI hace referencia a todo lo que puedes ver y con lo que puedes interactuar cuando inicias el sistema operativo, como los menús, las ventanas y los iconos del escritorio. Las tareas más complejas suelen realizarse con la línea de comandos, que otorga acceso directo a la computadora."
+    },
+    {
+      "ref": "Red Hat — Kernel de Linux (introducción)",
+      "texto": "El kernel Linux es el elemento principal de los sistemas operativos (SO) Linux, y es la interfaz fundamental entre el hardware de una computadora y sus procesos. Los comunica entre sí y gestiona los recursos de la manera más eficiente posible."
+    },
+    {
+      "ref": "Red Hat — Funciones del kernel",
+      "texto": "El kernel cumple cuatro tareas: Gestión de la memoria: supervisa cuánta memoria se utiliza para almacenar qué tipo de elementos, así como el lugar en que los guarda. Gestión de los procesos: determina qué procesos pueden usar la unidad central de procesamiento (CPU), cuándo y durante cuánto tiempo. Controladores de dispositivos: actúa como mediador o intérprete entre el hardware y los procesos. Seguridad y llamadas al sistema: recibe solicitudes de servicio por parte de los procesos."
+    },
+    {
+      "ref": "Red Hat — Elementos de Linux: el kernel",
+      "texto": "Kernel: es el elemento base del SO, y sin él no funciona el sistema. Gestiona los recursos y se comunica con el hardware. Se encarga de gestionar la memoria, los procesos y los archivos."
+    },
+    {
+      "ref": "Red Hat — ¿Qué es Linux?",
+      "texto": "Linux es un sistema operativo (SO) open source que creó Linus Torvalds en 1991. Todos los sistemas operativos basados en Linux incluyen el kernel, que gestiona los recursos de hardware, y un conjunto de paquetes de software que conforman el resto del SO. Linux se diseñó para que se parezca a UNIX, pero ha evolucionado para ejecutarse en una gran variedad de sistemas de hardware, desde teléfonos hasta supercomputadoras."
+    },
+    {
+      "ref": "Red Hat — Linux y el open source (GPL)",
+      "texto": "Linux es un sistema operativo open source libre que se lanza con una Licencia Pública General (GPL) de GNU. Cualquiera puede ejecutar, estudiar, modificar o redistribuir el código fuente, e incluso comercializar las copias de su código modificado, siempre y cuando lo haga con la misma licencia."
+    },
+    {
+      "ref": "Red Hat — Almacenamiento de datos (definición)",
+      "texto": "El almacenamiento de datos es la recopilación y conservación de la información digital, es decir, de los bits y bytes que se encuentran detrás de las aplicaciones, los protocolos de red, los documentos, el contenido multimedia, las libretas de direcciones y las preferencias de los usuarios, entre otros."
+    },
+    {
+      "ref": "Red Hat — Historia del almacenamiento: HDD y SSD",
+      "texto": "Los disquetes eran el único dispositivo de almacenamiento permanente disponible hasta que bajó el precio de las unidades de disco duro (HDD). Las unidades de disco duro se convirtieron en discos compactos (CD) en la década de 1980, y las unidades de estado sólido (SSD) reemplazaron a los discos giratorios por chips y memorias flash sólidos."
+    },
+    {
+      "ref": "Red Hat — Tipos de almacenamiento: archivos, bloques y objetos",
+      "texto": "El almacenamiento en archivos organiza los datos como archivos jerárquicos que los usuarios pueden abrir y explorar en su totalidad. En el almacenamiento en bloques, los volúmenes de almacenamiento se dividen en instancias individuales conocidas como bloques. Los datos se dividen en distintas unidades denominadas objetos y se alojan en un solo repositorio, en lugar de conservarse como archivos en carpetas o como bloques en servidores."
+    },
+    {
+      "ref": "Microsoft — Sistema de archivos FAT",
+      "texto": "El sistema de archivos FAT se caracteriza por la tabla de asignación de archivos (FAT), que es realmente una tabla que reside en la parte superior del volumen. Para proteger el volumen, se conservan dos copias de FAT en caso de que uno se dañe."
+    },
+    {
+      "ref": "Microsoft — FAT: nomenclatura, límites y FAT32",
+      "texto": "FAT usa la convención tradicional de nomenclatura de archivos 8.3 y todos los nombres de archivo deben crearse con el juego de caracteres ASCII. Las particiones FAT tienen un tamaño limitado a un máximo de 4 Gigabytes (GB) en Windows NT y 2 GB en MS-DOS. La compatibilidad con el sistema de archivos FAT32 se puso a disposición en Windows 98/Windows 95 OSR2 y Windows 2000."
+    },
+    {
+      "ref": "Microsoft — NTFS (introducción)",
+      "texto": "El nuevo sistema de archivos de tecnología (NTFS) es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows. Proporciona características avanzadas, incluidos descriptores de seguridad, cifrado, cuotas de disco y compatibilidad con metadatos enriquecidos, lo que mejora la seguridad y la administración de datos."
+    },
+    {
+      "ref": "Microsoft — NTFS: recuperable y nombres de archivo",
+      "texto": "NTFS es un sistema de archivos recuperable porque realiza un seguimiento de las transacciones en el sistema de archivos. Los nombres de archivo y directorio pueden tener hasta 255 caracteres, incluidas las extensiones."
+    },
+    {
+      "ref": "Microsoft — Sistema de archivos exFAT",
+      "texto": "El sistema de archivos exFAT es el sucesor de FAT32 en la familia FAT de sistemas de archivos. El sistema de archivos exFAT usa 64 bits para describir el tamaño de archivo, lo que permite a las aplicaciones que dependen de archivos muy grandes. El sistema de archivos exFAT también permite clústeres de hasta 32 MB, lo que permite de forma eficaz dispositivos de almacenamiento muy grandes."
+    },
+    {
+      "ref": "Apple — Sistema de archivos de Apple (APFS)",
+      "texto": "El sistema de archivos de Apple (APFS) es el sistema de archivos por omisión de ordenadores Mac con macOS 10.13 o posterior. Aunque el sistema APFS está optimizado para el almacenamiento en Flash o SSD utilizado en los últimos ordenadores Mac, también se puede utilizar en sistemas más antiguos con unidades de disco duro tradicionales (HDD) y unidades de almacenamiento externas conectadas directamente."
+    },
+    {
+      "ref": "Apple — Formatos compatibles con Windows (MS-DOS FAT y ExFAT)",
+      "texto": "MS-DOS (FAT): Se utiliza para los volúmenes de Windows de hasta 32 GB. ExFAT: Se utiliza para los volúmenes de Windows de más de 32 GB."
+    }
+  ]
+}

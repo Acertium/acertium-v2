@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "seccion": 62,
+    "titulo": "Gramática de la lengua española (RAE-ASALE): Glosario de términos gramaticales y Nueva gramática básica de la lengua española",
+    "materia": "gramatica-rae",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "RAE-ASALE, Glosario de términos gramaticales (GTG), versión 1.0 en línea: entrada «sufijo» — https://www.rae.es/gtg/sufijo [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entrada «nombre» (sustantivo) — https://www.rae.es/gtg/nombre [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entradas «nombre contable», «nombre no contable», «nombre colectivo» — https://www.rae.es/gtg/nombre-contable · https://www.rae.es/gtg/nombre-no-contable · https://www.rae.es/gtg/nombre-colectivo [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entrada «pronombre» — https://www.rae.es/gtg/pronombre [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entrada «adjetivo» — https://www.rae.es/gtg/adjetivo [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entradas «grado positivo», «grado comparativo», «grado superlativo» — https://www.rae.es/gtg/grado-positivo · https://www.rae.es/gtg/grado-comparativo · https://www.rae.es/gtg/grado-superlativo [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entrada «adverbio» — https://www.rae.es/gtg/adverbio [Consulta: 2026-08-04]",
+      "RAE-ASALE, Nueva gramática básica de la lengua española (NGB): 14.2 clases de adverbios según su significado — https://www.rae.es/gramática-básica/el-adverbio/clases-de-adverbios-según-su-significado [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entradas «verbo», «modo», «modo indicativo», «(modo) subjuntivo», «(modo) imperativo», «conjugación» — https://www.rae.es/gtg/verbo · https://www.rae.es/gtg/modo · https://www.rae.es/gtg/modo-indicativo · https://www.rae.es/gtg/modo-subjuntivo · https://www.rae.es/gtg/modo-imperativo · https://www.rae.es/gtg/conjugación [Consulta: 2026-08-04]",
+      "RAE-ASALE, NGB: 15.6.1 modo y subordinación (los tres modos del español) — https://www.rae.es/gramática-básica/el-verbo/modo-y-subordinación/introducción [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entradas «preposición», «conjunción», «conjunción coordinante», «conjunción subordinante», «palabra invariable» — https://www.rae.es/gtg/preposición · https://www.rae.es/gtg/conjunción · https://www.rae.es/gtg/conjunción-coordinante · https://www.rae.es/gtg/conjunción-subordinante · https://www.rae.es/gtg/palabra-invariable [Consulta: 2026-08-04]",
+      "RAE-ASALE, GTG: entradas «oración», «sujeto», «predicado», «oración simple», «oración compuesta», «oración coordinada», «oración subordinada» — https://www.rae.es/gtg/oración · https://www.rae.es/gtg/sujeto · https://www.rae.es/gtg/predicado · https://www.rae.es/gtg/oración-simple · https://www.rae.es/gtg/oración-compuesta · https://www.rae.es/gtg/oración-coordinada · https://www.rae.es/gtg/oración-subordinada [Consulta: 2026-08-04]",
+      "RAE-ASALE, NGB: 24.1 la modalidad — tipos de modalidad (clases de oraciones según la actitud del hablante) — https://www.rae.es/gramática-básica/la-modalidad-la-negación/la-modalidad/tipos-de-modalidad [Consulta: 2026-08-04]"
+    ],
+    "tipo_fuente": "autoridad",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "gramatica-rae.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "GTG sufijo — definición",
+      "texto": "El sufijo es un afijo derivativo que se pospone a una base de derivación. Los sufijos suelen modificar la categoría y el significado de la base a la que se adjuntan."
+    },
+    {
+      "ref": "GTG sufijo — clases según la categoría",
+      "texto": "Los sufijos se pueden clasificar en función de la categoría que aportan: son nominalizadores o nominales los que forman nombres; adjetivadores o adjetivales los que dan lugar a adjetivos, y verbalizadores o verbales los que construyen verbos."
+    },
+    {
+      "ref": "GTG nombre — definición del sustantivo",
+      "texto": "El sustantivo, también llamado nombre, es la clase de palabras que designa entidades de muy diversa naturaleza: personas, animales, lugares, puntos e intervalos temporales, sucesos o eventos y otras muchas entidades materiales o inmateriales."
+    },
+    {
+      "ref": "GTG nombre contable",
+      "texto": "El nombre contable es el nombre común que designa entidades que se pueden enumerar, por lo que admiten combinaciones con los determinantes numerales cardinales."
+    },
+    {
+      "ref": "GTG nombre no contable",
+      "texto": "El nombre no contable es el nombre común que denota una entidad que se interpreta como sustancia o materia, en lugar de como ser individual."
+    },
+    {
+      "ref": "GTG nombre colectivo",
+      "texto": "El nombre colectivo es el nombre común contable que, en singular, designa un conjunto formado por entidades análogas, como arboleda (conjunto de árboles) o alumnado (conjunto de alumnos)."
+    },
+    {
+      "ref": "GTG pronombre — definición",
+      "texto": "El pronombre es la clase de palabras cuyos elementos se emplean para referirse a las personas, los animales o las cosas sin nombrarlos o sin manifestar el contenido léxico que les corresponde."
+    },
+    {
+      "ref": "GTG adjetivo — definición",
+      "texto": "El adjetivo es la clase de palabras que modifica al sustantivo y se predica de él, aportando diversos significados, tales como propiedades, cualidades u otras informaciones relativas a la entidad designada por el sustantivo."
+    },
+    {
+      "ref": "GTG grado positivo",
+      "texto": "El grado positivo es el grado del adjetivo o del adverbio en el que se expresa, sin cuantificación comparativa o superlativa, la propiedad o cualidad denotada por estos."
+    },
+    {
+      "ref": "GTG grado comparativo",
+      "texto": "El grado comparativo es el grado del adjetivo o del adverbio en que se atribuye lo expresado en una comparación de dos o más entidades o propiedades."
+    },
+    {
+      "ref": "GTG grado superlativo",
+      "texto": "El grado superlativo es el grado del adjetivo o del adverbio en que se atribuye intensidad máxima a la cualidad denotada por estos."
+    },
+    {
+      "ref": "GTG adverbio — definición",
+      "texto": "El adverbio es la clase de palabras cuyos elementos son invariables y tónicos, están dotados generalmente de significado léxico y modifican el significado de varias categorías, principalmente de un verbo, de un adjetivo, de una oración o de una palabra de la misma clase."
+    },
+    {
+      "ref": "NGB 14.2 — clases de adverbios según su significado",
+      "texto": "Atendiendo a su significado, los adverbios se clasifican tradicionalmente en adverbios de lugar, de tiempo, de modo, de cantidad, de afirmación, de negación y de duda."
+    },
+    {
+      "ref": "GTG verbo — definición",
+      "texto": "El verbo es la clase de palabras caracterizada por admitir flexión de persona, número, tiempo, modo y aspecto. Desde el punto de vista sintáctico, el verbo es el núcleo del sintagma verbal."
+    },
+    {
+      "ref": "GTG modo — definición",
+      "texto": "El modo es la categoría gramatical que codifica en el verbo la actitud del hablante hacia el contenido de su mensaje, a la vez que constituye una marca de subordinación con determinados predicados."
+    },
+    {
+      "ref": "NGB 15.6.1 — los tres modos del español",
+      "texto": "En español se distinguen tres modos: el indicativo, el subjuntivo y el imperativo."
+    },
+    {
+      "ref": "GTG modo indicativo",
+      "texto": "El modo indicativo es propio de una oración declarativa, en la que el hablante presenta como real el estado de cosas que describe, percibe o comunica."
+    },
+    {
+      "ref": "GTG modo subjuntivo",
+      "texto": "El subjuntivo es un modo verbal característico de la subordinación, especialmente a predicados que introducen estados de cosas virtuales o presentados como conocidos."
+    },
+    {
+      "ref": "GTG modo imperativo",
+      "texto": "El imperativo es un modo verbal característico de una oración exhortativa. El imperativo es un modo defectivo, pues no establece las distinciones temporales del indicativo y del subjuntivo."
+    },
+    {
+      "ref": "GTG conjugación",
+      "texto": "La conjugación es la clase morfológica de los verbos que determina la forma que adoptan sus desinencias de tiempo, modo y aspecto. En español se distinguen tres conjugaciones verbales."
+    },
+    {
+      "ref": "GTG preposición — definición",
+      "texto": "Las preposiciones son palabras invariables y generalmente átonas cuyo significado básico, a menudo locativo o temporal, puede adquirir valores mucho más abstractos. Desde el punto de vista sintáctico, se caracterizan por introducir un complemento denominado término, con el que forman el sintagma preposicional."
+    },
+    {
+      "ref": "GTG conjunción — definición",
+      "texto": "La conjunción es la clase de palabras invariables, generalmente átonas, cuyos elementos sirven para conectar entre sí palabras, sintagmas u oraciones, sea colocándolos en un mismo plano jerárquico o estableciendo relaciones de dependencia entre ellos."
+    },
+    {
+      "ref": "GTG conjunción coordinante",
+      "texto": "Las conjunciones coordinantes unen elementos sintácticos equiparándolos jerárquicamente, es decir, estableciendo una relación de coordinación entre ellos; pueden ser copulativas, disyuntivas o adversativas."
+    },
+    {
+      "ref": "GTG conjunción subordinante",
+      "texto": "La conjunción subordinante es la conjunción que vincula elementos sintácticos entre los que establece relaciones de subordinación, haciendo depender el segmento que encabeza de otro elemento, a menudo verbal."
+    },
+    {
+      "ref": "GTG palabra invariable",
+      "texto": "Una palabra invariable es aquella que carece de flexión. Son palabras invariables los adverbios, las preposiciones, las conjunciones y las interjecciones."
+    },
+    {
+      "ref": "GTG oración — definición",
+      "texto": "La oración es la estructura de predicación en la que se pone en relación un sujeto con un predicado, representados en su forma prototípica por un sintagma nominal, el primero, y por un sintagma verbal, el segundo."
+    },
+    {
+      "ref": "GTG sujeto",
+      "texto": "El sujeto es el segmento de la oración contrapuesto al predicado en una estructura sintáctica bimembre; el sujeto designa la entidad de la que se predica algo."
+    },
+    {
+      "ref": "GTG predicado",
+      "texto": "El predicado es el segmento de la oración que aporta las propiedades, estados, procesos y acciones que se atribuyen a las personas o las cosas designadas por el sujeto."
+    },
+    {
+      "ref": "GTG oración simple",
+      "texto": "La oración simple es aquella que no contiene otra oración, sea como argumento o como adjunto de alguno de sus componentes; las oraciones simples contienen un solo predicado verbal."
+    },
+    {
+      "ref": "GTG oración compuesta",
+      "texto": "Las oraciones compuestas contienen más de un predicado verbal y, por tanto, constituyen oraciones que contienen a otras sintácticamente."
+    },
+    {
+      "ref": "GTG oración coordinada",
+      "texto": "Una oración coordinada es una oración compuesta formada por, al menos, dos oraciones relacionadas mediante una conjunción coordinante, sin que se establezca entre ellas una relación de jerarquía o dependencia sintáctica."
+    },
+    {
+      "ref": "GTG oración subordinada",
+      "texto": "Una oración subordinada es una oración que depende de un núcleo, sea o no verbal, o de algún otro segmento mayor, a los que complementa o modifica; en la subordinación se establece una relación jerárquica entre dos constituyentes."
+    },
+    {
+      "ref": "NGB 24.1 — clases de oraciones según la actitud del hablante",
+      "texto": "Atendiendo a la actitud del hablante, las oraciones se dividen en declarativas o enunciativas, interrogativas, exclamativas, imperativas o exhortativas, dubitativas y desiderativas u optativas."
+    }
+  ]
+}

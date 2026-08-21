@@ -4,7 +4,6 @@
       "seccion": 2,
       "titulo": "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil. [Inclusión parcial]",
       "referencia_boe": "BOE-A-1889-4763",
-      "ultima_modificacion": "3 de enero de 2025",
       "articulos": 162,
       "fichero": "seccion-002.json"
     },
@@ -12,7 +11,6 @@
       "seccion": 3,
       "titulo": "Constitución Española",
       "referencia_boe": "BOE-A-1978-31229",
-      "ultima_modificacion": "20 de mayo de 2026",
       "articulos": 169,
       "fichero": "seccion-003.json"
     },
@@ -20,7 +18,6 @@
       "seccion": 4,
       "titulo": "Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional",
       "referencia_boe": "BOE-A-1979-23709",
-      "ultima_modificacion": "2 de agosto de 2024",
       "articulos": 104,
       "fichero": "seccion-004.json"
     },
@@ -28,7 +25,6 @@
       "seccion": 5,
       "titulo": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo",
       "referencia_boe": "BOE-A-1981-10325",
-      "ultima_modificacion": "4 de noviembre de 2009",
       "articulos": 37,
       "fichero": "seccion-005.json"
     },
@@ -36,7 +32,6 @@
       "seccion": 6,
       "titulo": "Ley Orgánica 4/1981, de 1 de junio, de los estados de alarma, excepción y sitio",
       "referencia_boe": "BOE-A-1981-12774",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 36,
       "fichero": "seccion-006.json"
     },
@@ -44,7 +39,6 @@
       "seccion": 7,
       "titulo": "Ley Orgánica 9/2021, de 1 de julio, de aplicación del Reglamento (UE) 2017/1939 del Consejo, de 12 de octubre de 2017, por el que se establece una cooperación reforzada para la creación de la Fiscalía Europea. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2021-10957",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 20,
       "fichero": "seccion-007.json"
     },
@@ -52,7 +46,6 @@
       "seccion": 8,
       "titulo": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2015-10566",
-      "ultima_modificacion": "2 de agosto de 2024",
       "articulos": 166,
       "fichero": "seccion-008.json"
     },
@@ -60,7 +53,6 @@
       "seccion": 9,
       "titulo": "Ley 50/1997, de 27 de noviembre, del Gobierno",
       "referencia_boe": "BOE-A-1997-25336",
-      "ultima_modificacion": "3 de enero de 2025",
       "articulos": 29,
       "fichero": "seccion-009.json"
     },
@@ -68,7 +60,6 @@
       "seccion": 10,
       "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2015-11719",
-      "ultima_modificacion": "30 de julio de 2025",
       "articulos": 51,
       "fichero": "seccion-010.json"
     },
@@ -76,7 +67,6 @@
       "seccion": 11,
       "titulo": "Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior",
       "referencia_boe": "BOE-A-2024-3793",
-      "ultima_modificacion": "27 de abril de 2026",
       "articulos": 17,
       "fichero": "seccion-011.json"
     },
@@ -84,7 +74,6 @@
       "seccion": 12,
       "titulo": "Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía",
       "referencia_boe": "BOE-A-2023-17072",
-      "ultima_modificacion": "17 de agosto de 2023",
       "articulos": 28,
       "fichero": "seccion-012.json"
     },
@@ -92,7 +81,6 @@
       "seccion": 13,
       "titulo": "Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2015-8468",
-      "ultima_modificacion": "12 de noviembre de 2024",
       "articulos": 97,
       "fichero": "seccion-013.json"
     },
@@ -100,7 +88,6 @@
       "seccion": 14,
       "titulo": "Ley Orgánica 4/2010, de 20 de mayo, del Régimen disciplinario del Cuerpo Nacional de Policía",
       "referencia_boe": "BOE-A-2010-8115",
-      "ultima_modificacion": "29 de julio de 2015",
       "articulos": 50,
       "fichero": "seccion-014.json"
     },
@@ -108,7 +95,6 @@
       "seccion": 15,
       "titulo": "Real Decreto 853/2022, de 11 de octubre, por el que se aprueba el Reglamento de procesos selectivos y formación de la Policía Nacional",
       "referencia_boe": "BOE-A-2022-16582",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 48,
       "fichero": "seccion-015.json"
     },
@@ -116,7 +102,6 @@
       "seccion": 16,
       "titulo": "Orden INT/632/2024, de 20 de junio, por la que se establecen normas para la aplicación y desarrollo del Reglamento de procesos selectivos y formación de la Policía Nacional, aprobado por el Real Decreto 853/2022, de 11 de octubre",
       "referencia_boe": "BOE-A-2024-12811",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 66,
       "fichero": "seccion-016.json"
     },
@@ -124,7 +109,6 @@
       "seccion": 17,
       "titulo": "Orden INT/430/2014, de 10 de marzo, por la que se regula la uniformidad en el Cuerpo Nacional de Policía",
       "referencia_boe": "BOE-A-2014-2997",
-      "ultima_modificacion": "30 de abril de 2026",
       "articulos": 34,
       "fichero": "seccion-017.json"
     },
@@ -132,7 +116,6 @@
       "seccion": 18,
       "titulo": "Real Decreto 49/2024, de 16 de enero, por el que se aprueba el Reglamento de los centros docentes de la Policía Nacional",
       "referencia_boe": "BOE-A-2024-814",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 37,
       "fichero": "seccion-018.json"
     },
@@ -140,7 +123,6 @@
       "seccion": 19,
       "titulo": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad",
       "referencia_boe": "BOE-A-1986-6859",
-      "ultima_modificacion": "29 de julio de 2015",
       "articulos": 54,
       "fichero": "seccion-019.json"
     },
@@ -148,7 +130,6 @@
       "seccion": 20,
       "titulo": "Real Decreto 555/2011, de 20 de abril, por el que se establece el régimen electoral del Consejo de Policía",
       "referencia_boe": "BOE-A-2011-7173",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 31,
       "fichero": "seccion-020.json"
     },
@@ -156,7 +137,6 @@
       "seccion": 21,
       "titulo": "Real Decreto 769/1987, de 19 de junio, sobre regulación de la Policía Judicial",
       "referencia_boe": "BOE-A-1987-14578",
-      "ultima_modificacion": "23 de diciembre de 2024",
       "articulos": 45,
       "fichero": "seccion-021.json"
     },
@@ -164,7 +144,6 @@
       "seccion": 22,
       "titulo": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
       "referencia_boe": "BOE-A-2000-544",
-      "ultima_modificacion": "19 de marzo de 2025",
       "articulos": 92,
       "fichero": "seccion-022.json"
     },
@@ -172,7 +151,6 @@
       "seccion": 23,
       "titulo": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
       "referencia_boe": "BOE-A-2024-24099",
-      "ultima_modificacion": "15 de abril de 2026",
       "articulos": 266,
       "fichero": "seccion-023.json"
     },
@@ -180,7 +158,6 @@
       "seccion": 24,
       "titulo": "Real Decreto 240/2007, de 16 de febrero, sobre entrada, libre circulación y residencia en España de ciudadanos de los Estados miembros de la Unión Europea y de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo",
       "referencia_boe": "BOE-A-2007-4184",
-      "ultima_modificacion": "9 de noviembre de 2015",
       "articulos": 20,
       "fichero": "seccion-024.json"
     },
@@ -188,7 +165,6 @@
       "seccion": 25,
       "titulo": "Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria",
       "referencia_boe": "BOE-A-2009-17242",
-      "ultima_modificacion": "1 de marzo de 2023",
       "articulos": 48,
       "fichero": "seccion-025.json"
     },
@@ -196,7 +172,6 @@
       "seccion": 26,
       "titulo": "Real Decreto 203/1995, de 10 de febrero, por el que se aprueba el Reglamento de aplicación de la Ley 5/1984, de 26 de marzo, reguladora del derecho de asilo y de la condición de refugiado, modificada por la Ley 9/1994, de 19 de mayo",
       "referencia_boe": "BOE-A-1995-5542",
-      "ultima_modificacion": "7 de mayo de 2005",
       "articulos": 41,
       "fichero": "seccion-026.json"
     },
@@ -204,7 +179,6 @@
       "seccion": 27,
       "titulo": "Real Decreto 865/2001, de 20 de julio, por el que se aprueba el Reglamento de reconocimiento del estatuto de apátrida",
       "referencia_boe": "BOE-A-2001-14166",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 19,
       "fichero": "seccion-027.json"
     },
@@ -212,7 +186,6 @@
       "seccion": 28,
       "titulo": "Real Decreto 1325/2003, de 24 de octubre, por el que se aprueba el Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2003-19714",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 27,
       "fichero": "seccion-028.json"
     },
@@ -220,7 +193,6 @@
       "seccion": 29,
       "titulo": "Real Decreto 220/2022, de 29 de marzo, por el que se aprueba el Reglamento por el que se regula el sistema de acogida en materia de protección internacional",
       "referencia_boe": "BOE-A-2022-4978",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 54,
       "fichero": "seccion-029.json"
     },
@@ -228,7 +200,6 @@
       "seccion": 30,
       "titulo": "Ley 5/2014, de 4 de abril, de Seguridad Privada",
       "referencia_boe": "BOE-A-2014-3649",
-      "ultima_modificacion": "27 de mayo de 2021",
       "articulos": 72,
       "fichero": "seccion-030.json"
     },
@@ -236,7 +207,6 @@
       "seccion": 31,
       "titulo": "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana",
       "referencia_boe": "BOE-A-2015-3442",
-      "ultima_modificacion": "23 de febrero de 2021",
       "articulos": 54,
       "fichero": "seccion-031.json"
     },
@@ -244,7 +214,6 @@
       "seccion": 32,
       "titulo": "Ley 8/2011, de 28 de abril, por la que se establecen medidas para la protección de las infraestructuras críticas",
       "referencia_boe": "BOE-A-2011-7630",
-      "ultima_modificacion": "29 de julio de 2022",
       "articulos": 18,
       "fichero": "seccion-032.json"
     },
@@ -252,23 +221,22 @@
       "seccion": 33,
       "titulo": "Real Decreto 704/2011, de 20 de mayo, por el que se aprueba el Reglamento de protección de las infraestructuras críticas",
       "referencia_boe": "BOE-A-2011-8849",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 37,
       "fichero": "seccion-033.json"
     },
     {
       "seccion": 34,
-      "titulo": "Orden PCI/487/2019, de 26 de abril, por la que se publica la Estrategia Nacional de Ciberseguridad 2019, aprobada por el Consejo de Seguridad Nacional",
+      "titulo": "Orden PCI/487/2019, por la que se publica la Estrategia Nacional de Ciberseguridad 2019",
+      "materia": "orden-pci-487-2019-estrategia-nacional-ciberseguridad",
       "referencia_boe": "BOE-A-2019-6347",
-      "ultima_modificacion": "sin modificaciones",
-      "articulos": 0,
-      "fichero": "seccion-034.json"
+      "articulos": 23,
+      "fichero": "seccion-034.json",
+      "procedencia": "lote"
     },
     {
       "seccion": 35,
       "titulo": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal.",
       "referencia_boe": "BOE-A-1995-25444",
-      "ultima_modificacion": "9 de abril de 2026",
       "articulos": 723,
       "fichero": "seccion-035.json"
     },
@@ -276,7 +244,6 @@
       "seccion": 36,
       "titulo": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial. [Inclusión parcial]",
       "referencia_boe": "BOE-A-1985-12666",
-      "ultima_modificacion": "17 de febrero de 2025",
       "articulos": 220,
       "fichero": "seccion-036.json"
     },
@@ -284,7 +251,6 @@
       "seccion": 37,
       "titulo": "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal.",
       "referencia_boe": "BOE-A-1882-6036",
-      "ultima_modificacion": "9 de abril de 2026",
       "articulos": 1037,
       "fichero": "seccion-037.json"
     },
@@ -292,7 +258,6 @@
       "seccion": 38,
       "titulo": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus»",
       "referencia_boe": "BOE-A-1984-11620",
-      "ultima_modificacion": "14 de noviembre de 2024",
       "articulos": 9,
       "fichero": "seccion-038.json"
     },
@@ -300,7 +265,6 @@
       "seccion": 39,
       "titulo": "Ley 50/1981, de 30 de diciembre, por la que se regula el Estatuto Orgánico del Ministerio Fiscal. [Inclusión parcial]",
       "referencia_boe": "BOE-A-1982-837",
-      "ultima_modificacion": "3 de enero de 2025",
       "articulos": 33,
       "fichero": "seccion-039.json"
     },
@@ -308,7 +272,6 @@
       "seccion": 40,
       "titulo": "Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2015-4606",
-      "ultima_modificacion": "7 de septiembre de 2022",
       "articulos": 35,
       "fichero": "seccion-040.json"
     },
@@ -316,7 +279,6 @@
       "seccion": 41,
       "titulo": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2004-21760",
-      "ultima_modificacion": "7 de septiembre de 2022",
       "articulos": 44,
       "fichero": "seccion-041.json"
     },
@@ -324,7 +286,6 @@
       "seccion": 42,
       "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2007-6115",
-      "ultima_modificacion": "2 de agosto de 2024",
       "articulos": 78,
       "fichero": "seccion-042.json"
     },
@@ -332,7 +293,6 @@
       "seccion": 43,
       "titulo": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2023-5366",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 82,
       "fichero": "seccion-043.json"
     },
@@ -340,7 +300,6 @@
       "seccion": 44,
       "titulo": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales",
       "referencia_boe": "BOE-A-1995-24292",
-      "ultima_modificacion": "9 de abril de 2026",
       "articulos": 55,
       "fichero": "seccion-044.json"
     },
@@ -348,7 +307,6 @@
       "seccion": 45,
       "titulo": "Real Decreto 2/2006, de 16 de enero, por el que se establecen normas sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía",
       "referencia_boe": "BOE-A-2006-624",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 19,
       "fichero": "seccion-045.json"
     },
@@ -356,7 +314,6 @@
       "seccion": 46,
       "titulo": "Real Decreto 67/2010, de 29 de enero, de adaptación de la legislación de Prevención de Riesgos Laborales a la Administración General del Estado",
       "referencia_boe": "BOE-A-2010-2161",
-      "ultima_modificacion": "24 de diciembre de 2014",
       "articulos": 11,
       "fichero": "seccion-046.json"
     },
@@ -364,7 +321,6 @@
       "seccion": 47,
       "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2018-16673",
-      "ultima_modificacion": "27 de diciembre de 2025",
       "articulos": 98,
       "fichero": "seccion-047.json"
     },
@@ -372,7 +328,6 @@
       "seccion": 48,
       "titulo": "Ley Orgánica 7/2021, de 26 de mayo, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales y de ejecución de sanciones penales. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2021-8806",
-      "ultima_modificacion": "29 de julio de 2022",
       "articulos": 65,
       "fichero": "seccion-048.json"
     },
@@ -380,7 +335,6 @@
       "seccion": 49,
       "titulo": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo, aprobado por las Mesas del Congreso y del Senado, a propuesta del Defensor del Pueblo, en su reunión conjunta de 6 de abril de 1983. [Inclusión parcial]",
       "referencia_boe": "BOE-A-1983-10613",
-      "ultima_modificacion": "1 de marzo de 2012",
       "articulos": 4,
       "fichero": "seccion-049.json"
     },
@@ -388,7 +342,6 @@
       "seccion": 50,
       "titulo": "Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas",
       "referencia_boe": "BOE-A-1993-6202",
-      "ultima_modificacion": "4 de abril de 2025",
       "articulos": 174,
       "fichero": "seccion-050.json"
     },
@@ -396,7 +349,6 @@
       "seccion": 51,
       "titulo": "Real Decreto 2822/1998, de 23 de diciembre, por el que se aprueba el Reglamento General de Vehículos.",
       "referencia_boe": "BOE-A-1999-1826",
-      "ultima_modificacion": "26 de junio de 2026",
       "articulos": 54,
       "fichero": "seccion-051.json"
     },
@@ -404,7 +356,6 @@
       "seccion": 52,
       "titulo": "Real Decreto 1428/2003, de 21 de noviembre, por el que se aprueba el Reglamento General de Circulación para la aplicación y desarrollo del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial, aprobado por el Real Decreto Legislativo 339/1990, de 2 de marzo. [Inclusión parcial]",
       "referencia_boe": "BOE-A-2003-23514",
-      "ultima_modificacion": "17 de junio de 2025",
       "articulos": 4,
       "fichero": "seccion-052.json"
     },
@@ -412,7 +363,6 @@
       "seccion": 53,
       "titulo": "Orden INT/2573/2015, de 30 de noviembre, por la que se determinan las especificaciones técnicas que deben reunir los vehículos destinados a la conducción de detenidos, presos y penados",
       "referencia_boe": "BOE-A-2015-13138",
-      "ultima_modificacion": "sin modificaciones",
       "articulos": 2,
       "fichero": "seccion-053.json"
     },
@@ -420,7 +370,6 @@
       "seccion": 54,
       "titulo": "Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención.",
       "referencia_boe": "BOE-A-1997-1853",
-      "ultima_modificacion": null,
       "articulos": 42,
       "fichero": "seccion-054.json"
     },
@@ -428,7 +377,6 @@
       "seccion": 55,
       "titulo": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia.",
       "referencia_boe": "BOE-A-2006-21990",
-      "ultima_modificacion": null,
       "articulos": 48,
       "fichero": "seccion-055.json"
     },
@@ -436,7 +384,6 @@
       "seccion": 56,
       "titulo": "Real Decreto 773/1997, de 30 de mayo, sobre disposiciones mínimas de seguridad y salud relativas a la utilización por los trabajadores de equipos de protección individual.",
       "referencia_boe": "BOE-A-1997-12735",
-      "ultima_modificacion": "8 de diciembre de 2021",
       "articulos": 10,
       "fichero": "seccion-056.json"
     },
@@ -444,7 +391,6 @@
       "seccion": 57,
       "titulo": "Real Decreto 1215/1997, de 18 de julio, por el que se establecen las disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo.",
       "referencia_boe": "BOE-A-1997-17824",
-      "ultima_modificacion": "13 de noviembre de 2004",
       "articulos": 6,
       "fichero": "seccion-057.json"
     },
@@ -452,17 +398,187 @@
       "seccion": 58,
       "titulo": "Instrucciones técnicas complementarias del Reglamento de Armas (ITC 1 a ITC 5), aprobadas por el artículo segundo del Real Decreto 726/2020, de 4 de agosto",
       "referencia_boe": "BOE-A-2020-9134",
-      "ultima_modificacion": "4 de abril de 2025",
       "articulos": 5,
       "fichero": "seccion-058.json"
     },
     {
       "seccion": 59,
       "titulo": "Constitución de la Organización Mundial de la Salud",
+      "materia": "constitucion-oms",
       "referencia_boe": "",
-      "ultima_modificacion": "15 de septiembre de 2005 (reforma WHA51.23)",
       "articulos": 93,
       "fichero": "seccion-059.json"
+    },
+    {
+      "seccion": 60,
+      "titulo": "Protocolos n.º 14 (Estrasburgo, 13-5-2004) y n.º 15 (Estrasburgo, 24-6-2013) de enmienda al Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales (Roma, 4-11-1950)",
+      "materia": "convenio-europeo-derechos-humanos",
+      "referencia_boe": "BOE-A-2021-7554",
+      "articulos": 44,
+      "fichero": "seccion-060.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 61,
+      "titulo": "Definiciones de la OMS (OMS/CIE) y la UNODC; convenios internacionales de fiscalización de 1961 (estupefacientes) y 1971 (sustancias psicotrópicas); Informe 2024 del Observatorio Español de las Drogas y las Adicciones (OEDA/PNSD)",
+      "materia": "drogodependencias-oms-unodc-oeda",
+      "referencia_boe": "",
+      "articulos": 33,
+      "fichero": "seccion-061.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 62,
+      "titulo": "Gramática de la lengua española (RAE-ASALE): Glosario de términos gramaticales y Nueva gramática básica de la lengua española",
+      "materia": "gramatica-rae",
+      "referencia_boe": "",
+      "articulos": 33,
+      "fichero": "seccion-062.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 63,
+      "titulo": "Ortografía de la lengua española (RAE-ASALE)",
+      "materia": "ortografia-rae",
+      "referencia_boe": "",
+      "articulos": 32,
+      "fichero": "seccion-063.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 64,
+      "titulo": "Declaración Universal de Derechos Humanos, 1948",
+      "materia": "declaracion-universal-derechos-humanos",
+      "referencia_boe": "",
+      "articulos": 31,
+      "fichero": "seccion-064.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 65,
+      "titulo": "Fuentes técnicas de referencia sobre sistemas operativos: definición y funciones y Linux (Red Hat), sistemas de archivos de Windows FAT/FAT32/NTFS/exFAT (Microsoft Learn), sistema de archivos APFS y formatos MS-DOS (FAT)/ExFAT (Apple) y almacenamiento de datos (Red Hat)",
+      "materia": "sistemas-operativos-fundamentos",
+      "referencia_boe": "",
+      "articulos": 30,
+      "fichero": "seccion-065.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 66,
+      "titulo": "Fuentes técnicas de referencia sobre redes informáticas: modelo OSI y modelo TCP/IP (Check Point, IBM), dispositivos de red (glosario INCIBE, Microsoft, VAS Experts, Universidad de Huelva) y direccionamiento IP (Oracle)",
+      "materia": "redes-informaticas-osi-tcpip",
+      "referencia_boe": "",
+      "articulos": 26,
+      "fichero": "seccion-066.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 67,
+      "titulo": "Glosario y recursos oficiales de ciberseguridad de INCIBE (glosario de términos 2021, temáticas, Guía de ciberataques de la OSI, blogs y dosieres de INCIBE)",
+      "materia": "glosario-ciberseguridad-incibe",
+      "referencia_boe": "",
+      "articulos": 25,
+      "fichero": "seccion-067.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 68,
+      "titulo": "Definiciones demográficas del INE (Indicadores Demográficos Básicos e Indicadores Urbanos/DEGURBA) y del Diccionario de la lengua española (RAE-ASALE, 23.ª ed.); conceptos de geografía humana, la ciudad y la sociedad de masas de fuentes académicas de consenso (Wikipedia en español; Ortega y Gasset, La rebelión de las masas, 1929)",
+      "materia": "geografia-humana-demografia-ine-rae",
+      "referencia_boe": "",
+      "articulos": 23,
+      "fichero": "seccion-068.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 69,
+      "titulo": "Convención contra la Tortura (1984), Protocolo facultativo (2002) y MNP del Defensor del Pueblo",
+      "materia": "convencion-contra-la-tortura",
+      "referencia_boe": "BOE-A-1987-25053",
+      "articulos": 22,
+      "fichero": "seccion-069.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 70,
+      "titulo": "Concepto y características de la globalización (Diccionario de la lengua española RAE-ASALE, 23.ª ed.; FMI, «La globalización: ¿amenaza u oportunidad?», 2000), sus consecuencias y reacciones; Movimiento Antiglobalización / altermundismo (fuente de consenso: Wikipedia en español) y Foro Social Mundial (Carta de Principios del FSM, 2001)",
+      "materia": "globalizacion-antiglobalizacion-foro-social-mundial",
+      "referencia_boe": "",
+      "articulos": 22,
+      "fichero": "seccion-070.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 71,
+      "titulo": "Glosario de la OIM sobre Migración (Términos fundamentales sobre migración, OIM/ONU), Parlamento Europeo (causas de la migración) e INE (Estadística de Migraciones y Cambios de Residencia, año 2024)",
+      "materia": "inmigracion-movimientos-migratorios",
+      "referencia_boe": "",
+      "articulos": 21,
+      "fichero": "seccion-071.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 72,
+      "titulo": "Concepto de seguridad y teorías explicativas de la delincuencia (GRUPO C, mixto): anclajes citables en la LO 4/2015 de protección de la seguridad ciudadana (BOE-A-2015-3442), la Ley 5/2014 de Seguridad Privada (BOE-A-2014-3649), la Declaración Universal de Derechos Humanos (art. 3) y el Diccionario de la lengua española (RAE-ASALE); teorías de la delincuencia como consenso académico (Beccaria, Lombroso, Merton, subcultura, etiquetado, asociación diferencial, aprendizaje social de Akers, control) referidas a la Encyclopaedia Britannica y a las obras primarias",
+      "materia": "seguridad-y-teorias-de-la-delincuencia",
+      "referencia_boe": "",
+      "articulos": 20,
+      "fichero": "seccion-072.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 73,
+      "titulo": "Cuestiones de Seguridad Vial — Manual II de la formación del Profesor de Formación Vial (DGT)",
+      "materia": "dgt-cuestiones-seguridad-vial",
+      "referencia_boe": "",
+      "articulos": 16,
+      "fichero": "seccion-073.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 74,
+      "titulo": "Principios éticos, valores y contravalores (Constitución Española arts. 1, 10 y 14; Declaración de Principios sobre la Tolerancia de la UNESCO, 1995; Diccionario de la lengua española RAE-ASALE; Berger y Luckmann; Ley 19/2007 contra la violencia en el deporte) y delitos de odio del Código Penal (arts. 22.4ª y 510)",
+      "materia": "etica-valores-contravalores-delitos-odio",
+      "referencia_boe": "",
+      "articulos": 16,
+      "fichero": "seccion-074.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 75,
+      "titulo": "Actitudes y valores sociales (psicología social): concepto de actitud (Allport, 1935; DLE RAE-ASALE), componentes de la actitud (Rosenberg y Hovland, 1960), funciones de las actitudes (Katz, 1960), estereotipo/prejuicio/discriminación/xenofobia/dogmatismo (DLE RAE-ASALE; Allport, 1954), personalidad autoritaria (Adorno y cols., 1950), dogmatismo (Rokeach, 1960) y grupos sociales (Cooley, 1909; Sumner, 1906)",
+      "materia": "actitudes-valores-sociales-psicologia-social",
+      "referencia_boe": "",
+      "articulos": 14,
+      "fichero": "seccion-075.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 76,
+      "titulo": "Doctrina de inteligencia del CNI (ciclo de Inteligencia y disciplinas de obtención) y glosario de ciberseguridad de INCIBE (OSINT, deep web y dark web)",
+      "materia": "inteligencia-osint-fuentes-abiertas",
+      "referencia_boe": "",
+      "articulos": 12,
+      "fichero": "seccion-076.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 77,
+      "titulo": "Curso de capacitación para el desempeño de funciones de nivel básico (INSST)",
+      "materia": "insst-nivel-basico",
+      "referencia_boe": "",
+      "articulos": 5,
+      "fichero": "seccion-077.json",
+      "procedencia": "lote"
+    },
+    {
+      "seccion": 78,
+      "titulo": "Agenda 2030 para el Desarrollo Sostenible (Resolución A/RES/70/1 de la Asamblea General de las Naciones Unidas)",
+      "materia": "agenda-2030-desarrollo-sostenible",
+      "referencia_boe": "",
+      "articulos": 4,
+      "fichero": "seccion-078.json",
+      "procedencia": "lote"
     }
   ]
 }

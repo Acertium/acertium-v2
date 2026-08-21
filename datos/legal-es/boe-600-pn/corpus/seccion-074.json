@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "seccion": 74,
+    "titulo": "Principios éticos, valores y contravalores (Constitución Española arts. 1, 10 y 14; Declaración de Principios sobre la Tolerancia de la UNESCO, 1995; Diccionario de la lengua española RAE-ASALE; Berger y Luckmann; Ley 19/2007 contra la violencia en el deporte) y delitos de odio del Código Penal (arts. 22.4ª y 510)",
+    "materia": "etica-valores-contravalores-delitos-odio",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "Código Penal (LO 10/1995), arts. 22.4ª y 510.1 y 2, redacción vigente dada por la LO 6/2022, de 12 de julio — BOE-A-1995-25444 / BOE-A-2022-11588 (consultado 2026-08-16)",
+      "Constitución Española, arts. 1.1, 10.1 y 14 — BOE-A-1978-31229 (consultado 2026-08-16)",
+      "UNESCO — Declaración de Principios sobre la Tolerancia, aprobada el 16/11/1995, art. 1.1 — https://www.unesco.org/en/legal-affairs/declaration-principles-tolerance (consultado 2026-08-16)",
+      "RAE-ASALE — Diccionario de la lengua española (DLE), s.v. «racismo», «fanatismo», «fundamentalismo», «sectarismo» — https://dle.rae.es (consultado 2026-08-16)",
+      "Berger, P. L. y Luckmann, T., La construcción social de la realidad (1966), capítulo III «La sociedad como realidad subjetiva» (socialización primaria y secundaria), Amorrortu",
+      "Ley 19/2007, de 11 de julio, contra la violencia, el racismo, la xenofobia y la intolerancia en el deporte, art. 1 — BOE-A-2007-13408 (consultado 2026-08-16)"
+    ],
+    "tipo_fuente": "consenso",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "etica-valores-odio.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "CE art. 1.1 — valores superiores",
+      "texto": "España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político."
+    },
+    {
+      "ref": "CE art. 10.1 — dignidad y libre desarrollo de la personalidad",
+      "texto": "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social."
+    },
+    {
+      "ref": "CE art. 14 — igualdad ante la ley",
+      "texto": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social."
+    },
+    {
+      "ref": "UNESCO — Declaración sobre la Tolerancia, art. 1.1",
+      "texto": "La tolerancia consiste en el respeto, la aceptación y el aprecio de la rica diversidad de las culturas de nuestro mundo, de nuestras formas de expresión y medios de ser humanos."
+    },
+    {
+      "ref": "Berger y Luckmann — socialización",
+      "texto": "La socialización primaria es la primera por la que el individuo atraviesa en la niñez y por medio de ella se convierte en miembro de la sociedad. La socialización secundaria es cualquier proceso posterior que induce al individuo ya socializado a nuevos sectores del mundo objetivo de su sociedad."
+    },
+    {
+      "ref": "RAE-DLE — racismo",
+      "texto": "Creencia que sostiene la superioridad de un grupo étnico sobre los demás, lo que conduce a la discriminación o persecución social."
+    },
+    {
+      "ref": "RAE-DLE — fanatismo",
+      "texto": "Apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas."
+    },
+    {
+      "ref": "RAE-DLE — fundamentalismo",
+      "texto": "Exigencia intransigente de sometimiento a una doctrina o práctica establecida."
+    },
+    {
+      "ref": "RAE-DLE — sectarismo",
+      "texto": "Fanatismo e intransigencia en la defensa de una idea o una ideología."
+    },
+    {
+      "ref": "Ley 19/2007 art. 1 — objeto",
+      "texto": "La Ley 19/2007 tiene por objeto la determinación de un conjunto de medidas dirigidas a la erradicación de la violencia, el racismo, la xenofobia y la intolerancia en el deporte."
+    },
+    {
+      "ref": "CP art. 22.4ª — agravante de discriminación",
+      "texto": "4.ª Cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación referente a la ideología, religión o creencias de la víctima, la etnia, raza o nación a la que pertenezca, su sexo, edad, orientación o identidad sexual o de género, razones de género, de aporofobia o de exclusión social, la enfermedad que padezca o su discapacidad, con independencia de que tales condiciones o circunstancias concurran efectivamente en la persona sobre la que recaiga la conducta."
+    },
+    {
+      "ref": "CP art. 510.1 — pena",
+      "texto": "Serán castigados con una pena de prisión de uno a cuatro años y multa de seis a doce meses:"
+    },
+    {
+      "ref": "CP art. 510.1.a — incitación al odio",
+      "texto": "a) Quienes públicamente fomenten, promuevan o inciten directa o indirectamente al odio, hostilidad, discriminación o violencia contra un grupo, una parte del mismo o contra una persona determinada por razón de su pertenencia a aquel, por motivos racistas, antisemitas, antigitanos u otros referentes a la ideología, religión o creencias, situación familiar, la pertenencia de sus miembros a una etnia, raza o nación, su origen nacional, su sexo, orientación o identidad sexual, por razones de género, aporofobia, enfermedad o discapacidad."
+    },
+    {
+      "ref": "CP art. 510.1.c — negación y enaltecimiento",
+      "texto": "c) Quienes públicamente nieguen, trivialicen gravemente o enaltezcan los delitos de genocidio, de lesa humanidad o contra las personas y bienes protegidos en caso de conflicto armado, o enaltezcan a sus autores, cuando se hubieran cometido contra un grupo o una parte del mismo, o contra una persona determinada por razón de su pertenencia al mismo."
+    },
+    {
+      "ref": "CP art. 510.2 — pena",
+      "texto": "Serán castigados con la pena de prisión de seis meses a dos años y multa de seis a doce meses:"
+    },
+    {
+      "ref": "CP art. 510.2.a — lesión de la dignidad",
+      "texto": "a) Quienes lesionen la dignidad de las personas mediante acciones que entrañen humillación, menosprecio o descrédito de alguno de los grupos a que se refiere el apartado anterior, o de una parte de los mismos."
+    }
+  ]
+}

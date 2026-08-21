@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "seccion": 71,
+    "titulo": "Glosario de la OIM sobre Migración (Términos fundamentales sobre migración, OIM/ONU), Parlamento Europeo (causas de la migración) e INE (Estadística de Migraciones y Cambios de Residencia, año 2024)",
+    "materia": "inmigracion-movimientos-migratorios",
+    "referencia_boe": "",
+    "referencia_fuente": [
+      "OIM — Términos fundamentales sobre migración (Glosario de la OIM sobre Migración): definiciones de migración, migrante, emigración, inmigración, migración interna e internacional, migración irregular y laboral, refugiado, desplazados internos, solicitante de asilo, integración y flujo migratorio — https://www.iom.int/es/terminos-fundamentales-sobre-migracion (consultado 16/08/2026)",
+      "Parlamento Europeo — «Explorar las causas de la migración: ¿por qué migran las personas?» (factores de empuje y de atracción; factores sociopolíticos, demográficos y económicos, y medioambientales) — https://www.europarl.europa.eu/topics/es/article/20200624STO81906/explorar-las-causas-de-la-migracion-por-que-migran-las-personas (última actualización 25/03/2024, consultado 16/08/2026)",
+      "INE — Estadística de Migraciones y Cambios de Residencia (EMCR), año 2024 (saldo migratorio exterior; inmigración y emigración exterior; principales nacionalidades) — https://www.ine.es/dyngs/Prensa/EMCR2024.htm (publicado 11/12/2025, consultado 16/08/2026; DATOS QUE CADUCAN)"
+    ],
+    "tipo_fuente": "consenso",
+    "procedencia": "lote",
+    "lotes_origen": [
+      "inmigracion.json"
+    ],
+    "advertencia": "Texto recogido de los lotes de generación, no reingerido del documento original. Sirve para generar preguntas nuevas y para las puertas de calidad y unicidad, pero re-cotejar contra él las preguntas que salieron de estos mismos lotes NO es verificación independiente: pasan por construcción. Para verificar de verdad hay que reingerir de la fuente citada en `referencia_fuente`."
+  },
+  "articulos": [
+    {
+      "ref": "OIM — Migración",
+      "texto": "Migración – Movimiento de personas fuera de su lugar de residencia habitual, ya sea a través de una frontera internacional o dentro de un país."
+    },
+    {
+      "ref": "OIM — Migrante",
+      "texto": "Migrante – Término genérico no definido en el derecho internacional que, por uso común, designa a toda persona que se traslada fuera de su lugar de residencia habitual, ya sea dentro de un país o a través de una frontera internacional, de manera temporal o permanente, y por diversas razones. En el plano internacional, no existe una definición universalmente aceptada de «migrante»."
+    },
+    {
+      "ref": "OIM — Emigración",
+      "texto": "Emigración – Desde la perspectiva del país de salida, movimiento que realiza una persona desde el país de nacionalidad o de residencia habitual hacia otro país, de modo que el país de destino se convierte efectivamente en su nuevo país de residencia habitual."
+    },
+    {
+      "ref": "OIM — Inmigración",
+      "texto": "Inmigración – Desde la perspectiva del país de llegada, el acto de trasladarse a un país distinto del país de nacionalidad o de residencia habitual, de manera que el país de destino se convierta efectivamente en el nuevo país de residencia habitual."
+    },
+    {
+      "ref": "OIM — Migración interna",
+      "texto": "Migración interna – Movimiento de personas dentro de un país que conlleva el establecimiento de una nueva residencia temporal o permanente."
+    },
+    {
+      "ref": "OIM — Migración internacional",
+      "texto": "Migración internacional – Movimiento de personas fuera de su lugar de residencia habitual y a través de una frontera internacional hacia un país del que no son nacionales."
+    },
+    {
+      "ref": "OIM — Migración irregular",
+      "texto": "Migración irregular – Movimiento de personas que se produce al margen de las leyes, las normas o los acuerdos internacionales que rigen la entrada o la salida del país de origen, de tránsito o de destino. Migración regular – Movimiento de personas que se produce de conformidad con las leyes del país de origen, de tránsito y de destino."
+    },
+    {
+      "ref": "OIM — Migración laboral",
+      "texto": "Migración laboral – Movimiento de personas de un país a otro, o dentro del mismo país de residencia, con fines laborales."
+    },
+    {
+      "ref": "OIM — Refugiado",
+      "texto": "Refugiado (Convención de 1951) – Persona que, debido a fundados temores de ser perseguida por motivos de raza, religión, nacionalidad, pertenencia a determinado grupo social u opiniones políticas, se encuentre fuera del país de su nacionalidad y no pueda o, a causa de dichos temores, no quiera acogerse a la protección de tal país."
+    },
+    {
+      "ref": "OIM — Desplazados internos",
+      "texto": "Desplazados internos – Personas o grupos de personas que se han visto forzadas u obligadas a escapar o huir de su hogar o de su lugar de residencia habitual, en particular como resultado de los efectos de un conflicto armado, de situaciones de violencia generalizada, de violaciones de los derechos humanos o de catástrofes naturales o provocadas por el ser humano, o bien para evitar dichos efectos, y que no han cruzado una frontera estatal internacionalmente reconocida."
+    },
+    {
+      "ref": "OIM — Solicitante de asilo",
+      "texto": "Solicitante de asilo – Persona que busca protección internacional. En países con procedimientos individualizados, un solicitante de asilo es una persona cuya solicitud aún no ha sido objeto de una decisión firme por el país donde ha sido presentada. No todos los solicitantes de asilo son reconocidos como refugiados, pero todos los refugiados en estos países son inicialmente solicitantes de asilo."
+    },
+    {
+      "ref": "OIM — Integración",
+      "texto": "Integración – Proceso bidireccional de adaptación mutua entre los migrantes y las sociedades en las que viven, por el cual los migrantes se incorporan a la vida social, económica, cultural y política de la comunidad receptora. Ello conlleva una serie de responsabilidades conjuntas para los migrantes y las comunidades, y comprende otras nociones conexas como la inclusión y la cohesión social."
+    },
+    {
+      "ref": "OIM — Flujo migratorio",
+      "texto": "Flujo migratorio (internacional) – Número de migrantes internacionales que llegan a un país (inmigrantes) o parten de un país (emigrantes) en el transcurso de un periodo específico."
+    },
+    {
+      "ref": "PE — Qué es la migración",
+      "texto": "La migración es el desplazamiento de personas de un lugar a otro para establecerse en un nuevo emplazamiento. La migración puede ser voluntaria o involuntaria, y puede ocurrir por una variedad de razones diferentes, que van desde cuestiones económicas hasta ambientales o incluso sociales."
+    },
+    {
+      "ref": "PE — Factores de empuje y atracción",
+      "texto": "Los factores de empuje son las razones por las cuales las personas abandonan un país. Los factores de atracción son la razón por la que se mudan a un país en particular. Hay tres factores principales de empuje y atracción."
+    },
+    {
+      "ref": "PE — Factores sociopolíticos",
+      "texto": "La persecución étnica, religiosa, racial, política y cultural empuja a las personas a abandonar su país. Un factor importante es la guerra, o (la amenaza de) conflicto y la persecución del gobierno. Los que huyen de conflictos armados, violaciones de derechos humanos o persecución tienen más probabilidades de ser refugiados humanitarios."
+    },
+    {
+      "ref": "PE — Factores demográficos y económicos",
+      "texto": "La migración demográfica y económica está relacionada con las normas laborales deficientes, las altas tasas de desempleo y la salud general de la economía de un país. Los factores de atracción incluyen salarios más altos, mejores oportunidades de empleo, un nivel de vida más alto y oportunidades educativas."
+    },
+    {
+      "ref": "PE — Factores medioambientales",
+      "texto": "El medio ambiente siempre ha sido un motor de migración, ya que las personas huyen de desastres naturales, como inundaciones, huracanes y terremotos. Con el cambio climático, se espera que se acentúen los eventos climáticos extremos, lo que significa que más personas podrían acabar migrando por este motivo."
+    },
+    {
+      "ref": "INE EMCR 2024 — Saldo migratorio exterior",
+      "texto": "El saldo migratorio de España con el exterior fue positivo en 626.268 personas en 2024, lo que supuso 16.028 menos que en 2023. Los mayores saldos migratorios con el exterior se dieron en Cataluña (129.030), Comunidad de Madrid (113.964) y Comunitat Valenciana (104.776). Cuando el ámbito geográfico es la comunidad autónoma, el saldo migratorio pasa a tener dos componentes, el exterior (con el extranjero) y el interior (con otras regiones)."
+    },
+    {
+      "ref": "INE EMCR 2024 — Inmigración y emigración exterior",
+      "texto": "El saldo migratorio con el exterior en 2024 fue resultado de 1.288.562 personas procedentes del extranjero que establecieron su residencia en nuestro país (un 3,0% más que en 2023) y de 662.294 personas que lo abandonaron con destino a algún país extranjero (un 8,8% más). Del total de inmigrantes procedentes del extranjero, 1.144.227 tenían nacionalidad extranjera (un 88,8%) y 144.335 española (un 11,2%)."
+    },
+    {
+      "ref": "INE EMCR 2024 — Nacionalidades",
+      "texto": "Las principales nacionalidades de los inmigrantes extranjeros fueron la colombiana (con 168.122 llegadas a España), la marroquí (133.130) y la venezolana (103.225). Por su parte, las nacionalidades más numerosas de los emigrantes extranjeros fueron la marroquí (con 54.869 salidas), la rumana (50.220) y la colombiana (45.543)."
+    }
+  ]
+}
