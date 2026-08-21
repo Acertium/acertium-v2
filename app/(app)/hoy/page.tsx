@@ -7,7 +7,10 @@ import { saludo, animo } from "@/lib/saludo";
 // Guarda la apreciación del opositor sobre si la formación le rentó, y borra la
 // fecha vencida. Vive en el servidor para que el cliente no toque nunca la clave
 // de servicio.
-async function registrar(fecha: string, aprovechamiento: "sirvio" | "sin_decir") {
+async function registrar(
+  fecha: string,
+  aprovechamiento: "sirvio" | "no_sirvio" | "sin_decir",
+) {
   "use server";
   return registrarExamen(fecha, aprovechamiento);
 }

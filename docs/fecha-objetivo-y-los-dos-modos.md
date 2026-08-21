@@ -222,6 +222,24 @@ Lo que la ventana **no** toca: `evento`, `estado_dominio`, el perfil y el cerebr
 se quedan igual. Presentarse a un examen no borra lo aprendido, y quien no aprueba
 sigue desde donde lo dejó, no desde cero.
 
+### Las tres respuestas, y por qué vuelve la negativa
+
+«👍 Sí, me sirvió» · «👎 No mucho» · «Prefiero no decirlo».
+
+La negativa se había quitado, y con buen motivo mientras la pregunta era «¿qué
+tal el examen?»: allí el pulgar abajo señalaba **al opositor** y era pedirle que
+declarara su propio fracaso. Preguntando si la formación le sirvió, el pulgar
+abajo señala **a Acertium**. Eso no es una herida, es una crítica al producto.
+
+Y hace falta, porque sin ella el indicador **solo sabía subir**: quien no
+aprovechó el temario se iría por «prefiero no decirlo» y leeríamos su silencio
+como timidez. Con las tres, `sin_decir` vuelve a significar solo lo que dice.
+
+Los dos pulgares van del mismo tamaño y ninguno lleva color de acento: si el «sí»
+fuese el botón destacado estaríamos empujando la respuesta que nos conviene, y el
+dato dejaría de valer. El texto pide expresamente la mala noticia — «si no te
+sirvió, dímelo sin reparos: es lo que más me ayuda a corregir el temario».
+
 Se puede cerrar sin contestar, a propósito: si el opositor cerrase la app sin
 responder, la fecha vencida se quedaría sin limpiar y el coach seguiría
 descolocado.

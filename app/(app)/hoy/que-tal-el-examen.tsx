@@ -21,7 +21,16 @@
 // dejó — no desde cero. Es justo el momento en que un opositor está más cerca de
 // abandonar, así que la pantalla no le pide nada más que un gesto.
 //
-// Dos decisiones de tono:
+// POR QUÉ SÍ HAY UNA OPCIÓN NEGATIVA, HABIÉNDOSE QUITADO ANTES. Cuando la
+// ventana preguntaba «¿qué tal el examen?», el pulgar hacia abajo señalaba al
+// OPOSITOR: era pedirle que declarara su propio fracaso, y sobraba. Preguntando
+// si la formación le sirvió, el pulgar abajo señala a ACERTIUM. Eso no es una
+// herida, es una crítica al producto, y es la única respuesta que puede decirnos
+// que algo no funciona: sin ella el indicador solo sabe subir, porque quien no
+// aprovechó el temario se iría por «prefiero no decirlo» y leeríamos su silencio
+// como timidez.
+//
+// Otras dos decisiones de tono:
 //
 // 1. SE PUEDE CERRAR SIN CONTARLO. «Prefiero no decirlo» guarda `sin_decir` y
 //    limpia la fecha igual. Si el opositor cerrase la app sin responder, la
@@ -35,7 +44,7 @@ import { useRouter } from "next/navigation";
 
 const borde = "color-mix(in srgb, var(--color-fg) 12%, transparent)";
 
-type Aprovechamiento = "sirvio" | "sin_decir";
+type Aprovechamiento = "sirvio" | "no_sirvio" | "sin_decir";
 
 export default function QueTalElExamen({
   fecha,
@@ -88,13 +97,15 @@ export default function QueTalElExamen({
       </h2>
       <p className="mt-1 text-[15px] leading-relaxed text-muted">
         Tenías puesto el examen el {enEspanol}. No te pregunto la nota —eso tarda
-        en salir—, sino si las preguntas te sonaban. Me sirve para saber si
-        estamos apuntando donde apunta el tribunal. Contestes lo que contestes,
-        quito la fecha y tu progreso se queda donde está.
+        en salir—, sino si las preguntas te sonaban. Si no te sirvió, dímelo sin
+        reparos: es lo que más me ayuda a corregir el temario. Contestes lo que
+        contestes, quito la fecha y tu progreso se queda donde está.
       </p>
 
-      {/* Las dos opciones, del mismo tamaño y con el mismo peso visual: callarse
-          no es la salida de emergencia, es una respuesta como la otra. */}
+      {/* Los dos pulgares arriba, del mismo tamaño y sin que uno destaque sobre
+          el otro: si el «sí» fuese el botón de color, estaríamos empujando la
+          respuesta que nos conviene y el dato dejaría de valer. «Prefiero no
+          decirlo» va debajo, a lo ancho, para que callarse siga siendo fácil. */}
       <div className="mt-4 flex gap-2">
         <button
           type="button"
@@ -115,19 +126,38 @@ export default function QueTalElExamen({
         <button
           type="button"
           disabled={pendiente}
-          onClick={() => responder("sin_decir")}
-          className="min-h-12 flex-1 rounded-xl border px-3 text-[15px] font-medium disabled:opacity-50"
+          onClick={() => responder("no_sirvio")}
+          className="flex min-h-12 flex-1 items-center justify-center gap-2 rounded-xl border px-3 text-[15px] font-medium disabled:opacity-50"
           style={{
             borderColor: borde,
             background:
-              elegido === "sin_decir"
+              elegido === "no_sirvio"
                 ? "var(--color-primary-soft)"
                 : "transparent",
           }}
         >
-          Prefiero no decirlo
+          <span aria-hidden="true" className="text-xl">
+            👎
+          </span>
+          No mucho
         </button>
       </div>
+
+      <button
+        type="button"
+        disabled={pendiente}
+        onClick={() => responder("sin_decir")}
+        className="mt-2 min-h-12 w-full rounded-xl border text-[15px] font-medium disabled:opacity-50"
+        style={{
+          borderColor: borde,
+          background:
+            elegido === "sin_decir"
+              ? "var(--color-primary-soft)"
+              : "transparent",
+        }}
+      >
+        Prefiero no decirlo
+      </button>
 
       {error && (
         <p
