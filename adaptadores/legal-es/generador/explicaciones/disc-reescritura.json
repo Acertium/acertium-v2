@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "familia": "DISC",
+    "referencia_boe": "BOE-A-2010-8115",
+    "norma": "Ley Orgánica 4/2010, de 20 de mayo, del Régimen disciplinario del Cuerpo Nacional de Policía",
+    "fecha": "2026-08-22",
+    "motivo": "Regla de Jonathan (22/08/2026): «que la explicación cite el artículo no me sirve, tiene que ser de ayuda». Las 25 explicaciones de DISC que abrían con «El artículo N enumera/fija/establece…» eran el artículo parafraseado: el opositor acaba de leer el enunciado, ha visto la correcta y tiene el texto literal a un clic en «Ver fuente», así que repetírselo no le da nada. Se reescriben siguiendo docs/contrato-explicaciones.md: avisar de la trampa, marcar la distinción, corregir el error de intuición, dar el criterio que ordena. NO se añade ni un dato: los hechos son los mismos que ya estaban verificados contra el artículo, solo cambia qué se enseña con ellos.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-014.json"
+  },
+  "explicaciones": [
+    {
+      "id": "DISC-001",
+      "articulo": "art. 1",
+      "explicacion": "La disciplina policial no se regula en el vacío: la propia ley se declara sujeta a la Constitución, a la Ley Orgánica 2/1986 de Fuerzas y Cuerpos de Seguridad y al resto del ordenamiento. Por eso ninguna falta se interpreta con este texto solo delante."
+    },
+    {
+      "id": "DISC-002",
+      "articulo": "art. 2",
+      "explicacion": "Lo que decide qué régimen se aplica no es la situación administrativa: es si se ocupa destino. Segunda actividad con destino, esta ley; sin destino, el régimen general de la función pública. Y los funcionarios en prácticas van por el reglamento de su centro docente, con esta ley solo como apoyo."
+    },
+    {
+      "id": "DISC-003",
+      "articulo": "art. 4",
+      "explicacion": "El deber no se suspende cuando el implicado es el jefe: se sube un escalón y se comunica al superior inmediato de aquel. Y no es un deber decorativo — callar es exactamente lo que el artículo siguiente define como encubrimiento.",
+      "cifras": {
+        "1": "recuento retórico: «se sube un escalón» en la cadena de mando; no es una cifra de la norma"
+      }
+    },
+    {
+      "id": "DISC-004",
+      "articulo": "art. 5",
+      "explicacion": "Dos grados que se confunden con facilidad: quien induce responde igual que el autor; quien encubre, o el superior que tolera, un grado por debajo. Y el encubrimiento aquí es por omisión pura — basta con no dar cuenta de forma inmediata al superior competente.",
+      "cifras": {
+        "2": "recuento: los dos grados de responsabilidad que distingue el artículo, inductor y encubridor",
+        "1": "«un grado por debajo», que es como el artículo describe la responsabilidad del encubridor y del superior que tolera: falta de grado inferior"
+      }
+    },
+    {
+      "id": "DISC-005",
+      "articulo": "art. 6",
+      "explicacion": "De esta clasificación cuelga todo lo demás: qué sanción cabe, cuánto tarda en prescribir y qué procedimiento se sigue. Conviene fijarla antes que el catálogo de faltas, porque sin ella los artículos siguientes no se ordenan."
+    },
+    {
+      "id": "DISC-006",
+      "articulo": "art. 7",
+      "explicacion": "El hilo común de las muy graves es que atacan la función policial en su núcleo: la fidelidad a la Constitución, la cadena de mando, la custodia de personas, la continuidad del servicio. Si una conducta no toca uno de esos nervios, suele estar en el catálogo de graves y no aquí."
+    },
+    {
+      "id": "DISC-008",
+      "articulo": "art. 7",
+      "explicacion": "Lo que agrava esta conducta es la situación de quien la sufre: bajo custodia policial, privado de libertad y a cargo de quien debería protegerle. Y el tipo es ancho a propósito —inhumano, degradante, discriminatorio o vejatorio—, así que no hay que acertar la etiqueta."
+    },
+    {
+      "id": "DISC-009",
+      "articulo": "art. 7",
+      "explicacion": "La línea la marca el servicio: durante el servicio es muy grave; fuera de él baja a grave y con el requisito añadido de habitualidad. Y negarse a la prueba pesa tanto como dar positivo — la negativa injustificada es muy grave por sí sola."
+    },
+    {
+      "id": "DISC-010",
+      "articulo": "art. 8",
+      "explicacion": "Muchas graves son la versión atenuada de una muy grave: el abuso de atribuciones que no llega a causar grave daño, el consumo fuera de servicio, la desconsideración que no llega a insubordinación. Y el catálogo cierra con una válvula: los criterios de graduación permiten degradar una muy grave hasta aquí."
+    },
+    {
+      "id": "DISC-011",
+      "articulo": "art. 8",
+      "explicacion": "La obediencia tiene un tope, y está escrito: no hay falta si la orden supone infracción manifiesta del ordenamiento jurídico. Ojo a «manifiesta» — no basta con que la orden parezca discutible o inconveniente."
+    },
+    {
+      "id": "DISC-012",
+      "articulo": "art. 8",
+      "explicacion": "Tres conductas escalonadas por el grado de descuido: exhibir el arma sin causa o usarla mal es grave; perderla por negligencia inexcusable, también grave; perderla por simple negligencia baja a leve. La palabra que decide es «inexcusable»."
+    },
+    {
+      "id": "DISC-013",
+      "articulo": "art. 9",
+      "explicacion": "Las leves son incumplimientos de forma, no de fondo: puntualidad, aseo, uniformidad, incorrecciones menores. Casi todas llevan la coletilla «que no merezca calificación más grave», así que funcionan como suelo: lo que no encaja arriba, cae aquí."
+    },
+    {
+      "id": "DISC-014",
+      "articulo": "art. 9",
+      "explicacion": "La inasistencia empieza siendo leve y solo sube a grave cuando se acumula: hace falta la tercera falta injustificada con las dos anteriores ya sancionadas en firme. Sin esas dos sanciones previas, por muchas ausencias que haya, sigue siendo leve.",
+      "cifras": {
+        "3": "la TERCERA falta injustificada, requisito de la falta grave del art. 8.e con la que se contrasta esta leve",
+        "2": "las DOS sanciones firmes previas que exige ese mismo art. 8.e"
+      }
+    },
+    {
+      "id": "DISC-015",
+      "articulo": "art. 10",
+      "explicacion": "La suspensión de funciones aparece en las tres categorías y solo cambia la duración: por ahí se cae mucha gente. Lo que de verdad separa a las muy graves es que solo ellas llegan a la separación del servicio y al traslado forzoso."
+    },
+    {
+      "id": "DISC-016",
+      "articulo": "art. 11",
+      "explicacion": "El reloj no arranca con la resolución ni con su firmeza, sino cuando el traslado se hace efectivo. Y durante ese tiempo la prohibición es total: ningún procedimiento sirve para volver al centro, unidad o plantilla de la que se salió."
+    },
+    {
+      "id": "DISC-017",
+      "articulo": "art. 12",
+      "explicacion": "De todos los criterios hay uno que juega en una sola dirección: el historial profesional únicamente puede atenuar, nunca agravar. Para agravar está la reincidencia, que además no cuenta antecedentes ya cancelados.",
+      "cifras": {
+        "1": "recuento retórico: «una sola dirección», referido a que el historial profesional solo puede atenuar"
+      }
+    },
+    {
+      "id": "DISC-018",
+      "articulo": "art. 13",
+      "explicacion": "La competencia sube con la gravedad de la SANCIÓN, no con la de la falta, que no es lo mismo. Solo la separación del servicio llega al Ministro; la suspensión larga y el traslado forzoso se quedan en el Secretario de Estado. Y quien puede lo más puede lo menos."
+    },
+    {
+      "id": "DISC-019",
+      "articulo": "art. 14",
+      "explicacion": "Perder la condición de funcionario no cierra el expediente por sí solo: se archiva salvo que el interesado pida seguir o se instruya por falta muy grave. Ojo, muy grave — que sea grave no basta para continuar."
+    },
+    {
+      "id": "DISC-020",
+      "articulo": "art. 15",
+      "explicacion": "Los plazos son fáciles; lo que se pregunta es el cómputo. Cuenta desde que la falta se cometió, la incoación lo interrumpe, y se reanuda si el expediente se para más de seis meses — pero solo si la parálisis no es culpa del expedientado."
+    },
+    {
+      "id": "DISC-021",
+      "articulo": "art. 16",
+      "explicacion": "Los plazos coinciden con los de las faltas, así que aprenderlos dos veces es perder el tiempo. Lo que cambia es el arranque: aquí se cuenta desde el día siguiente a que la sanción gana firmeza, no desde el hecho."
+    },
+    {
+      "id": "DISC-022",
+      "articulo": "art. 17",
+      "explicacion": "Dos de la lista se sustituyen con facilidad y por eso se preguntan: es impulso de oficio, no de parte, y publicidad, no secreto de las actuaciones. El resto son los principios sancionadores habituales.",
+      "cifras": {
+        "2": "recuento: los dos principios de la lista que más se sustituyen, impulso de oficio y publicidad"
+      }
+    },
+    {
+      "id": "DISC-023",
+      "articulo": "art. 19",
+      "explicacion": "Siempre de oficio: ni la denuncia ni la moción de un subordinado abren el expediente por sí solas, solo lo provocan. Y quien asiste al expedientado tiene que ser abogado o funcionario licenciado en Derecho — no vale cualquier compañero."
+    },
+    {
+      "id": "DISC-024",
+      "articulo": "art. 33",
+      "explicacion": "Los topes de la suspensión provisional siguen la gravedad, y solo se aplican cuando los hechos no están además en un procedimiento penal. Aunque suspendido, conserva las retribuciones básicas: es una medida cautelar, no un anticipo de la sanción."
+    },
+    {
+      "id": "DISC-025",
+      "articulo": "art. 46",
+      "explicacion": "El plazo cubre la resolución Y su notificación: no basta con resolver a tiempo si la notificación se va fuera. Pasado el plazo se archiva, y el interesado puede pedir certificación de la caducidad, que es lo que la hace oponible."
+    },
+    {
+      "id": "DISC-026",
+      "articulo": "art. 50",
+      "explicacion": "La cancelación no es un borrado: la anotación deja de contar a efectos de reincidencia, pero sigue pudiendo certificarse cuando lo piden las autoridades competentes. Y los plazos van escalonados desde el cumplimiento de la sanción, no desde que se impuso."
+    }
+  ]
+}
