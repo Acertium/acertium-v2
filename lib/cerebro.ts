@@ -359,8 +359,13 @@ export async function siguienteActividad(): Promise<ActividadPublica | null> {
   try {
     const conceptoId = await elegirConcepto(db);
     if (conceptoId) {
+      // Se le pasa el usuario para que NO repita una pregunta que ya ha visto
+      // mientras quede otra sin ver. No es solo comodidad: el motor supone que
+      // aciertas por azar 1 de cada 3 veces, y eso solo es cierto si estás
+      // eligiendo entre tres alternativas y no recordando cuál marcaste.
       const { data } = await db.rpc("actividad_de_concepto", {
         cid: conceptoId,
+        usuario: DEMO_USUARIO_ID,
       });
       const fila = ((data ?? []) as FilaActividad[])[0];
       if (fila) return aPublica(fila);
