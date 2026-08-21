@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "familia": "LOPJ",
+    "referencia_boe": "BOE-A-1985-12666",
+    "norma": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 18 explicaciones de LOPJ abrían con «El artículo N fija/consagra/atribuye…». Aquí el opositor no falla por no saber qué dice el artículo, falla por confundir órganos y composiciones que se parecen: el órgano del artículo 38 (conflicto con la Administración) frente a la Sala del 39 (con la militar), conflicto de JURISDICCIÓN frente a conflicto de COMPETENCIA, y quién aforado va al Supremo frente a quién a la Audiencia Nacional. Eso es lo que se enseña ahora. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-036.json"
+  },
+  "explicaciones": [
+    {
+      "id": "LOPJ-001",
+      "articulo": "art. 1",
+      "explicacion": "El reparto del artículo es el que se pregunta: la justicia EMANA del pueblo pero se ADMINISTRA en nombre del Rey. Y los cuatro adjetivos van juntos y en este orden — independientes, inamovibles, responsables y sometidos únicamente a la Constitución y al imperio de la ley.",
+      "cifras": {
+        "4": "recuento: los cuatro atributos que el artículo predica de jueces y magistrados"
+      }
+    },
+    {
+      "id": "LOPJ-005",
+      "articulo": "art. 4",
+      "explicacion": "Tres extensiones y ninguna excepción en el propio artículo: todas las personas, todas las materias, todo el territorio español. Los límites llegan después —las inmunidades, la jurisdicción militar—, y precisamente por eso este arranca sin matices.",
+      "cifras": {
+        "3": "recuento: las tres extensiones que enumera el artículo, personas, materias y territorio"
+      }
+    },
+    {
+      "id": "LOPJ-006",
+      "articulo": "art. 5",
+      "explicacion": "Vincular a la Constitución no es solo obedecer su texto: los jueces la aplican CONFORME A LA INTERPRETACIÓN del Tribunal Constitucional, y en todo tipo de procesos, no solo en amparos. Ahí está la fuerza real del precepto."
+    },
+    {
+      "id": "LOPJ-007",
+      "articulo": "art. 5",
+      "explicacion": "Este apartado rompe el reparto normal de la casación: basta con la infracción de precepto constitucional para fundarla, y entonces decide SIEMPRE el Tribunal Supremo — cualesquiera que sean la materia, el derecho aplicable y el orden jurisdiccional. Ni siquiera el derecho autonómico lo desvía."
+    },
+    {
+      "id": "LOPJ-008",
+      "articulo": "art. 9",
+      "explicacion": "«Exclusivamente en aquellos casos en que les venga atribuida por esta u otra ley»: la competencia no se presume nunca. Con una salvedad que se pregunta mucho — el orden CIVIL es el residual, conoce además de todo lo que no esté atribuido a otro orden."
+    },
+    {
+      "id": "LOPJ-013",
+      "articulo": "art. 9",
+      "explicacion": "La jurisdicción no está a disposición de las partes: no cabe prorrogarla por su voluntad. El propio órgano ha de apreciar de oficio si carece de ella, y antes de resolver oye a las partes y al Ministerio Fiscal."
+    },
+    {
+      "id": "LOPJ-015",
+      "articulo": "art. 21",
+      "explicacion": "Fíjate en el orden de fuentes que impone: tratados y convenios internacionales, normas de la Unión Europea, y solo después las leyes españolas. La competencia internacional de los tribunales civiles no se decide primero por derecho interno."
+    },
+    {
+      "id": "LOPJ-016",
+      "articulo": "art. 21",
+      "explicacion": "Son dos inmunidades y no una: la de JURISDICCIÓN impide juzgar; la de EJECUCIÓN impide ejecutar lo juzgado. Pueden darse por separado, y el artículo protege tanto a sujetos como a bienes.",
+      "cifras": {
+        "2": "recuento: las dos inmunidades que el apartado nombra, de jurisdicción y de ejecución"
+      }
+    },
+    {
+      "id": "LOPJ-017",
+      "articulo": "art. 23",
+      "explicacion": "La territorialidad no acaba en la frontera: alcanza a lo cometido a bordo de BUQUES O AERONAVES ESPAÑOLES, estén donde estén. Es el principio de pabellón, y es el que el enunciado suele omitir para que parezca que solo cuenta el suelo español."
+    },
+    {
+      "id": "LOPJ-018",
+      "articulo": "art. 23",
+      "explicacion": "La personalidad activa no basta con la nacionalidad: hacen falta además doble incriminación, querella del agraviado o del Ministerio Fiscal, y que no haya sido ya absuelto, indultado o penado en el extranjero. Y si cumplió condena en parte, se le rebaja proporcionalmente."
+    },
+    {
+      "id": "LOPJ-019",
+      "articulo": "art. 38",
+      "explicacion": "Este es el conflicto Poder Judicial contra ADMINISTRACIÓN, y su composición es la trampa: preside el Presidente del Tribunal Supremo, con cinco vocales — dos Magistrados de la Sala de lo Contencioso-Administrativo y TRES CONSEJEROS PERMANENTES DE ESTADO. Es decir, no todos son jueces."
+    },
+    {
+      "id": "LOPJ-020",
+      "articulo": "art. 39",
+      "explicacion": "No lo confundas con el anterior: aquí el choque es entre jurisdicción ordinaria y MILITAR, y todos los miembros son jueces — dos Magistrados de la Sala del orden en conflicto y dos de la Sala de lo Militar, más el Presidente del Supremo. En ambos casos el Presidente tiene voto de calidad."
+    },
+    {
+      "id": "LOPJ-022",
+      "articulo": "art. 43",
+      "explicacion": "Lo que se pregunta no es la definición de positivo y negativo sino el límite temporal: se pueden promover mientras el proceso no haya concluido por sentencia firme, salvo que el conflicto se refiera a la EJECUCIÓN DEL FALLO, donde no hay tope."
+    },
+    {
+      "id": "LOPJ-023",
+      "articulo": "art. 44",
+      "explicacion": "«Siempre preferente» es literal y sin excepciones: ningún Juez o Tribunal puede plantear conflicto de competencia a los órganos del orden penal. La preferencia no se discute ni se negocia — se acata."
+    },
+    {
+      "id": "LOPJ-025",
+      "articulo": "art. 52",
+      "explicacion": "Entre órganos subordinados no hay conflicto porque hay jerarquía: decide el superior, SIN ULTERIOR RECURSO. Antes oye a las partes y al Ministerio Fiscal por plazo común de diez días, que es el dato con cifra del artículo."
+    },
+    {
+      "id": "LOPJ-026",
+      "articulo": "art. 57",
+      "explicacion": "La lista de aforados ante la Sala de lo Penal del Supremo es la que cae, y su rasgo común es la cúspide del Estado — Presidente del Gobierno, miembros del Gobierno, Diputados y Senadores, Fiscal General, Defensor del Pueblo. Y hay una garantía técnica que se olvida: el instructor sale de la propia Sala pero NO la integra para enjuiciar."
+    },
+    {
+      "id": "LOPJ-027",
+      "articulo": "art. 62",
+      "explicacion": "Artículo de línea y media con dos datos que se preguntan: sede en Madrid y jurisdicción en TODA ESPAÑA. Ese ámbito nacional es lo que la separa de las Audiencias Provinciales y de los Tribunales Superiores de Justicia.",
+      "cifras": {
+        "2": "recuento: los dos datos del artículo, la sede y el ámbito de la jurisdicción"
+      }
+    },
+    {
+      "id": "LOPJ-028",
+      "articulo": "art. 65",
+      "explicacion": "Ojo, varios de estos delitos solo llegan aquí si concurre una condición añadida: la falsificación de moneda y el tráfico de drogas exigen organización o banda organizada, y en el segundo caso además efectos en distintas Audiencias. Sin esa cualificación se quedan en el juzgado ordinario."
+    }
+  ]
+}

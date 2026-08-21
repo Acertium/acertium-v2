@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "familia": "HC",
+    "referencia_boe": "BOE-A-1984-11620",
+    "norma": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus»",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 17 explicaciones de HC abrían con «El art. N define/fija/regula…». Es una ley de nueve artículos que el opositor se sabe de memoria mal: confunde a quién se pone a disposición, cree que hace falta abogado, y sobre todo da por hecho que el Habeas Corpus sirve para dictar la libertad — cuando el artículo 8 permite mantener la privación de libertad cambiando de establecimiento o de custodios. Eso es lo que se enseña ahora. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-038.json"
+  },
+  "explicaciones": [
+    {
+      "id": "HC-001",
+      "articulo": "art. 1",
+      "explicacion": "Lo que se obtiene no es la libertad sino la PUESTA A DISPOSICIÓN judicial inmediata. Es un procedimiento para que un juez mire, no para que suelte: quién queda libre y quién no se decide después, al resolver."
+    },
+    {
+      "id": "HC-002",
+      "articulo": "art. 1",
+      "explicacion": "Fíjate en quién puede detener ilegalmente según la letra a): también un PARTICULAR, no solo autoridad, agente o funcionario. Y hay dos formas de que la detención sea ilegal — que falten los supuestos legales, o que estando estos se hayan saltado las formalidades.",
+      "cifras": {
+        "2": "recuento: los dos motivos de ilegalidad que distingue la letra a), ausencia de supuestos legales e incumplimiento de formalidades"
+      }
+    },
+    {
+      "id": "HC-003",
+      "articulo": "art. 1",
+      "explicacion": "Este supuesto rompe la idea de que el Habeas Corpus es cosa de calabozos: cubre a quien esté ilícitamente internado en CUALQUIER establecimiento o lugar. Un internamiento sanitario o un encierro privado entran igual."
+    },
+    {
+      "id": "HC-004",
+      "articulo": "art. 1",
+      "explicacion": "El exceso de plazo no basta por sí solo: hace falta que, transcurrido, no se haya puesto en libertad NI entregado al Juez más próximo al lugar de la detención. Entregar al juez cierra el supuesto aunque siga privado de libertad."
+    },
+    {
+      "id": "HC-005",
+      "articulo": "art. 1",
+      "explicacion": "Esta letra es la que amplía de verdad el procedimiento: la detención pudo ser impecable al empezar y volverse atacable después, por no respetar los derechos que la Constitución y las leyes procesales garantizan al detenido. La ilegalidad puede ser sobrevenida."
+    },
+    {
+      "id": "HC-006",
+      "articulo": "art. 2",
+      "explicacion": "Los tres fueros van en cascada y en este orden: donde SE ENCUENTRE la persona; si no consta, donde se produjo la detención; y en defecto de ambos, donde se tuvieron las últimas noticias de su paradero. No se elige, se baja peldaño a peldaño.",
+      "cifras": {
+        "3": "recuento: los tres criterios de competencia que el artículo ordena en cascada"
+      }
+    },
+    {
+      "id": "HC-007",
+      "articulo": "art. 2",
+      "explicacion": "Hay excepción al fuero general y es de terrorismo: cuando la detención aplica la ley orgánica que desarrolla el artículo 55.2 de la Constitución, conoce el Juez Central de Instrucción. Sube a la Audiencia Nacional, no se queda en el juzgado del lugar."
+    },
+    {
+      "id": "HC-008",
+      "articulo": "art. 2",
+      "explicacion": "En la Jurisdicción Militar cambia el juez y también el punto de referencia: el Juez Togado Militar de Instrucción de la cabecera de la circunscripción DONDE SE EFECTUÓ LA DETENCIÓN — no donde se encuentre el detenido, que es el criterio civil."
+    },
+    {
+      "id": "HC-009",
+      "articulo": "art. 3",
+      "explicacion": "La legitimación familiar es amplia pero cerrada: cónyuge o pareja de hecho, descendientes, ascendientes y hermanos. Cuidado con lo que NO está — ni tíos ni primos ni amigos. Y para menores y personas con medidas de apoyo entran sus representantes o quien preste el apoyo con facultad específica."
+    },
+    {
+      "id": "HC-010",
+      "articulo": "art. 3",
+      "explicacion": "Tres legitimaciones institucionales que se preguntan por separado —Ministerio Fiscal, Defensor del Pueblo y abogado defensor— más algo que no es legitimación: el propio Juez competente puede incoarlo DE OFICIO. Nadie tiene que pedirlo para que arranque.",
+      "cifras": {
+        "3": "recuento: los tres legitimados no familiares de las letras b), c) y d) del artículo"
+      }
+    },
+    {
+      "id": "HC-011",
+      "articulo": "art. 4",
+      "explicacion": "Aquí está la clave que hace útil el procedimiento: NO es preceptiva la intervención de Abogado ni de Procurador. Vale escrito o simple comparecencia, y el contenido exigido es mínimo — quién es, dónde está, y el motivo concreto por el que se pide."
+    },
+    {
+      "id": "HC-012",
+      "articulo": "art. 5",
+      "explicacion": "Quien custodia no filtra: si el privado de libertad solicita el Habeas Corpus, la autoridad, agente o funcionario está obligado a ponerlo INMEDIATAMENTE en conocimiento del Juez. No cabe valorar si la solicitud tiene fundamento, y callar acarrea apercibimiento y responsabilidad penal y disciplinaria."
+    },
+    {
+      "id": "HC-013",
+      "articulo": "art. 6",
+      "explicacion": "Hay filtro de admisión —el Juez puede denegar por improcedente— pero rodeado de garantías: traslado previo al Ministerio Fiscal y notificación del auto en todo caso. Y contra ese auto, se incoe o se deniegue, NO CABE RECURSO ALGUNO."
+    },
+    {
+      "id": "HC-014",
+      "articulo": "art. 7",
+      "explicacion": "El orden de las audiencias no es casual y se pregunta: primero el privado de libertad (con su representante y abogado si lo hay) y el Fiscal, DESPUÉS quien ordenó o practicó la detención. Y a estos se les dan a conocer las declaraciones del detenido, no al revés."
+    },
+    {
+      "id": "HC-015",
+      "articulo": "art. 7",
+      "explicacion": "Veinticuatro horas para TODO —actuaciones y resolución—, y el reloj arranca desde que se dicta el auto de incoación, no desde la solicitud ni desde la detención. Ese punto de partida es lo que el enunciado cambia."
+    },
+    {
+      "id": "HC-016",
+      "articulo": "art. 8",
+      "explicacion": "Estimar el Habeas Corpus no significa soltar: caben tres medidas, y solo la primera es la libertad. Puede acordarse que siga privado de libertad en establecimiento distinto o bajo custodia distinta, o que se le ponga a disposición judicial si ya venció el plazo.",
+      "cifras": {
+        "3": "recuento: las tres medidas de las letras a), b) y c) del apartado 2 del artículo"
+      }
+    },
+    {
+      "id": "HC-017",
+      "articulo": "art. 9",
+      "explicacion": "El procedimiento corta por los dos lados: se deduce testimonio contra quien ordenó o custodió si hubo delito, pero también contra el solicitante si hubo denuncia falsa o simulación. Y las costas solo se imponen si se aprecia temeridad o mala fe; en otro caso son de oficio.",
+      "cifras": {
+        "2": "recuento: las dos direcciones en que el artículo manda deducir testimonio, contra quien detuvo y contra quien solicitó en falso"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "familia": "VIC",
+    "referencia_boe": "BOE-A-2015-4606",
+    "norma": "Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 23 explicaciones de VIC abrían con «El art. N define/reconoce/regula…», y en un catálogo de derechos eso es exactamente lo inútil: el opositor ya ve la lista en el enunciado. Lo que necesita es la frontera de cada derecho — cuándo nace (antes de denunciar, no al denunciar), a quién alcanza, y qué exige. Se marcan además los pares que el tribunal cruza: víctima directa frente a indirecta, el veto absoluto a la mediación en violencia sexual y de género, y quién evalúa las necesidades de protección en cada fase. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-040.json"
+  },
+  "explicaciones": [
+    {
+      "id": "VIC-001",
+      "articulo": "art. 2",
+      "explicacion": "Víctima directa es solo PERSONA FÍSICA, y el daño no tiene por qué ser corporal: valen las lesiones psíquicas, los daños emocionales y los perjuicios económicos. Lo que sí se exige es que estén directamente causados por el delito."
+    },
+    {
+      "id": "VIC-002",
+      "articulo": "art. 2",
+      "explicacion": "La víctima indirecta solo aparece en muerte o desaparición, nunca en otros delitos, y tiene una exclusión expresa: quedan fuera los responsables de los hechos. Ojo al grado — parientes en línea recta o colateral hasta el TERCER grado, y con el requisito añadido de estar bajo su guarda."
+    },
+    {
+      "id": "VIC-003",
+      "articulo": "art. 1",
+      "explicacion": "Tres circunstancias que NO condicionan la protección, y las tres se preguntan: la nacionalidad, ser mayor o menor de edad, y tener o no residencia legal. Lo que sí importa es el delito — cometido en España o perseguible en España.",
+      "cifras": {
+        "3": "recuento: las tres circunstancias que el artículo declara irrelevantes, nacionalidad, edad y residencia legal"
+      }
+    },
+    {
+      "id": "VIC-004",
+      "articulo": "art. 3",
+      "explicacion": "Dos cosas que se olvidan de este catálogo básico: los derechos siguen vivos por un período adecuado DESPUÉS de concluido el proceso y aunque no se conozca al infractor. Y el remate del apartado es una prohibición tajante — mediación y conciliación están VEDADAS en violencia sexual y de género.",
+      "cifras": {
+        "2": "recuento: los dos matices del apartado que suelen suprimirse, la pervivencia posterior al proceso y la irrelevancia de que se conozca al infractor"
+      }
+    },
+    {
+      "id": "VIC-005",
+      "articulo": "art. 4",
+      "explicacion": "«Entender y ser entendida» no es una fórmula bonita: obliga a lenguaje claro y accesible, a lengua de signos y apoyos a la comunicación oral, y permite a la víctima estar ACOMPAÑADA DE PERSONA DE SU ELECCIÓN desde el primer contacto. Y cubre incluso la información previa a denunciar."
+    },
+    {
+      "id": "VIC-006",
+      "articulo": "art. 5",
+      "explicacion": "El momento es lo que se pregunta: la información se debe desde el primer contacto, INCLUSO ANTES de presentar la denuncia. Y va adaptada a las circunstancias personales y a la naturaleza del delito — no es un folleto igual para todos."
+    },
+    {
+      "id": "VIC-007",
+      "articulo": "art. 6",
+      "explicacion": "Son derechos del momento de denunciar, y solo dos: copia CERTIFICADA de la denuncia, y asistencia lingüística gratuita con traducción escrita de esa copia. La traducción no depende de la nacionalidad sino de no entender ninguna lengua oficial del lugar.",
+      "cifras": {
+        "2": "recuento: los dos derechos de las letras a) y b) que el artículo reconoce al denunciar"
+      }
+    },
+    {
+      "id": "VIC-008",
+      "articulo": "art. 7",
+      "explicacion": "De la lista de resoluciones notificables, la que se olvida es la más útil: las que acuerdan la prisión o la PUESTA EN LIBERTAD del infractor, y su posible fuga. Y no basta con el fallo — la comunicación incluye la parte dispositiva y un breve resumen del fundamento."
+    },
+    {
+      "id": "VIC-009",
+      "articulo": "art. 9",
+      "explicacion": "El intérprete gratuito cubre también a la víctima que declara ante FUNCIONARIOS DE POLICÍA, no solo ante el Juez o el Fiscal. Y se extiende a las personas con limitaciones auditivas o de expresión oral, aunque hablen castellano."
+    },
+    {
+      "id": "VIC-010",
+      "articulo": "art. 10",
+      "explicacion": "Dos matices operativos, y ambos amplían el derecho: el acceso puede extenderse a los FAMILIARES cuando el delito haya causado perjuicios de especial gravedad, y quien entra en contacto con la víctima tiene deber de DERIVARLA a la Oficina — no basta con informarle de que existe.",
+      "cifras": {
+        "2": "recuento: los dos matices del artículo que se comentan, la extensión a familiares y el deber de derivación"
+      }
+    },
+    {
+      "id": "VIC-011",
+      "articulo": "art. 11",
+      "explicacion": "Participar no es solo personarse: la víctima puede comparecer ante quien investiga para aportar fuentes de prueba aunque no ejerza la acción penal. Son dos vías distintas y la segunda no exige abogado ni personación.",
+      "cifras": {
+        "2": "recuento: las dos vías de participación de las letras a) y b), ejercer las acciones y comparecer para aportar prueba"
+      }
+    },
+    {
+      "id": "VIC-012",
+      "articulo": "art. 13",
+      "explicacion": "Aquí está la peculiaridad del Estatuto: la víctima puede recurrir resoluciones penitenciarias AUNQUE NO SE HAYA MOSTRADO PARTE en la causa. Eso sí, con condición previa — haber solicitado que se le notifiquen conforme a la letra m) del artículo 5.1."
+    },
+    {
+      "id": "VIC-013",
+      "articulo": "art. 15",
+      "explicacion": "Los requisitos son acumulativos y hacen falta los cinco: reconocimiento de los hechos por el infractor, consentimiento de ambos, ausencia de riesgo para la víctima y que la ley no lo prohíba para ese delito. Basta con que falle uno para que no haya justicia restaurativa.",
+      "cifras": {
+        "5": "recuento: los cinco requisitos de las letras a) a e) que el artículo exige de forma acumulativa"
+      }
+    },
+    {
+      "id": "VIC-014",
+      "articulo": "art. 16",
+      "explicacion": "La víctima no tiene que ir al Colegio de Abogados: presenta la solicitud ante quien le dio la información o ante la Oficina de Asistencia, y es esa oficina o funcionario quien la traslada. El trámite se le acerca, no al revés."
+    },
+    {
+      "id": "VIC-015",
+      "articulo": "art. 19",
+      "explicacion": "El bien protegido no es solo la seguridad física: el artículo nombra expresamente la VICTIMIZACIÓN SECUNDARIA, el daño que causa el propio proceso. Y la protección alcanza también a los familiares, con la Fiscalía velando especialmente si la víctima es menor."
+    },
+    {
+      "id": "VIC-016",
+      "articulo": "art. 21",
+      "explicacion": "Todo este artículo va condicionado por una cláusula que se olvida: «en la medida que ello no perjudique la eficacia del proceso». Dentro de ese límite, lo exigible es declarar sin dilaciones, el menor número de veces posible, y reconocimientos médicos solo si son imprescindibles."
+    },
+    {
+      "id": "VIC-017",
+      "articulo": "art. 22",
+      "explicacion": "El deber no recae solo en jueces y fiscales: alcanza a TODOS los que de cualquier modo intervengan o participen en el proceso. Y el refuerzo se dirige a impedir la difusión de lo que permita identificar a víctimas menores o con discapacidad necesitadas de especial protección."
+    },
+    {
+      "id": "VIC-018",
+      "articulo": "art. 23",
+      "explicacion": "Las medidas no se aplican en bloque a todas las víctimas: dependen de una valoración individual que mira dos cosas a la vez — las circunstancias personales (discapacidad, dependencia del autor, minoría de edad) y la naturaleza del delito, con una lista de delitos de atención preferente.",
+      "cifras": {
+        "2": "recuento: los dos grupos de factores que el apartado 2 manda valorar, las letras a) y b)"
+      }
+    },
+    {
+      "id": "VIC-019",
+      "articulo": "art. 24",
+      "explicacion": "Quién evalúa cambia con la fase, y ese es el par que se pregunta: en investigación, el Juez de Instrucción o el de Violencia sobre la Mujer; en enjuiciamiento, el Juez o Tribunal de la causa. Y la policía sí evalúa, pero solo PROVISIONALMENTE en la fase inicial. La víctima puede además renunciar a las medidas."
+    },
+    {
+      "id": "VIC-020",
+      "articulo": "art. 25",
+      "explicacion": "De las medidas de investigación, la que más cae es la letra c): que todas las declaraciones las tome LA MISMA PERSONA. Y la del mismo sexo que la víctima no es automática — se aplica a víctimas concretas y solo cuando esta lo solicite."
+    },
+    {
+      "id": "VIC-021",
+      "articulo": "art. 26",
+      "explicacion": "Estas medidas se SUMAN a las del artículo anterior, no lo sustituyen. Las dos propias son la grabación audiovisual de la declaración en fase de investigación —para no repetirla en juicio— y la posibilidad de recibirla por medio de personas expertas. Y el Fiscal puede pedir defensor judicial.",
+      "cifras": {
+        "2": "recuento: las dos medidas específicas de las letras a) y b) del apartado 1"
+      }
+    },
+    {
+      "id": "VIC-022",
+      "articulo": "art. 27",
+      "explicacion": "Las Oficinas no son estatales sin más: las organizan el Gobierno y las Comunidades Autónomas QUE HAYAN ASUMIDO competencias en Justicia, cada cual en su ámbito. Y pueden prestarse por convenio con entidades públicas y privadas SIN ÁNIMO DE LUCRO."
+    },
+    {
+      "id": "VIC-023",
+      "articulo": "art. 28",
+      "explicacion": "Es una asistencia MÍNIMA, así que cabe más. Y ojo a lo que incluye y no parece jurídico: apoyo emocional, y asesoramiento sobre el riesgo y la forma de prevenir la victimización secundaria, la intimidación o las represalias."
+    }
+  ]
+}
