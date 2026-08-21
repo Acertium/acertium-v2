@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "familia": "IC",
+    "referencia_boe": "BOE-A-2011-7630",
+    "norma": "Ley 8/2011, de 28 de abril, por la que se establecen medidas para la protección de las infraestructuras críticas",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 27 explicaciones de IC abrían con «El artículo N define/enumera/atribuye…», y en esta ley eso duele especialmente: casi todo el articulado es un catálogo de definiciones y de órganos con nombres parecidos, así que parafrasear es repetir la lista que el opositor ya tiene delante. Ahora se enseña lo que de verdad se pregunta: la escalera género-especie (estratégica → crítica → crítica europea) y el reparto de quién PROPONE, quién DESIGNA y quién CLASIFICA, que es donde el enunciado cambia un órgano por otro. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-032.json"
+  },
+  "explicaciones": [
+    {
+      "id": "IC-001",
+      "articulo": "art. 1",
+      "explicacion": "Fíjate en el orden que impone: identificar y designar PRIMERO, proteger después. Nada de esta ley se activa sobre una infraestructura que no haya pasado antes por la designación, y de ahí que el Catálogo sea la pieza sobre la que gira todo lo demás."
+    },
+    {
+      "id": "IC-003",
+      "articulo": "art. 2",
+      "explicacion": "Servicio esencial no significa «importante»: la definición se apoya en funciones sociales básicas, salud, seguridad y bienestar de los ciudadanos, o en el funcionamiento eficaz de las Instituciones del Estado. Es el escalón del que cuelga todo el resto de definiciones."
+    },
+    {
+      "id": "IC-004",
+      "articulo": "art. 2",
+      "explicacion": "El dato que se pregunta no es la definición sino dónde vive la lista: los sectores estratégicos están categorizados en el ANEXO de la Ley, no en un reglamento ni en un documento del CNPIC. Ese sí es el sitio del subsector, que es la trampa gemela."
+    },
+    {
+      "id": "IC-005",
+      "articulo": "art. 2",
+      "explicacion": "Aquí empieza la escalera que hay que tener clara: infraestructura estratégica es el género —instalaciones, redes, sistemas y equipos, incluidos los de tecnología de la información— sobre el que descansan los servicios esenciales. Crítica es solo su especie."
+    },
+    {
+      "id": "IC-006",
+      "articulo": "art. 2",
+      "explicacion": "Lo que convierte a una estratégica en crítica no es su tamaño ni su valor: es que su funcionamiento sea indispensable Y NO PERMITA SOLUCIONES ALTERNATIVAS. La insustituibilidad es el requisito que el enunciado suele quitar para colar cualquier instalación grande."
+    },
+    {
+      "id": "IC-007",
+      "articulo": "art. 2",
+      "explicacion": "La europea no es «más crítica»: lo que la define es el alcance transfronterizo, que su perturbación afecte gravemente al menos a DOS Estados miembros. Y es la única definición que se remite a la Directiva 2008/114."
+    },
+    {
+      "id": "IC-008",
+      "articulo": "art. 2",
+      "explicacion": "La zona crítica no es cualquier concentración: exige zona geográfica continua, varias infraestructuras críticas, operadores DIFERENTES e interdependientes, y declaración por la autoridad competente. Con un solo operador no hay zona crítica por mucha densidad que haya."
+    },
+    {
+      "id": "IC-009",
+      "articulo": "art. 2",
+      "explicacion": "Los criterios horizontales miden CONSECUENCIAS, no probabilidad de ataque: personas afectadas, impacto económico, medioambiental, y público y social. Ese último es el que se olvida, y cubre algo tan poco material como la confianza de la población en las Administraciones."
+    },
+    {
+      "id": "IC-010",
+      "articulo": "art. 2",
+      "explicacion": "La definición mira al ataque DELIBERADO, no al accidente ni a la catástrofe natural: prevenir, paliar y neutralizar ese daño. Y el objetivo declarado es asegurar funcionalidad, continuidad e integridad — no simplemente vigilar el perímetro."
+    },
+    {
+      "id": "IC-011",
+      "articulo": "art. 2",
+      "explicacion": "Operador crítico no equivale a propietario: lo es quien responde de las inversiones O del funcionamiento diario del activo designado. Puede serlo, por tanto, quien explota sin ser dueño, y puede ser entidad pública o privada indistintamente."
+    },
+    {
+      "id": "IC-012",
+      "articulo": "art. 2",
+      "explicacion": "El Nivel de Seguridad lo activa el MINISTERIO DEL INTERIOR, no el operador ni el CNPIC, y su previsión está en el Plan Nacional. Se gradúa con dos evaluaciones a la vez: la general de la amenaza y la específica de cada infraestructura.",
+      "cifras": {
+        "2": "recuento: las dos evaluaciones que el propio artículo exige combinar, la general de la amenaza y la específica de cada infraestructura"
+      }
+    },
+    {
+      "id": "IC-013",
+      "articulo": "art. 2",
+      "explicacion": "Ojo al alcance: el Catálogo recoge TODAS las infraestructuras estratégicas del territorio nacional, no solo las críticas. Las críticas están dentro, pero el registro es más ancho, y ahí se cae al responder."
+    },
+    {
+      "id": "IC-014",
+      "articulo": "art. 3",
+      "explicacion": "Las exclusiones son las que se preguntan, y son de dentro de casa: Defensa y las propias Fuerzas y Cuerpos de Seguridad quedan fuera y se rigen por su normativa. Además la ley cede ante lo nuclear, ante la seguridad aérea y ante las funciones del Centro Nacional de Inteligencia."
+    },
+    {
+      "id": "IC-015",
+      "articulo": "art. 4",
+      "explicacion": "Aquí conviven dos competencias que el enunciado separa mal: responsable del Catálogo y competente para CLASIFICAR es el Ministerio del Interior por la Secretaría de Estado de Seguridad. Las altas, bajas y modificaciones concretas, en cambio, corresponden al CNPIC.",
+      "cifras": {
+        "2": "recuento: las dos competencias que el artículo reúne en el Ministerio del Interior, la responsabilidad del Catálogo y la de clasificar e incluir"
+      }
+    },
+    {
+      "id": "IC-016",
+      "articulo": "art. 5",
+      "explicacion": "El Sistema no es una estructura administrativa cerrada: mezcla sector público y privado porque los servicios esenciales están en manos de empresas. Esa naturaleza mixta explica que después la ley imponga obligaciones a operadores que no son Administración."
+    },
+    {
+      "id": "IC-017",
+      "articulo": "art. 5",
+      "explicacion": "De la lista de agentes hay dos que sorprenden y por eso se preguntan: las Corporaciones Locales entran a través de la asociación de Entidades Locales de mayor implantación nacional, y los propios operadores críticos son agentes del Sistema, no simples sujetos obligados.",
+      "cifras": {
+        "2": "recuento: los dos agentes de la lista que más se sustituyen en el enunciado, las Corporaciones Locales y los operadores críticos"
+      }
+    },
+    {
+      "id": "IC-018",
+      "articulo": "art. 6",
+      "explicacion": "«Órgano superior del Ministerio del Interior responsable del Sistema» es la fórmula exacta, y la relación con el CNPIC es de asistencia: la Secretaría de Estado ejerce, el Centro asiste. Invertir esa relación es el error clásico."
+    },
+    {
+      "id": "IC-019",
+      "articulo": "art. 7",
+      "explicacion": "El CNPIC impulsa, coordina y supervisa; depende ORGÁNICAMENTE de la Secretaría de Estado de Seguridad. Y tiene dos competencias propias que no son reglamentarias sino de la propia ley: mover altas, bajas y modificaciones en el Catálogo, y determinar la criticidad.",
+      "cifras": {
+        "2": "recuento: las dos competencias que el apartado 3 atribuye directamente al CNPIC, altas/bajas/modificaciones y determinación de la criticidad"
+      }
+    },
+    {
+      "id": "IC-020",
+      "articulo": "art. 8",
+      "explicacion": "«Al menos» un ministerio por sector, y el mismo ministerio puede llevar dos o más sectores: la correspondencia no es de uno a uno. Y para dar de alta o de baja a un ministerio hay que MODIFICAR EL ANEXO de la ley, que es el detalle que se pregunta."
+    },
+    {
+      "id": "IC-021",
+      "articulo": "art. 11",
+      "explicacion": "La Comisión APRUEBA los Planes Estratégicos Sectoriales y DESIGNA a los operadores críticos, pero siempre a propuesta del Grupo de Trabajo. Nunca actúa de oficio en esto, y ahí está el par que el enunciado invierte."
+    },
+    {
+      "id": "IC-022",
+      "articulo": "art. 12",
+      "explicacion": "El reparto es fijo: el Grupo de Trabajo ELABORA los Planes Estratégicos Sectoriales y PROPONE los operadores críticos; la Comisión aprueba y designa. Quien prepara no decide, y quien decide no prepara."
+    },
+    {
+      "id": "IC-023",
+      "articulo": "art. 13",
+      "explicacion": "De la lista de deberes, los que caen son los que llevan cifra o nombre propio: actualizar los datos del Catálogo con periodicidad ANUAL, y constituir un Área de Seguridad del Operador. Los planes y los dos cargos de seguridad son el resto del bloque."
+    },
+    {
+      "id": "IC-024",
+      "articulo": "art. 13",
+      "explicacion": "Basta con que UNA sola de las infraestructuras gestionadas sea crítica para poder ser designado operador crítico — no hace falta que lo sean todas ni varias. Y el CNPIC informa al operador ANTES de la clasificación definitiva: no es una designación por sorpresa."
+    },
+    {
+      "id": "IC-025",
+      "articulo": "art. 14",
+      "explicacion": "Los planes van de lo general a lo concreto —Nacional, Estratégicos Sectoriales, del Operador, de Protección Específicos y de Apoyo Operativo— y quien los hace cambia en cada escalón: Interior el Nacional, el Grupo de Trabajo los sectoriales, los operadores los dos suyos.",
+      "cifras": {
+        "2": "recuento: los dos planes que corresponden al operador crítico, el de Seguridad del Operador y el de Protección Específico"
+      }
+    },
+    {
+      "id": "IC-026",
+      "articulo": "art. 14",
+      "explicacion": "El Plan de Apoyo Operativo es el único que no hace ni la Administración central ni el operador: lo elabora el cuerpo policial competente en la demarcación, estatal o autonómico. Es el plan de quien va a acudir, y complementa a las medidas del operador."
+    },
+    {
+      "id": "IC-027",
+      "articulo": "art. 16",
+      "explicacion": "El Responsable de Seguridad y Enlace es del OPERADOR y único para él, y su requisito duro es la habilitación de Director de Seguridad expedida por Interior conforme a la normativa de seguridad privada. Sin esa habilitación no cabe el nombramiento."
+    },
+    {
+      "id": "IC-028",
+      "articulo": "art. 17",
+      "explicacion": "No lo confundas con el Responsable de Seguridad y Enlace: el Delegado es POR CADA infraestructura crítica, y su existencia se comunica a la Delegación del Gobierno o al órgano autonómico competente, no al Ministerio del Interior."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "familia": "LEC",
+    "referencia_boe": "BOE-A-1882-6036",
+    "norma": "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 23 explicaciones de LEC abrían con «El art. N fija/regula/obliga…». Es el bloque más caro de fallar del temario, porque son los artículos que el policía aplica el primer día: el atestado, las veinticuatro horas del art. 295, el autor desconocido del art. 284.2, la entrega vigilada. Y las tres capas de la denuncia —obligación general del 259, deber reforzado del 262, dispensas del 260, 261 y 263— se cruzan en el enunciado sin que ninguna explicación lo avisara. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-037.json"
+  },
+  "explicaciones": [
+    {
+      "id": "LEC-001",
+      "articulo": "art. 259",
+      "explicacion": "Dos palabras acotan la obligación general y las dos se preguntan: PRESENCIARE —no basta con enterarse, para eso está el artículo 264— y delito PÚBLICO. Y hay que dar cuenta inmediatamente al Juez o funcionario fiscal más próximo, no al que se prefiera.",
+      "cifras": {
+        "2": "recuento: las dos palabras del artículo que delimitan la obligación, «presenciare» y «público»",
+        "264": "referencia cruzada al artículo de la misma ley que cubre el conocimiento por medio distinto de presenciar"
+      }
+    },
+    {
+      "id": "LEC-002",
+      "articulo": "art. 260",
+      "explicacion": "Esta exención va por CAPACIDAD, no por vínculo: impúberes y quienes no gozaren del pleno uso de su razón. Conviene no mezclarla con la del artículo siguiente, que dispensa por parentesco y funciona con otra lógica."
+    },
+    {
+      "id": "LEC-003",
+      "articulo": "art. 261",
+      "explicacion": "La dispensa familiar llega hasta los colaterales de SEGUNDO grado, y el cónyuge cuenta solo si no está separado legalmente ni de hecho. Pero decae por completo —y esto es lo que se pregunta— en delitos graves como el homicidio, el maltrato habitual, los sexuales o la trata cuando la víctima es menor o persona con discapacidad necesitada de especial protección."
+    },
+    {
+      "id": "LEC-005",
+      "articulo": "art. 262",
+      "explicacion": "Aquí el deber no nace de presenciar sino del CARGO, profesión u oficio, y por eso basta con tener noticia. Fíjate en el orden de destinatarios: el funcionario de policía más próximo solo aparece en su defecto y si el delito es flagrante. Y si quien calla es empleado público, se avisa además a su superior inmediato."
+    },
+    {
+      "id": "LEC-006",
+      "articulo": "art. 263",
+      "explicacion": "Es excepción de alcance corto: exceptúa del PÁRRAFO PRIMERO del artículo anterior, es decir del deber profesional, no de la obligación general de quien presencia. Y cubre a abogados y procuradores por lo que reciben de sus clientes, y a eclesiásticos y ministros de cultos por lo revelado en su ministerio."
+    },
+    {
+      "id": "LEC-007",
+      "articulo": "art. 263 bis",
+      "explicacion": "Lo que sorprende y por eso cae: no la autoriza solo la autoridad judicial. También el Ministerio Fiscal y los Jefes de las Unidades Orgánicas de Policía Judicial, centrales o provinciales, y sus mandos superiores. Eso sí, por resolución fundada; y si la dicta el Juez, se traslada copia al Juzgado Decano, que custodia el registro."
+    },
+    {
+      "id": "LEC-008",
+      "articulo": "art. 263 bis",
+      "explicacion": "La técnica consiste en dejar circular lo ilícito en lugar de intervenirlo, y su alcance va mucho más allá de la droga: equipos y materiales, bienes y ganancias del blanqueo, e incluso especies animales y vegetales. Reducirla a estupefacientes es el error de bulto."
+    },
+    {
+      "id": "LEC-009",
+      "articulo": "art. 264",
+      "explicacion": "Este es el cajón que recoge lo que no cubre la obligación de quien presencia: quien se entera por cualquier otro medio. Y trae la garantía que anima a denunciar — no hay que probar los hechos ni formalizar querella, y el denunciante no contrae más responsabilidad que la de los delitos que cometa con la propia denuncia."
+    },
+    {
+      "id": "LEC-010",
+      "articulo": "art. 265",
+      "explicacion": "Cuatro combinaciones posibles y todas válidas: por escrito o de palabra, personalmente o por mandatario. Pero el mandatario necesita PODER ESPECIAL, que es el requisito que el enunciado suele suprimir.",
+      "cifras": {
+        "4": "recuento: las cuatro combinaciones que resultan de las dos alternativas del artículo, escrito/palabra y personal/por mandatario"
+      }
+    },
+    {
+      "id": "LEC-011",
+      "articulo": "art. 265",
+      "explicacion": "La denuncia anónima no encaja aquí: el contenido mínimo es la identificación del denunciante y la narración circunstanciada del hecho. Lo demás —autores, testigos, fuentes de conocimiento— solo si son conocidos. Y si denuncia una persona jurídica, hay que identificar además a la persona física que actúa y su relación con ella."
+    },
+    {
+      "id": "LEC-012",
+      "articulo": "art. 266",
+      "explicacion": "La lista de lo que NO se puede denunciar por vía telemática es lo que se pregunta, y es larga: violencia o intimidación, autor conocido, existencia de testigos, denunciante menor de edad, delito flagrante y hechos de naturaleza violenta o sexual. Basta con que concurra uno para cerrar esa vía."
+    },
+    {
+      "id": "LEC-013",
+      "articulo": "art. 267",
+      "explicacion": "La denuncia verbal no se resume: se levanta acta EN FORMA DE DECLARACIÓN y la firman los dos, denunciante y receptor. Si el denunciante no puede firmar, firma otra persona a su ruego — nunca se queda el acta sin firma.",
+      "cifras": {
+        "2": "recuento: los dos firmantes del acta que exige el artículo, el denunciante y la autoridad o funcionario que la recibe"
+      }
+    },
+    {
+      "id": "LEC-014",
+      "articulo": "art. 268",
+      "explicacion": "Comprobar la identidad del denunciante es obligatorio siempre, sea la denuncia verbal o escrita. Lo que no es automático es el resguardo: se entrega solo SI EL DENUNCIANTE LO EXIGE, y esa condición es justo lo que el enunciado borra."
+    },
+    {
+      "id": "LEC-015",
+      "articulo": "art. 269",
+      "explicacion": "La regla es comprobar inmediatamente, y las únicas dos salidas son tasadas: que el hecho no revista carácter de delito, o que la denuncia sea MANIFIESTAMENTE falsa. «Dudosa» o «poco creíble» no vale, y quien la desestima indebidamente responde por ello.",
+      "cifras": {
+        "2": "recuento: las dos excepciones que el artículo permite para abstenerse de todo procedimiento"
+      }
+    },
+    {
+      "id": "LEC-016",
+      "articulo": "art. 118",
+      "explicacion": "El derecho de defensa no espera al procesamiento: nace desde que se comunica la existencia del hecho punible, o hay detención, o cualquier otra medida cautelar. Lo que primero ocurra abre la puerta, y a partir de ahí hay que instruir de derechos sin demora injustificada."
+    },
+    {
+      "id": "LEC-018",
+      "articulo": "art. 118",
+      "explicacion": "Dos matices que se preguntan juntos: la entrevista reservada con el abogado puede ser INCLUSO ANTES de la declaración —ante policía, fiscal o juez—, y el abogado ha de estar presente no solo al declarar, también en reconocimientos, careos y reconstrucción de hechos.",
+      "cifras": {
+        "2": "recuento: los dos matices del apartado, el momento de la entrevista reservada y las diligencias a las que se extiende la presencia del abogado"
+      }
+    },
+    {
+      "id": "LEC-019",
+      "articulo": "art. 118",
+      "explicacion": "La confidencialidad tiene una excepción expresa y es la que se pregunta: decae cuando hay indicios OBJETIVOS de que el abogado participa en el delito investigado o en otra infracción junto al investigado. Fuera de ese caso, si la comunicación se captó, el juez ordena eliminar la grabación."
+    },
+    {
+      "id": "LEC-020",
+      "articulo": "art. 283",
+      "explicacion": "Este artículo dice algo contraintuitivo: la Policía judicial no es cuerpo, es FUNCIÓN, y la lista incluye a alcaldes, guardas de montes, funcionarios de prisiones o personal de Tráfico. Y su posición es de auxiliar de jueces, tribunales penales y Ministerio Fiscal, obligada a seguir sus instrucciones."
+    },
+    {
+      "id": "LEC-021",
+      "articulo": "art. 284",
+      "explicacion": "La regla del autor desconocido: el atestado se CONSERVA a disposición del fiscal y del juez sin enviárselo, salvo tres supuestos — delitos graves de la lista, diligencia con resultado tras las setenta y dos horas, o petición expresa. Y hay que avisar al denunciante de que, sin autor identificado, las actuaciones no se remiten.",
+      "cifras": {
+        "3": "recuento: los tres supuestos tasados de las letras a), b) y c) que obligan a remitir pese al autor desconocido"
+      }
+    },
+    {
+      "id": "LEC-022",
+      "articulo": "art. 286",
+      "explicacion": "El relevo es inmediato y total: en cuanto el Juez se presenta a formar el sumario, CESAN las diligencias de prevención. Y la entrega es en el acto — diligencias, efectos del delito y los detenidos a su disposición."
+    },
+    {
+      "id": "LEC-023",
+      "articulo": "art. 292",
+      "explicacion": "El atestado no es un relato libre: exige especificar los hechos averiguados con la mayor exactitud, insertar declaraciones e informes, y anotar toda circunstancia que pueda ser prueba o indicio. Y va acompañado de un informe sobre detenciones anteriores y requisitorias que consten en las bases de datos."
+    },
+    {
+      "id": "LEC-024",
+      "articulo": "art. 295",
+      "explicacion": "Veinticuatro horas para dar conocimiento, con dos salvedades: fuerza mayor y el supuesto de autor desconocido del artículo 284.2. Y ojo, se sanciona también la demora que NO llega a las veinticuatro horas si es más de lo necesario — con escala disciplinaria que sube según se repita.",
+      "cifras": {
+        "2": "recuento: las dos salvedades que el artículo admite al plazo, fuerza mayor y el apartado 2 del artículo 284"
+      }
+    },
+    {
+      "id": "LEC-025",
+      "articulo": "art. 297",
+      "explicacion": "El atestado vale como DENUNCIA, no como prueba: es el punto de partida del proceso, no su desenlace. Lo que sí alcanza valor de declaración testifical son las demás declaraciones del funcionario, y solo respecto de hechos de conocimiento propio."
+    }
+  ]
+}

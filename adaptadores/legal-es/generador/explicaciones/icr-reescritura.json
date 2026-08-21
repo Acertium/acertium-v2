@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "familia": "ICR",
+    "referencia_boe": "BOE-A-2011-8849",
+    "norma": "Real Decreto 704/2011, de 20 de mayo, por el que se aprueba el Reglamento de protección de las infraestructuras críticas",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 25 explicaciones de ICR abrían con «El artículo N define/atribuye/regula…» y, además, repetían casi palabra por palabra las de la familia IC: el reglamento desarrolla la Ley 8/2011, así que parafrasearlo produce el mismo texto dos veces y el opositor no ve DÓNDE está la diferencia. Aquí se enseña lo que solo aporta el reglamento: la cadena de plazos (quince días de alegaciones, seis meses el Plan del Operador, cuatro el Específico, cuatro el de Apoyo Operativo, tres para los dos cargos), la calificación de SECRETO del Catálogo y la acreditación por el Centro Criptológico Nacional. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-033.json"
+  },
+  "explicaciones": [
+    {
+      "id": "ICR-001",
+      "articulo": "art. 1",
+      "explicacion": "El reglamento no crea el Sistema, lo concreta: la Ley 8/2011 dice qué órganos hay y este texto dice qué hace cada uno y cómo se encadenan los planes. Por eso casi todo lo que la ley remitía «a lo que reglamentariamente se establezca» aparece resuelto aquí."
+    },
+    {
+      "id": "ICR-003",
+      "articulo": "art. 2",
+      "explicacion": "No hay ámbito propio: se remite en bloque al artículo 3 de la Ley 8/2011. Es decir que arrastra también sus exclusiones — Defensa y las Fuerzas y Cuerpos de Seguridad quedan igualmente fuera del reglamento."
+    },
+    {
+      "id": "ICR-004",
+      "articulo": "art. 3",
+      "explicacion": "Aquí el Catálogo se califica como REGISTRO ADMINISTRATIVO, y su alcance vuelve a ser el ancho: todas las estratégicas del territorio nacional, con las críticas y las críticas europeas que afecten a España dentro. Su finalidad no es archivar, es permitir activar una respuesta conforme al Plan Nacional."
+    },
+    {
+      "id": "ICR-005",
+      "articulo": "art. 4",
+      "explicacion": "El dato que se pregunta de este artículo no es la lista de contenidos sino el apartado final: el Catálogo tiene la calificación de SECRETO, y esa calificación alcanza también a los equipos, las aplicaciones y los sistemas de comunicaciones asociados."
+    },
+    {
+      "id": "ICR-007",
+      "articulo": "art. 5",
+      "explicacion": "Cuidado con el par: CLASIFICAR e incluir por vez primera es de la Secretaría de Estado de Seguridad; el proceso de IDENTIFICACIÓN de una infraestructura como crítica lo realiza el CNPIC. Y clasificar como crítica europea trae una obligación añadida: comunicar su identidad a los otros Estados miembros afectados."
+    },
+    {
+      "id": "ICR-008",
+      "articulo": "art. 6",
+      "explicacion": "La Secretaría de Estado APRUEBA casi todos los planes —el Nacional, los del Operador, los Específicos, los de Apoyo Operativo— pero siempre a propuesta del CNPIC. Y es quien declara los niveles de seguridad, en coordinación con el Plan de Prevención y Protección Antiterrorista."
+    },
+    {
+      "id": "ICR-009",
+      "articulo": "art. 7",
+      "explicacion": "El CNPIC ejecuta y mantiene, no aprueba: ejecuta el Plan Nacional, determina la criticidad, mantiene operativo el Catálogo. Cada vez que el enunciado le atribuya aprobar un plan, está cambiándole el papel al de la Secretaría de Estado."
+    },
+    {
+      "id": "ICR-010",
+      "articulo": "art. 8",
+      "explicacion": "Los ministerios del Sistema entran en los Planes Estratégicos Sectoriales a través del Grupo de Trabajo, nunca por su cuenta. Y su verificación tiene un límite expreso: no alcanza a las medidas de seguridad concretas de infraestructuras específicas."
+    },
+    {
+      "id": "ICR-011",
+      "articulo": "art. 9",
+      "explicacion": "Los Delegados del Gobierno actúan BAJO LA AUTORIDAD del Secretario de Estado de Seguridad, no con competencia propia. Lo suyo es el terreno: coordinar a las Fuerzas y Cuerpos de Seguridad ante una alerta y velar por la aplicación del Plan Nacional si se activa."
+    },
+    {
+      "id": "ICR-012",
+      "articulo": "art. 10",
+      "explicacion": "Lo que habilita a la Comunidad Autónoma no es la autonomía sino tener policía propia con competencias para la protección de personas y bienes. Y aun así asume solo parte de las facultades del Delegado del Gobierno, que conserva el conocimiento de la información sensible y de los planes."
+    },
+    {
+      "id": "ICR-013",
+      "articulo": "art. 11",
+      "explicacion": "La Comisión hace tres cosas a propuesta del Grupo de Trabajo —aprobar los Planes Estratégicos Sectoriales, designar operadores críticos y crear o suprimir grupos de trabajo—, más una función que sí es suya de origen: preservar y promover la cultura de seguridad.",
+      "cifras": {
+        "3": "recuento: las tres actuaciones que la letra c) del artículo reúne bajo «a propuesta del Grupo de Trabajo»"
+      }
+    },
+    {
+      "id": "ICR-014",
+      "articulo": "art. 12",
+      "explicacion": "El detalle que se pregunta está en la composición: preside el DIRECTOR DEL CNPIC. Sus funciones son de preparación —elaborar los planes sectoriales, proponer operadores, proponer grupos de trabajo— y todas terminan presentándose a la Comisión."
+    },
+    {
+      "id": "ICR-015",
+      "articulo": "art. 13",
+      "explicacion": "Los dos planes del operador no están al mismo nivel: el de Seguridad del Operador es uno solo y define su política general; el de Protección Específico va uno POR CADA infraestructura crítica. Y la actualización de datos del Catálogo es anual.",
+      "cifras": {
+        "2": "recuento: los dos planes que el artículo impone al operador crítico, el de Seguridad del Operador y el de Protección Específico"
+      }
+    },
+    {
+      "id": "ICR-016",
+      "articulo": "art. 14",
+      "explicacion": "El procedimiento reparte tres papeles distintos: el CNPIC propone y notifica, el interesado alega en quince días, y la Comisión —a propuesta del Grupo de Trabajo— resuelve. Y contra esa resolución cabe alzada ante el Secretario de Estado de Seguridad.",
+      "cifras": {
+        "3": "recuento: los tres papeles que el artículo distingue en la designación, propuesta del CNPIC, alegaciones del interesado y resolución de la Comisión"
+      }
+    },
+    {
+      "id": "ICR-017",
+      "articulo": "art. 15",
+      "explicacion": "La interlocución no es igual para todos: el operador PRIVADO habla siempre por el CNPIC; en el público vinculado a una Administración, el órgano competente por razón de la materia puede erigirse en interlocutor, y ha de comunicar esa decisión al CNPIC."
+    },
+    {
+      "id": "ICR-018",
+      "articulo": "art. 16",
+      "explicacion": "El Plan Nacional lo ELABORA la Secretaría de Estado de Seguridad —y también lo aprueba— y es el instrumento de programación del Estado. La clave es que no vive solo: sus niveles de seguridad se activan coordinadamente con el Plan de Prevención y Protección Antiterrorista, al que debe adaptarse."
+    },
+    {
+      "id": "ICR-019",
+      "articulo": "art. 18",
+      "explicacion": "Ojo, son dos cosas distintas: la revisión ordinaria toca cada cinco años y la hace la Secretaría de Estado; la actualización es AUTOMÁTICA en cuanto cambie un dato o instrucción, la ejecuta el CNPIC y necesita aprobación expresa del Secretario de Estado.",
+      "cifras": {
+        "2": "recuento: los dos supuestos que el artículo separa, la revisión quinquenal y la actualización automática"
+      }
+    },
+    {
+      "id": "ICR-020",
+      "articulo": "art. 19",
+      "explicacion": "Son instrumentos de ESTUDIO y planificación, no operativos: identifican servicios esenciales, vulnerabilidades y consecuencias de la inactividad de todo un sector. Los elabora el Grupo de Trabajo coordinado por el CNPIC, y puede haber uno por sector o por subsector."
+    },
+    {
+      "id": "ICR-021",
+      "articulo": "art. 20",
+      "explicacion": "Aquí conviven un plazo y una custodia: la Comisión aprueba en el plazo máximo de doce meses desde la entrada en vigor del real decreto, y el registro central de los planes aprobados lo gestiona y custodia el CNPIC. Los ministerios acceden solo a los sectores de su competencia."
+    },
+    {
+      "id": "ICR-022",
+      "articulo": "art. 22",
+      "explicacion": "El Plan de Seguridad del Operador es ESTRATÉGICO —política general para todas sus instalaciones— y su reloj arranca con la notificación de la designación: seis meses para elaborarlo y presentarlo al CNPIC. El CNPIC evalúa e informa; aprueba el Secretario de Estado."
+    },
+    {
+      "id": "ICR-023",
+      "articulo": "art. 25",
+      "explicacion": "El Específico es el gemelo OPERATIVO del anterior y su plazo se cuenta desde otro punto: cuatro meses desde la APROBACIÓN del Plan de Seguridad del Operador, no desde la designación. Y cubre seguridad integral, física y lógica."
+    },
+    {
+      "id": "ICR-024",
+      "articulo": "art. 30",
+      "explicacion": "Es el plan que hace la Administración, no el operador: lo realiza el Cuerpo Policial competente en la demarcación, bajo supervisión de la Delegación del Gobierno o del órgano autonómico. Cuatro meses desde la aprobación del Plan de Protección Específico, y con la colaboración del responsable de seguridad de la infraestructura."
+    },
+    {
+      "id": "ICR-025",
+      "articulo": "art. 33",
+      "explicacion": "Administrar los sistemas es del CNPIC, pero acreditar y certificar su seguridad NO: eso corresponde al Centro Criptológico Nacional del Centro Nacional de Inteligencia. Y el soporte de comunicaciones seguras es la Malla B, que facilita la Presidencia del Gobierno."
+    },
+    {
+      "id": "ICR-026",
+      "articulo": "art. 34",
+      "explicacion": "Tres meses, contados desde la DESIGNACIÓN como operador crítico, y se comunica a la Secretaría de Estado de Seguridad a través del CNPIC. Su papel es representar al operador ante esa Secretaría en todo lo relativo a la seguridad de sus infraestructuras."
+    },
+    {
+      "id": "ICR-027",
+      "articulo": "art. 35",
+      "explicacion": "Mismo plazo de tres meses que el Responsable de Seguridad y Enlace, pero otro punto de partida y otro destinatario: se cuenta desde la IDENTIFICACIÓN de la infraestructura como crítica, y se comunica a la Delegación del Gobierno o al órgano autonómico competente. El Delegado es el enlace operativo de esa infraestructura concreta."
+    }
+  ]
+}
