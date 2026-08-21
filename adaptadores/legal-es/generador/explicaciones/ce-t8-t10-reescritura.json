@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "familia": "CE",
+    "referencia_boe": "BOE-A-1978-31229",
+    "norma": "Constitución Española",
+    "fecha": "2026-08-22",
+    "motivo": "Octava tanda (peso 3). Estas 32 son las PEORES del banco: varias eran literalmente «Art. 144.» y nada más, restos de la primera carga de la CE, anterior a que `explicacion` entrara en el contrato. Aquí no había nada que reformular, así que se han escrito leyendo el artículo en el corpus (seccion-003.json). Títulos VIII (organización territorial) y X (reforma constitucional). El eje pedagógico del Título X es el par ordinario/agravado, que es lo único que se pregunta de ahí.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-003.json"
+  },
+  "explicaciones": [
+    {
+      "id": "CE-T10-001",
+      "articulo": "art. 166",
+      "explicacion": "La iniciativa de reforma no es la legislativa entera: se remite al 87.1 y 2 pero deja fuera el 87.3. Es decir, la iniciativa popular NO puede proponer reformar la Constitución, aunque sí leyes.",
+      "cifras": {
+        "3": "referencia cruzada al art. 87.3, la iniciativa popular, que es justo lo que el art. 166 deja fuera al remitirse solo a los apartados 1 y 2"
+      }
+    },
+    {
+      "id": "CE-T10-002",
+      "articulo": "art. 167",
+      "explicacion": "Todo el Título X se reduce a distinguir dos procedimientos, y la mayoría es lo que los separa: el ordinario pide tres quintos y el agravado dos tercios. Si se confunden las fracciones, se falla toda la pregunta."
+    },
+    {
+      "id": "CE-T10-003",
+      "articulo": "art. 167",
+      "explicacion": "Si las Cámaras no coinciden no se bloquea la reforma: se abre una comisión paritaria de Diputados y Senadores que redacta un texto nuevo. Es un mecanismo de conciliación, no de veto."
+    },
+    {
+      "id": "CE-T10-004",
+      "articulo": "art. 167",
+      "explicacion": "Si aun así el Senado no aprueba, el Congreso puede sacarla adelante solo — pero le sube el listón a dos tercios. La preeminencia del Congreso se paga con una mayoría mayor."
+    },
+    {
+      "id": "CE-T10-005",
+      "articulo": "art. 167",
+      "explicacion": "En el procedimiento ordinario el referéndum es FACULTATIVO: solo se celebra si lo piden una décima parte de los miembros de cualquiera de las Cámaras. Enfréntalo al agravado, donde es obligatorio."
+    },
+    {
+      "id": "CE-T10-006",
+      "articulo": "art. 168",
+      "explicacion": "No todo se reforma igual: la revisión total y la que toca el Título Preliminar, los derechos fundamentales del Capítulo II Sección 1.ª o el Título II (la Corona) van por la vía dura. Son las materias que la Constitución más protege de sí misma."
+    },
+    {
+      "id": "CE-T10-007",
+      "articulo": "art. 168",
+      "explicacion": "La vía agravada obliga a disolver las Cortes y convocar elecciones: la reforma la aprueba un cuerpo electoral NUEVO, no el que la inició. Ese es el corazón del procedimiento."
+    },
+    {
+      "id": "CE-T10-008",
+      "articulo": "art. 168",
+      "explicacion": "Y las Cámaras nuevas no heredan el trabajo hecho: tienen que ratificar la decisión y aprobar el texto otra vez por dos tercios. Doble votación cualificada, con elecciones en medio."
+    },
+    {
+      "id": "CE-T10-009",
+      "articulo": "art. 168",
+      "explicacion": "Aquí el referéndum es OBLIGATORIO y automático: no depende de que nadie lo pida. Es la diferencia que se pregunta frente al ordinario, donde hay que solicitarlo."
+    },
+    {
+      "id": "CE-T10-010",
+      "articulo": "art. 169",
+      "explicacion": "No se puede reformar la Constitución en tiempo de guerra ni bajo alarma, excepción o sitio. Protege el proceso constituyente justo cuando sería más fácil forzarlo."
+    },
+    {
+      "id": "CE-T8-001",
+      "articulo": "art. 137",
+      "explicacion": "Tres entidades —municipios, provincias y Comunidades Autónomas— con AUTONOMÍA, que no es soberanía: es autonomía para gestionar sus intereses. Y no es igual en las tres: la municipal y la provincial son administrativas; la de las Comunidades, también política.",
+      "cifras": {
+        "3": "recuento: las tres entidades territoriales que enumera el artículo (municipios, provincias y Comunidades Autónomas)"
+      }
+    },
+    {
+      "id": "CE-T8-002",
+      "articulo": "art. 138",
+      "explicacion": "Dos ideas en el mismo artículo: el Estado garantiza el equilibrio económico entre territorios, y las diferencias entre Estatutos no pueden dar privilegios económicos ni sociales. Solidaridad e igualdad, no uniformidad."
+    },
+    {
+      "id": "CE-T8-003",
+      "articulo": "art. 139",
+      "explicacion": "Es la base constitucional de la unidad de mercado: ninguna autoridad puede poner trabas a la libre circulación de personas y bienes por el territorio. Se invoca mucho más de lo que su brevedad sugiere."
+    },
+    {
+      "id": "CE-T8-004",
+      "articulo": "art. 140",
+      "explicacion": "Los Concejales se eligen directamente por los vecinos; los Alcaldes, no necesariamente — pueden elegirlos los Concejales o los vecinos. Esa doble vía es lo que se pregunta, junto al régimen de concejo abierto."
+    },
+    {
+      "id": "CE-T8-005",
+      "articulo": "art. 141",
+      "explicacion": "La provincia es agrupación de municipios Y división territorial del Estado, las dos cosas a la vez. Y en los archipiélagos las islas tienen administración propia: Cabildos en Canarias, Consejos en Baleares."
+    },
+    {
+      "id": "CE-T8-006",
+      "articulo": "art. 142",
+      "explicacion": "Suficiencia financiera: las Haciendas locales deben disponer de medios bastantes para sus funciones. Y se nutren de dos fuentes, tributos propios y participación en los del Estado y las Comunidades Autónomas.",
+      "cifras": {
+        "2": "recuento: las dos fuentes de financiación que nombra el artículo, tributos propios y participación en los del Estado y las Comunidades"
+      }
+    },
+    {
+      "id": "CE-T8-007",
+      "articulo": "art. 143",
+      "explicacion": "Dos plazos que se cruzan: la iniciativa debe acordarse en seis meses, y si fracasa hay que esperar cinco años para repetirla. El primero es de agilidad; el segundo, de estabilidad."
+    },
+    {
+      "id": "CE-T8-008",
+      "articulo": "art. 144",
+      "explicacion": "Es la válvula de excepción del sistema: por interés nacional, las Cortes pueden autorizar una comunidad uniprovincial que no cumpla los requisitos, dar Estatuto a territorios fuera de la organización provincial, o sustituir la iniciativa de las corporaciones locales. Siempre por ley orgánica."
+    },
+    {
+      "id": "CE-T8-009",
+      "articulo": "art. 145",
+      "explicacion": "Prohibición tajante: la federación entre Comunidades no se admite EN NINGÚN CASO. Sí se admiten convenios de gestión previstos en los Estatutos, y los demás acuerdos de cooperación necesitan autorización de las Cortes."
+    },
+    {
+      "id": "CE-T8-010",
+      "articulo": "art. 146",
+      "explicacion": "En la vía ordinaria el proyecto lo redacta una asamblea mixta —Diputaciones u órganos interinsulares más los Diputados y Senadores elegidos allí— y las Cortes lo tramitan como una ley más. Sin referéndum de por medio."
+    },
+    {
+      "id": "CE-T8-011",
+      "articulo": "art. 147",
+      "explicacion": "El Estatuto es la norma institucional BÁSICA de la Comunidad, no una ley cualquiera: el Estado lo reconoce como parte de su ordenamiento. Y su contenido mínimo es tasado: denominación, territorio, instituciones y competencias asumidas."
+    },
+    {
+      "id": "CE-T8-012",
+      "articulo": "art. 148",
+      "explicacion": "Es la lista de lo que las Comunidades PUEDEN asumir, no de lo que tienen. Para el opositor hay una que importa más que las demás: la 22.ª, vigilancia y protección de edificios propios y coordinación de las policías locales."
+    },
+    {
+      "id": "CE-T8-013",
+      "articulo": "art. 149",
+      "explicacion": "Frente al 148, aquí lo que se enumera es exclusivo del ESTADO, y la clave para el temario es la 29.ª: seguridad pública. Y el 149.3 cierra con dos reglas que se confunden — prevalencia del derecho estatal y supletoriedad.",
+      "cifras": {
+        "148": "referencia cruzada al art. 148, la lista de competencias asumibles, que es con lo que se contrasta este artículo",
+        "149": "el propio número del artículo, citado para señalar su apartado 3 (prevalencia y supletoriedad)"
+      }
+    },
+    {
+      "id": "CE-T8-014",
+      "articulo": "art. 150",
+      "explicacion": "Tres instrumentos distintos y se mezclan: leyes marco, leyes de transferencia o delegación, y leyes de armonización. Solo la última exige que las Cortes aprecien la necesidad por mayoría absoluta de cada Cámara."
+    },
+    {
+      "id": "CE-T8-015",
+      "articulo": "art. 151",
+      "explicacion": "La vía especial evita esperar los cinco años, pero a cambio pide un respaldo enorme: tres cuartas partes de los municipios de cada provincia que representen la mayoría del censo, y después referéndum. Más rápida, mucho más exigente."
+    },
+    {
+      "id": "CE-T8-016",
+      "articulo": "art. 152",
+      "explicacion": "El Presidente autonómico lo elige la Asamblea de entre sus miembros y lo nombra el Rey — no lo elige el electorado directamente. Y responde políticamente ante la Asamblea, no ante el Rey ni ante el Gobierno."
+    },
+    {
+      "id": "CE-T8-017",
+      "articulo": "art. 153",
+      "explicacion": "El control no lo hace un solo órgano: se reparte según de qué se controle. Normas con fuerza de ley, el Tribunal Constitucional; funciones delegadas, el Gobierno con dictamen del Consejo de Estado; la administración, los tribunales contencioso-administrativos; lo económico, el Tribunal de Cuentas.",
+      "cifras": {
+        "1": "recuento retórico: «un solo órgano», para señalar que el control se reparte entre los cuatro que enumera el artículo"
+      }
+    },
+    {
+      "id": "CE-T8-018",
+      "articulo": "art. 154",
+      "explicacion": "El Delegado del Gobierno dirige la Administración del ESTADO en la Comunidad y la coordina con la autonómica — no dirige la administración de la Comunidad. Confundir ambas cosas es el error típico."
+    },
+    {
+      "id": "CE-T8-019",
+      "articulo": "art. 155",
+      "explicacion": "La coerción estatal no es libre: exige requerimiento previo al Presidente autonómico y, si no atiende, mayoría absoluta del SENADO — no del Congreso. Esa cámara es la que se falla."
+    },
+    {
+      "id": "CE-T8-020",
+      "articulo": "art. 156",
+      "explicacion": "La autonomía financiera no es independencia: va atada a dos principios, coordinación con la Hacienda estatal y solidaridad entre todos los españoles. Y las Comunidades pueden actuar como delegadas del Estado para recaudar sus tributos."
+    },
+    {
+      "id": "CE-T8-021",
+      "articulo": "art. 157",
+      "explicacion": "Los recursos vienen de tres sitios que conviene separar: lo que cede el Estado, lo propio (impuestos, tasas, contribuciones) y las transferencias del Fondo de Compensación. Lo cedido no es lo mismo que lo propio."
+    },
+    {
+      "id": "CE-T8-022",
+      "articulo": "art. 158",
+      "explicacion": "Dos mecanismos distintos en el mismo artículo: la asignación por servicios asumidos y nivel mínimo de prestación, y el Fondo de Compensación, que es para gastos de inversión y corregir desequilibrios. Uno mantiene, el otro invierte."
+    }
+  ]
+}

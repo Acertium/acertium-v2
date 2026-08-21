@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "familia": "CPOL",
+    "referencia_boe": "BOE-A-2011-7173",
+    "norma": "Real Decreto 555/2011, de 20 de abril, por el que se establece el régimen electoral del Consejo de Policía",
+    "fecha": "2026-08-22",
+    "motivo": "Novena tanda (peso 2, 58 pendientes, la familia con más volumen). Norma procedimental llena de plazos, así que las explicaciones no repiten la cifra —esa ya está en la respuesta— sino que separan lo que se confunde: los tres órganos de la Administración Electoral y quién hace qué, y los pares de plazos que se cruzan.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-020.json"
+  },
+  "explicaciones": [
+    {
+      "id": "CPOL-001",
+      "articulo": "art. 1",
+      "explicacion": "Este reglamento no crea el Consejo de Policía: desarrolla cómo se eligen sus representantes, en ejecución de la LO 2/1986. Quién es el Consejo y para qué sirve está allí, no aquí."
+    },
+    {
+      "id": "CPOL-003",
+      "articulo": "art. 2",
+      "explicacion": "La representación no es por territorio sino por ESCALA, y se calcula por tramos de funcionarios o fracción. Por eso una escala pequeña conserva representación aunque tenga muy pocos efectivos."
+    },
+    {
+      "id": "CPOL-004",
+      "articulo": "art. 3",
+      "explicacion": "La suspensión de funciones no quita el voto mientras NO sea firme: ahí está el matiz. Y hay un colectivo excluido que se olvida — los facultativos y técnicos, que tienen su propia representación."
+    },
+    {
+      "id": "CPOL-005",
+      "articulo": "art. 3",
+      "explicacion": "Ser elector y ser elegible no es lo mismo: quien organiza las elecciones no puede concurrir a ellas. Por eso los miembros de la Junta Electoral quedan fuera, además de quienes cambien de situación tras la convocatoria."
+    },
+    {
+      "id": "CPOL-006",
+      "articulo": "art. 4",
+      "explicacion": "Dos vías y no tres: voto electrónico y voto por correspondencia. No hay urna presencial clásica, y cada vía tiene su propio capítulo con sus garantías.",
+      "cifras": {
+        "3": "recuento retórico: «dos vías y no tres», para descartar la urna presencial que el artículo no contempla"
+      }
+    },
+    {
+      "id": "CPOL-007",
+      "articulo": "art. 4",
+      "explicacion": "Tres garantías en un solo apartado: no votar dos veces, no ser coaccionado bajo ningún pretexto, y no poder ser obligado a revelar el voto. Es la traducción de «personal, libre y secreto» a prohibiciones concretas.",
+      "cifras": {
+        "3": "recuento: las tres garantías que enumera el apartado — no votar dos veces, no ser coaccionado y no revelar el voto"
+      }
+    },
+    {
+      "id": "CPOL-008",
+      "articulo": "art. 5",
+      "explicacion": "Tres órganos y conviene no mezclarlos: la Junta Electoral dirige, la Mesa Electoral Única escruta, y las Comisiones de Garantía vigilan los puntos de votación. Casi todas las preguntas del reglamento se resuelven sabiendo cuál hace qué."
+    },
+    {
+      "id": "CPOL-009",
+      "articulo": "art. 5",
+      "explicacion": "La finalidad del andamiaje es doble: transparencia y objetividad. Y el resultado que garantiza es el sufragio personal, libre, directo y secreto — las cuatro notas juntas.",
+      "cifras": {
+        "4": "recuento: las cuatro notas del sufragio que enumera el artículo (personal, libre, directo y secreto)"
+      }
+    },
+    {
+      "id": "CPOL-010",
+      "articulo": "art. 6",
+      "explicacion": "La Junta es PARITARIA: tantos de la Administración como de los sindicatos con representación en el Consejo. Ninguna parte tiene mayoría por composición."
+    },
+    {
+      "id": "CPOL-011",
+      "articulo": "art. 6",
+      "explicacion": "Aunque la Junta sea paritaria, la Presidencia y la Secretaría son de la Administración. Esa asimetría es la que se pregunta: paridad en los miembros, dirección formal en la Administración."
+    },
+    {
+      "id": "CPOL-012",
+      "articulo": "art. 6",
+      "explicacion": "Quien nombra a la parte administrativa es el Ministro del Interior, no el Director General. Y hay plazo: el reloj arranca con la convocatoria de elecciones."
+    },
+    {
+      "id": "CPOL-013",
+      "articulo": "art. 6",
+      "explicacion": "La Junta es el órgano rector y su competencia va de punta a punta: sortea la Mesa al principio y proclama a los electos al final. Si una pregunta dice «proclamar», la respuesta es la Junta."
+    },
+    {
+      "id": "CPOL-014",
+      "articulo": "art. 7",
+      "explicacion": "Circunscripción ÚNICA nacional, y por eso una sola Mesa. No hay mesas provinciales: lo que hay repartido son los puntos de votación, vigilados por las Comisiones de Garantía."
+    },
+    {
+      "id": "CPOL-015",
+      "articulo": "art. 7",
+      "explicacion": "Presidente y dos Vocales, y salen por SORTEO entre los del censo destinados en la localidad — no se eligen ni se designan a dedo. Es la misma lógica que las mesas electorales generales."
+    },
+    {
+      "id": "CPOL-017",
+      "articulo": "art. 7",
+      "explicacion": "Todo el calendario cuelga de la fecha de convocatoria: el sorteo de la Mesa se cuenta desde ella, no desde la fecha de votación. Ese es el punto de partida de casi todos los plazos del reglamento."
+    },
+    {
+      "id": "CPOL-018",
+      "articulo": "art. 7",
+      "explicacion": "El cargo es OBLIGATORIO: no se puede rechazar. Pero hay incompatibilidades tasadas — el Jefe de la Dependencia, los candidatos y los representantes de las candidaturas no pueden formar parte."
+    },
+    {
+      "id": "CPOL-019",
+      "articulo": "art. 7",
+      "explicacion": "La Mesa se constituye en Madrid, porque la circunscripción es nacional y no hay otra. Y también se cuenta desde la convocatoria, como el sorteo."
+    },
+    {
+      "id": "CPOL-020",
+      "articulo": "art. 8",
+      "explicacion": "Hay una Comisión por cada dependencia con puntos de voto electrónico, y sus miembros salen del censo con destino en esa localidad. Vigilan sobre el terreno lo que la Mesa no puede ver desde Madrid."
+    },
+    {
+      "id": "CPOL-021",
+      "articulo": "art. 8",
+      "explicacion": "La de voto por correspondencia es distinta de las demás: tiene su sede junto a la Mesa Electoral Única y más miembros que las de voto electrónico. Es la excepción que se pregunta."
+    },
+    {
+      "id": "CPOL-022",
+      "articulo": "art. 8",
+      "explicacion": "Las Comisiones no escrutan: supervisan, informan al elector y resuelven incidencias en su punto. El escrutinio es de la Mesa, y de toda España a la vez."
+    },
+    {
+      "id": "CPOL-023",
+      "articulo": "art. 9",
+      "explicacion": "Los Interventores los designa cada candidatura, no la Junta, y hay uno por órgano: uno ante la Mesa y uno por cada Comisión. El escrito, eso sí, va dirigido a la Junta Electoral."
+    },
+    {
+      "id": "CPOL-024",
+      "articulo": "art. 9",
+      "explicacion": "Participan en las deliberaciones pero no votan: son fiscalizadores, no miembros. Confundir asistencia con voto es el error del artículo."
+    },
+    {
+      "id": "CPOL-025",
+      "articulo": "art. 10",
+      "explicacion": "Quien convoca es el propio Consejo de Policía, no el Ministerio — se autoconvoca antes de expirar su mandato. Y la horquilla se cuenta hacia atrás desde esa expiración."
+    },
+    {
+      "id": "CPOL-026",
+      "articulo": "art. 10",
+      "explicacion": "Ojo a los dos plazos del mismo artículo, que se cruzan: uno cuenta hacia atrás desde el fin del mandato para convocar; el otro, hacia delante desde la publicación para votar."
+    },
+    {
+      "id": "CPOL-027",
+      "articulo": "art. 10",
+      "explicacion": "Se pueden anticipar elecciones, pero no lo decide una persona: hace falta acuerdo del Consejo por mayoría ABSOLUTA de sus miembros. No basta la simple."
+    },
+    {
+      "id": "CPOL-028",
+      "articulo": "art. 11",
+      "explicacion": "El censo es ÚNICO y de oficio: nadie tiene que inscribirse. Se ordena alfabéticamente dentro de cada Escala, que es la unidad de representación."
+    },
+    {
+      "id": "CPOL-029",
+      "articulo": "art. 11",
+      "explicacion": "El censo va a dos destinatarios —Junta y Mesa— y además se publica en la Intranet para que cualquier funcionario pueda comprobarse. Sin esa publicación no habría reclamaciones posibles."
+    },
+    {
+      "id": "CPOL-030",
+      "articulo": "art. 11",
+      "explicacion": "Hay dos instancias: primero se reclama a la Mesa y, si no atiende, se reitera ante la Junta. Las resoluciones de la Junta ya no admiten más recurso en esta vía."
+    },
+    {
+      "id": "CPOL-031",
+      "articulo": "art. 12",
+      "explicacion": "No solo los sindicatos pueden concurrir: también agrupaciones de electores avaladas por firmas. Esa segunda vía es la que se olvida al recitar el artículo."
+    },
+    {
+      "id": "CPOL-032",
+      "articulo": "art. 12",
+      "explicacion": "El aval que se pide a las agrupaciones no es igual en todas las escalas: es más bajo en la Básica que en las demás. Tiene sentido — la Básica es mucho más numerosa."
+    },
+    {
+      "id": "CPOL-033",
+      "articulo": "art. 13",
+      "explicacion": "El plazo de presentación no arranca con la convocatoria sino con la publicación de las listas DEFINITIVAS de electores. Primero se cierra quién vota, después quién se presenta."
+    },
+    {
+      "id": "CPOL-034",
+      "articulo": "art. 13",
+      "explicacion": "Listas nacionales y CERRADAS: no se puede votar a personas sueltas ni alterar el orden. Y llevan tantos suplentes como titulares, con su orden expreso — de ahí salen las sustituciones."
+    },
+    {
+      "id": "CPOL-035",
+      "articulo": "art. 14",
+      "explicacion": "Una vez proclamadas, las candidaturas quedan casi congeladas: solo se modifican por fallecimiento o renuncia de un candidato. No cabe retocarlas por conveniencia."
+    },
+    {
+      "id": "CPOL-036",
+      "articulo": "art. 15",
+      "explicacion": "La campaña tiene suelo y techo, no una duración fija. Y el final es siempre el mismo, la jornada de reflexión: a las cero horas del día anterior a la votación."
+    },
+    {
+      "id": "CPOL-037",
+      "articulo": "art. 15",
+      "explicacion": "Campaña electoral no es lo mismo que actividad sindical ordinaria: lo que la define es la captación de sufragios. La distinción importa porque fuera de campaña la primera se prohíbe y la segunda no."
+    },
+    {
+      "id": "CPOL-038",
+      "articulo": "art. 16",
+      "explicacion": "La prohibición cubre las dos puntas: ni antes del inicio legal de la campaña ni después de su fin. Lo que queda salvado en ambos tramos es la actividad sindical habitual."
+    },
+    {
+      "id": "CPOL-039",
+      "articulo": "art. 16",
+      "explicacion": "La igualdad se garantiza materialmente, no de palabra: los espacios de cartelería han de ser de igual superficie y análoga utilidad en cada emplazamiento. Nadie tiene mejor sitio."
+    },
+    {
+      "id": "CPOL-040",
+      "articulo": "art. 17",
+      "explicacion": "El horario lo fija la Junta, pero con un mínimo que no puede rebajar, y son horas DIURNAS. La discrecionalidad tiene suelo."
+    },
+    {
+      "id": "CPOL-041",
+      "articulo": "art. 18",
+      "explicacion": "El reparto es proporcional por cociente —votantes entre puestos— y los restos van a las listas con mayor sobrante. No es un sistema mayoritario: una lista minoritaria puede obtener puesto."
+    },
+    {
+      "id": "CPOL-042",
+      "articulo": "art. 18",
+      "explicacion": "El empate no se sortea ni se repite la votación: gana el candidato de mayor antigüedad en el Cuerpo. Criterio objetivo y sin margen."
+    },
+    {
+      "id": "CPOL-043",
+      "articulo": "art. 19",
+      "explicacion": "Para votar electrónicamente hace falta identificación fuerte: carné profesional o DNI electrónico con firma avanzada y reconocida. Solo por causas técnicas cabe otra vía."
+    },
+    {
+      "id": "CPOL-044",
+      "articulo": "art. 19",
+      "explicacion": "El código fuente queda a disposición de la Junta Electoral en todo momento. Es lo que hace auditable el voto electrónico: sin acceso al código no habría forma de comprobar el resultado."
+    },
+    {
+      "id": "CPOL-045",
+      "articulo": "art. 20",
+      "explicacion": "La comprobación de los aparatos es previa a la apertura, no durante. Si algo falla, tiene que detectarse antes de que vote nadie."
+    },
+    {
+      "id": "CPOL-046",
+      "articulo": "art. 21",
+      "explicacion": "El elector no está atado a su destino: puede votar en cualquier punto del territorio nacional. Es la ventaja práctica de tener circunscripción única."
+    },
+    {
+      "id": "CPOL-047",
+      "articulo": "art. 22",
+      "explicacion": "El escrutinio lo hace la Mesa y de una sola vez para toda España, con apoyo técnico informático. Las Comisiones no escrutan su punto por separado."
+    },
+    {
+      "id": "CPOL-048",
+      "articulo": "art. 22",
+      "explicacion": "Hay dos actos que no coinciden: el acta original va a la Junta, y aparte se publican resultados PROVISIONALES. Los definitivos llegan después, resueltas las reclamaciones."
+    },
+    {
+      "id": "CPOL-049",
+      "articulo": "art. 24",
+      "explicacion": "La solicitud del voto por correspondencia es PERSONAL: no vale que la haga otro. Y hay que pedir dos cosas, papeletas y certificado de inscripción en el censo."
+    },
+    {
+      "id": "CPOL-050",
+      "articulo": "art. 25",
+      "explicacion": "La Mesa custodia el sobre pero no lo abre: el día de la votación lo entrega a la Comisión de Garantía de voto por correspondencia. Quien guarda y quien cuenta no son el mismo."
+    },
+    {
+      "id": "CPOL-051",
+      "articulo": "art. 25",
+      "explicacion": "Ojo a la asimetría del final: el sobre con más de una papeleta es NULO, pero el sobre vacío se cuenta como voto en blanco. No es lo mismo equivocarse por exceso que por defecto."
+    },
+    {
+      "id": "CPOL-052",
+      "articulo": "art. 26",
+      "explicacion": "El voto que llega tarde no solo no se cuenta: el elector tampoco figura como votante, y el sobre se destruye SIN ABRIR dejando constancia. Se protege el secreto incluso de un voto que no vale.",
+      "cifras": {
+        "1": "«un voto que no vale»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "CPOL-053",
+      "articulo": "art. 27",
+      "explicacion": "Cada escala tiene su color, y es de las cosas que caen literales: azul claro la Superior, sepia la Ejecutiva, verde claro la de Subinspección y blanco la Básica. De ahí que una papeleta de otra escala sea nula."
+    },
+    {
+      "id": "CPOL-054",
+      "articulo": "art. 28",
+      "explicacion": "Las reclamaciones se abren con los resultados PROVISIONALES, y quien las presenta son los representantes de las candidaturas, no cualquier elector."
+    },
+    {
+      "id": "CPOL-055",
+      "articulo": "art. 29",
+      "explicacion": "La escalera de recursos: lo de la Mesa se recurre ante la Junta, y lo de la Junta ya agota la vía administrativa. A partir de ahí, reposición potestativa o contencioso-administrativo."
+    },
+    {
+      "id": "CPOL-056",
+      "articulo": "art. 30",
+      "explicacion": "El mandato no empieza con la proclamación sino con la CONSTITUCIÓN del Consejo, que tiene su propio plazo. Entre una cosa y otra hay días de por medio."
+    },
+    {
+      "id": "CPOL-057",
+      "articulo": "art. 30",
+      "explicacion": "El mandato no termina en una fecha exacta: se estira hasta que se constituye el Consejo siguiente. Así no hay vacío de representación."
+    },
+    {
+      "id": "CPOL-058",
+      "articulo": "art. 30",
+      "explicacion": "Las parciales solo se convocan si se cumplen DOS condiciones: que se hayan agotado los suplentes y que quede suficiente mandato por delante. Si queda poco, la escala se queda sin representante hasta las siguientes."
+    },
+    {
+      "id": "CPOL-059",
+      "articulo": "art. 31",
+      "explicacion": "Hay una causa que sorprende y se pregunta: cambiar de escala hace perder la condición de miembro. Se representa a una escala concreta, así que ascender obliga a dejar el puesto."
+    },
+    {
+      "id": "CPOL-060",
+      "articulo": "art. 31",
+      "explicacion": "La declaración de pérdida no alcanza a todas las causas: la terminación del mandato se produce sola. Para las demás hace falta declaración de la Dirección General."
+    }
+  ]
+}
