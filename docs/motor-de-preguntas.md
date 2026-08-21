@@ -62,9 +62,30 @@ otro ángulo honesto, devuelve menos preguntas**. Es correcto y esperado.
 
 El afinado de distractores es un paso fijo del contrato (§0-quater). Aquí se
 **mide primero**: si el lote ya está por debajo del 35 % de sesgo de longitud, no
-se afina. Si el afinado devuelve un número de preguntas distinto del que se le
-mandó, se descarta y se deja el original — un afinado que pierde preguntas es un
-afinado roto, no una mejora.
+se afina.
+
+**Del afinado se acepta UNA cosa: los distractores.** El enunciado, el cotejo y
+la opción correcta se reimponen desde el original, cuadrando pregunta a pregunta
+por `concepto_id`. Lo que no cuadre se revierte a su versión sin afinar, que es
+peor pregunta pero es una pregunta buena. La razón es que los dos daños posibles
+son asimétricos y ninguno de los dos se arregla solo:
+
+| Si el afinado toca… | ¿Lo ve alguna puerta? | Coste |
+|---|---|---|
+| la **opción correcta** | Sí, `verificarLote` | Tira **el lote entero**, y con él las 90 buenas de la misma tirada |
+| el **enunciado** o el **cotejo** | **No** | La pregunta sigue siendo válida, pero ya no es la que se revisó |
+
+**«Longitud parecida» no es la métrica.** Lo que se mide es *en qué porcentaje de
+preguntas la correcta es la más larga*, y **empatar cuenta como serlo**
+(`verificar-calidad.mjs:48`, `correcta.length === maxLen`). Un afinador que deja
+los tres distractores un poco más cortos cumple la letra del encargo y **no mueve
+el número**: para bajar hace falta que en la mayoría de preguntas al menos un
+distractor sea *estrictamente* más largo. El prompt de afinado ahora lo dice con
+el número delante — el banco real está en el **23 %** (788 de 3.434, de las
+cuales 133 son empates exactos), y ese es el listón.
+
+Y como solo se afina **una vez**: si tras afinar sigue por encima del 35 %, se
+avisa explícitamente de que la puerta **no** lo va a parar (corta en el 55 %).
 
 ## Configuración de la API
 
@@ -72,17 +93,37 @@ afinado roto, no una mejora.
 con esquema JSON para que la salida no haya que parsearla a mano. `stop_reason:
 "refusal"` llega con HTTP 200, así que se comprueba antes de leer el contenido.
 
-## Lo que NO está probado
+## Cómo se prueba sin credenciales
 
-**No se ha ejecutado contra la API.** El contenedor de esta sesión no tiene
-credenciales ni `.env.local`, así que lo verificado es:
+`motor-preguntas.test.mjs` (en `npm run test:motor`, 20 comprobaciones) le pasa a
+`ejecutar` un **cliente de mentira** que devuelve exactamente lo que se quiere
+probar, incluido lo que un modelo hace mal: ids inventados, JSON ilegible,
+`refusal`, un afinado que toca la correcta, uno que cambia el enunciado, uno que
+devuelve otra cantidad, uno que revienta a mitad. Lo único que queda sin
+ejercitar es el **transporte HTTP**.
 
-- El encargo se monta bien (`--dry`), con el artículo literal, los conceptos y lo
-  ya preguntado.
-- **La salida del motor pasa las cuatro puertas** — probado con una salida
-  simulada con la forma exacta del motor.
-- El self-test de la puerta de unicidad entra en `npm run test:motor`.
+No mide si las preguntas son *buenas*: eso lo dicen las cuatro puertas y una
+lectura humana. Mide que **el motor se porta bien cuando el modelo no**.
 
-Lo que falta es la única medida que importa de verdad: **correr el motor sobre
-DISC y comparar lo que produce con las 23 preguntas escritas a mano.** Ahí se
-sabrá si el job sirve, antes de soltarlo sobre 52 normas.
+Escribir esa prueba encontró tres cosas, todas arregladas:
+
+1. **Un `concepto_id` inventado se llevaba por delante toda la tirada.** Salía con
+   `articulo: undefined`, `aplicar-profundidad` no le encontraba fuente y
+   rechazaba **el fichero entero** — fail-closed correcto, precio desproporcionado.
+   Ahora se descarta esa pregunta, en el sitio donde se sabe por qué.
+2. **El afinado se creía a pies juntillas.** Ver la tabla de Capa 2, arriba.
+3. **`aplicar-profundidad` tenía un fail-open silencioso.** `supabase-js` no lanza
+   cuando el RPC falla: devuelve `{ data: null, error }`. El `catch` no lo veía y
+   `data ?? []` dejaba el banco vacío **sin decir nada**, así que la puerta de
+   unicidad corría ciega y `--aplicar` insertaba igual. Ahora sin banco se puede
+   simular, pero no aplicar: *una puerta que se desactiva sola cuando falla la red
+   no es una puerta.*
+
+## Lo que sigue sin estar probado
+
+**El motor no se ha ejecutado nunca contra la API.** Hace falta la única medida
+que decide si esto sirve: **correr el motor sobre DISC y comparar lo que produce
+con las 23 preguntas escritas a mano**, que ya están cargadas y sirven de patrón.
+Hasta entonces no hay dato sobre la calidad de lo que genera — solo sobre la
+solidez de la tubería que lo rodea. No soltarlo sobre las 52 normas antes de esa
+comparación.

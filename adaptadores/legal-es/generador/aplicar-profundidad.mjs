@@ -79,12 +79,33 @@ async function main() {
 
   // El banco se trae ANTES de verificar: la puerta de unicidad no puede
   // detectar una contradicción contra lo que ya está cargado si no lo ve.
+  //
+  // AQUÍ HABÍA UN FAIL-OPEN, y de los silenciosos. supabase-js NO lanza cuando
+  // el RPC falla: devuelve `{ data: null, error }`. Así que un `catch` no lo veía
+  // y `data ?? []` dejaba el banco vacío sin decir nada — la puerta corría ciega
+  // y `--aplicar` insertaba igual. El único caso que sí caía en el catch era no
+  // tener credenciales, que es justo el caso en que tampoco se puede insertar.
+  //
+  // Ahora: sin banco se puede SIMULAR (útil sin credenciales), pero no aplicar.
+  // Una puerta que se desactiva sola cuando falla la red no es una puerta.
   let banco = [];
+  let porQueSinBanco = null;
   try {
-    const { data } = await createCerebroClient().rpc("banco_enunciados");
-    banco = data ?? [];
-  } catch {
-    console.error("  ⚠ sin acceso a la base: unicidad solo compara el lote consigo mismo");
+    const { data, error } = await createCerebroClient().rpc("banco_enunciados");
+    if (error) porQueSinBanco = error.message;
+    else banco = data ?? [];
+  } catch (e) {
+    porQueSinBanco = e.message;
+  }
+  if (porQueSinBanco) {
+    console.error(`  ⚠ sin banco (${porQueSinBanco}): unicidad solo compara el lote consigo mismo`);
+    if (aplicar) {
+      console.error(
+        "✗ no se aplica nada. La puerta de unicidad necesita el banco para ver si estas\n" +
+          "  preguntas contradicen a las que ya están cargadas, y sin él no puede.",
+      );
+      process.exit(1);
+    }
   }
 
   const { doc, actividades, sinFuente, contenido, calidad, unicidad } =

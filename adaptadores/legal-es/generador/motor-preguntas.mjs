@@ -213,6 +213,8 @@ REGLA ABSOLUTA: NO TOQUES la opción correcta. Es cita literal del BOE y cualqui
 
 Objetivo: que los tres distractores tengan longitud y nivel de detalle parecidos a la correcta, y que sean falsos por un detalle concreto y comprobable (un plazo distinto, un órgano distinto, una excepción inventada, un sujeto cambiado). Plausibles para quien no domina la materia, inequívocamente falsos para quien sí.
 
+CÓMO SE MIDE ESTO, porque "parecidos" no basta: se cuenta en qué porcentaje de las preguntas la correcta es la opción MÁS LARGA, y empatar cuenta como ser la más larga. Si dejas los tres distractores un poco más cortos que la correcta —que es lo que sale solo al pedir "longitud parecida"— habrás cumplido la letra y el número no se habrá movido. En la mayoría de las preguntas, al menos UN distractor tiene que ser claramente MÁS LARGO que la correcta. El banco actual está en el 23 %; ese es el listón.
+
 NINGÚN distractor puede ser texto literal del cotejo: si lo es, también es verdad y la pregunta deja de tener una sola respuesta buena.
 
 Devuelve las mismas preguntas, en el mismo orden, con el mismo enunciado, el mismo cotejo, la misma correcta y el mismo indice_correcto. Solo cambian los distractores.`;
@@ -234,6 +236,43 @@ async function afinar(cliente, preguntas) {
   return leerJson(r).preguntas ?? [];
 }
 
+/**
+ * El afinado SOLO puede tocar los distractores. El prompt se lo dice, pero
+ * decírselo no es comprobarlo, y aquí hay una asimetría que conviene ver:
+ *
+ *   · Si el afinado cambia la correcta, `verificarLote` lo detecta —deja de ser
+ *     literal del cotejo— y tira EL LOTE ENTERO. Fail-closed es lo correcto,
+ *     pero el precio es tirar también las 90 preguntas buenas de la misma
+ *     tirada, y con ellas las llamadas a la API que costaron.
+ *   · Si cambia el enunciado, no lo detecta nadie: sigue siendo una pregunta
+ *     válida, solo que ya no es la que se revisó.
+ *
+ * Así que se coteja pregunta a pregunta contra el original. Del afinado se
+ * acepta UNA cosa —los distractores— y el resto se reimpone. Lo que no cuadre
+ * se revierte a su original, que es peor pregunta pero es una pregunta buena.
+ */
+export function fusionarAfinado(originales, afinadas) {
+  const revertidas = [];
+  const finales = originales.map((o, i) => {
+    const f = afinadas[i];
+    const correcta = o.opciones?.[o.indice_correcto];
+    const motivo =
+      !f ? "el afinado no devolvió esta pregunta"
+      : f.concepto_id !== o.concepto_id ? "cambió el concepto_id (se descolocó el orden)"
+      : (f.opciones ?? []).length !== 4 ? `devolvió ${(f.opciones ?? []).length} opciones`
+      : f.opciones[f.indice_correcto] !== correcta ? "tocó la opción correcta"
+      : null;
+    if (motivo) {
+      revertidas.push({ concepto_id: o.concepto_id, motivo });
+      return o;
+    }
+    // Del afinado se toman las opciones y nada más: enunciado, cotejo y
+    // justificación se reimponen desde el original aunque hayan cambiado.
+    return { ...o, opciones: f.opciones, indice_correcto: f.indice_correcto };
+  });
+  return { finales, revertidas };
+}
+
 // --- API --------------------------------------------------------------------
 
 function leerJson(respuesta) {
@@ -244,7 +283,7 @@ function leerJson(respuesta) {
   return JSON.parse(texto);
 }
 
-async function generarArticulo(cliente, ficha) {
+async function generarArticulo(cliente, ficha, log = (s) => process.stderr.write(s)) {
   const r = await cliente.messages.create({
     model: MODELO,
     max_tokens: 16000,
@@ -255,13 +294,87 @@ async function generarArticulo(cliente, ficha) {
   });
   // `refusal` llega con HTTP 200: hay que mirarlo antes de leer el contenido.
   if (r.stop_reason === "refusal") {
-    console.error(`  ✗ ${ficha.articulo}: la API declinó (${r.stop_details?.category ?? "?"})`);
+    log(`✗ la API declinó (${r.stop_details?.category ?? "?"})\n`);
     return [];
   }
   return leerJson(r).preguntas ?? [];
 }
 
 // --- Orquestación -----------------------------------------------------------
+//
+// Separada de `main` y con el cliente por parámetro: así el self-test puede
+// pasarle un cliente de mentira y ejercitar todo el camino —reparto por
+// artículo, ids inventados, Capa 2, reversiones— sin llamar a la API. Lo único
+// que queda sin probar es el transporte HTTP.
+
+/**
+ * @param cliente  algo con `.messages.create()`. En producción, el SDK.
+ * @param fichas   [{ articulo, texto, conceptos, cuantas }]
+ * @param log      dónde escribir el progreso (por defecto, stderr).
+ */
+export async function ejecutar({ cliente, fichas, log = (s) => process.stderr.write(s) }) {
+  // Los ids que el modelo PUEDE usar son los del material. Si devuelve otro, es
+  // que se lo ha inventado, y la pregunta no tiene artículo del que colgar.
+  //
+  // Antes esto no se miraba y el precio era desproporcionado: la pregunta salía
+  // con `articulo: undefined`, `aplicar-profundidad` no le encontraba fuente en
+  // el corpus y rechazaba EL FICHERO ENTERO. Un id inventado se llevaba por
+  // delante las otras noventa y nueve. Se descarta aquí, donde se sabe por qué.
+  const conocidos = new Map();
+  for (const f of fichas) for (const c of f.conceptos) conocidos.set(c.id, f.articulo);
+
+  const todas = [];
+  const inventadas = [];
+  for (const [i, ficha] of fichas.entries()) {
+    log(`  [${i + 1}/${fichas.length}] ${ficha.articulo}… `);
+    try {
+      const p = await generarArticulo(cliente, ficha, log);
+      const buenas = p.filter((q) => conocidos.has(q.concepto_id));
+      for (const q of p)
+        if (!conocidos.has(q.concepto_id))
+          inventadas.push({ concepto_id: q.concepto_id, articulo: ficha.articulo });
+      todas.push(...buenas.map((q) => ({ ...q, articulo: conocidos.get(q.concepto_id) })));
+      log(`${buenas.length}\n`);
+    } catch (e) {
+      log(`✗ ${e.message}\n`);
+    }
+  }
+  if (inventadas.length)
+    log(
+      `  ⚠ ${inventadas.length} pregunta(s) descartadas: concepto_id que no está en el material ` +
+        `(${inventadas.map((x) => `${x.concepto_id} en ${x.articulo}`).join(", ")})\n`,
+    );
+
+  // Capa 2, obligatoria — pero solo si hace falta.
+  const antes = sesgoLongitud(todas);
+  let finales = todas;
+  let revertidas = [];
+  log(`\nsesgo de longitud tras generar: ${(100 * antes).toFixed(0)} %\n`);
+  if (todas.length && antes > 0.35) {
+    log("  → por encima del objetivo (35 %): afinando distractores…\n");
+    try {
+      const fusion = fusionarAfinado(todas, await afinar(cliente, todas));
+      finales = fusion.finales;
+      revertidas = fusion.revertidas;
+      const despues = sesgoLongitud(finales);
+      log(`  → tras afinar: ${(100 * despues).toFixed(0)} %\n`);
+      for (const r of revertidas) log(`  ⚠ ${r.concepto_id} sin afinar: ${r.motivo}\n`);
+      // Solo se afina una vez. Si sigue alto, que se vea aquí y no en la puerta:
+      // por debajo del 55 % el lote se carga igual, con el sesgo dentro.
+      if (despues > 0.35)
+        log(
+          `  ⚠ sigue por encima del objetivo (35 %). La puerta solo corta en el 55 %, ` +
+            `así que esto NO lo va a parar: revisa los distractores a mano o vuelve a tirar.\n`,
+        );
+    } catch (e) {
+      log(`  ⚠ afinado fallido (${e.message}): se deja el original\n`);
+    }
+  } else {
+    log("  → ya por debajo del objetivo, no hace falta afinar\n");
+  }
+
+  return { preguntas: finales, inventadas, revertidas, sesgoAntes: antes, sesgoDespues: sesgoLongitud(finales) };
+}
 
 async function main() {
   const { familia, seccion, salida, dry, porArticulo, material: rutaMaterial } = argumentos();
@@ -304,41 +417,7 @@ async function main() {
     return;
   }
 
-  const cliente = new Anthropic();
-  const todas = [];
-  for (const [i, ficha] of fichas.entries()) {
-    process.stderr.write(`  [${i + 1}/${fichas.length}] ${ficha.articulo}… `);
-    try {
-      const p = await generarArticulo(cliente, ficha);
-      todas.push(...p);
-      process.stderr.write(`${p.length}\n`);
-    } catch (e) {
-      process.stderr.write(`✗ ${e.message}\n`);
-    }
-  }
-
-  // Capa 2, obligatoria — pero solo si hace falta.
-  const antes = sesgoLongitud(todas);
-  let finales = todas;
-  console.error(`\nsesgo de longitud tras generar: ${(100 * antes).toFixed(0)} %`);
-  if (antes > 0.35) {
-    console.error("  → por encima del objetivo (35 %): afinando distractores…");
-    try {
-      const afinadas = await afinar(cliente, todas);
-      if (afinadas.length === todas.length) {
-        finales = afinadas;
-        console.error(`  → tras afinar: ${(100 * sesgoLongitud(finales)).toFixed(0)} %`);
-      } else {
-        console.error(
-          `  ⚠ el afinado devolvió ${afinadas.length} de ${todas.length}: se descarta y se deja el original`,
-        );
-      }
-    } catch (e) {
-      console.error(`  ⚠ afinado fallido (${e.message}): se deja el original`);
-    }
-  } else {
-    console.error("  → ya por debajo del objetivo, no hace falta afinar");
-  }
+  const { preguntas: finales } = await ejecutar({ cliente: new Anthropic(), fichas });
 
   const doc = {
     meta: {
@@ -353,9 +432,9 @@ async function main() {
     },
     actividades: finales.map((p) => ({
       concepto_id: p.concepto_id,
-      articulo: [...porArt.keys()].find((a) =>
-        (porArt.get(a) ?? []).some((c2) => c2.id === p.concepto_id),
-      ),
+      // `ejecutar` ya lo resolvió contra el material, y descartó lo que no
+      // encajaba: aquí no puede quedar ninguna sin artículo.
+      articulo: p.articulo,
       direccion: p.direccion,
       enunciado: p.enunciado,
       opciones: p.opciones,
