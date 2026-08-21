@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "familia": "LOPD7",
+    "referencia_boe": "BOE-A-2021-8806",
+    "norma": "Ley Orgánica 7/2021, de 26 de mayo, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales y de ejecución de sanciones penales",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 25 explicaciones de LOPD7 abrían con «El art. N define/regula/obliga…», y en esta ley eso es especialmente inútil: casi todo su articulado tiene un gemelo en la LO 3/2018 con una diferencia pequeña, y esa diferencia es lo único que el tribunal pregunta. Ahora se enseñan los pares: la finalidad como frontera del ámbito, la ausencia del consentimiento como base de licitud, el silencio DESESTIMATORIO del art. 20 y el Esquema Nacional de Seguridad del art. 37. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-048.json"
+  },
+  "explicaciones": [
+    {
+      "id": "LOPD7-002",
+      "articulo": "art. 2",
+      "explicacion": "La regla técnica es la misma de siempre —automatizado, o no automatizado si está o va a estar en fichero—, así que por ahí no se distingue esta ley de la general. Lo que la delimita es quién trata y para qué: autoridades competentes y fines penales o de amenazas contra la seguridad pública."
+    },
+    {
+      "id": "LOPD7-003",
+      "articulo": "art. 2",
+      "explicacion": "La frontera es la FINALIDAD, no el órgano: la misma autoridad competente sale de esta ley en cuanto trata para fines distintos de los del artículo 1, y entonces le aplican el Reglamento general y la Ley Orgánica 3/2018. Ser policía no basta para estar dentro."
+    },
+    {
+      "id": "LOPD7-005",
+      "articulo": "art. 4",
+      "explicacion": "Primero da la definición general —autoridad pública con competencias legales para estos fines— y solo después enumera. Por eso la lista no es cerrada, y por eso incluye cosas que sorprenden: Vigilancia Aduanera, el Servicio Ejecutivo de la Comisión de Prevención del Blanqueo de Capitales. Las autoridades judiciales penales y el Ministerio Fiscal entran por su propio apartado."
+    },
+    {
+      "id": "LOPD7-006",
+      "articulo": "art. 5",
+      "explicacion": "Identificable no es lo mismo que identificado: basta con que la identidad pueda determinarse, y además indirectamente. De ahí que datos de localización o identificadores en línea sean datos personales aunque no lleven nombre encima."
+    },
+    {
+      "id": "LOPD7-007",
+      "articulo": "art. 5",
+      "explicacion": "La definición es deliberadamente ancha, y lo que se pregunta son los verbos que no parecen tratamiento: la simple CONSULTA lo es, y la conservación también. No hace falta modificar el dato ni cederlo a nadie para estar tratando."
+    },
+    {
+      "id": "LOPD7-008",
+      "articulo": "art. 5",
+      "explicacion": "Seudonimizar no es anonimizar: existe información adicional que permite volver a atribuir el dato al interesado, así que el dato seudonimizado sigue siendo dato personal y sigue protegido. Es la confusión que más se explota en el enunciado."
+    },
+    {
+      "id": "LOPD7-009",
+      "articulo": "art. 5",
+      "explicacion": "Lo que separa al responsable del encargado no es el tamaño ni quién manipula los datos, sino quién DECIDE los fines y medios. El encargado puede tocar más datos que nadie y seguir siendo encargado, porque trata por cuenta ajena."
+    },
+    {
+      "id": "LOPD7-010",
+      "articulo": "art. 5",
+      "explicacion": "No todo rasgo del cuerpo es dato biométrico: hace falta tratamiento técnico específico y que permita la identificación unívoca. La fotografía sin ese tratamiento no entra, y esa es la matización que el enunciado suele quitar."
+    },
+    {
+      "id": "LOPD7-011",
+      "articulo": "art. 6",
+      "explicacion": "Compáralo con la lista del Reglamento general y verás qué falta: aquí se exige tratamiento lícito y LEAL, sin transparencia. Tiene sentido en un ámbito donde investigar exige no avisar, y es justo el principio que el enunciado añade de más."
+    },
+    {
+      "id": "LOPD7-012",
+      "articulo": "art. 8",
+      "explicacion": "No confundas los dos relojes: revisar la necesidad de conservar toca como máximo cada tres años; el plazo máximo de supresión es de veinte años, y este último cede ante investigaciones abiertas, delitos no prescritos o protección de víctimas.",
+      "cifras": {
+        "2": "recuento: los dos plazos distintos que fija el artículo, la revisión periódica (apartado 2) y la supresión (apartado 3)"
+      }
+    },
+    {
+      "id": "LOPD7-013",
+      "articulo": "art. 9",
+      "explicacion": "Distinguir sospechosos, condenados, víctimas y terceros no es burocracia: evita que el fichero trate igual a quien denuncia y a quien es investigado. Va matizado por «en la medida de lo posible», y el propio artículo recuerda que nada de esto toca la presunción de inocencia."
+    },
+    {
+      "id": "LOPD7-014",
+      "articulo": "art. 10",
+      "explicacion": "Separar hechos de apreciaciones personales es lo que impide que la sospecha de un agente acabe circulando como si fuera dato comprobado. Por eso el artículo añade lo que casi nadie recuerda: en toda transmisión se traslada AL MISMO TIEMPO la valoración de calidad del dato."
+    },
+    {
+      "id": "LOPD7-015",
+      "articulo": "art. 11",
+      "explicacion": "Fíjate en lo que no aparece: el consentimiento del interesado no es base de licitud en este ámbito. La licitud se apoya solo en la necesidad para los fines del artículo 1 y en que actúe autoridad competente en ejercicio de sus funciones. Es la gran diferencia con la normativa general de protección de datos."
+    },
+    {
+      "id": "LOPD7-016",
+      "articulo": "art. 13",
+      "explicacion": "El listón no es «necesario» sino ESTRICTAMENTE necesario, y además hace falta que concurra alguna de las circunstancias tasadas — norma con rango de ley, intereses vitales, o datos que el interesado haya hecho manifiestamente públicos. Cumplir solo la necesidad no abre el tratamiento."
+    },
+    {
+      "id": "LOPD7-017",
+      "articulo": "art. 14",
+      "explicacion": "La prohibición de las decisiones automatizadas admite excepción por norma con rango de ley, y entonces nace el derecho a intervención humana. Pero hay algo que no admite excepción ninguna: la elaboración de perfiles que discrimine sobre la base de categorías especiales queda prohibida sin más."
+    },
+    {
+      "id": "LOPD7-018",
+      "articulo": "art. 20",
+      "explicacion": "Aquí el silencio juega en contra: transcurrido el mes sin resolución expresa Y notificada, la solicitud se entiende DESESTIMADA. Es lo contrario de lo que la intuición administrativa sugiere, y por eso cae tanto."
+    },
+    {
+      "id": "LOPD7-019",
+      "articulo": "art. 21",
+      "explicacion": "La información va en dos niveles y el enunciado los mezcla: la del primer apartado se pone a disposición siempre; la adicional —base jurídica, plazo de conservación, categorías de destinatarios— solo atendiendo a las circunstancias del caso concreto.",
+      "cifras": {
+        "2": "recuento: los dos niveles de información que separa el artículo, la del apartado 1 y la adicional del apartado 2"
+      }
+    },
+    {
+      "id": "LOPD7-020",
+      "articulo": "art. 22",
+      "explicacion": "El acceso tiene dos escalones: primero confirmación de si se tratan datos, y solo si se confirma, acceso a ellos y a la información que los rodea. Y hay tope propio del ámbito — se comunica el origen sin revelar la identidad de ninguna persona física, en especial si la fuente es confidencial.",
+      "cifras": {
+        "2": "recuento: los dos escalones del derecho que describe el artículo, confirmación y acceso"
+      }
+    },
+    {
+      "id": "LOPD7-021",
+      "articulo": "art. 23",
+      "explicacion": "La limitación no es un derecho menor, es la salida cuando la supresión no procede: se limita en lugar de suprimir si el interesado pone en duda la exactitud y no puede determinarse, o si los datos han de conservarse a efectos probatorios."
+    },
+    {
+      "id": "LOPD7-022",
+      "articulo": "art. 24",
+      "explicacion": "Restringir no es denegar en silencio: aunque los fines lo justifiquen, hay que informar por escrito de la restricción y de las razones, y de que cabe reclamar ante la autoridad de protección de datos. Lo que puede omitirse son las razones, no la comunicación."
+    },
+    {
+      "id": "LOPD7-023",
+      "articulo": "art. 30",
+      "explicacion": "El encargado no elige a su vez libremente: no puede recurrir a otro encargado sin autorización previa Y por escrito del responsable. Y la relación se documenta siempre por escrito, admitiendo el formato electrónico."
+    },
+    {
+      "id": "LOPD7-024",
+      "articulo": "art. 37",
+      "explicacion": "Lo propio de esta ley está en la última frase: además de las medidas apropiadas al riesgo, hay que aplicar las del Esquema Nacional de Seguridad. Esa remisión no aparece en la normativa general de protección de datos y es lo que se pregunta."
+    },
+    {
+      "id": "LOPD7-025",
+      "articulo": "art. 38",
+      "explicacion": "Ojo a quién notifica a quién: el responsable notifica a la autoridad de protección de datos en las setenta y dos horas siguientes; el encargado notifica al RESPONSABLE, no a la autoridad. Y pasado el plazo no se cierra la puerta — se notifica igual, con los motivos de la dilación."
+    },
+    {
+      "id": "LOPD7-026",
+      "articulo": "art. 40",
+      "explicacion": "Aquí el delegado se designa EN TODO CASO, sin el análisis de riesgo que la normativa general exige. La única salvedad son los órganos jurisdiccionales y el Ministerio Fiscal cuando actúan en funciones jurisdiccionales. Y la designación y el cese se comunican en el plazo de diez días."
+    },
+    {
+      "id": "LOPD7-027",
+      "articulo": "art. 42",
+      "explicacion": "Las funciones son de asesoramiento, supervisión y contacto: informar, supervisar el cumplimiento, asesorar sobre la evaluación de impacto, cooperar con la autoridad. Ninguna es decidir ni responder por el responsable — el delegado vigila, no manda."
+    }
+  ]
+}

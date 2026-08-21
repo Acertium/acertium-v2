@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "familia": "LOPD",
+    "referencia_boe": "BOE-A-2018-16673",
+    "norma": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 26 explicaciones de LOPD abrían con «El art. N fija/lista/detalla…». El problema propio de esta ley es que casi todo su articulado remite al RGPD, así que parafrasearla deja al opositor sin lo único que necesita: QUÉ pone la ley española que no ponga ya el reglamento. Eso es lo que se enseña ahora, junto a los pares que el tribunal cruza — la edad del art. 7, la base legal del art. 8.1 frente a la del 8.2 y la excepción patrimonial del art. 3. No se añade ningún dato.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-047.json"
+  },
+  "explicaciones": [
+    {
+      "id": "LOPD-001",
+      "articulo": "art. 1",
+      "explicacion": "El verbo importa: adaptar y COMPLETAR, no sustituir. El Reglamento (UE) 2016/679 sigue rigiendo por sí mismo, y el derecho fundamental del artículo 18.4 de la Constitución se ejerce con arreglo a ambos textos a la vez. Por eso media ley española se lee remitiendo al reglamento."
+    },
+    {
+      "id": "LOPD-002",
+      "articulo": "art. 1",
+      "explicacion": "Del mismo artículo 18.4 de la Constitución cuelgan los derechos digitales, y por eso caben en esta ley cosas que no parecen protección de datos: desconexión, intimidad ante el uso de dispositivos, testamento digital. No es añadido suelto, es el segundo objeto declarado."
+    },
+    {
+      "id": "LOPD-003",
+      "articulo": "art. 2",
+      "explicacion": "El tratamiento automatizado entra siempre, total o parcial. El no automatizado solo entra si los datos están o van a estar en un fichero: el papel suelto y desordenado queda fuera. Es la condición que el enunciado suele borrar para que parezca que entra todo."
+    },
+    {
+      "id": "LOPD-004",
+      "articulo": "art. 2",
+      "explicacion": "Ojo con las exclusiones, porque la de fallecidos no es lo que parece: la ley no se les aplica, pero el artículo 3 devuelve facultades a sus allegados. La exclusión que sí es limpia es la de materias clasificadas."
+    },
+    {
+      "id": "LOPD-005",
+      "articulo": "art. 3",
+      "explicacion": "Legitimados no son solo los herederos: también quienes estaban vinculados al fallecido por razones familiares o de hecho, que puede ser gente sin derecho sucesorio alguno. Y lo que pueden pedir es acceso, rectificación o supresión — no el resto de derechos."
+    },
+    {
+      "id": "LOPD-006",
+      "articulo": "art. 3",
+      "explicacion": "La prohibición expresa del fallecido cierra la puerta, pero no del todo: no afecta al derecho de los herederos a acceder a los datos de carácter patrimonial. Esa reserva patrimonial es exactamente lo que se pregunta, porque parece contradecir la prohibición."
+    },
+    {
+      "id": "LOPD-007",
+      "articulo": "art. 4",
+      "explicacion": "La exigencia no es que los datos estén siempre actualizados, sino que sean exactos y, «si fuere necesario», actualizados. Hay tratamientos donde el dato antiguo es el correcto, y por eso la actualización va condicionada y la exactitud no."
+    },
+    {
+      "id": "LOPD-008",
+      "articulo": "art. 4",
+      "explicacion": "Este apartado es el que exime, y la exención no es automática: exige haber adoptado todas las medidas razonables para suprimir o rectificar sin dilación, Y además que el dato viniera de fuentes tasadas — el propio afectado, un mediador, la portabilidad o un registro público."
+    },
+    {
+      "id": "LOPD-009",
+      "articulo": "art. 5",
+      "explicacion": "El deber no se agota en responsables y encargados: alcanza a todas las personas que intervengan en cualquier fase del tratamiento. El administrativo que teclea o el técnico que mantiene el sistema quedan dentro aunque no decidan nada."
+    },
+    {
+      "id": "LOPD-010",
+      "articulo": "art. 5",
+      "explicacion": "La confidencialidad sobrevive al contrato: se mantiene aun cuando haya finalizado la relación con el responsable o encargado. Marcharse de la empresa no libera del deber, y el enunciado suele proponer justo lo contrario."
+    },
+    {
+      "id": "LOPD-011",
+      "articulo": "art. 6",
+      "explicacion": "De los cuatro adjetivos —libre, específica, informada e inequívoca— el que más juego da es «específica». Y la forma también está tasada: declaración o clara acción afirmativa, así que no hay consentimiento por omisión ni por no decir nada.",
+      "cifras": {
+        "4": "recuento: los cuatro adjetivos que el propio artículo exige a la manifestación de voluntad, libre, específica, informada e inequívoca"
+      }
+    },
+    {
+      "id": "LOPD-012",
+      "articulo": "art. 6",
+      "explicacion": "El límite no es «no pedir datos», es no condicionar el contrato a consentir finalidades ajenas. Si la finalidad guarda relación con el mantenimiento, desarrollo o control de la relación contractual, sí se puede supeditar. La palabra que decide es «relación»."
+    },
+    {
+      "id": "LOPD-013",
+      "articulo": "art. 7",
+      "explicacion": "«Mayor de catorce años», no «catorce o más»: la cifra se lee como umbral que hay que superar. Y hay excepción aunque se supere — si la ley exige la asistencia de los titulares de la patria potestad o tutela para el acto, el consentimiento del menor no basta."
+    },
+    {
+      "id": "LOPD-014",
+      "articulo": "art. 7",
+      "explicacion": "Por debajo de catorce el consentimiento no lo da el menor sino el titular de la patria potestad o tutela, y con un matiz que se olvida: con el alcance que ese titular determine. Puede consentir para unas finalidades y no para otras."
+    },
+    {
+      "id": "LOPD-015",
+      "articulo": "art. 8",
+      "explicacion": "Aquí las dos bases públicas piden rango distinto y por eso se cruzan: la obligación legal admite norma de Derecho de la Unión Europea o norma con rango de ley; la misión de interés público exige competencia atribuida por norma con rango de ley. Ni reglamento ni instrucción valen.",
+      "cifras": {
+        "2": "recuento: las dos bases de licitud pública que regula el artículo, obligación legal (apartado 1) y misión de interés público o poderes públicos (apartado 2)"
+      }
+    },
+    {
+      "id": "LOPD-016",
+      "articulo": "art. 9",
+      "explicacion": "No dice que estos datos no puedan tratarse: dice que el SOLO consentimiento no basta para levantar la prohibición cuando la finalidad principal sea identificar ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico. Por las demás vías del artículo 9.2 del Reglamento sí caben."
+    },
+    {
+      "id": "LOPD-017",
+      "articulo": "art. 10",
+      "explicacion": "Fuera de los cauces públicos, la única ventana privada son abogados y procuradores, y todavía acotada: solo para recoger la información que les facilitan sus clientes en el ejercicio de sus funciones. No es una habilitación general del sector privado."
+    },
+    {
+      "id": "LOPD-018",
+      "articulo": "art. 11",
+      "explicacion": "La ley española permite informar por capas: basta con la información básica más una dirección electrónica u otro medio que dé acceso sencillo e inmediato al resto. Lo que hay que retener es qué cabe en esa primera capa — identidad, finalidad y posibilidad de ejercer los derechos de los artículos 15 a 22 del Reglamento."
+    },
+    {
+      "id": "LOPD-019",
+      "articulo": "art. 12",
+      "explicacion": "El representante puede ser legal O voluntario: no hace falta incapacidad ni minoría de edad para que otro ejerza los derechos en nombre del afectado. Y el responsable no puede denegar el ejercicio por el solo motivo de que el afectado eligiera otro medio."
+    },
+    {
+      "id": "LOPD-020",
+      "articulo": "art. 12",
+      "explicacion": "La gratuidad es la regla, pero tiene grietas previstas: las solicitudes manifiestamente infundadas o excesivas y el medio de coste desproporcionado que elija el propio afectado. Gratuito no significa incondicionado."
+    },
+    {
+      "id": "LOPD-021",
+      "articulo": "art. 13",
+      "explicacion": "El «podrá considerarse» es lo importante: no hay veda automática. En más de una ocasión durante el plazo de seis meses cabe tenerlo por repetitivo, y aun así cede si existe causa legítima para volver a pedirlo."
+    },
+    {
+      "id": "LOPD-022",
+      "articulo": "art. 14",
+      "explicacion": "La carga se reparte al revés de lo que se supone: es el afectado quien debe indicar a qué datos se refiere y qué corrección procede, y acompañar la documentación justificativa cuando sea preciso. Pedir «que revisen mis datos» no activa el derecho."
+    },
+    {
+      "id": "LOPD-023",
+      "articulo": "art. 15",
+      "explicacion": "Suprimir no siempre es borrar del todo: cuando la supresión viene del derecho de oposición a la mercadotecnia directa, el responsable puede conservar los datos identificativos imprescindibles. Y los conserva precisamente para no volver a tratarlos con ese fin."
+    },
+    {
+      "id": "LOPD-024",
+      "articulo": "art. 16",
+      "explicacion": "La limitación no es solo dejar de tratar: tiene que constar claramente en los sistemas de información del responsable. Sin esa marca visible, el dato limitado acaba tratándose otra vez por descuido, que es justo lo que el precepto evita."
+    },
+    {
+      "id": "LOPD-025",
+      "articulo": "art. 17",
+      "explicacion": "Remisión pura: la ley española no añade nada a la portabilidad del Reglamento. Que este artículo no aporte régimen propio también se pregunta, porque el enunciado suele inventarle requisitos que no tiene."
+    },
+    {
+      "id": "LOPD-026",
+      "articulo": "art. 18",
+      "explicacion": "Dos cosas distintas metidas en el mismo artículo, y el «respectivamente» las separa: la oposición va por su artículo del Reglamento y las decisiones individuales automatizadas, incluida la elaboración de perfiles, por el suyo. No es que la elaboración de perfiles sea oposición.",
+      "cifras": {
+        "2": "recuento: los dos regímenes que el artículo remite por separado, derecho de oposición y decisiones individuales automatizadas"
+      }
+    }
+  ]
+}

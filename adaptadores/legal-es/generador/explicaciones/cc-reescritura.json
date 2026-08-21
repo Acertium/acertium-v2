@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "familia": "CC",
+    "referencia_boe": "BOE-A-1889-4763",
+    "norma": "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil (Título Preliminar)",
+    "fecha": "2026-08-22",
+    "motivo": "Reescritura por la regla de Jonathan («que la explicación cite el artículo no me sirve, tiene que ser de ayuda»). Las 26 explicaciones de CC abrían con «El art. N enumera/fija/consagra…»: el Título Preliminar parafraseado. Es además el bloque donde el tribunal pregunta casi siempre por el MISMO puñado de trampas, y ninguna estaba señalada: que la jurisprudencia no es fuente, que la costumbre hay que probarla, que la derogación no resucita lo derogado, y sobre todo el cómputo civil del art. 5.2 frente al administrativo. No se añade ningún dato: los hechos son los que ya estaban verificados contra el artículo.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-002.json"
+  },
+  "explicaciones": [
+    {
+      "id": "CC-001",
+      "articulo": "art. 1",
+      "explicacion": "El orden en que aparecen —ley, costumbre, principios generales— es el orden en que se aplican, no una lista suelta. Y lo que más se pregunta de aquí es lo que NO está: la jurisprudencia no figura en esta enumeración."
+    },
+    {
+      "id": "CC-002",
+      "articulo": "art. 1",
+      "explicacion": "La consecuencia de contradecir a la norma superior no es que la inferior quede derogada ni que haya que impugnarla para expulsarla: carece de validez. Es el efecto que distingue la jerarquía normativa de la simple sucesión de leyes en el tiempo."
+    },
+    {
+      "id": "CC-003",
+      "articulo": "art. 1",
+      "explicacion": "Los requisitos son acumulativos y el tercero es el que se olvida: que no haya ley aplicable, que no sea contraria a la moral o al orden público, y que resulte PROBADA. La ley no hay que probarla; la costumbre sí, y eso la coloca en otra posición procesal."
+    },
+    {
+      "id": "CC-004",
+      "articulo": "art. 1",
+      "explicacion": "No todo uso jurídico asciende a costumbre: quedan fuera los meramente interpretativos de una declaración de voluntad. La palabra que decide es «meramente», y el enunciado suele jugar con su ausencia."
+    },
+    {
+      "id": "CC-005",
+      "articulo": "art. 1",
+      "explicacion": "Cumplen dos papeles distintos y solo el primero es subsidiario: se aplican en defecto de ley o costumbre, pero su carácter informador del ordenamiento actúa siempre, incluso cuando hay ley que aplicar. De ahí el «sin perjuicio de»."
+    },
+    {
+      "id": "CC-006",
+      "articulo": "art. 1",
+      "explicacion": "Firmar y ratificar el tratado no basta para que obligue dentro: hace falta publicación íntegra en el «Boletín Oficial del Estado». Íntegra — la publicación de un extracto o de la noticia de la ratificación no abre la aplicación directa."
+    },
+    {
+      "id": "CC-007",
+      "articulo": "art. 1",
+      "explicacion": "«Complementará» no es sinónimo de «será fuente»: la jurisprudencia se queda fuera del apartado primero a propósito. Y para que exista hacen falta dos condiciones que el enunciado suele romper: doctrina del Tribunal Supremo, y establecida de modo reiterado.",
+      "cifras": {
+        "2": "recuento: las dos condiciones que el propio artículo exige, órgano (Tribunal Supremo) y reiteración"
+      }
+    },
+    {
+      "id": "CC-008",
+      "articulo": "art. 1",
+      "explicacion": "El deber es de resolver, no de acertar: el juez no puede abstenerse alegando que la ley calla o es oscura. Por eso el precepto añade «ateniéndose al sistema de fuentes establecido» — resolver, pero con las fuentes que este título le ha dado, no con su criterio."
+    },
+    {
+      "id": "CC-009",
+      "articulo": "art. 2",
+      "explicacion": "La vacatio legis de veinte días es supletoria, no imperativa: rige solo «si en ellas no se dispone otra cosa», y en la práctica casi todas disponen otra cosa. Y el cómputo arranca de la publicación COMPLETA, no del día en que empieza a publicarse."
+    },
+    {
+      "id": "CC-010",
+      "articulo": "art. 2",
+      "explicacion": "El punto que se pregunta es el final: por la simple derogación de una ley no recobran vigencia las que ésta hubiere derogado. Derogar la norma derogatoria no resucita nada. Y la derogación tácita existe — se extiende a todo lo incompatible, se diga o no."
+    },
+    {
+      "id": "CC-011",
+      "articulo": "art. 2",
+      "explicacion": "La irretroactividad aquí es una regla por defecto, no una prohibición: cede en cuanto la propia ley disponga lo contrario. Es la diferencia entre «no tendrán efecto retroactivo, si no dispusieren lo contrario» y una barrera que el legislador no pudiera levantar."
+    },
+    {
+      "id": "CC-012",
+      "articulo": "art. 3",
+      "explicacion": "Los criterios no están en pie de igualdad: palabras, contexto, antecedentes y realidad social se ponderan, pero se atiende FUNDAMENTALMENTE al espíritu y finalidad. Ese adverbio es lo que hace del criterio teleológico el preferente, y es justo lo que se pregunta."
+    },
+    {
+      "id": "CC-013",
+      "articulo": "art. 3",
+      "explicacion": "La equidad se pondera siempre en la aplicación de las normas; lo excepcional es fundar la resolución solo en ella, y para eso hace falta que la ley lo permita expresamente. Ponderar y decidir en exclusiva no es lo mismo, y ahí se cae."
+    },
+    {
+      "id": "CC-014",
+      "articulo": "art. 4",
+      "explicacion": "No basta con que la norma calle ni con que otro supuesto se le parezca: hace falta además identidad de razón. La semejanza de hechos sin identidad de razón no abre la analogía, y es el requisito que el enunciado suele quitar."
+    },
+    {
+      "id": "CC-015",
+      "articulo": "art. 4",
+      "explicacion": "Las prohibidas para la analogía son las penales, las excepcionales y las de ámbito temporal. Fíjate en que no se dice «las sancionadoras» ni «las restrictivas de derechos» — la lista es cerrada y con esos nombres."
+    },
+    {
+      "id": "CC-016",
+      "articulo": "art. 4",
+      "explicacion": "El Código Civil no se aplica solo a lo civil: entra como supletorio allí donde otra ley regule la materia y no dé respuesta. Por eso este Título Preliminar acaba apareciendo en la práctica administrativa y policial."
+    },
+    {
+      "id": "CC-017",
+      "articulo": "art. 5",
+      "explicacion": "Dos reglas distintas según la unidad: por días se excluye el día inicial y se empieza a contar al siguiente; por meses o años se computa de fecha a fecha, sin excluir nada. Y para el 31 que no existe en el mes de vencimiento, el plazo expira el último día del mes.",
+      "cifras": {
+        "2": "recuento: las dos reglas de cómputo que distingue el artículo, por días y por meses o años",
+        "31": "ejemplo del día inexistente que motiva la regla del artículo («cuando en el mes del vencimiento no hubiera día equivalente al inicial»); no es cifra de la norma"
+      }
+    },
+    {
+      "id": "CC-018",
+      "articulo": "art. 5",
+      "explicacion": "Aquí está la trampa que más cae de todo el título: en el cómputo civil NO se excluyen los días inhábiles. Sábados, domingos y festivos cuentan. Lo contrario —descontar inhábiles— es el cómputo administrativo y el procesal, que van por otras leyes."
+    },
+    {
+      "id": "CC-019",
+      "articulo": "art. 6",
+      "explicacion": "Que la ignorancia no excuse no significa que el error de derecho sea irrelevante: produce los efectos que las leyes determinen. Es decir, no exime del cumplimiento, pero puede tener consecuencias donde otra norma se las dé."
+    },
+    {
+      "id": "CC-020",
+      "articulo": "art. 6",
+      "explicacion": "Renunciar a los derechos se puede, pero con tope doble: ni contrariar el interés o el orden público, ni perjudicar a terceros. Que la renuncia sea voluntaria y libre no la salva si toca cualquiera de esos dos límites."
+    },
+    {
+      "id": "CC-021",
+      "articulo": "art. 6",
+      "explicacion": "La nulidad de pleno derecho es la regla, no la única salida: cede «salvo que en ellas se establezca un efecto distinto». Muchas normas imperativas prevén su propia sanción, y entonces manda esa, no la nulidad."
+    },
+    {
+      "id": "CC-022",
+      "articulo": "art. 6",
+      "explicacion": "El fraude de ley no consiste en incumplir sino en ampararse en el texto de otra norma para llegar a un resultado prohibido. Y el efecto es peculiar: no se declara sin más la nulidad, se aplica la norma que se trató de eludir."
+    },
+    {
+      "id": "CC-023",
+      "articulo": "art. 7",
+      "explicacion": "La buena fe no es un consejo moral: es un límite interno del propio derecho, lo que explica que se pueda tener razón formalmente y aun así perder. De ahí cuelgan figuras que se preguntan aparte, como ir contra los actos propios."
+    },
+    {
+      "id": "CC-024",
+      "articulo": "art. 7",
+      "explicacion": "El abuso se aprecia por la intención del autor, por el objeto o por las circunstancias — cualquiera de las tres vías vale, no hacen falta todas. Y la respuesta es doble: indemnización Y medidas judiciales o administrativas que impidan la persistencia.",
+      "cifras": {
+        "3": "recuento: las tres vías por las que el artículo permite apreciar el abuso, intención, objeto y circunstancias"
+      }
+    },
+    {
+      "id": "CC-025",
+      "articulo": "art. 8",
+      "explicacion": "El criterio es territorial y no personal: obligan a todos los que se hallen en territorio español, sea cual sea su nacionalidad. Y el grupo de leyes es el que toca al oficio — penales, de policía y de seguridad pública."
+    },
+    {
+      "id": "CC-026",
+      "articulo": "art. 13",
+      "explicacion": "El Título Preliminar no cede ante los derechos forales: se aplica de forma general y directa en toda España. Lo que sí cede es el resto del Código, que allí donde hay derecho especial o foral actúa solo como supletorio."
+    }
+  ]
+}
