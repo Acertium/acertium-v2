@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "familia": "IG",
+    "referencia_boe": "BOE-A-2007-6115",
+    "norma": "Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres",
+    "fecha": "2026-08-22",
+    "motivo": "Duodécima tanda (peso 2). Los ejes: las definiciones que se cruzan —discriminación directa frente a indirecta, acoso sexual frente a acoso por razón de sexo frente a chantaje sexual— y la inversión de la carga de la prueba, que es lo que hace operativa toda la ley.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-042.json"
+  },
+  "explicaciones": [
+    {
+      "id": "IG-001",
+      "articulo": "art. 1",
+      "explicacion": "La ley persigue igualdad de TRATO y de OPORTUNIDADES, que no es lo mismo: la primera prohíbe discriminar, la segunda obliga a remover lo que impide competir en igualdad. De ahí salen después las acciones positivas."
+    },
+    {
+      "id": "IG-002",
+      "articulo": "art. 1",
+      "explicacion": "Actúa por tres vías a la vez: principios para los Poderes Públicos, derechos y deberes para las personas, y medidas para eliminar la discriminación. No es solo una ley de prohibiciones.",
+      "cifras": {
+        "3": "recuento: las tres vías de actuación que enumera el apartado"
+      }
+    },
+    {
+      "id": "IG-003",
+      "articulo": "art. 2",
+      "explicacion": "Los derechos se reconocen a TODAS las personas, no solo a las mujeres: la ley protege frente a la discriminación por razón de sexo, sea cual sea el sexo de quien la sufre."
+    },
+    {
+      "id": "IG-004",
+      "articulo": "art. 2",
+      "explicacion": "El ámbito es amplio por partida doble: alcanza a personas físicas y jurídicas, y a quien se encuentre o actúe en territorio español, sea cual sea su nacionalidad o residencia."
+    },
+    {
+      "id": "IG-005",
+      "articulo": "art. 3",
+      "explicacion": "El principio se define en negativo —ausencia de toda discriminación— y menciona expresamente las derivadas de la maternidad, la asunción de obligaciones familiares y el estado civil. Esas tres son las que más se olvidan.",
+      "cifras": {
+        "3": "recuento: las tres causas que el artículo menciona expresamente — maternidad, obligaciones familiares y estado civil"
+      }
+    },
+    {
+      "id": "IG-006",
+      "articulo": "art. 5",
+      "explicacion": "Hay excepción y está tasada: la diferencia de trato solo se salva si la característica es un requisito profesional esencial y determinante, con objetivo legítimo y proporcionado. Tres condiciones acumulativas, no una.",
+      "cifras": {
+        "3": "recuento: las tres condiciones acumulativas que exige la excepción del artículo"
+      }
+    },
+    {
+      "id": "IG-007",
+      "articulo": "art. 6",
+      "explicacion": "La DIRECTA mira al trato: peor tratamiento por razón de sexo. Y cubre tres tiempos verbales que se preguntan — sea, haya sido o PUDIERA SER tratada. No hace falta que el daño se haya producido."
+    },
+    {
+      "id": "IG-008",
+      "articulo": "art. 6",
+      "explicacion": "La INDIRECTA mira al efecto: la norma parece neutra pero pone en desventaja a un sexo. Ahí está la diferencia con la directa, que se ve en el trato; esta solo se ve en el resultado."
+    },
+    {
+      "id": "IG-009",
+      "articulo": "art. 6",
+      "explicacion": "Ordenar discriminar también es discriminar, aunque quien la ejecute sea otro. Cierra la escapatoria de dar la instrucción y quedarse fuera."
+    },
+    {
+      "id": "IG-010",
+      "articulo": "art. 7",
+      "explicacion": "En el acoso SEXUAL la conducta es de naturaleza sexual. Guárdalo enfrente del acoso por razón de sexo, donde no lo es — esa es la distinción que se cruza."
+    },
+    {
+      "id": "IG-011",
+      "articulo": "art. 7",
+      "explicacion": "En el acoso POR RAZÓN DE SEXO la conducta no tiene por qué ser sexual: basta que se haga en función del sexo de la persona. Es lo que lo separa del acoso sexual."
+    },
+    {
+      "id": "IG-012",
+      "articulo": "art. 7",
+      "explicacion": "El chantaje sexual es la tercera figura y la más específica: condicionar un derecho o expectativa de derecho a aceptar el acoso. Se caracteriza por el intercambio, no por la conducta en sí."
+    },
+    {
+      "id": "IG-013",
+      "articulo": "art. 8",
+      "explicacion": "El trato desfavorable por embarazo o maternidad es discriminación DIRECTA por ley, sin necesidad de comparar con nadie. Se ahorra a la mujer tener que demostrar que a un hombre se le trató mejor.",
+      "cifras": {
+        "1": "«sin comparar con nadie»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "IG-014",
+      "articulo": "art. 9",
+      "explicacion": "Es la garantía de indemnidad: represaliar a quien denuncia o testifica es en sí mismo discriminación. Sin ella, denunciar saldría demasiado caro y la ley no se usaría."
+    },
+    {
+      "id": "IG-015",
+      "articulo": "art. 10",
+      "explicacion": "La consecuencia es la NULIDAD del acto o cláusula, además de responsabilidad e indemnización. No basta con dejar de aplicarlo: se tiene por no puesto."
+    },
+    {
+      "id": "IG-016",
+      "articulo": "art. 11",
+      "explicacion": "Las acciones positivas no son un privilegio permanente: la ley las condiciona a que sean razonables y proporcionadas, y a que duren mientras subsista la situación que las justifica."
+    },
+    {
+      "id": "IG-017",
+      "articulo": "art. 11",
+      "explicacion": "También los privados pueden adoptar acciones positivas, no solo los Poderes Públicos. Esa extensión al ámbito privado es lo que se olvida del artículo."
+    },
+    {
+      "id": "IG-018",
+      "articulo": "art. 13",
+      "explicacion": "La carga de la prueba se INVIERTE: acreditados indicios, es el demandado quien debe probar que no hubo discriminación. Sin esta regla la ley sería inaplicable — la prueba está en manos de quien discrimina."
+    },
+    {
+      "id": "IG-019",
+      "articulo": "art. 15",
+      "explicacion": "Transversalidad significa que la igualdad no es una política sectorial: informa la actuación de TODOS los Poderes Públicos y se integra en todas sus normas y actividades.",
+      "cifras": {
+        "1": "«no es una política sectorial»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "IG-020",
+      "articulo": "art. 16",
+      "explicacion": "La presencia equilibrada en los nombramientos es un deber de PROCURAR, no un resultado exigible. Conviene no confundirla con una cuota obligatoria.",
+      "cifras": {
+        "1": "«una cuota obligatoria»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "IG-022",
+      "articulo": "art. 45",
+      "explicacion": "La obligación de respetar la igualdad alcanza a TODAS las empresas, tengan el tamaño que tengan. Lo que depende del tamaño es el plan de igualdad, no el deber."
+    },
+    {
+      "id": "IG-023",
+      "articulo": "art. 45",
+      "explicacion": "El umbral de plantilla es lo que activa la obligación de elaborar y aplicar plan de igualdad. Por debajo sigue existiendo el deber general de no discriminar, pero sin plan obligatorio."
+    },
+    {
+      "id": "IG-024",
+      "articulo": "art. 46",
+      "explicacion": "El plan no puede improvisarse: se adopta DESPUÉS de un diagnóstico de situación. Sin diagnóstico previo, lo que hay es un listado de intenciones."
+    },
+    {
+      "id": "IG-025",
+      "articulo": "art. 46",
+      "explicacion": "Los planes se inscriben en registro público, integrado en el de convenios colectivos. La inscripción es lo que permite comprobar que existen y qué dicen."
+    },
+    {
+      "id": "IG-026",
+      "articulo": "art. 51",
+      "explicacion": "En el empleo público los criterios van más allá de no discriminar: remover obstáculos, facilitar la conciliación y fomentar la formación. Obligaciones de hacer, no solo de abstenerse."
+    },
+    {
+      "id": "IG-027",
+      "articulo": "art. 53",
+      "explicacion": "La presencia equilibrada se exige a los TRIBUNALES de selección, no solo a las plantillas. Quien decide quién entra también tiene que estar equilibrado."
+    },
+    {
+      "id": "IG-028",
+      "articulo": "art. 55",
+      "explicacion": "El informe de impacto de género acompaña a las convocatorias de pruebas selectivas. Es un control PREVIO: se hace antes de convocar, no después de resolver."
+    },
+    {
+      "id": "IG-029",
+      "articulo": "art. 60",
+      "explicacion": "Es acción positiva aplicada a la formación: reserva de plazas en cursos para facilitar el acceso de las empleadas públicas a puestos directivos. El objetivo no es formar, es promocionar."
+    },
+    {
+      "id": "IG-030",
+      "articulo": "art. 64",
+      "explicacion": "El Plan de Igualdad de la Administración General del Estado se aprueba al inicio de CADA legislatura. Va atado al ciclo político, no a un calendario fijo de años."
+    }
+  ]
+}

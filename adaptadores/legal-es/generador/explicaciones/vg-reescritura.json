@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "familia": "VG",
+    "referencia_boe": "BOE-A-2004-21760",
+    "norma": "Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género",
+    "fecha": "2026-08-22",
+    "motivo": "Duodécima tanda (peso 2). Los ejes: qué acredita la condición de víctima, y el catálogo de medidas judiciales, que se pregunta por lo que cada una permite hacer al juez.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-041.json"
+  },
+  "explicaciones": [
+    {
+      "id": "VG-001",
+      "articulo": "art. 1",
+      "explicacion": "La ley no define la violencia por el daño sino por su ORIGEN: la discriminación, la desigualdad y las relaciones de poder de los hombres sobre las mujeres. Ese anclaje es lo que delimita después todo el ámbito de aplicación."
+    },
+    {
+      "id": "VG-002",
+      "articulo": "art. 1",
+      "explicacion": "No se queda en lo físico: comprende también la violencia psicológica, las agresiones a la libertad sexual, las amenazas, las coacciones y la privación arbitraria de libertad. Reducirla a los golpes es el error de partida."
+    },
+    {
+      "id": "VG-003",
+      "articulo": "art. 1",
+      "explicacion": "Cuatro verbos que ordenan toda la ley: prevenir, sancionar, erradicar y asistir. Y la asistencia no alcanza solo a la mujer — también a sus hijos menores y a los menores bajo su tutela."
+    },
+    {
+      "id": "VG-004",
+      "articulo": "art. 2",
+      "explicacion": "Los fines van de la sensibilización a la tutela penal, pero conviene fijarse en que el refuerzo del marco penal y procesal es solo uno de ellos. La ley se pensó como integral, no como reforma penal."
+    },
+    {
+      "id": "VG-005",
+      "articulo": "art. 3",
+      "explicacion": "El Plan Estatal no es programático: la ley exige que se ponga en marcha de forma inmediata Y con dotación presupuestaria. Sin dinero asignado no se cumple el artículo."
+    },
+    {
+      "id": "VG-006",
+      "articulo": "art. 4",
+      "explicacion": "La prevención empieza en el sistema educativo: la igualdad y el respeto a los derechos fundamentales se integran en sus fines. Es la pata que se olvida cuando se piensa la ley solo en clave policial y judicial."
+    },
+    {
+      "id": "VG-007",
+      "articulo": "art. 5",
+      "explicacion": "Cambiar de residencia huyendo no puede costar la escolarización: las Administraciones tienen que prever la escolarización inmediata de los hijos. Protege al menor, no solo a la madre."
+    },
+    {
+      "id": "VG-008",
+      "articulo": "art. 10",
+      "explicacion": "La publicidad vejatoria o discriminatoria hacia la mujer es ILÍCITA, no solo reprobable, por remisión a la Ley General de Publicidad. Eso abre la vía de cesación y rectificación."
+    },
+    {
+      "id": "VG-009",
+      "articulo": "art. 15",
+      "explicacion": "La sanidad actúa como detección temprana: se impulsa la formación de los profesionales para detectar precozmente. El sistema de salud suele ser el primer sitio donde aparece el caso."
+    },
+    {
+      "id": "VG-010",
+      "articulo": "art. 16",
+      "explicacion": "La Comisión contra la Violencia de Género vive dentro del Consejo Interterritorial del Sistema Nacional de Salud — es un órgano sanitario, no policial ni judicial. Confundir su sede es el error."
+    },
+    {
+      "id": "VG-011",
+      "articulo": "art. 17",
+      "explicacion": "Los derechos se garantizan a TODAS las mujeres víctimas, sin condición de origen, religión ni cualquier otra circunstancia personal o social. La situación administrativa no filtra el acceso."
+    },
+    {
+      "id": "VG-012",
+      "articulo": "art. 18",
+      "explicacion": "El derecho no es solo a que le informen: es a información y asesoramiento ADECUADOS a su situación personal. La información genérica no cumple el artículo."
+    },
+    {
+      "id": "VG-013",
+      "articulo": "art. 19",
+      "explicacion": "Cuatro tipos de servicio y conviene separarlos: atención, emergencia, apoyo y acogida, y recuperación integral. No es un servicio único con varias puertas."
+    },
+    {
+      "id": "VG-014",
+      "articulo": "art. 20",
+      "explicacion": "El asesoramiento jurídico gratuito llega ANTES de denunciar, en el momento inmediatamente previo. Es lo que distingue este derecho de la justicia gratuita ordinaria, que llega después."
+    },
+    {
+      "id": "VG-015",
+      "articulo": "art. 21",
+      "explicacion": "Los derechos laborales no son la baja: son reducción o reordenación del tiempo de trabajo, movilidad, cambio de centro y suspensión con reserva del puesto. Herramientas para seguir trabajando, no para dejar de hacerlo."
+    },
+    {
+      "id": "VG-016",
+      "articulo": "art. 21",
+      "explicacion": "Las ausencias y faltas de puntualidad derivadas de la violencia se consideran JUSTIFICADAS. Es la garantía que impide que la situación acabe convirtiéndose en causa de despido."
+    },
+    {
+      "id": "VG-017",
+      "articulo": "art. 23",
+      "explicacion": "La acreditación no exige condena: basta la orden de protección, y también sirve el informe del Ministerio Fiscal. Exigir sentencia firme dejaría fuera a casi todas."
+    },
+    {
+      "id": "VG-018",
+      "articulo": "art. 24",
+      "explicacion": "La funcionaria tiene los mismos derechos que la trabajadora, trasladados a la función pública. Conviene aprenderlos en paralelo y no como si fueran regímenes distintos."
+    },
+    {
+      "id": "VG-019",
+      "articulo": "art. 27",
+      "explicacion": "La ayuda tiene umbral de renta y se calcula en cómputo MENSUAL, excluida la parte proporcional de pagas extra. Ese detalle del cómputo es lo que decide si se cobra o no."
+    },
+    {
+      "id": "VG-020",
+      "articulo": "art. 27",
+      "explicacion": "El importe se expresa en meses de subsidio por desempleo, no en euros — así se actualiza solo. Y sube si hay discapacidad reconocida oficialmente."
+    },
+    {
+      "id": "VG-021",
+      "articulo": "art. 28",
+      "explicacion": "Colectivo PRIORITARIO en vivienda protegida y residencias públicas para mayores: no es un cupo reservado, es preferencia en el acceso. La diferencia se pregunta.",
+      "cifras": {
+        "1": "«no es un cupo reservado»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "VG-022",
+      "articulo": "art. 28 bis",
+      "explicacion": "La reparación va más allá del dinero: comprende la compensación económica, las medidas de recuperación y las garantías de no repetición. Indemnizar no agota el derecho."
+    },
+    {
+      "id": "VG-023",
+      "articulo": "art. 29",
+      "explicacion": "La Delegación del Gobierno contra la Violencia de Género es el órgano de impulso político y está adscrita al departamento competente en igualdad — no al Ministerio del Interior."
+    },
+    {
+      "id": "VG-024",
+      "articulo": "art. 30",
+      "explicacion": "El Observatorio es COLEGIADO y su función es de asesoramiento, evaluación y propuesta: no ejecuta ni sanciona. Es fácil confundirlo con la Delegación, que sí impulsa política."
+    },
+    {
+      "id": "VG-025",
+      "articulo": "art. 31",
+      "explicacion": "La ley obliga a crear unidades ESPECIALIZADAS en las Fuerzas y Cuerpos de Seguridad del Estado, con dos cometidos: prevenir y controlar la ejecución de las medidas acordadas. Vigilar el cumplimiento es tan obligación como prevenir."
+    },
+    {
+      "id": "VG-026",
+      "articulo": "art. 61",
+      "explicacion": "Las medidas de esta ley son COMPATIBLES con las cautelares y de aseguramiento generales: no las sustituyen ni excluyen. Se suman a las que ya prevé el proceso penal."
+    },
+    {
+      "id": "VG-027",
+      "articulo": "art. 62",
+      "explicacion": "La orden de protección puede acordarla el Juez de Violencia sobre la Mujer y también el Juez de Guardia. Que sea fin de semana no deja a la víctima sin protección."
+    },
+    {
+      "id": "VG-028",
+      "articulo": "art. 63",
+      "explicacion": "La protección de datos alcanza a la víctima, a sus descendientes y a quienes estén bajo su guarda. Y el juez puede acordarla DE OFICIO: no hace falta que nadie la pida."
+    },
+    {
+      "id": "VG-029",
+      "articulo": "art. 64",
+      "explicacion": "Son tres medidas físicas distintas y se confunden: salida del domicilio, prohibición de aproximación y prohibición de comunicación. Se pueden acordar por separado o juntas."
+    },
+    {
+      "id": "VG-030",
+      "articulo": "art. 65",
+      "explicacion": "El juez puede suspender patria potestad, guarda y custodia, acogimiento, tutela, curatela o guarda de hecho. Suspender no es privar: la medida es cautelar y revisable."
+    },
+    {
+      "id": "VG-031",
+      "articulo": "art. 66",
+      "explicacion": "Aquí el verbo cambia respecto al artículo anterior: el juez ORDENARÁ la suspensión del régimen de visitas. Lo que allí es facultad, aquí es regla."
+    },
+    {
+      "id": "VG-032",
+      "articulo": "art. 67",
+      "explicacion": "La suspensión del derecho a la tenencia, porte y uso de armas es medida específica y separada de las demás. Para el opositor policía es la que más importa de este capítulo."
+    },
+    {
+      "id": "VG-033",
+      "articulo": "art. 68",
+      "explicacion": "Ninguna medida restrictiva se acuerda sin auto motivado que aprecie proporcionalidad y necesidad, y con intervención del Ministerio Fiscal. La urgencia no dispensa de motivar."
+    },
+    {
+      "id": "VG-034",
+      "articulo": "art. 69",
+      "explicacion": "Las medidas pueden sobrevivir a la sentencia y durar mientras se tramitan los recursos — pero entonces hay que decirlo expresamente en la resolución. No se prorrogan solas."
+    }
+  ]
+}
