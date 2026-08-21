@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "familia": "EXTR",
+    "referencia_boe": "BOE-A-2024-24099",
+    "norma": "Real Decreto 1155/2024, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000",
+    "fecha": "2026-08-22",
+    "motivo": "Décima tanda (peso 2, 57 pendientes). Muchas de estas ya enseñaban algo y solo fallaban la apertura, así que se conserva el contenido y se reordena para que la distinción vaya delante. Los pares que se enfrentan: silencio NEGATIVO en la autorización inicial por cuenta ajena frente a POSITIVO en la renovación; edad mínima de dieciséis años por cuenta ajena frente a dieciocho por cuenta propia; y el bloque de temporada, donde casi todo gira sobre el tope de nueve meses por año natural dentro de una autorización de cuatro.",
+    "fuente": "datos/legal-es/boe-600-pn/corpus/seccion-023.json"
+  },
+  "explicaciones": [
+    {
+      "id": "EXTR-009",
+      "articulo": "art. 11",
+      "explicacion": "Las prohibiciones de entrada no son solo por antecedentes: se prohíbe también a quien fue expulsado mientras dure su plazo, y a quien es objeto de devolución. Expulsión y devolución no son lo mismo, y las dos aparecen aquí.",
+      "cifras": {
+        "2": "recuento retórico: expulsión y devolución, las dos figuras que el artículo distingue y que se confunden"
+      }
+    },
+    {
+      "id": "EXTR-016",
+      "articulo": "art. 22",
+      "explicacion": "Prohibir la SALIDA es excepcional y siempre por decisión del Ministro del Interior, no de cualquier autoridad. Todos los supuestos tienen raíz judicial o penal: no cabe por razones administrativas."
+    },
+    {
+      "id": "EXTR-051",
+      "articulo": "art. 25",
+      "explicacion": "No confundir las clases básicas de visado con sus subtipos: residencia, reagrupación o búsqueda de empleo no son clases distintas, van dentro del visado de larga duración."
+    },
+    {
+      "id": "EXTR-060",
+      "articulo": "art. 28",
+      "explicacion": "Hay una causa de denegación que no depende del solicitante: la causa legal de inadmisión SOBREVENIDA, es decir, la que aparece después de presentar. Las demás sí miran a lo que aportó o dejó de aportar."
+    },
+    {
+      "id": "EXTR-084",
+      "articulo": "art. 43",
+      "explicacion": "El visado de búsqueda de empleo tiene dos puertas muy distintas: una por vínculo familiar —hijos o nietos de español de origen— y otra por ocupación y territorio. No compiten entre sí."
+    },
+    {
+      "id": "EXTR-088",
+      "articulo": "art. 47",
+      "explicacion": "Cuatro situaciones posibles, y la que se olvida al recitar es el tránsito aeroportuario, que no da derecho a entrar en territorio. Estar en España y estar en situación de estancia no son lo mismo."
+    },
+    {
+      "id": "EXTR-116",
+      "articulo": "art. 124",
+      "explicacion": "Es la vía de escape del sistema: circunstancias excepcionales —arraigo, razones humanitarias, colaboración con la autoridad— permiten residir sin cumplir los requisitos ordinarios. Sin ella, quien ya está aquí irregularmente no tendría salida legal."
+    },
+    {
+      "id": "EXTR-150",
+      "articulo": "art. 53",
+      "explicacion": "No basta con estar admitido en el centro: hay que acreditar además el pago de los derechos de inscripción. La admisión sin el pago no sirve para el visado."
+    },
+    {
+      "id": "EXTR-151",
+      "articulo": "art. 54",
+      "explicacion": "El informe de antecedentes lo pide la oficina de extranjería DE OFICIO: no lo tiene que aportar el interesado. Es un trámite interno, no un documento más de la solicitud."
+    },
+    {
+      "id": "EXTR-152",
+      "articulo": "art. 55",
+      "explicacion": "El número de prórrogas no es igual para todos: voluntariado y actividades formativas tienen menos margen que los estudios superiores y la secundaria postobligatoria. La duración del proyecto formativo marca la diferencia."
+    },
+    {
+      "id": "EXTR-153",
+      "articulo": "art. 56",
+      "explicacion": "El familiar acompaña pero no trabaja: su autorización va atada a la del estudiante y no habilita para ejercer actividad lucrativa. Acompañamiento no es residencia autónoma."
+    },
+    {
+      "id": "EXTR-154",
+      "articulo": "art. 57",
+      "explicacion": "Se puede trabajar estudiando, pero con jornada limitada: la actividad principal tiene que seguir siendo la formativa. Si el trabajo desplaza al estudio, decae el fundamento de la autorización."
+    },
+    {
+      "id": "EXTR-155",
+      "articulo": "art. 58",
+      "explicacion": "El MIR y equivalentes se tratan como ESTUDIOS, no como trabajo, aunque haya contrato y salario de por medio. Salvo que la persona ya tuviera otra autorización que le habilite."
+    },
+    {
+      "id": "EXTR-156",
+      "articulo": "art. 59",
+      "explicacion": "La movilidad europea del estudiante viene de la Directiva 2016/801: se puede cursar parte de los estudios en otros Estados miembros sin pedir una autorización nueva allí, dentro de un tope temporal."
+    },
+    {
+      "id": "EXTR-157",
+      "articulo": "art. 72",
+      "explicacion": "Tres notas la definen, y la primera es la que se cruza: por cuenta AJENA la edad mínima son dieciséis años. Por cuenta propia sube a dieciocho, porque allí se emprende, no se es contratado.",
+      "cifras": {
+        "3": "recuento: las tres notas que definen la situación según el artículo",
+        "18": "referencia cruzada al art. 82: la edad mínima por cuenta propia, que es con lo que se contrasta la de cuenta ajena"
+      }
+    },
+    {
+      "id": "EXTR-158",
+      "articulo": "art. 73",
+      "explicacion": "La autorización no se activa con la entrada sino con el ALTA en la Seguridad Social, y hay plazo para darla. Entrar y no darse de alta deja la autorización sin eficacia."
+    },
+    {
+      "id": "EXTR-159",
+      "articulo": "art. 74",
+      "explicacion": "El contrato ha de ajustarse al convenio, y en tiempo parcial hay además un suelo retributivo referido al salario mínimo para jornada completa. Es decir: la parcialidad no puede usarse para pagar menos del umbral."
+    },
+    {
+      "id": "EXTR-160",
+      "articulo": "art. 75",
+      "explicacion": "La situación nacional de empleo no es un juicio caso a caso: se concreta en el catálogo de ocupaciones de difícil cobertura, que elabora el SEPE por comunidad autónoma y se actualiza periódicamente."
+    },
+    {
+      "id": "EXTR-161",
+      "articulo": "art. 76",
+      "explicacion": "El umbral que debe acreditar el empleador sube con las personas a su cargo, y se calcula DESCONTADO el salario del trabajador que va a contratar. Ese descuento es lo que se olvida."
+    },
+    {
+      "id": "EXTR-162",
+      "articulo": "art. 77",
+      "explicacion": "En la autorización INICIAL por cuenta ajena el silencio es NEGATIVO: si no resuelven en plazo, se entiende denegada. Guárdalo enfrente de la renovación, donde la regla se invierte."
+    },
+    {
+      "id": "EXTR-163",
+      "articulo": "art. 78",
+      "explicacion": "Una de las causas de denegación no mira al trabajador sino al EMPLEADOR: haber sido sancionado con firmeza por infracciones graves o muy graves. La conducta del contratante puede cerrar la puerta al contratado."
+    },
+    {
+      "id": "EXTR-164",
+      "articulo": "art. 79",
+      "explicacion": "Cambiar de empleador se permite en general, pero durante el primer año hay que mantener la MISMA ocupación. La movilidad es de empresa, no de oficio."
+    },
+    {
+      "id": "EXTR-165",
+      "articulo": "art. 80",
+      "explicacion": "Aquí la regla se invierte respecto a la inicial: en la RENOVACIÓN por cuenta ajena el silencio es POSITIVO. Es el par que más se cruza de todo el bloque laboral."
+    },
+    {
+      "id": "EXTR-166",
+      "articulo": "art. 81",
+      "explicacion": "Tras la primera renovación el salto es grande: se amplía la vigencia y la autorización pasa a habilitar para cualquier actividad y ámbito, por cuenta ajena o propia. Deja de estar atada a un puesto concreto."
+    },
+    {
+      "id": "EXTR-167",
+      "articulo": "art. 82",
+      "explicacion": "Por cuenta propia la edad mínima son dieciocho años, no dieciséis como en la ajena. Tiene lógica: aquí no se es contratado, se emprende.",
+      "cifras": {
+        "16": "referencia cruzada al art. 72: la edad mínima por cuenta ajena, que es con lo que se contrasta"
+      }
+    },
+    {
+      "id": "EXTR-168",
+      "articulo": "art. 83",
+      "explicacion": "La inicial por cuenta propia nace acotada por partida doble: a un ámbito geográfico autonómico y a un sector de actividad. No es una licencia general para trabajar."
+    },
+    {
+      "id": "EXTR-169",
+      "articulo": "art. 84",
+      "explicacion": "No basta con tener un proyecto: hay que acreditar que la inversión es SUFICIENTE para implantarlo y qué incidencia tendrá en la creación de empleo. Se valora el efecto, no solo la intención."
+    },
+    {
+      "id": "EXTR-170",
+      "articulo": "art. 85",
+      "explicacion": "Igual que por cuenta ajena, lo que activa la autorización es el alta en la Seguridad Social dentro de plazo. Si no se produce, no basta con quedarse: hay obligación de salir de España."
+    },
+    {
+      "id": "EXTR-171",
+      "articulo": "art. 86",
+      "explicacion": "Una deuda con la Seguridad Social no bloquea por sí sola la renovación del autónomo, siempre que se acredite que la actividad se ejerce de forma habitual. Se mira la realidad de la actividad, no solo el estado de cuentas."
+    },
+    {
+      "id": "EXTR-172",
+      "articulo": "art. 87",
+      "explicacion": "En la renovación por cuenta propia el silencio también es POSITIVO, igual que en la ajena. Y el alcance se amplía a todo el territorio: la acotación autonómica de la inicial desaparece."
+    },
+    {
+      "id": "EXTR-173",
+      "articulo": "art. 88",
+      "explicacion": "Investigadores, docentes, corresponsales o ministros de culto están exceptuados de la autorización de TRABAJO — pero eso no les exime de la de residencia. Son dos autorizaciones distintas."
+    },
+    {
+      "id": "EXTR-174",
+      "articulo": "art. 89",
+      "explicacion": "La duración se ata a la actividad que la justifica, con tope distinto para la inicial y para la renovación. No es un plazo fijo: depende de cuánto dure aquello para lo que se concedió."
+    },
+    {
+      "id": "EXTR-175",
+      "articulo": "art. 100",
+      "explicacion": "Lo que define la temporada no es el tipo de trabajo sino el límite anual: un máximo de meses dentro de cada AÑO NATURAL. Por eso una campaña a caballo de dos años se cuenta en dos tramos.",
+      "cifras": {
+        "2": "«dos tramos»: consecuencia aritmética de que el tope se cuente por año natural, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "EXTR-176",
+      "articulo": "art. 101",
+      "explicacion": "Es una autorización de dos velocidades: dura varios años, pero dentro de cada año natural solo habilita el tope de temporada. Confundir la vigencia total con el tiempo trabajable es el error clásico."
+    },
+    {
+      "id": "EXTR-177",
+      "articulo": "art. 101",
+      "explicacion": "Las empresas de trabajo temporal quedan fuera, y no solo al principio: tampoco por cambio de empleador ni en la cadena de concatenaciones. Se cierra la puerta a la intermediación."
+    },
+    {
+      "id": "EXTR-178",
+      "articulo": "art. 102",
+      "explicacion": "El vínculo no es un contrato temporal cualquiera: tiene que formalizarse por escrito como FIJO-DISCONTINUO conforme al Estatuto de los Trabajadores. Esa exigencia es propia de temporada."
+    },
+    {
+      "id": "EXTR-179",
+      "articulo": "art. 103",
+      "explicacion": "El plazo de alta en temporada es mucho más corto que el general por cuenta ajena. Tiene sentido: la campaña dura poco y el control tiene que ser inmediato."
+    },
+    {
+      "id": "EXTR-180",
+      "articulo": "art. 104",
+      "explicacion": "La conducta pasada del TRABAJADOR puede pesar: abandono injustificado o incumplimiento del compromiso de retorno en un periodo reciente permiten denegar. En temporada, volver a origen forma parte del trato."
+    },
+    {
+      "id": "EXTR-181",
+      "articulo": "art. 105",
+      "explicacion": "La falta de alta en la Seguridad Social no es solo un incumplimiento formal: puede extinguir la autorización. Lo que en otras figuras deja la autorización sin eficacia, aquí la mata."
+    },
+    {
+      "id": "EXTR-182",
+      "articulo": "art. 106",
+      "explicacion": "Cada año hay que llamar de nuevo al trabajador y con antelación suficiente. El llamamiento no es automático por tener la autorización plurianual, y el periodo nuevo tampoco puede rebasar el tope anual."
+    },
+    {
+      "id": "EXTR-183",
+      "articulo": "art. 107",
+      "explicacion": "El empleador organiza los viajes de ida y vuelta y asume su coste, salvo que se diga expresamente lo contrario en el documento. El silencio juega a favor del trabajador."
+    },
+    {
+      "id": "EXTR-184",
+      "articulo": "art. 108",
+      "explicacion": "La información se entrega POR ESCRITO y en idioma comprensible al expedir la autorización. No basta con que los derechos existan: hay que asegurarse de que se entienden."
+    },
+    {
+      "id": "EXTR-185",
+      "articulo": "art. 109",
+      "explicacion": "El alojamiento puede cobrarse, pero no libremente: hay un tope referido al IPREM, y otro superior si se suman otros conceptos. Se evita que el alojamiento se coma el salario."
+    },
+    {
+      "id": "EXTR-186",
+      "articulo": "art. 110",
+      "explicacion": "Se puede cambiar de empleador, pero no de inmediato: hace falta haber cumplido un mínimo de actividad en cada llamamiento. Y el tope anual sigue contando, no se reinicia con el cambio."
+    },
+    {
+      "id": "EXTR-187",
+      "articulo": "art. 111",
+      "explicacion": "La prórroga admite empleador distinto pero NO ocupación ni sector distintos, y sigue sujeta al tope anual. Se prorroga el tiempo, no el objeto."
+    },
+    {
+      "id": "EXTR-188",
+      "articulo": "art. 112",
+      "explicacion": "Al renovar se puede cambiar de empleador, de ocupación y de ámbito — pero no de SECTOR. Es lo único que permanece fijo entre una autorización plurianual y la siguiente."
+    },
+    {
+      "id": "EXTR-189",
+      "articulo": "art. 113",
+      "explicacion": "Lo que define la gestión colectiva es que se conceden muchas autorizaciones a la vez a partir de ofertas empresariales. Y hay una garantía que se pregunta: la selección es GRATUITA para el trabajador."
+    },
+    {
+      "id": "EXTR-190",
+      "articulo": "art. 114",
+      "explicacion": "Tres figuras y conviene separarlas: migración estable (cuenta ajena inicial), migración circular (fijo-discontinuo de temporada con llamamientos) y visados de búsqueda de empleo. Cada una tiene su propio régimen.",
+      "cifras": {
+        "3": "recuento: las tres figuras de gestión colectiva que enumera el artículo",
+        "1": "«cada una»: giro de la frase, no una cifra de la norma"
+      }
+    },
+    {
+      "id": "EXTR-191",
+      "articulo": "art. 115",
+      "explicacion": "La previsión de ocupaciones no la fija el mercado: se aprueba cada año por orden ministerial. Es una decisión política anual, no un catálogo automático."
+    },
+    {
+      "id": "EXTR-192",
+      "articulo": "art. 116",
+      "explicacion": "La migración estable se rige por los mismos requisitos que la autorización inicial por cuenta ajena, con un añadido: aquí sí hace falta visado."
+    },
+    {
+      "id": "EXTR-193",
+      "articulo": "art. 117",
+      "explicacion": "El historial del empleador pesa hacia atrás: haber incurrido en causas de denegación en años anteriores permite rechazar sus solicitudes nuevas. No se juzga solo la oferta actual."
+    },
+    {
+      "id": "EXTR-194",
+      "articulo": "art. 118",
+      "explicacion": "Aquí el empleador asume el viaje de llegada y los desplazamientos hasta el alojamiento, pero NO el de regreso — a diferencia de temporada, donde sí. Es el matiz que separa ambas figuras."
+    },
+    {
+      "id": "EXTR-195",
+      "articulo": "art. 119",
+      "explicacion": "La información tiene que llegar ANTES de firmar, clara y en idioma comprensible. Informar después de la firma no cumple el artículo."
+    },
+    {
+      "id": "EXTR-196",
+      "articulo": "art. 120",
+      "explicacion": "La formación puede darse en España o en origen, y en ambos casos es TOTALMENTE GRATUITA para el trabajador. No se puede repercutir su coste."
+    },
+    {
+      "id": "EXTR-197",
+      "articulo": "art. 121",
+      "explicacion": "La gestión colectiva pide un volumen mínimo de puestos por oferta, pero admite acumular ofertas de varios empleadores para alcanzarlo. Un empleador pequeño no queda excluido por serlo."
+    },
+    {
+      "id": "EXTR-198",
+      "articulo": "art. 122",
+      "explicacion": "Las solicitudes van por medios electrónicos y con antelación suficiente al inicio de la actividad. El plazo de resolución es corto, acorde con campañas que no admiten espera."
+    },
+    {
+      "id": "EXTR-199",
+      "articulo": "art. 123",
+      "explicacion": "La oferta nominativa premia haber cumplido: solo cabe si el trabajador ya tuvo autorización de temporada y ACREDITÓ el regreso. El retorno pasado es lo que abre la puerta a que lo pidan por su nombre."
+    }
+  ]
+}
