@@ -29,44 +29,36 @@ function barajar<T>(arr: T[]): T[] {
 }
 
 // ---------------------------------------------------------------------------
-// EL TOPE DE 1.000 FILAS (bug encontrado el 20/08/2026)
+// EL TOPE DE 1.000 FILAS, Y POR QUÉ YA NO NOS AFECTA (20/08/2026)
 //
 // PostgREST corta toda respuesta en `db-max-rows` (1.000 en Supabase por
-// defecto) y NO avisa: devuelve 1.000 filas y `error: null`. Con 3.312
-// conceptos en el cerebro, cuatro consultas de este fichero venían recibiendo
-// un tercio de la realidad sin que nada fallara:
+// defecto) y NO avisa: devuelve 1.000 filas y `error: null`. Con 3.343
+// conceptos, cuatro consultas de este fichero recibían un tercio de la realidad
+// sin que nada fallara. La grave era `practicar_estado`: el PLANIFICADOR solo
+// veía 1.000 conceptos, así que 2.343 no podían salir a practicar NUNCA.
 //
-//   · `practicar_estado`  → el PLANIFICADOR solo veía 1.000 conceptos, así que
-//     2.312 no podían salir a practicar NUNCA. Este era el grave: no es que se
-//     contase mal, es que dos tercios del temario eran invisibles para el coach.
-//   · `overlay_entrada` en `resumenHoy` → el «1.000 en total» de la pantalla.
-//   · `overlay_entrada` en `progresoTemas` → temas enteros con 0 conceptos.
-//   · `evento` → el % de acierto se habría congelado al llegar a 1.000 respuestas.
+// El primer arreglo fue paginar con `.range()`. Correcto pero caro: cuatro
+// peticiones SECUENCIALES por pantalla, y /hoy hacía además las suyas.
 //
-// Se arregla en el CÓDIGO y no subiendo `db-max-rows` en el proyecto, por dos
-// razones: el tope volvería a aparecer al crecer el cerebro, y subirlo afecta a
-// todos los endpoints. `traerTodo` pagina con `.range()` hasta que una página
-// vuelve incompleta. Donde solo hace falta un número, mejor `contar()`: una
-// consulta HEAD que no trae ni una fila.
+// El arreglo definitivo mueve el trabajo a Postgres, que es donde están los
+// datos. Tres funciones nuevas, cada una de UNA sola vuelta:
+//
+//   · `practicar_estado_json` — el universo entero dentro de un jsonb. El tope
+//     cuenta FILAS, así que una fila con 3.343 objetos dentro no lo toca.
+//   · `progreso_temas`        — agrega por tema en SQL y devuelve ~45 filas.
+//   · `resumen_usuario`       — los cinco conteos de /hoy en una consulta.
+//
+// No se sube `db-max-rows` en el proyecto a propósito: el tope volvería a
+// aparecer al crecer el cerebro y subirlo afecta a todos los endpoints. Con
+// este diseño el tamaño del cerebro deja de importar.
+//
+// Medido antes y después sobre `practicar_estado` (EXPLAIN ANALYZE):
+//   387 ms ejecución + 108 ms planificación, ×4 vueltas
+//    →  45 ms ejecución +   2 ms planificación, ×1 vuelta
+// La mejora viene de tres sitios: un índice parcial sobre las actividades
+// servibles, sustituir una subconsulta correlada que corría 3.343 veces por una
+// agregación previa, y dejar de paginar.
 // ---------------------------------------------------------------------------
-const PAGINA = 1000;
-
-type ConsultaPaginable<T> = {
-  range: (desde: number, hasta: number) => PromiseLike<{ data: T[] | null; error: unknown }>;
-};
-
-async function traerTodo<T>(hacerConsulta: () => ConsultaPaginable<T>): Promise<T[]> {
-  const filas: T[] = [];
-  for (let desde = 0; ; desde += PAGINA) {
-    const { data, error } = await hacerConsulta().range(desde, desde + PAGINA - 1);
-    if (error || !data) break;
-    filas.push(...data);
-    // Página incompleta = última página. Es la única señal fiable: PostgREST no
-    // distingue "he cortado" de "no hay más".
-    if (data.length < PAGINA) break;
-  }
-  return filas;
-}
 
 // Formato EXAMEN OFICIAL PN: 3 alternativas. Reduce las 4 opciones guardadas a
 // la correcta + 2 distractores al azar y las baraja. La respuesta correcta NO se
@@ -159,14 +151,14 @@ type Universo = {
 async function cargarUniverso(
   db: ReturnType<typeof createCerebroClient>,
 ): Promise<Universo | null> {
-  // Paginado: el planificador necesita el universo ENTERO para repartir entre
-  // consolidar y ampliar. Con el tope de 1.000 veía menos de un tercio.
-  const filas = await traerTodo<FilaEstado>(() =>
-    db.rpc("practicar_estado", {
-      conv: CONVOCATORIA_PN,
-      usuario: DEMO_USUARIO_ID,
-    }) as unknown as ConsultaPaginable<FilaEstado>,
-  );
+  // UNA sola vuelta: `practicar_estado_json` devuelve el universo entero dentro
+  // de un jsonb. El tope de PostgREST cuenta FILAS, así que una fila con 3.343
+  // objetos dentro no lo toca; antes eran 4 peticiones paginadas seguidas.
+  const { data, error } = await db.rpc("practicar_estado_json", {
+    conv: CONVOCATORIA_PN,
+    usuario: DEMO_USUARIO_ID,
+  });
+  const filas = (error ? [] : ((data ?? []) as FilaEstado[]));
   if (filas.length === 0) return null;
 
   const hoy = Date.now() / DIA_MS;
@@ -442,56 +434,21 @@ export type ProgresoTema = {
 // de largo el tope de 1.000 (3.312 filas a 20/08/2026).
 export async function progresoTemas(): Promise<ProgresoTema[]> {
   const db = createCerebroClient();
+  // Agrega en Postgres y devuelve ~45 filas. Antes se traían las 3.343 del
+  // overlay (cuatro peticiones paginadas) para contarlas en memoria.
+  const { data, error } = await db.rpc("progreso_temas", {
+    conv: CONVOCATORIA_PN,
+    usuario: DEMO_USUARIO_ID,
+  });
+  if (error || !data) return [];
 
-  const overlay = await traerTodo<{ concepto_id: string; tema: string }>(() =>
-    db
-      .from("overlay_entrada")
-      .select("concepto_id, tema")
-      .eq("convocatoria_id", CONVOCATORIA_PN) as unknown as ConsultaPaginable<{
-      concepto_id: string;
-      tema: string;
-    }>,
-  );
-  if (overlay.length === 0) return [];
-
-  const estados = await traerTodo<{ concepto_id: string; l: number | null }>(() =>
-    db
-      .from("estado_dominio")
-      .select("concepto_id, l")
-      .eq("usuario_id", DEMO_USUARIO_ID) as unknown as ConsultaPaginable<{
-      concepto_id: string;
-      l: number | null;
-    }>,
-  );
-
-  const dominioDe = new Map<string, number>(
-    estados.map((s) => [s.concepto_id, s.l ?? 0]),
-  );
-
-  const porTema = new Map<
-    string,
-    { total: number; practicados: number; dominados: number }
-  >();
-  for (const row of overlay) {
-    const tema = row.tema as string;
-    const agg = porTema.get(tema) ?? { total: 0, practicados: 0, dominados: 0 };
-    agg.total += 1;
-    if (dominioDe.has(row.concepto_id as string)) {
-      agg.practicados += 1;
-      if ((dominioDe.get(row.concepto_id as string) ?? 0) >= 0.9) {
-        agg.dominados += 1;
-      }
-    }
-    porTema.set(tema, agg);
-  }
-
-  return [...porTema.entries()]
-    .map(([tema, a]) => ({
-      tema,
-      totalConceptos: a.total,
-      dominados: a.dominados,
-      practicados: a.practicados,
-      pct: a.total > 0 ? Math.round((a.dominados / a.total) * 100) : 0,
+  return (data as { tema: string; total: number; practicados: number; dominados: number }[])
+    .map((r) => ({
+      tema: r.tema,
+      totalConceptos: r.total,
+      dominados: r.dominados,
+      practicados: r.practicados,
+      pct: r.total > 0 ? Math.round((r.dominados / r.total) * 100) : 0,
     }))
     .sort((x, y) => numeroTema(x.tema) - numeroTema(y.tema));
 }
@@ -518,81 +475,47 @@ export type ResumenHoy = {
 export async function resumenHoy(): Promise<ResumenHoy> {
   const db = createCerebroClient();
 
-  const overlay = await traerTodo<{ concepto_id: string }>(() =>
+  // Los cinco conteos y la última fecha, en UNA consulta. Antes eran cuatro
+  // peticiones (overlay paginado, estado_dominio, dos HEAD de evento) más una
+  // quinta para la última respuesta.
+  const [{ data: res }, universo] = await Promise.all([
     db
-      .from("overlay_entrada")
-      .select("concepto_id")
-      .eq("convocatoria_id", CONVOCATORIA_PN) as unknown as ConsultaPaginable<{
-      concepto_id: string;
-    }>,
-  );
-  const conceptos = new Set(overlay.map((o) => o.concepto_id));
-  const totalConceptos = conceptos.size;
+      .rpc("resumen_usuario", { conv: CONVOCATORIA_PN, usuario: DEMO_USUARIO_ID })
+      .single(),
+    // En paralelo, no en serie: el plan del día no depende de los conteos.
+    cargarUniverso(db),
+  ]);
 
-  const estados = await traerTodo<{ concepto_id: string; l: number | null }>(() =>
-    db
-      .from("estado_dominio")
-      .select("concepto_id, l")
-      .eq("usuario_id", DEMO_USUARIO_ID) as unknown as ConsultaPaginable<{
-      concepto_id: string;
-      l: number | null;
-    }>,
-  );
-  let practicados = 0;
-  let dominados = 0;
-  for (const s of estados) {
-    if (!conceptos.has(s.concepto_id)) continue;
-    practicados += 1;
-    if ((s.l ?? 0) >= 0.9) dominados += 1;
-  }
+  const r = (res ?? {}) as {
+    total_conceptos?: number;
+    practicados?: number;
+    dominados?: number;
+    eventos?: number;
+    aciertos?: number;
+    ultima?: string | null;
+  };
+  const totalConceptos = r.total_conceptos ?? 0;
+  const practicados = r.practicados ?? 0;
+  const eventos = r.eventos ?? 0;
 
-  // El acierto se cuenta con dos consultas HEAD (`count: exact`): devuelven el
-  // número sin traer ni una fila, así que no dependen del tope de páginas por
-  // muchas respuestas que acumule el usuario.
-  const { count: totalEventos } = await db
-    .from("evento")
-    .select("*", { count: "exact", head: true })
-    .eq("usuario_id", DEMO_USUARIO_ID);
-  const { count: aciertos } = await db
-    .from("evento")
-    .select("*", { count: "exact", head: true })
-    .eq("usuario_id", DEMO_USUARIO_ID)
-    .eq("acierto", true);
-
-  // Última respuesta: una sola fila, la más reciente.
-  const { data: ultimo } = await db
-    .from("evento")
-    .select("fecha")
-    .eq("usuario_id", DEMO_USUARIO_ID)
-    .order("fecha", { ascending: false })
-    .limit(1)
-    .maybeSingle();
-  const diasSinVenir = ultimo?.fecha
-    ? Math.floor(
-        (Date.now() - new Date(ultimo.fecha as string).getTime()) / DIA_MS,
-      )
+  const diasSinVenir = r.ultima
+    ? Math.floor((Date.now() - new Date(r.ultima).getTime()) / DIA_MS)
     : null;
-  const aciertoPct =
-    totalEventos && totalEventos > 0
-      ? Math.round(((aciertos ?? 0) / totalEventos) * 100)
-      : null;
 
   // El plan de hoy sale del planificador, el mismo que sirve las preguntas en
   // /practicar. Antes esta pantalla calculaba "por repasar" como
-  // practicados − dominados, que NO es lo mismo: un concepto practicado y no
-  // dominado solo vence cuando su retención cae por debajo del objetivo. Con la
-  // cuenta vieja la pantalla anunciaba repasos que el coach no iba a servir.
-  const u = await cargarUniverso(db);
-  const plan = u
-    ? planDelDia(u)
+  // practicados - dominados, que NO es lo mismo: un concepto practicado y no
+  // dominado solo vence cuando su retención cae por debajo del objetivo.
+  const plan = universo
+    ? planDelDia(universo)
     : { modo: "normal", consolidar: [], ampliar: [], backlog: 0 };
 
   return {
     totalConceptos,
     practicados,
-    dominados,
+    dominados: r.dominados ?? 0,
     pendientes: totalConceptos - practicados,
-    aciertoPct,
+    aciertoPct: eventos > 0 ? Math.round(((r.aciertos ?? 0) / eventos) * 100) : null,
     hoyRepasar: plan.consolidar.length,
     hoyNuevos: plan.ampliar.length,
     backlog: plan.backlog,
