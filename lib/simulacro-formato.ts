@@ -54,7 +54,8 @@ export type DetallePregunta = {
   textoElegido: string | null;
   correcta: string | null; // texto de la opción correcta
   acierto: boolean;
-  explicacion: string | null;
+  explicacion: string | null; // del CONCEPTO: la misma para todas sus preguntas
+  justificacion: string | null; // de ESTA pregunta: la distinción que probaba
   articulo: string | null;
   boeUrl: string | null;
 };

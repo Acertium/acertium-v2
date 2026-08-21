@@ -148,7 +148,7 @@ export async function corregirSimulacro(
   // 1) enunciado + respuesta correcta de las actividades del examen
   const { data: acts } = await db
     .from("actividad")
-    .select("id, concepto_id, enunciado, respuesta")
+    .select("id, concepto_id, enunciado, respuesta, justificacion")
     .in("id", actividadIds);
   const actInfo = new Map(
     (acts ?? []).map((a) => [
@@ -157,6 +157,7 @@ export async function corregirSimulacro(
         conceptoId: a.concepto_id as string,
         enunciado: (a.enunciado ?? "") as string,
         correcta: (a.respuesta?.correcta ?? null) as string | null,
+        justificacion: (a.justificacion ?? null) as string | null,
       },
     ]),
   );
@@ -220,6 +221,10 @@ export async function corregirSimulacro(
       correcta,
       acierto,
       explicacion: info ? (explicacionDe.get(info.conceptoId) ?? null) : null,
+      // La justificación es de ESTA pregunta; la explicación, del concepto y
+      // compartida por todas sus preguntas. En la corrección de un simulacro se
+      // repasan muchas seguidas, así que aquí se nota más todavía.
+      justificacion: info?.justificacion ?? null,
       articulo: fuente?.articulo ?? null,
       boeUrl: boeUrl(fuente?.ref ?? null, fuente?.articulo ?? null),
     });
