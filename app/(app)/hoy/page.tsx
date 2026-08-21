@@ -21,15 +21,16 @@ async function registrar(
   return registrarExamen(fecha, aprovechamiento);
 }
 
-// Respuesta al seguimiento de los 30 días: resultado del ejercicio de
-// conocimientos y, si quiere, un comentario.
+// Respuesta al seguimiento de los 30 días: si siguió en el proceso tras la
+// PRIMERA PRUEBA, su nota si quiere darla, y un comentario libre.
 async function registrarSeg(
   fechaExamen: string,
-  aprobo: "si" | "no" | "aun_no_lo_se" | "sin_decir",
+  pasoCorte: "si" | "no" | "aun_no_lo_se" | "sin_decir",
+  nota?: number | null,
   comentario?: string,
 ) {
   "use server";
-  return registrarSeguimiento(fechaExamen, aprobo, comentario);
+  return registrarSeguimiento(fechaExamen, pasoCorte, nota, comentario);
 }
 
 const borde = "color-mix(in srgb, var(--color-fg) 12%, transparent)";

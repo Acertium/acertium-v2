@@ -350,18 +350,42 @@ momento**, con una pregunta distinta.
 | | Cuándo | Qué pregunta | Por qué entonces |
 |---|---|---|---|
 | Ventana 1 | Al volver, con la fecha ya pasada | ¿Te sirvió lo que estudiaste aquí? | Si las preguntas le sonaban lo sabe **al salir del aula** |
-| Ventana 2 | A los 30 días | ¿Pasaste el ejercicio de conocimientos? | La nota ya suele estar publicada |
+| Ventana 2 | A los 30 días | ¿Seguiste en el proceso? ¿Con qué nota? | La nota de la primera prueba ya suele estar publicada |
 
 Nunca se muestran las dos a la vez: la primera solo aparece con una fecha vencida
 sin cerrar, y la segunda solo con una fila ya cerrada.
 
-## Se pregunta por el ejercicio, no por la oposición
+## Solo la primera prueba — la de cuyo contenido respondemos
 
-A los 30 días lo que suele conocerse es el resultado del **ejercicio de
-conocimientos**. El proceso entero tiene por delante físicas, reconocimiento
-médico y entrevista, y puede tardar meses. Preguntar «¿aprobaste?» a secas
-recogería respuestas que no significan lo mismo y las mezclaríamos en la misma
-columna, que es la forma más silenciosa de arruinar un dato.
+Se pregunta **exclusivamente por la primera prueba**: las cien preguntas del
+temario del anexo I. Los psicotécnicos, las físicas, el reconocimiento médico y
+la entrevista no dependen de lo que se estudia aquí.
+
+Excluirlos no da una medida más pobre, da una **mejor**: si el proceso entero
+entrara en el mismo dato, un «no» que en realidad fue una lesión en el circuito
+se leería como un fallo del temario.
+
+## «Aprobar» era ambiguo — leyendo la base 6.1.1
+
+La primera redacción preguntaba «¿lo pasaste?», y al ir al PDF de la convocatoria
+resultó que esa palabra no significa una sola cosa:
+
+> «Se calificará de cero a diez puntos. Únicamente serán seleccionadas para
+> continuar en el proceso las personas aspirantes que habiendo alcanzado la
+> **puntuación mínima de 3 puntos** obtengan las **mejores calificaciones**, hasta
+> llegar a **1'75 aspirantes por cada una** de las 2.163 plazas.»
+
+Es decir: **se puede sacar un 5 —aprobado de sobra— y no continuar**, porque el
+corte real lo pone la competencia, no el 3. Un sí/no mezclaba las dos cosas en la
+misma casilla.
+
+Arreglado en tres sitios:
+
+- La pregunta es **«¿seguiste en el proceso?»**, no «¿aprobaste?».
+- La columna se llama **`paso_corte`**, no `aprobo`.
+- Se pide además **la nota (0-10, opcional)**, que desambigua las dos cosas y es
+  el único dato comparable contra el dominio que el motor le estimaba antes del
+  examen. Ahí está la medida de verdad de si esto funciona.
 
 ## «Aún no lo sé» es una respuesta, no un descarte
 
@@ -378,6 +402,9 @@ Probado con cuatro casos contra la base real:
         hace 31 días            → vuelve a aparecer
 200 días, ya contestó «sí»      → no aparece  (cerrado)
 ```
+
+Y el `CHECK` de la nota rechaza en la base un 11, además de validarlo el cliente:
+la validación del formulario evita el viaje, la de la base evita el dato malo.
 
 ## Una vista, no dos consultas
 

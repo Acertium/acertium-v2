@@ -691,10 +691,20 @@ export async function registrarExamen(
 // preguntar más: el resultado no existe todavía. Al mes sí, así que hay un
 // segundo momento con una pregunta distinta.
 //
-// LO QUE SE PREGUNTA ES EL EJERCICIO DE CONOCIMIENTOS, no el proceso entero: a
-// los 30 días quedan por delante físicas, reconocimiento y entrevista. Por eso
-// «aún no lo sé» es una respuesta de primera clase y no un descarte — y cuando
-// la elige, se le vuelve a preguntar un mes después en vez de darlo por cerrado.
+// SOLO SE PREGUNTA POR LA PRIMERA PRUEBA: las 100 preguntas del temario del
+// anexo I, que es de cuyo contenido respondemos. Los psicotécnicos, las físicas,
+// el reconocimiento y la entrevista no dependen de lo que se estudia aquí, y
+// meterlos en el mismo dato solo emborronaría la señal.
+//
+// Y SE PIDE LA NOTA, no solo un sí o un no, porque en esta convocatoria
+// «aprobar» es ambiguo: la base 6.1.1 exige un mínimo de 3 puntos, pero además
+// solo continúan «las mejores calificaciones, hasta llegar a 1,75 aspirantes por
+// cada una» de las plazas. Se puede sacar un 5 —aprobado— y no seguir en el
+// proceso. La nota distingue las dos cosas y, además, es lo único comparable
+// contra el dominio que el motor le estimaba.
+//
+// «Aún no lo sé» es una respuesta de primera clase y no un descarte: cuando la
+// elige, se le vuelve a preguntar un mes después en vez de darlo por cerrado.
 // ---------------------------------------------------------------------------
 
 export type Seguimiento = {
@@ -705,7 +715,8 @@ export type Seguimiento = {
   diasDesdeExamen: number;
 };
 
-export type Aprobo = "si" | "no" | "aun_no_lo_se" | "sin_decir";
+/** Si CONTINUÓ en el proceso tras la primera prueba. No es «aprobar». */
+export type PasoCorte = "si" | "no" | "aun_no_lo_se" | "sin_decir";
 
 /** A quién le toca el seguimiento hoy. null si a nadie. */
 export async function seguimientoPendiente(): Promise<Seguimiento | null> {
@@ -735,16 +746,25 @@ export async function seguimientoPendiente(): Promise<Seguimiento | null> {
  */
 export async function registrarSeguimiento(
   fechaExamen: string,
-  aprobo: Aprobo,
+  pasoCorte: PasoCorte,
+  nota?: number | null,
   comentario?: string,
 ): Promise<{ ok: boolean }> {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(fechaExamen)) return { ok: false };
   const texto = (comentario ?? "").trim().slice(0, 2000);
+  // La nota se valida aquí además de en el CHECK: si viene fuera de rango o no
+  // es un número, se guarda como null en vez de tumbar la respuesta entera. Lo
+  // que no se puede perder es el `paso_corte`; la nota es opcional.
+  const n =
+    typeof nota === "number" && Number.isFinite(nota) && nota >= 0 && nota <= 10
+      ? Math.round(nota * 100) / 100
+      : null;
   const db = createCerebroClient();
   const { error } = await db
     .from("examen_rendido")
     .update({
-      aprobo,
+      paso_corte: pasoCorte,
+      nota: n,
       comentario: texto || null,
       seguimiento_en: new Date().toISOString(),
     })
