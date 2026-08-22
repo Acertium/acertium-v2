@@ -131,3 +131,25 @@ con las 23 preguntas escritas a mano**, que ya están cargadas y sirven de patr�
 Hasta entonces no hay dato sobre la calidad de lo que genera — solo sobre la
 solidez de la tubería que lo rodea. No soltarlo sobre las 52 normas antes de esa
 comparación.
+
+## Decisión: esto se queda parado (23/08/2026)
+
+Jonathan: **«el API lo usaremos cuando veamos que tiene futuro el MVP, por el
+momento seguimos de forma manual».**
+
+Así que la opción B queda **construida y en pausa**, y esto no es una tarea
+pendiente que se haya olvidado: es una decisión. Lo que implica, para que dentro
+de un mes no haya que reconstruir el razonamiento:
+
+- **El camino manual no depende de nada de esto.** `motor-preguntas.mjs` es el
+  único fichero del repo que importa `@anthropic-ai/sdk` (comprobado). El camino
+  de siempre —escribir el lote siguiendo `contrato-generacion.md`, pasar las
+  puertas, `cargar.mjs`— corre sin llave y sin red.
+- **La opción B no se pudre mientras espera**, porque sus 20 comprobaciones usan
+  un cliente de mentira y entran en `npm run test:motor`. Si alguien rompe el
+  motor arreglando otra cosa, salta ahí y no el día que se encienda la API.
+- **La prueba de fuego sigue siendo la misma** cuando llegue el momento: DISC
+  contra las 23 escritas a mano. No hace falta decidirla ahora.
+- **Lo que sí sigue aplicando hoy** es la regla 10 en su versión nueva
+  (justificación opcional, no se cita): la escribe el motor, pero también la mano.
+  Ver `docs/las-dos-explicaciones.md`.
