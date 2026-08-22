@@ -216,10 +216,47 @@ nunca estuvieron en el PDF del Código 600.
 No bloquea —no hay nada que el autor de un lote pueda hacer al respecto— pero
 deja de contarse como acierto, que era lo que engañaba.
 
+---
+
+# Tercera vuelta: las 53 aprobadas, y lo que la aprobación no dejaba escrito
+
+Jonathan las revisó y aprobó en `/admin` el 23/08/2026. Comprobado en base: las
+53 actividades y los 40 conceptos vuelven a `verificado`, y
+`explicacion_verificacion` viajó con el concepto en las 40 — `resolverPendientes()`
+hizo su trabajo completo.
+
+| | congelado | aprobado |
+|---|---|---|
+| actividades servibles | 3.381 | **3.434** |
+| Tema 29 | 9 preguntas | **26** |
+| Tema 33 | 11 | **23** |
+| denominador del progreso | 3.303 | **3.343** |
+
+## Pero la aprobación no dejaba rastro
+
+El contrato pone la revisión humana como LA puerta del contenido de consenso
+(§2) y exige cadencia de re-verificación para las fuentes con datos vivos (§5).
+Las dos cosas se apoyaban en un dato que no existía: `resolverPendientes()`
+cambiaba el estado y nada más. Dos consecuencias concretas:
+
+- Una recarga que volviera a aplicar `estadoSegunTipoFuente` devolvería esos 40
+  conceptos a `pendiente_revision`, y **nadie sabría que ya se revisaron**.
+- Sin fecha de revisión, la cadencia del §5 **no tiene desde cuándo contar** — y
+  justo en las fuentes de consenso, que son las más volátiles del banco: una
+  entrada de Wikipedia puede cambiar hoy.
+
+Nueva tabla `acertium_v2.revision`, append-only, que escriben tanto `/admin`
+como el CLI `revision-pendientes.mjs`. No bloquea la operación: si falla el
+registro el contenido ya está promovido, y dejarlo a medias sería peor.
+
+Las 53 de hoy quedan anotadas con `origen = 'retroactivo'` y la nota lo dice sin
+adornos: **la fecha es la del registro, no la del clic**. No observé la
+aprobación; la anoto a partir de lo que consta. Lo que se capture a partir de
+ahora irá como `admin` o `cli`, que sí son el momento real.
+
 ## Lo que queda, reordenado
 
-1. **Revisar las 53 de consenso** en `/admin`. Devuelve los seis temas más
-   flojos. Es tuya.
+1. ~~Revisar las 53 de consenso~~ — **hecho el 23/08/2026**.
 2. **Poner el reloj en hora**: 60 normas × su consolidado en el BOE.
    **Bloqueado aquí** por la política de red; hace falta permitir `boe.es` en el
    entorno o hacerlo desde otra máquina.
@@ -228,3 +265,9 @@ deja de contarse como acierto, que era lo que engañaba.
    una línea de `.gitignore` que nadie escribió pensando en esto.
 4. **Los 63 hallazgos (C) de elisión y los 9 (A) de cita cerrada** que el auditor
    lleva marcando y siguen sin triar.
+5. **Las 18 familias no-BOE no tienen reloj, y no pueden tenerlo.**
+   `norma.referencia_boe` es `NOT NULL`, así que una fuente sin BOE-A no se
+   puede registrar ahí. Es el mismo agujero que G7 destapó para las normas, en
+   el otro carril — y peor, porque el §5 del contrato señala precisamente esas
+   fuentes (INE, OEDA, ciberamenazas) como las que caducan. Hace falta decidir
+   cómo se modela una fuente no-BOE antes de poder ponerle fecha.

@@ -167,6 +167,16 @@ export async function colaRevision(): Promise<PendienteFila[]> {
  * concepto se queda en `pendiente_revision`, el selector acabaría con un
  * concepto sin revisar y pregunta servible — justo la incoherencia que el
  * contrato quiere evitar. Mismo criterio que `revision-pendientes.mjs`.
+ *
+ * Y DEJA RASTRO en `acertium_v2.revision`. Hasta el 23/08/2026 esto cambiaba el
+ * estado y nada más, con dos consecuencias: una recarga que volviera a aplicar
+ * `estadoSegunTipoFuente` devolvía el contenido a `pendiente_revision` sin que
+ * nadie supiera que ya se había revisado, y la cadencia de re-verificación del
+ * contrato (§5) no tenía fecha desde la que contar — justo en las fuentes de
+ * consenso, que son las más volátiles del banco.
+ *
+ * El rastro NO bloquea la operación: si falla el registro, el contenido ya se ha
+ * promovido y lo importante es no dejarlo a medias. Se avisa por consola.
  */
 export async function resolverPendientes(
   filtro: { actividadId: string } | { familia: string },
@@ -191,5 +201,19 @@ export async function resolverPendientes(
       .eq("estado_verificacion", "pendiente_revision");
     if (eC) throw new Error(`actividades actualizadas pero el concepto no: ${eC.message}`);
   }
+
+  if ((data ?? []).length) {
+    const { error: eR } = await db.from("revision").insert(
+      (data ?? []).map((r) => ({
+        actividad_id: r.id as string,
+        concepto_id: r.concepto_id as string,
+        estado_anterior: "pendiente_revision",
+        estado_nuevo: estado,
+        origen: "admin",
+      })),
+    );
+    if (eR) console.error(`revisión aplicada pero SIN registrar en acertium_v2.revision: ${eR.message}`);
+  }
+
   return (data ?? []).length;
 }

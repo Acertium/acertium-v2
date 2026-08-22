@@ -66,6 +66,25 @@ async function cambiarEstado(filtro, estado, etiqueta) {
       .eq("estado_verificacion", "pendiente_revision");
     if (eC) throw eC;
   }
+
+  // Rastro de la revisión (contrato-fuentes-no-BOE §2 y §5). Mismo registro que
+  // escribe la pantalla /admin: sin fecha de revisión, la cadencia de
+  // re-verificación no tiene desde cuándo contar, y una recarga que reaplique
+  // `estadoSegunTipoFuente` borraría la revisión sin dejar constancia.
+  // No bloquea: el contenido ya está promovido, dejarlo a medias sería peor.
+  if (data.length) {
+    const { error: eR } = await db.from("revision").insert(
+      data.map((r) => ({
+        actividad_id: r.id,
+        concepto_id: r.concepto_id,
+        estado_anterior: "pendiente_revision",
+        estado_nuevo: estado,
+        origen: "cli",
+      })),
+    );
+    if (eR) console.error(`  ⚠ revisión aplicada pero SIN registrar en acertium_v2.revision: ${eR.message}`);
+  }
+
   console.log(`✓ ${data.length} actividades y ${conceptos.length} conceptos → ${estado} (${etiqueta})`);
   return data.length;
 }
