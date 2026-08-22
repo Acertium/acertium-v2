@@ -133,6 +133,10 @@ una volatilidad que nadie ha medido, así que la única forma de registrar una
 norma era inventarse su clasificación. Con NULL, «sin clasificar» se puede decir,
 y la barrera lo cuenta.
 
+> **Los dos párrafos de arriba resultaron ser falsos, y así se corrigieron.**
+> Ver la cuarta vuelta: la fecha SÍ estaba en el repo, y el NOT NULL no bastaba
+> porque la columna tenía además `DEFAULT 'media'`.
+
 ## Una cosa que quedó anotada por el camino
 
 **`registro-materias.json` no sabe expresar una familia con varias normas.** Está
@@ -271,3 +275,84 @@ ahora irá como `admin` o `cli`, que sí son el momento real.
    el otro carril — y peor, porque el §5 del contrato señala precisamente esas
    fuentes (INE, OEDA, ciberamenazas) como las que caducan. Hace falta decidir
    cómo se modela una fuente no-BOE antes de poder ponerle fecha.
+
+---
+
+# Cuarta vuelta: el reloj ya estaba en casa, y un DEFAULT que mentía por mí
+
+Al retirar `datos/**/*.pdf` del `.gitignore` (regla de Jonathan del 23/08: **de
+cada PDF se guarda copia versionada**) aparecieron tres PDFs que ya estaban en
+disco y que git no veía: el Código Penal, la LECrim y la Ley de PRL. Son
+extractos del Código 600, y el prefijo de su nombre coincide con su sección del
+corpus (`35-…` ↔ `seccion-035.json`). Pesan 495K, 252K y 287K — **la objeción de
+tamaño que justificaba la línea del `.gitignore` no se sostenía**: el Código
+Penal entero ocupa medio mega.
+
+Tirando de ese hilo salieron las dos cosas de esta vuelta.
+
+## El reloj no estaba bloqueado: estaba en el repo
+
+Dije que poner `ultima_modificacion` exigía ir al BOE, y que el entorno lo
+bloquea. Lo segundo es cierto; lo primero **no**. Cada sección del corpus guarda,
+de su ingesta desde boe.es, el metadato `ultima_modificacion` — «9 de abril de
+2026» para el Código Penal — y su `publicacion`. **55 secciones lo traen.**
+
+No es memoria ni estimación: es lo que decía el consolidado cuando se ingirió,
+que es justo la línea base que la regla 7 necesita para poder preguntar después
+«¿ha cambiado desde entonces?».
+
+**El contraste que lo valida**: la Constitución era la única fila con fecha,
+puesta a mano — `2026-05-20`. El corpus dice «20 de mayo de 2026». Coinciden al
+día. Las 13 que el corpus marca «sin modificaciones» toman la de `publicacion`,
+porque una norma nunca modificada tiene por texto vigente el original.
+
+**54 de 61 normas con fecha real.** Y lo que enseña de inmediato:
+
+| norma | última modificación |
+|---|---|
+| Reglamento General de Vehículos | 2026-06-26 |
+| Constitución | 2026-05-20 |
+| Orden INT/430/2014 uniformidad | 2026-04-30 |
+| **Código Penal** | **2026-04-09** |
+
+Cuatro normas del banco tocadas en los últimos cinco meses. Eso es exactamente
+la señal que antes no existía.
+
+## Y un DEFAULT que afirmaba por mí
+
+`G7 · norma sin clasificar (volatilidad)` salió **0**, cuando yo había dejado 60
+normas sin clasificar a propósito. Motivo: **la columna tenía `DEFAULT 'media'`**.
+Retirar el `NOT NULL` no bastaba — mis 60 inserciones se llevaron la etiqueta en
+silencio, y la base pasó a afirmar una volatilidad que nadie había medido.
+
+Es el error que más me interesa de toda la sesión, porque es el que peor se ve:
+no falló nada, no saltó ninguna barrera, y el panel decía que ese trabajo estaba
+hecho. **Un DEFAULT en una columna de juicio convierte «no lo sé» en una
+respuesta con aspecto de dato.** Retirado, y las 60 vuelven a NULL.
+
+## G7 desdoblada, porque eran tres trabajos distintos
+
+«Sin volatilidad/last_verified» los metía en el mismo saco y no dejaba ver cuál
+avanzaba:
+
+```
+G7 · norma citada sin registrar ................. OK      0
+G7 · norma sin fecha de última modificación ..... FALLO   7
+G7 · norma sin clasificar (volatilidad) ......... FALLO  60
+G7 · norma nunca re-verificada (last_verified) .. FALLO  60
+```
+
+- **7 sin fecha**: los Protocolos 14 y 15 del CEDH, el propio CEDH, la Convención
+  contra la Tortura, la Ley 39/2006, la Orden PCI/487/2019 y el RD 39/1997. Sus
+  secciones del corpus no traen el metadato.
+- **60 sin clasificar**: es criterio, no dato. Decisión de Jonathan.
+- **60 sin re-verificar**: esto sí necesita el BOE. La fecha que tenemos es de la
+  norma, no de la comprobación.
+
+## Y la regla nueva ya no empieza en cero
+
+`npm run auditar:fuentes` inventaría las 78 materias y dice cuáles tienen su
+documento. Con los tres PDF colocados en `datos/fuentes/<materia>/` con su
+`PROCEDENCIA.md`: **3 de 78**. Las fichas dicen lo que consta y lo que no —
+edición no declarada, fecha de consulta desconocida, y si el extracto del Código
+600 recoge la norma íntegra o una selección, sin establecer.
