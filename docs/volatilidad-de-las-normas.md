@@ -1,3 +1,8 @@
+> ⚠ **ESTE DOCUMENTO QUEDÓ SUPERADO EL MISMO DÍA.** La clasificación por
+> recencia que describe se retiró: `docs/005 §9` ya definía `volatilidad` por
+> NATURALEZA, no por recencia. Se conserva por la medición y por las cicatrices.
+> Lo vigente está al final, en «Sexta vuelta».
+
 # La volatilidad de las 61 normas, para revisar
 
 > 23/08/2026. Encargo de Jonathan: «clasifica tú la volatilidad de las 60 y lo
@@ -205,3 +210,70 @@ Ese es el motivo por el que la regla 7 existe.
 semestral / anual— pero es otra decisión, y esta clasificación todavía está sin
 revisar: encadenar una derivación a otra sin que nadie haya mirado la primera es
 como se construyen los datos que parecen verdad.
+
+---
+
+# Sexta vuelta: eran dos señales, no una
+
+> Jonathan: «ve a por la 3» — las dos, en campos separados: la naturaleza decide
+> la cadencia; la recencia dice cuál mirar primero.
+
+## Lo que se midió antes de decidir
+
+La pregunta que faltaba: **¿tiene este corpus normas del cajón `volatil` del
+§9 —las que llevan cuantías vivas—?** Se buscaron IPREM, SMI, «cuantía» y cifras
+en euros en los 3.434 cotejos. Salen 9 normas. Pero al leerlas:
+
+```
+EXTR-074  «una cantidad que represente mensualmente el 100 % del IPREM»
+EXTR-105  «al 150 % del IPREM, en unidades familiares que incluyan…»
+VG-019    «al 75 por 100 del salario mínimo interprofesional»
+```
+
+**La norma no lleva la cifra, lleva el porcentaje.** El texto no cambia cuando
+cambia el IPREM. Así que el cajón `volatil` está **vacío en este corpus** — y eso
+es un hallazgo, no una omisión: aquí el riesgo no es «cuantías que caducan cada
+enero», que es de donde venía esa taxonomía (Dependencia Fácil), sino
+**articulado que se reforma de tarde en tarde**.
+
+## La separación
+
+| | dónde | qué dice | de dónde sale |
+|---|---|---|---|
+| **naturaleza** | `norma.volatilidad` | cada cuánto *tocaría* revisar → `cadencia_revision` | Doc 005 §9 |
+| **recencia** | vista `norma_revision`, **calculada** | a cuál mirar **primero** | `ultima_modificacion` |
+
+Vocabulario **distinto a propósito**: la recencia usa `alta` / `media` / `baja`,
+no `volatil` / `media` / `estable`. Usar las mismas palabras para las dos cosas
+es exactamente lo que me llevó a confundirlas.
+
+Y la recencia **no se almacena**. Derivarla y guardarla es como se fabrican dos
+verdades que se desincronizan — el mismo patrón que el `DEFAULT 'media'`.
+
+## Qué quedó puesto, y qué no
+
+Se retiraron los 53 valores derivados por recencia: codificaban el concepto
+equivocado. Quedan **solo los cuatro que el §9 nombra literalmente**:
+
+| norma | naturaleza | cadencia |
+|---|---|---|
+| Constitución | `estable` | anual |
+| LO 2/1986 FCSE | `media` | trimestral |
+| LO 4/2000 Extranjería | `media` | trimestral |
+| LO 4/2015 Seguridad Ciudadana | `media` | trimestral |
+
+**Las otras 57 quedan sin clasificar, que es la verdad.** Y ya no bloquea nada,
+porque la vista da la prioridad sin necesitar esa clasificación:
+
+| prioridad | normas | conceptos |
+|---|---|---|
+| `alta` (< 3 años) | 26 | **1.813** |
+| `media` (3-10) | 13 | 406 |
+| `baja` (≥ 10) | 15 | 454 |
+| `sin_fecha` | 7 | 213 |
+
+## Y la Constitución deja de ser una anomalía
+
+No lo era: era el síntoma. El §9 la nombra `estable` y ahí se queda. Lo que sigue
+abierto es distinto y más pequeño — si su `2026-05-20` es reforma sustantiva o
+actualización editorial del consolidado. Va en el encargo al agente del BOE.

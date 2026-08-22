@@ -89,6 +89,12 @@ g7a as (select count(distinct f.referencia_boe) n from acertium_v2.concepto_fuen
 --   · la FECHA DE LA NORMA sale del corpus, que ya la traía de la ingesta;
 --   · la CLASIFICACIÓN es criterio, y nadie la ha hecho;
 --   · la RE-VERIFICACIÓN es ir al BOE hoy, y nadie ha ido.
+--
+-- OJO con la tercera: `volatilidad` es la NATURALEZA de la norma (docs/005 §9),
+-- no cuándo se tocó por última vez. Lo segundo es `prioridad_revision` y se
+-- calcula en la vista `norma_revision`; no se almacena y por eso no se cuenta
+-- aquí. Confundir las dos ya costó una clasificación entera que hubo que
+-- deshacer.
 g7b as (select count(*) n from acertium_v2.norma where ultima_modificacion is null),
 g7c as (select count(*) n from acertium_v2.norma where volatilidad is null),
 g7d as (select count(*) n from acertium_v2.norma where last_verified is null),
@@ -107,7 +113,7 @@ res as (
   select 'G6 · auto-referencias en el grafo',             (select n from g6b) union all
   select 'G7 · norma citada sin registrar',               (select n from g7a) union all
   select 'G7 · norma sin fecha de última modificación',   (select n from g7b) union all
-  select 'G7 · norma sin clasificar (volatilidad)',       (select n from g7c) union all
+  select 'G7 · norma sin clasificar por naturaleza',      (select n from g7c) union all
   select 'G7 · norma nunca re-verificada (last_verified)',(select n from g7d)
 )
 select barrera,
