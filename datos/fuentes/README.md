@@ -11,6 +11,24 @@ No el texto ya procesado —eso es el corpus— sino aquello de lo que salió.
 > del BOE, no solo los que él pasa por el chat. Hasta ese día `.gitignore` lo
 > impedía con una sola línea (`datos/**/*.pdf`); se retiró.
 
+## Qué se guarda de una norma del BOE, y qué no
+
+Desde el 23/08/2026 hay dos niveles, porque el vigilante corre cada semana y el
+consolidado de una norma pesa hasta 1,2 MB (26 MB el corpus entero, 1,3 GB al
+año si se guardara cada pasada):
+
+- **`huellas/<referencia_boe>.json` — siempre.** Un hash del texto de cada
+  artículo. 376 KB las 57 normas. Ver `huellas/README.md`.
+- **El XML consolidado completo — solo cuando la huella cambia**, en
+  `<materia>/`, y anotando en su `PROCEDENCIA.md` qué artículos se movieron.
+
+No se pierde la redacción anterior: el consolidado del BOE lleva dentro **todas
+las versiones históricas de cada artículo**, así que el XML que se guarda el día
+del cambio trae las dos.
+
+Esto no afecta a los documentos que pasa Jonathan —un PDF, un manual, una
+captura—, que se guardan enteros y siempre, como dice la regla de arriba.
+
 **Estado, y se puede consultar**: `npm run auditar:fuentes` dice qué materias
 tienen ya su documento y cuáles no. El día que se retiró la línea del
 `.gitignore`: **78 materias, 0 con documento versionado.** No es una puerta y no

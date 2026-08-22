@@ -125,12 +125,19 @@ idempotente y se puede volver a correr tras reingerir una sección.
   arregla de verdad es **reingerir el corpus desde el consolidado del BOE**, que
   ahora es posible y que además cambiaría la línea base contra la que se
   verificaron 3.052 cotejos — no es un cambio para hacer de pasada.
-- **Dónde guardar los consolidados.** La regla del 23/08 dice que lo que se baja
-  del BOE se versiona. Un barrido completo son **26 MB**: aceptable una vez, no
-  cada semana. Está versionado el de la norma que sirvió para la prueba
-  (`datos/fuentes/rd-1428-2003-reglamento-circulacion/`). Para el resto hace
-  falta decidir: o se versionan enteros, o se guarda el hash por artículo y el
-  XML completo solo de las normas en las que algo cambió.
+- ~~**Dónde guardar los consolidados**~~ — **resuelto**. Jonathan: «guarda el
+  hash por artículo y el XML solo si cambia algo». Hecho: `datos/fuentes/huellas/`
+  lleva un hash del texto de cada artículo de las 57 normas en **376 KB** (frente
+  a 26 MB), y el XML completo se versiona solo cuando la huella se mueve,
+  anotando en el `PROCEDENCIA.md` de esa materia qué artículos fueron.
+
+  El reparo obvio —«pierdes el texto anterior»— no se cumple: **el consolidado del
+  BOE lleva dentro todas las versiones históricas de cada artículo**, así que el
+  XML que se guarda el día del cambio trae las dos redacciones.
+
+  Probado en los dos sentidos: segunda pasada seguida → 0 cambios, 0 XML
+  escritos; con una reforma simulada en el art. 1 CE → detecta 1 artículo, lo
+  baja a 2 conceptos, versiona el XML y anota la procedencia.
 - **Cuatro tratados no tienen texto consolidado** (el BOE devuelve 404): la
   Convención contra la Tortura, los Protocolos del CEDH. No es un fallo del
   vigilante; son normas que el BOE publica pero no consolida.
