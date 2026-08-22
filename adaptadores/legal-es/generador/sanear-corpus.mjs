@@ -42,6 +42,13 @@ const CORPUS = "datos/legal-es/boe-600-pn/corpus";
 // así que las dos formas conviven en el mismo corpus.
 export const RE_OMISION_CORPUS = /\[\s*\.(?:\s*\.){1,}\s*\]/;
 
+// Cerrada y en minúscula: si detrás del guion viene una de estas, el guion no
+// es una palabra partida sino la marca de un morfema citado («por jen- o»).
+const PALABRAS_GRAMATICALES = new Set([
+  "o", "u", "y", "e", "ni", "que", "a", "ante", "con", "de", "del", "en", "para", "por", "sin", "sobre",
+  "el", "la", "lo", "los", "las", "un", "una", "se", "su", "sus", "al", "es", "son",
+]);
+
 /**
  * Espacio delante de signo. El punto solo cuando NO forma parte de una serie
  * («fecha ........», «[ . . . ]»): ahí el espacio es del documento original.
@@ -49,16 +56,34 @@ export const RE_OMISION_CORPUS = /\[\s*\.(?:\s*\.){1,}\s*\]/;
 export function quitarEspacioAnteSigno(texto) {
   return String(texto ?? "")
     .replace(/\s+([;:,])/g, "$1")
-    // Guion de partición que quedó abierto: «contencioso- administrativo». Son
-    // 41 en el corpus, todos partición de palabra («socio- sanitarios»,
-    // «concurso- oposición», «duración- UE»). Se exige letra o dígito a los dos
-    // lados, que es lo que deja fuera el guion de lista («- las obligaciones»),
-    // donde el espacio sí es del documento.
-    .replace(/(\w)-\s+(\w)/g, "$1-$2")
     // Ni el carácter anterior ni el siguiente pueden ser otro punto: si no, el
     // último punto de « [ . . . ] » cumple la regla y la marca de omisión queda
     // deformada en «[ . .. ]». Lo cazó la propia autoprueba.
     .replace(/([^\s.])\s+\.(?!\s*\.)/g, "$1.");
+}
+
+/**
+ * Guion de partición que quedó abierto: «contencioso- administrativo».
+ *
+ * SOLO PARA EL TEXTO DE ARTÍCULO DEL CORPUS, y esto no es una precaución
+ * teórica. Las 41 apariciones del corpus se miraron una a una y todas son
+ * partición de palabra («socio- sanitarios», «concurso- oposición»,
+ * «duración- UE»). En texto libre NO se cumple, y al probarlo sobre los lotes
+ * salieron tres casos en los que unir habría estropeado el contenido:
+ *
+ *   «las palabras que empiezan por jen- o terminan en -jero»   ← morfema citado
+ *   «grados de gravedad -leves, graves y muy graves- que…»     ← guion de inciso
+ *   «con ánimo de lucro -solo o en organización- la inmigración…»
+ *
+ * El primero es una opción del banco de ortografía: unir daba «jen-o» y la
+ * pregunta dejaba de tener sentido. Por eso la lista de palabras gramaticales
+ * de abajo, que ataja los tres — y por eso esta función no se aplica fuera del
+ * corpus, donde el repaso a ojo sí se ha hecho.
+ */
+export function cerrarGuionDeParticion(texto) {
+  return String(texto ?? "").replace(/(\w)-\s+(\w+)/g, (m, izq, der) =>
+    PALABRAS_GRAMATICALES.has(der) ? m : `${izq}-${der}`,
+  );
 }
 
 export function sanearCorpus({ escribir = false, dir = CORPUS } = {}) {
@@ -69,7 +94,7 @@ export function sanearCorpus({ escribir = false, dir = CORPUS } = {}) {
     const c = JSON.parse(readFileSync(ruta, "utf8"));
     let cambios = 0;
     for (const a of c.articulos ?? []) {
-      const limpio = quitarEspacioAnteSigno(a.texto);
+      const limpio = cerrarGuionDeParticion(quitarEspacioAnteSigno(a.texto));
       if (limpio !== a.texto) {
         limpiados.push({ f, ref: a.ref, referencia_boe: c.meta?.referencia_boe });
         a.texto = limpio;
@@ -109,11 +134,21 @@ function autoprueba() {
   caso("la marca de omisión no se toca",
     quitarEspacioAnteSigno("respectivos ámbitos. [ . . . ] LIBRO VII"),
     "respectivos ámbitos. [ . . . ] LIBRO VII");
-  caso("guion de partición que quedó abierto",
-    quitarEspacioAnteSigno("recurso contencioso- administrativo y socio- sanitarios"),
+  console.log("\n== guion de partición (solo para texto de artículo) ==");
+  caso("se cierra la partición",
+    cerrarGuionDeParticion("recurso contencioso- administrativo y socio- sanitarios"),
     "recurso contencioso-administrativo y socio-sanitarios");
+  caso("morfema citado con guion colgante: NO se une",
+    cerrarGuionDeParticion("las palabras que empiezan por jen- o terminan en -jero"),
+    "las palabras que empiezan por jen- o terminan en -jero");
+  caso("guion de inciso al cerrar: NO se une",
+    cerrarGuionDeParticion("gravedad -leves, graves y muy graves- que determinan"),
+    "gravedad -leves, graves y muy graves- que determinan");
+  caso("«De xeno- y -fobia» del DLE: NO se une (lo estropeé el 23/08 y hubo que repararlo)",
+    cerrarGuionDeParticion("De xeno- y -fobia. 1. f. Fobia a lo extranjero."),
+    "De xeno- y -fobia. 1. f. Fobia a lo extranjero.");
   caso("guion de lista: el espacio es del documento",
-    quitarEspacioAnteSigno("obligaciones:\n- las de dar"), "obligaciones:\n- las de dar");
+    cerrarGuionDeParticion("obligaciones:\n- las de dar"), "obligaciones:\n- las de dar");
   caso("texto ya limpio no cambia",
     quitarEspacioAnteSigno("armas de guerra; y de los Ministerios, etc."),
     "armas de guerra; y de los Ministerios, etc.");

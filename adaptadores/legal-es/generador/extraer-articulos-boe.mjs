@@ -55,8 +55,13 @@ const API = "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id";
 //
 // Y el fallo era MUDO en la dirección peligrosa: «0 modificados» se lee como
 // «todo en orden», cuando lo que había era «no he comparado nada».
+// Y ADEMÁS PUEDE LLEVAR LETRA AL FINAL: «Artículo 588 bis a». La LECrim numera
+// así todo el capítulo de interceptación de comunicaciones y registro de
+// dispositivos —588 bis a … 588 septies c—, que es materia de examen. Son 69
+// preceptos en el corpus de normas y 51 cotejos nuestros apuntan a ellos;
+// hasta el 23/08/2026 ninguno se podía comprobar contra el BOE.
 const RE_TITULO_ARTICULO =
-  /^(?:Artículos?|Art\.?)\s+(\d+|[a-zá-úñ]+(?:\s+(?:y\s+)?[a-zá-úñ]+)*?)\s*(bis|ter|quater|quáter|quinquies|sexies|septies|octies|nonies|decies)?\s*\.?\s*(?:º|\.º)?\s*$/i;
+  /^(?:Artículos?|Art\.?)\s+(\d+|[a-zá-úñ]+(?:\s+(?:y\s+)?[a-zá-úñ]+)*?)\s*(bis|ter|quater|quáter|quinquies|sexies|septies|octies|nonies|decies)?\s*([a-z])?\s*\.?\s*(?:º|\.º)?\s*$/i;
 
 // Numeral español → número. Cubre 1–999, que es lo que hace falta: el artículo
 // escrito con letra más alto del corpus es «seiscientos cuarenta y dos» (LOPJ).
@@ -177,7 +182,8 @@ export function articulosDesdeConsolidado(xml, { aFecha } = {}) {
     const t = RE_TITULO_ARTICULO.exec(titulo);
     const numero = t ? numeroDesdePalabras(t[1]) : null;
     if (numero === null) { otros.push(titulo); continue; }
-    const ref = t[2] ? `${numero} ${t[2].toLowerCase().replace("quáter", "quater")}` : String(numero);
+    const sufijo = [t[2]?.toLowerCase().replace("quáter", "quater"), t[3]?.toLowerCase()].filter(Boolean).join(" ");
+    const ref = sufijo ? `${numero} ${sufijo}` : String(numero);
 
     const versiones = [];
     const RE_V = /<version\b([^>]*)>([\s\S]*?)<\/version>/g;
@@ -209,7 +215,7 @@ export function articulosDesdeConsolidado(xml, { aFecha } = {}) {
     // «Artículo 541.»: con una sola forma, los 207 artículos de la LOPJ salían
     // «modificados» por llevar su propia cabecera pegada delante.
     const reEncabezado = new RegExp(
-      `^(?:Art\\u00edculos?|Art\\.?)\\s+(?:${escapar(t[1])}|${numero})${t[2] ? `\\s+${escapar(t[2])}` : ""}\\s*\\.?\\s*(?:\\u00ba|\\.\\u00ba)?\\s*`,
+      `^(?:Art\\u00edculos?|Art\\.?)\\s+(?:${escapar(t[1])}|${numero})${t[2] ? `\\s+${escapar(t[2])}` : ""}${t[3] ? `\\s+${escapar(t[3])}` : ""}\\s*\\.?\\s*(?:\\u00ba|\\.\\u00ba)?\\s*`,
       "i",
     );
     // La rúbrica se cierra con punto. El BOE la deja sin él («…y planificación de
@@ -339,6 +345,13 @@ function autoprueba() {
 
   console.log("\n== sufijos y entidades ==");
   caso("«Artículo 14 bis» → ref «14 bis»", hoy.articulos.has("14 bis"), true);
+  // La LECrim numera así todo el capítulo de intervención de comunicaciones.
+  const LETRA_FINAL = `<bloque id="a588bisa" tipo="precepto" titulo="Artículo 588 bis a">
+      <version id_norma="X" fecha_publicacion="20151006" fecha_vigencia="20151206">
+        <p class="articulo">Artículo 588 bis a. Principios rectores.</p><p class="parrafo">1. Durante la instrucción.</p></version></bloque>`;
+  const conLetraFinal = articulosDesdeConsolidado(LETRA_FINAL, { aFecha: "2026-08-22" });
+  caso("«Artículo 588 bis a» → ref «588 bis a»",
+    conLetraFinal.articulos.get("588 bis a"), "Principios rectores. 1. Durante la instrucción.");
   caso("las entidades XML se desescapan", /demás/.test(hoy.articulos.get("69")), true);
 
   console.log("\n== el BOE numera con letra en las leyes antiguas ==");

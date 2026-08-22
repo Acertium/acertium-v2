@@ -48,6 +48,11 @@ export function normalizarParaComparar(s) {
     // art. 348 CP— y el corpus no, así que sin esto el artículo sale «modificado»
     // por un carácter que nadie ve. Se borra, no se sustituye por guion.
     .replace(/\u00ad/g, "")
+    // Indicador ordinal «º» (U+00BA) y signo de grado «°» (U+00B0): dos
+    // caracteres distintos que se dibujan igual. El BOE escribe «artículo 5.°»
+    // con el de grado en el RD 769/1987 y nuestra cita lleva el ordinal. Nadie
+    // ve la diferencia y el diff la canta como reforma. Igual con «ª»/«ᵃ».
+    .replace(/\u00b0/g, "\u00ba")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -123,6 +128,8 @@ if (esEjecucionDirecta(import.meta.url)) {
   console.log("\n== ruido de captura que NO debe contar como reforma ==");
   caso("saltos de línea del PDF",
     compararArticulos({ "1": "No será castigada\nninguna acción\nni omisión." }, { "1": "No será castigada ninguna acción ni omisión." }).modificados, []);
+  caso("indicador ordinal contra signo de grado: se dibujan igual",
+    compararArticulos({ "8": "el art\u00edculo 5.\u00ba de la Ley" }, { "8": "el art\u00edculo 5.\u00b0 de la Ley" }).modificados, []);
   caso("guion blando: invisible en el XML del BOE, ausente en el corpus",
     compararArticulos({ "348": "riesgos graves" }, { "348": "ries\u00adgos graves" }).modificados, []);
   caso("comillas y guiones tipográficos",

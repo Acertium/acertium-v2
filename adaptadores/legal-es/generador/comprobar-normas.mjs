@@ -151,7 +151,14 @@ function versionar(ref, { xml, articulos, futuros, materia, hoy }) {
   const cambio = d.primeraVez || d.cambiados.length || d.nuevos.length || d.desaparecidos.length;
   // La primera vez NO se guarda el XML: no hay nada con qué comparar, así que no
   // hay ningún cambio que documentar. Lo que se fija es la línea base.
-  const guardarXml = cambio && !d.primeraVez;
+  //
+  // Y tampoco se guarda cuando el cambio es SOSPECHOSO —más de la mitad de los
+  // artículos—, porque eso no es el BOE moviéndose sino nuestro extractor. Pasó
+  // el mismo 23/08/2026: al enseñarle a leer «Artículo 588 bis a» aparecieron 69
+  // preceptos «nuevos» de golpe. Guardar el XML ahí archiva como reforma un
+  // cambio de código, y de paso mete 26 MB en el repo por sorpresa. Se avisa y
+  // se deja que la huella se refije.
+  const guardarXml = cambio && !d.primeraVez && !d.sospechoso;
 
   if (guardarXml) {
     const dir = `${FUENTES}/${materia ?? ref}`;
