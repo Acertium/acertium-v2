@@ -91,7 +91,16 @@ const RE_DIVISION =
 // Se detectó porque cinco artículos discrepaban en exactamente 6 caracteres,
 // que es lo que mide « [...]». Se quita del texto y se devuelve la lista aparte:
 // recortarla y callar convertiría un artículo mutilado en uno comparable.
-const RE_OMISION = /\s*\[\s*\.\.\.\s*\]\s*/g;
+//
+// LOS PUNTOS PUEDEN VENIR SEPARADOS. El 23/08/2026, al comparar el Reglamento
+// General de Circulación contra el consolidado del BOE, el art. 70 discrepaba en
+// 10 caracteres: « [ . . . ]». pdftotext reparte los puntos según el kerning del
+// PDF, así que la marca aparece de las dos formas en el mismo corpus — y con la
+// versión estrecha de esta expresión, 25 artículos de 8 normas llevan la marca
+// DENTRO del texto y quedarían marcados como reformados en cada pasada del
+// vigilante. Un falso positivo permanente es peor que uno puntual: enseña a
+// ignorar el aviso.
+const RE_OMISION = /\s*\[\s*\.(?:\s*\.){1,}\s*\]\s*/g;
 
 /**
  * @param {string} texto  salida de `pdftotext`
@@ -177,6 +186,14 @@ function autoprueba() {
   caso("la marca se retira del texto", articulos.get("570"), "Será castigado por tiempo de 12 a 20 años.");
   caso("y el artículo queda señalado", [...parciales], ["570"]);
   caso("el que no la lleva, no se señala", parciales.has("571"), false);
+  // Variante con los puntos separados: es la que salió en el art. 70 del
+  // Reglamento General de Circulación, y la que la primera versión no cogía.
+  const sep = articulosDesdeTexto("Artículo 70.\nSi como consecuencia de una emergencia.\n[ . . . ]\nconforme se prevé en el artículo 65.4.c).");
+  caso("«[ . . . ]» con los puntos separados también es omisión",
+    sep.articulos.get("70"), "Si como consecuencia de una emergencia. conforme se prevé en el artículo 65.4.c).");
+  caso("y también señala el artículo", [...sep.parciales], ["70"]);
+  caso("una enumeración con puntos suspensivos normales no es omisión",
+    articulosDesdeTexto("Artículo 1.\nlas letras a), b)... y siguientes.").parciales.size, 0);
 
   console.log("\n== mobiliario de página ==");
   caso("cabecera, § y número de página fuera",

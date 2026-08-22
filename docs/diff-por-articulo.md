@@ -110,10 +110,13 @@ lo encontró de paso.
 
 ## Qué queda
 
-- **Limpiar los arts. 9 y 137 del corpus.** Un concepto cuelga de ellos.
-- **Probarlo contra una reforma de verdad**, que es lo que aún no se ha hecho:
-  esta prueba compara dos capturas de la MISMA fecha, así que demuestra que no
-  hay falsos positivos, no que detecte los cambios reales. Para eso hace falta
-  el consolidado del CP anterior al 9 de abril, o acceso al BOE.
+- **Limpiar los arts. 9 y 137 del corpus.** Un concepto cuelga de ellos. Al
+  barrer las 59 normas contra el BOE resultó que no son dos casos sueltos: son
+  **26 artículos** con el rótulo pegado, de los que cuelgan 18 conceptos.
+- ~~**Probarlo contra una reforma de verdad**~~ — **hecho el 23/08/2026**, en
+  cuanto llegó el acceso al BOE. Ver `el-vigilante-contra-el-boe.md`: el diff
+  detecta la reforma del art. 69 del Reglamento General de Circulación y solo
+  esa (2 conceptos de 14), y de paso apareció lo que esta página no podía ver —
+  que el consolidado del BOE **trae redacciones que aún no están en vigor**.
 - **Las disposiciones y anexos** no se extraen: el corpus tampoco los guarda como
   artículos. Se cuentan aparte para que no parezcan pérdidas silenciosas.

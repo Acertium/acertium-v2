@@ -210,7 +210,8 @@
     {
       "numero": 41,
       "ref": "41",
-      "texto": "Cuando ni la ley que las haya creado o reconocido ni los estatutos o las reglas de fundación fijaren el domicilio de las personas jurídicas, se entenderá que lo tienen en el lugar en que se halle establecida su representación legal, o donde ejerzan las principales funciones de su instituto. [ . . . ]"
+      "texto": "Cuando ni la ley que las haya creado o reconocido ni los estatutos o las reglas de fundación fijaren el domicilio de las personas jurídicas, se entenderá que lo tienen en el lugar en que se halle establecida su representación legal, o donde ejerzan las principales funciones de su instituto. [ . . . ]",
+      "parcial": true
     },
     {
       "numero": 181,
@@ -816,7 +817,8 @@
     {
       "numero": 300,
       "ref": "300",
-      "texto": "Las resoluciones judiciales y los documentos públicos notariales sobre los cargos tutelares y medidas de apoyo a personas con discapacidad habrán de inscribirse en el Registro Civil. Artículo 301 a 324. (Derogados) Artículos 325 a 332. (Derogados) [ . . . ]"
+      "texto": "Las resoluciones judiciales y los documentos públicos notariales sobre los cargos tutelares y medidas de apoyo a personas con discapacidad habrán de inscribirse en el Registro Civil. Artículo 301 a 324. (Derogados) Artículos 325 a 332. (Derogados) [ . . . ]",
+      "parcial": true
     }
   ]
 }

@@ -43,6 +43,11 @@ export function normalizarParaComparar(s) {
     .replace(/['']/g, "'")
     .replace(/[–—]/g, "-")
     .replace(/ /g, " ")
+    // Guion blando (U+00AD). Es invisible y no se pronuncia: marca dónde PODRÍA
+    // partirse la palabra al maquetar. El XML del BOE lo lleva —«ries­gos» en el
+    // art. 348 CP— y el corpus no, así que sin esto el artículo sale «modificado»
+    // por un carácter que nadie ve. Se borra, no se sustituye por guion.
+    .replace(/\u00ad/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -118,6 +123,8 @@ if (esEjecucionDirecta(import.meta.url)) {
   console.log("\n== ruido de captura que NO debe contar como reforma ==");
   caso("saltos de línea del PDF",
     compararArticulos({ "1": "No será castigada\nninguna acción\nni omisión." }, { "1": "No será castigada ninguna acción ni omisión." }).modificados, []);
+  caso("guion blando: invisible en el XML del BOE, ausente en el corpus",
+    compararArticulos({ "348": "riesgos graves" }, { "348": "ries\u00adgos graves" }).modificados, []);
   caso("comillas y guiones tipográficos",
     compararArticulos({ "1": "el «dolo» —o culpa—" }, { "1": 'el "dolo" -o culpa-' }).modificados, []);
 

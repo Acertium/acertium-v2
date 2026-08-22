@@ -9,8 +9,9 @@
     "lint": "eslint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test:motor": "node adaptadores/legal-es/generador/corpus-desde-lotes.mjs --comprobar && node nucleo/motor-bkt.mjs && node nucleo/planificador.mjs && node nucleo/verificador-cotejo.mjs && node nucleo/verificar-lote.mjs && node nucleo/verificar-cifras.mjs && node nucleo/verificar-ortografia.mjs && node nucleo/verificar-fuente.mjs && node adaptadores/legal-es/generador/verificar-meta.mjs && node nucleo/verificar-unicidad.mjs && node nucleo/verificar-explicacion.mjs && node adaptadores/legal-es/generador/motor-preguntas.test.mjs && node nucleo/verificar-justificacion.mjs && node nucleo/comparar-articulos.mjs && node adaptadores/legal-es/generador/extraer-articulos-pdf.mjs --test",
-    "auditar:fuentes": "node adaptadores/legal-es/generador/auditar-fuentes.mjs"
+    "test:motor": "node adaptadores/legal-es/generador/corpus-desde-lotes.mjs --comprobar && node nucleo/motor-bkt.mjs && node nucleo/planificador.mjs && node nucleo/verificador-cotejo.mjs && node nucleo/verificar-lote.mjs && node nucleo/verificar-cifras.mjs && node nucleo/verificar-ortografia.mjs && node nucleo/verificar-fuente.mjs && node adaptadores/legal-es/generador/verificar-meta.mjs && node nucleo/verificar-unicidad.mjs && node nucleo/verificar-explicacion.mjs && node adaptadores/legal-es/generador/motor-preguntas.test.mjs && node nucleo/verificar-justificacion.mjs && node nucleo/comparar-articulos.mjs && node adaptadores/legal-es/generador/extraer-articulos-pdf.mjs --test && node adaptadores/legal-es/generador/extraer-articulos-boe.mjs --test && node adaptadores/legal-es/generador/sanear-corpus.mjs --test",
+    "auditar:fuentes": "node adaptadores/legal-es/generador/auditar-fuentes.mjs",
+    "vigilar:normas": "node adaptadores/legal-es/generador/comprobar-normas.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",
