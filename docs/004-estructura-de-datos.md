@@ -85,7 +85,7 @@
 | `enunciado` | text | |
 | `opciones` | jsonb | array (para `test`/`vf`); null en otros |
 | `respuesta` | jsonb | correcta(s) |
-| `justificacion` | text | por qué, con cita literal del artículo |
+| `justificacion` | text **null** | opcional: la distinción que se probaba o el error típico. NULL cuando no hay nada que enseñar sobre esa pregunta — que es lo normal. **No es una cita**: la procedencia va en `cotejo_fuente` y en `concepto_fuente` |
 | `cotejo_fuente` | text | texto literal contra el que se verificó |
 | `estado_verificacion` | enum | `verificado` \| `pendiente` \| `rechazado` |
 | `created_at` | timestamptz | |

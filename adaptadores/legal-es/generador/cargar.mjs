@@ -496,7 +496,7 @@ export function loteASql(v, meta, registro) {
           const indice = barajadas.indexOf(correcta);
           const resp = JSON.stringify({ correcta, indice });
           const ops = JSON.stringify(barajadas);
-          return `(${q(a.concepto_id)},'test',${q(a.enunciado)},${q(ops)}::jsonb,${q(resp)}::jsonb,${q(a.justificacion)},${q(a.cotejo)},${q(estadoSql(a.tipo_fuente ?? tipoPorConceptoSql.get(a.concepto_id)))})`;
+          return `(${q(a.concepto_id)},'test',${q(a.enunciado)},${q(ops)}::jsonb,${q(resp)}::jsonb,${qN(a.justificacion)},${q(a.cotejo)},${q(estadoSql(a.tipo_fuente ?? tipoPorConceptoSql.get(a.concepto_id)))})`;
         })
         .join(",\n") + ";",
     );

@@ -31,7 +31,7 @@ Una explicación tiene que añadir lo que la fuente no dice de forma explícita:
 | **Enumerar lo que enumera la norma** | `PPN-029` — «**El artículo 67 enumera** las causas del pase a segunda actividad: …» |
 | **Definir lo que ya define la norma** | `ICR-024` — «**El artículo 30 define** los Planes de Apoyo Operativo como documentos operativos…» |
 | **Repetir la respuesta con otras palabras** | `VCD-033` — «La anchura de las celdas depende de su capacidad: 60 centímetros en las individuales y 100 en las dobles.» |
-| **Citar y ya** | `Art. 15 LO 4/2010.` (esto es lo que hay en el 89 % de las `justificacion`) |
+| **Citar y ya** | `Art. 15 LO 4/2010.` (era lo que había en el 89 % de las `justificacion`; el 23/08/2026 se retiraron 3.389 de 3.434) |
 
 ## Las reglas
 
@@ -53,13 +53,19 @@ Son **dos** textos y no se sustituyen (ver `docs/las-dos-explicaciones.md`):
 
 - `concepto.explicacion` — del **concepto**. La misma para todas sus preguntas.
   Contexto: qué es esto y por qué importa.
-- `actividad.justificacion` — de **esta pregunta**. La distinción concreta que se
-  estaba probando. Regla 10 del motor: «una frase que enseña algo […] no repitas
-  la respuesta».
+- `actividad.justificacion` — de **esta pregunta**, y **opcional**. La distinción
+  concreta que se estaba probando. Regla 10 del motor: «una frase que enseña algo
+  […] no repitas la respuesta», y no cites.
 
 Con el motor metiendo dos y tres preguntas por concepto, la explicación aguanta
 el contexto y la justificación cambia con cada pregunta. Por eso el runtime pinta
 las dos.
+
+**La asimetría importa**: la explicación es obligatoria (todo concepto la tiene);
+la justificación no. Un concepto siempre necesita que le expliquen qué es; una
+pregunta solo necesita justificación cuando hay algo que decir de ELLA que no
+valga ya para sus hermanas. Con el 97,9 % de los conceptos en una sola pregunta,
+eso casi nunca pasa — y desde el 23/08/2026 se guarda NULL en vez de rellenar.
 
 ## Dónde está el trabajo, medido
 

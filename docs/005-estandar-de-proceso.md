@@ -57,7 +57,7 @@ Se ejecutan al final de cada carga con `infra/barreras.sql` (integridad) y `nucl
 
 - **`resumen`**: 1-2 frases, lenguaje llano (nivel 2.º ESO), **fiel al texto literal**, sin inventar ni extrapolar. Voz directa.
 - **`titulo`**: etiqueta corta, buscable, en minúscula (sentence case), sin punto final.
-- **Actividad**: `cotejo_fuente` = texto literal del artículo del que sale. La `justificacion` cita el artículo. Nada se sirve sin cotejo.
+- **Actividad**: `cotejo_fuente` = texto literal del artículo del que sale. Nada se sirve sin cotejo. La `justificacion` es **opcional y no cita**: solo existe cuando hay algo que enseñar sobre esa pregunta (23/08/2026 — ver `docs/las-dos-explicaciones.md`).
 - **Cifras y plazos**: se escriben tal como los expresa la norma; el verificador normaliza número↔letra para el cotejo.
 
 ## 5. Auditoría de cobertura (barrera G3)

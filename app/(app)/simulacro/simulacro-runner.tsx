@@ -11,7 +11,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { accionCorregir } from "./simulacro-actions";
 import ReporteBoton from "@/components/reporte-boton";
-import { justificacionAporta } from "@/lib/justificacion";
 import {
   PREGUNTAS_MEDIO,
   PREGUNTAS_RAPIDO,
@@ -799,8 +798,10 @@ function Resultado({ resumen }: { resumen: ResumenSimulacro }) {
 
               {/* Primero lo que explica ESTA pregunta, después el contexto del
                   concepto: en una corrección se repasan muchas seguidas y la
-                  explicación del concepto se repite en cada una de sus preguntas. */}
-              {justificacionAporta(d.justificacion) && (
+                  explicación del concepto se repite en cada una de sus preguntas.
+                  La justificación es opcional: si es NULL, no había nada que
+                  enseñar aquí que no estuviera ya en «Ver fuente». */}
+              {d.justificacion && (
                 <p className="mt-3 text-sm font-medium leading-relaxed">
                   {d.justificacion}
                 </p>

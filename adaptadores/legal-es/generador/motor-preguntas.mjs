@@ -30,6 +30,7 @@ import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { createCerebroClient } from "./cliente-cerebro.mjs";
+import { justificacionParaGuardar } from "../../../nucleo/verificar-justificacion.mjs";
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), "../../..");
 const MODELO = "claude-opus-5";
@@ -125,7 +126,7 @@ QUÉ PREGUNTAR:
    · DIRECTA: del sujeto al dato. "¿Cuál es el plazo máximo para resolver?" → "seis meses".
    · INVERSA: del dato al sujeto. "¿Qué actuación debe producirse en un plazo máximo de seis meses?" → "La resolución que ponga fin al procedimiento y su notificación".
    Son operaciones mentales distintas y el tribunal pregunta en ambas. La inversa sale del MISMO cotejo, así que no necesita texto nuevo. Pero cuida la regla 7: al quitar el sujeto del enunciado es fácil dejarlo ambiguo.
-10. La "justificacion" es una frase que enseña algo: la distinción que se está probando, o el error típico. No repitas la respuesta.
+10. La "justificacion" es OPCIONAL y es una frase que enseña algo: la distinción que se está probando, o el error típico. No repitas la respuesta, y NO CITES: la referencia del artículo ya se le muestra al opositor aparte, así que "Art. 15 LO 4/2010." no es una justificación, es ruido. Si no tienes nada que enseñar sobre esa pregunta en concreto, escribe "" y no pasa nada — es lo normal. Más vale ninguna que una de relleno.
 11. Si el artículo es tan breve que no da para otro ángulo honesto, devuelve MENOS preguntas. Es correcto y esperado. No rellenes.`;
 
 const ESQUEMA = {
@@ -440,7 +441,10 @@ async function main() {
       opciones: p.opciones,
       indice_correcto: p.indice_correcto,
       cotejo: p.cotejo,
-      justificacion: p.justificacion,
+      // Opcional (regla 10). Si el modelo devuelve una cita en vez de una frase
+      // que enseñe, sale NULL: la referencia ya se le muestra al opositor en
+      // «Ver fuente» y repetirla ahí es relleno.
+      justificacion: justificacionParaGuardar(p.justificacion),
     })),
   };
 

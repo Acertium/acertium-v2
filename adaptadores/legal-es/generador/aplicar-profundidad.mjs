@@ -30,6 +30,7 @@ import { dirname, join } from "path";
 import { verificarLote } from "../../../nucleo/verificar-lote.mjs";
 import { verificarCalidad } from "./verificar-calidad.mjs";
 import { verificarUnicidad } from "../../../nucleo/verificar-unicidad.mjs";
+import { justificacionParaGuardar } from "../../../nucleo/verificar-justificacion.mjs";
 import { createCerebroClient } from "./cliente-cerebro.mjs";
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), "../../..");
@@ -186,7 +187,9 @@ async function main() {
       indice: a.indice_correcto,
       correcta: a.opciones[a.indice_correcto],
     },
-    justificacion: a.justificacion,
+    // Opcional: NULL si lo que trae es una cita y no una frase que enseñe. La
+    // columna dejó de ser NOT NULL el 23/08/2026.
+    justificacion: justificacionParaGuardar(a.justificacion),
     cotejo_fuente: a.cotejo,
     // Todas nacen verificadas porque las tres puertas ya las han aprobado: el
     // cotejo es literal del corpus y el estado lo refleja.

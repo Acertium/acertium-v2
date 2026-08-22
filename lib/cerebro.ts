@@ -387,7 +387,9 @@ export type Resultado = {
   correcta: string | null;
   explicacion: string | null;
   cotejo: string;
-  justificacion: string;
+  // Opcional a propósito: solo hay justificación cuando hay algo que enseñar
+  // sobre ESTA pregunta. NULL es lo normal, no una carencia que rellenar.
+  justificacion: string | null;
   articulo: string | null;
   boeUrl: string | null;
   absorcion: number;
@@ -511,7 +513,7 @@ export async function responder(
     correcta,
     explicacion: c?.explicacion ?? null,
     cotejo: act.cotejo_fuente,
-    justificacion: act.justificacion,
+    justificacion: act.justificacion ?? null,
     articulo: f?.articulo ?? null,
     boeUrl: boeUrl(f?.referencia_boe ?? null, f?.articulo ?? null),
     absorcion: abs,

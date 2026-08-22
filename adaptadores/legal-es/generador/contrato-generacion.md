@@ -25,7 +25,7 @@ El texto **literal** de uno o varios artículos + sus metadatos (norma, referenc
     { "concepto_id": "CE-T3-001", "articulo": "art. 66", "tipo": "test",
       "enunciado": "…", "opciones": ["…","…","…","…"], "indice_correcto": 1,
       "cotejo": "<cita LITERAL del artículo que sostiene la respuesta>",
-      "justificacion": "Art. 66.1 CE." }
+      "justificacion": "" }
   ],
   "relaciones": [
     { "origen": "FCS-011-mis", "destino": "CE-T4-014", "tipo": "desarrolla",
@@ -33,6 +33,17 @@ El texto **literal** de uno o varios artículos + sus metadatos (norma, referenc
   ]
 }
 ```
+La `justificacion` de una **actividad** es **opcional**, y va vacía salvo que
+haya algo que enseñar sobre esa pregunta en concreto: la distinción que se prueba
+o el error típico. **No es una cita** — `articulo` y `cotejo` ya guardan la
+procedencia, y al opositor le sale como «Ver fuente · art. 66», así que escribir
+ahí «Art. 66.1 CE.» es duplicarlo. La puerta (`verificar-lote`) retira lo que sea
+solo una referencia y lo carga como NULL. Medido el 23/08/2026: de las 3.434 del
+banco viejo, 3.389 eran eso. Ver `docs/las-dos-explicaciones.md`.
+
+(La `justificacion` de una **relación** es otra cosa y sigue igual: dice por qué
+esa arista existe.)
+
 `relaciones` es OBLIGATORIO (ver regla 0-bis): enlaza los conceptos del lote entre sí y con los ya existentes. `origen`/`destino` son ids de concepto (del lote o de la base); `tipo` ∈ {prerrequisito, desarrolla, limita, remite}. `cargar.mjs` emite los INSERT en `acertium_v2.relacion_concepto`.
 
 ## Regla de cobertura (innegociable)

@@ -16,6 +16,7 @@
 
 import { normalizarNumeros } from "./verificador-cotejo.mjs";
 import { cifrasSinRespaldo } from "./verificar-cifras.mjs";
+import { justificacionParaGuardar } from "./verificar-justificacion.mjs";
 import { esEjecucionDirecta } from "./ejecucion-directa.mjs";
 
 const norm = (s) => normalizarNumeros(String(s ?? ""));
@@ -58,6 +59,13 @@ export function verificarLote(lote) {
     else conceptosOK.push(c);
   }
 
+  // La `justificacion` es OPCIONAL desde el 23/08/2026: existe solo cuando hay
+  // algo que enseñar sobre ESA pregunta. Lo que era una cita —«Art. 15 LO
+  // 4/2010.», el 97 % del banco viejo— se RETIRA aquí, no se rechaza: no es un
+  // error de contenido, es un campo que sobra, y ya sale en «Ver fuente». Si se
+  // rechazara el lote, los 110 lotes históricos dejarían de ser reverificables.
+  let justificacionesRetiradas = 0;
+
   for (const a of lote.actividades || []) {
     const src = F[a.articulo];
     const ops = a.opciones || [];
@@ -84,8 +92,20 @@ export function verificarLote(lote) {
         enunciado: String(a.enunciado || "").slice(0, 60),
         motivos: errs,
       });
-    else actividadesOK.push(a);
+    else {
+      const justificacion = justificacionParaGuardar(a.justificacion);
+      if (a.justificacion && !justificacion) justificacionesRetiradas++;
+      actividadesOK.push({ ...a, justificacion });
+    }
   }
+  if (justificacionesRetiradas)
+    avisos.push({
+      tipo: "justificacion",
+      id: `${justificacionesRetiradas} actividades`,
+      aviso:
+        "justificación retirada por ser solo una cita: se carga NULL. La referencia ya sale en «Ver fuente»; " +
+        "una justificación se escribe para enseñar la distinción que se prueba o el error típico, o no se escribe",
+    });
 
   // Relaciones (grafo): valida tipo, no-autobucle y extremos no vacíos. La
   // EXISTENCIA de los extremos en la base se comprueba al cargar (join en SQL).

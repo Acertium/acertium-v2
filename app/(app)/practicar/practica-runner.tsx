@@ -4,7 +4,6 @@ import { useState, useTransition, useRef, type CSSProperties } from "react";
 import { accionResponder, accionSiguiente } from "./actions";
 import { SpinnerOrbita } from "@/components/spinners";
 import ReporteBoton from "@/components/reporte-boton";
-import { justificacionAporta } from "@/lib/justificacion";
 import { useRetardoCarga } from "@/hooks/useRetardoCarga";
 import type { ActividadPublica, Resultado } from "@/lib/cerebro";
 
@@ -136,11 +135,15 @@ export default function PracticaRunner({
             {resultado.acierto ? "Correcto." : "Incorrecto."}
           </p>
 
-          {/* La justificación va PRIMERA cuando aporta: habla de esta pregunta
+          {/* La justificación va PRIMERA cuando la hay: habla de esta pregunta
               concreta, que es lo que el opositor acaba de fallar. La explicación
               del concepto queda debajo como contexto — es la misma para todas
-              las preguntas del concepto, así que a la segunda ya la ha leído. */}
-          {justificacionAporta(resultado.justificacion) && (
+              las preguntas del concepto, así que a la segunda ya la ha leído.
+
+              El campo es OPCIONAL y aquí no se adivina nada: si es NULL es que
+              no había nada que enseñar sobre esta pregunta en concreto. Lo que
+              se guardaba antes —«Art. 15 LO 4/2010.»— ya sale en «Ver fuente». */}
+          {resultado.justificacion && (
             <p className="text-[15px] font-medium leading-relaxed">
               {resultado.justificacion}
             </p>
@@ -149,7 +152,7 @@ export default function PracticaRunner({
           {resultado.explicacion && (
             <p
               className={`text-[15px] leading-relaxed${
-                justificacionAporta(resultado.justificacion) ? " mt-2 text-muted" : ""
+                resultado.justificacion ? " mt-2 text-muted" : ""
               }`}
             >
               {resultado.explicacion}
