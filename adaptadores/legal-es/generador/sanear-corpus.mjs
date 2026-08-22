@@ -92,6 +92,16 @@ export function sanearCorpus({ escribir = false, dir = CORPUS } = {}) {
   for (const f of readdirSync(dir).filter((f) => /^seccion-\d+\.json$/.test(f))) {
     const ruta = `${dir}/${f}`;
     const c = JSON.parse(readFileSync(ruta, "utf8"));
+    // UNA SECCIÓN REINGERIDA DEL BOE NO SE SANEA. Esto limpia defectos de CAPTURA
+    // —del PDF del Código 600, del raspado de boe.es—, y el consolidado no es una
+    // captura: es el texto oficial. Sanearlo lo aparta de la fuente, que es
+    // exactamente lo contrario de lo que se busca.
+    //
+    // No es hipotético: el BOE publica «libro- talonario» (RD 2822/1998, art. 45)
+    // e «informe- propuesta» (RD 39/1997, art. 27) con el espacio. Al reingerir y
+    // sanear después, esos dos artículos dejaban de coincidir con el BOE y el
+    // vigilante los denunciaba como modificados en cada pasada.
+    if (c.meta?.procedencia === "boe-consolidado") continue;
     let cambios = 0;
     for (const a of c.articulos ?? []) {
       const limpio = cerrarGuionDeParticion(quitarEspacioAnteSigno(a.texto));

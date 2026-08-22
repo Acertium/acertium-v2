@@ -4,7 +4,14 @@
     "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. [Inclusión parcial]",
     "referencia_boe": "BOE-A-2015-11719",
     "publicacion": "«BOE» núm. 261, de 31 de octubre de 2015",
-    "ultima_modificacion": "30 de julio de 2025"
+    "ultima_modificacion": "30 de julio de 2025",
+    "ingesta": {
+      "fuente": "boe-consolidado",
+      "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2015-11719/texto",
+      "version_en_vigor_a": "2026-08-22",
+      "capturado": "2026-08-22"
+    },
+    "procedencia": "boe-consolidado"
   },
   "articulos": [
     {
@@ -82,9 +89,8 @@
     {
       "numero": 13,
       "ref": "13",
-      "texto": "Personal directivo profesional. El Gobierno y los órganos de gobierno de las comunidades autónomas podrán establecer, en desarrollo de este Estatuto, el régimen jurídico específico del personal directivo así como los criterios para determinar su condición, de acuerdo, entre otros, con los siguientes principios: 1. Es personal directivo el que desarrolla funciones directivas profesionales en las Administraciones Públicas, definidas como tales en las normas específicas de cada Administración. 2. Su designación atenderá a principios de mérito y capacidad y a criterios de idoneidad, y se llevará a cabo mediante procedimientos que garanticen la publicidad y concurrencia. 3. El personal directivo estará sujeto a evaluación con arreglo a los criterios de eficacia y eficiencia, responsabilidad por su gestión y control de resultados en relación con los objetivos que les hayan sido fijados. 4. La determinación de las condiciones de empleo del personal directivo no tendrá la consideración de materia objeto de negociación colectiva a los efectos de esta ley. Cuando el personal directivo reúna la condición de personal laboral estará sometido a la relación laboral de carácter especial de alta dirección. [ . . . ]",
-      "rubrica": "Personal directivo profesional.",
-      "parcial": true
+      "texto": "Personal directivo profesional. El Gobierno y los órganos de gobierno de las comunidades autónomas podrán establecer, en desarrollo de este Estatuto, el régimen jurídico específico del personal directivo así como los criterios para determinar su condición, de acuerdo, entre otros, con los siguientes principios: 1. Es personal directivo el que desarrolla funciones directivas profesionales en las Administraciones Públicas, definidas como tales en las normas específicas de cada Administración. 2. Su designación atenderá a principios de mérito y capacidad y a criterios de idoneidad, y se llevará a cabo mediante procedimientos que garanticen la publicidad y concurrencia. 3. El personal directivo estará sujeto a evaluación con arreglo a los criterios de eficacia y eficiencia, responsabilidad por su gestión y control de resultados en relación con los objetivos que les hayan sido fijados. 4. La determinación de las condiciones de empleo del personal directivo no tendrá la consideración de materia objeto de negociación colectiva a los efectos de esta ley. Cuando el personal directivo reúna la condición de personal laboral estará sometido a la relación laboral de carácter especial de alta dirección.",
+      "rubrica": "Personal directivo profesional."
     },
     {
       "numero": 55,
@@ -311,9 +317,8 @@
     {
       "numero": 92,
       "ref": "92",
-      "texto": "Situaciones del personal laboral. El personal laboral se regirá por el Estatuto de los Trabajadores y por los Convenios Colectivos que les sean de aplicación. Los convenios colectivos podrán determinar la aplicación de este capítulo al personal incluido en su ámbito de aplicación en lo que resulte compatible con el Estatuto de los Trabajadores. [ . . . ]",
-      "rubrica": "Situaciones del personal laboral.",
-      "parcial": true
+      "texto": "Situaciones del personal laboral. El personal laboral se regirá por el Estatuto de los Trabajadores y por los Convenios Colectivos que les sean de aplicación. Los convenios colectivos podrán determinar la aplicación de este capítulo al personal incluido en su ámbito de aplicación en lo que resulte compatible con el Estatuto de los Trabajadores.",
+      "rubrica": "Situaciones del personal laboral."
     }
   ]
 }

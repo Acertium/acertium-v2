@@ -101,6 +101,42 @@ export function numeroDesdePalabras(s) {
   return total || null;
 }
 
+const SUFIJOS = new Set(["bis","ter","quater","quáter","quinquies","sexies","septies","octies","nonies","decies"]);
+
+/**
+ * Localizador de artículo → clave común: «art. 22 bis» → «22 bis», «art. cuarto»
+ * → «4», «Artículo ciento dos» → «102».
+ *
+ * ES LA MISMA CLAVE PARA LOS TRES SITIOS donde hay que cruzar un artículo: el
+ * corpus, el bloque `fuentes` de un lote y el consolidado del BOE. Tenerla
+ * repetida en cada herramienta es lo que hizo que 51 actividades citaran
+ * «art. cuarto» y el corpus dijera «4» sin que nada lo notara: esos cotejos
+ * salían como «artículo fuera del consolidado», que se lee como «no aplica»
+ * cuando lo que pasaba era «no lo he encontrado».
+ *
+ * Lo que NO es un numeral se devuelve limpio y tal cual —«anexo I», «ITC 2»,
+ * «OB 4.6.1», «art. 3.2»—, porque esas referencias son válidas y no se traducen.
+ */
+export function claveArticulo(s) {
+  const limpio = String(s ?? "").toLowerCase()
+    .replace(/^\s*(arts?\.|artículos?|articulos?)\s*/, "").trim();
+  if (!limpio) return "";
+  const tokens = limpio.split(/\s+/);
+  for (let n = Math.min(4, tokens.length); n >= 1; n--) {
+    const numero = numeroDesdePalabras(tokens.slice(0, n).join(" "));
+    if (numero === null) continue;
+    const resto = tokens.slice(n);
+    // Solo se admite como sufijo lo que de verdad lo es. «art. 5 del Reglamento»
+    // no se convierte en «5 del reglamento»: se deja como venía.
+    if (!resto.length) return String(numero);
+    if (resto.length <= 2 && SUFIJOS.has(resto[0]) && (resto.length === 1 || /^[a-z]$/.test(resto[1])))
+      return [numero, resto[0].replace("quáter", "quater"), resto[1]].filter(Boolean).join(" ");
+    if (resto.length === 1 && /^[a-z]$/.test(resto[0])) return `${numero} ${resto[0]}`;
+    return limpio;
+  }
+  return limpio;
+}
+
 // Párrafos que NO son texto de la norma: la nota editorial del BOE («Se modifica
 // por el art. único.8 del Real Decreto 465/2025…») y los rótulos de división,
 // que en el XML viven en su propio bloque pero pueden colarse.
@@ -224,13 +260,43 @@ export function articulosDesdeConsolidado(xml, { aFecha } = {}) {
     // sino de cómo se pega la rúbrica al cuerpo.
     const partes = trozos.map(({ clase, texto }) => {
       if (clase !== "articulo") return texto;
-      const rubrica = texto.replace(reEncabezado, "").trim();
+      const rubrica = quitarEncabezado(texto, reEncabezado, numero);
       return rubrica && !/[.:;!?]$/.test(rubrica) ? `${rubrica}.` : rubrica;
     });
     articulos.set(ref, partes.join(" ").replace(/\s+/g, " ").trim());
   }
 
   return { articulos, futuros, otros, imagenes, sinVigente, corte };
+}
+
+/**
+ * Quita el encabezado del párrafo de rúbrica.
+ *
+ * Primero con el localizador del bloque; si no encaja, se busca un numeral
+ * equivalente, porque EL BOE NO SIEMPRE ESCRIBE LO MISMO EN LOS DOS SITIOS: el
+ * art. 100 de la LO 2/1979 rotula el bloque «Artículo ciento» y dentro dice
+ * «Artículo cien». Sin esto, el texto quedaba con «Artículo cien.» pegado
+ * delante — y al reingerir el corpus habría entrado así.
+ *
+ * El segundo intento NO usa un patrón genérico de palabras, que se comería la
+ * rúbrica cuando no hay punto («Artículo cien El Tribunal tendrá…»): coge hasta
+ * cuatro palabras y se queda con la secuencia MÁS LARGA que sea un numeral y
+ * valga el mismo número que el bloque. Si no cuadra, no se toca nada.
+ */
+function quitarEncabezado(texto, reEncabezado, numero) {
+  const directo = texto.replace(reEncabezado, "");
+  if (directo !== texto) return directo.trim();
+
+  const m = /^(?:Artículos?|Art\.?)\s+(.{0,45})$/i.exec(texto);
+  if (!m) return texto.trim();
+  const tokens = m[1].split(/\s+/);
+  for (let n = Math.min(4, tokens.length); n >= 1; n--) {
+    const candidato = tokens.slice(0, n).join(" ").replace(/\.$/, "");
+    if (numeroDesdePalabras(candidato) !== numero) continue;
+    const resto = m[1].slice(tokens.slice(0, n).join(" ").length);
+    return resto.replace(/^\s*\.?\s*/, "").trim();
+  }
+  return texto.trim();
 }
 
 const escapar = (x) => String(x).replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
@@ -350,6 +416,34 @@ function autoprueba() {
       <version id_norma="X" fecha_publicacion="20151006" fecha_vigencia="20151206">
         <p class="articulo">Artículo 588 bis a. Principios rectores.</p><p class="parrafo">1. Durante la instrucción.</p></version></bloque>`;
   const conLetraFinal = articulosDesdeConsolidado(LETRA_FINAL, { aFecha: "2026-08-22" });
+  console.log("\n== la clave de artículo, que es la misma en los tres sitios ==");
+  caso("cifra", claveArticulo("art. 22"), "22");
+  caso("sufijo", claveArticulo("art. 22 bis"), "22 bis");
+  caso("sufijo con letra (LECrim)", claveArticulo("art. 588 bis a"), "588 bis a");
+  caso("ordinal en letra (LO 3/1981)", claveArticulo("art. cuarto"), "4");
+  caso("cardinal compuesto", claveArticulo("Artículo ciento dos"), "102");
+  caso("apartado: se deja como viene", claveArticulo("art. 3.2"), "3.2");
+  caso("anexo: no es un numeral", claveArticulo("anexo I"), "anexo i");
+  caso("«art. 5 del Reglamento» no se inventa un sufijo",
+    claveArticulo("art. 5 del Reglamento"), "5 del reglamento");
+
+  console.log("\n== el BOE no siempre escribe igual el rótulo y la rúbrica ==");
+  const DESIGUAL = `<bloque id="aciento" tipo="precepto" titulo="Artículo ciento">
+      <version id_norma="X" fecha_publicacion="20070525" fecha_vigencia="20070526">
+        <p class="articulo">Artículo cien</p>
+        <p class="parrafo">El Tribunal tendrá el número de secretarios.</p></version></bloque>`;
+  caso("«Artículo ciento» fuera y «Artículo cien» dentro: la cabecera se quita igual",
+    articulosDesdeConsolidado(DESIGUAL, { aFecha: "2026-08-22" }).articulos.get("100"),
+    "El Tribunal tendrá el número de secretarios.");
+
+  const SIN_PUNTO = `<bloque id="a5" tipo="precepto" titulo="Artículo cinco">
+      <version id_norma="X" fecha_publicacion="19790101" fecha_vigencia="19790101">
+        <p class="articulo">Artículo cinco Del Tribunal Constitucional y sus miembros</p>
+        <p class="parrafo">Texto.</p></version></bloque>`;
+  caso("sin punto tras el numeral, la rúbrica NO se come",
+    articulosDesdeConsolidado(SIN_PUNTO, { aFecha: "2026-08-22" }).articulos.get("5"),
+    "Del Tribunal Constitucional y sus miembros. Texto.");
+
   caso("«Artículo 588 bis a» → ref «588 bis a»",
     conLetraFinal.articulos.get("588 bis a"), "Principios rectores. 1. Durante la instrucción.");
   caso("las entidades XML se desescapan", /demás/.test(hoy.articulos.get("69")), true);

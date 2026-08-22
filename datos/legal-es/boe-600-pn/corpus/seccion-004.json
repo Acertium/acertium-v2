@@ -4,7 +4,14 @@
     "titulo": "Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional",
     "referencia_boe": "BOE-A-1979-23709",
     "publicacion": "«BOE» núm. 239, de 5 de octubre de 1979",
-    "ultima_modificacion": "2 de agosto de 2024"
+    "ultima_modificacion": "2 de agosto de 2024",
+    "ingesta": {
+      "fuente": "boe-consolidado",
+      "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1979-23709/texto",
+      "version_en_vigor_a": "2026-08-22",
+      "capturado": "2026-08-22"
+    },
+    "procedencia": "boe-consolidado"
   },
   "articulos": [
     {
@@ -255,7 +262,7 @@
     {
       "numero": 50,
       "ref": "50",
-      "texto": "1. El recurso de amparo debe ser objeto de una decisión de admisión a trámite. La"
+      "texto": "1. El recurso de amparo debe ser objeto de una decisión de admisión a trámite. La Sección, por unanimidad de sus miembros, acordará mediante providencia la admisión, en todo o en parte, del recurso solamente cuando concurran todos los siguientes requisitos: a) Que la demanda cumpla con lo dispuesto en los artículos 41 a 46 y 49. b) Que el contenido del recurso justifique una decisión sobre el fondo por parte del Tribunal Constitucional en razón de su especial trascendencia constitucional, que se apreciará atendiendo a su importancia para la interpretación de la Constitución, para su aplicación o para su general eficacia, y para la determinación del contenido y alcance de los derechos fundamentales. 2. Cuando la admisión a trámite, aun habiendo obtenido la mayoría, no alcance la unanimidad, la Sección trasladará la decisión a la Sala respectiva para su resolución. 3. Las providencias de inadmisión, adoptadas por las Secciones o las Salas, especificarán el requisito incumplido y se notificarán al demandante y al Ministerio Fiscal. Dichas providencias solamente podrán ser recurridas en súplica por el Ministerio Fiscal en el plazo de tres días. Este recurso se resolverá mediante auto, que no será susceptible de impugnación alguna. 4. Cuando en la demanda de amparo concurran uno o varios defectos de naturaleza subsanable, se procederá en la forma prevista en el artículo 49.4; de no producirse la subsanación dentro del plazo fijado en dicho precepto, la Sección acordará la inadmisión mediante providencia, contra la cual no cabrá recurso alguno"
     },
     {
       "numero": 51,
@@ -370,7 +377,7 @@
     {
       "numero": 73,
       "ref": "73",
-      "texto": "Uno. En el caso en que alguno de los órganos constitucionales a los que se refiere el artículo 59.3(*) de esta Ley, por acuerdo de sus respectivos Plenos, estime que otro de dichos órganos adopta decisiones asumiendo atribuciones que la Constitución o las Leyes orgánicas confieren al primero, éste se lo hará saber así dentro del mes siguiente a la fecha en que llegue a su conocimiento la decisión de la que se infiera la indebida asunción de atribuciones y solicitará de él que la revoque. (*) En la actualidad, artículo 59.1.c), conforme a la redacción dada por la Ley Orgánica 7/1999, de 21 de abril (Ref. BOE-A-1999-8927). Dos. Si el órgano al que se dirige la notificación afirmara que actúa en el ejercicio constitucional y legal de sus atribuciones o, dentro del plazo de un mes a partir de la recepción de aquella no rectificase en el sentido que le hubiera sido solicitado, el órgano que estime indebidamente asumidas sus atribuciones planteará el conflicto ante el Tribunal Constitucional dentro del mes siguiente. A tal efecto, presentará un escrito en el que se especificarán los preceptos que considera vulnerados y formulará las alegaciones que estime oportunas. A este escrito acompañará una certificación de los antecedentes que repute necesarios y de la comunicación cursada en cumplimiento de lo prevenido en el apartado anterior de este artículo."
+      "texto": "Uno. En el caso en que alguno de los órganos constitucionales a los que se refiere el artículo 59.3 (*) de esta Ley, por acuerdo de sus respectivos Plenos, estime que otro de dichos órganos adopta decisiones asumiendo atribuciones que la Constitución o las Leyes orgánicas confieren al primero, éste se lo hará saber así dentro del mes siguiente a la fecha en que llegue a su conocimiento la decisión de la que se infiera la indebida asunción de atribuciones y solicitará de él que la revoque. (*) En la actualidad, artículo 59.1.c), conforme a la redacción dada por la Ley Orgánica 7/1999, de 21 de abril (). Dos. Si el órgano al que se dirige la notificación afirmara que actúa en el ejercicio constitucional y legal de sus atribuciones o, dentro del plazo de un mes a partir de la recepción de aquella no rectificase en el sentido que le hubiera sido solicitado, el órgano que estime indebidamente asumidas sus atribuciones planteará el conflicto ante el Tribunal Constitucional dentro del mes siguiente. A tal efecto, presentará un escrito en el que se especificarán los preceptos que considera vulnerados y formulará las alegaciones que estime oportunas. A este escrito acompañará una certificación de los antecedentes que repute necesarios y de la comunicación cursada en cumplimiento de lo prevenido en el apartado anterior de este artículo."
     },
     {
       "numero": 74,
@@ -529,7 +536,7 @@
     {
       "numero": 100,
       "ref": "100",
-      "texto": "El Tribunal tendrá el número de secretarios de justicia que determine su plantilla. Los secretarios de justicia procederán del Cuerpo de Secretarios Judiciales y las vacantes se cubrirán por concurso de méritos entre quienes pudieran ocupar plaza en el Tribunal Supremo. Artículo ciento uno. Los Secretarios de Justicia ejercerán en el Tribunal o en las Salas la fe pública judicial y desempeñarán, respecto del Tribunal o Sala a la que estén adscritos, las funciones que la legislación orgánica y procesal de los Juzgados y Tribunales atribuye a los Secretarios. Artículo ciento dos. El Tribunal Constitucional adscribirá a su servicio el personal de la Administración de Justicia y demás funcionarios en las condiciones que fije su reglamento. Podrá, asimismo, contratar personal en régimen laboral para el desempeño de puestos que no impliquen participación directa ni indirecta en el ejercicio de las atribuciones del Tribunal Constitucional, y cuyas funciones sean propias de oficios, auxiliares de carácter instrumental o de apoyo administrativo. La contratación de este personal laboral se realizará mediante procesos de selección ajustados a los principios de igualdad, mérito y capacidad."
+      "texto": "El Tribunal tendrá el número de secretarios de justicia que determine su plantilla. Los secretarios de justicia procederán del Cuerpo de Secretarios Judiciales y las vacantes se cubrirán por concurso de méritos entre quienes pudieran ocupar plaza en el Tribunal Supremo."
     }
   ]
 }

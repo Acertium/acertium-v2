@@ -43,7 +43,7 @@
 //                        no hay contra qué cotejar, y se dice.
 
 import { readFileSync, readdirSync, existsSync, writeFileSync, mkdirSync } from "fs";
-import { articulosDesdeConsolidado, descargarConsolidado } from "./extraer-articulos-boe.mjs";
+import { articulosDesdeConsolidado, descargarConsolidado, claveArticulo } from "./extraer-articulos-boe.mjs";
 import { normalizarParaComparar } from "../../../nucleo/comparar-articulos.mjs";
 import { esEjecucionDirecta } from "../../../nucleo/ejecucion-directa.mjs";
 
@@ -69,8 +69,7 @@ export function referenciaDeLote(lote) {
   return reg[familia]?.referencia_boe ?? null;
 }
 
-const clave = (s) =>
-  String(s ?? "").toLowerCase().replace(/^\s*(arts?\.|artículos?|articulos?)\s*/, "").trim();
+const clave = claveArticulo;
 
 // ERRATAS DEL PROPIO BOE, verificadas una a una contra el consolidado el
 // 23/08/2026. Nuestro texto las corrige, y hasta ese día lo hacía EN SILENCIO:
@@ -90,6 +89,8 @@ const ERRATAS_BOE = [
     nota: "punto y coma donde va coma" },
   { norma: "BOE-A-1987-14578", articulo: "19", boe: "a la Unidades de la Policía Judicial", nuestro: "a las Unidades de la Policía Judicial",
     nota: "falta la «s»; RD 769/1987, texto original de 1987" },
+  { norma: "BOE-A-1981-10325", articulo: "2", boe: "del Congreso y del senado", nuestro: "del Congreso y del Senado",
+    nota: "minúscula; la propia LO 3/1981 escribe «del Senado» 8 veces y «del senado» 2, y esta es una de ellas" },
 ];
 
 /** Aplica al texto del BOE las erratas conocidas de ESE artículo. */

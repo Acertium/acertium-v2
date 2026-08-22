@@ -36,7 +36,7 @@
 // no entra en vigor hasta el 1 de octubre. Preguntas a tocar hoy: cero.
 
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from "fs";
-import { articulosDesdeConsolidado, descargarConsolidado } from "./extraer-articulos-boe.mjs";
+import { articulosDesdeConsolidado, descargarConsolidado, claveArticulo } from "./extraer-articulos-boe.mjs";
 import { huellasDeArticulos, leerHuella, escribirHuella, compararHuellas, DIR_HUELLAS } from "./huellas-normas.mjs";
 import { compararArticulos, conceptosAfectados } from "../../../nucleo/comparar-articulos.mjs";
 import { esEjecucionDirecta } from "../../../nucleo/ejecucion-directa.mjs";
@@ -107,9 +107,9 @@ export function comprobarNorma({ referencia_boe, articulos, xml, aFecha }) {
   return {
     referencia_boe,
     modificados: d.modificados,
-    conceptos_a_reverificar: conceptosAfectados(d.modificados, fuentes),
+    conceptos_a_reverificar: conceptosAfectados(d.modificados, fuentes, claveArticulo),
     futuros: futurosNuestros,
-    conceptos_en_futuros: conceptosAfectados([...new Set(futurosNuestros.map((f) => f.ref))], fuentes),
+    conceptos_en_futuros: conceptosAfectados([...new Set(futurosNuestros.map((f) => f.ref))], fuentes, claveArticulo),
     iguales: d.iguales.length,
     parciales,
     sinComparar,

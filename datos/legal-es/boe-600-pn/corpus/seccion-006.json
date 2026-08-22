@@ -4,7 +4,14 @@
     "titulo": "Ley Orgánica 4/1981, de 1 de junio, de los estados de alarma, excepción y sitio",
     "referencia_boe": "BOE-A-1981-12774",
     "publicacion": "«BOE» núm. 134, de 5 de junio de 1981",
-    "ultima_modificacion": "sin modificaciones"
+    "ultima_modificacion": "sin modificaciones",
+    "ingesta": {
+      "fuente": "boe-consolidado",
+      "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1981-12774/texto",
+      "version_en_vigor_a": "2026-08-22",
+      "capturado": "2026-08-22"
+    },
+    "procedencia": "boe-consolidado"
   },
   "articulos": [
     {
@@ -25,7 +32,7 @@
     {
       "numero": 4,
       "ref": "4",
-      "texto": "El Gobierno, en uso de las facultades que le otorga el artículo ciento dieciséis, dos, de la Constitución podrá declarar el estado de alarma, en todo o parte del territorio nacional, cuando se produzca alguna de las siguientes alteraciones graves de la normalidad. a) Catástrofes, calamidades o desgracias públicas, tales como terremotos, inundaciones, incendios urbanos y forestales o accidentes de gran magnitud. b) Crisis sanitarias, tales como epidemias y situaciones de contaminación graves. c) Paralización de servicios públicos esenciales para la comunidad, cuando no se garantice lo dispuesto en los artículos veintiocho, dos, y treinta y siete, dos, de la Constitución, concurra alguna de las demás circunstancia o situaciones contenidas en este artículo. d) Situaciones de desabastecimiento de productos de primera necesidad."
+      "texto": "El Gobierno, en uso de las facultades que le otorga el artículo ciento dieciséis, dos, de la Constitución podrá declarar el estado de alarma, en todo o parte del territorio nacional, cuando se produzca alguna de las siguientes alteraciones graves de la normalidad. a) Catástrofes, calamidades o desgracias públicas, tales como terremotos, inundaciones, incendios urbanos y forestales o accidentes de gran magnitud. b) Crisis sanitarias, tales como epidemias y situaciones de contaminación graves. c) Paralización de servicios públicos esenciales para la comunidad, cuando no se garantice lo dispuesto en los artículos veintiocho, dos, y treinta y siete, dos, de la Constitución, y concurra alguna de las demás circunstancia o situaciones contenidas en este artículo. d) Situaciones de desabastecimiento de productos de primera necesidad."
     },
     {
       "numero": 5,
@@ -185,7 +192,7 @@
     {
       "numero": 36,
       "ref": "36",
-      "texto": "Las Autoridades civiles continuarán en el ejercicio de las facultades que no hayan sido conferidas a la Autoridad militar de acuerdo con la presente Ley. Aquellas Autoridades darán a la militar las informaciones que ésta le solicite y cuantas noticias referentes al orden público lleguen a su conocimiento. DISPOSICIÓN DEROGATORIA Quedan derogados los artículos veinticinco a cincuenta y uno y disposiciones finales y transitorias de la Ley cuarenta y cinco mil novecientos cincuenta y nueve, de treinta de julio, de Orden Público, así como cuantas disposiciones se opongan a lo preceptuado en la presente Ley Orgánica. DISPOSICIÓN FINAL La presente Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+      "texto": "Las Autoridades civiles continuarán en el ejercicio de las facultades que no hayan sido conferidas a la Autoridad militar de acuerdo con la presente Ley. Aquellas Autoridades darán a la militar las informaciones que ésta le solicite y cuantas noticias referentes al orden público lleguen a su conocimiento."
     }
   ]
 }

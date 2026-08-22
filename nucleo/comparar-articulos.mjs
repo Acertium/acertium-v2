@@ -92,9 +92,12 @@ export function compararArticulos(antes, despues) {
  * El `articulo` de `concepto_fuente` viene como «art. 31 bis» y la ref del
  * corpus como «31 bis»: se compara por el localizador, no por la etiqueta.
  */
-export function conceptosAfectados(refsCambiadas, fuentes) {
-  const clave = (s) =>
-    String(s ?? "").toLowerCase().replace(/^\s*(arts?\.|artículos?|articulos?)\s*/, "").trim();
+export function conceptosAfectados(refsCambiadas, fuentes, normalizador) {
+  // El núcleo es agnóstico de dominio, así que no importa el normalizador del
+  // adaptador legal: se le puede pasar. Sin uno, «art. cuarto» y «4» no cruzan —
+  // 51 actividades del banco citan el artículo en letra.
+  const clave = normalizador ?? ((s) =>
+    String(s ?? "").toLowerCase().replace(/^\s*(arts?\.|artículos?|articulos?)\s*/, "").trim());
   const cambiadas = new Set(refsCambiadas.map(clave));
   return [...new Set(
     (fuentes ?? []).filter((f) => cambiadas.has(clave(f.articulo))).map((f) => f.concepto_id),

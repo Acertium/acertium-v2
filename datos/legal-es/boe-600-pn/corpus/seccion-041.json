@@ -4,7 +4,14 @@
     "titulo": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género. [Inclusión parcial]",
     "referencia_boe": "BOE-A-2004-21760",
     "publicacion": "«BOE» núm. 313, de 29 de diciembre de 2004",
-    "ultima_modificacion": "7 de septiembre de 2022"
+    "ultima_modificacion": "7 de septiembre de 2022",
+    "ingesta": {
+      "fuente": "boe-consolidado",
+      "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2004-21760/texto",
+      "version_en_vigor_a": "2026-08-22",
+      "capturado": "2026-08-22"
+    },
+    "procedencia": "boe-consolidado"
   },
   "articulos": [
     {
@@ -215,9 +222,8 @@
     {
       "numero": 32,
       "ref": "32",
-      "texto": "Planes de colaboración. 1. Los poderes públicos elaborarán planes de colaboración que garanticen la ordenación de sus actuaciones en la prevención, asistencia y persecución de los actos de violencia de género, que deberán implicar a las administraciones sanitarias, la Administración de Justicia, las Fuerzas y Cuerpos de Seguridad y los servicios sociales y organismos de igualdad. 2. En desarrollo de dichos planes, se articularán protocolos de actuación que determinen los procedimientos que aseguren una actuación global e integral de las distintas administraciones y servicios implicados, y que garanticen la actividad probatoria en los procesos que se sigan. 3. Las administraciones con competencias sanitarias promoverán la aplicación, permanente actualización y difusión de protocolos que contengan pautas uniformes de actuación sanitaria, tanto en el ámbito público como privado, y en especial, del Protocolo aprobado por el Consejo Interterritorial del Sistema Nacional de Salud. Tales protocolos impulsarán las actividades de prevención, detección precoz e intervención continuada con la mujer sometida a violencia de género o en riesgo de padecerla. Los protocolos, además de referirse a los procedimientos a seguir, harán referencia expresa a las relaciones con la Administración de Justicia, en aquellos casos en que exista constatación o sospecha fundada de daños físicos o psíquicos ocasionados por estas agresiones o abusos. 4. En las actuaciones previstas en este artículo se considerará de forma especial la situación de las mujeres que, por sus circunstancias personales y sociales puedan tener mayor riesgo de sufrir la violencia de género o mayores dificultades para acceder a los servicios previstos en esta ley, tales como las pertenecientes a minorías, las inmigrantes, las que se encuentran en situación de exclusión social, las mujeres con discapacidad, las mujeres mayores o aquellas que viven en el ámbito rural. [ . . . ]",
-      "rubrica": "Planes de colaboración.",
-      "parcial": true
+      "texto": "Planes de colaboración. 1. Los poderes públicos elaborarán planes de colaboración que garanticen la ordenación de sus actuaciones en la prevención, asistencia y persecución de los actos de violencia de género, que deberán implicar a las administraciones sanitarias, la Administración de Justicia, las Fuerzas y Cuerpos de Seguridad y los servicios sociales y organismos de igualdad. 2. En desarrollo de dichos planes, se articularán protocolos de actuación que determinen los procedimientos que aseguren una actuación global e integral de las distintas administraciones y servicios implicados, y que garanticen la actividad probatoria en los procesos que se sigan. 3. Las administraciones con competencias sanitarias promoverán la aplicación, permanente actualización y difusión de protocolos que contengan pautas uniformes de actuación sanitaria, tanto en el ámbito público como privado, y en especial, del Protocolo aprobado por el Consejo Interterritorial del Sistema Nacional de Salud. Tales protocolos impulsarán las actividades de prevención, detección precoz e intervención continuada con la mujer sometida a violencia de género o en riesgo de padecerla. Los protocolos, además de referirse a los procedimientos a seguir, harán referencia expresa a las relaciones con la Administración de Justicia, en aquellos casos en que exista constatación o sospecha fundada de daños físicos o psíquicos ocasionados por estas agresiones o abusos. 4. En las actuaciones previstas en este artículo se considerará de forma especial la situación de las mujeres que, por sus circunstancias personales y sociales puedan tener mayor riesgo de sufrir la violencia de género o mayores dificultades para acceder a los servicios previstos en esta ley, tales como las pertenecientes a minorías, las inmigrantes, las que se encuentran en situación de exclusión social, las mujeres con discapacidad, las mujeres mayores o aquellas que viven en el ámbito rural.",
+      "rubrica": "Planes de colaboración."
     },
     {
       "numero": 61,
@@ -270,9 +276,8 @@
     {
       "numero": 69,
       "ref": "69",
-      "texto": "Mantenimiento de las medidas de protección y seguridad. Las medidas de este capítulo podrán mantenerse tras la sentencia definitiva y durante la tramitación de los eventuales recursos que correspondiesen. En este caso, deberá hacerse constar en la sentencia el mantenimiento de tales medidas. [ . . . ]",
-      "rubrica": "Mantenimiento de las medidas de protección y seguridad.",
-      "parcial": true
+      "texto": "Mantenimiento de las medidas de protección y seguridad. Las medidas de este capítulo podrán mantenerse tras la sentencia definitiva y durante la tramitación de los eventuales recursos que correspondiesen. En este caso, deberá hacerse constar en la sentencia el mantenimiento de tales medidas.",
+      "rubrica": "Mantenimiento de las medidas de protección y seguridad."
     }
   ]
 }

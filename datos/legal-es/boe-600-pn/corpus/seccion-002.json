@@ -4,7 +4,14 @@
     "titulo": "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil. [Inclusión parcial]",
     "referencia_boe": "BOE-A-1889-4763",
     "publicacion": "«Gaceta de Madrid» núm. 206, de 25 de julio de 1889",
-    "ultima_modificacion": "3 de enero de 2025"
+    "ultima_modificacion": "3 de enero de 2025",
+    "ingesta": {
+      "fuente": "boe-consolidado",
+      "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1889-4763/texto",
+      "version_en_vigor_a": "2026-08-22",
+      "capturado": "2026-08-22"
+    },
+    "procedencia": "boe-consolidado"
   },
   "articulos": [
     {
@@ -85,7 +92,7 @@
     {
       "numero": 16,
       "ref": "16",
-      "texto": "1. Los conflictos de leyes que puedan surgir por la coexistencia de distintas legislaciones civiles en el territorio nacional se resolverán según las normas contenidas en el capítulo IV con las siguientes particularidades: 1.a Será ley personal la determinada por la vecindad civil. 2.a No será aplicable lo dispuesto en los apartados 1, 2 y 3 del artículo 12 sobre calificación, remisión y orden público. 2. El derecho de viudedad regulado en la Compilación aragonesa corresponde a los cónyuges sometidos al régimen económico matrimonial de dicha Compilación, aunque después cambie su vecindad civil, con exclusión en este caso de la legítima que establezca la ley sucesoria. El derecho expectante de viudedad no podrá oponerse al adquirente a título oneroso y de buena fe de los bienes que no radiquen en territorio donde se reconozca tal derecho, si el contrato se hubiera celebrado fuera de dicho territorio, sin haber hecho constar el régimen económico matrimonial del transmitente. El usufructo viudal corresponde también al cónyuge supérstite cuando el premuerto tuviese vecindad civil aragonesa en el momento de su muerte. 3. Los efectos del matrimonio entre españoles se regularán por la ley española que resulte aplicable según los criterios del artículo 9 y, en su defecto, por el Código Civil. En este último caso se aplicará el régimen de separación de bienes del Código Civil si conforme a una y otra ley personal de los contrayentes hubiera de regir un sistema de separación. LIBRO PRIMERO De las personas"
+      "texto": "1. Los conflictos de leyes que puedan surgir por la coexistencia de distintas legislaciones civiles en el territorio nacional se resolverán según las normas contenidas en el capítulo IV con las siguientes particularidades: 1. a Será ley personal la determinada por la vecindad civil. 2. a No será aplicable lo dispuesto en los apartados 1, 2 y 3 del artículo 12 sobre calificación, remisión y orden público. 2. El derecho de viudedad regulado en la Compilación aragonesa corresponde a los cónyuges sometidos al régimen económico matrimonial de dicha Compilación, aunque después cambie su vecindad civil, con exclusión en este caso de la legítima que establezca la ley sucesoria. El derecho expectante de viudedad no podrá oponerse al adquirente a título oneroso y de buena fe de los bienes que no radiquen en territorio donde se reconozca tal derecho, si el contrato se hubiera celebrado fuera de dicho territorio, sin haber hecho constar el régimen económico matrimonial del transmitente. El usufructo viudal corresponde también al cónyuge supérstite cuando el premuerto tuviese vecindad civil aragonesa en el momento de su muerte. 3. Los efectos del matrimonio entre españoles se regularán por la ley española que resulte aplicable según los criterios del artículo 9 y, en su defecto, por el Código Civil. En este último caso se aplicará el régimen de separación de bienes del Código Civil si conforme a una y otra ley personal de los contrayentes hubiera de regir un sistema de separación."
     },
     {
       "numero": 17,
@@ -125,7 +132,7 @@
     {
       "numero": 24,
       "ref": "24",
-      "texto": "1. Pierden la nacionalidad española los emancipados que, residiendo habitualmente en el extranjero, adquieran voluntariamente otra nacionalidad o utilicen exclusivamente la nacionalidad extranjera que tuvieran atribuida antes de la emancipación. La pérdida se producirá una vez que transcurran tres años, a contar, respectivamente, desde la adquisición de la nacionalidad extranjera o desde la emancipación. No obstante, los interesados podrán evitar la pérdida si dentro del plazo indicado declaran su voluntad de conservar la nacionalidad española al encargado del Registro Civil. La adquisición de la nacionalidad de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal no es bastante para producir, conforme a este apartado, la pérdida de la nacionalidad española de origen. 2. En todo caso, pierden la nacionalidad española los españoles emancipados que renuncien expresamente a ella, si tienen otra nacionalidad y residen habitualmente en el extranjero. 3. Los que habiendo nacido y residiendo en el extranjero ostenten la nacionalidad española por ser hijos de padre o madre españoles, también nacidos en el extranjero, cuando las leyes del país donde residan les atribuyan la nacionalidad del mismo, perderán, en todo caso, la nacionalidad española si no declaran su voluntad de conservarla ante el encargado del Registro Civil en el plazo de tres años, a contar desde su mayoría de edad o emancipación. 4. No se pierde la nacionalidad española, en virtud de lo dispuesto en este precepto, si España se hallare en guerra. Téngase en cuenta el Convenio de nacionalidad entre el Reino de España y la República Francesa, hecho en Montauban el 15 de marzo de 2021, Ref. BOE-A-2022-4916, así como la Instrucción de 31 de marzo de 2022, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se acuerdan los criterios para la aplicación del Convenio de nacionalidad entre el Reino de España y la República Francesa. Ref. BOE-A-2022-5573"
+      "texto": "1. Pierden la nacionalidad española los emancipados que, residiendo habitualmente en el extranjero, adquieran voluntariamente otra nacionalidad o utilicen exclusivamente la nacionalidad extranjera que tuvieran atribuida antes de la emancipación. La pérdida se producirá una vez que transcurran tres años, a contar, respectivamente, desde la adquisición de la nacionalidad extranjera o desde la emancipación. No obstante, los interesados podrán evitar la pérdida si dentro del plazo indicado declaran su voluntad de conservar la nacionalidad española al encargado del Registro Civil. La adquisición de la nacionalidad de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal no es bastante para producir, conforme a este apartado, la pérdida de la nacionalidad española de origen. 2. En todo caso, pierden la nacionalidad española los españoles emancipados que renuncien expresamente a ella, si tienen otra nacionalidad y residen habitualmente en el extranjero. 3. Los que habiendo nacido y residiendo en el extranjero ostenten la nacionalidad española por ser hijos de padre o madre españoles, también nacidos en el extranjero, cuando las leyes del país donde residan les atribuyan la nacionalidad del mismo, perderán, en todo caso, la nacionalidad española si no declaran su voluntad de conservarla ante el encargado del Registro Civil en el plazo de tres años, a contar desde su mayoría de edad o emancipación. 4. No se pierde la nacionalidad española, en virtud de lo dispuesto en este precepto, si España se hallare en guerra."
     },
     {
       "numero": 25,
@@ -135,7 +142,7 @@
     {
       "numero": 26,
       "ref": "26",
-      "texto": "1. Quien haya perdido la nacionalidad española podrá recuperarla cumpliendo los siguientes requisitos: a) Ser residente legal en España. Este requisito no será de aplicación a los emigrantes ni a los hijos de emigrantes. En los demás casos podrá ser dispensado por el Ministro de Justicia cuando concurran circunstancias excepcionales. b) Declarar ante el encargado del Registro Civil su voluntad de recuperar la nacionalidad española. c) Inscribir la recuperación en el Registro Civil. 2. No podrán recuperar o adquirir, en su caso, la nacionalidad española sin previa habilitación concedida discrecionalmente por el Gobierno, los que se encuentren incursos en cualquiera de los supuestos previstos en el artículo anterior. Téngase en cuenta el Convenio de nacionalidad entre el Reino de España y la República Francesa, hecho en Montauban el 15 de marzo de 2021, Ref. BOE-A-2022-4916, así como la Instrucción de 31 de marzo de 2022, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se acuerdan los criterios para la aplicación del Convenio de nacionalidad entre el Reino de España y la República Francesa. Ref. BOE-A-2022-5573"
+      "texto": "1. Quien haya perdido la nacionalidad española podrá recuperarla cumpliendo los siguientes requisitos: a) Ser residente legal en España. Este requisito no será de aplicación a los emigrantes ni a los hijos de emigrantes. En los demás casos podrá ser dispensado por el Ministro de Justicia cuando concurran circunstancias excepcionales. b) Declarar ante el encargado del Registro Civil su voluntad de recuperar la nacionalidad española. c) Inscribir la recuperación en el Registro Civil. 2. No podrán recuperar o adquirir, en su caso, la nacionalidad española sin previa habilitación concedida discrecionalmente por el Gobierno, los que se encuentren incursos en cualquiera de los supuestos previstos en el artículo anterior."
     },
     {
       "numero": 27,
@@ -210,8 +217,7 @@
     {
       "numero": 41,
       "ref": "41",
-      "texto": "Cuando ni la ley que las haya creado o reconocido ni los estatutos o las reglas de fundación fijaren el domicilio de las personas jurídicas, se entenderá que lo tienen en el lugar en que se halle establecida su representación legal, o donde ejerzan las principales funciones de su instituto. [ . . . ]",
-      "parcial": true
+      "texto": "Cuando ni la ley que las haya creado o reconocido ni los estatutos o las reglas de fundación fijaren el domicilio de las personas jurídicas, se entenderá que lo tienen en el lugar en que se halle establecida su representación legal, o donde ejerzan las principales funciones de su instituto."
     },
     {
       "numero": 181,
@@ -681,7 +687,7 @@
     {
       "numero": 274,
       "ref": "274",
-      "texto": "Se podrá delegar en el cónyuge o en otra persona la elección del curador de entre los relacionados en escritura pública por la persona interesada. Subsección 2.ª Del nombramiento del curador"
+      "texto": "Se podrá delegar en el cónyuge o en otra persona la elección del curador de entre los relacionados en escritura pública por la persona interesada."
     },
     {
       "numero": 275,
@@ -817,8 +823,7 @@
     {
       "numero": 300,
       "ref": "300",
-      "texto": "Las resoluciones judiciales y los documentos públicos notariales sobre los cargos tutelares y medidas de apoyo a personas con discapacidad habrán de inscribirse en el Registro Civil. Artículo 301 a 324. (Derogados) Artículos 325 a 332. (Derogados) [ . . . ]",
-      "parcial": true
+      "texto": "Las resoluciones judiciales y los documentos públicos notariales sobre los cargos tutelares y medidas de apoyo a personas con discapacidad habrán de inscribirse en el Registro Civil."
     }
   ]
 }
