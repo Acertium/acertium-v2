@@ -130,6 +130,14 @@ la referencia.
 O sea: un campo obligatorio cuyo contenido era, en el 99 % de los casos, una
 copia de lo que ya sale en pantalla como «Ver fuente · art. 15».
 
+> **Una fila de diferencia, dicha y no tapada.** La sección de arriba, medida el
+> 22/08 con el JS, daba **102**; el puerto SQL de la misma regla da **101**. Se
+> comprobó la divergencia mecánica sospechosa —`[[:alnum:]]` de Postgres incluye
+> tildes que la clase `\w` de JS no lista— cruzando las dos versiones sobre las
+> 3.389 retiradas: **cero filas dependen de ella**. La fila que separa 101 de 102
+> no se ha identificado, y como todo lo retirado está copiado, tampoco se ha
+> perdido.
+
 ## Lo que se hizo
 
 `actividad.justificacion` **deja de ser `NOT NULL`**. NULL es la respuesta
