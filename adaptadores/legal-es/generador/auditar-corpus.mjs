@@ -20,7 +20,8 @@
 // y cerrada con punto le resulta indistinguible de la cita entera. Esta
 // auditoría cierra las dos cosas, conservando la puntuación.
 //
-// Cinco comprobaciones. Las cuatro primeras necesitan corpus; la (E), no.
+// Seis comprobaciones. Las cuatro primeras necesitan corpus; la (E), no; la (F)
+// habla del corpus mismo.
 //
 //   (A) CERRADA — el cotejo deja de ser literal SOLO por el signo con que se
 //       cerró: quitándoselo, vuelve a encajar. Es una cita que para a mitad de
@@ -47,6 +48,18 @@
 //   (E) REFORMULADA — el cotejo no es literal ni respecto del `fuentes` de su
 //       PROPIO lote. No necesita corpus, así que alcanza al banco ENTERO,
 //       también a las familias de fuente no-BOE. AVISA.
+//   (F) CORPUS CIRCULAR — el cotejo encaja, pero contra una sección que se
+//       reconstruyó DESDE LOS LOTES (`corpus-desde-lotes.mjs`), no desde el PDF.
+//       Eso no es grounding: es el lote confirmándose a sí mismo, y salía
+//       contado como «OK» junto a los cotejos de verdad. 20 de las 78 secciones
+//       están así (23/08/2026). NO cuenta como OK y se informa aparte.
+//
+//       Se descubrió al ir a arreglarlo y encontrar que NO SE PUEDE desde el
+//       repo: `.gitignore:15` excluye `datos/**/*.pdf`, así que los PDFs de las
+//       normas —la fuente primaria de todo esto— no están versionados. La regla
+//       de Jonathan del 22/08 dice justo lo contrario, y explica por qué
+//       importa: «una fuente que no está en el repo es una fuente contra la que
+//       ya no se puede re-verificar».
 //
 // Lo que no tiene corpus se informa como NO AUDITABLE: que algo no salga en los
 // fallos no significa que esté bien, significa que no se ha mirado.
@@ -162,18 +175,27 @@ function refDe(articulo) {
 }
 
 const corpus = {};
+// (F) De dónde salió el texto contra el que se audita. Ver la comprobación (F)
+// en la cabecera: 20 de las 78 secciones se reconstruyeron DESDE LOS LOTES
+// (`corpus-desde-lotes.mjs`), no desde el PDF, así que auditar un lote contra
+// ellas es preguntarle al acusado si es culpable.
+const PROCEDENCIA = {};
 for (const [fam, sec] of Object.entries(SECCION)) {
   const ruta = join(RAIZ, "datos/legal-es/boe-600-pn/corpus", `seccion-${String(sec).padStart(3, "0")}.json`);
   if (!existsSync(ruta)) continue;
-  const arts = JSON.parse(readFileSync(ruta, "utf8")).articulos || [];
-  if (arts.length) corpus[fam] = new Map(arts.map((a) => [a.ref ?? String(a.numero), a.texto]));
+  const seccion = JSON.parse(readFileSync(ruta, "utf8"));
+  const arts = seccion.articulos || [];
+  if (arts.length) {
+    corpus[fam] = new Map(arts.map((a) => [a.ref ?? String(a.numero), a.texto]));
+    PROCEDENCIA[fam] = seccion.meta?.procedencia ?? "pdf";
+  }
 }
 
 export function auditarLote(lote, nombre = "(lote)") {
   const r = {
-    ok: 0, noAuditable: 0,
+    ok: 0, noAuditable: 0, circular: 0,
     cerradas: [], alteradas: [], contaminadas: [], elididas: [], formato: [], reformuladas: [],
-    familiasSinCorpus: new Set(),
+    familiasSinCorpus: new Set(), familiasCirculares: new Set(),
   };
 
   // (E) — cotejo vs el `fuentes` del PROPIO lote. No necesita corpus.
@@ -195,7 +217,13 @@ export function auditarLote(lote, nombre = "(lote)") {
     if (!hit) { r.noAuditable++; continue; }
     const { ref, texto } = hit;
     const cotejo = norm(act.cotejo);
-    if (texto && norm(texto).includes(cotejo)) { r.ok++; continue; }
+    if (texto && norm(texto).includes(cotejo)) {
+      // (F) Encaja, pero contra un corpus reconstruido DESDE LOS LOTES. Eso no
+      // es grounding: es el lote confirmándose a sí mismo. No cuenta como OK.
+      if (PROCEDENCIA[fam] === "lote") { r.circular++; r.familiasCirculares.add(fam); }
+      else r.ok++;
+      continue;
+    }
 
     const donde = [...corpus[fam].entries()]
       .filter(([, t]) => norm(t).includes(cotejo))
@@ -241,6 +269,7 @@ export function informe(r) {
   const l = [];
   l.push(`  cotejos literales OK          : ${r.ok}`);
   l.push(`  NO auditables (sin corpus)    : ${r.noAuditable}`);
+  l.push(`  (F) corpus CIRCULAR (del lote): ${r.circular}   ← encajan, pero contra sí mismos`);
   l.push(`  (A) citas cerradas de más     : ${r.cerradas.length}   ← bloquea`);
   l.push(`  (A bis) palabras alteradas    : ${r.alteradas.length}   ← bloquea`);
   l.push(`  (B) contaminación bis/ter     : ${r.contaminadas.length}   ← bloquea`);
@@ -269,9 +298,9 @@ if (esEjecucionDirecta(import.meta.url)) {
     : readdirSync(LOTES).filter((x) => x.endsWith(".json")).map((x) => join(LOTES, x));
 
   const total = {
-    ok: 0, noAuditable: 0,
+    ok: 0, noAuditable: 0, circular: 0,
     cerradas: [], alteradas: [], contaminadas: [], elididas: [], formato: [], reformuladas: [],
-    familiasSinCorpus: new Set(),
+    familiasSinCorpus: new Set(), familiasCirculares: new Set(),
   };
   for (const ruta of ficheros) {
     let lote;
@@ -279,13 +308,16 @@ if (esEjecucionDirecta(import.meta.url)) {
     const r = auditarLote(lote, ruta.split("/").pop());
     total.ok += r.ok;
     total.noAuditable += r.noAuditable;
+    total.circular += r.circular;
     for (const k of ["cerradas", "alteradas", "contaminadas", "elididas", "formato", "reformuladas"])
       total[k].push(...r[k]);
     for (const f of r.familiasSinCorpus) total.familiasSinCorpus.add(f);
+    for (const f of r.familiasCirculares) total.familiasCirculares.add(f);
   }
   console.log("=== AUDITORÍA DE GROUNDING CONTRA EL CORPUS OFICIAL ===");
   console.log(informe(total));
   console.log(`  familias sin corpus: ${[...total.familiasSinCorpus].sort().join(" ") || "—"}`);
+  console.log(`  familias con corpus circular: ${[...total.familiasCirculares].sort().join(" ") || "—"}`);
   process.exit(total.cerradas.length || total.alteradas.length
     || total.contaminadas.length || total.elididas.length ? 1 : 0);
 }

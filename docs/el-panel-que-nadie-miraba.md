@@ -133,22 +133,98 @@ una volatilidad que nadie ha medido, así que la única forma de registrar una
 norma era inventarse su clasificación. Con NULL, «sin clasificar» se puede decir,
 y la barrera lo cuenta.
 
-## Dos cosas que quedaron anotadas por el camino
+## Una cosa que quedó anotada por el camino
 
-- **`registro-materias.json` no sabe expresar una familia con varias normas.**
-  Está indexado por familia, y CEDH apunta al Convenio; pero 15 fuentes citan
-  además los **Protocolos 14 y 15** (`BOE-A-2010-8504`, `BOE-A-2021-7554`), que
-  por eso no estaban en el registro. Se han registrado en `norma`, pero el límite
-  del fichero sigue ahí.
-- **INTEL tiene 19 conceptos en su lote del repo y 12 en base.** Siete no
-  llegaron a cargarse, o se cargaron con otro id. Sin mirar todavía.
+**`registro-materias.json` no sabe expresar una familia con varias normas.** Está
+indexado por familia, y CEDH apunta al Convenio; pero 15 fuentes citan además los
+**Protocolos 14 y 15** (`BOE-A-2010-8504`, `BOE-A-2021-7554`), que por eso no
+estaban en el registro. Se han registrado en `norma`, pero el límite del fichero
+sigue ahí.
 
-## Lo que queda
+---
 
-1. **Poner el reloj en hora**: 60 normas × abrir su consolidado en el BOE, anotar
-   `ultima_modificacion` y clasificar `volatilidad`. Es la cola que ahora marca G7.
-2. **Revisar las 53 de consenso** en `/admin`, o dejarlas fuera.
-3. **21 temas por debajo de 40 preguntas**; el más flojo, Tema 40 (Inteligencia)
-   con 12.
-4. **20 de 78 secciones del corpus con `procedencia: "lote"`** — reconstruidas
-   desde los lotes, no desde el PDF. Contra esas no se puede re-verificar.
+# Segunda vuelta: dos correcciones mías y el agujero de debajo
+
+## Lo que dije mal
+
+**«INTEL tiene 19 conceptos en el lote y 12 en base; siete no llegaron a
+cargarse».** Falso, y era un error de suma mío: son **dos** lotes,
+`inteligencia-osint.json` (12 conceptos) e `inteligencia-osint-2.json`, que
+**vuelve a declarar 7 de los mismos conceptos** para colgarles preguntas nuevas.
+Conceptos distintos: 12. Actividades en los lotes: 40. En base: 12 y 40. **No se
+perdió nada.**
+
+**«21 temas por debajo de 40 preguntas; el más flojo, Tema 40 con 12».** Conté
+mal la unidad: esa consulta contaba filas de `overlay_entrada`, que son
+**conceptos**, no preguntas. Medido bien, sobre preguntas servibles: **20 temas**
+por debajo de 40, y el más flojo no es el 40 sino el **Tema 29, con 9**.
+
+## Y al medirlo bien aparece lo que importa: las 53 congeladas caen todas juntas
+
+| tema | servibles | en revisión | total |
+|---|---|---|---|
+| 29 · Actitudes y valores | **9** | 17 | 26 |
+| 33 · La seguridad | **11** | 12 | 23 |
+| 28 · Globalización | **18** | 7 | 25 |
+| 30 · Principios éticos | **20** | 8 | 28 |
+| 31 · Inmigración | **20** | 6 | 26 |
+| 32 · Geografía humana | **22** | 3 | 25 |
+
+Los seis temas más flojos del temario son **exactamente** los seis que tocó la
+congelación de consenso. El Tema 29 perdió 17 de 26 preguntas, el 65 %.
+
+Eso reordena la lista: **revisar las 53 no es un punto más, es LA acción de
+contenido con más efecto**, porque devuelve justo lo que ahora falta. Y es tuya:
+son fuentes de consenso, la revisión es humana por contrato.
+
+## El agujero de debajo: la fuente primaria no está en el repo
+
+Al ir a arreglar las 20 secciones de corpus con `procedencia: "lote"` me
+encontré con que **no se puede desde aquí**, y por dos motivos que son el mismo:
+
+1. **`www.boe.es` está bloqueado** por la política de red de este entorno. El
+   proxy lo deja registrado: `gateway answered 403 to CONNECT (policy denial)`.
+   Por eso el reloj de G7 tampoco se puede poner en hora sin inventarse las
+   fechas.
+2. **`.gitignore:15` excluye `datos/**/*.pdf`.** Los PDFs de las normas —la
+   fuente primaria de todo el corpus— **no están versionados**; la única
+   excepción es la convocatoria. Y `CLAUDE.md` describe
+   `datos/legal-es/boe-600-pn/` como «corpus fuente (PDFs de las normas)»,
+   describiendo algo que no está.
+
+La regla de Jonathan del 22/08 dice justo lo contrario, y explica por qué
+importa: *«una fuente que no está en el repo es una fuente contra la que ya no se
+puede re-verificar»*.
+
+### Lo que sí se pudo hacer: que el auditor lo diga
+
+`auditar-corpus.mjs` contrastaba los lotes contra el corpus y cantaba los
+aciertos como «cotejos literales OK». Pero para 20 familias ese corpus **salió de
+los propios lotes**, así que no era grounding: era el lote confirmándose a sí
+mismo, contado junto a los buenos. Nueva comprobación **(F)**:
+
+```
+  cotejos literales OK          : 2442
+  (F) corpus CIRCULAR (del lote): 610   ← encajan, pero contra sí mismos
+```
+
+**610 de 3.052 —el 20 %— estaban en esa categoría y no se veía.** Las familias
+son ACTIT, CEDH, CIBER, DGT, DROGA, DUDH, ENC, ETICA, GEOD, GLOB, GRAM, INMIG,
+INSST, INTEL, ORTO, REDES, SEGT, SO, SOST y TORT: las del carril no-BOE, que
+nunca estuvieron en el PDF del Código 600.
+
+No bloquea —no hay nada que el autor de un lote pueda hacer al respecto— pero
+deja de contarse como acierto, que era lo que engañaba.
+
+## Lo que queda, reordenado
+
+1. **Revisar las 53 de consenso** en `/admin`. Devuelve los seis temas más
+   flojos. Es tuya.
+2. **Poner el reloj en hora**: 60 normas × su consolidado en el BOE.
+   **Bloqueado aquí** por la política de red; hace falta permitir `boe.es` en el
+   entorno o hacerlo desde otra máquina.
+3. **Versionar los PDFs de las normas**, o decidir explícitamente que no y
+   asumir que 20 familias no son re-verificables. Hoy la decisión está tomada por
+   una línea de `.gitignore` que nadie escribió pensando en esto.
+4. **Los 63 hallazgos (C) de elisión y los 9 (A) de cita cerrada** que el auditor
+   lleva marcando y siguen sin triar.
