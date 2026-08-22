@@ -7,8 +7,34 @@
 
 **No es una medida de volatilidad. Es una derivación** a partir de la única señal
 que consta en el repositorio: cuándo se modificó la norma por última vez, según
-el metadato `ultima_modificacion` que cada sección del corpus guardó de su
-ingesta desde boe.es.
+el metadato `ultima_modificacion` de cada sección del corpus.
+
+> **De dónde sale esa fecha exactamente** (comprobado el 23/08/2026, a pregunta
+> de Jonathan). De la **cabecera de cada norma dentro del Código 600**, que ahora
+> se puede leer en el repo porque los PDFs dejaron de estar en el `.gitignore`:
+>
+> ```
+> § 35  Ley Orgánica 10/1995, del Código Penal. [Inclusión parcial]
+>       «BOE» núm. 281, de 24 de noviembre de 1995
+>       Última modificación: 9 de abril de 2026
+>       Referencia: BOE-A-1995-25444
+> ```
+>
+> **No es la fecha del compendio aplicada a todo.** 32 valores distintos sobre 54
+> normas, 24 de ellos únicos, mayor agrupación real de 3. Y los grupos cuadran
+> con reformas ómnibus reales: el Reglamento de Armas y sus ITC el mismo día; la
+> LO 2/1986 de FCSE y la LO 4/2010 disciplinaria el 29/07/2015, que es la fecha
+> de publicación de la LO 9/2015.
+>
+> **Y hay corroboración independiente.** Cinco secciones no vienen del Código 600
+> sino de una re-ingesta directa de boe.es el 17/08/2026. Dos son el Código Penal
+> y la LECrim, y en ambas la fecha **coincide** con la del PDF: 9 de abril de
+> 2026. Dos capturas independientes, mismo valor.
+>
+> Consecuencia práctica: para esas cinco, ir a boe.es el 17/08 **es** una
+> re-verificación con fecha, y así se ha registrado en `last_verified`
+> (`infra/migracion-last-verified-reingeridas.sql`). Las otras 55 siguen en NULL:
+> su fecha es de la NORMA, no de la COMPROBACIÓN.
 
 Se buscó algo mejor antes de conformarse con esto. `acertium_v2.articulo_reforma`
 tiene **dos filas**, las dos de la Constitución: no da para contar reformas por
@@ -48,6 +74,11 @@ discusión.
 **Conclusión:** o bien el 2026-05-20 no es una reforma sustantiva sino una
 actualización editorial del texto consolidado, o bien la CE se reformó otra vez.
 **Desde el repositorio no se puede resolver**, y no lo voy a decidir de memoria.
+
+Al comprobar la procedencia de las fechas (arriba) se acotó algo más: la sección
+de la CE **no** está entre las cinco re-ingeridas de boe.es, así que su fecha
+viene del Código 600 §3 — y ese PDF todavía no está en el repo. Resolverlo es
+conseguirlo, o ir al BOE.
 
 Lo que sí deja establecido, y es lo importante para revisar el resto: **la fecha
 de «última actualización» del BOE no es lo mismo que la frecuencia de reforma
