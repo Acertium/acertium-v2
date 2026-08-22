@@ -5,6 +5,19 @@ No el texto ya procesado —eso es el corpus— sino aquello de lo que salió.
 
 > Regla de Jonathan (22/08/2026): todo documento que pase a un agente se copia al
 > repo en la misma sesión, **antes de usarlo**. La sesión es efímera; el repo no.
+>
+> Regla de Jonathan (23/08/2026), que la cierra: **de cada PDF se guarda copia
+> versionada en el repo, como histórico** — también los que descarga un agente
+> del BOE, no solo los que él pasa por el chat. Hasta ese día `.gitignore` lo
+> impedía con una sola línea (`datos/**/*.pdf`); se retiró.
+
+**Estado, y se puede consultar**: `npm run auditar:fuentes` dice qué materias
+tienen ya su documento y cuáles no. El día que se retiró la línea del
+`.gitignore`: **78 materias, 0 con documento versionado.** No es una puerta y no
+bloquea nada — es un inventario, y de lo que se trata es de que esa cifra baje.
+Las 20 marcadas con `×` son las urgentes: su corpus salió de los propios lotes,
+así que ahí la ausencia del documento no solo impide re-verificar, es que hace
+pasar por verificado algo que no lo está.
 
 ## Por qué existe esta carpeta
 

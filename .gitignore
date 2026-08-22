@@ -10,13 +10,20 @@ next-env.d.ts
 .env.local
 .env*.local
 
-# corpus pesado: fuente local; el runtime lee el cerebro desde Supabase.
-# (los .md de índice y los .json de trabajo SÍ se versionan)
-datos/**/*.pdf
-# EXCEPCIÓN: la convocatoria no es corpus, es la norma que gobierna el proyecto
-# (temario, formato del examen, corrección). Pesa poco y todo depende de ella,
-# así que se versiona para poder citarla y detectar cambios entre convocatorias.
-!datos/legal-es/convocatoria/*.pdf
+# Aquí había `datos/**/*.pdf`, con la convocatoria como única excepción. Se
+# retiró el 23/08/2026 por regla de Jonathan: **de cada PDF se guarda copia
+# versionada en el repo, como histórico.**
+#
+# La línea decía «corpus pesado: fuente local», y esa frase escondía el problema:
+# «local» significa la máquina de alguien o un contenedor efímero, no el repo. El
+# propio `datos/fuentes/README.md` ya explicaba por qué eso no vale —una cita
+# permite saber qué habría que ir a buscar; solo el documento permite
+# re-verificar— y aun así el .gitignore lo impedía. El 23/08 se midió el coste:
+# 610 cotejos (el 20 %) se auditaban contra un corpus reconstruido desde los
+# propios lotes, porque el PDF no estaba.
+#
+# Comprobable con `npm run auditar:fuentes`, que dice qué materias tienen ya su
+# documento versionado y cuáles no.
 prototipos/*.html
 prototipos/_descartes/
 

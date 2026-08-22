@@ -17,6 +17,9 @@ Aplican las 7 reglas globales de Jonathan (montadas en el `~/.claude/CLAUDE.md` 
 
 Regla de Jonathan (22/08/2026): **todo documento que te pase —PDF, manual, texto de una norma, captura, enlace— se guarda en el repo en la misma sesión, antes de usarlo.** No se trabaja desde el fichero temporal y se tira: la sesión es efímera, el repo no. Si no se guarda, dentro de un mes hay que volver a buscarlo y puede que ya no esté igual (una web se reedita, un PDF cambia de edición) — y entonces el dato deja de ser re-verificable, que es lo que sostiene todo lo demás.
 
+**Regla de Jonathan (23/08/2026), que cierra la anterior: de CADA PDF se guarda copia versionada en el repo, como histórico.** No solo los que pasa él por el chat — también los que descarga un agente del BOE para ingerir. Hasta ese día `.gitignore` lo impedía con una línea (`datos/**/*.pdf`) que decía «corpus pesado: fuente local», y «local» significaba el contenedor de una sesión que se muere. El coste, medido: 20 de las 78 secciones del corpus se habían reconstruido desde los propios lotes, y `auditar-corpus` contaba sus **610 cotejos** como «literales OK» cuando el lote se estaba confirmando a sí mismo. La línea se retiró.
+
+- **Comprobable**: `npm run auditar:fuentes` dice qué materias tienen ya su documento y cuáles no. Al retirar la regla vieja: **78 materias, 0 con documento versionado.** No es una puerta y no bloquea nada — es un inventario, y lo que hace falta es que esa cifra baje.
 - **Dónde**: `datos/fuentes/<materia>/`. Ver `datos/fuentes/README.md`.
 - **Con qué**: junto al documento, un `PROCEDENCIA.md` con de dónde salió, edición/versión, fecha de consulta y URL. Un PDF sin esa ficha no es una fuente citable.
 - **Excepción**: nada de secretos (ver arriba), y nada con copyright que no podamos versionar — en ese caso se guarda la ficha `PROCEDENCIA.md` con la referencia exacta, aunque no quepa el documento.
