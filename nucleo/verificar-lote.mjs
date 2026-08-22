@@ -15,6 +15,7 @@
 //   }
 
 import { normalizarNumeros } from "./verificador-cotejo.mjs";
+import { cifrasSinRespaldo } from "./verificar-cifras.mjs";
 import { esEjecucionDirecta } from "./ejecucion-directa.mjs";
 
 const norm = (s) => normalizarNumeros(String(s ?? ""));
@@ -36,10 +37,20 @@ export function verificarLote(lote) {
     // Aviso (no bloquea): la explicación mete cifras que no están en la fuente.
     // No se rechaza porque una explicación puede citar un año o contexto real
     // (p. ej. "abdicación de 2014"); se marca para revisión.
+    //
+    // Son DOS comprobaciones, y la segunda existe porque la primera no ve los
+    // enteros pequeños: como el BOE numera los apartados "1. 2. 3.", la cifra
+    // pelada está en el artículo pase lo que pase (42 % de los casos, medido).
+    // `cifrasSinRespaldo` mira el PAR cifra+unidad, que el andamiaje no puede
+    // fabricar. Se unen en la MISMA lista para no inventar otro formato de
+    // declaración: el autor sigue declarando por cifra en el campo `cifras`.
     if (c.explicacion && src) {
-      const fuera = [...new Set(numeros(c.explicacion))].filter(
-        (n) => !numeros(src).includes(n),
-      );
+      const fuera = [
+        ...new Set([
+          ...numeros(c.explicacion).filter((n) => !numeros(src).includes(n)),
+          ...cifrasSinRespaldo(c.explicacion, src),
+        ]),
+      ];
       if (fuera.length)
         avisos.push({ tipo: "concepto", id: c.id, aviso: `explicación con cifras ajenas a la fuente: ${fuera.join(", ")}` });
     }
